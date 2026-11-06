@@ -1,0 +1,59 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>3. The nested laboratory motion chain · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/24">Course 24</a><span>/</span><span>lesson 03</span></div><a class="original" href="../../../kfield-24-moving-reference-frames-and-laboratory-motion/lesson-03.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#3-the-nested-laboratory-motion-chain">3. The nested laboratory motion chain</a><a href="#c2403-e1-a-chain-of-relative-motions">C24.03-E1 — A chain of relative motions</a><a href="#c2403-w1-four-signed-ledgers">C24.03-W1 — Four signed ledgers</a><a href="#c2403-p1-change-one-term">C24.03-P1 — Change one term</a><a href="#source-card-physical-velocity">Source card: physical velocity</a><a href="#c2403-d1-diagnostics">C24.03-D1 — Diagnostics</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">1. Frames, origins, and epochs</a><a  href="lesson-02.html">2. ICRS directions and local orientation</a><a aria-current=page href="lesson-03.html">3. The nested laboratory motion chain</a><a  href="lesson-04.html">4. Adding vectors without mixing frames</a><a  href="lesson-05.html">5. Sidereal rotation and sensor motion</a><a  href="lesson-06.html">6. Physical motion versus visual gauge</a><a  href="lesson-07.html">7. A reproducible trajectory contract</a></details></aside><div class="reading-column"><article class="prose"><h1 id="3-the-nested-laboratory-motion-chain" tabindex="-1">3. The nested laboratory motion chain</h1>
+<p>Essential question: Which motions belong in a laboratory velocity?</p>
+<p>Goals</p>
+<ul>
+<li>Name the four relative velocity terms and their shared contract.</li>
+<li>Compute a signed sum and a decomposed displacement.</li>
+<li>Recognize double counting and source-epoch gaps.</li>
+</ul>
+<p>Prerequisite bridge: Begin with <a href="lesson-02.html">Lesson 2</a>. Use common-axis components from Lesson 2 to add relative motions.</p>
+<h2 id="c2403-e1-a-chain-of-relative-motions" tabindex="-1">C24.03-E1 — A chain of relative motions</h2>
+<p>Imagine walking inside a moving train: your velocity relative to the track combines your motion relative to the train and the train's motion relative to the track, when both use the same axes and time. Our additive classroom chain extends this idea. Write v_A/B for the velocity of A relative to B. EMB means Earth–Moon barycenter, the shared mass-center reference for Earth and Moon. CMB means cosmic microwave background; the source uses a CMB comparison frame. It is not the Galactic-center drawing gauge.</p>
+<p>In common axes, at one epoch, in m/s, use</p>
+<p>v_lab/CMB = v_Sun/CMB + v_EMB/Sun + v_Earth/EMB + v_lab/Earth.</p>
+<p>Each numerator is the next denominator, so intermediate reference motions are accounted for once. Here Earth means its center for the relative translational term; the laboratory term includes its motion relative to that center. A terrestrial component expressed in Earth-fixed axes must first be rotated into the common axes. The formula is the declared additive kinematic model of this course, not a derivation of relativistic velocity addition.</p>
+<h2 id="c2403-w1-four-signed-ledgers" tabindex="-1">C24.03-W1 — Four signed ledgers</h2>
+<p>At t0 use synthetic constant vectors (10,0,0), (0,2,0), (-1,0,0), (0,0,1) m/s, in chain order. Add coordinate by coordinate: (10+0-1+0,0+2+0+0,0+0+0+1)=(9,2,1) m/s. With x0=(1,2,3)m and two elapsed seconds, keep the four displacements:</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Term</th>
+<th>Displacement (m)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sun/CMB</td>
+<td>(20,0,0)</td>
+</tr>
+<tr>
+<td>EMB/Sun</td>
+<td>(0,4,0)</td>
+</tr>
+<tr>
+<td>Earth/EMB</td>
+<td>(-2,0,0)</td>
+</tr>
+<tr>
+<td>lab/Earth</td>
+<td>(0,0,2)</td>
+</tr>
+</tbody>
+</table></div>
+<p>Their sum is (18,4,2)m; x(2)=(19,6,5)m. Subtract each displacement to recover (1,2,3)m. Keeping only the total would conceal the opposing x contributions.</p>
+<h2 id="c2403-p1-change-one-term" tabindex="-1">C24.03-P1 — Change one term</h2>
+<p>Reverse only Earth/EMB to (+1,0,0)m/s. The new total is (11,2,1)m/s and endpoint (23,6,5)m. Relative to the first endpoint the change is (4,0,0)m, because a change from -1 to +1 is +2m/s for two seconds. Keep both ledgers; do not overwrite the original.</p>
+<h2 id="source-card-physical-velocity" tabindex="-1">Source card: physical velocity</h2>
+<p>T40 admits the physical vector at <code>/derived_results/earth_cmb/V_E_icrs_m_s</code> in the linear-inertia source; T10 gives its speed. Its ICRS components are (-359003.19906581304,76679.88603400199,-44701.060100687995)m/s, with speed 369812.50200040644m/s. The inspected authority does not attach an explicit vector epoch. A publication timestamp cannot fill that field. See <a href="sources.html">sources</a> for its exact path and hash.</p>
+<blockquote>
+<p>Scope: The four tiny classroom velocities are synthetic and do not estimate that source vector. The source vector is an already composed Earth/CMB object, not an extra independent chain term. G_phase V is a phase-transformed vector and is denied as a physical velocity by T40. An experiment-local 361.838…km/s trajectory mentioned in the blueprint is separately typed; it is not a replacement authority or a fifth term. No real propagation is assigned without its full epoch contract.</p>
+</blockquote>
+<h2 id="c2403-d1-diagnostics" tabindex="-1">C24.03-D1 — Diagnostics</h2>
+<ol>
+<li>Which term accounts for Earth relative to EMB?</li>
+<li>Can you add Earth/CMB to Sun/CMB and EMB/Sun to improve the sum?</li>
+<li>Does zero y in one term allow deletion of that term?</li>
+<li>Can publication time be used as the missing vector epoch?</li>
+</ol>
+<p>Answers: 1. v_Earth/EMB, including its sign. 2. No; Earth/CMB already includes upstream motions, so this double counts. 3. No: other components and the zero itself belong to the ledger. 4. No: record “not specified” and withhold real propagation. Synthetic time is declared separately.</p>
+<p>Next dependency: <a href="lesson-04.html">lesson-04</a>. Carry your signed component ledger forward.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><a class="button secondary" href="lesson-02.html">← Previous lesson</a><a class="button" href="lesson-04.html">Next lesson →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/24">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

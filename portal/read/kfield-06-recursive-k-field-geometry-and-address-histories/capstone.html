@@ -1,0 +1,87 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Capstone — Two trees, one complete record · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/6">Course 06</a><span>/</span><span>capstone</span></div><a class="original" href="../../../kfield-06-recursive-k-field-geometry-and-address-histories/capstone.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#capstone-two-trees-one-complete-record">Capstone — Two trees, one complete record</a><a href="#student-tasks-100-points">Student tasks (100 points)</a><a href="#full-worked-answer-key-and-rubric">Full worked answer key and rubric</a><a href="#01-binary-tree-12">01 — Binary tree (12)</a><a href="#02-ternary-tree-10">02 — Ternary tree (10)</a><a href="#03-scale-and-corners-16">03 — Scale and corners (16)</a><a href="#04-balanced-words-10">04 — Balanced words (10)</a><a href="#05-histories-10">05 — Histories (10)</a><a href="#06-recovery-14">06 — Recovery (14)</a><a href="#07-typed-objects-8">07 — Typed objects (8)</a><a href="#08-rung-8">08 — Rung (8)</a><a href="#09-half-step-geometry-12">09 — Half-step geometry (12)</a><a href="#residual-accounting-and-source-scope">Residual accounting and source scope</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 01 — One subdivision at a time</a><a  href="lesson-02.html">Lesson 02 — Dyadic geometry and triadic addresses</a><a  href="lesson-03.html">Lesson 03 — Scaling length, area, and node counts</a><a  href="lesson-04.html">Lesson 04 — Balanced ternary as an address language</a><a  href="lesson-05.html">Lesson 05 — Parent maps and compatible histories</a><a  href="lesson-06.html">Lesson 06 — What a finite resolution retains</a></details></aside><div class="reading-column"><article class="prose"><h1 id="capstone-two-trees-one-complete-record" tabindex="-1">Capstone — Two trees, one complete record</h1>
+<p>Allow two 55-minute periods. Work with exact fractions and integers. All intervals and toy volumes are classroom constructions. Source object names and rules are scoped in sources.md. You may use lessons and a calculator, but explain every count. No infinite limits are required.</p>
+<h2 id="student-tasks-100-points" tabindex="-1">Student tasks (100 points)</h2>
+<ol>
+<li><strong>C06-CAP-01 (12):</strong> Starting from [0,1), draw the binary interval tree through n2=3. Output each index, half-open interval and parent. State who owns 1/2 and whether endpoint 1 is a geometric vertex.</li>
+<li><strong>C06-CAP-02 (10):</strong> Build the one-coordinate ternary residue tree through d3=2. Label each modulus and parent. State three-coordinate counts at d3=0,1,2 and explain why this is not binary subdivision.</li>
+<li><strong>C06-CAP-03 (16):</strong> For fixed outer 3B, derive cell and distinct corner counts at n2=0,1,2. Give length/area/volume factors relative to depth zero. Verify the toy total volume 162 at depth 2 using base-cell volume 6.</li>
+<li><strong>C06-CAP-04 (10):</strong> Encode integers 5 and 8 in three balanced digits, low-to-high. Show the repeated remainder steps and decode each word.</li>
+<li><strong>C06-CAP-05 (10):</strong> For both integers give depth 3,2,1 standard and balanced representatives. Check modular compatibility by differences. Explain why removing the low digit is wrong.</li>
+<li><strong>C06-CAP-06 (14):</strong> Record and recover binary indices 5 and 6 at depth 3 from coarse parents and bits. Recover the words for 5 and 8 from depth-2 balanced words plus high digits. Include metadata and all zero details; give two possible children if detail is omitted.</li>
+<li><strong>C06-CAP-07 (8):</strong> Explain what 27 window nodes, 27 Group volumes and 729 Supergroup volumes count. Derive the last number two ways.</li>
+<li><strong>C06-CAP-08 (8):</strong> State the domain of 3^g_rung×2^n_rung+1=10. Derive the unique solution and bound the finite search. Explain why 729 volumes and 27^2 classes are different objects.</li>
+<li><strong>C06-CAP-09 (12):</strong> For centered 9B, derive 6859 half-step points and 55 reachable integer-lambda sheets. Show every intermediate sheet is attained. Contrast 729 volumes and 1000 ordinary corners. Repeat half-step and sheet counts for 3B.</li>
+</ol>
+<h2 id="full-worked-answer-key-and-rubric" tabindex="-1">Full worked answer key and rubric</h2>
+<h3 id="01-binary-tree-12" tabindex="-1">01 — Binary tree (12)</h3>
+<p>At depth zero: index 0, [0,1), no parent. At depth 1: indices 0,1, intervals [0,1/2),[1/2,1), both parent 0. At depth 2: indices 0,1,2,3, intervals [0,1/4),[1/4,1/2),[1/2,3/4),[3/4,1), parents 0,0,1,1. At depth 3:</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>j</th>
+<th>Interval</th>
+<th>Parent at depth 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>[0,1/8)</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>[1/8,2/8)</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2</td>
+<td>[2/8,3/8)</td>
+<td>1</td>
+</tr>
+<tr>
+<td>3</td>
+<td>[3/8,4/8)</td>
+<td>1</td>
+</tr>
+<tr>
+<td>4</td>
+<td>[4/8,5/8)</td>
+<td>2</td>
+</tr>
+<tr>
+<td>5</td>
+<td>[5/8,6/8)</td>
+<td>2</td>
+</tr>
+<tr>
+<td>6</td>
+<td>[6/8,7/8)</td>
+<td>3</td>
+</tr>
+<tr>
+<td>7</td>
+<td>[7/8,1)</td>
+<td>3</td>
+</tr>
+</tbody>
+</table></div>
+<p>Connect each child to its listed parent to draw the tree. At depth 3 index 4 owns 1/2; at depth 2 index 2 does; at depth 1 index 1 does. Endpoint 1 is a geometric boundary vertex but not an owned point. Award 4 for complete indices/depths, 4 for intervals, 2 for parents, 2 for boundary explanation.</p>
+<h3 id="02-ternary-tree-10" tabindex="-1">02 — Ternary tree (10)</h3>
+<p>Depth 0 has class 0 modulo 1. Its depth-1 children modulo 3 are 0,1,2. Their depth-2 children modulo 9 are respectively (0,3,6), (1,4,7), (2,5,8). Each child reduces modulo 3 to its parent. Three-coordinate counts are 1,27,729 because each coordinate has 1,3,9 choices. This refines residue information; binary subdivision halves geometric intervals. Award 4 for all edges, 2 for moduli, 2 for product counts, 2 for type distinction.</p>
+<h3 id="03-scale-and-corners-16" tabindex="-1">03 — Scale and corners (16)</h3>
+<p>There are m=3×2^n2 cells and m+1 vertices per axis, hence cells m^3 and corners (m+1)^3. Depths 0,1,2 give cells 27,216,1728 and vertices 64,343,2197. Length factors are 1,1/2,1/4; area factors 1,1/4,1/16; volume factors 1,1/8,1/64. The outer boundary remains fixed. At depth 2 the toy subcell volume is 6/64=3/32; multiplying 1728 gives 162 cubic units. Eight corners per cell counts incidences and repeats shared corners. Award 4 for derivation, 4 for count table, 4 for factors, 2 for volume, 2 for shared-boundary explanation.</p>
+<h3 id="04-balanced-words-10" tabindex="-1">04 — Balanced words (10)</h3>
+<p>For 5: choose −1, quotient (5+1)/3=2; choose −1, quotient (2+1)/3=1; choose +1, quotient 0. Word (−1,−1,1) decodes −1−3+9=5. For 8: choose −1, quotient 3; choose 0, quotient 1; choose +1, quotient 0. Word (−1,0,1) decodes −1+0+9=8. Both records have d3=3, low-to-high order. Award 3 per encoding process, 1 per decoding, 2 for depth/order.</p>
+<h3 id="05-histories-10" tabindex="-1">05 — Histories (10)</h3>
+<p>For 5, standard representatives are 5,5,2 under moduli 27,9,3. Balanced representatives are 5,−4,−1; differences 9 and −3 are divisible by parent moduli 9 and 3. For 8, standard representatives are 8,8,2, balanced 8,−1,−1; differences 9 and 0 pass. Removing the highest digit leaves the low places; removing the lowest from (−1,0,1) and shifting instead gives (0,1)=3, which is the wrong mod-9 parent. Award 4 for histories, 4 for divisibility checks, 2 for digit-removal explanation.</p>
+<h3 id="06-recovery-14" tabindex="-1">06 — Recovery (14)</h3>
+<p>Binary records at child depth 3: (k,b)=(2,1) recovers j=2×2+1=5; (3,0) recovers 6. Record type=binary interval. Ternary records at d3=3: low word (−1,−1), r=−4, high digit +1 reconstructs 5=−4+9; low word (−1,0), r=−1, high digit +1 reconstructs 8=−1+9. Record balanced representation, depth, low-to-high order, rule t=r+9e and the full low word, including its zero. Without bit, binary parent 2 permits 4 or 5. Without high digit, ternary parent −1 permits −10,−1 or 8 at depth 3. Award 4 for binary, 4 for ternary, 4 for metadata/zeros/rules, 2 for alternatives. A record that cannot recover the original word cannot earn full recovery credit even if its scalar result is right.</p>
+<h3 id="07-typed-objects-8" tabindex="-1">07 — Typed objects (8)</h3>
+<p>The window samples three half-step positions per axis: 27 points. The Group contains three complete cells per axis: 27 regions. The Supergroup has nine per axis: 9^3=729 regions, also 27 Groups×27 cells. Counts are dimensionless; a cell volume measured numerically needs cubic length units. Award 2 each for the three object distinctions and 2 for the two Supergroup derivations.</p>
+<h3 id="08-rung-8" tabindex="-1">08 — Rung (8)</h3>
+<p>Both exponents are nonnegative integers. Subtract 1: product=9. Since 9 is odd, n_rung=0; then 3^g_rung=9 gives g_rung=2. Finite bounds g≤2,n≤3 follow from 3^3&gt;9 and 2^4&gt;9, as all other factors are at least 1. Only table pair (2,0) has product 9. The value 729 labels volumes in one setting and residue triples in the other. Award 2 domain, 3 argument, 2 bounds, 1 type distinction.</p>
+<h3 id="09-half-step-geometry-12" tabindex="-1">09 — Half-step geometry (12)</h3>
+<p>Labels −9..9 represent coordinates i/2, giving 19 positions per axis and 19^3=6859 points. Lambda=i+j+k ranges −27..27, so 55 candidate sheets. For t≥0 use (t,0,0) up to 9, (9,t−9,0) up to 18, (9,9,t−18) up to 27. Negate for negative targets, proving all 55 occur. Ordinary cell corners give (9+1)^3=1000; complete volumes give 9^3=729. For 3B, labels −3..3 give 7^3=343 points and sums −9..9 give 19 sheets. Award 3 point count, 2 sheet count, 3 reachability proof, 2 grid distinctions, 2 smaller case.</p>
+<h2 id="residual-accounting-and-source-scope" tabindex="-1">Residual accounting and source scope</h2>
+<p>These finite records preserve all removed bits/digits with their signs, zeros, ordering and depths. A coarse-only answer must state its missing possibilities. S02 M03 defines source objects and the two recursion rules; our arithmetic establishes the finite answers above. The synthetic interval and volume examples are not measurements. Infinite histories and physical mechanisms are outside the assessed operations.</p></article><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/6">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

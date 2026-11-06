@@ -1,0 +1,218 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Terminology and notation · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/27">Course 27</a><span>/</span><span>terminology</span></div><a class="original" href="../../../kfield-27-quadratic-phase-cost-and-route-geometry/terminology.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#terminology-and-notation">Terminology and notation</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 1 — A quadratic form as a directional cost</a><a  href="lesson-02.html">Lesson 2 — From plane counts to phase cost</a><a  href="lesson-03.html">Lesson 3 — Pullbacks and coordinate changes</a><a  href="lesson-04.html">Lesson 4 — Integrating cost along a path</a><a  href="lesson-05.html">Lesson 5 — Route comparison and constraints</a><a  href="lesson-06.html">Lesson 6 — Certificates and precision residuals</a><a  href="lesson-07.html">Lesson 7 — Phase cost and physical coupling</a></details></aside><div class="reading-column"><article class="prose"><h1 id="terminology-and-notation" tabindex="-1">Terminology and notation</h1>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Term/symbol</th>
+<th>Meaning and units in this course</th>
+<th>First taught</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>L, τ, D</td>
+<td>Chosen length, time and detector units; D also denotes displacement in Lesson 5 only, where explicitly a vector with length units</td>
+<td>1, 5, 7</td>
+</tr>
+<tr>
+<td>Vector</td>
+<td>Ordered signed components; direction is not recoverable from cost alone</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Matrix; entry (i,j)</td>
+<td>Table of coefficients; i is row, j column</td>
+<td>1, 3</td>
+</tr>
+<tr>
+<td>Transpose, superscript T</td>
+<td>Exchange rows and columns; distinct from total duration T</td>
+<td>1, 3</td>
+</tr>
+<tr>
+<td>Dot product</td>
+<td>Sum of matching products; with a unit normal it gives a signed projection</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Unit direction/normal</td>
+<td>Dimensionless vector with length one; normal is perpendicular to a plane</td>
+<td>1, 2</td>
+</tr>
+<tr>
+<td>q(z)</td>
+<td>Scalar quadratic form zᵀGz; input and G determine units</td>
+<td>1</td>
+</tr>
+<tr>
+<td>G (classroom)</td>
+<td>[[2,1],[1,2]] L⁻² unless explicitly replaced; synthetic, symmetric and positive</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Positive form</td>
+<td>q(z)&gt;0 for nonzero z, q(0)=0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Cross term</td>
+<td>2G₁₂xy for a symmetric two-coordinate form</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Contour, semiaxis</td>
+<td>Equal-cost curve; ellipse center-to-end length on a principal direction</td>
+<td>1</td>
+</tr>
+<tr>
+<td>n₊, n₋</td>
+<td>(1,±1)/√2, dimensionless diagonal unit directions</td>
+<td>1</td>
+</tr>
+<tr>
+<td>o, O_K</td>
+<td>Declared fixed origin; x−o or x−O_K is a displacement</td>
+<td>2, 3</td>
+</tr>
+<tr>
+<td>p_j, d_j, n_j</td>
+<td>Dimensionless continuous plane coordinate, positive length spacing, unit normal; j labels family</td>
+<td>2</td>
+</tr>
+<tr>
+<td>a, p-dot</td>
+<td>Signed plane-rate column, τ⁻¹; not a discrete integer event counter</td>
+<td>2</td>
+</tr>
+<tr>
+<td>H, I</td>
+<td>Dimensionless plane-coordinate metric and identity matrix</td>
+<td>2</td>
+</tr>
+<tr>
+<td>A; G_ruler</td>
+<td>Ruler map rows n_jᵀ/d_j in L⁻¹; its pullback AᵀHA in L⁻²</td>
+<td>2</td>
+</tr>
+<tr>
+<td>B, u, z</td>
+<td>Column map from dimensionless u to length z=Bu/2; synthetic B=diag(2,1)L</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Inverse B⁻¹; T_B</td>
+<td>Undo the invertible map; T_B=2B⁻¹ with units L⁻¹ here</td>
+<td>3</td>
+</tr>
+<tr>
+<td>G_phase</td>
+<td>Distinct source phase metric; units must be taken from its declared contract, not inferred from its name</td>
+<td>2, 3</td>
+</tr>
+<tr>
+<td>W_qpc, W</td>
+<td>Pullback BᵀG_phase B/4; W is its classroom analogue, dimensionless under classroom typing</td>
+<td>3</td>
+</tr>
+<tr>
+<td>C</td>
+<td>Source factor matrix in W_qpc=CᵀC; not path cost J; complete locked entries not retrieved</td>
+<td>3</td>
+</tr>
+<tr>
+<td>M_cell, R_cell</td>
+<td>Source Gram matrix BᵀB and its inverse; not synonyms for G_phase</td>
+<td>3</td>
+</tr>
+<tr>
+<td>G_eff; Q, Q_g, Q_nu</td>
+<td>Reserved distinct source metric/distance forms, not used for calculations here</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Δt, Δx</td>
+<td>Positive duration and signed displacement increment</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Σ</td>
+<td>Sum over indexed segments</td>
+<td>4</td>
+</tr>
+<tr>
+<td>v</td>
+<td>Physical velocity in L/τ</td>
+<td>1</td>
+</tr>
+<tr>
+<td>u-dot</td>
+<td>Coordinate rate in τ⁻¹</td>
+<td>3</td>
+</tr>
+<tr>
+<td>J</td>
+<td>Accumulated cost ΣΔt vᵀGv, τ⁻¹ here; local QPC skill convention instead yields m²/s</td>
+<td>2, 4</td>
+</tr>
+<tr>
+<td>Interpolation</td>
+<td>Rule specifying behavior between samples</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Admissible</td>
+<td>Allowed by the fixed route specification</td>
+<td>5</td>
+</tr>
+<tr>
+<td>T, v-bar, δ_i</td>
+<td>Total positive duration; average displacement/T; signed segment deviation v_i−v-bar</td>
+<td>5</td>
+</tr>
+<tr>
+<td>L_b, U_b, gap</td>
+<td>Lower bound, feasible upper bound on minimum, difference U_b−L_b; cost units</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Absolutely continuous; square-integrable velocity</td>
+<td>Recognition-only continuum conditions: path recovered by accumulating velocity; finite accumulated squared speed</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Certificate; SHA-256</td>
+<td>Reproducible claim/input/proof record; content digest identifying bytes, not proving mathematics</td>
+<td>6</td>
+</tr>
+<tr>
+<td>[a,b); truncation</td>
+<td>Interval including a and excluding b; drop digits after a specified decimal place</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Residual</td>
+<td>Retained original minus model/displayed value; preserves reconstruction, with signs and units</td>
+<td>5–7</td>
+</tr>
+<tr>
+<td>VERIFIED_NOT_LOADED</td>
+<td>Source missing-body disposition, distinct from fresh replay</td>
+<td>3, 6</td>
+</tr>
+<tr>
+<td>y, k, r, e</td>
+<td>Detector response D, sensitivity D, dimensionless driver, response residual D; r here is not Lesson 6's precision residual</td>
+<td>7</td>
+</tr>
+<tr>
+<td>Nonidentifiability</td>
+<td>Different allowed choices give the same observed output</td>
+<td>7</td>
+</tr>
+<tr>
+<td>Transfer/coupling</td>
+<td>Explicit relation connecting defined input to response, with calibration and units</td>
+<td>7</td>
+</tr>
+</tbody>
+</table></div>
+<p>Local symbol reuse is announced at its lesson. Classroom examples do not change the source's three-dimensional handedness, cell ownership, metric definitions or evidence classes. Numeric costs remain accompanied by their signed generating coordinates.</p></article><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/27">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

@@ -1,0 +1,213 @@
+{
+  "schema_version": "1.0",
+  "status": "passed",
+  "findings": [
+    {
+      "id": "MINOR-VERIFY-01",
+      "level": "local",
+      "category": "executable verification",
+      "file": "verify_examples.py",
+      "section": "synthetic scale and rounding checks",
+      "severity": "minor",
+      "defect": "Correct scale results had been stored as constants rather than computed assertions; rounding examples were not asserted.",
+      "correction": "Compute scaled bases, areas squared, determinant and inverse identity; assert two rounding residuals and half-even examples.",
+      "verification": "Updated verify_examples.py executed with exit 0; computed scale_checks and rounding_checks saved in verification.json.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "verification",
+        "capstone"
+      ]
+    },
+    {
+      "id": "MINOR-TABLE-01",
+      "level": "final",
+      "category": "Markdown readability",
+      "file": "terminology.md",
+      "section": "Magnitude and determinant rows",
+      "severity": "minor",
+      "defect": "Unescaped magnitude/absolute-value pipes split table cells.",
+      "correction": "Escape magnitude pipes and express unsigned volume as absolute determinant.",
+      "verification": "Table row parser confirms exactly three cells on every row; glossary reread.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "terms"
+      ]
+    },
+    {
+      "id": "TA03-MIN-01",
+      "level": "final",
+      "category": "supporting-record navigation",
+      "severity": "minor",
+      "file": "teacher-guide.md",
+      "section": "Verification and recovery, line58; also completion_report.json /validator",
+      "defect": "Guide and completion metadata direct readers to local validation-result.json, which is absent from the consolidated course. A successful destination validation is recorded in the series consolidation report.",
+      "correction": "Point to ../kfield-series-20261105/audits/consolidation/course-03-consolidation.json and its destination_validator_passed field, or provide the actual retained validator record. Refresh affected hashes after parent edits.",
+      "verification": "Replaced absent local receipt reference with an existing destination validation record; resolved target exists. Completion metadata points to the same evidence and final parent acceptance.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "teacher-guide",
+        "completion-report"
+      ]
+    },
+    {
+      "id": "TA03-MIN-02",
+      "level": "cumulative",
+      "category": "pacing and prerequisite remediation",
+      "severity": "minor",
+      "file": "teacher-guide.md",
+      "section": "Pacing and instructional decisions, line28; course-map.md line5",
+      "defect": "Fraction remediation for the dense L04 inverse lesson is deferred to the capstone review allocation, while the map asks teachers to retain six boundaries. This leaves unclear how to pause before dependent work when a learner needs more guided practice.",
+      "correction": "State that teachers may add a practice period and must recheck fraction/block-inverse capability before L05 or independent assessment; keep conceptual lesson IDs but treat total periods as flexible.",
+      "verification": "Guide and map now permit added practice and require a fraction/block-inverse recheck before Lesson5 or independent assessment; conceptual IDs retained and period count flexible.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "teacher-guide",
+        "course-map"
+      ]
+    }
+  ],
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "reviewed_scope": "All six lessons, card, map, glossary, teacher guide, capstone/key, verification, recovery and assembly. Markdown only; paginated rendering not applicable.",
+  "independent_review": {
+    "reviewer": "source_math_audit subagent before controlled stop",
+    "scope": "S02/S03 exact pointers, Fraction/Decimal arithmetic, all six lesson texts and diagnostic keys",
+    "result": "0 critical, 0 major; one minor executable robustness finding now corrected",
+    "limits": "New supporting materials reviewed locally after resume; independent full-package parent review remains available."
+  },
+  "local_checks": [
+    {
+      "lesson": "lesson-01",
+      "result": "passed",
+      "categories": [
+        "prerequisite bridge",
+        "age-appropriate language",
+        "definitions/notation/units",
+        "mathematical correctness",
+        "worked example and four diagnostics",
+        "source/evidence scope",
+        "next dependency"
+      ]
+    },
+    {
+      "lesson": "lesson-02",
+      "result": "passed",
+      "categories": [
+        "prerequisite bridge",
+        "age-appropriate language",
+        "definitions/notation/units",
+        "mathematical correctness",
+        "worked example and four diagnostics",
+        "source/evidence scope",
+        "next dependency"
+      ]
+    },
+    {
+      "lesson": "lesson-03",
+      "result": "passed",
+      "categories": [
+        "prerequisite bridge",
+        "age-appropriate language",
+        "definitions/notation/units",
+        "mathematical correctness",
+        "worked example and four diagnostics",
+        "source/evidence scope",
+        "next dependency"
+      ]
+    },
+    {
+      "lesson": "lesson-04",
+      "result": "passed",
+      "categories": [
+        "prerequisite bridge",
+        "age-appropriate language",
+        "definitions/notation/units",
+        "mathematical correctness",
+        "worked example and four diagnostics",
+        "source/evidence scope",
+        "next dependency"
+      ]
+    },
+    {
+      "lesson": "lesson-05",
+      "result": "passed",
+      "categories": [
+        "prerequisite bridge",
+        "age-appropriate language",
+        "definitions/notation/units",
+        "mathematical correctness",
+        "worked example and four diagnostics",
+        "source/evidence scope",
+        "next dependency"
+      ]
+    },
+    {
+      "lesson": "lesson-06",
+      "result": "passed",
+      "categories": [
+        "prerequisite bridge",
+        "age-appropriate language",
+        "definitions/notation/units",
+        "mathematical correctness",
+        "worked example and four diagnostics",
+        "source/evidence scope",
+        "next dependency"
+      ]
+    }
+  ],
+  "cumulative_checks": [
+    {
+      "unit": "Lessons 1–3",
+      "result": "passed",
+      "evidence": "One labeled basis retained; rows/columns, cross terms, cross signs and signed/unsigned volume agree. L3 planar counterexample supplies inverse-domain prerequisite."
+    },
+    {
+      "unit": "Lessons 4–6",
+      "result": "passed",
+      "evidence": "Block inverse precedes dual recovery and scaling. Fixed frame/positive ratios precede positive-anchor theorem. Exact identities distinguished from lexical decimal records and all closure components retained."
+    }
+  ],
+  "final_checks": [
+    {
+      "category": "coverage and dependency",
+      "result": "passed",
+      "evidence": "Six concept rows map introduction, worked practice, diagnostics and later use; all ten capstone tasks map to prior lessons."
+    },
+    {
+      "category": "capstone correctness",
+      "result": "passed",
+      "evidence": "Recomputed Bq, inverse recovery, Gram cross contribution 4L², three face products, determinant -6, MR/BRBT identities, s=3 anchor scaling and signed decimal differences. Rubric sums 60+25+15=100."
+    },
+    {
+      "category": "source fidelity",
+      "result": "passed",
+      "evidence": "Five hashes match; card matrix/scalar strings mechanically compared against S02. S03 canonical basis/faces agree. Required pointers read; S01 historical branch separated."
+    },
+    {
+      "category": "evidence layers and residuals",
+      "result": "passed",
+      "evidence": "Synthetic, source facts, algebra and declared Decimal witnesses labeled. Source closure scalar not conflated with fresh residual matrices; archived branch differences distinguished."
+    },
+    {
+      "category": "audience and minimality",
+      "result": "passed",
+      "evidence": "Six 55-minute topical lessons reuse one small basis; dense inverse lesson uses block equations. Core assessment does not require code, long-decimal inversion, calculus or mass-bridge derivation."
+    },
+    {
+      "category": "notation and presentation",
+      "result": "passed",
+      "evidence": "M_cell/R_cell distinct from D and later metrics; ab/ac/bc versus bc/ac/ab labeled; glossary pipe defect repaired; local links checked."
+    },
+    {
+      "category": "recovery storage and assembly",
+      "result": "passed",
+      "evidence": "Workspace storage amendment explicit; six pre-resume lesson hashes matched; exact markers assembled in order. Final installed-validator checks run through location-only adapter after hash finalization."
+    }
+  ],
+  "source_gaps": [
+    "Source-reported direct_reciprocal_closure_max_abs arithmetic unspecified; retained as reported, not freshly reproduced. No required M01 pointer is missing."
+  ]
+}

@@ -1,0 +1,189 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Terminology and notation · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/11">Course 11</a><span>/</span><span>terminology</span></div><a class="original" href="../../../kfield-11-lucas-graphs-edges-cycles-and-memory/terminology.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#terminology-and-notation">Terminology and notation</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 01 — From nodes to a graph</a><a  href="lesson-02.html">Lesson 02 — Walking, connectivity, and incidence</a><a  href="lesson-03.html">Lesson 03 — Cuts and cycles</a><a  href="lesson-04.html">Lesson 04 — The 26 and 28 dimensions</a><a  href="lesson-05.html">Lesson 05 — Adding periodic wrap edges</a><a  href="lesson-06.html">Lesson 06 — Memory needs a specified state</a></details></aside><div class="reading-column"><article class="prose"><h1 id="terminology-and-notation" tabindex="-1">Terminology and notation</h1>
+<p>All classroom coordinates are dimensionless. Lists carry declared ordering and object type. A scalar is one number; a vector is an ordered list of numbers. “Space” here means a collection closed under scaling and addition, not necessarily physical space.</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Term or symbol</th>
+<th>Operational meaning</th>
+<th>Introduced</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Vertex/node; edge</td>
+<td>Labeled location; allowed connection between two locations</td>
+<td>01</td>
+</tr>
+<tr>
+<td>Adjacent; degree</td>
+<td>Joined by an edge; number of incident edges</td>
+<td>01</td>
+</tr>
+<tr>
+<td>Walk; path; connected</td>
+<td>Adjacent-vertex sequence; no repeated vertices; a path between every pair</td>
+<td>01</td>
+</tr>
+<tr>
+<td>P2, P3; □</td>
+<td>Two/three-node path graph; Cartesian-product adjacency rule</td>
+<td>01</td>
+</tr>
+<tr>
+<td>G_L</td>
+<td>Open P3 □ P3 □ P3 Lucas graph</td>
+<td>01</td>
+</tr>
+<tr>
+<td>V, E in formulas</td>
+<td>Counts of vertices and edges, respectively</td>
+<td>01</td>
+</tr>
+<tr>
+<td>Open boundary</td>
+<td>No endpoint wrap connection</td>
+<td>01</td>
+</tr>
+<tr>
+<td>Axis 0,1,2</td>
+<td>Tuple positions x0,x1,x2, not physical units</td>
+<td>01</td>
+</tr>
+<tr>
+<td>Orientation; tail/head</td>
+<td>Reference arrow; its starting/ending node</td>
+<td>02</td>
+</tr>
+<tr>
+<td>f, f_e</td>
+<td>Edge field and its coordinate on ordered oriented edge e</td>
+<td>02</td>
+</tr>
+<tr>
+<td>D</td>
+<td>Incidence matrix, −1 at tail and +1 at head</td>
+<td>02</td>
+</tr>
+<tr>
+<td>Df</td>
+<td>Node divergence, arrivals minus departures</td>
+<td>02</td>
+</tr>
+<tr>
+<td>φ; Dᵀφ</td>
+<td>Node potential; its head-minus-tail edge differences</td>
+<td>02</td>
+</tr>
+<tr>
+<td>Transpose ᵀ</td>
+<td>Swap rows and columns</td>
+<td>02</td>
+</tr>
+<tr>
+<td>Rank; independent columns</td>
+<td>Number of independent generating columns; zero combination has only zero coefficients</td>
+<td>02</td>
+</tr>
+<tr>
+<td>Elimination</td>
+<td>Solve a row equation and substitute into the remaining equations</td>
+<td>02</td>
+</tr>
+<tr>
+<td>Simple cycle; circulation</td>
+<td>Closed nonrepeating route; edge field with Df=0</td>
+<td>03</td>
+</tr>
+<tr>
+<td>Cycle space</td>
+<td>All real circulations on the declared graph</td>
+<td>03</td>
+</tr>
+<tr>
+<td>Tree; spanning tree</td>
+<td>Connected graph without cycles; such a subgraph using all vertices</td>
+<td>03</td>
+</tr>
+<tr>
+<td>Leaf; chord</td>
+<td>Node with one tree edge; graph edge outside chosen tree</td>
+<td>03</td>
+</tr>
+<tr>
+<td>Fundamental cycle c</td>
+<td>+1 chord plus signed head-to-tail tree return path</td>
+<td>03</td>
+</tr>
+<tr>
+<td>Cut; cut space</td>
+<td>Separation of node sets; span of signed indicator gradients, all Dᵀφ</td>
+<td>03</td>
+</tr>
+<tr>
+<td>Dot product; orthogonal</td>
+<td>Sum of entrywise products; zero dot product</td>
+<td>03</td>
+</tr>
+<tr>
+<td>Coefficient; decoder</td>
+<td>Scalar multiplier of a basis element; rule reconstructing the full state</td>
+<td>03</td>
+</tr>
+<tr>
+<td>Dimension; basis</td>
+<td>Number of independent coordinates; independent generating list</td>
+<td>04</td>
+</tr>
+<tr>
+<td>Lexicographic order</td>
+<td>Compare first tuple coordinate, then second, then third</td>
+<td>04</td>
+</tr>
+<tr>
+<td>Root; parent</td>
+<td>Distinguished (0,0,0); decrement first nonzero coordinate</td>
+<td>04</td>
+</tr>
+<tr>
+<td>q_i; c_i</td>
+<td>Open chord coefficient and its ordered fundamental cycle</td>
+<td>05</td>
+</tr>
+<tr>
+<td>Wrap edge; h_(a,j)</td>
+<td>Axis endpoint 2→0 edge; its fundamental cycle for axis a and line j</td>
+<td>05</td>
+</tr>
+<tr>
+<td>w_(a,j)</td>
+<td>Coefficient at a wrap chord, not a node value</td>
+<td>05</td>
+</tr>
+<tr>
+<td>W_a, μ_a, d_(a,j)</td>
+<td>Sum of nine wrap coefficients, its mean W_a/9, and deviations from that mean</td>
+<td>05</td>
+</tr>
+<tr>
+<td>Σ</td>
+<td>Sum over the stated index range</td>
+<td>05</td>
+</tr>
+<tr>
+<td>Winding</td>
+<td>Net signed seam crossing, extended linearly to weighted circulations</td>
+<td>05</td>
+</tr>
+<tr>
+<td>s; r</td>
+<td>Cycle sum from chord readings; retained tree remainder f−s</td>
+<td>06</td>
+</tr>
+<tr>
+<td>Memory; dynamics</td>
+<td>Specified retained state with decoder; rule for change through time</td>
+<td>06</td>
+</tr>
+</tbody>
+</table></div>
+<p>Notation safeguards: D is not the source's B. M_cell, R_cell, G_phase and O_K remain separately typed source geometry symbols and do not enter the finite graph calculations. The cut space and our chosen tree-remainder space both have dimension V−1 but are not identified. A coefficient's sign depends on the declared cycle orientation. The mean/detail representation is real/rational; integer inputs impose reconstruction compatibility, not arbitrary integer coordinate freedom.</p></article><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/11">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

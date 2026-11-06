@@ -1,0 +1,200 @@
+{
+  "schema_version": "1.0",
+  "status": "passed",
+  "findings": [
+    {
+      "id": "IA09-01",
+      "level": "final",
+      "category": "E05 prior-practice linkage",
+      "file": "lesson-01.md",
+      "section": "C09.01-P1; course-map.md capstone backward map",
+      "severity": "minor",
+      "defect": "Original P1 practiced nontie translation while signed ties and cell ownership were only in diagnostic items; a map naming P1 alone understated prerequisite practice.",
+      "correction": "Added independent signed-tie and owner return practice to P1 with full worked answers after E2; mapped the return portion and D1/D4 explicitly.",
+      "verification": "Independent reviewer reread revised P1 and capstone/map; final independent-audit.json reports no unresolved findings.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "lesson-01",
+        "map",
+        "capstone",
+        "assembly"
+      ]
+    }
+  ],
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "checks": [
+    {
+      "level": "local",
+      "checkpoint": "lesson-01",
+      "result": "passed",
+      "checks": [
+        "required teaching items and four diagnostics present",
+        "manual and independent prerequisite, notation, unit, logic, evidence and audience review",
+        "exact rational examples checked against separately implemented rounding rule and inverse identities"
+      ],
+      "evidence": [
+        "independent-audit.json",
+        "worked-example-verification.json",
+        "lesson-01.md"
+      ]
+    },
+    {
+      "level": "local",
+      "checkpoint": "lesson-02",
+      "result": "passed",
+      "checks": [
+        "required teaching items and four diagnostics present",
+        "manual and independent prerequisite, notation, unit, logic, evidence and audience review",
+        "exact rational examples checked against separately implemented rounding rule and inverse identities"
+      ],
+      "evidence": [
+        "independent-audit.json",
+        "worked-example-verification.json",
+        "lesson-02.md"
+      ]
+    },
+    {
+      "level": "local",
+      "checkpoint": "lesson-03",
+      "result": "passed",
+      "checks": [
+        "required teaching items and four diagnostics present",
+        "manual and independent prerequisite, notation, unit, logic, evidence and audience review",
+        "exact rational examples checked against separately implemented rounding rule and inverse identities"
+      ],
+      "evidence": [
+        "independent-audit.json",
+        "worked-example-verification.json",
+        "lesson-03.md"
+      ]
+    },
+    {
+      "level": "local",
+      "checkpoint": "lesson-04",
+      "result": "passed",
+      "checks": [
+        "required teaching items and four diagnostics present",
+        "manual and independent prerequisite, notation, unit, logic, evidence and audience review",
+        "exact rational examples checked against separately implemented rounding rule and inverse identities"
+      ],
+      "evidence": [
+        "independent-audit.json",
+        "worked-example-verification.json",
+        "lesson-04.md"
+      ]
+    },
+    {
+      "level": "local",
+      "checkpoint": "lesson-05",
+      "result": "passed",
+      "checks": [
+        "required teaching items and four diagnostics present",
+        "manual and independent prerequisite, notation, unit, logic, evidence and audience review",
+        "exact rational examples checked against separately implemented rounding rule and inverse identities"
+      ],
+      "evidence": [
+        "independent-audit.json",
+        "worked-example-verification.json",
+        "lesson-05.md"
+      ]
+    },
+    {
+      "level": "local",
+      "checkpoint": "lesson-06",
+      "result": "passed",
+      "checks": [
+        "required teaching items and four diagnostics present",
+        "manual and independent prerequisite, notation, unit, logic, evidence and audience review",
+        "exact rational examples checked against separately implemented rounding rule and inverse identities"
+      ],
+      "evidence": [
+        "independent-audit.json",
+        "worked-example-verification.json",
+        "lesson-06.md"
+      ]
+    },
+    {
+      "level": "cumulative",
+      "checkpoint": "unit-1",
+      "result": "passed",
+      "checks": [
+        "stable epsilon=Q-Kr convention",
+        "dependency order inspected",
+        "finite operation complexity and capstone alignment reviewed"
+      ],
+      "evidence": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "course-map.md",
+        "independent-audit.json"
+      ]
+    },
+    {
+      "level": "cumulative",
+      "checkpoint": "unit-2",
+      "result": "passed",
+      "checks": [
+        "stable epsilon=Q-Kr convention",
+        "dependency order inspected",
+        "finite operation complexity and capstone alignment reviewed"
+      ],
+      "evidence": [
+        "lesson-04",
+        "course-map.md",
+        "independent-audit.json"
+      ]
+    },
+    {
+      "level": "cumulative",
+      "checkpoint": "unit-3",
+      "result": "passed",
+      "checks": [
+        "stable epsilon=Q-Kr convention",
+        "dependency order inspected",
+        "finite operation complexity and capstone alignment reviewed"
+      ],
+      "evidence": [
+        "lesson-05",
+        "lesson-06",
+        "course-map.md",
+        "independent-audit.json"
+      ]
+    },
+    {
+      "level": "final",
+      "checkpoint": "hostile-audit",
+      "result": "passed",
+      "checks": [
+        "six required concepts introduced, practiced, assessed and reused",
+        "SA-09 source repair explicitly attributed",
+        "all finite capstone operations linked to preceding explanations and independently answered practice",
+        "source hashes and historical/active branch replay verified",
+        "signed residuals and normalization-loss boundary retained",
+        "same-parity inverses and distinct operations preserved",
+        "source reports, synthetic examples and fresh calculations distinguished",
+        "seven core periods plus two capstone periods; carry lesson split",
+        "all required student and teacher artifacts present",
+        "no new teaching introduced by verbatim assembly",
+        "Markdown tables inspected as text; no paginated rendering required",
+        "minimality reviewed: optional infinite series excluded from core assessment"
+      ],
+      "evidence": [
+        "independent-audit.json",
+        "course-map.md",
+        "sources.md",
+        "capstone.md",
+        "worked-example-verification.json"
+      ]
+    }
+  ],
+  "deterministic_gate": "Project adapter is run after final hash refresh; completion requires actual exit zero.",
+  "rendering": "Markdown only; no PDF/Word rendering requested.",
+  "source_limitations": [
+    "Graph generation not exposed in capabilities result; all teaching source claims grounded in verified local bytes."
+  ]
+}

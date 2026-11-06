@@ -1,0 +1,55 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Lesson 01 — One subdivision at a time · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/6">Course 06</a><span>/</span><span>lesson 01</span></div><a class="original" href="../../../kfield-06-recursive-k-field-geometry-and-address-histories/lesson-01.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#lesson-01-one-subdivision-at-a-time">Lesson 01 — One subdivision at a time</a><a href="#c0601-e1-a-repeated-rule">C06.01-E1 — A repeated rule</a><a href="#c0601-w1-worked-tree">C06.01-W1 — Worked tree</a><a href="#c0601-e2-and-c0601-w2-count-the-object-you-named">C06.01-E2 and C06.01-W2 — Count the object you named</a><a href="#guided-practice">Guided practice</a><a href="#diagnostic-checks">Diagnostic checks</a></nav></details><details class="course-nav" open><summary>In this course</summary><a aria-current=page href="lesson-01.html">Lesson 01 — One subdivision at a time</a><a  href="lesson-02.html">Lesson 02 — Dyadic geometry and triadic addresses</a><a  href="lesson-03.html">Lesson 03 — Scaling length, area, and node counts</a><a  href="lesson-04.html">Lesson 04 — Balanced ternary as an address language</a><a  href="lesson-05.html">Lesson 05 — Parent maps and compatible histories</a><a  href="lesson-06.html">Lesson 06 — What a finite resolution retains</a></details></aside><div class="reading-column"><article class="prose"><h1 id="lesson-01-one-subdivision-at-a-time" tabindex="-1">Lesson 01 — One subdivision at a time</h1>
+<p><strong>Essential question:</strong> How can a rule name every piece without confusing pieces with boundaries?</p>
+<p><strong>Goals:</strong> Generate a binary tree; find parents; distinguish nodes, boundary vertices, and volumes.</p>
+<p><strong>Bridge:</strong> You can compare fractions and plot coordinates. Course 05 introduced cells and Lucas windows; the needed definitions are restated here. <strong>Pacing:</strong> explanation/examples 20, practice 15, checks/feedback 15, transition 5 minutes.</p>
+<h2 id="c0601-e1-a-repeated-rule" tabindex="-1">C06.01-E1 — A repeated rule</h2>
+<p>A recursion repeats an operation on its output. The starting object is the root at depth zero. A child results from one application; its parent produced it. Depth counts applications. Start with the synthetic interval [0,1). A square bracket includes an endpoint; a round bracket excludes it. Splitting at the midpoint gives [0,1/2) and [1/2,1). Only the right child owns 1/2. Endpoint 1 remains a geometric boundary vertex even though no interval owns it.</p>
+<p>At dyadic depth n2, each interval has width 1/2^n2. Index intervals left to right by j=0 through 2^n2−1. Interval j is [j/2^n2,(j+1)/2^n2). Parent k produces children 2k and 2k+1. Conversely parent(j)=floor(j/2), where floor means greatest integer at or below the number. Thus floor(5/2)=2. Here indices are nonnegative.</p>
+<h2 id="c0601-w1-worked-tree" tabindex="-1">C06.01-W1 — Worked tree</h2>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Depth n2</th>
+<th>Indices and intervals</th>
+<th>Parent indices</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>0: [0,1)</td>
+<td>none</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0: [0,1/2); 1: [1/2,1)</td>
+<td>0,0</td>
+</tr>
+<tr>
+<td>2</td>
+<td>0: [0,1/4); 1: [1/4,1/2); 2: [1/2,3/4); 3: [3/4,1)</td>
+<td>0,0,1,1</td>
+</tr>
+</tbody>
+</table></div>
+<p>Index 3 is child 2(1)+1 of parent 1. Four widths of 1/4 total 1. Their distinct boundary vertices are 0,1/4,1/2,3/4,1: five, not eight. Eight counts cell–endpoint incidences (pairings), counting shared ends twice.</p>
+<h2 id="c0601-e2-and-c0601-w2-count-the-object-you-named" tabindex="-1">C06.01-E2 and C06.01-W2 — Count the object you named</h2>
+<p>A basis B specifies three independent edge directions and lengths. Outer basis 3B triples each edge. A node is a sampled point; a complete cell volume is a region. In the source Lucas window, each axis has half-step positions −1/2,0,1/2. Independently choosing three coordinates gives 3×3×3=27 nodes. A Lucas Group instead contains three complete Cell3 cells per axis, hence 27 volumes and outer basis 3B.</p>
+<p>Draw a row as <code>|---o---|---o---|---o---|</code>: three cell centers o, four boundary corners |. The drawing is schematic. A 9B Supergroup has nine complete cells per axis: 9×9×9=729 volumes. Equivalently it has 3×3×3=27 Groups, each with 27 cells. Counts are dimensionless; a measured volume would carry cubic length units.</p>
+<blockquote>
+<p><strong>Scope:</strong> S02 /backbone_sequence/2/typed_finite_objects defines the three objects. The interval is synthetic. Finite counting derives totals, not a new physical mechanism. Sampling a boundary point and assigning region ownership are separate operations.</p>
+</blockquote>
+<h2 id="guided-practice" tabindex="-1">Guided practice</h2>
+<p><strong>C06.01-P1:</strong> Extend the tree to depth 3. List child indices and parents, then trace j=5.</p>
+<p><strong>Answer:</strong> Children 0,1,2,3,4,5,6,7 have parents 0,0,1,1,2,2,3,3. Index 5 is [5/8,6/8); its parents are 2 at depth 2, 1 at depth 1, and 0 at depth 0.</p>
+<p><strong>C06.01-P2:</strong> Count 9B Supergroup volumes by axes and by Groups.</p>
+<p><strong>Answer:</strong> 9^3=729 cells; 3^3 Groups times 27 cells per Group also gives 729.</p>
+<h2 id="diagnostic-checks" tabindex="-1">Diagnostic checks</h2>
+<ol>
+<li><strong>C06.01-D1:</strong> At depth 2, are there four cells and eight distinct vertices? What about endpoint 1?</li>
+<li><strong>C06.01-D2:</strong> Classify 27 window nodes, 27 Group volumes, and 729 Supergroup volumes. Do the two 27s identify objects?</li>
+<li>Which depth-2 interval owns 1/2? Which owns 1?</li>
+<li>Give the parent of depth-3 index 6 and its sibling (the other child).</li>
+</ol>
+<p><strong>Worked answers:</strong> (1) Four cells and five distinct vertices; eight counts incidences. Vertex 1 is an excluded ownership endpoint. (2) Points, complete cells, complete cells. Equal cardinality means equal number only. (3) Index 2 owns 1/2; none owns 1. (4) Parent floor(6/2)=3; sibling 7.</p>
+<p><strong>Next:</strong> <a href="lesson-02.html">Lesson 02</a> compares this halving rule with ternary addresses.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><span></span><a class="button" href="lesson-02.html">Next lesson →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/6">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

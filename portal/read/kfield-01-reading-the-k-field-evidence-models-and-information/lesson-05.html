@@ -1,0 +1,66 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Lesson 5 — The K-Field research map · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/1">Course 01</a><span>/</span><span>lesson 05</span></div><a class="original" href="../../../kfield-01-reading-the-k-field-evidence-models-and-information/lesson-05.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#lesson-5-the-k-field-research-map">Lesson 5 — The K-Field research map</a><a href="#four-links-answer-different-questions">Four links answer different questions</a><a href="#worked-geometry-and-source-bridge">Worked geometry and source bridge</a><a href="#worked-complete-chain">Worked complete chain</a><a href="#guided-practice">Guided practice</a><a href="#diagnostic-checks">Diagnostic checks</a><a href="#worked-answers">Worked answers</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 1 — A model as a chain of questions</a><a  href="lesson-02.html">Lesson 2 — Following a claim to its source</a><a  href="lesson-03.html">Lesson 3 — Patterns and retained information</a><a  href="lesson-04.html">Lesson 4 — Assumptions and falsifiable predictions</a><a aria-current=page href="lesson-05.html">Lesson 5 — The K-Field research map</a></details></aside><div class="reading-column"><article class="prose"><h1 id="lesson-5-the-k-field-research-map" tabindex="-1">Lesson 5 — The K-Field research map</h1>
+<p><strong>Essential question:</strong> Which rules connect a geometric description to an instrument reading?</p>
+<p><strong>Goals:</strong> Trace geometry → state → dynamics → instrument; verify a finite return identity; annotate the chain with assumptions, provenance, and retained residuals.</p>
+<p><strong>Prerequisite bridge:</strong> You can classify claims, attach source addresses, reconstruct x = M+r, and compare predictions. New coordinate notation is taught below; matrix calculation is not assumed.</p>
+<h2 id="four-links-answer-different-questions" tabindex="-1">Four links answer different questions</h2>
+<p>Geometry describes locations, directions, distances, and conventions. State specifies the current configuration. Dynamics supplies a rule changing that state. An instrument rule maps state and settings to a predicted reading. Every arrow needs a rule. Geometry alone does not specify starting state, time evolution, or detector calibration.</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Link</th>
+<th>Necessary question</th>
+<th>Gap to flag</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Geometry</td>
+<td>Which coordinates, origin, unit, direction order?</td>
+<td>Missing basis or origin</td>
+</tr>
+<tr>
+<td>State</td>
+<td>Which configuration is occupied now?</td>
+<td>Missing initial values</td>
+</tr>
+<tr>
+<td>Dynamics</td>
+<td>How does state change per step?</td>
+<td>Missing update or time interval</td>
+</tr>
+<tr>
+<td>Instrument</td>
+<td>What reading does the state predict?</td>
+<td>Missing gain, offset or transfer rule</td>
+</tr>
+</tbody>
+</table></div>
+<p>A coordinate triple is an ordered list of three numbers. In our synthetic geometry, q = (q1,q2,q3) is a dimensionless address; subscripts select entries. The origin O_K = (5,0,0) mm marks zero address. Define position x = O_K + (2q1,3q2,−4q3) mm. Multiply entries by their respective scales and add the origin entry by entry. The negative scale reverses the third direction and must be preserved. These teaching constants are not mature Cell3 constants. Here x is position; a sensor reading will be explicitly named x_reading when both occur.</p>
+<h2 id="worked-geometry-and-source-bridge" tabindex="-1">Worked geometry and source bridge</h2>
+<p>For q = (1,−1,2), displacement x−O_K = (2,−3,−8) mm and position x = (7,−3,−8) mm. Reverse by subtracting the origin and dividing entries by their scales: ((7−5)/2,−3/3,−8/(−4)) = (1,−1,2). The mm units cancel. Omitting the origin would give 7/2 rather than 1 in the first entry. Reversal needs nonzero scales: a zero first scale sends q1 = 1 and q1 = 2 to the same first displacement, so neither can be recovered uniquely.</p>
+<p>For source reading, a matrix is a table specifying a linear coordinate rule. B denotes the ordered basis rule. B^T is its transposed table, exchanging rows and columns. Matrix multiplication composes the rules, applying the rightmost first. I is the identity rule returning its input unchanged; an inverse undoes a rule. S02 writes G = B^T B and R = G^−1, named M_cell and R_cell here. Its <code>B R B^T=I</code> is a return identity. Invertibility is a hypothesis, not established by writing the symbol for an inverse.</p>
+<p>The synthetic B is diagonal: each output uses only its corresponding input. Transposing such a table leaves it unchanged. Its scales are (2,3,−4) mm, M_cell scales (4,9,16) mm², and R_cell scales (1/4,1/9,1/16) mm^−2. The composite B R B^T multiplies each coordinate by 2×(1/4)×2 = 1, 3×(1/9)×3 = 1, or (−4)×(1/16)×(−4) = 1. Units cancel too. It therefore returns every triple. This checks the synthetic identity; S02's non-diagonal locked basis remains a separately addressed source claim.</p>
+<h2 id="worked-complete-chain" tabindex="-1">Worked complete chain</h2>
+<p>Use state q = (q1,0,0), initially q1 = 1. One dynamics step lasts 1 s and adds 1 to q1. After two steps q1 = 3. Assume instrument rule M = 5 DU + (2 DU)q1 with fixed gain and offset; an offset is the added baseline. It predicts 11 DU. For synthetic x_reading = 12 DU, retain r = 12−11 = 1 DU and recover 12 = 11+1. Geometry gives first position 5+2×3 = 11 mm. Coincidence with the number 11 DU does not equate position and instrument reading: their units and rules differ.</p>
+<p>In source work, S02 supplies a geometric contract and S06 a reported response and replay description. The conditional Earth-coupling link names <code>EarthOnlyAttribution</code>. Show that premise and the absent raw residual explicitly instead of drawing an unsupported causal arrow between files.</p>
+<blockquote>
+<p><strong>Claim scope:</strong> Both worked chains are synthetic. Mature S02 uses ordered ICRS columns [a b c], intentional negative determinant, and stored precision. Its closure discrepancy remains reported information. No force, transferred energy, or instrument law is derived from geometry alone here.</p>
+</blockquote>
+<h2 id="guided-practice" tabindex="-1">Guided practice</h2>
+<p>Send q = (−1,2,0) through the geometry and reverse it. In the dynamics example, start q1 = 0 and take three steps. Predict M and retain the residual for a synthetic 10 DU reading. Label geometry, initial state, dynamics, and instrument rule separately.</p>
+<h2 id="diagnostic-checks" tabindex="-1">Diagnostic checks</h2>
+<ol>
+<li>Why subtract O_K before reversing the coordinate rule?</li>
+<li>Recompute the three return factors. Why is the third positive?</li>
+<li>Start q1 = 2, take one step, and use the same instrument rule. Find M and r for x_reading = 9 DU.</li>
+<li>Map S02 and S06: name a source contract, reported measurement, formal-model report, and unresolved input.</li>
+</ol>
+<h2 id="worked-answers" tabindex="-1">Worked answers</h2>
+<p>Guided practice: displacement (−2,6,0) mm gives x = (3,6,0) mm. Reversal ((3−5)/2,6/3,0/(−4)) gives (−1,2,0). Dynamics ends q1 = 3, M = 11 DU, r = 10−11 = −1 DU. Coordinate scales/origin define geometry; zero is initial state; adding one per second is dynamics; 5+2q1 DU is the instrument rule.</p>
+<ol>
+<li>B acts on displacement from the origin. Reversing absolute position changes the address.</li>
+<li>The products are 1,1,1. Two negative factors yield a positive product; neither direction sign is dropped.</li>
+<li>q1 becomes 3, M = 11 DU, r = 9−11 = −2 DU; 11−2 = 9 DU reconstructs the reading.</li>
+<li>S02's ordered locked basis and precision are a contract. S06's angular clock is reported measurement metadata; its 97-state replay is a formal-model report. Raw residuals are unavailable; Earth-only attribution is an additional conditional input.</li>
+</ol>
+<p><strong>Next dependency:</strong> <a href="capstone.html">Capstone</a> builds and defends the complete evidence map.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><a class="button secondary" href="lesson-04.html">← Previous lesson</a><a class="button" href="capstone.html">Course capstone →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/1">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

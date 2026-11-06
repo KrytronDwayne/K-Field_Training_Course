@@ -1,0 +1,4014 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-30",
+  "created_utc": "2026-11-05T20:34:16.557376+00:00",
+  "status": "failed",
+  "manifest_sha256": "7c40d9573f4043b1bc229fb3254d9537057be1309ac76295dfb23805634ddb5d",
+  "audited_files": {
+    "audit_report.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\audit_report.json",
+      "sha256": "bf13e7f6ab21cec9d3d1a333ce710aad42993dc8cd7c84d06bd2564c1d5d04cf"
+    },
+    "build_course.py": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\build_course.py",
+      "sha256": "40d4bc6c96af455fe2618f2b5a0fdcede055cf2712d2162020aabfdb25c4c8d1"
+    },
+    "capstone.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\capstone.md",
+      "sha256": "8a5b0b23db21faf50af2ae0efac989a7e68f506695feb0664bf312d6aebe0597"
+    },
+    "completion_report.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\completion_report.json",
+      "sha256": "bf15d202ced6b30b8f3191c3e19c607e48fc204ac4230a8f314aeec607abe710"
+    },
+    "course-map.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\course-map.md",
+      "sha256": "ee7cdd55fb77e0ef4acf7e3a11915a2138ca749ae111acaeeaf22863a17ed91d"
+    },
+    "course.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\course.md",
+      "sha256": "e96724e8e3c6c39a9d8ff16643b4ad317e86d7cb1dd9d9a718676e7ed78fbf36"
+    },
+    "finalize_course.py": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\finalize_course.py",
+      "sha256": "25beffd623036d930c3fbaa9d3f31d25955cd613cc34bd2e17440af0842be701"
+    },
+    "input-contract.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\input-contract.json",
+      "sha256": "4f601d2a8d032fa8bba6bdaf8bdafe8afa856d6fd4aa24c53193c1da9bc294fb"
+    },
+    "launch-prompt.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\launch-prompt.md",
+      "sha256": "a37ab24d9a618f029c7b5e3ededad2f3ca3f4cd2f7f788f65423f76d79d2e15c"
+    },
+    "lesson-01.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\lesson-01.md",
+      "sha256": "2a8941021f3c6aa8af6078160e548342ca9269cdadfa4f088f26292eca3aa6ec"
+    },
+    "lesson-02.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\lesson-02.md",
+      "sha256": "148870f715184f5271ca27e5af81a5c0d8b0a7c8ae2efd92af6389c60013aef9"
+    },
+    "lesson-03.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\lesson-03.md",
+      "sha256": "1c542a7a7516f9e4c22952605e9438d40ca0ab2e080b8dca2aeec0c17978a89d"
+    },
+    "lesson-04.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\lesson-04.md",
+      "sha256": "2a276d57ce8f6fc90887e5c2e5a828a3a6eccd618f447b904a67486cc08f2549"
+    },
+    "lesson-05.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\lesson-05.md",
+      "sha256": "7d3c04e2d78ce2190115dfe1f8173f9a5deef3760e981bae7da8f0f31cc08fa7"
+    },
+    "lesson-06.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\lesson-06.md",
+      "sha256": "3ce57e42f4a34400128e0fe09ad7ce0a9d05d6207f41e91dfd13c4f238ab47db"
+    },
+    "lesson-07.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\lesson-07.md",
+      "sha256": "0c2011dd4a2b2212b8e541a34f9b2f637ab2c2cf07e4ea716aa350368ffcb4cb"
+    },
+    "lesson-08.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\lesson-08.md",
+      "sha256": "7c3931a7529610fc324f4b938238d7979588f8acfff244c991d0909f3b791791"
+    },
+    "manifest.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\manifest.json",
+      "sha256": "7c40d9573f4043b1bc229fb3254d9537057be1309ac76295dfb23805634ddb5d"
+    },
+    "sources.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\sources.md",
+      "sha256": "a6e58cd72cea05330b31932dfa1b857d2166d813c7a961561197406cc0e3d181"
+    },
+    "teacher-guide.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\teacher-guide.md",
+      "sha256": "acd3c5a8395c6e28687632355831ce2fd688c8a1b6b4a6b9606d75934af3cc69"
+    },
+    "terminology.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\terminology.md",
+      "sha256": "360c7e7069ab83a1edc66a7163f6bcc4dd42b88b28d2b8717d4eee608b6b0a02"
+    },
+    "verification.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\verification.json",
+      "sha256": "58245cde5b5b7565e109f3978da11eac1d16258dc253e9c2ebf845dae53e9098"
+    },
+    "verify_examples.py": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\verify_examples.py",
+      "sha256": "ad15c63f21569a2cec8e173179bd7a0253ff2592fed9feef1aa8d4a2a03a1803"
+    }
+  },
+  "source_hashes": [
+    {
+      "id": "S01",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180"
+    },
+    {
+      "id": "S02",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3"
+    },
+    {
+      "id": "S03",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e"
+    },
+    {
+      "id": "S04",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+      "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2"
+    },
+    {
+      "id": "S05",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+      "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7"
+    }
+  ],
+  "receipt_provenance": [
+    {
+      "role": "verification_record",
+      "path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-teaching-auditor\\outputs\\teaching-verification-28-30.json",
+      "sha256": "40b5b402379561e5b46439cf6d727ee1283bc1a7595bed2e6e4c15f26cbcabf8"
+    },
+    {
+      "role": "source_registry_path",
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\source-registry.json",
+      "sha256": "208a8ed59a10d72a74e1aa084b86d1f6809bb8f43168c7a98edc68598db5e78b"
+    }
+  ],
+  "actual_capstone_links": [
+    {
+      "step_id": "C30-CAP-01",
+      "lesson": "lesson-01.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C30.01-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C30.01-W1",
+          "line": 21
+        },
+        "prior_practice_id": {
+          "id": "C30.01-P1",
+          "line": 29
+        },
+        "diagnostic_id": {
+          "id": "C30.01-D1",
+          "line": 37
+        }
+      }
+    },
+    {
+      "step_id": "C30-CAP-02",
+      "lesson": "lesson-02.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C30.02-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C30.02-W1",
+          "line": 19
+        },
+        "prior_practice_id": {
+          "id": "C30.02-P1",
+          "line": 27
+        },
+        "diagnostic_id": {
+          "id": "C30.02-D1",
+          "line": 35
+        }
+      }
+    },
+    {
+      "step_id": "C30-CAP-03",
+      "lesson": "lesson-03.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C30.03-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C30.03-W1",
+          "line": 17
+        },
+        "prior_practice_id": {
+          "id": "C30.03-P1",
+          "line": 25
+        },
+        "diagnostic_id": {
+          "id": "C30.03-D1",
+          "line": 33
+        }
+      }
+    },
+    {
+      "step_id": "C30-CAP-04",
+      "lesson": "lesson-04.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C30.04-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C30.04-W1",
+          "line": 17
+        },
+        "prior_practice_id": {
+          "id": "C30.04-P1",
+          "line": 23
+        },
+        "diagnostic_id": {
+          "id": "C30.04-D1",
+          "line": 38
+        }
+      }
+    },
+    {
+      "step_id": "C30-CAP-05",
+      "lesson": "lesson-05.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C30.05-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C30.05-W1",
+          "line": 17
+        },
+        "prior_practice_id": {
+          "id": "C30.05-P1",
+          "line": 23
+        },
+        "diagnostic_id": {
+          "id": "C30.05-D1",
+          "line": 49
+        }
+      }
+    },
+    {
+      "step_id": "C30-CAP-06",
+      "lesson": "lesson-06.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C30.06-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C30.06-W1",
+          "line": 15
+        },
+        "prior_practice_id": {
+          "id": "C30.06-P1",
+          "line": 21
+        },
+        "diagnostic_id": {
+          "id": "C30.06-D1",
+          "line": 31
+        }
+      }
+    },
+    {
+      "step_id": "C30-CAP-07",
+      "lesson": "lesson-07.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C30.07-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C30.07-W1",
+          "line": 17
+        },
+        "prior_practice_id": {
+          "id": "C30.07-P1",
+          "line": 29
+        },
+        "diagnostic_id": {
+          "id": "C30.07-D1",
+          "line": 44
+        }
+      }
+    },
+    {
+      "step_id": "C30-CAP-08",
+      "lesson": "lesson-08.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C30.08-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C30.08-W1",
+          "line": 21
+        },
+        "prior_practice_id": {
+          "id": "C30.08-P1",
+          "line": 27
+        },
+        "diagnostic_id": {
+          "id": "C30.08-D1",
+          "line": 35
+        }
+      }
+    }
+  ],
+  "recovery_literal_checks": [
+    {
+      "file": "lesson-01.md",
+      "authoring_line": 11,
+      "method": "AST string literal extraction only; no execution or import."
+    },
+    {
+      "file": "lesson-02.md",
+      "authoring_line": 57,
+      "method": "AST string literal extraction only; no execution or import."
+    },
+    {
+      "file": "lesson-03.md",
+      "authoring_line": 101,
+      "method": "AST string literal extraction only; no execution or import."
+    },
+    {
+      "file": "lesson-04.md",
+      "authoring_line": 143,
+      "method": "AST string literal extraction only; no execution or import."
+    },
+    {
+      "file": "lesson-05.md",
+      "authoring_line": 190,
+      "method": "AST string literal extraction only; no execution or import."
+    },
+    {
+      "file": "lesson-06.md",
+      "authoring_line": 248,
+      "method": "AST string literal extraction only; no execution or import."
+    },
+    {
+      "file": "lesson-07.md",
+      "authoring_line": 288,
+      "method": "AST string literal extraction only; no execution or import."
+    },
+    {
+      "file": "lesson-08.md",
+      "authoring_line": 341,
+      "method": "AST string literal extraction only; no execution or import."
+    },
+    {
+      "file": "terminology.md",
+      "authoring_line": 440,
+      "method": "AST literal extraction only."
+    },
+    {
+      "file": "teacher-guide.md",
+      "authoring_line": 482,
+      "method": "AST literal extraction only."
+    },
+    {
+      "file": "capstone.md",
+      "authoring_line": 513,
+      "method": "AST literal extraction only."
+    }
+  ],
+  "markdown_tables": [
+    {
+      "file": "course-map.md",
+      "line": 9,
+      "columns": 7
+    },
+    {
+      "file": "terminology.md",
+      "line": 3,
+      "columns": 3
+    },
+    {
+      "file": "lesson-04.md",
+      "line": 27,
+      "columns": 4
+    },
+    {
+      "file": "lesson-05.md",
+      "line": 27,
+      "columns": 3
+    },
+    {
+      "file": "lesson-07.md",
+      "line": 19,
+      "columns": 3
+    },
+    {
+      "file": "lesson-07.md",
+      "line": 33,
+      "columns": 4
+    },
+    {
+      "file": "sources.md",
+      "line": 7,
+      "columns": 4
+    },
+    {
+      "file": "sources.md",
+      "line": 19,
+      "columns": 3
+    },
+    {
+      "file": "sources.md",
+      "line": 48,
+      "columns": 4
+    },
+    {
+      "file": "teacher-guide.md",
+      "line": 7,
+      "columns": 3
+    },
+    {
+      "file": "course.md",
+      "line": 165,
+      "columns": 4
+    },
+    {
+      "file": "course.md",
+      "line": 213,
+      "columns": 3
+    },
+    {
+      "file": "course.md",
+      "line": 305,
+      "columns": 3
+    },
+    {
+      "file": "course.md",
+      "line": 319,
+      "columns": 4
+    }
+  ],
+  "runtime": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+  "verifier_path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-series-source-auditor\\work\\audit_course30.py",
+  "verifier_sha256": "330b77fb4243f9ad79fcac971809c1363f802188b74ef15e35f043df3ce46a5e",
+  "check_count": 504,
+  "checks_by_group": {
+    "runtime": 1,
+    "integrity": 90,
+    "source-integrity": 7,
+    "assembly": 1,
+    "teaching-structure": 48,
+    "actual-links": 40,
+    "syntax-only": 3,
+    "recovery": 12,
+    "markdown": 159,
+    "local-links": 26,
+    "pacing": 2,
+    "rubric": 9,
+    "source-graph": 28,
+    "source-premises": 4,
+    "geometry": 8,
+    "ownership": 10,
+    "integerization": 10,
+    "mean-detail": 2,
+    "identifiability": 9,
+    "inverse": 4,
+    "phase-transfer": 5,
+    "discriminator": 4,
+    "protocol": 2,
+    "residual": 6,
+    "raw-status": 2,
+    "decoder": 5,
+    "source-decoder": 4,
+    "six-factors": 3
+  },
+  "checks": [
+    {
+      "group": "runtime",
+      "name": "explicit tf_gpu_env",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "course-map passed",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "course-map digest",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "sources passed",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "sources digest",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "terminology passed",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "terminology digest",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "lesson-01 passed",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "lesson-01 digest",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "lesson-02 passed",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "lesson-02 digest",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "lesson-03 passed",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "lesson-03 digest",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "lesson-04 passed",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "lesson-04 digest",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "lesson-05 passed",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "lesson-05 digest",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "lesson-06 passed",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "lesson-06 digest",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "lesson-07 passed",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "lesson-07 digest",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "lesson-08 passed",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "lesson-08 digest",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "teacher-guide passed",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "teacher-guide digest",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "capstone passed",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "capstone digest",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "course passed",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "course digest",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "audit_report passed",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "audit_report digest",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "verification passed",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "verification digest",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "verify_examples passed",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "verify_examples digest",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "build_course passed",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "build_course digest",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "input-contract passed",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "input-contract digest",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "launch-prompt passed",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "launch-prompt digest",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "finalize_course passed",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "finalize_course digest",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "course-map.md completion hash",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "sources.md completion hash",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "terminology.md completion hash",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "lesson-01.md completion hash",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "lesson-02.md completion hash",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "lesson-03.md completion hash",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "lesson-04.md completion hash",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "lesson-05.md completion hash",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "lesson-06.md completion hash",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "lesson-07.md completion hash",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "lesson-08.md completion hash",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "teacher-guide.md completion hash",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "capstone.md completion hash",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "course.md completion hash",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "audit_report.json completion hash",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "verification.json completion hash",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "verify_examples.py completion hash",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "build_course.py completion hash",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "input-contract.json completion hash",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "launch-prompt.md completion hash",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "finalize_course.py completion hash",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "manifest.json completion hash",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "course-map.md present",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "sources.md present",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "terminology.md present",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "lesson-01.md present",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "lesson-02.md present",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "lesson-03.md present",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "lesson-04.md present",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "lesson-05.md present",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "lesson-06.md present",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "lesson-07.md present",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "lesson-08.md present",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "teacher-guide.md present",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "capstone.md present",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "course.md present",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "audit_report.json present",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "verification.json present",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "verify_examples.py present",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "build_course.py present",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "input-contract.json present",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "launch-prompt.md present",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "finalize_course.py present",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "completion_report.json present",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "completion status",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "builder audit unresolved",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "manifest counts",
+      "passed": true
+    },
+    {
+      "group": "integrity",
+      "name": "course order",
+      "passed": true
+    },
+    {
+      "group": "source-integrity",
+      "name": "S01",
+      "passed": true
+    },
+    {
+      "group": "source-integrity",
+      "name": "S02",
+      "passed": true
+    },
+    {
+      "group": "source-integrity",
+      "name": "S03",
+      "passed": true
+    },
+    {
+      "group": "source-integrity",
+      "name": "S04",
+      "passed": true
+    },
+    {
+      "group": "source-integrity",
+      "name": "S05",
+      "passed": true
+    },
+    {
+      "group": "source-integrity",
+      "name": "verification_record",
+      "passed": true
+    },
+    {
+      "group": "source-integrity",
+      "name": "source_registry_path",
+      "passed": true
+    },
+    {
+      "group": "assembly",
+      "name": "entire ordered course equality",
+      "passed": true
+    },
+    {
+      "group": "teaching-structure",
+      "name": "lesson 1 Essential question:",
+      "passed": true
+    },
+    {
+      "group": "teaching-structure",
+      "name": "lesson 1 Goals:",
+      "passed": true
+    },
+    {
+      "group": "teaching-structure",
+      "name": "lesson 1 Prerequisite bridge:",
+      "passed": true
+    },
+    {
+      "group": "teaching-structure",
+      "name": "lesson 1 > Claim scope:",
+      "passed": true
+    },
+    {
+      "group": "teaching-structure",
+      "name": "lesson 1 Answer:",
+      "passed": true
+    },
+    {
+      "group": "actual-links",
+      "name": "C30.01-E1 unique heading",
+      "passed": true
+    },
+    {
+      "group": "actual-links",
+      "name": "C30.01-W1 unique heading",
+      "passed": true
+    },
+    {
+      "group": "actual-links",
+      "name": "C30.01-P1 unique heading",
+      "passed": true
+    },
+    {
+      "group": "actual-links",
+      "name": "C30.01-D1 unique heading",
+      "passed": true
+    },
+    {
+      "group": "actual-links",
+      "name": "lesson 1 anchor order",
+      "passed": true
+    },
+    {
+      "group": "teaching-structure",
+      "name": "lesson 1 diagnostics",
+      "passed": true
+    },
+    {
+      "group": "teaching-structure",
+      "name": "lesson 2 Essential question:",
+      "passed": true
+    },
+    {
+      "group": "teaching-structure",
+      "name": "lesson 2 Goals:",
+      "passed": true
+    },
+    {
+      "group": "teaching-structure",
+      "name": "lesson 2 Prerequisite bridge:",
+      "passed": true
+    },
+    {
+      "group": "teaching-structure",
+      "name": "lesson 2 > Claim scope:",
+      "passed": true
+    },
+    {
+      "group": "teaching-structure",
+      "name": "lesson 2 Answer:",
+      "passed": true
+    },
+    {
+      "group": "actual-links",
+      "name": "C30.02-E1 unique heading",
+      "passed": true
+    },
+    {
+      "group": "actual-links",
+      "name": "C30.02-W1 unique heading",
+      "passed": true
+    },
+    {
+      "group": "actual-links",
+      "name": "C30.02-P1 unique heading",
+      "passed": true
+    },
+    {
+      "group": "actual-links",
+      "name": "C30.02-D1 unique heading",
+      "passed": true
+    },
+    {
+      "group": "actual-links",
+      "name": "lesson 2 anchor order",
+      "passed": true
+    },
+    {
+      "group": "teaching-structure",
+      "name": "lesson 2 diagnostics",
+      "passed": true
+    },
+    {
+      "group": "teaching-structure",
+      "name": "lesson 3 Essential question:",
+      "passed": true
+    },
+    {
+      "group": "teaching-structure",
+      "name": "lesson 3 Goals:",
+      "passed": true
+    },
+    {
+      "group": "teaching-structure",
+      "name": "lesson 3 Prerequisite bridge:",
+      "passed": true
+    },
+    {
+      "group": "teaching-structure",
+      "name": "lesson 3 > Claim scope:",
+      "passed": true
+    },
+    {
+      "group": "teaching-structure",
+      "name": "lesson 3 Answer:",
+      "passed": true
+    },
+    {
+      "group": "actual-links",
+      "name": "C30.03-E1 unique heading",
+      "passed": true
+    },
+    {
+      "group": "actual-links",
+      "name": "C30.03-W1 unique heading",
+      "passed": true
+    },
+    {
+      "group": "actual-links",
+      "name": "C30.03-P1 unique heading",
+      "passed": true
+    },
+    {
+      "group": "actual-links",
+      "name": "C30.03-D1 unique heading",
+      "passed": true
+    },
+    {
+      "group": "actual-links",
+      "name": "lesson 3 anchor order",
+      "passed": true
+    },
+    {
+      "group": "teaching-structure",
+      "name": "lesson 3 diagnostics",
+      "passed": true
+    },
+    {
+      "group": "teaching-structure",
+      "name": "lesson 4 Essential question:",
+      "passed": true
+    },
+    {
+      "group": "teaching-structure",
+      "name": "lesson 4 Goals:",
+      "passed": true
+    },
+    {
+      "group": "teaching-structure",
+      "name": "lesson 4 Prerequisite bridge:",
+      "passed": true
+    },
+    {
+      "group": "teaching-structure",
+      "name": "lesson 4 > Claim scope:",
+      "passed": true
+    },
+    {
+      "group": "teaching-structure",
+      "name": "lesson 4 Answer:",
+      "passed": true
+    },
+    {
+      "group": "actual-links",
+      "name": "C30.04-E1 unique heading",
+      "passed": true
+    },
+    {
+      "group": "actual-links",
+      "name": "C30.04-W1 unique heading",
+      "passed": true
+    },
+    {
+      "group": "actual-links",
+      "name": "C30.04-P1 unique heading",
+      "passed": true
+    },
+    {
+      "group": "actual-links",
+      "name": "C30.04-D1 unique heading",
+      "passed": true
+    },
+    {
+      "group": "actual-links",
+      "name": "lesson 4 anchor order",
+      "passed": true
+    },
+    {
+      "group": "teaching-structure",
+      "name": "lesson 4 diagnostics",
+      "passed": true
+    },
+    {
+      "group": "teaching-structure",
+      "name": "lesson 5 Essential question:",
+      "passed": true
+    },
+    {
+      "group": "teaching-structure",
+      "name": "lesson 5 Goals:",
+      "passed": true
+    },
+    {
+      "group": "teaching-structure",
+      "name": "lesson 5 Prerequisite bridge:",
+      "passed": true
+    },
+    {
+      "group": "teaching-structure",
+      "name": "lesson 5 > Claim scope:",
+      "passed": true
+    },
+    {
+      "group": "teaching-structure",
+      "name": "lesson 5 Answer:",
+      "passed": true
+    },
+    {
+      "group": "actual-links",
+      "name": "C30.05-E1 unique heading",
+      "passed": true
+    },
+    {
+      "group": "actual-links",
+      "name": "C30.05-W1 unique heading",
+      "passed": true
+    },
+    {
+      "group": "actual-links",
+      "name": "C30.05-P1 unique heading",
+      "passed": true
+    },
+    {
+      "group": "actual-links",
+      "name": "C30.05-D1 unique heading",
+      "passed": true
+    },
+    {
+      "group": "actual-links",
+      "name": "lesson 5 anchor order",
+      "passed": true
+    },
+    {
+      "group": "teaching-structure",
+      "name": "lesson 5 diagnostics",
+      "passed": true
+    },
+    {
+      "group": "teaching-structure",
+      "name": "lesson 6 Essential question:",
+      "passed": true
+    },
+    {
+      "group": "teaching-structure",
+      "name": "lesson 6 Goals:",
+      "passed": true
+    },
+    {
+      "group": "teaching-structure",
+      "name": "lesson 6 Prerequisite bridge:",
+      "passed": true
+    },
+    {
+      "group": "teaching-structure",
+      "name": "lesson 6 > Claim scope:",
+      "passed": true
+    },
+    {
+      "group": "teaching-structure",
+      "name": "lesson 6 Answer:",
+      "passed": true
+    },
+    {
+      "group": "actual-links",
+      "name": "C30.06-E1 unique heading",
+      "passed": true
+    },
+    {
+      "group": "actual-links",
+      "name": "C30.06-W1 unique heading",
+      "passed": true
+    },
+    {
+      "group": "actual-links",
+      "name": "C30.06-P1 unique heading",
+      "passed": true
+    },
+    {
+      "group": "actual-links",
+      "name": "C30.06-D1 unique heading",
+      "passed": true
+    },
+    {
+      "group": "actual-links",
+      "name": "lesson 6 anchor order",
+      "passed": true
+    },
+    {
+      "group": "teaching-structure",
+      "name": "lesson 6 diagnostics",
+      "passed": true
+    },
+    {
+      "group": "teaching-structure",
+      "name": "lesson 7 Essential question:",
+      "passed": true
+    },
+    {
+      "group": "teaching-structure",
+      "name": "lesson 7 Goals:",
+      "passed": true
+    },
+    {
+      "group": "teaching-structure",
+      "name": "lesson 7 Prerequisite bridge:",
+      "passed": true
+    },
+    {
+      "group": "teaching-structure",
+      "name": "lesson 7 > Claim scope:",
+      "passed": true
+    },
+    {
+      "group": "teaching-structure",
+      "name": "lesson 7 Answer:",
+      "passed": true
+    },
+    {
+      "group": "actual-links",
+      "name": "C30.07-E1 unique heading",
+      "passed": true
+    },
+    {
+      "group": "actual-links",
+      "name": "C30.07-W1 unique heading",
+      "passed": true
+    },
+    {
+      "group": "actual-links",
+      "name": "C30.07-P1 unique heading",
+      "passed": true
+    },
+    {
+      "group": "actual-links",
+      "name": "C30.07-D1 unique heading",
+      "passed": true
+    },
+    {
+      "group": "actual-links",
+      "name": "lesson 7 anchor order",
+      "passed": true
+    },
+    {
+      "group": "teaching-structure",
+      "name": "lesson 7 diagnostics",
+      "passed": true
+    },
+    {
+      "group": "teaching-structure",
+      "name": "lesson 8 Essential question:",
+      "passed": true
+    },
+    {
+      "group": "teaching-structure",
+      "name": "lesson 8 Goals:",
+      "passed": true
+    },
+    {
+      "group": "teaching-structure",
+      "name": "lesson 8 Prerequisite bridge:",
+      "passed": true
+    },
+    {
+      "group": "teaching-structure",
+      "name": "lesson 8 > Claim scope:",
+      "passed": true
+    },
+    {
+      "group": "teaching-structure",
+      "name": "lesson 8 Answer:",
+      "passed": true
+    },
+    {
+      "group": "actual-links",
+      "name": "C30.08-E1 unique heading",
+      "passed": true
+    },
+    {
+      "group": "actual-links",
+      "name": "C30.08-W1 unique heading",
+      "passed": true
+    },
+    {
+      "group": "actual-links",
+      "name": "C30.08-P1 unique heading",
+      "passed": true
+    },
+    {
+      "group": "actual-links",
+      "name": "C30.08-D1 unique heading",
+      "passed": true
+    },
+    {
+      "group": "actual-links",
+      "name": "lesson 8 anchor order",
+      "passed": true
+    },
+    {
+      "group": "teaching-structure",
+      "name": "lesson 8 diagnostics",
+      "passed": true
+    },
+    {
+      "group": "syntax-only",
+      "name": "build_course.py",
+      "passed": true
+    },
+    {
+      "group": "syntax-only",
+      "name": "finalize_course.py",
+      "passed": true
+    },
+    {
+      "group": "syntax-only",
+      "name": "verify_examples.py",
+      "passed": true
+    },
+    {
+      "group": "recovery",
+      "name": "lesson 1 literal matches current lesson",
+      "passed": true
+    },
+    {
+      "group": "recovery",
+      "name": "lesson 2 literal matches current lesson",
+      "passed": true
+    },
+    {
+      "group": "recovery",
+      "name": "lesson 3 literal matches current lesson",
+      "passed": true
+    },
+    {
+      "group": "recovery",
+      "name": "lesson 4 literal matches current lesson",
+      "passed": true
+    },
+    {
+      "group": "recovery",
+      "name": "lesson 5 literal matches current lesson",
+      "passed": true
+    },
+    {
+      "group": "recovery",
+      "name": "lesson 6 literal matches current lesson",
+      "passed": true
+    },
+    {
+      "group": "recovery",
+      "name": "lesson 7 literal matches current lesson",
+      "passed": true
+    },
+    {
+      "group": "recovery",
+      "name": "lesson 8 literal matches current lesson",
+      "passed": true
+    },
+    {
+      "group": "recovery",
+      "name": "terminology.md literal matches current file",
+      "passed": true
+    },
+    {
+      "group": "recovery",
+      "name": "teacher-guide.md literal matches current file",
+      "passed": true
+    },
+    {
+      "group": "recovery",
+      "name": "capstone.md literal matches current file",
+      "passed": true
+    },
+    {
+      "group": "recovery",
+      "name": "eight lesson literals recovered",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "course-map.md:9 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "course-map.md:10 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "course-map.md:11 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "course-map.md:12 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "course-map.md:13 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "course-map.md:14 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "course-map.md:15 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "course-map.md:16 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "course-map.md:17 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "course-map.md:18 width",
+      "passed": true
+    },
+    {
+      "group": "local-links",
+      "name": "course-map.md -> lesson-01.md",
+      "passed": true
+    },
+    {
+      "group": "local-links",
+      "name": "course-map.md -> lesson-02.md",
+      "passed": true
+    },
+    {
+      "group": "local-links",
+      "name": "course-map.md -> lesson-03.md",
+      "passed": true
+    },
+    {
+      "group": "local-links",
+      "name": "course-map.md -> lesson-04.md",
+      "passed": true
+    },
+    {
+      "group": "local-links",
+      "name": "course-map.md -> lesson-05.md",
+      "passed": true
+    },
+    {
+      "group": "local-links",
+      "name": "course-map.md -> lesson-06.md",
+      "passed": true
+    },
+    {
+      "group": "local-links",
+      "name": "course-map.md -> lesson-07.md",
+      "passed": true
+    },
+    {
+      "group": "local-links",
+      "name": "course-map.md -> lesson-08.md",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "terminology.md:3 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "terminology.md:4 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "terminology.md:5 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "terminology.md:6 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "terminology.md:7 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "terminology.md:8 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "terminology.md:9 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "terminology.md:10 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "terminology.md:11 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "terminology.md:12 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "terminology.md:13 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "terminology.md:14 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "terminology.md:15 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "terminology.md:16 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "terminology.md:17 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "terminology.md:18 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "terminology.md:19 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "terminology.md:20 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "terminology.md:21 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "terminology.md:22 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "terminology.md:23 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "terminology.md:24 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "terminology.md:25 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "terminology.md:26 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "terminology.md:27 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "terminology.md:28 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "terminology.md:29 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "terminology.md:30 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "terminology.md:31 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "terminology.md:32 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "terminology.md:33 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "terminology.md:34 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "terminology.md:35 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "terminology.md:36 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "terminology.md:37 width",
+      "passed": true
+    },
+    {
+      "group": "local-links",
+      "name": "lesson-01.md -> sources.md",
+      "passed": true
+    },
+    {
+      "group": "local-links",
+      "name": "lesson-01.md -> lesson-02.md",
+      "passed": true
+    },
+    {
+      "group": "local-links",
+      "name": "lesson-02.md -> lesson-03.md",
+      "passed": true
+    },
+    {
+      "group": "local-links",
+      "name": "lesson-03.md -> lesson-04.md",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "lesson-04.md:27 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "lesson-04.md:28 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "lesson-04.md:29 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "lesson-04.md:30 width",
+      "passed": true
+    },
+    {
+      "group": "local-links",
+      "name": "lesson-04.md -> lesson-05.md",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "lesson-05.md:27 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "lesson-05.md:28 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "lesson-05.md:29 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "lesson-05.md:30 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "lesson-05.md:31 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "lesson-05.md:32 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "lesson-05.md:33 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "lesson-05.md:34 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "lesson-05.md:35 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "lesson-05.md:36 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "lesson-05.md:37 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "lesson-05.md:38 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "lesson-05.md:39 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "lesson-05.md:40 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "lesson-05.md:41 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "lesson-05.md:42 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "lesson-05.md:43 width",
+      "passed": true
+    },
+    {
+      "group": "local-links",
+      "name": "lesson-05.md -> lesson-06.md",
+      "passed": true
+    },
+    {
+      "group": "local-links",
+      "name": "lesson-06.md -> lesson-07.md",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "lesson-07.md:19 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "lesson-07.md:20 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "lesson-07.md:21 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "lesson-07.md:22 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "lesson-07.md:23 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "lesson-07.md:24 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "lesson-07.md:25 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "lesson-07.md:33 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "lesson-07.md:34 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "lesson-07.md:35 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "lesson-07.md:36 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "lesson-07.md:37 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "lesson-07.md:38 width",
+      "passed": true
+    },
+    {
+      "group": "local-links",
+      "name": "lesson-07.md -> lesson-08.md",
+      "passed": true
+    },
+    {
+      "group": "local-links",
+      "name": "lesson-08.md -> capstone.md",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "sources.md:7 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "sources.md:8 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "sources.md:9 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "sources.md:10 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "sources.md:11 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "sources.md:12 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "sources.md:13 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "sources.md:19 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "sources.md:20 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "sources.md:21 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "sources.md:22 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "sources.md:23 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "sources.md:24 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "sources.md:25 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "sources.md:26 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "sources.md:27 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "sources.md:28 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "sources.md:29 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "sources.md:30 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "sources.md:31 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "sources.md:32 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "sources.md:33 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "sources.md:34 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "sources.md:35 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "sources.md:36 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "sources.md:37 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "sources.md:38 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "sources.md:39 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "sources.md:40 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "sources.md:48 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "sources.md:49 width",
+      "passed": false,
+      "actual": 3,
+      "expected": 4
+    },
+    {
+      "group": "markdown",
+      "name": "sources.md:50 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "sources.md:51 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "sources.md:52 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "sources.md:53 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "sources.md:54 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "teacher-guide.md:7 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "teacher-guide.md:8 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "teacher-guide.md:9 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "teacher-guide.md:10 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "teacher-guide.md:11 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "teacher-guide.md:12 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "teacher-guide.md:13 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "teacher-guide.md:14 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "teacher-guide.md:15 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "teacher-guide.md:16 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "course.md:165 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "course.md:166 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "course.md:167 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "course.md:168 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "course.md:213 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "course.md:214 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "course.md:215 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "course.md:216 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "course.md:217 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "course.md:218 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "course.md:219 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "course.md:220 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "course.md:221 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "course.md:222 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "course.md:223 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "course.md:224 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "course.md:225 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "course.md:226 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "course.md:227 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "course.md:228 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "course.md:229 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "course.md:305 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "course.md:306 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "course.md:307 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "course.md:308 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "course.md:309 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "course.md:310 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "course.md:311 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "course.md:319 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "course.md:320 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "course.md:321 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "course.md:322 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "course.md:323 width",
+      "passed": true
+    },
+    {
+      "group": "markdown",
+      "name": "course.md:324 width",
+      "passed": true
+    },
+    {
+      "group": "local-links",
+      "name": "course.md -> sources.md",
+      "passed": true
+    },
+    {
+      "group": "local-links",
+      "name": "course.md -> lesson-02.md",
+      "passed": true
+    },
+    {
+      "group": "local-links",
+      "name": "course.md -> lesson-03.md",
+      "passed": true
+    },
+    {
+      "group": "local-links",
+      "name": "course.md -> lesson-04.md",
+      "passed": true
+    },
+    {
+      "group": "local-links",
+      "name": "course.md -> lesson-05.md",
+      "passed": true
+    },
+    {
+      "group": "local-links",
+      "name": "course.md -> lesson-06.md",
+      "passed": true
+    },
+    {
+      "group": "local-links",
+      "name": "course.md -> lesson-07.md",
+      "passed": true
+    },
+    {
+      "group": "local-links",
+      "name": "course.md -> lesson-08.md",
+      "passed": true
+    },
+    {
+      "group": "local-links",
+      "name": "course.md -> capstone.md",
+      "passed": true
+    },
+    {
+      "group": "pacing",
+      "name": "period allocation",
+      "passed": true
+    },
+    {
+      "group": "pacing",
+      "name": "total minutes",
+      "passed": true
+    },
+    {
+      "group": "rubric",
+      "name": "total points",
+      "passed": true
+    },
+    {
+      "group": "rubric",
+      "name": "section 1 four points",
+      "passed": true
+    },
+    {
+      "group": "rubric",
+      "name": "section 2 four points",
+      "passed": true
+    },
+    {
+      "group": "rubric",
+      "name": "section 3 four points",
+      "passed": true
+    },
+    {
+      "group": "rubric",
+      "name": "section 4 four points",
+      "passed": true
+    },
+    {
+      "group": "rubric",
+      "name": "section 5 four points",
+      "passed": true
+    },
+    {
+      "group": "rubric",
+      "name": "section 6 four points",
+      "passed": true
+    },
+    {
+      "group": "rubric",
+      "name": "section 7 four points",
+      "passed": true
+    },
+    {
+      "group": "rubric",
+      "name": "section 8 four points",
+      "passed": true
+    },
+    {
+      "group": "source-graph",
+      "name": "18 M20 requirements",
+      "passed": true
+    },
+    {
+      "group": "source-graph",
+      "name": "52 unique internal edges",
+      "passed": true
+    },
+    {
+      "group": "source-graph",
+      "name": "M19 not M20 input",
+      "passed": true
+    },
+    {
+      "group": "source-graph",
+      "name": "all edges forward",
+      "passed": true
+    },
+    {
+      "group": "source-graph",
+      "name": "M17 inputs",
+      "passed": true
+    },
+    {
+      "group": "source-graph",
+      "name": "M18 inputs",
+      "passed": true
+    },
+    {
+      "group": "source-graph",
+      "name": "M19 inputs",
+      "passed": true
+    },
+    {
+      "group": "source-graph",
+      "name": "M13 nonmodule domains",
+      "passed": true
+    },
+    {
+      "group": "source-graph",
+      "name": "M01 printed exact dependency row",
+      "passed": true
+    },
+    {
+      "group": "source-graph",
+      "name": "M02 printed exact dependency row",
+      "passed": true
+    },
+    {
+      "group": "source-graph",
+      "name": "M03 printed exact dependency row",
+      "passed": true
+    },
+    {
+      "group": "source-graph",
+      "name": "M04 printed exact dependency row",
+      "passed": true
+    },
+    {
+      "group": "source-graph",
+      "name": "M05 printed exact dependency row",
+      "passed": true
+    },
+    {
+      "group": "source-graph",
+      "name": "M06 printed exact dependency row",
+      "passed": true
+    },
+    {
+      "group": "source-graph",
+      "name": "M07 printed exact dependency row",
+      "passed": true
+    },
+    {
+      "group": "source-graph",
+      "name": "M08 printed exact dependency row",
+      "passed": true
+    },
+    {
+      "group": "source-graph",
+      "name": "M09 printed exact dependency row",
+      "passed": true
+    },
+    {
+      "group": "source-graph",
+      "name": "M10 printed exact dependency row",
+      "passed": true
+    },
+    {
+      "group": "source-graph",
+      "name": "M11 printed exact dependency row",
+      "passed": true
+    },
+    {
+      "group": "source-graph",
+      "name": "M12 printed exact dependency row",
+      "passed": true
+    },
+    {
+      "group": "source-graph",
+      "name": "M13 printed exact dependency row",
+      "passed": true
+    },
+    {
+      "group": "source-graph",
+      "name": "M14 printed exact dependency row",
+      "passed": true
+    },
+    {
+      "group": "source-graph",
+      "name": "M15 printed exact dependency row",
+      "passed": true
+    },
+    {
+      "group": "source-graph",
+      "name": "M16 printed exact dependency row",
+      "passed": true
+    },
+    {
+      "group": "source-graph",
+      "name": "M17 printed exact dependency row",
+      "passed": true
+    },
+    {
+      "group": "source-graph",
+      "name": "M18 printed exact dependency row",
+      "passed": true
+    },
+    {
+      "group": "source-graph",
+      "name": "M19 printed exact dependency row",
+      "passed": true
+    },
+    {
+      "group": "source-graph",
+      "name": "M20 printed exact dependency row",
+      "passed": true
+    },
+    {
+      "group": "source-premises",
+      "name": "all six IDs",
+      "passed": true
+    },
+    {
+      "group": "source-premises",
+      "name": "premise roles",
+      "passed": true
+    },
+    {
+      "group": "source-premises",
+      "name": "four state coordinates",
+      "passed": true
+    },
+    {
+      "group": "source-premises",
+      "name": "precision residual preserved",
+      "passed": true
+    },
+    {
+      "group": "geometry",
+      "name": "actual printed input column",
+      "passed": true
+    },
+    {
+      "group": "geometry",
+      "name": "printed half column",
+      "passed": true
+    },
+    {
+      "group": "geometry",
+      "name": "column pointer 0",
+      "passed": true
+    },
+    {
+      "group": "geometry",
+      "name": "column pointer 1",
+      "passed": true
+    },
+    {
+      "group": "geometry",
+      "name": "column pointer 2",
+      "passed": true
+    },
+    {
+      "group": "geometry",
+      "name": "negative determinant retained",
+      "passed": true
+    },
+    {
+      "group": "geometry",
+      "name": "exact stored-basis inverse address",
+      "passed": true
+    },
+    {
+      "group": "geometry",
+      "name": "inverse physical reconstruction",
+      "passed": true
+    },
+    {
+      "group": "ownership",
+      "name": "1/2 domain",
+      "passed": true
+    },
+    {
+      "group": "ownership",
+      "name": "1/2 reconstruction",
+      "passed": true
+    },
+    {
+      "group": "integerization",
+      "name": "1/2 epsilon domain",
+      "passed": true
+    },
+    {
+      "group": "integerization",
+      "name": "1/2 reconstruction",
+      "passed": true
+    },
+    {
+      "group": "ownership",
+      "name": "-1/2 domain",
+      "passed": true
+    },
+    {
+      "group": "ownership",
+      "name": "-1/2 reconstruction",
+      "passed": true
+    },
+    {
+      "group": "integerization",
+      "name": "-1/2 epsilon domain",
+      "passed": true
+    },
+    {
+      "group": "integerization",
+      "name": "-1/2 reconstruction",
+      "passed": true
+    },
+    {
+      "group": "ownership",
+      "name": "3/2 domain",
+      "passed": true
+    },
+    {
+      "group": "ownership",
+      "name": "3/2 reconstruction",
+      "passed": true
+    },
+    {
+      "group": "integerization",
+      "name": "3/2 epsilon domain",
+      "passed": true
+    },
+    {
+      "group": "integerization",
+      "name": "3/2 reconstruction",
+      "passed": true
+    },
+    {
+      "group": "ownership",
+      "name": "-3/2 domain",
+      "passed": true
+    },
+    {
+      "group": "ownership",
+      "name": "-3/2 reconstruction",
+      "passed": true
+    },
+    {
+      "group": "integerization",
+      "name": "-3/2 epsilon domain",
+      "passed": true
+    },
+    {
+      "group": "integerization",
+      "name": "-3/2 reconstruction",
+      "passed": true
+    },
+    {
+      "group": "ownership",
+      "name": "1/3 domain",
+      "passed": true
+    },
+    {
+      "group": "ownership",
+      "name": "1/3 reconstruction",
+      "passed": true
+    },
+    {
+      "group": "integerization",
+      "name": "1/3 epsilon domain",
+      "passed": true
+    },
+    {
+      "group": "integerization",
+      "name": "1/3 reconstruction",
+      "passed": true
+    },
+    {
+      "group": "mean-detail",
+      "name": "(2, 6)",
+      "passed": true
+    },
+    {
+      "group": "mean-detail",
+      "name": "(3, 7)",
+      "passed": true
+    },
+    {
+      "group": "identifiability",
+      "name": "original rank",
+      "passed": true
+    },
+    {
+      "group": "identifiability",
+      "name": "extended rank",
+      "passed": true
+    },
+    {
+      "group": "identifiability",
+      "name": "redundant third row rank",
+      "passed": true
+    },
+    {
+      "group": "identifiability",
+      "name": "null direction",
+      "passed": true
+    },
+    {
+      "group": "identifiability",
+      "name": "[2, 1] original equal output",
+      "passed": true
+    },
+    {
+      "group": "identifiability",
+      "name": "[1, 2] original equal output",
+      "passed": true
+    },
+    {
+      "group": "identifiability",
+      "name": "[0, 3] original equal output",
+      "passed": true
+    },
+    {
+      "group": "inverse",
+      "name": "5 parameters",
+      "passed": true
+    },
+    {
+      "group": "inverse",
+      "name": "5 all three rows",
+      "passed": true
+    },
+    {
+      "group": "inverse",
+      "name": "4 parameters",
+      "passed": true
+    },
+    {
+      "group": "inverse",
+      "name": "4 all three rows",
+      "passed": true
+    },
+    {
+      "group": "identifiability",
+      "name": "product ambiguity",
+      "passed": true
+    },
+    {
+      "group": "identifiability",
+      "name": "known nonzero reference",
+      "passed": true
+    },
+    {
+      "group": "phase-transfer",
+      "name": "0 rank",
+      "passed": true
+    },
+    {
+      "group": "phase-transfer",
+      "name": "1 rank",
+      "passed": true
+    },
+    {
+      "group": "phase-transfer",
+      "name": "-1 rank",
+      "passed": true
+    },
+    {
+      "group": "phase-transfer",
+      "name": "1/2 rank",
+      "passed": true
+    },
+    {
+      "group": "phase-transfer",
+      "name": "supplied phase",
+      "passed": true
+    },
+    {
+      "group": "discriminator",
+      "name": "four two-question responses",
+      "passed": true
+    },
+    {
+      "group": "discriminator",
+      "name": "one question inadequate",
+      "passed": true
+    },
+    {
+      "group": "discriminator",
+      "name": "disjoint intervals",
+      "passed": true
+    },
+    {
+      "group": "discriminator",
+      "name": "zero matches neither",
+      "passed": true
+    },
+    {
+      "group": "protocol",
+      "name": "offset reversal",
+      "passed": true
+    },
+    {
+      "group": "protocol",
+      "name": "offset corrected value",
+      "passed": true
+    },
+    {
+      "group": "residual",
+      "name": "authored rehearsal A",
+      "passed": true
+    },
+    {
+      "group": "residual",
+      "name": "authored rehearsal B",
+      "passed": true
+    },
+    {
+      "group": "residual",
+      "name": "conditional future A",
+      "passed": true
+    },
+    {
+      "group": "residual",
+      "name": "conditional future B",
+      "passed": true
+    },
+    {
+      "group": "residual",
+      "name": "diagnostic synthetic A",
+      "passed": true
+    },
+    {
+      "group": "residual",
+      "name": "diagnostic synthetic B",
+      "passed": true
+    },
+    {
+      "group": "raw-status",
+      "name": "lossless reconstruction",
+      "passed": true
+    },
+    {
+      "group": "raw-status",
+      "name": "absent retained",
+      "passed": true
+    },
+    {
+      "group": "decoder",
+      "name": "derived coefficients",
+      "passed": true
+    },
+    {
+      "group": "decoder",
+      "name": "all retained residuals",
+      "passed": true
+    },
+    {
+      "group": "decoder",
+      "name": "column orthogonality",
+      "passed": true
+    },
+    {
+      "group": "decoder",
+      "name": "all channel reconstruction",
+      "passed": true
+    },
+    {
+      "group": "decoder",
+      "name": "rank and residual dimension",
+      "passed": true
+    },
+    {
+      "group": "source-decoder",
+      "name": "shape",
+      "passed": true
+    },
+    {
+      "group": "source-decoder",
+      "name": "rank",
+      "passed": true
+    },
+    {
+      "group": "source-decoder",
+      "name": "retained syndrome dimension",
+      "passed": true
+    },
+    {
+      "group": "source-decoder",
+      "name": "source stated Gram blocks",
+      "passed": true
+    },
+    {
+      "group": "six-factors",
+      "name": "complete product",
+      "passed": true
+    },
+    {
+      "group": "six-factors",
+      "name": "deleted-heavy product",
+      "passed": true
+    },
+    {
+      "group": "six-factors",
+      "name": "all source names present",
+      "passed": true
+    }
+  ],
+  "failures": [
+    {
+      "group": "markdown",
+      "name": "sources.md:49 width",
+      "passed": false,
+      "actual": 3,
+      "expected": 4
+    }
+  ],
+  "results": {
+    "dependency_graph": {
+      "edges": [
+        [
+          "M01",
+          "M02"
+        ],
+        [
+          "M01",
+          "M05"
+        ],
+        [
+          "M01",
+          "M07"
+        ],
+        [
+          "M01",
+          "M20"
+        ],
+        [
+          "M02",
+          "M03"
+        ],
+        [
+          "M02",
+          "M20"
+        ],
+        [
+          "M03",
+          "M04"
+        ],
+        [
+          "M03",
+          "M08"
+        ],
+        [
+          "M03",
+          "M14"
+        ],
+        [
+          "M03",
+          "M18"
+        ],
+        [
+          "M03",
+          "M20"
+        ],
+        [
+          "M04",
+          "M05"
+        ],
+        [
+          "M04",
+          "M13"
+        ],
+        [
+          "M04",
+          "M18"
+        ],
+        [
+          "M04",
+          "M20"
+        ],
+        [
+          "M05",
+          "M06"
+        ],
+        [
+          "M05",
+          "M07"
+        ],
+        [
+          "M05",
+          "M17"
+        ],
+        [
+          "M05",
+          "M20"
+        ],
+        [
+          "M06",
+          "M07"
+        ],
+        [
+          "M06",
+          "M09"
+        ],
+        [
+          "M06",
+          "M20"
+        ],
+        [
+          "M07",
+          "M08"
+        ],
+        [
+          "M07",
+          "M19"
+        ],
+        [
+          "M07",
+          "M20"
+        ],
+        [
+          "M08",
+          "M09"
+        ],
+        [
+          "M08",
+          "M19"
+        ],
+        [
+          "M08",
+          "M20"
+        ],
+        [
+          "M09",
+          "M10"
+        ],
+        [
+          "M09",
+          "M20"
+        ],
+        [
+          "M10",
+          "M11"
+        ],
+        [
+          "M10",
+          "M13"
+        ],
+        [
+          "M10",
+          "M15"
+        ],
+        [
+          "M10",
+          "M19"
+        ],
+        [
+          "M10",
+          "M20"
+        ],
+        [
+          "M11",
+          "M12"
+        ],
+        [
+          "M11",
+          "M14"
+        ],
+        [
+          "M11",
+          "M16"
+        ],
+        [
+          "M11",
+          "M17"
+        ],
+        [
+          "M11",
+          "M20"
+        ],
+        [
+          "M12",
+          "M20"
+        ],
+        [
+          "M13",
+          "M15"
+        ],
+        [
+          "M13",
+          "M19"
+        ],
+        [
+          "M13",
+          "M20"
+        ],
+        [
+          "M14",
+          "M15"
+        ],
+        [
+          "M14",
+          "M16"
+        ],
+        [
+          "M14",
+          "M20"
+        ],
+        [
+          "M15",
+          "M20"
+        ],
+        [
+          "M16",
+          "M20"
+        ],
+        [
+          "M17",
+          "M20"
+        ],
+        [
+          "M18",
+          "M19"
+        ],
+        [
+          "M18",
+          "M20"
+        ]
+      ],
+      "core": [
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05",
+        "M06",
+        "M07",
+        "M08",
+        "M09",
+        "M10",
+        "M11",
+        "M12",
+        "M13",
+        "M14",
+        "M15",
+        "M16",
+        "M17",
+        "M18"
+      ],
+      "M13_external_domains": [
+        "site-indexed compact-group links",
+        "positive native plaquette/detail coefficients"
+      ],
+      "constitutive_ids": [
+        "EG-A1",
+        "EG-A2",
+        "EG-A3",
+        "EG-A4",
+        "EG-A5",
+        "EG-A6"
+      ],
+      "state_coordinates": [
+        "uniform scale before the locked area anchor",
+        "time/action normalization",
+        "vacuum magnitude and admitted operator coefficients",
+        "occupied six-coordinate mass/coupling state"
+      ],
+      "scope": "Source graph and premise readback only, not proof-body verification."
+    },
+    "geometry": {
+      "source_pointer": "/mature_locked_cell3/B_nm",
+      "input_column_nm": [
+        "0.3275012420558906",
+        "-0.0548970078840064",
+        "-0.0374875028947299"
+      ],
+      "half_column_nm": [
+        "0.1637506210279453",
+        "-0.0274485039420032",
+        "-0.01874375144736495"
+      ],
+      "recovered_address": [
+        "1/2",
+        "0",
+        "0"
+      ],
+      "reconstruction_residual_nm": [
+        "0",
+        "0",
+        "0"
+      ],
+      "stored_basis_determinant_nm3": "-0.117914891911744626838502803509518931924895262922",
+      "computed_minus_reported_determinant_nm3": "2.3161497196490481068075104737078E-17",
+      "scope": "Exact rational operations on printed stored decimals; not new measurement or full-precision geometry recertification."
+    },
+    "ownership_and_distinct_rounding": [
+      {
+        "address": "1/2",
+        "owner": 1,
+        "local": "-1/2",
+        "lower_tie_integer": 0,
+        "integerization_residual": "-1/2"
+      },
+      {
+        "address": "-1/2",
+        "owner": 0,
+        "local": "-1/2",
+        "lower_tie_integer": -1,
+        "integerization_residual": "-1/2"
+      },
+      {
+        "address": "3/2",
+        "owner": 2,
+        "local": "-1/2",
+        "lower_tie_integer": 1,
+        "integerization_residual": "-1/2"
+      },
+      {
+        "address": "-3/2",
+        "owner": -1,
+        "local": "-1/2",
+        "lower_tie_integer": -2,
+        "integerization_residual": "-1/2"
+      },
+      {
+        "address": "1/3",
+        "owner": 0,
+        "local": "1/3",
+        "lower_tie_integer": 0,
+        "integerization_residual": "-1/3"
+      }
+    ],
+    "mean_detail": [
+      {
+        "input": [
+          2,
+          6
+        ],
+        "mean": "4",
+        "detail": "-2",
+        "reconstruction": [
+          "2",
+          "6"
+        ]
+      },
+      {
+        "input": [
+          3,
+          7
+        ],
+        "mean": "5",
+        "detail": "-2",
+        "reconstruction": [
+          "3",
+          "7"
+        ]
+      }
+    ],
+    "identifiability": {
+      "candidates": [
+        {
+          "theta": [
+            2,
+            1
+          ],
+          "all_three_outputs": [
+            "3",
+            "6",
+            "1"
+          ]
+        },
+        {
+          "theta": [
+            1,
+            2
+          ],
+          "all_three_outputs": [
+            "3",
+            "6",
+            "-1"
+          ]
+        },
+        {
+          "theta": [
+            0,
+            3
+          ],
+          "all_three_outputs": [
+            "3",
+            "6",
+            "-3"
+          ]
+        }
+      ],
+      "inverses": [
+        {
+          "sum": 5,
+          "difference": -1,
+          "theta": [
+            "2",
+            "3"
+          ],
+          "all_three_row_outputs": [
+            "5",
+            "10",
+            "-1"
+          ]
+        },
+        {
+          "sum": 4,
+          "difference": 2,
+          "theta": [
+            "3",
+            "1"
+          ],
+          "all_three_row_outputs": [
+            "4",
+            "8",
+            "2"
+          ]
+        }
+      ],
+      "product_pairs": [
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "product": 6,
+      "reference_gain": 2,
+      "reference_recovered_responsivity": 3,
+      "conditions": "Known row coefficients, units, signs, timing and transfer; rank two for unrestricted real theta. Product alone retains all equal-product factorizations; independent nonzero reference required. General phase transfer determinant is -2*phi, so phi must be known and nonzero for this inverse."
+    },
+    "discriminator": {
+      "states": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "intervals_A_B": [
+        [
+          "3/4",
+          "5/4"
+        ],
+        [
+          "-5/4",
+          "-3/4"
+        ]
+      ],
+      "zero_disposition": "mismatch to both",
+      "real_overlap": "retain ambiguity rather than force a label"
+    },
+    "residual_ledgers": [
+      {
+        "type": "authored rehearsal",
+        "candidate": "A",
+        "input": [
+          3,
+          0
+        ],
+        "prediction": [
+          3,
+          1
+        ],
+        "residual": [
+          0,
+          -1
+        ],
+        "reconstruction": [
+          3,
+          0
+        ]
+      },
+      {
+        "type": "authored rehearsal",
+        "candidate": "B",
+        "input": [
+          3,
+          0
+        ],
+        "prediction": [
+          3,
+          -1
+        ],
+        "residual": [
+          0,
+          1
+        ],
+        "reconstruction": [
+          3,
+          0
+        ]
+      },
+      {
+        "type": "conditional future",
+        "candidate": "A",
+        "input": [
+          4,
+          1
+        ],
+        "prediction": [
+          3,
+          1
+        ],
+        "residual": [
+          1,
+          0
+        ],
+        "reconstruction": [
+          4,
+          1
+        ]
+      },
+      {
+        "type": "conditional future",
+        "candidate": "B",
+        "input": [
+          4,
+          1
+        ],
+        "prediction": [
+          3,
+          -1
+        ],
+        "residual": [
+          1,
+          2
+        ],
+        "reconstruction": [
+          4,
+          1
+        ]
+      },
+      {
+        "type": "diagnostic synthetic",
+        "candidate": "A",
+        "input": [
+          2,
+          -1
+        ],
+        "prediction": [
+          3,
+          1
+        ],
+        "residual": [
+          -1,
+          -2
+        ],
+        "reconstruction": [
+          2,
+          -1
+        ]
+      },
+      {
+        "type": "diagnostic synthetic",
+        "candidate": "B",
+        "input": [
+          2,
+          -1
+        ],
+        "prediction": [
+          3,
+          -1
+        ],
+        "residual": [
+          -1,
+          0
+        ],
+        "reconstruction": [
+          2,
+          -1
+        ]
+      }
+    ],
+    "missing_and_faults": {
+      "missing_difference": {
+        "present": false,
+        "residual": null
+      },
+      "actual_zero_difference_under_A": {
+        "present": true,
+        "value": 0,
+        "residual": -1
+      },
+      "saturation": "retain original value, range, flag and reason; not a replacement zero"
+    },
+    "raw_status_readback": {
+      "rows": [
+        {
+          "pointer": "/a",
+          "present": true,
+          "raw_kind": "null",
+          "raw_value": null
+        },
+        {
+          "pointer": "/b",
+          "present": false,
+          "raw_kind": "absent"
+        },
+        {
+          "pointer": "/c",
+          "present": true,
+          "raw_kind": "string",
+          "raw_value": "unknown"
+        },
+        {
+          "pointer": "/d",
+          "present": true,
+          "raw_kind": "string",
+          "raw_value": "reported"
+        }
+      ],
+      "reconstructed": {
+        "a": null,
+        "c": "unknown",
+        "d": "reported"
+      }
+    },
+    "three_channel_decoder": {
+      "gram": [
+        [
+          "2",
+          "1"
+        ],
+        [
+          "1",
+          "2"
+        ]
+      ],
+      "right_hand_side": [
+        "8",
+        "9"
+      ],
+      "coefficients": [
+        "7/3",
+        "10/3"
+      ],
+      "prediction": [
+        "7/3",
+        "10/3",
+        "17/3"
+      ],
+      "residual": [
+        "-1/3",
+        "-1/3",
+        "1/3"
+      ],
+      "column_dot_products": [
+        "0",
+        "0"
+      ],
+      "reconstructed": [
+        "2",
+        "3",
+        "6"
+      ],
+      "scope": "Separate synthetic system; c is neither theta nor Cell3 basis column c."
+    },
+    "source_decoder": {
+      "pointer": "/backbone_sequence/16/channel_matrix_A",
+      "gram": [
+        [
+          "9",
+          "6",
+          "6",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "6",
+          "9",
+          "6",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "6",
+          "6",
+          "9",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "6",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "6",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "6"
+        ]
+      ],
+      "rank": 6,
+      "left_nullity": 7,
+      "scope": "Exact integer-matrix arithmetic only; no occupation-selection or archived proof-body execution."
+    },
+    "six_factors": {
+      "steps": [
+        {
+          "factor": "UV",
+          "value_real_imag": [
+            0,
+            1
+          ],
+          "cumulative_real_imag": [
+            0,
+            1
+          ]
+        },
+        {
+          "factor": "light",
+          "value_real_imag": [
+            0,
+            1
+          ],
+          "cumulative_real_imag": [
+            -1,
+            0
+          ]
+        },
+        {
+          "factor": "reg",
+          "value_real_imag": [
+            -1,
+            0
+          ],
+          "cumulative_real_imag": [
+            1,
+            0
+          ]
+        },
+        {
+          "factor": "heavy",
+          "value_real_imag": [
+            0,
+            -1
+          ],
+          "cumulative_real_imag": [
+            0,
+            -1
+          ]
+        },
+        {
+          "factor": "cap",
+          "value_real_imag": [
+            0,
+            1
+          ],
+          "cumulative_real_imag": [
+            1,
+            0
+          ]
+        },
+        {
+          "factor": "induced",
+          "value_real_imag": [
+            1,
+            0
+          ],
+          "cumulative_real_imag": [
+            1,
+            0
+          ]
+        }
+      ],
+      "complete": [
+        1,
+        0
+      ],
+      "without_heavy": [
+        0,
+        1
+      ],
+      "scope": "Chosen synthetic scalar representation only; topology, admitted sectors and global trivialization remain separate source obligations."
+    }
+  },
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 1
+  },
+  "eligible_for_parent_acceptance": false,
+  "findings": [
+    {
+      "id": "C30-IND-001",
+      "level": "final",
+      "category": "markdown_provenance_table",
+      "severity": "minor",
+      "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-30-integrated-k-field-research-from-backbone-to-test/sources.md",
+      "line": 49,
+      "section": "Pinned testbench and integration sources",
+      "defect": "The provenance table header and five data rows each have four cells, but its delimiter row has only three. The malformed delimiter prevents this from being a valid four-column Markdown table and obscures the intended path/hash/locator structure in rendered reading.",
+      "evidence": {
+        "header_line": 48,
+        "header_cells": 4,
+        "delimiter_line": 49,
+        "delimiter_cells": 3,
+        "delimiter": "|---|---|---|",
+        "data_lines": [
+          50,
+          51,
+          52,
+          53,
+          54
+        ]
+      },
+      "correction": "Change the delimiter to |---|---|---|---| in the authoring/recovery source and regenerate sources.md. Refresh all dependent hashes, manifest/audit/completion records and rerun the real project-root validator plus the independent table check.",
+      "root_cause_location": {
+        "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-30-integrated-k-field-research-from-backbone-to-test/build_course.py",
+        "line": 403,
+        "description": "The four-column header and three-column separator are adjacent literal list entries on this line."
+      },
+      "verification_method": "Independent Markdown row-width check plus direct read of sources.md lines48–54 and build_course.py line403; all other checked table rows have consistent widths.",
+      "verification_result": "Unresolved. No source or course edit made by this auditor.",
+      "disposition": "unresolved",
+      "affected_checkpoint_ids": [
+        "sources",
+        "build_course",
+        "audit_report"
+      ],
+      "acceptance_effect": "Parent explicitly requires zero critical, major and minor findings; this single minor prevents current clearance."
+    }
+  ],
+  "fresh_project_validation": {
+    "canonical_output_root": "Z:\\Kfield-doc-training\\K-Field_Training_Course",
+    "checks": [
+      "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+      "parsed manifest.json",
+      "parsed audit_report.json",
+      "parsed completion_report.json",
+      "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+    ],
+    "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test",
+    "errors": [],
+    "schema_version": "1.0",
+    "status": "passed",
+    "storage_authority": "User explicitly authorized project-folder outputs, 2026-11-05",
+    "validator_path": "C:\\Users\\info\\.codex\\skills\\build-high-school-course\\scripts\\validate_course.py",
+    "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+    "exit_code": 0,
+    "fixture_mode": false,
+    "adapter": {
+      "path": "Z:/Kfield-doc-training/.work/validate_project_course.py",
+      "sha256": "3fdba74f7ac1430208a4e652200026dc98988f607f60fc928bda65d5857cc745"
+    },
+    "override": "Only canonical output root changed by existing adapter. Installed validator and its actual validation checks run unchanged.",
+    "scope": "Structural pass does not detect the independently identified provenance-table delimiter defect.",
+    "runtime_note": "Conda emitted missing OpenCL vendors/temp.txt cleanup messages; Python and validator completed."
+  },
+  "source_reliance": {
+    "local_primary_reads": {
+      "fresh": true,
+      "objects": [
+        {
+          "id": "S01",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+          "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180"
+        },
+        {
+          "id": "S02",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+          "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3"
+        },
+        {
+          "id": "S03",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+          "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e"
+        },
+        {
+          "id": "S04",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+          "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2"
+        },
+        {
+          "id": "S05",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+          "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7"
+        }
+      ],
+      "scope": "All five original local source files hash-checked in place. S02 proof_contract, mature_locked_cell3, constitutive_principles and backbone_sequence inspected; S03 all13 correction findings read. S01/S04/S05 parsed and identity checked as context, not comprehensively proof-audited."
+    },
+    "teaching_and_registry": [
+      {
+        "role": "verification_record",
+        "path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-teaching-auditor\\outputs\\teaching-verification-28-30.json",
+        "sha256": "40b5b402379561e5b46439cf6d727ee1283bc1a7595bed2e6e4c15f26cbcabf8"
+      },
+      {
+        "role": "source_registry_path",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\source-registry.json",
+        "sha256": "208a8ed59a10d72a74e1aa084b86d1f6809bb8f43168c7a98edc68598db5e78b"
+      }
+    ],
+    "fresh_remote_discovery": {
+      "corpus_generation": "sha256:5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+      "manifest_sha256": "5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+      "rerank": false,
+      "truncated": true,
+      "returned_chunks": 4,
+      "read_scope": "Fresh RAG text covers T30 and T50 and only an initial I01 fragment. Discovery is not a whole-source or exhaustive graph certificate."
+    },
+    "remote_exact_byte_attempt": {
+      "status": "unavailable",
+      "reason": "krytronx_get returned 40-call MCP session bound exhausted for T50,T20,T30,I01,I02. No alternative network route or permission bypass attempted.",
+      "attempted_pins": [
+        {
+          "id": "T50",
+          "sha256": "c2a25a583af904601968adc1d3efde825f76218c92a2f52d829afc093f52c02a",
+          "max_bytes": 1761
+        },
+        {
+          "id": "T20",
+          "sha256": "c9335e2df74344bff5665df5a5e0b9094fef22147c76458f1a54efe49cefce62",
+          "max_bytes": 470
+        },
+        {
+          "id": "T30",
+          "sha256": "e9c6d0346e7f4fa120e9836df9d4a45b7e2c587bc046874d91cb38a0c68c16bc",
+          "max_bytes": 687
+        },
+        {
+          "id": "I01",
+          "sha256": "3800c854da827a64e72507722904bcafab07a31e88f2bc73920a8e7f62f62c1c",
+          "max_bytes": 13847
+        },
+        {
+          "id": "I02",
+          "sha256": "a3dfca0e55e525c6522c3088b95e5bcc048c141fce340bfe980fcfc14123220a",
+          "max_bytes": 3173
+        }
+      ],
+      "graph_attempt": "Traversal request failed argument validation (id instead of permitted start key); no successful fresh graph traversal or completeness claim is made."
+    },
+    "retained_same_task_evidence": {
+      "T50": {
+        "id": "T50",
+        "logical_path": "applications/kfield_lucas_lab/rag_corpus/50_physical_closure.md",
+        "sha256": "c2a25a583af904601968adc1d3efde825f76218c92a2f52d829afc093f52c02a",
+        "bytes": 1761,
+        "byte_range": [
+          0,
+          1761
+        ],
+        "returned_range_sha256": "c2a25a583af904601968adc1d3efde825f76218c92a2f52d829afc093f52c02a",
+        "independent_hash": "SHA-256 of the complete decoded bytes, computed in memory; abc known-answer self-test passed."
+      },
+      "scope": "T50 full bytes were retrieved, decoded and independently hashed earlier in this same task during Course26. They support item4 optical-transfer obstruction; not represented as a new Course30 byte retrieval.",
+      "spectral_context": "Previously verified pinned Course26 bundle and spectral/energy objects support the inherited14-row/three-cost-level and revision-gap boundary. No fresh Course30 acquisition replay."
+    },
+    "unretrieved_scope": "T20 exact text/body, I01 complete relevant result pointers and I02 exact report bytes were not freshly retrieved in this audit. Their Course30 treatment was checked against pinned teaching/source-contract material and installed domain-skill constraints; full independent remote source verification is limited. Compiler M20 declaration is deliberately not claimed loaded.",
+    "no_formal_or_empirical_execution": true
+  },
+  "source_and_authority_boundaries": {
+    "M20": "Core M01–M18 plus six EG constitutive premises, domains, history/spin/coframe inputs and supplied state coordinates; source-attributed closure, not premise-free Cell3-only proof.",
+    "M19": "Retained separate mixed extension; no M19->M20 core edge. Equal dimensions do not construct an intertwiner or physical coupling.",
+    "compiler_namespace": "Compiler M03/M07/M08 direct authority is source-reported within its namespace; no numeral-based backbone promotion. Compiler M20 compositeNonterminal remains contract-attributed. Z1/Z2/Z3/Z6 retained; six portfolios remain unperformed designs.",
+    "geometry": "ICRS columns[a b c], nm and intentional negative determinant; affine x-O_K and half-open ownership retained. M_cell=B^T B, R_cell=M_cell^-1, G_phase and G_eff distinct. Source-local Q meanings, parities, carrier order and dyadic/ternary recursions are not merged.",
+    "stored_precision": "Printed column/half are exact operations on stored decimals. Computed stored-basis determinant differs from separately reported source determinant by2.3161497196490481068075104737078e-17 nm^3; retained as precision information, not silently zeroed or used as a course defect.",
+    "unloaded_witnesses": "Named route certificate, complete G_phase/C/W_qpc precision linkage, full syndrome/occupation and other proof bodies remain source replay gates. AUD008 residual4.58938078934712923077736690075e-12 retained; VERIFIED_NOT_LOADED does not mean freshly verified or automatically rejected.",
+    "six_factors": "UV/light/reg/heavy/cap/induced all present with trivialization/topology/admitted-sector boundaries. Scalar product is not a global determinant-line theorem.",
+    "residuals": "All signed channel residuals, mean/detail, data kinds, source revision branches and invalid/missing outcomes retained. No score or significance gate deletes information.",
+    "physical_scope": "Synthetic phase/rank/decoder arithmetic and a planned calibrated test do not establish a physical transfer, force, power, extraction or observation. Physical CMB authority remains369812.50200040644m/s, separately typed from phase vectors and unit-sphere galaxy geometry.",
+    "source_premise_corrections": "S03 AUD001/004/005/006/007/008/009/010/011/012/013 boundaries carried into student prose/source notes. Raw source serialization defects are not silently presented as repaired source bytes."
+  },
+  "limitations": [
+    "Remote exact-byte retrieval was exhausted at the session limit. Some remote claims rely on pinned supplied contracts rather than an independent full re-read; this limitation is separate from the actual course defect.",
+    "No Agda/Lean compiler, instrument, acquisition, calibration, proof-body, route certificate or physical-state selection execution occurred.",
+    "No source data copies, large arrays, course edits, parent edits or source edits were made. Builder code was read and AST-parsed, never executed/imported.",
+    "Finite examples use exact rational arithmetic, decimal-token parsing and integer complex-pair arithmetic. Source arithmetic is not a full-precision source recertification.",
+    "Whole-series integration and live classroom pacing were outside this single completed-course audit.",
+    "Structural validator passes but does not check the malformed Markdown delimiter identified independently."
+  ],
+  "source_files_copied": false,
+  "course_or_parent_files_modified": false
+}

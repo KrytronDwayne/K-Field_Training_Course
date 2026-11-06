@@ -1,0 +1,165 @@
+{
+  "schema_version": "1.0",
+  "status": "passed",
+  "findings": [
+    {
+      "id": "A01",
+      "level": "local",
+      "category": "prerequisite terminology",
+      "file": "lesson-07.md",
+      "section": "Diagnostic 4 and worked answer",
+      "severity": "minor",
+      "defect": "Norm was used without defining it as the already taught magnitude; initial repair missed the question.",
+      "correction": "Use magnitude in both question and answer.",
+      "verification": "Final text search confirms no norm phrase; magnitude was taught in L03.",
+      "affected_checkpoints": [
+        "lesson-07"
+      ],
+      "disposition": "corrected"
+    },
+    {
+      "id": "A02",
+      "level": "local",
+      "category": "units",
+      "file": "lesson-04.md",
+      "section": "Diagnostic checks",
+      "severity": "minor",
+      "defect": "Direction d units were implicit in diagnostics.",
+      "correction": "State that every diagnostic direction d is dimensionless.",
+      "verification": "Exact text presence checked; independent support audit confirmed the repair.",
+      "affected_checkpoints": [
+        "lesson-04"
+      ],
+      "disposition": "corrected"
+    },
+    {
+      "id": "A03",
+      "level": "final",
+      "category": "Markdown structure",
+      "file": "terminology.md",
+      "section": "Magnitude and unit-direction table rows",
+      "severity": "minor",
+      "defect": "Unescaped magnitude bars split table cells.",
+      "correction": "Use magnitude wording in table cells.",
+      "verification": "All authored tables checked for consistent column counts.",
+      "affected_checkpoints": [
+        "terminology"
+      ],
+      "disposition": "corrected"
+    },
+    {
+      "id": "A04",
+      "level": "cumulative",
+      "category": "scope of trigonometry",
+      "file": "lesson-04.md",
+      "section": "Build the idea",
+      "severity": "minor",
+      "defect": "Claim that only introductory exact ratios were needed understated the capstone square-root ratios.",
+      "correction": "Describe those values as introductory examples and explicitly allow the same definitions with square-root lengths.",
+      "verification": "Capstone ratios recomputed independently and by exact squared-ratio checks; source wording re-read.",
+      "affected_checkpoints": [
+        "lesson-04",
+        "capstone"
+      ],
+      "disposition": "corrected"
+    },
+    {
+      "id": "A05",
+      "level": "final",
+      "category": "recovery integrity",
+      "file": "manifest.json",
+      "section": "Draft checkpoint hashes",
+      "severity": "minor",
+      "defect": "Stopped manifest retained pre-correction hashes for L04/L07 and placeholder dependency arrays.",
+      "correction": "Verified unchanged files, identified two expected edited files, refreshed hashes and complete dependency arrays before passing.",
+      "verification": "Final installed validator checks every referenced hash and dependency; pre-final assembly checks confirm identity.",
+      "affected_checkpoints": [
+        "lesson-04",
+        "lesson-07",
+        "course-map"
+      ],
+      "disposition": "corrected"
+    },
+    {
+      "id": "A06",
+      "level": "final",
+      "category": "source freshness",
+      "file": "sources.md",
+      "section": "Source and verification scope",
+      "severity": "minor",
+      "defect": "Capabilities response did not expose the packet frozen corpus-generation digest.",
+      "correction": "Disclose gap; do not equate application digest with corpus digest; rely only on hash-verified local S02 conventions.",
+      "verification": "Five local source hashes match packet; exact required pointers and source-local guards read directly. No live-generation claim made.",
+      "affected_checkpoints": [
+        "sources"
+      ],
+      "disposition": "accepted_minor"
+    }
+  ],
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "accepted_minor_count": 1,
+  "local_checks": [
+    {
+      "checkpoint": "lesson-01",
+      "contract_check": "passed; one essential question, 3 goals, bridge, instruction, worked example, scope, four diagnostics and answers, next dependency"
+    },
+    {
+      "checkpoint": "lesson-02",
+      "contract_check": "passed; one essential question, 3 goals, bridge, instruction, worked example, scope, four diagnostics and answers, next dependency"
+    },
+    {
+      "checkpoint": "lesson-03",
+      "contract_check": "passed; one essential question, 3 goals, bridge, instruction, worked example, scope, four diagnostics and answers, next dependency"
+    },
+    {
+      "checkpoint": "lesson-04",
+      "contract_check": "passed; one essential question, 3 goals, bridge, instruction, worked example, scope, four diagnostics and answers, next dependency"
+    },
+    {
+      "checkpoint": "lesson-05",
+      "contract_check": "passed; one essential question, 3 goals, bridge, instruction, worked example, scope, four diagnostics and answers, next dependency"
+    },
+    {
+      "checkpoint": "lesson-06",
+      "contract_check": "passed; one essential question, 3 goals, bridge, instruction, worked example, scope, four diagnostics and answers, next dependency"
+    },
+    {
+      "checkpoint": "lesson-07",
+      "contract_check": "passed; one essential question, 3 goals, bridge, instruction, worked example, scope, four diagnostics and answers, next dependency"
+    }
+  ],
+  "cumulative_checks": [
+    {
+      "unit": "01-02",
+      "result": "Units, scale powers and later scaled-vector use checked; teacher cumulative area/volume values recomputed."
+    },
+    {
+      "unit": "03-04",
+      "result": "Magnitude then normalization then trigonometry/dot/projection; residual and non-unit directions verified."
+    },
+    {
+      "unit": "05-07",
+      "result": "Column combination then two equations then determinant/nonsingularity/inverse then rounding reconstruction; every capstone operation maps backward."
+    }
+  ],
+  "final_checks": {
+    "coverage": "Seven kernel concepts each introduced, practiced, assessed and reused; map compared against input contract.",
+    "fidelity": "Synthetic 2D data kept separate from exact source-local S02 conventions and advanced labels.",
+    "dependencies": "Entry skills explicit; trig and normalization before projection; nonsingularity before inverse.",
+    "correctness": "Independent recomputation plus 134 executed checks, 27 bidirectional matrix cases and 201 exact rounding cases.",
+    "terminology": "Core definitions stable; source-local B and scalar a,b,c,d scoped; minor glossary and norm issues corrected.",
+    "evidence": "Synthetic inputs, mathematical consequences and source-reported conventions separated; no measurement/mechanism claims.",
+    "audience": "Seven 55-minute lessons, four diagnostics each, guided support for dense L04/L06; teacher permits extension without omission.",
+    "assessment": "Independent capstone/rubric check passed, all operations taught and practiced before capstone.",
+    "recovery": "Statuses finalized only after source, arithmetic, content and assembly checks; hashes refreshed.",
+    "assembly": "Exact normalized lesson bodies between one marker pair each in approved order.",
+    "rendering": "Markdown only; table columns and local links validated. No paginated deliverable requested.",
+    "containment": "Working course directory is direct child of user-authorized workspace output root. No source copies.",
+    "minimality": "No new teaching in assembly; supporting material is distinct instructor, provenance or verification content.",
+    "deterministic_validator": "Executed location-only adapter against installed validator with fixture_mode=False; exit zero; all checkpoints, hashes, assembly, audit, completion and root containment passed. Final recheck follows refreshed audit hashes."
+  }
+}

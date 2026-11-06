@@ -1,0 +1,277 @@
+{
+  "schema_version": "1.0",
+  "status": "passed",
+  "findings": [
+    {
+      "id": "A20-01",
+      "level": "local",
+      "category": "prerequisite",
+      "file": "lesson-03.md",
+      "section": "C20.S01-E1 and diagnostic 5",
+      "severity": "minor",
+      "defect": "Rank appeared in a diagnostic before its explicit definition in lesson 4.",
+      "correction": "Defined image and rank before the lesson-3 diagnostic.",
+      "verification": "Independent auditor reread the definition in its earlier location; lesson-4 equation-based bridge remains intact.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "lesson-03",
+        "assembly"
+      ]
+    },
+    {
+      "id": "A20-02",
+      "level": "final",
+      "category": "source_locator",
+      "file": "sources.md",
+      "section": "S02 pointers",
+      "severity": "minor",
+      "defect": "A selector /proof_operations:step_id=D10 was labelled as a JSON pointer.",
+      "correction": "Replaced it in authored sources and provenance with exact /proof_operations/9. The original input contract remains unchanged.",
+      "verification": "Independent auditor directly checked S02 array index 9 has step_id D10.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "sources",
+        "provenance"
+      ]
+    },
+    {
+      "id": "A20-03",
+      "level": "cumulative",
+      "category": "terminology",
+      "file": "terminology.md",
+      "section": "Adjoint/unitary/isometry row",
+      "severity": "minor",
+      "defect": "The glossary risked conflating rectangular isometry and square unitary.",
+      "correction": "Specified square U with both inverse identities and rectangular V reversible on its image; clarified lesson 3.",
+      "verification": "Independent content reread and 20 mathematical checks pass; no lift image surjectivity is claimed.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "lesson-03",
+        "terminology",
+        "assembly"
+      ]
+    }
+  ],
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "corrected_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 3
+  },
+  "local_checks": [
+    {
+      "checkpoint": "lesson-01",
+      "result": "passed",
+      "checks": [
+        "prerequisites",
+        "audience",
+        "definitions",
+        "notation",
+        "units",
+        "logic",
+        "mathematics",
+        "evidence",
+        "sources",
+        "answers"
+      ],
+      "evidence": "Authored lesson reread; independent-audit.json and verification.json contain actual reviewed hashes and computations."
+    },
+    {
+      "checkpoint": "lesson-02",
+      "result": "passed",
+      "checks": [
+        "prerequisites",
+        "audience",
+        "definitions",
+        "notation",
+        "units",
+        "logic",
+        "mathematics",
+        "evidence",
+        "sources",
+        "answers"
+      ],
+      "evidence": "Authored lesson reread; independent-audit.json and verification.json contain actual reviewed hashes and computations."
+    },
+    {
+      "checkpoint": "lesson-03",
+      "result": "passed",
+      "checks": [
+        "prerequisites",
+        "audience",
+        "definitions",
+        "notation",
+        "units",
+        "logic",
+        "mathematics",
+        "evidence",
+        "sources",
+        "answers"
+      ],
+      "evidence": "Authored lesson reread; independent-audit.json and verification.json contain actual reviewed hashes and computations."
+    },
+    {
+      "checkpoint": "lesson-04",
+      "result": "passed",
+      "checks": [
+        "prerequisites",
+        "audience",
+        "definitions",
+        "notation",
+        "units",
+        "logic",
+        "mathematics",
+        "evidence",
+        "sources",
+        "answers"
+      ],
+      "evidence": "Authored lesson reread; independent-audit.json and verification.json contain actual reviewed hashes and computations."
+    },
+    {
+      "checkpoint": "lesson-05",
+      "result": "passed",
+      "checks": [
+        "prerequisites",
+        "audience",
+        "definitions",
+        "notation",
+        "units",
+        "logic",
+        "mathematics",
+        "evidence",
+        "sources",
+        "answers"
+      ],
+      "evidence": "Authored lesson reread; independent-audit.json and verification.json contain actual reviewed hashes and computations."
+    },
+    {
+      "checkpoint": "lesson-06",
+      "result": "passed",
+      "checks": [
+        "prerequisites",
+        "audience",
+        "definitions",
+        "notation",
+        "units",
+        "logic",
+        "mathematics",
+        "evidence",
+        "sources",
+        "answers"
+      ],
+      "evidence": "Authored lesson reread; independent-audit.json and verification.json contain actual reviewed hashes and computations."
+    },
+    {
+      "checkpoint": "lesson-07",
+      "result": "passed",
+      "checks": [
+        "prerequisites",
+        "audience",
+        "definitions",
+        "notation",
+        "units",
+        "logic",
+        "mathematics",
+        "evidence",
+        "sources",
+        "answers"
+      ],
+      "evidence": "Authored lesson reread; independent-audit.json and verification.json contain actual reviewed hashes and computations."
+    }
+  ],
+  "cumulative_checks": [
+    {
+      "unit": "lessons 1–2",
+      "result": "passed",
+      "evidence": "Residue order, 3+24 coordinate count and full reconstruction preserved."
+    },
+    {
+      "unit": "lessons 3–4",
+      "result": "passed",
+      "evidence": "Complex/matrix prerequisites taught; rank timing and unitary/isometry wording corrected; Weyl and rank checks pass."
+    },
+    {
+      "unit": "lessons 5–7",
+      "result": "passed",
+      "evidence": "Rank premises, source status conflict and numeric-input scope retained; Schur and singular branches checked."
+    }
+  ],
+  "final_hostile_checks": [
+    {
+      "category": "coverage",
+      "result": "passed",
+      "evidence": "All nine kernel concepts have actual E1/W1/P1/D1 IDs and nine capstone operations; legacy rank bridge IDs retained. Automated ID checks plus independent reading."
+    },
+    {
+      "category": "fidelity",
+      "result": "passed",
+      "evidence": "Direct hash checks of S01–S05; actual S02 M16/F038/X033/D10 and S03 AUD-007/AUD-009 read; occupation claim, guard, correction and retrieval remain together."
+    },
+    {
+      "category": "dependency_order",
+      "result": "passed",
+      "evidence": "Residues → means/norms → matrices/complex/Fourier/Weyl → rank/product → source factorization → selection → numerical scope/Schur. Rank preview corrected."
+    },
+    {
+      "category": "correctness",
+      "result": "passed",
+      "evidence": "20 independent finite checks using exact fractions and complex tolerance 1e-12; manager determinant-route scalar checks and source hashes included among 146 checks."
+    },
+    {
+      "category": "terminology",
+      "result": "passed",
+      "evidence": "Local P/R, B_ab/B block/B geometry, W_r/weak W2, E and C scope identified. All finite numerical examples dimensionless; rank/dimension separated."
+    },
+    {
+      "category": "examples_answers",
+      "result": "passed",
+      "evidence": "Worked and practice class tables, all nine Weyl coefficients, Fourier inverse, projector complement, history alternatives and scalar branches independently recomputed."
+    },
+    {
+      "category": "evidence_layers",
+      "result": "passed",
+      "evidence": "Synthetic examples explicitly labelled; conditional mathematical checks are separate from source-reported statuses and unfilled physical selection premises. No invented observations."
+    },
+    {
+      "category": "audience_load",
+      "result": "passed",
+      "evidence": "15 core periods with locally introduced operations and 2–4 observable goals per lesson; lesson 3 has four sessions and lesson 7 three. No hidden required advanced proof."
+    },
+    {
+      "category": "assessment_alignment",
+      "result": "passed",
+      "evidence": "Independent capstone review confirms nine parts have earlier explanations and answered practice; rubric totals 100; exact IDs and named task inputs/outputs present."
+    },
+    {
+      "category": "recovery_integrity",
+      "result": "passed",
+      "evidence": "Finalizer verifies current lesson hashes against mathematical record and all independent reviewed-file hashes before passing; final deterministic validator checks complete checkpoint graph."
+    },
+    {
+      "category": "assembly_identity",
+      "result": "passed",
+      "evidence": "Generated directly from each lesson with exact markers in declared order; no new substantive teaching in assembly. Deterministic validator checks identity."
+    },
+    {
+      "category": "rendering",
+      "result": "passed",
+      "evidence": "Markdown-only delivery as requested. Reviewed table/code-fence structure and local file links; no paginated or rendered output required."
+    },
+    {
+      "category": "containment_minimality",
+      "result": "passed",
+      "evidence": "Every persistent authored artifact is inside the packet course directory. Sources read-only, no snapshots. Seven lesson checkpoints preserve required supplemental operations without outline-only content."
+    }
+  ],
+  "independent_review": "independent-audit.json",
+  "mathematical_verification": "verification.json",
+  "source_gaps_are_scoped_not_course_defects": [
+    "Exact source L and P_v not loaded; classroom model explicitly synthetic.",
+    "Connecting physical-carrier selection proof not loaded; preserve M16/F038 claim, D10 guard and AUD-007 with no automatic source-status downgrade."
+  ],
+  "deterministic_validation": "See completion_report.json and validation-result.json for actual external validator result; semantic audit does not substitute for it."
+}

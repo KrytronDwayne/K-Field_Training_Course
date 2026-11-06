@@ -1,0 +1,291 @@
+{
+  "schema_version": "1.0",
+  "status": "passed",
+  "findings": [
+    {
+      "id": "LOCAL-001",
+      "level": "local",
+      "category": "executable verification",
+      "file": "verify_examples.py",
+      "section": "Walsh table construction",
+      "severity": "major",
+      "defect": "Initial script had one excess closing parenthesis, preventing independent arithmetic verification.",
+      "correction": "Corrected the expression and reran the entire exact-fraction verifier.",
+      "verification": "tf_gpu_env execution exited 0; all listed source-hash and arithmetic assertions passed.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "verification",
+        "lesson-03"
+      ]
+    },
+    {
+      "id": "INDEPENDENT-001",
+      "level": "final",
+      "category": "audience vocabulary",
+      "file": "lesson-03.md",
+      "section": "Integer extractor",
+      "severity": "minor",
+      "defect": "Triangular, determinant and unit minor appeared without a local explanation.",
+      "correction": "Added brief definitions and marked the certificate vocabulary recognition-only; kept the explicit extractor as the core proof.",
+      "verification": "Reread updated section; independent extractor recipes establish saturation without relying on determinant computation.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "lesson-03",
+        "assembly"
+      ]
+    },
+    {
+      "id": "INDEPENDENT-002",
+      "level": "final",
+      "category": "student-facing language",
+      "file": "lesson-03.md",
+      "section": "C21.S01-E1",
+      "severity": "minor",
+      "defect": "Supplemental text began with author-facing Teach signed characters.",
+      "correction": "Changed to direct student-facing Use signed characters and An intertwiner T obeys.",
+      "verification": "Search and reread of generated lesson confirms corrected language.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "lesson-03",
+        "assembly"
+      ]
+    },
+    {
+      "id": "INDEPENDENT-003",
+      "level": "final",
+      "category": "coverage",
+      "file": "course-map.md",
+      "section": "Coverage and backward links",
+      "severity": "minor",
+      "defect": "Two supplemental later-use rows used the next lesson rather than explicit reuse.",
+      "correction": "C21.S01 now points to C21-CAP-09; C21.S03 points to lesson-08 and C21-CAP-11.",
+      "verification": "Compared generated coverage rows to capstone practice links and lesson-08 report.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "course-map"
+      ]
+    },
+    {
+      "id": "INDEPENDENT-004",
+      "level": "final",
+      "category": "clarity",
+      "file": "teacher-guide.md",
+      "section": "Lesson 3 teaching moves",
+      "severity": "minor",
+      "defect": "Four-bit-label table could imply four bits per label.",
+      "correction": "Changed to four-label table (two bits per label).",
+      "verification": "Reread teacher guidance against the 00,01,10,11 table.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "teacher-guide"
+      ]
+    },
+    {
+      "id": "C21-IND-001",
+      "level": "local",
+      "category": "dimensional_dependency",
+      "file": "lesson-04.md",
+      "section": "C21.04-E1 and Boundary to carry forward",
+      "severity": "major",
+      "defect": "Missing numerical reference mass was incorrectly said to prevent a computable dimensionless ratio.",
+      "correction": "Separated missing contributing renderer terms from missing reference mass in explanation, boundary, authoring text and assembly; added answered ratio-3 practice with m_ref withheld.",
+      "verification": "Exact dot product recomputed as 3 without a reference mass; m=3*m_ref remains symbolic. Independent narrow repair check recorded in independent-audit.md. External auditor reapproval is pending parent recheck.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "lesson-04",
+        "assembly",
+        "build-script",
+        "verification"
+      ]
+    },
+    {
+      "id": "C21-IND-002",
+      "level": "cumulative",
+      "category": "terminology_navigation",
+      "file": "terminology.md",
+      "section": "First lesson column",
+      "severity": "minor",
+      "defect": "Grouped first-lesson cells obscured different introduction locations for R/Z and b/b_toy.",
+      "correction": "Annotated R:01, Z:02 and b:03 (rendering04), b_toy:04 in glossary and authoring text.",
+      "verification": "Compared introduction locations and independent narrow repair check; no source definitions changed. External auditor reapproval not claimed.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "terminology",
+        "build-script"
+      ]
+    }
+  ],
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "local_audits": [
+    {
+      "checkpoint": "lesson-01",
+      "checks": [
+        "prerequisite bridge",
+        "2–4 goals manually reviewed",
+        "named explanation/worked/practice/diagnostic anchors",
+        "3–5 answered diagnostics",
+        "mathematical and unit review",
+        "source/evidence scope",
+        "later dependency"
+      ],
+      "result": "passed"
+    },
+    {
+      "checkpoint": "lesson-02",
+      "checks": [
+        "prerequisite bridge",
+        "2–4 goals manually reviewed",
+        "named explanation/worked/practice/diagnostic anchors",
+        "3–5 answered diagnostics",
+        "mathematical and unit review",
+        "source/evidence scope",
+        "later dependency"
+      ],
+      "result": "passed"
+    },
+    {
+      "checkpoint": "lesson-03",
+      "checks": [
+        "prerequisite bridge",
+        "2–4 goals manually reviewed",
+        "named explanation/worked/practice/diagnostic anchors",
+        "3–5 answered diagnostics",
+        "mathematical and unit review",
+        "source/evidence scope",
+        "later dependency"
+      ],
+      "result": "passed"
+    },
+    {
+      "checkpoint": "lesson-04",
+      "checks": [
+        "prerequisite bridge",
+        "2–4 goals manually reviewed",
+        "named explanation/worked/practice/diagnostic anchors",
+        "3–5 answered diagnostics",
+        "mathematical and unit review",
+        "source/evidence scope",
+        "later dependency"
+      ],
+      "result": "passed"
+    },
+    {
+      "checkpoint": "lesson-05",
+      "checks": [
+        "prerequisite bridge",
+        "2–4 goals manually reviewed",
+        "named explanation/worked/practice/diagnostic anchors",
+        "3–5 answered diagnostics",
+        "mathematical and unit review",
+        "source/evidence scope",
+        "later dependency"
+      ],
+      "result": "passed"
+    },
+    {
+      "checkpoint": "lesson-06",
+      "checks": [
+        "prerequisite bridge",
+        "2–4 goals manually reviewed",
+        "named explanation/worked/practice/diagnostic anchors",
+        "3–5 answered diagnostics",
+        "mathematical and unit review",
+        "source/evidence scope",
+        "later dependency"
+      ],
+      "result": "passed"
+    },
+    {
+      "checkpoint": "lesson-07",
+      "checks": [
+        "prerequisite bridge",
+        "2–4 goals manually reviewed",
+        "named explanation/worked/practice/diagnostic anchors",
+        "3–5 answered diagnostics",
+        "mathematical and unit review",
+        "source/evidence scope",
+        "later dependency"
+      ],
+      "result": "passed"
+    },
+    {
+      "checkpoint": "lesson-08",
+      "checks": [
+        "prerequisite bridge",
+        "2–4 goals manually reviewed",
+        "named explanation/worked/practice/diagnostic anchors",
+        "3–5 answered diagnostics",
+        "mathematical and unit review",
+        "source/evidence scope",
+        "later dependency"
+      ],
+      "result": "passed"
+    }
+  ],
+  "cumulative_audits": [
+    {
+      "boundary": "lesson-02",
+      "result": "passed",
+      "checks": [
+        "terminology",
+        "prerequisite order",
+        "example complexity",
+        "coverage",
+        "capstone practice closure"
+      ]
+    },
+    {
+      "boundary": "lesson-04",
+      "result": "passed",
+      "checks": [
+        "terminology",
+        "prerequisite order",
+        "example complexity",
+        "coverage",
+        "capstone practice closure"
+      ]
+    },
+    {
+      "boundary": "lesson-06",
+      "result": "passed",
+      "checks": [
+        "terminology",
+        "prerequisite order",
+        "example complexity",
+        "coverage",
+        "capstone practice closure"
+      ]
+    },
+    {
+      "boundary": "lesson-08",
+      "result": "passed",
+      "checks": [
+        "terminology",
+        "prerequisite order",
+        "example complexity",
+        "coverage",
+        "capstone practice closure"
+      ]
+    }
+  ],
+  "final_audit": {
+    "coverage": "44 unique anchors and 11 capstone backward links verified",
+    "fidelity": "Five source hashes match; used source pointers read; original missing L/W7 and physical-input boundaries preserved",
+    "correctness": "Exact rational verifier and independent lesson auditor recomputed matrix, residual, composition, solver, energy and rounding examples",
+    "assessment": "11 tasks, worked keys, 44-point rubric; all operations tied to prior answered practice",
+    "recovery": "Final checkpoint hashes and dependencies generated from actual saved files; adapter validation required next",
+    "assembly": "Eight lesson bodies compared verbatim in order",
+    "rendering": "Markdown headings, table delimiters and fenced matrix blocks inspected; no paginated output required",
+    "minimality": "Eight conceptual lessons spread over 17 periods; no missing-object physical computations assigned",
+    "storage": "All authored artifacts stored directly under authoritative project course directory"
+  },
+  "independent_audit": {
+    "agent": "course_audit",
+    "lesson_result": "0 critical, 0 major; two minor clarity findings corrected",
+    "support_result": "See independent-audit.md"
+  }
+}

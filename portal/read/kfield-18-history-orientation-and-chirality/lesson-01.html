@@ -1,0 +1,55 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Lesson 01 — Address histories as words · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/18">Course 18</a><span>/</span><span>lesson 01</span></div><a class="original" href="../../../kfield-18-history-orientation-and-chirality/lesson-01.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#lesson-01-address-histories-as-words">Lesson 01 — Address histories as words</a><a href="#c1801-e1-words-and-a-ledger">C18.01-E1 — Words and a ledger</a><a href="#c1801-w1-build-the-depth-two-tree">C18.01-W1 — Build the depth-two tree</a><a href="#c1801-p1-practice-before-checking">C18.01-P1 — Practice before checking</a><a href="#diagnostic-checks">Diagnostic checks</a></nav></details><details class="course-nav" open><summary>In this course</summary><a aria-current=page href="lesson-01.html">Lesson 01 — Address histories as words</a><a  href="lesson-02.html">Lesson 02 — Shift operators and endpoint defects</a><a  href="lesson-03.html">Lesson 03 — Isometry versus reversible evolution</a><a  href="lesson-04.html">Lesson 04 — History projectors</a><a  href="lesson-05.html">Lesson 05 — Spatial handedness and a time direction</a><a  href="lesson-06.html">Lesson 06 — Chirality as a graded construction</a><a  href="lesson-07.html">Lesson 07 — The source K4 construction</a></details></aside><div class="reading-column"><article class="prose"><h1 id="lesson-01-address-histories-as-words" tabindex="-1">Lesson 01 — Address histories as words</h1>
+<p><strong>Essential question:</strong> How can an address remember a sequence of choices?</p>
+<p><strong>Goals:</strong> Generate all words through a stated depth; distinguish an empty label from a zero coefficient; apply a prefix and its conditional removal.</p>
+<p><strong>Bridge:</strong> Courses 06, 15 and 17 are the series prerequisites. Here we need only their habits of keeping ordered labels, signed quantities and distinct carriers. This lesson rebuilds the finite notation: a list of labels tells us which slots exist; a list of numbers tells us what occupies each slot. All classroom coefficients are dimensionless synthetic values, not measurements.</p>
+<p><strong>Pacing:</strong> One 55-minute period: retrieval 5, explanation/example 20, practice 15, diagnostics/repair 15 minutes.</p>
+<h2 id="c1801-e1-words-and-a-ledger" tabindex="-1">C18.01-E1 — Words and a ledger</h2>
+<p>Choose the classroom alphabet {a,b}. A word is a finite ordered string of these letters. Order matters: ab and ba are different. Its length is the number of letters. The empty word, Ω, has length zero. It is a legitimate address: the start before any choice. It is not the number zero.</p>
+<p>Prefixing puts a letter on the <strong>left</strong>. Thus prefix a changes b into ab, and changes ab into aab. Our convention records the newest choice on the left. If you instead append on the right, you have defined a different operation and must say so.</p>
+<p>A tree connects each word w to aw and bw. A depth cutoff d keeps words with length at most d. It does not tell us what to do when an operation leaves the displayed tree. We will specify that rule separately.</p>
+<p>For each word w, let e_w mean a ledger with coefficient 1 in slot w and 0 in all other slots. These are unit coordinate vectors. A vector is a list of coefficients in a declared order; for example 2e_Ω−e_a has root coefficient 2 and a coefficient −1. Different unit coordinate vectors are called orthogonal: their dot product is zero. The dot product multiplies matching entries and adds the products. This is a bookkeeping model, with no probability interpretation assigned.</p>
+<h2 id="c1801-w1-build-the-depth-two-tree" tabindex="-1">C18.01-W1 — Build the depth-two tree</h2>
+<p>Start with Ω. Prefix either letter to obtain a,b. Prefix to both: a→aa,ba and b→ab,bb. Sorting into the fixed classroom order gives</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Length</th>
+<th>Labels</th>
+<th style="text-align: right;">Number</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>Ω</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>a, b</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr>
+<td>2</td>
+<td>aa, ab, ba, bb</td>
+<td style="text-align: right;">4</td>
+</tr>
+</tbody>
+</table></div>
+<p>The total is 1+2+4=7. None of these labels is omitted, including Ω. Prefix a sends Ω to a and b to ab. Conditional removal of a sends ab back to b. It fails on ba because ba starts with b. In the later linear operator model a failed removal returns the <strong>zero vector</strong>, meaning all coefficients zero; it does not return e_Ω. Removing a from the one-letter word a does return e_Ω.</p>
+<p>To see why those differ, e_Ω=(1,0,0,0,0,0,0), whereas the zero vector has seven zeros. A ledger (2,−1,0,3,0,−2,4) preserves the root, the signs and the zero slots.</p>
+<h2 id="c1801-p1-practice-before-checking" tabindex="-1">C18.01-P1 — Practice before checking</h2>
+<p>Draw the depth-one tree. Prefix b to Ω, a and b while allowing depth two. Then record 3e_Ω−2e_b in depth-one order. Explain what would happen to ba if a depth-one display were enforced.</p>
+<p><strong>Worked answer:</strong> The depth-one labels are Ω,a,b. Prefix b gives b,ba,bb respectively. The ledger is (3,0,−2). The last two outputs lie outside a depth-one display. A larger display keeps them; a truncating operator would send them to zero and require a separate record of the omitted coefficients for reconstruction. A drawing cutoff alone does not choose between these rules.</p>
+<blockquote>
+<p><strong>Claim scope:</strong> This binary toy is an authored finite example. S02#/backbone_sequence/13 defines the source carrier F_hist=l²(B_8*): all finite words over the source eight-letter alphabet, including Ω. The star means all finite word lengths. The symbol l² means coefficient lists whose sum of squared magnitudes is finite. The source alphabet's complete typed replay definition is flagged in S03#/findings/8; we do not identify its letters with physical directions. Seven coordinate slots are not the source infinite carrier.</p>
+</blockquote>
+<h2 id="diagnostic-checks" tabindex="-1">Diagnostic checks</h2>
+<ol>
+<li><strong>C18.01-D1:</strong> What extra rule must accompany a finite cutoff, and how does this tree differ from F_hist?</li>
+<li>List the words of exactly length three without repeating or losing a branch.</li>
+<li>Does removing a from a give zero? Does removing a from ba give Ω?</li>
+<li>In (0,2,−1), has the root label been deleted?</li>
+</ol>
+<p><strong>Worked answers:</strong> (1) State how operations treat terminal words; our seven labels are a finite binary toy, while F_hist includes all finite words over B_8. (2) aaa,aab,aba,abb,baa,bab,bba,bbb; each of four length-two words has two children, so 8. (3) The first returns e_Ω; the second returns the zero vector under conditional removal. (4) No: the first slot remains and has coefficient zero.</p>
+<p><strong>Next dependency:</strong> <a href="lesson-02.html">Lesson 02</a> converts these label operations into maps and accounts for both endpoints of a finite shift.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><span></span><a class="button" href="lesson-02.html">Next lesson →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/18">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

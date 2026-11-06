@@ -1,0 +1,83 @@
+{
+  "status": "complete",
+  "topic": "Affine Cells, Reciprocal Planes, and Unique Addresses",
+  "audience": "High-school seniors; first-principles teaching, with concrete prerequisite capabilities and taught bridges.",
+  "assumptions": [
+    "A topical short course, not a semester per topic. Pacing is 55-minute core lessons plus capstone periods; split dense lessons if actual learner load requires it.",
+    "No prior calculus, abstract algebra, university linear algebra, or quantum mechanics unless explicitly taught earlier.",
+    "Required core assessments must be solvable with taught finite examples. Clearly label deeper recognition-only extensions.",
+    "Markdown is the delivery format; no PDF or Word generation is required."
+  ],
+  "outputs": [
+    "course-map.md",
+    "lesson-01.md",
+    "lesson-02.md",
+    "lesson-03.md",
+    "lesson-04.md",
+    "lesson-05.md",
+    "lesson-06.md",
+    "terminology.md",
+    "teacher-guide.md",
+    "capstone.md",
+    "sources.md",
+    "canonical-card.md",
+    "verification.json",
+    "independent-verification.json",
+    "independent-audit.json",
+    "course.md",
+    "audit_report.json",
+    "input-contract.json",
+    "launch-prompt.md",
+    "build_course.py",
+    "verify_examples.py",
+    "independent_verify.py",
+    "finalize_course.py",
+    "completion_report.json"
+  ],
+  "audit_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "hashes": {
+    "course-map.md": "eea7193e091c8f80193f9a15a6608256bd09c7e1ed9b5291a528db301785de12",
+    "lesson-01.md": "e5f782b80cbc72d88c3f9abfd607095a043be9fefb480847392979c3d92115f2",
+    "lesson-02.md": "a3631ecad31a1fa94e17bd393442a410eb76527420bb694ce432b38e0046bba8",
+    "lesson-03.md": "6a47081acedbd88087bd4947b16e589e1bcc30384dc0adf7c1c3b596c1aae357",
+    "lesson-04.md": "e37c512d1071565120f77cef95cb3bcd69bc313b2cb9e30332ffeedad2aaf32c",
+    "lesson-05.md": "c3f50c0b77accd192e87503e43f2e3e9b3d0b989fe2ca612e59dc233e0f7ee2b",
+    "lesson-06.md": "ba55c696fe4df77dea1f32b95eeca4539c5a44daaf8f9faa8fe70c9a5de0eb3e",
+    "terminology.md": "c746637fdd866b5da6ef9dc23a7c99630422c55bcf8028a8563db237958a535f",
+    "teacher-guide.md": "4a5a7a5494e926fe74ee73990d126205f012e8c1fd12720805f26c923f916741",
+    "capstone.md": "bc86a4f204e67503d6df1fd868badeb09196e34678bec59ac25741ad491aba5a",
+    "sources.md": "84425cf3ea55773f2997f0355e1c0bdfddcf134bdafb80e6c5d5deaf7abdcb9b",
+    "canonical-card.md": "1bc635a827c2da9a28821e87ff77e90d3379e1d2fe4074f877514395f799a0ce",
+    "verification.json": "f95dad522b4e12e2a3c882659121210dbac682fd521f7baac3be53d3a429baf1",
+    "independent-verification.json": "dcf7dc85b953adfb731ddedd1b02b125458642669b7929d0311150bc5d3875e8",
+    "independent-audit.json": "4ba1d4c2640a0983cf1003377d6748a94c3efb3bc76c23fa6ee8fcaa861077d0",
+    "course.md": "4af65e80c937a3aaf54ecd32c24bace32cd913ad016a0b09dfe5eccd490bf6f4",
+    "audit_report.json": "20d35a683969b9dcee2fafce231ff5e915c492a6f1ca397878287ad29fb8c166",
+    "input-contract.json": "dccd3b06654a449680a6e195833f96f353e13f4fcabe27c7c495428471f8c672",
+    "launch-prompt.md": "a844d1c507c96d7404c88fb0a88f2ea152b30b50fed23f0e5a2291d9a94b1d6f",
+    "build_course.py": "7c5dc6d4ac1bd7b12a40fbdd480464299fe1ce3ae88acbd87e1affbfca8df7f9",
+    "verify_examples.py": "e2d077ce8c934ccf8ffda71af5eec3be30a53603aa20cad3ec7491d71840714a",
+    "independent_verify.py": "405a67a21ec607d07b821a7e67d173e01f97c95a5286c8e34668f1a2e572522e",
+    "finalize_course.py": "b2518a13acbf84c4fccb886d944e617c4f64bd6ae6995808124883123b9fa761",
+    "manifest.json": "4c395d5cb5e632b9985b9578b17980f24f6cf6f27f2c04394a1a209a4402a60d"
+  },
+  "lesson_count": 6,
+  "capstone_periods": 2,
+  "source_gaps": [
+    "No gap in required M02 teaching content. The packet corpus-generation digest was not returned by capabilities and is not asserted freshly verified."
+  ],
+  "validation": {
+    "status": "passed",
+    "command": "conda run -n tf_gpu_env python Z:/Kfield-doc-training/.work/validate_project_course.py COURSE_DIRECTORY --json",
+    "exit_code": 0,
+    "errors": [],
+    "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9"
+  },
+  "harmless_limitations": [
+    "Pacing is planned, not learner-trial timing."
+  ]
+}

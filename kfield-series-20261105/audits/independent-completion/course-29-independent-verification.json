@@ -1,0 +1,3410 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-29",
+  "created_utc": "2026-11-05T20:30:23.339638+00:00",
+  "status": "passed",
+  "manifest_sha256": "206b584066826720da45c06c304fd0749ce01a1b81c9b601056f5f825376ca3c",
+  "audited_files": [
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\input-contract.json",
+      "sha256": "bd9eea7c5ee445c50a873a26ea6ed6c4314c6502655496d46ec477fa2b69052f",
+      "bytes": 162724
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\launch-prompt.md",
+      "sha256": "707049b95723ed25729dc7e90991e764e46b47aa8d551f3e039d228efaaa8d33",
+      "bytes": 134241
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\build_course.py",
+      "sha256": "00d64b8cf443510a614b59a2475ff4e2235b1f69d82f403eb1948f9b633f366d",
+      "bytes": 15831
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\lesson-01.md",
+      "sha256": "e558f8d9cc013f7c5278ac2978f559396c27a118ba9b8867d8e99e7b9368ac80",
+      "bytes": 4686
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\lesson-02.md",
+      "sha256": "1b98ff0270bc1e667c410349eb7f47186c576f633d56358bf6aeaf9c6d724347",
+      "bytes": 5603
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\lesson-03.md",
+      "sha256": "a88cdf9c0aaea685eb84f0b20f7ad56519be27a920ecb74280107ebc0858ec4e",
+      "bytes": 5603
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\lesson-04.md",
+      "sha256": "e1c53b59d5545f27532623fbd42bb03f582462bb66512385b5bbc667bd784258",
+      "bytes": 5584
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\lesson-05.md",
+      "sha256": "a88d81a5d386677b57e68c9fab36ad0bd6dea50a9b63b5063bac0a6553337917",
+      "bytes": 5402
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\lesson-06.md",
+      "sha256": "92a5cf9f3cb0d8ae4c2bca37d7a68bbe82b05e3f6cbd971d12a82bce6be1dc15",
+      "bytes": 5256
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\lesson-07.md",
+      "sha256": "318213841922685e5f683c83c8877af8550b5810e52ff04e2666236638e7f0a3",
+      "bytes": 5643
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\lesson-08.md",
+      "sha256": "c95dbc49739dc5a9fbb4651a19ba532dabe31b42895ad144232e57bf3e61b9ef",
+      "bytes": 6406
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\course-map.md",
+      "sha256": "d67c550a8c724475c615fe466b1223f416c16bfd28fdf47a8a84a73f69ef9375",
+      "bytes": 3682
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\terminology.md",
+      "sha256": "db4d3c0c2a666677fa2ae6801546e81efe0c50cc5585b32af35236fca1175480",
+      "bytes": 5420
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\manifest.json",
+      "sha256": "206b584066826720da45c06c304fd0749ce01a1b81c9b601056f5f825376ca3c",
+      "bytes": 12668
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\audit_report.json",
+      "sha256": "1b8d3e1988b1546f29efe3112ac62e6f23fc49e25d35b0d4725c446d43af85be",
+      "bytes": 8307
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\completion_report.json",
+      "sha256": "86869779a13157b4ac1e8ad08cf74f03babf9076e63f029aa2e2ebf37feaa004",
+      "bytes": 4620
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\verify_examples.py",
+      "sha256": "e288b294b27fe7e3e859f976058a66dc117c797b9f3a8d2cc70724ceebc91bdc",
+      "bytes": 6733
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\source-comparison.md",
+      "sha256": "28e9581e60ee63fef745e152333f96e52a3b13ae66a97aa75b04105f953ce04a",
+      "bytes": 2155
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\worked-example-verification.json",
+      "sha256": "1b5ceb06cae0672634124d4eaff0a15c9ea5892c53c2164188ee7b6b060a0c5c",
+      "bytes": 11482
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\sources.md",
+      "sha256": "afb8150cf916436d362127648cc4d008eb42e0669576aa08c6e11b72ec55d676",
+      "bytes": 5864
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\capstone.md",
+      "sha256": "d0e63179c6b9db722832af2cea188bf7cf01e685d1af2a47a3262db67e9bc921",
+      "bytes": 10379
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\teacher-guide.md",
+      "sha256": "4586b0713db828510738b60eade3bb1d4c0600685f2c7d6d7622553729d6391b",
+      "bytes": 7049
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\course.md",
+      "sha256": "85b0e67e2b6127813695c2d3744e5ccfd90871e36b34fb1cf796c7a3f707fc79",
+      "bytes": 45192
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\independent-audit.md",
+      "sha256": "ad7de161a3c096c321339df670f8e00c78679be9660015bc8140750ad8086143",
+      "bytes": 1905
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\validator-result.json",
+      "sha256": "d8b3938cdc5fc581a5b976faf36d1363658a3cd1fa934b923abb1e22c5307f4c",
+      "bytes": 916
+    }
+  ],
+  "runtime": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+  "independent_script_path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-teaching-auditor\\work\\audit_completed_29.py",
+  "independent_script_sha256": "7b63605dfa762cc3039fbbffd4fbed8003158395c95641f5ce13cece755495ea",
+  "method": "Independent SymPy exact recomputation from lesson inputs and JSON decimal lexemes; source/PDF semantic reading; builder and its verification code read but never executed/imported. Existing project-root validator only executed.",
+  "check_count": 321,
+  "failed_count": 0,
+  "checks": [
+    {
+      "id": "runtime",
+      "actual": "c:\\users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+      "expected": "c:\\users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+      "passed": true
+    },
+    {
+      "id": "source hash S01",
+      "actual": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "expected": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "passed": true
+    },
+    {
+      "id": "source hash S02",
+      "actual": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "expected": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "passed": true
+    },
+    {
+      "id": "source hash S03",
+      "actual": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "expected": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "passed": true
+    },
+    {
+      "id": "source hash S04",
+      "actual": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "expected": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "passed": true
+    },
+    {
+      "id": "source hash G01",
+      "actual": "bd6ff0e335f3c405000cd1f8adfa3ae947dc9362dfeb772764cf98ef62ae6f63",
+      "expected": "bd6ff0e335f3c405000cd1f8adfa3ae947dc9362dfeb772764cf98ef62ae6f63",
+      "passed": true
+    },
+    {
+      "id": "source hash G02",
+      "actual": "69dcaace292365d22b9b48c43edc0ac4936b148ec68a5b265abc72aaff4f4447",
+      "expected": "69dcaace292365d22b9b48c43edc0ac4936b148ec68a5b265abc72aaff4f4447",
+      "passed": true
+    },
+    {
+      "id": "source hash G03",
+      "actual": "aa7f4236b7f956c652690934d6444f597ea38b6e485cc77a22be884b567d1cea",
+      "expected": "aa7f4236b7f956c652690934d6444f597ea38b6e485cc77a22be884b567d1cea",
+      "passed": true
+    },
+    {
+      "id": "source hash G04",
+      "actual": "856777f0fae0d6b50e8d235435068b7ea3c25a83068cfbfb197b62835cbb8fbd",
+      "expected": "856777f0fae0d6b50e8d235435068b7ea3c25a83068cfbfb197b62835cbb8fbd",
+      "passed": true
+    },
+    {
+      "id": "source address S02/proof_contract",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "source address S02/mature_locked_cell3",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "source address S02/typed_conventions",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "source address S02/backbone_sequence",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "source address G03/status",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "source address G03/precision_contract",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "source address G03/coordinate_frame",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "source address G03/analytic_spherical_response",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "source address G03/reconstruction_sequence",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "amendment pointer G01/ordered_direct_basis_A",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "amendment pointer G01/reciprocal_basis_Q",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "amendment pointer G01/joint_phase_origin",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "amendment pointer G01/galaxy_cell_geometry",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "amendment pointer G01/holonomy",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "amendment pointer G01/observed_27_node_occupancy",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "amendment pointer G01/pure_holonomy_coordinate_tests",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "amendment pointer G01/comparison_to_authoritative_K_field",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "amendment pointer G03/status",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "amendment pointer G03/precision_contract",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "amendment pointer G03/coordinate_frame",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "amendment pointer G03/analytic_spherical_response",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "amendment pointer G03/reconstruction_sequence",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "amended lesson count",
+      "actual": 8,
+      "expected": 8,
+      "passed": true
+    },
+    {
+      "id": "taught anchor C29.01-E1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "taught anchor C29.01-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "taught anchor C29.01-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "taught anchor C29.01-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered diagnostics C29.01",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "source amendment C29.01",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "verbatim assembly C29.01",
+      "actual": "# Sky positions and projective axes\n\nEssential question: What information changes when a sky direction is treated as an axis?\n\nGoals: Convert simple sky angles into vectors; calculate directed and axial separations; identify what each observation supplies.\n\nPrerequisite bridge. You need signed arithmetic, coordinate graphs, and the ability to square and take a positive square root. Earlier courses 04, 06, 10, 22, 24 and 26 supply coordinate and evidence-reading experience. The operations used here are rebuilt locally. A vector is an ordered list of components: (1,0,0) means one step along the first axis and none along the others. Its length is sqrt(x²+y²+z²). A unit vector has length one.\n\n## C29.01-E1 — An arrow and an undirected line\n\nImagine pointing at a galaxy from the observer. The arrow gives a direction. It does not tell you how far along that arrow the galaxy lies. All positive multiples of the arrow point the same way; dividing by its length places its tip on a sphere of radius one. Keep any supplied distance separately so that this normalization can be reversed. If distance was never supplied, mark it missing rather than inventing it.\n\nThe ICRS coordinate convention used by G03 and G04 has x toward right ascension (RA) 0°, declination (Dec) 0°; y toward RA 90°, Dec 0°; and z toward the north celestial pole. RA, denoted alpha, goes around the equator; Dec, denoted delta, measures elevation above it. On a unit circle, cosine is the horizontal coordinate and sine is the vertical coordinate. Thus the horizontal projection has length cos(delta), and the height is sin(delta):\n\n`x = (cos(delta)cos(alpha), cos(delta)sin(alpha), sin(delta))`.\n\nFor the core calculations use sin(0°)=0, cos(0°)=1, sin(90°)=1, cos(90°)=0, sin(180°)=0 and cos(180°)=-1. The formula uses angles consistently in degrees here. Later loop phases use radians, where one full turn is 2π radians = 360°.\n\nAn **unoriented axis** is the pair {x,-x}: it records a line but not which end is positive. An intrinsic galaxy axis describes the galaxy's orientation; its sky position describes where it appears. One is not supplied by the other. A **projective view** deliberately identifies the two ends for a specified calculation. Store the original arrow or its sign alongside that view.\n\nThe dot product multiplies corresponding components and adds: x·y=x₁y₁+x₂y₂+x₃y₃. For unit vectors it equals the cosine of their directed angle. `arccos(t)` means the angle from 0° through 180° whose cosine is t. Directed separation is arccos(x·y); axial separation is arccos(|x·y|). Absolute value removes the sign only in the axial calculation. For dot products 1,0,-1 the directed angles are 0°,90°,180°.\n\n## C29.01-W1 — Worked example\n\nRA 0°, Dec 0° gives (1·1,1·0,0)=(1,0,0)=e_x. RA 180°, Dec 0° gives (-1,0,0)=-e_x. Both have length one. Their dot product is -1, so directed separation is 180°. The absolute dot product is 1, so axial separation is 0°. If only the axis were saved, these two different sky positions could no longer be distinguished.\n\n> Source scope. G04 pp1,3 reports 114,381 unique directed sky positions with no radial distance inferred. Its discovery operators used antipodal completion, while final fitting and assignments used the actual directed vectors. G02 p3 explicitly distinguishes this sky-position pathway from an earlier galaxy-axis pathway. These are source-reported observational and analysis facts; our three-coordinate examples are synthetic teaching examples.\n\n## C29.01-P1 — Guided practice and answer\n\nCompute RA 90°, Dec 0° and compare it with e_x in both views. The vector is (0,1,0)=e_y. Its dot product with e_x is zero, so both angles are 90°. An antipodal discovery view may include -e_y, but the observation record still says e_y. Preserve the object identifier and original direction.\n\n## Diagnostics — C29.01-D1\n\n1. Does (1,0,0) locate a galaxy at a known physical distance?\n2. For e_z and -e_z, find directed and axial angles.\n3. Can sky position alone identify the galaxy's own unoriented axis?\n4. What must be retained when forming a projective discovery view?\n\nWorked answers. 1. No: it specifies an arrow on the unit sphere; a radial-distance field is missing. 2. The dot product is -1, giving 180° directed and 0° axial. 3. No: the intrinsic orientation needs its own observation. 4. Retain the original direction and identity, plus the transformation and its scope; a sign can reconstruct a representative only when the chosen representative is also fixed.\n\nNext: [lesson 02](lesson-02.md) uses the dot product to distinguish a historical response from a reciprocal plane address.",
+      "expected": "# Sky positions and projective axes\n\nEssential question: What information changes when a sky direction is treated as an axis?\n\nGoals: Convert simple sky angles into vectors; calculate directed and axial separations; identify what each observation supplies.\n\nPrerequisite bridge. You need signed arithmetic, coordinate graphs, and the ability to square and take a positive square root. Earlier courses 04, 06, 10, 22, 24 and 26 supply coordinate and evidence-reading experience. The operations used here are rebuilt locally. A vector is an ordered list of components: (1,0,0) means one step along the first axis and none along the others. Its length is sqrt(x²+y²+z²). A unit vector has length one.\n\n## C29.01-E1 — An arrow and an undirected line\n\nImagine pointing at a galaxy from the observer. The arrow gives a direction. It does not tell you how far along that arrow the galaxy lies. All positive multiples of the arrow point the same way; dividing by its length places its tip on a sphere of radius one. Keep any supplied distance separately so that this normalization can be reversed. If distance was never supplied, mark it missing rather than inventing it.\n\nThe ICRS coordinate convention used by G03 and G04 has x toward right ascension (RA) 0°, declination (Dec) 0°; y toward RA 90°, Dec 0°; and z toward the north celestial pole. RA, denoted alpha, goes around the equator; Dec, denoted delta, measures elevation above it. On a unit circle, cosine is the horizontal coordinate and sine is the vertical coordinate. Thus the horizontal projection has length cos(delta), and the height is sin(delta):\n\n`x = (cos(delta)cos(alpha), cos(delta)sin(alpha), sin(delta))`.\n\nFor the core calculations use sin(0°)=0, cos(0°)=1, sin(90°)=1, cos(90°)=0, sin(180°)=0 and cos(180°)=-1. The formula uses angles consistently in degrees here. Later loop phases use radians, where one full turn is 2π radians = 360°.\n\nAn **unoriented axis** is the pair {x,-x}: it records a line but not which end is positive. An intrinsic galaxy axis describes the galaxy's orientation; its sky position describes where it appears. One is not supplied by the other. A **projective view** deliberately identifies the two ends for a specified calculation. Store the original arrow or its sign alongside that view.\n\nThe dot product multiplies corresponding components and adds: x·y=x₁y₁+x₂y₂+x₃y₃. For unit vectors it equals the cosine of their directed angle. `arccos(t)` means the angle from 0° through 180° whose cosine is t. Directed separation is arccos(x·y); axial separation is arccos(|x·y|). Absolute value removes the sign only in the axial calculation. For dot products 1,0,-1 the directed angles are 0°,90°,180°.\n\n## C29.01-W1 — Worked example\n\nRA 0°, Dec 0° gives (1·1,1·0,0)=(1,0,0)=e_x. RA 180°, Dec 0° gives (-1,0,0)=-e_x. Both have length one. Their dot product is -1, so directed separation is 180°. The absolute dot product is 1, so axial separation is 0°. If only the axis were saved, these two different sky positions could no longer be distinguished.\n\n> Source scope. G04 pp1,3 reports 114,381 unique directed sky positions with no radial distance inferred. Its discovery operators used antipodal completion, while final fitting and assignments used the actual directed vectors. G02 p3 explicitly distinguishes this sky-position pathway from an earlier galaxy-axis pathway. These are source-reported observational and analysis facts; our three-coordinate examples are synthetic teaching examples.\n\n## C29.01-P1 — Guided practice and answer\n\nCompute RA 90°, Dec 0° and compare it with e_x in both views. The vector is (0,1,0)=e_y. Its dot product with e_x is zero, so both angles are 90°. An antipodal discovery view may include -e_y, but the observation record still says e_y. Preserve the object identifier and original direction.\n\n## Diagnostics — C29.01-D1\n\n1. Does (1,0,0) locate a galaxy at a known physical distance?\n2. For e_z and -e_z, find directed and axial angles.\n3. Can sky position alone identify the galaxy's own unoriented axis?\n4. What must be retained when forming a projective discovery view?\n\nWorked answers. 1. No: it specifies an arrow on the unit sphere; a radial-distance field is missing. 2. The dot product is -1, giving 180° directed and 0° axial. 3. No: the intrinsic orientation needs its own observation. 4. Retain the original direction and identity, plus the transformation and its scope; a sign can reconstruct a representative only when the chosen representative is also fixed.\n\nNext: [lesson 02](lesson-02.md) uses the dot product to distinguish a historical response from a reciprocal plane address.",
+      "passed": true
+    },
+    {
+      "id": "taught anchor C29.02-E1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "taught anchor C29.02-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "taught anchor C29.02-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "taught anchor C29.02-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered diagnostics C29.02",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "source amendment C29.02",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "verbatim assembly C29.02",
+      "actual": "# Spherical response and phase addresses\n\nEssential question: How can similar-looking formulas describe different operations?\n\nGoals: Evaluate a finite response card; flag undefined branches before division; compute a reciprocal address without treating phase as force.\n\nPrerequisite bridge. Lesson 01 taught unit vectors, dot products and radians. A normal is a vector perpendicular to a plane. The dot product with a unit normal measures the signed component along it. A zero dot product means the vectors are perpendicular. This lesson takes two periods: response and address first, domain and parity second.\n\n## C29.02-E1 — Follow the contract of each map\n\nAn input-output rule needs a domain, units and a source. G03 is a historical Cell3 spherical-response construction. It is not the galaxy cell of G04. Here is the complete response card needed for our finite exercises:\n\n| Symbol | Meaning and rule |\n|---|---|\n| n, N | unit direction and unit sheet normal |\n| h | positive half-step sheet spacing, units L |\n| nu | odd lock order, nu=2r+1 for integer r |\n| u | n·N, dimensionless |\n| kappa | nu π/(h u), units 1/L, defined only if u≠0 |\n| q_resp | kappa n, reciprocal-length vector |\n| s_ab,s_ac,s_bc | loop displacement vectors in L, with s_ac=s_ab+s_bc |\n| psi_ij | q_resp·s_ij, a dimensionless radian phase |\n| F | sqrt(3+2cos(psi_ab)+2cos(psi_ac)+2cos(psi_bc))/3 |\n| D | sum over ab,ac,bc of w_ij[1-cos(psi_ij)], w_ij=abs(R_local,ij) |\n| G_star | D/F, defined only when F≠0 and previous fields exist |\n\n`sum` instructs you to add the three terms. The weights are nonnegative and inherit their units from the historical local reciprocal metric. F is dimensionless, so G_star has D's units. The source calls G_star an unscaled relative response; an absolute gravity calibration is undefined. Synthetic weights in this course use a declared relative response unit U_D, not a measured force unit.\n\nThe phases must respect loop closure: psi_ac=psi_ab+psi_bc before reduction by full turns. A cosine repeats after 2π. A supplied triple cannot be treated as geometrically realized merely because its three cosines can be evaluated. For a negative square-root argument, flag an inconsistent card or precision issue; do not silently replace it with zero.\n\nG04 p4 has a different map. Its reciprocal vector q_j=n_j/Delta_j has length inverse to its plane spacing Delta_j. Points on plane k_j satisfy `q_j·x=k_j+phi_j`, where k_j is an integer and phi_j is the phase offset measured in **cycles**, not radians. Multiply cycles by 2π to express a radian phase. At a general point, q_j·x-phi_j need not be an integer. That difference is a continuous address, with its fractional component retained. We use q_resp and q_j to avoid a collision between the two source-local uses of q.\n\n## C29.02-W1 — Worked example\n\nSynthetic response: n=N=e_z, h=1L, nu=1. Then u=1, kappa=π/L and q_resp=(0,0,π/L). Choose loop displacements perpendicular to e_z and obeying closure, so all loop phases are zero. Since cos(0)=1, F=sqrt(3+2+2+2)/3=1. Each term in D is w(1-1)=0, hence D=0 and G_star=0 U_D.\n\nSeparately, a synthetic reciprocal row q₁=(1,0)/L acting on x=(5/4,0)L gives q₁·x=5/4 cycles. With phi₁=1/4, the plane label is k₁=1. The L units cancel. This is an address calculation, not a response or a force.\n\n## C29.02-P1 — Domain practice and answers\n\nCase A: n=e_x and N=e_z. Their dot product is zero, so kappa and q_resp are undefined. Save the input vectors and a `u_zero` flag with null response fields.\n\nCase B: consider closure-consistent loop phases (psi_ab,psi_ac,psi_bc)=(2π/3,4π/3,2π/3). Their cosines are all -1/2, giving F=sqrt(3-1-1-1)/3=0. With all three weights 1 U_D, D=3(1+1/2)=9/2 U_D. G_star is undefined, with a `transfer_zero` flag. Even if a different card gave D=0 too, 0/0 would remain undefined. The blueprint's all-2π/3 triple is repaired here because it violates loop closure; this is an algebraic domain demonstration, not a replay of G03's frozen geometry.\n\nCase C: a separately stipulated regular transfer has D=2 U_D and F=1/2. G_star=2/(1/2)=4 U_D. Keep its synthetic label.\n\n> Scope and precision. G03#/precision_contract specifies IEEE-754 binary64 arithmetic, phase reduction to [-π,π), null undefined values and separate flags. These classroom calculations use exact symbolic angles; a numerical residual near zero is retained separately from an exact domain statement. No historical G03 coefficient replaces the mature S02 lock.\n\n## Antipodal parity\n\nReverse n while keeping N fixed. Then u changes sign and kappa changes sign. Their product q_resp=kappa n keeps its value: two sign changes cancel. Thus loop phases, F, D and G_star are even under this antipodal operation where defined. “Odd” means sign-reversing; “even” means unchanged. This response parity does not identify antipodal sky positions or any other kind of parity.\n\n## Diagnostics — C29.02-D1\n\n1. A reciprocal row is (0,2)/L and x=(0,3/4)L. With phi=1/2, what is k?\n2. Which fields fail first when u=0?\n3. Does antipodal reversal change q_resp? Show the signs.\n4. What is wrong with reporting G_star in newtons from this card?\n\nWorked answers. 1. The dot product is 3/2; subtract 1/2 to obtain k=1. 2. Division by u makes kappa undefined, so downstream q_resp and phases are unavailable; retain all inputs. 3. (-kappa)(-n)=kappa n, unchanged. 4. No force calibration or force unit has been supplied; relative response and phase do not establish a force law.\n\nNext: [lesson 03](lesson-03.md) combines reciprocal rows into one reconstructible address system.",
+      "expected": "# Spherical response and phase addresses\n\nEssential question: How can similar-looking formulas describe different operations?\n\nGoals: Evaluate a finite response card; flag undefined branches before division; compute a reciprocal address without treating phase as force.\n\nPrerequisite bridge. Lesson 01 taught unit vectors, dot products and radians. A normal is a vector perpendicular to a plane. The dot product with a unit normal measures the signed component along it. A zero dot product means the vectors are perpendicular. This lesson takes two periods: response and address first, domain and parity second.\n\n## C29.02-E1 — Follow the contract of each map\n\nAn input-output rule needs a domain, units and a source. G03 is a historical Cell3 spherical-response construction. It is not the galaxy cell of G04. Here is the complete response card needed for our finite exercises:\n\n| Symbol | Meaning and rule |\n|---|---|\n| n, N | unit direction and unit sheet normal |\n| h | positive half-step sheet spacing, units L |\n| nu | odd lock order, nu=2r+1 for integer r |\n| u | n·N, dimensionless |\n| kappa | nu π/(h u), units 1/L, defined only if u≠0 |\n| q_resp | kappa n, reciprocal-length vector |\n| s_ab,s_ac,s_bc | loop displacement vectors in L, with s_ac=s_ab+s_bc |\n| psi_ij | q_resp·s_ij, a dimensionless radian phase |\n| F | sqrt(3+2cos(psi_ab)+2cos(psi_ac)+2cos(psi_bc))/3 |\n| D | sum over ab,ac,bc of w_ij[1-cos(psi_ij)], w_ij=abs(R_local,ij) |\n| G_star | D/F, defined only when F≠0 and previous fields exist |\n\n`sum` instructs you to add the three terms. The weights are nonnegative and inherit their units from the historical local reciprocal metric. F is dimensionless, so G_star has D's units. The source calls G_star an unscaled relative response; an absolute gravity calibration is undefined. Synthetic weights in this course use a declared relative response unit U_D, not a measured force unit.\n\nThe phases must respect loop closure: psi_ac=psi_ab+psi_bc before reduction by full turns. A cosine repeats after 2π. A supplied triple cannot be treated as geometrically realized merely because its three cosines can be evaluated. For a negative square-root argument, flag an inconsistent card or precision issue; do not silently replace it with zero.\n\nG04 p4 has a different map. Its reciprocal vector q_j=n_j/Delta_j has length inverse to its plane spacing Delta_j. Points on plane k_j satisfy `q_j·x=k_j+phi_j`, where k_j is an integer and phi_j is the phase offset measured in **cycles**, not radians. Multiply cycles by 2π to express a radian phase. At a general point, q_j·x-phi_j need not be an integer. That difference is a continuous address, with its fractional component retained. We use q_resp and q_j to avoid a collision between the two source-local uses of q.\n\n## C29.02-W1 — Worked example\n\nSynthetic response: n=N=e_z, h=1L, nu=1. Then u=1, kappa=π/L and q_resp=(0,0,π/L). Choose loop displacements perpendicular to e_z and obeying closure, so all loop phases are zero. Since cos(0)=1, F=sqrt(3+2+2+2)/3=1. Each term in D is w(1-1)=0, hence D=0 and G_star=0 U_D.\n\nSeparately, a synthetic reciprocal row q₁=(1,0)/L acting on x=(5/4,0)L gives q₁·x=5/4 cycles. With phi₁=1/4, the plane label is k₁=1. The L units cancel. This is an address calculation, not a response or a force.\n\n## C29.02-P1 — Domain practice and answers\n\nCase A: n=e_x and N=e_z. Their dot product is zero, so kappa and q_resp are undefined. Save the input vectors and a `u_zero` flag with null response fields.\n\nCase B: consider closure-consistent loop phases (psi_ab,psi_ac,psi_bc)=(2π/3,4π/3,2π/3). Their cosines are all -1/2, giving F=sqrt(3-1-1-1)/3=0. With all three weights 1 U_D, D=3(1+1/2)=9/2 U_D. G_star is undefined, with a `transfer_zero` flag. Even if a different card gave D=0 too, 0/0 would remain undefined. The blueprint's all-2π/3 triple is repaired here because it violates loop closure; this is an algebraic domain demonstration, not a replay of G03's frozen geometry.\n\nCase C: a separately stipulated regular transfer has D=2 U_D and F=1/2. G_star=2/(1/2)=4 U_D. Keep its synthetic label.\n\n> Scope and precision. G03#/precision_contract specifies IEEE-754 binary64 arithmetic, phase reduction to [-π,π), null undefined values and separate flags. These classroom calculations use exact symbolic angles; a numerical residual near zero is retained separately from an exact domain statement. No historical G03 coefficient replaces the mature S02 lock.\n\n## Antipodal parity\n\nReverse n while keeping N fixed. Then u changes sign and kappa changes sign. Their product q_resp=kappa n keeps its value: two sign changes cancel. Thus loop phases, F, D and G_star are even under this antipodal operation where defined. “Odd” means sign-reversing; “even” means unchanged. This response parity does not identify antipodal sky positions or any other kind of parity.\n\n## Diagnostics — C29.02-D1\n\n1. A reciprocal row is (0,2)/L and x=(0,3/4)L. With phi=1/2, what is k?\n2. Which fields fail first when u=0?\n3. Does antipodal reversal change q_resp? Show the signs.\n4. What is wrong with reporting G_star in newtons from this card?\n\nWorked answers. 1. The dot product is 3/2; subtract 1/2 to obtain k=1. 2. Division by u makes kappa undefined, so downstream q_resp and phases are unavailable; retain all inputs. 3. (-kappa)(-n)=kappa n, unchanged. 4. No force calibration or force unit has been supplied; relative response and phase do not establish a force law.\n\nNext: [lesson 03](lesson-03.md) combines reciprocal rows into one reconstructible address system.",
+      "passed": true
+    },
+    {
+      "id": "taught anchor C29.03-E1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "taught anchor C29.03-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "taught anchor C29.03-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "taught anchor C29.03-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered diagnostics C29.03",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "source amendment C29.03",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "verbatim assembly C29.03",
+      "actual": "# The galaxy-derived cell\n\nEssential question: How does a phase address become a geometric center?\n\nGoals: Multiply a column basis by an address; recover an address using reciprocal rows; distinguish phase, origin, basis and inverse metric units.\n\nPrerequisite bridge. Lesson 02 supplied one reciprocal row. Now put several rows together so that one point has several simultaneous addresses. Two periods separate reconstruction from types and boundary rules.\n\n## C29.03-E1 — A matrix is an organized set of operations\n\nFor a two-dimensional example, let columns a and b be two independent step vectors. The matrix A=[a b] acts by `A(t₁,t₂)=t₁a+t₂b`. In three dimensions add t₃c. This definition teaches matrix-vector multiplication without a new rule to memorize. An inverse A⁻¹ reverses the operation: A⁻¹(At)=t. It exists only when the columns give independent directions. The identity matrix I leaves a vector unchanged. `diag(2,3)` has diagonal entries 2,3 and zeros elsewhere.\n\nA transpose, superscript T, exchanges rows and columns. G01 stores reciprocal **columns** in Q_gal, so the reading rows are Q_galᵀ. Their defining relation is Q_galᵀ A_gal=I. G04 calls that row matrix R; here call it R_gal_rows to distinguish it from an inverse Gram metric. Its rows recover the amount of each basis step. Dotting reciprocal column j into direct column i gives 1 when i=j and 0 otherwise.\n\nFor phase offset phi and integer label k, the center is `c_k=A(k+phi)`. Phi is an address offset, dimensionless. The zero-index center is A phi in reconstruction-length units. The coordinate origin x=0, the zero-index center A phi, and phi are three different objects. For general x, t=A⁻¹x-phi is the continuous address relative to the center lattice. Retain t and any residual used in assigning an integer center.\n\nUnits provide a quick check. If A is in L, A⁻¹ and Q are in 1/L, while addresses and phi are dimensionless. The Gram matrix M=AᵀA contains dot products of basis columns and has units L². Its inverse M⁻¹ has units 1/L². An inverse basis and an inverse metric cannot be substituted for one another.\n\n## C29.03-W1 — Phase-center worked example\n\nTake synthetic A=I₂ L, phi=(1/4,1/2), k=(1,-1). First add addresses: k+phi=(5/4,-1/2). Multiplication by A gives c_k=(5/4,-1/2)L. Set k=0 instead and the center is A phi=(1/4,1/2)L. Recover the label by A⁻¹c_k-phi=(5/4,-1/2)-(1/4,1/2)=(1,-1). Nothing was lost.\n\n## C29.03-P1 — Guided practice and answer\n\nUse A=diag(2,3)L with the same k and phi. Its columns are (2,0)L and (0,3)L, so c_k=(2·5/4,3·(-1/2))L=(5/2,-3/2)L. The zero-index center is (1/2,3/2)L. Reciprocal rows are (1/2,0)/L and (0,1/3)/L. They recover (5/4,-1/2). Subtract phi to recover k. Dot products of columns give M=diag(4,9)L²; M⁻¹=diag(1/4,1/9)L⁻². Notice the reciprocal row entries were not squared until forming the inverse metric.\n\n## Source card: orientation and precision\n\nG01#/ordered_direct_basis_A and /reciprocal_basis_Q are the frozen galaxy matrices; their exact entries remain at their original hashed path in [sources](sources.md). Columns, not rows, are the primitive vectors. G01#/joint_phase_origin is approximately (0.47,0.45,0.568033984452736), a phase address. This displayed rounding is for reading only; the verification script loads full stored values. The galaxy determinant is positive, approximately 0.006245061651 in cubed reconstruction units. S02#/mature_locked_cell3/det_B_nm3 is -0.11791489191174465 nm³.\n\nA determinant measures signed volume. For a 2×2 array [[a,b],[c,d]], it is ad-bc; for a diagonal 3×3 array it is the product of the diagonal entries. A positive versus negative sign specifies the orientation of the ordered basis relative to the fixed coordinate frame. Volume is the absolute determinant. Reflecting or swapping columns can change this sign; do not do so silently to “match” the sources. The ICRS frame is shared, while basis handedness differs.\n\n> Claim scope. The galaxy lengths are unit-sphere reconstruction lengths, with no supplied radial calibration (G02 p4; G04 pp3–4). L in our examples is an abstract teaching length, not a parsec or a nanometer. Algebraic QᵀA=I is exact by definition; recomputation from stored decimal matrices has a closure residual that must be recorded rather than erased.\n\n## Ownership is a separate convention\n\nFor the mature Cell3 address t=B⁻¹(x-O_K), subtract the declared physical origin O_K first. Half-open ownership takes z=floor(t+1/2) componentwise and u=t-z in [-1/2,1/2). Floor means the greatest integer no larger than the argument. At t=1/2, z=1 and u=-1/2; at t=-1/2, z=0 and u=-1/2. This explicitly assigns a shared wall to one cell. The corresponding nearest-integer half-tie goes toward the larger integer for this coordinate rule. Other residual sign conventions need their own intervals. This ownership partition does not certify the physically closest center in a skew cell; lesson 05 will test that distinction.\n\n## Diagnostics — C29.03-D1\n\n1. With A=diag(2,3)L, what are the units of phi and A phi?\n2. Multiply the first reciprocal row by each direct column.\n3. Is M⁻¹=A⁻¹ in the practice example?\n4. For t=-3/2, find z and u under the declared ownership rule.\n\nWorked answers. 1. Phi is dimensionless; A phi has units L. 2. (1/2,0)·(2,0)=1 and (1/2,0)·(0,3)=0. 3. No: diag(1/4,1/9)L⁻² differs from diag(1/2,1/3)L⁻¹. 4. z=floor(-1)=-1 and u=-3/2-(-1)=-1/2, retaining t=z+u.\n\nNext: [lesson 04](lesson-04.md) compares what follows from any independent basis and what remains source-specific.",
+      "expected": "# The galaxy-derived cell\n\nEssential question: How does a phase address become a geometric center?\n\nGoals: Multiply a column basis by an address; recover an address using reciprocal rows; distinguish phase, origin, basis and inverse metric units.\n\nPrerequisite bridge. Lesson 02 supplied one reciprocal row. Now put several rows together so that one point has several simultaneous addresses. Two periods separate reconstruction from types and boundary rules.\n\n## C29.03-E1 — A matrix is an organized set of operations\n\nFor a two-dimensional example, let columns a and b be two independent step vectors. The matrix A=[a b] acts by `A(t₁,t₂)=t₁a+t₂b`. In three dimensions add t₃c. This definition teaches matrix-vector multiplication without a new rule to memorize. An inverse A⁻¹ reverses the operation: A⁻¹(At)=t. It exists only when the columns give independent directions. The identity matrix I leaves a vector unchanged. `diag(2,3)` has diagonal entries 2,3 and zeros elsewhere.\n\nA transpose, superscript T, exchanges rows and columns. G01 stores reciprocal **columns** in Q_gal, so the reading rows are Q_galᵀ. Their defining relation is Q_galᵀ A_gal=I. G04 calls that row matrix R; here call it R_gal_rows to distinguish it from an inverse Gram metric. Its rows recover the amount of each basis step. Dotting reciprocal column j into direct column i gives 1 when i=j and 0 otherwise.\n\nFor phase offset phi and integer label k, the center is `c_k=A(k+phi)`. Phi is an address offset, dimensionless. The zero-index center is A phi in reconstruction-length units. The coordinate origin x=0, the zero-index center A phi, and phi are three different objects. For general x, t=A⁻¹x-phi is the continuous address relative to the center lattice. Retain t and any residual used in assigning an integer center.\n\nUnits provide a quick check. If A is in L, A⁻¹ and Q are in 1/L, while addresses and phi are dimensionless. The Gram matrix M=AᵀA contains dot products of basis columns and has units L². Its inverse M⁻¹ has units 1/L². An inverse basis and an inverse metric cannot be substituted for one another.\n\n## C29.03-W1 — Phase-center worked example\n\nTake synthetic A=I₂ L, phi=(1/4,1/2), k=(1,-1). First add addresses: k+phi=(5/4,-1/2). Multiplication by A gives c_k=(5/4,-1/2)L. Set k=0 instead and the center is A phi=(1/4,1/2)L. Recover the label by A⁻¹c_k-phi=(5/4,-1/2)-(1/4,1/2)=(1,-1). Nothing was lost.\n\n## C29.03-P1 — Guided practice and answer\n\nUse A=diag(2,3)L with the same k and phi. Its columns are (2,0)L and (0,3)L, so c_k=(2·5/4,3·(-1/2))L=(5/2,-3/2)L. The zero-index center is (1/2,3/2)L. Reciprocal rows are (1/2,0)/L and (0,1/3)/L. They recover (5/4,-1/2). Subtract phi to recover k. Dot products of columns give M=diag(4,9)L²; M⁻¹=diag(1/4,1/9)L⁻². Notice the reciprocal row entries were not squared until forming the inverse metric.\n\n## Source card: orientation and precision\n\nG01#/ordered_direct_basis_A and /reciprocal_basis_Q are the frozen galaxy matrices; their exact entries remain at their original hashed path in [sources](sources.md). Columns, not rows, are the primitive vectors. G01#/joint_phase_origin is approximately (0.47,0.45,0.568033984452736), a phase address. This displayed rounding is for reading only; the verification script loads full stored values. The galaxy determinant is positive, approximately 0.006245061651 in cubed reconstruction units. S02#/mature_locked_cell3/det_B_nm3 is -0.11791489191174465 nm³.\n\nA determinant measures signed volume. For a 2×2 array [[a,b],[c,d]], it is ad-bc; for a diagonal 3×3 array it is the product of the diagonal entries. A positive versus negative sign specifies the orientation of the ordered basis relative to the fixed coordinate frame. Volume is the absolute determinant. Reflecting or swapping columns can change this sign; do not do so silently to “match” the sources. The ICRS frame is shared, while basis handedness differs.\n\n> Claim scope. The galaxy lengths are unit-sphere reconstruction lengths, with no supplied radial calibration (G02 p4; G04 pp3–4). L in our examples is an abstract teaching length, not a parsec or a nanometer. Algebraic QᵀA=I is exact by definition; recomputation from stored decimal matrices has a closure residual that must be recorded rather than erased.\n\n## Ownership is a separate convention\n\nFor the mature Cell3 address t=B⁻¹(x-O_K), subtract the declared physical origin O_K first. Half-open ownership takes z=floor(t+1/2) componentwise and u=t-z in [-1/2,1/2). Floor means the greatest integer no larger than the argument. At t=1/2, z=1 and u=-1/2; at t=-1/2, z=0 and u=-1/2. This explicitly assigns a shared wall to one cell. The corresponding nearest-integer half-tie goes toward the larger integer for this coordinate rule. Other residual sign conventions need their own intervals. This ownership partition does not certify the physically closest center in a skew cell; lesson 05 will test that distinction.\n\n## Diagnostics — C29.03-D1\n\n1. With A=diag(2,3)L, what are the units of phi and A phi?\n2. Multiply the first reciprocal row by each direct column.\n3. Is M⁻¹=A⁻¹ in the practice example?\n4. For t=-3/2, find z and u under the declared ownership rule.\n\nWorked answers. 1. Phi is dimensionless; A phi has units L. 2. (1/2,0)·(2,0)=1 and (1/2,0)·(0,3)=0. 3. No: diag(1/4,1/9)L⁻² differs from diag(1/2,1/3)L⁻¹. 4. z=floor(-1)=-1 and u=-3/2-(-1)=-1/2, retaining t=z+u.\n\nNext: [lesson 04](lesson-04.md) compares what follows from any independent basis and what remains source-specific.",
+      "passed": true
+    },
+    {
+      "id": "taught anchor C29.04-E1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "taught anchor C29.04-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "taught anchor C29.04-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "taught anchor C29.04-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered diagnostics C29.04",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "source amendment C29.04",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "verbatim assembly C29.04",
+      "actual": "# Shared grammar and distinct metrics\n\nEssential question: Which shared constructions survive when the basis changes?\n\nGoals: Verify root closure and orthogonality; compare two typed metrics; distinguish a common algebraic construction from a physical identification.\n\nPrerequisite bridge. Lesson 03 taught column bases, transposes, inverses and the Gram matrix. We now subtract basis steps and ask which formulas remain true for every independent basis. The first period develops closure; the second compares source roles and units.\n\n## C29.04-E1 — Different routes to the same sheet\n\nAn integer address (i,j,k) records steps along a,b,c. Its sum lambda=i+j+k labels a sheet. A change such as (1,-1,0) has sum zero and stays in that sheet. The set of integer changes with sum zero is called the A2 address lattice here. “Rank two” means two independent changes suffice: every (i,j,k) with sum zero equals i(1,0,-1)+j(0,1,-1). This is a concrete operational definition; no abstract algebra is needed.\n\nIn the local half-step window a primitive lift is a/2, b/2 or c/2. Here i,j,k count half-steps: the corresponding full-step address is (i,j,k)/2, and the local sheet label lambda=i+j+k is twice its full-step coordinate sum. Each primitive lift increases this local label by one. Taking one lift forward and another backward produces an in-sheet displacement, called a root or elementary holonomy displacement in G02:\n\n`s_ab=(a-b)/2`, `s_bc=(b-c)/2`, `s_ac=(a-c)/2`.\n\nAdd the first two expressions. The -b and +b cancel, giving `(a-c)/2=s_ac`. This closure identity holds for any three vectors, not only a fitted galaxy cell. It does not force their lengths or angles to agree.\n\nThe vector `g=A⁻ᵀ(1,1,1)` uses inverse transpose: transpose the inverse, then multiply. It satisfies g·a=g·b=g·c=1 by reciprocity. Hence g·s_ab=(1-1)/2=0, and similarly for the other roots. Thus g points perpendicular to the root sheet. Dividing g by its length gives a unit normal N. With `h=1/(2||g||)`, each primitive half-step has normal component h. Its remainder t_a=a/2-hN is the in-sheet slip; recover a/2 by adding hN+t_a. No component is discarded.\n\n## C29.04-W1 — Worked comparison\n\nSynthetic A=diag(1,2,3)L gives a=(1,0,0)L, b=(0,2,0)L and c=(0,0,3)L. Therefore s_ab=(1/2,-1,0)L, s_bc=(0,1,-3/2)L and s_ac=(1/2,0,-3/2)L. Adding the first two gives the third component by component.\n\nHere g=(1,1/2,1/3)/L. Its dot product with s_ab is 1/2-1/2=0; with s_bc it is 1/2-1/2=0; with s_ac it is 1/2-1/2=0. The Gram metric is diag(1,4,9)L². It describes lengths and angles that closure alone did not specify.\n\n## C29.04-P1 — Guided practice and answer\n\nChange to synthetic A'=diag(2,1,4)L. Compute roots and metric. The roots are (1,-1/2,0)L, (0,1/2,-2)L and (1,0,-2)L, again closing. The metric becomes diag(4,1,16)L², different from the previous metric. The new perpendicular vector is g'=(1/2,1,1/4)/L; for example g'·s'_ab=1/2-1/2=0. The two normals are not parallel because their component ratios are not all equal. Shared closure has not identified their directions.\n\nNow classify a proposed ratio “galaxy sheet spacing divided by Cell3 spacing in nm.” The numerator is an uncalibrated unit-sphere reconstruction length, the denominator a physical length. It is not an admitted physical scale ratio. A galaxy radial calibration and a declared mapping would be needed. Dimensionless comparisons formed separately within each cell can still be meaningful.\n\n## Source comparison card\n\n| Contract | Galaxy cell | Mature Cell3 |\n|---|---|---|\n| Basis | A_gal, G01, ICRS columns | B, S02#/mature_locked_cell3, ICRS columns |\n| Length type | unit-sphere reconstruction | nm in the locked record |\n| Handedness | positive determinant | intentional negative determinant |\n| Origin use | c_k=A_gal(k+phi) | x-O_K in affine addresses |\n| Direct metric | M_gal=A_galᵀA_gal | M_cell=BᵀB |\n| Inverse metric | M_gal⁻¹ | R_cell=M_cell⁻¹ |\n| Normal | derived from A_gal | separately derived from B |\n\n> Evidence scope. G02 pp3–5,17,20 and G01#/comparison_to_authoritative_K_field report shared algebra but distinct metric anisotropy and ICRS orientation. The historical normal-angle comparison is source-reported, not a fresh mature-lock replay. Our two diagonal bases establish the general logical distinction exactly. A common formula is useful explanatory structure; an additional physical correspondence needs its own transformation and prediction.\n\nThe symbols G_phase and G_eff from neighboring work have different source-defined roles; neither is silently substituted for M_cell. Similarly Q_gal is a reciprocal basis here, not a distance quadratic form called Q elsewhere, and not the indexed integerization Q_g or Q_nu. Label both symbol and source before combining equations.\n\n## Diagnostics — C29.04-D1\n\n1. Why does s_ab+s_bc=s_ac survive a change of basis?\n2. Does equality of sheet counts fix a normal in ICRS?\n3. What is the reconstruction rule for a/2 after separating its normal component?\n4. What must be supplied before an orientation comparison becomes a physical scale comparison?\n\nWorked answers. 1. The b terms cancel algebraically for all vectors. 2. No: the normal depends on the actual inverse transpose, as the two diagonal examples show. 3. a/2=hN+t_a; store both parts. 4. A calibrated length relationship and explicit mapping, preserving the different origins, orientations and units. An angle alone supplies no physical distance.\n\nNext: [lesson 05](lesson-05.md) calculates how a metric changes address differences into geometric distance.",
+      "expected": "# Shared grammar and distinct metrics\n\nEssential question: Which shared constructions survive when the basis changes?\n\nGoals: Verify root closure and orthogonality; compare two typed metrics; distinguish a common algebraic construction from a physical identification.\n\nPrerequisite bridge. Lesson 03 taught column bases, transposes, inverses and the Gram matrix. We now subtract basis steps and ask which formulas remain true for every independent basis. The first period develops closure; the second compares source roles and units.\n\n## C29.04-E1 — Different routes to the same sheet\n\nAn integer address (i,j,k) records steps along a,b,c. Its sum lambda=i+j+k labels a sheet. A change such as (1,-1,0) has sum zero and stays in that sheet. The set of integer changes with sum zero is called the A2 address lattice here. “Rank two” means two independent changes suffice: every (i,j,k) with sum zero equals i(1,0,-1)+j(0,1,-1). This is a concrete operational definition; no abstract algebra is needed.\n\nIn the local half-step window a primitive lift is a/2, b/2 or c/2. Here i,j,k count half-steps: the corresponding full-step address is (i,j,k)/2, and the local sheet label lambda=i+j+k is twice its full-step coordinate sum. Each primitive lift increases this local label by one. Taking one lift forward and another backward produces an in-sheet displacement, called a root or elementary holonomy displacement in G02:\n\n`s_ab=(a-b)/2`, `s_bc=(b-c)/2`, `s_ac=(a-c)/2`.\n\nAdd the first two expressions. The -b and +b cancel, giving `(a-c)/2=s_ac`. This closure identity holds for any three vectors, not only a fitted galaxy cell. It does not force their lengths or angles to agree.\n\nThe vector `g=A⁻ᵀ(1,1,1)` uses inverse transpose: transpose the inverse, then multiply. It satisfies g·a=g·b=g·c=1 by reciprocity. Hence g·s_ab=(1-1)/2=0, and similarly for the other roots. Thus g points perpendicular to the root sheet. Dividing g by its length gives a unit normal N. With `h=1/(2||g||)`, each primitive half-step has normal component h. Its remainder t_a=a/2-hN is the in-sheet slip; recover a/2 by adding hN+t_a. No component is discarded.\n\n## C29.04-W1 — Worked comparison\n\nSynthetic A=diag(1,2,3)L gives a=(1,0,0)L, b=(0,2,0)L and c=(0,0,3)L. Therefore s_ab=(1/2,-1,0)L, s_bc=(0,1,-3/2)L and s_ac=(1/2,0,-3/2)L. Adding the first two gives the third component by component.\n\nHere g=(1,1/2,1/3)/L. Its dot product with s_ab is 1/2-1/2=0; with s_bc it is 1/2-1/2=0; with s_ac it is 1/2-1/2=0. The Gram metric is diag(1,4,9)L². It describes lengths and angles that closure alone did not specify.\n\n## C29.04-P1 — Guided practice and answer\n\nChange to synthetic A'=diag(2,1,4)L. Compute roots and metric. The roots are (1,-1/2,0)L, (0,1/2,-2)L and (1,0,-2)L, again closing. The metric becomes diag(4,1,16)L², different from the previous metric. The new perpendicular vector is g'=(1/2,1,1/4)/L; for example g'·s'_ab=1/2-1/2=0. The two normals are not parallel because their component ratios are not all equal. Shared closure has not identified their directions.\n\nNow classify a proposed ratio “galaxy sheet spacing divided by Cell3 spacing in nm.” The numerator is an uncalibrated unit-sphere reconstruction length, the denominator a physical length. It is not an admitted physical scale ratio. A galaxy radial calibration and a declared mapping would be needed. Dimensionless comparisons formed separately within each cell can still be meaningful.\n\n## Source comparison card\n\n| Contract | Galaxy cell | Mature Cell3 |\n|---|---|---|\n| Basis | A_gal, G01, ICRS columns | B, S02#/mature_locked_cell3, ICRS columns |\n| Length type | unit-sphere reconstruction | nm in the locked record |\n| Handedness | positive determinant | intentional negative determinant |\n| Origin use | c_k=A_gal(k+phi) | x-O_K in affine addresses |\n| Direct metric | M_gal=A_galᵀA_gal | M_cell=BᵀB |\n| Inverse metric | M_gal⁻¹ | R_cell=M_cell⁻¹ |\n| Normal | derived from A_gal | separately derived from B |\n\n> Evidence scope. G02 pp3–5,17,20 and G01#/comparison_to_authoritative_K_field report shared algebra but distinct metric anisotropy and ICRS orientation. The historical normal-angle comparison is source-reported, not a fresh mature-lock replay. Our two diagonal bases establish the general logical distinction exactly. A common formula is useful explanatory structure; an additional physical correspondence needs its own transformation and prediction.\n\nThe symbols G_phase and G_eff from neighboring work have different source-defined roles; neither is silently substituted for M_cell. Similarly Q_gal is a reciprocal basis here, not a distance quadratic form called Q elsewhere, and not the indexed integerization Q_g or Q_nu. Label both symbol and source before combining equations.\n\n## Diagnostics — C29.04-D1\n\n1. Why does s_ab+s_bc=s_ac survive a change of basis?\n2. Does equality of sheet counts fix a normal in ICRS?\n3. What is the reconstruction rule for a/2 after separating its normal component?\n4. What must be supplied before an orientation comparison becomes a physical scale comparison?\n\nWorked answers. 1. The b terms cancel algebraically for all vectors. 2. No: the normal depends on the actual inverse transpose, as the two diagonal examples show. 3. a/2=hN+t_a; store both parts. 4. A calibrated length relationship and explicit mapping, preserving the different origins, orientations and units. An angle alone supplies no physical distance.\n\nNext: [lesson 05](lesson-05.md) calculates how a metric changes address differences into geometric distance.",
+      "passed": true
+    },
+    {
+      "id": "taught anchor C29.05-E1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "taught anchor C29.05-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "taught anchor C29.05-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "taught anchor C29.05-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered diagnostics C29.05",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "source amendment C29.05",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "verbatim assembly C29.05",
+      "actual": "# Distance metrics and ellipsoids\n\nEssential question: Why can rounding an address miss the closest center?\n\nGoals: Calculate distance using a positive quadratic metric; verify an inverse; compare candidate centers in a skew cell; explain ellipse directions without advanced linear algebra.\n\nPrerequisite bridge. Lesson 03 defined M=AᵀA and lesson 04 showed that bases can share closure while differing in metric. A three-period sequence now teaches the quadratic calculation, skew assignment, and geometric interpretation. All numbers below are synthetic, not galaxy measurements.\n\n## C29.05-E1 — Derive the quadratic rule\n\nAn address displacement q=(q₁,q₂) is dimensionless. Its geometric displacement is Aq=q₁a+q₂b. The squared Euclidean length is its dot product with itself. Expanding gives\n\n`distance² = q₁²(a·a) + 2q₁q₂(a·b) + q₂²(b·b) = qᵀ M q`.\n\nThe off-diagonal entry appears twice, producing the **cross term**. It records the fact that basis steps need not be perpendicular. The final distance is the nonnegative square root. Keep the displacement vector as well: a length alone cannot reconstruct its direction or signs.\n\nUse `M=[[2,1],[1,2]]L²`. For q=(x,y), distance²=(2x²+2xy+2y²)L². Rewrite it as `((x+y)²+x²+y²)L²`. This is positive for every nonzero (x,y), and zero only at (0,0). Such a symmetric matrix is called positive definite. For a symmetric 2×2 matrix [[a,b],[b,c]], a>0 and determinant ac-b²>0 are an equivalent check: completing the square gives a(x+(b/a)y)²+((ac-b²)/a)y². This explains why the test works rather than simply naming a rule.\n\n## C29.05-W1 — Metric and inverse worked example\n\nThe leading diagonal entry is 2 and the determinant is 2·2-1·1=3, both positive. The inverse is `(1/3)[[2,-1],[-1,2]]L⁻²`. Verify by multiplication: the first product row is ((4-1)/3,(-2+2)/3)=(1,0); the second is ((2-2)/3,(-1+4)/3)=(0,1). Units cancel to give I.\n\nFor q=(1,-1), Mq=(1,-1)L². Dot with q to get 1+1=2L², so distance=sqrt(2)L. Expansion independently gives 2-2+2=2L². The cross term is negative here, but the whole squared distance remains positive. Changing the sign of one coordinate changes the geometry of the displacement.\n\n## C29.05-P1 — Two guided exercises\n\nFirst take q=(1,1). Mq=(3,3)L², so qᵀMq=6L² and distance=sqrt(6)L. Direct expansion gives 2+2+2=6L². Keep the original q alongside that distance.\n\nNext use the skew basis a=(1,0)L, b=(0.9,0.1)L, phase phi=0, and continuous address q=(0.49,0.49). Reconstruct x=0.49a+0.49b=(0.931,0.049)L. Independent coordinate rounding assigns integer label (0,0). Distance squared to its center is 0.931²+0.049²=0.866761+0.002401=0.869162L².\n\nThe center at b has label (0,1). Its residual is x-b=(0.031,-0.051)L and squared distance is 0.000961+0.002601=0.003562L². This one comparison disproves “rounding always finds the closest center.” It does not prove b is globally closest among all integer labels. In fact that claim is not needed. A global nearest-center certificate would need a bounded search with a proof that omitted candidates cannot improve the distance. G04 p4 specifies a local closest-vector calculation around a rounded estimate; an estimate is not itself the final answer.\n\n## Ellipse bridge\n\nFor distance L, the address points satisfy 2x²+2xy+2y²=1. Define coordinates along diagonal directions: u=(x+y)/sqrt(2), v=(x-y)/sqrt(2). This is reversible: x=(u+v)/sqrt(2), y=(u-v)/sqrt(2). Substitution gives `3u²+v²=1`. At v=0, u=±1/sqrt(3); at u=0, v=±1. Thus the unit-distance curve is an ellipse with semiaxes 1/sqrt(3) and 1 in dimensionless address coordinates. In three dimensions the analogous surface is an ellipsoid.\n\nThe direction (1,1)/sqrt(2) is multiplied by 3 under the numerical matrix M/L²; (1,-1)/sqrt(2) is multiplied by 1. A direction preserved by a matrix up to multiplication is an eigenvector; the multiplier is its eigenvalue. Here the values 3 and 1 are derived by direct substitution. No general eigenvalue algorithm is required for core work. A “hard” direction can mean the larger quadratic penalty under a specified matrix; always name that matrix, since G02's hard holonomy mode uses a different root tensor.\n\n> Scope. These are intrinsic distances in a declared metric, not a decoder for physical galaxy distances. G02 p4 and G04 p4 supply the metric/address framework. The separately listed hidden-distance and ellipsoid graph documents are extension routes, not premises of the classroom calculation. Source-specific distance claims would need their own retrieved calibration.\n\n## Diagnostics — C29.05-D1\n\n1. Is diag(1,-1)L² a positive distance metric?\n2. For q=(2,0), find squared distance and distance under M.\n3. Why is 2xy necessary in the quadratic expansion?\n4. What does the skew counterexample prove, and what does it leave unresolved?\n5. At u=0, which v values are on the unit-distance ellipse?\n\nWorked answers. 1. No: q=(0,1) gives -1L², impossible as a squared real distance. 2. 2·4=8L², distance=sqrt(8)L=2sqrt(2)L. 3. The terms q₁a·q₂b and q₂b·q₁a are equal and both occur. 4. Independent rounding is not always nearest; the globally nearest label remains unproved by this two-center comparison. 5. v²=1, so v=±1. Their signs distinguish two locations.\n\nNext: [lesson 06](lesson-06.md) retains assignments and residual vectors while counting local states.",
+      "expected": "# Distance metrics and ellipsoids\n\nEssential question: Why can rounding an address miss the closest center?\n\nGoals: Calculate distance using a positive quadratic metric; verify an inverse; compare candidate centers in a skew cell; explain ellipse directions without advanced linear algebra.\n\nPrerequisite bridge. Lesson 03 defined M=AᵀA and lesson 04 showed that bases can share closure while differing in metric. A three-period sequence now teaches the quadratic calculation, skew assignment, and geometric interpretation. All numbers below are synthetic, not galaxy measurements.\n\n## C29.05-E1 — Derive the quadratic rule\n\nAn address displacement q=(q₁,q₂) is dimensionless. Its geometric displacement is Aq=q₁a+q₂b. The squared Euclidean length is its dot product with itself. Expanding gives\n\n`distance² = q₁²(a·a) + 2q₁q₂(a·b) + q₂²(b·b) = qᵀ M q`.\n\nThe off-diagonal entry appears twice, producing the **cross term**. It records the fact that basis steps need not be perpendicular. The final distance is the nonnegative square root. Keep the displacement vector as well: a length alone cannot reconstruct its direction or signs.\n\nUse `M=[[2,1],[1,2]]L²`. For q=(x,y), distance²=(2x²+2xy+2y²)L². Rewrite it as `((x+y)²+x²+y²)L²`. This is positive for every nonzero (x,y), and zero only at (0,0). Such a symmetric matrix is called positive definite. For a symmetric 2×2 matrix [[a,b],[b,c]], a>0 and determinant ac-b²>0 are an equivalent check: completing the square gives a(x+(b/a)y)²+((ac-b²)/a)y². This explains why the test works rather than simply naming a rule.\n\n## C29.05-W1 — Metric and inverse worked example\n\nThe leading diagonal entry is 2 and the determinant is 2·2-1·1=3, both positive. The inverse is `(1/3)[[2,-1],[-1,2]]L⁻²`. Verify by multiplication: the first product row is ((4-1)/3,(-2+2)/3)=(1,0); the second is ((2-2)/3,(-1+4)/3)=(0,1). Units cancel to give I.\n\nFor q=(1,-1), Mq=(1,-1)L². Dot with q to get 1+1=2L², so distance=sqrt(2)L. Expansion independently gives 2-2+2=2L². The cross term is negative here, but the whole squared distance remains positive. Changing the sign of one coordinate changes the geometry of the displacement.\n\n## C29.05-P1 — Two guided exercises\n\nFirst take q=(1,1). Mq=(3,3)L², so qᵀMq=6L² and distance=sqrt(6)L. Direct expansion gives 2+2+2=6L². Keep the original q alongside that distance.\n\nNext use the skew basis a=(1,0)L, b=(0.9,0.1)L, phase phi=0, and continuous address q=(0.49,0.49). Reconstruct x=0.49a+0.49b=(0.931,0.049)L. Independent coordinate rounding assigns integer label (0,0). Distance squared to its center is 0.931²+0.049²=0.866761+0.002401=0.869162L².\n\nThe center at b has label (0,1). Its residual is x-b=(0.031,-0.051)L and squared distance is 0.000961+0.002601=0.003562L². This one comparison disproves “rounding always finds the closest center.” It does not prove b is globally closest among all integer labels. In fact that claim is not needed. A global nearest-center certificate would need a bounded search with a proof that omitted candidates cannot improve the distance. G04 p4 specifies a local closest-vector calculation around a rounded estimate; an estimate is not itself the final answer.\n\n## Ellipse bridge\n\nFor distance L, the address points satisfy 2x²+2xy+2y²=1. Define coordinates along diagonal directions: u=(x+y)/sqrt(2), v=(x-y)/sqrt(2). This is reversible: x=(u+v)/sqrt(2), y=(u-v)/sqrt(2). Substitution gives `3u²+v²=1`. At v=0, u=±1/sqrt(3); at u=0, v=±1. Thus the unit-distance curve is an ellipse with semiaxes 1/sqrt(3) and 1 in dimensionless address coordinates. In three dimensions the analogous surface is an ellipsoid.\n\nThe direction (1,1)/sqrt(2) is multiplied by 3 under the numerical matrix M/L²; (1,-1)/sqrt(2) is multiplied by 1. A direction preserved by a matrix up to multiplication is an eigenvector; the multiplier is its eigenvalue. Here the values 3 and 1 are derived by direct substitution. No general eigenvalue algorithm is required for core work. A “hard” direction can mean the larger quadratic penalty under a specified matrix; always name that matrix, since G02's hard holonomy mode uses a different root tensor.\n\n> Scope. These are intrinsic distances in a declared metric, not a decoder for physical galaxy distances. G02 p4 and G04 p4 supply the metric/address framework. The separately listed hidden-distance and ellipsoid graph documents are extension routes, not premises of the classroom calculation. Source-specific distance claims would need their own retrieved calibration.\n\n## Diagnostics — C29.05-D1\n\n1. Is diag(1,-1)L² a positive distance metric?\n2. For q=(2,0), find squared distance and distance under M.\n3. Why is 2xy necessary in the quadratic expansion?\n4. What does the skew counterexample prove, and what does it leave unresolved?\n5. At u=0, which v values are on the unit-distance ellipse?\n\nWorked answers. 1. No: q=(0,1) gives -1L², impossible as a squared real distance. 2. 2·4=8L², distance=sqrt(8)L=2sqrt(2)L. 3. The terms q₁a·q₂b and q₂b·q₁a are equal and both occur. 4. Independent rounding is not always nearest; the globally nearest label remains unproved by this two-center comparison. 5. v²=1, so v=±1. Their signs distinguish two locations.\n\nNext: [lesson 06](lesson-06.md) retains assignments and residual vectors while counting local states.",
+      "passed": true
+    },
+    {
+      "id": "taught anchor C29.06-E1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "taught anchor C29.06-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "taught anchor C29.06-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "taught anchor C29.06-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered diagnostics C29.06",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "source amendment C29.06",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "verbatim assembly C29.06",
+      "actual": "# Recursive occupancy and retained residuals\n\nEssential question: How can a count summary preserve sparse structure and reconstruction?\n\nGoals: Enumerate the 27 local states and seven sheets; track parent-child counts and identities; compute distinct vector, angular and radial residuals.\n\nPrerequisite bridge. Lessons 03–05 taught addresses, sheets, centers and metric distances. Now counts summarize assignments, while a parallel identity-and-residual ledger keeps the information needed to reconstruct individual observations. Use one period for states and one for multilevel residual accounting.\n\n## C29.06-E1 — Availability is not occupancy\n\nLet each local label i,j,k take -1,0,1. There are three choices independently for each coordinate, so 3·3·3=27 **available** labels. In the half-step window, the position is A(i,j,k)/2, or O_K+B(i,j,k)/2 for Cell3. The sheet label is lambda=i+j+k. Its possible values are -3,-2,-1,0,1,2,3.\n\n**Occupancy** counts how many observed objects are assigned to each state. It needs an assignment rule and actual observations. A geometric count of available states does not determine their observed occupancy. Nor does a list of seven sheet totals uniquely determine the 27 state counts: several states share a sheet. Keep the full state vector or its immutable source reference in addition to the sheet summary.\n\n## C29.06-W1 — Enumerating a complete window\n\nFor lambda=-3 there is only (-1,-1,-1). For -2 there are three permutations of (-1,-1,0). For -1 there are three permutations of (-1,0,0) and three of (-1,-1,1), giving six. For 0 there are (0,0,0) and six permutations of (-1,0,1), giving seven. Changing all signs supplies the positive sheets. The complete table is:\n\n| Sheet | -3 | -2 | -1 | 0 | 1 | 2 | 3 |\n|---|---|---|---|---|---|---|---|\n| Available states | 1 | 3 | 6 | 7 | 6 | 3 | 1 |\n\nThe sum is 27. By a different classification there is one body center, six face centers, twelve edge centers and eight corners, again totaling 27. Zero nonzero components means body center; one means face center; two means edge center; three means corner. All labels remain available, including unoccupied ones.\n\nFor a small synthetic hierarchy, parent P contains objects a,b,c,d. At depth one, P-left has {a}, P-middle has {b,c}, P-right has {d}. Counts (1,2,1) total four. At depth two, divide P-middle into M-left={b}, M-right={c}. Save the path P/Middle/Left for b and P/Middle/Right for c. The middle count reconstructs as 1+1=2, and the parent as 1+(1+1)+1=4. A table of totals alone cannot recover object identity; retaining membership makes the view reversible.\n\nThis toy mixed three-child/two-child tree demonstrates accounting, not a source recursion. The Cell3 dyadic spatial refinement and ternary address recursion are separately typed (S02#/backbone_sequence M03). A dyadic split halves each of three directions, producing eight spatial children; three choices per address coordinate produce 27 address children. “Depth two” is ambiguous unless the recursion is named. Do not equate those systems with our toy tree or with detector parity.\n\n## C29.06-P1 — Guided practice and answer\n\nAn independent toy parent has objects e,f,g,h and child memberships {},{e,f,g},{h}, giving (0,3,1). It too totals four. Subtract discovery (1,2,1) componentwise to get (-1,1,0). The zero first occupancy and the zero third difference carry different information; both remain in the ledger.\n\nNow let a synthetic observed unit direction be x=(1,0,0) and candidate center c=(4/5,0,0). The **vector residual** r=x-c=(1/5,0,0). Its Euclidean length is 1/5. The **angular miss** is arccos((x·c)/(||x||||c||))=arccos(1)=0°. The **radial mismatch**, defined here as ||c||-1, is -1/5. These are reconstruction-coordinate quantities. Zero angular miss does not mean zero vector residual: x=c+r still needs r. A radial mismatch from the unit shell is not the galaxy's physical radial distance.\n\nAt c=0 the vector residual x still exists and radial mismatch is -1, but angular miss is undefined because a zero vector has no direction. Store null with a `zero_center_direction` flag. Do not delete the observation or substitute a zero angle.\n\n> Source scope. G01#/galaxy_cell_geometry gives the same combinatorial sheet populations; /observed_27_node_occupancy reports observational summaries separately. G04 p4 retains vector, Euclidean, angular and radial residual channels. The small memberships above are synthetic, not copied catalog rows. Source rows and unexported state arrays stay in place and are referenced by provenance.\n\n## Diagnostics — C29.06-D1\n\n1. How many labels lie on lambda=0, and why?\n2. Does a zero observed count remove a possible state?\n3. Which fields reconstruct x from a center assignment?\n4. For x=e_x and c=0, list the available residuals and the undefined one.\n\nWorked answers. 1. Seven: the origin plus the six orders of (-1,0,1). 2. No: retain its label and zero count. 3. Keep c or its address+basis+phase, and the full signed r; then x=c+r. Membership and source identity must also survive. 4. r=e_x, length 1, radial mismatch -1; angular miss is null with the zero-center flag.\n\nNext: [lesson 07](lesson-07.md) freezes assignments before comparing independent populations.",
+      "expected": "# Recursive occupancy and retained residuals\n\nEssential question: How can a count summary preserve sparse structure and reconstruction?\n\nGoals: Enumerate the 27 local states and seven sheets; track parent-child counts and identities; compute distinct vector, angular and radial residuals.\n\nPrerequisite bridge. Lessons 03–05 taught addresses, sheets, centers and metric distances. Now counts summarize assignments, while a parallel identity-and-residual ledger keeps the information needed to reconstruct individual observations. Use one period for states and one for multilevel residual accounting.\n\n## C29.06-E1 — Availability is not occupancy\n\nLet each local label i,j,k take -1,0,1. There are three choices independently for each coordinate, so 3·3·3=27 **available** labels. In the half-step window, the position is A(i,j,k)/2, or O_K+B(i,j,k)/2 for Cell3. The sheet label is lambda=i+j+k. Its possible values are -3,-2,-1,0,1,2,3.\n\n**Occupancy** counts how many observed objects are assigned to each state. It needs an assignment rule and actual observations. A geometric count of available states does not determine their observed occupancy. Nor does a list of seven sheet totals uniquely determine the 27 state counts: several states share a sheet. Keep the full state vector or its immutable source reference in addition to the sheet summary.\n\n## C29.06-W1 — Enumerating a complete window\n\nFor lambda=-3 there is only (-1,-1,-1). For -2 there are three permutations of (-1,-1,0). For -1 there are three permutations of (-1,0,0) and three of (-1,-1,1), giving six. For 0 there are (0,0,0) and six permutations of (-1,0,1), giving seven. Changing all signs supplies the positive sheets. The complete table is:\n\n| Sheet | -3 | -2 | -1 | 0 | 1 | 2 | 3 |\n|---|---|---|---|---|---|---|---|\n| Available states | 1 | 3 | 6 | 7 | 6 | 3 | 1 |\n\nThe sum is 27. By a different classification there is one body center, six face centers, twelve edge centers and eight corners, again totaling 27. Zero nonzero components means body center; one means face center; two means edge center; three means corner. All labels remain available, including unoccupied ones.\n\nFor a small synthetic hierarchy, parent P contains objects a,b,c,d. At depth one, P-left has {a}, P-middle has {b,c}, P-right has {d}. Counts (1,2,1) total four. At depth two, divide P-middle into M-left={b}, M-right={c}. Save the path P/Middle/Left for b and P/Middle/Right for c. The middle count reconstructs as 1+1=2, and the parent as 1+(1+1)+1=4. A table of totals alone cannot recover object identity; retaining membership makes the view reversible.\n\nThis toy mixed three-child/two-child tree demonstrates accounting, not a source recursion. The Cell3 dyadic spatial refinement and ternary address recursion are separately typed (S02#/backbone_sequence M03). A dyadic split halves each of three directions, producing eight spatial children; three choices per address coordinate produce 27 address children. “Depth two” is ambiguous unless the recursion is named. Do not equate those systems with our toy tree or with detector parity.\n\n## C29.06-P1 — Guided practice and answer\n\nAn independent toy parent has objects e,f,g,h and child memberships {},{e,f,g},{h}, giving (0,3,1). It too totals four. Subtract discovery (1,2,1) componentwise to get (-1,1,0). The zero first occupancy and the zero third difference carry different information; both remain in the ledger.\n\nNow let a synthetic observed unit direction be x=(1,0,0) and candidate center c=(4/5,0,0). The **vector residual** r=x-c=(1/5,0,0). Its Euclidean length is 1/5. The **angular miss** is arccos((x·c)/(||x||||c||))=arccos(1)=0°. The **radial mismatch**, defined here as ||c||-1, is -1/5. These are reconstruction-coordinate quantities. Zero angular miss does not mean zero vector residual: x=c+r still needs r. A radial mismatch from the unit shell is not the galaxy's physical radial distance.\n\nAt c=0 the vector residual x still exists and radial mismatch is -1, but angular miss is undefined because a zero vector has no direction. Store null with a `zero_center_direction` flag. Do not delete the observation or substitute a zero angle.\n\n> Source scope. G01#/galaxy_cell_geometry gives the same combinatorial sheet populations; /observed_27_node_occupancy reports observational summaries separately. G04 p4 retains vector, Euclidean, angular and radial residual channels. The small memberships above are synthetic, not copied catalog rows. Source rows and unexported state arrays stay in place and are referenced by provenance.\n\n## Diagnostics — C29.06-D1\n\n1. How many labels lie on lambda=0, and why?\n2. Does a zero observed count remove a possible state?\n3. Which fields reconstruct x from a center assignment?\n4. For x=e_x and c=0, list the available residuals and the undefined one.\n\nWorked answers. 1. Seven: the origin plus the six orders of (-1,0,1). 2. No: retain its label and zero count. 3. Keep c or its address+basis+phase, and the full signed r; then x=c+r. Membership and source identity must also survive. 4. r=e_x, length 1, radial mismatch -1; angular miss is null with the zero-center flag.\n\nNext: [lesson 07](lesson-07.md) freezes assignments before comparing independent populations.",
+      "passed": true
+    },
+    {
+      "id": "taught anchor C29.07-E1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "taught anchor C29.07-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "taught anchor C29.07-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "taught anchor C29.07-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered diagnostics C29.07",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "source amendment C29.07",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "verbatim assembly C29.07",
+      "actual": "# Discovery and held-out comparisons\n\nEssential question: What makes a held-out comparison a test of an already chosen geometry?\n\nGoals: State what must be frozen; retain all signed occupancy differences and phase shifts; distinguish source control families from changes fitted after inspection.\n\nPrerequisite bridge. Lesson 06 retained full memberships and residual channels. We now compare two populations under one preselected assignment rule. The two periods cover the discovery contract and the complete discrepancy ledger.\n\n## C29.07-E1 — Separate choosing from checking\n\nDiscovery data may choose candidate plane normals, spacings, phases and the three-plane system. Once chosen, save them with basis order, units, source hashes, assignment algorithm and boundary convention. **Freeze** means do not alter these choices while evaluating the holdout. A holdout is a population not used to choose that fitted configuration. Reusing its answers to choose a better phase makes a new exploratory branch, which can be valuable but needs a later independent check.\n\nG04 p3 reports 57,076 discovery positions and 57,305 holdout positions. Their sum is 114,381. It says discovery selected candidate directions, spacings, phases and triad; final assignments used actual directed vectors. G02 p8 reports three controls: full orientation rotations (600 runs), common phase translations (600), and RA/Dec coordinate permutations (300). Each changes a different part of the arrangement. An orientation rotation preserves internal angles of the cell while changing its relation to the sky; a phase translation shifts plane offsets; coordinate permutation tests the joint angular coordinate structure. Those controls are not interchangeable, and their source statistics remain attached to their original families.\n\nA count divided by population size is a fraction. Comparing fractions is useful when populations differ in size, but retain original counts, totals and identities at their source. A signed difference is always declared in order: here **holdout minus discovery**. Correlation compresses the relation between two vectors to one number; it cannot replace the componentwise differences or explain them away.\n\n## C29.07-W1 — Complete seven-sheet reading\n\nG01#/observed_27_node_occupancy contains seven-element discovery, holdout and rotation-mean fraction arrays. [Source comparison ledger](source-comparison.md) displays all their entries and every holdout-minus-discovery difference. For example on sheet -3, the stored values give\n\n`0.012634150597679085 - 0.012264349288667742 ≈ +0.000369801309011343`.\n\nOn sheet 0 the corresponding difference is approximately -0.00246333476723913. Report both directions of difference, not only enhanced sheets. The verification script computes all seven from the hashed original record, retaining decimal subtraction results without interpreting them as exact rational population ratios. Summing each source fraction vector gives approximately one; the tiny stored-precision remainder is also retained.\n\nThe source's discovery/holdout correlation is 0.9995135003207234. This is a source-reported descriptive statistic, not an independently recomputed 27-state statistic here: G01 does not contain the full 27-state vectors needed for that replay. The seven-sheet subtraction is a fresh, narrower computation. Do not label the two checks as equivalent.\n\n## C29.07-P1 — Frozen versus refitted practice\n\nToy discovery occupancies (1,2,1) and holdout occupancies (0,3,1) produce (-1,1,0). Both totals are four. Retain all three bins and the memberships established in lesson 06.\n\nFreeze synthetic A=I₂ L and phi=(1/4,1/2). For a holdout point x=(3/10,1/2)L, the old k=0 center is (1/4,1/2)L and residual is (1/20,0)L. After looking at x, someone proposes phi'=(1/3,1/2). The phase shift is phi'-phi=(1/12,0). The new k=0 center is (1/3,1/2)L and residual (-1/30,0)L. Reconstruct x from either pair: 1/4+1/20=3/10 and 1/3-1/30=3/10. The integer label happens not to change; the center and signed residual do. Keep both assignments and the branch history. An improved distance after refitting does not turn the exploratory branch into a frozen test.\n\n> Source interpretation boundary. G01#/pure_holonomy_coordinate_tests attributes the detected structure to mixed branch-lift coordinates rather than an isolated pure sheet/A2 harmonic under its tested family. Its family statistic and interpretation remain source-reported. We retain weak pure-coordinate channels alongside mixed-coordinate results. G02 pp17–20 distinguishes these constructions; a pure-coordinate test is not a substitute for the full-state comparison.\n\n## Diagnostics — C29.07-D1\n\n1. Name four geometric choices to freeze before evaluating holdout.\n2. A phase is changed after examining holdout. What must happen to the old result?\n3. Does a high correlation justify omitting a negative sheet difference?\n4. What has this course freshly verified about G01 occupancy, and what has it not replayed?\n\nWorked answers. 1. Normals, spacings, common phase and selected triad, with assignment and conventions also saved. 2. Preserve the frozen result and add a named exploratory branch, including phase difference and both residuals. 3. No: the signed component is retained information and may locate an unresolved mechanism. 4. It checks the seven-sheet stored fractions and their differences; it does not reconstruct 27-state occupancy or independently reproduce the source correlation from catalog rows.\n\nNext: [lesson 08](lesson-08.md) turns a cross-domain similarity into an explicit transformation and prospective prediction.",
+      "expected": "# Discovery and held-out comparisons\n\nEssential question: What makes a held-out comparison a test of an already chosen geometry?\n\nGoals: State what must be frozen; retain all signed occupancy differences and phase shifts; distinguish source control families from changes fitted after inspection.\n\nPrerequisite bridge. Lesson 06 retained full memberships and residual channels. We now compare two populations under one preselected assignment rule. The two periods cover the discovery contract and the complete discrepancy ledger.\n\n## C29.07-E1 — Separate choosing from checking\n\nDiscovery data may choose candidate plane normals, spacings, phases and the three-plane system. Once chosen, save them with basis order, units, source hashes, assignment algorithm and boundary convention. **Freeze** means do not alter these choices while evaluating the holdout. A holdout is a population not used to choose that fitted configuration. Reusing its answers to choose a better phase makes a new exploratory branch, which can be valuable but needs a later independent check.\n\nG04 p3 reports 57,076 discovery positions and 57,305 holdout positions. Their sum is 114,381. It says discovery selected candidate directions, spacings, phases and triad; final assignments used actual directed vectors. G02 p8 reports three controls: full orientation rotations (600 runs), common phase translations (600), and RA/Dec coordinate permutations (300). Each changes a different part of the arrangement. An orientation rotation preserves internal angles of the cell while changing its relation to the sky; a phase translation shifts plane offsets; coordinate permutation tests the joint angular coordinate structure. Those controls are not interchangeable, and their source statistics remain attached to their original families.\n\nA count divided by population size is a fraction. Comparing fractions is useful when populations differ in size, but retain original counts, totals and identities at their source. A signed difference is always declared in order: here **holdout minus discovery**. Correlation compresses the relation between two vectors to one number; it cannot replace the componentwise differences or explain them away.\n\n## C29.07-W1 — Complete seven-sheet reading\n\nG01#/observed_27_node_occupancy contains seven-element discovery, holdout and rotation-mean fraction arrays. [Source comparison ledger](source-comparison.md) displays all their entries and every holdout-minus-discovery difference. For example on sheet -3, the stored values give\n\n`0.012634150597679085 - 0.012264349288667742 ≈ +0.000369801309011343`.\n\nOn sheet 0 the corresponding difference is approximately -0.00246333476723913. Report both directions of difference, not only enhanced sheets. The verification script computes all seven from the hashed original record, retaining decimal subtraction results without interpreting them as exact rational population ratios. Summing each source fraction vector gives approximately one; the tiny stored-precision remainder is also retained.\n\nThe source's discovery/holdout correlation is 0.9995135003207234. This is a source-reported descriptive statistic, not an independently recomputed 27-state statistic here: G01 does not contain the full 27-state vectors needed for that replay. The seven-sheet subtraction is a fresh, narrower computation. Do not label the two checks as equivalent.\n\n## C29.07-P1 — Frozen versus refitted practice\n\nToy discovery occupancies (1,2,1) and holdout occupancies (0,3,1) produce (-1,1,0). Both totals are four. Retain all three bins and the memberships established in lesson 06.\n\nFreeze synthetic A=I₂ L and phi=(1/4,1/2). For a holdout point x=(3/10,1/2)L, the old k=0 center is (1/4,1/2)L and residual is (1/20,0)L. After looking at x, someone proposes phi'=(1/3,1/2). The phase shift is phi'-phi=(1/12,0). The new k=0 center is (1/3,1/2)L and residual (-1/30,0)L. Reconstruct x from either pair: 1/4+1/20=3/10 and 1/3-1/30=3/10. The integer label happens not to change; the center and signed residual do. Keep both assignments and the branch history. An improved distance after refitting does not turn the exploratory branch into a frozen test.\n\n> Source interpretation boundary. G01#/pure_holonomy_coordinate_tests attributes the detected structure to mixed branch-lift coordinates rather than an isolated pure sheet/A2 harmonic under its tested family. Its family statistic and interpretation remain source-reported. We retain weak pure-coordinate channels alongside mixed-coordinate results. G02 pp17–20 distinguishes these constructions; a pure-coordinate test is not a substitute for the full-state comparison.\n\n## Diagnostics — C29.07-D1\n\n1. Name four geometric choices to freeze before evaluating holdout.\n2. A phase is changed after examining holdout. What must happen to the old result?\n3. Does a high correlation justify omitting a negative sheet difference?\n4. What has this course freshly verified about G01 occupancy, and what has it not replayed?\n\nWorked answers. 1. Normals, spacings, common phase and selected triad, with assignment and conventions also saved. 2. Preserve the frozen result and add a named exploratory branch, including phase difference and both residuals. 3. No: the signed component is retained information and may locate an unresolved mechanism. 4. It checks the seven-sheet stored fractions and their differences; it does not reconstruct 27-state occupancy or independently reproduce the source correlation from catalog rows.\n\nNext: [lesson 08](lesson-08.md) turns a cross-domain similarity into an explicit transformation and prospective prediction.",
+      "passed": true
+    },
+    {
+      "id": "taught anchor C29.08-E1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "taught anchor C29.08-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "taught anchor C29.08-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "taught anchor C29.08-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered diagnostics C29.08",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "source amendment C29.08",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "verbatim assembly C29.08",
+      "actual": "# A cross-domain explanatory map\n\nEssential question: What extra structure makes a recurring pattern a testable cross-domain explanation?\n\nGoals: Derive scale-normalized metric invariance; distinguish shape from orientation; specify a frozen independent prediction with retained mismatch channels.\n\nPrerequisite bridge. Lessons 04–05 taught roots, metrics and eigen-directions; lesson 07 taught frozen comparisons. We combine those capabilities over two periods. Eigenframe here means the ordered set of perpendicular eigen-directions of a specified symmetric matrix, with signs or projective conventions declared. We do not ask students to diagonalize a source matrix numerically.\n\n## C29.08-E1 — Write the transformation, then identify what survives\n\nA candidate explanation should say which objects correspond, how to transform them, what is invariant, and what new observation would distinguish it from alternatives. Shared algebra is one layer. The metric, orientation, occupancy and calibrated physical role are additional layers. A mechanism sufficient to explain recurrence across domains must account for the measured differences too.\n\nSuppose every edge of a three-dimensional basis is multiplied by a positive scalar s. Each dot product gains s², so M becomes s²M. Volume V=|det A| gains s³ because three independent directions are scaled. Define the volume-normalized metric `M_bar=M/V^(2/3)`. The exponent 2/3 means “take a cube root, then square.” V has units L³, so V^(2/3) has units L²; M_bar is dimensionless. For positive s, `(s³V)^(2/3)=s²V^(2/3)`, so M_bar is unchanged. Store V as well as M_bar to recover M: M=V^(2/3)M_bar. A normalized view alone intentionally hides overall scale; retaining V makes the representation reversible.\n\nA rotation U preserves dot products: its defining algebraic check is UᵀU=I. For a rotated basis UA, `(UA)ᵀ(UA)=AᵀUᵀUA=AᵀA`. Thus orientation can change while Gram stays fixed. The rotation must still be retained if reconstruction in ICRS matters. A reflection also preserves Gram but changes handedness; only det(U)=+1 is a proper rotation. Equal Gram matrices alone cannot distinguish reflection. Changes of shape generally alter the normalized metric.\n\n## C29.08-W1 — Worked scaling and shape comparison\n\nSynthetic A=diag(1,2,3)L has V=6L³ and M=diag(1,4,9)L². For 2A, volume is 48L³, metric diag(4,16,36)L² and every root doubles. Since 48^(2/3)=4·6^(2/3), dividing the new metric by the new volume scale yields exactly the old M_bar. This is a mathematical implication of uniform scaling, not evidence that any two physical systems are related by that scaling.\n\nContrast A'=diag(2,1,4)L from lesson 04. Its volume is 8L³ and metric diag(4,1,16)L². Relative to the same ordered labels, its first-to-second diagonal metric ratio is 4, whereas A's ratio is 1/4. Uniform scaling cannot explain that change. To compare actual cells one must preserve order or explicitly record and justify any permutation. A changed ratio is a retained structural difference.\n\n## C29.08-P1 — From source hypothesis to future test\n\nG02 p19 proposes that hard-mode-aligned states should be preferentially depleted. Its post hoc projection is the source of this hypothesis, not a performed independent test. Here “hard mode” refers to the larger nonzero eigenvalue of the holonomy root tensor K=sum s sᵀ; applying s sᵀ to v means s(s·v). The roots lie in a plane, so its normal has K N=0. The two in-plane directions receive different multipliers. This defines the source terms without conflating K with lesson 05's distance metric.\n\nA valid prospective plan freezes the galaxy basis, phase, root-tensor eigenframe, the state set to be tested, assignment algorithm, inclusion rules and control comparison before opening a new independent catalog. Save survey selection inputs that describe which sky regions or objects could be observed. Missing selection information stays an unresolved field. If testing distance shells, require independent distances and freeze shell boundaries; do not manufacture them from a unit sphere.\n\nFor a finite **synthetic planning exercise**, suppose a frozen transformation has already assigned four equally exposed states to hard-aligned labels H1,H2 and comparison labels C1,C2. Define the contrast as mean hard occupancy fraction minus mean comparison fraction. Predict contrast <0 in the independent sample. Toy counts (1,1,3,3) total eight, fractions (1/8,1/8,3/8,3/8), giving contrast 1/8-3/8=-1/4. Counts (3,3,1,1) instead give +1/4, contradicting this directional prediction under the stated equal-exposure contract. Zero would also fail the strict “<0” rule. Neither outcome is erased. The four-state example teaches the operation; actual work retains all 27 states, controls, exposures and residuals, with a justified aligned-state mapping fixed in advance.\n\n> Claim scope. Proposed common transport or scale-coupling mechanisms are hypotheses to compare by explanatory reach and independent predictions. The algebraic invariance above is derived; source occupancy is reported evidence; hard-mode depletion is a proposed test; physical galaxy length calibration and survey selection remain unresolved here. G02 pp19–20 also notes many possible compound ratios. A ratio chosen after seeing all candidates must retain the search family and compete prospectively, not be relabeled as an independent lock.\n\n## Diagnostics — C29.08-D1\n\n1. Under A→3A, how do M, V and roots change?\n2. What additional value reconstructs M from M_bar?\n3. Why does equal Gram not establish equal ICRS orientation or handedness?\n4. For equal-exposure toy counts (2,2,2,2), does the strict depletion prediction pass?\n5. What makes a new eigenframe selected after seeing the new catalog exploratory?\n\nWorked answers. 1. M→9M, V→27V, roots→3 roots. 2. V, through M=V^(2/3)M_bar; retain the basis or orientation mapping for full vector reconstruction too. 3. Rotations preserve Gram, and reflections preserve it while reversing orientation. 4. All fractions are 1/4 and contrast is 0, so the strict negative prediction fails; retain every count. 5. The tested geometry has changed using the evaluation data, so the original frozen prediction and the new branch must both remain recorded.\n\nNext: [capstone](capstone.md) assembles a source-traced comparison using these already practiced operations.",
+      "expected": "# A cross-domain explanatory map\n\nEssential question: What extra structure makes a recurring pattern a testable cross-domain explanation?\n\nGoals: Derive scale-normalized metric invariance; distinguish shape from orientation; specify a frozen independent prediction with retained mismatch channels.\n\nPrerequisite bridge. Lessons 04–05 taught roots, metrics and eigen-directions; lesson 07 taught frozen comparisons. We combine those capabilities over two periods. Eigenframe here means the ordered set of perpendicular eigen-directions of a specified symmetric matrix, with signs or projective conventions declared. We do not ask students to diagonalize a source matrix numerically.\n\n## C29.08-E1 — Write the transformation, then identify what survives\n\nA candidate explanation should say which objects correspond, how to transform them, what is invariant, and what new observation would distinguish it from alternatives. Shared algebra is one layer. The metric, orientation, occupancy and calibrated physical role are additional layers. A mechanism sufficient to explain recurrence across domains must account for the measured differences too.\n\nSuppose every edge of a three-dimensional basis is multiplied by a positive scalar s. Each dot product gains s², so M becomes s²M. Volume V=|det A| gains s³ because three independent directions are scaled. Define the volume-normalized metric `M_bar=M/V^(2/3)`. The exponent 2/3 means “take a cube root, then square.” V has units L³, so V^(2/3) has units L²; M_bar is dimensionless. For positive s, `(s³V)^(2/3)=s²V^(2/3)`, so M_bar is unchanged. Store V as well as M_bar to recover M: M=V^(2/3)M_bar. A normalized view alone intentionally hides overall scale; retaining V makes the representation reversible.\n\nA rotation U preserves dot products: its defining algebraic check is UᵀU=I. For a rotated basis UA, `(UA)ᵀ(UA)=AᵀUᵀUA=AᵀA`. Thus orientation can change while Gram stays fixed. The rotation must still be retained if reconstruction in ICRS matters. A reflection also preserves Gram but changes handedness; only det(U)=+1 is a proper rotation. Equal Gram matrices alone cannot distinguish reflection. Changes of shape generally alter the normalized metric.\n\n## C29.08-W1 — Worked scaling and shape comparison\n\nSynthetic A=diag(1,2,3)L has V=6L³ and M=diag(1,4,9)L². For 2A, volume is 48L³, metric diag(4,16,36)L² and every root doubles. Since 48^(2/3)=4·6^(2/3), dividing the new metric by the new volume scale yields exactly the old M_bar. This is a mathematical implication of uniform scaling, not evidence that any two physical systems are related by that scaling.\n\nContrast A'=diag(2,1,4)L from lesson 04. Its volume is 8L³ and metric diag(4,1,16)L². Relative to the same ordered labels, its first-to-second diagonal metric ratio is 4, whereas A's ratio is 1/4. Uniform scaling cannot explain that change. To compare actual cells one must preserve order or explicitly record and justify any permutation. A changed ratio is a retained structural difference.\n\n## C29.08-P1 — From source hypothesis to future test\n\nG02 p19 proposes that hard-mode-aligned states should be preferentially depleted. Its post hoc projection is the source of this hypothesis, not a performed independent test. Here “hard mode” refers to the larger nonzero eigenvalue of the holonomy root tensor K=sum s sᵀ; applying s sᵀ to v means s(s·v). The roots lie in a plane, so its normal has K N=0. The two in-plane directions receive different multipliers. This defines the source terms without conflating K with lesson 05's distance metric.\n\nA valid prospective plan freezes the galaxy basis, phase, root-tensor eigenframe, the state set to be tested, assignment algorithm, inclusion rules and control comparison before opening a new independent catalog. Save survey selection inputs that describe which sky regions or objects could be observed. Missing selection information stays an unresolved field. If testing distance shells, require independent distances and freeze shell boundaries; do not manufacture them from a unit sphere.\n\nFor a finite **synthetic planning exercise**, suppose a frozen transformation has already assigned four equally exposed states to hard-aligned labels H1,H2 and comparison labels C1,C2. Define the contrast as mean hard occupancy fraction minus mean comparison fraction. Predict contrast <0 in the independent sample. Toy counts (1,1,3,3) total eight, fractions (1/8,1/8,3/8,3/8), giving contrast 1/8-3/8=-1/4. Counts (3,3,1,1) instead give +1/4, contradicting this directional prediction under the stated equal-exposure contract. Zero would also fail the strict “<0” rule. Neither outcome is erased. The four-state example teaches the operation; actual work retains all 27 states, controls, exposures and residuals, with a justified aligned-state mapping fixed in advance.\n\n> Claim scope. Proposed common transport or scale-coupling mechanisms are hypotheses to compare by explanatory reach and independent predictions. The algebraic invariance above is derived; source occupancy is reported evidence; hard-mode depletion is a proposed test; physical galaxy length calibration and survey selection remain unresolved here. G02 pp19–20 also notes many possible compound ratios. A ratio chosen after seeing all candidates must retain the search family and compete prospectively, not be relabeled as an independent lock.\n\n## Diagnostics — C29.08-D1\n\n1. Under A→3A, how do M, V and roots change?\n2. What additional value reconstructs M from M_bar?\n3. Why does equal Gram not establish equal ICRS orientation or handedness?\n4. For equal-exposure toy counts (2,2,2,2), does the strict depletion prediction pass?\n5. What makes a new eigenframe selected after seeing the new catalog exploratory?\n\nWorked answers. 1. M→9M, V→27V, roots→3 roots. 2. V, through M=V^(2/3)M_bar; retain the basis or orientation mapping for full vector reconstruction too. 3. Rotations preserve Gram, and reflections preserve it while reversing orientation. 4. All fractions are 1/4 and contrast is 0, so the strict negative prediction fails; retain every count. 5. The tested geometry has changed using the evaluation data, so the original frozen prediction and the new branch must both remain recorded.\n\nNext: [capstone](capstone.md) assembles a source-traced comparison using these already practiced operations.",
+      "passed": true
+    },
+    {
+      "id": "manifest checkpoint input-contract",
+      "actual": "bd9eea7c5ee445c50a873a26ea6ed6c4314c6502655496d46ec477fa2b69052f",
+      "expected": "bd9eea7c5ee445c50a873a26ea6ed6c4314c6502655496d46ec477fa2b69052f",
+      "passed": true
+    },
+    {
+      "id": "manifest checkpoint sources",
+      "actual": "afb8150cf916436d362127648cc4d008eb42e0669576aa08c6e11b72ec55d676",
+      "expected": "afb8150cf916436d362127648cc4d008eb42e0669576aa08c6e11b72ec55d676",
+      "passed": true
+    },
+    {
+      "id": "manifest checkpoint verification-code",
+      "actual": "e288b294b27fe7e3e859f976058a66dc117c797b9f3a8d2cc70724ceebc91bdc",
+      "expected": "e288b294b27fe7e3e859f976058a66dc117c797b9f3a8d2cc70724ceebc91bdc",
+      "passed": true
+    },
+    {
+      "id": "manifest checkpoint verification",
+      "actual": "1b5ceb06cae0672634124d4eaff0a15c9ea5892c53c2164188ee7b6b060a0c5c",
+      "expected": "1b5ceb06cae0672634124d4eaff0a15c9ea5892c53c2164188ee7b6b060a0c5c",
+      "passed": true
+    },
+    {
+      "id": "manifest checkpoint source-comparison",
+      "actual": "28e9581e60ee63fef745e152333f96e52a3b13ae66a97aa75b04105f953ce04a",
+      "expected": "28e9581e60ee63fef745e152333f96e52a3b13ae66a97aa75b04105f953ce04a",
+      "passed": true
+    },
+    {
+      "id": "manifest checkpoint course-map",
+      "actual": "d67c550a8c724475c615fe466b1223f416c16bfd28fdf47a8a84a73f69ef9375",
+      "expected": "d67c550a8c724475c615fe466b1223f416c16bfd28fdf47a8a84a73f69ef9375",
+      "passed": true
+    },
+    {
+      "id": "manifest checkpoint lesson-01",
+      "actual": "e558f8d9cc013f7c5278ac2978f559396c27a118ba9b8867d8e99e7b9368ac80",
+      "expected": "e558f8d9cc013f7c5278ac2978f559396c27a118ba9b8867d8e99e7b9368ac80",
+      "passed": true
+    },
+    {
+      "id": "manifest checkpoint lesson-02",
+      "actual": "1b98ff0270bc1e667c410349eb7f47186c576f633d56358bf6aeaf9c6d724347",
+      "expected": "1b98ff0270bc1e667c410349eb7f47186c576f633d56358bf6aeaf9c6d724347",
+      "passed": true
+    },
+    {
+      "id": "manifest checkpoint lesson-03",
+      "actual": "a88cdf9c0aaea685eb84f0b20f7ad56519be27a920ecb74280107ebc0858ec4e",
+      "expected": "a88cdf9c0aaea685eb84f0b20f7ad56519be27a920ecb74280107ebc0858ec4e",
+      "passed": true
+    },
+    {
+      "id": "manifest checkpoint lesson-04",
+      "actual": "e1c53b59d5545f27532623fbd42bb03f582462bb66512385b5bbc667bd784258",
+      "expected": "e1c53b59d5545f27532623fbd42bb03f582462bb66512385b5bbc667bd784258",
+      "passed": true
+    },
+    {
+      "id": "manifest checkpoint lesson-05",
+      "actual": "a88d81a5d386677b57e68c9fab36ad0bd6dea50a9b63b5063bac0a6553337917",
+      "expected": "a88d81a5d386677b57e68c9fab36ad0bd6dea50a9b63b5063bac0a6553337917",
+      "passed": true
+    },
+    {
+      "id": "manifest checkpoint lesson-06",
+      "actual": "92a5cf9f3cb0d8ae4c2bca37d7a68bbe82b05e3f6cbd971d12a82bce6be1dc15",
+      "expected": "92a5cf9f3cb0d8ae4c2bca37d7a68bbe82b05e3f6cbd971d12a82bce6be1dc15",
+      "passed": true
+    },
+    {
+      "id": "manifest checkpoint lesson-07",
+      "actual": "318213841922685e5f683c83c8877af8550b5810e52ff04e2666236638e7f0a3",
+      "expected": "318213841922685e5f683c83c8877af8550b5810e52ff04e2666236638e7f0a3",
+      "passed": true
+    },
+    {
+      "id": "manifest checkpoint lesson-08",
+      "actual": "c95dbc49739dc5a9fbb4651a19ba532dabe31b42895ad144232e57bf3e61b9ef",
+      "expected": "c95dbc49739dc5a9fbb4651a19ba532dabe31b42895ad144232e57bf3e61b9ef",
+      "passed": true
+    },
+    {
+      "id": "manifest checkpoint terminology",
+      "actual": "db4d3c0c2a666677fa2ae6801546e81efe0c50cc5585b32af35236fca1175480",
+      "expected": "db4d3c0c2a666677fa2ae6801546e81efe0c50cc5585b32af35236fca1175480",
+      "passed": true
+    },
+    {
+      "id": "manifest checkpoint teacher-guide",
+      "actual": "4586b0713db828510738b60eade3bb1d4c0600685f2c7d6d7622553729d6391b",
+      "expected": "4586b0713db828510738b60eade3bb1d4c0600685f2c7d6d7622553729d6391b",
+      "passed": true
+    },
+    {
+      "id": "manifest checkpoint capstone",
+      "actual": "d0e63179c6b9db722832af2cea188bf7cf01e685d1af2a47a3262db67e9bc921",
+      "expected": "d0e63179c6b9db722832af2cea188bf7cf01e685d1af2a47a3262db67e9bc921",
+      "passed": true
+    },
+    {
+      "id": "manifest checkpoint independent-audit",
+      "actual": "ad7de161a3c096c321339df670f8e00c78679be9660015bc8140750ad8086143",
+      "expected": "ad7de161a3c096c321339df670f8e00c78679be9660015bc8140750ad8086143",
+      "passed": true
+    },
+    {
+      "id": "manifest checkpoint assembly",
+      "actual": "85b0e67e2b6127813695c2d3744e5ccfd90871e36b34fb1cf796c7a3f707fc79",
+      "expected": "85b0e67e2b6127813695c2d3744e5ccfd90871e36b34fb1cf796c7a3f707fc79",
+      "passed": true
+    },
+    {
+      "id": "manifest checkpoint audit",
+      "actual": "1b8d3e1988b1546f29efe3112ac62e6f23fc49e25d35b0d4725c446d43af85be",
+      "expected": "1b8d3e1988b1546f29efe3112ac62e6f23fc49e25d35b0d4725c446d43af85be",
+      "passed": true
+    },
+    {
+      "id": "manifest checkpoint recovery-code",
+      "actual": "00d64b8cf443510a614b59a2475ff4e2235b1f69d82f403eb1948f9b633f366d",
+      "expected": "00d64b8cf443510a614b59a2475ff4e2235b1f69d82f403eb1948f9b633f366d",
+      "passed": true
+    },
+    {
+      "id": "completion hash input-contract.json",
+      "actual": "bd9eea7c5ee445c50a873a26ea6ed6c4314c6502655496d46ec477fa2b69052f",
+      "expected": "bd9eea7c5ee445c50a873a26ea6ed6c4314c6502655496d46ec477fa2b69052f",
+      "passed": true
+    },
+    {
+      "id": "completion hash sources.md",
+      "actual": "afb8150cf916436d362127648cc4d008eb42e0669576aa08c6e11b72ec55d676",
+      "expected": "afb8150cf916436d362127648cc4d008eb42e0669576aa08c6e11b72ec55d676",
+      "passed": true
+    },
+    {
+      "id": "completion hash verify_examples.py",
+      "actual": "e288b294b27fe7e3e859f976058a66dc117c797b9f3a8d2cc70724ceebc91bdc",
+      "expected": "e288b294b27fe7e3e859f976058a66dc117c797b9f3a8d2cc70724ceebc91bdc",
+      "passed": true
+    },
+    {
+      "id": "completion hash worked-example-verification.json",
+      "actual": "1b5ceb06cae0672634124d4eaff0a15c9ea5892c53c2164188ee7b6b060a0c5c",
+      "expected": "1b5ceb06cae0672634124d4eaff0a15c9ea5892c53c2164188ee7b6b060a0c5c",
+      "passed": true
+    },
+    {
+      "id": "completion hash source-comparison.md",
+      "actual": "28e9581e60ee63fef745e152333f96e52a3b13ae66a97aa75b04105f953ce04a",
+      "expected": "28e9581e60ee63fef745e152333f96e52a3b13ae66a97aa75b04105f953ce04a",
+      "passed": true
+    },
+    {
+      "id": "completion hash course-map.md",
+      "actual": "d67c550a8c724475c615fe466b1223f416c16bfd28fdf47a8a84a73f69ef9375",
+      "expected": "d67c550a8c724475c615fe466b1223f416c16bfd28fdf47a8a84a73f69ef9375",
+      "passed": true
+    },
+    {
+      "id": "completion hash lesson-01.md",
+      "actual": "e558f8d9cc013f7c5278ac2978f559396c27a118ba9b8867d8e99e7b9368ac80",
+      "expected": "e558f8d9cc013f7c5278ac2978f559396c27a118ba9b8867d8e99e7b9368ac80",
+      "passed": true
+    },
+    {
+      "id": "completion hash lesson-02.md",
+      "actual": "1b98ff0270bc1e667c410349eb7f47186c576f633d56358bf6aeaf9c6d724347",
+      "expected": "1b98ff0270bc1e667c410349eb7f47186c576f633d56358bf6aeaf9c6d724347",
+      "passed": true
+    },
+    {
+      "id": "completion hash lesson-03.md",
+      "actual": "a88cdf9c0aaea685eb84f0b20f7ad56519be27a920ecb74280107ebc0858ec4e",
+      "expected": "a88cdf9c0aaea685eb84f0b20f7ad56519be27a920ecb74280107ebc0858ec4e",
+      "passed": true
+    },
+    {
+      "id": "completion hash lesson-04.md",
+      "actual": "e1c53b59d5545f27532623fbd42bb03f582462bb66512385b5bbc667bd784258",
+      "expected": "e1c53b59d5545f27532623fbd42bb03f582462bb66512385b5bbc667bd784258",
+      "passed": true
+    },
+    {
+      "id": "completion hash lesson-05.md",
+      "actual": "a88d81a5d386677b57e68c9fab36ad0bd6dea50a9b63b5063bac0a6553337917",
+      "expected": "a88d81a5d386677b57e68c9fab36ad0bd6dea50a9b63b5063bac0a6553337917",
+      "passed": true
+    },
+    {
+      "id": "completion hash lesson-06.md",
+      "actual": "92a5cf9f3cb0d8ae4c2bca37d7a68bbe82b05e3f6cbd971d12a82bce6be1dc15",
+      "expected": "92a5cf9f3cb0d8ae4c2bca37d7a68bbe82b05e3f6cbd971d12a82bce6be1dc15",
+      "passed": true
+    },
+    {
+      "id": "completion hash lesson-07.md",
+      "actual": "318213841922685e5f683c83c8877af8550b5810e52ff04e2666236638e7f0a3",
+      "expected": "318213841922685e5f683c83c8877af8550b5810e52ff04e2666236638e7f0a3",
+      "passed": true
+    },
+    {
+      "id": "completion hash lesson-08.md",
+      "actual": "c95dbc49739dc5a9fbb4651a19ba532dabe31b42895ad144232e57bf3e61b9ef",
+      "expected": "c95dbc49739dc5a9fbb4651a19ba532dabe31b42895ad144232e57bf3e61b9ef",
+      "passed": true
+    },
+    {
+      "id": "completion hash terminology.md",
+      "actual": "db4d3c0c2a666677fa2ae6801546e81efe0c50cc5585b32af35236fca1175480",
+      "expected": "db4d3c0c2a666677fa2ae6801546e81efe0c50cc5585b32af35236fca1175480",
+      "passed": true
+    },
+    {
+      "id": "completion hash teacher-guide.md",
+      "actual": "4586b0713db828510738b60eade3bb1d4c0600685f2c7d6d7622553729d6391b",
+      "expected": "4586b0713db828510738b60eade3bb1d4c0600685f2c7d6d7622553729d6391b",
+      "passed": true
+    },
+    {
+      "id": "completion hash capstone.md",
+      "actual": "d0e63179c6b9db722832af2cea188bf7cf01e685d1af2a47a3262db67e9bc921",
+      "expected": "d0e63179c6b9db722832af2cea188bf7cf01e685d1af2a47a3262db67e9bc921",
+      "passed": true
+    },
+    {
+      "id": "completion hash independent-audit.md",
+      "actual": "ad7de161a3c096c321339df670f8e00c78679be9660015bc8140750ad8086143",
+      "expected": "ad7de161a3c096c321339df670f8e00c78679be9660015bc8140750ad8086143",
+      "passed": true
+    },
+    {
+      "id": "completion hash course.md",
+      "actual": "85b0e67e2b6127813695c2d3744e5ccfd90871e36b34fb1cf796c7a3f707fc79",
+      "expected": "85b0e67e2b6127813695c2d3744e5ccfd90871e36b34fb1cf796c7a3f707fc79",
+      "passed": true
+    },
+    {
+      "id": "completion hash audit_report.json",
+      "actual": "1b8d3e1988b1546f29efe3112ac62e6f23fc49e25d35b0d4725c446d43af85be",
+      "expected": "1b8d3e1988b1546f29efe3112ac62e6f23fc49e25d35b0d4725c446d43af85be",
+      "passed": true
+    },
+    {
+      "id": "completion hash build_course.py",
+      "actual": "00d64b8cf443510a614b59a2475ff4e2235b1f69d82f403eb1948f9b633f366d",
+      "expected": "00d64b8cf443510a614b59a2475ff4e2235b1f69d82f403eb1948f9b633f366d",
+      "passed": true
+    },
+    {
+      "id": "completion hash manifest.json",
+      "actual": "206b584066826720da45c06c304fd0749ce01a1b81c9b601056f5f825376ca3c",
+      "expected": "206b584066826720da45c06c304fd0749ce01a1b81c9b601056f5f825376ca3c",
+      "passed": true
+    },
+    {
+      "id": "local link lesson-01.md lesson-02.md",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "local link lesson-02.md lesson-03.md",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "local link lesson-03.md sources.md",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "local link lesson-03.md lesson-04.md",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "local link lesson-04.md lesson-05.md",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "local link lesson-05.md lesson-06.md",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "local link lesson-06.md lesson-07.md",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "local link lesson-07.md source-comparison.md",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "local link lesson-07.md lesson-08.md",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "local link lesson-08.md capstone.md",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "local link course-map.md sources.md",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "local link course-map.md terminology.md",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "local link course-map.md teacher-guide.md",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "local link course-map.md course.md",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "local link course-map.md capstone.md",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "local link course.md lesson-02.md",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "local link course.md lesson-03.md",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "local link course.md sources.md",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "local link course.md lesson-04.md",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "local link course.md lesson-05.md",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "local link course.md lesson-06.md",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "local link course.md lesson-07.md",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "local link course.md source-comparison.md",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "local link course.md lesson-08.md",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "local link course.md capstone.md",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "sky RA 0",
+      "actual": [
+        [
+          "1"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "1"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "sky RA 90",
+      "actual": [
+        [
+          "0"
+        ],
+        [
+          "1"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "0"
+        ],
+        [
+          "1"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "sky RA 180",
+      "actual": [
+        [
+          "-1"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "-1"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "directed angle [1, 0, 0][0, 1, 0]",
+      "actual": "90",
+      "expected": 90,
+      "passed": true
+    },
+    {
+      "id": "axial angle [1, 0, 0][0, 1, 0]",
+      "actual": "90",
+      "expected": 90,
+      "passed": true
+    },
+    {
+      "id": "directed angle [1, 0, 0][-1, 0, 0]",
+      "actual": "180",
+      "expected": 180,
+      "passed": true
+    },
+    {
+      "id": "axial angle [1, 0, 0][-1, 0, 0]",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "directed angle [0, 0, 1][0, 0, -1]",
+      "actual": "180",
+      "expected": 180,
+      "passed": true
+    },
+    {
+      "id": "axial angle [0, 0, 1][0, 0, -1]",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "response u zero",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "regular response F",
+      "actual": "1",
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "id": "regular response D",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "repaired oriented phase closure",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "repaired cosines",
+      "actual": [
+        "-1/2",
+        "-1/2",
+        "-1/2"
+      ],
+      "expected": [
+        "-1/2",
+        "-1/2",
+        "-1/2"
+      ],
+      "passed": true
+    },
+    {
+      "id": "repaired zero F squared",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "repaired response D",
+      "actual": "9/2",
+      "expected": "9/2",
+      "passed": true
+    },
+    {
+      "id": "rejected blueprint equal phase closure",
+      "actual": "-2*pi/3",
+      "expected": "-2*pi/3",
+      "passed": true
+    },
+    {
+      "id": "regular transfer",
+      "actual": "4",
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "plane example",
+      "actual": "1",
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "id": "plane diagnostic",
+      "actual": "1",
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "id": "antipodal q parity",
+      "actual": [
+        [
+          "0"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "0"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "identity center",
+      "actual": [
+        [
+          "5/4"
+        ],
+        [
+          "-1/2"
+        ]
+      ],
+      "expected": [
+        [
+          "5/4"
+        ],
+        [
+          "-1/2"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "diagonal center",
+      "actual": [
+        [
+          "5/2"
+        ],
+        [
+          "-3/2"
+        ]
+      ],
+      "expected": [
+        [
+          "5/2"
+        ],
+        [
+          "-3/2"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "zero center",
+      "actual": [
+        [
+          "1/2"
+        ],
+        [
+          "3/2"
+        ]
+      ],
+      "expected": [
+        [
+          "1/2"
+        ],
+        [
+          "3/2"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "recover address",
+      "actual": [
+        [
+          "1"
+        ],
+        [
+          "-1"
+        ]
+      ],
+      "expected": [
+        [
+          "1"
+        ],
+        [
+          "-1"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "basis inverse",
+      "actual": [
+        [
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "1/3"
+        ]
+      ],
+      "expected": [
+        [
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "1/3"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "metric inverse",
+      "actual": [
+        [
+          "1/4",
+          "0"
+        ],
+        [
+          "0",
+          "1/9"
+        ]
+      ],
+      "expected": [
+        [
+          "1/4",
+          "0"
+        ],
+        [
+          "0",
+          "1/9"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "reciprocal identity",
+      "actual": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "expected": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "halfopen owner 1/2",
+      "actual": "1",
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "id": "halfopen residual 1/2",
+      "actual": "-1/2",
+      "expected": "-1/2",
+      "passed": true
+    },
+    {
+      "id": "halfopen reconstruct 1/2",
+      "actual": "1/2",
+      "expected": "1/2",
+      "passed": true
+    },
+    {
+      "id": "halfopen owner -1/2",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "halfopen residual -1/2",
+      "actual": "-1/2",
+      "expected": "-1/2",
+      "passed": true
+    },
+    {
+      "id": "halfopen reconstruct -1/2",
+      "actual": "-1/2",
+      "expected": "-1/2",
+      "passed": true
+    },
+    {
+      "id": "halfopen owner -3/2",
+      "actual": "-1",
+      "expected": -1,
+      "passed": true
+    },
+    {
+      "id": "halfopen residual -3/2",
+      "actual": "-1/2",
+      "expected": "-1/2",
+      "passed": true
+    },
+    {
+      "id": "halfopen reconstruct -3/2",
+      "actual": "-3/2",
+      "expected": "-3/2",
+      "passed": true
+    },
+    {
+      "id": "root closure (1, 2, 3)",
+      "actual": [
+        [
+          "1/2"
+        ],
+        [
+          "0"
+        ],
+        [
+          "-3/2"
+        ]
+      ],
+      "expected": [
+        [
+          "1/2"
+        ],
+        [
+          "0"
+        ],
+        [
+          "-3/2"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "metric (1, 2, 3)",
+      "actual": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "4",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "9"
+        ]
+      ],
+      "expected": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "4",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "9"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "root normal (1, 2, 3)ab",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "root normal (1, 2, 3)bc",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "root normal (1, 2, 3)ac",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "slip normal (1, 2, 3)0",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "halfstep reconstruction (1, 2, 3)0",
+      "actual": [
+        [
+          "1/2"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "1/2"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "slip normal (1, 2, 3)1",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "halfstep reconstruction (1, 2, 3)1",
+      "actual": [
+        [
+          "0"
+        ],
+        [
+          "1"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "0"
+        ],
+        [
+          "1"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "slip normal (1, 2, 3)2",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "halfstep reconstruction (1, 2, 3)2",
+      "actual": [
+        [
+          "0"
+        ],
+        [
+          "0"
+        ],
+        [
+          "3/2"
+        ]
+      ],
+      "expected": [
+        [
+          "0"
+        ],
+        [
+          "0"
+        ],
+        [
+          "3/2"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "root tensor null (1, 2, 3)",
+      "actual": [
+        [
+          "0"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "0"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "root rank (1, 2, 3)",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "root closure (2, 1, 4)",
+      "actual": [
+        [
+          "1"
+        ],
+        [
+          "0"
+        ],
+        [
+          "-2"
+        ]
+      ],
+      "expected": [
+        [
+          "1"
+        ],
+        [
+          "0"
+        ],
+        [
+          "-2"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "metric (2, 1, 4)",
+      "actual": [
+        [
+          "4",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "16"
+        ]
+      ],
+      "expected": [
+        [
+          "4",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "16"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "root normal (2, 1, 4)ab",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "root normal (2, 1, 4)bc",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "root normal (2, 1, 4)ac",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "slip normal (2, 1, 4)0",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "halfstep reconstruction (2, 1, 4)0",
+      "actual": [
+        [
+          "1"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "1"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "slip normal (2, 1, 4)1",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "halfstep reconstruction (2, 1, 4)1",
+      "actual": [
+        [
+          "0"
+        ],
+        [
+          "1/2"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "0"
+        ],
+        [
+          "1/2"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "slip normal (2, 1, 4)2",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "halfstep reconstruction (2, 1, 4)2",
+      "actual": [
+        [
+          "0"
+        ],
+        [
+          "0"
+        ],
+        [
+          "2"
+        ]
+      ],
+      "expected": [
+        [
+          "0"
+        ],
+        [
+          "0"
+        ],
+        [
+          "2"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "root tensor null (2, 1, 4)",
+      "actual": [
+        [
+          "0"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "0"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "root rank (2, 1, 4)",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "different normals",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "quadratic inverse",
+      "actual": [
+        [
+          "2/3",
+          "-1/3"
+        ],
+        [
+          "-1/3",
+          "2/3"
+        ]
+      ],
+      "expected": [
+        [
+          "2/3",
+          "-1/3"
+        ],
+        [
+          "-1/3",
+          "2/3"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "inverse product",
+      "actual": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "expected": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "minors",
+      "actual": [
+        "2",
+        "3"
+      ],
+      "expected": [
+        2,
+        3
+      ],
+      "passed": true
+    },
+    {
+      "id": "positive decomposition",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "quadratic [1, -1]",
+      "actual": "2",
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "quadratic [1, 1]",
+      "actual": "6",
+      "expected": 6,
+      "passed": true
+    },
+    {
+      "id": "quadratic [2, 0]",
+      "actual": "8",
+      "expected": 8,
+      "passed": true
+    },
+    {
+      "id": "invalid metric",
+      "actual": "-1",
+      "expected": -1,
+      "passed": true
+    },
+    {
+      "id": "skew point",
+      "actual": [
+        [
+          "931/1000"
+        ],
+        [
+          "49/1000"
+        ]
+      ],
+      "expected": [
+        [
+          "931/1000"
+        ],
+        [
+          "49/1000"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "skew signed residual",
+      "actual": [
+        [
+          "31/1000"
+        ],
+        [
+          "-51/1000"
+        ]
+      ],
+      "expected": [
+        [
+          "31/1000"
+        ],
+        [
+          "-51/1000"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "skew squared zero",
+      "actual": "434581/500000",
+      "expected": "434581/500000",
+      "passed": true
+    },
+    {
+      "id": "skew squared b",
+      "actual": "1781/500000",
+      "expected": "1781/500000",
+      "passed": true
+    },
+    {
+      "id": "skew counterexample",
+      "actual": "True",
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "ellipse transform",
+      "actual": "3*u**2 + v**2",
+      "expected": "3*u**2 + v**2",
+      "passed": true
+    },
+    {
+      "id": "ellipse eigen 3",
+      "actual": [
+        [
+          "3*sqrt(2)/2"
+        ],
+        [
+          "3*sqrt(2)/2"
+        ]
+      ],
+      "expected": [
+        [
+          "3*sqrt(2)/2"
+        ],
+        [
+          "3*sqrt(2)/2"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "ellipse eigen 1",
+      "actual": [
+        [
+          "sqrt(2)/2"
+        ],
+        [
+          "-sqrt(2)/2"
+        ]
+      ],
+      "expected": [
+        [
+          "sqrt(2)/2"
+        ],
+        [
+          "-sqrt(2)/2"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "ellipse endpoints",
+      "actual": [
+        "1",
+        1,
+        1
+      ],
+      "expected": [
+        1,
+        1,
+        1
+      ],
+      "passed": true
+    },
+    {
+      "id": "27 labels",
+      "actual": 27,
+      "expected": 27,
+      "passed": true
+    },
+    {
+      "id": "sheet populations",
+      "actual": [
+        1,
+        3,
+        6,
+        7,
+        6,
+        3,
+        1
+      ],
+      "expected": [
+        1,
+        3,
+        6,
+        7,
+        6,
+        3,
+        1
+      ],
+      "passed": true
+    },
+    {
+      "id": "node types",
+      "actual": [
+        1,
+        6,
+        12,
+        8
+      ],
+      "expected": [
+        1,
+        6,
+        12,
+        8
+      ],
+      "passed": true
+    },
+    {
+      "id": "dyadic children",
+      "actual": 8,
+      "expected": 8,
+      "passed": true
+    },
+    {
+      "id": "ternary children",
+      "actual": 27,
+      "expected": 27,
+      "passed": true
+    },
+    {
+      "id": "parent reconstruction",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "toy count residual",
+      "actual": [
+        [
+          "-1"
+        ],
+        [
+          "1"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "-1"
+        ],
+        [
+          "1"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "vector residual",
+      "actual": [
+        [
+          "1/5"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "1/5"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "residual norm",
+      "actual": "1/5",
+      "expected": "1/5",
+      "passed": true
+    },
+    {
+      "id": "angular residual",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "radial mismatch",
+      "actual": "-1/5",
+      "expected": "-1/5",
+      "passed": true
+    },
+    {
+      "id": "reconstruction",
+      "actual": [
+        [
+          "1"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "1"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "zero center residual",
+      "actual": [
+        [
+          "1"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "1"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "zero center radial",
+      "actual": -1,
+      "expected": -1,
+      "passed": true
+    },
+    {
+      "id": "population sum",
+      "actual": 114381,
+      "expected": 114381,
+      "passed": true
+    },
+    {
+      "id": "old phase residual",
+      "actual": "1/20",
+      "expected": "1/20",
+      "passed": true
+    },
+    {
+      "id": "new phase residual",
+      "actual": "-1/30",
+      "expected": "-1/30",
+      "passed": true
+    },
+    {
+      "id": "phase change",
+      "actual": "1/12",
+      "expected": "1/12",
+      "passed": true
+    },
+    {
+      "id": "old reconstruct",
+      "actual": "3/10",
+      "expected": "3/10",
+      "passed": true
+    },
+    {
+      "id": "new reconstruct",
+      "actual": "3/10",
+      "expected": "3/10",
+      "passed": true
+    },
+    {
+      "id": "volume",
+      "actual": "6",
+      "expected": 6,
+      "passed": true
+    },
+    {
+      "id": "scaled volume",
+      "actual": "48",
+      "expected": 48,
+      "passed": true
+    },
+    {
+      "id": "scaled metric",
+      "actual": [
+        [
+          "4",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "16",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "36"
+        ]
+      ],
+      "expected": [
+        [
+          "4",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "16",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "36"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "normalized metric",
+      "actual": [
+        [
+          "6**(1/3)/6",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "2*6**(1/3)/3",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "3*6**(1/3)/2"
+        ]
+      ],
+      "expected": [
+        [
+          "6**(1/3)/6",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "2*6**(1/3)/3",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "3*6**(1/3)/2"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "normalization reversible",
+      "actual": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "4",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "9"
+        ]
+      ],
+      "expected": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "4",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "9"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "rotation Gram",
+      "actual": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "4",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "9"
+        ]
+      ],
+      "expected": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "4",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "9"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "rotation orientation",
+      "actual": "1",
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "id": "reflection Gram",
+      "actual": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "4",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "9"
+        ]
+      ],
+      "expected": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "4",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "9"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "reflection orientation",
+      "actual": "-1",
+      "expected": -1,
+      "passed": true
+    },
+    {
+      "id": "shape ratio A",
+      "actual": "1/4",
+      "expected": "1/4",
+      "passed": true
+    },
+    {
+      "id": "shape ratio B",
+      "actual": "4",
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "triple scale factors",
+      "actual": [
+        9,
+        27,
+        3
+      ],
+      "expected": [
+        9,
+        27,
+        3
+      ],
+      "passed": true
+    },
+    {
+      "id": "contrast [1, 1, 3, 3]",
+      "actual": "-1/4",
+      "expected": "-1/4",
+      "passed": true
+    },
+    {
+      "id": "contrast [3, 3, 1, 1]",
+      "actual": "1/4",
+      "expected": "1/4",
+      "passed": true
+    },
+    {
+      "id": "contrast [2, 2, 2, 2]",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "entry fractions",
+      "actual": "1/4",
+      "expected": "1/4",
+      "passed": true
+    },
+    {
+      "id": "entry equation",
+      "actual": "5/4",
+      "expected": "5/4",
+      "passed": true
+    },
+    {
+      "id": "core periods",
+      "actual": 16,
+      "expected": 16,
+      "passed": true
+    },
+    {
+      "id": "total minutes",
+      "actual": 1045,
+      "expected": 1045,
+      "passed": true
+    },
+    {
+      "id": "rubric total",
+      "actual": 32,
+      "expected": 32,
+      "passed": true
+    },
+    {
+      "id": "galaxy determinant sign",
+      "actual": "True",
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "mature determinant sign",
+      "actual": "True",
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "mature displayed determinant",
+      "actual": "-2358297838234893/20000000000000000",
+      "expected": "-2358297838234893/20000000000000000",
+      "passed": true
+    },
+    {
+      "id": "seven signs",
+      "actual": [
+        "1",
+        "1",
+        "1",
+        "-1",
+        "1",
+        "-1",
+        "-1"
+      ],
+      "expected": [
+        1,
+        1,
+        1,
+        -1,
+        1,
+        -1,
+        -1
+      ],
+      "passed": true
+    },
+    {
+      "id": "source correlation literal",
+      "actual": "4997567501603617/5000000000000000",
+      "expected": "4997567501603617/5000000000000000",
+      "passed": true
+    },
+    {
+      "id": "source ledger row -3",
+      "actual": [
+        "6132174644333871/500000000000000000",
+        "2526830119535817/200000000000000000",
+        "13645318907599673/1000000000000000000",
+        "369801309011343/1000000000000000000",
+        "-252792077480147/250000000000000000"
+      ],
+      "expected": [
+        "6132174644333871/500000000000000000",
+        "2526830119535817/200000000000000000",
+        "13645318907599673/1000000000000000000",
+        "369801309011343/1000000000000000000",
+        "-252792077480147/250000000000000000"
+      ],
+      "passed": true
+    },
+    {
+      "id": "source ledger row -2",
+      "actual": [
+        "4487875814703203/50000000000000000",
+        "9034115696710583/100000000000000000",
+        "9301731960561899/100000000000000000",
+        "58364067304177/100000000000000000",
+        "-66904065962829/25000000000000000"
+      ],
+      "expected": [
+        "4487875814703203/50000000000000000",
+        "9034115696710583/100000000000000000",
+        "9301731960561899/100000000000000000",
+        "58364067304177/100000000000000000",
+        "-66904065962829/25000000000000000"
+      ],
+      "passed": true
+    },
+    {
+      "id": "source ledger row -1",
+      "actual": [
+        "4601934263087813/20000000000000000",
+        "11546112904633103/50000000000000000",
+        "1454763436872873/6250000000000000",
+        "82554493827141/100000000000000000",
+        "-91994590349881/50000000000000000"
+      ],
+      "expected": [
+        "4601934263087813/20000000000000000",
+        "11546112904633103/50000000000000000",
+        "1454763436872873/6250000000000000",
+        "82554493827141/100000000000000000",
+        "-91994590349881/50000000000000000"
+      ],
+      "passed": true
+    },
+    {
+      "id": "source ledger row 0",
+      "actual": [
+        "32384890321676363/100000000000000000",
+        "642771136899049/2000000000000000",
+        "31476847570020083/100000000000000000",
+        "-246333476723913/100000000000000000",
+        "661709274932367/100000000000000000"
+      ],
+      "expected": [
+        "32384890321676363/100000000000000000",
+        "642771136899049/2000000000000000",
+        "31476847570020083/100000000000000000",
+        "-246333476723913/100000000000000000",
+        "661709274932367/100000000000000000"
+      ],
+      "passed": true
+    },
+    {
+      "id": "source ledger row 1",
+      "actual": [
+        "750370120541033/3125000000000000",
+        "12122851409126603/50000000000000000",
+        "4778728732222321/20000000000000000",
+        "4677179218803/2000000000000000",
+        "352059157141601/100000000000000000"
+      ],
+      "expected": [
+        "750370120541033/3125000000000000",
+        "12122851409126603/50000000000000000",
+        "4778728732222321/20000000000000000",
+        "4677179218803/2000000000000000",
+        "352059157141601/100000000000000000"
+      ],
+      "passed": true
+    },
+    {
+      "id": "source ledger row 2",
+      "actual": [
+        "910890742168337/10000000000000000",
+        "1119666695750807/12500000000000000",
+        "4667539917982721/50000000000000000",
+        "-75786927838457/50000000000000000",
+        "-188873134979493/50000000000000000"
+      ],
+      "expected": [
+        "910890742168337/10000000000000000",
+        "1119666695750807/12500000000000000",
+        "4667539917982721/50000000000000000",
+        "-75786927838457/50000000000000000",
+        "-188873134979493/50000000000000000"
+      ],
+      "passed": true
+    },
+    {
+      "id": "source ledger row 3",
+      "actual": [
+        "200390707127339/15625000000000000",
+        "12686502050431899/1000000000000000000",
+        "2703900183230087/200000000000000000",
+        "-138503205717797/1000000000000000000",
+        "-104124858214817/125000000000000000"
+      ],
+      "expected": [
+        "200390707127339/15625000000000000",
+        "12686502050431899/1000000000000000000",
+        "2703900183230087/200000000000000000",
+        "-138503205717797/1000000000000000000",
+        "-104124858214817/125000000000000000"
+      ],
+      "passed": true
+    },
+    {
+      "id": "sum remainder discovery",
+      "actual": "19/500000000000000000",
+      "expected": "19/500000000000000000",
+      "passed": true
+    },
+    {
+      "id": "sum remainder holdout",
+      "actual": "-3/500000000000000000",
+      "expected": "-3/500000000000000000",
+      "passed": true
+    },
+    {
+      "id": "sum remainder rotation",
+      "actual": "39/500000000000000000",
+      "expected": "39/500000000000000000",
+      "passed": true
+    },
+    {
+      "id": "wrapper fixture false",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "fresh validator exit",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "fresh validator status",
+      "actual": "passed",
+      "expected": "passed",
+      "passed": true
+    },
+    {
+      "id": "fresh validator errors",
+      "actual": [],
+      "expected": [],
+      "passed": true
+    },
+    {
+      "id": "unchanged audited file input-contract.json",
+      "actual": "bd9eea7c5ee445c50a873a26ea6ed6c4314c6502655496d46ec477fa2b69052f",
+      "expected": "bd9eea7c5ee445c50a873a26ea6ed6c4314c6502655496d46ec477fa2b69052f",
+      "passed": true
+    },
+    {
+      "id": "unchanged audited file launch-prompt.md",
+      "actual": "707049b95723ed25729dc7e90991e764e46b47aa8d551f3e039d228efaaa8d33",
+      "expected": "707049b95723ed25729dc7e90991e764e46b47aa8d551f3e039d228efaaa8d33",
+      "passed": true
+    },
+    {
+      "id": "unchanged audited file build_course.py",
+      "actual": "00d64b8cf443510a614b59a2475ff4e2235b1f69d82f403eb1948f9b633f366d",
+      "expected": "00d64b8cf443510a614b59a2475ff4e2235b1f69d82f403eb1948f9b633f366d",
+      "passed": true
+    },
+    {
+      "id": "unchanged audited file lesson-01.md",
+      "actual": "e558f8d9cc013f7c5278ac2978f559396c27a118ba9b8867d8e99e7b9368ac80",
+      "expected": "e558f8d9cc013f7c5278ac2978f559396c27a118ba9b8867d8e99e7b9368ac80",
+      "passed": true
+    },
+    {
+      "id": "unchanged audited file lesson-02.md",
+      "actual": "1b98ff0270bc1e667c410349eb7f47186c576f633d56358bf6aeaf9c6d724347",
+      "expected": "1b98ff0270bc1e667c410349eb7f47186c576f633d56358bf6aeaf9c6d724347",
+      "passed": true
+    },
+    {
+      "id": "unchanged audited file lesson-03.md",
+      "actual": "a88cdf9c0aaea685eb84f0b20f7ad56519be27a920ecb74280107ebc0858ec4e",
+      "expected": "a88cdf9c0aaea685eb84f0b20f7ad56519be27a920ecb74280107ebc0858ec4e",
+      "passed": true
+    },
+    {
+      "id": "unchanged audited file lesson-04.md",
+      "actual": "e1c53b59d5545f27532623fbd42bb03f582462bb66512385b5bbc667bd784258",
+      "expected": "e1c53b59d5545f27532623fbd42bb03f582462bb66512385b5bbc667bd784258",
+      "passed": true
+    },
+    {
+      "id": "unchanged audited file lesson-05.md",
+      "actual": "a88d81a5d386677b57e68c9fab36ad0bd6dea50a9b63b5063bac0a6553337917",
+      "expected": "a88d81a5d386677b57e68c9fab36ad0bd6dea50a9b63b5063bac0a6553337917",
+      "passed": true
+    },
+    {
+      "id": "unchanged audited file lesson-06.md",
+      "actual": "92a5cf9f3cb0d8ae4c2bca37d7a68bbe82b05e3f6cbd971d12a82bce6be1dc15",
+      "expected": "92a5cf9f3cb0d8ae4c2bca37d7a68bbe82b05e3f6cbd971d12a82bce6be1dc15",
+      "passed": true
+    },
+    {
+      "id": "unchanged audited file lesson-07.md",
+      "actual": "318213841922685e5f683c83c8877af8550b5810e52ff04e2666236638e7f0a3",
+      "expected": "318213841922685e5f683c83c8877af8550b5810e52ff04e2666236638e7f0a3",
+      "passed": true
+    },
+    {
+      "id": "unchanged audited file lesson-08.md",
+      "actual": "c95dbc49739dc5a9fbb4651a19ba532dabe31b42895ad144232e57bf3e61b9ef",
+      "expected": "c95dbc49739dc5a9fbb4651a19ba532dabe31b42895ad144232e57bf3e61b9ef",
+      "passed": true
+    },
+    {
+      "id": "unchanged audited file course-map.md",
+      "actual": "d67c550a8c724475c615fe466b1223f416c16bfd28fdf47a8a84a73f69ef9375",
+      "expected": "d67c550a8c724475c615fe466b1223f416c16bfd28fdf47a8a84a73f69ef9375",
+      "passed": true
+    },
+    {
+      "id": "unchanged audited file terminology.md",
+      "actual": "db4d3c0c2a666677fa2ae6801546e81efe0c50cc5585b32af35236fca1175480",
+      "expected": "db4d3c0c2a666677fa2ae6801546e81efe0c50cc5585b32af35236fca1175480",
+      "passed": true
+    },
+    {
+      "id": "unchanged audited file manifest.json",
+      "actual": "206b584066826720da45c06c304fd0749ce01a1b81c9b601056f5f825376ca3c",
+      "expected": "206b584066826720da45c06c304fd0749ce01a1b81c9b601056f5f825376ca3c",
+      "passed": true
+    },
+    {
+      "id": "unchanged audited file audit_report.json",
+      "actual": "1b8d3e1988b1546f29efe3112ac62e6f23fc49e25d35b0d4725c446d43af85be",
+      "expected": "1b8d3e1988b1546f29efe3112ac62e6f23fc49e25d35b0d4725c446d43af85be",
+      "passed": true
+    },
+    {
+      "id": "unchanged audited file completion_report.json",
+      "actual": "86869779a13157b4ac1e8ad08cf74f03babf9076e63f029aa2e2ebf37feaa004",
+      "expected": "86869779a13157b4ac1e8ad08cf74f03babf9076e63f029aa2e2ebf37feaa004",
+      "passed": true
+    },
+    {
+      "id": "unchanged audited file verify_examples.py",
+      "actual": "e288b294b27fe7e3e859f976058a66dc117c797b9f3a8d2cc70724ceebc91bdc",
+      "expected": "e288b294b27fe7e3e859f976058a66dc117c797b9f3a8d2cc70724ceebc91bdc",
+      "passed": true
+    },
+    {
+      "id": "unchanged audited file source-comparison.md",
+      "actual": "28e9581e60ee63fef745e152333f96e52a3b13ae66a97aa75b04105f953ce04a",
+      "expected": "28e9581e60ee63fef745e152333f96e52a3b13ae66a97aa75b04105f953ce04a",
+      "passed": true
+    },
+    {
+      "id": "unchanged audited file worked-example-verification.json",
+      "actual": "1b5ceb06cae0672634124d4eaff0a15c9ea5892c53c2164188ee7b6b060a0c5c",
+      "expected": "1b5ceb06cae0672634124d4eaff0a15c9ea5892c53c2164188ee7b6b060a0c5c",
+      "passed": true
+    },
+    {
+      "id": "unchanged audited file sources.md",
+      "actual": "afb8150cf916436d362127648cc4d008eb42e0669576aa08c6e11b72ec55d676",
+      "expected": "afb8150cf916436d362127648cc4d008eb42e0669576aa08c6e11b72ec55d676",
+      "passed": true
+    },
+    {
+      "id": "unchanged audited file capstone.md",
+      "actual": "d0e63179c6b9db722832af2cea188bf7cf01e685d1af2a47a3262db67e9bc921",
+      "expected": "d0e63179c6b9db722832af2cea188bf7cf01e685d1af2a47a3262db67e9bc921",
+      "passed": true
+    },
+    {
+      "id": "unchanged audited file teacher-guide.md",
+      "actual": "4586b0713db828510738b60eade3bb1d4c0600685f2c7d6d7622553729d6391b",
+      "expected": "4586b0713db828510738b60eade3bb1d4c0600685f2c7d6d7622553729d6391b",
+      "passed": true
+    },
+    {
+      "id": "unchanged audited file course.md",
+      "actual": "85b0e67e2b6127813695c2d3744e5ccfd90871e36b34fb1cf796c7a3f707fc79",
+      "expected": "85b0e67e2b6127813695c2d3744e5ccfd90871e36b34fb1cf796c7a3f707fc79",
+      "passed": true
+    },
+    {
+      "id": "unchanged audited file independent-audit.md",
+      "actual": "ad7de161a3c096c321339df670f8e00c78679be9660015bc8140750ad8086143",
+      "expected": "ad7de161a3c096c321339df670f8e00c78679be9660015bc8140750ad8086143",
+      "passed": true
+    },
+    {
+      "id": "unchanged audited file validator-result.json",
+      "actual": "d8b3938cdc5fc581a5b976faf36d1363658a3cd1fa934b923abb1e22c5307f4c",
+      "expected": "d8b3938cdc5fc581a5b976faf36d1363658a3cd1fa934b923abb1e22c5307f4c",
+      "passed": true
+    }
+  ],
+  "source_hashes": [
+    {
+      "id": "S01",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "hash_verified": true
+    },
+    {
+      "id": "S02",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "hash_verified": true
+    },
+    {
+      "id": "S03",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "hash_verified": true
+    },
+    {
+      "id": "S04",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+      "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "hash_verified": true
+    },
+    {
+      "id": "G01",
+      "path": "Z:\\Archive_20260911\\Pre_Aug14\\galaxy_cell_hidden_holonomy_summary_1783791371.json",
+      "sha256": "bd6ff0e335f3c405000cd1f8adfa3ae947dc9362dfeb772764cf98ef62ae6f63",
+      "hash_verified": true
+    },
+    {
+      "id": "G02",
+      "path": "Z:\\Archive_20260911\\Pre_Aug14\\K-field_cell3_vs_galaxy_derived_cell_analogue_1783794540.pdf",
+      "sha256": "69dcaace292365d22b9b48c43edc0ac4936b148ec68a5b265abc72aaff4f4447",
+      "hash_verified": true
+    },
+    {
+      "id": "G03",
+      "path": "Z:\\Archive_20260911\\Pre_Aug14\\K-field_spherical_gravity_response_graph_audited_1783692220.json",
+      "sha256": "aa7f4236b7f956c652690934d6444f597ea38b6e485cc77a22be884b567d1cea",
+      "hash_verified": true
+    },
+    {
+      "id": "G04",
+      "path": "Z:\\Archive_20260911\\Pre_Aug14\\K-field_galaxy_sky_position_volumetric_quantization_1783789746.pdf",
+      "sha256": "856777f0fae0d6b50e8d235435068b7ea3c25a83068cfbfb197b62835cbb8fbd",
+      "hash_verified": true
+    }
+  ],
+  "source_read_scopes": {
+    "S01": {
+      "scope": "Hash only; historical provenance, no numerical premise imported."
+    },
+    "S02": {
+      "pointers": [
+        "/proof_contract",
+        "/mature_locked_cell3",
+        "/typed_conventions",
+        "/backbone_sequence"
+      ],
+      "scope": "Geometry/conventions and M01-M03 reviewed; no compiler/proof replay."
+    },
+    "S03": {
+      "scope": "Hash only in this completed-course review; provenance only."
+    },
+    "S04": {
+      "scope": "Hash only in this completed-course review; provenance only."
+    },
+    "G01": {
+      "scope": "Entire compact JSON read; no full catalog or 27-state observed arrays supplied."
+    },
+    "G02": {
+      "text_pages": [
+        3,
+        4,
+        5,
+        7,
+        8,
+        17,
+        18,
+        19,
+        20
+      ],
+      "scope": "Original PDF extracted with existing pdfjs, no copied PDF. Prior page4 visual inspection; current review is textual."
+    },
+    "G03": {
+      "pointers": [
+        "/status",
+        "/precision_contract",
+        "/coordinate_frame",
+        "/analytic_spherical_response",
+        "/reconstruction_sequence"
+      ],
+      "scope": "Named contracts read; large graph arrays not replayed or exported."
+    },
+    "G04": {
+      "text_pages": [
+        1,
+        3,
+        4
+      ],
+      "scope": "Original PDF read using pdfjs; formulas crosschecked with exact synthetic arithmetic."
+    }
+  },
+  "derived_source_diagnostics": {
+    "galaxy_QtA_minus_I": [
+      [
+        "15200634055525027/200000000000000000000000000000000",
+        "-273012162013564873/1000000000000000000000000000000000",
+        "-74279917454397197/2000000000000000000000000000000000"
+      ],
+      [
+        "8100698446411099/100000000000000000000000000000000",
+        "-152468118406807251/1000000000000000000000000000000000",
+        "69337828712512191/2000000000000000000000000000000000"
+      ],
+      [
+        "-25823250623933527/100000000000000000000000000000000",
+        "-3339356321688291/50000000000000000000000000000000",
+        "-2917718908207203/100000000000000000000000000000000"
+      ]
+    ],
+    "galaxy_determinant": "1249012330195133045580927441933095019067973743839/200000000000000000000000000000000000000000000000000",
+    "mature_determinant": "-58957445955872313419251401754759465962447631461/500000000000000000000000000000000000000000000000",
+    "mature_Gram_minus_stored": [
+      [
+        "930649226836333/100000000000000000000000000000000",
+        "-10154757939229/100000000000000000000000000000000",
+        "-127379753749617/25000000000000000000000000000000"
+      ],
+      [
+        "-10154757939229/100000000000000000000000000000000",
+        "1057181073319941/100000000000000000000000000000000",
+        "1713418983614041/50000000000000000000000000000000"
+      ],
+      [
+        "-127379753749617/25000000000000000000000000000000",
+        "1713418983614041/50000000000000000000000000000000",
+        "3787694119310721/100000000000000000000000000000000"
+      ]
+    ],
+    "occupancy_differences": [
+      {
+        "sheet": -3,
+        "holdout_minus_discovery": "369801309011343/1000000000000000000",
+        "holdout_minus_rotation": "-252792077480147/250000000000000000"
+      },
+      {
+        "sheet": -2,
+        "holdout_minus_discovery": "58364067304177/100000000000000000",
+        "holdout_minus_rotation": "-66904065962829/25000000000000000"
+      },
+      {
+        "sheet": -1,
+        "holdout_minus_discovery": "82554493827141/100000000000000000",
+        "holdout_minus_rotation": "-91994590349881/50000000000000000"
+      },
+      {
+        "sheet": 0,
+        "holdout_minus_discovery": "-246333476723913/100000000000000000",
+        "holdout_minus_rotation": "661709274932367/100000000000000000"
+      },
+      {
+        "sheet": 1,
+        "holdout_minus_discovery": "4677179218803/2000000000000000",
+        "holdout_minus_rotation": "352059157141601/100000000000000000"
+      },
+      {
+        "sheet": 2,
+        "holdout_minus_discovery": "-75786927838457/50000000000000000",
+        "holdout_minus_rotation": "-188873134979493/50000000000000000"
+      },
+      {
+        "sheet": 3,
+        "holdout_minus_discovery": "-138503205717797/1000000000000000000",
+        "holdout_minus_rotation": "-104124858214817/125000000000000000"
+      }
+    ],
+    "fraction_sum_remainders": {
+      "discovery": "19/500000000000000000",
+      "holdout": "-3/500000000000000000",
+      "rotation": "39/500000000000000000"
+    }
+  },
+  "root_example_ledgers": [
+    {
+      "basis_diagonal": [
+        1,
+        2,
+        3
+      ],
+      "roots": [
+        [
+          [
+            "1/2"
+          ],
+          [
+            "-1"
+          ],
+          [
+            "0"
+          ]
+        ],
+        [
+          [
+            "1/2"
+          ],
+          [
+            "0"
+          ],
+          [
+            "-3/2"
+          ]
+        ],
+        [
+          [
+            "0"
+          ],
+          [
+            "1"
+          ],
+          [
+            "-3/2"
+          ]
+        ]
+      ],
+      "g": [
+        [
+          "1"
+        ],
+        [
+          "1/2"
+        ],
+        [
+          "1/3"
+        ]
+      ],
+      "h": "3/7",
+      "normal": [
+        [
+          "6/7"
+        ],
+        [
+          "3/7"
+        ],
+        [
+          "2/7"
+        ]
+      ],
+      "root_tensor": [
+        [
+          "1/2",
+          "-1/2",
+          "-3/4"
+        ],
+        [
+          "-1/2",
+          "2",
+          "-3/2"
+        ],
+        [
+          "-3/4",
+          "-3/2",
+          "9/2"
+        ]
+      ]
+    },
+    {
+      "basis_diagonal": [
+        2,
+        1,
+        4
+      ],
+      "roots": [
+        [
+          [
+            "1"
+          ],
+          [
+            "-1/2"
+          ],
+          [
+            "0"
+          ]
+        ],
+        [
+          [
+            "1"
+          ],
+          [
+            "0"
+          ],
+          [
+            "-2"
+          ]
+        ],
+        [
+          [
+            "0"
+          ],
+          [
+            "1/2"
+          ],
+          [
+            "-2"
+          ]
+        ]
+      ],
+      "g": [
+        [
+          "1/2"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1/4"
+        ]
+      ],
+      "h": "2*sqrt(21)/21",
+      "normal": [
+        [
+          "2*sqrt(21)/21"
+        ],
+        [
+          "4*sqrt(21)/21"
+        ],
+        [
+          "sqrt(21)/21"
+        ]
+      ],
+      "root_tensor": [
+        [
+          "2",
+          "-1/2",
+          "-2"
+        ],
+        [
+          "-1/2",
+          "1/2",
+          "-1"
+        ],
+        [
+          "-2",
+          "-1",
+          "8"
+        ]
+      ]
+    }
+  ],
+  "repaired_phase_triple": [
+    "2*pi/3",
+    "4*pi/3",
+    "2*pi/3"
+  ],
+  "validator_receipt": {
+    "canonical_output_root": "Z:\\Kfield-doc-training\\K-Field_Training_Course",
+    "checks": [
+      "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+      "parsed manifest.json",
+      "parsed audit_report.json",
+      "parsed completion_report.json",
+      "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+    ],
+    "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry",
+    "errors": [],
+    "schema_version": "1.0",
+    "status": "passed",
+    "storage_authority": "User explicitly authorized project-folder outputs, 2026-11-05",
+    "validator_path": "C:\\Users\\info\\.codex\\skills\\build-high-school-course\\scripts\\validate_course.py",
+    "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+    "command": [
+      "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+      "-B",
+      "Z:\\Kfield-doc-training\\.work\\validate_project_course.py",
+      "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry",
+      "--json"
+    ],
+    "exit_code": 0,
+    "fixture_mode": false,
+    "wrapper_path": "Z:\\Kfield-doc-training\\.work\\validate_project_course.py",
+    "wrapper_sha256": "3fdba74f7ac1430208a4e652200026dc98988f607f60fc928bda65d5857cc745",
+    "stderr": "",
+    "execution_utc": "2026-11-05T20:30:23.336621+00:00",
+    "validation_weakened": false,
+    "override_scope": "Existing wrapper changes only canonical output root to user-authorized project root; all installed content/hash/assembly/audit checks retained."
+  },
+  "limitations": [
+    "No classroom trial or measured learner pacing; accessibility is editorial assessment of concrete prerequisites, explanations, answered exercises and recovery plan.",
+    "No replay of raw galaxy catalog, normal/phase discovery, control distributions, full observed 27-state vectors or their correlation. Those remain explicitly source-reported.",
+    "Source decimals checked as exact stored lexemes, not asserted exact physical constants or certified intervals; all compact matrix/occupancy residuals retained.",
+    "G03 graph arrays and its frozen physical geometry were not replayed. The repaired zero-transfer phases are an algebraic domain card only.",
+    "No live graph generation or capability-history validation in this pass; course candidly identifies graph metadata as unconfirmed. Hash-pinned local originals ground the review.",
+    "Optional physical-distance decoders and extension graph bodies were not retrieved; no Mpc calibration is claimed or needed for assessed finite operations.",
+    "Recovery scripts read as text only, not imported or executed. They write course files and must follow actual review; generated passed labels alone are not independent acceptance. Existing validator executed read-only with bytecode disabled."
+  ],
+  "source_or_project_files_modified": false,
+  "source_copies_created": false,
+  "large_arrays_saved": false
+}

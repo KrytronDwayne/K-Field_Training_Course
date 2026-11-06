@@ -1,0 +1,62 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Lesson 6 — Energy and transition accounting · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/16">Course 16</a><span>/</span><span>lesson 06</span></div><a class="original" href="../../../kfield-16-higgs-yukawa-and-interaction-interfaces/lesson-06.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#lesson-6-energy-and-transition-accounting">Lesson 6 — Energy and transition accounting</a><a href="#c1606-e1-subtract-endpoints-without-losing-their-labels">C16.06-E1 — Subtract endpoints without losing their labels</a><a href="#c1606-w1-worked-signed-record">C16.06-W1 — Worked signed record</a><a href="#c1606-p1-practice">C16.06-P1 — Practice</a><a href="#diagnostics-and-worked-answers">Diagnostics and worked answers</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 1 — Interactions must match their inputs</a><a  href="lesson-02.html">Lesson 2 — Invariant contractions</a><a  href="lesson-03.html">Lesson 3 — The Higgs doublet interface</a><a  href="lesson-04.html">Lesson 4 — Unbroken charge and mass formulas</a><a  href="lesson-05.html">Lesson 5 — Yukawa maps and mixing inputs</a><a aria-current=page href="lesson-06.html">Lesson 6 — Energy and transition accounting</a><a  href="lesson-07.html">Lesson 7 — What a complete interaction specification needs</a></details></aside><div class="reading-column"><article class="prose"><h1 id="lesson-6-energy-and-transition-accounting" tabindex="-1">Lesson 6 — Energy and transition accounting</h1>
+<p>Essential question: What information does an energy difference contain, and what must still be supplied to describe a transition?</p>
+<p>Goals: reconstruct signed component changes; retain a prediction and its residual; distinguish energy, action architecture, and transition rate.</p>
+<p>Bridge: lesson 5 preserved every component and the coordinate map. An energy ledger needs the same care. One 55-minute period: 5 retrieval, 20 teaching/example, 15 practice, 15 diagnostics/repair.</p>
+<h2 id="c1606-e1-subtract-endpoints-without-losing-their-labels" tabindex="-1">C16.06-E1 — Subtract endpoints without losing their labels</h2>
+<p>An energy ledger records values for specified components at specified states. For each component define ΔE=E_after−E_before. A positive sign means an increase in that component; a negative sign means a decrease. Add components only if they use the same unit and the accounting assigns them without double counting. A total loses information about distribution, so retain the labeled component rows even when reporting their sum.</p>
+<p>In the teaching examples A, B, C are three synthetic, nonoverlapping bookkeeping components, all in an arbitrary energy unit ε. These rows are not the source's action sectors. The labels “before” and “after” specify order but supply no elapsed time. Define a model-predicted net change p and residual r=ΔE_total−p. Then ΔE_total=p+r exactly. The residual is retained primary information: it records what this prediction did not encode. It is not removed because it is small or negative.</p>
+<p>For an energy balance, distinguish this model residual from a transfer residual. If a supplied external transfer into the system is T, the unclosed balance is b=ΔE_total−T. Conservation for a fully closed accounting would require b=0. If T is absent, record “not supplied”; do not invent it. A synthetic open ledger may have a nonzero total change without asserting that an isolated system creates or destroys energy. If later evidence identifies a missing transfer channel, retain the earlier residual and its explanation rather than replacing the original record.</p>
+<p>The source's action architecture is S=S_native+S_gauge+S_fermion+S_Higgs+S_Yukawa+S_TG. An action is a quantity used to specify dynamics when its full functional rules and conditions are supplied; its physical dimension is energy × time in ordinary units. The six names label native, gauge, fermion, Higgs, Yukawa, and tetrad-gravity contributions. For this course those names are recognition-only architecture. They are not automatically six independently measured energies, and their symbols inside the full source expression have their own local meanings. We do not use source action-variable q as our integer charge q.</p>
+<p>A transition rate requires a temporal and dynamical specification, such as events per unit time for a defined preparation and observation procedure. An energy difference alone has no time unit. Even ΔE/Δt, if time were supplied, would be an average power, not automatically an event probability or count rate. A rule linking states, interactions, time, and counted events is additional information.</p>
+<h2 id="c1606-w1-worked-signed-record" tabindex="-1">C16.06-W1 — Worked signed record</h2>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Component</th>
+<th style="text-align: right;">Before (ε)</th>
+<th style="text-align: right;">After (ε)</th>
+<th style="text-align: right;">After − before (ε)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">−1</td>
+</tr>
+<tr>
+<td>B</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">+2</td>
+</tr>
+<tr>
+<td>C</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>Total</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">+1</td>
+</tr>
+</tbody>
+</table></div>
+<p>The total change computed by rows is −1+2+0=1 ε. Computed by endpoints it is 9−8=1 ε, a useful independent check. If p=0.8 ε, r=1−0.8=+0.2 ε; reconstruction gives 0.8+0.2=1 ε. External transfer is not supplied, so no closed-system claim follows. A hypothetical T=1 ε would close the balance, but it remains a hypothetical value, not an observation.</p>
+<h2 id="c1606-p1-practice" tabindex="-1">C16.06-P1 — Practice</h2>
+<p>Record A,B,C endpoints before=(3,1,2) ε and after=(2,1,1) ε. Compute every signed change and both totals. With p=−1.5 ε find and retain the residual. State what is missing for a transition rate.</p>
+<p>Worked answer: changes are (2−3,1−1,1−2)=(−1,0,−1) ε. Totals are 6 and 4 ε, and their difference is −2 ε, matching −1+0−1. The residual is −2−(−1.5)=−0.5 ε. Reconstruct −1.5+(−0.5)=−2 ε. Retain endpoint labels and all three changes; the total alone cannot reconstruct them. No elapsed time, event definition, preparation, or dynamical rate rule is supplied. External transfer is also unspecified, so the balance remains open rather than silently assigning a transfer of −2 ε.</p>
+<blockquote>
+<p>Claim scope: S02 /proof_nodes/86 supplies the six-sector action architecture and explicitly leaves weights and boundary values as inputs. Our energy ledgers are synthetic additive exercises, not observations or a derivation of energy from that action. A photon-equivalent model energy would also need separate labeling; it is not automatically measured transferred energy. Phase is not a force in this ledger.</p>
+</blockquote>
+<h2 id="diagnostics-and-worked-answers" tabindex="-1">Diagnostics and worked answers</h2>
+<ol>
+<li><strong>C16.06-D1:</strong> Can the six action names be inserted as six measured energy rows? Answer: not without a defined energy mapping, units, and measurement evidence. The source list specifies architecture.</li>
+<li><strong>C16.06-D2:</strong> Someone retains only p=−1.5 ε in P1. What is lost? Answer: r=−0.5 ε and the true synthetic change −2 ε; the separate endpoint/component information is also needed for full replay.</li>
+<li><strong>C16.06-D3:</strong> If a separate supplied transfer T=−1.8 ε were added to P1, find b. Answer: b=−2−(−1.8)=−0.2 ε. Keep it distinct from model residual −0.5 ε because the reference quantities differ.</li>
+<li><strong>C16.06-D4:</strong> Does −2 ε specify a decay rate? Answer: no; its unit is energy and its sign describes an energy change. A transition rate needs time-based and dynamical information.</li>
+</ol>
+<p>Next dependency: <a href="lesson-07.html">Lesson 7</a> gathers structure, numerical inputs, units, and unresolved coordinates into one contract.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><a class="button secondary" href="lesson-05.html">← Previous lesson</a><a class="button" href="lesson-07.html">Next lesson →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/16">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

@@ -1,0 +1,377 @@
+{
+  "schema_version": "1.0",
+  "status": "passed",
+  "findings": [
+    {
+      "id": "C28-A01",
+      "level": "local",
+      "category": "teaching_practice",
+      "file": "lesson-01.md through lesson-08.md",
+      "section": "P1 guided practice",
+      "severity": "major",
+      "defect": "Initial drafts placed generic reproduction directions immediately before solution prose, without a distinct attemptable task.",
+      "correction": "Added supplied-input Student task and labeled Worked answer to all P1 sections, including C28.S01; expanded answers to cover each requested output.",
+      "verification": "Fresh read of eight P1 tasks and nine capstone mappings; verify_examples.py checks task/answer anchors. Parent identified initial lessons 1–3 and requested extension to remaining practice.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05",
+        "lesson-06",
+        "lesson-07",
+        "lesson-08"
+      ]
+    },
+    {
+      "id": "C28-A02",
+      "level": "local",
+      "category": "prerequisite_closure",
+      "file": "lesson-04.md",
+      "section": "C28.04-E1 and C28.S01",
+      "severity": "major",
+      "defect": "The supplied anchor requires complex odd coefficients; a bare DFT label would leave imaginary arithmetic and inverse conventions untaught.",
+      "correction": "Taught a+bi, i*i=-1, four weighted sums, explicit inverse and computed reconstruction; teacher guide supplies multiplication bridge.",
+      "verification": "Independent four-by-four DFT matrix and conjugate inverse reproduced both odd spectra and inverses; source and finite-example scopes separated.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "lesson-04",
+        "lesson-06",
+        "capstone"
+      ]
+    },
+    {
+      "id": "C28-A03",
+      "level": "cumulative",
+      "category": "source_branch_coverage",
+      "file": "lesson-04.md",
+      "section": "Source-ladder bridge",
+      "severity": "major",
+      "defect": "Naming the Fibonacci-cutoff proposal alone did not explain how it differs from the native ternary ladder.",
+      "correction": "Read S05 records R019,R026,R027; explained halved dimensions, sum recurrence, doubled continuation and separate cutoff/ternary/beat branches.",
+      "verification": "Checked source zero-based pointers 18,25,26 and arithmetic 13*2=26,21*2=42,26-1=25,42-1=41,27-25=2. No native replay claimed.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "lesson-04",
+        "capstone",
+        "sources"
+      ]
+    },
+    {
+      "id": "C28-A08",
+      "level": "final",
+      "category": "source_wording_and_glossary",
+      "file": "sources.md; terminology.md",
+      "section": "T35 source note; A/C/r entries",
+      "severity": "minor",
+      "defect": "Three cost levels were described as independent; raw channel identities and ratio shared an inaccurate first-use lesson.",
+      "correction": "Changed to three distinct plane-family cost levels; split raw A/C identities at lesson 1 from ratio r=A/C at lesson 3.",
+      "verification": "Parent source/glossary review prompted narrow edits; support recovery source and regenerated files checked.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "sources",
+        "terminology"
+      ]
+    },
+    {
+      "id": "C28-A07",
+      "level": "final",
+      "category": "professional_copyedit",
+      "file": "lesson-01.md through lesson-08.md",
+      "section": "Inherited W1 and P1 prose",
+      "severity": "minor",
+      "defect": "Inherited anchor prose merged words with numbers and units; lesson 7 W1 used ambiguous independent box bounds wording.",
+      "correction": "Added narrowly scoped prose-spacing normalization to recovery authoring source; replaced phrase with the stated box of allowed combinations. Input contract, mathematical tokens and stable IDs preserved.",
+      "verification": "Reviewed all sixteen inherited W1/P1 passages after generation; reran numerical checks, refreshed verbatim assembly and hashes, and reran deterministic validator.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05",
+        "lesson-06",
+        "lesson-07",
+        "lesson-08"
+      ]
+    },
+    {
+      "id": "C28-A04",
+      "level": "final",
+      "category": "evidence_wording",
+      "file": "lesson-07.md",
+      "section": "P1 answer",
+      "severity": "minor",
+      "defect": "A synthetic zero was described once as measured.",
+      "correction": "Replaced with supplied synthetic C=0.",
+      "verification": "Independent reviewer identified wording; author checked replacement in regenerated lesson.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "lesson-07"
+      ]
+    },
+    {
+      "id": "C28-A05",
+      "level": "final",
+      "category": "example_identity",
+      "file": "teacher-guide.md",
+      "section": "Weak-channel extension",
+      "severity": "minor",
+      "defect": "Lesson 4 vector was ambiguous because that lesson has multiple vectors.",
+      "correction": "Named x=(1,2,4,3) explicitly.",
+      "verification": "Author checked scaled reflection components against specified input.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "teacher-guide"
+      ]
+    },
+    {
+      "id": "C28-A06",
+      "level": "final",
+      "category": "practice_mapping",
+      "file": "lesson-07.md",
+      "section": "P1 student task and worked answer",
+      "severity": "minor",
+      "defect": "Interval product had instruction, worked example and diagnostic practice but was not explicit in the named P1 mapped to CAP-07.",
+      "correction": "Added both product endpoints and the box assumption to named P1.",
+      "verification": "Named P1 now requests and answers [1.71,2.31]; verification script recomputes all four endpoint products.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "lesson-07",
+        "capstone"
+      ]
+    }
+  ],
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "local_checks": [
+    {
+      "checkpoint": "lesson-01",
+      "reviewed_dimensions": [
+        "prerequisite bridge",
+        "senior audience and stated pacing",
+        "definitions and scoped notation",
+        "units and domain failures",
+        "arithmetic and reconstruction",
+        "evidence/source boundary",
+        "3–5 answered diagnostics plus supplemental diagnostic",
+        "explicit prior practice",
+        "next dependency"
+      ],
+      "evidence": "Manual review of authored lesson against teaching_anchor; worked-example-verification.json for numerical checks; source addresses in sources.json.",
+      "status": "passed"
+    },
+    {
+      "checkpoint": "lesson-02",
+      "reviewed_dimensions": [
+        "prerequisite bridge",
+        "senior audience and stated pacing",
+        "definitions and scoped notation",
+        "units and domain failures",
+        "arithmetic and reconstruction",
+        "evidence/source boundary",
+        "3–5 answered diagnostics plus supplemental diagnostic",
+        "explicit prior practice",
+        "next dependency"
+      ],
+      "evidence": "Manual review of authored lesson against teaching_anchor; worked-example-verification.json for numerical checks; source addresses in sources.json.",
+      "status": "passed"
+    },
+    {
+      "checkpoint": "lesson-03",
+      "reviewed_dimensions": [
+        "prerequisite bridge",
+        "senior audience and stated pacing",
+        "definitions and scoped notation",
+        "units and domain failures",
+        "arithmetic and reconstruction",
+        "evidence/source boundary",
+        "3–5 answered diagnostics plus supplemental diagnostic",
+        "explicit prior practice",
+        "next dependency"
+      ],
+      "evidence": "Manual review of authored lesson against teaching_anchor; worked-example-verification.json for numerical checks; source addresses in sources.json.",
+      "status": "passed"
+    },
+    {
+      "checkpoint": "lesson-04",
+      "reviewed_dimensions": [
+        "prerequisite bridge",
+        "senior audience and stated pacing",
+        "definitions and scoped notation",
+        "units and domain failures",
+        "arithmetic and reconstruction",
+        "evidence/source boundary",
+        "3–5 answered diagnostics plus supplemental diagnostic",
+        "explicit prior practice",
+        "next dependency"
+      ],
+      "evidence": "Manual review of authored lesson against teaching_anchor; worked-example-verification.json for numerical checks; source addresses in sources.json.",
+      "status": "passed"
+    },
+    {
+      "checkpoint": "lesson-05",
+      "reviewed_dimensions": [
+        "prerequisite bridge",
+        "senior audience and stated pacing",
+        "definitions and scoped notation",
+        "units and domain failures",
+        "arithmetic and reconstruction",
+        "evidence/source boundary",
+        "3–5 answered diagnostics plus supplemental diagnostic",
+        "explicit prior practice",
+        "next dependency"
+      ],
+      "evidence": "Manual review of authored lesson against teaching_anchor; worked-example-verification.json for numerical checks; source addresses in sources.json.",
+      "status": "passed"
+    },
+    {
+      "checkpoint": "lesson-06",
+      "reviewed_dimensions": [
+        "prerequisite bridge",
+        "senior audience and stated pacing",
+        "definitions and scoped notation",
+        "units and domain failures",
+        "arithmetic and reconstruction",
+        "evidence/source boundary",
+        "3–5 answered diagnostics plus supplemental diagnostic",
+        "explicit prior practice",
+        "next dependency"
+      ],
+      "evidence": "Manual review of authored lesson against teaching_anchor; worked-example-verification.json for numerical checks; source addresses in sources.json.",
+      "status": "passed"
+    },
+    {
+      "checkpoint": "lesson-07",
+      "reviewed_dimensions": [
+        "prerequisite bridge",
+        "senior audience and stated pacing",
+        "definitions and scoped notation",
+        "units and domain failures",
+        "arithmetic and reconstruction",
+        "evidence/source boundary",
+        "3–5 answered diagnostics plus supplemental diagnostic",
+        "explicit prior practice",
+        "next dependency"
+      ],
+      "evidence": "Manual review of authored lesson against teaching_anchor; worked-example-verification.json for numerical checks; source addresses in sources.json.",
+      "status": "passed"
+    },
+    {
+      "checkpoint": "lesson-08",
+      "reviewed_dimensions": [
+        "prerequisite bridge",
+        "senior audience and stated pacing",
+        "definitions and scoped notation",
+        "units and domain failures",
+        "arithmetic and reconstruction",
+        "evidence/source boundary",
+        "3–5 answered diagnostics plus supplemental diagnostic",
+        "explicit prior practice",
+        "next dependency"
+      ],
+      "evidence": "Manual review of authored lesson against teaching_anchor; worked-example-verification.json for numerical checks; source addresses in sources.json.",
+      "status": "passed"
+    }
+  ],
+  "cumulative_checks": [
+    {
+      "unit": "A: lessons 1–3",
+      "result": "Raw keys, exposure, invalid ratio and rounding closure preserve all five rows; masks do not overwrite counts."
+    },
+    {
+      "unit": "B: lessons 4–6",
+      "result": "Reversal distinct from half-turn; DFT signs/inverse taught before later phase comparison; every event support and signed mean/detail retained."
+    },
+    {
+      "unit": "C: lessons 7–8",
+      "result": "Bounds retain box assumption/shared clock; planned forward protocol never labeled a measured run; every capstone operation maps to an explicit P1."
+    }
+  ],
+  "final_checks": [
+    {
+      "category": "coverage",
+      "result": "All C28.01–08 and C28.S01 have exact E1/W1/P1/D1 anchors and capstone steps 01–09."
+    },
+    {
+      "category": "source_fidelity",
+      "result": "S05 exact records and T35/T50 pinned bytes read; native replay and formal proof gaps declared; no raw-source copying."
+    },
+    {
+      "category": "dependency_order",
+      "result": "Eight ordered lessons; complex arithmetic taught locally; no capstone-only operation."
+    },
+    {
+      "category": "math_units",
+      "result": "59 finite/structural checks passed; exact fractions, interval units, DFT inverse and undefined branches verified."
+    },
+    {
+      "category": "notation",
+      "result": "R reflection versus H half-turn explicit; k event index versus lesson-7 calibration factor scoped in glossary."
+    },
+    {
+      "category": "evidence_layers",
+      "result": "Synthetic inputs, derived identities, archive-stated/synthesis claims, mechanisms and planned tests distinguished."
+    },
+    {
+      "category": "audience_assessment",
+      "result": "15 core periods and 3 capstone periods; 36-point key allocates four stated criteria for each mapped operation."
+    },
+    {
+      "category": "minimality",
+      "result": "Finite examples only; no dense geometry/field formalism imported into required arithmetic."
+    },
+    {
+      "category": "rendering",
+      "result": "Markdown-only delivery; inspected headings, table delimiters, relative lesson links and exact markers; no paginated rendering required."
+    },
+    {
+      "category": "recovery",
+      "result": "All deliverable hashes refreshed; deterministic validator separately checks dependency, identity, ordering and containment."
+    }
+  ],
+  "independent_review": {
+    "reviewer": "independent subagent course28_audit",
+    "scope": "All eight lessons, nine capstone operations, input teaching anchors/backward map, glossary, teacher guide, exact S05 records and source notes. Assembly/hash validation excluded from reviewer scope.",
+    "result": "No critical or major findings. Finite arithmetic and required coverage agreed with the answer keys.",
+    "recomputed": [
+      "Clear ratios and signed rounding closure",
+      "reflection and half-turn components",
+      "DFT and inverses",
+      "event windows and masks",
+      "means and details",
+      "interval products and exposure timing",
+      "source ladder arithmetic"
+    ],
+    "suggestions": [
+      {
+        "location": "lesson-07 P1",
+        "finding": "Synthetic zero described once as measured",
+        "repair": "Changed to supplied synthetic C=0",
+        "status": "repaired by author"
+      },
+      {
+        "location": "teacher-guide weak-channel extension",
+        "finding": "Lesson 4 vector ambiguous among multiple examples",
+        "repair": "Named x=(1,2,4,3) explicitly",
+        "status": "repaired by author"
+      },
+      {
+        "location": "lesson-07 P1",
+        "finding": "Add both interval-product endpoints explicitly to match capstone practice mapping",
+        "repair": "Added task and full answer [1.71,2.31] with box assumption",
+        "status": "repaired by author"
+      }
+    ],
+    "unresolved_counts": {
+      "critical": 0,
+      "major": 0,
+      "minor": 0
+    },
+    "author_disposition": "All three localized suggestions applied; exact checks rerun after edits. Reviewer initially reported the two wording minors and practice reinforcement; this record distinguishes author repairs from initial reviewer findings."
+  }
+}

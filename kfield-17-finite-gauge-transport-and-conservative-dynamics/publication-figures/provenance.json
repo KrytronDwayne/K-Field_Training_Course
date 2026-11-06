@@ -1,0 +1,198 @@
+{
+  "course": "kfield-17-finite-gauge-transport-and-conservative-dynamics",
+  "figures": [
+    {
+      "title": "Direction and order survive the invariant summary",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-17-finite-gauge-transport-and-conservative-dynamics\\publication-figures\\ordered-loop.png",
+      "sha256": "f69f334fcc1d0fcbc2291333b0201918ea72ee6fb6f60b537efbaaa286a10bee",
+      "lessons": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "kind": "deterministic synthetic teaching illustration",
+      "source_lessons": [
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-17-finite-gauge-transport-and-conservative-dynamics\\lesson-01.md",
+          "sha256": "c19f147ba167f1d252d2936d14c46a70a75e39836de6474539b6c771676db03f"
+        },
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-17-finite-gauge-transport-and-conservative-dynamics\\lesson-02.md",
+          "sha256": "f25acfbbe065c1a4640a591f8c96bc901dadde2c4e2e8e0ed2ccbbb49bb255c0"
+        },
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-17-finite-gauge-transport-and-conservative-dynamics\\lesson-03.md",
+          "sha256": "d93bc941b1e4600198c4e1034a8ab76342f56b2612101359cc368ecbf1e832b8"
+        },
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-17-finite-gauge-transport-and-conservative-dynamics\\lesson-04.md",
+          "sha256": "f9be4364f0fb7b790b17af615c819ac25d59466613feee30a88ae46623b5d61f"
+        }
+      ],
+      "source_ledger": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-17-finite-gauge-transport-and-conservative-dynamics\\sources.md",
+        "sha256": "6c46f9fa1d77ba0780f75a17a9ba9e5e9c3dbaa3474d172f5ab7850b30f34038"
+      },
+      "evidence_sources": [
+        {
+          "id": "S01",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+          "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S02",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+          "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S03",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+          "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S04",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+          "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S05",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+          "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        }
+      ],
+      "evidence_scope": "Authored synthetic teaching figure; lesson identities locate the exact numerical and mathematical inputs. Archival identities resolve source IDs but do not assert replay of archived claims.",
+      "vector_companion": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-17-finite-gauge-transport-and-conservative-dynamics\\publication-figures\\ordered-loop.svg",
+        "sha256": "bc62f24669858336eba0df0f2f88f5414a09d3f5cab195cac09975e8d8578b3c"
+      }
+    },
+    {
+      "title": "Conserved sizes still permit a structured state change",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-17-finite-gauge-transport-and-conservative-dynamics\\publication-figures\\cayley-phases.png",
+      "sha256": "84a15d0619652c4b1f75e0ff3392bd53860af2ee0ed67a6d22034af16eb3207c",
+      "lessons": [
+        5,
+        8
+      ],
+      "kind": "deterministic synthetic teaching illustration",
+      "source_lessons": [
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-17-finite-gauge-transport-and-conservative-dynamics\\lesson-05.md",
+          "sha256": "aa9b6edc4b6bcfad690fdadf71ce234575a6ed4e094bc3ddf34ec836137f3240"
+        },
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-17-finite-gauge-transport-and-conservative-dynamics\\lesson-08.md",
+          "sha256": "49cba659e4f1a1b478dcbfc098a46011898f34686de948fd88586be1d2df8cfe"
+        }
+      ],
+      "source_ledger": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-17-finite-gauge-transport-and-conservative-dynamics\\sources.md",
+        "sha256": "6c46f9fa1d77ba0780f75a17a9ba9e5e9c3dbaa3474d172f5ab7850b30f34038"
+      },
+      "evidence_sources": [
+        {
+          "id": "S01",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+          "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S02",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+          "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S03",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+          "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S04",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+          "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S05",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+          "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        }
+      ],
+      "evidence_scope": "Authored synthetic teaching figure; lesson identities locate the exact numerical and mathematical inputs. Archival identities resolve source IDs but do not assert replay of archived claims.",
+      "vector_companion": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-17-finite-gauge-transport-and-conservative-dynamics\\publication-figures\\cayley-phases.svg",
+        "sha256": "65224400cf159a5af23abce87dc0d838e586ddaebf1694a2d3ceac70043b3b1e"
+      }
+    },
+    {
+      "title": "Normalization preserves shape while scale stays in the record",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-17-finite-gauge-transport-and-conservative-dynamics\\publication-figures\\hodge-pairing.png",
+      "sha256": "57d84ca181a07e47d4778ca9ac2224323a236c8f0865ab8c18d77e8e9996adf9",
+      "lessons": [
+        6,
+        7
+      ],
+      "kind": "deterministic synthetic teaching illustration",
+      "source_lessons": [
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-17-finite-gauge-transport-and-conservative-dynamics\\lesson-06.md",
+          "sha256": "725d08e1e467c4048890eec6c91845f09a928d1cd57f18a7d30923fc8e06dd70"
+        },
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-17-finite-gauge-transport-and-conservative-dynamics\\lesson-07.md",
+          "sha256": "ad6f33655f99977b6f2c4aada5575c7f44f63327109663b7c79489ae800192f3"
+        }
+      ],
+      "source_ledger": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-17-finite-gauge-transport-and-conservative-dynamics\\sources.md",
+        "sha256": "6c46f9fa1d77ba0780f75a17a9ba9e5e9c3dbaa3474d172f5ab7850b30f34038"
+      },
+      "evidence_sources": [
+        {
+          "id": "S01",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+          "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S02",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+          "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S03",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+          "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S04",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+          "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S05",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+          "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        }
+      ],
+      "evidence_scope": "Authored synthetic teaching figure; lesson identities locate the exact numerical and mathematical inputs. Archival identities resolve source IDs but do not assert replay of archived claims.",
+      "vector_companion": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-17-finite-gauge-transport-and-conservative-dynamics\\publication-figures\\hodge-pairing.svg",
+        "sha256": "6aa0c9f855c8c590f1e4026c0d51e2b672410b2598b0e7a0bbd1a56d3140c007"
+      }
+    }
+  ]
+}

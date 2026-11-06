@@ -1,0 +1,425 @@
+{
+  "schema_version": "1.0",
+  "topic": "Lucas Geometry: 27 Nodes, Polarity, and Sheets",
+  "audience": "High-school seniors; first-principles teaching, with concrete prerequisite capabilities and taught bridges.",
+  "assumptions": [
+    "A topical short course, not a semester per topic. Pacing is 55-minute core lessons plus capstone periods; split dense lessons if actual learner load requires it.",
+    "No prior calculus, abstract algebra, university linear algebra, or quantum mechanics unless explicitly taught earlier.",
+    "Required core assessments must be solvable with taught finite examples. Clearly label deeper recognition-only extensions.",
+    "Markdown is the delivery format; no PDF or Word generation is required.",
+    "Classroom basis from approved teaching blueprint is used for all numerical examples; it is not Cell3 or measured data.",
+    "Pacing is a design estimate; no student classroom trial was performed."
+  ],
+  "ordered_deliverables": [
+    "course-map.md",
+    "sources.md",
+    "sources.json",
+    "lesson-01.md",
+    "lesson-02.md",
+    "lesson-03.md",
+    "lesson-04.md",
+    "lesson-05.md",
+    "lesson-06.md",
+    "terminology.md",
+    "teacher-guide.md",
+    "registry.md",
+    "registry.json",
+    "capstone.md",
+    "verify_examples.py",
+    "verification.json",
+    "independent-audit.json",
+    "build_course.py",
+    "finish_course.py",
+    "finalize_course.py",
+    "course.md",
+    "audit_report.json",
+    "completion_report.json"
+  ],
+  "checkpoints": [
+    {
+      "id": "course-map",
+      "kind": "course-map",
+      "path": "course-map.md",
+      "dependencies": [],
+      "status": "passed",
+      "sha256": "83513113782a1958e982e38e0eb0f57e965924d32a1476956d6f1eee4b1453f2",
+      "summary": "Prerequisites, coverage IDs and lesson order"
+    },
+    {
+      "id": "sources",
+      "kind": "supplement",
+      "path": "sources.md",
+      "dependencies": [],
+      "status": "passed",
+      "sha256": "125ba6bbbfdea3e0649931ee4de24b4bb7d735c6755c787b33f39fb221a48d7a",
+      "summary": "Compact source provenance and affine correction"
+    },
+    {
+      "id": "source-pins",
+      "kind": "supplement",
+      "path": "sources.json",
+      "dependencies": [
+        "sources"
+      ],
+      "status": "passed",
+      "sha256": "33ef0f7e6cb7d93d56b249cc2a2f3f6cb373ed0e31c25ab8ed5f913d8f185fee",
+      "summary": "Five verified SHA-256 pins and exact pointers"
+    },
+    {
+      "id": "lesson-01",
+      "kind": "lesson",
+      "path": "lesson-01.md",
+      "dependencies": [
+        "course-map",
+        "sources"
+      ],
+      "status": "passed",
+      "sha256": "1fb30d04a434ed58be390bdbcd3402ea8428b840c1b1f1e50a0e2515206c3e9d",
+      "summary": "Complete student lesson with worked answers and local checks"
+    },
+    {
+      "id": "lesson-02",
+      "kind": "lesson",
+      "path": "lesson-02.md",
+      "dependencies": [
+        "lesson-01",
+        "sources"
+      ],
+      "status": "passed",
+      "sha256": "43457e73175ecc427947a0cd89f2651cbd0f451a49fe1e5937d0e19b2b9577e5",
+      "summary": "Complete student lesson with worked answers and local checks"
+    },
+    {
+      "id": "lesson-03",
+      "kind": "lesson",
+      "path": "lesson-03.md",
+      "dependencies": [
+        "lesson-02",
+        "sources"
+      ],
+      "status": "passed",
+      "sha256": "0c3bb60f55c0fe3bf61d01d642217d7870f6d0889922b9406a718fc6241d4802",
+      "summary": "Complete student lesson with worked answers and local checks"
+    },
+    {
+      "id": "lesson-04",
+      "kind": "lesson",
+      "path": "lesson-04.md",
+      "dependencies": [
+        "lesson-03",
+        "sources"
+      ],
+      "status": "passed",
+      "sha256": "c6bc6851abfa6d2401718c464e35ef0049f9fc47ba73f321d95d1e0bc32173fb",
+      "summary": "Complete student lesson with worked answers and local checks"
+    },
+    {
+      "id": "lesson-05",
+      "kind": "lesson",
+      "path": "lesson-05.md",
+      "dependencies": [
+        "lesson-04",
+        "sources"
+      ],
+      "status": "passed",
+      "sha256": "62a98e20546063b90362082fb037eb7368919ff9c4cfbaa901e1b8882c0513cd",
+      "summary": "Complete student lesson with worked answers and local checks"
+    },
+    {
+      "id": "lesson-06",
+      "kind": "lesson",
+      "path": "lesson-06.md",
+      "dependencies": [
+        "lesson-05",
+        "sources"
+      ],
+      "status": "passed",
+      "sha256": "d81fe6e2f6857a43c1bf7148287d5ae0fd6f4cca85e6d3f6a370e95230b76651",
+      "summary": "Complete student lesson with worked answers and local checks"
+    },
+    {
+      "id": "terminology",
+      "kind": "terminology",
+      "path": "terminology.md",
+      "dependencies": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05",
+        "lesson-06"
+      ],
+      "status": "passed",
+      "sha256": "652ac7bb5b3fe57bb42490ae2c60b055cfe8bd93b74ee99b29d977619f1073aa",
+      "summary": "Terms and units used in actual lessons"
+    },
+    {
+      "id": "teacher-guide",
+      "kind": "teacher-guide",
+      "path": "teacher-guide.md",
+      "dependencies": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05",
+        "lesson-06"
+      ],
+      "status": "passed",
+      "sha256": "b3f51d88fe1827fb6b21b9272ca66a263df7a839d0d1a5db8dff9b844eb1af89",
+      "summary": "Pacing, diagnosis, cumulative checks and maintenance"
+    },
+    {
+      "id": "registry",
+      "kind": "supplement",
+      "path": "registry.md",
+      "dependencies": [
+        "lesson-06"
+      ],
+      "status": "passed",
+      "sha256": "fdc2976f5a75acf1de056d06ae82877513a76b11faf2cbb44b1f588079141774",
+      "summary": "Complete human-readable 27-row worked answer"
+    },
+    {
+      "id": "registry-json",
+      "kind": "supplement",
+      "path": "registry.json",
+      "dependencies": [
+        "lesson-06"
+      ],
+      "status": "passed",
+      "sha256": "6d0cddc1284765e6ad3d69147f5441f07c1b4fdd6a8619c1b17deca52c5346ff",
+      "summary": "Small exact synthetic registry with all residuals"
+    },
+    {
+      "id": "capstone",
+      "kind": "capstone",
+      "path": "capstone.md",
+      "dependencies": [
+        "lesson-06",
+        "registry"
+      ],
+      "status": "passed",
+      "sha256": "aba0cf3de5a57b419dc824d18ba42214d3323e107680671137d09e621094324f",
+      "summary": "Seven operations, full key and 100-point rubric"
+    },
+    {
+      "id": "verification-script",
+      "kind": "supplement",
+      "path": "verify_examples.py",
+      "dependencies": [
+        "registry-json"
+      ],
+      "status": "passed",
+      "sha256": "0a46b873d48afa8ca8016e0116d42a821cb2cf0d9cee3e19cc7ff20af322336c",
+      "summary": "Independent finite arithmetic and source-pin read-back checks"
+    },
+    {
+      "id": "verification",
+      "kind": "supplement",
+      "path": "verification.json",
+      "dependencies": [
+        "verification-script"
+      ],
+      "status": "passed",
+      "sha256": "ed30e392ed231085ad66adf202e852213176803e2d0e292322f2b5fecaf8534c",
+      "summary": "Actual passed exact arithmetic and ID-check record"
+    },
+    {
+      "id": "independent-audit",
+      "kind": "supplement",
+      "path": "independent-audit.json",
+      "dependencies": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05",
+        "lesson-06",
+        "capstone",
+        "registry"
+      ],
+      "status": "passed",
+      "sha256": "85464aacdcd77cc0a5f6e95d79611dd41d7f208471aeaec672b641d4f7f508da",
+      "summary": "Independent completed-content E05 and mathematical review"
+    },
+    {
+      "id": "initial-authoring",
+      "kind": "supplement",
+      "path": "build_course.py",
+      "dependencies": [],
+      "status": "passed",
+      "sha256": "b40bb8e24162bd685c6c2a4a972d38ffebb8ce065b47386a2a8b733cbafaa4a2",
+      "summary": "Initial authored draft source; do not rerun over later lesson repairs"
+    },
+    {
+      "id": "support-builder",
+      "kind": "supplement",
+      "path": "finish_course.py",
+      "dependencies": [
+        "initial-authoring"
+      ],
+      "status": "passed",
+      "sha256": "4b3d1c6ed00f0018536211413c296d3fcb085520270f6175e5ce0d55497aed3a",
+      "summary": "Rebuild synthetic registry and course supports"
+    },
+    {
+      "id": "finalizer",
+      "kind": "supplement",
+      "path": "finalize_course.py",
+      "dependencies": [],
+      "status": "passed",
+      "sha256": "81b736459a2cfda621fb15191a611a2a7edf373ae979de2351f456459b832c77",
+      "summary": "Recovery and verbatim assembly refresh procedure"
+    },
+    {
+      "id": "assembly",
+      "kind": "assembly",
+      "path": "course.md",
+      "dependencies": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05",
+        "lesson-06"
+      ],
+      "status": "passed",
+      "sha256": "5003a215bd45c2a1cdae700268b426f3d8cc4a75cbb643b4072a631c7c16edce",
+      "summary": "Every lesson inserted verbatim in approved order"
+    },
+    {
+      "id": "audit",
+      "kind": "audit",
+      "path": "audit_report.json",
+      "dependencies": [
+        "independent-audit",
+        "verification",
+        "assembly"
+      ],
+      "status": "passed",
+      "sha256": "4daba0eb9da3bdb2f470aa6a5f01ef2cbaf2b23d05456e5390de1a67d8f19756",
+      "summary": "Final hostile review and corrected source finding"
+    }
+  ],
+  "dependencies": {
+    "course-map": [],
+    "sources": [],
+    "source-pins": [
+      "sources"
+    ],
+    "lesson-01": [
+      "course-map",
+      "sources"
+    ],
+    "lesson-02": [
+      "lesson-01",
+      "sources"
+    ],
+    "lesson-03": [
+      "lesson-02",
+      "sources"
+    ],
+    "lesson-04": [
+      "lesson-03",
+      "sources"
+    ],
+    "lesson-05": [
+      "lesson-04",
+      "sources"
+    ],
+    "lesson-06": [
+      "lesson-05",
+      "sources"
+    ],
+    "terminology": [
+      "lesson-01",
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05",
+      "lesson-06"
+    ],
+    "teacher-guide": [
+      "lesson-01",
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05",
+      "lesson-06"
+    ],
+    "registry": [
+      "lesson-06"
+    ],
+    "registry-json": [
+      "lesson-06"
+    ],
+    "capstone": [
+      "lesson-06",
+      "registry"
+    ],
+    "verification-script": [
+      "registry-json"
+    ],
+    "verification": [
+      "verification-script"
+    ],
+    "independent-audit": [
+      "lesson-01",
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05",
+      "lesson-06",
+      "capstone",
+      "registry"
+    ],
+    "initial-authoring": [],
+    "support-builder": [
+      "initial-authoring"
+    ],
+    "finalizer": [],
+    "assembly": [
+      "lesson-01",
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05",
+      "lesson-06"
+    ],
+    "audit": [
+      "independent-audit",
+      "verification",
+      "assembly"
+    ]
+  },
+  "course_order": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03",
+    "lesson-04",
+    "lesson-05",
+    "lesson-06"
+  ],
+  "assembly": {
+    "path": "course.md",
+    "section_ids": [
+      "lesson-01",
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05",
+      "lesson-06"
+    ]
+  },
+  "audit_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "blockers": [],
+  "next_action": "none",
+  "course_output_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-05-lucas-geometry-27-nodes-polarity-and-sheets",
+  "storage_authority": "User-approved project output root overrides Desktop default",
+  "input_contract_sha256": "508363856a193fa45f229728ec2855f22fbc850e72fff2443359a16a4e8f4d09"
+}

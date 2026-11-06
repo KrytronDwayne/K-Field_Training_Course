@@ -1,0 +1,92 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Lesson 1 — Residues modulo three · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/20">Course 20</a><span>/</span><span>lesson 01</span></div><a class="original" href="../../../kfield-20-family-structure-and-simultaneous-occupation/lesson-01.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#lesson-1-residues-modulo-three">Lesson 1 — Residues modulo three</a><a href="#c2001-e1-a-finite-coordinate-system">C20.01-E1 — A finite coordinate system</a><a href="#c2001-w1-worked-classification">C20.01-W1 — Worked classification</a><a href="#c2001-p1-guided-practice-with-answers">C20.01-P1 — Guided practice, with answers</a><a href="#diagnostic-checks">Diagnostic checks</a></nav></details><details class="course-nav" open><summary>In this course</summary><a aria-current=page href="lesson-01.html">Lesson 1 — Residues modulo three</a><a  href="lesson-02.html">Lesson 2 — Uniform and zero-sum sectors</a><a  href="lesson-03.html">Lesson 3 — Lifts and Fourier-style channels</a><a  href="lesson-04.html">Lesson 4 — Tensor products and rank multiplication</a><a  href="lesson-05.html">Lesson 5 — The rank-48 projector</a><a  href="lesson-06.html">Lesson 6 — Selection, state, and source status</a><a  href="lesson-07.html">Lesson 7 — Family labels and numerical properties</a></details></aside><div class="reading-column"><article class="prose"><h1 id="lesson-1-residues-modulo-three" tabindex="-1">Lesson 1 — Residues modulo three</h1>
+<p>Essential question: How can one rule divide 27 coordinate labels into three equal classes?</p>
+<p>Goals: Compute residues, including negative residues; enumerate a class without omissions; distinguish a class count from an occupation claim.</p>
+<p>Prerequisite bridge: You already add signed integers and solve an equation such as x+3=5. Here we add one rule: numbers differing by a multiple of three receive the same label. The course follows courses 15 and 18 in the series, but all finite operations needed here are introduced locally.</p>
+<h2 id="c2001-e1-a-finite-coordinate-system" tabindex="-1">C20.01-E1 — A finite coordinate system</h2>
+<p>The residue of an integer modulo three is the unique member of {0,1,2} left after subtracting a suitable multiple of three. For example, 8=2×3+2 has residue 2. Also −1=(−1)×3+2 has residue 2. The symbol ≡ means “has the same residue as”: −1≡2 modulo 3. Use these representatives even when subtraction gives a negative number.</p>
+<p>The source writes F₃ for these three labels with addition and multiplication reduced modulo three. X=F₃³ is the set of ordered triples (x₁,x₂,x₃). The exponent 3 means three coordinate positions here. Each position has three choices, so X contains 3×3×3=27 nodes. A node is a label, not an observed particle or a position in metres.</p>
+<p>Define λ(x)=(x₁+x₂+x₃) mod 3. The Greek letter λ is pronounced “lambda.” Define Cᵣ to contain every node whose λ value is r, for r=0,1,2. In source notation Cᵣ=λ⁻¹(r): this means the set of inputs with output r, not division by λ. Each node belongs to exactly one class because each integer sum has exactly one residue.</p>
+<p>To build Cᵣ, choose x₁ and x₂ freely, then solve x₃≡r−x₁−x₂. There is exactly one allowed x₃. Thus nine pairs give nine nodes per class. Use the following fixed pair order throughout the course; the table gives x₃, not the full triple.</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>(x₁,x₂)</th>
+<th style="text-align: right;">C₀: x₃</th>
+<th style="text-align: right;">C₁: x₃</th>
+<th style="text-align: right;">C₂: x₃</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>(0,0)</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr>
+<td>(0,1)</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>(0,2)</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>(1,0)</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>(1,1)</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>(1,2)</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr>
+<td>(2,0)</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>(2,1)</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr>
+<td>(2,2)</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="c2001-w1-worked-classification" tabindex="-1">C20.01-W1 — Worked classification</h2>
+<p>For (2,2,2), the sum is 6=2×3+0, so λ=0. For (0,0,1), λ=1; for (0,0,2), λ=2. To find the C₀ node beginning (1,2), compute x₃≡0−1−2=−3≡0. The node (1,2,0) checks because its sum is 3. The table gives 9+9+9=27 nodes without repetition: different first pairs differ, and different classes have different residues.</p>
+<h2 id="c2001-p1-guided-practice-with-answers" tabindex="-1">C20.01-P1 — Guided practice, with answers</h2>
+<p>Find the C₂ node beginning (2,1), then the C₁ node beginning (2,2). Enumerate C₂ using the fixed pair order.</p>
+<p>Answers: 2−2−1=−1≡2 gives (2,1,2); 1−2−2=−3≡0 gives (2,2,0). The ordered C₂ list is (0,0,2), (0,1,1), (0,2,0), (1,0,1), (1,1,0), (1,2,2), (2,0,0), (2,1,2), (2,2,1). Its sums are 2,2,2,2,2,5,2,5,5, all residue 2.</p>
+<blockquote>
+<p>Claim scope: S02#/backbone_sequence/15/definitions supplies X, λ and Cᵣ. Enumeration is freshly checkable finite mathematics. The three classes are the source's family-label construction; counting them alone does not identify which physical carrier is occupied. Family labels are not detector parity, chirality, projective signs, or primitive lifts.</p>
+</blockquote>
+<h2 id="diagnostic-checks" tabindex="-1">Diagnostic checks</h2>
+<ol>
+<li>What is −5 modulo 3?</li>
+<li>Which class contains (2,0,2)?</li>
+<li>Why are there nine nodes in C₁, rather than three?</li>
+<li><strong>C20.01-D1:</strong> Does the existence of three classes itself establish simultaneous physical occupation?</li>
+</ol>
+<p>Worked answers: (1) −5=−2×3+1, so 1. (2) The sum is 4, so C₁. (3) There are nine freely chosen first-coordinate pairs and one third coordinate for each. (4) No; the class count specifies the label space. Identifying the occupied carrier needs the source premises examined in lesson 6.</p>
+<p>Next dependency: <a href="lesson-02.html">Lesson 2</a> assigns values to these ordered nodes and retains both averages and detail.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><span></span><a class="button" href="lesson-02.html">Next lesson →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/20">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

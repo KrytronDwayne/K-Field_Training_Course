@@ -1,0 +1,409 @@
+{
+  "schema_version": "1.0",
+  "topic": "Root Systems, Symmetry, and A1–A2 Structure",
+  "audience": "High-school seniors; first-principles teaching, with concrete prerequisite capabilities and taught bridges.",
+  "assumptions": [
+    "A topical short course, not a semester per topic. Pacing is 55-minute core lessons plus capstone periods; split dense lessons if actual learner load requires it.",
+    "No prior calculus, abstract algebra, university linear algebra, or quantum mechanics unless explicitly taught earlier.",
+    "Required core assessments must be solvable with taught finite examples. Clearly label deeper recognition-only extensions.",
+    "Markdown is the delivery format; no PDF or Word generation is required."
+  ],
+  "ordered_deliverables": [
+    "input-contract.json",
+    "source-verification.json",
+    "sources.md",
+    "course-map.md",
+    "lesson-01.md",
+    "lesson-02.md",
+    "lesson-03.md",
+    "lesson-04.md",
+    "lesson-05.md",
+    "lesson-06.md",
+    "terminology.md",
+    "teacher-guide.md",
+    "capstone.md",
+    "verify_examples.py",
+    "worked-example-verification.json",
+    "author_course.py",
+    "finalize_course.py",
+    "seal_course.py",
+    "course.md",
+    "audit_report.json",
+    "completion_report.json"
+  ],
+  "checkpoints": [
+    {
+      "id": "input",
+      "kind": "supplement",
+      "path": "input-contract.json",
+      "dependencies": [],
+      "summary": "Authoritative approved packet, preserved unchanged",
+      "status": "passed",
+      "sha256": "ed4ddff9f6772fcd23a62cf48880a4fd408536012283c2334e4773ecbe4a4d98"
+    },
+    {
+      "id": "source-verification",
+      "kind": "supplement",
+      "path": "source-verification.json",
+      "dependencies": [
+        "input"
+      ],
+      "summary": "Five archival hashes freshly verified",
+      "status": "passed",
+      "sha256": "30e837b1414719a9c3d40d208f318e13bd40209fe1fa0fcee23cd14648d178bf"
+    },
+    {
+      "id": "sources",
+      "kind": "supplement",
+      "path": "sources.md",
+      "dependencies": [
+        "source-verification"
+      ],
+      "summary": "Exact pointers and evidence boundaries",
+      "status": "passed",
+      "sha256": "d159010fc0aad27e5b0bc43cb66c0a995af7f16b7c05a55ed257f29f8e55e2aa"
+    },
+    {
+      "id": "course-map",
+      "kind": "course-map",
+      "path": "course-map.md",
+      "dependencies": [
+        "input",
+        "sources"
+      ],
+      "summary": "Six-lesson order, E05 coverage, concrete capstone operations",
+      "status": "passed",
+      "sha256": "6fabfaafe284086e9d1f0a46c224b34da704b34bf9fe7cd6f74ace8394c135e2"
+    },
+    {
+      "id": "lesson-01",
+      "kind": "lesson",
+      "path": "lesson-01.md",
+      "dependencies": [
+        "course-map"
+      ],
+      "summary": "Complete senior-facing lesson; local and independent content audit passed",
+      "status": "passed",
+      "sha256": "11023bdbdbdcae6634c5dabd047e9416e2265230ec8d591d52c519ff1fbe5a8d"
+    },
+    {
+      "id": "lesson-02",
+      "kind": "lesson",
+      "path": "lesson-02.md",
+      "dependencies": [
+        "lesson-01"
+      ],
+      "summary": "Complete senior-facing lesson; local and independent content audit passed",
+      "status": "passed",
+      "sha256": "aba8e08635799f0b8d9001739756e7050bd283091dfa1cc3e44702ecaec989a1"
+    },
+    {
+      "id": "lesson-03",
+      "kind": "lesson",
+      "path": "lesson-03.md",
+      "dependencies": [
+        "lesson-02"
+      ],
+      "summary": "Complete senior-facing lesson; local and independent content audit passed",
+      "status": "passed",
+      "sha256": "b4fa029e8810e8372356c0409e4d67e78d241c62926b2c4218b6a433a96c2568"
+    },
+    {
+      "id": "lesson-04",
+      "kind": "lesson",
+      "path": "lesson-04.md",
+      "dependencies": [
+        "lesson-03"
+      ],
+      "summary": "Complete senior-facing lesson; local and independent content audit passed",
+      "status": "passed",
+      "sha256": "0159938bbc1c82c07b84daa3c4bd7654b0c83b285f143c13bff69f5b7d97436a"
+    },
+    {
+      "id": "lesson-05",
+      "kind": "lesson",
+      "path": "lesson-05.md",
+      "dependencies": [
+        "lesson-04"
+      ],
+      "summary": "Complete senior-facing lesson; local and independent content audit passed",
+      "status": "passed",
+      "sha256": "f936dc183edd5031e98477753a3cbb753d6a0745c50acd93a62bd9dde6a64329"
+    },
+    {
+      "id": "lesson-06",
+      "kind": "lesson",
+      "path": "lesson-06.md",
+      "dependencies": [
+        "lesson-05"
+      ],
+      "summary": "Complete senior-facing lesson; local and independent content audit passed",
+      "status": "passed",
+      "sha256": "49cb19732950d676f0778a0ccaa8d5ad3c5d6aa9fbb4ed569c1e3402c5545b5d"
+    },
+    {
+      "id": "terminology",
+      "kind": "terminology",
+      "path": "terminology.md",
+      "dependencies": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05",
+        "lesson-06"
+      ],
+      "summary": "Actual notation and typed distinctions",
+      "status": "passed",
+      "sha256": "671e0d97b2d98bab08aaec45284618aa2b4bb36d15da027d5462321436f4bac4"
+    },
+    {
+      "id": "teacher-guide",
+      "kind": "teacher-guide",
+      "path": "teacher-guide.md",
+      "dependencies": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05",
+        "lesson-06"
+      ],
+      "summary": "Nine-period pacing, repairs, cumulative gates",
+      "status": "passed",
+      "sha256": "3f4a25410e2fe9ad12c57397887cc75bd78ec60b0157d720e5e42c35b1fd29a7"
+    },
+    {
+      "id": "capstone",
+      "kind": "capstone",
+      "path": "capstone.md",
+      "dependencies": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05",
+        "lesson-06"
+      ],
+      "summary": "Six panels, full key, 60-point rubric and backward map",
+      "status": "passed",
+      "sha256": "f6c2f570586d6a284678652cd5a24b0aece4809a86c100f52609d24ca74b5dac"
+    },
+    {
+      "id": "verification-code",
+      "kind": "supplement",
+      "path": "verify_examples.py",
+      "dependencies": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05",
+        "lesson-06"
+      ],
+      "summary": "Reproducible exact finite verification",
+      "status": "passed",
+      "sha256": "f0a4efc97aef94d0d44ba3a3b83f311b1f9955a7b3c205870d12739e7661674b"
+    },
+    {
+      "id": "verification",
+      "kind": "supplement",
+      "path": "worked-example-verification.json",
+      "dependencies": [
+        "verification-code"
+      ],
+      "summary": "Passed exact computation in required tf_gpu_env",
+      "status": "passed",
+      "sha256": "cc2438acb3d7bdaa156b8ba84bcfc7e4f6a3b3369aa7f528ae3af94a759f76a3"
+    },
+    {
+      "id": "author-code",
+      "kind": "supplement",
+      "path": "author_course.py",
+      "dependencies": [
+        "input"
+      ],
+      "summary": "Authored lesson recovery source; do not rerun passed work absent a concrete defect",
+      "status": "passed",
+      "sha256": "43e26ca2a42638e3b079eb5b7514856b701bb489ff86652c69884de328e8bed2"
+    },
+    {
+      "id": "assembly-code",
+      "kind": "supplement",
+      "path": "finalize_course.py",
+      "dependencies": [
+        "input"
+      ],
+      "summary": "Assembly/provenance recovery script",
+      "status": "passed",
+      "sha256": "a82dbd90c98c43929fd890bd795f77f8848a08c88f13171d967cf1415168199c"
+    },
+    {
+      "id": "seal-code",
+      "kind": "supplement",
+      "path": "seal_course.py",
+      "dependencies": [
+        "input"
+      ],
+      "summary": "Hashes, audit closure and project validator runner",
+      "status": "passed",
+      "sha256": "348311b172c692731ebd5dd086a552fe87a8292cbdd37a22db3c5b94b631abb1"
+    },
+    {
+      "id": "assembly",
+      "kind": "assembly",
+      "path": "course.md",
+      "dependencies": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05",
+        "lesson-06"
+      ],
+      "summary": "All six lessons verbatim in approved order",
+      "status": "passed",
+      "sha256": "57c62850ec9f24f09bf8ab284464896c5ca9ed544df463b59a819883db5ba6ad"
+    },
+    {
+      "id": "audit",
+      "kind": "audit",
+      "path": "audit_report.json",
+      "dependencies": [
+        "assembly",
+        "verification",
+        "sources",
+        "capstone",
+        "teacher-guide",
+        "terminology"
+      ],
+      "summary": "Hostile content review and four documented repaired findings",
+      "status": "passed",
+      "sha256": "ce1c8bc9b15470927eeb649e77e8106d75737a9ce921f5db1a26b7c2081c81f5"
+    }
+  ],
+  "dependencies": {
+    "input": [],
+    "source-verification": [
+      "input"
+    ],
+    "sources": [
+      "source-verification"
+    ],
+    "course-map": [
+      "input",
+      "sources"
+    ],
+    "lesson-01": [
+      "course-map"
+    ],
+    "lesson-02": [
+      "lesson-01"
+    ],
+    "lesson-03": [
+      "lesson-02"
+    ],
+    "lesson-04": [
+      "lesson-03"
+    ],
+    "lesson-05": [
+      "lesson-04"
+    ],
+    "lesson-06": [
+      "lesson-05"
+    ],
+    "terminology": [
+      "lesson-01",
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05",
+      "lesson-06"
+    ],
+    "teacher-guide": [
+      "lesson-01",
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05",
+      "lesson-06"
+    ],
+    "capstone": [
+      "lesson-01",
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05",
+      "lesson-06"
+    ],
+    "verification-code": [
+      "lesson-01",
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05",
+      "lesson-06"
+    ],
+    "verification": [
+      "verification-code"
+    ],
+    "author-code": [
+      "input"
+    ],
+    "assembly-code": [
+      "input"
+    ],
+    "seal-code": [
+      "input"
+    ],
+    "assembly": [
+      "lesson-01",
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05",
+      "lesson-06"
+    ],
+    "audit": [
+      "assembly",
+      "verification",
+      "sources",
+      "capstone",
+      "teacher-guide",
+      "terminology"
+    ]
+  },
+  "course_order": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03",
+    "lesson-04",
+    "lesson-05",
+    "lesson-06"
+  ],
+  "assembly": {
+    "path": "course.md",
+    "section_ids": [
+      "lesson-01",
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05",
+      "lesson-06"
+    ]
+  },
+  "audit_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "blockers": [],
+  "next_action": "none",
+  "course_output_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-13-root-systems-symmetry-and-a1-a2-structure",
+  "storage_authority": {
+    "authority": "User: write outputs to the project folder and move them later",
+    "original_root": "C:\\Users\\info\\Desktop\\K-Field_Training_Course",
+    "canonical_project_root": "Z:\\Kfield-doc-training\\K-Field_Training_Course"
+  },
+  "recovery_rule": "Verify checkpoint bytes against hashes before trusting status. Resume earliest missing/failed dependency; regenerate passed work only for a concrete defect."
+}

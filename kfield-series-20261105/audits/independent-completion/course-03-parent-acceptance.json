@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-03",
+  "status": "accepted",
+  "timestamp": "2026-11-05T17:16:03.790280+00:00",
+  "independent_audit": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\independent-completion\\course-03-teaching-audit.json",
+  "independent_report_sha256": "3ff10de77a496a74cfcf1e03b457f7ef60d5f74372de760e7113107ba6a205c0",
+  "original_independent_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 2
+  },
+  "minor_corrections": [
+    {
+      "id": "TA03-MIN-01",
+      "verification": "Replaced absent local receipt reference with an existing destination validation record; resolved target exists. Completion metadata points to the same evidence and final parent acceptance."
+    },
+    {
+      "id": "TA03-MIN-02",
+      "verification": "Guide and map now permit added practice and require a fraction/block-inverse recheck before Lesson5 or independent assessment; conceptual IDs retained and period count flexible."
+    }
+  ],
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "validator": "passed",
+  "validator_checks": [
+    "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+    "parsed manifest.json",
+    "parsed audit_report.json",
+    "parsed completion_report.json",
+    "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+  ],
+  "validator_errors": [],
+  "manifest_sha256": "36c65cc3fe3e7a425a8c9ad2bb9daab534ed3fa358310e3f04105a7e04411b0d",
+  "completion_report_sha256": "02533cf1addd9c834d2d3b84901c530e88fdab4a384d0d3e41d1e6445cb3d681",
+  "course_sha256": "66b124a7e2e605b788520be81f061e3f0af030ff391782aa0e79b347d5b7194b",
+  "scope": "Complete topical course accepted after independent content audit, targeted minor repairs and fresh deterministic verification. Source limitations remain explicitly documented."
+}

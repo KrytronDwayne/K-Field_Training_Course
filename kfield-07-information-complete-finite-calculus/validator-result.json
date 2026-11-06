@@ -1,0 +1,20 @@
+{
+  "canonical_output_root": "Z:\\Kfield-doc-training\\K-Field_Training_Course",
+  "checks": [
+    "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+    "parsed manifest.json",
+    "parsed audit_report.json",
+    "parsed completion_report.json",
+    "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+  ],
+  "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-07-information-complete-finite-calculus",
+  "errors": [],
+  "schema_version": "1.0",
+  "status": "passed",
+  "storage_authority": "User explicitly authorized project-folder outputs, 2026-11-05",
+  "validator_path": "C:\\Users\\info\\.codex\\skills\\build-high-school-course\\scripts\\validate_course.py",
+  "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+  "exit_code": 0,
+  "completion_report_sha256": "de626c92ea7181a659495fc498640652e2db19efb931a64254b3f9244370377c",
+  "course_sha256": "279721651b5235938b278e8f581707473b7e2b08a49e023b3cb30f086c800f22"
+}

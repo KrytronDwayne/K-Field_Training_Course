@@ -1,0 +1,125 @@
+{
+  "schema": "kfield.source-coverage.early.v1",
+  "status": "first_three_cleared_for_course_production",
+  "scope": "Independent source and prerequisite review of input contracts 01-03; not finished-course approval.",
+  "snapshot": {
+    "database_object_id": "ab46c19405bfb7bdc08d506e2f5656e6c1ca13842eee75ed08de1508a839573d",
+    "generation": "sha256:5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+    "manifest_sha256": "5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7"
+  },
+  "source_checks": {
+    "S01": "hash verified",
+    "S02": "hash verified",
+    "S03": "hash verified",
+    "S06": "Exact 1761-byte MCP object read; measurement/replay/conditional-attribution scopes inspected."
+  },
+  "reviewed_packets": [
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-01-reading-the-k-field-evidence-models-and-information\\input-contract.json",
+      "before_sha256": "80b790144ea824ead76c97cb4eab721b560b7cb55513eed6d878c951ea0476aa"
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-02-mathematical-tools-units-vectors-and-coordinates\\input-contract.json",
+      "before_sha256": "c5f9e7d1291aff8ce8ab2d6b98b97a9a21adb7610e9f1cd4dd74b058f7619bfb"
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-03-the-authoritative-cell3-basis-metric-and-scale\\input-contract.json",
+      "before_sha256": "97df55564401d13c17e92647293bf981697e06f264c62baaae032e6245527dcb"
+    }
+  ],
+  "findings": [
+    {
+      "id": "SC-001",
+      "audit_level": "local",
+      "category": "source grounding",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-01-reading-the-k-field-evidence-models-and-information\\input-contract.json",
+      "section": "/capstone_specification/task; /subject_kernel/scope",
+      "severity": "major",
+      "defect": "The required source-reported measurement has no pinned measurement record in the supplied sources or source_routing; the selected numerical Cell3 witnesses are computations.",
+      "correction": "Pin the supplied angular-response witness in applications/kfield_lucas_lab/rag_corpus/50_physical_closure.md, object c2a25a583af904601968adc1d3efde825f76218c92a2f52d829afc093f52c02a, numbered item 2. Keep the 180000-sample source-reported observation separate from the 97-state replay and conditional Earth attribution; use a small explicitly synthetic residual exercise because the full observed array is not included.",
+      "verification": "Check both capstone and subject scope agree and exact pointers resolve. PASS: explicit source_audit_contract requirements added and JSON parsed after repair.",
+      "disposition": "corrected",
+      "affected_checkpoint_ids": [
+        "course-01:lesson-02",
+        "course-01:capstone"
+      ]
+    },
+    {
+      "id": "SC-002",
+      "audit_level": "local",
+      "category": "prerequisite closure",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-03-the-authoritative-cell3-basis-metric-and-scale\\input-contract.json",
+      "section": "/course_map/0 through /course_map/3",
+      "severity": "major",
+      "defect": "Course 02 supplies a two-dimensional basis and determinant, while course 03 first uses three-dimensional handedness, Gram products, cross products and inverse-metric identities without an explicit introductory bridge or practice sequence.",
+      "correction": "Add lesson-specific bridge obligations for 3D columns, transpose/multiplication, cross products/triple products, and inverse checks; constrain core work to a hand-computable synthetic basis.",
+      "verification": "Each operation is introduced and practiced before its diagnostic and capstone use. PASS: explicit source_audit_contract requirements added and JSON parsed after repair.",
+      "disposition": "corrected",
+      "affected_checkpoint_ids": [
+        "course-03:lesson-01",
+        "course-03:lesson-02",
+        "course-03:lesson-03",
+        "course-03:lesson-04"
+      ]
+    }
+  ],
+  "unresolved_critical": 0,
+  "unresolved_major": 0,
+  "approval_boundary": "Blueprint source and prerequisite clearance only. Student lessons, worked answers and final course validation remain production obligations.",
+  "synthetic_geometry_verification": {
+    "method": "Independent arithmetic on declared classroom basis",
+    "determinant": -6,
+    "gram": [
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        5,
+        0
+      ],
+      [
+        0,
+        0,
+        9
+      ]
+    ],
+    "inverse_gram": [
+      [
+        "5/4",
+        "-1/4",
+        0
+      ],
+      [
+        "-1/4",
+        "1/4",
+        0
+      ],
+      [
+        0,
+        0,
+        "1/9"
+      ]
+    ],
+    "face_cofactors": [
+      [
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        3,
+        0
+      ],
+      [
+        -6,
+        3,
+        0
+      ]
+    ],
+    "result": "PASS; negative orientation and nonzero Gram cross term retained"
+  }
+}

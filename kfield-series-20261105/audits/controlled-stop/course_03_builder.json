@@ -1,0 +1,62 @@
+[
+  {
+    "source_path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-course-03\\K-Field_Training_Course\\kfield-03-the-authoritative-cell3-basis-metric-and-scale\\restart-checkpoint.json",
+    "sha256": "eec0dda88da1ec128884bf0ba2e6fb6365cef2285d6006a7b74a79f3aa50bfbd",
+    "checkpoint": {
+      "course_output_directory": "C:/Users/info/Documents/Codex/2026-11-05/kfield-course-03/K-Field_Training_Course/kfield-03-the-authoritative-cell3-basis-metric-and-scale",
+      "drafted": [
+        "lesson-01.md",
+        "lesson-02.md",
+        "lesson-03.md",
+        "lesson-04.md",
+        "lesson-05.md",
+        "lesson-06.md",
+        "geometry-card.md",
+        "sources.md",
+        "course-map.md",
+        "terminology.md"
+      ],
+      "pending_findings": [
+        {
+          "defect": "Scale results are correct but recorded as constants rather than computed assertions; rounding examples likewise not asserted programmatically.",
+          "severity": "minor",
+          "file": "verify_examples.py",
+          "section": "out.synthetic.scale_checks",
+          "id": "MINOR-VERIFY-01",
+          "disposition": "pending",
+          "verification": "Independent auditor confirmed numerical values; executable strengthening unfinished"
+        }
+      ],
+      "incomplete_next_steps": [
+        "Review source card, glossary and map; teacher guide and capstone with full answers/rubric not yet authored",
+        "Improve executable scale and rounding checks if desired; minor finding retained below",
+        "Assemble course verbatim with exact lesson markers",
+        "Update manifest with new supports/scripts, current paths, hashes and accurately audited checkpoint statuses; current lesson checkpoints remain drafted",
+        "Perform capstone/support and final hostile audit; write actual audit and completion reports",
+        "Run location-only adapter with --output-root course parent; do not use fixture-mode",
+        "Parent consolidates generated artifacts to project only after approved restart/completion"
+      ],
+      "workspace": "C:/Users/info/Documents/Codex/2026-11-05/kfield-course-03",
+      "status": "paused_by_user_controlled_stop",
+      "validator_status": "not_run; final deliverables incomplete. Adapter available at Z:/Kfield-doc-training/.work/validate_project_course.py; original hardcoded Desktop validator incompatible with user-authorized storage.",
+      "executed_checks": [
+        "verify_examples.py exited 0 under tf_gpu_env; exact rational matrix, face, determinant and reconstruction assertions passed",
+        "All five original source hashes matched",
+        "S02/S03 canonical basis and face areas agreed",
+        "Decimal 60 ROUND_HALF_EVEN full residual matrices saved in verification.json",
+        "Independent source/math auditor and six-lesson teaching review reported 0 critical and 0 major findings within reviewed scope"
+      ],
+      "restart_authority": "Do not resume without explicit parent instruction following new user approval.",
+      "recovery_notes": [
+        "manifest.json and audit_report.json/completion_report.json remain incomplete initial/draft records; do not treat as completed",
+        "input-contract.json storage fields amended to workspace output",
+        "Original Desktop generated files preserved; active output is workspace directory",
+        "No archival source copies created",
+        "author_part1.py author_part2.py initialize.py build_support.py are retained production scripts; do not rerun initialize.py because it resets checkpoint files",
+        "verify_examples.py reads archival inputs in place; verification.json contains compact derived arrays only"
+      ],
+      "pending_command": "none",
+      "schema_version": "1.0"
+    }
+  }
+]

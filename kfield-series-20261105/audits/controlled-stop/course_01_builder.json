@@ -1,0 +1,66 @@
+[
+  {
+    "source_path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-course-01\\outputs\\K-Field_Training_Course\\kfield-01-reading-the-k-field-evidence-models-and-information\\restart-checkpoint.json",
+    "sha256": "50e9b691523824ac5722b0567edc96d446f6d6a6332c87df6c4078e2bbb4d66e",
+    "checkpoint": {
+      "schema_version": "1.0",
+      "status": "stopped_in_progress",
+      "topic": "Reading the K-Field: Evidence, Models, and Information",
+      "workspace": "C:/Users/info/Documents/Codex/2026-11-05/kfield-course-01",
+      "course_output_directory": "C:/Users/info/Documents/Codex/2026-11-05/kfield-course-01/outputs/K-Field_Training_Course/kfield-01-reading-the-k-field-evidence-models-and-information",
+      "storage_authority": "User authorized workspace outputs via parent; Desktop-only location superseded",
+      "restart_authority": "Do not resume without explicit parent instruction following new user approval",
+      "completed": [
+        "Read residual-information-paradigm, course skill, methodology, audit rubric, installed validator, knowledge-graph skill",
+        "Verified all five supplied archive SHA-256 values without copying source data",
+        "Retrieved exact S06 bounded source and inspected selected S02 pointers",
+        "Confirmed pinned corpus generation and manifest via read-only search",
+        "Verified ordinary workspace write"
+      ],
+      "drafted": [
+        "lesson-01.md",
+        "lesson-02.md",
+        "lesson-03.md",
+        "lesson-04.md",
+        "lesson-05.md"
+      ],
+      "recovery_files": [
+        "manifest.json",
+        "course-map.md",
+        "terminology.md",
+        "audit_report.json",
+        "completion_report.json"
+      ],
+      "recovery_caveat": "Recovery files are initial placeholders copied from Desktop; manifest does not yet enumerate new lesson drafts. input-contract.json still contains former Desktop paths. This restart checkpoint records current local state; update contracts and manifest before resuming production.",
+      "incomplete_next_steps": [
+        "Update input-contract paths and full manifest with accurate drafted statuses and hashes",
+        "Finish course-map.md and terminology.md",
+        "Create teacher-guide.md, capstone with full answers and rubric, sources.md, compact source verification",
+        "Independently recompute all examples and answer keys",
+        "Perform local and cumulative audits; repair actual findings",
+        "Assemble lessons verbatim using required checkpoint markers",
+        "Run hostile educational audit and deterministic validator adapter; refresh completion hashes"
+      ],
+      "pending_findings": [
+        "No educational audit has yet been completed; zero unresolved counts in initialization files are not a pass",
+        "Source S06 raw records and model-aligned residuals unavailable; preserve explicit retrieval gap",
+        "No fresh S06 compiler execution or S02 locked-matrix recheck; keep source-reported authority",
+        "Full supporting-source path/hash ledger still needs to be authored"
+      ],
+      "validator": {
+        "runtime": "C:/ProgramData/anaconda3/Scripts/conda.exe run -n tf_gpu_env python",
+        "adapter": "Z:/Kfield-doc-training/.work/validate_project_course.py",
+        "output_root": "C:/Users/info/Documents/Codex/2026-11-05/kfield-course-01/outputs/K-Field_Training_Course",
+        "fixture_mode": false,
+        "status": "not_run"
+      },
+      "pending_command": null,
+      "source_snapshot_copies_created": false,
+      "notes": [
+        "Large initial Desktop lesson-write command failed before execution with Windows command length error; no lesson output from it",
+        "Only small generated initialization files were written to Desktop before storage migration",
+        "No files have been marked passed to satisfy this stop request"
+      ]
+    }
+  }
+]

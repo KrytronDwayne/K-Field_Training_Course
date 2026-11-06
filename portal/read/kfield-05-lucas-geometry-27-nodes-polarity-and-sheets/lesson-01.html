@@ -1,0 +1,102 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Lesson 1 — Enumerating the balanced node window · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/5">Course 05</a><span>/</span><span>lesson 01</span></div><a class="original" href="../../../kfield-05-lucas-geometry-27-nodes-polarity-and-sheets/lesson-01.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#lesson-1-enumerating-the-balanced-node-window">Lesson 1 — Enumerating the balanced node window</a><a href="#c0501-e1-three-choices-three-times">C05.01-E1 — Three choices, three times</a><a href="#c0501-w1-a-complete-worked-enumeration">C05.01-W1 — A complete worked enumeration</a><a href="#c0501-p1-guided-practice-with-answer">C05.01-P1 — Guided practice, with answer</a><a href="#diagnostic-checks">Diagnostic checks</a></nav></details><details class="course-nav" open><summary>In this course</summary><a aria-current=page href="lesson-01.html">Lesson 1 — Enumerating the balanced node window</a><a  href="lesson-02.html">Lesson 2 — Node addresses versus physical positions</a><a  href="lesson-03.html">Lesson 3 — Lambda sheets and population counts</a><a  href="lesson-04.html">Lesson 4 — Parity and directed signs</a><a  href="lesson-05.html">Lesson 5 — Antipodal pairs and observation rules</a><a  href="lesson-06.html">Lesson 6 — A complete finite registry</a></details></aside><div class="reading-column"><article class="prose"><h1 id="lesson-1-enumerating-the-balanced-node-window" tabindex="-1">Lesson 1 — Enumerating the balanced node window</h1>
+<p><strong>Essential question:</strong> How can we list every node exactly once?</p>
+<p><strong>Goals:</strong> Enumerate all 27 addresses in a reproducible order; justify the count by independent choices; classify nodes by their number of nonzero coordinates.</p>
+<p><strong>Prerequisite bridge:</strong> Course 04 supplies coordinate language. Here we need only signed arithmetic and the idea that an ordered triple gives three coordinates. A subscript is a position label: L₁ means the first coordinate, not L multiplied by 1. We rebuild the counting method before using it. Budget: explanation/work 20 minutes, practice 15, checks/feedback 15, transition 5.</p>
+<h2 id="c0501-e1-three-choices-three-times" tabindex="-1">C05.01-E1 — Three choices, three times</h2>
+<p>An address L=(L₁,L₂,L₃) is an ordered list. Each entry can be −1, 0, or 1. The order matters: (1,0,0) differs from (0,1,0). The notation {−1,0,1}³ means all triples formed by choosing each entry from that three-element set. This is a Cartesian product: combine every first choice with every second choice and every third choice.</p>
+<p>For each fixed first entry there are three second entries. Each of those has three third entries, giving 3×3=9 rows. There are three first entries, so there are 3×9=27 rows. Adding 3+3+3 counts entries available in three menus; it does not count complete combinations from those menus.</p>
+<p>Use a nested listing: hold the first entry fixed; hold the second fixed; run the third through −1,0,1. Then change the second and repeat. Change the first only when all nine rows in its block are finished. A duplicate would have the same three entries, and therefore the same place in this listing. A missing row would require omitting one of the three choices in some block.</p>
+<h2 id="c0501-w1-a-complete-worked-enumeration" tabindex="-1">C05.01-W1 — A complete worked enumeration</h2>
+<p>Each table cell below is one address. Read across each row, then down each block.</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Fixed L₁</th>
+<th>L₂</th>
+<th>L₃=−1</th>
+<th>L₃=0</th>
+<th>L₃=1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>−1</td>
+<td>−1</td>
+<td>(−1,−1,−1)</td>
+<td>(−1,−1,0)</td>
+<td>(−1,−1,1)</td>
+</tr>
+<tr>
+<td>−1</td>
+<td>0</td>
+<td>(−1,0,−1)</td>
+<td>(−1,0,0)</td>
+<td>(−1,0,1)</td>
+</tr>
+<tr>
+<td>−1</td>
+<td>1</td>
+<td>(−1,1,−1)</td>
+<td>(−1,1,0)</td>
+<td>(−1,1,1)</td>
+</tr>
+<tr>
+<td>0</td>
+<td>−1</td>
+<td>(0,−1,−1)</td>
+<td>(0,−1,0)</td>
+<td>(0,−1,1)</td>
+</tr>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>(0,0,−1)</td>
+<td>(0,0,0)</td>
+<td>(0,0,1)</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>(0,1,−1)</td>
+<td>(0,1,0)</td>
+<td>(0,1,1)</td>
+</tr>
+<tr>
+<td>1</td>
+<td>−1</td>
+<td>(1,−1,−1)</td>
+<td>(1,−1,0)</td>
+<td>(1,−1,1)</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>(1,0,−1)</td>
+<td>(1,0,0)</td>
+<td>(1,0,1)</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>(1,1,−1)</td>
+<td>(1,1,0)</td>
+<td>(1,1,1)</td>
+</tr>
+</tbody>
+</table></div>
+<p>The centered window includes its boundary. With zero nonzero coordinates, only (0,0,0) occurs: the center. With one nonzero coordinate choose its position in 3 ways and its sign in 2 ways: 6 face centers. With two nonzero coordinates choose the zero position in 3 ways and the other two signs in 2×2 ways: 12 edge centers. With all three coordinates nonzero choose three signs: 2³=8 vertices. These names describe a cube in address space and its image under an invertible basis map; a skew physical cell need not be a cube.</p>
+<p>The count 1+6+12+8=27 agrees with the independent product count. Every row falls into exactly one of these four groups.</p>
+<h2 id="c0501-p1-guided-practice-with-answer" tabindex="-1">C05.01-P1 — Guided practice, with answer</h2>
+<p>Cover the table and list the nine rows with L₁=0. Then sort them by number of nonzero entries. Answer: the nine rows are (0,−1,−1),(0,−1,0),(0,−1,1),(0,0,−1),(0,0,0),(0,0,1),(0,1,−1),(0,1,0),(0,1,1). There is one center, four one-nonzero rows and four two-nonzero rows in this slice. For the whole window the counts are 1,6,12,8; restricting a coordinate changes the counts, so a slice is not the full registry.</p>
+<blockquote>
+<p><strong>Claim scope:</strong> S02 /backbone_sequence/2/definitions and /typed_finite_objects specify this finite window and its geometric classification. The list and counts above are directly derived from those definitions. These are node addresses, not measured events or 27 complete cell volumes. The source's Lucas Group is a different object: 27 complete cells.</p>
+</blockquote>
+<h2 id="diagnostic-checks" tabindex="-1">Diagnostic checks</h2>
+<ol>
+<li><strong>C05.01-D1:</strong> Why is 3+3+3 wrong, and how does 1+6+12+8 check the correct total?</li>
+<li><strong>C05.01-D3:</strong> A list has 27 rows but repeats (0,0,0) and omits (1,0,0). Is the row count enough?</li>
+<li><strong>C05.01-D4:</strong> Classify (−1,1,0), (0,0,1), and (1,−1,1).</li>
+<li><strong>C05.01-D5:</strong> How many rows have L₁=1 and L₂=−1? Write them.</li>
+</ol>
+<p><strong>Worked answers:</strong> 1. Three independent choices multiply to 27; the mutually exclusive geometric groups sum to 27. 2. No: count distinct triples as well as rows; this list has only 26 distinct triples. 3. Two nonzero entries give an edge center; one gives a face center; three give a vertex. 4. Only L₃ is free: (1,−1,−1),(1,−1,0),(1,−1,1).</p>
+<p><strong>Next dependency:</strong> <a href="lesson-02.html">Lesson 2</a> turns each address into a position while retaining the address.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><span></span><a class="button" href="lesson-02.html">Next lesson →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/5">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

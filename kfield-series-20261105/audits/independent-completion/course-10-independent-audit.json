@@ -1,0 +1,301 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-10",
+  "timestamp": "2026-11-05T18:25:26.231481+00:00",
+  "status": "passed_parent_independent_content_audit",
+  "eligible_for_parent_acceptance": true,
+  "reviewer": "Parent coordinator independent of course10 author; separate builder subagent audit also reviewed.",
+  "scope": "Read all actual lessons and full capstone/key/rubric, teacher guide, map, glossary, sources and prior audit. Fresh arithmetic authored independently without importing builder scripts. Source hashes and M07/M19/scale uniqueness bodies checked.",
+  "manual_read_inventory": [
+    "lesson-01.md",
+    "lesson-02.md",
+    "lesson-03.md",
+    "lesson-04.md",
+    "lesson-05.md",
+    "lesson-06.md",
+    "course.md",
+    "capstone.md",
+    "teacher-guide.md",
+    "course-map.md",
+    "terminology.md",
+    "sources.md",
+    "independent-audit.json"
+  ],
+  "manifest_sha256": "fc374b6b2d12a4c432f16bbca874a0e5f41686318a4424d6fb66be8c6f5d1b10",
+  "audited_files": {
+    "lesson-01.md": "042e873c049e62f49c9f587d065eae9ca1a653138ef9c333a18ed04d8fa33561",
+    "lesson-02.md": "6dadc99b99c4ba5d31c2c0a5a68bd7166140fdc25cd8c48a3a40943cd412c3ec",
+    "lesson-03.md": "281a51315031676aa8d61aeeb2061a38c9722f883975c2579d7234f5ea092d60",
+    "lesson-04.md": "fb8ac5542ba49b5b370ab841b895e834124a7519c6a639c87ad68c1c213e91ff",
+    "lesson-05.md": "78eea44b105f8397ce9e5f10b4fbab142113d004795cfc28159409eaa1869cf1",
+    "lesson-06.md": "b2491923d1a6c83d4840991fbcf00d5bd800029212f85e0d488eb471414a4670",
+    "course.md": "7635d29c0ce7b99981dc194dece148acafdd513729a1ed5e3c9f4e73c2dfe73f",
+    "capstone.md": "7351fbf24aa7ebae2912be82e45885dd8b1b237839760052597967074129d87a",
+    "teacher-guide.md": "f72b575ea3415f000d0d8ce9851f471b7e5b34c3032d6f8f4070222b9beebc64",
+    "course-map.md": "8f7f118cf1b9ca94a7261ef9dfcb2b20034c4fbefc9a49c762c2f4d647a6b5f1",
+    "terminology.md": "248d5eb0abc8664e1053677ff5dac22b0cfd5303437e59f469723633884aa775",
+    "sources.md": "fa2f8c2b773d0bcfde20b42c3f9da14e67894a9c35f5b00bacc4afad36f149da",
+    "independent-audit.json": "a9d18bdf0d88034db20c0d6ab2a64557fa0033d85df73728f3d15e57960dd144",
+    "input-contract.json": "98537e1ee1dcad68ac0d5dccfdd71cf9f8f4e0d248104c8c28f69ab384215341",
+    "verification.json": "0c713116c081dbc0011f08da3e8bbfda7db82b5ea9d65bb4007378582824ba39",
+    "manifest.json": "fc374b6b2d12a4c432f16bbca874a0e5f41686318a4424d6fb66be8c6f5d1b10",
+    "completion_report.json": "1b72ec2af6ba6b8975f90ad0ab94fc632b61654c00e1d3572b9312f8ba270571",
+    "audit_report.json": "1d96a12bc2830e20391830722cb51400a9e19457935e54112486a803c1189e76"
+  },
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "findings": [],
+  "lesson_reviews": [
+    {
+      "lesson_id": "lesson-01",
+      "result": "pass",
+      "evidence": "Logs are dimensionless ratios to one A0, domains positive; scaling and changing reference are distinguished and inverted in actual practice."
+    },
+    {
+      "lesson_id": "lesson-02",
+      "result": "pass",
+      "evidence": "Mean and normalized scale differ by sqrt3. Exact projections and reconstruction explained; common scale retained, area-shape scope excludes arbitrary shear."
+    },
+    {
+      "lesson_id": "lesson-03",
+      "result": "pass",
+      "evidence": "H inverse derived before source matrix. Polynomial tangent definition and signed finite/log remainders taught and practiced; exact expressions retained."
+    },
+    {
+      "lesson_id": "lesson-04",
+      "result": "pass",
+      "evidence": "J rows derived from fixed-angle area logs and named M19 scalar branch. Inverse, determinant12 and input/output order correct. Repaired finite/tangent wording is explicit."
+    },
+    {
+      "lesson_id": "lesson-05",
+      "result": "pass",
+      "evidence": "Metric/cofactor/reciprocal units correct; synthetic positive box explicitly separate from negative-handed Cell3. Same-parity branch decoder and positive area anchor have separate answered prior practices."
+    },
+    {
+      "lesson_id": "lesson-06",
+      "result": "pass",
+      "evidence": "Separate synthetic datasets are not merged into inconsistent geometry. Full reconstruction, metadata and distinction between inverse residual and finite remainder practiced before capstone."
+    }
+  ],
+  "actual_capstone_practice_links": [
+    {
+      "step_id": "C10-CAP-01",
+      "introduction": "lesson-01",
+      "worked_example_id": "C10.01-W1",
+      "prior_practice_id": "C10.01-P1",
+      "diagnostic_id": "C10.01-D1",
+      "result": "pass_actual_answered_practice",
+      "evidence": "Logs are dimensionless ratios to one A0, domains positive; scaling and changing reference are distinguished and inverted in actual practice."
+    },
+    {
+      "step_id": "C10-CAP-02",
+      "introduction": "lesson-02",
+      "worked_example_id": "C10.02-W1",
+      "prior_practice_id": "C10.02-P1",
+      "diagnostic_id": "C10.02-D1",
+      "result": "pass_actual_answered_practice",
+      "evidence": "Mean and normalized scale differ by sqrt3. Exact projections and reconstruction explained; common scale retained, area-shape scope excludes arbitrary shear."
+    },
+    {
+      "step_id": "C10-CAP-03",
+      "introduction": "lesson-03",
+      "worked_example_id": "C10.03-W1",
+      "prior_practice_id": "C10.03-P1",
+      "diagnostic_id": "C10.03-D1",
+      "result": "pass_actual_answered_practice",
+      "evidence": "H inverse derived before source matrix. Polynomial tangent definition and signed finite/log remainders taught and practiced; exact expressions retained."
+    },
+    {
+      "step_id": "C10-CAP-04",
+      "introduction": "lesson-04",
+      "worked_example_id": "C10.04-W1",
+      "prior_practice_id": "C10.04-P1",
+      "diagnostic_id": "C10.04-D1",
+      "result": "pass_actual_answered_practice",
+      "evidence": "J rows derived from fixed-angle area logs and named M19 scalar branch. Inverse, determinant12 and input/output order correct. Repaired finite/tangent wording is explicit."
+    },
+    {
+      "step_id": "C10-CAP-05",
+      "introduction": "lesson-05",
+      "worked_example_id": "C10.05-W1",
+      "prior_practice_id": "C10.05-P1",
+      "diagnostic_id": "C10.05-D1",
+      "result": "pass_actual_answered_practice",
+      "evidence": "Metric/cofactor/reciprocal units correct; synthetic positive box explicitly separate from negative-handed Cell3. Same-parity branch decoder and positive area anchor have separate answered prior practices."
+    },
+    {
+      "step_id": "C10-CAP-06",
+      "introduction": "lesson-06",
+      "worked_example_id": "C10.06-W1",
+      "prior_practice_id": "C10.06-P1",
+      "diagnostic_id": "C10.06-D1",
+      "result": "pass_actual_answered_practice",
+      "evidence": "Separate synthetic datasets are not merged into inconsistent geometry. Full reconstruction, metadata and distinction between inverse residual and finite remainder practiced before capstone."
+    }
+  ],
+  "senior_accessibility": "11 core55-minute periods plus2capstone; logarithms, projection, rows/elimination, tangent and diagonal geometry locally taught. Area anchor receives third Lesson5 period. Symbolic exact expressions accepted. All actual capstone operations are practiced.",
+  "independent_recomputation": {
+    "script": "Z:\\Kfield-doc-training\\.work\\audit_course10_parent.py",
+    "script_sha256": "1943906d5c528e14764f1357142d988c9643ab4fc6fbc595c6e13cb7b2279610",
+    "passed_checks": 84,
+    "checks": [
+      "hash_S01",
+      "hash_S02",
+      "hash_S03",
+      "hash_S04",
+      "hash_S05",
+      "M07_source_identity",
+      "source_global_gap",
+      "Jack_both_inverse_products",
+      "Jack_det_12",
+      "worked_Jack_forward",
+      "worked_Jack_inverse",
+      "worked_Jack_area_derivation",
+      "practice_Jack_forward",
+      "practice_Jack_inverse",
+      "practice_Jack_area_derivation",
+      "orthogonal_basis_0_0",
+      "orthogonal_basis_0_1",
+      "orthogonal_basis_0_2",
+      "orthogonal_basis_1_0",
+      "orthogonal_basis_1_1",
+      "orthogonal_basis_1_2",
+      "orthogonal_basis_2_0",
+      "orthogonal_basis_2_1",
+      "orthogonal_basis_2_2",
+      "[0, 2, 3]_projection_exact",
+      "[0, 2, 3]_mean_detail",
+      "[0, 2, 3]_common_shift_-2",
+      "[0, 2, 3]_common_shift_2",
+      "[1, 2, 4]_projection_exact",
+      "[1, 2, 4]_mean_detail",
+      "[1, 2, 4]_common_shift_-2",
+      "[1, 2, 4]_common_shift_2",
+      "H_inverse_[2, 1]",
+      "H_inverse_[1, -2]",
+      "H_inverse_[3, 2]",
+      "product_exact_remainder",
+      "square_exact_remainder",
+      "half_t_remainder",
+      "signed_log_remainder",
+      "metric_[1, 2, 3]",
+      "cofactor_[1, 2, 3]",
+      "reciprocal_[1, 2, 3]",
+      "metric_[2, 2, 2]",
+      "cofactor_[2, 2, 2]",
+      "reciprocal_[2, 2, 2]",
+      "positive_anchor_[6, 8, 12]",
+      "full_area_reconstruction_[6, 8, 12]",
+      "positive_anchor_[9, 18, 18]",
+      "full_area_reconstruction_[9, 18, 18]",
+      "branch_(2, -2)",
+      "branch_(4, 2)",
+      "branch_reject_(3, 0)",
+      "branch_reject_(3, 2)",
+      "actual_anchor_1_E1",
+      "actual_anchor_1_W1",
+      "actual_anchor_1_P1",
+      "actual_anchor_1_D1",
+      "actual_anchor_2_E1",
+      "actual_anchor_2_W1",
+      "actual_anchor_2_P1",
+      "actual_anchor_2_D1",
+      "actual_anchor_3_E1",
+      "actual_anchor_3_W1",
+      "actual_anchor_3_P1",
+      "actual_anchor_3_D1",
+      "actual_anchor_4_E1",
+      "actual_anchor_4_W1",
+      "actual_anchor_4_P1",
+      "actual_anchor_4_D1",
+      "actual_anchor_5_E1",
+      "actual_anchor_5_W1",
+      "actual_anchor_5_P1",
+      "actual_anchor_5_D1",
+      "actual_anchor_6_E1",
+      "actual_anchor_6_W1",
+      "actual_anchor_6_P1",
+      "actual_anchor_6_D1",
+      "anchor_extra_E2",
+      "anchor_extra_W2",
+      "anchor_extra_P2",
+      "anchor_extra_D2",
+      "pacing",
+      "capstone_points",
+      "fresh_project_validator"
+    ],
+    "projection_records": [
+      {
+        "log_coefficients_in_ln2": [
+          0,
+          2,
+          3
+        ],
+        "mean_coefficient": "5/3",
+        "zero_sum_coefficients": [
+          "-5/3",
+          "1/3",
+          "4/3"
+        ],
+        "projection_numerators": [
+          5,
+          2,
+          4
+        ],
+        "denominator_squared": [
+          3,
+          2,
+          6
+        ]
+      },
+      {
+        "log_coefficients_in_ln2": [
+          1,
+          2,
+          4
+        ],
+        "mean_coefficient": "7/3",
+        "zero_sum_coefficients": [
+          "-4/3",
+          "-1/3",
+          "5/3"
+        ],
+        "projection_numerators": [
+          7,
+          1,
+          5
+        ],
+        "denominator_squared": [
+          3,
+          2,
+          6
+        ]
+      }
+    ],
+    "signed_log_remainder": {
+      "exact": "ln(11/10)-1/10",
+      "floating_value": -0.00468982019567514
+    },
+    "scope": "Finite arithmetic and independent source/domain/content review; builder116-check record inspected as separate evidence."
+  },
+  "integrity": {
+    "validator_checks": [
+      "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+      "parsed manifest.json",
+      "parsed audit_report.json",
+      "parsed completion_report.json",
+      "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+    ],
+    "validator_errors": [],
+    "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9"
+  },
+  "limitations": [
+    "No classroom trial or physical Gamma2 dynamics validation.",
+    "No fresh graph-generation attestation or complete source proof-DAG certification; AUD-002 preserved.",
+    "Builder authoring programs not reviewed as general software.",
+    "Log decimal checks are representation checks; exact expressions retained."
+  ]
+}

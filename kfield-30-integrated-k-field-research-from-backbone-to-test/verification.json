@@ -1,0 +1,257 @@
+{
+  "schema_version": "1.0",
+  "status": "passed",
+  "executed_utc": "2026-11-05T20:27:05.646969+00:00",
+  "runtime": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+  "method": "Exact fractions/decimals and integer elimination; original source hashes; independent substitutions and readback. No external empirical execution or Agda typecheck.",
+  "source_hashes": [
+    {
+      "id": "S01",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180"
+    },
+    {
+      "id": "S02",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3"
+    },
+    {
+      "id": "S03",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e"
+    },
+    {
+      "id": "S04",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+      "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2"
+    },
+    {
+      "id": "S05",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+      "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7"
+    }
+  ],
+  "checks": [
+    {
+      "id": "S01-sha256",
+      "result": "passed",
+      "verification": "SHA-256 recomputed from original file bytes; no source copy."
+    },
+    {
+      "id": "S02-sha256",
+      "result": "passed",
+      "verification": "SHA-256 recomputed from original file bytes; no source copy."
+    },
+    {
+      "id": "S03-sha256",
+      "result": "passed",
+      "verification": "SHA-256 recomputed from original file bytes; no source copy."
+    },
+    {
+      "id": "S04-sha256",
+      "result": "passed",
+      "verification": "SHA-256 recomputed from original file bytes; no source copy."
+    },
+    {
+      "id": "S05-sha256",
+      "result": "passed",
+      "verification": "SHA-256 recomputed from original file bytes; no source copy."
+    },
+    {
+      "id": "M20-core",
+      "result": "passed",
+      "verification": "Exact requires list read from S02 /backbone_sequence/19; M19 excluded."
+    },
+    {
+      "id": "requires-edge-count",
+      "result": "passed",
+      "verification": "52 internal requires-derived edges, including 18 M20 incoming edges."
+    },
+    {
+      "id": "module-topology",
+      "result": "passed",
+      "verification": "All source requires-derived internal edges point forward in module order."
+    },
+    {
+      "id": "EG-six",
+      "result": "passed",
+      "verification": "All six source constitutive principles present."
+    },
+    {
+      "id": "stored-column-half",
+      "result": "passed",
+      "verification": "[Decimal('0.1637506210279453'), Decimal('-0.0274485039420032'), Decimal('-0.01874375144736495')] nm; exact operations on stored decimal strings, not new physical data."
+    },
+    {
+      "id": "cell-1/2",
+      "result": "passed",
+      "verification": "Half-open boundary owner and reconstruction checked using exact fractions."
+    },
+    {
+      "id": "cell--1/2",
+      "result": "passed",
+      "verification": "Half-open boundary owner and reconstruction checked using exact fractions."
+    },
+    {
+      "id": "mean-detail-2",
+      "result": "passed",
+      "verification": "m=4, h=-2; reconstruction (2,6)."
+    },
+    {
+      "id": "mean-detail-3",
+      "result": "passed",
+      "verification": "m=5, h=-2; reconstruction (3,7)."
+    },
+    {
+      "id": "rank-original",
+      "result": "passed",
+      "verification": "Exact elimination gives rank 1 and verifies null direction."
+    },
+    {
+      "id": "equal-output",
+      "result": "passed",
+      "verification": "Both candidates reconstruct the same two original channels."
+    },
+    {
+      "id": "rank-added",
+      "result": "passed",
+      "verification": "Exact elimination on three rows yields rank 2."
+    },
+    {
+      "id": "inverse-5",
+      "result": "passed",
+      "verification": "theta=[Fraction(2, 1), Fraction(3, 1)]; independent substitution succeeds."
+    },
+    {
+      "id": "inverse-4",
+      "result": "passed",
+      "verification": "theta=[Fraction(3, 1), Fraction(1, 1)]; independent substitution succeeds."
+    },
+    {
+      "id": "product-ambiguity",
+      "result": "passed",
+      "verification": "Two distinct gain/responsivity pairs have identical product."
+    },
+    {
+      "id": "two-bit-discrimination",
+      "result": "passed",
+      "verification": "Two-bit answer pairs distinct; one binary answer has only two outputs."
+    },
+    {
+      "id": "discriminator",
+      "result": "passed",
+      "verification": "A/B sum agrees and difference sign separates."
+    },
+    {
+      "id": "intervals",
+      "result": "passed",
+      "verification": "Toy +/-1/4 intervals disjoint and exclude zero."
+    },
+    {
+      "id": "residual-A-[3, 0]",
+      "result": "passed",
+      "verification": "r=[0, -1]; exact full-channel reconstruction."
+    },
+    {
+      "id": "residual-B-[3, 0]",
+      "result": "passed",
+      "verification": "r=[0, 1]; exact full-channel reconstruction."
+    },
+    {
+      "id": "residual-A-[4, 1]",
+      "result": "passed",
+      "verification": "r=[1, 0]; exact full-channel reconstruction."
+    },
+    {
+      "id": "residual-B-[4, 1]",
+      "result": "passed",
+      "verification": "r=[1, 2]; exact full-channel reconstruction."
+    },
+    {
+      "id": "diagnostic-residual",
+      "result": "passed",
+      "verification": "Lesson 6 diagnostic recomputed independently."
+    },
+    {
+      "id": "raw-kind-readback",
+      "result": "passed",
+      "verification": "Presence and raw types retained; absent b not emitted."
+    },
+    {
+      "id": "decoder-reconstruction",
+      "result": "passed",
+      "verification": "Exact fractions reconstruct every channel."
+    },
+    {
+      "id": "decoder-convention",
+      "result": "passed",
+      "verification": "Residual column dot products zero; normal equations independently substituted."
+    },
+    {
+      "id": "decoder-rank",
+      "result": "passed",
+      "verification": "Two independent coefficient coordinates; 3-2=1 retained residual dimension."
+    },
+    {
+      "id": "source-M17-rank",
+      "result": "passed",
+      "verification": "Exact elimination of source integer matrix gives rank 6, left-nullity 13-6=7; no occupation inference."
+    },
+    {
+      "id": "six-factors",
+      "result": "passed",
+      "verification": "Exact integer-pair complex multiplication gives 1; deleting heavy gives i."
+    },
+    {
+      "id": "geometry-transfer",
+      "result": "passed",
+      "verification": "Synthetic ruler phi=1; transfer predictions checked above; calibration remains proposed."
+    },
+    {
+      "id": "lesson-01-anchors",
+      "result": "passed",
+      "verification": "All four approved teaching anchors exist; semantic teaching review is separate."
+    },
+    {
+      "id": "lesson-02-anchors",
+      "result": "passed",
+      "verification": "All four approved teaching anchors exist; semantic teaching review is separate."
+    },
+    {
+      "id": "lesson-03-anchors",
+      "result": "passed",
+      "verification": "All four approved teaching anchors exist; semantic teaching review is separate."
+    },
+    {
+      "id": "lesson-04-anchors",
+      "result": "passed",
+      "verification": "All four approved teaching anchors exist; semantic teaching review is separate."
+    },
+    {
+      "id": "lesson-05-anchors",
+      "result": "passed",
+      "verification": "All four approved teaching anchors exist; semantic teaching review is separate."
+    },
+    {
+      "id": "lesson-06-anchors",
+      "result": "passed",
+      "verification": "All four approved teaching anchors exist; semantic teaching review is separate."
+    },
+    {
+      "id": "lesson-07-anchors",
+      "result": "passed",
+      "verification": "All four approved teaching anchors exist; semantic teaching review is separate."
+    },
+    {
+      "id": "lesson-08-anchors",
+      "result": "passed",
+      "verification": "All four approved teaching anchors exist; semantic teaching review is separate."
+    },
+    {
+      "id": "pacing",
+      "result": "passed",
+      "verification": "16 core plus 3 capstone periods =1045 minutes."
+    }
+  ],
+  "check_count": 44
+}

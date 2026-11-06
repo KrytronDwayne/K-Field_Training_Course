@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "runtime": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+  "method": "Exact Fraction arithmetic; finite enumerations independently computed from vector rules; symbolic general proofs in lessons",
+  "checks": [
+    "L01 W1 swap norm and sum",
+    "L01 P1 all 9 table entries and invariants on 125 signed triples plus symbolic argument in text",
+    "L01 D2-D4",
+    "L02 inverse, parity and transfer exhaustive on 121 pairs",
+    "L02 W1/P1/D2/D3",
+    "L03 six roots/Cartan",
+    "L03 reconstruction for 121 integer zero-sum triples",
+    "L03 W1/P1/D2",
+    "L03 D1/D3/D4",
+    "L03 drawing coordinates squared norms",
+    "L04 centering and sum",
+    "L04 class criterion and representative reconstruction for 225 coefficient pairs",
+    "L04 P1/D2/D3",
+    "L05 all 27 distinct next-level lifts reduce correctly",
+    "L05 W1/P1/D2/D3",
+    "L06 roots, orbit, diagnostic",
+    "L06 dot-product on spanning basis and doubling intertwiner; counterexample identity action T(a1)!=a1",
+    "L06 false identity intertwiner rejected"
+  ],
+  "source_copies_created": false
+}

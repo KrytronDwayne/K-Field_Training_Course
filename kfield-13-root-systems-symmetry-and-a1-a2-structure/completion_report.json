@@ -1,0 +1,72 @@
+{
+  "status": "complete",
+  "topic": "Root Systems, Symmetry, and A1–A2 Structure",
+  "audience": "High-school seniors; first-principles teaching, with concrete prerequisite capabilities and taught bridges.",
+  "assumptions": [
+    "A topical short course, not a semester per topic. Pacing is 55-minute core lessons plus capstone periods; split dense lessons if actual learner load requires it.",
+    "No prior calculus, abstract algebra, university linear algebra, or quantum mechanics unless explicitly taught earlier.",
+    "Required core assessments must be solvable with taught finite examples. Clearly label deeper recognition-only extensions.",
+    "Markdown is the delivery format; no PDF or Word generation is required."
+  ],
+  "outputs": [
+    "input-contract.json",
+    "source-verification.json",
+    "sources.md",
+    "course-map.md",
+    "lesson-01.md",
+    "lesson-02.md",
+    "lesson-03.md",
+    "lesson-04.md",
+    "lesson-05.md",
+    "lesson-06.md",
+    "terminology.md",
+    "teacher-guide.md",
+    "capstone.md",
+    "verify_examples.py",
+    "worked-example-verification.json",
+    "author_course.py",
+    "finalize_course.py",
+    "seal_course.py",
+    "course.md",
+    "audit_report.json",
+    "completion_report.json"
+  ],
+  "audit_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "hashes": {
+    "input-contract.json": "ed4ddff9f6772fcd23a62cf48880a4fd408536012283c2334e4773ecbe4a4d98",
+    "source-verification.json": "30e837b1414719a9c3d40d208f318e13bd40209fe1fa0fcee23cd14648d178bf",
+    "sources.md": "d159010fc0aad27e5b0bc43cb66c0a995af7f16b7c05a55ed257f29f8e55e2aa",
+    "course-map.md": "6fabfaafe284086e9d1f0a46c224b34da704b34bf9fe7cd6f74ace8394c135e2",
+    "lesson-01.md": "11023bdbdbdcae6634c5dabd047e9416e2265230ec8d591d52c519ff1fbe5a8d",
+    "lesson-02.md": "aba8e08635799f0b8d9001739756e7050bd283091dfa1cc3e44702ecaec989a1",
+    "lesson-03.md": "b4fa029e8810e8372356c0409e4d67e78d241c62926b2c4218b6a433a96c2568",
+    "lesson-04.md": "0159938bbc1c82c07b84daa3c4bd7654b0c83b285f143c13bff69f5b7d97436a",
+    "lesson-05.md": "f936dc183edd5031e98477753a3cbb753d6a0745c50acd93a62bd9dde6a64329",
+    "lesson-06.md": "49cb19732950d676f0778a0ccaa8d5ad3c5d6aa9fbb4ed569c1e3402c5545b5d",
+    "terminology.md": "671e0d97b2d98bab08aaec45284618aa2b4bb36d15da027d5462321436f4bac4",
+    "teacher-guide.md": "3f4a25410e2fe9ad12c57397887cc75bd78ec60b0157d720e5e42c35b1fd29a7",
+    "capstone.md": "f6c2f570586d6a284678652cd5a24b0aece4809a86c100f52609d24ca74b5dac",
+    "verify_examples.py": "f0a4efc97aef94d0d44ba3a3b83f311b1f9955a7b3c205870d12739e7661674b",
+    "worked-example-verification.json": "cc2438acb3d7bdaa156b8ba84bcfc7e4f6a3b3369aa7f528ae3af94a759f76a3",
+    "author_course.py": "43e26ca2a42638e3b079eb5b7514856b701bb489ff86652c69884de328e8bed2",
+    "finalize_course.py": "a82dbd90c98c43929fd890bd795f77f8848a08c88f13171d967cf1415168199c",
+    "seal_course.py": "348311b172c692731ebd5dd086a552fe87a8292cbdd37a22db3c5b94b631abb1",
+    "course.md": "57c62850ec9f24f09bf8ab284464896c5ca9ed544df463b59a819883db5ba6ad",
+    "audit_report.json": "ce1c8bc9b15470927eeb649e77e8106d75737a9ce921f5db1a26b7c2081c81f5",
+    "manifest.json": "f116d7b461bfd71dd8e2d69f3df9c02edd7bce41ffe54e824dfc0f9d03c2f398"
+  },
+  "lesson_count": 6,
+  "core_periods": 9,
+  "capstone_periods": 2,
+  "source_gaps": "None for finite core. Full compiler execution, physical identification, and integration local-byte reauthentication are outside the verified scope and not assessed.",
+  "validator": {
+    "status": "passed",
+    "exit_code": 0,
+    "result_file": "validator-result.json",
+    "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9"
+  }
+}

@@ -1,0 +1,51 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Lesson 2 — Why half-open cells have one owner · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/4">Course 04</a><span>/</span><span>lesson 02</span></div><a class="original" href="../../../kfield-04-affine-cells-reciprocal-planes-and-unique-addresses/lesson-02.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#lesson-2-why-half-open-cells-have-one-owner">Lesson 2 — Why half-open cells have one owner</a><a href="#c0402-e1-a-number-line-rule-with-no-gaps">C04.02-E1 — A number-line rule with no gaps</a><a href="#c0402-w1-three-exact-boundaries">C04.02-W1 — Three exact boundaries</a><a href="#c0402-p1-negative-and-near-boundary-addresses">C04.02-P1 — Negative and near-boundary addresses</a><a href="#diagnostic-checks">Diagnostic checks</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 1 — Address coordinates and physical points</a><a aria-current=page href="lesson-02.html">Lesson 2 — Why half-open cells have one owner</a><a  href="lesson-03.html">Lesson 3 — Reciprocal vectors as plane counters</a><a  href="lesson-04.html">Lesson 4 — Plane normals and physical spacing</a><a  href="lesson-05.html">Lesson 5 — Metric angles versus address angles</a><a  href="lesson-06.html">Lesson 6 — Reconstruction and boundary checks</a></details></aside><div class="reading-column"><article class="prose"><h1 id="lesson-2-why-half-open-cells-have-one-owner" tabindex="-1">Lesson 2 — Why half-open cells have one owner</h1>
+<p><strong>Essential question:</strong> How can every boundary point belong to exactly one cell?</p>
+<p><strong>Goals:</strong> Read half-open intervals; assign integer owners using floor, including negative addresses; reconstruct an address from its owner and local coordinate.</p>
+<p><strong>Bridge:</strong> Lesson 1 assigns exactly one dimensionless address q to each physical point. We now organize addresses into cells. Keep B and O unchanged; this lesson changes the description of q, not the point.</p>
+<h2 id="c0402-e1-a-number-line-rule-with-no-gaps" tabindex="-1">C04.02-E1 — A number-line rule with no gaps</h2>
+<p>An interval is a range of numbers. A square bracket includes its endpoint; a round bracket excludes it. Thus [-1/2,1/2) includes -1/2 and all numbers up to, but not including, 1/2. The cell centered at integer k uses [k-1/2,k+1/2). The right endpoint of one interval is the included left endpoint of the next:</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Owner k</th>
+<th>Included range</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>-1</td>
+<td>[-3/2,-1/2)</td>
+</tr>
+<tr>
+<td>0</td>
+<td>[-1/2,1/2)</td>
+</tr>
+<tr>
+<td>1</td>
+<td>[1/2,3/2)</td>
+</tr>
+</tbody>
+</table></div>
+<p>The <strong>floor</strong> of a real number t, written floor(t), is the greatest integer less than or equal to t. It is a move toward the left on the number line, not a deletion of decimal digits: floor(-1.2)=-2, while floor(1.2)=1.</p>
+<p>For one address entry define z=floor(q+1/2). The defining floor inequality says z≤q+1/2&lt;z+1. Subtract z+1/2 from every part to obtain -1/2≤q-z&lt;1/2. Set u=q-z. We have <strong>q=z+u</strong>, with integer owner z and retained local coordinate u in [-1/2,1/2).</p>
+<p>Why is z unique? The intervals above touch only at an endpoint, and only the interval on its right includes that point. Every number lies in one interval, never two. In three dimensions do this independently in each entry. The notation [-1/2,1/2)^3 means all triples whose three entries lie in that interval. It is a product of three ranges, not the cube of a number.</p>
+<p>The physical cell owned by integer triple z consists of points O+B(z+u) with u in that product. Since B has a unique inverse, different address descriptions cannot secretly represent one physical point. Therefore the address partition gives unique physical ownership too.</p>
+<h2 id="c0402-w1-three-exact-boundaries" tabindex="-1">C04.02-W1 — Three exact boundaries</h2>
+<p>For q=(1/2,-1/2,3/2), first add 1/2 to each entry: (1,0,2). Applying floor gives <strong>z=(1,0,2)</strong>. Subtract componentwise: <strong>u=(-1/2,-1/2,-1/2)</strong>. Every local entry is allowed because the lower endpoint is included. Adding z+u returns the original q exactly.</p>
+<p>A local +1/2 would be excluded. It must instead be represented as -1/2 in the next positive-index cell. This is true even when the global address is negative.</p>
+<h2 id="c0402-p1-negative-and-near-boundary-addresses" tabindex="-1">C04.02-P1 — Negative and near-boundary addresses</h2>
+<p>Find z and u for q=(-3/2,49/100,51/100). Check the range of all three local entries, then add them back.</p>
+<p><strong>Worked answer:</strong> q+(1/2,1/2,1/2)=(-1,99/100,101/100), whose floors are (-1,0,1). Subtracting gives u=(-1/2,49/100,-49/100). The second entry stays just below the upper boundary; the third moves into the neighboring cell. The sum (-1,0,1)+(-1/2,49/100,-49/100) recovers all entries of q.</p>
+<blockquote>
+<p><strong>Claim scope:</strong> This is an exact mathematical partition convention, adopted for Cell3 in S02 <code>/backbone_sequence/1</code>. It is not a claim that a measured point has infinite precision. It is also separate from a generic nearest-integer rounding rule. If nearest-integer rounding is needed elsewhere, its half-tie rule must be declared. Here floor(q+1/2) assigns half ties toward the larger integer and gives the local interval [-1/2,1/2). A library's ties-to-even rounding may disagree and cannot replace the ownership operation.</p>
+</blockquote>
+<h2 id="diagnostic-checks" tabindex="-1">Diagnostic checks</h2>
+<ol>
+<li><strong>C04.02-D1:</strong> Compare owners of 499/1000 and 1/2. Why must you not round the first before assignment?</li>
+<li>Find floor(-7/5), then the owner and local coordinate of q=-7/5.</li>
+<li>Is z=0,u=1/2 a valid representation of q=1/2 under this rule? Repair it.</li>
+<li>Does retaining only z allow reconstruction? Give two different addresses with owner zero.</li>
+</ol>
+<p><strong>Worked answers:</strong> (1) floor(999/1000)=0, but floor(1)=1. Rounding erases which side of the boundary the input occupies. (2) floor(-1.4)=-2; ownership uses floor(-1.4+0.5)=floor(-0.9)=-1. Thus u=-7/5+1=-2/5. (3) No: the local upper endpoint is excluded. Use z=1,u=-1/2. (4) No. q=0 and q=1/4 both have owner zero but different u. Retaining u is essential information.</p>
+<p><strong>Pacing:</strong> 20 minutes explanation/worked example, 15 practice, 15 diagnostics and feedback, 5 transition.</p>
+<p><strong>Next dependency:</strong> <a href="lesson-03.html">Lesson 3</a> constructs physical vectors that read address entries and label parallel planes.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><a class="button secondary" href="lesson-01.html">← Previous lesson</a><a class="button" href="lesson-03.html">Next lesson →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/4">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

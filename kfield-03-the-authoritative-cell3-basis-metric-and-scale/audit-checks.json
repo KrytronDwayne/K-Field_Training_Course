@@ -1,0 +1,74 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "check": "lesson_contract",
+      "file": "lesson-01.md",
+      "result": "passed",
+      "scope": "Structural presence; content reviewed separately in audit report"
+    },
+    {
+      "check": "lesson_contract",
+      "file": "lesson-02.md",
+      "result": "passed",
+      "scope": "Structural presence; content reviewed separately in audit report"
+    },
+    {
+      "check": "lesson_contract",
+      "file": "lesson-03.md",
+      "result": "passed",
+      "scope": "Structural presence; content reviewed separately in audit report"
+    },
+    {
+      "check": "lesson_contract",
+      "file": "lesson-04.md",
+      "result": "passed",
+      "scope": "Structural presence; content reviewed separately in audit report"
+    },
+    {
+      "check": "lesson_contract",
+      "file": "lesson-05.md",
+      "result": "passed",
+      "scope": "Structural presence; content reviewed separately in audit report"
+    },
+    {
+      "check": "lesson_contract",
+      "file": "lesson-06.md",
+      "result": "passed",
+      "scope": "Structural presence; content reviewed separately in audit report"
+    },
+    {
+      "check": "source_card_exact_lexemes",
+      "result": "passed",
+      "scope": "All displayed matrices and scalar fields compared with hash-verified S02"
+    },
+    {
+      "check": "local_links_and_glossary_table",
+      "result": "passed",
+      "files": [
+        "course-map.md",
+        "lesson-01.md",
+        "lesson-02.md",
+        "lesson-03.md",
+        "lesson-04.md",
+        "lesson-05.md",
+        "lesson-06.md",
+        "terminology.md",
+        "teacher-guide.md",
+        "capstone.md",
+        "sources.md",
+        "geometry-card.md",
+        "course.md"
+      ]
+    }
+  ],
+  "verification_record_sha256": "4099a1d5f2155ee592f2342f373ee44b8320edc372fc1650f35d8afa14ae471f",
+  "lesson_hashes": {
+    "lesson-01.md": "de89d8f162ec7d02ed33cc9f7c704e60a84417161ed749824410976f4a2c540c",
+    "lesson-02.md": "ea57b83e3a1146243133858bf6ac86f3879a2686fe69c79a70d092d00e207ee7",
+    "lesson-03.md": "da4ab0961108bac3d544b9e37b71f0777f9d479cdf9b5d12703faf442ce1bd58",
+    "lesson-04.md": "d4f30ac9f9d34cc666afbef8e4707b94ecd3b3a4834d81b43acaccd042d585b2",
+    "lesson-05.md": "b43d026b7c0ed540f099adbd9fe8a5d75dc7194d6c33bd695d017c6ad22725c4",
+    "lesson-06.md": "8c1b32730b62d8de3d2cd27bb128ad911b30bb8d9484aedbf742131239537587"
+  }
+}

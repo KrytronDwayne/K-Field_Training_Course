@@ -1,0 +1,274 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-17",
+  "timestamp": "2026-11-05T19:10:44.822616+00:00",
+  "status": "passed_parent_independent_content_audit",
+  "eligible_for_parent_acceptance": true,
+  "reviewer": "Parent independent of course author; full actual lessons and capstone reading plus fresh independent arithmetic. Builder subagent audit is additional corroboration, not relabeled as parent work.",
+  "scope": "All eight actual lessons, final capstone/key/rubric, guide, map, glossary, source notes and audit reports read. Final lesson/support hashes compared with reading record; repaired compact-group wording directly reread. Exact S02 M13/Hodge theorem, S01 historical definitions, S04 Hodge correction and S03 AUD009 read.",
+  "manual_read_inventory": [
+    "lesson-01.md",
+    "lesson-02.md",
+    "lesson-03.md",
+    "lesson-04.md",
+    "lesson-05.md",
+    "lesson-06.md",
+    "lesson-07.md",
+    "lesson-08.md",
+    "capstone.md",
+    "teacher-guide.md",
+    "course-map.md",
+    "terminology.md",
+    "sources.md",
+    "audit_report.json",
+    "independent-lesson-audit.json",
+    "independent-capstone-audit.json"
+  ],
+  "manifest_sha256": "18a3c9ce6ae01e288bcbf284aa62fabbef66dd61a14a4c9fa5cd41798017076c",
+  "audited_files": {
+    "lesson-01.md": "c19f147ba167f1d252d2936d14c46a70a75e39836de6474539b6c771676db03f",
+    "lesson-02.md": "f25acfbbe065c1a4640a591f8c96bc901dadde2c4e2e8e0ed2ccbbb49bb255c0",
+    "lesson-03.md": "d93bc941b1e4600198c4e1034a8ab76342f56b2612101359cc368ecbf1e832b8",
+    "lesson-04.md": "f9be4364f0fb7b790b17af615c819ac25d59466613feee30a88ae46623b5d61f",
+    "lesson-05.md": "aa9b6edc4b6bcfad690fdadf71ce234575a6ed4e094bc3ddf34ec836137f3240",
+    "lesson-06.md": "725d08e1e467c4048890eec6c91845f09a928d1cd57f18a7d30923fc8e06dd70",
+    "lesson-07.md": "ad6f33655f99977b6f2c4aada5575c7f44f63327109663b7c79489ae800192f3",
+    "lesson-08.md": "49cba659e4f1a1b478dcbfc098a46011898f34686de948fd88586be1d2df8cfe",
+    "capstone.md": "072700cebbe9c6f8e913769f9407dc313a0ef411d5d5bd8cdd2e94d1234d9056",
+    "teacher-guide.md": "489d512f509ac8d9ca520e0103c9f55fd5c1059358bb77a42660ee39b2f12af8",
+    "course-map.md": "bf98889ed35021fa6f74317922a6b29b7e9c333069f7efa48b0c80e11a7585fb",
+    "terminology.md": "0f7480cab427ab603135ec3d697beb28646f51940ee3cd842df8960cc04fd1b2",
+    "sources.md": "6c46f9fa1d77ba0780f75a17a9ba9e5e9c3dbaa3474d172f5ab7850b30f34038",
+    "audit_report.json": "362aa65ce9483f918a587d174407e63ceeb97b5cd1101639e30665bffa296231",
+    "independent-lesson-audit.json": "a98511c1bf27bbc4e84095fd9f11cce8e2174d36d9ba2ed8291f89fb0c7d5ee3",
+    "independent-capstone-audit.json": "7ca3f13eb4cf7a6e56b4e275096e950c820f194b9e8dc3942db66759bacdfbfb",
+    "input-contract.json": "a9beac8d72ef4a7886a6eadee955090082e31d762027a75e8a9a694ae386baa2",
+    "manifest.json": "18a3c9ce6ae01e288bcbf284aa62fabbef66dd61a14a4c9fa5cd41798017076c",
+    "completion_report.json": "592a490c57e0a4090ed6976b0a0bfc4fe6291ce7d5df30c1eb6846c0b8cbb9c6",
+    "course.md": "de1fa6c859c2c01451fe72418e93011d75153cada347b806abc3de186b8cb115",
+    "worked-example-verification.json": "6ac2bdb0ed0cbb809dc07de06d35aabbb04796490ecf22f905b92bf444a857d9"
+  },
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "findings": [],
+  "verified_repairs": [
+    "Q_L and normalized Q_L/N taught and assessed separately",
+    "Compact-group source domain retained in final capstone answer"
+  ],
+  "lesson_reviews": [
+    {
+      "lesson_id": "lesson-01",
+      "result": "pass",
+      "evidence": "Complex components, adjoint versus transpose, link direction and full inverse recovery explicitly taught; scalar and diagonal examples correct."
+    },
+    {
+      "lesson_id": "lesson-02",
+      "result": "pass",
+      "evidence": "Covariant difference, ordered cancellation and transformed-link arithmetic correct; full difference and endpoint data retained for reconstruction."
+    },
+    {
+      "lesson_id": "lesson-03",
+      "result": "pass",
+      "evidence": "Ordered path 0to2to1to0 matches U01 U12 U20. XZ versus ZX, basepoint conjugation and inverse path separated; full input frame change acknowledged."
+    },
+    {
+      "lesson_id": "lesson-04",
+      "result": "pass",
+      "evidence": "Trace cyclic rule derived without arbitrary matrix commutation. Scalar versus matrix identity size and action units explicit; equal action does not erase matrix entries."
+    },
+    {
+      "lesson_id": "lesson-05",
+      "result": "pass",
+      "evidence": "Cayley proof uses real time, self-adjoint L and invertible denominator. Adjoint reverses factor order; commuting factors permit exact inverse. Non-selfadjoint scalar counterexample gives C3 and norm factor9."
+    },
+    {
+      "lesson_id": "lesson-06",
+      "result": "pass",
+      "evidence": "Correct mature Hodge exponents, bivector pair order, synthetic J, determinants, duality, scaling and units taught. Historical exponents and missing archival J basis remain separately labeled."
+    },
+    {
+      "lesson_id": "lesson-07",
+      "result": "pass",
+      "evidence": "Exact four bounds retain strict/non-strict inequalities and energy scale; replay fields explicitly missing. Synthetic min example is normalized and not substituted for source certificate."
+    },
+    {
+      "lesson_id": "lesson-08",
+      "result": "pass",
+      "evidence": "Unnormalized quadratic value9 and expectation9/5 distinguished. Norm and L conservation proof correct; residual and phases retained. Thermal three-term sum97/1024 leaves the full tail unspecified."
+    }
+  ],
+  "actual_capstone_practice_links": [
+    {
+      "step_id": "C17-CAP-01",
+      "worked_example_id": "C17.01-W1",
+      "prior_practice_id": "C17.01-P1",
+      "diagnostic_id": "C17.01-D1",
+      "result": "pass_actual_answered_practice",
+      "evidence": "Complex components, adjoint versus transpose, link direction and full inverse recovery explicitly taught; scalar and diagonal examples correct."
+    },
+    {
+      "step_id": "C17-CAP-02",
+      "worked_example_id": "C17.02-W1",
+      "prior_practice_id": "C17.02-P1",
+      "diagnostic_id": "C17.02-D1",
+      "result": "pass_actual_answered_practice",
+      "evidence": "Covariant difference, ordered cancellation and transformed-link arithmetic correct; full difference and endpoint data retained for reconstruction."
+    },
+    {
+      "step_id": "C17-CAP-03",
+      "worked_example_id": "C17.03-W1",
+      "prior_practice_id": "C17.03-P1",
+      "diagnostic_id": "C17.03-D1",
+      "result": "pass_actual_answered_practice",
+      "evidence": "Ordered path 0to2to1to0 matches U01 U12 U20. XZ versus ZX, basepoint conjugation and inverse path separated; full input frame change acknowledged."
+    },
+    {
+      "step_id": "C17-CAP-04",
+      "worked_example_id": "C17.04-W1",
+      "prior_practice_id": "C17.04-P1",
+      "diagnostic_id": "C17.04-D1",
+      "result": "pass_actual_answered_practice",
+      "evidence": "Trace cyclic rule derived without arbitrary matrix commutation. Scalar versus matrix identity size and action units explicit; equal action does not erase matrix entries."
+    },
+    {
+      "step_id": "C17-CAP-05",
+      "worked_example_id": "C17.05-W1",
+      "prior_practice_id": "C17.05-P1",
+      "diagnostic_id": "C17.05-D1",
+      "result": "pass_actual_answered_practice",
+      "evidence": "Cayley proof uses real time, self-adjoint L and invertible denominator. Adjoint reverses factor order; commuting factors permit exact inverse. Non-selfadjoint scalar counterexample gives C3 and norm factor9."
+    },
+    {
+      "step_id": "C17-CAP-06",
+      "worked_example_id": "C17.06-W1",
+      "prior_practice_id": "C17.06-P1",
+      "diagnostic_id": "C17.06-D1",
+      "result": "pass_actual_answered_practice",
+      "evidence": "Correct mature Hodge exponents, bivector pair order, synthetic J, determinants, duality, scaling and units taught. Historical exponents and missing archival J basis remain separately labeled."
+    },
+    {
+      "step_id": "C17-CAP-07",
+      "worked_example_id": "C17.07-W1",
+      "prior_practice_id": "C17.07-P1",
+      "diagnostic_id": "C17.07-D1",
+      "result": "pass_actual_answered_practice",
+      "evidence": "Exact four bounds retain strict/non-strict inequalities and energy scale; replay fields explicitly missing. Synthetic min example is normalized and not substituted for source certificate."
+    },
+    {
+      "step_id": "C17-CAP-08",
+      "worked_example_id": "C17.08-W1",
+      "prior_practice_id": "C17.08-P1",
+      "diagnostic_id": "C17.08-D1",
+      "result": "pass_actual_answered_practice",
+      "evidence": "Unnormalized quadratic value9 and expectation9/5 distinguished. Norm and L conservation proof correct; residual and phases retained. Thermal three-term sum97/1024 leaves the full tail unspecified."
+    }
+  ],
+  "senior_accessibility": "13core55-minute periods plus3capstone. Complex pairs, row/column multiplication, adjoints, trace, complex division, diagonal metric/area factors, normalized units and certificate reading explicitly introduced. Dense Cayley/Hodge work has2/3periods. Additional arithmetic bridge permitted. Optional thermal convergence is not assessed.",
+  "independent_recomputation": {
+    "math_report": "course-17-parent-math-verification.json",
+    "math_report_sha256": "a7c5f99fa32b07769669bd7da1f71d49f6a950be405aab9a5f996b5a9169067d",
+    "mathematics_checks": 79,
+    "content_integrity_checks": 55,
+    "content_integrity_check_names": [
+      "unchanged_read_lesson_lesson-01.md",
+      "unchanged_read_lesson_lesson-02.md",
+      "unchanged_read_lesson_lesson-03.md",
+      "unchanged_read_lesson_lesson-04.md",
+      "unchanged_read_lesson_lesson-05.md",
+      "unchanged_read_lesson_lesson-06.md",
+      "unchanged_read_lesson_lesson-07.md",
+      "unchanged_read_lesson_lesson-08.md",
+      "source_S01",
+      "source_S02",
+      "source_S03",
+      "source_S04",
+      "source_S05",
+      "math_record",
+      "builder_final_audit",
+      "compact_domain_repair",
+      "normalized_values_repair",
+      "actual_anchor_1_E1",
+      "actual_anchor_1_W1",
+      "actual_anchor_1_P1",
+      "actual_anchor_1_D1",
+      "actual_anchor_2_E1",
+      "actual_anchor_2_W1",
+      "actual_anchor_2_P1",
+      "actual_anchor_2_D1",
+      "actual_anchor_3_E1",
+      "actual_anchor_3_W1",
+      "actual_anchor_3_P1",
+      "actual_anchor_3_D1",
+      "actual_anchor_4_E1",
+      "actual_anchor_4_W1",
+      "actual_anchor_4_P1",
+      "actual_anchor_4_D1",
+      "actual_anchor_5_E1",
+      "actual_anchor_5_W1",
+      "actual_anchor_5_P1",
+      "actual_anchor_5_D1",
+      "actual_anchor_6_E1",
+      "actual_anchor_6_W1",
+      "actual_anchor_6_P1",
+      "actual_anchor_6_D1",
+      "actual_anchor_7_E1",
+      "actual_anchor_7_W1",
+      "actual_anchor_7_P1",
+      "actual_anchor_7_D1",
+      "actual_anchor_8_E1",
+      "actual_anchor_8_W1",
+      "actual_anchor_8_P1",
+      "actual_anchor_8_D1",
+      "final_support_identity_course-map.md",
+      "final_support_identity_terminology.md",
+      "final_support_identity_sources.md",
+      "final_support_identity_teacher-guide.md",
+      "final_support_identity_capstone.md",
+      "fresh_project_validator"
+    ],
+    "total_checks": 134,
+    "arithmetic": "Exact Fraction/Gaussian rational arithmetic, with independently implemented matrix operations; builder code not reused."
+  },
+  "source_hashes": [
+    {
+      "id": "S01",
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180"
+    },
+    {
+      "id": "S02",
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3"
+    },
+    {
+      "id": "S03",
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e"
+    },
+    {
+      "id": "S04",
+      "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2"
+    },
+    {
+      "id": "S05",
+      "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7"
+    }
+  ],
+  "integrity": {
+    "validator_checks": [
+      "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+      "parsed manifest.json",
+      "parsed audit_report.json",
+      "parsed completion_report.json",
+      "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+    ],
+    "validator_errors": [],
+    "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9"
+  },
+  "limitations": [
+    "No fixed-rung source certificate replay: native inputs, method/precision and pinned executable remain missing; archival J convention remains missing.",
+    "Synthetic diagonal J/metrics and scalar/matrix examples are not physical observations or replacements for source bodies.",
+    "Finite conservation does not certify an infinite-domain or continuum comparison.",
+    "No classroom trial or fresh graph retrieval by this parent; local source bytes and pointers verified independently."
+  ]
+}

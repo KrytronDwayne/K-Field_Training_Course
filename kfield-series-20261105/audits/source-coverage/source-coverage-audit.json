@@ -1,0 +1,1896 @@
+{
+  "schema": "kfield.source-coverage-audit.v1",
+  "status": "bounded_audit_complete",
+  "date": "2026-11-05",
+  "scope": "Independent source and 30-topic coverage audit with portable blueprint corrections. No course construction, archive mutation, fresh formal proof replay or teaching acceptance.",
+  "storage": {
+    "deliverables": "C:/Users/info/Documents/Codex/2026-11-05/kfield-series-source-auditor/outputs",
+    "user_override": "Only this task's writable workspace is written on resume; parent project is read-only.",
+    "source_copies_created": false
+  },
+  "snapshot": {
+    "database_object_id": "ab46c19405bfb7bdc08d506e2f5656e6c1ca13842eee75ed08de1508a839573d",
+    "generation": "sha256:5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+    "manifest_sha256": "5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7"
+  },
+  "capability_note": "Capabilities called once before the stop; it omitted snapshot identity. Root traversal and RAG supplied the recorded matching generation/manifest. Resume reused pinned evidence without new broad retrieval.",
+  "verification_scope": {
+    "read": "M01-M20 module bodies and selected relevant source sections; first-three contracts deeply; remaining topic/prerequisite/coverage structures; current project repair presence.",
+    "source_hashes": "Previously verified in place; exact hashes below. No source numerical constants recomputed as replacements.",
+    "limitations": [
+      "Root traversal was truncated and is not an exhaustive graph export.",
+      "Some source digests/ragobj handles did not resolve through get; local files or source-addressed RAG snippets were used and labeled.",
+      "Not every compressed proof body, replay certificate or source array was loaded.",
+      "PDF text was extracted in memory for bounded relevant pages; no visual-publication audit was performed."
+    ]
+  },
+  "summary": {
+    "courses": 30,
+    "core_lessons_as_authored": 205,
+    "core_minutes_at_55": 11275,
+    "core_hours_at_55": 187.91666666666666,
+    "backbone_modules": 20,
+    "branch_maps": 16,
+    "source_findings_corrected": 8,
+    "source_findings_unresolved_critical": 0,
+    "source_findings_unresolved_major": 1,
+    "unresolved_major_id": "E11-SOURCE; portable correction ready, project application pending",
+    "educational_finding_ids_pending": [
+      "E05",
+      "E06",
+      "E07",
+      "E08",
+      "E09",
+      "E10",
+      "E11"
+    ],
+    "educational_count_note": "Unique audit IDs, not course instances. E11-SOURCE overlaps E11 and must not be double-counted.",
+    "decision": "Keep the proposed30 course boundaries; preserve supplemental branch coverage and apply portable amendments before affected launch/recheck. Split dense lesson sessions instead of dropping prerequisites."
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "hash_check": "verified locally; original source left in place",
+      "evidence_class": "source"
+    },
+    {
+      "id": "S02",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "hash_check": "verified locally; original source left in place",
+      "evidence_class": "source"
+    },
+    {
+      "id": "S03",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "hash_check": "verified locally; original source left in place",
+      "evidence_class": "source"
+    },
+    {
+      "id": "S04",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+      "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "hash_check": "verified locally; original source left in place",
+      "evidence_class": "source"
+    },
+    {
+      "id": "S05",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+      "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "hash_check": "verified locally; original source left in place",
+      "evidence_class": "source"
+    },
+    {
+      "id": "I01",
+      "logical_path": "applications/kfield_standard_model/collaborator_record/project_record.json",
+      "sha256": "3800c854da827a64e72507722904bcafab07a31e88f2bc73920a8e7f62f62c1c",
+      "evidence_class": "source",
+      "read_scope": "whole compact record; results/9, results/10, hazards and open_obligations"
+    },
+    {
+      "id": "I02",
+      "logical_path": "kfield_standard_model/evidence/p12_standard_model_compiler_adjudication_report.json",
+      "sha256": "a3dfca0e55e525c6522c3088b95e5bcc048c141fce340bfe980fcfc14123220a",
+      "evidence_class": "source",
+      "locator": "RAG lines 1-101; /direct_authority_modules; /known_science_replay",
+      "reported_formal_authority": "Agda safe certificate KField.StandardModelCompilerAdjudication.p12-standard-model-compiler-adjudication; not freshly rerun by auditor"
+    },
+    {
+      "id": "I03",
+      "logical_path": "kfield_standard_model/formal/KField/StandardModelCompilerAdjudication.agda",
+      "sha256": "01c849f3d184f367e0c53e1e00f521fa2fad98c1682d0aaa03e7de30667840ad",
+      "evidence_class": "source",
+      "locator": "RAG lines 1-199, readiness/disposition/primary-route tables; byte retrieval through ragobj failed"
+    },
+    {
+      "id": "T50",
+      "logical_path": "applications/kfield_lucas_lab/rag_corpus/50_physical_closure.md",
+      "sha256": "c2a25a583af904601968adc1d3efde825f76218c92a2f52d829afc093f52c02a",
+      "evidence_class": "source",
+      "locator": "numbered items 1-4; exact 1761 bytes read"
+    },
+    {
+      "id": "T35",
+      "logical_path": "applications/kfield_lucas_lab/rag_corpus/35_spectral_energy_phase.md",
+      "sha256": "03dc7e11045b3912f1e8cc0d69a4789b6ad300ac78b4549ea86c45e51228c7bc",
+      "evidence_class": "source",
+      "reported_observation_class": "reported_exploratory_to_be_verified",
+      "locator": "Concrete construction; Constructive and categorical boundary; Open obligations"
+    },
+    {
+      "id": "T45",
+      "logical_path": "applications/kfield_lucas_lab/rag_corpus/45_moving_reference_frames.md",
+      "sha256": "c8485397ee3cd5560624885a3bfcf20c9f6190e26129320e37037810b984e1aa",
+      "evidence_class": "source"
+    },
+    {
+      "id": "T40",
+      "logical_path": "applications/kfield_lucas_lab/rag_corpus/40_cmb_quarantine.md",
+      "sha256": "1dfff4443f99ebb949ca6f080a01452bdb6c58075a694c4b74055e64b4d4ecfb",
+      "evidence_class": "source"
+    },
+    {
+      "id": "T20",
+      "logical_path": "applications/kfield_lucas_lab/rag_corpus/20_phase_route.md",
+      "sha256": "c9335e2df74344bff5665df5a5e0b9094fef22147c76458f1a54efe49cefce62",
+      "evidence_class": "source"
+    },
+    {
+      "id": "T10",
+      "logical_path": "applications/kfield_lucas_lab/rag_corpus/10_geometry_trajectory.md",
+      "sha256": "ce1abe83011a43bfbcd8aaf98f7fb9fdfabd31acbfdbc1208e45176596602ccb",
+      "evidence_class": "source"
+    },
+    {
+      "id": "T30",
+      "logical_path": "applications/kfield_lucas_lab/rag_corpus/30_interferometer_capabilities.md",
+      "sha256": "e9c6d0346e7f4fa120e9836df9d4a45b7e2c587bc046874d91cb38a0c68c16bc",
+      "evidence_class": "source",
+      "reported_capability_class": "not_established"
+    },
+    {
+      "id": "G01",
+      "path": "Z:/Archive_20260911/Pre_Aug14/galaxy_cell_hidden_holonomy_summary_1783791371.json",
+      "sha256": "bd6ff0e335f3c405000cd1f8adfa3ae947dc9362dfeb772764cf98ef62ae6f63",
+      "pointers": [
+        "/ordered_direct_basis_A",
+        "/reciprocal_basis_Q",
+        "/joint_phase_origin",
+        "/galaxy_cell_geometry",
+        "/holonomy",
+        "/observed_27_node_occupancy",
+        "/pure_holonomy_coordinate_tests",
+        "/comparison_to_authoritative_K_field"
+      ],
+      "scope": "Exact small record read; 114381-direction sky-position cell; phase origin is a reciprocal phase coordinate.",
+      "evidence_class": "source",
+      "hash_check": "verified before controlled stop"
+    },
+    {
+      "id": "G02",
+      "path": "Z:/Archive_20260911/Pre_Aug14/K-field_cell3_vs_galaxy_derived_cell_analogue_1783794540.pdf",
+      "sha256": "69dcaace292365d22b9b48c43edc0ac4936b148ec68a5b265abc72aaff4f4447",
+      "pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "locators": "p3 distinct axis versus sky-position pathways; p4 column basis, ICRS, positive galaxy determinant and unit-sphere reconstruction lengths; p8 frozen geometry; p17-20 occupancy, mixed coordinates and comparison boundaries.",
+      "scope": "No radial physical calibration. Historical Cell3 carrier values p7 do not replace S02 mature lock.",
+      "evidence_class": "source",
+      "hash_check": "verified before controlled stop"
+    },
+    {
+      "id": "G03",
+      "path": "Z:/Archive_20260911/Pre_Aug14/K-field_spherical_gravity_response_graph_audited_1783692220.json",
+      "sha256": "aa7f4236b7f956c652690934d6444f597ea38b6e485cc77a22be884b567d1cea",
+      "pointers": [
+        "/status",
+        "/precision_contract",
+        "/coordinate_frame",
+        "/analytic_spherical_response",
+        "/reconstruction_sequence"
+      ],
+      "scope": "Historical Cell3-derived spherical response, not the galaxy cell. Domain excludes n dot N=0; G_star=D/F has transfer singularities; absolute scalar calibration undefined. Large graph arrays were not exported.",
+      "evidence_class": "source",
+      "hash_check": "verified before controlled stop"
+    },
+    {
+      "id": "G04",
+      "path": "Z:/Archive_20260911/Pre_Aug14/K-field_galaxy_sky_position_volumetric_quantization_1783789746.pdf",
+      "sha256": "856777f0fae0d6b50e8d235435068b7ea3c25a83068cfbfb197b62835cbb8fbd",
+      "pages_read": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "locators": "p3 unit-sphere direction, discovery57076/holdout57305 and antipodal discovery versus directed assignments; p4 q_j dot x=k_j+phi_j, R rows=q_j^T, A=R^-1, center=A(k+phi), closest-vector assignment and retained vector/angular/radial residuals.",
+      "scope": "Phase origin phi and physical reconstruction center A phi have different types; closest-center assignment is not independent coordinate rounding in a skew metric.",
+      "evidence_class": "source",
+      "hash_check": "verified before controlled stop"
+    }
+  ],
+  "backbone_map": [
+    {
+      "module": "M01",
+      "course_numbers": [
+        3
+      ],
+      "corrected_source_stable_id": "00000000000000747820",
+      "corrected_source_pointer": "/backbone_sequence/0",
+      "mature_source_pointer": "/backbone_sequence/0",
+      "trust": "source",
+      "source_sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180"
+    },
+    {
+      "module": "M02",
+      "course_numbers": [
+        4
+      ],
+      "corrected_source_stable_id": "00000000000000747821",
+      "corrected_source_pointer": "/backbone_sequence/1",
+      "mature_source_pointer": "/backbone_sequence/1",
+      "trust": "source",
+      "source_sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180"
+    },
+    {
+      "module": "M03",
+      "course_numbers": [
+        5,
+        6
+      ],
+      "corrected_source_stable_id": "00000000000000747822",
+      "corrected_source_pointer": "/backbone_sequence/2",
+      "mature_source_pointer": "/backbone_sequence/2",
+      "trust": "source",
+      "source_sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180"
+    },
+    {
+      "module": "M04",
+      "course_numbers": [
+        7
+      ],
+      "corrected_source_stable_id": "00000000000000747823",
+      "corrected_source_pointer": "/backbone_sequence/3",
+      "mature_source_pointer": "/backbone_sequence/3",
+      "trust": "source",
+      "source_sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180"
+    },
+    {
+      "module": "M05",
+      "course_numbers": [
+        8
+      ],
+      "corrected_source_stable_id": "00000000000000747824",
+      "corrected_source_pointer": "/backbone_sequence/4",
+      "mature_source_pointer": "/backbone_sequence/4",
+      "trust": "source",
+      "source_sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180"
+    },
+    {
+      "module": "M06",
+      "course_numbers": [
+        9
+      ],
+      "corrected_source_stable_id": "00000000000000747825",
+      "corrected_source_pointer": "/backbone_sequence/5",
+      "mature_source_pointer": "/backbone_sequence/5",
+      "trust": "source",
+      "source_sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180"
+    },
+    {
+      "module": "M07",
+      "course_numbers": [
+        10
+      ],
+      "corrected_source_stable_id": "00000000000000747826",
+      "corrected_source_pointer": "/backbone_sequence/6",
+      "mature_source_pointer": "/backbone_sequence/6",
+      "trust": "source",
+      "source_sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180"
+    },
+    {
+      "module": "M08",
+      "course_numbers": [
+        11,
+        12
+      ],
+      "corrected_source_stable_id": "00000000000000747827",
+      "corrected_source_pointer": "/backbone_sequence/7",
+      "mature_source_pointer": "/backbone_sequence/7",
+      "trust": "source",
+      "source_sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180"
+    },
+    {
+      "module": "M09",
+      "course_numbers": [
+        13
+      ],
+      "corrected_source_stable_id": "00000000000000747828",
+      "corrected_source_pointer": "/backbone_sequence/8",
+      "mature_source_pointer": "/backbone_sequence/8",
+      "trust": "source",
+      "source_sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180"
+    },
+    {
+      "module": "M10",
+      "course_numbers": [
+        14
+      ],
+      "corrected_source_stable_id": "00000000000000747829",
+      "corrected_source_pointer": "/backbone_sequence/9",
+      "mature_source_pointer": "/backbone_sequence/9",
+      "trust": "source",
+      "source_sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180"
+    },
+    {
+      "module": "M11",
+      "course_numbers": [
+        15
+      ],
+      "corrected_source_stable_id": "00000000000000747830",
+      "corrected_source_pointer": "/backbone_sequence/10",
+      "mature_source_pointer": "/backbone_sequence/10",
+      "trust": "source",
+      "source_sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180"
+    },
+    {
+      "module": "M12",
+      "course_numbers": [
+        16
+      ],
+      "corrected_source_stable_id": "00000000000000747831",
+      "corrected_source_pointer": "/backbone_sequence/11",
+      "mature_source_pointer": "/backbone_sequence/11",
+      "trust": "source",
+      "source_sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180"
+    },
+    {
+      "module": "M13",
+      "course_numbers": [
+        17
+      ],
+      "corrected_source_stable_id": "00000000000000747832",
+      "corrected_source_pointer": "/backbone_sequence/12",
+      "mature_source_pointer": "/backbone_sequence/12",
+      "trust": "source",
+      "source_sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180"
+    },
+    {
+      "module": "M14",
+      "course_numbers": [
+        18
+      ],
+      "corrected_source_stable_id": "00000000000000747833",
+      "corrected_source_pointer": "/backbone_sequence/13",
+      "mature_source_pointer": "/backbone_sequence/13",
+      "trust": "source",
+      "source_sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180"
+    },
+    {
+      "module": "M15",
+      "course_numbers": [
+        19
+      ],
+      "corrected_source_stable_id": "00000000000000747834",
+      "corrected_source_pointer": "/backbone_sequence/14",
+      "mature_source_pointer": "/backbone_sequence/14",
+      "trust": "source",
+      "source_sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180"
+    },
+    {
+      "module": "M16",
+      "course_numbers": [
+        20
+      ],
+      "corrected_source_stable_id": "00000000000000747835",
+      "corrected_source_pointer": "/backbone_sequence/15",
+      "mature_source_pointer": "/backbone_sequence/15",
+      "trust": "source",
+      "source_sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180"
+    },
+    {
+      "module": "M17",
+      "course_numbers": [
+        21
+      ],
+      "corrected_source_stable_id": "00000000000000747836",
+      "corrected_source_pointer": "/backbone_sequence/16",
+      "mature_source_pointer": "/backbone_sequence/16",
+      "trust": "source",
+      "source_sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180"
+    },
+    {
+      "module": "M18",
+      "course_numbers": [
+        22
+      ],
+      "corrected_source_stable_id": "00000000000000747837",
+      "corrected_source_pointer": "/backbone_sequence/17",
+      "mature_source_pointer": "/backbone_sequence/17",
+      "trust": "source",
+      "source_sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180"
+    },
+    {
+      "module": "M19",
+      "course_numbers": [
+        23
+      ],
+      "corrected_source_stable_id": "00000000000000747838",
+      "corrected_source_pointer": "/backbone_sequence/18",
+      "mature_source_pointer": "/backbone_sequence/18",
+      "trust": "source",
+      "source_sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180"
+    },
+    {
+      "module": "M20",
+      "course_numbers": [
+        30
+      ],
+      "corrected_source_stable_id": "00000000000000747839",
+      "corrected_source_pointer": "/backbone_sequence/19",
+      "mature_source_pointer": "/backbone_sequence/19",
+      "trust": "source",
+      "source_sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180"
+    }
+  ],
+  "branch_map": [
+    {
+      "branch_id": "BR-00",
+      "source": "S02",
+      "pointer": "/branch_proofs/0",
+      "course_numbers": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "coverage_level": "bounded_topic_mapping; full proof replay not certified"
+    },
+    {
+      "branch_id": "BR-01",
+      "source": "S02",
+      "pointer": "/branch_proofs/1",
+      "course_numbers": [
+        7
+      ],
+      "coverage_level": "bounded_topic_mapping; full proof replay not certified"
+    },
+    {
+      "branch_id": "BR-02",
+      "source": "S02",
+      "pointer": "/branch_proofs/2",
+      "course_numbers": [
+        17
+      ],
+      "coverage_level": "bounded_topic_mapping; full proof replay not certified"
+    },
+    {
+      "branch_id": "BR-03",
+      "source": "S02",
+      "pointer": "/branch_proofs/3",
+      "course_numbers": [
+        6,
+        13,
+        20,
+        22
+      ],
+      "coverage_level": "bounded_topic_mapping; full proof replay not certified"
+    },
+    {
+      "branch_id": "BR-04",
+      "source": "S02",
+      "pointer": "/branch_proofs/4",
+      "course_numbers": [
+        17
+      ],
+      "coverage_level": "bounded_topic_mapping; full proof replay not certified"
+    },
+    {
+      "branch_id": "BR-05",
+      "source": "S02",
+      "pointer": "/branch_proofs/5",
+      "course_numbers": [
+        18
+      ],
+      "coverage_level": "explicit_supplement_added"
+    },
+    {
+      "branch_id": "BR-06",
+      "source": "S02",
+      "pointer": "/branch_proofs/6",
+      "course_numbers": [
+        13,
+        14,
+        15
+      ],
+      "coverage_level": "bounded_topic_mapping; full proof replay not certified"
+    },
+    {
+      "branch_id": "BR-07",
+      "source": "S02",
+      "pointer": "/branch_proofs/7",
+      "course_numbers": [
+        16,
+        19
+      ],
+      "coverage_level": "bounded_topic_mapping; full proof replay not certified"
+    },
+    {
+      "branch_id": "BR-08",
+      "source": "S02",
+      "pointer": "/branch_proofs/8",
+      "course_numbers": [
+        20
+      ],
+      "coverage_level": "bounded_topic_mapping; full proof replay not certified"
+    },
+    {
+      "branch_id": "BR-09",
+      "source": "S02",
+      "pointer": "/branch_proofs/9",
+      "course_numbers": [
+        18
+      ],
+      "coverage_level": "bounded_topic_mapping; full proof replay not certified"
+    },
+    {
+      "branch_id": "BR-10",
+      "source": "S02",
+      "pointer": "/branch_proofs/10",
+      "course_numbers": [
+        18
+      ],
+      "coverage_level": "explicit_supplement_added"
+    },
+    {
+      "branch_id": "BR-11",
+      "source": "S02",
+      "pointer": "/branch_proofs/11",
+      "course_numbers": [
+        21
+      ],
+      "coverage_level": "explicit_supplement_added"
+    },
+    {
+      "branch_id": "BR-12",
+      "source": "S02",
+      "pointer": "/branch_proofs/12",
+      "course_numbers": [
+        27
+      ],
+      "coverage_level": "bounded_topic_mapping; full proof replay not certified"
+    },
+    {
+      "branch_id": "BR-13",
+      "source": "S02",
+      "pointer": "/branch_proofs/13",
+      "course_numbers": [
+        4,
+        29
+      ],
+      "coverage_level": "bounded_topic_mapping; full proof replay not certified"
+    },
+    {
+      "branch_id": "BR-14",
+      "source": "S02",
+      "pointer": "/branch_proofs/14",
+      "course_numbers": [
+        8,
+        21
+      ],
+      "coverage_level": "bounded_topic_mapping; full proof replay not certified"
+    },
+    {
+      "branch_id": "BR-15",
+      "source": "S02",
+      "pointer": "/branch_proofs/15",
+      "course_numbers": [
+        22
+      ],
+      "coverage_level": "bounded_topic_mapping; full proof replay not certified"
+    }
+  ],
+  "course_map": [
+    {
+      "course_id": "course-01",
+      "title": "Reading the K-Field: Evidence, Models, and Information",
+      "backbone_modules": [],
+      "topic_boundary": "Evidence classes, exact source return addresses, model/residual reconstruction and bounded claim tracing.",
+      "cognitive_or_fidelity_risk": "Do not require the full measurement residual when only metadata are supplied.",
+      "status": "previous_blueprint_clearance_preserved",
+      "primary_sources": [
+        "S02",
+        "T50"
+      ],
+      "source_pointer": null,
+      "packet_at_review": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-01-reading-the-k-field-evidence-models-and-information\\input-contract.json",
+        "sha256": "3a9945295313ef1c796aec1908eb6d815592538c700da03159fe1d0cc84286d1",
+        "lesson_count": 5
+      },
+      "required_amendment_ids": [],
+      "source_launch_decision": "cleared_for_production_at_blueprint_scope",
+      "decision_scope": "Source/coverage only; no new teaching acceptance or finished-course validation.",
+      "educational_gate": "previously_cleared_blueprint; actual_E05_content_checks_still_required"
+    },
+    {
+      "course_id": "course-02",
+      "title": "Mathematical Tools: Units, Vectors, and Coordinates",
+      "backbone_modules": [],
+      "topic_boundary": "Algebra-to-vector bridge; units, non-unit projection, 2D basis recovery, singular examples and explicit rounding.",
+      "cognitive_or_fidelity_risk": "Trig normalization and inverse recovery need practiced bridges.",
+      "status": "previous_blueprint_clearance_preserved",
+      "primary_sources": [
+        "S02",
+        "T50"
+      ],
+      "source_pointer": null,
+      "packet_at_review": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-02-mathematical-tools-units-vectors-and-coordinates\\input-contract.json",
+        "sha256": "77a4707dde9dda508b55cc08629a95fe9d287f9c749acc969468caab3c16021f",
+        "lesson_count": 7
+      },
+      "required_amendment_ids": [],
+      "source_launch_decision": "cleared_for_production_at_blueprint_scope",
+      "decision_scope": "Source/coverage only; no new teaching acceptance or finished-course validation.",
+      "educational_gate": "previously_cleared_blueprint; actual_E05_content_checks_still_required"
+    },
+    {
+      "course_id": "course-03",
+      "title": "The Authoritative Cell3: Basis, Metric, and Scale",
+      "backbone_modules": [
+        "M01"
+      ],
+      "topic_boundary": "Locked Cell3 columns, Gram/inverse metrics, signed volume and one supplied scale anchor; small analogue for hand work.",
+      "cognitive_or_fidelity_risk": "Numerical lock reading and hand derivation must use separate examples.",
+      "status": "previous_blueprint_clearance_preserved",
+      "primary_sources": [
+        "S02"
+      ],
+      "source_pointer": "/backbone_sequence/0",
+      "packet_at_review": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-03-the-authoritative-cell3-basis-metric-and-scale\\input-contract.json",
+        "sha256": "f9e750bc5f80a119981e2766e292801fd22bae851c9b142715259dbd833d13c8",
+        "lesson_count": 6
+      },
+      "required_amendment_ids": [],
+      "source_launch_decision": "cleared_for_production_at_blueprint_scope",
+      "decision_scope": "Source/coverage only; no new teaching acceptance or finished-course validation.",
+      "educational_gate": "previously_cleared_blueprint; actual_E05_content_checks_still_required"
+    },
+    {
+      "course_id": "course-04",
+      "title": "Affine Cells, Reciprocal Planes, and Unique Addresses",
+      "backbone_modules": [
+        "M02"
+      ],
+      "topic_boundary": "Affine ownership and reciprocal planes. Use x-O_K, nonzero integer h and the canonical result witnesses.",
+      "cognitive_or_fidelity_risk": "Origin and reciprocal-transpose mistakes change plane offsets.",
+      "status": "source_map_review_complete_teaching_decision_pending",
+      "primary_sources": [
+        "S02"
+      ],
+      "source_pointer": "/backbone_sequence/1",
+      "packet_at_review": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-04-affine-cells-reciprocal-planes-and-unique-addresses\\input-contract.json",
+        "sha256": "4e7b1a995ff23d6e2b675c4be01d713eb95b50c4c0171f9d1e951ac2d47352a3",
+        "lesson_count": 6
+      },
+      "required_amendment_ids": [
+        "SA-04"
+      ],
+      "source_launch_decision": "ready_for_source_scoped_drafting_with_required_gates",
+      "decision_scope": "Source/coverage only; no new teaching acceptance or finished-course validation.",
+      "educational_gate": [
+        "E05",
+        "independent_teaching_recheck"
+      ]
+    },
+    {
+      "course_id": "course-05",
+      "title": "Lucas Geometry: 27 Nodes, Polarity, and Sheets",
+      "backbone_modules": [
+        "M03"
+      ],
+      "topic_boundary": "27 half-step nodes, seven integer lambda sheets, polarity and antipodal quotient with retained signed lift.",
+      "cognitive_or_fidelity_risk": "Integer lambda, mod-three lambda and detector parity must not alias.",
+      "status": "source_map_review_complete_teaching_decision_pending",
+      "primary_sources": [
+        "S02"
+      ],
+      "source_pointer": "/backbone_sequence/2",
+      "packet_at_review": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-05-lucas-geometry-27-nodes-polarity-and-sheets\\input-contract.json",
+        "sha256": "ef9d81cd223c49faccd46a3783b5f9643995a703826d8b8e8fffbe7f7c474870",
+        "lesson_count": 6
+      },
+      "required_amendment_ids": [
+        "SA-05"
+      ],
+      "source_launch_decision": "ready_for_source_scoped_drafting_with_required_gates",
+      "decision_scope": "Source/coverage only; no new teaching acceptance or finished-course validation.",
+      "educational_gate": [
+        "E05",
+        "independent_teaching_recheck"
+      ]
+    },
+    {
+      "course_id": "course-06",
+      "title": "Recursive K-Field Geometry and Address Histories",
+      "backbone_modules": [
+        "M03"
+      ],
+      "topic_boundary": "1/27/729 hierarchy; group-dyadic subdivision and ternary histories as separate systems.",
+      "cognitive_or_fidelity_risk": "Name Lucas window, Group and Supergroup; their counts are not interchangeable.",
+      "status": "source_map_review_complete_teaching_decision_pending",
+      "primary_sources": [
+        "S02"
+      ],
+      "source_pointer": "/backbone_sequence/2",
+      "packet_at_review": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-06-recursive-k-field-geometry-and-address-histories\\input-contract.json",
+        "sha256": "146dd9791460362c47858853cfab704ddf8238d0f43c27a044160b75837b4abe",
+        "lesson_count": 6
+      },
+      "required_amendment_ids": [
+        "SA-06"
+      ],
+      "source_launch_decision": "ready_for_source_scoped_drafting_with_required_gates",
+      "decision_scope": "Source/coverage only; no new teaching acceptance or finished-course validation.",
+      "educational_gate": [
+        "E05",
+        "independent_teaching_recheck"
+      ]
+    },
+    {
+      "course_id": "course-07",
+      "title": "Information-Complete Finite Calculus",
+      "backbone_modules": [
+        "M04"
+      ],
+      "topic_boundary": "Exact finite product rule, expectation hypotheses, mean/detail reconstruction and singular-system freedom.",
+      "cognitive_or_fidelity_risk": "Idempotence alone does not imply the stated product identity.",
+      "status": "source_map_review_complete_teaching_decision_pending",
+      "primary_sources": [
+        "S02"
+      ],
+      "source_pointer": "/backbone_sequence/3",
+      "packet_at_review": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-07-information-complete-finite-calculus\\input-contract.json",
+        "sha256": "9aebdcc24228f3591ee2d1bcb632f7688f1dba55386c3c8631afb1baedd165e5",
+        "lesson_count": 7
+      },
+      "required_amendment_ids": [
+        "SA-07"
+      ],
+      "source_launch_decision": "ready_for_source_scoped_drafting_with_required_gates",
+      "decision_scope": "Source/coverage only; no new teaching acceptance or finished-course validation.",
+      "educational_gate": [
+        "E05",
+        "independent_teaching_recheck"
+      ]
+    },
+    {
+      "course_id": "course-08",
+      "title": "Face-Area Ratios and the K-Field Mass Bridge",
+      "backbone_modules": [
+        "M05"
+      ],
+      "topic_boundary": "Ordered face-ray [bc,ac,ab], eta/alpha algebra, calibration role and historical-versus-locked witnesses.",
+      "cognitive_or_fidelity_risk": "Source geometry identification and numerical calibration are different operations.",
+      "status": "source_map_review_complete_teaching_decision_pending",
+      "primary_sources": [
+        "S02"
+      ],
+      "source_pointer": "/backbone_sequence/4",
+      "packet_at_review": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-08-face-area-ratios-and-the-k-field-mass-bridge\\input-contract.json",
+        "sha256": "201b52e1c4069201c800df1d1edf845ddbc9ee030c0872216059e44d4ccc1587",
+        "lesson_count": 6
+      },
+      "required_amendment_ids": [],
+      "source_launch_decision": "ready_for_source_scoped_drafting_with_required_gates",
+      "decision_scope": "Source/coverage only; no new teaching acceptance or finished-course validation.",
+      "educational_gate": [
+        "E05",
+        "independent_teaching_recheck"
+      ]
+    },
+    {
+      "course_id": "course-09",
+      "title": "Projective Integerization and Carry Dynamics",
+      "backbone_modules": [
+        "M06"
+      ],
+      "topic_boundary": "Integerization, deterministic half-ties, retained epsilon and carries; S/A inverse and parity lattice.",
+      "cognitive_or_fidelity_risk": "For epsilon=Q-Kr, half-tie direction determines the residual interval.",
+      "status": "source_map_review_complete_teaching_decision_pending",
+      "primary_sources": [
+        "S02"
+      ],
+      "source_pointer": "/backbone_sequence/5",
+      "packet_at_review": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-09-projective-integerization-and-carry-dynamics\\input-contract.json",
+        "sha256": "ba6257abfa9bd4e4cd0554532751aa569ed7f1cdac5ad7d97c0d41c0d9f3652d",
+        "lesson_count": 6
+      },
+      "required_amendment_ids": [
+        "SA-09"
+      ],
+      "source_launch_decision": "ready_for_source_scoped_drafting_with_required_gates",
+      "decision_scope": "Source/coverage only; no new teaching acceptance or finished-course validation.",
+      "educational_gate": [
+        "E05",
+        "independent_teaching_recheck"
+      ]
+    },
+    {
+      "course_id": "course-10",
+      "title": "Shape and Scale: Devon Reduction and the Jack Jacobian",
+      "backbone_modules": [
+        "M07"
+      ],
+      "topic_boundary": "Logs, scale/shape, fixed-angle Jack map and typed Devon object; general shear is outside the two-shape-coordinate claim.",
+      "cognitive_or_fidelity_risk": "Logarithms require positive quantities; dimensional logs use a declared reference.",
+      "status": "source_map_review_complete_teaching_decision_pending",
+      "primary_sources": [
+        "S02"
+      ],
+      "source_pointer": "/backbone_sequence/6",
+      "packet_at_review": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-10-shape-and-scale-devon-reduction-and-the-jack-jacobian\\input-contract.json",
+        "sha256": "05949fa6a73f5950875bc61f2390fbefea11d511b0ac5133b138348c398a38b4",
+        "lesson_count": 6
+      },
+      "required_amendment_ids": [
+        "SA-10"
+      ],
+      "source_launch_decision": "ready_for_source_scoped_drafting_with_required_gates",
+      "decision_scope": "Source/coverage only; no new teaching acceptance or finished-course validation.",
+      "educational_gate": [
+        "E05",
+        "independent_teaching_recheck"
+      ]
+    },
+    {
+      "course_id": "course-11",
+      "title": "Lucas Graphs: Edges, Cycles, and Memory",
+      "backbone_modules": [
+        "M08"
+      ],
+      "topic_boundary": "Open product graph, cuts/cycles, 27 wrap coordinates and three windings; cycle variables are specified states.",
+      "cognitive_or_fidelity_risk": "Introduce rank through elimination before dimension formulas.",
+      "status": "source_map_review_complete_teaching_decision_pending",
+      "primary_sources": [
+        "S02"
+      ],
+      "source_pointer": "/backbone_sequence/7",
+      "packet_at_review": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-11-lucas-graphs-edges-cycles-and-memory\\input-contract.json",
+        "sha256": "356ffd378c40413b7130d81ea7e5f4ae2c58423ef238dd10e496353e83c53bdd",
+        "lesson_count": 6
+      },
+      "required_amendment_ids": [],
+      "source_launch_decision": "ready_for_source_scoped_drafting_with_required_gates",
+      "decision_scope": "Source/coverage only; no new teaching acceptance or finished-course validation.",
+      "educational_gate": [
+        "E05",
+        "independent_teaching_recheck"
+      ]
+    },
+    {
+      "course_id": "course-12",
+      "title": "The Emily Spectrum: Modes and Eigenvectors",
+      "backbone_modules": [
+        "M08"
+      ],
+      "topic_boundary": "Emily eigenpairs and multiplicities, mode reconstruction, 14-even/13-odd split and uniform-gauge quotient.",
+      "cognitive_or_fidelity_risk": "Teach eigenpairs by direct verification before a general spectral theorem.",
+      "status": "source_map_review_complete_teaching_decision_pending",
+      "primary_sources": [
+        "S02"
+      ],
+      "source_pointer": "/backbone_sequence/7",
+      "packet_at_review": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-12-the-emily-spectrum-modes-and-eigenvectors\\input-contract.json",
+        "sha256": "3b3f67ccaf24b6e30966fe777380fd1c7fb8e0b0a2dee34863eb22214b202349",
+        "lesson_count": 7
+      },
+      "required_amendment_ids": [
+        "SA-12"
+      ],
+      "source_launch_decision": "ready_for_source_scoped_drafting_with_required_gates",
+      "decision_scope": "Source/coverage only; no new teaching acceptance or finished-course validation.",
+      "educational_gate": [
+        "E05",
+        "E06",
+        "independent_teaching_recheck"
+      ]
+    },
+    {
+      "course_id": "course-13",
+      "title": "Root Systems, Symmetry, and A1–A2 Structure",
+      "backbone_modules": [
+        "M09"
+      ],
+      "topic_boundary": "A1 carry-side transfers and A2 primitive lifts; roots, weights and quotient labels preserve physical roles.",
+      "cognitive_or_fidelity_risk": "An isomorphic lattice is not an identified physical action.",
+      "status": "source_map_review_complete_teaching_decision_pending",
+      "primary_sources": [
+        "S02"
+      ],
+      "source_pointer": "/backbone_sequence/8",
+      "packet_at_review": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-13-root-systems-symmetry-and-a1-a2-structure\\input-contract.json",
+        "sha256": "30856fd09d2a404367464adf249afc82fa5c0e85900f5e06a8d1dfafea98859b",
+        "lesson_count": 6
+      },
+      "required_amendment_ids": [],
+      "source_launch_decision": "ready_for_source_scoped_drafting_with_required_gates",
+      "decision_scope": "Source/coverage only; no new teaching acceptance or finished-course validation.",
+      "educational_gate": [
+        "E05",
+        "independent_teaching_recheck"
+      ]
+    },
+    {
+      "course_id": "course-14",
+      "title": "Complex Carriers and Gauge Symmetry",
+      "backbone_modules": [
+        "M10"
+      ],
+      "topic_boundary": "Complex color-first carrier, determinant lock, cover kernel and separate source-local/global-form adjudications.",
+      "cognitive_or_fidelity_risk": "Abstract quotient calculation does not resolve the integration's physical global-form family.",
+      "status": "source_map_review_complete_teaching_decision_pending",
+      "primary_sources": [
+        "S02"
+      ],
+      "source_pointer": "/backbone_sequence/9",
+      "packet_at_review": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-14-complex-carriers-and-gauge-symmetry\\input-contract.json",
+        "sha256": "3de310239aaf64f6ae0cfa813ff9a129ee8f73404789e06eca502bf0a48754c1",
+        "lesson_count": 7
+      },
+      "required_amendment_ids": [
+        "SA-14"
+      ],
+      "source_launch_decision": "ready_for_source_scoped_drafting_with_required_gates",
+      "decision_scope": "Source/coverage only; no new teaching acceptance or finished-course validation.",
+      "educational_gate": [
+        "E05",
+        "E06",
+        "independent_teaching_recheck"
+      ]
+    },
+    {
+      "course_id": "course-15",
+      "title": "Matter States, Hypercharge, and Anomaly Accounting",
+      "backbone_modules": [
+        "M11"
+      ],
+      "topic_boundary": "16-state exterior census, primitive hypercharge, local anomaly arithmetic and Witten parity with declared normalization.",
+      "cognitive_or_fidelity_risk": "State counting alone does not teach exterior signs or anomaly index normalization.",
+      "status": "source_map_review_complete_teaching_decision_pending",
+      "primary_sources": [
+        "S02"
+      ],
+      "source_pointer": "/backbone_sequence/10",
+      "packet_at_review": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-15-matter-states-hypercharge-and-anomaly-accounting\\input-contract.json",
+        "sha256": "078d84a784d63ef3f4c5ba9023c9bea33dfcd43d2d694ae539929effdea02dec",
+        "lesson_count": 7
+      },
+      "required_amendment_ids": [],
+      "source_launch_decision": "ready_for_source_scoped_drafting_with_required_gates",
+      "decision_scope": "Source/coverage only; no new teaching acceptance or finished-course validation.",
+      "educational_gate": [
+        "E05",
+        "independent_teaching_recheck"
+      ]
+    },
+    {
+      "course_id": "course-16",
+      "title": "Higgs, Yukawa, and Interaction Interfaces",
+      "backbone_modules": [
+        "M12"
+      ],
+      "topic_boundary": "Typed Higgs/Yukawa contractions; supplied vacuum, coefficients, mixing and matching-scale coordinates.",
+      "cognitive_or_fidelity_risk": "General contractions need explicit small examples; coefficients remain inputs.",
+      "status": "source_map_review_complete_teaching_decision_pending",
+      "primary_sources": [
+        "S02"
+      ],
+      "source_pointer": "/backbone_sequence/11",
+      "packet_at_review": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\input-contract.json",
+        "sha256": "c8f00b5774ee3abe3c1435ed43d1cf947fdf3000fd298ac26e92c06003d8f891",
+        "lesson_count": 7
+      },
+      "required_amendment_ids": [],
+      "source_launch_decision": "ready_for_source_scoped_drafting_with_required_gates",
+      "decision_scope": "Source/coverage only; no new teaching acceptance or finished-course validation.",
+      "educational_gate": [
+        "E05",
+        "independent_teaching_recheck"
+      ]
+    },
+    {
+      "course_id": "course-17",
+      "title": "Finite Gauge Transport and Conservative Dynamics",
+      "backbone_modules": [
+        "M13"
+      ],
+      "topic_boundary": "Finite gauge transport, Cayley hypotheses, mature determinant-normalized Hodge blocks and finite-rung certificate domains.",
+      "cognitive_or_fidelity_risk": "Use exponents 1/3 and 2/3 with delta=det(M), not S01's older exponents.",
+      "status": "source_map_review_complete_teaching_decision_pending",
+      "primary_sources": [
+        "S02"
+      ],
+      "source_pointer": "/backbone_sequence/12",
+      "packet_at_review": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-17-finite-gauge-transport-and-conservative-dynamics\\input-contract.json",
+        "sha256": "4212f2c483c6e77fdf70267f69d93643a24dbb3cbab0a993a2ae4c88e4b2620b",
+        "lesson_count": 8
+      },
+      "required_amendment_ids": [
+        "SA-17"
+      ],
+      "source_launch_decision": "ready_for_source_scoped_drafting_with_required_gates",
+      "decision_scope": "Source/coverage only; no new teaching acceptance or finished-course validation.",
+      "educational_gate": [
+        "E05",
+        "independent_teaching_recheck"
+      ]
+    },
+    {
+      "course_id": "course-18",
+      "title": "History, Orientation, and Chirality",
+      "backbone_modules": [
+        "M14"
+      ],
+      "topic_boundary": "History shifts, finite endpoint defects, chirality, and bounded angular/spin and CP branch comparisons.",
+      "cognitive_or_fidelity_risk": "A finite square shift cannot satisfy both infinite-shift isometry identities.",
+      "status": "source_map_review_complete_teaching_decision_pending",
+      "primary_sources": [
+        "S02"
+      ],
+      "source_pointer": "/backbone_sequence/13",
+      "packet_at_review": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-18-history-orientation-and-chirality\\input-contract.json",
+        "sha256": "3262e03582892ed17113f4819a3863dd3421a4ca0c1ac9aa7f8c70dbb90ab3b7",
+        "lesson_count": 7
+      },
+      "required_amendment_ids": [],
+      "source_launch_decision": "ready_for_source_scoped_drafting_with_required_gates",
+      "decision_scope": "Source/coverage only; no new teaching acceptance or finished-course validation.",
+      "educational_gate": [
+        "E05",
+        "independent_teaching_recheck"
+      ]
+    },
+    {
+      "course_id": "course-19",
+      "title": "Action, Topology, and Phase Closure",
+      "backbone_modules": [
+        "M15"
+      ],
+      "topic_boundary": "Action coefficients, boundary sectors, charge topology, all determinant-line factors and explicit premise inventory.",
+      "cognitive_or_fidelity_risk": "Do not turn phase closure into an unscoped continuum/bordism theorem.",
+      "status": "source_map_review_complete_teaching_decision_pending",
+      "primary_sources": [
+        "S02"
+      ],
+      "source_pointer": "/backbone_sequence/14",
+      "packet_at_review": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure\\input-contract.json",
+        "sha256": "45f8548566eefcbab713fadec638a931fb0ec3f2c5ee52ccef1d7f9f31e3c45f",
+        "lesson_count": 7
+      },
+      "required_amendment_ids": [],
+      "source_launch_decision": "ready_for_source_scoped_drafting_with_required_gates",
+      "decision_scope": "Source/coverage only; no new teaching acceptance or finished-course validation.",
+      "educational_gate": [
+        "E05",
+        "independent_teaching_recheck"
+      ]
+    },
+    {
+      "course_id": "course-20",
+      "title": "Family Structure and Simultaneous Occupation",
+      "backbone_modules": [
+        "M16"
+      ],
+      "topic_boundary": "Lambda classes modulo three, normalized lifts, Weyl expansion, Schur reconstruction, rank-48 projector and occupation status.",
+      "cognitive_or_fidelity_risk": "New Weyl/Schur practice increases load; split sessions as necessary.",
+      "status": "source_map_review_complete_teaching_decision_pending",
+      "primary_sources": [
+        "S02"
+      ],
+      "source_pointer": "/backbone_sequence/15",
+      "packet_at_review": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-20-family-structure-and-simultaneous-occupation\\input-contract.json",
+        "sha256": "27e6903cb6ce4f0013923a080120048bb7120f16080d2fe67f1a2bb3e05a1bab",
+        "lesson_count": 7
+      },
+      "required_amendment_ids": [
+        "SA-20"
+      ],
+      "source_launch_decision": "ready_for_source_scoped_drafting_with_required_gates",
+      "decision_scope": "Source/coverage only; no new teaching acceptance or finished-course validation.",
+      "educational_gate": [
+        "E05",
+        "E07",
+        "independent_teaching_recheck"
+      ]
+    },
+    {
+      "course_id": "course-21",
+      "title": "Mass, Coupling, and Atomic Structure as Decoding Problems",
+      "backbone_modules": [
+        "M17"
+      ],
+      "topic_boundary": "Six-plus-seven decoder, syndrome/Walsh scope, composition/isotope/isomer fibers, binding and reaction-energy bookkeeping.",
+      "cognitive_or_fidelity_risk": "New decoder/chemistry/energy/compatibility work may need more sessions.",
+      "status": "source_map_review_complete_teaching_decision_pending",
+      "primary_sources": [
+        "S02"
+      ],
+      "source_pointer": "/backbone_sequence/16",
+      "packet_at_review": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\input-contract.json",
+        "sha256": "0283d98d1134954e4b27062eefe0e2558a71d651c3e12044124b54855ab73c2d",
+        "lesson_count": 8
+      },
+      "required_amendment_ids": [
+        "SA-21"
+      ],
+      "source_launch_decision": "ready_for_source_scoped_drafting_with_required_gates",
+      "decision_scope": "Source/coverage only; no new teaching acceptance or finished-course validation.",
+      "educational_gate": [
+        "E05",
+        "E07",
+        "E08",
+        "independent_teaching_recheck"
+      ]
+    },
+    {
+      "course_id": "course-22",
+      "title": "Inverse Limits, Continuum Rendering, and Detail",
+      "backbone_modules": [
+        "M18"
+      ],
+      "topic_boundary": "Compatible ternary prefixes, inverse limit and paired real renderer; tail bound and infinite-operator domain obligations.",
+      "cognitive_or_fidelity_risk": "Teach geometric sums and bound coordinates in the stated norm.",
+      "status": "source_map_review_complete_teaching_decision_pending",
+      "primary_sources": [
+        "S02"
+      ],
+      "source_pointer": "/backbone_sequence/17",
+      "packet_at_review": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-22-inverse-limits-continuum-rendering-and-detail\\input-contract.json",
+        "sha256": "83917b13421586a02dccf4ae5c31f61f4512dc84eb3b03245805cb4d2086af72",
+        "lesson_count": 7
+      },
+      "required_amendment_ids": [],
+      "source_launch_decision": "ready_for_source_scoped_drafting_with_required_gates",
+      "decision_scope": "Source/coverage only; no new teaching acceptance or finished-course validation.",
+      "educational_gate": [
+        "E05",
+        "E09",
+        "independent_teaching_recheck"
+      ]
+    },
+    {
+      "course_id": "course-23",
+      "title": "Gravity, Inertia, and Exceptional Branches",
+      "backbone_modules": [
+        "M19"
+      ],
+      "topic_boundary": "Gravity scalar lift and reciprocal inversion; exact counts separated from exceptional-action extensions.",
+      "cognitive_or_fidelity_risk": "Matching 52/78/133 counts does not construct a specified action.",
+      "status": "source_map_review_complete_teaching_decision_pending",
+      "primary_sources": [
+        "S02"
+      ],
+      "source_pointer": "/backbone_sequence/18",
+      "packet_at_review": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-23-gravity-inertia-and-exceptional-branches\\input-contract.json",
+        "sha256": "3f5260ec3f6b15e4a47e54ce7753de492d03f62fd7fa230b851edb3be7b0370a",
+        "lesson_count": 7
+      },
+      "required_amendment_ids": [],
+      "source_launch_decision": "ready_for_source_scoped_drafting_with_required_gates",
+      "decision_scope": "Source/coverage only; no new teaching acceptance or finished-course validation.",
+      "educational_gate": [
+        "E05",
+        "independent_teaching_recheck"
+      ]
+    },
+    {
+      "course_id": "course-24",
+      "title": "Moving Reference Frames and Laboratory Motion",
+      "backbone_modules": [],
+      "topic_boundary": "Frames, time standards, decomposed physical velocity, sensor rotation and separately scaled Galactic visual gauge.",
+      "cognitive_or_fidelity_risk": "Do not use phase-transformed G_phase V as physical velocity.",
+      "status": "source_map_review_complete_teaching_decision_pending",
+      "primary_sources": [
+        "series/source-registry.json"
+      ],
+      "source_pointer": null,
+      "packet_at_review": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\input-contract.json",
+        "sha256": "f827ee90fc67dc5a8dec8cd753b0dc716f15ff6c17251bd48bc05f49c055fc67",
+        "lesson_count": 7
+      },
+      "required_amendment_ids": [
+        "SA-24"
+      ],
+      "source_launch_decision": "ready_for_source_scoped_drafting_with_required_gates",
+      "decision_scope": "Source/coverage only; no new teaching acceptance or finished-course validation.",
+      "educational_gate": [
+        "E05",
+        "E10",
+        "independent_teaching_recheck"
+      ]
+    },
+    {
+      "course_id": "course-25",
+      "title": "Plane Crossings, Rulers, and Event Geometry",
+      "backbone_modules": [],
+      "topic_boundary": "Signed crossings, nonzero ruler parameters, interpolation and celestial-event versus spatial-plane definitions.",
+      "cognitive_or_fidelity_risk": "Keep direction signs; beat frequency uses the magnitude only where specified.",
+      "status": "source_map_review_complete_teaching_decision_pending",
+      "primary_sources": [
+        "series/source-registry.json"
+      ],
+      "source_pointer": null,
+      "packet_at_review": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-25-plane-crossings-rulers-and-event-geometry\\input-contract.json",
+        "sha256": "a96fb8e7ec6601f234b4206e8e0cd3bfe65832782838ca36a46c21f30ec10108",
+        "lesson_count": 7
+      },
+      "required_amendment_ids": [],
+      "source_launch_decision": "ready_for_source_scoped_drafting_with_required_gates",
+      "decision_scope": "Source/coverage only; no new teaching acceptance or finished-course validation.",
+      "educational_gate": [
+        "E05",
+        "independent_teaching_recheck"
+      ]
+    },
+    {
+      "course_id": "course-26",
+      "title": "Beats, Harmonics, and Spectral Energy–Phase Structure",
+      "backbone_modules": [],
+      "topic_boundary": "Finite beats/DFT, retained complex phase, comparator nullspaces, signed event ratios and input-equivalent energy.",
+      "cognitive_or_fidelity_risk": "Fourteen event rows carry three independent plane costs, not fourteen cost levels.",
+      "status": "source_map_review_complete_teaching_decision_pending",
+      "primary_sources": [
+        "series/source-registry.json"
+      ],
+      "source_pointer": null,
+      "packet_at_review": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\input-contract.json",
+        "sha256": "a204af4a4ed045c014215b5d07f9a28f83f289e81d93876a52ed99580a59452d",
+        "lesson_count": 8
+      },
+      "required_amendment_ids": [
+        "SA-26"
+      ],
+      "source_launch_decision": "ready_for_source_scoped_drafting_with_required_gates",
+      "decision_scope": "Source/coverage only; no new teaching acceptance or finished-course validation.",
+      "educational_gate": [
+        "E05",
+        "E10",
+        "independent_teaching_recheck"
+      ]
+    },
+    {
+      "course_id": "course-27",
+      "title": "Quadratic Phase Cost and Route Geometry",
+      "backbone_modules": [],
+      "topic_boundary": "Positive quadratic phase form, typed pullbacks, cumulative cost and route bounds with explicit precision residuals.",
+      "cognitive_or_fidelity_risk": "Source packet lacks full replay matrices; retrieve them before exact-replay claims.",
+      "status": "source_map_review_complete_teaching_decision_pending",
+      "primary_sources": [
+        "series/source-registry.json"
+      ],
+      "source_pointer": null,
+      "packet_at_review": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-27-quadratic-phase-cost-and-route-geometry\\input-contract.json",
+        "sha256": "9e4ab37c8031af121b657ee6abf8a7311bbae7e9cffbc0156bd87dfdf93ff381",
+        "lesson_count": 7
+      },
+      "required_amendment_ids": [
+        "SA-27"
+      ],
+      "source_launch_decision": "ready_for_source_scoped_drafting_with_required_gates",
+      "decision_scope": "Source/coverage only; no new teaching acceptance or finished-course validation.",
+      "educational_gate": [
+        "E05",
+        "independent_teaching_recheck"
+      ]
+    },
+    {
+      "course_id": "course-28",
+      "title": "Photometer Experiments and Information-Preserving Analysis",
+      "backbone_modules": [],
+      "topic_boundary": "Acquisition identity, reversible normalization, parity-complete comparators, prospective windows and every residual channel.",
+      "cognitive_or_fidelity_risk": "Retain missing/gap/fault flags and Clear denominator failures in parallel.",
+      "status": "source_map_review_complete_teaching_decision_pending",
+      "primary_sources": [
+        "series/source-registry.json"
+      ],
+      "source_pointer": null,
+      "packet_at_review": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-28-photometer-experiments-and-information-preserving-analysis\\input-contract.json",
+        "sha256": "bf69b5b82782b47c6a44223b453dc45346525f3f281e17db6b221ad4a72e4ecd",
+        "lesson_count": 8
+      },
+      "required_amendment_ids": [
+        "SA-28"
+      ],
+      "source_launch_decision": "ready_for_source_scoped_drafting_with_required_gates",
+      "decision_scope": "Source/coverage only; no new teaching acceptance or finished-course validation.",
+      "educational_gate": [
+        "E05",
+        "independent_teaching_recheck"
+      ]
+    },
+    {
+      "course_id": "course-29",
+      "title": "Galactic Structure and Cross-Scale K-Field Geometry",
+      "backbone_modules": [],
+      "topic_boundary": "Distinct galaxy sky-position cell and older galaxy-axis pathway; response domains, unit-sphere units, metric/phase and occupancy.",
+      "cognitive_or_fidelity_risk": "Units and sky-position versus axis provenance must be resolved before comparing cells.",
+      "status": "portable_repair_ready_application_pending",
+      "primary_sources": [
+        "series/source-registry.json",
+        "G01",
+        "G02",
+        "G03"
+      ],
+      "source_pointer": null,
+      "packet_at_review": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\input-contract.json",
+        "sha256": "1231a7d4281471f1097cabeb54f232ce2a1c2d0631ebe0c79fe28f6b3f787474",
+        "lesson_count": 8
+      },
+      "required_amendment_ids": [
+        "SA-29-E11"
+      ],
+      "source_launch_decision": "hold_until_E11_source_packet_is_applied",
+      "decision_scope": "Source/coverage only; no new teaching acceptance or finished-course validation.",
+      "educational_gate": [
+        "E05",
+        "E11",
+        "independent_teaching_recheck"
+      ]
+    },
+    {
+      "course_id": "course-30",
+      "title": "Integrated K-Field Research: From Backbone to Test",
+      "backbone_modules": [
+        "M20"
+      ],
+      "topic_boundary": "Complete M01-M18 premise audit, separately retained M19 branches, instrument identifiability and prospective experiments.",
+      "cognitive_or_fidelity_risk": "Educational prerequisite course23 does not create a mathematical M19-to-M20 edge.",
+      "status": "source_map_review_complete_teaching_decision_pending",
+      "primary_sources": [
+        "series/source-registry.json"
+      ],
+      "source_pointer": "/backbone_sequence/19",
+      "packet_at_review": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\input-contract.json",
+        "sha256": "9fcf0d27d4723a4aba1ac23d5bbcbc3865656d9ccf188f4bc9d21965ec55c0dc",
+        "lesson_count": 8
+      },
+      "required_amendment_ids": [
+        "SA-30"
+      ],
+      "source_launch_decision": "ready_for_source_scoped_drafting_with_required_gates",
+      "decision_scope": "Source/coverage only; no new teaching acceptance or finished-course validation.",
+      "educational_gate": [
+        "E05",
+        "independent_teaching_recheck"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "SC-001",
+      "audit_level": "local",
+      "category": "source grounding",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-01-reading-the-k-field-evidence-models-and-information\\input-contract.json",
+      "section": "/capstone_specification/task; /subject_kernel/scope",
+      "severity": "major",
+      "defect": "The required source-reported measurement has no pinned measurement record in the supplied sources or source_routing; the selected numerical Cell3 witnesses are computations.",
+      "correction": "Pin the supplied angular-response witness in applications/kfield_lucas_lab/rag_corpus/50_physical_closure.md, object c2a25a583af904601968adc1d3efde825f76218c92a2f52d829afc093f52c02a, numbered item 2. Keep the 180000-sample source-reported observation separate from the 97-state replay and conditional Earth attribution; use a small explicitly synthetic residual exercise because the full observed array is not included.",
+      "verification": "Check both capstone and subject scope agree and exact pointers resolve. PASS: explicit source_audit_contract requirements added and JSON parsed after repair. Current project packet read confirms the earlier source supplement rows or first-three source contract.",
+      "disposition": "corrected",
+      "affected_checkpoint_ids": [
+        "course-01:lesson-02",
+        "course-01:capstone"
+      ],
+      "original_record_location": "C:\\Users\\info\\Desktop\\K-Field_Training_Course\\kfield-01-reading-the-k-field-evidence-models-and-information\\input-contract.json",
+      "approval_scope": "Blueprint obligation only"
+    },
+    {
+      "id": "SC-002",
+      "audit_level": "local",
+      "category": "prerequisite closure",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-03-the-authoritative-cell3-basis-metric-and-scale\\input-contract.json",
+      "section": "/course_map/0 through /course_map/3",
+      "severity": "major",
+      "defect": "Course 02 supplies a two-dimensional basis and determinant, while course 03 first uses three-dimensional handedness, Gram products, cross products and inverse-metric identities without an explicit introductory bridge or practice sequence.",
+      "correction": "Add lesson-specific bridge obligations for 3D columns, transpose/multiplication, cross products/triple products, and inverse checks; constrain core work to a hand-computable synthetic basis.",
+      "verification": "Each operation is introduced and practiced before its diagnostic and capstone use. PASS: explicit source_audit_contract requirements added and JSON parsed after repair. Current project packet read confirms the earlier source supplement rows or first-three source contract.",
+      "disposition": "corrected",
+      "affected_checkpoint_ids": [
+        "course-03:lesson-01",
+        "course-03:lesson-02",
+        "course-03:lesson-03",
+        "course-03:lesson-04"
+      ],
+      "original_record_location": "C:\\Users\\info\\Desktop\\K-Field_Training_Course\\kfield-03-the-authoritative-cell3-basis-metric-and-scale\\input-contract.json",
+      "approval_scope": "Blueprint obligation only"
+    },
+    {
+      "id": "SC-003",
+      "audit_level": "cumulative",
+      "category": "subject coverage",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-20-family-structure-and-simultaneous-occupation\\input-contract.json",
+      "section": "/course_map/2; /coverage_matrix",
+      "severity": "major",
+      "defect": "M16 source coverage stops at lifts, tensor ranks and occupation; the explicit Weyl expansion and Schur reconstruction interfaces are absent from the required learning operations.",
+      "correction": "Add finite Weyl-coordinate and Schur-elimination coverage with a nonsingular block and retained singular branch; identify the physical occupation-selection premise separately.",
+      "source_locations": [
+        "S02#/backbone_sequence/15/weyl_basis",
+        "S02#/backbone_sequence/15/schur_interface",
+        "S03#/findings/6"
+      ],
+      "affected_checkpoint_ids": [
+        "course-20:lesson-03",
+        "course-20:lesson-07"
+      ],
+      "disposition": "corrected",
+      "verification": "PASS: added explicit source coverage rows, lesson requirements and subject-kernel operations in the affected Desktop input contracts; JSON parsing verified. This verifies a blueprint obligation, not completed lesson content. Current project packet read confirms the earlier source supplement rows or first-three source contract.",
+      "original_record_location": "C:\\Users\\info\\Desktop\\K-Field_Training_Course\\kfield-20-family-structure-and-simultaneous-occupation\\input-contract.json",
+      "approval_scope": "Blueprint obligation only"
+    },
+    {
+      "id": "SC-004",
+      "audit_level": "cumulative",
+      "category": "subject coverage",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-18-history-orientation-and-chirality\\input-contract.json",
+      "section": "/coverage_matrix; series coverage of BR-05 and BR-10",
+      "severity": "major",
+      "defect": "The angular/spin representation tower and CP-capability/real-carry obstruction have no explicit introduction, practice or assessment row anywhere in the 30-course map.",
+      "correction": "Add bounded source-reading and small arithmetic/matrix cases in course-18, after complex carriers and gauge transport. Keep full representation classification as a named extension and preserve each branch boundary.",
+      "source_locations": [
+        "S02#/branch_proofs/5",
+        "S02#/proof_nodes/4",
+        "S02#/proof_nodes/18",
+        "S02#/proof_nodes/25",
+        "S02#/branch_proofs/10",
+        "S02#/proof_nodes/9",
+        "S02#/proof_nodes/76"
+      ],
+      "affected_checkpoint_ids": [
+        "course-18:lesson-06",
+        "course-18:lesson-07"
+      ],
+      "disposition": "corrected",
+      "verification": "PASS: added explicit source coverage rows, lesson requirements and subject-kernel operations in the affected Desktop input contracts; JSON parsing verified. This verifies a blueprint obligation, not completed lesson content. Current project packet read confirms the earlier source supplement rows or first-three source contract.",
+      "original_record_location": "C:\\Users\\info\\Desktop\\K-Field_Training_Course\\kfield-18-history-orientation-and-chirality\\input-contract.json",
+      "approval_scope": "Blueprint obligation only"
+    },
+    {
+      "id": "SC-005",
+      "audit_level": "cumulative",
+      "category": "subject coverage",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\input-contract.json",
+      "section": "/course_map/2; /coverage_matrix",
+      "severity": "major",
+      "defect": "The seven-coordinate syndrome is covered, but the separate Walsh/S3 compatibility branch BR-11 is not assigned. Equal dimension can therefore be mistaken for a canonical physical map.",
+      "correction": "Add a character-table scope exercise with the source's noncanonical compatibility guard; require an explicit operator/intertwiner and pinned A,L,W7 for full replay.",
+      "source_locations": [
+        "S02#/branch_proofs/11",
+        "S02#/proof_nodes/10",
+        "S02#/proof_nodes/11",
+        "S02#/proof_nodes/23",
+        "S03#/findings/8"
+      ],
+      "affected_checkpoint_ids": [
+        "course-21:lesson-03",
+        "course-21:lesson-04"
+      ],
+      "disposition": "corrected",
+      "verification": "PASS: added explicit source coverage rows, lesson requirements and subject-kernel operations in the affected Desktop input contracts; JSON parsing verified. This verifies a blueprint obligation, not completed lesson content. Current project packet read confirms the earlier source supplement rows or first-three source contract.",
+      "original_record_location": "C:\\Users\\info\\Desktop\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\input-contract.json",
+      "approval_scope": "Blueprint obligation only"
+    },
+    {
+      "id": "SC-006",
+      "audit_level": "local",
+      "category": "assessment prerequisite",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\input-contract.json",
+      "section": "/capstone_specification/task; /course_map/4; /course_map/5",
+      "severity": "major",
+      "defect": "The capstone explicitly requires reaction-energy bookkeeping, but no preceding course-21 operation teaches or practices that calculation; atomic inventory and binding interpretation alone do not close it.",
+      "correction": "Teach a small explicitly supplied mass-to-energy conversion with units and endpoint conventions before assessment, retaining every mass/binding difference and avoiding any inference of rate or extractable power.",
+      "source_locations": [
+        "S05#/records/28",
+        "S05#/records/29",
+        "S05#/records/30"
+      ],
+      "affected_checkpoint_ids": [
+        "course-21:lesson-05",
+        "course-21:lesson-06",
+        "course-21:capstone"
+      ],
+      "disposition": "corrected",
+      "verification": "PASS: added explicit source coverage rows, lesson requirements and subject-kernel operations in the affected Desktop input contracts; JSON parsing verified. This verifies a blueprint obligation, not completed lesson content. Current project packet read confirms the earlier source supplement rows or first-three source contract.",
+      "original_record_location": "C:\\Users\\info\\Desktop\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\input-contract.json",
+      "approval_scope": "Blueprint obligation only"
+    },
+    {
+      "id": "SC-007",
+      "audit_level": "cumulative",
+      "category": "source fidelity",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-28-photometer-experiments-and-information-preserving-analysis\\input-contract.json",
+      "section": "/course_map/3; /course_map/5",
+      "severity": "major",
+      "defect": "The signal strand asks for symmetry and harmonic comparisons, but does not explicitly cover the S05 finding that an antipodally symmetric synthetic comparator has zero odd harmonics and cannot test observed odd channels or the odd {1,3,9,27} scale ladder.",
+      "correction": "Add a hand-checkable parity-nullspace diagnostic in courses26/28; retain odd measured modes and the proposed 25-27-to-2 triad as separate source-reported branches.",
+      "source_locations": [
+        "S05#/records/15",
+        "S05#/records/16",
+        "S05#/records/20",
+        "S05#/records/25",
+        "S05#/records/26",
+        "S05#/records/27"
+      ],
+      "affected_checkpoint_ids": [
+        "course-26:lesson-05",
+        "course-28:lesson-04",
+        "course-28:lesson-06"
+      ],
+      "disposition": "corrected",
+      "verification": "PASS: added explicit source coverage rows, lesson requirements and subject-kernel operations in the affected Desktop input contracts; JSON parsing verified. This verifies a blueprint obligation, not completed lesson content. Current project packet read confirms the earlier source supplement rows or first-three source contract.",
+      "original_record_location": "C:\\Users\\info\\Desktop\\K-Field_Training_Course\\kfield-28-photometer-experiments-and-information-preserving-analysis\\input-contract.json",
+      "approval_scope": "Blueprint obligation only"
+    },
+    {
+      "id": "SC-008",
+      "audit_level": "local",
+      "category": "mathematical domain",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-18-history-orientation-and-chirality\\input-contract.json",
+      "section": "/course_map/1; /course_map/2; /capstone_specification",
+      "severity": "major",
+      "defect": "The finite history model is not explicitly guarded against asserting both W*W=I and WW*!=I on the same finite square carrier. Those source identities describe an infinite shift; a truncated square shift has an endpoint defect.",
+      "correction": "Use rectangular prefix maps or preserve both root and truncation-boundary defects in finite examples; scope the one-sided infinite isometry separately.",
+      "source_locations": [
+        "S02#/backbone_sequence/13/definitions"
+      ],
+      "affected_checkpoint_ids": [
+        "course-18:lesson-02",
+        "course-18:lesson-03",
+        "course-18:capstone"
+      ],
+      "disposition": "corrected",
+      "verification": "PASS: added explicit source coverage rows, lesson requirements and subject-kernel operations in the affected Desktop input contracts; JSON parsing verified. This verifies a blueprint obligation, not completed lesson content. Current project packet read confirms the earlier source supplement rows or first-three source contract.",
+      "original_record_location": "C:\\Users\\info\\Desktop\\K-Field_Training_Course\\kfield-18-history-orientation-and-chirality\\input-contract.json",
+      "approval_scope": "Blueprint obligation only"
+    },
+    {
+      "id": "E11-SOURCE",
+      "audit_level": "cumulative",
+      "category": "exact topic source grounding",
+      "severity": "major",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\input-contract.json",
+      "section": "/sources; /course_map/1 through /course_map/4",
+      "defect": "Graph discovery routes alone do not supply the exact galaxy basis/phase/units/response contract needed by course29.",
+      "correction": "Portable amendment SA-29-E11 binds four verified sources, their locators and typed roles; supplies finite metric, phase and skew-assignment examples.",
+      "verification": "G01-G04 hashes and bounded source sections verified; portable requirements authored. Parent application and teaching recheck are pending.",
+      "disposition": "unresolved",
+      "resolution_state": "ready_to_apply",
+      "affected_checkpoint_ids": [
+        "course-29:lesson-02",
+        "course-29:lesson-03",
+        "course-29:lesson-04",
+        "course-29:lesson-05",
+        "course-29:capstone"
+      ],
+      "source_locations": [
+        "G01",
+        "G02",
+        "G03",
+        "G04"
+      ]
+    }
+  ],
+  "source_tensions": [
+    {
+      "id": "ST01",
+      "title": "Incomplete declared dependency graph",
+      "locations": [
+        "S03#/findings/0",
+        "S02#/backbone_sequence/19/requires"
+      ],
+      "required_handling": "Derive the internal module DAG from requires, with M01-M18 entering M20; exclude M19 from mathematical closure.",
+      "course_numbers": [
+        30
+      ],
+      "status": "source_local_tension_preserved; not a new blanket invalidation"
+    },
+    {
+      "id": "ST02",
+      "title": "Compressed formula/operation DAG",
+      "locations": [
+        "S03#/findings/1",
+        "S03#/findings/2"
+      ],
+      "required_handling": "Keep missing proof-body status and operation-cycle repairs visible; do not infer a dependency-complete proof from the title or claimed formula count.",
+      "course_numbers": [
+        13,
+        30
+      ],
+      "status": "source_local_tension_preserved; not a new blanket invalidation"
+    },
+    {
+      "id": "ST03",
+      "title": "Carrier-order conflict",
+      "locations": [
+        "S02#/typed_conventions/carrier_order",
+        "S02#/backbone_sequence/9/definitions",
+        "S03#/findings/3"
+      ],
+      "required_handling": "Use color-first; retain an explicit permutation for weak-first views.",
+      "course_numbers": [
+        14,
+        15,
+        16,
+        19
+      ],
+      "status": "source_local_tension_preserved; not a new blanket invalidation"
+    },
+    {
+      "id": "ST04",
+      "title": "Stale reciprocal witnesses",
+      "locations": [
+        "S02#/backbone_sequence/1/reciprocal_witness",
+        "S02#/backbone_sequence/1/result",
+        "S03#/findings/4"
+      ],
+      "required_handling": "Canonical locked values govern active calculations; displaced witnesses retain separate provenance.",
+      "course_numbers": [
+        3,
+        4,
+        5,
+        25
+      ],
+      "status": "source_local_tension_preserved; not a new blanket invalidation"
+    },
+    {
+      "id": "ST05",
+      "title": "Detail-product hypotheses omitted",
+      "locations": [
+        "S02#/backbone_sequence/3/proof/3",
+        "S03#/findings/5"
+      ],
+      "required_handling": "Specify conditional-expectation/bimodule hypotheses beyond Q=I-E.",
+      "course_numbers": [
+        7
+      ],
+      "status": "source_local_tension_preserved; not a new blanket invalidation"
+    },
+    {
+      "id": "ST06",
+      "title": "Occupation status and guard conflict",
+      "locations": [
+        "S02#/proof_nodes/78/shared_proof_steps/0/guard",
+        "S02#/proof_nodes/78/formula/status",
+        "S03#/findings/6"
+      ],
+      "required_handling": "Record exact claim and guard together; carry source-reported VERIFIED_NOT_LOADED where needed, without invented repair.",
+      "course_numbers": [
+        20,
+        30
+      ],
+      "status": "source_local_tension_preserved; not a new blanket invalidation"
+    },
+    {
+      "id": "ST07",
+      "title": "Exact QPC wording and missing matrices",
+      "locations": [
+        "S03#/findings/7",
+        "S03#/findings/8",
+        "S02#/branch_proofs/12"
+      ],
+      "required_handling": "Pin full replay objects, precision and nonzero closure coordinate before exact-replay claims.",
+      "course_numbers": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        27
+      ],
+      "status": "source_local_tension_preserved; not a new blanket invalidation"
+    },
+    {
+      "id": "ST08",
+      "title": "Lost branch boundaries",
+      "locations": [
+        "S03#/findings/9",
+        "S02#/branch_proofs"
+      ],
+      "required_handling": "Propagate constituent logical boundaries even when a compressed endpoint field is null.",
+      "course_numbers": [
+        18,
+        21,
+        23,
+        30
+      ],
+      "status": "source_local_tension_preserved; not a new blanket invalidation"
+    },
+    {
+      "id": "ST09",
+      "title": "Incomplete theorem premise wording",
+      "locations": [
+        "S03#/findings/10",
+        "S03#/findings/11",
+        "S02#/constitutive_principles"
+      ],
+      "required_handling": "List locked roots, derived theorems, constitutive premises EG-A1 through A6, domain hypotheses, renderer/state coordinates and extensions separately.",
+      "course_numbers": [
+        7,
+        19,
+        30
+      ],
+      "status": "source_local_tension_preserved; not a new blanket invalidation"
+    },
+    {
+      "id": "ST10",
+      "title": "Rounding and decimal scope",
+      "locations": [
+        "S03#/findings/12",
+        "S02#/backbone_sequence/5"
+      ],
+      "required_handling": "Choose a declared half-tie convention matching epsilon=Q-Kr; distinguish exact algebra from finite-decimal witnesses.",
+      "course_numbers": [
+        3,
+        8,
+        9
+      ],
+      "status": "source_local_tension_preserved; not a new blanket invalidation"
+    },
+    {
+      "id": "ST11",
+      "title": "Hodge exponent correction",
+      "locations": [
+        "S01#/backbone_sequence/12/definitions",
+        "S02#/backbone_sequence/12/hodge_normalization_theorem",
+        "S04#/hodge_correction_proof"
+      ],
+      "required_handling": "Use1/3 and2/3 powers for delta=det(M); retain older definitions as superseded source-local branches.",
+      "course_numbers": [
+        17
+      ],
+      "status": "source_local_tension_preserved; not a new blanket invalidation"
+    },
+    {
+      "id": "ST12",
+      "title": "Affine origin omission",
+      "locations": [
+        "S02#/backbone_sequence/1/proof/3",
+        "S02#/backbone_sequence/2/proof/0"
+      ],
+      "required_handling": "With nonzero origin, source pairings require x-O_K or p-O_K.",
+      "course_numbers": [
+        4,
+        5
+      ],
+      "status": "source_local_tension_preserved; not a new blanket invalidation"
+    },
+    {
+      "id": "ST13",
+      "title": "Integer versus field exact sequence",
+      "locations": [
+        "S02#/proof_nodes/10"
+      ],
+      "required_handling": "Auditor domain concern: equal dimensions and LA=0 establish equality over a field, not automatically equality of integer lattices; require saturation/index witness for the latter.",
+      "course_numbers": [
+        21
+      ],
+      "status": "source_local_tension_preserved; not a new blanket invalidation"
+    },
+    {
+      "id": "ST14",
+      "title": "Integration versus essence closure",
+      "locations": [
+        "I01#/open_obligations",
+        "I02#/direct_authority_modules",
+        "S02#/exact_logical_extent",
+        "S03#/authoritative_status"
+      ],
+      "required_handling": "Preserve the two authority contracts. Source-local mature closure and independent integration dispositions remain distinct.",
+      "course_numbers": [
+        14,
+        20,
+        30
+      ],
+      "status": "source_local_tension_preserved; not a new blanket invalidation"
+    },
+    {
+      "id": "ST15",
+      "title": "Galaxy source roles and historical constants",
+      "locations": [
+        "G02 pp3-4,7,20",
+        "G03#/reconstruction_sequence",
+        "G04 p4"
+      ],
+      "required_handling": "Distinct galaxy-axis, sky-position, historical Cell3 response and mature locked Cell3 constructions must keep their origins, units and conventions.",
+      "course_numbers": [
+        29
+      ],
+      "status": "source_local_tension_preserved; not a new blanket invalidation"
+    }
+  ],
+  "source_fidelity_invariants": [
+    "Retain the exact source path/hash, RFC6901 occurrence or page/line locator, namespace, raw status and evidence class. Equal values do not establish occurrence identity.",
+    "Separate source-reported observations, derived transforms, inferred structure, proposed mechanisms, established reference relations and unresolved information.",
+    "Source trust labels and D/D+E module types do not confer formal authority. Source-local VERIFIED_FROZEN and VERIFIED_NOT_LOADED remain attributed statuses.",
+    "The integration preserves direct authority only for compiler M03,M07,M08; other module dispositions remain conditional/unresolved as recorded. Global forms Z1,Z2,Z3,Z6 remain admitted; the six two-question portfolios remain designs.",
+    "Preserve the complete premise contract: locked geometry, constitutive principles, domain hypotheses, typed state/renderer coordinates and branch-specific logical boundaries.",
+    "Use mature locked lexemes for active Cell3 values, ICRS columns, intentional negative determinant, half-open ownership and explicit affine origin. Never silently rotate, transpose or mix historical constants.",
+    "Preserve finite versus infinite scope, native coefficient domains, self-adjointness, positive metric assumptions, singular strata, normalization and rounding contracts.",
+    "Keep every residual field, syndrome, carry, sign, weak channel, phase, history and boundary state. Source provenance differences are separately typed rather than misclassified as measured residuals.",
+    "Retain transformations and removed components or replay rules so original observations can be reconstructed from existing sources without duplicating archives.",
+    "Preserve physical velocity versus phase-transformed vectors; source-reported measurement versus finite replay; model input-equivalent energy versus measured transfer; phase versus force.",
+    "Keep galaxy sky-position and axis pathways distinct; physical radial calibration is absent from the sky-position source. Compare dimensionless quantities unless an independent scale is supplied.",
+    "Assess only explicitly taught operations. Source-reading extensions may preserve advanced branches without silently requiring university-level calculations."
+  ],
+  "application_handoff": {
+    "file": "blueprint-amendments.json",
+    "parent_project_modified": false,
+    "existing_source_repairs_verified": true,
+    "next_actions": [
+      "Apply portable educational/source requirements by stable ID without duplicating saved source rows.",
+      "Apply SA-29-E11 and retain its exact source-role map.",
+      "Run the independent teaching recheck; keep E05 as actual-content acceptance, not a promise-only pass.",
+      "During course production retrieve missing full replay objects before any claimed source replay; otherwise preserve the explicit retrieval gap.",
+      "Use the user-authorized storage adapter without weakening all other course validation checks."
+    ]
+  },
+  "validation": {
+    "status": "see validation-report.json",
+    "course_validator_run": false,
+    "teaching_acceptance": false,
+    "finished_course_validation": false,
+    "location_adapter_note": "Stock validator's Desktop-only location rule conflicts with the user override; parent-owned location-only adaptation is separate from this report."
+  },
+  "ownership": "Auditor returns edit ownership to parent. No messaging calls, new tasks or ongoing monitoring are used.",
+  "supersedes": "The controlled-stop checkpoint is historical. This report completes that bounded audit; its pending report-authoring steps are now fulfilled."
+}

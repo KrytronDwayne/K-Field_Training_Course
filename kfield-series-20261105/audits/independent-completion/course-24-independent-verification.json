@@ -1,0 +1,2221 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-24",
+  "created_utc": "2026-11-05T20:08:22.917408+00:00",
+  "status": "passed",
+  "manifest_sha256": "c43ab78988dbeee2ab778ad847a76be128240a64e9463361a4735342ad189721",
+  "audited_files": {
+    "audit_report.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\audit_report.json",
+      "sha256": "9e9eaea0ae1e7f880ca1637aa4bcd3b09a85217ea07c204f149a32aff2ce6a89"
+    },
+    "author_course.py": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\author_course.py",
+      "sha256": "70f7d5d02f4c70d33628eaba21924ca79a167baeadf7bcce7beea70b2c1fc3cf"
+    },
+    "capstone.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\capstone.md",
+      "sha256": "e0590c87f33bca90f645048d2cf07d5419917edd46d4ece70948582f3c3c6536"
+    },
+    "completion_report.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\completion_report.json",
+      "sha256": "9be9b73cf5271857a0bd8fe93fa030e47500e90d239f3cb09bacb3d81223147c"
+    },
+    "course-map.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\course-map.md",
+      "sha256": "f2db7fcc1b8674d5a8d907d2c7320f12cbe3bfd376175d4fa67d090d72fb5461"
+    },
+    "course.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\course.md",
+      "sha256": "f364075d81df33a27d5a94a511f9f49a1fff046a41f1a1fe39ffc14058d04942"
+    },
+    "finalize.py": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\finalize.py",
+      "sha256": "d94b3603a038b2b162c89dbfacc65f81220d1056b67bf52df8c659a6841e4006"
+    },
+    "finish_course.py": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\finish_course.py",
+      "sha256": "16a9e8bff8ea8232a8ad465003cdb6e7cad17eb0a6c50da7a9ff520f6b39e20d"
+    },
+    "input-contract.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\input-contract.json",
+      "sha256": "89b2c8a7c198dfe74ae11cf7dcee824f4731b6a51cf13869536e216b0ef028f5"
+    },
+    "launch-prompt.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\launch-prompt.md",
+      "sha256": "48165069ec0c6211efcdf1fb70262c09de213920ef8916d5bfa9ec5547241beb"
+    },
+    "lesson-01.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\lesson-01.md",
+      "sha256": "94fdaf01836b7834df6d532d5f5b35aac467e97eb778423f674d13055f81f276"
+    },
+    "lesson-02.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\lesson-02.md",
+      "sha256": "022c89755c378fcfeccfc3a9eb765a0a9a76c63d419c920c0250926b0e3cfe53"
+    },
+    "lesson-03.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\lesson-03.md",
+      "sha256": "5fa81ac8b5b758f0b8482d57fca2380505dcc15724da195b4403369df6caaa35"
+    },
+    "lesson-04.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\lesson-04.md",
+      "sha256": "077f4405a9345f152373c06797f3c59cba5d591ba014baf1256a2647866b3af5"
+    },
+    "lesson-05.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\lesson-05.md",
+      "sha256": "c6379a41c2ccdae6c4bd0d2d4f8042432118427e0c238598e03ed4aaf7b00ab0"
+    },
+    "lesson-06.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\lesson-06.md",
+      "sha256": "17645d78a3593b7e91180cbd8a5954c497419f97be0ee51bd9cc36c671b90b58"
+    },
+    "lesson-07.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\lesson-07.md",
+      "sha256": "564161175bb5424d6a01bfbbec169885939da7c4c6243937feabdc3d3fd16b1c"
+    },
+    "manifest.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\manifest.json",
+      "sha256": "c43ab78988dbeee2ab778ad847a76be128240a64e9463361a4735342ad189721"
+    },
+    "repair_authoring_recovery.py": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\repair_authoring_recovery.py",
+      "sha256": "0d8982984ba537e38dedfe23d246619b622f61e96ba8d647cad9d28bc4288ac7"
+    },
+    "sources.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\sources.md",
+      "sha256": "7d0a968c68c8c186f4d6a1900a5fa22d3646a9c7963c7e7a04dba82c60fa3290"
+    },
+    "teacher-guide.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\teacher-guide.md",
+      "sha256": "4770a5305f3a6cb43fabff49ca7e144255a76adcc4d56489c8eb417e413d8b45"
+    },
+    "terminology.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\terminology.md",
+      "sha256": "408b74ebad3cd3eb7fccae5164d32667f3c87ad11cec981fc5d7bbbdbe7ac6a6"
+    },
+    "validator-result.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\validator-result.json",
+      "sha256": "a208d11391aaebfe0b7e5cf06a0e0467b5b5d7bfcb7d0ca3ecc0a0758586824f"
+    },
+    "verify_examples.py": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\verify_examples.py",
+      "sha256": "2fa30490f5e2f218416db111145ac98b4c1b49135db9cb667de7a95a921fcddd"
+    },
+    "worked-example-verification.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\worked-example-verification.json",
+      "sha256": "4cdc3bee95d027debcdd97a76bb27ef396311c84e0de770fba26fd6330e614e8"
+    }
+  },
+  "source_hashes": [
+    {
+      "id": "S01",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "role": "Background archival provenance; no backbone theorem assigned by Course24."
+    },
+    {
+      "id": "S02",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "role": "Background archival provenance; no backbone theorem assigned by Course24."
+    },
+    {
+      "id": "S03",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "role": "Background archival provenance; no backbone theorem assigned by Course24."
+    },
+    {
+      "id": "S04",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+      "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "role": "Background archival provenance; no backbone theorem assigned by Course24."
+    },
+    {
+      "id": "S05",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+      "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+      "role": "Background archival provenance; no backbone theorem assigned by Course24."
+    },
+    {
+      "id": "physical-authority",
+      "path": "Z:\\Archive_20260911\\Pre_Aug14\\K-Field_linear_inertia_derivation_1784989727.json",
+      "sha256": "4651a532fe43e8091748ef4f7e28bb899e1a2ea798d689ba1724e99530cd55ab",
+      "role": "Physical Earth/CMB vector and corresponding speed; read in place."
+    }
+  ],
+  "teaching_receipt": {
+    "path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-teaching-auditor\\outputs\\teaching-verification-24-27.json",
+    "sha256": "4e96da088122d472476f9ab06fe6c3d8fbbad2252315d304843a6c5e64ab0e04"
+  },
+  "actual_capstone_links": [
+    {
+      "step_id": "C24-CAP-01",
+      "lesson": "lesson-01.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C24.01-E1",
+          "line": 14
+        },
+        "worked_example_id": {
+          "id": "C24.01-W1",
+          "line": 24
+        },
+        "prior_practice_id": {
+          "id": "C24.01-P1",
+          "line": 36
+        },
+        "diagnostic_id": {
+          "id": "C24.01-D1",
+          "line": 42
+        }
+      }
+    },
+    {
+      "step_id": "C24-CAP-02",
+      "lesson": "lesson-02.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C24.02-E1",
+          "line": 14
+        },
+        "worked_example_id": {
+          "id": "C24.02-W1",
+          "line": 33
+        },
+        "prior_practice_id": {
+          "id": "C24.02-P1",
+          "line": 37
+        },
+        "diagnostic_id": {
+          "id": "C24.02-D1",
+          "line": 43
+        }
+      }
+    },
+    {
+      "step_id": "C24-CAP-03",
+      "lesson": "lesson-03.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C24.03-E1",
+          "line": 14
+        },
+        "worked_example_id": {
+          "id": "C24.03-W1",
+          "line": 24
+        },
+        "prior_practice_id": {
+          "id": "C24.03-P1",
+          "line": 37
+        },
+        "diagnostic_id": {
+          "id": "C24.03-D1",
+          "line": 47
+        }
+      }
+    },
+    {
+      "step_id": "C24-CAP-04",
+      "lesson": "lesson-04.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C24.04-E1",
+          "line": 14
+        },
+        "worked_example_id": {
+          "id": "C24.04-W1",
+          "line": 34
+        },
+        "prior_practice_id": {
+          "id": "C24.04-P1",
+          "line": 38
+        },
+        "diagnostic_id": {
+          "id": "C24.04-D1",
+          "line": 46
+        }
+      }
+    },
+    {
+      "step_id": "C24-CAP-05",
+      "lesson": "lesson-05.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C24.05-E1",
+          "line": 14
+        },
+        "worked_example_id": {
+          "id": "C24.05-W1",
+          "line": 22
+        },
+        "prior_practice_id": {
+          "id": "C24.05-P1",
+          "line": 26
+        },
+        "diagnostic_id": {
+          "id": "C24.05-D1",
+          "line": 32
+        }
+      }
+    },
+    {
+      "step_id": "C24-CAP-06",
+      "lesson": "lesson-06.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C24.06-E1",
+          "line": 14
+        },
+        "worked_example_id": {
+          "id": "C24.06-W1",
+          "line": 20
+        },
+        "prior_practice_id": {
+          "id": "C24.06-P1",
+          "line": 26
+        },
+        "diagnostic_id": {
+          "id": "C24.06-D1",
+          "line": 34
+        }
+      }
+    },
+    {
+      "step_id": "C24-CAP-07",
+      "lesson": "lesson-07.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C24.07-E1",
+          "line": 14
+        },
+        "worked_example_id": {
+          "id": "C24.07-W1",
+          "line": 22
+        },
+        "prior_practice_id": {
+          "id": "C24.07-P1",
+          "line": 41
+        },
+        "diagnostic_id": {
+          "id": "C24.07-D1",
+          "line": 49
+        }
+      }
+    }
+  ],
+  "markdown_tables": [
+    {
+      "file": "lesson-02.md",
+      "header_line": 20,
+      "columns": 4
+    },
+    {
+      "file": "lesson-03.md",
+      "header_line": 28,
+      "columns": 2
+    },
+    {
+      "file": "lesson-07.md",
+      "header_line": 24,
+      "columns": 2
+    },
+    {
+      "file": "course-map.md",
+      "header_line": 7,
+      "columns": 5
+    },
+    {
+      "file": "terminology.md",
+      "header_line": 3,
+      "columns": 3
+    },
+    {
+      "file": "sources.md",
+      "header_line": 5,
+      "columns": 4
+    },
+    {
+      "file": "teacher-guide.md",
+      "header_line": 5,
+      "columns": 3
+    },
+    {
+      "file": "course.md",
+      "header_line": 82,
+      "columns": 4
+    },
+    {
+      "file": "course.md",
+      "header_line": 146,
+      "columns": 2
+    },
+    {
+      "file": "course.md",
+      "header_line": 353,
+      "columns": 2
+    }
+  ],
+  "runtime": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+  "verifier_path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-series-source-auditor\\work\\audit_course24.py",
+  "verifier_sha256": "ab4a249abfc6c3676befdecc55577988a99a5e1a55f4981a53c76802d55f6bac",
+  "check_count": 440,
+  "checks_by_group": {
+    "runtime": 1,
+    "integrity": 74,
+    "source-integrity": 7,
+    "assembly": 16,
+    "actual-links": 38,
+    "pedagogy-structure": 42,
+    "pacing": 9,
+    "rubric": 1,
+    "markdown-tables": 118,
+    "syntax-only": 4,
+    "authoring-diagnosis": 1,
+    "fixed-frame": 14,
+    "spherical": 6,
+    "floating-arithmetic": 43,
+    "nested-chain": 7,
+    "moving-frame": 4,
+    "residual": 2,
+    "derivative-probe": 4,
+    "carried-frame": 8,
+    "display-scales": 3,
+    "physical-authority": 4,
+    "source-boundaries": 34
+  },
+  "failures": [],
+  "results": {
+    "authoring_body_comparison": [
+      {
+        "lesson": "lesson-01",
+        "author_call_line": 17,
+        "body_matches_current_lesson": true,
+        "difference_is_only_unpropagated_repair": true
+      },
+      {
+        "lesson": "lesson-02",
+        "author_call_line": 55,
+        "body_matches_current_lesson": true
+      },
+      {
+        "lesson": "lesson-03",
+        "author_call_line": 94,
+        "body_matches_current_lesson": true
+      },
+      {
+        "lesson": "lesson-04",
+        "author_call_line": 137,
+        "body_matches_current_lesson": true
+      },
+      {
+        "lesson": "lesson-05",
+        "author_call_line": 179,
+        "body_matches_current_lesson": true
+      },
+      {
+        "lesson": "lesson-06",
+        "author_call_line": 207,
+        "body_matches_current_lesson": true
+      },
+      {
+        "lesson": "lesson-07",
+        "author_call_line": 237,
+        "body_matches_current_lesson": true
+      }
+    ],
+    "fixed_frame": {
+      "rotation": [
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "origin_km": [
+        5,
+        3,
+        1
+      ],
+      "local_point_km": [
+        2,
+        1,
+        0
+      ],
+      "rotated_offset_km": [
+        -1,
+        2,
+        0
+      ],
+      "world_point_km": [
+        4,
+        5,
+        1
+      ],
+      "trajectory": [
+        {
+          "elapsed_s": 0,
+          "utc": "2026-11-05T00:00:00+00:00",
+          "position_km": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "elapsed_s": 2,
+          "utc": "2026-11-05T00:00:02+00:00",
+          "position_km": [
+            5,
+            0,
+            3
+          ]
+        },
+        {
+          "elapsed_s": 4,
+          "utc": "2026-11-05T00:00:04+00:00",
+          "position_km": [
+            9,
+            -2,
+            3
+          ]
+        },
+        {
+          "elapsed_s": 6,
+          "utc": "2026-11-05T00:00:06+00:00",
+          "position_km": [
+            13,
+            -4,
+            3
+          ]
+        }
+      ]
+    },
+    "spherical": {
+      "worked_exact": [
+        "0",
+        "sqrt(3)",
+        "1"
+      ],
+      "worked_numeric": {
+        "actual": [
+          1.0605752387249069e-16,
+          1.7320508075688774,
+          0.9999999999999999
+        ],
+        "expected": [
+          0,
+          1.7320508075688772,
+          1
+        ],
+        "actual_minus_expected": [
+          1.0605752387249069e-16,
+          2.220446049250313e-16,
+          -1.1102230246251565e-16
+        ],
+        "absolute_arithmetic_tolerance": 1e-12
+      },
+      "norm": {
+        "actual": 2,
+        "expected": 2,
+        "actual_minus_expected": [
+          0
+        ],
+        "absolute_arithmetic_tolerance": 1e-12
+      },
+      "practice": {
+        "actual": [
+          3,
+          0,
+          0
+        ],
+        "expected": [
+          3,
+          0,
+          0
+        ],
+        "actual_minus_expected": [
+          0,
+          0,
+          0
+        ],
+        "absolute_arithmetic_tolerance": 1e-12
+      },
+      "diagnostic": {
+        "actual": [
+          -2,
+          2.4492935982947064e-16,
+          0
+        ],
+        "expected": [
+          -2,
+          0,
+          0
+        ],
+        "actual_minus_expected": [
+          0,
+          2.4492935982947064e-16,
+          0
+        ],
+        "absolute_arithmetic_tolerance": 1e-12
+      },
+      "common_vector": [
+        1,
+        0,
+        1
+      ],
+      "unit_vector": [
+        0.7071067811865475,
+        0,
+        0.7071067811865475
+      ],
+      "reconstruction": {
+        "actual": [
+          1,
+          0,
+          1
+        ],
+        "expected": [
+          1,
+          0,
+          1
+        ],
+        "actual_minus_expected": [
+          0,
+          0,
+          0
+        ],
+        "absolute_arithmetic_tolerance": 1e-12
+      },
+      "angles_degrees": {
+        "actual": [
+          0,
+          44.99999999999999
+        ],
+        "expected": [
+          0,
+          45
+        ],
+        "actual_minus_expected": [
+          0,
+          -7.105427357601002e-15
+        ],
+        "absolute_arithmetic_tolerance": 1e-12
+      },
+      "edge_cases": {
+        "zero_vector": "undefined direction",
+        "celestial_poles": "RA nonunique; all azimuths map to the same point"
+      }
+    },
+    "trigonometric_table": [
+      {
+        "degrees": 0,
+        "cos_exact": "1",
+        "sin_exact": "0",
+        "numeric": {
+          "actual": [
+            1,
+            0
+          ],
+          "expected": [
+            1,
+            0
+          ],
+          "actual_minus_expected": [
+            0,
+            0
+          ],
+          "absolute_arithmetic_tolerance": 1e-12
+        }
+      },
+      {
+        "degrees": 30,
+        "cos_exact": "sqrt(3)/2",
+        "sin_exact": "1/2",
+        "numeric": {
+          "actual": [
+            0.8660254037844387,
+            0.49999999999999994
+          ],
+          "expected": [
+            0.8660254037844386,
+            0.5
+          ],
+          "actual_minus_expected": [
+            1.1102230246251565e-16,
+            -5.551115123125783e-17
+          ],
+          "absolute_arithmetic_tolerance": 1e-12
+        }
+      },
+      {
+        "degrees": 45,
+        "cos_exact": "sqrt(2)/2",
+        "sin_exact": "sqrt(2)/2",
+        "numeric": {
+          "actual": [
+            0.7071067811865476,
+            0.7071067811865476
+          ],
+          "expected": [
+            0.7071067811865476,
+            0.7071067811865476
+          ],
+          "actual_minus_expected": [
+            0,
+            0
+          ],
+          "absolute_arithmetic_tolerance": 1e-12
+        }
+      },
+      {
+        "degrees": 60,
+        "cos_exact": "1/2",
+        "sin_exact": "sqrt(3)/2",
+        "numeric": {
+          "actual": [
+            0.5000000000000001,
+            0.8660254037844386
+          ],
+          "expected": [
+            0.5,
+            0.8660254037844386
+          ],
+          "actual_minus_expected": [
+            1.1102230246251565e-16,
+            0
+          ],
+          "absolute_arithmetic_tolerance": 1e-12
+        }
+      },
+      {
+        "degrees": 90,
+        "cos_exact": "0",
+        "sin_exact": "1",
+        "numeric": {
+          "actual": [
+            6.123233995736766e-17,
+            1
+          ],
+          "expected": [
+            0,
+            1
+          ],
+          "actual_minus_expected": [
+            6.123233995736766e-17,
+            0
+          ],
+          "absolute_arithmetic_tolerance": 1e-12
+        }
+      },
+      {
+        "degrees": 180,
+        "cos_exact": "-1",
+        "sin_exact": "0",
+        "numeric": {
+          "actual": [
+            -1,
+            1.2246467991473532e-16
+          ],
+          "expected": [
+            -1,
+            0
+          ],
+          "actual_minus_expected": [
+            0,
+            1.2246467991473532e-16
+          ],
+          "absolute_arithmetic_tolerance": 1e-12
+        }
+      }
+    ],
+    "nested_chain": {
+      "initial_m": [
+        1,
+        2,
+        3
+      ],
+      "terms_m_s": [
+        [
+          10,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "displacements_m": [
+        [
+          20,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          0
+        ],
+        [
+          -2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2
+        ]
+      ],
+      "total_m_s": [
+        9,
+        2,
+        1
+      ],
+      "endpoint_m": [
+        19,
+        6,
+        5
+      ],
+      "alternative_terms_m_s": [
+        [
+          10,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "alternative_displacements_m": [
+        [
+          20,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          0
+        ],
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2
+        ]
+      ],
+      "alternative_endpoint_m": [
+        23,
+        6,
+        5
+      ],
+      "endpoint_change_m": [
+        4,
+        0,
+        0
+      ],
+      "comparison_residual": "No measured comparison supplied; not interpreted as zero physical residual."
+    },
+    "moving_frame": {
+      "course_cases": [
+        {
+          "time": "zero",
+          "velocity_terms_m_s": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "velocity_m_s": [
+            1,
+            1,
+            0
+          ],
+          "acceleration_terms_m_s2": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              -1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "acceleration_m_s2": [
+            -1,
+            0,
+            0
+          ]
+        },
+        {
+          "time": "pi/2 seconds",
+          "velocity_terms_m_s": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              -1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "velocity_m_s": [
+            0,
+            0,
+            0
+          ],
+          "acceleration_terms_m_s2": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              -1,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "acceleration_m_s2": [
+            0,
+            -1,
+            0
+          ]
+        }
+      ],
+      "model_m_s": [
+        "1",
+        "1",
+        "0"
+      ],
+      "comparison_m_s": [
+        "6/5",
+        "9/10",
+        "0"
+      ],
+      "residual_m_s": [
+        "1/5",
+        "-1/10",
+        "0"
+      ],
+      "reconstruction_m_s": [
+        "6/5",
+        "9/10",
+        "0"
+      ]
+    },
+    "derivative_probe": {
+      "scope": "Auditor-only synthetic analytic check, not a new student requirement.",
+      "functions": "theta=2t+t^2 rad; p_local=(1+t+t^2,2t+t^3,3+t^2)m; o=(t^2,2t,3t^3)m, with coefficient units implicit and elapsed t numerically in seconds.",
+      "method": "Multiply exact Taylor coefficients through order2 independently of derivative-rule sums; higher orders cannot affect first/second derivatives at zero.",
+      "world_coefficients_through_order2": [
+        [
+          1,
+          0,
+          3
+        ],
+        [
+          1,
+          6,
+          0
+        ],
+        [
+          -4,
+          3,
+          1
+        ]
+      ],
+      "velocity_terms_at_zero": [
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ]
+      ],
+      "acceleration_terms_at_zero": [
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          -4,
+          2,
+          0
+        ],
+        [
+          -8,
+          4,
+          0
+        ],
+        [
+          2,
+          0,
+          2
+        ]
+      ]
+    },
+    "carried_frame": {
+      "quarter_axis": [
+        0,
+        1,
+        0
+      ],
+      "quarter_node": [
+        -1,
+        1,
+        0
+      ],
+      "fixed_comparison": [
+        1,
+        0,
+        0
+      ],
+      "half_node": [
+        -1,
+        -1,
+        0
+      ],
+      "signed_half_dot": -1,
+      "directed_angle": {
+        "actual": 180,
+        "expected": 180,
+        "actual_minus_expected": [
+          0
+        ],
+        "absolute_arithmetic_tolerance": 1e-12
+      },
+      "axis_angle": {
+        "actual": 0,
+        "expected": 0,
+        "actual_minus_expected": [
+          0
+        ],
+        "absolute_arithmetic_tolerance": 1e-12
+      },
+      "quarter_angle": {
+        "actual": 90,
+        "expected": 90,
+        "actual_minus_expected": [
+          0
+        ],
+        "absolute_arithmetic_tolerance": 1e-12
+      }
+    },
+    "display_scales": [
+      {
+        "drawn_cm": "1",
+        "chamber_A_km": "1000",
+        "chamber_B_km": "1"
+      },
+      {
+        "drawn_cm": "2",
+        "chamber_A_km": "2000",
+        "chamber_B_km": "2"
+      },
+      {
+        "drawn_cm": "1/2",
+        "chamber_A_km": "500",
+        "chamber_B_km": "1/2"
+      }
+    ],
+    "physical_authority": {
+      "path": "Z:\\Archive_20260911\\Pre_Aug14\\K-Field_linear_inertia_derivation_1784989727.json",
+      "sha256": "4651a532fe43e8091748ef4f7e28bb899e1a2ea798d689ba1724e99530cd55ab",
+      "pointer": "/derived_results/earth_cmb/V_E_icrs_m_s",
+      "vector_m_s_decimal": [
+        "-359003.19906581304",
+        "76679.88603400199",
+        "-44701.060100687995"
+      ],
+      "source_speed_m_s_decimal": "369812.50200040644",
+      "recomputed_norm_m_s_decimal50": "369812.50200040646875284789409076641124153974259070",
+      "recomputed_minus_source_m_s": "2.875284789409076641124153974259070E-11",
+      "phase_transformed_vector_m_s_decimal": [
+        "-880221.9816350914",
+        "-143911.43656159946",
+        "266335.0269486193"
+      ],
+      "phase_transformed_norm_decimal50": "930825.21727043483467619578700799220651149795802652",
+      "phase_status": "Not physical velocity; falls in source quarantine band and is not composed or propagated.",
+      "vector_epoch": null,
+      "publication_epoch_not_vector_epoch": 1784989727,
+      "generated_utc_not_vector_epoch": "2026-07-25T14:28:47+00:00"
+    },
+    "builder_crosschecks": [
+      {
+        "id": "L1-W",
+        "comparison": {
+          "actual": [
+            4,
+            5,
+            1
+          ],
+          "expected": [
+            4,
+            5,
+            1
+          ],
+          "actual_minus_expected": [
+            0,
+            0,
+            0
+          ],
+          "absolute_arithmetic_tolerance": 1e-9
+        },
+        "scope": "Saved builder numeric value compared after independent calculation; no builder code executed."
+      },
+      {
+        "id": "L1-inverse",
+        "comparison": {
+          "actual": [
+            2,
+            1,
+            0
+          ],
+          "expected": [
+            2,
+            1,
+            0
+          ],
+          "actual_minus_expected": [
+            0,
+            0,
+            0
+          ],
+          "absolute_arithmetic_tolerance": 1e-9
+        },
+        "scope": "Saved builder numeric value compared after independent calculation; no builder code executed."
+      },
+      {
+        "id": "L1-P1",
+        "comparison": {
+          "actual": [
+            5,
+            0,
+            3
+          ],
+          "expected": [
+            5,
+            0,
+            3
+          ],
+          "actual_minus_expected": [
+            0,
+            0,
+            0
+          ],
+          "absolute_arithmetic_tolerance": 1e-9
+        },
+        "scope": "Saved builder numeric value compared after independent calculation; no builder code executed."
+      },
+      {
+        "id": "L1-P2",
+        "comparison": {
+          "actual": [
+            9,
+            -2,
+            3
+          ],
+          "expected": [
+            9,
+            -2,
+            3
+          ],
+          "actual_minus_expected": [
+            0,
+            0,
+            0
+          ],
+          "absolute_arithmetic_tolerance": 1e-9
+        },
+        "scope": "Saved builder numeric value compared after independent calculation; no builder code executed."
+      },
+      {
+        "id": "L1-reverse",
+        "comparison": {
+          "actual": [
+            1,
+            2,
+            3
+          ],
+          "expected": [
+            1,
+            2,
+            3
+          ],
+          "actual_minus_expected": [
+            0,
+            0,
+            0
+          ],
+          "absolute_arithmetic_tolerance": 1e-9
+        },
+        "scope": "Saved builder numeric value compared after independent calculation; no builder code executed."
+      },
+      {
+        "id": "L1-D2",
+        "comparison": {
+          "actual": [
+            3,
+            3,
+            2
+          ],
+          "expected": [
+            3,
+            3,
+            2
+          ],
+          "actual_minus_expected": [
+            0,
+            0,
+            0
+          ],
+          "absolute_arithmetic_tolerance": 1e-9
+        },
+        "scope": "Saved builder numeric value compared after independent calculation; no builder code executed."
+      },
+      {
+        "id": "L1-D4",
+        "comparison": {
+          "actual": [
+            13,
+            -4,
+            3
+          ],
+          "expected": [
+            13,
+            -4,
+            3
+          ],
+          "actual_minus_expected": [
+            0,
+            0,
+            0
+          ],
+          "absolute_arithmetic_tolerance": 1e-9
+        },
+        "scope": "Saved builder numeric value compared after independent calculation; no builder code executed."
+      },
+      {
+        "id": "L2-W",
+        "comparison": {
+          "actual": [
+            1.0605752387249069e-16,
+            1.7320508075688774,
+            0.9999999999999999
+          ],
+          "expected": [
+            1.0605752387249069e-16,
+            1.7320508075688774,
+            0.9999999999999999
+          ],
+          "actual_minus_expected": [
+            0,
+            0,
+            0
+          ],
+          "absolute_arithmetic_tolerance": 1e-9
+        },
+        "scope": "Saved builder numeric value compared after independent calculation; no builder code executed."
+      },
+      {
+        "id": "L2-norm",
+        "comparison": {
+          "actual": 2,
+          "expected": 2,
+          "actual_minus_expected": [
+            0
+          ],
+          "absolute_arithmetic_tolerance": 1e-9
+        },
+        "scope": "Saved builder numeric value compared after independent calculation; no builder code executed."
+      },
+      {
+        "id": "L2-local",
+        "comparison": {
+          "actual": [
+            1,
+            0,
+            1
+          ],
+          "expected": [
+            1,
+            0,
+            1
+          ],
+          "actual_minus_expected": [
+            0,
+            0,
+            0
+          ],
+          "absolute_arithmetic_tolerance": 1e-9
+        },
+        "scope": "Saved builder numeric value compared after independent calculation; no builder code executed."
+      },
+      {
+        "id": "L2-D3",
+        "comparison": {
+          "actual": [
+            0,
+            2,
+            -1
+          ],
+          "expected": [
+            0,
+            2,
+            -1
+          ],
+          "actual_minus_expected": [
+            0,
+            0,
+            0
+          ],
+          "absolute_arithmetic_tolerance": 1e-9
+        },
+        "scope": "Saved builder numeric value compared after independent calculation; no builder code executed."
+      },
+      {
+        "id": "L3-total",
+        "comparison": {
+          "actual": [
+            9,
+            2,
+            1
+          ],
+          "expected": [
+            9,
+            2,
+            1
+          ],
+          "actual_minus_expected": [
+            0,
+            0,
+            0
+          ],
+          "absolute_arithmetic_tolerance": 1e-9
+        },
+        "scope": "Saved builder numeric value compared after independent calculation; no builder code executed."
+      },
+      {
+        "id": "L3-endpoint",
+        "comparison": {
+          "actual": [
+            19,
+            6,
+            5
+          ],
+          "expected": [
+            19,
+            6,
+            5
+          ],
+          "actual_minus_expected": [
+            0,
+            0,
+            0
+          ],
+          "absolute_arithmetic_tolerance": 1e-9
+        },
+        "scope": "Saved builder numeric value compared after independent calculation; no builder code executed."
+      },
+      {
+        "id": "L3-reversed",
+        "comparison": {
+          "actual": [
+            23,
+            6,
+            5
+          ],
+          "expected": [
+            23,
+            6,
+            5
+          ],
+          "actual_minus_expected": [
+            0,
+            0,
+            0
+          ],
+          "absolute_arithmetic_tolerance": 1e-9
+        },
+        "scope": "Saved builder numeric value compared after independent calculation; no builder code executed."
+      },
+      {
+        "id": "L7-reconstruction",
+        "comparison": {
+          "actual": [
+            1,
+            2,
+            3
+          ],
+          "expected": [
+            1,
+            2,
+            3
+          ],
+          "actual_minus_expected": [
+            0,
+            0,
+            0
+          ],
+          "absolute_arithmetic_tolerance": 1e-9
+        },
+        "scope": "Saved builder numeric value compared after independent calculation; no builder code executed."
+      },
+      {
+        "id": "L4-v0",
+        "comparison": {
+          "actual": [
+            1,
+            1,
+            0
+          ],
+          "expected": [
+            1,
+            1,
+            0
+          ],
+          "actual_minus_expected": [
+            0,
+            0,
+            0
+          ],
+          "absolute_arithmetic_tolerance": 1e-9
+        },
+        "scope": "Saved builder numeric value compared after independent calculation; no builder code executed."
+      },
+      {
+        "id": "L4-cancel",
+        "comparison": {
+          "actual": [
+            0,
+            6.123233995736766e-17,
+            0
+          ],
+          "expected": [
+            0,
+            0,
+            0
+          ],
+          "actual_minus_expected": [
+            0,
+            6.123233995736766e-17,
+            0
+          ],
+          "absolute_arithmetic_tolerance": 1e-9
+        },
+        "scope": "Saved builder numeric value compared after independent calculation; no builder code executed."
+      },
+      {
+        "id": "L4-a0",
+        "comparison": {
+          "actual": [
+            -1,
+            0,
+            0
+          ],
+          "expected": [
+            -1,
+            0,
+            0
+          ],
+          "actual_minus_expected": [
+            0,
+            0,
+            0
+          ],
+          "absolute_arithmetic_tolerance": 1e-9
+        },
+        "scope": "Saved builder numeric value compared after independent calculation; no builder code executed."
+      },
+      {
+        "id": "L4-aquarter",
+        "comparison": {
+          "actual": [
+            -6.123233995736766e-17,
+            -1,
+            0
+          ],
+          "expected": [
+            0,
+            -1,
+            0
+          ],
+          "actual_minus_expected": [
+            -6.123233995736766e-17,
+            0,
+            0
+          ],
+          "absolute_arithmetic_tolerance": 1e-9
+        },
+        "scope": "Saved builder numeric value compared after independent calculation; no builder code executed."
+      },
+      {
+        "id": "L4-independent-finite-difference",
+        "comparison": {
+          "actual": [
+            1.0000000000009999,
+            0.9999999999833332,
+            0
+          ],
+          "expected": [
+            1,
+            1,
+            0
+          ],
+          "actual_minus_expected": [
+            9.99866855977416e-13,
+            -1.6666779067975313e-11,
+            0
+          ],
+          "absolute_arithmetic_tolerance": 1e-8
+        },
+        "scope": "Saved builder numeric value compared after independent calculation; no builder code executed."
+      },
+      {
+        "id": "L4-residual",
+        "comparison": {
+          "actual": [
+            0.19999999999999996,
+            -0.09999999999999998,
+            0
+          ],
+          "expected": [
+            0.2,
+            -0.1,
+            0
+          ],
+          "actual_minus_expected": [
+            -5.551115123125783e-17,
+            2.7755575615628914e-17,
+            0
+          ],
+          "absolute_arithmetic_tolerance": 1e-9
+        },
+        "scope": "Saved builder numeric value compared after independent calculation; no builder code executed."
+      },
+      {
+        "id": "L5-node",
+        "comparison": {
+          "actual": [
+            -1,
+            1,
+            0
+          ],
+          "expected": [
+            -1,
+            1,
+            0
+          ],
+          "actual_minus_expected": [
+            0,
+            0,
+            0
+          ],
+          "absolute_arithmetic_tolerance": 1e-9
+        },
+        "scope": "Saved builder numeric value compared after independent calculation; no builder code executed."
+      },
+      {
+        "id": "L5-half",
+        "comparison": {
+          "actual": [
+            -1,
+            -1,
+            0
+          ],
+          "expected": [
+            -1,
+            -1,
+            0
+          ],
+          "actual_minus_expected": [
+            0,
+            0,
+            0
+          ],
+          "absolute_arithmetic_tolerance": 1e-9
+        },
+        "scope": "Saved builder numeric value compared after independent calculation; no builder code executed."
+      },
+      {
+        "id": "L5-directed",
+        "comparison": {
+          "actual": 180,
+          "expected": 180,
+          "actual_minus_expected": [
+            0
+          ],
+          "absolute_arithmetic_tolerance": 1e-9
+        },
+        "scope": "Saved builder numeric value compared after independent calculation; no builder code executed."
+      },
+      {
+        "id": "L5-axis",
+        "comparison": {
+          "actual": 0,
+          "expected": 0,
+          "actual_minus_expected": [
+            0
+          ],
+          "absolute_arithmetic_tolerance": 1e-9
+        },
+        "scope": "Saved builder numeric value compared after independent calculation; no builder code executed."
+      },
+      {
+        "id": "L6-A",
+        "comparison": {
+          "actual": 2000,
+          "expected": 2000,
+          "actual_minus_expected": [
+            0
+          ],
+          "absolute_arithmetic_tolerance": 1e-9
+        },
+        "scope": "Saved builder numeric value compared after independent calculation; no builder code executed."
+      },
+      {
+        "id": "L6-B",
+        "comparison": {
+          "actual": 2,
+          "expected": 2,
+          "actual_minus_expected": [
+            0
+          ],
+          "absolute_arithmetic_tolerance": 1e-9
+        },
+        "scope": "Saved builder numeric value compared after independent calculation; no builder code executed."
+      },
+      {
+        "id": "physical-source-norm",
+        "comparison": {
+          "actual": 369812.50200040644,
+          "expected": 369812.50200040644,
+          "actual_minus_expected": [
+            0
+          ],
+          "absolute_arithmetic_tolerance": 0.000001
+        },
+        "scope": "Saved builder numeric value compared after independent calculation; no builder code executed."
+      }
+    ]
+  },
+  "title": "Independent numerical and integrity verification: Course24",
+  "arithmetic": "Exact integers/Fractions for finite rational tasks; binary trigonometry with recorded signed differences;50-digit Decimal norms on stored source decimals.",
+  "independence": "Auditor-authored operations and exact polynomial coefficient convolution; no builder functions imported/executed. Saved builder values crosschecked only after independent recomputation. Source text decoded in memory, not copied to files.",
+  "observed_structure": {
+    "kind": "Authored course, synthetic classroom packets and pinned source reports.",
+    "empirical_measurement_dataset": null
+  },
+  "general_arguments_review": {
+    "inverse": "For orthonormal R, R^T R=I; subtract origin before inverse rotation. A constant distance offset never adds to velocity.",
+    "spherical": "Unit-circle coordinates plus horizontal projection derive the stated RA/Dec formulas. Zero direction and polar RA degeneracy retained.",
+    "moving_frame": "Differentiate o+R p entrywise to obtain odot+Rdot p+R pdot; a second derivative gives oddot+Rddot p+2Rdot pdot+R pddot without commuting matrices. Independently checked nonzero local velocity, acceleration, origin acceleration and angular acceleration via exact order2 coefficient multiplication.",
+    "rotation": "Common orthogonal action preserves dot products and lengths; absolute-value axial reduction deliberately discards polarity, so original vectors are retained.",
+    "additive_scope": "Relative velocities telescope in the declared common-axis/common-epoch additive model; no relativistic or unknown real-world ephemeris calculation inferred."
+  },
+  "content_audit_status": "passed",
+  "content_findings": [
+    {
+      "id": "C24-IND-001",
+      "level": "final",
+      "category": "authoring_recovery_regression",
+      "severity": "minor",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\author_course.py",
+      "section": "lesson(1), C24.01-W1 authored body",
+      "lines": [
+        38
+      ],
+      "defect": "The retained authoring script still emits 'The origin is stationary for this example.' Current lesson-01.md line34 instead contains the repaired sentence explicitly holding both R and o constant throughout the velocity interval. Static AST comparison shows this is the only body discrepancy for lesson01; all other lesson bodies match. Rerunning author_course.py would remove the recorded AUD-24-001 clarification, while finalize.py line16 would still record that clarification as corrected.",
+      "correction": "Propagate the existing repaired sentence from lesson-01.md line34 into author_course.py line38. Preserve the current student lesson and mathematical content. Refresh any affected provenance/audit/recovery hashes and rerun the normal validator.",
+      "verification": "Read author_course.py and finalize.py without importing or executing them. Extracted all seven literal lesson bodies through Python AST; six match current lessons and lesson01 matches exactly after the single stated sentence substitution. Current lesson01 and assembly already contain the correct fixed-R/fixed-o assumption.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "lesson-01",
+        "assembly",
+        "audit",
+        "authoring-recovery"
+      ],
+      "blocks_acceptance": false,
+      "severity_rationale": "Current teaching and arithmetic are correct, including the preceding general condition in lesson01 line22. The defect is localized regeneration/provenance inconsistency, not a currently wrong velocity calculation.",
+      "resolved_utc": "2026-11-05T20:08:22.917408+00:00",
+      "recheck_evidence": "Author_course.py line38 now contains the exact fixed-R/fixed-o sentence from current lesson01 line34. Independent AST extraction confirms all7 authored literal bodies match the current lessons. All current lesson/assembly bytes remain unchanged. Refreshed recovery metadata records the repair without claiming external reapproval. No authoring script executed.",
+      "historical_note": "Defect and original verification describe the preserved pre-repair review."
+    }
+  ],
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "source_and_authority_boundaries": {
+    "local_source_scope": [
+      {
+        "id": "S01",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+        "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+        "role": "Background archival provenance; no backbone theorem assigned by Course24."
+      },
+      {
+        "id": "S02",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+        "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+        "role": "Background archival provenance; no backbone theorem assigned by Course24."
+      },
+      {
+        "id": "S03",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+        "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+        "role": "Background archival provenance; no backbone theorem assigned by Course24."
+      },
+      {
+        "id": "S04",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+        "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+        "role": "Background archival provenance; no backbone theorem assigned by Course24."
+      },
+      {
+        "id": "S05",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+        "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+        "role": "Background archival provenance; no backbone theorem assigned by Course24."
+      },
+      {
+        "id": "physical-authority",
+        "path": "Z:\\Archive_20260911\\Pre_Aug14\\K-Field_linear_inertia_derivation_1784989727.json",
+        "sha256": "4651a532fe43e8091748ef4f7e28bb899e1a2ea798d689ba1724e99530cd55ab",
+        "role": "Physical Earth/CMB vector and corresponding speed; read in place."
+      }
+    ],
+    "pinned_application_reads": [
+      {
+        "id": "T10",
+        "logical_path": "applications/kfield_lucas_lab/rag_corpus/10_geometry_trajectory.md",
+        "object_id": "ce1abe83011a43bfbcd8aaf98f7fb9fdfabd31acbfdbc1208e45176596602ccb",
+        "sha256": "ce1abe83011a43bfbcd8aaf98f7fb9fdfabd31acbfdbc1208e45176596602ccb",
+        "byte_range": [
+          0,
+          545
+        ],
+        "byte_size": 545,
+        "returned_range_sha256": "ce1abe83011a43bfbcd8aaf98f7fb9fdfabd31acbfdbc1208e45176596602ccb",
+        "independently_decoded_byte_sha256": "ce1abe83011a43bfbcd8aaf98f7fb9fdfabd31acbfdbc1208e45176596602ccb",
+        "identity_status": "Full bounded bytes retrieved; decoded in memory and SHA-256 independently recomputed with .NET, matching pin and returned digest.",
+        "evidence_class": "Source-reported text; underlying contracts/compiler not freshly replayed."
+      },
+      {
+        "id": "T40",
+        "logical_path": "applications/kfield_lucas_lab/rag_corpus/40_cmb_quarantine.md",
+        "object_id": "1dfff4443f99ebb949ca6f080a01452bdb6c58075a694c4b74055e64b4d4ecfb",
+        "sha256": "1dfff4443f99ebb949ca6f080a01452bdb6c58075a694c4b74055e64b4d4ecfb",
+        "byte_range": [
+          0,
+          426
+        ],
+        "byte_size": 426,
+        "returned_range_sha256": "1dfff4443f99ebb949ca6f080a01452bdb6c58075a694c4b74055e64b4d4ecfb",
+        "independently_decoded_byte_sha256": "1dfff4443f99ebb949ca6f080a01452bdb6c58075a694c4b74055e64b4d4ecfb",
+        "identity_status": "Full bounded bytes retrieved; decoded in memory and SHA-256 independently recomputed with .NET, matching pin and returned digest.",
+        "evidence_class": "Source-reported text; underlying contracts/compiler not freshly replayed."
+      },
+      {
+        "id": "T45",
+        "logical_path": "applications/kfield_lucas_lab/rag_corpus/45_moving_reference_frames.md",
+        "object_id": "c8485397ee3cd5560624885a3bfcf20c9f6190e26129320e37037810b984e1aa",
+        "sha256": "c8485397ee3cd5560624885a3bfcf20c9f6190e26129320e37037810b984e1aa",
+        "byte_range": [
+          0,
+          2651
+        ],
+        "byte_size": 2651,
+        "returned_range_sha256": "c8485397ee3cd5560624885a3bfcf20c9f6190e26129320e37037810b984e1aa",
+        "independently_decoded_byte_sha256": "c8485397ee3cd5560624885a3bfcf20c9f6190e26129320e37037810b984e1aa",
+        "identity_status": "Full bounded bytes retrieved; decoded in memory and SHA-256 independently recomputed with .NET, matching pin and returned digest.",
+        "evidence_class": "Source-reported text; underlying contracts/compiler not freshly replayed."
+      },
+      {
+        "id": "T50",
+        "logical_path": "applications/kfield_lucas_lab/rag_corpus/50_physical_closure.md",
+        "object_id": "c2a25a583af904601968adc1d3efde825f76218c92a2f52d829afc093f52c02a",
+        "sha256": "c2a25a583af904601968adc1d3efde825f76218c92a2f52d829afc093f52c02a",
+        "byte_range": [
+          0,
+          1761
+        ],
+        "byte_size": 1761,
+        "returned_range_sha256": "c2a25a583af904601968adc1d3efde825f76218c92a2f52d829afc093f52c02a",
+        "independently_decoded_byte_sha256": "c2a25a583af904601968adc1d3efde825f76218c92a2f52d829afc093f52c02a",
+        "identity_status": "Full bounded bytes retrieved; decoded in memory and SHA-256 independently recomputed with .NET, matching pin and returned digest.",
+        "evidence_class": "Source-reported text; underlying contracts/compiler not freshly replayed."
+      }
+    ],
+    "physical_authority": {
+      "path": "Z:\\Archive_20260911\\Pre_Aug14\\K-Field_linear_inertia_derivation_1784989727.json",
+      "sha256": "4651a532fe43e8091748ef4f7e28bb899e1a2ea798d689ba1724e99530cd55ab",
+      "pointer": "/derived_results/earth_cmb/V_E_icrs_m_s",
+      "vector_m_s_decimal": [
+        "-359003.19906581304",
+        "76679.88603400199",
+        "-44701.060100687995"
+      ],
+      "source_speed_m_s_decimal": "369812.50200040644",
+      "recomputed_norm_m_s_decimal50": "369812.50200040646875284789409076641124153974259070",
+      "recomputed_minus_source_m_s": "2.875284789409076641124153974259070E-11",
+      "phase_transformed_vector_m_s_decimal": [
+        "-880221.9816350914",
+        "-143911.43656159946",
+        "266335.0269486193"
+      ],
+      "phase_transformed_norm_decimal50": "930825.21727043483467619578700799220651149795802652",
+      "phase_status": "Not physical velocity; falls in source quarantine band and is not composed or propagated.",
+      "vector_epoch": null,
+      "publication_epoch_not_vector_epoch": 1784989727,
+      "generated_utc_not_vector_epoch": "2026-07-25T14:28:47+00:00",
+      "source_precision_note": "50-digit arithmetic on the stored decimal components gives a +2.875284789409076641124153974259070e-11 m/s difference from the stored speed. Both values and the signed difference are retained; no extra physical precision is inferred."
+    },
+    "motion_contract": {
+      "class": "Declared additive classroom kinematics, not relativistic velocity addition.",
+      "chain": [
+        "Sun/CMB",
+        "EMB/Sun",
+        "Earth/EMB",
+        "lab/Earth"
+      ],
+      "composition": "Sum only after common axes, epoch and units are declared. Already composed Earth/CMB is not a fifth contribution.",
+      "position": "p_world=o+R p_local; inverse R^T(p_world-o) for orthonormal R.",
+      "velocity": "odot+Rdot p_local+R v_local",
+      "acceleration": "oddot+Rddot p_local+2Rdot v_local+R a_local",
+      "dimensions": "o,p in length; R dimensionless; Rdot in inverse seconds; acceleration terms all length/second^2.",
+      "local_triads": "Synthetic E,N,U supplied; no real site/epoch-dependent ICRS transform calculated."
+    },
+    "finite_replay": {
+      "source": "T45 replay paragraphs and T50 item2",
+      "replay_states": 97,
+      "carried_objects": "Local ENU triad, chosen Earth-carried axis and all27 Cell3 nodes rotate by one common action.",
+      "fixed_objects": "Galactic-center sightline and fixed-epoch comparison Cell3.",
+      "acquisition_metadata": {
+        "samples": 180000,
+        "rotations": 2000,
+        "channels": 10,
+        "clock_degrees_per_hour": "15.0407096514",
+        "status": "Source-reported, not newly acquired/replayed by this audit."
+      },
+      "boundary": "Finite replay states are distinct from observational samples; reported circle actions do not establish physical K-field co-rotation."
+    },
+    "gauge_and_alignment": {
+      "source": "T45 gauge/alignment/orientation paragraphs and T50 item1",
+      "gauge": "Chosen Galactic-center visual reference, not absolute rest.",
+      "scale": "Independent chamber scales; inter-chamber screen distances are not physical distances.",
+      "absent_dynamics": "No Solar/Galactic short-window time law supplied.",
+      "finite_candidates": [
+        "a",
+        "b",
+        "c",
+        "indexed (111)"
+      ],
+      "reported_decision": "No exact axial alignment of these displayed source-bound candidates with the rational Sgr A* camera/sightline vector.",
+      "nearest_candidate": "c",
+      "nearest_angle_degrees": "31.6153896617",
+      "orientation_angles_degrees": [
+        "11.165830",
+        "3.749971"
+      ],
+      "orientation_targets": [
+        "Local Hessian high-curvature axis versus absolute principal axis",
+        "Local Hessian high-curvature axis versus phase row3"
+      ],
+      "scope": "Model-internal local/absolute consistency; neither global uniqueness nor exact Sgr A* alignment. Source text refines the installed skill's older blanket not_established wording only for the finite candidate set.",
+      "open_task": "Source-independent measurement identifying a physical K-Cell axis and its ICRS direction remains open."
+    },
+    "generation": {
+      "requested_snapshot_generation": "sha256:5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+      "requested_manifest_sha256": "5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+      "fresh_capabilities_result": "Read-only operation registry returned without corpus generation/manifest pair.",
+      "status": "Exact object byte identities verified; generation freshness not certified. Response-wrapper hashes are not substituted for the missing pair."
+    },
+    "compiler": "T45/T50 describe Agda witnesses. This audit reads their pinned reports, not the underlying proof bodies, and performs no fresh Agda compilation.",
+    "experiment_local_velocity": "361.838... km/s is a separately typed blueprint boundary. Full experiment-local trajectory contract remains unloaded; it is neither physical-authority replacement nor an extra chain term.",
+    "scientific_layers": "All classroom numeric packets are synthetic definitions and derived calculations. Source vector and metadata retain source-reported status; orientation comparisons are model-derived; source gaps and proposed mechanisms are distinct. No new observational experiment or physical mechanism is claimed.",
+    "residual_information": "All signed chain components, alternate ledgers, cancellation terms, model/comparison residual, original vectors before antipodal reduction, normalization magnitude and floating/decimal differences are preserved. Unavailable real comparison is not set to zero.",
+    "not_assigned": "No Cell3 numerical geometry, original Agda-contract replay, real ephemeris propagation, physical-axis estimation, or conversion between time scales is required of students."
+  },
+  "pinned_application_reads": [
+    {
+      "id": "T10",
+      "logical_path": "applications/kfield_lucas_lab/rag_corpus/10_geometry_trajectory.md",
+      "object_id": "ce1abe83011a43bfbcd8aaf98f7fb9fdfabd31acbfdbc1208e45176596602ccb",
+      "sha256": "ce1abe83011a43bfbcd8aaf98f7fb9fdfabd31acbfdbc1208e45176596602ccb",
+      "byte_range": [
+        0,
+        545
+      ],
+      "byte_size": 545,
+      "returned_range_sha256": "ce1abe83011a43bfbcd8aaf98f7fb9fdfabd31acbfdbc1208e45176596602ccb",
+      "independently_decoded_byte_sha256": "ce1abe83011a43bfbcd8aaf98f7fb9fdfabd31acbfdbc1208e45176596602ccb",
+      "identity_status": "Full bounded bytes retrieved; decoded in memory and SHA-256 independently recomputed with .NET, matching pin and returned digest.",
+      "evidence_class": "Source-reported text; underlying contracts/compiler not freshly replayed."
+    },
+    {
+      "id": "T40",
+      "logical_path": "applications/kfield_lucas_lab/rag_corpus/40_cmb_quarantine.md",
+      "object_id": "1dfff4443f99ebb949ca6f080a01452bdb6c58075a694c4b74055e64b4d4ecfb",
+      "sha256": "1dfff4443f99ebb949ca6f080a01452bdb6c58075a694c4b74055e64b4d4ecfb",
+      "byte_range": [
+        0,
+        426
+      ],
+      "byte_size": 426,
+      "returned_range_sha256": "1dfff4443f99ebb949ca6f080a01452bdb6c58075a694c4b74055e64b4d4ecfb",
+      "independently_decoded_byte_sha256": "1dfff4443f99ebb949ca6f080a01452bdb6c58075a694c4b74055e64b4d4ecfb",
+      "identity_status": "Full bounded bytes retrieved; decoded in memory and SHA-256 independently recomputed with .NET, matching pin and returned digest.",
+      "evidence_class": "Source-reported text; underlying contracts/compiler not freshly replayed."
+    },
+    {
+      "id": "T45",
+      "logical_path": "applications/kfield_lucas_lab/rag_corpus/45_moving_reference_frames.md",
+      "object_id": "c8485397ee3cd5560624885a3bfcf20c9f6190e26129320e37037810b984e1aa",
+      "sha256": "c8485397ee3cd5560624885a3bfcf20c9f6190e26129320e37037810b984e1aa",
+      "byte_range": [
+        0,
+        2651
+      ],
+      "byte_size": 2651,
+      "returned_range_sha256": "c8485397ee3cd5560624885a3bfcf20c9f6190e26129320e37037810b984e1aa",
+      "independently_decoded_byte_sha256": "c8485397ee3cd5560624885a3bfcf20c9f6190e26129320e37037810b984e1aa",
+      "identity_status": "Full bounded bytes retrieved; decoded in memory and SHA-256 independently recomputed with .NET, matching pin and returned digest.",
+      "evidence_class": "Source-reported text; underlying contracts/compiler not freshly replayed."
+    },
+    {
+      "id": "T50",
+      "logical_path": "applications/kfield_lucas_lab/rag_corpus/50_physical_closure.md",
+      "object_id": "c2a25a583af904601968adc1d3efde825f76218c92a2f52d829afc093f52c02a",
+      "sha256": "c2a25a583af904601968adc1d3efde825f76218c92a2f52d829afc093f52c02a",
+      "byte_range": [
+        0,
+        1761
+      ],
+      "byte_size": 1761,
+      "returned_range_sha256": "c2a25a583af904601968adc1d3efde825f76218c92a2f52d829afc093f52c02a",
+      "independently_decoded_byte_sha256": "c2a25a583af904601968adc1d3efde825f76218c92a2f52d829afc093f52c02a",
+      "identity_status": "Full bounded bytes retrieved; decoded in memory and SHA-256 independently recomputed with .NET, matching pin and returned digest.",
+      "evidence_class": "Source-reported text; underlying contracts/compiler not freshly replayed."
+    }
+  ],
+  "fresh_project_validation": {
+    "canonical_output_root": "Z:\\Kfield-doc-training\\K-Field_Training_Course",
+    "checks": [
+      "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+      "parsed manifest.json",
+      "parsed audit_report.json",
+      "parsed completion_report.json",
+      "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+    ],
+    "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion",
+    "errors": [],
+    "schema_version": "1.0",
+    "status": "passed",
+    "storage_authority": "User explicitly authorized project-folder outputs, 2026-11-05",
+    "validator_path": "C:\\Users\\info\\.codex\\skills\\build-high-school-course\\scripts\\validate_course.py",
+    "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+    "exit_code": 0,
+    "adapter": {
+      "path": "Z:/Kfield-doc-training/.work/validate_project_course.py",
+      "sha256": "3fdba74f7ac1430208a4e652200026dc98988f607f60fc928bda65d5857cc745"
+    },
+    "fixture_mode": false,
+    "override": "Existing adapter overrides only canonical output root; installed validation remains active.",
+    "limitation": "Structural validator supplemented by independent AST body-equivalence recheck; C24-IND-001 corrected."
+  },
+  "limitations": [
+    "Physical source vector has no explicit attached epoch in the inspected authority; publication/generated time is not used as a substitute.",
+    "New real laboratory propagation requires site, epoch/time-conversion, ephemeris/EOP and geometry/orientation inputs not supplied here.",
+    "Exact T10/T40/T45/T50 byte identities are verified; requested corpus generation/manifest freshness is not certified by the available capabilities response.",
+    "Underlying Agda contracts, finite alignment proof bodies and acquisition records are not freshly compiled or observationally replayed.",
+    "The experiment-local361.838...km/s trajectory remains unloaded and separately typed.",
+    "No classroom trial or paginated rendering performed; Markdown content, finite workload, table structure and assembly assessed.",
+    "This follow-up rechecks the authoring repair and recovery metadata, reruns all prior computations and preserves the original source-replay scope."
+  ],
+  "auditor_probe_revision": {
+    "scope": "Auditor-only synthetic general-derivative probe, not course data.",
+    "initial_issue": "Handwritten expected probe velocity omitted the independently supplied origin y-rate2; both computed product-series and derivative sums already gave(1,6,0).",
+    "correction": "Expected vector corrected from(1,4,0) to(1,6,0); final436 assertions pass. No course artifact was changed."
+  },
+  "source_files_copied": false,
+  "course_or_parent_files_modified": false,
+  "repair_recheck": {
+    "status": "passed",
+    "reviewed_utc": "2026-11-05T20:08:22.917408+00:00",
+    "prior_review": {
+      "reviewed_utc": "2026-11-05T20:02:01.203121+00:00",
+      "audit_sha256": "df50aff9493ba04417c058eda1fd2a4f48488127284efc48407ecc71e762ff19",
+      "verification_sha256": "78cf373219a9e5adb78994d4552dfda699ae29b39a1fb0e0e6f4f23b470be43a",
+      "manifest_sha256": "a3098af44ca217639440e8f34443ada371290ffefcb8f1ec55d90a40c71af8ba",
+      "status": "failed",
+      "unresolved_counts": {
+        "critical": 0,
+        "major": 0,
+        "minor": 1
+      },
+      "findings": [
+        {
+          "id": "C24-IND-001",
+          "level": "final",
+          "category": "authoring_recovery_regression",
+          "severity": "minor",
+          "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\author_course.py",
+          "section": "lesson(1), C24.01-W1 authored body",
+          "lines": [
+            38
+          ],
+          "defect": "The retained authoring script still emits 'The origin is stationary for this example.' Current lesson-01.md line34 instead contains the repaired sentence explicitly holding both R and o constant throughout the velocity interval. Static AST comparison shows this is the only body discrepancy for lesson01; all other lesson bodies match. Rerunning author_course.py would remove the recorded AUD-24-001 clarification, while finalize.py line16 would still record that clarification as corrected.",
+          "correction": "Propagate the existing repaired sentence from lesson-01.md line34 into author_course.py line38. Preserve the current student lesson and mathematical content. Refresh any affected provenance/audit/recovery hashes and rerun the normal validator.",
+          "verification": "Read author_course.py and finalize.py without importing or executing them. Extracted all seven literal lesson bodies through Python AST; six match current lessons and lesson01 matches exactly after the single stated sentence substitution. Current lesson01 and assembly already contain the correct fixed-R/fixed-o assumption.",
+          "disposition": "unresolved",
+          "affected_checkpoints": [
+            "lesson-01",
+            "assembly",
+            "audit",
+            "authoring-recovery"
+          ],
+          "blocks_acceptance": true,
+          "severity_rationale": "Current teaching and arithmetic are correct, including the preceding general condition in lesson01 line22. The defect is localized regeneration/provenance inconsistency, not a currently wrong velocity calculation."
+        }
+      ],
+      "check_count": 436
+    },
+    "current_manifest_sha256": "c43ab78988dbeee2ab778ad847a76be128240a64e9463361a4735342ad189721",
+    "changed_files": [
+      {
+        "file": "audit_report.json",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\audit_report.json",
+        "sha256": "9e9eaea0ae1e7f880ca1637aa4bcd3b09a85217ea07c204f149a32aff2ce6a89",
+        "prior_sha256": "e619d46ac0b2e79b844c67d52888bdaa7401f7e440a7946241efbd4dcd2cb8ab"
+      },
+      {
+        "file": "author_course.py",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\author_course.py",
+        "sha256": "70f7d5d02f4c70d33628eaba21924ca79a167baeadf7bcce7beea70b2c1fc3cf",
+        "prior_sha256": "8f3a2e708cc70245dcdf94931467d5fc7572a4a7e24d5e0ac158c28157bdcb78"
+      },
+      {
+        "file": "completion_report.json",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\completion_report.json",
+        "sha256": "9be9b73cf5271857a0bd8fe93fa030e47500e90d239f3cb09bacb3d81223147c",
+        "prior_sha256": "bb8be153cafd79a0f4f19c685662394acf02e666e4ec543625f1ec16f56f728b"
+      },
+      {
+        "file": "manifest.json",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\manifest.json",
+        "sha256": "c43ab78988dbeee2ab778ad847a76be128240a64e9463361a4735342ad189721",
+        "prior_sha256": "a3098af44ca217639440e8f34443ada371290ffefcb8f1ec55d90a40c71af8ba"
+      },
+      {
+        "file": "repair_authoring_recovery.py",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\repair_authoring_recovery.py",
+        "sha256": "0d8982984ba537e38dedfe23d246619b622f61e96ba8d647cad9d28bc4288ac7"
+      }
+    ],
+    "unchanged_files": [
+      {
+        "file": "capstone.md",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\capstone.md",
+        "sha256": "e0590c87f33bca90f645048d2cf07d5419917edd46d4ece70948582f3c3c6536"
+      },
+      {
+        "file": "course-map.md",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\course-map.md",
+        "sha256": "f2db7fcc1b8674d5a8d907d2c7320f12cbe3bfd376175d4fa67d090d72fb5461"
+      },
+      {
+        "file": "course.md",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\course.md",
+        "sha256": "f364075d81df33a27d5a94a511f9f49a1fff046a41f1a1fe39ffc14058d04942"
+      },
+      {
+        "file": "finalize.py",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\finalize.py",
+        "sha256": "d94b3603a038b2b162c89dbfacc65f81220d1056b67bf52df8c659a6841e4006"
+      },
+      {
+        "file": "finish_course.py",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\finish_course.py",
+        "sha256": "16a9e8bff8ea8232a8ad465003cdb6e7cad17eb0a6c50da7a9ff520f6b39e20d"
+      },
+      {
+        "file": "input-contract.json",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\input-contract.json",
+        "sha256": "89b2c8a7c198dfe74ae11cf7dcee824f4731b6a51cf13869536e216b0ef028f5"
+      },
+      {
+        "file": "launch-prompt.md",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\launch-prompt.md",
+        "sha256": "48165069ec0c6211efcdf1fb70262c09de213920ef8916d5bfa9ec5547241beb"
+      },
+      {
+        "file": "lesson-01.md",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\lesson-01.md",
+        "sha256": "94fdaf01836b7834df6d532d5f5b35aac467e97eb778423f674d13055f81f276"
+      },
+      {
+        "file": "lesson-02.md",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\lesson-02.md",
+        "sha256": "022c89755c378fcfeccfc3a9eb765a0a9a76c63d419c920c0250926b0e3cfe53"
+      },
+      {
+        "file": "lesson-03.md",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\lesson-03.md",
+        "sha256": "5fa81ac8b5b758f0b8482d57fca2380505dcc15724da195b4403369df6caaa35"
+      },
+      {
+        "file": "lesson-04.md",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\lesson-04.md",
+        "sha256": "077f4405a9345f152373c06797f3c59cba5d591ba014baf1256a2647866b3af5"
+      },
+      {
+        "file": "lesson-05.md",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\lesson-05.md",
+        "sha256": "c6379a41c2ccdae6c4bd0d2d4f8042432118427e0c238598e03ed4aaf7b00ab0"
+      },
+      {
+        "file": "lesson-06.md",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\lesson-06.md",
+        "sha256": "17645d78a3593b7e91180cbd8a5954c497419f97be0ee51bd9cc36c671b90b58"
+      },
+      {
+        "file": "lesson-07.md",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\lesson-07.md",
+        "sha256": "564161175bb5424d6a01bfbbec169885939da7c4c6243937feabdc3d3fd16b1c"
+      },
+      {
+        "file": "sources.md",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\sources.md",
+        "sha256": "7d0a968c68c8c186f4d6a1900a5fa22d3646a9c7963c7e7a04dba82c60fa3290"
+      },
+      {
+        "file": "teacher-guide.md",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\teacher-guide.md",
+        "sha256": "4770a5305f3a6cb43fabff49ca7e144255a76adcc4d56489c8eb417e413d8b45"
+      },
+      {
+        "file": "terminology.md",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\terminology.md",
+        "sha256": "408b74ebad3cd3eb7fccae5164d32667f3c87ad11cec981fc5d7bbbdbe7ac6a6"
+      },
+      {
+        "file": "validator-result.json",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\validator-result.json",
+        "sha256": "a208d11391aaebfe0b7e5cf06a0e0467b5b5d7bfcb7d0ca3ecc0a0758586824f"
+      },
+      {
+        "file": "verify_examples.py",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\verify_examples.py",
+        "sha256": "2fa30490f5e2f218416db111145ac98b4c1b49135db9cb667de7a95a921fcddd"
+      },
+      {
+        "file": "worked-example-verification.json",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\worked-example-verification.json",
+        "sha256": "4cdc3bee95d027debcdd97a76bb27ef396311c84e0de770fba26fd6330e614e8"
+      }
+    ],
+    "evidence": "Author_course.py line38 now contains the exact fixed-R/fixed-o sentence from current lesson01 line34. Independent AST extraction confirms all7 authored literal bodies match the current lessons. All current lesson/assembly bytes remain unchanged. Refreshed recovery metadata records the repair without claiming external reapproval. No authoring script executed.",
+    "check_count": 440,
+    "source_hashes_unchanged": true
+  }
+}

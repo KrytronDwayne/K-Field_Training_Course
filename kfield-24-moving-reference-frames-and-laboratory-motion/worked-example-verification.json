@@ -1,0 +1,379 @@
+{
+  "status": "passed",
+  "python": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+  "scope": "Synthetic example arithmetic, inverse operations, finite derivative check and read-only physical source norm. No formal compilation or observational replay.",
+  "checks": [
+    {
+      "id": "L1-W",
+      "actual": [
+        4,
+        5,
+        1
+      ],
+      "expected": [
+        4,
+        5,
+        1
+      ],
+      "absolute_tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "id": "L1-inverse",
+      "actual": [
+        2,
+        1,
+        0
+      ],
+      "expected": [
+        2,
+        1,
+        0
+      ],
+      "absolute_tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "id": "L1-P1",
+      "actual": [
+        5,
+        0,
+        3
+      ],
+      "expected": [
+        5,
+        0,
+        3
+      ],
+      "absolute_tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "id": "L1-P2",
+      "actual": [
+        9,
+        -2,
+        3
+      ],
+      "expected": [
+        9,
+        -2,
+        3
+      ],
+      "absolute_tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "id": "L1-reverse",
+      "actual": [
+        1,
+        2,
+        3
+      ],
+      "expected": [
+        1,
+        2,
+        3
+      ],
+      "absolute_tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "id": "L1-D2",
+      "actual": [
+        3,
+        3,
+        2
+      ],
+      "expected": [
+        3,
+        3,
+        2
+      ],
+      "absolute_tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "id": "L1-D4",
+      "actual": [
+        13,
+        -4,
+        3
+      ],
+      "expected": [
+        13,
+        -4,
+        3
+      ],
+      "absolute_tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "id": "L2-W",
+      "actual": [
+        1.0605752387249069e-16,
+        1.7320508075688774,
+        0.9999999999999999
+      ],
+      "expected": [
+        0,
+        1.7320508075688772,
+        1
+      ],
+      "absolute_tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "id": "L2-norm",
+      "actual": 2.0,
+      "expected": 2,
+      "absolute_tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "id": "L2-local",
+      "actual": [
+        1,
+        0,
+        1
+      ],
+      "expected": [
+        1,
+        0,
+        1
+      ],
+      "absolute_tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "id": "L2-D3",
+      "actual": [
+        0,
+        2,
+        -1
+      ],
+      "expected": [
+        0,
+        2,
+        -1
+      ],
+      "absolute_tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "id": "L3-total",
+      "actual": [
+        9,
+        2,
+        1
+      ],
+      "expected": [
+        9,
+        2,
+        1
+      ],
+      "absolute_tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "id": "L3-endpoint",
+      "actual": [
+        19,
+        6,
+        5
+      ],
+      "expected": [
+        19,
+        6,
+        5
+      ],
+      "absolute_tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "id": "L3-reversed",
+      "actual": [
+        23,
+        6,
+        5
+      ],
+      "expected": [
+        23,
+        6,
+        5
+      ],
+      "absolute_tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "id": "L7-reconstruction",
+      "actual": [
+        1,
+        2,
+        3
+      ],
+      "expected": [
+        1,
+        2,
+        3
+      ],
+      "absolute_tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "id": "L4-v0",
+      "actual": [
+        1.0,
+        1.0,
+        0
+      ],
+      "expected": [
+        1,
+        1,
+        0
+      ],
+      "absolute_tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "id": "L4-cancel",
+      "actual": [
+        0.0,
+        6.123233995736766e-17,
+        0
+      ],
+      "expected": [
+        0,
+        0,
+        0
+      ],
+      "absolute_tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "id": "L4-a0",
+      "actual": [
+        -1.0,
+        -0.0,
+        0
+      ],
+      "expected": [
+        -1,
+        0,
+        0
+      ],
+      "absolute_tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "id": "L4-aquarter",
+      "actual": [
+        -6.123233995736766e-17,
+        -1.0,
+        0
+      ],
+      "expected": [
+        0,
+        -1,
+        0
+      ],
+      "absolute_tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "id": "L4-independent-finite-difference",
+      "actual": [
+        1.0000000000009999,
+        0.9999999999833332,
+        0.0
+      ],
+      "expected": [
+        1,
+        1,
+        0
+      ],
+      "absolute_tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "id": "L4-residual",
+      "actual": [
+        0.19999999999999996,
+        -0.09999999999999998,
+        0
+      ],
+      "expected": [
+        0.2,
+        -0.1,
+        0
+      ],
+      "absolute_tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "id": "L5-node",
+      "actual": [
+        -1,
+        1,
+        0
+      ],
+      "expected": [
+        -1,
+        1,
+        0
+      ],
+      "absolute_tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "id": "L5-half",
+      "actual": [
+        -1,
+        -1,
+        0
+      ],
+      "expected": [
+        -1,
+        -1,
+        0
+      ],
+      "absolute_tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "id": "L5-directed",
+      "actual": 180.0,
+      "expected": 180,
+      "absolute_tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "id": "L5-axis",
+      "actual": 0.0,
+      "expected": 0,
+      "absolute_tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "id": "L6-A",
+      "actual": 2000,
+      "expected": 2000,
+      "absolute_tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "id": "L6-B",
+      "actual": 2,
+      "expected": 2,
+      "absolute_tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "id": "physical-source-norm",
+      "actual": 369812.50200040644,
+      "expected": 369812.50200040644,
+      "absolute_tolerance": 1e-06,
+      "passed": true
+    }
+  ]
+}

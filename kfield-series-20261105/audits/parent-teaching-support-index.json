@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-11-05T18:42:55.950683+00:00",
+  "role": "Authored parent teaching support, to be independently checked by the teaching auditor. Not source authority, proof-compiler verification, empirical data or completed-course acceptance.",
+  "records": [
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\educational-example-verification.json",
+      "sha256": "4a78076d0946868a654bbf957ef034b40262c808cc967b5294b21b79ff469faf",
+      "courses": [
+        12,
+        14,
+        20,
+        21,
+        22,
+        24,
+        26
+      ],
+      "scope": "Earlier finite bridges for eigenvectors, complex carriers, projectors, decoders, tails, trajectories and spectral conventions."
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\shape-graph-bridge-verification.json",
+      "sha256": "fb2a8730ac624ce7ef8d59f3b1975efb7c128993706275f8adc0e6a1bc8f406e",
+      "courses": [
+        10,
+        11,
+        12
+      ],
+      "scope": "Log shape/scale, Jack inverse, open/periodic graph counts, exact product modes and constant-vector scope."
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\roots-carriers-bridge-verification.json",
+      "sha256": "196bf6bf04fda78bded77716bb6478595de098890baef51662c51e6089675529",
+      "courses": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "scope": "Finite roots, phase kernel, charge census and identities, with explicit carrier and source-contract guards."
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\dynamics-history-bridge-verification.json",
+      "sha256": "297675cf51bdbe3c15f78b098e2b0afb9b021298a3d2156a498e55c759370969",
+      "courses": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "scope": "Finite normalized Hodge blocks, Cayley step, history endpoints, phase ledger, lattice pairing, class spaces, Schur and Weyl reconstruction."
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\decoder-limit-bridge-verification.json",
+      "sha256": "7c41a7ede0f4002152f9423fd5d75a64d40a6668dce7fa0c574acf0ab1421b4b",
+      "courses": [
+        21,
+        22,
+        23
+      ],
+      "scope": "Exact 13-channel decoder and retained syndrome, a separately derived integer left inverse, composition/Walsh exercises, compatible histories and noninjective real renderer, tails, scalar lift and finite branch guards."
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\applied-bridge-verification.json",
+      "sha256": "4f189fedd0126bbcc332acffc8e5abd36cfcdcf26a74cf747ac45162c356ecb7",
+      "courses": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "scope": "Synthetic frame, crossing, phase-preserving Fourier, cost, normalization, distance and identifiable-design examples; all scoped separately from physical observations."
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\route-source-retrieval-status.json",
+      "sha256": "2db00c1da129984fe9231b9e6cf3140f9beb9b7f155db912c2a1a872e1404960",
+      "courses": [
+        27,
+        30
+      ],
+      "scope": "Retrieval status: T20 overview verified, full named least-cost certificate not retrieved; parent MCP session exhausted. Preserve SA27 replay guard and do not replace it with synthetic examples or different historical objectives."
+    }
+  ]
+}

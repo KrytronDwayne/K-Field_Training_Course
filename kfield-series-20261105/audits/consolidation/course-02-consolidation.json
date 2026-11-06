@@ -1,0 +1,131 @@
+{
+  "course_id": "course-02",
+  "timestamp": "2026-11-05T16:56:20.229947+00:00",
+  "source": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-course-02\\K-Field_Training_Course\\kfield-02-mathematical-tools-units-vectors-and-coordinates",
+  "destination": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-02-mathematical-tools-units-vectors-and-coordinates",
+  "source_validator_passed": true,
+  "destination_validator_passed": true,
+  "destination_errors": [],
+  "destination_checks": [
+    "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+    "parsed manifest.json",
+    "parsed audit_report.json",
+    "parsed completion_report.json",
+    "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+  ],
+  "path_metadata_relocated_files": [
+    "completion_report.json",
+    "input-contract.json",
+    "manifest.json"
+  ],
+  "copied_generated_files": [
+    {
+      "path": "audit_report.json",
+      "source_sha256": "92878dcb27eef78ba1ac911c2ed405b3c3626d5939486cfa2ebe1ab69ac9d24f",
+      "destination_sha256_before_hash_refresh": "92878dcb27eef78ba1ac911c2ed405b3c3626d5939486cfa2ebe1ab69ac9d24f"
+    },
+    {
+      "path": "capstone.md",
+      "source_sha256": "69de897e0951611183138ce2b431b4c5accec2a2210d375713f39de088afe52f",
+      "destination_sha256_before_hash_refresh": "69de897e0951611183138ce2b431b4c5accec2a2210d375713f39de088afe52f"
+    },
+    {
+      "path": "completion_report.json",
+      "source_sha256": "7de0f157ca4addd9f16220b8b07c4685a0aea6a9fe3f2a4f24acdc1b6713b7f0",
+      "destination_sha256_before_hash_refresh": "e23471158f8d8c9a78fda618e1ad11f2d33de874f19bd42f42365a4eb13a1d11"
+    },
+    {
+      "path": "course-map.md",
+      "source_sha256": "e3821d1ed7842bf2d540e1dceff7488d64014feb81c187fe33a08ac578687545",
+      "destination_sha256_before_hash_refresh": "e3821d1ed7842bf2d540e1dceff7488d64014feb81c187fe33a08ac578687545"
+    },
+    {
+      "path": "course.md",
+      "source_sha256": "2b87a1b31852e4ce5c4e3d477ef6839c1456f68a87998a64d9f39f40c1fde0a6",
+      "destination_sha256_before_hash_refresh": "2b87a1b31852e4ce5c4e3d477ef6839c1456f68a87998a64d9f39f40c1fde0a6"
+    },
+    {
+      "path": "independent-audit.json",
+      "source_sha256": "42761062b514a3299c2c0420a8dcdaf2edb759f89f4c036fa6cbca4a60eb2d9a",
+      "destination_sha256_before_hash_refresh": "42761062b514a3299c2c0420a8dcdaf2edb759f89f4c036fa6cbca4a60eb2d9a"
+    },
+    {
+      "path": "input-contract.json",
+      "source_sha256": "12cb5c4316cdd0a01eca0ce6ecf1885dbd7a6233c8786982cddf91801a2bf61a",
+      "destination_sha256_before_hash_refresh": "d186535636adb4469f7807d587c68af1c10c59475ce1720d46bb7b9ab195f2f7"
+    },
+    {
+      "path": "lesson-01.md",
+      "source_sha256": "d601414e3f5b344e74c8196e59a843cc4d0d2bb804e6a8c4f54625db09e9977f",
+      "destination_sha256_before_hash_refresh": "d601414e3f5b344e74c8196e59a843cc4d0d2bb804e6a8c4f54625db09e9977f"
+    },
+    {
+      "path": "lesson-02.md",
+      "source_sha256": "6f9485d101a40c487a7739ebafa1a2a47013b7ae1fa9ac8d713ef7af70792803",
+      "destination_sha256_before_hash_refresh": "6f9485d101a40c487a7739ebafa1a2a47013b7ae1fa9ac8d713ef7af70792803"
+    },
+    {
+      "path": "lesson-03.md",
+      "source_sha256": "68c3f742d3b89183a491793c0f63fc95dec4d39c7c5e8805c15ad2731e3dfb74",
+      "destination_sha256_before_hash_refresh": "68c3f742d3b89183a491793c0f63fc95dec4d39c7c5e8805c15ad2731e3dfb74"
+    },
+    {
+      "path": "lesson-04.md",
+      "source_sha256": "7ce99ae7170cafbffba12ffe01d3c9f56287f7ac2ea6a6aac4b7791cbf7b8882",
+      "destination_sha256_before_hash_refresh": "7ce99ae7170cafbffba12ffe01d3c9f56287f7ac2ea6a6aac4b7791cbf7b8882"
+    },
+    {
+      "path": "lesson-05.md",
+      "source_sha256": "c71a96c3c3f68400c2b74de2d62bde55d97f1fffdc6f997e7ad201e4213f8026",
+      "destination_sha256_before_hash_refresh": "c71a96c3c3f68400c2b74de2d62bde55d97f1fffdc6f997e7ad201e4213f8026"
+    },
+    {
+      "path": "lesson-06.md",
+      "source_sha256": "b9d056b704d4c4634d5ca624d3b4a49e2af2e8409804d77b3b2588586e3d8197",
+      "destination_sha256_before_hash_refresh": "b9d056b704d4c4634d5ca624d3b4a49e2af2e8409804d77b3b2588586e3d8197"
+    },
+    {
+      "path": "lesson-07.md",
+      "source_sha256": "d04c5eca1d12e7ecebaaddc53ddfcd390b3a1afb3a1099b45aa33c35035ce86d",
+      "destination_sha256_before_hash_refresh": "d04c5eca1d12e7ecebaaddc53ddfcd390b3a1afb3a1099b45aa33c35035ce86d"
+    },
+    {
+      "path": "manifest.json",
+      "source_sha256": "f838960c68d8ef453fe86e42e6f3e8f164f4a2bbf950abfc30b6f629bde70c38",
+      "destination_sha256_before_hash_refresh": "6349c0c9d79228e635ae3c8ad5672b522381d9817e46fa76b1e4c1babea2f13a"
+    },
+    {
+      "path": "source-records.json",
+      "source_sha256": "6c0e8bf9ad30178d9ef90af1abd8eec6e517039b1f1bfcb0e0d9c82f8745f248",
+      "destination_sha256_before_hash_refresh": "6c0e8bf9ad30178d9ef90af1abd8eec6e517039b1f1bfcb0e0d9c82f8745f248"
+    },
+    {
+      "path": "sources.md",
+      "source_sha256": "245d2b42044554000d7d4e70824811bdf5c23b80f6e0fd8845c1ec3ce9601262",
+      "destination_sha256_before_hash_refresh": "245d2b42044554000d7d4e70824811bdf5c23b80f6e0fd8845c1ec3ce9601262"
+    },
+    {
+      "path": "teacher-guide.md",
+      "source_sha256": "d494f71e94bb63aa3442870d0ea45142b5479588592375c092121276a891286b",
+      "destination_sha256_before_hash_refresh": "d494f71e94bb63aa3442870d0ea45142b5479588592375c092121276a891286b"
+    },
+    {
+      "path": "terminology.md",
+      "source_sha256": "8597dafe11fcf46749c3818c006ba86238a81bec7eb92fcf594d47eae25974c1",
+      "destination_sha256_before_hash_refresh": "8597dafe11fcf46749c3818c006ba86238a81bec7eb92fcf594d47eae25974c1"
+    },
+    {
+      "path": "verify_examples.py",
+      "source_sha256": "5eed22d6462a41d1777df0590c15af700cf5666f2b7a6e3a7c4b05c5d7a8f367",
+      "destination_sha256_before_hash_refresh": "5eed22d6462a41d1777df0590c15af700cf5666f2b7a6e3a7c4b05c5d7a8f367"
+    },
+    {
+      "path": "worked-example-verification.json",
+      "source_sha256": "8690f6b080d8dc6c76da107aeec3d4760fb83f0884f73f374e5f6960aba6f8c0",
+      "destination_sha256_before_hash_refresh": "8690f6b080d8dc6c76da107aeec3d4760fb83f0884f73f374e5f6960aba6f8c0"
+    }
+  ],
+  "source_data_copied": false,
+  "source_directory_modified": false,
+  "acceptance": "Pending separate independent content audit; validator passes only machine-checkable completion requirements."
+}

@@ -1,0 +1,59 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Lesson 07 — Reading a fixed-rung certificate · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/17">Course 17</a><span>/</span><span>lesson 07</span></div><a class="original" href="../../../kfield-17-finite-gauge-transport-and-conservative-dynamics/lesson-07.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#lesson-07-reading-a-fixed-rung-certificate">Lesson 07 — Reading a fixed-rung certificate</a><a href="#c1707-e1-the-scope-of-a-certificate">C17.07-E1 — The scope of a certificate</a><a href="#c1707-w1-read-the-archived-card">C17.07-W1 — Read the archived card</a><a href="#c1707-p1-separate-reading-from-a-toy-calculation">C17.07-P1 — Separate reading from a toy calculation</a><a href="#diagnostic-checks">Diagnostic checks</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 01 — Link transport between local frames</a><a  href="lesson-02.html">Lesson 02 — Covariant finite differences</a><a  href="lesson-03.html">Lesson 03 — Loops and holonomy</a><a  href="lesson-04.html">Lesson 04 — A finite gauge-invariant action</a><a  href="lesson-05.html">Lesson 05 — Norm-preserving time steps</a><a  href="lesson-06.html">Lesson 06 — Metric and Hodge factors</a><a aria-current=page href="lesson-07.html">Lesson 07 — Reading a fixed-rung certificate</a><a  href="lesson-08.html">Lesson 08 — Conservation and continuum scope</a></details></aside><div class="reading-column"><article class="prose"><h1 id="lesson-07-reading-a-fixed-rung-certificate" tabindex="-1">Lesson 07 — Reading a fixed-rung certificate</h1>
+<p>Essential question: What must accompany a numerical bound before we can replay its calculation?</p>
+<p>Goals: transcribe bounds with their inequality signs and units; identify supplied and missing certificate inputs; evaluate a separately declared synthetic bound without merging evidence classes.</p>
+<p>Prerequisite bridge: lesson 06 showed that numbers depend on conventions and normalization. A certificate similarly depends on its finite model, coefficients and method. Two 55-minute periods: A source card and units, B missing-input analysis and synthetic arithmetic. Each period uses 5 retrieval, 20 teaching, 15 practice and 15 diagnostic/repair minutes.</p>
+<h2 id="c1707-e1-the-scope-of-a-certificate" tabindex="-1">C17.07-E1 — The scope of a certificate</h2>
+<p>A finite compiler here means an explicit procedure assembling the finite model's matrices and coefficients. A rung is a fixed level of its hierarchy. A certificate is a calculation record supporting a stated result for specified inputs. The result and its scope belong together: changing coefficients or rung means a different calculation. A hash is a file fingerprint used to check which exact bytes were read; it does not prove the file's claims.</p>
+<p>An interval bound encloses a quantity instead of replacing it by a rounded guess. The statement ε&lt;0.007744166 is an upper bound with a strict inequality, not an equality or a measured uncertainty distribution. A non-strict ≤ allows equality. A gap is a separation between spectral levels of the specified model; this is a recognition definition, not an assignment to compute an untaught spectrum. A contraction factor α bounds a shrinkage in the certificate's specified comparison; its reported value does not supply the missing comparison norm or matrices.</p>
+<p>S02 M13 names site-indexed compact-group links and positive native plaquette/detail coefficients as domain hypotheses. For our reading purposes a compact group is a bounded, closed collection of allowed invertible frame maps with composition and inverses; the scalar unit-modulus phases are a familiar example. The exact source group's carrier and compiler still must be specified to replay its certificate. Positive coefficients mean strictly greater than zero. Its detail coefficient lower bound c_*&gt;0 must also be retained. A theorem for one pinned finite compiler does not automatically range over every model bearing the same module label.</p>
+<p>Use this certificate card: exact source path/hash and pointer; rung and compiler identifier; spaces and basis conventions; complete matrix inputs; positive coefficients and their units; enclosure method and precision; bound with inequality; replay command and object availability. If a field is missing, say unavailable. Do not fill it with our teaching matrix.</p>
+<h2 id="c1707-w1-read-the-archived-card" tabindex="-1">C17.07-W1 — Read the archived card</h2>
+<p>At S02 /backbone_sequence/12/proof, the source reports:</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Quantity</th>
+<th>Source-reported bound</th>
+<th>Reading</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ε_E</td>
+<td>&lt;0.007744166</td>
+<td>strict dimensionless enclosure bound</td>
+</tr>
+<tr>
+<td>ε_B</td>
+<td>&lt;0.015868134</td>
+<td>strict dimensionless enclosure bound</td>
+</tr>
+<tr>
+<td>α</td>
+<td>≤0.5244</td>
+<td>non-strict contraction bound</td>
+</tr>
+<tr>
+<td>Δ</td>
+<td>&gt;0.10185916 H_N/τ_R</td>
+<td>strict finite-rung energy-gap bound</td>
+</tr>
+</tbody>
+</table></div>
+<p>H_N denotes an action scale and τ_R a positive time scale in this reading, so E0=H_N/τ_R has energy units. Action is energy multiplied by time; division by time recovers energy. The coefficient 0.10185916 is dimensionless. Retain all displayed digits as reported bounds, not a claim that the underlying method used exactly that many digits of working precision.</p>
+<p>What can we verify now? We can verify the source bytes, pointer, inequality transcription and units. The full fixed-rung matrices, native coefficient list, interval method, numerical precision settings and executable certificate reference are not supplied in this read packet. S03 /findings/8, AUD-009, explicitly lists fixed-rung interval certificate inputs among missing replay objects. Thus this is a source-scoped reading, not a fresh replay. Its source-local VERIFIED_NOT_LOADED handling preserves the claim and the retrieval gap together.</p>
+<h2 id="c1707-p1-separate-reading-from-a-toy-calculation" tabindex="-1">C17.07-P1 — Separate reading from a toy calculation</h2>
+<p>First, classify a packet containing only the four bounds above. Name at least four missing fields. Then evaluate this independent, synthetic rule: d_root=3/10 and c_*=1/20 are dimensionless positive inputs; define b=min(d_root,2c_*). The symbol min selects the smaller of its two arguments. Report bE0. For an optional unit check take H_N=2 AU and τ_R=4 TU, with EU=AU/TU.</p>
+<p>Worked answer: the packet is a source summary; the exact compiler/rung, full matrices, positive coefficient list, interval method/working precision, and pinned replay object/command are absent. Replay is unavailable. In the synthetic rule, 2c_*=2/20=1/10, which is less than 3/10, so b=1/10 and bE0=E0/10. For the optional units, E0=(2/4) EU=1/2 EU, so bE0=1/20 EU. This arithmetic does not reproduce the archived 0.10185916 bound. Here d_root is explicitly normalized; if a root gap is instead given in energy units, divide it by E0 before placing it in this dimensionless minimum.</p>
+<blockquote>
+<p>Claim scope: The four archival numbers are source-reported facts about what S02 states. Hash checking does not verify their proof. Our min calculation is a fresh synthetic finite calculation. Neither one supplies an infinite-depth operator-domain theorem or a conventional continuum comparison. M13 here is the mathematical-backbone module; an integration compiler's similarly numbered M13 is not interchangeable with it.</p>
+</blockquote>
+<h2 id="diagnostic-checks" tabindex="-1">Diagnostic checks</h2>
+<ol>
+<li><strong>C17.07-D1:</strong> What does VERIFIED_NOT_LOADED permit us to report? What positivity condition remains essential?</li>
+<li>Is α=0.5244 an exact transcription of the source claim?</li>
+<li>Would changing c_* to zero preserve a strictly positive synthetic lower bound?</li>
+<li>Can the four displayed bounds determine the original compiler matrices or working precision?</li>
+</ol>
+<p>Answers: (1) A source-reported status and unresolved retrieval requirement, not a fresh verification or an automatic refutation. Retain positive native coefficients and c_*&gt;0. (2) No: use α≤0.5244. (3) No: min(3/10,0)=0, and the stipulated positivity hypothesis fails. (4) No. The full replay inputs and numerical method are separate records; displayed decimal places are not sufficient.</p>
+<p>Next dependency: <a href="lesson-08.html">lesson 08</a> separates what finite conservation proves from what an infinite limit would require.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><a class="button secondary" href="lesson-06.html">← Previous lesson</a><a class="button" href="lesson-08.html">Next lesson →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/17">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

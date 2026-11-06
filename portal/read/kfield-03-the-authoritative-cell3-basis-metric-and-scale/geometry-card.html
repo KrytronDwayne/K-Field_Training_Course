@@ -1,0 +1,90 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Locked Cell3 geometry card · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/3">Course 03</a><span>/</span><span>geometry card</span></div><a class="original" href="../../../kfield-03-the-authoritative-cell3-basis-metric-and-scale/geometry-card.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#locked-cell3-geometry-card">Locked Cell3 geometry card</a><a href="#b-nm">B — nm</a><a href="#m_cell-nm2">M_cell — nm²</a><a href="#r_cell-nm2">R_cell — nm^−2</a><a href="#reciprocal-column-basis-d-nm1">Reciprocal column basis D — nm^−1</a><a href="#labeled-scalar-fields">Labeled scalar fields</a><a href="#verification-status">Verification status</a><a href="#historical-branch-boundary">Historical branch boundary</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 1 — An ordered cell in three dimensions</a><a  href="lesson-02.html">Lesson 2 — Lengths and angles from a Gram matrix</a><a  href="lesson-03.html">Lesson 3 — Face areas and signed volume</a><a  href="lesson-04.html">Lesson 4 — Direct and inverse metrics</a><a  href="lesson-05.html">Lesson 5 — Scale classes and the area anchor</a><a  href="lesson-06.html">Lesson 6 — A reproducible Cell3 specification</a></details></aside><div class="reading-column"><article class="prose"><h1 id="locked-cell3-geometry-card" tabindex="-1">Locked Cell3 geometry card</h1>
+<p><strong>Branch:</strong> mature S02 lock, confirmed by S03 canonical values. <strong>Evidence:</strong> exact source lexemes, not newly measured data. Arrays below are displayed as rows; the physical edges of B are its columns. Source digests and pointers: <a href="sources.html">sources.md</a>.</p>
+<p><strong>Axes and ownership:</strong> fixed ICRS columns [a b c], intentional negative determinant; centered coordinate cell [−1/2,1/2)^3. Use x−O_K for any affine reciprocal recovery. No axis permutation, reflection, or silent transpose.</p>
+<h2 id="b-nm" tabindex="-1">B — nm</h2>
+<p>S02 <code>/mature_locked_cell3/B_nm</code>.</p>
+<pre aria-label="Scrollable literal code or matrix" role="region" tabindex="0"><code class="language-text">0.3275012420558906  0.0353307758438284  -0.0101293176267288
+-0.0548970078840064  0.2073198504401918  -0.3897877023662599
+-0.0374875028947299  -0.5474010853885081  -0.6897344083672676
+</code></pre>
+<h2 id="m_cell-nm2" tabindex="-1">M_cell — nm²</h2>
+<p>S02 <code>/mature_locked_cell3/direct_metric_nm2</code>.</p>
+<pre aria-label="Scrollable literal code or matrix" role="region" tabindex="0"><code class="language-text">0.11167605789605008  0.020710333280605807  0.043937235096219766
+0.020710333280605807  0.34387773239278707  0.29639275896152284
+0.043937235096219766  0.29639275896152284  0.6277706100772958
+</code></pre>
+<h2 id="r_cell-nm2" tabindex="-1">R_cell — nm^−2</h2>
+<p>S02 <code>/mature_locked_cell3/reciprocal_metric_nm_minus2</code>.</p>
+<pre aria-label="Scrollable literal code or matrix" role="region" tabindex="0"><code class="language-text">9.20802552945755  0.0015348024281924184  -0.6451880356999388
+0.0015348024281924234  4.903398312367984  -2.3151755844163877
+-0.6451880356999389  -2.3151755844163877  2.7311712747116936
+</code></pre>
+<h2 id="reciprocal-column-basis-d-nm1" tabindex="-1">Reciprocal column basis D — nm^−1</h2>
+<p>S02 <code>/mature_locked_cell3/reciprocal_basis_nm_minus1</code>.</p>
+<pre aria-label="Scrollable literal code or matrix" role="region" tabindex="0"><code class="language-text">3.0222293380828225  0.19719466520502418  -0.3207617339980025
+-0.25368849304721575  1.9189145203319455  -1.5091399391601032
+0.09898235188380058  -1.0873268322091032  -0.5922666871824953
+</code></pre>
+<p>R_cell is the inverse Gram metric; D is the reciprocal basis. Stored asymmetries and closure differences are preserved in verification.json. A displayed source decimal is authoritative as a string, not promoted to an exact algebraic identity.</p>
+<h2 id="labeled-scalar-fields" tabindex="-1">Labeled scalar fields</h2>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Source decimal lexeme(s)</th>
+<th>Unit/order</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Signed determinant (<code>det_B_nm3</code>)</td>
+<td>-0.11791489191174465</td>
+<td>nm³</td>
+</tr>
+<tr>
+<td>Unsigned volume (<code>volume_nm3</code>)</td>
+<td>0.11791489191174465</td>
+<td>nm³</td>
+</tr>
+<tr>
+<td>Edge lengths (<code>edge_lengths_nm</code>)</td>
+<td>0.334179679059111, 0.586410890411141, 0.792319765042685</td>
+<td>nm; a,b,c</td>
+</tr>
+<tr>
+<td>Included angles (<code>included_angles_deg</code>)</td>
+<td>ab=83.93348301231273, ac=80.44813001833789, bc=50.3632318137562</td>
+<td>degrees; ab,ac,bc</td>
+</tr>
+<tr>
+<td>Face areas (<code>face_areas_nm2</code>)</td>
+<td>ab=0.19486916546048413, ac=0.2611062357902053, bc=0.3578095391285615</td>
+<td>nm²; ab,ac,bc</td>
+</tr>
+<tr>
+<td>Normalized area ray (<code>projective_ray_bc_ac_ab</code>)</td>
+<td>1.0, 0.7297352564331424, 0.5446170214888189</td>
+<td>dimensionless; bc,ac,ab</td>
+</tr>
+<tr>
+<td>eta (<code>eta</code>)</td>
+<td>1836.1526734259999</td>
+<td>dimensionless input</td>
+</tr>
+<tr>
+<td>alpha (<code>alpha</code>)</td>
+<td>0.0072973525643314245</td>
+<td>dimensionless input</td>
+</tr>
+<tr>
+<td>alpha inverse (<code>alpha_inverse</code>)</td>
+<td>137.035999177</td>
+<td>dimensionless input</td>
+</tr>
+</tbody>
+</table></div>
+<p>All scalar pointers are under S02 <code>/mature_locked_cell3/</code>. The angle and ratio inputs are supplied; the source scale theorem is conditional on them. Taking the labeled ab area as an anchor fixes positive scale for the supplied frame. Mass-bridge interpretation is deferred to course-08.</p>
+<h2 id="verification-status" tabindex="-1">Verification status</h2>
+<p>The exact fraction analogue and original-source hash checks passed. Decimal recomputation uses 60 significant digits, ROUND_HALF_EVEN, and the input strings above. Full signed residual matrices and reconstruction formulas appear in <a href="../../../kfield-03-the-authoritative-cell3-basis-metric-and-scale/verification.json">verification.json</a>, generated by <a href="../../../kfield-03-the-authoritative-cell3-basis-metric-and-scale/verify_examples.py">verify_examples.py</a>. Source-reported <code>direct_reciprocal_closure_max_abs</code>=2.8939781400741195e-16 remains a separate reported scalar.</p>
+<h2 id="historical-branch-boundary" tabindex="-1">Historical branch boundary</h2>
+<p>S01 <code>/backbone_sequence/0</code> is the historical M01 occurrence (archive stable ID 00000000000000747820). It states the metric-closure definitions, but its result is prose rather than the mature numerical lock. It is not used to populate this card. S03 <code>/findings/4</code> identifies superseded reciprocal witnesses; no superseded numerical value is an active constant here.</p></article><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/3">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

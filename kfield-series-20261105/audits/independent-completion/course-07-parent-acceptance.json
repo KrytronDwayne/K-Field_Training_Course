@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-07",
+  "timestamp": "2026-11-05T18:02:51.214623+00:00",
+  "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-07-information-complete-finite-calculus",
+  "validator": "passed",
+  "validator_checks": [
+    "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+    "parsed manifest.json",
+    "parsed audit_report.json",
+    "parsed completion_report.json",
+    "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+  ],
+  "validator_errors": [],
+  "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+  "manifest_sha256": "1fcd7ac7a602b453cab9bd8b258e57992b7cc791a26d890905a307da694ce886",
+  "completion_report_sha256": "de626c92ea7181a659495fc498640652e2db19efb931a64254b3f9244370377c",
+  "course_sha256": "279721651b5235938b278e8f581707473b7e2b08a49e023b3cb30f086c800f22",
+  "status": "accepted",
+  "independent_audit": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\independent-completion\\course-07-independent-audit.json",
+  "independent_report_sha256": "7605ba43a9bebb53e087331be37be43509daf444008ab9bbde05de8b90613aac",
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "scope": "Completed topical course accepted after parent review of independent source/content audit and fresh deterministic validation; documented source limitations retained."
+}

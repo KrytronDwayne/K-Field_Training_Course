@@ -1,0 +1,2930 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-26",
+  "created_utc": "2026-11-05T20:18:58.942526+00:00",
+  "status": "passed",
+  "manifest_sha256": "2f37c34dc0b4e2982a91d9484938184c865c00e58d6661d1cf4735332ce2acf3",
+  "audited_files": {
+    "audit_report.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\audit_report.json",
+      "sha256": "c9a8df6f0144b1fb347eddeb16d7d8d6dd8090563fcb35e28b4bdba728a2816d"
+    },
+    "capstone.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\capstone.md",
+      "sha256": "d284dce16e4a6bb3817359361fb8b16038520cb2940e9989dfa1d283e0d08ecf"
+    },
+    "completion_report.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\completion_report.json",
+      "sha256": "55514a04621c5de81532a002537cbedb961e3f1ee9c250c5e656ea2bf33929ba"
+    },
+    "course-map.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\course-map.md",
+      "sha256": "98c04653a5d3364674f97949df8b2172398333bd69e51add3e17be1546995d61"
+    },
+    "course.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\course.md",
+      "sha256": "d9bf1424c6ce970544d88e30376817f85904f2cc9895034bd3b89058e81bfea8"
+    },
+    "finalize.py": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\finalize.py",
+      "sha256": "7bba5574a13a8ce8afd463f6a4344b97201e363b26862cd2770dbd9f2367af67"
+    },
+    "independent-audit.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\independent-audit.json",
+      "sha256": "44e650da9ce979f66b76dd914e69f4b8304977709ac925ab8d0e8410a6b5c02d"
+    },
+    "input-contract.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\input-contract.json",
+      "sha256": "b17f75814d4f0eb3fcfbd95a778c75ef4a1b4e30f6471e08d846da208a59b7d4"
+    },
+    "launch-prompt.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\launch-prompt.md",
+      "sha256": "c88ef848ea01986f57fcc17c2a347b1c8ec26c572db18f67b04cf5394337a764"
+    },
+    "lesson-01.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\lesson-01.md",
+      "sha256": "4deacf50daf314cde7f9a83ef65e5a6ba70051c082617c2e22485df4de78c470"
+    },
+    "lesson-02.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\lesson-02.md",
+      "sha256": "7156ee85d1941b1b9015232fab1e4003c68b8d22f04d4f336cb7c6aabccd1b25"
+    },
+    "lesson-03.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\lesson-03.md",
+      "sha256": "fa44d420f7b232c27fc47ebc0b0ec1d8388c000780ba41f6950ed45966a1b3de"
+    },
+    "lesson-04.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\lesson-04.md",
+      "sha256": "c92f02f1ec22c6adb3cd016bebed1bdc98f9a33008c0c8d661974c17703ba1f9"
+    },
+    "lesson-05.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\lesson-05.md",
+      "sha256": "438519d58aab6615bdb43a59b829daad40885f379cddd1217cb85821714ddd31"
+    },
+    "lesson-06.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\lesson-06.md",
+      "sha256": "59063171120af78e0059674ae5d750744dffb6c781afd932d8ac05ff8978e391"
+    },
+    "lesson-07.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\lesson-07.md",
+      "sha256": "b7ba26e42b1ad0ac00dead37ffc84a932f9dbc0c072177c9f7927e15babc577c"
+    },
+    "lesson-08.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\lesson-08.md",
+      "sha256": "d4d64843c8ac7f8db1bc8122cbcbd3ece0e62a2acd852f51055b29f9b99fed32"
+    },
+    "manage.py": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\manage.py",
+      "sha256": "8a777688d8a46e4a7a0ae2b05721dfbe17e3dfa110e258ce8675d96942192e28"
+    },
+    "manifest.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\manifest.json",
+      "sha256": "2f37c34dc0b4e2982a91d9484938184c865c00e58d6661d1cf4735332ce2acf3"
+    },
+    "retrieval-record.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\retrieval-record.json",
+      "sha256": "af5cf6f8cd3652d4845a514904cfe1edfad9cb53c34dc985399b6ba7243927c2"
+    },
+    "source-replay.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\source-replay.json",
+      "sha256": "474bdbcea570f4a995d8a9ece91b9d467ae6accfc084e26e5657fd4a6309da29"
+    },
+    "sources.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\sources.md",
+      "sha256": "46fdf98bee412f28e091042d73d5b39ce5b1b9c15717a6fc09dd8f7679347cd0"
+    },
+    "teacher-guide.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\teacher-guide.md",
+      "sha256": "d3be97331372769287ef2b7e9dc840c5c7d7532da91c4a8cda6728d6ca43a2d3"
+    },
+    "terminology.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\terminology.md",
+      "sha256": "6af9756156057f42f7d1d2c6948e8a8ccd40027e703bd9274b389f69fc2a20a1"
+    },
+    "verification.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\verification.json",
+      "sha256": "a26cf05df30b4e61d0a80fb6dae0072ead43ece6849e0657f0def9083fbd462b"
+    },
+    "verify_examples.py": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\verify_examples.py",
+      "sha256": "5815eba165f87d697eae1d43ba3eb431b04e1241c4b610b9ef3af1a6a505dfd7"
+    }
+  },
+  "source_hashes": [
+    {
+      "id": "S01",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180"
+    },
+    {
+      "id": "S02",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3"
+    },
+    {
+      "id": "S03",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e"
+    },
+    {
+      "id": "S04",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+      "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2"
+    },
+    {
+      "id": "S05",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+      "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7"
+    },
+    {
+      "id": "spectral-local-byte-revision",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_spectrophotometer_quadratic_phase_cost_analysis_1787748698.json",
+      "sha256": "2b4a2e39df7b165ed243e2dbd9399e8455c22436c244574122a9b5ebc05b401a"
+    },
+    {
+      "id": "energy-local-byte-revision",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_spectrophotometer_energy_per_200ms_reading_1787713812.json",
+      "sha256": "f98cfec9980986adda0eb44cc91ab26f524dec9e5e3bae3d153cb947f13d324a"
+    }
+  ],
+  "source_cards": [
+    {
+      "pointer": "/records/15",
+      "id": "R016",
+      "type": "observation",
+      "provenance_class": "archive_stated"
+    },
+    {
+      "pointer": "/records/16",
+      "id": "R017",
+      "type": "equation",
+      "provenance_class": "archive_stated"
+    },
+    {
+      "pointer": "/records/20",
+      "id": "R021",
+      "type": "discovery",
+      "provenance_class": "synthesis"
+    },
+    {
+      "pointer": "/records/25",
+      "id": "R026",
+      "type": "discovery",
+      "provenance_class": "synthesis"
+    },
+    {
+      "pointer": "/records/26",
+      "id": "R027",
+      "type": "discovery",
+      "provenance_class": "synthesis"
+    },
+    {
+      "pointer": "/records/27",
+      "id": "R028",
+      "type": "evaluation",
+      "provenance_class": "synthesis"
+    }
+  ],
+  "teaching_receipt": {
+    "path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-teaching-auditor\\outputs\\teaching-verification-24-27.json",
+    "sha256": "4e96da088122d472476f9ab06fe6c3d8fbbad2252315d304843a6c5e64ab0e04"
+  },
+  "actual_capstone_links": [
+    {
+      "step_id": "C26-CAP-01",
+      "lesson": "lesson-01.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C26.01-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C26.01-W1",
+          "line": 26
+        },
+        "prior_practice_id": {
+          "id": "C26.01-P1",
+          "line": 39
+        },
+        "diagnostic_id": {
+          "id": "C26.01-D1",
+          "line": 43
+        }
+      }
+    },
+    {
+      "step_id": "C26-CAP-02",
+      "lesson": "lesson-02.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C26.02-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C26.02-W1",
+          "line": 29
+        },
+        "prior_practice_id": {
+          "id": "C26.02-P1",
+          "line": 35
+        },
+        "diagnostic_id": {
+          "id": "C26.02-D1",
+          "line": 39
+        }
+      }
+    },
+    {
+      "step_id": "C26-CAP-03",
+      "lesson": "lesson-03.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C26.03-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C26.03-W1",
+          "line": 19
+        },
+        "prior_practice_id": {
+          "id": "C26.03-P1",
+          "line": 25
+        },
+        "diagnostic_id": {
+          "id": "C26.03-D1",
+          "line": 29
+        }
+      }
+    },
+    {
+      "step_id": "C26-CAP-04",
+      "lesson": "lesson-04.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C26.04-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C26.04-W1",
+          "line": 36
+        },
+        "prior_practice_id": {
+          "id": "C26.04-P1",
+          "line": 58
+        },
+        "diagnostic_id": {
+          "id": "C26.04-D1",
+          "line": 64
+        }
+      }
+    },
+    {
+      "step_id": "C26-CAP-05",
+      "lesson": "lesson-05.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C26.05-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C26.05-W1",
+          "line": 24
+        },
+        "prior_practice_id": {
+          "id": "C26.05-P1",
+          "line": 28
+        },
+        "diagnostic_id": {
+          "id": "C26.05-D1",
+          "line": 50
+        }
+      }
+    },
+    {
+      "step_id": "C26-CAP-06",
+      "lesson": "lesson-06.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C26.06-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C26.06-W1",
+          "line": 15
+        },
+        "prior_practice_id": {
+          "id": "C26.06-P1",
+          "line": 21
+        },
+        "diagnostic_id": {
+          "id": "C26.06-D1",
+          "line": 35
+        }
+      }
+    },
+    {
+      "step_id": "C26-CAP-07",
+      "lesson": "lesson-07.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C26.07-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C26.07-W1",
+          "line": 42
+        },
+        "prior_practice_id": {
+          "id": "C26.07-P1",
+          "line": 46
+        },
+        "diagnostic_id": {
+          "id": "C26.07-D1",
+          "line": 54
+        }
+      }
+    },
+    {
+      "step_id": "C26-CAP-08",
+      "lesson": "lesson-08.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C26.08-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C26.08-W1",
+          "line": 17
+        },
+        "prior_practice_id": {
+          "id": "C26.08-P1",
+          "line": 29
+        },
+        "diagnostic_id": {
+          "id": "C26.08-D1",
+          "line": 43
+        }
+      }
+    },
+    {
+      "step_id": "C26-CAP-09",
+      "lesson": "lesson-05.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C26.S01-E1",
+          "line": 34
+        },
+        "worked_example_id": {
+          "id": "C26.S01-W1",
+          "line": 40
+        },
+        "prior_practice_id": {
+          "id": "C26.S01-P1",
+          "line": 44
+        },
+        "diagnostic_id": {
+          "id": "C26.S01-D1",
+          "line": 50
+        }
+      }
+    }
+  ],
+  "markdown_tables": [
+    {
+      "file": "lesson-01.md",
+      "header_line": 13,
+      "columns": 6
+    },
+    {
+      "file": "lesson-01.md",
+      "header_line": 30,
+      "columns": 5
+    },
+    {
+      "file": "lesson-04.md",
+      "header_line": 25,
+      "columns": 3
+    },
+    {
+      "file": "lesson-07.md",
+      "header_line": 23,
+      "columns": 4
+    },
+    {
+      "file": "course.md",
+      "header_line": 18,
+      "columns": 6
+    },
+    {
+      "file": "course.md",
+      "header_line": 35,
+      "columns": 5
+    },
+    {
+      "file": "course.md",
+      "header_line": 177,
+      "columns": 3
+    },
+    {
+      "file": "course.md",
+      "header_line": 361,
+      "columns": 4
+    },
+    {
+      "file": "course-map.md",
+      "header_line": 7,
+      "columns": 7
+    },
+    {
+      "file": "course-map.md",
+      "header_line": 21,
+      "columns": 3
+    },
+    {
+      "file": "capstone.md",
+      "header_line": 35,
+      "columns": 5
+    },
+    {
+      "file": "teacher-guide.md",
+      "header_line": 7,
+      "columns": 4
+    },
+    {
+      "file": "terminology.md",
+      "header_line": 3,
+      "columns": 3
+    }
+  ],
+  "runtime": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+  "verifier_path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-series-source-auditor\\work\\audit_course26.py",
+  "verifier_sha256": "9b58ce1439743c782a218044aba2458e17bba1effcf1faa5842753df74c56fb7",
+  "check_count": 954,
+  "checks_by_group": {
+    "runtime": 1,
+    "integrity": 100,
+    "syntax-only": 3,
+    "source-integrity": 8,
+    "source-contract": 7,
+    "assembly": 18,
+    "actual-links": 49,
+    "pedagogy-structure": 40,
+    "pacing": 10,
+    "rubric": 1,
+    "markdown-tables": 158,
+    "local-links": 42,
+    "oscillation": 6,
+    "beats": 16,
+    "harmonics": 5,
+    "DFT-orthogonality": 16,
+    "DFT": 76,
+    "aliasing": 6,
+    "parity": 26,
+    "four-angle": 18,
+    "complex-reference": 2,
+    "toy-energy": 6,
+    "source-accounting": 10,
+    "source-join": 70,
+    "source-arithmetic": 98,
+    "saved-replay": 84,
+    "energy-join": 10,
+    "source-energy": 35,
+    "source-inference": 33
+  },
+  "failures": [],
+  "results": {
+    "oscillation": {
+      "worked_times_s": [
+        "0",
+        "1/2",
+        "1",
+        "3/2"
+      ],
+      "worked_angles_in_pi": [
+        "1/2",
+        "1",
+        "3/2",
+        "2"
+      ],
+      "baseline": 1,
+      "ac": [
+        0,
+        -2,
+        0,
+        2
+      ],
+      "samples": [
+        1,
+        -1,
+        1,
+        3
+      ],
+      "practice": [
+        3,
+        0,
+        -3,
+        0
+      ],
+      "shifted": [
+        -3,
+        0,
+        3,
+        0
+      ]
+    },
+    "beats": [
+      {
+        "frequencies_Hz": [
+          4,
+          6
+        ],
+        "carrier_signedfactor_envelope_Hz": [
+          "5",
+          "1",
+          2
+        ],
+        "samples": [
+          {
+            "time_s": "0",
+            "sum": 2,
+            "signed_factor": 2,
+            "carrier": 1,
+            "product": 2,
+            "sum_minus_product": 0
+          },
+          {
+            "time_s": "1/4",
+            "sum": 0,
+            "signed_factor": 1.2246467991473532e-16,
+            "carrier": 3.061616997868383e-16,
+            "product": 3.7493994566546446e-32,
+            "sum_minus_product": -3.7493994566546446e-32
+          },
+          {
+            "time_s": "1/2",
+            "sum": 2,
+            "signed_factor": -2,
+            "carrier": -1,
+            "product": 2,
+            "sum_minus_product": 0
+          },
+          {
+            "time_s": "3/4",
+            "sum": 0,
+            "signed_factor": -3.6739403974420594e-16,
+            "carrier": -2.6948419387607653e-15,
+            "product": 9.900688663534256e-31,
+            "sum_minus_product": -9.900688663534256e-31
+          }
+        ]
+      },
+      {
+        "frequencies_Hz": [
+          5,
+          7
+        ],
+        "carrier_signedfactor_envelope_Hz": [
+          "6",
+          "1",
+          2
+        ],
+        "samples": [
+          {
+            "time_s": "0",
+            "sum": 2,
+            "signed_factor": 2,
+            "carrier": 1,
+            "product": 2,
+            "sum_minus_product": 0
+          },
+          {
+            "time_s": "1/4",
+            "sum": -1.224646799147353e-16,
+            "signed_factor": 1.2246467991473532e-16,
+            "carrier": -1,
+            "product": -1.2246467991473532e-16,
+            "sum_minus_product": 2.465190328815662e-32
+          },
+          {
+            "time_s": "1/2",
+            "sum": -2,
+            "signed_factor": -2,
+            "carrier": 1,
+            "product": -2,
+            "sum_minus_product": 0
+          },
+          {
+            "time_s": "3/4",
+            "sum": -3.1853196390562947e-15,
+            "signed_factor": -3.6739403974420594e-16,
+            "carrier": -1,
+            "product": 3.6739403974420594e-16,
+            "sum_minus_product": -3.5527136788005005e-15
+          }
+        ]
+      },
+      {
+        "frequencies_Hz": [
+          10,
+          14
+        ],
+        "carrier_signedfactor_envelope_Hz": [
+          "12",
+          "2",
+          4
+        ],
+        "samples": [
+          {
+            "time_s": "0",
+            "sum": 2,
+            "signed_factor": 2,
+            "carrier": 1,
+            "product": 2,
+            "sum_minus_product": 0
+          },
+          {
+            "time_s": "1/4",
+            "sum": -2,
+            "signed_factor": -2,
+            "carrier": 1,
+            "product": -2,
+            "sum_minus_product": 0
+          },
+          {
+            "time_s": "1/2",
+            "sum": 2,
+            "signed_factor": 2,
+            "carrier": 1,
+            "product": 2,
+            "sum_minus_product": 0
+          },
+          {
+            "time_s": "3/4",
+            "sum": -2,
+            "signed_factor": -2,
+            "carrier": 1,
+            "product": -2,
+            "sum_minus_product": 0
+          }
+        ]
+      }
+    ],
+    "harmonics": {
+      "worked_rate_cycles_s": 2,
+      "worked_k3_rate": 6,
+      "worked_quadrature": [
+        0,
+        1
+      ],
+      "reversed_quadrature": [
+        0,
+        -1
+      ],
+      "practice_rate": -2,
+      "practice_k2_rate": -4,
+      "practice_phase_in_pi": "-1/2",
+      "practice_quadrature": [
+        0,
+        -1
+      ],
+      "zero_projection": "Phase fixed, tangential trajectory retained."
+    },
+    "DFT": [
+      {
+        "samples": [
+          1,
+          0,
+          -1,
+          0
+        ],
+        "spectrum_real_imag": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "2",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "2",
+            "0"
+          ]
+        ],
+        "inverse_numerators_real_imag": [
+          [
+            "4",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "-4",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        "reconstruction_real_imag": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "-1",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        "residual_real_imag": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ]
+      },
+      {
+        "samples": [
+          0,
+          1,
+          0,
+          -1
+        ],
+        "spectrum_real_imag": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "-2"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "2"
+          ]
+        ],
+        "inverse_numerators_real_imag": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "4",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "-4",
+            "0"
+          ]
+        ],
+        "reconstruction_real_imag": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "-1",
+            "0"
+          ]
+        ],
+        "residual_real_imag": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ]
+      },
+      {
+        "samples": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "spectrum_real_imag": [
+          [
+            "4",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        "inverse_numerators_real_imag": [
+          [
+            "4",
+            "0"
+          ],
+          [
+            "4",
+            "0"
+          ],
+          [
+            "4",
+            "0"
+          ],
+          [
+            "4",
+            "0"
+          ]
+        ],
+        "reconstruction_real_imag": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        "residual_real_imag": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ]
+      },
+      {
+        "samples": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "spectrum_real_imag": [
+          [
+            "10",
+            "0"
+          ],
+          [
+            "-2",
+            "2"
+          ],
+          [
+            "-2",
+            "0"
+          ],
+          [
+            "-2",
+            "-2"
+          ]
+        ],
+        "inverse_numerators_real_imag": [
+          [
+            "4",
+            "0"
+          ],
+          [
+            "8",
+            "0"
+          ],
+          [
+            "12",
+            "0"
+          ],
+          [
+            "16",
+            "0"
+          ]
+        ],
+        "reconstruction_real_imag": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "2",
+            "0"
+          ],
+          [
+            "3",
+            "0"
+          ],
+          [
+            "4",
+            "0"
+          ]
+        ],
+        "residual_real_imag": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ]
+      },
+      {
+        "samples": [
+          4,
+          1,
+          2,
+          3
+        ],
+        "spectrum_real_imag": [
+          [
+            "10",
+            "0"
+          ],
+          [
+            "2",
+            "2"
+          ],
+          [
+            "2",
+            "0"
+          ],
+          [
+            "2",
+            "-2"
+          ]
+        ],
+        "inverse_numerators_real_imag": [
+          [
+            "16",
+            "0"
+          ],
+          [
+            "4",
+            "0"
+          ],
+          [
+            "8",
+            "0"
+          ],
+          [
+            "12",
+            "0"
+          ]
+        ],
+        "reconstruction_real_imag": [
+          [
+            "4",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ],
+          [
+            "2",
+            "0"
+          ],
+          [
+            "3",
+            "0"
+          ]
+        ],
+        "residual_real_imag": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ]
+      },
+      {
+        "samples": [
+          2,
+          3,
+          2,
+          3
+        ],
+        "spectrum_real_imag": [
+          [
+            "10",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "-2",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        "inverse_numerators_real_imag": [
+          [
+            "8",
+            "0"
+          ],
+          [
+            "12",
+            "0"
+          ],
+          [
+            "8",
+            "0"
+          ],
+          [
+            "12",
+            "0"
+          ]
+        ],
+        "reconstruction_real_imag": [
+          [
+            "2",
+            "0"
+          ],
+          [
+            "3",
+            "0"
+          ],
+          [
+            "2",
+            "0"
+          ],
+          [
+            "3",
+            "0"
+          ]
+        ],
+        "residual_real_imag": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ]
+      },
+      {
+        "samples": [
+          -1,
+          -1,
+          1,
+          1
+        ],
+        "spectrum_real_imag": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "-2",
+            "2"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "-2",
+            "-2"
+          ]
+        ],
+        "inverse_numerators_real_imag": [
+          [
+            "-4",
+            "0"
+          ],
+          [
+            "-4",
+            "0"
+          ],
+          [
+            "4",
+            "0"
+          ],
+          [
+            "4",
+            "0"
+          ]
+        ],
+        "reconstruction_real_imag": [
+          [
+            "-1",
+            "0"
+          ],
+          [
+            "-1",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        "residual_real_imag": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ]
+      },
+      {
+        "samples": [
+          2,
+          0,
+          -2,
+          0
+        ],
+        "spectrum_real_imag": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "4",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "4",
+            "0"
+          ]
+        ],
+        "inverse_numerators_real_imag": [
+          [
+            "8",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "-8",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        "reconstruction_real_imag": [
+          [
+            "2",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "-2",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        "residual_real_imag": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ]
+      },
+      {
+        "samples": [
+          3,
+          1,
+          -1,
+          1
+        ],
+        "spectrum_real_imag": [
+          [
+            "4",
+            "0"
+          ],
+          [
+            "4",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "4",
+            "0"
+          ]
+        ],
+        "inverse_numerators_real_imag": [
+          [
+            "12",
+            "0"
+          ],
+          [
+            "4",
+            "0"
+          ],
+          [
+            "-4",
+            "0"
+          ],
+          [
+            "4",
+            "0"
+          ]
+        ],
+        "reconstruction_real_imag": [
+          [
+            "3",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ],
+          [
+            "-1",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        "residual_real_imag": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ]
+      }
+    ],
+    "parity_and_residual": [
+      {
+        "input": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "half_turn": [
+          3,
+          4,
+          1,
+          2
+        ],
+        "even": [
+          "2",
+          "3",
+          "2",
+          "3"
+        ],
+        "odd": [
+          "-1",
+          "-1",
+          "1",
+          "1"
+        ],
+        "shifted_even_odd_dots": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "even_spectrum_real_imag": [
+          [
+            "10",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "-2",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        "odd_spectrum_real_imag": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "-2",
+            "2"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "-2",
+            "-2"
+          ]
+        ],
+        "reconstruction": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      {
+        "input": [
+          3,
+          1,
+          -1,
+          1
+        ],
+        "half_turn": [
+          -1,
+          1,
+          3,
+          1
+        ],
+        "even": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "odd": [
+          "2",
+          "0",
+          "-2",
+          "0"
+        ],
+        "shifted_even_odd_dots": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "even_spectrum_real_imag": [
+          [
+            "4",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        "odd_spectrum_real_imag": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "4",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "4",
+            "0"
+          ]
+        ],
+        "reconstruction": [
+          "3",
+          "1",
+          "-1",
+          "1"
+        ]
+      }
+    ],
+    "synthetic_count_domains": [
+      {
+        "name": "worked",
+        "counts": [
+          "8",
+          "4",
+          "6",
+          "2"
+        ],
+        "M_Q_D0_D90": [
+          "7",
+          "3",
+          "1",
+          "1"
+        ],
+        "contrast_counts": "4",
+        "gain": "4/3",
+        "rho": "1/2",
+        "response": "8/3",
+        "reconstruction": [
+          "8",
+          "4",
+          "6",
+          "2"
+        ],
+        "undefined_reason": null
+      },
+      {
+        "name": "practice",
+        "counts": [
+          "2",
+          "5",
+          "4",
+          "3"
+        ],
+        "M_Q_D0_D90": [
+          "3",
+          "4",
+          "-1",
+          "1"
+        ],
+        "contrast_counts": "-1",
+        "gain": "-1/4",
+        "rho": "1/2",
+        "response": "-1/2",
+        "reconstruction": [
+          "2",
+          "5",
+          "4",
+          "3"
+        ],
+        "undefined_reason": null
+      },
+      {
+        "name": "failure-A",
+        "counts": [
+          "2",
+          "0",
+          "4",
+          "0"
+        ],
+        "M_Q_D0_D90": [
+          "3",
+          "0",
+          "-1",
+          "0"
+        ],
+        "contrast_counts": "3",
+        "gain": null,
+        "rho": "1/2",
+        "response": null,
+        "reconstruction": [
+          "2",
+          "0",
+          "4",
+          "0"
+        ],
+        "undefined_reason": "Q=0"
+      },
+      {
+        "name": "failure-B",
+        "counts": [
+          "8",
+          "4",
+          "6",
+          "2"
+        ],
+        "M_Q_D0_D90": [
+          "7",
+          "3",
+          "1",
+          "1"
+        ],
+        "contrast_counts": "4",
+        "gain": "4/3",
+        "rho": "0",
+        "response": null,
+        "reconstruction": [
+          "8",
+          "4",
+          "6",
+          "2"
+        ],
+        "undefined_reason": "rho=0"
+      },
+      {
+        "name": "failure-C",
+        "counts": [
+          "8",
+          "4",
+          "6",
+          "2"
+        ],
+        "M_Q_D0_D90": [
+          "7",
+          "3",
+          "1",
+          "1"
+        ],
+        "contrast_counts": "4",
+        "gain": "4/3",
+        "rho": null,
+        "response": null,
+        "reconstruction": [
+          "8",
+          "4",
+          "6",
+          "2"
+        ],
+        "undefined_reason": "sin(theta)=0"
+      },
+      {
+        "name": "auditor-c-zero",
+        "counts": [
+          "8",
+          "4",
+          "6",
+          "2"
+        ],
+        "M_Q_D0_D90": [
+          "7",
+          "3",
+          "1",
+          "1"
+        ],
+        "contrast_counts": "4",
+        "gain": "4/3",
+        "rho": null,
+        "response": null,
+        "reconstruction": [
+          "8",
+          "4",
+          "6",
+          "2"
+        ],
+        "undefined_reason": "c=0"
+      }
+    ],
+    "complex_reference": {
+      "reference": [
+        2,
+        0
+      ],
+      "comparison": [
+        0,
+        -2
+      ],
+      "ratio": [
+        0,
+        -1
+      ],
+      "reversed_ratio": [
+        0,
+        1
+      ],
+      "zero_reference_status": "undefined; preserve both coefficients"
+    },
+    "toy_energy": [
+      {
+        "gain": "4/3",
+        "ordered_energy_interval": [
+          "8",
+          "16"
+        ],
+        "photon_energy": "20",
+        "ordered_photon_equivalent_interval": [
+          "2/5",
+          "4/5"
+        ]
+      },
+      {
+        "gain": "-1/4",
+        "ordered_energy_interval": [
+          "-3",
+          "-3/2"
+        ],
+        "photon_energy": "20",
+        "ordered_photon_equivalent_interval": [
+          "-3/20",
+          "-3/40"
+        ]
+      }
+    ],
+    "source_row_diagnostics": [
+      {
+        "index": 0,
+        "spectral_pointer": "/events/0",
+        "energy_pointer": "/all_event_channel_modulations/0",
+        "event_id": "415-515:415:w",
+        "timestamp_utc": "2026-08-25T14:37:39.424787Z",
+        "family": "w",
+        "energy_family_alias": "w",
+        "channel_nm": 415,
+        "gain_sign": 1,
+        "energy_present": false,
+        "derived_M_Q_D0_D90": [
+          1484.1921788437162,
+          1483.4421788437162,
+          1.064059614572102,
+          0.4421788437163059
+        ],
+        "input_minus_reconstruction": [
+          0,
+          2.2737367544323206e-13,
+          2.2737367544323206e-13,
+          0
+        ],
+        "gain": 0.0005055808785109474,
+        "rho": 0.0000574509228616101,
+        "response_using_stored_rho": 8.800222056115778,
+        "q_plane": 1.7778758288502274,
+        "signed_projected_velocity_km_s": -12.862746035994574,
+        "signed_differences": {
+          "gain_recomputed_minus_reported": 0,
+          "rho_recomputed_minus_reported": 0,
+          "response_recomputed_minus_reported": 0,
+          "contrast_recomputed_minus_reported": 0,
+          "quadrature_recomputed_minus_reported": 0,
+          "q_plane_recomputed_minus_reported": 4.440892098500626e-16,
+          "normal_velocity_recomputed_minus_reported": 3.552713678800501e-15
+        }
+      },
+      {
+        "index": 1,
+        "spectral_pointer": "/events/1",
+        "energy_pointer": "/all_event_channel_modulations/1",
+        "event_id": "415-515:515:w",
+        "timestamp_utc": "2026-08-25T14:37:39.424787Z",
+        "family": "w",
+        "energy_family_alias": "w",
+        "channel_nm": 515,
+        "gain_sign": 1,
+        "energy_present": true,
+        "derived_M_Q_D0_D90": [
+          9989.298069068778,
+          9987.600965465612,
+          -0.4326896895927348,
+          4.600965465611807
+        ],
+        "input_minus_reconstruction": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "gain": 0.00016992104600839747,
+        "rho": 0.00004629540385935571,
+        "response_using_stored_rho": 3.6703653460851835,
+        "q_plane": 1.7778758288502274,
+        "signed_projected_velocity_km_s": -12.862746035994574,
+        "signed_differences": {
+          "gain_recomputed_minus_reported": 0,
+          "rho_recomputed_minus_reported": 0,
+          "response_recomputed_minus_reported": -4.440892098500626e-16,
+          "contrast_recomputed_minus_reported": 0,
+          "quadrature_recomputed_minus_reported": 0,
+          "q_plane_recomputed_minus_reported": 4.440892098500626e-16,
+          "normal_velocity_recomputed_minus_reported": 3.552713678800501e-15
+        }
+      },
+      {
+        "index": 2,
+        "spectral_pointer": "/events/2",
+        "energy_pointer": "/all_event_channel_modulations/2",
+        "event_id": "445-555:445:v",
+        "timestamp_utc": "2026-08-25T16:51:46.693615Z",
+        "family": "v",
+        "energy_family_alias": "v",
+        "channel_nm": 445,
+        "gain_sign": 1,
+        "energy_present": true,
+        "derived_M_Q_D0_D90": [
+          6688.683056302139,
+          6685,
+          2.03521596642895,
+          -2.859136134284199
+        ],
+        "input_minus_reconstruction": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "gain": 0.0005509433511053774,
+        "rho": 0.0008708620002496787,
+        "response_using_stored_rho": 0.6326413954764594,
+        "q_plane": 5.949871981229392,
+        "signed_projected_velocity_km_s": 73.45381988939108,
+        "signed_differences": {
+          "gain_recomputed_minus_reported": 0,
+          "rho_recomputed_minus_reported": 0,
+          "response_recomputed_minus_reported": 1.1102230246251565e-16,
+          "contrast_recomputed_minus_reported": 0,
+          "quadrature_recomputed_minus_reported": 0,
+          "q_plane_recomputed_minus_reported": 0,
+          "normal_velocity_recomputed_minus_reported": -1.4210854715202004e-14
+        }
+      },
+      {
+        "index": 3,
+        "spectral_pointer": "/events/3",
+        "energy_pointer": "/all_event_channel_modulations/3",
+        "event_id": "445-555:555:v",
+        "timestamp_utc": "2026-08-25T16:51:46.693615Z",
+        "family": "v",
+        "energy_family_alias": "v",
+        "channel_nm": 555,
+        "gain_sign": -1,
+        "energy_present": false,
+        "derived_M_Q_D0_D90": [
+          12180.78505000156,
+          12184.931165384976,
+          -4.181165384975429,
+          -1.7934961549253785
+        ],
+        "input_minus_reconstruction": [
+          0,
+          0,
+          -1.8189894035458565e-12,
+          0
+        ],
+        "gain": -0.0003402658026657847,
+        "rho": 0.0006982587209209132,
+        "response_using_stored_rho": -0.48730619821979165,
+        "q_plane": 5.949871981229392,
+        "signed_projected_velocity_km_s": 73.45381988939108,
+        "signed_differences": {
+          "gain_recomputed_minus_reported": 0,
+          "rho_recomputed_minus_reported": 0,
+          "response_recomputed_minus_reported": -5.551115123125783e-17,
+          "contrast_recomputed_minus_reported": 0,
+          "quadrature_recomputed_minus_reported": 0,
+          "q_plane_recomputed_minus_reported": 0,
+          "normal_velocity_recomputed_minus_reported": -1.4210854715202004e-14
+        }
+      },
+      {
+        "index": 4,
+        "spectral_pointer": "/events/4",
+        "energy_pointer": "/all_event_channel_modulations/4",
+        "event_id": "480-630:480:lambda",
+        "timestamp_utc": "2026-08-25T13:38:38.628172Z",
+        "family": "lambda",
+        "energy_family_alias": "lambda-sheet",
+        "channel_nm": 480,
+        "gain_sign": -1,
+        "energy_present": false,
+        "derived_M_Q_D0_D90": [
+          11231.906548591603,
+          11232.37950694166,
+          -4.129506941658292,
+          -4.8975347082896405
+        ],
+        "input_minus_reconstruction": [
+          1.8189894035458565e-12,
+          -1.8189894035458565e-12,
+          0,
+          0
+        ],
+        "gain": -0.00004210669251011464,
+        "rho": 0.00632011029321922,
+        "response_using_stored_rho": -0.0066623350790714,
+        "q_plane": 5.7964545517567245,
+        "signed_projected_velocity_km_s": -282.16679753856744,
+        "signed_differences": {
+          "gain_recomputed_minus_reported": 0,
+          "rho_recomputed_minus_reported": 0,
+          "response_recomputed_minus_reported": 8.673617379884035e-19,
+          "contrast_recomputed_minus_reported": 0,
+          "quadrature_recomputed_minus_reported": 0,
+          "q_plane_recomputed_minus_reported": 0,
+          "normal_velocity_recomputed_minus_reported": 0
+        }
+      },
+      {
+        "index": 5,
+        "spectral_pointer": "/events/5",
+        "energy_pointer": "/all_event_channel_modulations/5",
+        "event_id": "480-630:630:lambda",
+        "timestamp_utc": "2026-08-25T13:38:38.628172Z",
+        "family": "lambda",
+        "energy_family_alias": "lambda-sheet",
+        "channel_nm": 630,
+        "gain_sign": 1,
+        "energy_present": true,
+        "derived_M_Q_D0_D90": [
+          12866.620013263073,
+          12857.240026526146,
+          1.037788093501149,
+          2.759973473853279
+        ],
+        "input_minus_reconstruction": [
+          0,
+          0,
+          0,
+          1.8189894035458565e-12
+        ],
+        "gain": 0.0007295490103299753,
+        "rho": 0.004815322128167025,
+        "response_using_stored_rho": 0.15150575411404127,
+        "q_plane": 5.7964545517567245,
+        "signed_projected_velocity_km_s": -282.16679753856744,
+        "signed_differences": {
+          "gain_recomputed_minus_reported": 0,
+          "rho_recomputed_minus_reported": 0,
+          "response_recomputed_minus_reported": 0,
+          "contrast_recomputed_minus_reported": 0,
+          "quadrature_recomputed_minus_reported": 0,
+          "q_plane_recomputed_minus_reported": 0,
+          "normal_velocity_recomputed_minus_reported": 0
+        }
+      },
+      {
+        "index": 6,
+        "spectral_pointer": "/events/6",
+        "energy_pointer": "/all_event_channel_modulations/6",
+        "event_id": "515-680:515:lambda",
+        "timestamp_utc": "2026-08-25T15:51:13.920449Z",
+        "family": "lambda",
+        "energy_family_alias": "lambda-sheet",
+        "channel_nm": 515,
+        "gain_sign": -1,
+        "energy_present": false,
+        "derived_M_Q_D0_D90": [
+          9983.252413664028,
+          9986.598551801584,
+          -0.18510335361952457,
+          0.33413788800953625
+        ],
+        "input_minus_reconstruction": [
+          0,
+          -1.8189894035458565e-12,
+          1.8189894035458565e-12,
+          0
+        ],
+        "gain": -0.00033506284649369075,
+        "rho": 0.001246079264734956,
+        "response_using_stored_rho": -0.2688936859606274,
+        "q_plane": 5.7964545517567245,
+        "signed_projected_velocity_km_s": -282.16679753856744,
+        "signed_differences": {
+          "gain_recomputed_minus_reported": 0,
+          "rho_recomputed_minus_reported": 0,
+          "response_recomputed_minus_reported": 0,
+          "contrast_recomputed_minus_reported": 0,
+          "quadrature_recomputed_minus_reported": 0,
+          "q_plane_recomputed_minus_reported": 0,
+          "normal_velocity_recomputed_minus_reported": 0
+        }
+      },
+      {
+        "index": 7,
+        "spectral_pointer": "/events/7",
+        "energy_pointer": "/all_event_channel_modulations/7",
+        "event_id": "515-680:680:lambda",
+        "timestamp_utc": "2026-08-25T15:51:13.920449Z",
+        "family": "lambda",
+        "energy_family_alias": "lambda-sheet",
+        "channel_nm": 680,
+        "gain_sign": -1,
+        "energy_present": false,
+        "derived_M_Q_D0_D90": [
+          7312.112044638337,
+          7312.637955361663,
+          1.6638660849903317,
+          -0.6379553616634439
+        ],
+        "input_minus_reconstruction": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "gain": -0.00007191805837198427,
+        "rho": 0.0009437217960860328,
+        "response_using_stored_rho": -0.07620684259943487,
+        "q_plane": 5.7964545517567245,
+        "signed_projected_velocity_km_s": -282.16679753856744,
+        "signed_differences": {
+          "gain_recomputed_minus_reported": 0,
+          "rho_recomputed_minus_reported": 0,
+          "response_recomputed_minus_reported": 0,
+          "contrast_recomputed_minus_reported": 0,
+          "quadrature_recomputed_minus_reported": 0,
+          "q_plane_recomputed_minus_reported": 0,
+          "normal_velocity_recomputed_minus_reported": 0
+        }
+      },
+      {
+        "index": 8,
+        "spectral_pointer": "/events/8",
+        "energy_pointer": "/all_event_channel_modulations/8",
+        "event_id": "630-910:630:w",
+        "timestamp_utc": "2026-08-25T20:08:44.767712Z",
+        "family": "w",
+        "energy_family_alias": "w",
+        "channel_nm": 630,
+        "gain_sign": 1,
+        "energy_present": true,
+        "derived_M_Q_D0_D90": [
+          12881.082225169572,
+          12874.575576187002,
+          -0.8289006782870274,
+          1.5888741521403063
+        ],
+        "input_minus_reconstruction": [
+          0,
+          0,
+          0,
+          1.8189894035458565e-12
+        ],
+        "gain": 0.0005053874548380646,
+        "rho": 0.00006728399933250825,
+        "response_using_stored_rho": 7.51125765191973,
+        "q_plane": 1.7778758288502274,
+        "signed_projected_velocity_km_s": -12.862746035994574,
+        "signed_differences": {
+          "gain_recomputed_minus_reported": 0,
+          "rho_recomputed_minus_reported": 0,
+          "response_recomputed_minus_reported": -1.7763568394002505e-15,
+          "contrast_recomputed_minus_reported": 0,
+          "quadrature_recomputed_minus_reported": 0,
+          "q_plane_recomputed_minus_reported": 4.440892098500626e-16,
+          "normal_velocity_recomputed_minus_reported": 3.552713678800501e-15
+        }
+      },
+      {
+        "index": 9,
+        "spectral_pointer": "/events/9",
+        "energy_pointer": "/all_event_channel_modulations/9",
+        "event_id": "630-910:910:w",
+        "timestamp_utc": "2026-08-25T20:08:44.767712Z",
+        "family": "w",
+        "energy_family_alias": "w",
+        "channel_nm": 910,
+        "gain_sign": 1,
+        "energy_present": false,
+        "derived_M_Q_D0_D90": [
+          3107.31204456613,
+          3106,
+          -1.3120445661302256,
+          -0.21806684919556574
+        ],
+        "input_minus_reconstruction": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "gain": 0.00042242259051198506,
+        "rho": 0.00004658123030712109,
+        "response_using_stored_rho": 9.068515102045454,
+        "q_plane": 1.7778758288502274,
+        "signed_projected_velocity_km_s": -12.862746035994574,
+        "signed_differences": {
+          "gain_recomputed_minus_reported": 0,
+          "rho_recomputed_minus_reported": 0,
+          "response_recomputed_minus_reported": 0,
+          "contrast_recomputed_minus_reported": 0,
+          "quadrature_recomputed_minus_reported": 0,
+          "q_plane_recomputed_minus_reported": 4.440892098500626e-16,
+          "normal_velocity_recomputed_minus_reported": 3.552713678800501e-15
+        }
+      },
+      {
+        "index": 10,
+        "spectral_pointer": "/events/10",
+        "energy_pointer": "/all_event_channel_modulations/10",
+        "event_id": "415-590:415:lambda",
+        "timestamp_utc": "2026-08-25T14:29:13.614152Z",
+        "family": "lambda",
+        "energy_family_alias": "lambda-sheet",
+        "channel_nm": 415,
+        "gain_sign": -1,
+        "energy_present": false,
+        "derived_M_Q_D0_D90": [
+          1482.6281192291442,
+          1483.4421788437162,
+          0.3718807708557961,
+          -1.814059614572102
+        ],
+        "input_minus_reconstruction": [
+          0,
+          2.2737367544323206e-13,
+          0,
+          0
+        ],
+        "gain": -0.0005487639667941188,
+        "rho": 0.0070528383439474,
+        "response_using_stored_rho": -0.07780753507062255,
+        "q_plane": 5.7964545517567245,
+        "signed_projected_velocity_km_s": -282.16679753856744,
+        "signed_differences": {
+          "gain_recomputed_minus_reported": 0,
+          "rho_recomputed_minus_reported": 0,
+          "response_recomputed_minus_reported": 0,
+          "contrast_recomputed_minus_reported": 0,
+          "quadrature_recomputed_minus_reported": 0,
+          "q_plane_recomputed_minus_reported": 0,
+          "normal_velocity_recomputed_minus_reported": 0
+        }
+      },
+      {
+        "index": 11,
+        "spectral_pointer": "/events/11",
+        "energy_pointer": "/all_event_channel_modulations/11",
+        "event_id": "415-590:590:lambda",
+        "timestamp_utc": "2026-08-25T14:29:13.614152Z",
+        "family": "lambda",
+        "energy_family_alias": "lambda-sheet",
+        "channel_nm": 590,
+        "gain_sign": 1,
+        "energy_present": false,
+        "derived_M_Q_D0_D90": [
+          10428.054954862655,
+          10423.77747743133,
+          -5.72522568671684,
+          -3.5576579807020607
+        ],
+        "input_minus_reconstruction": [
+          1.8189894035458565e-12,
+          0,
+          0,
+          0
+        ],
+        "gain": 0.00041035770771075136,
+        "rho": 0.004960894767352833,
+        "response_using_stored_rho": 0.08271848667528198,
+        "q_plane": 5.7964545517567245,
+        "signed_projected_velocity_km_s": -282.16679753856744,
+        "signed_differences": {
+          "gain_recomputed_minus_reported": 0,
+          "rho_recomputed_minus_reported": 0,
+          "response_recomputed_minus_reported": 0,
+          "contrast_recomputed_minus_reported": 0,
+          "quadrature_recomputed_minus_reported": 0,
+          "q_plane_recomputed_minus_reported": 0,
+          "normal_velocity_recomputed_minus_reported": 0
+        }
+      },
+      {
+        "index": 12,
+        "spectral_pointer": "/events/12",
+        "energy_pointer": "/all_event_channel_modulations/12",
+        "event_id": "515-590:515:v",
+        "timestamp_utc": "2026-08-25T14:20:47.778413Z",
+        "family": "v",
+        "energy_family_alias": "v",
+        "channel_nm": 515,
+        "gain_sign": -1,
+        "energy_present": false,
+        "derived_M_Q_D0_D90": [
+          9984.41586211199,
+          9984.5,
+          -6.281241491175933,
+          1.2980690687782044
+        ],
+        "input_minus_reconstruction": [
+          0,
+          0,
+          1.8189894035458565e-12,
+          0
+        ],
+        "gain": -0.000008426850419194326,
+        "rho": 0.0002936895308700941,
+        "response_using_stored_rho": -0.028693056896610055,
+        "q_plane": 5.949871981229392,
+        "signed_projected_velocity_km_s": 73.45381988939108,
+        "signed_differences": {
+          "gain_recomputed_minus_reported": 0,
+          "rho_recomputed_minus_reported": 0,
+          "response_recomputed_minus_reported": -3.469446951953614e-18,
+          "contrast_recomputed_minus_reported": 0,
+          "quadrature_recomputed_minus_reported": 0,
+          "q_plane_recomputed_minus_reported": 0,
+          "normal_velocity_recomputed_minus_reported": -1.4210854715202004e-14
+        }
+      },
+      {
+        "index": 13,
+        "spectral_pointer": "/events/13",
+        "energy_pointer": "/all_event_channel_modulations/13",
+        "event_id": "515-590:590:v",
+        "timestamp_utc": "2026-08-25T14:20:47.778413Z",
+        "family": "v",
+        "energy_family_alias": "v",
+        "channel_nm": 590,
+        "gain_sign": 1,
+        "energy_present": true,
+        "derived_M_Q_D0_D90": [
+          10432.115315961404,
+          10420.947748255388,
+          -1.9945937639076874,
+          -4.722522568671593
+        ],
+        "input_minus_reconstruction": [
+          0,
+          0,
+          0,
+          1.8189894035458565e-12
+        ],
+        "gain": 0.001071646070568322,
+        "rho": 0.00025635611592898046,
+        "response_using_stored_rho": 4.18030233718007,
+        "q_plane": 5.949871981229392,
+        "signed_projected_velocity_km_s": 73.45381988939108,
+        "signed_differences": {
+          "gain_recomputed_minus_reported": 0,
+          "rho_recomputed_minus_reported": 0,
+          "response_recomputed_minus_reported": 0,
+          "contrast_recomputed_minus_reported": 0,
+          "quadrature_recomputed_minus_reported": 0,
+          "q_plane_recomputed_minus_reported": 0,
+          "normal_velocity_recomputed_minus_reported": -1.4210854715202004e-14
+        }
+      }
+    ],
+    "source_energy_diagnostics": {
+      "duration_s": 0.20000154,
+      "rows": [
+        {
+          "energy_pointer": "/energy_equivalent_results/0",
+          "spectral_index": 2,
+          "photon_energy_J": 4.463923274491974e-19,
+          "photon_energy_recomputed_minus_reported": 0,
+          "endpoints": [
+            {
+              "side": "low",
+              "power_W": 0.0000022092828379325634,
+              "energy_J": 4.418599698820831e-7,
+              "photon_equivalent": 989846694738.2062,
+              "power_energy_photon_signed_differences": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "side": "high",
+              "power_W": 0.000003052226165123791,
+              "energy_J": 6.104499334530525e-7,
+              "photon_equivalent": 1367518875024.8535,
+              "power_energy_photon_signed_differences": [
+                0,
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "energy_pointer": "/energy_equivalent_results/1",
+          "spectral_index": 1,
+          "photon_energy_J": 3.857176421648405e-19,
+          "photon_energy_recomputed_minus_reported": 0,
+          "endpoints": [
+            {
+              "side": "low",
+              "power_W": 5.505441890672078e-7,
+              "energy_J": 1.1010968565149272e-7,
+              "photon_equivalent": 285467071284.3262,
+              "power_energy_photon_signed_differences": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "side": "high",
+              "power_W": 7.612462861176208e-7,
+              "energy_J": 1.5225042954280478e-7,
+              "photon_equivalent": 394719901035.11774,
+              "power_energy_photon_signed_differences": [
+                0,
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "energy_pointer": "/energy_equivalent_results/2",
+          "spectral_index": 13,
+          "photon_energy_J": 3.366857384998184e-19,
+          "photon_energy_recomputed_minus_reported": 0,
+          "endpoints": [
+            {
+              "side": "low",
+              "power_W": 0.000004050822146748257,
+              "energy_J": 8.101706676157574e-7,
+              "photon_equivalent": 2406311212425.157,
+              "power_energy_photon_signed_differences": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "side": "high",
+              "power_W": 0.000005604708949072324,
+              "energy_J": 0.0000011209504210662464,
+              "photon_equivalent": 3329367100789.305,
+              "power_energy_photon_signed_differences": [
+                0,
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "energy_pointer": "/energy_equivalent_results/3",
+          "spectral_index": 5,
+          "photon_energy_J": 3.1530886621411566e-19,
+          "photon_energy_recomputed_minus_reported": 0,
+          "endpoints": [
+            {
+              "side": "low",
+              "power_W": 0.0000022543064419196234,
+              "energy_J": 4.5086476001584524e-7,
+              "photon_equivalent": 1429914627613.6687,
+              "power_energy_photon_signed_differences": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "side": "high",
+              "power_W": 0.0000031151742741089944,
+              "energy_J": 6.23039652190181e-7,
+              "photon_equivalent": 1975966168255.7815,
+              "power_energy_photon_signed_differences": [
+                0,
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "energy_pointer": "/energy_equivalent_results/4",
+          "spectral_index": 8,
+          "photon_energy_J": 3.1530886621411566e-19,
+          "photon_energy_recomputed_minus_reported": 0,
+          "endpoints": [
+            {
+              "side": "low",
+              "power_W": 0.0000015616472354496196,
+              "energy_J": 3.1233185202666654e-7,
+              "photon_equivalent": 990558419041.0062,
+              "power_energy_photon_signed_differences": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "side": "high",
+              "power_W": 0.0000021580044321585357,
+              "energy_J": 4.3160420975853266e-7,
+              "photon_equivalent": 1368829918868.9631,
+              "power_energy_photon_signed_differences": [
+                0,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "scope": "Input-equivalent arithmetic only; not measured transfer or interval/calibration verification."
+    },
+    "family_diagnostics": {
+      "w": {
+        "rows": 4,
+        "cost": 1.777875828850227,
+        "mean_response": 7.262590039041537,
+        "mean_difference": 0,
+        "within_family_response_residuals": [
+          1.537632017074241,
+          -3.5922246929563535,
+          0.2486676128781946,
+          1.805925063003917
+        ]
+      },
+      "v": {
+        "rows": 4,
+        "cost": 5.949871981229392,
+        "mean_response": 1.0742361193850318,
+        "mean_difference": 0,
+        "within_family_response_residuals": [
+          -0.4415947239085726,
+          -1.5615423176048235,
+          -1.1029291762816418,
+          3.106066217795038
+        ]
+      },
+      "lambda": {
+        "rows": 6,
+        "cost": 5.7964545517567245,
+        "mean_response": -0.03255769298673883,
+        "mean_difference": 0,
+        "within_family_response_residuals": [
+          0.025895357907667428,
+          0.1840634471007801,
+          -0.23633599297388858,
+          -0.043649149612696045,
+          -0.04524984208388372,
+          0.1152761796620208
+        ]
+      }
+    },
+    "same_wavelength_factorization": [
+      {
+        "channel_nm": 590,
+        "numerator_index": 13,
+        "denominator_index": 11,
+        "gain_ratio": 2.6114924867542455,
+        "inverse_rho_ratio": 19.3515756367879,
+        "response_ratio": 50.53649438232811,
+        "product_minus_response_ratio": -7.105427357601002e-15
+      },
+      {
+        "channel_nm": 630,
+        "numerator_index": 8,
+        "denominator_index": 5,
+        "gain_ratio": 0.6927395523564314,
+        "inverse_rho_ratio": 71.56712109769764,
+        "response_ratio": 49.5773754326576,
+        "product_minus_response_ratio": -2.1316282072803006e-14
+      }
+    ],
+    "source_selected_model_closure": [
+      {
+        "index": 0,
+        "prediction": 7.231841939734861,
+        "residual": 1.5683801163809177,
+        "prediction_residual_signed_differences": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "prediction": 7.231841939734861,
+        "residual": -3.561476593649677,
+        "prediction_residual_signed_differences": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 2,
+        "prediction": 0.26882790684786073,
+        "residual": 0.3638134886285985,
+        "prediction_residual_signed_differences": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 3,
+        "prediction": 0.26882790684786073,
+        "residual": -0.7561341050676523,
+        "prediction_residual_signed_differences": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 4,
+        "prediction": 0.524879848242497,
+        "residual": -0.5315421833215684,
+        "prediction_residual_signed_differences": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 5,
+        "prediction": 0.524879848242497,
+        "residual": -0.37337409412845574,
+        "prediction_residual_signed_differences": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 6,
+        "prediction": 0.524879848242497,
+        "residual": -0.7937735342031245,
+        "prediction_residual_signed_differences": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 7,
+        "prediction": 0.524879848242497,
+        "residual": -0.6010866908419319,
+        "prediction_residual_signed_differences": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 8,
+        "prediction": 7.231841939734861,
+        "residual": 0.27941571218487127,
+        "prediction_residual_signed_differences": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 9,
+        "prediction": 7.231841939734861,
+        "residual": 1.8366731623105936,
+        "prediction_residual_signed_differences": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 10,
+        "prediction": 0.524879848242497,
+        "residual": -0.6026873833131196,
+        "prediction_residual_signed_differences": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 11,
+        "prediction": 0.524879848242497,
+        "residual": -0.442161361567215,
+        "prediction_residual_signed_differences": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 12,
+        "prediction": 0.26882790684786073,
+        "residual": -0.2975209637444708,
+        "prediction_residual_signed_differences": [
+          0,
+          0
+        ]
+      },
+      {
+        "index": 13,
+        "prediction": 0.26882790684786073,
+        "residual": 3.911474430332209,
+        "prediction_residual_signed_differences": [
+          0,
+          0
+        ]
+      }
+    ],
+    "source_inference_scope": "Selected source model arithmetic and family residuals retained without re-fitting, significance tests, rejection or promoting 14 response rows to 14 independent cost inputs.",
+    "source_precision_boundaries": {
+      "lambda_predicted_minus_ledger_velocity_km_s": -1.5127272945392178e-7,
+      "full_experiment_velocity_norm_km_s": 361.8383403350292,
+      "rounded_bundle_norm_km_s": 361.8383398564392,
+      "source_contract_scope": "No master geometry recertification; source-local normals/phase matrix and experiment velocity kept separate from physical CMB authority.",
+      "bundle_reported_magnitude_km_s": 361.83834029305336,
+      "rounded_vector_norm_minus_bundle_reported_magnitude_km_s": -4.3661418658302864e-7,
+      "interpretation": "Rounded displayed vector and separately reported magnitude are retained as distinct precision records; this difference is not a course arithmetic defect, and neither substitutes for the full experiment vector or physical CMB authority."
+    },
+    "operation_identity": {
+      "C26.S01": "Parity and comparator nullspaces, located in lesson05 and CAP09.",
+      "C26.06": "Energy/photon-equivalent conversion, located in lesson06 and CAP06.",
+      "note": "Delegation called S01 energy conversion; inspected authoritative contract assigns S01 to parity. Both operations fully audited without relabeling."
+    }
+  },
+  "review_scope": "Independent arithmetic, artifact integrity and provenance verification, paired with course-26-independent-audit.json.",
+  "pinned_application_reads": {
+    "corpus_generation": "sha256:5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+    "manifest_sha256": "5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+    "retrieval_scope": "Fresh generation identity plus exact complete primary file reads. Search returned zero matching chunks and is not an exhaustiveness certificate.",
+    "objects": [
+      {
+        "id": "T35",
+        "logical_path": "applications/kfield_lucas_lab/rag_corpus/35_spectral_energy_phase.md",
+        "sha256": "03dc7e11045b3912f1e8cc0d69a4789b6ad300ac78b4549ea86c45e51228c7bc",
+        "bytes": 3018,
+        "byte_range": [
+          0,
+          3018
+        ],
+        "returned_range_sha256": "03dc7e11045b3912f1e8cc0d69a4789b6ad300ac78b4549ea86c45e51228c7bc",
+        "independent_hash": "SHA-256 of the complete decoded bytes, computed in memory; abc known-answer self-test passed."
+      },
+      {
+        "id": "T50",
+        "logical_path": "applications/kfield_lucas_lab/rag_corpus/50_physical_closure.md",
+        "sha256": "c2a25a583af904601968adc1d3efde825f76218c92a2f52d829afc093f52c02a",
+        "bytes": 1761,
+        "byte_range": [
+          0,
+          1761
+        ],
+        "returned_range_sha256": "c2a25a583af904601968adc1d3efde825f76218c92a2f52d829afc093f52c02a",
+        "independent_hash": "SHA-256 of the complete decoded bytes, computed in memory; abc known-answer self-test passed."
+      },
+      {
+        "id": "bundle",
+        "logical_path": "applications/kfield_lucas_lab/contracts/spectrophotometer_evidence_bundle_v1.json",
+        "sha256": "04044230f3b2536d22654b294760106eca301f212e4eb4157989b330ff611f17",
+        "bytes": 6438,
+        "byte_range": [
+          0,
+          6438
+        ],
+        "returned_range_sha256": "04044230f3b2536d22654b294760106eca301f212e4eb4157989b330ff611f17",
+        "independent_hash": "SHA-256 of the complete decoded bytes, computed in memory; abc known-answer self-test passed."
+      },
+      {
+        "id": "spectral",
+        "logical_path": "applications/kfield_lucas_lab/sources/K-Field_spectrophotometer_quadratic_phase_cost_analysis_1787748698.json",
+        "sha256": "d4105a6d6802e6bb2a2ba8e76a1d23a27973fca3d3335fd8335690a41ab72dfa",
+        "bytes": 48364,
+        "byte_range": [
+          0,
+          48364
+        ],
+        "returned_range_sha256": "d4105a6d6802e6bb2a2ba8e76a1d23a27973fca3d3335fd8335690a41ab72dfa",
+        "independent_hash": "SHA-256 of the complete decoded bytes, computed in memory; abc known-answer self-test passed."
+      },
+      {
+        "id": "energy",
+        "logical_path": "applications/kfield_lucas_lab/sources/K-Field_spectrophotometer_energy_per_200ms_reading_1787713812.json",
+        "sha256": "9120f80210b235b8612d6479fe25272eb3824f31c5a1394e7e9d12718e57e70f",
+        "bytes": 22424,
+        "byte_range": [
+          0,
+          22424
+        ],
+        "returned_range_sha256": "9120f80210b235b8612d6479fe25272eb3824f31c5a1394e7e9d12718e57e70f",
+        "independent_hash": "SHA-256 of the complete decoded bytes, computed in memory; abc known-answer self-test passed."
+      }
+    ]
+  },
+  "source_local_remote_semantic_comparison": [
+    {
+      "id": "spectral",
+      "canonical_remote_sha256": "d4105a6d6802e6bb2a2ba8e76a1d23a27973fca3d3335fd8335690a41ab72dfa",
+      "local_sha256": "2b4a2e39df7b165ed243e2dbd9399e8455c22436c244574122a9b5ebc05b401a",
+      "parsed_value_differences": [],
+      "comparison": "Full recursive parsed JSON comparison in memory, including array ordering, keys, strings, nulls and IEEE-754 binary64 numbers; zero differences. Bytes differ; no claim of signed revision equivalence or lexical/numeric-token identity.",
+      "source_copies_created": false
+    },
+    {
+      "id": "energy",
+      "canonical_remote_sha256": "9120f80210b235b8612d6479fe25272eb3824f31c5a1394e7e9d12718e57e70f",
+      "local_sha256": "f98cfec9980986adda0eb44cc91ab26f524dec9e5e3bae3d153cb947f13d324a",
+      "parsed_value_differences": [],
+      "comparison": "Full recursive parsed JSON comparison in memory, including array ordering, keys, strings, nulls and IEEE-754 binary64 numbers; zero differences. Bytes differ; no claim of signed revision equivalence or lexical/numeric-token identity.",
+      "source_copies_created": false
+    }
+  ],
+  "source_and_authority_boundaries": {
+    "observed_or_archive_stated": "The course preserves all 14 signed source event/channel rows, timestamps, channel and family identities, four-angle decomposition and acquisition diagnostics. Source observations remain source-reported; no raw acquisition replay is claimed.",
+    "derived_transforms": "Independent finite DFT, parity, ratio, phase-cost, projected-velocity and input-equivalent energy calculations preserve signed differences and explicit undefined branches.",
+    "inferred_structure": "Only three distinct plane-family phase-cost levels occur among 14 response rows. Family residuals and source-selected model residuals remain separate arrays; no significance threshold or fit score closes a mechanism.",
+    "proposed_mechanisms": "Baseband transfer/down-conversion and identifiable coupling remain unresolved. T50 product ambiguity is explicitly taught and rechecked; matched products do not identify separate gain and responsivity.",
+    "established_reference_relations": "Frequency/period, trigonometric addition, finite Fourier inversion and E_photon=hc/lambda are kept distinct from source-specific response/energy assumptions.",
+    "representation_independence": "The six files are two works in three representations each, not six independent studies.",
+    "source_G_collision": "T35 uses G for count contrast; spectral JSON uses G for fractional gain. Course and independent recomputation distinguish contrast_counts from g.",
+    "energy_scope": "Five source-selected positive rows have energy-equivalent values, not all eight positive rows; six negative rows and three positive energy-null rows remain retained. Input-equivalent energy and photon equivalents are not transferred energy or detected photon counts.",
+    "energy_selected_spectral_indices": [
+      1,
+      2,
+      5,
+      8,
+      13
+    ],
+    "positive_energy_null_spectral_indices": [
+      0,
+      9,
+      11
+    ],
+    "source_revision_obligation": {
+      "quadratic_work_declares_energy_json_sha256": "f98cfec9980986adda0eb44cc91ab26f524dec9e5e3bae3d153cb947f13d324a",
+      "packaged_energy_json_sha256": "9120f80210b235b8612d6479fe25272eb3824f31c5a1394e7e9d12718e57e70f",
+      "status": "to_be_verified_revision_mismatch",
+      "obligation": "Resolve which energy-work revision the quadratic analysis consumed and bind the relationship with a signed content-addressed manifest."
+    },
+    "representation_integrity": [
+      {
+        "id": "quadratic-phase-cost-analysis-1787748698",
+        "representations": [
+          {
+            "role": "human_readable_pdf",
+            "path": "sources/K-Field_spectrophotometer_quadratic_phase_cost_analysis_1787748698.pdf",
+            "sha256": "35b3af799854f5dd9070c660a7e9cbcd0c27c20087a011a612cdfdfda545a052",
+            "bytes": 530068,
+            "declared_sha256": "989c5fe7d230e5bddc3727420710c232bb550ba8305e9b6f6baa6dba42ec2e6d",
+            "declared_bytes": 509185,
+            "integrity_status": "quarantined_declared_digest_mismatch",
+            "to_be_verified": "Identify and content-address the declared 509185-byte rendering or explicitly issue and sign this 530068-byte rendering as a new revision."
+          }
+        ]
+      },
+      {
+        "id": "energy-per-200ms-reading-1787713812",
+        "representations": [
+          {
+            "role": "human_readable_pdf",
+            "path": "sources/K-Field_spectrophotometer_energy_per_200ms_reading_1787713812.pdf",
+            "sha256": "4f7b8bffb8205484ad65822504afa63ad86bd3fab41e0a8b8f351ed4aefee9c4",
+            "bytes": 76253,
+            "integrity_status": "packaged_unsealed_rendering",
+            "to_be_verified": "Issue a source-authenticated manifest that binds this rendering to the machine-readable work."
+          }
+        ]
+      }
+    ],
+    "open_obligations": [
+      {
+        "id": "raw-spectrophotometer-bytes",
+        "artifact": "pic_id21A.csv",
+        "expected_sha256": "14ec86bc963a4ee041c33e3d4e9a16e70d82ceb5832a04cfdbaa81ea3739c031"
+      },
+      {
+        "id": "led-datasheet",
+        "artifact": "EAHC2835WD6- LED Datasheet.PDF",
+        "expected_sha256": "5cd36ee08b064e8bd8da2fcfd587b440628584ad60f770b44cfb3a4b47c692eb"
+      },
+      {
+        "id": "detector-radiometric-calibration",
+        "artifact": null
+      },
+      {
+        "id": "blank-reference-ledger",
+        "artifact": null
+      },
+      {
+        "id": "measurement-uncertainty-model",
+        "artifact": null
+      },
+      {
+        "id": "angular-interpolation-and-mechanical-uncertainty",
+        "artifact": null
+      },
+      {
+        "id": "exposure-transfer-function",
+        "artifact": null
+      },
+      {
+        "id": "preregistered-independent-replay",
+        "artifact": null
+      }
+    ],
+    "other_boundaries": [
+      "Equivalent input-referred LED energy is not transferred or extracted energy.",
+      "Equivalent photon count is not a detected photon count.",
+      "Fourteen event rows contain only three distinct plane-family cost levels; event-row regression is not fourteen independent phase-cost observations.",
+      "Sub-degree interpolated plane match is not a sub-degree measurement-resolution claim; the acquisition grid is four degrees.",
+      "A terahertz carrier averaged over 200 ms requires an explicit down-conversion or transfer witness before a baseband coupling claim is admissible.",
+      "Negative gains are signed observations and must not be discarded from exploratory visualization or future inference."
+    ],
+    "forbidden_promotions": [
+      "sensor_detected",
+      "net_energy_extracted",
+      "thrust_induced",
+      "coupling_constant_identified",
+      "physical_CMB_authority_replaced_by_experiment_local_vector"
+    ],
+    "velocity_authority": {
+      "physical_earth_cmb_authority_m_s": 369812.50200040644,
+      "quarantined_band_m_s": [
+        900000,
+        1000000
+      ],
+      "note": "Source-local experiment vector, full and rounded precision records, are not a replacement for physical CMB authority or a fresh locked Cell3 certification."
+    },
+    "parity_archive_scope": "R016 and R017 are archive_stated; R021/R026/R027/R028 are synthesis/evaluation. Finite four-sample identities were replayed independently; larger archive FFT arrays, reported channel odd-AC fractions and ranking were not freshly reproduced.",
+    "acquisition_scope": "4-degree acquisition grid remains separate from sub-degree interpolated matches. Source-reported 65880 processed = 65845 healthy + 35 diagnostic records retains diagnostic masks/reasons; not a raw-data validation claim.",
+    "source_local_byte_revisions": [
+      {
+        "id": "spectral",
+        "canonical_remote_sha256": "d4105a6d6802e6bb2a2ba8e76a1d23a27973fca3d3335fd8335690a41ab72dfa",
+        "local_sha256": "2b4a2e39df7b165ed243e2dbd9399e8455c22436c244574122a9b5ebc05b401a",
+        "parsed_value_differences": [],
+        "comparison": "Full recursive parsed JSON comparison in memory, including array ordering, keys, strings, nulls and IEEE-754 binary64 numbers; zero differences. Bytes differ; no claim of signed revision equivalence or lexical/numeric-token identity.",
+        "source_copies_created": false
+      },
+      {
+        "id": "energy",
+        "canonical_remote_sha256": "9120f80210b235b8612d6479fe25272eb3824f31c5a1394e7e9d12718e57e70f",
+        "local_sha256": "f98cfec9980986adda0eb44cc91ab26f524dec9e5e3bae3d153cb947f13d324a",
+        "parsed_value_differences": [],
+        "comparison": "Full recursive parsed JSON comparison in memory, including array ordering, keys, strings, nulls and IEEE-754 binary64 numbers; zero differences. Bytes differ; no claim of signed revision equivalence or lexical/numeric-token identity.",
+        "source_copies_created": false
+      }
+    ]
+  },
+  "fresh_project_validation": {
+    "canonical_output_root": "Z:\\Kfield-doc-training\\K-Field_Training_Course",
+    "checks": [
+      "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+      "parsed manifest.json",
+      "parsed audit_report.json",
+      "parsed completion_report.json",
+      "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+    ],
+    "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure",
+    "errors": [],
+    "schema_version": "1.0",
+    "status": "passed",
+    "storage_authority": "User explicitly authorized project-folder outputs, 2026-11-05",
+    "validator_path": "C:\\Users\\info\\.codex\\skills\\build-high-school-course\\scripts\\validate_course.py",
+    "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+    "exit_code": 0,
+    "adapter": {
+      "path": "Z:/Kfield-doc-training/.work/validate_project_course.py",
+      "sha256": "3fdba74f7ac1430208a4e652200026dc98988f607f60fc928bda65d5857cc745"
+    },
+    "fixture_mode": false,
+    "override": "Existing adapter changes only the canonical output root; installed validator remains active.",
+    "limitation": "Structural validation supplements, rather than replaces, independent mathematical and pedagogical review.",
+    "runtime_note": "Conda emitted missing OpenCL vendors/temp.txt cleanup messages; Python completed and validator exited zero."
+  },
+  "limitations": [
+    "No course, source, builder or parent artifact was modified; no builder mathematics was executed or imported.",
+    "No raw pic_id21A acquisition, radiometric calibration, detector transfer, archived large FFT arrays, compiler proofs or hardware validation was performed.",
+    "PDF conflicts are reported from the pinned bundle metadata; PDF bytes and visual renderings were not independently examined.",
+    "Parsed-value equality of local and remote JSON does not authenticate revision relationships, signatures or PDF renderings.",
+    "Arithmetic agreement and course acceptance do not close the source bundle's explicit physical, calibration, transfer or provenance obligations.",
+    "Machine checks use exact Fraction arithmetic for finite examples and documented binary64 tolerances for source decimal calculations; all computed signed differences are retained.",
+    "Pedagogical review is desk review of the completed artifacts, not a live classroom pacing trial."
+  ],
+  "source_files_copied": false,
+  "course_or_parent_files_modified": false
+}

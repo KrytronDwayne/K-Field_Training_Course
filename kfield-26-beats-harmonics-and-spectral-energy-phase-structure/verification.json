@@ -1,0 +1,460 @@
+{
+  "schema_version": "1.0",
+  "status": "passed",
+  "runtime": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+  "checks": [
+    {
+      "check": "Explicit tf_gpu_env runtime",
+      "result": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe"
+    },
+    {
+      "check": "Local source hash",
+      "id": "S01",
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "result": "matched"
+    },
+    {
+      "check": "Local source hash",
+      "id": "S02",
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "result": "matched"
+    },
+    {
+      "check": "Local source hash",
+      "id": "S03",
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "result": "matched"
+    },
+    {
+      "check": "Local source hash",
+      "id": "S04",
+      "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "result": "matched"
+    },
+    {
+      "check": "S05 byte identity and exact selected records",
+      "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+      "record_ids": [
+        "R016",
+        "R017",
+        "R021",
+        "R026",
+        "R027",
+        "R028"
+      ]
+    },
+    {
+      "check": "DFT and full inverse",
+      "input": [
+        1,
+        0,
+        -1,
+        0
+      ],
+      "spectrum": [
+        "0",
+        "2",
+        "0",
+        "2"
+      ],
+      "reconstruction_residual": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "arithmetic": "Integer real/imaginary values and quarters are exactly representable; no trigonometric approximation"
+    },
+    {
+      "check": "DFT and full inverse",
+      "input": [
+        0,
+        1,
+        0,
+        -1
+      ],
+      "spectrum": [
+        "0",
+        "(-0-2j)",
+        "0",
+        "2j"
+      ],
+      "reconstruction_residual": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "arithmetic": "Integer real/imaginary values and quarters are exactly representable; no trigonometric approximation"
+    },
+    {
+      "check": "DFT and full inverse",
+      "input": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "spectrum": [
+        "4",
+        "0",
+        "0",
+        "0"
+      ],
+      "reconstruction_residual": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "arithmetic": "Integer real/imaginary values and quarters are exactly representable; no trigonometric approximation"
+    },
+    {
+      "check": "DFT and full inverse",
+      "input": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "spectrum": [
+        "10",
+        "(-2+2j)",
+        "-2",
+        "(-2-2j)"
+      ],
+      "reconstruction_residual": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "arithmetic": "Integer real/imaginary values and quarters are exactly representable; no trigonometric approximation"
+    },
+    {
+      "check": "DFT and full inverse",
+      "input": [
+        4,
+        1,
+        2,
+        3
+      ],
+      "spectrum": [
+        "10",
+        "(2+2j)",
+        "2",
+        "(2-2j)"
+      ],
+      "reconstruction_residual": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "arithmetic": "Integer real/imaginary values and quarters are exactly representable; no trigonometric approximation"
+    },
+    {
+      "check": "DFT and full inverse",
+      "input": [
+        2,
+        3,
+        2,
+        3
+      ],
+      "spectrum": [
+        "10",
+        "0",
+        "-2",
+        "0"
+      ],
+      "reconstruction_residual": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "arithmetic": "Integer real/imaginary values and quarters are exactly representable; no trigonometric approximation"
+    },
+    {
+      "check": "DFT and full inverse",
+      "input": [
+        -1,
+        -1,
+        1,
+        1
+      ],
+      "spectrum": [
+        "0",
+        "(-2+2j)",
+        "0",
+        "(-2-2j)"
+      ],
+      "reconstruction_residual": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "arithmetic": "Integer real/imaginary values and quarters are exactly representable; no trigonometric approximation"
+    },
+    {
+      "check": "DFT and full inverse",
+      "input": [
+        2,
+        0,
+        -2,
+        0
+      ],
+      "spectrum": [
+        "0",
+        "4",
+        "0",
+        "4"
+      ],
+      "reconstruction_residual": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "arithmetic": "Integer real/imaginary values and quarters are exactly representable; no trigonometric approximation"
+    },
+    {
+      "check": "DFT and full inverse",
+      "input": [
+        3,
+        1,
+        -1,
+        1
+      ],
+      "spectrum": [
+        "4",
+        "4",
+        "0",
+        "4"
+      ],
+      "reconstruction_residual": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "arithmetic": "Integer real/imaginary values and quarters are exactly representable; no trigonometric approximation"
+    },
+    {
+      "check": "Parity reconstruction and four shifted comparator dot products",
+      "input": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "even": [
+        "2",
+        "3",
+        "2",
+        "3"
+      ],
+      "odd": [
+        "-1",
+        "-1",
+        "1",
+        "1"
+      ],
+      "result": "exact"
+    },
+    {
+      "check": "Parity reconstruction and four shifted comparator dot products",
+      "input": [
+        3,
+        1,
+        -1,
+        1
+      ],
+      "even": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "odd": [
+        "2",
+        "0",
+        "-2",
+        "0"
+      ],
+      "result": "exact"
+    },
+    {
+      "check": "Four-count exact rational reconstruction",
+      "input": [
+        8,
+        4,
+        6,
+        2
+      ],
+      "M_Q_D0_D90": [
+        "7",
+        "3",
+        "1",
+        "1"
+      ],
+      "fractional_gain": "4/3"
+    },
+    {
+      "check": "Four-count exact rational reconstruction",
+      "input": [
+        2,
+        5,
+        4,
+        3
+      ],
+      "M_Q_D0_D90": [
+        "3",
+        "4",
+        "-1",
+        "1"
+      ],
+      "fractional_gain": "-1/4"
+    },
+    {
+      "check": "Four-count exact rational reconstruction",
+      "input": [
+        2,
+        0,
+        4,
+        0
+      ],
+      "M_Q_D0_D90": [
+        "3",
+        "0",
+        "-1",
+        "0"
+      ],
+      "fractional_gain": "undefined: Q=0"
+    },
+    {
+      "check": "Energy and photon equivalents",
+      "positive_energy_interval": [
+        "8",
+        "16"
+      ],
+      "signed_energy_interval": [
+        "-3",
+        "-3/2"
+      ],
+      "signed_photon_interval": [
+        "-3/20",
+        "-3/40"
+      ],
+      "result": "exact rational"
+    },
+    {
+      "check": "Beat identity numerical spot check supplementary to algebraic derivation",
+      "frequencies": [
+        4,
+        6
+      ],
+      "signed_rounding_differences": [
+        0.0,
+        -3.7493994566546446e-32,
+        0.0,
+        -9.900688663534256e-31
+      ]
+    },
+    {
+      "check": "Beat identity numerical spot check supplementary to algebraic derivation",
+      "frequencies": [
+        5,
+        7
+      ],
+      "signed_rounding_differences": [
+        0.0,
+        2.465190328815662e-32,
+        0.0,
+        -3.5527136788005005e-15
+      ]
+    },
+    {
+      "check": "Beat identity numerical spot check supplementary to algebraic derivation",
+      "frequencies": [
+        10,
+        14
+      ],
+      "signed_rounding_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "check": "All source rows accounted for",
+      "rows": 14,
+      "positive": 8,
+      "negative": 6,
+      "cost_levels": 3,
+      "energy_subset": 5,
+      "note": "All signed binary64 residuals retained in source-replay.json; no exact source equality claim"
+    },
+    {
+      "check": "Independent Python source-card replay",
+      "signed_reconstruction_residual": [
+        0.0,
+        2.2737367544323206e-13,
+        2.2737367544323206e-13,
+        0.0
+      ],
+      "response": 8.800222056115778
+    },
+    {
+      "check": "Lesson contract and exact teaching anchors",
+      "lesson": "lesson-01",
+      "result": "present"
+    },
+    {
+      "check": "Lesson contract and exact teaching anchors",
+      "lesson": "lesson-02",
+      "result": "present"
+    },
+    {
+      "check": "Lesson contract and exact teaching anchors",
+      "lesson": "lesson-03",
+      "result": "present"
+    },
+    {
+      "check": "Lesson contract and exact teaching anchors",
+      "lesson": "lesson-04",
+      "result": "present"
+    },
+    {
+      "check": "Lesson contract and exact teaching anchors",
+      "lesson": "lesson-05",
+      "result": "present"
+    },
+    {
+      "check": "Lesson contract and exact teaching anchors",
+      "lesson": "lesson-06",
+      "result": "present"
+    },
+    {
+      "check": "Lesson contract and exact teaching anchors",
+      "lesson": "lesson-07",
+      "result": "present"
+    },
+    {
+      "check": "Lesson contract and exact teaching anchors",
+      "lesson": "lesson-08",
+      "result": "present"
+    },
+    {
+      "check": "Nine capstone operations and legacy aliases",
+      "result": "present",
+      "points": 36
+    }
+  ],
+  "limitations": [
+    "Finite synthetic arithmetic plus reported-event replay, not raw-data admission or compiler proof verification.",
+    "Binary64 signed closures retained without interval certification."
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0",
+  "reviewer": "independent subagent audit_course09",
+  "status": "passed_scoped_content_audit",
+  "scope": "Independent actual-content review of six lessons, capstone, teacher guide, course map, terminology, sources, verification script/record and input contract. E05 prerequisite/capstone/source-scope accepted; assembly/recovery validator remains manager responsibility.",
+  "unresolved_critical": 0,
+  "unresolved_major": 0,
+  "unresolved_minor": 0,
+  "checks": [
+    "Read residual-information-paradigm and applied signed residual retention and reversibility criteria.",
+    "Read all six complete lessons: each has essential question, 3-4 observable goals, prerequisite bridge, local definitions, worked example, answered practice, scope box, four answered diagnostics and next dependency.",
+    "Manually recomputed signed tie rounding, interval proof, normalized triples, all synthetic Q and epsilon rows, both carry routes, side-mode inverses and parity, finite terminal correction and backward residual reconstruction. No numerical defect found.",
+    "Independent tf_gpu_env Fraction replay confirmed S01 stored historical rays agree at g0 through g7 and differ (0,8,7) at g8; both full g8 Q triples agree with lesson05.",
+    "Independent Fraction replay confirmed perturbed T residuals -10003/30000,-27/10000,-729/10000,317/10000 and common c residual alternation through g3.",
+    "Read S02#/backbone_sequence/5 and S01#/backbone_sequence/4/projective_rays; source scale, active decimal tokens, recurrence and side-mode witness match lessons. Read S03#/findings/12 and confirmed half-tie ambiguity is correctly attributed.",
+    "Verified S01,S02,S03 SHA256 against input contract.",
+    "Reviewed author verify_examples.py: exact fractions, independent nearest-neighbor rounding comparison, retained full residuals, and separate active/historical branches.",
+    "Read final capstone and checked all six steps against actual E/P/D content, expanding map shorthand per its explicit ID convention. Each requested operation is introduced and independently attempted before capstone. CAP04 parity rejection has D1/D3 practice; CAP05 historical reading has D1; CAP06 metadata and scope have D1/D4.",
+    "Recomputed capstone table, carry routes, mode halves, comparison residuals and finite correction 1/2916 against independently checked lesson arithmetic. Full answers address all requested outputs. Rubric sums to 100.",
+    "Read teacher timing: seven core periods plus two capstone periods total 495 minutes; lesson04 separately teaches carry and side transforms. Repair gates explicitly precede dependent progression.",
+    "Read terminology and source-scope notes: normalized positive rays and unrecorded magnitude distinguished; residual sign/units retained; side parity not conflated; active finite tokens, historical strings, synthetic examples and broader archive claims remain separate.",
+    "Independently rehashed all five source files and checked exact S02 active decimal-token replay with Fraction and math.ceil against all nine reported Q rows g0..8; all match.",
+    "Graph freshness limitation is clearly disclosed as unattested supplied metadata. Direct pinned local sources cover all required teaching claims; graph tool call history itself was not independently audited."
+  ],
+  "findings": [
+    {
+      "id": "IA09-01",
+      "severity": "minor",
+      "location": "lesson-01.md C09.01-P1 and pending capstone backward map",
+      "finding": "P1 explicitly practices non-tie translation, while signed-tie and ownership application are in D1/D4. A backward map naming only P1 understates the actual prior practice supporting CAP01.",
+      "recommendation": "Include D1 and D4 as answered prior practice links for CAP01, or expand P1 to signed ties and ownership.",
+      "status": "resolved",
+      "disposition": "Verified revised C09.01-P1 includes both signed ties and owners with answers, requires E2 first, and map/teacher guide explicitly specify that sequence. CAP01 also links D1/D4. No remaining prerequisite gap."
+    }
+  ],
+  "not_checked": [
+    "Final course.md verbatim assembly, manifest hashes/dependency statuses and deterministic project validator: outside this independent content audit; manager must validate after final edits."
+  ],
+  "lesson_hashes": [
+    {
+      "path": "lesson-01.md",
+      "sha256": "133da1e1105bb479482b5ef4ee554624103d2f43f147b64fe64ddae5987c12d4"
+    },
+    {
+      "path": "lesson-02.md",
+      "sha256": "4354880801bcb37bcbc23de5a2137c0ce99e7b7876be6a87d9775cf2d5c487b4"
+    },
+    {
+      "path": "lesson-03.md",
+      "sha256": "c9d91d97db683317c7f38107ffba60522b384ce6e9911d2b9558556bb236892b"
+    },
+    {
+      "path": "lesson-04.md",
+      "sha256": "7ec4d11bffc85fab1ff45782c53b6fb4a8fb8556cfda732f2a7303a9ebcae5f6"
+    },
+    {
+      "path": "lesson-05.md",
+      "sha256": "7b8023c6c7f6e14aeac75e72ea178cffdc3cef850dc05e4724675232d44264ea"
+    },
+    {
+      "path": "lesson-06.md",
+      "sha256": "65cd9e99a31242a5327fbcdbf5f5cfce04fe5b2fddeb20685595eda821247ee1"
+    }
+  ],
+  "supporting_hashes": [
+    {
+      "path": "capstone.md",
+      "sha256": "91704fd6563a9a880b499a6aafa5dbba6e51e039f9d8d0cfb5a6c540ca9ac791"
+    },
+    {
+      "path": "teacher-guide.md",
+      "sha256": "33560eca42356475f14f873bfd2df6dd99639ab8be3b9dbfe3a71797334824ef"
+    },
+    {
+      "path": "course-map.md",
+      "sha256": "67b8b39e98b294cff7436ec59b4244582c414d8922b4004088106e80bdffdc04"
+    },
+    {
+      "path": "terminology.md",
+      "sha256": "4e27a663e412257d1716082a3659c3aa5133bf35a69ffc72c027de021723df14"
+    },
+    {
+      "path": "sources.md",
+      "sha256": "4829146772a3d10dd187fb3d535bef41e757dd7db9f59fd922cbb7b8c494a3d2"
+    },
+    {
+      "path": "worked-example-verification.json",
+      "sha256": "b23dba2ecffdb776b41d337c6e93e7a6e5e36207696b9a47ba5f89a212dc920d"
+    }
+  ]
+}

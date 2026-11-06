@@ -1,0 +1,48 @@
+# Lesson 05 — Residuals as new coordinates
+
+Essential question: How can a model leave useful structure while preserving exact recovery?
+
+Goals: compute a full signed residual; model that residual with fixed block means; reconstruct the original state from all retained layers.
+
+Prerequisite bridge: Lesson 03 supplied a reversible pair split and Lesson 04 specified its operator. Subtraction and addition of lists mean matching entries by ID. Check (3,7)−(2,2)=(1,5) before using a second model. This lesson uses SU for every value, model and residual.
+
+## C07.05-E1 — A model is a declared component
+
+A model M_0 is a list proposed to account for part of a state x. The subscript labels a modeling stage; it is not a sample ID. Define r_0=x−M_0. This signed residual is the exact component the model leaves. Then x=M_0+r_0 follows by adding M_0 back. Calling M_0 a model does not establish its physical cause or make it a uniquely chosen fit.
+
+Now use the residual as the input to another declared rule. Choose M_1=E(r_0), using fixed blocks {0,1},{2,3}. Define r_1=r_0−M_1. Substitute r_0=M_1+r_1 into the first equation:
+
+    x = M_0 + M_1 + r_1.
+
+Keep r_0 and r_1 as separately identified layers, even though the equations link them. They answer different questions: what the first model left, and what remains after the next coarse model. A scalar sum or average cannot replace either list. Cancellation in a sum is a relation among entries, not proof of their absence. A zero entry is also a retained coordinate at its original ID.
+
+## C07.05-W1 — Worked residual recursion
+
+Let x=(2,5,4,9) SU and choose M_0=(1,1,1,1) SU. Subtract at each ID to obtain r_0=(1,4,3,8). Pair means of r_0 are 5/2 and 11/2, so M_1=(5/2,5/2,11/2,11/2). Subtract again to get r_1=(−3/2,3/2,−5/2,5/2) SU.
+
+| Sample ID | M_0 | M_1 | r_1 | Reconstructed x |
+|---|---:|---:|---:|---:|
+| 0 | 1 | 5/2 | −3/2 | 1+5/2−3/2=2 |
+| 1 | 1 | 5/2 | 3/2 | 1+5/2+3/2=5 |
+| 2 | 1 | 11/2 | −5/2 | 1+11/2−5/2=4 |
+| 3 | 1 | 11/2 | 5/2 | 1+11/2+5/2=9 |
+
+Every table value is in SU. The reconstruction error, defined as reconstructed minus original, is (0,0,0,0) SU. This zero error checks the decoder; it does not say that M_0 alone explained every sample.
+
+> Claim scope: EG-A5 at S02#/constitutive_principles/4 treats unresolved components as the next-channel state. Our models are explicitly chosen synthetic components; no measured dataset, causal mechanism or optimal-fit claim is supplied. Recurrent residual structure is retained as a target for further explanation.
+
+## C07.05-P1 — Practice
+
+Use x=(3,7,6,10), fixed M_0=(2,2,2,2) SU and the same pair blocks. Write both residual layers and verify every reconstruction entry.
+
+Answer: r_0=(1,5,4,8), M_1=(3,3,6,6), r_1=(−2,2,−2,2) SU. Reconstruction is (2+3−2,2+3+2,2+6−2,2+6+2)=(3,7,6,10). Retain r_0 and r_1 under different stage labels. EG-A5 supports treating r_0 as input, not erasing it after M_1 is chosen.
+
+## Diagnostics
+
+1. **C07.05-D1:** The sum of r_1 in P1 is zero. Can the four entries be replaced by zero? What if one entry of another residual is exactly zero?
+2. **C07.05-D2:** For x=(4,4) and M_0=(1,2) SU, compute r_0, M_1=E(r_0), r_1 and reconstruct x.
+3. **C07.05-D3:** If a later model M_2 of r_1 is introduced, define its remaining residual r_2 and give the reconstruction formula. Which earlier residual layers remain in the record?
+
+Worked answers: D1: no, the entries (−2,2,−2,2) are all nonzero. A zero at a particular ID remains a valid entry, not a reason to delete its sample. D2: r_0=(3,2), M_1=(5/2,5/2), r_1=(1/2,−1/2); 1+5/2+1/2=4 and 2+5/2−1/2=4 SU. D3: r_2=r_1−M_2, so x=M_0+M_1+M_2+r_2; retain r_0,r_1,r_2 with their model rules and IDs.
+
+Next dependency: [Lesson 06](lesson-06.md) handles a different kind of missing coordinate: an equation whose output cannot identify its input uniquely.

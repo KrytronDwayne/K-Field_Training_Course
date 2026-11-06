@@ -1,0 +1,18 @@
+{
+  "canonical_output_root": "Z:\\Kfield-doc-training\\K-Field_Training_Course",
+  "checks": [
+    "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+    "parsed manifest.json",
+    "parsed audit_report.json",
+    "parsed completion_report.json",
+    "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+  ],
+  "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry",
+  "errors": [],
+  "schema_version": "1.0",
+  "status": "passed",
+  "storage_authority": "User explicitly authorized project-folder outputs, 2026-11-05",
+  "validator_path": "C:\\Users\\info\\.codex\\skills\\build-high-school-course\\scripts\\validate_course.py",
+  "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+  "exit_code": 0
+}

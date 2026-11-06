@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "status": "complete",
+  "topic": "The Authoritative Cell3: Basis, Metric, and Scale",
+  "audience": "High-school seniors; first-principles teaching, with concrete prerequisite capabilities and taught bridges.",
+  "assumptions": [
+    "A topical short course, not a semester per topic. Pacing is 55-minute core lessons plus capstone periods; split dense lessons if actual learner load requires it.",
+    "No prior calculus, abstract algebra, university linear algebra, or quantum mechanics unless explicitly taught earlier.",
+    "Required core assessments must be solvable with taught finite examples. Clearly label deeper recognition-only extensions.",
+    "Markdown is the delivery format; no PDF or Word generation is required."
+  ],
+  "outputs": [
+    "input-contract.json",
+    "course-map.md",
+    "lesson-01.md",
+    "lesson-02.md",
+    "lesson-03.md",
+    "lesson-04.md",
+    "lesson-05.md",
+    "lesson-06.md",
+    "terminology.md",
+    "teacher-guide.md",
+    "sources.md",
+    "geometry-card.md",
+    "verify_examples.py",
+    "verification.json",
+    "capstone.md",
+    "audit-checks.json",
+    "course.md",
+    "audit_report.json",
+    "completion_report.json"
+  ],
+  "audit_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "hashes": {
+    "audit-checks.json": "14adfacbea7442f1a4ecac803a5a056bee62f3813ce25ed037ea45125b54b61a",
+    "audit_report.json": "ed356d7be10d31ce577e6b1e9f82a7c8189c575ab16b5163b02f5bc2206dad7a",
+    "capstone.md": "85e7c73e56c843884243681e1a5ffa19ba77afcfd7ef634b172c3eff4e74dbc5",
+    "course-map.md": "d5e07b8918473606eafd00454684706871da7d9d6c691fb790300937d0cfc4c6",
+    "course.md": "66b124a7e2e605b788520be81f061e3f0af030ff391782aa0e79b347d5b7194b",
+    "geometry-card.md": "3a4a0fc545647416e256dd041ab32f26e3f1065ceac3bf9a2a60b29fc8242042",
+    "input-contract.json": "22866deff98af0e9b1868311a6ec02a9953dce12f940784236e8d84c73a9a089",
+    "lesson-01.md": "de89d8f162ec7d02ed33cc9f7c704e60a84417161ed749824410976f4a2c540c",
+    "lesson-02.md": "ea57b83e3a1146243133858bf6ac86f3879a2686fe69c79a70d092d00e207ee7",
+    "lesson-03.md": "da4ab0961108bac3d544b9e37b71f0777f9d479cdf9b5d12703faf442ce1bd58",
+    "lesson-04.md": "d4f30ac9f9d34cc666afbef8e4707b94ecd3b3a4834d81b43acaccd042d585b2",
+    "lesson-05.md": "b43d026b7c0ed540f099adbd9fe8a5d75dc7194d6c33bd695d017c6ad22725c4",
+    "lesson-06.md": "8c1b32730b62d8de3d2cd27bb128ad911b30bb8d9484aedbf742131239537587",
+    "manifest.json": "36c65cc3fe3e7a425a8c9ad2bb9daab534ed3fa358310e3f04105a7e04411b0d",
+    "sources.md": "860962a6db827cae9ce56f44d11a3693f54f5cd6e52ac62bacdc804e3fe22d22",
+    "teacher-guide.md": "727ddd8e1f3d1dd38bfe62ca61c45ff2cffbcd0c39c90368dedbcc423b008787",
+    "terminology.md": "a09fb2ac594da5696f9829395eb7d25d58f4187630c81def25375c96c46c2f1b",
+    "verification.json": "4099a1d5f2155ee592f2342f373ee44b8320edc372fc1650f35d8afa14ae471f",
+    "verify_examples.py": "9de11874642dd22911dcac7b3e8b3c48d5d97ec29450bc42e1beb6f45a8161db"
+  },
+  "lesson_count": 6,
+  "output_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-03-the-authoritative-cell3-basis-metric-and-scale",
+  "source_gaps": [
+    "Source-reported direct_reciprocal_closure_max_abs arithmetic unspecified; retained as reported, not freshly reproduced. No required M01 pointer is missing."
+  ],
+  "validator": "Destination validation passed with the location-only adapter; see ../kfield-series-20261105/audits/consolidation/course-03-consolidation.json and ../kfield-series-20261105/audits/independent-completion/course-03-parent-acceptance.json. No fixture mode."
+}

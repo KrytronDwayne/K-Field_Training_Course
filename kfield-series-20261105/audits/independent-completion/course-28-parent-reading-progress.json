@@ -1,0 +1,60 @@
+{
+  "course_id": "course-28",
+  "reviewed_utc": "2026-11-05T20:30:22.226800+00:00",
+  "status": "actual_content_review_complete",
+  "read_hashes": {
+    "lesson-01.md": "fcf4540d9c582d0fc482ea53a835baf46c034e01ccc36778a2f0dc848fe0e543",
+    "lesson-02.md": "db97b9393c9c609ca1e87c38ef06e17b4a3cc69cc2476fb4701d073d2c965bdf",
+    "lesson-03.md": "5aca0af77d91d6a71def30e29913ff2fcf47d61a9a76093904dfcb22688e0221",
+    "lesson-04.md": "15f55e6fd82f3cd1fa207918c7b392c5f57cc9eecd66d15ea804b54297b40f17",
+    "lesson-05.md": "b162b6bce214763ea0b9cbc9d4413267e1c5b39cd1761330cba491b91004d700",
+    "lesson-06.md": "85505c5a3492473efba4ed17fb4ae72239ac6ca053065b30be73890a52f7347e",
+    "lesson-07.md": "545a198d1a7e94bfd95def9f097eeb635f0f0cc456937efb8435213c6f90a878",
+    "lesson-08.md": "e4690d347fced7a7b6318a16890a1a5ef8011258a2a31ca70fc5679a7d138fca",
+    "capstone.md": "978ce36cb1a9a142281f8f7ad9c9b632175e11dbd661f0a1d1f72fd2738a16c5",
+    "teacher-guide.md": "371e2fb0f2ddcd25451a7edb0ed9b4e43e05f055dc1fcd26af88d7d19e97fec9",
+    "terminology.md": "4becad253da4e3bcdcd6f8d737734bd31a41d2b8e5ba94945980c830782d1167",
+    "course-map.md": "d9ad87afcfa2fc7343442d906bc01a6761354532f6f3f6b052cd5832037507e9",
+    "sources.md": "e3b059e5ef828d3789b8596b54eaa3987b7068ef44a8fc2117ce1c2efe5250f0",
+    "sources.json": "14959a4ab2e49a37e0aca59361fab10858fac18b0b69d3449be95327f06015e5",
+    "audit_report.json": "35c36dd5b178aca3d037bef02c5e22bd5485f10fcf741f3462ad31feb122412b",
+    "independent-audit.json": "7dabb570a0f52b580b65bf12a5484ea41f7e27dfb47b5876b4ace30c05414a46"
+  },
+  "lesson_reviews": [
+    "Counts, gain, wavelength/response IDs, bench normal and midpoint exposure are locally defined; supplied row2/B example yields only a count ratio. Explicit task precedes full answer.",
+    "Raw keyed rows, null/zero/absent distinctions, stipulated fault provenance, original order and separate masks are taught and practiced without source-data duplication.",
+    "Same-row Clear ratio, nonzero mathematical domain versus positive software domain, invalid raw retention and exact signed decimal closure all reconstruct the inputs.",
+    "Reversal and half-turn are distinct operators; both signed fields/defects and all complex odd coefficients survive. Complex arithmetic, four weighted sums and inverse precede practice. Source ternary, Fibonacci-cutoff and difference branches retain distinct evidence status.",
+    "Frozen toy trajectory/event equation yields all three windows. Raw and ratio support masks, absent versus undefined reasons, shared fault flags, center retention and real sidereal prerequisites are explicit.",
+    "Full and window means/details reconstruct their distinct supports. Two pulse spectra show equal magnitudes but different phase, so coefficient identity is retained.",
+    "Positive interval product uses a declared allowed box; common timing offset and possible exposure-support union are distinguished. Calibration/transfer, flags and unresolved channels stay separate.",
+    "Prospective version freezes all settings, keys, geometry, masks, control, train/check roles, ten expected midpoints and interruption rules; synthetic rehearsal and planned physical execution are distinct."
+  ],
+  "corrected_findings": [
+    {
+      "id": "C28-PARENT-01",
+      "severity": "major",
+      "file": "lesson-01.md through lesson-08.md",
+      "defect": "Generic practice direction preceded solution without a separately attemptable student problem.",
+      "disposition": "corrected",
+      "verification": "All8 P1 and supplemental C28.S01 now supply explicit inputs/tasks and complete worked answers; parent reread actual prompts and capstone backward links."
+    },
+    {
+      "id": "C28-PARENT-02",
+      "severity": "minor",
+      "file": "lesson-01.md through lesson-08.md",
+      "defect": "Inherited prose merged words and numerals/units; box bounds could suggest statistical independence.",
+      "disposition": "corrected",
+      "verification": "All16 W1/P1 passages reread after copyedit; lesson7 now states the box of allowed combinations."
+    },
+    {
+      "id": "C28-PARENT-03",
+      "severity": "minor",
+      "file": "sources.md; terminology.md",
+      "defect": "Distinct plane-cost levels called independent; raw-channel first use grouped with later ratio.",
+      "disposition": "corrected",
+      "verification": "Source note now three distinct levels; glossary separates raw channels lesson1 from ratio lesson3."
+    }
+  ],
+  "read_scope": "Full8 original and revised-practice lesson bodies, full capstone/guide/map/glossary/source notes; final W1/P1 copyedit passages separately reread and fixed hashes recorded. Source S05 relevant records read directly; source material kept in place."
+}

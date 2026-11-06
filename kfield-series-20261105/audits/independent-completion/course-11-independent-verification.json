@@ -1,0 +1,973 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-11",
+  "created_utc": "2026-11-05T18:25:25.706330+00:00",
+  "status": "passed",
+  "manifest_sha256": "5d05ec34a07727e52baefa7b776e30cb29411b8cbcb8e63a2f2478f614829e72",
+  "runtime": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+  "verifier_path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-series-source-auditor\\work\\audit_course11.py",
+  "verifier_sha256": "50cab810612763f3ca1ea823485b5b2f09f23eaacedb341dda59be28054be977",
+  "independence": "No builder or parent calculation functions imported or executed; standard library only",
+  "method": {
+    "enumeration": "Independently enumerate product vertices and increasing-coordinate edges in the taught order; append 2->0 wraps in axis/lexicographic-tail order.",
+    "tree": "Construct each parent by decrementing the first nonzero coordinate. Retain that same open tree for the periodic graph.",
+    "cycles": "Use independent breadth-first search on the undirected tree to find each chord head-to-tail return path; record signed edge traversal and +1 chord coefficient.",
+    "linear_algebra": "Exact fractions.Fraction forward Gaussian elimination computes incidence, tree-column, rooted-gradient, cycle-basis and full decoder ranks.",
+    "decoding": "Recover wrap coefficients from W/9 and eight signed details; compute ninth detail as minus their sum. Sum fundamental cycles, then add all retained tree-remainder coordinates.",
+    "proof_scope": "Exact finite checks supplement the generic tree/leaf, rooted-potential, own-chord and inverse arguments reviewed in the audit. No numerical tolerance, random sampling or builder functions are used."
+  },
+  "exit_code": 0,
+  "check_count": 426,
+  "checks_by_group": {
+    "integrity": 105,
+    "sources": 8,
+    "contract": 2,
+    "links": 30,
+    "repair": 2,
+    "graph": 98,
+    "rectangle": 4,
+    "ring": 28,
+    "periodic": 120,
+    "wrap-decoder": 21,
+    "general-flow": 4,
+    "parent-comparison": 2,
+    "rubric": 2
+  },
+  "failures": [],
+  "count_scope": "277 numerical/graph/decoder/rubric assertions and 149 integrity/source/contract/link/repair/parent-comparison assertions; assertion counts are not pedagogic acceptance criteria.",
+  "results": {
+    "open_2x2": {
+      "vertices": 4,
+      "edges": 4,
+      "incidence_rank": 3,
+      "tree_edges": 3,
+      "cut_dimension": 3,
+      "cycles": 1,
+      "cycle_basis_rank": 1
+    },
+    "open_3x2": {
+      "vertices": 6,
+      "edges": 7,
+      "incidence_rank": 5,
+      "tree_edges": 5,
+      "cut_dimension": 5,
+      "cycles": 2,
+      "cycle_basis_rank": 2
+    },
+    "open_3x3": {
+      "vertices": 9,
+      "edges": 12,
+      "incidence_rank": 8,
+      "tree_edges": 8,
+      "cut_dimension": 8,
+      "cycles": 4,
+      "cycle_basis_rank": 4
+    },
+    "open_3x3x3": {
+      "vertices": 27,
+      "edges": 54,
+      "incidence_rank": 26,
+      "tree_edges": 26,
+      "cut_dimension": 26,
+      "cycles": 28,
+      "cycle_basis_rank": 28
+    },
+    "rectangle": {
+      "edge_order": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ]
+        ]
+      ],
+      "tree_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "chord_edge_indices": [
+        5,
+        6
+      ],
+      "cycle_vectors": [
+        [
+          1,
+          -1,
+          0,
+          0,
+          -1,
+          1,
+          0
+        ],
+        [
+          1,
+          -1,
+          1,
+          -1,
+          -1,
+          0,
+          1
+        ]
+      ],
+      "return_paths": [
+        [
+          [
+            1,
+            -1
+          ],
+          [
+            4,
+            -1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            3,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            4,
+            -1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ]
+      ]
+    },
+    "ring3": {
+      "incidence": [
+        [
+          -1,
+          0,
+          1
+        ],
+        [
+          1,
+          -1,
+          0
+        ],
+        [
+          0,
+          1,
+          -1
+        ]
+      ],
+      "flow": [
+        2,
+        3,
+        4
+      ],
+      "divergence": [
+        2,
+        -1,
+        -1
+      ],
+      "gradient": [
+        3,
+        2,
+        -5
+      ],
+      "cycle": [
+        1,
+        1,
+        1
+      ],
+      "coefficient": 4,
+      "retained_remainder": [
+        -2,
+        -1,
+        0
+      ],
+      "reversed_edge_flow": [
+        -2,
+        3,
+        4
+      ],
+      "reversed_cycle_coefficient": -4
+    },
+    "ring4": {
+      "incidence": [
+        [
+          -1,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          -1
+        ]
+      ],
+      "flow": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "divergence": [
+        3,
+        -1,
+        -1,
+        -1
+      ],
+      "gradient": [
+        1,
+        2,
+        -1,
+        -2
+      ],
+      "cycle": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "coefficient": 5,
+      "retained_remainder": [
+        -3,
+        -2,
+        -1,
+        0
+      ],
+      "reversed_edge_flow": [
+        -2,
+        3,
+        4,
+        5
+      ],
+      "reversed_cycle_coefficient": -3
+    },
+    "update_rules": {
+      "initial": 3,
+      "identity": [
+        3,
+        3,
+        3
+      ],
+      "doubling": [
+        3,
+        6,
+        12
+      ]
+    },
+    "wrap-W1": {
+      "winding": 45,
+      "mean": "5",
+      "eight_details": [
+        "-4",
+        "-3",
+        "-2",
+        "-1",
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "ninth_detail": "4",
+      "reconstructed": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ]
+    },
+    "wrap-P1-CAP05": {
+      "winding": 9,
+      "mean": "1",
+      "eight_details": [
+        "-1",
+        "-1",
+        "-1",
+        "-1",
+        "-1",
+        "-1",
+        "-1",
+        "-1"
+      ],
+      "ninth_detail": "8",
+      "reconstructed": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "9"
+      ]
+    },
+    "wrap-integer-guard": {
+      "winding": 1,
+      "mean": "1/9",
+      "eight_details": [
+        "8/9",
+        "-1/9",
+        "-1/9",
+        "-1/9",
+        "-1/9",
+        "-1/9",
+        "-1/9",
+        "-1/9"
+      ],
+      "ninth_detail": "-1/9",
+      "reconstructed": [
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    "wrap-same-W-different-state": {
+      "winding": 9,
+      "mean": "1",
+      "eight_details": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "ninth_detail": "0",
+      "reconstructed": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "wrap-zero-W-nonzero-details": {
+      "winding": 0,
+      "mean": "0",
+      "eight_details": [
+        "1",
+        "-1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "ninth_detail": "0",
+      "reconstructed": [
+        "1",
+        "-1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    "periodic": {
+      "vertices": 27,
+      "open_edges": 54,
+      "wrap_edges": 27,
+      "edges": 81,
+      "incidence_rank": 26,
+      "cut_dimension": 26,
+      "tree_edges": 26,
+      "cycles": 55,
+      "partition": [
+        28,
+        24,
+        3
+      ],
+      "full_coordinate_rank": 81,
+      "capstone_nonzero_edges": [
+        [
+          [
+            [
+              0,
+              2,
+              2
+            ],
+            [
+              1,
+              2,
+              2
+            ]
+          ],
+          9
+        ],
+        [
+          [
+            [
+              1,
+              2,
+              2
+            ],
+            [
+              2,
+              2,
+              2
+            ]
+          ],
+          9
+        ],
+        [
+          [
+            [
+              2,
+              2,
+              2
+            ],
+            [
+              0,
+              2,
+              2
+            ]
+          ],
+          9
+        ]
+      ],
+      "capstone_zero_edges": 78,
+      "capstone_all_cycle_coefficients": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        9,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "capstone_divergence": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "auditor_general_periodic_flow": {
+      "input_rule": "f[index]=(index mod 11 - 5)/3 for zero-based edge index 0..80",
+      "open_coefficients": [
+        "-1",
+        "-2/3",
+        "-1/3",
+        "0",
+        "1/3",
+        "2/3",
+        "1",
+        "4/3",
+        "5/3",
+        "-5/3",
+        "-4/3",
+        "-1",
+        "0",
+        "1/3",
+        "2/3",
+        "1",
+        "4/3",
+        "5/3",
+        "-5/3",
+        "-4/3",
+        "-1",
+        "-2/3",
+        "-1/3",
+        "0",
+        "1/3",
+        "2/3",
+        "1",
+        "4/3"
+      ],
+      "wrap_transforms": [
+        {
+          "winding": "-7/3",
+          "mean": "-7/27",
+          "eight_details": [
+            "52/27",
+            "-38/27",
+            "-29/27",
+            "-20/27",
+            "-11/27",
+            "-2/27",
+            "7/27",
+            "16/27"
+          ],
+          "ninth_detail": "25/27",
+          "reconstructed": [
+            "5/3",
+            "-5/3",
+            "-4/3",
+            "-1",
+            "-2/3",
+            "-1/3",
+            "0",
+            "1/3",
+            "2/3"
+          ]
+        },
+        {
+          "winding": "-1",
+          "mean": "-1/9",
+          "eight_details": [
+            "10/9",
+            "13/9",
+            "16/9",
+            "-14/9",
+            "-11/9",
+            "-8/9",
+            "-5/9",
+            "-2/9"
+          ],
+          "ninth_detail": "1/9",
+          "reconstructed": [
+            "1",
+            "4/3",
+            "5/3",
+            "-5/3",
+            "-4/3",
+            "-1",
+            "-2/3",
+            "-1/3",
+            "0"
+          ]
+        },
+        {
+          "winding": "1/3",
+          "mean": "1/27",
+          "eight_details": [
+            "8/27",
+            "17/27",
+            "26/27",
+            "35/27",
+            "44/27",
+            "-46/27",
+            "-37/27",
+            "-28/27"
+          ],
+          "ninth_detail": "-19/27",
+          "reconstructed": [
+            "1/3",
+            "2/3",
+            "1",
+            "4/3",
+            "5/3",
+            "-5/3",
+            "-4/3",
+            "-1",
+            "-2/3"
+          ]
+        }
+      ],
+      "tree_edge_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        36,
+        37
+      ],
+      "retained_tree_values": [
+        "-20/3",
+        "-8/3",
+        "-1/3",
+        "4",
+        "4/3",
+        "2/3",
+        "-4/3",
+        "1/3",
+        "4",
+        "-3",
+        "4/3",
+        "-2/3",
+        "1",
+        "2",
+        "4",
+        "-3",
+        "-5/3",
+        "2/3",
+        "8/3",
+        "0",
+        "10/3",
+        "-2/3",
+        "-10/3",
+        "2/3",
+        "-2/3",
+        "7/3"
+      ],
+      "divergence": [
+        "14/3",
+        "-1/3",
+        "-2/3",
+        "-2/3",
+        "2",
+        "2",
+        "2/3",
+        "-11/3",
+        "-10/3",
+        "-11/3",
+        "-4",
+        "1/3",
+        "3",
+        "-2/3",
+        "-10/3",
+        "5/3",
+        "2",
+        "10/3",
+        "-3",
+        "4/3",
+        "-2/3",
+        "1",
+        "2",
+        "4",
+        "-3",
+        "-5/3",
+        "2/3"
+      ],
+      "reconstruction_error": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "scope": "Auditor-generated exact example; not measured data or an extra student requirement"
+    }
+  },
+  "parent_support_comparison": {
+    "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\shape-graph-bridge-verification.json",
+    "sha256": "fb2a8730ac624ce7ef8d59f3b1975efb7c128993706275f8adc0e6a1bc8f406e",
+    "rows": {
+      "C11-SPANNING-TREE": {
+        "id": "C11-SPANNING-TREE",
+        "passed": true,
+        "nodes": 27,
+        "open_edges": 54,
+        "tree_edges": 26,
+        "independent_fundamental_cycles": 28,
+        "method": "A connected spanning tree has 26 edges. Every non-tree edge gives one unique fundamental cycle coordinate."
+      },
+      "C11-PERIODIC-AUGMENTATION": {
+        "id": "C11-PERIODIC-AUGMENTATION",
+        "passed": true,
+        "periodic_edges": 81,
+        "cycle_dimension": 55,
+        "decomposition": [
+          28,
+          24,
+          3
+        ],
+        "scope": "27 added wrap coordinates split into three axis means and 24 zero-sum axis details. A basis/gauge and reconstruction must be stated before interpreting values as a memory state."
+      }
+    },
+    "use": "Comparison only; independent enumeration, BFS cycles and Fraction elimination supply the checks"
+  },
+  "source_hashes": [
+    {
+      "id": "S01",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180"
+    },
+    {
+      "id": "S02",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3"
+    },
+    {
+      "id": "S03",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e"
+    },
+    {
+      "id": "S04",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+      "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2"
+    },
+    {
+      "id": "S05",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+      "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7"
+    }
+  ],
+  "source_data_copied": false,
+  "project_files_modified": false,
+  "limitations": [
+    "Synthetic finite states only; no measured memory behavior or physical dynamics tested.",
+    "No source formula-DAG serialization, exceptional algebra action or spectral extension is certified.",
+    "Zero-valued reconstruction residual entries remain explicitly recorded; no nonzero tree remainder is discarded."
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "schema_version": "1.0",
+  "status": "passed",
+  "scope": "Actual author local, cumulative and final hostile review plus independent arithmetic replay. Independent parent/teaching-auditor review may follow; this report does not impersonate that review.",
+  "findings": [
+    {
+      "id": "F01",
+      "level": "final",
+      "category": "recovery integrity",
+      "file": "manifest.json",
+      "section": "checkpoints and output paths",
+      "severity": "critical",
+      "defect": "Stopped checkpoint had only a placeholder manifest and stale Desktop paths, without lesson hashes; trusting it as completed would be invalid.",
+      "correction": "Verified all recovered drafts, recorded fresh baseline hashes without promoting status, updated input contract to explicitly authorized writable root, and rebuilt full checkpoint authority.",
+      "verification": "recover_course.py verified five readable lesson files; recovery-verification.json records baseline hashes; final validator tests all current hashes and dependency arrays.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "input",
+        "recovery",
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05"
+      ]
+    },
+    {
+      "id": "F02",
+      "level": "local",
+      "category": "learner prerequisites",
+      "file": "lesson-02.md",
+      "section": "Worked example A and B",
+      "severity": "major",
+      "defect": "Recognition terms basis, determinant, metric, spectral response and co-rotation appeared without sufficient plain-language introductions.",
+      "correction": "Added short definitions, explained conditional scope, and explicitly limited the task to recognition before Lesson 5 arithmetic.",
+      "verification": "Reread the added paragraphs; diagnostic checks ask source tracing and scope, not untaught determinant or spectral calculations. Lesson 5 teaches every new finite coordinate operation before assessment.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "lesson-02",
+        "terms",
+        "capstone",
+        "assembly"
+      ]
+    },
+    {
+      "id": "C01-IND-01",
+      "level": "final",
+      "category": "validator receipt provenance",
+      "severity": "minor",
+      "file": "validator-result.json",
+      "section": "/canonical_output_root; /checks/0; /course_directory",
+      "defect": "The consolidated receipt names the Z: destination course but still gives the builder's C: output directory as canonical_output_root and states containment under that old root. The receipt is internally inconsistent about the location actually validated.",
+      "correction": "Preserve the original builder-location receipt as historical evidence, and generate or store a correctly scoped destination validator receipt with the Z: root and current destination path. Do not merely relabel an old execution as a new one. Refresh dependent manifest/completion hashes and run the ordinary destination validation after the metadata repair.",
+      "verification": "A new actual destination validation generated this receipt; root, path and containment check all identify the project folder. Historical receipt retained outside course; final hashes revalidated below.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "validator",
+        "completion"
+      ]
+    }
+  ],
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "corrected_counts": {
+    "critical": 1,
+    "major": 1,
+    "minor": 0
+  },
+  "local_audits": [
+    {
+      "id": "lesson-01",
+      "result": "passed",
+      "diagnostic_count": 4,
+      "observable_goals": 3,
+      "content_review": "Prerequisites, terminology, definitions, notation, units, logic, evidence scope, answers and next dependency reviewed; finite calculations independently replayed."
+    },
+    {
+      "id": "lesson-02",
+      "result": "passed",
+      "diagnostic_count": 4,
+      "observable_goals": 3,
+      "content_review": "Prerequisites, terminology, definitions, notation, units, logic, evidence scope, answers and next dependency reviewed; finite calculations independently replayed."
+    },
+    {
+      "id": "lesson-03",
+      "result": "passed",
+      "diagnostic_count": 4,
+      "observable_goals": 3,
+      "content_review": "Prerequisites, terminology, definitions, notation, units, logic, evidence scope, answers and next dependency reviewed; finite calculations independently replayed."
+    },
+    {
+      "id": "lesson-04",
+      "result": "passed",
+      "diagnostic_count": 4,
+      "observable_goals": 3,
+      "content_review": "Prerequisites, terminology, definitions, notation, units, logic, evidence scope, answers and next dependency reviewed; finite calculations independently replayed."
+    },
+    {
+      "id": "lesson-05",
+      "result": "passed",
+      "diagnostic_count": 4,
+      "observable_goals": 3,
+      "content_review": "Prerequisites, terminology, definitions, notation, units, logic, evidence scope, answers and next dependency reviewed; finite calculations independently replayed."
+    }
+  ],
+  "cumulative_audits": [
+    {
+      "boundary": "after lesson-02",
+      "result": "passed",
+      "verification": "Classification and address practice precede residual work; measurement and replay kept separate."
+    },
+    {
+      "boundary": "after lesson-04",
+      "result": "passed",
+      "verification": "Signed residual definition and units stable across model comparison; equal predictions distinguished from equal residual magnitudes."
+    },
+    {
+      "boundary": "after lesson-05",
+      "result": "passed",
+      "verification": "Origin/coordinate bridge completes capstone prerequisites; all five outcomes mapped to introduced and practiced operations."
+    }
+  ],
+  "final_hostile_checks": [
+    {
+      "category": "coverage",
+      "verification": "Five C01.01–C01.05 rows map introduction, worked/guided practice, diagnostic checks and later use; all five assessed in capstone.",
+      "result": "passed"
+    },
+    {
+      "category": "source fidelity",
+      "verification": "Exact S02 pointers checked against original in-place source, all five pinned archive hashes match. S06 object retrieval retained exact source path/hash and distinct metadata/replay/attribution scopes.",
+      "result": "passed"
+    },
+    {
+      "category": "dependency order",
+      "verification": "Lessons progress classification → address → residual → prediction → research chain. Source matrix notation in Lesson 2 is recognition-only; Lesson 5 teaches diagonal operations before computation.",
+      "result": "passed"
+    },
+    {
+      "category": "mathematics and units",
+      "verification": "74 integer/rational checks passed. Markdown residual table cells were read and checked rather than only trusting a separate input table. DU, mm, s and dimensionless addresses remain distinct.",
+      "result": "passed"
+    },
+    {
+      "category": "notation",
+      "verification": "M_cell and R_cell explicitly map source G and R; G_phase is reserved separately. Position x and scalar readings are locally scoped; x_reading used when both occur.",
+      "result": "passed"
+    },
+    {
+      "category": "worked answers",
+      "verification": "Every diagnostic has an answer and guided tasks have solutions. All numerical examples, capstone row arithmetic, identity products, reversals and rubric total replayed.",
+      "result": "passed"
+    },
+    {
+      "category": "evidence layers",
+      "verification": "Synthetic numbers explicitly labeled. Source status is attributed, not promoted to fresh compilation; S06 raw residual gap appears in lesson, key and source ledger. Closure discrepancy is not an instrument residual.",
+      "result": "passed"
+    },
+    {
+      "category": "audience",
+      "verification": "No calculus or general matrix multiplication required. Three observable goals and four diagnostic checks per lesson; dense source labels explained as recognition vocabulary. Pacing is explicitly a planning assumption.",
+      "result": "passed"
+    },
+    {
+      "category": "capstone alignment",
+      "verification": "Each of five capstone items has explicit earlier introduction and practice. All supplied inputs suffice for finite tasks. The raw-data question is answered by identifying the documented gap, not fabricating data.",
+      "result": "passed"
+    },
+    {
+      "category": "recovery integrity",
+      "verification": "Initial unverified state corrected. Current files, hashes, status/dependencies and complete deliverable list checked by installed validator; baseline hash record kept as history.",
+      "result": "passed"
+    },
+    {
+      "category": "assembly and presentation",
+      "verification": "Only navigation front matter added; exact lesson bodies enclosed once each by required markers in order. Markdown headings/tables reviewed and relative links checked. No paginated/visual output requested; no PDF rendering claim.",
+      "result": "passed"
+    },
+    {
+      "category": "storage containment",
+      "verification": "All persistent course artifacts in authorized direct child of outputs/K-Field_Training_Course. Input paths updated; adapter changes only root constant with fixture_mode=False.",
+      "result": "passed"
+    },
+    {
+      "category": "minimality",
+      "verification": "Five lessons retained with one central capability each. Advanced series-wide invariants remain author constraints; no extra abstract-algebra exercises or invented empirical records added.",
+      "result": "passed"
+    }
+  ],
+  "link_check_count": 17,
+  "arithmetic_check_count": 74,
+  "rendering": "Markdown only; tables, heading separation and links reviewed; no paginated artifact requested."
+}

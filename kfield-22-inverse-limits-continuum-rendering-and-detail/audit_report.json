@@ -1,0 +1,162 @@
+{
+  "schema_version": "1.0",
+  "status": "passed",
+  "findings": [
+    {
+      "id": "IA22-001",
+      "level": "local",
+      "category": "mathematical rigor and prerequisite closure",
+      "file": "lesson-07.md",
+      "section": "C22.07-E1",
+      "severity": "minor",
+      "defect": "Bounded signed partial inner products were asserted to converge without an absolute-convergence or tail argument.",
+      "correction": "Proved the finite dot-product inequality by a sum-of-squares expansion and applied it to absolute products; increasing bounded absolute sums imply absolute convergence.",
+      "verification": "Independent auditor reread the proof, closed IA22-001; parent independently supplied the same diagnosis and accepted the correction.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "lesson-07",
+        "capstone",
+        "assembly"
+      ]
+    },
+    {
+      "id": "F22-002",
+      "level": "final",
+      "category": "Markdown table structure",
+      "file": "terminology.md",
+      "section": "sequence-space row",
+      "severity": "minor",
+      "defect": "Norm vertical bars were unescaped inside a three-column Markdown table.",
+      "correction": "Replaced the norm-bar label with sequence 2-norm.",
+      "verification": "Deterministic equal-cell-count checks pass for every Markdown table in deliverable Markdown.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "terminology"
+      ]
+    },
+    {
+      "id": "F22-003",
+      "level": "final",
+      "category": "exact provenance",
+      "file": "sources.md",
+      "section": "pointer table; lesson-04 claim scope",
+      "severity": "minor",
+      "defect": "Array-entry ranges were displayed as though each were a literal JSON pointer.",
+      "correction": "Expanded all cited proof ranges into separate exact entry pointers; lesson04 uses explicit full pointers.",
+      "verification": "Read source arrays and confirmed M18 proof entries0,1,2 and M04 entries0 through4; all five source hashes matched.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "sources",
+        "lesson-04",
+        "assembly"
+      ]
+    }
+  ],
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "checks": [
+    {
+      "level": "local",
+      "scope": "lessons01–07",
+      "result": "passed",
+      "evidence": "Independent auditor read every lesson and all28 E/W/P/D anchors; four answered diagnostics and next link per lesson. Manager rational recomputation in worked-example-verification.json."
+    },
+    {
+      "level": "cumulative",
+      "scope": "Unit A, lessons01–03",
+      "result": "passed",
+      "evidence": "Residue/sign/order conventions preserved; common-prefix distance uses low-order agreement; exact all-digit rules distinguished from partial prefixes; triples and27 extensions independently checked."
+    },
+    {
+      "level": "cumulative",
+      "scope": "Unit B, lessons04–05",
+      "result": "passed",
+      "evidence": "Finite geometric subtraction precedes infinite bound; normalized and physical tolerances differ correctly; endpoint histories retained; cylinder inputs and hidden third digits retained."
+    },
+    {
+      "level": "cumulative",
+      "scope": "Unit C, lessons06–07",
+      "result": "passed",
+      "evidence": "Projector products recomputed exactly; all detail sectors reconstruct; product hypotheses declared; block proof precedes domain assessment and no archival operator is invented."
+    },
+    {
+      "level": "final",
+      "scope": "coverage, fidelity, dependency order and assessment",
+      "result": "passed",
+      "evidence": "Seven concepts mapped to actual explanations, worked examples, answered practices, diagnostics and explicit capstone tasks. Independent audit read full capstone and recomputed answers/rubric."
+    },
+    {
+      "level": "final",
+      "scope": "terminology, units, evidence and audience",
+      "result": "passed",
+      "evidence": "Glossary follows actual usage; all core matrix and series operations taught locally; synthetic B explicitly distinguished from Cell3, LU units confined to rendering; no measured data/mechanism fabricated. Twelve periods preserve expanded blueprint."
+    },
+    {
+      "level": "final",
+      "scope": "mathematics and example answers",
+      "result": "passed",
+      "evidence": "20 manager verification groups plus independent rational checks; signed tails, finite products, mixed projector products and sequence domain identities recomputed."
+    },
+    {
+      "level": "final",
+      "scope": "rendering, links and minimality",
+      "result": "passed",
+      "evidence": "Markdown only: 6 table blocks and 32 relative links checked; no PDF/Word rendering required. All required sections retained with no teaching added in assembly."
+    },
+    {
+      "level": "final",
+      "scope": "storage and recovery",
+      "result": "passed",
+      "evidence": "All persistent artifacts stored in designated course directory; no source copies. Manifest recovery preflight performed; final machine validator separately checks checkpoint hashes, containment, audit counts and verbatim assembly."
+    }
+  ],
+  "recovery_preflight": [
+    {
+      "id": "lesson-01",
+      "old_status": "drafted",
+      "old_hash_match": true,
+      "disposition": "unchanged"
+    },
+    {
+      "id": "lesson-02",
+      "old_status": "drafted",
+      "old_hash_match": true,
+      "disposition": "unchanged"
+    },
+    {
+      "id": "lesson-03",
+      "old_status": "drafted",
+      "old_hash_match": true,
+      "disposition": "unchanged"
+    },
+    {
+      "id": "lesson-04",
+      "old_status": "drafted",
+      "old_hash_match": false,
+      "disposition": "Draft revised by documented audit repair; refreshed only after rechecks"
+    },
+    {
+      "id": "lesson-05",
+      "old_status": "drafted",
+      "old_hash_match": true,
+      "disposition": "unchanged"
+    },
+    {
+      "id": "lesson-06",
+      "old_status": "drafted",
+      "old_hash_match": true,
+      "disposition": "unchanged"
+    },
+    {
+      "id": "lesson-07",
+      "old_status": "drafted",
+      "old_hash_match": false,
+      "disposition": "Draft revised by documented audit repair; refreshed only after rechecks"
+    }
+  ],
+  "independent_review": "independent-audit.json",
+  "source_gaps": "Specific infinite operator domain/action and infinite filtration convergence are not supplied by the loaded M18 passage; explicitly bounded, not required computations."
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-04",
+  "timestamp": "2026-11-05T17:39:30.413157+00:00",
+  "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-04-affine-cells-reciprocal-planes-and-unique-addresses",
+  "validator": "passed",
+  "validator_checks": [
+    "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+    "parsed manifest.json",
+    "parsed audit_report.json",
+    "parsed completion_report.json",
+    "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+  ],
+  "validator_errors": [],
+  "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+  "manifest_sha256": "4c395d5cb5e632b9985b9578b17980f24f6cf6f27f2c04394a1a209a4402a60d",
+  "completion_report_sha256": "c51ea04c61152e9c4bc090209573b7cdcbe7dc7605cb59bc84d276f874713e54",
+  "course_sha256": "4af65e80c937a3aaf54ecd32c24bace32cd913ad016a0b09dfe5eccd490bf6f4"
+}

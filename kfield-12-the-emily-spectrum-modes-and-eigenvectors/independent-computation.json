@@ -1,0 +1,67 @@
+{
+  "runtime": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+  "verified_source_hashes": [
+    {
+      "id": "S01",
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "matches": true
+    },
+    {
+      "id": "S02",
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "matches": true
+    },
+    {
+      "id": "S03",
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "matches": true
+    },
+    {
+      "id": "S04",
+      "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "matches": true
+    },
+    {
+      "id": "S05",
+      "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+      "matches": true
+    }
+  ],
+  "all_28_required_anchors_present": true,
+  "path_eigenpairs_and_orthonormality": true,
+  "all_27_product_eigenpairs_and_729_dots_checked": true,
+  "maximum_numeric_eigenpair_error": 2.220446049250313e-16,
+  "numeric_tolerance": 1e-12,
+  "multiplicities": [
+    1,
+    3,
+    6,
+    7,
+    6,
+    3,
+    1
+  ],
+  "degree_histogram": {
+    "3": 8,
+    "4": 12,
+    "5": 6,
+    "6": 1
+  },
+  "chi_counts": {
+    "-1.0": 14,
+    "1.0": 13
+  },
+  "M17_exact_rational_rank": 6,
+  "reconstruction_examples": [
+    [
+      1,
+      2,
+      3
+    ],
+    [
+      2,
+      0,
+      0
+    ]
+  ]
+}

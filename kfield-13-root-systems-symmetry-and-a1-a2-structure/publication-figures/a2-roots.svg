@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="441.893333pt" height="364.989937pt" viewBox="0 0 441.893333 364.989937" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-05T18:46:05.975727</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.7, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 364.989937 
+L 441.893333 364.989937 
+L 441.893333 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 222.948082 190.509937 
+Q 286.659897 190.509937 348.135644 190.509937 
+" style="fill: none; stroke: #006c75; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 343.735644 188.309937 
+L 348.135644 190.509937 
+L 343.735644 192.709937 
+z
+" style="fill: #006c75; stroke: #006c75; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #193444" x="382.602591" y="193.269312" transform="rotate(-0 382.602591 193.269312)">α₁ = (1,−1,0)</text>
+   </g>
+   <g id="patch_3">
+    <path d="M 219.945959 188.776661 
+Q 188.090052 133.600611 157.352178 80.361052 
+" style="fill: none; stroke: #006c75; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 157.646922 85.271564 
+L 157.352178 80.361052 
+L 161.457434 83.071564 
+z
+" style="fill: #006c75; stroke: #006c75; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #193444" x="140.118705" y="53.271176" transform="rotate(-0 140.118705 53.271176)">α₂ = (0,1,−1)</text>
+   </g>
+   <g id="patch_4">
+    <path d="M 221.947374 188.776661 
+Q 253.803282 133.600611 284.541155 80.361052 
+" style="fill: none; stroke: #006c75; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 280.4359 83.071564 
+L 284.541155 80.361052 
+L 284.246411 85.271564 
+z
+" style="fill: #006c75; stroke: #006c75; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #193444" x="301.774629" y="53.271176" transform="rotate(-0 301.774629 53.271176)">α₁+α₂ = (1,0,−1)</text>
+   </g>
+   <g id="patch_5">
+    <path d="M 218.945252 190.509937 
+Q 155.233437 190.509937 93.757689 190.509937 
+" style="fill: none; stroke: #006c75; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 98.157689 192.709937 
+L 93.757689 190.509937 
+L 98.157689 188.309937 
+z
+" style="fill: #006c75; stroke: #006c75; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #193444" x="59.290743" y="193.269312" transform="rotate(-0 59.290743 193.269312)">−α₁</text>
+   </g>
+   <g id="patch_6">
+    <path d="M 221.947374 192.243214 
+Q 253.803282 247.419264 284.541155 300.658823 
+" style="fill: none; stroke: #006c75; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 284.246411 295.748311 
+L 284.541155 300.658823 
+L 280.4359 297.948311 
+z
+" style="fill: #006c75; stroke: #006c75; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #193444" x="301.774629" y="333.267449" transform="rotate(-0 301.774629 333.267449)">−α₂</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 219.945959 192.243214 
+Q 188.090052 247.419264 157.352178 300.658823 
+" style="fill: none; stroke: #006c75; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 161.457434 297.948311 
+L 157.352178 300.658823 
+L 157.646922 295.748311 
+z
+" style="fill: #006c75; stroke: #006c75; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #193444" x="140.118705" y="333.267449" transform="rotate(-0 140.118705 333.267449)">−(α₁+α₂)</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 13.2px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #193444" x="220.946667" y="17.229937" transform="rotate(-0 220.946667 17.229937)">A2 roots in length-preserving paper coordinates</text>
+   </g>
+  </g>
+ </g>
+</svg>

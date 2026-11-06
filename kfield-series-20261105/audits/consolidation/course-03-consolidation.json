@@ -1,0 +1,126 @@
+{
+  "course_id": "course-03",
+  "timestamp": "2026-11-05T16:54:36.974159+00:00",
+  "source": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-course-03\\K-Field_Training_Course\\kfield-03-the-authoritative-cell3-basis-metric-and-scale",
+  "destination": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-03-the-authoritative-cell3-basis-metric-and-scale",
+  "source_validator_passed": true,
+  "destination_validator_passed": true,
+  "destination_errors": [],
+  "destination_checks": [
+    "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+    "parsed manifest.json",
+    "parsed audit_report.json",
+    "parsed completion_report.json",
+    "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+  ],
+  "path_metadata_relocated_files": [
+    "completion_report.json",
+    "input-contract.json",
+    "manifest.json"
+  ],
+  "copied_generated_files": [
+    {
+      "path": "audit-checks.json",
+      "source_sha256": "14adfacbea7442f1a4ecac803a5a056bee62f3813ce25ed037ea45125b54b61a",
+      "destination_sha256_before_hash_refresh": "14adfacbea7442f1a4ecac803a5a056bee62f3813ce25ed037ea45125b54b61a"
+    },
+    {
+      "path": "audit_report.json",
+      "source_sha256": "a395525dde52a53755f5bcaa9239cc67973320f199f6a477a05acbd0c0c0018b",
+      "destination_sha256_before_hash_refresh": "a395525dde52a53755f5bcaa9239cc67973320f199f6a477a05acbd0c0c0018b"
+    },
+    {
+      "path": "capstone.md",
+      "source_sha256": "85e7c73e56c843884243681e1a5ffa19ba77afcfd7ef634b172c3eff4e74dbc5",
+      "destination_sha256_before_hash_refresh": "85e7c73e56c843884243681e1a5ffa19ba77afcfd7ef634b172c3eff4e74dbc5"
+    },
+    {
+      "path": "completion_report.json",
+      "source_sha256": "b998e19466e4795e96b043b490e37836169cd4bcc2fd36c3462c957dff9e3e44",
+      "destination_sha256_before_hash_refresh": "a2f91fb627848c2e4215ea3d22762f6f3d91c569ca3eee0229f532e8f8838d62"
+    },
+    {
+      "path": "course-map.md",
+      "source_sha256": "1cbf8e453faf6f84079c48d6cf1cdfd8f04295b73a5004b7708e1459b7f9fd93",
+      "destination_sha256_before_hash_refresh": "1cbf8e453faf6f84079c48d6cf1cdfd8f04295b73a5004b7708e1459b7f9fd93"
+    },
+    {
+      "path": "course.md",
+      "source_sha256": "66b124a7e2e605b788520be81f061e3f0af030ff391782aa0e79b347d5b7194b",
+      "destination_sha256_before_hash_refresh": "66b124a7e2e605b788520be81f061e3f0af030ff391782aa0e79b347d5b7194b"
+    },
+    {
+      "path": "geometry-card.md",
+      "source_sha256": "3a4a0fc545647416e256dd041ab32f26e3f1065ceac3bf9a2a60b29fc8242042",
+      "destination_sha256_before_hash_refresh": "3a4a0fc545647416e256dd041ab32f26e3f1065ceac3bf9a2a60b29fc8242042"
+    },
+    {
+      "path": "input-contract.json",
+      "source_sha256": "72416d190bc94f71db4201663c39a70f62c39bf7a5032a1b06e4665866498480",
+      "destination_sha256_before_hash_refresh": "22866deff98af0e9b1868311a6ec02a9953dce12f940784236e8d84c73a9a089"
+    },
+    {
+      "path": "lesson-01.md",
+      "source_sha256": "de89d8f162ec7d02ed33cc9f7c704e60a84417161ed749824410976f4a2c540c",
+      "destination_sha256_before_hash_refresh": "de89d8f162ec7d02ed33cc9f7c704e60a84417161ed749824410976f4a2c540c"
+    },
+    {
+      "path": "lesson-02.md",
+      "source_sha256": "ea57b83e3a1146243133858bf6ac86f3879a2686fe69c79a70d092d00e207ee7",
+      "destination_sha256_before_hash_refresh": "ea57b83e3a1146243133858bf6ac86f3879a2686fe69c79a70d092d00e207ee7"
+    },
+    {
+      "path": "lesson-03.md",
+      "source_sha256": "da4ab0961108bac3d544b9e37b71f0777f9d479cdf9b5d12703faf442ce1bd58",
+      "destination_sha256_before_hash_refresh": "da4ab0961108bac3d544b9e37b71f0777f9d479cdf9b5d12703faf442ce1bd58"
+    },
+    {
+      "path": "lesson-04.md",
+      "source_sha256": "d4f30ac9f9d34cc666afbef8e4707b94ecd3b3a4834d81b43acaccd042d585b2",
+      "destination_sha256_before_hash_refresh": "d4f30ac9f9d34cc666afbef8e4707b94ecd3b3a4834d81b43acaccd042d585b2"
+    },
+    {
+      "path": "lesson-05.md",
+      "source_sha256": "b43d026b7c0ed540f099adbd9fe8a5d75dc7194d6c33bd695d017c6ad22725c4",
+      "destination_sha256_before_hash_refresh": "b43d026b7c0ed540f099adbd9fe8a5d75dc7194d6c33bd695d017c6ad22725c4"
+    },
+    {
+      "path": "lesson-06.md",
+      "source_sha256": "8c1b32730b62d8de3d2cd27bb128ad911b30bb8d9484aedbf742131239537587",
+      "destination_sha256_before_hash_refresh": "8c1b32730b62d8de3d2cd27bb128ad911b30bb8d9484aedbf742131239537587"
+    },
+    {
+      "path": "manifest.json",
+      "source_sha256": "27467ac892135b225b3c262be10140038235782dbb3a347ab08779c2ca98089c",
+      "destination_sha256_before_hash_refresh": "c057086f3d22cd1d6c4a0a06c98ae94dd9200c7d8b6d910896a54c3d9b72f7b1"
+    },
+    {
+      "path": "sources.md",
+      "source_sha256": "860962a6db827cae9ce56f44d11a3693f54f5cd6e52ac62bacdc804e3fe22d22",
+      "destination_sha256_before_hash_refresh": "860962a6db827cae9ce56f44d11a3693f54f5cd6e52ac62bacdc804e3fe22d22"
+    },
+    {
+      "path": "teacher-guide.md",
+      "source_sha256": "9d2d77d77b04da0484048b389f92c5b3d1d077f150621bae65925c812531a752",
+      "destination_sha256_before_hash_refresh": "9d2d77d77b04da0484048b389f92c5b3d1d077f150621bae65925c812531a752"
+    },
+    {
+      "path": "terminology.md",
+      "source_sha256": "a09fb2ac594da5696f9829395eb7d25d58f4187630c81def25375c96c46c2f1b",
+      "destination_sha256_before_hash_refresh": "a09fb2ac594da5696f9829395eb7d25d58f4187630c81def25375c96c46c2f1b"
+    },
+    {
+      "path": "verification.json",
+      "source_sha256": "4099a1d5f2155ee592f2342f373ee44b8320edc372fc1650f35d8afa14ae471f",
+      "destination_sha256_before_hash_refresh": "4099a1d5f2155ee592f2342f373ee44b8320edc372fc1650f35d8afa14ae471f"
+    },
+    {
+      "path": "verify_examples.py",
+      "source_sha256": "9de11874642dd22911dcac7b3e8b3c48d5d97ec29450bc42e1beb6f45a8161db",
+      "destination_sha256_before_hash_refresh": "9de11874642dd22911dcac7b3e8b3c48d5d97ec29450bc42e1beb6f45a8161db"
+    }
+  ],
+  "source_data_copied": false,
+  "source_directory_modified": false,
+  "acceptance": "Pending separate independent content audit; validator passes only machine-checkable completion requirements."
+}

@@ -1,0 +1,75 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Lesson 6 — A complete finite registry · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/5">Course 05</a><span>/</span><span>lesson 06</span></div><a class="original" href="../../../kfield-05-lucas-geometry-27-nodes-polarity-and-sheets/lesson-06.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#lesson-6-a-complete-finite-registry">Lesson 6 — A complete finite registry</a><a href="#c0506-e1-a-row-is-a-record-not-a-total">C05.06-E1 — A row is a record, not a total</a><a href="#c0506-e2-independent-checks">C05.06-E2 — Independent checks</a><a href="#c0506-w1-worked-complete-row">C05.06-W1 — Worked complete row</a><a href="#c0506-p1-guided-practice-with-answer">C05.06-P1 — Guided practice, with answer</a><a href="#c0506-p2-finding-a-retained-discrepancy">C05.06-P2 — Finding a retained discrepancy</a><a href="#diagnostic-checks">Diagnostic checks</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 1 — Enumerating the balanced node window</a><a  href="lesson-02.html">Lesson 2 — Node addresses versus physical positions</a><a  href="lesson-03.html">Lesson 3 — Lambda sheets and population counts</a><a  href="lesson-04.html">Lesson 4 — Parity and directed signs</a><a  href="lesson-05.html">Lesson 5 — Antipodal pairs and observation rules</a><a aria-current=page href="lesson-06.html">Lesson 6 — A complete finite registry</a></details></aside><div class="reading-column"><article class="prose"><h1 id="lesson-6-a-complete-finite-registry" tabindex="-1">Lesson 6 — A complete finite registry</h1>
+<p><strong>Essential question:</strong> What makes a 27-row registry complete and recoverable?</p>
+<p><strong>Goals:</strong> Construct every field of a node record; apply independent count and reconstruction checks; preserve discrepancies as explicit coordinates.</p>
+<p><strong>Prerequisite bridge:</strong> Lessons 1–5 supplied every arithmetic operation. We now combine them in an ordered workflow and check by a different route. Budget: explanation/work 20 minutes, practice 15, checks/feedback 15, transition 5. The full 27-row construction is completed in the two-period capstone; here students build and check representative rows.</p>
+<h2 id="c0506-e1-a-row-is-a-record-not-a-total" tabindex="-1">C05.06-E1 — A row is a record, not a total</h2>
+<p>Use the classroom O=(2,−1,4) U and basis columns a=(1,0,0), b=(1,2,0), c=(0,0,−3) U. Declare this geometry once for the registry. Keep a row ID and the following fields for each node:</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Meaning and construction</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>L</td>
+<td>Original signed triple; unique row identity</td>
+</tr>
+<tr>
+<td>q</td>
+<td>Dimensionless L/2</td>
+</tr>
+<tr>
+<td>p</td>
+<td>O+Bq, in U</td>
+</tr>
+<tr>
+<td>λ</td>
+<td>Integer sum of L entries</td>
+</tr>
+<tr>
+<td>χ</td>
+<td>+1 for even λ; −1 for odd λ</td>
+</tr>
+<tr>
+<td>r₃</td>
+<td>Remainder 0,1,2 in λ=3k+r₃</td>
+</tr>
+<tr>
+<td>v,s</td>
+<td>Canonical representative and member orientation; center has s=N/A</td>
+</tr>
+<tr>
+<td>z,u</td>
+<td>Cell owner and owned-cell residual q−z; both dimensionless</td>
+</tr>
+<tr>
+<td>R_L</td>
+<td>Reconstructed address minus stored L, three dimensionless components</td>
+</tr>
+</tbody>
+</table></div>
+<p>The residual u is not an error. It is the position within the owned cell and is essential to reconstruct q=z+u. R_L is a separate closure discrepancy: a difference produced by checking the map. Never merge these two meanings of residual. In an exact correct registry R_L=(0,0,0); keep that result per row. If a row fails, keep its original fields, record the discrepancy, and make a separately documented correction. Do not delete it to improve a summary.</p>
+<p>Build in this order: enumerate L; halve it; calculate position; compute sum and class labels; assign representative and orientation; assign owner and within-cell residual; finally recompute L from position. A total of 27 does not establish that the 27 intended rows are present. Compare the set of distinct triples with the full nested enumeration.</p>
+<h2 id="c0506-e2-independent-checks" tabindex="-1">C05.06-E2 — Independent checks</h2>
+<p>Reverse the position with d=p−O, q₁=dₓ−dᵧ/2, q₂=dᵧ/2, q₃=−d_z/3, then double q to obtain L_recovered. Subtract the stored L entry by entry to get R_L. Also compare q with z+u. For a noncentral row compare L with s v. These checks attack different ways a row could be wrong.</p>
+<p>Count the seven λ labels, the two χ labels and the three r₃ labels independently. Confirm 26 noncentral rows, each of 13 representatives occurring twice with signs −1,+1, plus exactly one center. For each pair check the sum of positions equals 2O. Counts alone can conceal a wrong position; inverse mapping can pass on a duplicated row. Both kinds of check are necessary.</p>
+<h2 id="c0506-w1-worked-complete-row" tabindex="-1">C05.06-W1 — Worked complete row</h2>
+<p>For L=(1,−1,1), q=(1/2,−1/2,1/2), p=(2,−2,5/2) U, λ=1, χ=−1, r₃=1. Its first nonzero entry is positive, so v=(1,−1,1), s=+1. The owner z=(1,0,1), and u=(−1/2,−1/2,−1/2). Adding z+u recovers q. Reverse p: d=(0,−1,−3/2) gives q=(1/2,−1/2,1/2), so L_recovered=(1,−1,1) and R_L=(0,0,0).</p>
+<h2 id="c0506-p1-guided-practice-with-answer" tabindex="-1">C05.06-P1 — Guided practice, with answer</h2>
+<p>Complete the row for (−1,1,−1) and compare it with W1. Answer: q=(−1/2,1/2,−1/2), p=(2,0,11/2) U; λ=−1, χ=−1, r₃=2. The representative is again (1,−1,1), but s=−1. Owner z=(0,1,0), residual u=(−1/2,−1/2,−1/2). Inverting p gives q₁=0−1/2=−1/2, q₂=1/2, q₃=−(3/2)/3=−1/2. Thus R_L=0. The two p values sum to (4,−2,8) U. The equal u values do not make these the same node because their z values differ.</p>
+<h2 id="c0506-p2-finding-a-retained-discrepancy" tabindex="-1">C05.06-P2 — Finding a retained discrepancy</h2>
+<p>Suppose the W1 row keeps L=(1,−1,1) but stores p=(2,−2,3) U. Compute R_L before correcting it. Answer: d=(0,−1,−1) gives q=(1/2,−1/2,1/3); L_recovered=(1,−1,2/3). Therefore R_L=(0,0,−1/3). Retain that discrepancy and original stored p in a correction note; the forward rule gives corrected p_z=5/2. A record of this repair preserves what changed and why.</p>
+<blockquote>
+<p><strong>Claim scope:</strong> This registry is a synthetic exact-arithmetic demonstration of source-defined finite operations. It is not a measurement dataset. Source definitions, derived counts, storage conventions, and synthetic discrepancies have separate roles. Nothing is averaged away or excluded.</p>
+</blockquote>
+<h2 id="diagnostic-checks" tabindex="-1">Diagnostic checks</h2>
+<ol>
+<li><strong>C05.06-D1:</strong> State the distinct-address, sheet, pair and inverse checks required for completion.</li>
+<li><strong>C05.06-D3:</strong> Why do correct sheet counts not guarantee correct physical positions?</li>
+<li><strong>C05.06-D4:</strong> A registry stores v and χ but omits s. Can it reconstruct all L?</li>
+<li><strong>C05.06-D5:</strong> Distinguish u from R_L. Which can legitimately be nonzero in a correct registry?</li>
+</ol>
+<p><strong>Worked answers:</strong> 1. Exactly the 27 allowed distinct triples; sheets 1,3,6,7,6,3,1; 13 two-member noncentral pairs and one center; inverse map returns every L with R_L=0. Also reconcile χ counts 13,14 and r₃ counts 9,9,9. 2. λ uses L only; changing p leaves λ counts unchanged but fails the inverse check. 3. No: antipodes have equal χ; s must select the member. 4. u records within-cell position and is often nonzero; R_L records inverse closure and is zero for this exact example. Both are retained.</p>
+<p><strong>Next dependency:</strong> <a href="capstone.html">Capstone</a> constructs the complete registry. <a href="registry.html">The full worked registry</a> is the answer reference, to be opened after attempting the construction.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><a class="button secondary" href="lesson-05.html">← Previous lesson</a><a class="button" href="capstone.html">Course capstone →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/5">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

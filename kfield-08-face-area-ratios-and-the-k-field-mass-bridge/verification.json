@@ -1,0 +1,297 @@
+{
+  "method": "Independent exact Fraction arithmetic from source decimal lexemes; Decimal only for labeled displays",
+  "source_hashes": [
+    {
+      "id": "S01",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "actual_sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "hash_verified": true
+    },
+    {
+      "id": "S02",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "actual_sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "hash_verified": true
+    },
+    {
+      "id": "S03",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "actual_sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "hash_verified": true
+    },
+    {
+      "id": "S04",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+      "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "actual_sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "hash_verified": true
+    },
+    {
+      "id": "S05",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+      "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "actual_sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+      "hash_verified": true
+    }
+  ],
+  "locked": {
+    "eta": {
+      "stored": "1836.1526734259999",
+      "recomputed_exact": "35780953912856150000/19486916546048413",
+      "decimal_display": "1836.15267342600012490562174422486717691600676624378485519819",
+      "signed_recomputed_minus_stored": "43827170816668413/194869165460484130000000000000",
+      "reconstruction": "recomputed = stored + signed_difference",
+      "units": "dimensionless"
+    },
+    "alpha_inverse": {
+      "stored": "137.035999177",
+      "recomputed_exact": "357809539128561500/2611062357902053",
+      "decimal_display": "137.035999177000032800974423228522925162541880185496316491469",
+      "signed_recomputed_minus_stored": "85645389619/2611062357902053000000000",
+      "reconstruction": "recomputed = stored + signed_difference",
+      "units": "dimensionless"
+    },
+    "alpha": {
+      "stored": "0.0072973525643314245",
+      "recomputed_exact": "2611062357902053/357809539128561500",
+      "decimal_display": "0.00729735256433142328354948000850238239704090439428677660187785",
+      "signed_recomputed_minus_stored": "-1741030399723427/1431238156514246000000000000000000",
+      "reconstruction": "recomputed = stored + signed_difference",
+      "units": "dimensionless"
+    },
+    "eta_alpha": {
+      "stored": "13.399053419929224",
+      "recomputed_exact": "23736930526382300/1771537867822583",
+      "decimal_display": "13.3990534199292204238693600987939086271046162513614525238406",
+      "signed_recomputed_minus_stored": "-791906356108199/221442233477822875000000000000",
+      "reconstruction": "recomputed = stored + signed_difference",
+      "units": "dimensionless"
+    }
+  },
+  "branch_comparisons": [
+    {
+      "historical_source_pointer": "S01#/backbone_sequence/4/projective_rays/master_geometry",
+      "historical_lexemes": [
+        "1",
+        "0.72973525645920595244932401459164514764311273208360709830244089259013899526544427",
+        "0.54461702151513304256465588852004665566471160638980820098958492135543133394303553"
+      ],
+      "active_source_pointer": "S02#/backbone_sequence/4/projective_ray",
+      "active_lexemes": [
+        "1.0",
+        "0.7297352564331424",
+        "0.5446170214888189"
+      ],
+      "signed_active_minus_historical_exact": [
+        "0",
+        "-2606355244932401459164514764311273208360709830244089259013899526544427/100000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "-2631414256465588852004665566471160638980820098958492135543133394303553/100000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      ],
+      "difference_kind": "provenance branch comparison; not measurement residual",
+      "verified_signed_difference": [
+        "0",
+        "-2606355244932401459164514764311273208360709830244089259013899526544427/100000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "-2631414256465588852004665566471160638980820098958492135543133394303553/100000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      ]
+    },
+    {
+      "historical_source_pointer": "S01#/backbone_sequence/4/projective_rays/locked_mass_bridge",
+      "historical_lexemes": [
+        "1",
+        "0.72973525643314250302457952646916832280660213133653604957798803819933561573639928",
+        "0.54461702148881883791248505567449693562745711038305542415906631382184511315519240"
+      ],
+      "active_source_pointer": "S02#/backbone_sequence/4/projective_ray",
+      "active_lexemes": [
+        "1.0",
+        "0.7297352564331424",
+        "0.5446170214888189"
+      ],
+      "signed_active_minus_historical_exact": [
+        "0",
+        "-1287807244080864604035082526641706700619724850477491695196704991/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "155218787360813757660931357224042361439602334215445387217112019/2500000000000000000000000000000000000000000000000000000000000000000000000000000"
+      ],
+      "difference_kind": "provenance branch comparison; not measurement residual",
+      "verified_signed_difference": [
+        "0",
+        "-1287807244080864604035082526641706700619724850477491695196704991/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "155218787360813757660931357224042361439602334215445387217112019/2500000000000000000000000000000000000000000000000000000000000000000000000000000"
+      ]
+    }
+  ],
+  "finite_examples": [
+    {
+      "inputs_bc_ac_ab": [
+        "12",
+        "8",
+        "6"
+      ],
+      "outputs": {
+        "r_bc": "1",
+        "r_ac": "2/3",
+        "r_ab": "1/2",
+        "eta": "2000",
+        "alpha_inverse": "150",
+        "alpha": "1/150",
+        "eta_alpha": "40/3"
+      },
+      "closure_eta_times_alpha_minus_direct": "0",
+      "normalization_reconstruction": true
+    },
+    {
+      "inputs_bc_ac_ab": [
+        "18",
+        "12",
+        "9"
+      ],
+      "outputs": {
+        "r_bc": "1",
+        "r_ac": "2/3",
+        "r_ab": "1/2",
+        "eta": "2000",
+        "alpha_inverse": "150",
+        "alpha": "1/150",
+        "eta_alpha": "40/3"
+      },
+      "closure_eta_times_alpha_minus_direct": "0",
+      "normalization_reconstruction": true
+    },
+    {
+      "inputs_bc_ac_ab": [
+        "48",
+        "32",
+        "24"
+      ],
+      "outputs": {
+        "r_bc": "1",
+        "r_ac": "2/3",
+        "r_ab": "1/2",
+        "eta": "2000",
+        "alpha_inverse": "150",
+        "alpha": "1/150",
+        "eta_alpha": "40/3"
+      },
+      "closure_eta_times_alpha_minus_direct": "0",
+      "normalization_reconstruction": true
+    },
+    {
+      "inputs_bc_ac_ab": [
+        "3",
+        "2",
+        "3/2"
+      ],
+      "outputs": {
+        "r_bc": "1",
+        "r_ac": "2/3",
+        "r_ab": "1/2",
+        "eta": "2000",
+        "alpha_inverse": "150",
+        "alpha": "1/150",
+        "eta_alpha": "40/3"
+      },
+      "closure_eta_times_alpha_minus_direct": "0",
+      "normalization_reconstruction": true
+    },
+    {
+      "inputs_bc_ac_ab": [
+        "15",
+        "10",
+        "5"
+      ],
+      "outputs": {
+        "r_bc": "1",
+        "r_ac": "2/3",
+        "r_ab": "1/3",
+        "eta": "3000",
+        "alpha_inverse": "150",
+        "alpha": "1/150",
+        "eta_alpha": "20"
+      },
+      "closure_eta_times_alpha_minus_direct": "0",
+      "normalization_reconstruction": true
+    },
+    {
+      "inputs_bc_ac_ab": [
+        "60",
+        "40",
+        "20"
+      ],
+      "outputs": {
+        "r_bc": "1",
+        "r_ac": "2/3",
+        "r_ab": "1/3",
+        "eta": "3000",
+        "alpha_inverse": "150",
+        "alpha": "1/150",
+        "eta_alpha": "20"
+      },
+      "closure_eta_times_alpha_minus_direct": "0",
+      "normalization_reconstruction": true
+    },
+    {
+      "inputs_bc_ac_ab": [
+        "15/4",
+        "5/2",
+        "5/4"
+      ],
+      "outputs": {
+        "r_bc": "1",
+        "r_ac": "2/3",
+        "r_ab": "1/3",
+        "eta": "3000",
+        "alpha_inverse": "150",
+        "alpha": "1/150",
+        "eta_alpha": "20"
+      },
+      "closure_eta_times_alpha_minus_direct": "0",
+      "normalization_reconstruction": true
+    },
+    {
+      "inputs_bc_ac_ab": [
+        "12",
+        "8",
+        "61/10"
+      ],
+      "outputs": {
+        "r_bc": "1",
+        "r_ac": "2/3",
+        "r_ab": "61/120",
+        "eta": "120000/61",
+        "alpha_inverse": "150",
+        "alpha": "1/150",
+        "eta_alpha": "800/61"
+      },
+      "closure_eta_times_alpha_minus_direct": "0",
+      "normalization_reconstruction": true
+    },
+    {
+      "inputs_bc_ac_ab": [
+        "12",
+        "81/10",
+        "6"
+      ],
+      "outputs": {
+        "r_bc": "1",
+        "r_ac": "27/40",
+        "r_ab": "1/2",
+        "eta": "2000",
+        "alpha_inverse": "4000/27",
+        "alpha": "27/4000",
+        "eta_alpha": "27/2"
+      },
+      "closure_eta_times_alpha_minus_direct": "0",
+      "normalization_reconstruction": true
+    }
+  ],
+  "sensitivity_reconstruction": "all seven outputs reconstructed exactly",
+  "claims_not_tested": "No mass measurement or full archive proof certification is performed."
+}

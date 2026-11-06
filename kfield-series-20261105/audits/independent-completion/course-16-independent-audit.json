@@ -1,0 +1,690 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-16",
+  "title": "Independent completed-course audit: Higgs, Yukawa, and Interaction Interfaces",
+  "reviewed_utc": "2026-11-05T19:04:40.695928+00:00",
+  "status": "passed",
+  "manifest_sha256": "185ea4ac1ed678a574099abdc006808e57d404db078f0f3c42e45b0495f2b1c4",
+  "scope": {
+    "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces",
+    "read": "All seven actual lessons, full capstone/tasks/key/rubric, map, glossary, teacher guide, source cards, input contract and embedded amendments, launch prompt, builder audit, worked-example verification, completion and manifest; assembled course checked against actual lesson texts.",
+    "source_scope": "Direct S02 M11/M12, KFM-X028/X029/X030 and BR07; S03 correction scope AUD-004/AUD-011. All five pinned local sources freshly rehashed. Fresh integration snippets reviewed separately.",
+    "independent_work": "New auditor-owned exterior, contraction, induced-action and rational algorithms; no builder/parent calculation functions imported or executed",
+    "writes": "Only auditor workspace intermediate code and requested two output JSONs. No course, parent, source, installed skill or setting edits."
+  },
+  "audited_files": {
+    "course-map.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\course-map.md",
+      "sha256": "f1d4c690ec729eb279e0b8c9e8f3dcc8cd39bd3d993b7c7cbb2d6ae7cf2ed29b"
+    },
+    "lesson-01.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\lesson-01.md",
+      "sha256": "78095acc1aca02a31702eb2bfa5b01f0e63bbea8c1d026971a0dc0b9fc0d5d44"
+    },
+    "lesson-02.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\lesson-02.md",
+      "sha256": "c532d9bc768ba4c271282b4b0b0f8e36d0bfb67205e93c7ba157c87c0fcdd79a"
+    },
+    "lesson-03.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\lesson-03.md",
+      "sha256": "62172f865b541af0bc34671192ac9cdbc75ee85910f696b2a87820867c99831a"
+    },
+    "lesson-04.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\lesson-04.md",
+      "sha256": "63f665ce46013775f89a30ddb8fbcd912901b22385ab80ea5803c1422fecf931"
+    },
+    "lesson-05.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\lesson-05.md",
+      "sha256": "66885930686e47eee4803f82332278e9ad03d082e39ed4187bcdf03bf61dcc6f"
+    },
+    "lesson-06.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\lesson-06.md",
+      "sha256": "63910c03631a6ff274b0fb2dcef969c085dd28c9498f56f19f85f1d72a5c116f"
+    },
+    "lesson-07.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\lesson-07.md",
+      "sha256": "78c9724c72354d8674f710d84354474d93dfec017d83678a7d9ec623514c1df5"
+    },
+    "terminology.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\terminology.md",
+      "sha256": "587c12af611f79225da72f7054021cd2b4581207a1d8125b96245fce3cca9d14"
+    },
+    "teacher-guide.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\teacher-guide.md",
+      "sha256": "5851a5c952a90407b11e288e1df4413d9136f61ce07c7fce58cbf231d50e294b"
+    },
+    "capstone.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\capstone.md",
+      "sha256": "ccb65236d07c6e4b158dfbbed421cd2d745a2a468691cfae4a6e46855e813524"
+    },
+    "sources.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\sources.md",
+      "sha256": "fd8e3a83e4adc66a48fd4761e529d1ac6bc7d7b5ffdb372eaff796fa45149db0"
+    },
+    "sources.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\sources.json",
+      "sha256": "fae3c9e4ba06f3b1ca4b13a7333af5b92c4fd91c085349d606ac9b1517525ac5"
+    },
+    "worked-example-verification.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\worked-example-verification.json",
+      "sha256": "e705f9346eb2947508b1e4d9009997d9a4c271ff71d152f84ba71bb3863a1378"
+    },
+    "verify_examples.py": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\verify_examples.py",
+      "sha256": "3f29bbb24359fe00560997e93c2919bb208d0e620477e95eea1a803e9c9990c9"
+    },
+    "build_records.py": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\build_records.py",
+      "sha256": "fbd7ea969ad68c8f6b84a24f7e425c7a4e1301bcbd657f257db316a93de9f227"
+    },
+    "input-contract.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\input-contract.json",
+      "sha256": "2fac7b394b57096c20b4756aba1749f1914e009d05604d8a8c661d00d84940b0"
+    },
+    "course.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\course.md",
+      "sha256": "cb5470e1d98e9350a09088c69f725aa78b3620d20d0302bfef75a4b4a01e3023"
+    },
+    "audit_report.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\audit_report.json",
+      "sha256": "8ed45c0e105d67c2219e2bf42779a16296e883f048bfad760d5c92eced26f641"
+    },
+    "finalize_records.py": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\finalize_records.py",
+      "sha256": "4f77a83badbcf117057a70e9d3808b4ae8b573f8e433c94e4fa650a06f166bbf"
+    },
+    "completion_report.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\completion_report.json",
+      "sha256": "6d6f9a4d47eb97baf10a9afddb4b13436ce17dc9aa3d6eeaca56a270583b9870"
+    },
+    "manifest.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\manifest.json",
+      "sha256": "185ea4ac1ed678a574099abdc006808e57d404db078f0f3c42e45b0495f2b1c4"
+    },
+    "launch-prompt.md": {
+      "sha256": "5a1fdf652bd3166f7c012f9f857f6b8552c9cf49d782a01bd9d1e71b6a46abf2",
+      "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-16-higgs-yukawa-and-interaction-interfaces/launch-prompt.md"
+    }
+  },
+  "source_hashes": [
+    {
+      "id": "S01",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180"
+    },
+    {
+      "id": "S02",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3"
+    },
+    {
+      "id": "S03",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e"
+    },
+    {
+      "id": "S04",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+      "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2"
+    },
+    {
+      "id": "S05",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+      "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7"
+    }
+  ],
+  "integration_provenance": {
+    "retrieval": "Fresh read-only Krytronx project RAG sparse search, rerank=false; selected source excerpts inspected, not a complete corpus review.",
+    "corpus_generation": "sha256:5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+    "manifest_sha256": "5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+    "rag_index_sha256": "aca56e6b5b2b717459cea9790e6142ea9e8058f74d135710906926e9065ad54a",
+    "sources": [
+      {
+        "logical_path": "kfield_standard_model/project_record.json",
+        "sha256": "3800c854da827a64e72507722904bcafab07a31e88f2bc73920a8e7f62f62c1c",
+        "locator": {
+          "end_line_inclusive": 142,
+          "kind": "lines",
+          "start_line": 1
+        },
+        "object_id": "ragobj:66f227dde0830ee67ec6225f58676e0a9720e8c496c56496f10651bfcb3c7572",
+        "chunk_id": "ragchunk:652038a03809b0c0a74e1cdd51fe8fbe4564d05dbf3916ca1e0dfeb9f2a8573e"
+      },
+      {
+        "logical_path": "kfield_standard_model/evidence/p12_standard_model_compiler_adjudication_report.json",
+        "sha256": "a3dfca0e55e525c6522c3088b95e5bcc048c141fce340bfe980fcfc14123220a",
+        "locator": {
+          "end_line_inclusive": 101,
+          "kind": "lines",
+          "start_line": 1
+        },
+        "object_id": "ragobj:8539daf4cdda9c1c7d0666326b9ab394057e802a8dde351c45e283a7ad70ad09",
+        "chunk_id": "ragchunk:43bdac5e9a571cbb34cf44f9e74a42a0ec9d32dbc72d3e521427d3fac382e4f6"
+      }
+    ],
+    "digest_scope": "Integration source hashes are returned by the source retrieval service, not independently calculated local byte hashes. Local S01-S05 hashes were freshly calculated.",
+    "interpretation": "The source reports direct authority for compiler M03/M07/M08 and admits Z1/Z2/Z3/Z6 without selecting a unique global form. These compiler identifiers are a distinct namespace from the mathematical-backbone M12 used by this course.",
+    "m12_replay": "The adjudication source lists the rho rational identity and four vanishing Yukawa charge sums as known-science replay. That record is not fresh compiler execution by this auditor and does not replace the course's explicit contractions.",
+    "fresh_agda_execution": false
+  },
+  "findings": [],
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "verified_repairs": [
+    {
+      "id": "F16-001",
+      "reported_severity": "minor",
+      "status": "verified_corrected",
+      "evidence": "L03 specifies two available weak basis directions in degree (0,1), rather than a double-occupied weak exterior basis state."
+    },
+    {
+      "id": "F16-002",
+      "reported_severity": "major",
+      "status": "verified_corrected",
+      "evidence": "L02 P2 now explicitly requires the general covariance explanation before CAP02; its complete answer includes evaluation invariance, remaining-slot exterior action and the determinant-one top-form step.",
+      "locations": [
+        {
+          "text": "Explain why transforming a covector by ℓU⁻¹ preserves evaluation",
+          "lines": [
+            47
+          ]
+        },
+        {
+          "text": "Practice explanation answer:",
+          "lines": [
+            51
+          ]
+        },
+        {
+          "text": "(ℓU⁻¹)(Uv)=ℓ(U⁻¹U)v=ℓv",
+          "lines": [
+            51
+          ]
+        },
+        {
+          "text": "when det U=1 its coefficient relative to Ω is unchanged",
+          "lines": [
+            51
+          ]
+        }
+      ]
+    },
+    {
+      "id": "F16-003",
+      "reported_severity": "major",
+      "status": "verified_corrected",
+      "evidence": "L07 P1 now requires a compiler/global-form scope sentence before CAP07; a full answer distinguishes compiler and backbone modules, keeps all four global forms, and limits the classroom replay.",
+      "locations": [
+        {
+          "text": "write one sentence distinguishing its compiler authority and global-form status",
+          "lines": [
+            35
+          ]
+        },
+        {
+          "text": "Source-scope practice answer:",
+          "lines": [
+            41
+          ]
+        },
+        {
+          "text": "not automatically backbone M12",
+          "lines": [
+            41
+          ]
+        },
+        {
+          "text": "Z1,Z2,Z3,Z6",
+          "lines": [
+            39,
+            41
+          ]
+        }
+      ]
+    },
+    {
+      "id": "F16-004",
+      "reported_severity": "minor",
+      "status": "verified_corrected",
+      "evidence": "Glossary first use for diag points to lesson02 rather than lesson03."
+    }
+  ],
+  "lesson_reviews": [
+    {
+      "lesson": "lesson-01",
+      "status": "passed",
+      "capstone": "C16-CAP-01",
+      "evidence": "E1 defines all six sector types, H and its weak dual, q=-2r+3s and the four source-ordered interfaces. W1 works up/neutrino; P1 explicitly asks all four routes. Answers give top degree (3,2), with a weak slot removed before the down/electron wedge. D1 and later diagnostics distinguish charge zero from a valid invariant top-form contraction.",
+      "critical_results": "Charges sum to zero in all four routes. Replacing the dual with H gives q=6 and wrong weak degree; charge-zero degree-zero output is not the required top form."
+    },
+    {
+      "lesson": "lesson-02",
+      "status": "passed",
+      "capstone": "C16-CAP-02",
+      "evidence": "E1 gives the alternating contraction rule, W1 the up/neutrino examples, P1 down/electron and repeated-slot cases. E2 derives general covariance. W2 and P2 test weak/color phases, negative signs and the general explanation. The repaired P2 question at line47 and complete answer at line51 explicitly cover ell U^-1, deleted slots, remaining exterior action and det U=1.",
+      "critical_results": "All four chosen interface coefficients are +1. Down has four reorder swaps. Repeated weak slot yields zero; negative up/neutrino examples yield -1. Wrong dual transformation gives -1 for down/electron and is retained as a failed control, not repaired by det U=1."
+    },
+    {
+      "lesson": "lesson-03",
+      "status": "passed",
+      "capstone": "C16-CAP-03",
+      "evidence": "Defines H as a vector with two available weak directions of degree (0,1), not a two-occupied-slot exterior product. Adds component T3 and Y_h charges explicitly to get Qelectric=diag(1,0). P1 computes the v=4 neutral vacuum and rejects a charged alternative.",
+      "critical_results": "v=4 gives vacuum (0,2sqrt2) mu, squared norm 8 mu^2 and zero charge output. The v=0 case does not establish a unique unbroken generator; potential/stability and vacuum magnitude are not inferred."
+    },
+    {
+      "lesson": "lesson-04",
+      "status": "passed",
+      "capstone": "C16-CAP-04",
+      "evidence": "Supplied mass-squared formulas are followed by taught substitution, positive square roots, cosine-squared and rho cancellation. W1 and P1 include distinct coupling choices, v scaling, and explicit zero-denominator diagnostics.",
+      "critical_results": "Worked masses (3,5) mu; practice/capstone (4,5) mu at v=2. v=4 practice variant gives (8,10) mu. rho=1 only on its defined nonzero domain; v=0, g2=0 and both couplings zero are handled without 0/0 cancellation."
+    },
+    {
+      "lesson": "lesson-05",
+      "status": "passed",
+      "capstone": "C16-CAP-05",
+      "evidence": "E1/W1 teach explicit matrix-vector multiplication, M=(v/sqrt2)Y_Yuk and the difference from Y_h. P1 performs both swaps Y'=PYP^T and f'=Pf with reverse recovery, then mass normalization. D1 and remaining diagnostics reject unswapped input and loss of component information.",
+      "critical_results": "Practice Yf=(2,3), Y'=[[1,1],[0,2]], f'=(2,1), Y'f'=(3,2). Wrong original f gives (3,4). L05 worked v=sqrt2 and L07/capstone v=2 are separate declared normalizations; entries/outputs are not asserted to be mass eigenvalues."
+    },
+    {
+      "lesson": "lesson-06",
+      "status": "passed",
+      "capstone": "C16-CAP-06",
+      "evidence": "W1/P1 preserve labeled endpoints, signed component differences, totals, supplied predictions and retained model residuals. Synthetic A/B/C energy categories are explicitly distinct from six named action sectors. The additional transfer diagnostic is separate from the unfilled core ledger.",
+      "critical_results": "Worked +1=4/5+1/5; practice -2=-3/2-1/2. Hypothetical transfer -9/5 gives a separate balance remainder -1/5, not replacement of model residual -1/2. No elapsed time/event/dynamical rule is invented; energy/time would be power, not by itself an event rate."
+    },
+    {
+      "lesson": "lesson-07",
+      "status": "passed",
+      "capstone": "C16-CAP-07",
+      "evidence": "E1 lists the five source state-coordinate categories plus operational ledger inputs. W1 and P1 assemble prior results with consistent v=2 normalization, preserve energy residuals and mark unfilled potential/mixing/scale/preparation/dynamics. P1 line35 actually asks the integration-scope sentence; line41 supplies a complete scoped answer after the card.",
+      "critical_results": "Compiler M03/M07/M08 authority is not automatically backbone M12; Z1/Z2/Z3/Z6 remain admitted; classroom replay is not source compiler execution. Possible mass/mixing/time-resolved observations are proposals, not acquired data. Coupling/v rescaling degeneracy is retained."
+    }
+  ],
+  "actual_capstone_practice_links": [
+    {
+      "step_id": "C16-CAP-01",
+      "lesson": "lesson-01.md",
+      "locations": {
+        "explanation_id": {
+          "id": "C16.01-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C16.01-W1",
+          "line": 43
+        },
+        "prior_practice_id": {
+          "id": "C16.01-P1",
+          "line": 47
+        },
+        "diagnostic_id": {
+          "id": "C16.01-D1",
+          "line": 57
+        }
+      }
+    },
+    {
+      "step_id": "C16-CAP-02",
+      "lesson": "lesson-02.md",
+      "locations": {
+        "explanation_id": {
+          "id": "C16.02-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C16.02-W1",
+          "line": 19
+        },
+        "prior_practice_id": {
+          "id": "C16.02-P1",
+          "line": 25
+        },
+        "diagnostic_id": {
+          "id": "C16.02-D1",
+          "line": 57
+        },
+        "additional_explanation_id": {
+          "id": "C16.02-E2",
+          "line": 31
+        },
+        "additional_worked_example_id": {
+          "id": "C16.02-W2",
+          "line": 41
+        },
+        "additional_prior_practice_id": {
+          "id": "C16.02-P2",
+          "line": 45
+        },
+        "additional_diagnostic_id": {
+          "id": "C16.02-D2",
+          "line": 58
+        }
+      }
+    },
+    {
+      "step_id": "C16-CAP-03",
+      "lesson": "lesson-03.md",
+      "locations": {
+        "explanation_id": {
+          "id": "C16.03-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C16.03-W1",
+          "line": 19
+        },
+        "prior_practice_id": {
+          "id": "C16.03-P1",
+          "line": 23
+        },
+        "diagnostic_id": {
+          "id": "C16.03-D1",
+          "line": 33
+        }
+      }
+    },
+    {
+      "step_id": "C16-CAP-04",
+      "lesson": "lesson-04.md",
+      "locations": {
+        "explanation_id": {
+          "id": "C16.04-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C16.04-W1",
+          "line": 25
+        },
+        "prior_practice_id": {
+          "id": "C16.04-P1",
+          "line": 29
+        },
+        "diagnostic_id": {
+          "id": "C16.04-D1",
+          "line": 39
+        }
+      }
+    },
+    {
+      "step_id": "C16-CAP-05",
+      "lesson": "lesson-05.md",
+      "locations": {
+        "explanation_id": {
+          "id": "C16.05-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C16.05-W1",
+          "line": 19
+        },
+        "prior_practice_id": {
+          "id": "C16.05-P1",
+          "line": 23
+        },
+        "diagnostic_id": {
+          "id": "C16.05-D1",
+          "line": 33
+        }
+      }
+    },
+    {
+      "step_id": "C16-CAP-06",
+      "lesson": "lesson-06.md",
+      "locations": {
+        "explanation_id": {
+          "id": "C16.06-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C16.06-W1",
+          "line": 21
+        },
+        "prior_practice_id": {
+          "id": "C16.06-P1",
+          "line": 32
+        },
+        "diagnostic_id": {
+          "id": "C16.06-D1",
+          "line": 42
+        }
+      }
+    },
+    {
+      "step_id": "C16-CAP-07",
+      "lesson": "lesson-07.md",
+      "locations": {
+        "explanation_id": {
+          "id": "C16.07-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C16.07-W1",
+          "line": 27
+        },
+        "prior_practice_id": {
+          "id": "C16.07-P1",
+          "line": 33
+        },
+        "diagnostic_id": {
+          "id": "C16.07-D1",
+          "line": 45
+        }
+      }
+    }
+  ],
+  "capstone_semantic_review": {
+    "status": "passed",
+    "steps": [
+      {
+        "step": "C16-CAP-01",
+        "points": 14,
+        "prior_practice": "C16.01-P1",
+        "judgment": "All four charge/type routes, including dual-slot removal, are actually practiced rather than only named."
+      },
+      {
+        "step": "C16-CAP-02",
+        "points": 24,
+        "prior_practice": [
+          "C16.02-P1",
+          "C16.02-P2"
+        ],
+        "judgment": "All four contractions/signs, repeated-slot zero, weak phases, general covariance explanation and wrong-dual control have answered prior work. General proof is not reduced to diagonal phase examples."
+      },
+      {
+        "step": "C16-CAP-03",
+        "points": 10,
+        "prior_practice": "C16.03-P1",
+        "judgment": "v=4 vacuum and charge check are fully practiced. This is explicitly a separate input set from the v=2 assembled interaction contract."
+      },
+      {
+        "step": "C16-CAP-04",
+        "points": 14,
+        "prior_practice": "C16.04-P1",
+        "judgment": "g2=4,gY=3,v=2 substitution, masses, rho and denominator conditions are taught and answered."
+      },
+      {
+        "step": "C16-CAP-05",
+        "points": 14,
+        "prior_practice": "C16.05-P1",
+        "judgment": "Matrix, input, both swaps and v=2 normalization are all covered; no hidden eigenvalue/mixing diagonalization is required."
+      },
+      {
+        "step": "C16-CAP-06",
+        "points": 12,
+        "prior_practice": "C16.06-P1",
+        "judgment": "Endpoints, changes, prediction, retained -1/2 residual and missing rate inputs are available in actual prior practice."
+      },
+      {
+        "step": "C16-CAP-07",
+        "points": 12,
+        "prior_practice": "C16.07-P1",
+        "judgment": "The assembled contract uses steps1,2,4,5,6, not the separate v=4 vacuum test. Both missing-input classification and the repaired integration-scope sentence have explicit prior practice and complete answers."
+      }
+    ],
+    "total_points": 100,
+    "answer_key": "Full key checked against independently recomputed values and the actual taught operations.",
+    "rubric": "Weights sum to100; teacher mastery guidance requires essential operations, not an aggregate point score that conceals them."
+  },
+  "amendment_review": {
+    "applied_source_amendments": {},
+    "teaching_contract": "/teaching_blueprint_contract/course_amendment in the hashed input-contract.json",
+    "teaching_receipt": {
+      "sha256": "eda2840c44c9a47632abf08c053968aae295e8153d693a3a43b7ec1cc6a52db4",
+      "path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-teaching-auditor\\outputs\\teaching-verification-13-16.json"
+    },
+    "judgment": "The embedded course16 teaching contract is reflected in actual lessons, including E2/W2/P2/D2 in lesson02 and complete capstone backward mapping. Blueprint readiness and prior verification are not substituted for this completed-course acceptance."
+  },
+  "source_and_authority_boundaries": {
+    "source_addresses": [
+      {
+        "source": "S02",
+        "pointer": "/backbone_sequence/10",
+        "role": "M11 sector census, color-first degrees and charges used as prerequisite."
+      },
+      {
+        "source": "S02",
+        "pointer": "/backbone_sequence/11",
+        "role": "M12, requiring M11: four interface formulas, Higgs/mass/rho scope, five supplied state-coordinate categories."
+      },
+      {
+        "source": "S02",
+        "pointer": "/proof_nodes/80",
+        "formula": "KFM-X028",
+        "role": "Typed Higgs carrier and rho identity; source narrative for kinetic expansion, not fresh execution."
+      },
+      {
+        "source": "S02",
+        "pointer": "/proof_nodes/84",
+        "formula": "KFM-X029",
+        "role": "Representation invariant Yukawa structure; displayed up/neutrino expressions supplemented by all four formulas in M12; coefficients remain inputs."
+      },
+      {
+        "source": "S02",
+        "pointer": "/proof_nodes/86",
+        "formula": "KFM-X030",
+        "role": "Six action sectors, not a numeric energy decomposition or supplied dynamics."
+      },
+      {
+        "source": "S02",
+        "pointer": "/branch_proofs/7",
+        "role": "BR07 source-reported closed_exact_typed_interaction_architecture endpoint, attributed rather than a claim that this auditor re-proved the complete branch."
+      },
+      {
+        "source": "S03",
+        "finding": "AUD-004",
+        "role": "Use color-first typed order consistently; weak-first requires an explicit permutation."
+      },
+      {
+        "source": "S03",
+        "finding": "AUD-011",
+        "role": "Preserve the complete premise/input contract; do not promote Cell3 alone to a determination of the supplied state coordinates."
+      }
+    ],
+    "formulas": {
+      "up": "Omega^-1(u^c wedge Q wedge H)",
+      "neutrino": "nu^c Omega^-1(L wedge H)",
+      "down": "Omega^-1(Q wedge i_barH d^c)",
+      "electron": "Omega^-1(L wedge i_barH e^c)"
+    },
+    "invariant_vs_charge": "Zero charge is a necessary route check here, not a sufficient invariant proof. Actual exterior degree, order/sign, dual covariance and determinant-one top-form extraction are checked separately.",
+    "general_covariance": {
+      "premise": "U is an invertible block action on the color-first C3 direct-sum W2 carrier, with det U=1; for the Hermitian-dual identification used by the course, U is unitary.",
+      "evaluation": "For each vector v, (ell U^-1)(Uv)=ell v.",
+      "contraction": "In the alternating deleted-slot definition, each contracted evaluation is unchanged and every remaining vector receives U. Therefore i_(ell U^-1)(Lambda^k U a)=Lambda^(k-1) U(i_ell a).",
+      "top_form": "Wedge products transform under the induced exterior action. The final degree-(3,2) top form gains det U=1, so its coefficient relative to the fixed Omega is unchanged.",
+      "boundary": "This algebraic argument, not charge cancellation or a few diagonal examples alone, supports general covariance on the stated action domain. The exact numerical tests separately cover three specified matrices, including a non-diagonal block rotation."
+    },
+    "state_inputs": [
+      "vacuum magnitude",
+      "Higgs-potential coefficients",
+      "Yukawa coefficient matrices",
+      "mixing coordinates",
+      "matching scale"
+    ],
+    "data_status": "All numerical mass/matrix/energy inputs in this course are synthetic. Suggested observations remain proposed constraints; no measurements, rates or physical parameter uniqueness are inferred.",
+    "dimensional_scope": "q, Y_h, electric charge, and Y_Yuk remain distinct; action is energy*time, mass is mu, squared mass mu^2, energy epsilon. Phase is not force and photon-equivalent model energy is not measured transfer.",
+    "residual_scope": "Every ledger endpoint, component sign, prediction and signed remainder is retained. Model residual and separately supplied-transfer balance remainder are distinct channels, not discarded error."
+  },
+  "independent_recomputation": {
+    "status": "passed",
+    "check_count": 836,
+    "checks_by_group": {
+      "integrity": 95,
+      "source-contract": 12,
+      "actual-links": 39,
+      "practice-repairs": 8,
+      "charges-types": 17,
+      "exterior": 13,
+      "covariance": 594,
+      "negative-controls": 2,
+      "vacuum": 10,
+      "mass": 20,
+      "yukawa-map": 9,
+      "energy": 11,
+      "actual-table": 4,
+      "rubric": 2
+    },
+    "failures": [],
+    "runtime": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+    "verifier_path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-series-source-auditor\\work\\audit_course16.py",
+    "verifier_sha256": "106382b2cf619d8cc8f7e5d8b34bba53430c135170dd05af0f979376b37c9cf6",
+    "arithmetic": "Fraction real/imaginary coordinates and exact sparse exterior algebra; no floating-point tolerance",
+    "verification_file": "course-16-independent-verification.json",
+    "conclusion": "All requested finite examples and boundary/negative controls pass. Non-diagonal block tests supplement, but do not replace, the reviewed general covariance argument."
+  },
+  "assessment_and_accessibility": {
+    "lesson_periods": [
+      2,
+      3,
+      1,
+      2,
+      2,
+      1,
+      1
+    ],
+    "core_periods": 12,
+    "capstone_periods": 3,
+    "minutes_per_period": 55,
+    "total_minutes": 825,
+    "judgment": "Concrete exterior deletion/swap operations, simple matrices, supplied formulas and source-reading cards support the assessed work. No hidden prerequisite of calculus, abstract Lie theory, general diagonalization, quotient-bundle anomaly proof, variational dynamics or a compiler run is imposed.",
+    "teacher_support": "Teacher guide includes explicit algorithms, splitting dense instruction, diagnostics and essential-operation mastery guidance.",
+    "delivery": "Markdown per contract; no paginated render or PDF requested."
+  },
+  "fresh_project_validation": {
+    "canonical_output_root": "Z:\\Kfield-doc-training\\K-Field_Training_Course",
+    "checks": [
+      "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+      "parsed manifest.json",
+      "parsed audit_report.json",
+      "parsed completion_report.json",
+      "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+    ],
+    "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces",
+    "errors": [],
+    "schema_version": "1.0",
+    "status": "passed",
+    "storage_authority": "User explicitly authorized project-folder outputs, 2026-11-05",
+    "validator_path": "C:\\Users\\info\\.codex\\skills\\build-high-school-course\\scripts\\validate_course.py",
+    "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+    "exit_code": 0,
+    "adapter": {
+      "sha256": "3fdba74f7ac1430208a4e652200026dc98988f607f60fc928bda65d5857cc745",
+      "path": "Z:/Kfield-doc-training/.work/validate_project_course.py"
+    },
+    "fixture_mode": false,
+    "override": "Only canonical output root changed by the existing adapter."
+  },
+  "limitations": [
+    "Acceptance is bounded to the listed artifact hashes and the completed-course contract, not a certification of every physical/source closure claim.",
+    "No fresh Agda/Safe compiler run or full kinetic/quantum-field/variational derivation; source compiler assertions remain attributed.",
+    "No empirical acquisition, potential/mixing/matching-scale inference, unique global-form selection or transition-rate measurement.",
+    "The finite covariance tests cover the listed transformations; generality rests on the separately reviewed algebraic argument.",
+    "No classroom trial; no PDF/Word rendering because Markdown is the specified deliverable."
+  ],
+  "eligible_for_parent_acceptance": true,
+  "source_files_copied": false,
+  "course_or_parent_files_modified": false
+}

@@ -1,0 +1,134 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Course map — Projective Integerization and Carry Dynamics · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/9">Course 09</a><span>/</span><span>course map</span></div><a class="original" href="../../../kfield-09-projective-integerization-and-carry-dynamics/course-map.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#course-map-projective-integerization-and-carry-dynamics">Course map — Projective Integerization and Carry Dynamics</a><a href="#coverage-and-prerequisite-sequence">Coverage and prerequisite sequence</a><a href="#capstone-backward-map-concrete-inputs-and-outputs">Capstone backward map — concrete inputs and outputs</a><a href="#timing-and-teaching-contract">Timing and teaching contract</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 01 — Nearest-integer maps need a tie rule</a><a  href="lesson-02.html">Lesson 02 — Projective rays at successive scales</a><a  href="lesson-03.html">Lesson 03 — The retained rounding coordinate</a><a  href="lesson-04.html">Lesson 04 — Carry between generations</a><a  href="lesson-05.html">Lesson 05 — Small differences at deeper levels</a><a  href="lesson-06.html">Lesson 06 — A lossless recursive compiler</a></details></aside><div class="reading-column"><article class="prose"><h1 id="course-map-projective-integerization-and-carry-dynamics" tabindex="-1">Course map — Projective Integerization and Carry Dynamics</h1>
+<p>Six lessons, seven 55-minute core periods, followed by two capstone periods. Lesson 04 is deliberately split across two periods to teach the carry derivation before the parity-constrained side transform. The approved six-lesson dependency order is retained. All core calculations are finite and use taught arithmetic.</p>
+<p>Entry capabilities: signed arithmetic, exact fractions, ratios, powers, linear equations, and ordered triples. Course-08 ray capability is refreshed in lesson 02 by explicit normalization; no unprovided theorem from that course is required.</p>
+<h2 id="coverage-and-prerequisite-sequence" tabindex="-1">Coverage and prerequisite sequence</h2>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Concept</th>
+<th>Explanation</th>
+<th>Worked example</th>
+<th>Independently answered practice</th>
+<th>Diagnostic</th>
+<th>Later use</th>
+<th style="text-align: right;">Minutes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>C09.01: Nearest-integer maps need a tie rule</td>
+<td>lesson-01: C09.01-E1; E2</td>
+<td>C09.01-W1</td>
+<td>C09.01-P1</td>
+<td>C09.01-D1–D4</td>
+<td>lesson-02</td>
+<td style="text-align: right;">55</td>
+</tr>
+<tr>
+<td>C09.02: Projective rays at successive scales</td>
+<td>lesson-02: C09.02-E1; E2</td>
+<td>C09.02-W1</td>
+<td>C09.02-P1</td>
+<td>C09.02-D1–D4</td>
+<td>lesson-03</td>
+<td style="text-align: right;">55</td>
+</tr>
+<tr>
+<td>C09.03: The retained rounding coordinate</td>
+<td>lesson-03: C09.03-E1</td>
+<td>C09.03-W1</td>
+<td>C09.03-P1</td>
+<td>C09.03-D1–D4</td>
+<td>lesson-04</td>
+<td style="text-align: right;">55</td>
+</tr>
+<tr>
+<td>C09.04: Carry between generations</td>
+<td>lesson-04: C09.04-E1; E2</td>
+<td>C09.04-W1</td>
+<td>C09.04-P1</td>
+<td>C09.04-D1–D4</td>
+<td>lesson-05</td>
+<td style="text-align: right;">110</td>
+</tr>
+<tr>
+<td>C09.05: Small differences at deeper levels</td>
+<td>lesson-05: C09.05-E1; E2</td>
+<td>C09.05-W1</td>
+<td>C09.05-P1</td>
+<td>C09.05-D1–D4</td>
+<td>lesson-06</td>
+<td style="text-align: right;">55</td>
+</tr>
+<tr>
+<td>C09.06: A lossless recursive compiler</td>
+<td>lesson-06: C09.06-E1; E2</td>
+<td>C09.06-W1</td>
+<td>C09.06-P1</td>
+<td>C09.06-D1–D4</td>
+<td>capstone</td>
+<td style="text-align: right;">55</td>
+</tr>
+</tbody>
+</table></div>
+<p>Every lesson depends on the previous lesson; lesson 01 starts from the stated entry capabilities. Unit 1 is lessons 01–03 (encode and recover); unit 2 is lesson 04 (carry and side coordinates); unit 3 is lessons 05–06 (compare and audit). At each boundary review the exact decoder and the relevant prior diagnostics before advancing.</p>
+<h2 id="capstone-backward-map-concrete-inputs-and-outputs" tabindex="-1">Capstone backward map — concrete inputs and outputs</h2>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Step</th>
+<th>Input → output operation</th>
+<th>Earlier explanation</th>
+<th>Earlier answered practice</th>
+<th>Check</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>C09-CAP-01</td>
+<td>±1/2 → integer/residual/owner triples; declare rule</td>
+<td>C09.01-E1, 01-E2</td>
+<td>C09.01-P1 signed-tie return portion; 01-D1 and D4</td>
+<td>C09.01-D1</td>
+</tr>
+<tr>
+<td>C09-CAP-02</td>
+<td>T and g0..2 → exact scales and integer table</td>
+<td>C09.02-E1</td>
+<td>C09.02-P1</td>
+<td>C09.02-D1</td>
+</tr>
+<tr>
+<td>C09-CAP-03</td>
+<td>scaled inputs and Q → signed residuals and reconstructed T</td>
+<td>C09.03-E1</td>
+<td>C09.03-P1</td>
+<td>C09.03-D1</td>
+</tr>
+<tr>
+<td>C09-CAP-04</td>
+<td>adjacent rows → carries by both routes → S/A → integer inverse halves</td>
+<td>C09.04-E1, 04-E2</td>
+<td>C09.04-P1; 04-D1/D3 for parity rejection</td>
+<td>C09.04-D1</td>
+</tr>
+<tr>
+<td>C09-CAP-05</td>
+<td>T,T' through g3 → full comparison and first split; historical card → difference and provenance</td>
+<td>C09.05-E1, 05-E2</td>
+<td>C09.05-P1; 05-D1 for historical reading</td>
+<td>C09.05-D1–D4</td>
+</tr>
+<tr>
+<td>C09-CAP-06</td>
+<td>Q0, side modes, terminal epsilon → finite sum, backward residuals, full round trip and metadata</td>
+<td>C09.06-E1, 06-E2</td>
+<td>C09.06-P1; 06-D1/D4 for metadata and scope</td>
+<td>C09.06-D1</td>
+</tr>
+</tbody>
+</table></div>
+<p>ID convention: within the backward-map shorthand, each numbered fragment such as 04-E2 expands to C09.04-E2. D1–D4 denotes the four separately numbered diagnostic items, not a generic coverage placeholder. Each item is present with an answer before the capstone. P1 prompts require an independent attempt before reading answers. For lesson 01, teach E2 before the signed-tie return portion of P1.</p>
+<h2 id="timing-and-teaching-contract" tabindex="-1">Timing and teaching contract</h2>
+<p>Each 55-minute core period reserves 5 retrieval, 20 explanation/worked example, 15 guided practice, and 15 independent diagnostics/repair minutes. Lesson 04 uses this allocation twice. The teacher guide specifies its split; capstone.md specifies the two synthesis periods. Additional repair time is permitted when a prerequisite gate fails.</p>
+<p>Core boundary: exact finite ledgers and supplied source-reading cards. Infinite-series recognition is optional; no limit proof, archive-wide proof certification, mass identification, or gauge transport is assessed. All six source-kernel operations are introduced, practiced, assessed, and reused.</p></article><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/9">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

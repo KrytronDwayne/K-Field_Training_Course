@@ -1,0 +1,261 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Terminology and notation · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/26">Course 26</a><span>/</span><span>terminology</span></div><a class="original" href="../../../kfield-26-beats-harmonics-and-spectral-energy-phase-structure/terminology.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#terminology-and-notation">Terminology and notation</a><a href="#protected-source-local-symbols-and-branches">Protected source-local symbols and branches</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Oscillations, frequency, and phase</a><a  href="lesson-02.html">Superposition and beat envelopes</a><a  href="lesson-03.html">Harmonics and spatial rulers</a><a  href="lesson-04.html">Spectral coefficients retain phase</a><a  href="lesson-05.html">Cross-channel phase and wavelength</a><a  href="lesson-06.html">Photon-equivalent model energy</a><a  href="lesson-07.html">Signed event evidence</a><a  href="lesson-08.html">Residual spectra as the next measurement</a></details></aside><div class="reading-column"><article class="prose"><h1 id="terminology-and-notation" tabindex="-1">Terminology and notation</h1>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Term/symbol</th>
+<th>Operational meaning and units</th>
+<th>Introduced</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>x(t), x_n</td>
+<td>continuous-time expression or ordered sample, declared signal units</td>
+<td>1,4</td>
+</tr>
+<tr>
+<td>A,b</td>
+<td>nonnegative amplitude and retained baseline, same units as signal</td>
+<td>1</td>
+</tr>
+<tr>
+<td>t,T,Δt</td>
+<td>time, repetition period, sample spacing; seconds unless toy units stated</td>
+<td>1,4</td>
+</tr>
+<tr>
+<td>f,ω</td>
+<td>cycles/s (Hz), radians/s; ω=2πf</td>
+<td>1</td>
+</tr>
+<tr>
+<td>φ,θ</td>
+<td>phase offset; θ locally denotes geometric/source angle; state radians or degrees</td>
+<td>1,5</td>
+</tr>
+<tr>
+<td>radian</td>
+<td>angle with arc length/radius one; full turn 2π</td>
+<td>1</td>
+</tr>
+<tr>
+<td>sine/cosine</td>
+<td>vertical/horizontal unit-circle coordinate</td>
+<td>1</td>
+</tr>
+<tr>
+<td>AC,DC</td>
+<td>varying departure and constant baseline; retain both</td>
+<td>1</td>
+</tr>
+<tr>
+<td>quadrature</td>
+<td>quarter-turn phase displacement; source quadrature baseline Q has its separate four-angle definition</td>
+<td>1,5</td>
+</tr>
+<tr>
+<td>superposition</td>
+<td>addition at corresponding coordinates with common units</td>
+<td>2</td>
+</tr>
+<tr>
+<td>signed factor/envelope</td>
+<td>multiplying amplitude with sign / its nonnegative absolute bound</td>
+<td>2</td>
+</tr>
+<tr>
+<td>beat frequency</td>
+<td>absolute-envelope peak rate for the stated two-tone convention</td>
+<td>2</td>
+</tr>
+<tr>
+<td>carrier</td>
+<td>average-frequency factor in the taught two-tone identity</td>
+<td>2</td>
+</tr>
+<tr>
+<td>n,v,O,d</td>
+<td>unit normal, velocity, origin, perpendicular positive ruler spacing</td>
+<td>3</td>
+</tr>
+<tr>
+<td>dot product</td>
+<td>sum of matching-coordinate products</td>
+<td>3</td>
+</tr>
+<tr>
+<td>q,qdot,k</td>
+<td>local spatial phase in cycles, signed cycles/s, integer harmonic index</td>
+<td>3</td>
+</tr>
+<tr>
+<td>λ</td>
+<td>wavelength, length; not silently identified with geometric d</td>
+<td>3,6</td>
+</tr>
+<tr>
+<td>i</td>
+<td>imaginary unit, i²=−1; powers repeat every four</td>
+<td>4</td>
+</tr>
+<tr>
+<td>a+bi</td>
+<td>complex coordinates (a,b), including sign and phase</td>
+<td>4</td>
+</tr>
+<tr>
+<td>conjugate</td>
+<td>a−bi; reflection of imaginary coordinate</td>
+<td>4</td>
+</tr>
+<tr>
+<td>exp(iθ)</td>
+<td>cos θ+i sin θ in this course</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Σ</td>
+<td>finite sum over the stated index range</td>
+<td>4</td>
+</tr>
+<tr>
+<td>X_k</td>
+<td>unnormalized DFT coefficient; same declared units as samples</td>
+<td>4</td>
+</tr>
+<tr>
+<td>DFT/inverse</td>
+<td>minus-sign forward; plus-sign inverse divided by four</td>
+<td>4</td>
+</tr>
+<tr>
+<td>DC bin/Nyquist bin</td>
+<td>constant bin 0 / alternating bin 2 for four samples</td>
+<td>4</td>
+</tr>
+<tr>
+<td>aliasing/modulo</td>
+<td>distinct continuous frequencies share sampled values / wrap indices</td>
+<td>4</td>
+</tr>
+<tr>
+<td>R,Z</td>
+<td>reference and comparison complex coefficients; ratio requires R≠0</td>
+<td>5</td>
+</tr>
+<tr>
+<td>C₀,C₉₀,C₁₈₀,C₂₇₀</td>
+<td>source-angle ordered counts; retain origin α</td>
+<td>5</td>
+</tr>
+<tr>
+<td>M,Q,D₀,D₉₀</td>
+<td>two pair means and signed half-differences, counts</td>
+<td>5</td>
+</tr>
+<tr>
+<td>contrast_counts</td>
+<td>M−Q, counts; called G by T35</td>
+<td>5</td>
+</tr>
+<tr>
+<td>fractional_gain g</td>
+<td>(M−Q)/Q, dimensionless; called G by spectral JSON formula</td>
+<td>5</td>
+</tr>
+<tr>
+<td>ρ,P</td>
+<td>kinematic ratio and g/ρ, dimensionless; retain denominator domains</td>
+<td>5</td>
+</tr>
+<tr>
+<td>c</td>
+<td>speed in consistent units; actual light speed only in physical source formula, toy c explicitly labeled</td>
+<td>5,6</td>
+</tr>
+<tr>
+<td>H,I,E,O</td>
+<td>half-turn, identity, even projection, odd projection; O as operator differs from spatial origin O by context</td>
+<td>5</td>
+</tr>
+<tr>
+<td>nullspace</td>
+<td>inputs mapped to zero by a stated operation; not erased measured inputs</td>
+<td>5</td>
+</tr>
+<tr>
+<td>parity</td>
+<td>in this course, response to a half-turn; not carry parity/chirality</td>
+<td>5</td>
+</tr>
+<tr>
+<td>W_band,τ</td>
+<td>band power, exposure duration; energy/time and time</td>
+<td>6</td>
+</tr>
+<tr>
+<td>E_eq,E_photon,N_eq</td>
+<td>model energy equivalent, reference hc/λ, ratio of the two</td>
+<td>6</td>
+</tr>
+<tr>
+<td>h</td>
+<td>Planck constant in physical reference; toy h explicitly labeled</td>
+<td>6</td>
+</tr>
+<tr>
+<td>interval [a,b]</td>
+<td>ordered endpoints of stated bounds; no automatic probabilistic interpretation</td>
+<td>6</td>
+</tr>
+<tr>
+<td>calibration/responsivity</td>
+<td>mapping from counts to physical input / output per input factor</td>
+<td>6</td>
+</tr>
+<tr>
+<td>transfer/down-conversion</td>
+<td>mapping of time-dependent input to output / process producing lower-frequency response</td>
+<td>6</td>
+</tr>
+<tr>
+<td>qF</td>
+<td>source phase-cost scalar nᵀG_phase n; not q cycles, joules, g or P</td>
+<td>7</td>
+</tr>
+<tr>
+<td>matrix,transpose</td>
+<td>table acting by row dot products; column/row interchange</td>
+<td>7</td>
+</tr>
+<tr>
+<td>covariance</td>
+<td>joint variation information; retain shared-input structure</td>
+<td>7</td>
+</tr>
+<tr>
+<td>JSON pointer/SHA-256</td>
+<td>source location / byte identity digest, not physical validation</td>
+<td>7</td>
+</tr>
+<tr>
+<td>m,r</td>
+<td>represented component and full residual x−m, same units/order as x</td>
+<td>8</td>
+</tr>
+<tr>
+<td>linearity</td>
+<td>weighted sums distribute across addition</td>
+<td>8</td>
+</tr>
+<tr>
+<td>closure residual</td>
+<td>original minus reconstructed, or explicitly named recomputed-minus-reported value</td>
+<td>7,8</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="protected-source-local-symbols-and-branches" tabindex="-1">Protected source-local symbols and branches</h2>
+<p>B is the ordered source-locked Cell3 basis, ICRS columns [a b c], intentional negative determinant. The half-open cell is [−1/2,1/2)³; cell ownership is separate from nearest-integer tie conventions. Use x−O_K for affine reciprocal identities. M_cell=BᵀB is its Gram metric, R_cell=M_cell⁻¹ its inverse; G_phase, G_eff, reciprocal bases, geometric distance Q, Q_g and Q_nu keep their source-local meanings. The count baseline Q in this course is explicitly local.</p>
+<p>Gauge carriers are color-first C_3 direct-sum W_2; a weak-first ordering needs an explicit permutation. Detector parity, A1 carry parity, projective signs, chirality, family labels and primitive lifts are distinct. The dyadic and ternary recursions are distinct, as are ternary and Fibonacci-cutoff branches. This course does not derive or modify those broader structures.</p>
+<p>No detailed-product proof, M19 extension, M20 closure, compiler-label authority or global-group uniqueness is inferred from these finite exercises. Keep the runtime source guards: hypotheses on E matter for detail products; M19 is not a premise of M20 core; accepted compiler M03/M07/M08 authority is distinct from mathematical backbone labels; admitted Z1,Z2,Z3,Z6 family and source-local uniqueness contracts remain separate. Matching dimensions or graph labels supplies neither an intertwiner nor a missing proof body. Cell3 and galaxy-derived cells have separate units, metrics and scales.</p></article><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/26">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

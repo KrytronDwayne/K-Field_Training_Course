@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-14",
+  "timestamp": "2026-11-05T18:51:26.591275+00:00",
+  "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-14-complex-carriers-and-gauge-symmetry",
+  "validator": "passed",
+  "validator_checks": [
+    "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+    "parsed manifest.json",
+    "parsed audit_report.json",
+    "parsed completion_report.json",
+    "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+  ],
+  "validator_errors": [],
+  "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+  "manifest_sha256": "09a85008b96cf2dccb9fe7d7efb42736994d3a161eb4b0bcc2cf317a35d767a7",
+  "completion_report_sha256": "d24386eafba7a2c184f1fa0fa9e9e15817180671d7ff7b22110282e10ee95865",
+  "course_sha256": "b4d77ad76287b02456e6b330a59c5a242e9257c1691e2ecf427fc57c1f8d168a",
+  "status": "accepted",
+  "independent_audit": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\independent-completion\\course-14-independent-audit.json",
+  "independent_report_sha256": "445aa74dff05d79a64f63e5f11fe99465eb3207be34b30fc60968bc32c4c633e",
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "scope": "Completed topical course accepted after parent review of independent source/content audit and fresh deterministic validation; documented source limitations retained."
+}

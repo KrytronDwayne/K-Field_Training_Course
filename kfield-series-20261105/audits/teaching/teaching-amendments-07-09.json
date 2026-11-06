@@ -1,0 +1,1225 @@
+{
+  "schema_version": "1.0",
+  "created_utc": "2026-11-05T17:28:59.617960+00:00",
+  "scope": "Pedagogic BLUEPRINT amendments only; no completed-course approval.",
+  "source_basis": [
+    {
+      "id": "S01",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "read_only": true
+    },
+    {
+      "id": "S02",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "read_only": true
+    },
+    {
+      "id": "S03",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "read_only": true
+    }
+  ],
+  "courses": [
+    {
+      "course_id": "course-07",
+      "input_contract_path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-07-information-complete-finite-calculus\\input-contract.json",
+      "input_contract_sha256": "bc8fdd500ada3d0e12ffd99c416e3c4bf6b894ec524f608f667d9a41b857b927",
+      "application": "Add as teaching_amendment and replace generic coverage references with the explicit IDs. Preserve all original subject outcomes, source obligations and lesson required_amendment_ids; this file does not edit the project.",
+      "applied_source_amendments_read": {
+        "SA-07": {
+          "id": "SA-07",
+          "course": 7,
+          "finding": "source_fidelity",
+          "lessons": [
+            "lesson-02",
+            "lesson-04",
+            "lesson-06"
+          ],
+          "merge_action": "append unique requirements to source_audit_contract; attach to named lesson authoring obligations; preserve existing fields",
+          "requirements": [
+            "Teach EG-A1 through EG-A6 as constitutive premises with their source logical_role, not as conclusions derived from B alone.",
+            "The Q(fg) identity needs a specified linear idempotent E with the required conditional-expectation/bimodule properties; derive it under those hypotheses. Do not assert it for arbitrary projection.",
+            "Retain kernel/cokernel and singular branches; restrict inverse formulas to their declared invertible domain."
+          ],
+          "source_references": [
+            "S02#/constitutive_principles",
+            "S02#/backbone_sequence/3",
+            "S03#/findings/5",
+            "S03#/findings/11"
+          ],
+          "status": "applied_to_blueprint_by_parent",
+          "prior_application_status": "prepared_not_applied",
+          "applied_at": "2026-11-05T17:02:05.375955+00:00"
+        }
+      },
+      "original_subject_kernel": {
+        "objects_and_operations": [
+          {
+            "concept_id": "C07.01",
+            "concept": "Changes across a finite edge",
+            "operation": "Calculate an exact finite difference"
+          },
+          {
+            "concept_id": "C07.02",
+            "concept": "The finite product rule",
+            "operation": "Derive and retain the product of both finite changes"
+          },
+          {
+            "concept_id": "C07.03",
+            "concept": "Coarse and detail coordinates",
+            "operation": "Compute a reversible mean-detail transformation"
+          },
+          {
+            "concept_id": "C07.04",
+            "concept": "What a projection must satisfy",
+            "operation": "Test idempotence and the extra properties used in a product identity"
+          },
+          {
+            "concept_id": "C07.05",
+            "concept": "Residuals as new coordinates",
+            "operation": "Reconstruct a state after a proposed model leaves structured detail"
+          },
+          {
+            "concept_id": "C07.06",
+            "concept": "Singular equations and retained freedom",
+            "operation": "Solve a small underdetermined system while retaining its free coordinate"
+          },
+          {
+            "concept_id": "C07.07",
+            "concept": "A complete transformation ledger",
+            "operation": "Document inputs, outputs, removed components, and inverse operations"
+          }
+        ],
+        "source_modules": [
+          "M04"
+        ],
+        "scope": "Build a reversible three-stage finite-data analysis and verify exact reconstruction, including every residual component.",
+        "common_failure_modes": [
+          "Untaught prerequisite",
+          "Unscoped symbol or unit",
+          "An illustrative example presented as real evidence",
+          "A source label promoted beyond its evidence class",
+          "A residual or source branch silently omitted"
+        ]
+      },
+      "lessons": [
+        {
+          "lesson_id": "lesson-01",
+          "concept_id": "C07.01",
+          "bridge_to_teach": "Introduce a function as a table of values, an oriented edge s->t, and pointwise operations. Difference means endpoint minus start; it is not divided by time unless a rate is explicitly requested. Identify source principles as premises.",
+          "worked_example": {
+            "id": "C07.01-W1",
+            "task_and_answer": "Synthetic samples f=(2,5,4,9) at times(0,1,2,3)s have forward differences(3,-1,5) signal-units. Retain f0=2 and reconstruct by successive addition. On edge0->1, g changes4->6 so dg=2."
+          },
+          "guided_practice": {
+            "id": "C07.01-P1",
+            "task_and_answer": "h=(3,7,6,10) gives differences(4,-1,4); retaining h0=3 recovers every value. Reverse edge0->1 to get difference-4, not a new sample value."
+          },
+          "diagnostic": {
+            "id": "C07.01-D1",
+            "task_and_answer": "An edge from time1s to3s has f_s=5,f_t=9: difference4 signal-units, rate2 signal-units/s. Without the starting value the difference list does not fix absolute levels."
+          },
+          "planned_periods": 1,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "These are blueprint anchors, not full lessons. Expand to2–4 observable goals and3–5 diagnostics, with worked answers. A failed prerequisite check triggers extra practice before dependent work; periods may expand.",
+          "premise_reading": {
+            "id": "C07.01-W2",
+            "source_pointer": "S02#/constitutive_principles",
+            "task": "Read all six premise cards with exact IDs and logical_role=premise_not_derived_theorem. Explain that computing B does not derive these constitutive commitments. Terms for later physics are recognition-only; use the finite ledger fields for practice."
+          },
+          "original_title": "Changes across a finite edge",
+          "original_assessment_target": "Calculate an exact finite difference",
+          "required_source_amendment_ids": []
+        },
+        {
+          "lesson_id": "lesson-02",
+          "concept_id": "C07.02",
+          "bridge_to_teach": "Expand (f_s+df)(g_s+dg) using distributivity. Products are pointwise scalar products in this lesson, not matrix multiplication; preserve product units.",
+          "worked_example": {
+            "id": "C07.02-W1",
+            "task_and_answer": "f:2->5 and g:4->6 give df=3,dg=2. Product change30-8=22. Terms f_s dg=4, g_s df=12, df dg=6 sum22; dropping the joint term gives16. Equivalent endpoint form2*2+3*6=22."
+          },
+          "guided_practice": {
+            "id": "C07.02-P1",
+            "task_and_answer": "f:3->1,g:2->5 give df=-2,dg=3; product change5-6=-1. Terms9,-4,-6 sum-1."
+          },
+          "diagnostic": {
+            "id": "C07.02-D1",
+            "task_and_answer": "f:1->1,g:2->4 gives df=0 and product difference2. State why the joint term is exactly zero in this case, not generally negligible. Label EG-A4 as a constitutive choice to retain the finite interaction; this scalar equality follows algebraically from the stated finite difference."
+          },
+          "planned_periods": 1,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "These are blueprint anchors, not full lessons. Expand to2–4 observable goals and3–5 diagnostics, with worked answers. A failed prerequisite check triggers extra practice before dependent work; periods may expand.",
+          "original_title": "The finite product rule",
+          "original_assessment_target": "Derive and retain the product of both finite changes",
+          "required_source_amendment_ids": [
+            "SA-07"
+          ]
+        },
+        {
+          "lesson_id": "lesson-03",
+          "concept_id": "C07.03",
+          "bridge_to_teach": "Define E as the mean repeated within fixed two-sample blocks. Q here names detail I-E, not course09 integer Q_g. Teach two-sample mean m=(a+b)/2 and signed half-difference d=(b-a)/2 with inverse(a,b)=(m-d,m+d).",
+          "worked_example": {
+            "id": "C07.03-W1",
+            "task_and_answer": "For f=(2,5,4,9), E f=(7/2,7/2,13/2,13/2), Q f=(-3/2,3/2,-5/2,5/2). Store compact means(7/2,13/2), half-differences(3/2,5/2), sample order and blocks. Their inverse recovers f."
+          },
+          "guided_practice": {
+            "id": "C07.03-P1",
+            "task_and_answer": "For h=(3,7,6,10), E h=(5,5,8,8), Q h=(-2,2,-2,2); recover both pairs from means(5,8) and details(2,2)."
+          },
+          "diagnostic": {
+            "id": "C07.03-D1",
+            "task_and_answer": "Mean3 alone cannot distinguish(2,4) from(1,5). Their signed half-differences1 and2 supply the missing coordinate; reversing a pair changes the detail sign."
+          },
+          "planned_periods": 1,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "These are blueprint anchors, not full lessons. Expand to2–4 observable goals and3–5 diagnostics, with worked answers. A failed prerequisite check triggers extra practice before dependent work; periods may expand.",
+          "original_title": "Coarse and detail coordinates",
+          "original_assessment_target": "Compute a reversible mean-detail transformation",
+          "required_source_amendment_ids": []
+        },
+        {
+          "lesson_id": "lesson-04",
+          "concept_id": "C07.04",
+          "bridge_to_teach": "Use two periods. First teach linearity, idempotence E(Ef)=Ef, range and the block-constant subalgebra in plain language. Then prove the two-sided block-factor rule E(b1*f*b2)=b1*E(f)*b2 for block-constant b1,b2. Show explicitly why an arbitrary idempotent map is insufficient.",
+          "worked_example": {
+            "id": "C07.04-W1",
+            "task_and_answer": "Use E=pair-block mean on four entries, f=(2,4,1,5), g=(1,3,2,4). Ef=(3,3,3,3), Eg=(2,2,3,3), Qf=(-1,1,-2,2), Qg=(-1,1,-1,1). Q(fg)=(-5,5,-9,9). The three retained terms are(-3,3,-3,3),(-2,2,-6,6),(1,1,2,2); subtract E(Qf*Qg)=(1,1,2,2). Result(-5,5,-9,9)."
+          },
+          "guided_practice": {
+            "id": "C07.04-P1",
+            "task_and_answer": "Take f=(0,2,2,4), g=(1,1,0,2). Q(fg)=(-1,1,-4,4); compute the four RHS terms and verify equality. For block constant b=(2,2,-1,-1), verify E(b*f)=b*E(f)."
+          },
+          "diagnostic": {
+            "id": "C07.04-D1",
+            "task_and_answer": "Define E_star(x,y,z)=(x,x,z+y-x). It is linear, fixes(1,1,1), is idempotent and has a multiplication-closed range(a,a,b), yet lacks the block-factor property. For b=(1,1,0),f=(0,1,0), E_star(b*f)=(0,0,1) while b*E_star(f)=0. With f=g=(0,1,0), Q_star(fg)=(0,1,-1) but the purported RHS=(0,1,-3). Identify the missing hypothesis."
+          },
+          "planned_periods": 2,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "These are blueprint anchors, not full lessons. Expand to2–4 observable goals and3–5 diagnostics, with worked answers. A failed prerequisite check triggers extra practice before dependent work; periods may expand.",
+          "line_by_line_derivation": [
+            "Work in the real finite-array algebra with pointwise multiplication; the range B_coarse is a multiplication-closed subalgebra of arrays constant on each fixed block.",
+            "Declare E linear, E^2=E, E(1)=1, and E(b1*f*b2)=b1*E(f)*b2 for b1,b2 in B_coarse. Pair-block averaging has these properties: fixed block factors pull outside a finite average. Positivity also holds but is not needed for this displayed algebraic derivation.",
+            "Set qf=f-Ef and qg=g-Eg. Linearity and idempotence give E(qf)=E(qg)=0.",
+            "Expand fg=Ef*Eg+Ef*qg+qf*Eg+qf*qg.",
+            "Apply E term by term. E(Ef*Eg)=Ef*Eg because the range is a subalgebra fixed by E; bimodule rules give E(Ef*qg)=0 and E(qf*Eg)=0.",
+            "Thus E(fg)=Ef*Eg+E(qf*qg); subtract this from the expansion to obtain Q(fg)=Ef*qg+qf*Eg+qf*qg-E(qf*qg).",
+            "The synthetic operator is a fully specified sufficient teaching model. The compressed S02 record does not itself supply a complete general E definition; S03 AUD-006 flags this. Do not claim this exercise retrieves or certifies an unspecified archival proof body."
+          ],
+          "original_title": "What a projection must satisfy",
+          "original_assessment_target": "Test idempotence and the extra properties used in a product identity",
+          "required_source_amendment_ids": [
+            "SA-07"
+          ]
+        },
+        {
+          "lesson_id": "lesson-05",
+          "concept_id": "C07.05",
+          "bridge_to_teach": "A model is a declared list M0, not an unexplained fit. Compute signed residual r0=x-M0; a second model M1 of that residual leaves r1=r0-M1. Keep all layers with units and indices.",
+          "worked_example": {
+            "id": "C07.05-W1",
+            "task_and_answer": "x=(2,5,4,9), M0=(1,1,1,1), r0=(1,4,3,8). Let M1=E(r0)=(5/2,5/2,11/2,11/2); r1=(-3/2,3/2,-5/2,5/2). Verify x=M0+M1+r1 entry by entry."
+          },
+          "guided_practice": {
+            "id": "C07.05-P1",
+            "task_and_answer": "x=(3,7,6,10), M0=(2,2,2,2), r0=(1,5,4,8), M1=(3,3,6,6), r1=(-2,2,-2,2). Reconstruct x. Do not overwrite either r0 or r1 in the report."
+          },
+          "diagnostic": {
+            "id": "C07.05-D1",
+            "task_and_answer": "Zero residual entries remain valid coordinates. A residual sum can be zero although every residual entry is nonzero: for(-2,2,-2,2), keep all four entries, not just their sum."
+          },
+          "planned_periods": 1,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "These are blueprint anchors, not full lessons. Expand to2–4 observable goals and3–5 diagnostics, with worked answers. A failed prerequisite check triggers extra practice before dependent work; periods may expand.",
+          "original_title": "Residuals as new coordinates",
+          "original_assessment_target": "Reconstruct a state after a proposed model leaves structured detail",
+          "required_source_amendment_ids": []
+        },
+        {
+          "lesson_id": "lesson-06",
+          "concept_id": "C07.06",
+          "bridge_to_teach": "Teach a singular system by substitution before naming kernel (input changes producing zero) and cokernel/compatibility coordinate (output component impossible to represent). No abstract quotient-space calculation is required.",
+          "worked_example": {
+            "id": "C07.06-W1",
+            "task_and_answer": "K=[[1,1],[2,2]], j=(6,12). Solutions psi=(6-t,t), all real t; kernel direction(-1,1). The actual illustrative state(2,4) is recovered only if t=4 is retained. Output compatibility is j2-2*j1=0."
+          },
+          "guided_practice": {
+            "id": "C07.06-P1",
+            "task_and_answer": "For j=(6,13), compatibility coordinate=1, so there is no exact solution. Declare a first-equation-matching view j_fit=(6,12), keep residual(0,1), and retain t. This is a stated view, not a uniquely optimal fit."
+          },
+          "diagnostic": {
+            "id": "C07.06-D1",
+            "task_and_answer": "K=[[1,0],[0,2]] is invertible and sends(3,4) to(3,8). Contrast its unique inverse with the singular case. For singular output(8,16), retaining t=3 recovers(5,3); deleting t loses information."
+          },
+          "planned_periods": 1,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "These are blueprint anchors, not full lessons. Expand to2–4 observable goals and3–5 diagnostics, with worked answers. A failed prerequisite check triggers extra practice before dependent work; periods may expand.",
+          "original_title": "Singular equations and retained freedom",
+          "original_assessment_target": "Solve a small underdetermined system while retaining its free coordinate",
+          "required_source_amendment_ids": [
+            "SA-07"
+          ]
+        },
+        {
+          "lesson_id": "lesson-07",
+          "concept_id": "C07.07",
+          "bridge_to_teach": "Compose only taught operations and reverse them in the opposite order. A finite-difference transform needs an anchor; a mean-only transform needs detail; a singular transform needs free coordinates and compatibility data.",
+          "worked_example": {
+            "id": "C07.07-W1",
+            "task_and_answer": "Three-stage ledger for x=(2,5,4,9): subtract M0=(1,1,1,1), store r0=(1,4,3,8); split into means m=(5/2,11/2) and d=(3/2,5/2); encode m by anchor5/2 and difference3. Decode m, then r0=(m1-d1,m1+d1,m2-d2,m2+d2), then add M0 to recover x."
+          },
+          "guided_practice": {
+            "id": "C07.07-P1",
+            "task_and_answer": "For x=(3,7,6,10), use M0=(2,2,2,2), means(3,6), details(2,2), mean anchor3 and difference3. Reverse every stage and verify zero reconstruction residual at all four sample IDs."
+          },
+          "diagnostic": {
+            "id": "C07.07-D1",
+            "task_and_answer": "Give each record its original sample order, units, model rule, block support, anchor, signed detail and source/premise scope. Explain exactly what cannot be recovered if the mean anchor, detail sign, or singular free parameter is omitted."
+          },
+          "planned_periods": 1,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "These are blueprint anchors, not full lessons. Expand to2–4 observable goals and3–5 diagnostics, with worked answers. A failed prerequisite check triggers extra practice before dependent work; periods may expand.",
+          "premise_check": {
+            "practice_id": "C07.07-P2",
+            "diagnostic_id": "C07.07-D2",
+            "task": "Match every EG-A1–A6 card to its ledger operation and preserve all six IDs. Correct the claim that EG-A6 follows from a basis determinant.",
+            "expected": "All six are source-stated constitutive premises; exact finite decoder/product equalities can be proved under the declared definitions, without deriving the physical premises from B."
+          },
+          "original_title": "A complete transformation ledger",
+          "original_assessment_target": "Document inputs, outputs, removed components, and inverse operations",
+          "required_source_amendment_ids": []
+        }
+      ],
+      "capstone_backward_map": [
+        {
+          "step_id": "C07-CAP-01",
+          "operation": "Preserve ordered synthetic samples h=(3,7,6,10), units and anchor; calculate differences and recover h.",
+          "introduction": "lesson-01",
+          "worked_id": "C07.01-W1",
+          "prior_practice_id": "C07.01-P1",
+          "diagnostic_id": "C07.01-D1"
+        },
+        {
+          "step_id": "C07-CAP-02",
+          "operation": "Verify full product change for f:3->1,g:2->5 with signed interaction term.",
+          "introduction": "lesson-02",
+          "worked_id": "C07.02-W1",
+          "prior_practice_id": "C07.02-P1",
+          "diagnostic_id": "C07.02-D1"
+        },
+        {
+          "step_id": "C07-CAP-03",
+          "operation": "Compute pair means/detail and inverse, keeping block support and signs.",
+          "introduction": "lesson-03",
+          "worked_id": "C07.03-W1",
+          "prior_practice_id": "C07.03-P1",
+          "diagnostic_id": "C07.03-D1"
+        },
+        {
+          "step_id": "C07-CAP-04",
+          "operation": "State and prove the block expectation hypotheses, verify the detail-product identity, and diagnose E_star counterexample.",
+          "introduction": "lesson-04",
+          "worked_id": "C07.04-W1",
+          "prior_practice_id": "C07.04-P1",
+          "diagnostic_id": "C07.04-D1"
+        },
+        {
+          "step_id": "C07-CAP-05",
+          "operation": "Subtract fixed model(2,2,2,2), model its residual by pair means, and retain both residual layers.",
+          "introduction": "lesson-05",
+          "worked_id": "C07.05-W1",
+          "prior_practice_id": "C07.05-P1",
+          "diagnostic_id": "C07.05-D1"
+        },
+        {
+          "step_id": "C07-CAP-06",
+          "operation": "Solve K psi=(8,16), retain free t=3; separately retain incompatibility of(8,17) and a declared residual view.",
+          "introduction": "lesson-06",
+          "worked_id": "C07.06-W1",
+          "prior_practice_id": "C07.06-P1",
+          "diagnostic_id": "C07.06-D1"
+        },
+        {
+          "step_id": "C07-CAP-07",
+          "operation": "Encode residual means by anchor and difference; reverse all three stages and link all EG-A1–A6 premises to the ledger.",
+          "introduction": "lesson-07",
+          "worked_id": "C07.07-W1",
+          "prior_practice_id": "C07.07-P1",
+          "diagnostic_id": "C07.07-D1",
+          "additional_prior_practice_id": "C07.07-P2",
+          "additional_diagnostic_id": "C07.07-D2"
+        }
+      ],
+      "core_periods": 8,
+      "capstone_periods": 2,
+      "core_boundary": "Finite hand-checkable examples and supplied source-reading cards are assessed. Full archive proof certification, infinite-series limits, gauge transport and physical mass identification are not silently required.",
+      "prerequisite_status": "Closed for these explicit finite operations with the listed bridges and prior-course arithmetic; final lesson checks remain required."
+    },
+    {
+      "course_id": "course-08",
+      "input_contract_path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-08-face-area-ratios-and-the-k-field-mass-bridge\\input-contract.json",
+      "input_contract_sha256": "65b7ba0a2ba52b364be12305609c29b5dadc9b3a3cc4668539d7388ebbaa2a79",
+      "application": "Add as teaching_amendment and replace generic coverage references with the explicit IDs. Preserve all original subject outcomes, source obligations and lesson required_amendment_ids; this file does not edit the project.",
+      "applied_source_amendments_read": {},
+      "original_subject_kernel": {
+        "objects_and_operations": [
+          {
+            "concept_id": "C08.01",
+            "concept": "From faces to dimensionless ratios",
+            "operation": "Compute the ordered face-area ray"
+          },
+          {
+            "concept_id": "C08.02",
+            "concept": "What uniform scaling leaves unchanged",
+            "operation": "Prove scale invariance of two independent area ratios"
+          },
+          {
+            "concept_id": "C08.03",
+            "concept": "The eta and alpha constructions",
+            "operation": "Evaluate source-defined constants with units and provenance"
+          },
+          {
+            "concept_id": "C08.04",
+            "concept": "Locked and historical numerical branches",
+            "operation": "Track distinct numerical witnesses without silently merging them"
+          },
+          {
+            "concept_id": "C08.05",
+            "concept": "Geometry, calibration, and interpretation",
+            "operation": "Separate an algebraic ratio from a proposed physical identification"
+          },
+          {
+            "concept_id": "C08.06",
+            "concept": "Sensitivity and retained numerical closure",
+            "operation": "Propagate a small input change and report the full closure difference"
+          }
+        ],
+        "source_modules": [
+          "M05"
+        ],
+        "scope": "Create a ratio-to-claim ledger that reproduces the source constructions and separates exact algebra, decimal witnesses, and physical interpretation.",
+        "common_failure_modes": [
+          "Untaught prerequisite",
+          "Unscoped symbol or unit",
+          "An illustrative example presented as real evidence",
+          "A source label promoted beyond its evidence class",
+          "A residual or source branch silently omitted"
+        ]
+      },
+      "lessons": [
+        {
+          "lesson_id": "lesson-01",
+          "concept_id": "C08.01",
+          "bridge_to_teach": "Recall labeled face areas and common units. Explain a ray as all positive common multiples; normalizing discards scale unless the divisor is retained. Distinguish an area ray from edge directions or a complete Gram metric.",
+          "worked_example": {
+            "id": "C08.01-W1",
+            "task_and_answer": "Synthetic positive areas in bc/ac/ab order are(12,8,6) U^2. Divide by A_bc=12 U^2 to get r=(1,2/3,1/2); retain12 U^2 and the labels to reconstruct all three areas."
+          },
+          "guided_practice": {
+            "id": "C08.01-P1",
+            "task_and_answer": "Areas(18,12,9) U^2 give the same ray. Reconstruct with retained A_bc=18 U^2 and distinguish its absolute scale from the worked input."
+          },
+          "diagnostic": {
+            "id": "C08.01-D1",
+            "task_and_answer": "Swapping ac and ab gives(1,1/2,2/3), a different ordered ray. Two independent quotients determine the projective AREA triple, not all angles or a unique spatial basis."
+          },
+          "planned_periods": 1,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "These are blueprint anchors, not full lessons. Expand to2–4 observable goals and3–5 diagnostics, with worked answers. A failed prerequisite check triggers extra practice before dependent work; periods may expand.",
+          "original_title": "From faces to dimensionless ratios",
+          "original_assessment_target": "Compute the ordered face-area ray",
+          "required_source_amendment_ids": []
+        },
+        {
+          "lesson_id": "lesson-02",
+          "concept_id": "C08.02",
+          "bridge_to_teach": "Recall B->sB with s>0 sends each face area to s^2 times itself. Cancel the same nonzero factor in each quotient; area units cancel.",
+          "worked_example": {
+            "id": "C08.02-W1",
+            "task_and_answer": "Length rescale s=2 sends(12,8,6) to(48,32,24) U^2. Ratios remain2/3 and1/2 because(4*A_ac)/(4*A_bc)=A_ac/A_bc and likewise for ab."
+          },
+          "guided_practice": {
+            "id": "C08.02-P1",
+            "task_and_answer": "s=1/2 gives areas(3,2,3/2) U^2 with the same ray. Restore original size only if s or a labeled dimensional anchor is retained."
+          },
+          "diagnostic": {
+            "id": "C08.02-D1",
+            "task_and_answer": "Scaling only A_ac from8 to9 while keeping the other supplied areas fixed changes the ray to(1,3/4,1/2). This is a ratio perturbation example, not uniform geometric scaling."
+          },
+          "planned_periods": 1,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "These are blueprint anchors, not full lessons. Expand to2–4 observable goals and3–5 diagnostics, with worked answers. A failed prerequisite check triggers extra practice before dependent work; periods may expand.",
+          "original_title": "What uniform scaling leaves unchanged",
+          "original_assessment_target": "Prove scale invariance of two independent area ratios",
+          "required_source_amendment_ids": []
+        },
+        {
+          "lesson_id": "lesson-03",
+          "concept_id": "C08.03",
+          "bridge_to_teach": "Teach reciprocal notation alpha^-1=1/alpha, explicit parentheses and units. Use source definitions exactly; read the active S02 stored fields separately from a newly recomputed ratio of stored area strings.",
+          "worked_example": {
+            "id": "C08.03-W1",
+            "task_and_answer": "For synthetic(12,8,6), eta=1000*A_bc/A_ab=2000; alpha_inverse=100*A_bc/A_ac=150; alpha=1/150; eta*alpha=40/3=10*A_ac/A_ab. All are dimensionless. These are illustrative values, not locked constants or observations."
+          },
+          "guided_practice": {
+            "id": "C08.03-P1",
+            "task_and_answer": "For synthetic(15,10,5), r=(1,2/3,1/3), eta=3000, alpha_inverse=150, alpha=1/150 and eta*alpha=20. Verify both paths."
+          },
+          "diagnostic": {
+            "id": "C08.03-D1",
+            "task_and_answer": "The error alpha=100*A_bc/A_ac confuses alpha with alpha_inverse. Correct it. For active source evaluation use the attached locked-evaluation recipe and record the full signed new-minus-stored difference for eta,alpha_inverse,alpha,eta_alpha."
+          },
+          "planned_periods": 1,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "These are blueprint anchors, not full lessons. Expand to2–4 observable goals and3–5 diagnostics, with worked answers. A failed prerequisite check triggers extra practice before dependent work; periods may expand.",
+          "original_title": "The eta and alpha constructions",
+          "original_assessment_target": "Evaluate source-defined constants with units and provenance",
+          "required_source_amendment_ids": []
+        },
+        {
+          "lesson_id": "lesson-04",
+          "concept_id": "C08.04",
+          "bridge_to_teach": "Teach a branch ledger with source ID, hash, exact pointer, original decimal lexeme, order and role. A historical difference is provenance, not an experimental residual.",
+          "worked_example": {
+            "id": "C08.04-W1",
+            "task_and_answer": "Active row: S02 /backbone_sequence/4/projective_ray and /mature_locked_cell3 use the mature ray. Historical rows: S01 /backbone_sequence/4/projective_rays/master_geometry and /locked_mass_bridge are separately retained longer-string records. Do not promote the historical locked-named row over S02 merely because it has more digits."
+          },
+          "guided_practice": {
+            "id": "C08.04-P1",
+            "task_and_answer": "Use the compact branch comparison supplied with this amendment: subtract each historical component from the corresponding active component in the declared direction, retaining both source records and signs. Read S01 /mass_bridge_calibration/face_areas_nm2 as its own historical input set."
+          },
+          "diagnostic": {
+            "id": "C08.04-D1",
+            "task_and_answer": "A proposed ledger combines historical A_ab with mature A_bc and calls the ratio the active eta. Reject the mixed-input label; name the two branches and either recompute a fully labeled mixed diagnostic or use the complete active input set."
+          },
+          "planned_periods": 1,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "These are blueprint anchors, not full lessons. Expand to2–4 observable goals and3–5 diagnostics, with worked answers. A failed prerequisite check triggers extra practice before dependent work; periods may expand.",
+          "original_title": "Locked and historical numerical branches",
+          "original_assessment_target": "Track distinct numerical witnesses without silently merging them",
+          "required_source_amendment_ids": []
+        },
+        {
+          "lesson_id": "lesson-05",
+          "concept_id": "C08.05",
+          "bridge_to_teach": "Separate supplied/calibrated inputs, derived algebraic quotients, recorded reference values, inferred identification and proposed mechanism. No new measured mass dataset is supplied here.",
+          "worked_example": {
+            "id": "C08.05-W1",
+            "task_and_answer": "Given synthetic r=(1,2/3,1/2) and supplied A_bc=12 U^2, reconstruct areas. Explain that choosing this dimensional anchor is an additional input; the quotient algebra neither chooses it nor measures a mass."
+          },
+          "guided_practice": {
+            "id": "C08.05-P1",
+            "task_and_answer": "A fictional calibration sets A_bc=18 U^2 with the same ray. Areas become(18,12,9), eta and alpha are unchanged. Tag the anchor as supplied calibration, area reconstruction as derived, and an asserted mass interpretation as an additional physical identification."
+          },
+          "diagnostic": {
+            "id": "C08.05-D1",
+            "task_and_answer": "Classify the claim that calculating eta from areas independently measured a particle mass. Correct it to a source-defined dimensionless construction plus separately stated physical identification and required measurement provenance. Treat the source interpretation constructively without inventing evidence."
+          },
+          "planned_periods": 1,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "These are blueprint anchors, not full lessons. Expand to2–4 observable goals and3–5 diagnostics, with worked answers. A failed prerequisite check triggers extra practice before dependent work; periods may expand.",
+          "original_title": "Geometry, calibration, and interpretation",
+          "original_assessment_target": "Separate an algebraic ratio from a proposed physical identification",
+          "required_source_amendment_ids": []
+        },
+        {
+          "lesson_id": "lesson-06",
+          "concept_id": "C08.06",
+          "bridge_to_teach": "Use exact finite reevaluation rather than derivatives. Record the changed input, unchanged inputs, complete output differences and reconstruction rules. Separate arithmetic closure from a proposed input-sensitivity experiment.",
+          "worked_example": {
+            "id": "C08.06-W1",
+            "task_and_answer": "Starting(12,8,6), change only A_ab by+1/10 to61/10. New ray=(1,2/3,61/120); eta=120000/61, alpha_inverse=150, alpha=1/150, eta_alpha=800/61. Differences new-old: r=(0,0,1/120), eta=-2000/61, alpha_inverse=0,alpha=0,eta_alpha=-40/183. Add each difference to the old value to recover the new one."
+          },
+          "guided_practice": {
+            "id": "C08.06-P1",
+            "task_and_answer": "Instead change only A_ac to81/10. New ray=(1,27/40,1/2), eta=2000,alpha_inverse=4000/27,alpha=27/4000,eta_alpha=27/2. Differences: ray(0,1/120,0),eta0,alpha_inverse=-50/27,alpha=1/12000,eta_alpha=1/6."
+          },
+          "diagnostic": {
+            "id": "C08.06-D1",
+            "task_and_answer": "Core check: preserve the exact finite output change and show both eta*alpha and10*A_ac/A_ab agree for the same inputs. Optional recognition only: the supplied approximation eta_lin=2000-100/3=5900/3 leaves exact remainder100/183 because120000/61-5900/3=100/183. A teacher choosing this extension must first expand(1+h)(1-h)=1-h^2 to derive1/(1+h)=1-h+h^2/(1+h), with h=1/60; no derivative is assumed or assessed."
+          },
+          "planned_periods": 1,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "These are blueprint anchors, not full lessons. Expand to2–4 observable goals and3–5 diagnostics, with worked answers. A failed prerequisite check triggers extra practice before dependent work; periods may expand.",
+          "original_title": "Sensitivity and retained numerical closure",
+          "original_assessment_target": "Propagate a small input change and report the full closure difference",
+          "required_source_amendment_ids": []
+        }
+      ],
+      "capstone_backward_map": [
+        {
+          "step_id": "C08-CAP-01",
+          "operation": "Normalize labeled synthetic areas(15,10,5), retain divisor and reconstruct.",
+          "introduction": "lesson-01",
+          "worked_id": "C08.01-W1",
+          "prior_practice_id": "C08.01-P1",
+          "diagnostic_id": "C08.01-D1"
+        },
+        {
+          "step_id": "C08-CAP-02",
+          "operation": "Prove common-scale cancellation and test s=2 and s=1/2.",
+          "introduction": "lesson-02",
+          "worked_id": "C08.02-W1",
+          "prior_practice_id": "C08.02-P1",
+          "diagnostic_id": "C08.02-D1"
+        },
+        {
+          "step_id": "C08-CAP-03",
+          "operation": "Evaluate eta,alpha_inverse,alpha and eta_alpha by both paths; read active definitions and supplied locked-evaluation rows.",
+          "introduction": "lesson-03",
+          "worked_id": "C08.03-W1",
+          "prior_practice_id": "C08.03-P1",
+          "diagnostic_id": "C08.03-D1"
+        },
+        {
+          "step_id": "C08-CAP-04",
+          "operation": "Build separate active/historical provenance rows; retain signed branch differences without mixing inputs.",
+          "introduction": "lesson-04",
+          "worked_id": "C08.04-W1",
+          "prior_practice_id": "C08.04-P1",
+          "diagnostic_id": "C08.04-D1"
+        },
+        {
+          "step_id": "C08-CAP-05",
+          "operation": "Tag dimensional anchor, derived quotients and proposed physical identification; list required measurement provenance without inventing it.",
+          "introduction": "lesson-05",
+          "worked_id": "C08.05-W1",
+          "prior_practice_id": "C08.05-P1",
+          "diagnostic_id": "C08.05-D1"
+        },
+        {
+          "step_id": "C08-CAP-06",
+          "operation": "For the supplied worked baseline(12,8,6), apply either taught +1/10 perturbation, retain all output changes, and verify exact reconstruction and algebraic closure.",
+          "introduction": "lesson-06",
+          "worked_id": "C08.06-W1",
+          "prior_practice_id": "C08.06-P1",
+          "diagnostic_id": "C08.06-D1"
+        }
+      ],
+      "core_periods": 6,
+      "capstone_periods": 2,
+      "core_boundary": "Finite hand-checkable examples and supplied source-reading cards are assessed. Full archive proof certification, infinite-series limits, gauge transport and physical mass identification are not silently required.",
+      "prerequisite_status": "Closed for these explicit finite operations with the listed bridges and prior-course arithmetic; final lesson checks remain required."
+    },
+    {
+      "course_id": "course-09",
+      "input_contract_path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-09-projective-integerization-and-carry-dynamics\\input-contract.json",
+      "input_contract_sha256": "fd2bca6921dbf570ceb397568dcaa8e4f62faf21cfbbd70b15675caefc934222",
+      "application": "Add as teaching_amendment and replace generic coverage references with the explicit IDs. Preserve all original subject outcomes, source obligations and lesson required_amendment_ids; this file does not edit the project.",
+      "applied_source_amendments_read": {
+        "SA-09": {
+          "id": "SA-09",
+          "course": 9,
+          "finding": "source_fidelity",
+          "lessons": [
+            "lesson-01",
+            "lesson-03",
+            "lesson-04"
+          ],
+          "merge_action": "append unique requirements to source_audit_contract; attach to named lesson authoring obligations; preserve existing fields",
+          "requirements": [
+            "If adopting epsilon=Q-Kr in [-1/2,1/2), explicitly use nint(t)=ceil(t-1/2), choosing the lower integer at every half-tie. This is a course convention consistent with the interval, not a claim that the ambiguous archive supplied it.",
+            "Test t=+1/2 and -1/2 and translation by integer carries. Keep cell ownership floor(q+1/2) separate.",
+            "Include S=C_b+C_c, A=C_b-C_c, inverse halves and S congruent A modulo2 before the course13 side-transfer lattice."
+          ],
+          "source_references": [
+            "S02#/backbone_sequence/5",
+            "S03#/findings/12"
+          ],
+          "status": "applied_to_blueprint_by_parent",
+          "prior_application_status": "prepared_not_applied",
+          "applied_at": "2026-11-05T17:02:05.375955+00:00"
+        }
+      },
+      "original_subject_kernel": {
+        "objects_and_operations": [
+          {
+            "concept_id": "C09.01",
+            "concept": "Nearest-integer maps need a tie rule",
+            "operation": "Specify and test a deterministic rounding convention"
+          },
+          {
+            "concept_id": "C09.02",
+            "concept": "Projective rays at successive scales",
+            "operation": "Compute a low-depth integer approximation"
+          },
+          {
+            "concept_id": "C09.03",
+            "concept": "The retained rounding coordinate",
+            "operation": "Reconstruct the original ray value from integer and residual"
+          },
+          {
+            "concept_id": "C09.04",
+            "concept": "Carry between generations",
+            "operation": "Derive the carry recurrence from two consecutive levels"
+          },
+          {
+            "concept_id": "C09.05",
+            "concept": "Small differences at deeper levels",
+            "operation": "Explain how distinct source rays first produce distinct integer records"
+          },
+          {
+            "concept_id": "C09.06",
+            "concept": "A lossless recursive compiler",
+            "operation": "Audit a finite carry table and recover every represented value"
+          }
+        ],
+        "source_modules": [
+          "M06"
+        ],
+        "scope": "Produce a short integerization-and-carry ledger with a stated tie rule and exact reconstruction of a clearly labeled synthetic ray.",
+        "common_failure_modes": [
+          "Untaught prerequisite",
+          "Unscoped symbol or unit",
+          "An illustrative example presented as real evidence",
+          "A source label promoted beyond its evidence class",
+          "A residual or source branch silently omitted"
+        ]
+      },
+      "lessons": [
+        {
+          "lesson_id": "lesson-01",
+          "concept_id": "C09.01",
+          "bridge_to_teach": "Teach ceiling as the least integer not below a value, including negatives. Adopt nint(t)=ceil(t-1/2), lower integer at every exact half-tie, to make epsilon=nint(t)-t belong to[-1/2,1/2). This is the declared course repair of an ambiguous archive convention.",
+          "worked_example": {
+            "id": "C09.01-W1",
+            "task_and_answer": "t=+1/2 givesQ=0,epsilon=-1/2; t=-1/2 givesQ=-1,epsilon=-1/2. t=3/2 givesQ=1; t=-3/2 givesQ=-2. Both signs choose the lower integer, not away-from-zero or ties-to-even."
+          },
+          "guided_practice": {
+            "id": "C09.01-P1",
+            "task_and_answer": "t=49/100 givesQ=0,epsilon=-49/100; t=51/100 givesQ=1,epsilon=49/100. Translation by integer m=3: nint(t+3)=nint(t)+3 and residual stays unchanged."
+          },
+          "diagnostic": {
+            "id": "C09.01-D1",
+            "task_and_answer": "At q=1/2, cell owner floor(q+1/2)=1 but integerizer nint(q)=0. At q=-1/2, owner0 but integerizer-1. Keep the operations and epsilon sign convention separately labeled."
+          },
+          "planned_periods": 1,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "These are blueprint anchors, not full lessons. Expand to2–4 observable goals and3–5 diagnostics, with worked answers. A failed prerequisite check triggers extra practice before dependent work; periods may expand.",
+          "original_title": "Nearest-integer maps need a tie rule",
+          "original_assessment_target": "Specify and test a deterministic rounding convention",
+          "required_source_amendment_ids": [
+            "SA-09"
+          ]
+        },
+        {
+          "lesson_id": "lesson-02",
+          "concept_id": "C09.02",
+          "bridge_to_teach": "Read the exact source scale K_g=27^g before arithmetic. This g counts integerization generations, not course06 dyadic or ternary address depth. Introduce Q_g as the integer triple, distinct from the course07 detail operator.",
+          "worked_example": {
+            "id": "C09.02-W1",
+            "task_and_answer": "Synthetic ray r=(1,2/3,1/2): K0=1,K1=27,K2=729. Q0=(1,1,0),Q1=(27,18,13),Q2=(729,486,364). At the half-ties13.5 and364.5 the lower integer is retained."
+          },
+          "guided_practice": {
+            "id": "C09.02-P1",
+            "task_and_answer": "Synthetic r=(1,1/3,1/4): Q0=(1,0,0),Q1=(27,9,7),Q2=(729,243,182). Keep all scaled inputs as exact fractions."
+          },
+          "diagnostic": {
+            "id": "C09.02-D1",
+            "task_and_answer": "Explain why replacing27^g with3^g changes the exercise. For a source-reading check, use S02 active ray and g0..2: Q=(1,1,1),(27,20,15),(729,532,397); label this a replay of stored source inputs, not the synthetic ray."
+          },
+          "planned_periods": 1,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "These are blueprint anchors, not full lessons. Expand to2–4 observable goals and3–5 diagnostics, with worked answers. A failed prerequisite check triggers extra practice before dependent work; periods may expand.",
+          "original_title": "Projective rays at successive scales",
+          "original_assessment_target": "Compute a low-depth integer approximation",
+          "required_source_amendment_ids": []
+        },
+        {
+          "lesson_id": "lesson-03",
+          "concept_id": "C09.03",
+          "bridge_to_teach": "Derive r=(Q_g-epsilon_g)/K_g from epsilon_g=Q_g-K_g*r. The residual has integer-count units relative to the scaled dimensionless ray, and epsilon_g/K_g is the ray-coordinate error with this declared sign.",
+          "worked_example": {
+            "id": "C09.03-W1",
+            "task_and_answer": "For r=(1,2/3,1/2), epsilon0=(0,1/3,-1/2),epsilon1=(0,0,-1/2),epsilon2=(0,0,-1/2). Atg1 reconstruct the third ray coordinate as(13-(-1/2))/27=1/2."
+          },
+          "guided_practice": {
+            "id": "C09.03-P1",
+            "task_and_answer": "For r=(1,1/3,1/4), epsilon0=(0,-1/3,-1/4),epsilon1=(0,0,1/4),epsilon2=(0,0,-1/4). Restore1/4 from(7-1/4)/27 and from(182+1/4)/729."
+          },
+          "diagnostic": {
+            "id": "C09.03-D1",
+            "task_and_answer": "Using(Q+epsilon)/K at the half-tie gives12.5/27, which is wrong. Retain the sign, all three coordinates, generation and ray identity; an error magnitude alone is not a decoder."
+          },
+          "planned_periods": 1,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "These are blueprint anchors, not full lessons. Expand to2–4 observable goals and3–5 diagnostics, with worked answers. A failed prerequisite check triggers extra practice before dependent work; periods may expand.",
+          "original_title": "The retained rounding coordinate",
+          "original_assessment_target": "Reconstruct the original ray value from integer and residual",
+          "required_source_amendment_ids": [
+            "SA-09"
+          ]
+        },
+        {
+          "lesson_id": "lesson-04",
+          "concept_id": "C09.04",
+          "bridge_to_teach": "Use two periods: first derive and check integer/residual carry recurrence; second introduce side sums/differences with inverse halves and same-parity constraint. Teach modular parity through even/odd sums before naming a lattice.",
+          "worked_example": {
+            "id": "C09.04-W1",
+            "task_and_answer": "For r=(1,2/3,1/2), C1=Q1-27Q0=(0,-9,13), C2=(0,0,13). Derive C_g=epsilon_g-27epsilon_(g-1), hence epsilon_g=27epsilon_(g-1)+C_g. Translation equivariance yields C_g=nint(-27epsilon_(g-1)). Atg1, side modes S=4,A=-22 recover C_b=(S+A)/2=-9,C_c=(S-A)/2=13."
+          },
+          "guided_practice": {
+            "id": "C09.04-P1",
+            "task_and_answer": "For r=(1,1/3,1/4), C1=(0,9,7),C2=(0,0,-7). Modes atg1:S=16,A=2; atg2:S=-7,A=7. Inverse halves recover both integer side carries. Check the direct and residual routes independently."
+          },
+          "diagnostic": {
+            "id": "C09.04-D1",
+            "task_and_answer": "S=1,A=0 would give half-integer carries and is not allowed for integer C_b,C_c. Conversely S and A with the same parity give integer inverse halves. Source g3 witness C=(0,-1,1) has S=0,A=-2. Do not identify this parity condition with detector polarity."
+          },
+          "planned_periods": 2,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "These are blueprint anchors, not full lessons. Expand to2–4 observable goals and3–5 diagnostics, with worked answers. A failed prerequisite check triggers extra practice before dependent work; periods may expand.",
+          "original_title": "Carry between generations",
+          "original_assessment_target": "Derive the carry recurrence from two consecutive levels",
+          "required_source_amendment_ids": [
+            "SA-09"
+          ]
+        },
+        {
+          "lesson_id": "lesson-05",
+          "concept_id": "C09.05",
+          "bridge_to_teach": "Compare two exact ray inputs under the same rule and explicitly bounded generations. A first difference is a fact about the specified inputs and rounding, not a general guarantee at a predetermined depth.",
+          "worked_example": {
+            "id": "C09.05-W1",
+            "task_and_answer": "Compare synthetic rays(1,2/3,1/2) and(1,2/3+1/1000,1/2). Their Q triples agree atg0 andg1. Atg2 the middle scaled coordinate changes486->486729/1000=486.729, so Q_b changes486->487. Retained epsilons distinguish the rays even before integer Q differs."
+          },
+          "guided_practice": {
+            "id": "C09.05-P1",
+            "task_and_answer": "Compare(1,1/3,1/4) with(1,1/3+1/10000,1/4): Q agrees throughg2; atg3 the middle input changes6561->6562.9683, so Q_b changes6561->6563. Record the full signed residuals as well as first differing generation."
+          },
+          "diagnostic": {
+            "id": "C09.05-D1",
+            "task_and_answer": "For historical source comparison only, separately replay S01 master_geometry and S01 locked_mass_bridge strings throughg8; the source reports equality throughg7 then master-minus-locked=(0,8,7) atg8. Compare against a fresh exact replay and retain any discrepancy. Neither historical ray replaces the active S02 ray."
+          },
+          "planned_periods": 1,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "These are blueprint anchors, not full lessons. Expand to2–4 observable goals and3–5 diagnostics, with worked answers. A failed prerequisite check triggers extra practice before dependent work; periods may expand.",
+          "original_title": "Small differences at deeper levels",
+          "original_assessment_target": "Explain how distinct source rays first produce distinct integer records",
+          "required_source_amendment_ids": []
+        },
+        {
+          "lesson_id": "lesson-06",
+          "concept_id": "C09.06",
+          "bridge_to_teach": "Expand the finite recurrence by substitution and teach the finite terminal residual before any infinite-series recognition note. A finite carry ledger is not exact ray recovery unless its terminal epsilon is retained.",
+          "worked_example": {
+            "id": "C09.06-W1",
+            "task_and_answer": "Atg2, Q2=729Q0+27C1+C2. For synthetic(1,2/3,1/2), this yields(729,486,364). Exact ray recovery is r=Q0+C1/27+C2/729-epsilon2/729; the last half-coordinate needs+1/1458."
+          },
+          "guided_practice": {
+            "id": "C09.06-P1",
+            "task_and_answer": "For synthetic(1,1/3,1/4), Q2=(729,243,182), and subtracting epsilon2/729 adds1/2916 to the third ray coordinate. Rebuild the entire ledger from original ray and separately decode backward from Q0,carries,terminal epsilon."
+          },
+          "diagnostic": {
+            "id": "C09.06-D1",
+            "task_and_answer": "Round-trip S/A to C_b,C_c, rebuild Q and epsilon with their generation rules, restore every ray coordinate, and retain branch/rule/ordering metadata. The archive infinite carry series is recognition-only; no limit proof is required for this finite capstone."
+          },
+          "planned_periods": 1,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "These are blueprint anchors, not full lessons. Expand to2–4 observable goals and3–5 diagnostics, with worked answers. A failed prerequisite check triggers extra practice before dependent work; periods may expand.",
+          "original_title": "A lossless recursive compiler",
+          "original_assessment_target": "Audit a finite carry table and recover every represented value",
+          "required_source_amendment_ids": []
+        }
+      ],
+      "capstone_backward_map": [
+        {
+          "step_id": "C09-CAP-01",
+          "operation": "Declare tie-down ceiling rule and sign; test both signed ties and contrast cell ownership.",
+          "introduction": "lesson-01",
+          "worked_id": "C09.01-W1",
+          "prior_practice_id": "C09.01-P1",
+          "diagnostic_id": "C09.01-D1"
+        },
+        {
+          "step_id": "C09-CAP-02",
+          "operation": "Compute K_g and Q_g for synthetic ray(1,1/3,1/4) throughg2; keep source and synthetic inputs separate.",
+          "introduction": "lesson-02",
+          "worked_id": "C09.02-W1",
+          "prior_practice_id": "C09.02-P1",
+          "diagnostic_id": "C09.02-D1"
+        },
+        {
+          "step_id": "C09-CAP-03",
+          "operation": "Calculate every epsilon and reconstruct the exact ray from each generation.",
+          "introduction": "lesson-03",
+          "worked_id": "C09.03-W1",
+          "prior_practice_id": "C09.03-P1",
+          "diagnostic_id": "C09.03-D1"
+        },
+        {
+          "step_id": "C09-CAP-04",
+          "operation": "Derive and verify carries from both integer and residual routes; compute S/A, invert halves and reject opposite parity.",
+          "introduction": "lesson-04",
+          "worked_id": "C09.04-W1",
+          "prior_practice_id": "C09.04-P1",
+          "diagnostic_id": "C09.04-D1"
+        },
+        {
+          "step_id": "C09-CAP-05",
+          "operation": "Compare the taught perturbed ray throughg3; label first integer difference and earlier residual differences; interpret supplied historical g8 replay as provenance.",
+          "introduction": "lesson-05",
+          "worked_id": "C09.05-W1",
+          "prior_practice_id": "C09.05-P1",
+          "diagnostic_id": "C09.05-D1"
+        },
+        {
+          "step_id": "C09-CAP-06",
+          "operation": "Build finite carry-sum reconstruction with terminal epsilon; reverse every side-mode and carry transform; retain rules, ordering, branch and units.",
+          "introduction": "lesson-06",
+          "worked_id": "C09.06-W1",
+          "prior_practice_id": "C09.06-P1",
+          "diagnostic_id": "C09.06-D1"
+        }
+      ],
+      "core_periods": 7,
+      "capstone_periods": 2,
+      "core_boundary": "Finite hand-checkable examples and supplied source-reading cards are assessed. Full archive proof certification, infinite-series limits, gauge transport and physical mass identification are not silently required.",
+      "prerequisite_status": "Closed for these explicit finite operations with the listed bridges and prior-course arithmetic; final lesson checks remain required."
+    }
+  ],
+  "course07_constitutive_premises": [
+    {
+      "id": "EG-A1",
+      "name": "complete-state principle",
+      "logical_role": "premise_not_derived_theorem",
+      "source_pointer": "S02#/constitutive_principles/0",
+      "teaching_map": {
+        "lesson": "lesson-01",
+        "practice_id": "C07.01-W1",
+        "meaning": "State includes values, time/order, origin/anchor and every later-relevant field."
+      }
+    },
+    {
+      "id": "EG-A2",
+      "name": "decoder principle",
+      "logical_role": "premise_not_derived_theorem",
+      "source_pointer": "S02#/constitutive_principles/1",
+      "teaching_map": {
+        "lesson": "lesson-03",
+        "practice_id": "C07.03-P1",
+        "meaning": "Verify decoder(mean,detail)=original, with original ordering."
+      }
+    },
+    {
+      "id": "EG-A3",
+      "name": "finite-transition principle",
+      "logical_role": "premise_not_derived_theorem",
+      "source_pointer": "S02#/constitutive_principles/2",
+      "teaching_map": {
+        "lesson": "lesson-01",
+        "practice_id": "C07.01-P1",
+        "meaning": "Use endpoint-minus-start as the declared primary transition."
+      }
+    },
+    {
+      "id": "EG-A4",
+      "name": "finite-product principle",
+      "logical_role": "premise_not_derived_theorem",
+      "source_pointer": "S02#/constitutive_principles/3",
+      "teaching_map": {
+        "lesson": "lesson-02",
+        "practice_id": "C07.02-P1",
+        "meaning": "Retain df*dg; distinguish algebraic expansion from constitutive interpretation."
+      }
+    },
+    {
+      "id": "EG-A5",
+      "name": "residual-information principle",
+      "logical_role": "premise_not_derived_theorem",
+      "source_pointer": "S02#/constitutive_principles/4",
+      "teaching_map": {
+        "lesson": "lesson-05",
+        "practice_id": "C07.05-P1",
+        "meaning": "Keep residual layers and use the residual as input to another declared model."
+      }
+    },
+    {
+      "id": "EG-A6",
+      "name": "typed-renderer principle",
+      "logical_role": "premise_not_derived_theorem",
+      "source_pointer": "S02#/constitutive_principles/5",
+      "teaching_map": {
+        "lesson": "lesson-07",
+        "practice_id": "C07.07-P1",
+        "meaning": "Treat reduced/normalized/displayed forms as typed views with complete decoding records."
+      }
+    }
+  ],
+  "course07_operator_scope": "Sufficient concrete block conditional-expectation hypotheses and proof are explicitly supplied; an unspecified archival E/proof body is not falsely certified. Gauge covariance and infinite resolutions remain recognition-only pending their later courses.",
+  "course08_exact_source_definitions": {
+    "source": "S02#/backbone_sequence/4/definitions",
+    "definitions": [
+      "r=(1,A_ac/A_bc,A_ab/A_bc) in [bc,ac,ab] order",
+      "eta=1000 A_bc/A_ab",
+      "alpha^{-1}=100 A_bc/A_ac",
+      "eta alpha=10 A_ac/A_ab"
+    ],
+    "active_inputs": "S02#/mature_locked_cell3/face_areas_nm2",
+    "active_ray": "S02#/backbone_sequence/4/projective_ray",
+    "calibration_history": "S01#/mass_bridge_calibration is historical, including its own face-area inputs and reported constants; do not mix them into active S02 recomputation.",
+    "synthetic_geometry_note": "Areas(12,8,6) are physically realizable as an orthogonal classroom box with edge lengths a=2,b=3,c=4 arbitrary length units; this is not Cell3. Perturbation inputs are supplied area triples for finite sensitivity, not claims of a measured trajectory."
+  },
+  "course08_locked_evaluation": {
+    "eta": {
+      "source_stored_lexeme": "1836.1526734259999",
+      "exact_recomputed_rational": "35780953912856150000/19486916546048413",
+      "decimal_display_60_digits": "1836.15267342600012490562174422486717691600676624378485519819",
+      "signed_recomputed_minus_stored_exact": "43827170816668413/194869165460484130000000000000",
+      "signed_difference_decimal_display": "2.24905621744224867176916006766243784855198190863325581051921E-13",
+      "reconstruction": "recomputed = source_stored + retained_signed_difference",
+      "units": "dimensionless"
+    },
+    "alpha_inverse": {
+      "source_stored_lexeme": "137.035999177",
+      "exact_recomputed_rational": "357809539128561500/2611062357902053",
+      "decimal_display_60_digits": "137.035999177000032800974423228522925162541880185496316491469",
+      "signed_recomputed_minus_stored_exact": "85645389619/2611062357902053000000000",
+      "signed_difference_decimal_display": "3.28009744232285229251625418801854963164914687984297424023451E-14",
+      "reconstruction": "recomputed = source_stored + retained_signed_difference",
+      "units": "dimensionless"
+    },
+    "alpha": {
+      "source_stored_lexeme": "0.0072973525643314245",
+      "exact_recomputed_rational": "2611062357902053/357809539128561500",
+      "decimal_display_60_digits": "0.00729735256433142328354948000850238239704090439428677660187785",
+      "signed_recomputed_minus_stored_exact": "-1741030399723427/1431238156514246000000000000000000",
+      "signed_difference_decimal_display": "-1.21645051999149761760295909560571322339812214852690754955574E-18",
+      "reconstruction": "recomputed = source_stored + retained_signed_difference",
+      "units": "dimensionless"
+    },
+    "eta_alpha": {
+      "source_stored_lexeme": "13.399053419929224",
+      "exact_recomputed_rational": "23736930526382300/1771537867822583",
+      "decimal_display_60_digits": "13.3990534199292204238693600987939086271046162513614525238406",
+      "signed_recomputed_minus_stored_exact": "-791906356108199/221442233477822875000000000000",
+      "signed_difference_decimal_display": "-3.57613063990120609137289538374863854747615940049302845179557E-15",
+      "reconstruction": "recomputed = source_stored + retained_signed_difference",
+      "units": "dimensionless"
+    }
+  },
+  "course08_branch_comparison": [
+    {
+      "historical_source_pointer": "S01#/backbone_sequence/4/projective_rays/master_geometry",
+      "historical_lexemes": [
+        "1",
+        "0.72973525645920595244932401459164514764311273208360709830244089259013899526544427",
+        "0.54461702151513304256465588852004665566471160638980820098958492135543133394303553"
+      ],
+      "active_source_pointer": "S02#/backbone_sequence/4/projective_ray",
+      "active_lexemes": [
+        "1.0",
+        "0.7297352564331424",
+        "0.5446170214888189"
+      ],
+      "signed_active_minus_historical_exact": [
+        "0",
+        "-2606355244932401459164514764311273208360709830244089259013899526544427/100000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "-2631414256465588852004665566471160638980820098958492135543133394303553/100000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      ],
+      "difference_kind": "provenance branch comparison; not measurement residual"
+    },
+    {
+      "historical_source_pointer": "S01#/backbone_sequence/4/projective_rays/locked_mass_bridge",
+      "historical_lexemes": [
+        "1",
+        "0.72973525643314250302457952646916832280660213133653604957798803819933561573639928",
+        "0.54461702148881883791248505567449693562745711038305542415906631382184511315519240"
+      ],
+      "active_source_pointer": "S02#/backbone_sequence/4/projective_ray",
+      "active_lexemes": [
+        "1.0",
+        "0.7297352564331424",
+        "0.5446170214888189"
+      ],
+      "signed_active_minus_historical_exact": [
+        "0",
+        "-1287807244080864604035082526641706700619724850477491695196704991/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "155218787360813757660931357224042361439602334215445387217112019/2500000000000000000000000000000000000000000000000000000000000000000000000000000"
+      ],
+      "difference_kind": "provenance branch comparison; not measurement residual"
+    }
+  ],
+  "course08_synthetic_sensitivity": [
+    {
+      "input_change": "ab",
+      "new_values": {
+        "ray": [
+          "1",
+          "2/3",
+          "61/120"
+        ],
+        "eta": "120000/61",
+        "alpha_inverse": "150",
+        "alpha": "1/150",
+        "eta_alpha": "800/61"
+      },
+      "signed_new_minus_old": {
+        "ray": [
+          "0",
+          "0",
+          "1/120"
+        ],
+        "eta": "-2000/61",
+        "alpha_inverse": "0",
+        "alpha": "0",
+        "eta_alpha": "-40/183"
+      }
+    },
+    {
+      "input_change": "ac",
+      "new_values": {
+        "ray": [
+          "1",
+          "27/40",
+          "1/2"
+        ],
+        "eta": "2000",
+        "alpha_inverse": "4000/27",
+        "alpha": "27/4000",
+        "eta_alpha": "27/2"
+      },
+      "signed_new_minus_old": {
+        "ray": [
+          "0",
+          "1/120",
+          "0"
+        ],
+        "eta": "0",
+        "alpha_inverse": "-50/27",
+        "alpha": "1/12000",
+        "eta_alpha": "1/6"
+      }
+    }
+  ],
+  "course09_generation_and_rounding": {
+    "source_generation_rule": "K_g=27^g",
+    "course_rule": "nint(t)=ceil(t-1/2), lower integer at every half-tie",
+    "epsilon": "Q_g-K_g*r in[-1/2,1/2)",
+    "source_status": "The archive left half-ties ambiguous; this is an explicit course convention required by SA-09, not an attributed original definition.",
+    "finite_decoder": "r=Q_0+sum_(j=1..g) C_j/27^j-epsilon_g/27^g",
+    "integer_equivariance": "nint(t+m)=nint(t)+m for every integer m; this justifies the carry rounding formula.",
+    "side_modes": "S=C_b+C_c; A=C_b-C_c; inverse halves require S congruent A mod2."
+  },
+  "verification_record": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-teaching-auditor\\outputs\\teaching-verification-07-09.json",
+  "verification_sha256": "49e1efd1ea38ed3884089caaecb9c0009a69af87a48bbf113beefb63f5dd43c6",
+  "source_or_project_files_modified": false
+}

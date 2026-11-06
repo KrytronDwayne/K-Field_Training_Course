@@ -1,0 +1,514 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-11",
+  "title": "Independent completed-course audit: Lucas Graphs, Edges, Cycles, and Memory",
+  "reviewed_utc": "2026-11-05T18:25:25.706330+00:00",
+  "status": "passed",
+  "scope": {
+    "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-11-lucas-graphs-edges-cycles-and-memory",
+    "content_read": "All six actual lessons, full capstone tasks/key/rubric and backward map, teacher guide, course map, terminology, source notes/provenance, builder audit and independent-content report, input-contract teaching amendment, manifest, completion and recorded verification. The assembled course was compared verbatim with all six read lesson texts.",
+    "source_read": "Directly read S02 /backbone_sequence/7, /backbone_sequence/18/branches/exceptional_cycle_bridge and S03 /findings/1. Rehashed all five pinned archive sources. No extra source claim is inferred from S01/S04/S05 context titles.",
+    "parent_support": "Read Course11 rows of series/audits/shape-graph-bridge-verification.json as comparison only. Parent computations are not used as this audit's proof.",
+    "independent_execution": "Fresh standard-library verifier uses its own graph enumeration, BFS tree paths and exact Fraction elimination; no builder/parent mathematical function is imported or executed.",
+    "writes": "Only auditor-workspace intermediate verifier and the two requested output JSON files. No project, Desktop, installed-skill, archive, permissions or parent-state edits."
+  },
+  "manifest_sha256": "5d05ec34a07727e52baefa7b776e30cb29411b8cbcb8e63a2f2478f614829e72",
+  "audited_files": {
+    "course-map.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-11-lucas-graphs-edges-cycles-and-memory\\course-map.md",
+      "sha256": "b4dd87c93720f70d3cae696ec7d87ba617e4867934513ce09ac8c498b1da104c"
+    },
+    "lesson-01.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-11-lucas-graphs-edges-cycles-and-memory\\lesson-01.md",
+      "sha256": "15e7b66d1189c5da952b3fc9044359fe1946f0fac152e2c91264ae9851e811b4"
+    },
+    "lesson-02.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-11-lucas-graphs-edges-cycles-and-memory\\lesson-02.md",
+      "sha256": "92826abc79c495192a0e17c53e2261f44a155ce42a066abe1867687732d38fa7"
+    },
+    "lesson-03.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-11-lucas-graphs-edges-cycles-and-memory\\lesson-03.md",
+      "sha256": "cf772af167da4e0c6571fa95bf634ca4ec32a38c1289f6afa82a05b55808c3af"
+    },
+    "lesson-04.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-11-lucas-graphs-edges-cycles-and-memory\\lesson-04.md",
+      "sha256": "012a6190c1a163b5ccfdf312398c4b4dd09698568ae38a72fa6b447ec996d62e"
+    },
+    "lesson-05.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-11-lucas-graphs-edges-cycles-and-memory\\lesson-05.md",
+      "sha256": "864dead6cda6423a1dc729927eca62bfde57021892e4e92578925c05668502fa"
+    },
+    "lesson-06.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-11-lucas-graphs-edges-cycles-and-memory\\lesson-06.md",
+      "sha256": "193a80457ea115f13e5306887822c9bea7c83f8c4ec57d58fc9f4c7bc8c520bb"
+    },
+    "terminology.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-11-lucas-graphs-edges-cycles-and-memory\\terminology.md",
+      "sha256": "a1d6953ce3025251b8943d05109916ff0fbe00edd615be1ad0b05f51766270dd"
+    },
+    "teacher-guide.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-11-lucas-graphs-edges-cycles-and-memory\\teacher-guide.md",
+      "sha256": "f3bac04b56a5fbdbabd9db6c210982da44f60808d81d3ccd953a9be2d18aa681"
+    },
+    "capstone.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-11-lucas-graphs-edges-cycles-and-memory\\capstone.md",
+      "sha256": "4125ffefce9fe31afca733513e5dce9cf15430203f70fe5816baefc812e28400"
+    },
+    "sources.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-11-lucas-graphs-edges-cycles-and-memory\\sources.md",
+      "sha256": "d340500632b312b547837c3b0401709c778b1dcfcc73a2bdfb1a8a8d4a850f8a"
+    },
+    "source-provenance.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-11-lucas-graphs-edges-cycles-and-memory\\source-provenance.json",
+      "sha256": "382d7374d5842f4f7c1436564e3ff6ece4d9006296de94250cd0ccd717667c28"
+    },
+    "verify_examples.py": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-11-lucas-graphs-edges-cycles-and-memory\\verify_examples.py",
+      "sha256": "7a262ca516064079ab2bff872ba71b3be95effd8bc692e592408d62024b722c2"
+    },
+    "worked-example-verification.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-11-lucas-graphs-edges-cycles-and-memory\\worked-example-verification.json",
+      "sha256": "d46b2227b62c79ea192f0a725ef4d3d485735856c1632ae2784868219e8d4981"
+    },
+    "independent-content-audit.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-11-lucas-graphs-edges-cycles-and-memory\\independent-content-audit.json",
+      "sha256": "51b597ce1dcf48377233d1823b1fa16804614a3ea6431b3ff42567557b8ab5c6"
+    },
+    "finalize_course.py": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-11-lucas-graphs-edges-cycles-and-memory\\finalize_course.py",
+      "sha256": "43ee1c1d4559d3a4a85311467f37308037403d9a5dded57f1261a68756d5942b"
+    },
+    "course.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-11-lucas-graphs-edges-cycles-and-memory\\course.md",
+      "sha256": "a64730db4b1395ff95d5912736ac8157b83c9c3ff2f59fba710c033a9828364b"
+    },
+    "audit_report.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-11-lucas-graphs-edges-cycles-and-memory\\audit_report.json",
+      "sha256": "60aa3a554e511f9af3d579d35c11b280c1feb16f60278c961b3942b4bd6d630d"
+    },
+    "completion_report.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-11-lucas-graphs-edges-cycles-and-memory\\completion_report.json",
+      "sha256": "b60b547886a5cbdfdd470a21d18491741098fe6949e0d9d3b8f856af381654bf"
+    },
+    "manifest.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-11-lucas-graphs-edges-cycles-and-memory\\manifest.json",
+      "sha256": "5d05ec34a07727e52baefa7b776e30cb29411b8cbcb8e63a2f2478f614829e72"
+    },
+    "input-contract.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-11-lucas-graphs-edges-cycles-and-memory\\input-contract.json",
+      "sha256": "a6705b9872c6f83f75a0d8f545d1307eb7faa5c52386faf23c3fda99eee408de"
+    },
+    "validator-result.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-11-lucas-graphs-edges-cycles-and-memory\\validator-result.json",
+      "sha256": "0c7e318a59eff9ef9eff91d7b39c9956084f54cf5ee7f3c526de0588cacb51ce"
+    }
+  },
+  "source_hashes": [
+    {
+      "id": "S01",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180"
+    },
+    {
+      "id": "S02",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3"
+    },
+    {
+      "id": "S03",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e"
+    },
+    {
+      "id": "S04",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+      "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2"
+    },
+    {
+      "id": "S05",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+      "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7"
+    }
+  ],
+  "findings": [],
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "verified_repairs": [
+    {
+      "id": "IC11-E05-01",
+      "severity_of_original_finding": "major",
+      "disposition": "independently_verified_resolved",
+      "file": "lesson-03.md",
+      "task_line": 31,
+      "answer_line": 33,
+      "evidence": "P1 explicitly asks expression of the same3c using basis -c. Its answer supplies coefficient -3 and the reconstructed state (3,3,3,3). Independent sign multiplication passed; assembly identity includes this repaired text.",
+      "effect": "Closes the previously reported missing designated-practice suboperation for C11-CAP-03. This report introduces no new unresolved finding."
+    }
+  ],
+  "lesson_reviews": [
+    {
+      "lesson_id": "lesson-01",
+      "status": "passed",
+      "teaching": "Defines vertices, edges, adjacency, walks, paths, degree and product adjacency before counting. Draws the 3x2 rectangle; counts directions without double counting; distinguishes open edges from jumps and diagonals.",
+      "recomputed": "P2xP2=4 vertices/4 edges; P3xP2=6/7; P3xP3=9/12; open Lucas=27/54 with 18 edges per axis. Corner/edge-center/face-center/center degrees are 3/4/5/6.",
+      "practice": "P1 asks and answers square/cube counts, degree classes and a fresh rectangle drawing and edge list. CAP01 is covered by actual content.",
+      "scope": "Tuple labels and synthetic dimensionless states are not physical lengths or measurements.",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-11-lucas-graphs-edges-cycles-and-memory\\lesson-01.md",
+      "sha256": "15e7b66d1189c5da952b3fc9044359fe1946f0fac152e2c91264ae9851e811b4"
+    },
+    {
+      "lesson_id": "lesson-02",
+      "status": "passed",
+      "teaching": "Defines tail/head orientation as reference bookkeeping, incidence signs -1/+1, ordered matrix products, node/edge types, rank via independent columns, and transpose gradients.",
+      "recomputed": "Triangle D(2,3,4)=(2,-1,-1), rank2; square D(2,3,4,5)=(3,-1,-1,-1), rank3. Last column is minus preceding columns. Reversing one edge and its flow coordinate preserves divergence.",
+      "practice": "Square P1 requires construction of D, multiplication, independence row equations, edge reversal and gradient (1,2,-1,-2). CAP02 is not relying on untaught rank terminology.",
+      "scope": "Arrivals-minus-departures divergence convention is explicit; zero total divergence is distinguished from every node balancing.",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-11-lucas-graphs-edges-cycles-and-memory\\lesson-02.md",
+      "sha256": "92826abc79c495192a0e17c53e2261f44a155ce42a066abe1867687732d38fa7"
+    },
+    {
+      "lesson_id": "lesson-03",
+      "status": "passed",
+      "teaching": "Defines spanning tree, chord, fundamental cycle, circulation, cut/gradient and dot product; proves tree circulation vanishes by leaf elimination and cycle-gradient orthogonality by telescoping.",
+      "recomputed": "Triangle c=(1,1,1), gradient (3,2,-5), dot0; square c=(1,1,1,1), gradient (1,2,-1,-2), dot0. The incomplete square path (1,1,1,0) has divergence (-1,0,0,1).",
+      "practice": "Repaired P1 explicitly asks to represent the same 3c in basis -c and answers coefficient -3 with (-3)(-c)=(3,3,3,3). Cycle-orientation reversal is independently attempted as well as explained.",
+      "scope": "Changing cycle-basis orientation differs from changing an edge arrow; both are consistently treated and separately checked.",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-11-lucas-graphs-edges-cycles-and-memory\\lesson-03.md",
+      "sha256": "cf772af167da4e0c6571fa95bf634ca4ec32a38c1289f6afa82a05b55808c3af"
+    },
+    {
+      "lesson_id": "lesson-04",
+      "status": "passed",
+      "teaching": "Proves rank V-1 using tree-column independence plus the zero-sum upper bound. Proves cut dimension with rooted potentials and cycle dimension with independent generating chord cycles.",
+      "recomputed": "Rectangle tree5/rank5/cycles2; square3x3 tree8/rank8/cycles4; Lucas tree26/rank26/cycles28. Rectangle signed fundamental cycles match both taught return paths; parent(1,2,1)=(0,2,1) and parent(0,1,2)=(0,0,2).",
+      "practice": "P1 requires reusing the leaf/chord proof on 3x3 and Lucas, explaining independence and generation, giving the parent rule, reading chord coefficients, and constructing the second rectangle cycle.",
+      "scope": "Lexicographic vertices, axis-then-tail edge order, increasing arrows, root zero, first-nonzero parent and +1 own-chord convention specify the actual decoder. Absolute potential root values are retained when part of the state.",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-11-lucas-graphs-edges-cycles-and-memory\\lesson-04.md",
+      "sha256": "012a6190c1a163b5ccfdf312398c4b4dd09698568ae38a72fa6b447ec996d62e"
+    },
+    {
+      "lesson_id": "lesson-05",
+      "status": "passed",
+      "teaching": "Adds 27 wrap chords using the same tree and explicit 2->0 arrows. Splits nine coefficients per axis into winding sum W, mean W/9, eight free details and a dependent ninth; proves the inverse and states integer compatibility.",
+      "recomputed": "Periodic81 edges, incidence rank26, cycle basis rank55; 55=28+24+3. W1 gives W45/mean5/details -4..4. P1 gives W9/mean1/eight -1/ninth8. Integer diagnostic gives W1/mean1/9/details 8/9 and eight -1/9.",
+      "practice": "P1 reconstructs all coefficients and identifies the three nonzero edges of 9h_(0,9), repeats periodic counts and tests fractional details of integer data. Thus the full CAP05 state, not just its winding sum, is practiced.",
+      "scope": "52+3 is a real/rational coordinate split, not a constructed F4 action, force, lifetime or free integer direct product.",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-11-lucas-graphs-edges-cycles-and-memory\\lesson-05.md",
+      "sha256": "864dead6cda6423a1dc729927eca62bfde57021892e4e92578925c05668502fa"
+    },
+    {
+      "lesson_id": "lesson-06",
+      "status": "passed",
+      "teaching": "Defines operational memory as a specified state plus decoder. Reads chord coefficients, forms cycle sum s and retains r=f-s on tree edges, with Dr=Df. Explicitly distinguishes the tree complement from the gradient/cut space.",
+      "recomputed": "Triangle q4,r=(-2,-1,0); square q5,r=(-3,-2,-1,0); exact inverse and preserved divergence hold. Verified square3c has zero remainder. Identity/doubling updates from3 give (3,3,3) versus (3,6,12).",
+      "practice": "P1 performs the square general-flow reconstruction, a verified circulation, metadata enumeration and update-rule comparison. CAP06 introduces no new required operation.",
+      "scope": "General periodic flows retain all 26 tree values in addition to 55 cycle coordinates. Counts alone do not determine an update rule or establish a measured memory duration.",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-11-lucas-graphs-edges-cycles-and-memory\\lesson-06.md",
+      "sha256": "193a80457ea115f13e5306887822c9bea7c83f8c4ec57d58fc9f4c7bc8c520bb"
+    }
+  ],
+  "actual_capstone_practice_links": [
+    {
+      "step_id": "C11-CAP-01",
+      "lesson": "lesson-01.md",
+      "locations": {
+        "explanation_id": {
+          "id": "C11.01-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C11.01-W1",
+          "line": 25
+        },
+        "prior_practice_id": {
+          "id": "C11.01-P1",
+          "line": 33
+        },
+        "diagnostic_id": {
+          "id": "C11.01-D1",
+          "line": 41
+        }
+      },
+      "semantic_review": "Lesson01 P1 explicitly includes a fresh 3x2 drawing and seven-edge list after square/cube directional counts; E1 defines adjacency and D1 rejects 0->2 open jumps.",
+      "adequate": true
+    },
+    {
+      "step_id": "C11-CAP-02",
+      "lesson": "lesson-02.md",
+      "locations": {
+        "explanation_id": {
+          "id": "C11.02-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C11.02-W1",
+          "line": 19
+        },
+        "prior_practice_id": {
+          "id": "C11.02-P1",
+          "line": 38
+        },
+        "diagnostic_id": {
+          "id": "C11.02-D1",
+          "line": 56
+        }
+      },
+      "semantic_review": "Lesson02 P1 constructs the exact capstone square D, gives all four row products, shows fourth-column dependence and proves first-three independence by row equations.",
+      "adequate": true
+    },
+    {
+      "step_id": "C11-CAP-03",
+      "lesson": "lesson-03.md",
+      "locations": {
+        "explanation_id": {
+          "id": "C11.03-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C11.03-W1",
+          "line": 21
+        },
+        "prior_practice_id": {
+          "id": "C11.03-P1",
+          "line": 29
+        },
+        "diagnostic_id": {
+          "id": "C11.03-D1",
+          "line": 37
+        }
+      },
+      "semantic_review": "Lesson03 P1 constructs the chord cycle, verifies Dc, computes the supplied gradient and dot, decodes3c, and now explicitly solves reversal of cycle basis. The repair is present in both task and worked answer.",
+      "adequate": true
+    },
+    {
+      "step_id": "C11-CAP-04",
+      "lesson": "lesson-04.md",
+      "locations": {
+        "explanation_id": {
+          "id": "C11.04-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C11.04-W1",
+          "line": 21
+        },
+        "prior_practice_id": {
+          "id": "C11.04-P1",
+          "line": 29
+        },
+        "diagnostic_id": {
+          "id": "C11.04-D1",
+          "line": 37
+        }
+      },
+      "semantic_review": "Lesson04 E1 derives the general rank/cut/chord arguments and reproducible Lucas tree; P1 explicitly reapplies independence and generation to Lucas and reads coefficients at chord positions. W1 gives the exact parent queried in the capstone, while P1 independently practices another parent.",
+      "adequate": true
+    },
+    {
+      "step_id": "C11-CAP-05",
+      "lesson": "lesson-05.md",
+      "locations": {
+        "explanation_id": {
+          "id": "C11.05-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C11.05-W1",
+          "line": 25
+        },
+        "prior_practice_id": {
+          "id": "C11.05-P1",
+          "line": 35
+        },
+        "diagnostic_id": {
+          "id": "C11.05-D1",
+          "line": 43
+        }
+      },
+      "semantic_review": "Lesson05 P1 uses the exact concentrated nine-entry list, requires all decoder coordinates, basis sum, three nonzero full-flow edges and periodic counts. Its integer example supports the stated rational-coordinate boundary.",
+      "adequate": true
+    },
+    {
+      "step_id": "C11-CAP-06",
+      "lesson": "lesson-06.md",
+      "locations": {
+        "explanation_id": {
+          "id": "C11.06-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C11.06-W1",
+          "line": 21
+        },
+        "prior_practice_id": {
+          "id": "C11.06-P1",
+          "line": 27
+        },
+        "diagnostic_id": {
+          "id": "C11.06-D1",
+          "line": 35
+        }
+      },
+      "semantic_review": "Lesson06 P1 derives q5 and the entire square remainder from f, checks inverse and Dr=Df, lists conventions and compares update rules. CAP06 reverses this same practiced decoder from supplied q and r.",
+      "adequate": true
+    }
+  ],
+  "independent_recomputation": {
+    "verification_file": "course-11-independent-verification.json",
+    "status": "passed",
+    "exit_code": 0,
+    "check_count": 426,
+    "checks_by_group": {
+      "integrity": 105,
+      "sources": 8,
+      "contract": 2,
+      "links": 30,
+      "repair": 2,
+      "graph": 98,
+      "rectangle": 4,
+      "ring": 28,
+      "periodic": 120,
+      "wrap-decoder": 21,
+      "general-flow": 4,
+      "parent-comparison": 2,
+      "rubric": 2
+    },
+    "count_interpretation": "277 numerical/graph/decoder/rubric assertions plus149 source/integrity/contract/link/repair/comparison assertions. Content-level teaching judgment was performed separately.",
+    "highlights": {
+      "open": {
+        "vertices": 27,
+        "edges": 54,
+        "incidence_rank": 26,
+        "cut_dimension": 26,
+        "tree_edges": 26,
+        "cycle_basis_rank": 28
+      },
+      "periodic": {
+        "vertices": 27,
+        "edges": 81,
+        "incidence_rank": 26,
+        "cycle_basis_rank": 55,
+        "partition": [
+          28,
+          24,
+          3
+        ],
+        "cycle_plus_tree_decoder_rank": 81
+      },
+      "capstone_wrap": "Exactly three entries equal+9: (0,2,2)->(1,2,2), (1,2,2)->(2,2,2), and wrap (2,2,2)->(0,2,2); all78 other entries are zero. All55 coefficients and full27-node zero divergence checked.",
+      "retained_memory": "Square full state is (2,3,4,5), not merely its cycle contribution (5,5,5,5). Remainder (-3,-2,-1,0) is preserved; both full state and remainder have divergence (3,-1,-1,-1).",
+      "nonorthogonal_complement": "Square remainder dot cycle is -6, confirming it cannot be a gradient on that full graph. The course correctly avoids labeling its chosen tree complement an orthogonal cut projection.",
+      "supplemental_general_periodic_decoder": "Auditor-generated rational81-edge field is recovered exactly from28 open coefficients,24 details,3 windings and26 retained tree values. Full divergence and all81 reconstruction errors are retained in verification JSON."
+    },
+    "proof_review": [
+      "Tree leaf elimination forces every coefficient of a tree-supported circulation to zero; tree incidence columns are independent. All incidence columns sum to zero, furnishing the V-1 upper bound for a connected graph.",
+      "Rooting potentials removes only a constant from gradient coordinates. Connectivity proves injectivity of the V-1 remaining potential coordinates, establishing cut dimension without a hidden transpose-rank theorem.",
+      "Each fundamental cycle has +1 on its own chord and zero on other chords. This proves independence. Subtracting chord coefficients from any circulation leaves a tree circulation, which vanishes; hence generation.",
+      "Wrap transform is invertible over the reals/rationals: d9=-sum(d1..d8), wj=W/9+dj. Integer input reconstruction imposes compatibility rather than nine arbitrary integer output coordinates.",
+      "For any flow, chord-derived s is a circulation and r=f-s is tree-supported; f=s+r and Dr=Df. This retains every noncycle component without implying an orthogonal decomposition.",
+      "The resulting finite graph counts and reversible coordinates do not themselves define a dynamics or a named algebra action."
+    ]
+  },
+  "source_fidelity": {
+    "backbone": "Mature mathematical M08 requires M03 and M07; course locally teaches the finite graph constructions it assesses. Mathematical-backbone M08 is not conflated with a compiler module numbered M08.",
+    "classroom_choices": "The lexicographic/axis/tail order, first-nonzero parent tree and wrap-sum normalization are explicitly declared classroom conventions from the teaching contract, not falsely attributed as a verbatim archival basis.",
+    "AUD_002": "Source-reported semantic formula-DAG incompleteness is retained as a serialization limitation. This audit does not repair that global DAG or carry its critical source classification over to a correctly bounded finite course.",
+    "exceptional_branch": "Source separately lists identification of the52-sector with a specific F4 action and physical coupling as extensions. Actual teaching preserves that separation.",
+    "source_status": "Archive reports, fresh finite derivations, synthetic classroom states and physical-mechanism questions remain distinct.",
+    "graph_generation": "The course's recorded generation snapshot is attributed to its prior retrieval. This audit verifies pinned local source hashes and does not claim a fresh graph-generation query.",
+    "parent_comparison": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\shape-graph-bridge-verification.json",
+      "sha256": "fb2a8730ac624ce7ef8d59f3b1975efb7c128993706275f8adc0e6a1bc8f406e",
+      "rows": {
+        "C11-SPANNING-TREE": {
+          "id": "C11-SPANNING-TREE",
+          "passed": true,
+          "nodes": 27,
+          "open_edges": 54,
+          "tree_edges": 26,
+          "independent_fundamental_cycles": 28,
+          "method": "A connected spanning tree has 26 edges. Every non-tree edge gives one unique fundamental cycle coordinate."
+        },
+        "C11-PERIODIC-AUGMENTATION": {
+          "id": "C11-PERIODIC-AUGMENTATION",
+          "passed": true,
+          "periodic_edges": 81,
+          "cycle_dimension": 55,
+          "decomposition": [
+            28,
+            24,
+            3
+          ],
+          "scope": "27 added wrap coordinates split into three axis means and 24 zero-sum axis details. A basis/gauge and reconstruction must be stated before interpreting values as a memory state."
+        }
+      },
+      "use": "Comparison only; independent enumeration, BFS cycles and Fraction elimination supply the checks"
+    }
+  },
+  "assessment_and_audience": {
+    "capstone_steps": 6,
+    "rubric_points": [
+      12,
+      18,
+      16,
+      18,
+      24,
+      12
+    ],
+    "rubric_total": 100,
+    "rubric": "All subpart sums agree. Wrong adjacency/signs, discarded details/remainder and unsupported dynamics require repair regardless of total score.",
+    "practice": "All assessed suboperations have actual preceding explanation and independently attempted answered practice; repaired orientation reversal is confirmed explicitly.",
+    "senior_accessibility": "Rank is introduced via small column equations before general dimensions; tree and chord arguments precede Lucas counts; gradients and dot products are defined; sums and rational wrap decoding are taught before assessment. Programming, group theory and a prior university linear-algebra course are not required.",
+    "pacing": {
+      "lesson_periods": [
+        1,
+        2,
+        2,
+        1,
+        2,
+        1
+      ],
+      "minutes_per_period": 55,
+      "core_minutes": 495,
+      "capstone_minutes": 110,
+      "total_minutes": 605
+    },
+    "pacing_judgment": "Dense incidence, cycle and periodic lessons each have two periods; teacher cumulative checks and repair gates are substantive. This is content-based feasibility, not a classroom timing measurement."
+  },
+  "fresh_project_validation": {
+    "canonical_output_root": "Z:\\Kfield-doc-training\\K-Field_Training_Course",
+    "checks": [
+      "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+      "parsed manifest.json",
+      "parsed audit_report.json",
+      "parsed completion_report.json",
+      "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+    ],
+    "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-11-lucas-graphs-edges-cycles-and-memory",
+    "errors": [],
+    "schema_version": "1.0",
+    "status": "passed",
+    "storage_authority": "User explicitly authorized project-folder outputs, 2026-11-05",
+    "validator_path": "C:\\Users\\info\\.codex\\skills\\build-high-school-course\\scripts\\validate_course.py",
+    "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+    "exit_code": 0,
+    "fixture_mode": false,
+    "adapter": "Z:/Kfield-doc-training/.work/validate_project_course.py",
+    "scope": "Read-only installed validator with only the authorized canonical project-root constant overridden.",
+    "runtime_note": "Conda emitted the existing missing OpenCL vendors/temp.txt startup warning. Independent verifier and installed validator both exited0; no environment changes were made."
+  },
+  "limitations": [
+    "Finite graph algebra, reversible representations and teaching coverage only; no measured physical-memory lifetime, mechanism or dynamical law is established or tested.",
+    "No global archival formula-DAG certification, exceptional-group action, integer direct-product theorem, or spectral/parity extension is claimed.",
+    "General proofs were reviewed mathematically and finite identities/ranks recomputed exactly; no external formal proof assistant was run.",
+    "No learner trial was conducted. Planned pacing and senior accessibility are judged from explicit prerequisites and actual teaching.",
+    "Markdown-only delivery: textual diagrams and tables were read; no PDF/Word pagination or rendering was required.",
+    "Acceptance recommendation is bound to the recorded manifest and file hashes; parent retains acceptance authority and must recheck changed content."
+  ],
+  "eligible_for_parent_acceptance": true,
+  "source_files_copied": false,
+  "course_or_parent_files_modified": false
+}

@@ -1,0 +1,57 @@
+{
+  "status": "passed",
+  "findings": [
+    {
+      "id": "IA-E05-01",
+      "level": "final",
+      "category": "E05 assessment prerequisite closure",
+      "file": "lesson-02.md",
+      "section": "Guided practice P1",
+      "severity": "major",
+      "defect": "P1 practices one numerical scaling but not the arbitrary-s cancellation proof assessed in C08-CAP-02.",
+      "correction": "Extend P1 with an explicitly asked and independently answered cancellation of both (s²A_ac)/(s²A_bc) and (s²A_ab)/(s²A_bc), including positive-denominator condition.",
+      "verification": "Reread revised lesson-02 P1: both arbitrary-s cancellations answered with conditions. Reread revised lesson-04 P1: full active and historical ledger rows answered. Both E05 gaps corrected.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "lesson-02",
+        "capstone",
+        "assembly"
+      ]
+    },
+    {
+      "id": "IA-E05-02",
+      "level": "final",
+      "category": "E05 assessment prerequisite closure",
+      "file": "lesson-04.md",
+      "section": "Guided practice P1",
+      "severity": "major",
+      "defect": "P1 practices reconstruction and naming a historical input set but not building the complete provenance row assessed in C08-CAP-04.",
+      "correction": "Extend P1 with a complete answered historical or active ledger row including source ID/hash reference, pointer, original lexeme(s), component order, unit and role.",
+      "verification": "Reread revised lesson-02 P1: both arbitrary-s cancellations answered with conditions. Reread revised lesson-04 P1: full active and historical ledger rows answered. Both E05 gaps corrected.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "lesson-04",
+        "capstone",
+        "assembly"
+      ]
+    }
+  ],
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "author_check_record": "author-audit.json",
+  "independent_check_record": "independent-audit.json",
+  "arithmetic_replay": "replay_checks.py and independent_audit_checks.py",
+  "final_checks": {
+    "source_fidelity": "Five matching original source hashes; source status and fresh computations separated",
+    "prerequisites": "Independent E05 review; arbitrary-s proof and provenance-row practice repaired",
+    "coverage": "Six concepts introduced, practiced, assessed, and reused",
+    "recovery": "All output hashes refreshed after repaired assembly",
+    "assembly": "Every final lesson copied verbatim with required markers",
+    "rendering": "Markdown-only output; no paginated rendering required",
+    "minimality": "Six core periods plus two capstone periods; no new teaching in assembly"
+  },
+  "source_gap": "MCP search did not locate exact source artifact and did not expose snapshot generation; local exact-hash files used. Full archive proof certification is outside this finite course."
+}

@@ -1,0 +1,269 @@
+{
+  "schema_version": "1.0",
+  "status": "passed",
+  "created_at": "2026-11-05T18:34:25.893971+00:00",
+  "scope": "Parent authored finite teaching support for courses24-30, to be independently checked before use. No empirical observations, archived coefficient substitutions, source copies or completed-course acceptance.",
+  "checks": [
+    {
+      "id": "C24-RIGID-FRAME",
+      "passed": true,
+      "synthetic_position": [
+        4,
+        5,
+        1
+      ],
+      "scope": "Fixed rotation and translation at a declared shared epoch. A time-varying rotation adds its derivative term to transformed velocity; position offsets are not velocity terms."
+    },
+    {
+      "id": "C24-SIGNED-COMPOSITION",
+      "passed": true,
+      "synthetic_terms": [
+        [
+          10,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "total": [
+        9,
+        2,
+        1
+      ],
+      "scope": "Compatible common-frame velocity contributions in one declared unit. Toy numbers are not laboratory/CMB measurements. Physical CMB speed and phase-transformed vector remain distinct authorities."
+    },
+    {
+      "id": "C25-PLANE-RATE",
+      "passed": true,
+      "normal": [
+        "3/5",
+        "4/5",
+        "0"
+      ],
+      "velocity": [
+        2,
+        0,
+        0
+      ],
+      "spacing_m": "3/5",
+      "signed_crossings_per_second": "2",
+      "crossing_times_s": [
+        "0",
+        "1/2",
+        "1",
+        "3/2"
+      ],
+      "scope": "Fixed parallel planes, fixed origin and constant velocity; unsigned frequency loses direction and must accompany the signed rate."
+    },
+    {
+      "id": "C25-INTERPOLATION",
+      "passed": true,
+      "linear_crossing_s": "1/2",
+      "scope": "Exact for declared linear segment; otherwise interpolation model with retained bracket/approximation information. A missing or discontinuous interval is not silently bridged."
+    },
+    {
+      "id": "C25-UNSEEN-CROSSINGS",
+      "passed": true,
+      "same_sign_endpoints": "s(t)=(t-1)(t-2),t=0,3",
+      "two_roots": [
+        1,
+        2
+      ],
+      "tangent_example": "s(t)=(t-1)^2 also reaches0 without sign reversal",
+      "scope": "No endpoint-only claim of absence. Continuity, sampling and event definition are explicit."
+    },
+    {
+      "id": "C26-DFT-AND-PHASE",
+      "passed": true,
+      "input": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "DFT": [
+        [
+          "10",
+          "0"
+        ],
+        [
+          "-2",
+          "2"
+        ],
+        [
+          "-2",
+          "0"
+        ],
+        [
+          "-2",
+          "-2"
+        ]
+      ],
+      "convention": "X_k=sum_j x_j exp(-2pi i j k/4); inverse factor1/4, positive exponent.",
+      "scope": "A shift changes complex phases even when magnitudes stay equal. Preserve all coefficients, DC, Nyquist and sample order."
+    },
+    {
+      "id": "C26-ANTIPODAL-HARMONICS",
+      "passed": true,
+      "even": [
+        "2",
+        "3",
+        "2",
+        "3"
+      ],
+      "odd": [
+        "-1",
+        "-1",
+        "1",
+        "1"
+      ],
+      "scope": "Even comparison suppresses odd antipodal harmonics. It cannot establish the absence of their retained amplitudes. No detector channel is deleted."
+    },
+    {
+      "id": "C26-FOUR-ANGLE-LEDGER",
+      "passed": true,
+      "synthetic_C0_C90_C180_C270": [
+        8,
+        4,
+        6,
+        2
+      ],
+      "Q": "3",
+      "G": "4",
+      "g": "4/3",
+      "rho": "1/2",
+      "P": "8/3",
+      "retained_pair_half_differences": [
+        "1",
+        "1"
+      ],
+      "scope": "Arithmetic under declared source formulas and synthetic speed/c/angle inputs. Q=0 or sin(theta)=0 is an invalid denominator case requiring a retained status, not an imputed0. P is a modeled coefficient, not measured transferred energy."
+    },
+    {
+      "id": "C26-ENERGY-EQUIVALENT",
+      "passed": true,
+      "synthetic_model_energy": "8",
+      "synthetic_photon_energy": "20",
+      "equivalent_count": "2/5",
+      "scope": "All constants are explicitly toy values in consistent units. Continuous energy-equivalent photon count is not an observed detection count or a demonstrated transfer."
+    },
+    {
+      "id": "C27-CONGRUENCE",
+      "passed": true,
+      "W": [
+        [
+          "2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "scope": "Synthetic2D typed matrices, W=B^T G B/4. Not retrieved locked Cell3 G_phase,C or W_qpc. If B is length and G inverse-length-squared, W is dimensionless; using coordinate velocities makes rate cost1/time\u00b2 and integrated cost1/time."
+    },
+    {
+      "id": "C27-ROUTE-BOUND",
+      "passed": true,
+      "unit_segment_durations": [
+        1,
+        1
+      ],
+      "straight_cost": "4",
+      "dogleg_cost": "8",
+      "synthetic_lower_upper": [
+        "4",
+        "4"
+      ],
+      "proof": "For a fixed positive constant G, fixed durationT and fixed displacement, write v=vbar+d with integral d=0. Cost=T*vbar^T G vbar+integral d^T G d >= baseline. Straight path attains the bound.",
+      "scope": "Authored elementary continuous/piecewise-linear certificate with these assumptions, NOT kfield.route.least-cost-certificate. Keep constraint set, durations and metric fixed when comparing. Source route retrieval gap recorded separately."
+    },
+    {
+      "id": "C28-CLEAR-REFERENCE",
+      "passed": true,
+      "Clear": [
+        10,
+        0,
+        20
+      ],
+      "raw": [
+        2,
+        5,
+        8
+      ],
+      "valid": [
+        true,
+        false,
+        true
+      ],
+      "ratios": [
+        "1/5",
+        null,
+        "2/5"
+      ],
+      "scope": "Zero-Clear row retains raw value5 and invalid-transform status. Raw inputs, reference and rounding residuals are needed for an inverse account; no zero substitution or data deletion."
+    },
+    {
+      "id": "C29-METRIC",
+      "passed": true,
+      "scope": "Synthetic positive metric; demonstrates directional distance and inverse, not a galaxy-derived or locked Cell3 calibration."
+    },
+    {
+      "id": "C29-OWNER-NOT-NEAREST",
+      "passed": true,
+      "coordinate": "[Fraction(49, 100), Fraction(49, 100)]",
+      "physical_x": [
+        "931/1000",
+        "49/1000"
+      ],
+      "distance_squared_origin": "434581/500000",
+      "distance_squared_b": "1781/500000",
+      "scope": "Coordinate rounding selects owner0, but b is closer in this skew geometry. This only refutes owner=nearest; it is not a global closest-vector certificate. Phase offsets, physical origin and units remain separate."
+    },
+    {
+      "id": "C30-IDENTIFIABILITY",
+      "passed": true,
+      "first_design": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "indistinguishable_parameters": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "new_row": [
+        1,
+        -1
+      ],
+      "reconstruction_rule": "theta1=(sum+difference)/2;theta2=(sum-difference)/2",
+      "scope": "Synthetic design calculation. A proposed additional measurement distinguishes these two candidates under the given linear model; it is not an experimental result or a unique physical coupling law."
+    }
+  ],
+  "script_sha256": "aff9ecf863a2814a9f2c299b6122f447601070c79e455eefe5b08d3e0d126017"
+}

@@ -1,0 +1,144 @@
+{
+  "schema_version": "1.0",
+  "timestamp": "2026-11-05T17:02:05.375955+00:00",
+  "status": "applied",
+  "source_report_status_at_handoff": "bounded_audit_complete",
+  "applied_amendments": [
+    {
+      "course": 4,
+      "amendment_id": "SA-04"
+    },
+    {
+      "course": 5,
+      "amendment_id": "SA-05"
+    },
+    {
+      "course": 6,
+      "amendment_id": "SA-06"
+    },
+    {
+      "course": 7,
+      "amendment_id": "SA-07"
+    },
+    {
+      "course": 9,
+      "amendment_id": "SA-09"
+    },
+    {
+      "course": 10,
+      "amendment_id": "SA-10"
+    },
+    {
+      "course": 12,
+      "amendment_id": "SA-12"
+    },
+    {
+      "course": 12,
+      "amendment_id": "EA-12-E06-1"
+    },
+    {
+      "course": 14,
+      "amendment_id": "SA-14"
+    },
+    {
+      "course": 14,
+      "amendment_id": "EA-14-E06-2"
+    },
+    {
+      "course": 17,
+      "amendment_id": "SA-17"
+    },
+    {
+      "course": 20,
+      "amendment_id": "SA-20"
+    },
+    {
+      "course": 20,
+      "amendment_id": "EA-20-E07-3"
+    },
+    {
+      "course": 21,
+      "amendment_id": "SA-21"
+    },
+    {
+      "course": 21,
+      "amendment_id": "EA-21-E07-4"
+    },
+    {
+      "course": 21,
+      "amendment_id": "EA-21-E08-5"
+    },
+    {
+      "course": 22,
+      "amendment_id": "EA-22-E09-6"
+    },
+    {
+      "course": 24,
+      "amendment_id": "SA-24"
+    },
+    {
+      "course": 24,
+      "amendment_id": "EA-24-E10-7"
+    },
+    {
+      "course": 26,
+      "amendment_id": "SA-26"
+    },
+    {
+      "course": 26,
+      "amendment_id": "EA-26-E10-8"
+    },
+    {
+      "course": 27,
+      "amendment_id": "SA-27"
+    },
+    {
+      "course": 28,
+      "amendment_id": "SA-28"
+    },
+    {
+      "course": 29,
+      "amendment_id": "SA-29-E11"
+    },
+    {
+      "course": 30,
+      "amendment_id": "SA-30"
+    }
+  ],
+  "preserved_existing_supplemental_concepts": [
+    "C18.S01",
+    "C18.S02",
+    "C18.S03",
+    "C20.S01",
+    "C20.S02",
+    "C21.S01",
+    "C21.S02",
+    "C21.S03",
+    "C26.S01",
+    "C28.S01"
+  ],
+  "galaxy_source_hashes_verified": [
+    {
+      "id": "G01",
+      "sha256": "bd6ff0e335f3c405000cd1f8adfa3ae947dc9362dfeb772764cf98ef62ae6f63"
+    },
+    {
+      "id": "G02",
+      "sha256": "69dcaace292365d22b9b48c43edc0ac4936b148ec68a5b265abc72aaff4f4447"
+    },
+    {
+      "id": "G03",
+      "sha256": "aa7f4236b7f956c652690934d6444f597ea38b6e485cc77a22be884b567d1cea"
+    },
+    {
+      "id": "G04",
+      "sha256": "856777f0fae0d6b50e8d235435068b7ea3c25a83068cfbfb197b62835cbb8fbd"
+    }
+  ],
+  "E11_source_application": "corrected: all four source records, role guards, source/lesson map and synthetic exercise now in course29 contract; teaching recheck pending",
+  "unresolved_source_application_major": 0,
+  "unresolved_source_application_critical": 0,
+  "teaching_approval_granted": false,
+  "first_three_completed_courses_changed": false,
+  "source_data_copied": false
+}

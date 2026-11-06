@@ -1,0 +1,376 @@
+{
+  "schema_version": "1.0",
+  "topic": "Reading the K-Field: Evidence, Models, and Information",
+  "audience": "High-school seniors; first-principles teaching, with concrete prerequisite capabilities and taught bridges.",
+  "assumptions": [
+    "A topical short course, not a semester per topic. Pacing is 55-minute core lessons plus capstone periods; split dense lessons if actual learner load requires it.",
+    "No prior calculus, abstract algebra, university linear algebra, or quantum mechanics unless explicitly taught earlier.",
+    "Required core assessments must be solvable with taught finite examples. Clearly label deeper recognition-only extensions.",
+    "Markdown is the delivery format; no PDF or Word generation is required."
+  ],
+  "course_output_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-01-reading-the-k-field-evidence-models-and-information",
+  "storage_authority": "User explicitly authorized this writable workspace destination; supersedes Desktop-only skill rule.",
+  "ordered_deliverables": [
+    "input-contract.json",
+    "course-map.md",
+    "sources.md",
+    "source-verification.json",
+    "lesson-01.md",
+    "lesson-02.md",
+    "lesson-03.md",
+    "lesson-04.md",
+    "lesson-05.md",
+    "terminology.md",
+    "teacher-guide.md",
+    "capstone.md",
+    "verify_examples.py",
+    "verification.json",
+    "recovery-verification.json",
+    "restart-checkpoint.json",
+    "storage-check.txt",
+    "course.md",
+    "audit_report.json",
+    "validator-result.json",
+    "completion_report.json"
+  ],
+  "checkpoints": [
+    {
+      "id": "input",
+      "kind": "supplement",
+      "path": "input-contract.json",
+      "dependencies": [],
+      "status": "passed",
+      "sha256": "0c07282b34454bb2ee8a10de2e7e06def4b3828d06f2aa6fe68d0fb5b94f8807",
+      "summary": "Approved subject packet with explicit workspace storage override"
+    },
+    {
+      "id": "map",
+      "kind": "course-map",
+      "path": "course-map.md",
+      "dependencies": [
+        "input"
+      ],
+      "status": "passed",
+      "sha256": "fd80c7c841b0395ad8bf60649c3fa293766402a893efda570eb0ddcf1c2904c2",
+      "summary": "Coverage, sequence, prerequisites and capstone map"
+    },
+    {
+      "id": "sources",
+      "kind": "supplement",
+      "path": "sources.md",
+      "dependencies": [
+        "input"
+      ],
+      "status": "passed",
+      "sha256": "6edd147cd42f8175dd3f7ac779834c50dc97dd205c031d4dda3e69258f19e4fe",
+      "summary": "Exact source addresses and scope"
+    },
+    {
+      "id": "source-check",
+      "kind": "supplement",
+      "path": "source-verification.json",
+      "dependencies": [
+        "sources"
+      ],
+      "status": "passed",
+      "sha256": "3a9d2ccfcfcdbc81343b89d454ed6824c6bb4e7e5a7a904498ebc43bfb62a2b9",
+      "summary": "Five source hashes and selected exact pointers verified"
+    },
+    {
+      "id": "lesson-01",
+      "kind": "lesson",
+      "path": "lesson-01.md",
+      "dependencies": [
+        "map",
+        "sources"
+      ],
+      "status": "passed",
+      "sha256": "8a8941d07819332129e834eea1171aaa35c15d79d07c13057d162b17a9753a7f",
+      "summary": "Complete lesson, reviewed answers and scope; arithmetic verified"
+    },
+    {
+      "id": "lesson-02",
+      "kind": "lesson",
+      "path": "lesson-02.md",
+      "dependencies": [
+        "lesson-01"
+      ],
+      "status": "passed",
+      "sha256": "aeb162254893946627b1b200e7e8f6fc317183eaace261385235f9c7982a8679",
+      "summary": "Complete lesson, reviewed answers and scope; arithmetic verified"
+    },
+    {
+      "id": "lesson-03",
+      "kind": "lesson",
+      "path": "lesson-03.md",
+      "dependencies": [
+        "lesson-02"
+      ],
+      "status": "passed",
+      "sha256": "bbd3169e9fa0a89f62c577c31714edbb34b3d8dae1cf5573b752add9fe6eb598",
+      "summary": "Complete lesson, reviewed answers and scope; arithmetic verified"
+    },
+    {
+      "id": "lesson-04",
+      "kind": "lesson",
+      "path": "lesson-04.md",
+      "dependencies": [
+        "lesson-03"
+      ],
+      "status": "passed",
+      "sha256": "8fa145121906b3a91a13c7624ac16b6abd40a8fe9e7ec2f0622a7702cb097a72",
+      "summary": "Complete lesson, reviewed answers and scope; arithmetic verified"
+    },
+    {
+      "id": "lesson-05",
+      "kind": "lesson",
+      "path": "lesson-05.md",
+      "dependencies": [
+        "lesson-04"
+      ],
+      "status": "passed",
+      "sha256": "b3a1124e311d0e730ad74a69f8b12814cdd3152f0f6a9b0b51616a58fbf6b5f9",
+      "summary": "Complete lesson, reviewed answers and scope; arithmetic verified"
+    },
+    {
+      "id": "terms",
+      "kind": "terminology",
+      "path": "terminology.md",
+      "dependencies": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05"
+      ],
+      "status": "passed",
+      "sha256": "ca2d04fb6bf186ed38a2b147ba6ce8e9f344bde4983ea8d5eb4bbce69c60ccf0",
+      "summary": "Defined terms and explicit local notation"
+    },
+    {
+      "id": "teacher",
+      "kind": "teacher-guide",
+      "path": "teacher-guide.md",
+      "dependencies": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05"
+      ],
+      "status": "passed",
+      "sha256": "6dd165851eb2e3722760ba8ca0c96c726a4b511d65fb5b55ca27730e6dba2abb",
+      "summary": "Pacing, formative checks and repair guidance"
+    },
+    {
+      "id": "capstone",
+      "kind": "capstone",
+      "path": "capstone.md",
+      "dependencies": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05"
+      ],
+      "status": "passed",
+      "sha256": "a1f0a0feffc2d26db49aa36176cbfd74347b530534a10a960f1d971a4dbca9dd",
+      "summary": "Complete assignment, worked key, 40-point rubric and prior practice"
+    },
+    {
+      "id": "verify-script",
+      "kind": "supplement",
+      "path": "verify_examples.py",
+      "dependencies": [],
+      "status": "passed",
+      "sha256": "1a33bb58dac15699eded67c56932e6f1bb168af87970e834dd7d8fe15571bea5",
+      "summary": "Standard-library reproducible finite verification"
+    },
+    {
+      "id": "verification",
+      "kind": "supplement",
+      "path": "verification.json",
+      "dependencies": [
+        "verify-script",
+        "capstone"
+      ],
+      "status": "passed",
+      "sha256": "3ef774c0dc98fa82221e1eda6a151081523d1cc0cc2e54fb26cdc81ec50c66fe",
+      "summary": "74 actual checks with full synthetic residual ledgers"
+    },
+    {
+      "id": "recovery",
+      "kind": "supplement",
+      "path": "recovery-verification.json",
+      "dependencies": [
+        "input"
+      ],
+      "status": "passed",
+      "sha256": "9c2031528c543ef63b457935ae6dcff1ed00400f783f81d46db7854d03245dcb",
+      "summary": "Recovered-draft baseline hashes; historical, not current lesson hashes"
+    },
+    {
+      "id": "restart",
+      "kind": "supplement",
+      "path": "restart-checkpoint.json",
+      "dependencies": [
+        "recovery"
+      ],
+      "status": "passed",
+      "sha256": "df03163f79048da6a9d1fc4fdf80d6f1cfb8339618289c9562de60725fae5a2f",
+      "summary": "Preserved stop/resume checkpoint with completed disposition"
+    },
+    {
+      "id": "storage",
+      "kind": "supplement",
+      "path": "storage-check.txt",
+      "dependencies": [
+        "input"
+      ],
+      "status": "passed",
+      "sha256": "abe59c5e82259ca8957dc58fc61b9e0d7c7cf9d4b18817853af3c678160a7554",
+      "summary": "Verified ordinary workspace write"
+    },
+    {
+      "id": "assembly",
+      "kind": "assembly",
+      "path": "course.md",
+      "dependencies": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05"
+      ],
+      "status": "passed",
+      "sha256": "01554f80bdf2695cc8cd599667c916673539d39cc83dac236fdba48ba8b4aa35",
+      "summary": "Verbatim lessons in approved order"
+    },
+    {
+      "id": "audit",
+      "kind": "audit",
+      "path": "audit_report.json",
+      "dependencies": [
+        "verification",
+        "assembly",
+        "source-check"
+      ],
+      "status": "passed",
+      "sha256": "4cd08ba5035eccf01e9928ec8c24aac2f7bb46a0be49f3b7751ccd899d80fcb2",
+      "summary": "Author local, cumulative and hostile audit; zero unresolved findings"
+    },
+    {
+      "id": "validator",
+      "kind": "supplement",
+      "path": "validator-result.json",
+      "dependencies": [
+        "audit"
+      ],
+      "status": "passed",
+      "sha256": "09df5d6cbe0a706622cbb780da8ffd82552653174eb47ac90c8935969627b41c",
+      "summary": "Actual location-adapted installed validator receipt"
+    }
+  ],
+  "dependencies": {
+    "input": [],
+    "map": [
+      "input"
+    ],
+    "sources": [
+      "input"
+    ],
+    "source-check": [
+      "sources"
+    ],
+    "lesson-01": [
+      "map",
+      "sources"
+    ],
+    "lesson-02": [
+      "lesson-01"
+    ],
+    "lesson-03": [
+      "lesson-02"
+    ],
+    "lesson-04": [
+      "lesson-03"
+    ],
+    "lesson-05": [
+      "lesson-04"
+    ],
+    "terms": [
+      "lesson-01",
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05"
+    ],
+    "teacher": [
+      "lesson-01",
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05"
+    ],
+    "capstone": [
+      "lesson-01",
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05"
+    ],
+    "verify-script": [],
+    "verification": [
+      "verify-script",
+      "capstone"
+    ],
+    "recovery": [
+      "input"
+    ],
+    "restart": [
+      "recovery"
+    ],
+    "storage": [
+      "input"
+    ],
+    "assembly": [
+      "lesson-01",
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05"
+    ],
+    "audit": [
+      "verification",
+      "assembly",
+      "source-check"
+    ],
+    "validator": [
+      "audit"
+    ]
+  },
+  "course_order": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03",
+    "lesson-04",
+    "lesson-05"
+  ],
+  "assembly": {
+    "path": "course.md",
+    "section_ids": [
+      "lesson-01",
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05"
+    ]
+  },
+  "audit_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "blockers": [],
+  "next_action": "none"
+}

@@ -1,0 +1,213 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Terminology and notation · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/21">Course 21</a><span>/</span><span>terminology</span></div><a class="original" href="../../../kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems/terminology.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#terminology-and-notation">Terminology and notation</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">lesson-01: Measurements as linear channels</a><a  href="lesson-02.html">lesson-02: Rank and retained syndromes</a><a  href="lesson-03.html">lesson-03: The thirteen-channel decoder</a><a  href="lesson-04.html">lesson-04: Reconstruction and dimensional meaning</a><a  href="lesson-05.html">lesson-05: Atomic and isotope inventories</a><a  href="lesson-06.html">lesson-06: Binding and periodic organization</a><a  href="lesson-07.html">lesson-07: Solver convergence and unresolved information</a><a  href="lesson-08.html">lesson-08: A reproducible decoding report</a></details></aside><div class="reading-column"><article class="prose"><h1 id="terminology-and-notation" tabindex="-1">Terminology and notation</h1>
+<p>Symbols are local to their declared object. In particular c_light is not c, V is not a geometric volume, and the decoder G is not a Cell3 metric.</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Term</th>
+<th>Meaning and scope</th>
+<th>First lesson</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Channel</td>
+<td>An ordered linear recipe for coefficients; one row of A.</td>
+<td>01</td>
+</tr>
+<tr>
+<td>Tuple/vector</td>
+<td>An ordered list; operations are entrywise unless a dot product is stated.</td>
+<td>01</td>
+</tr>
+<tr>
+<td>Matrix A_small</td>
+<td>The 3 by 2 classroom channel table [[1,0],[0,1],[1,1]].</td>
+<td>01</td>
+</tr>
+<tr>
+<td>A</td>
+<td>The ordered 13 by 6 M17 matrix; never a chemical label within a matrix equation.</td>
+<td>03</td>
+</tr>
+<tr>
+<td>c, cj</td>
+<td>Coefficient vector and its jth entry; dimensionless in exercises.</td>
+<td>01</td>
+</tr>
+<tr>
+<td>y</td>
+<td>Full ordered input vector; synthetic throughout the numerical exercises.</td>
+<td>01</td>
+</tr>
+<tr>
+<td>r or s</td>
+<td>Full signed channel residual y-Ac; s is used for M17 syndrome.</td>
+<td>01,03</td>
+</tr>
+<tr>
+<td>Transpose A^T</td>
+<td>The matrix formed by turning columns into rows.</td>
+<td>01</td>
+</tr>
+<tr>
+<td>Euclidean inner product</td>
+<td>Sum of entrywise products; declares the decoder geometry.</td>
+<td>01</td>
+</tr>
+<tr>
+<td>Normal residual</td>
+<td>A^T r, a set of column-dot-product constraints; not the full r.</td>
+<td>01</td>
+</tr>
+<tr>
+<td>Rank</td>
+<td>Number of independent column directions over the specified scalar field.</td>
+<td>02</td>
+</tr>
+<tr>
+<td>Image / kernel</td>
+<td>Outputs a map can produce / inputs it sends to zero.</td>
+<td>02</td>
+</tr>
+<tr>
+<td>R / Z</td>
+<td>Real-number field / integers. Bold or contextual R for reals is separate from projector R.</td>
+<td>R: 01; Z: 02</td>
+</tr>
+<tr>
+<td>Syndrome</td>
+<td>Residual coordinates retained outside the represented image under a declared decomposition.</td>
+<td>02</td>
+</tr>
+<tr>
+<td>Lattice / saturation</td>
+<td>Integer column combinations / containing all integer points of its real span.</td>
+<td>02</td>
+</tr>
+<tr>
+<td>G=A^T A</td>
+<td>Decoder Gram matrix only; distinct from all Cell3 and phase metrics.</td>
+<td>03</td>
+</tr>
+<tr>
+<td>Eigenvector / eigenvalue</td>
+<td>A direction a linear map only scales / the scale factor.</td>
+<td>03</td>
+</tr>
+<tr>
+<td>Aplus</td>
+<td>(A^T A)^(-1)A^T for this full-column-rank Euclidean decoder.</td>
+<td>03</td>
+</tr>
+<tr>
+<td>P / R=I-P</td>
+<td>Represented-channel projector / complementary residual projector.</td>
+<td>03</td>
+</tr>
+<tr>
+<td>L_int</td>
+<td>Derived 6 by 13 integer extractor with L_int A=I6; not source L.</td>
+<td>03</td>
+</tr>
+<tr>
+<td>Source L</td>
+<td>Missing 7 by 13 syndrome matrix with LA=0; VERIFIED_NOT_LOADED.</td>
+<td>03</td>
+</tr>
+<tr>
+<td>W / W7</td>
+<td>Explicit toy four-character table / missing ordered source seven-character replay object; do not equate them.</td>
+<td>03</td>
+</tr>
+<tr>
+<td>Representation / intertwiner</td>
+<td>Declared group actions / a map respecting those actions; equality of dimensions supplies neither.</td>
+<td>03</td>
+</tr>
+<tr>
+<td>b / b_toy</td>
+<td>Source renderer order (1,alpha,alpha²,alpha³,a_e,eta) / separately stipulated toy values.</td>
+<td>b: 03 (rendering 04); b_toy: 04</td>
+</tr>
+<tr>
+<td>m_e / m_ref</td>
+<td>Source reference mass / synthetic reference mass. Neither value is inferred from a dimensionless ratio.</td>
+<td>04</td>
+</tr>
+<tr>
+<td>V</td>
+<td>Nominal composition label 12C+H+14N+16O, not geometric volume or exact isotope mass.</td>
+<td>05</td>
+</tr>
+<tr>
+<td>C,H,N,O</td>
+<td>Ordered nonnegative atom counts for composition endpoints.</td>
+<td>05</td>
+</tr>
+<tr>
+<td>U1,U2,U3,K</td>
+<td>Stated signed composition moves; U3=U1+U2, K is independent.</td>
+<td>05</td>
+</tr>
+<tr>
+<td>Fiber</td>
+<td>Inputs sharing a specified output; the map and domain must be declared.</td>
+<td>05</td>
+</tr>
+<tr>
+<td>Isotope / isomer</td>
+<td>Same element with different neutron count / same molecular formula with different arrangement.</td>
+<td>05</td>
+</tr>
+<tr>
+<td>A+B → AB</td>
+<td>Synthetic conserved constituent labels, distinct from matrix A.</td>
+<td>05</td>
+</tr>
+<tr>
+<td>u / E_unit</td>
+<td>Stipulated synthetic mass / energy units; 1u c_light²=10 E_unit is a toy conversion.</td>
+<td>05</td>
+</tr>
+<tr>
+<td>Q_release / delta m</td>
+<td>Released-energy convention / initial minus final complete-object mass.</td>
+<td>05</td>
+</tr>
+<tr>
+<td>c_light</td>
+<td>Speed factor in the declared mass-energy reference relation; distinct from coefficient c.</td>
+<td>05</td>
+</tr>
+<tr>
+<td>Graph / spectrum</td>
+<td>Vertices and edges with identity / eigenvalue list that need not uniquely identify the graph.</td>
+<td>06</td>
+</tr>
+<tr>
+<td>QPC phase tensor</td>
+<td>Source-local requested coordinate not supplied here; recognition-only.</td>
+<td>06</td>
+</tr>
+<tr>
+<td>t / n / c_star</td>
+<td>Solver step parameter / update index / exact decoder coefficient target.</td>
+<td>07</td>
+</tr>
+<tr>
+<td>Approximant / closure</td>
+<td>Displayed replacement / exact original-minus-replacement difference.</td>
+<td>08</td>
+</tr>
+<tr>
+<td>M_cell / R_cell / G_phase</td>
+<td>Cell3 Gram metric / its inverse / distinct phase metric; no numerical use or substitution in this course.</td>
+<td>source contract</td>
+</tr>
+<tr>
+<td>O_K / B</td>
+<td>Declared physical origin / locked ordered source basis, unused in classroom channel arithmetic.</td>
+<td>source contract</td>
+</tr>
+</tbody>
+</table></div></article><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/21">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

@@ -1,0 +1,129 @@
+{
+  "audit_id": "independent-content-course11",
+  "reviewer": "independent verify_graph agent",
+  "scope": "Actual six lessons, capstone and teacher guide; mathematical validity, E05 suboperation closure, source-claim boundaries, audience load and preservation of information. Not a deterministic validator or source-hash audit.",
+  "status": "passed",
+  "files_read": [
+    "lesson-01.md",
+    "lesson-02.md",
+    "lesson-03.md",
+    "lesson-04.md",
+    "lesson-05.md",
+    "lesson-06.md",
+    "capstone.md",
+    "teacher-guide.md",
+    "input-contract.json",
+    "course-map.md",
+    "terminology.md"
+  ],
+  "findings": [
+    {
+      "id": "IC11-E05-01",
+      "severity": "major",
+      "status": "resolved",
+      "location": "lesson-03.md / C11.03-P1; capstone.md / C11-CAP-03",
+      "finding": "Capstone explicitly assesses the coefficient under reversal of cycle-basis orientation. This is explained in W1 and answered in diagnostic 3, but the designated independently answered P1 practice omits this suboperation, contrary to the packet's every-assessed-suboperation practice rule.",
+      "required_correction": "Add a P1 task expressing the same 3c using basis -c, and independently worked answer -3 with (-3)(-c)=3c.",
+      "verification": "Independently reread lesson-03.md lines 31 and 33 after repair. P1 explicitly asks expression in basis -c; worked answer supplies coefficient -3 and vector reconstruction (3,3,3,3). Exact multiplication verified. E05 suboperation closure now complete."
+    }
+  ],
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "checks": [
+    {
+      "area": "Lesson contract",
+      "result": "All six contain essential question, 3-4 observable goals, prerequisite bridge, first-principles explanation, worked example, claim scope, independent practice with answer, four diagnostics with answers and next-dependency link."
+    },
+    {
+      "area": "E05 coverage",
+      "result": "All six E/W/P/D IDs occur in actual teaching; every capstone operation has earlier introduction and independently answered practice. IC11-E05-01 repaired and independently reread."
+    },
+    {
+      "area": "Rank prerequisites",
+      "result": "Rank defined through independence and row elimination in lesson 02 before dimension formulas. Tree independence and zero-sum upper bound are derived before Lucas dimensions."
+    },
+    {
+      "area": "Cut versus tree remainder",
+      "result": "Cut dimension established using rooted node potentials. Lesson 06 explicitly distinguishes tree-supported complement from orthogonal gradient decomposition; no false identification."
+    },
+    {
+      "area": "Periodic decomposition",
+      "result": "Same open tree retained; 27 wrap chords, 55 total cycles. Three real/rational winding sums plus 24 independent details invert exactly. Integer compatibility guard and all 28 open coefficients retained."
+    },
+    {
+      "area": "Memory scope",
+      "result": "Specified state and decoder distinguished from dynamics and measured lifetime. Counts 28/52/55 are not promoted to group actions, physical forces or observed evidence."
+    },
+    {
+      "area": "Audience load",
+      "result": "Nine core 55-minute periods and two capstone periods match approved blueprint. Dense incidence, cycles and wraps each have two periods; notation and operations are locally introduced. Finite computations are doable without programming or university prerequisites."
+    },
+    {
+      "area": "Assessment",
+      "result": "Six capstone point allocations total 100 (12+18+16+18+24+12); key answers and subpart sums agree. Wrong adjacency, dropped information and unsupported dynamics require repair regardless of score."
+    },
+    {
+      "area": "Source boundaries",
+      "result": "Archive statements are separately identified from fresh finite derivations; synthetic examples labeled; AUD-002 remains a serialization/DAG gap; mathematical M08 not conflated with compiler M08. This audit reviews attribution scope, not archival file provenance."
+    },
+    {
+      "area": "Supporting-map and glossary consistency",
+      "result": "Independently read final course-map.md and terminology.md: six IDs, E/W/P/D links, 9+2 periods/605 minutes, notation, graph signs, cut versus remainder distinction and winding/detail contract match the actual lessons and capstone. No new finding."
+    }
+  ],
+  "additional_computations": {
+    "runtime": "C:/Users/info/.conda/envs/tf_gpu_env/python.exe",
+    "exit_code": 0,
+    "method": "Fresh independent product-graph enumeration and tree-path construction using verify_examples.py functions; exact integers.",
+    "rectangle_edge_order": [
+      "(0,0)->(1,0)",
+      "(0,1)->(1,1)",
+      "(1,0)->(2,0)",
+      "(1,1)->(2,1)",
+      "(0,0)->(0,1)",
+      "(1,0)->(1,1)",
+      "(2,0)->(2,1)"
+    ],
+    "rectangle_first_cycle": [
+      1,
+      -1,
+      0,
+      0,
+      -1,
+      1,
+      0
+    ],
+    "rectangle_second_cycle": [
+      1,
+      -1,
+      1,
+      -1,
+      -1,
+      0,
+      1
+    ],
+    "rectangle_path_result": "W1 return signs -,-,+ and P1 return signs -,-,-,+,+ match enumerated exact cycles.",
+    "h_0_9_nonzero_edges": [
+      "(0,2,2)->(1,2,2): +1",
+      "(1,2,2)->(2,2,2): +1",
+      "(2,2,2)->(0,2,2): +1"
+    ],
+    "periodic_reconstruction_result": "Fresh assertion passes: 9h_(0,9) is exactly +9 on these three edges and zero on all other 78."
+  },
+  "reviewed_file_sha256": {
+    "lesson-01.md": "15e7b66d1189c5da952b3fc9044359fe1946f0fac152e2c91264ae9851e811b4",
+    "lesson-02.md": "92826abc79c495192a0e17c53e2261f44a155ce42a066abe1867687732d38fa7",
+    "lesson-03.md": "cf772af167da4e0c6571fa95bf634ca4ec32a38c1289f6afa82a05b55808c3af",
+    "lesson-04.md": "012a6190c1a163b5ccfdf312398c4b4dd09698568ae38a72fa6b447ec996d62e",
+    "lesson-05.md": "864dead6cda6423a1dc729927eca62bfde57021892e4e92578925c05668502fa",
+    "lesson-06.md": "193a80457ea115f13e5306887822c9bea7c83f8c4ec57d58fc9f4c7bc8c520bb",
+    "capstone.md": "4125ffefce9fe31afca733513e5dce9cf15430203f70fe5816baefc812e28400",
+    "teacher-guide.md": "f3bac04b56a5fbdbabd9db6c210982da44f60808d81d3ccd953a9be2d18aa681",
+    "input-contract.json": "a6705b9872c6f83f75a0d8f545d1307eb7faa5c52386faf23c3fda99eee408de",
+    "course-map.md": "b4dd87c93720f70d3cae696ec7d87ba617e4867934513ce09ac8c498b1da104c",
+    "terminology.md": "a1d6953ce3025251b8943d05109916ff0fbe00edd615be1ad0b05f51766270dd"
+  }
+}

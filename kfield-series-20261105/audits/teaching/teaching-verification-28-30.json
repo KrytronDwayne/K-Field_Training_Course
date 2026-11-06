@@ -1,0 +1,6313 @@
+{
+  "schema_version": "1.0",
+  "created_utc": "2026-11-05T19:43:16.419731+00:00",
+  "status": "passed",
+  "runtime": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+  "script_sha256": "8814432189d0c713509961f60de8cc70cd80581480d8410fdac9882acc25472a",
+  "method": "Fresh exact SymPy arithmetic and reconstruction checks; immutable source hash and blueprint reference checks. Parent script/report read only, never executed or imported. Stored-decimal galaxy diagnostics preserve residuals without certifying source precision.",
+  "input_contracts": [
+    {
+      "course_id": "course-28",
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-28-photometer-experiments-and-information-preserving-analysis\\input-contract.json",
+      "sha256": "af3206e71d56e97fa48869fce616a4caa58c4664dc5d8821ee56b42538034e85"
+    },
+    {
+      "course_id": "course-29",
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\input-contract.json",
+      "sha256": "d3ad20059c6d56f50ea25e57ee501eb438a99710ffcda660d9fe845944eb1e43"
+    },
+    {
+      "course_id": "course-30",
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\input-contract.json",
+      "sha256": "ef34c51ff7c0fdfb4bfeacf90ef0eb66d2ec3f21688e61be617a69bfef861052"
+    }
+  ],
+  "source_hashes": [
+    {
+      "id": "S01",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "hash_check": "verified locally; original source left in place",
+      "evidence_class": "source"
+    },
+    {
+      "id": "S02",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "hash_check": "verified locally; original source left in place",
+      "evidence_class": "source"
+    },
+    {
+      "id": "S03",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "hash_check": "verified locally; original source left in place",
+      "evidence_class": "source"
+    },
+    {
+      "id": "S04",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+      "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "hash_check": "verified locally; original source left in place",
+      "evidence_class": "source"
+    },
+    {
+      "id": "S05",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+      "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "hash_check": "verified locally; original source left in place",
+      "evidence_class": "source"
+    },
+    {
+      "id": "G01",
+      "path": "Z:/Archive_20260911/Pre_Aug14/galaxy_cell_hidden_holonomy_summary_1783791371.json",
+      "sha256": "bd6ff0e335f3c405000cd1f8adfa3ae947dc9362dfeb772764cf98ef62ae6f63",
+      "pointers": [
+        "/ordered_direct_basis_A",
+        "/reciprocal_basis_Q",
+        "/joint_phase_origin",
+        "/galaxy_cell_geometry",
+        "/holonomy",
+        "/observed_27_node_occupancy",
+        "/pure_holonomy_coordinate_tests",
+        "/comparison_to_authoritative_K_field"
+      ],
+      "scope": "Exact small record read; 114381-direction sky-position cell; phase origin is a reciprocal phase coordinate.",
+      "evidence_class": "source",
+      "hash_check": "verified before controlled stop"
+    },
+    {
+      "id": "G02",
+      "path": "Z:/Archive_20260911/Pre_Aug14/K-field_cell3_vs_galaxy_derived_cell_analogue_1783794540.pdf",
+      "sha256": "69dcaace292365d22b9b48c43edc0ac4936b148ec68a5b265abc72aaff4f4447",
+      "pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "locators": "p3 distinct axis versus sky-position pathways; p4 column basis, ICRS, positive galaxy determinant and unit-sphere reconstruction lengths; p8 frozen geometry; p17-20 occupancy, mixed coordinates and comparison boundaries.",
+      "scope": "No radial physical calibration. Historical Cell3 carrier values p7 do not replace S02 mature lock.",
+      "evidence_class": "source",
+      "hash_check": "verified before controlled stop"
+    },
+    {
+      "id": "G03",
+      "path": "Z:/Archive_20260911/Pre_Aug14/K-field_spherical_gravity_response_graph_audited_1783692220.json",
+      "sha256": "aa7f4236b7f956c652690934d6444f597ea38b6e485cc77a22be884b567d1cea",
+      "pointers": [
+        "/status",
+        "/precision_contract",
+        "/coordinate_frame",
+        "/analytic_spherical_response",
+        "/reconstruction_sequence"
+      ],
+      "scope": "Historical Cell3-derived spherical response, not the galaxy cell. Domain excludes n dot N=0; G_star=D/F has transfer singularities; absolute scalar calibration undefined. Large graph arrays were not exported.",
+      "evidence_class": "source",
+      "hash_check": "verified before controlled stop"
+    },
+    {
+      "id": "G04",
+      "path": "Z:/Archive_20260911/Pre_Aug14/K-field_galaxy_sky_position_volumetric_quantization_1783789746.pdf",
+      "sha256": "856777f0fae0d6b50e8d235435068b7ea3c25a83068cfbfb197b62835cbb8fbd",
+      "pages_read": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "locators": "p3 unit-sphere direction, discovery57076/holdout57305 and antipodal discovery versus directed assignments; p4 q_j dot x=k_j+phi_j, R rows=q_j^T, A=R^-1, center=A(k+phi), closest-vector assignment and retained vector/angular/radial residuals.",
+      "scope": "Phase origin phi and physical reconstruction center A phi have different types; closest-center assignment is not independent coordinate rounding in a skew metric.",
+      "evidence_class": "source",
+      "hash_check": "verified before controlled stop"
+    }
+  ],
+  "source_registry_sha256": "208a8ed59a10d72a74e1aa084b86d1f6809bb8f43168c7a98edc68598db5e78b",
+  "source_audit_sha256": "eef89a28971ef7e5380977c31b62ed6d64f2831759e679ee967b6c253a33c04a",
+  "parent_support_index_sha256": "55fe70b9b689d7eedea71af2d2b39006ea9f4baa61d9694e32f9835e12e553fc",
+  "parent_comparison_reports": [
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\applied-bridge-verification.json",
+      "sha256": "4f189fedd0126bbcc332acffc8e5abd36cfcdcf26a74cf747ac45162c356ecb7"
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\route-source-retrieval-status.json",
+      "sha256": "2db00c1da129984fe9231b9e6cf3140f9beb9b7f155db912c2a1a872e1404960"
+    }
+  ],
+  "parent_comparison_script": {
+    "path": "Z:\\Kfield-doc-training\\.work\\verify_applied_bridges.py",
+    "sha256": "aff9ecf863a2814a9f2c299b6122f447601070c79e455eefe5b08d3e0d126017",
+    "executed": false
+  },
+  "remote_reads": [
+    {
+      "id": "T50",
+      "logical_path": "applications/kfield_lucas_lab/rag_corpus/50_physical_closure.md",
+      "sha256": "c2a25a583af904601968adc1d3efde825f76218c92a2f52d829afc093f52c02a",
+      "byte_range": [
+        0,
+        1761
+      ],
+      "read_status": "Full bounded bytes read through krytronx_get; returned range digest matched registry."
+    },
+    {
+      "id": "T35",
+      "logical_path": "applications/kfield_lucas_lab/rag_corpus/35_spectral_energy_phase.md",
+      "sha256": "03dc7e11045b3912f1e8cc0d69a4789b6ad300ac78b4549ea86c45e51228c7bc",
+      "byte_range": [
+        0,
+        3018
+      ],
+      "read_status": "Full bounded bytes read through krytronx_get; returned range digest matched registry."
+    },
+    {
+      "id": "T45",
+      "logical_path": "applications/kfield_lucas_lab/rag_corpus/45_moving_reference_frames.md",
+      "sha256": "c8485397ee3cd5560624885a3bfcf20c9f6190e26129320e37037810b984e1aa",
+      "byte_range": [
+        0,
+        2651
+      ],
+      "read_status": "Full bounded bytes read through krytronx_get; returned range digest matched registry."
+    },
+    {
+      "id": "T40",
+      "logical_path": "applications/kfield_lucas_lab/rag_corpus/40_cmb_quarantine.md",
+      "sha256": "1dfff4443f99ebb949ca6f080a01452bdb6c58075a694c4b74055e64b4d4ecfb",
+      "byte_range": [
+        0,
+        426
+      ],
+      "read_status": "Full bounded bytes read through krytronx_get; returned range digest matched registry."
+    },
+    {
+      "id": "T20",
+      "logical_path": "applications/kfield_lucas_lab/rag_corpus/20_phase_route.md",
+      "sha256": "c9335e2df74344bff5665df5a5e0b9094fef22147c76458f1a54efe49cefce62",
+      "byte_range": [
+        0,
+        470
+      ],
+      "read_status": "Full bounded bytes read through krytronx_get; returned range digest matched registry."
+    },
+    {
+      "id": "T10",
+      "logical_path": "applications/kfield_lucas_lab/rag_corpus/10_geometry_trajectory.md",
+      "sha256": "ce1abe83011a43bfbcd8aaf98f7fb9fdfabd31acbfdbc1208e45176596602ccb",
+      "byte_range": [
+        0,
+        545
+      ],
+      "read_status": "Full bounded bytes read through krytronx_get; returned range digest matched registry."
+    },
+    {
+      "id": "spectral_bundle",
+      "sha256": "04044230f3b2536d22654b294760106eca301f212e4eb4157989b330ff611f17",
+      "byte_range": [
+        0,
+        6438
+      ]
+    },
+    {
+      "id": "spectral_work",
+      "sha256": "d4105a6d6802e6bb2a2ba8e76a1d23a27973fca3d3335fd8335690a41ab72dfa",
+      "byte_range": [
+        0,
+        48364
+      ]
+    },
+    {
+      "id": "energy_work",
+      "sha256": "9120f80210b235b8612d6479fe25272eb3824f31c5a1394e7e9d12718e57e70f",
+      "byte_range": [
+        0,
+        22424
+      ]
+    },
+    {
+      "id": "I01",
+      "sha256": "3800c854da827a64e72507722904bcafab07a31e88f2bc73920a8e7f62f62c1c",
+      "logical_path": "applications/kfield_standard_model/collaborator_record/project_record.json",
+      "read_scope": "Full13847 bytes; results/9,results/10,hazards,open_obligations"
+    },
+    {
+      "id": "I02",
+      "sha256": "a3dfca0e55e525c6522c3088b95e5bcc048c141fce340bfe980fcfc14123220a",
+      "logical_path": "kfield_standard_model/evidence/p12_standard_model_compiler_adjudication_report.json",
+      "read_scope": "RAG lines1–101, direct-authority and replay fields"
+    },
+    {
+      "id": "I03",
+      "sha256": "01c849f3d184f367e0c53e1e00f521fa2fad98c1682d0aaa03e7de30667840ad",
+      "logical_path": "kfield_standard_model/formal/KField/StandardModelCompilerAdjudication.agda",
+      "read_scope": "RAG excerpts in lines1–199, readiness/disposition/routes; byte lookup unavailable, no compiler run"
+    },
+    {
+      "id": "T30",
+      "sha256": "e9c6d0346e7f4fa120e9836df9d4a45b7e2c587bc046874d91cb38a0c68c16bc",
+      "byte_range": [
+        0,
+        687
+      ],
+      "read_scope": "Full bounded source text"
+    }
+  ],
+  "pdf_reads": {
+    "G02": {
+      "text_pages": [
+        3,
+        4,
+        5,
+        7,
+        8,
+        17,
+        18,
+        19,
+        20
+      ],
+      "visually_inspected_pages": [
+        4
+      ]
+    },
+    "G04": {
+      "text_pages": [
+        1,
+        3,
+        4
+      ],
+      "visually_inspected_pages": [
+        4
+      ]
+    }
+  },
+  "check_count": 660,
+  "failed_count": 0,
+  "checks": [
+    {
+      "id": "required runtime",
+      "actual": "c:\\users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+      "expected": "c:\\users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+      "passed": true
+    },
+    {
+      "id": "source hash S01",
+      "actual": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "expected": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "passed": true
+    },
+    {
+      "id": "source hash S02",
+      "actual": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "expected": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "passed": true
+    },
+    {
+      "id": "source hash S03",
+      "actual": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "expected": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "passed": true
+    },
+    {
+      "id": "source hash S04",
+      "actual": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "expected": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "passed": true
+    },
+    {
+      "id": "source hash S05",
+      "actual": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+      "expected": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+      "passed": true
+    },
+    {
+      "id": "source hash G01",
+      "actual": "bd6ff0e335f3c405000cd1f8adfa3ae947dc9362dfeb772764cf98ef62ae6f63",
+      "expected": "bd6ff0e335f3c405000cd1f8adfa3ae947dc9362dfeb772764cf98ef62ae6f63",
+      "passed": true
+    },
+    {
+      "id": "source hash G02",
+      "actual": "69dcaace292365d22b9b48c43edc0ac4936b148ec68a5b265abc72aaff4f4447",
+      "expected": "69dcaace292365d22b9b48c43edc0ac4936b148ec68a5b265abc72aaff4f4447",
+      "passed": true
+    },
+    {
+      "id": "source hash G03",
+      "actual": "aa7f4236b7f956c652690934d6444f597ea38b6e485cc77a22be884b567d1cea",
+      "expected": "aa7f4236b7f956c652690934d6444f597ea38b6e485cc77a22be884b567d1cea",
+      "passed": true
+    },
+    {
+      "id": "source hash G04",
+      "actual": "856777f0fae0d6b50e8d235435068b7ea3c25a83068cfbfb197b62835cbb8fbd",
+      "expected": "856777f0fae0d6b50e8d235435068b7ea3c25a83068cfbfb197b62835cbb8fbd",
+      "passed": true
+    },
+    {
+      "id": "parent report hash applied-bridge-verification.json",
+      "actual": "4f189fedd0126bbcc332acffc8e5abd36cfcdcf26a74cf747ac45162c356ecb7",
+      "expected": "4f189fedd0126bbcc332acffc8e5abd36cfcdcf26a74cf747ac45162c356ecb7",
+      "passed": true
+    },
+    {
+      "id": "parent report hash route-source-retrieval-status.json",
+      "actual": "2db00c1da129984fe9231b9e6cf3140f9beb9b7f155db912c2a1a872e1404960",
+      "expected": "2db00c1da129984fe9231b9e6cf3140f9beb9b7f155db912c2a1a872e1404960",
+      "passed": true
+    },
+    {
+      "id": "parent comparison script read",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "raw reconstruction 0",
+      "actual": "2",
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "raw reconstruction 1",
+      "actual": 5,
+      "expected": 5,
+      "passed": true
+    },
+    {
+      "id": "raw reconstruction 2",
+      "actual": "8",
+      "expected": 8,
+      "passed": true
+    },
+    {
+      "id": "raw reconstruction 3",
+      "actual": "1",
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "id": "raw reconstruction 4",
+      "actual": "3",
+      "expected": 3,
+      "passed": true
+    },
+    {
+      "id": "ratios and invalid branch",
+      "actual": [
+        "1/5",
+        null,
+        "2/5",
+        "1/10",
+        "3/10"
+      ],
+      "expected": [
+        "1/5",
+        null,
+        "2/5",
+        "1/10",
+        "3/10"
+      ],
+      "passed": true
+    },
+    {
+      "id": "rounding residual",
+      "actual": "1/30000000000",
+      "expected": "1/30000000000",
+      "passed": true
+    },
+    {
+      "id": "reflection_same idempotent",
+      "actual": [
+        [
+          "1/2",
+          "0",
+          "0",
+          "1/2"
+        ],
+        [
+          "0",
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "0",
+          "0",
+          "1/2"
+        ]
+      ],
+      "expected": [
+        [
+          "1/2",
+          "0",
+          "0",
+          "1/2"
+        ],
+        [
+          "0",
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "0",
+          "0",
+          "1/2"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "reflection_inverted idempotent",
+      "actual": [
+        [
+          "1/2",
+          "0",
+          "0",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "0",
+          "-1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "-1/2",
+          "0",
+          "0",
+          "1/2"
+        ]
+      ],
+      "expected": [
+        [
+          "1/2",
+          "0",
+          "0",
+          "-1/2"
+        ],
+        [
+          "0",
+          "1/2",
+          "-1/2",
+          "0"
+        ],
+        [
+          "0",
+          "-1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "-1/2",
+          "0",
+          "0",
+          "1/2"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "antipodal_even idempotent",
+      "actual": [
+        [
+          "1/2",
+          "0",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "1/2",
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "1/2",
+          "0",
+          "1/2"
+        ]
+      ],
+      "expected": [
+        [
+          "1/2",
+          "0",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "1/2",
+          "0",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "0",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "1/2",
+          "0",
+          "1/2"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "antipodal_odd idempotent",
+      "actual": [
+        [
+          "1/2",
+          "0",
+          "-1/2",
+          "0"
+        ],
+        [
+          "0",
+          "1/2",
+          "0",
+          "-1/2"
+        ],
+        [
+          "-1/2",
+          "0",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "-1/2",
+          "0",
+          "1/2"
+        ]
+      ],
+      "expected": [
+        [
+          "1/2",
+          "0",
+          "-1/2",
+          "0"
+        ],
+        [
+          "0",
+          "1/2",
+          "0",
+          "-1/2"
+        ],
+        [
+          "-1/2",
+          "0",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "-1/2",
+          "0",
+          "1/2"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "reflection split",
+      "actual": [
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "expected": [
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "antipodal split",
+      "actual": [
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "expected": [
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "reflection reconstruct [1, 2, 4, 3]",
+      "actual": [
+        [
+          "1"
+        ],
+        [
+          "2"
+        ],
+        [
+          "4"
+        ],
+        [
+          "3"
+        ]
+      ],
+      "expected": [
+        [
+          "1"
+        ],
+        [
+          "2"
+        ],
+        [
+          "4"
+        ],
+        [
+          "3"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "same parity [1, 2, 4, 3]",
+      "actual": [
+        [
+          "2"
+        ],
+        [
+          "3"
+        ],
+        [
+          "3"
+        ],
+        [
+          "2"
+        ]
+      ],
+      "expected": [
+        [
+          "2"
+        ],
+        [
+          "3"
+        ],
+        [
+          "3"
+        ],
+        [
+          "2"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "inverted parity [1, 2, 4, 3]",
+      "actual": [
+        [
+          "1"
+        ],
+        [
+          "1"
+        ],
+        [
+          "-1"
+        ],
+        [
+          "-1"
+        ]
+      ],
+      "expected": [
+        [
+          "1"
+        ],
+        [
+          "1"
+        ],
+        [
+          "-1"
+        ],
+        [
+          "-1"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "antipodal reconstruct [1, 2, 4, 3]",
+      "actual": [
+        [
+          "1"
+        ],
+        [
+          "2"
+        ],
+        [
+          "4"
+        ],
+        [
+          "3"
+        ]
+      ],
+      "expected": [
+        [
+          "1"
+        ],
+        [
+          "2"
+        ],
+        [
+          "4"
+        ],
+        [
+          "3"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "even odd orthogonal [1, 2, 4, 3]",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "reflection reconstruct [3, 1, -1, 1]",
+      "actual": [
+        [
+          "3"
+        ],
+        [
+          "1"
+        ],
+        [
+          "-1"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "expected": [
+        [
+          "3"
+        ],
+        [
+          "1"
+        ],
+        [
+          "-1"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "same parity [3, 1, -1, 1]",
+      "actual": [
+        [
+          "2"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ],
+        [
+          "2"
+        ]
+      ],
+      "expected": [
+        [
+          "2"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ],
+        [
+          "2"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "inverted parity [3, 1, -1, 1]",
+      "actual": [
+        [
+          "-1"
+        ],
+        [
+          "-1"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "expected": [
+        [
+          "-1"
+        ],
+        [
+          "-1"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "antipodal reconstruct [3, 1, -1, 1]",
+      "actual": [
+        [
+          "3"
+        ],
+        [
+          "1"
+        ],
+        [
+          "-1"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "expected": [
+        [
+          "3"
+        ],
+        [
+          "1"
+        ],
+        [
+          "-1"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "even odd orthogonal [3, 1, -1, 1]",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "odd comparator nullspace",
+      "actual": [
+        [
+          "0"
+        ],
+        [
+          "-2 + 2*I"
+        ],
+        [
+          "0"
+        ],
+        [
+          "-2 - 2*I"
+        ]
+      ],
+      "expected": [
+        [
+          "0"
+        ],
+        [
+          "-2 + 2*I"
+        ],
+        [
+          "0"
+        ],
+        [
+          "-2 - 2*I"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "all shift comparator orthogonality 0",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "all shift comparator orthogonality 1",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "all shift comparator orthogonality 2",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "all shift comparator orthogonality 3",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "mean reconstruction",
+      "actual": [
+        [
+          "2"
+        ],
+        [
+          "5"
+        ],
+        [
+          "8"
+        ],
+        [
+          "1"
+        ],
+        [
+          "3"
+        ]
+      ],
+      "expected": [
+        [
+          "2"
+        ],
+        [
+          "5"
+        ],
+        [
+          "8"
+        ],
+        [
+          "1"
+        ],
+        [
+          "3"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "window raw symmetry defects",
+      "actual": [
+        4,
+        6
+      ],
+      "expected": [
+        4,
+        6
+      ],
+      "passed": true
+    },
+    {
+      "id": "bounded product uncertainty",
+      "actual": [
+        "171/100",
+        "231/100"
+      ],
+      "expected": [
+        "171/100",
+        "231/100"
+      ],
+      "passed": true
+    },
+    {
+      "id": "gain factorization ambiguity",
+      "actual": 6,
+      "expected": 6,
+      "passed": true
+    },
+    {
+      "id": "metric inverse",
+      "actual": [
+        [
+          "2/3",
+          "-1/3"
+        ],
+        [
+          "-1/3",
+          "2/3"
+        ]
+      ],
+      "expected": [
+        [
+          "2/3",
+          "-1/3"
+        ],
+        [
+          "-1/3",
+          "2/3"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "inverse identity",
+      "actual": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "expected": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "metric distance [1, -1]",
+      "actual": "2",
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "metric distance [1, 1]",
+      "actual": "6",
+      "expected": 6,
+      "passed": true
+    },
+    {
+      "id": "metric positive leading minors",
+      "actual": [
+        "2",
+        "3"
+      ],
+      "expected": [
+        2,
+        3
+      ],
+      "passed": true
+    },
+    {
+      "id": "negative metric branch",
+      "actual": "-1",
+      "expected": -1,
+      "passed": true
+    },
+    {
+      "id": "phase center",
+      "actual": [
+        [
+          "5/4"
+        ],
+        [
+          "-1/2"
+        ]
+      ],
+      "expected": [
+        [
+          "5/4"
+        ],
+        [
+          "-1/2"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "skew physical point",
+      "actual": [
+        [
+          "931/1000"
+        ],
+        [
+          "49/1000"
+        ]
+      ],
+      "expected": [
+        [
+          "931/1000"
+        ],
+        [
+          "49/1000"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "distance rounded owner",
+      "actual": "434581/500000",
+      "expected": "434581/500000",
+      "passed": true
+    },
+    {
+      "id": "distance other center",
+      "actual": "1781/500000",
+      "expected": "1781/500000",
+      "passed": true
+    },
+    {
+      "id": "nearest counterexample",
+      "actual": "True",
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "root closure toyA",
+      "actual": [
+        [
+          "1/2"
+        ],
+        [
+          "0"
+        ],
+        [
+          "-3/2"
+        ]
+      ],
+      "expected": [
+        [
+          "1/2"
+        ],
+        [
+          "0"
+        ],
+        [
+          "-3/2"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "normal root toyA",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "normal null toyA",
+      "actual": [
+        [
+          "0"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "0"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "root rank toyA",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "root closure toyB",
+      "actual": [
+        [
+          "1"
+        ],
+        [
+          "0"
+        ],
+        [
+          "-2"
+        ]
+      ],
+      "expected": [
+        [
+          "1"
+        ],
+        [
+          "0"
+        ],
+        [
+          "-2"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "normal root toyB",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "normal null toyB",
+      "actual": [
+        [
+          "0"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "0"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "root rank toyB",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "seven sheets",
+      "actual": [
+        1,
+        3,
+        6,
+        7,
+        6,
+        3,
+        1
+      ],
+      "expected": [
+        1,
+        3,
+        6,
+        7,
+        6,
+        3,
+        1
+      ],
+      "passed": true
+    },
+    {
+      "id": "all27 nodes",
+      "actual": 27,
+      "expected": 27,
+      "passed": true
+    },
+    {
+      "id": "split totals",
+      "actual": 114381,
+      "expected": 114381,
+      "passed": true
+    },
+    {
+      "id": "galaxy determinant positive",
+      "actual": "True",
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "all sheet differences retained",
+      "actual": 7,
+      "expected": 7,
+      "passed": true
+    },
+    {
+      "id": "toy occupancy residual",
+      "actual": [
+        -1,
+        1,
+        0
+      ],
+      "expected": [
+        -1,
+        1,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "id": "preserved sparse count",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "response F regular",
+      "actual": "1",
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "id": "response F singular",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "M20 core requires",
+      "actual": [
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05",
+        "M06",
+        "M07",
+        "M08",
+        "M09",
+        "M10",
+        "M11",
+        "M12",
+        "M13",
+        "M14",
+        "M15",
+        "M16",
+        "M17",
+        "M18"
+      ],
+      "expected": [
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05",
+        "M06",
+        "M07",
+        "M08",
+        "M09",
+        "M10",
+        "M11",
+        "M12",
+        "M13",
+        "M14",
+        "M15",
+        "M16",
+        "M17",
+        "M18"
+      ],
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M01 M02",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M02 M03",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M03 M04",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M01 M05",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M04 M05",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M05 M06",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M01 M07",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M05 M07",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M06 M07",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M03 M08",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M07 M08",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M06 M09",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M08 M09",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M09 M10",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M10 M11",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M11 M12",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M04 M13",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M10 M13",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M03 M14",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M11 M14",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M10 M15",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M13 M15",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M14 M15",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M11 M16",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M14 M16",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M05 M17",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M11 M17",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M03 M18",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M04 M18",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M07 M19",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M08 M19",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M10 M19",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M13 M19",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M18 M19",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M01 M20",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M02 M20",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M03 M20",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M04 M20",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M05 M20",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M06 M20",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M07 M20",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M08 M20",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M09 M20",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M10 M20",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M11 M20",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M12 M20",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M13 M20",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M14 M20",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M15 M20",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M16 M20",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M17 M20",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "dependency precedes M18 M20",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "M19 not core closure",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "six EG principles",
+      "actual": [
+        "EG-A1",
+        "EG-A2",
+        "EG-A3",
+        "EG-A4",
+        "EG-A5",
+        "EG-A6"
+      ],
+      "expected": [
+        "EG-A1",
+        "EG-A2",
+        "EG-A3",
+        "EG-A4",
+        "EG-A5",
+        "EG-A6"
+      ],
+      "passed": true
+    },
+    {
+      "id": "all six phase product",
+      "actual": "1",
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "id": "deleting heavy changes product",
+      "actual": "I",
+      "expected": "I",
+      "passed": true
+    },
+    {
+      "id": "finite product retained cross term",
+      "actual": 9,
+      "expected": 9,
+      "passed": true
+    },
+    {
+      "id": "same initial outputs",
+      "actual": [
+        [
+          "3"
+        ],
+        [
+          "6"
+        ]
+      ],
+      "expected": [
+        [
+          "3"
+        ],
+        [
+          "6"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "initial rank",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "id": "expanded rank",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "expanded inverse",
+      "actual": [
+        [
+          "2"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "expected": [
+        [
+          "2"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "inverse practice",
+      "actual": [
+        [
+          "2"
+        ],
+        [
+          "3"
+        ]
+      ],
+      "expected": [
+        [
+          "2"
+        ],
+        [
+          "3"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "prospective rehearsal residuals",
+      "actual": {
+        "+": 0,
+        "-": -1
+      },
+      "expected": {
+        "+": 0,
+        "-": -1
+      },
+      "passed": true
+    },
+    {
+      "id": "rehearsal reconstruction +",
+      "actual": 3,
+      "expected": 3,
+      "passed": true
+    },
+    {
+      "id": "rehearsal reconstruction -",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "four states two binary questions",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "one binary question capacity",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "status identities not collapsed",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "lesson count 28",
+      "actual": 8,
+      "expected": 8,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C28.01",
+      "actual": "lesson-01",
+      "expected": "lesson-01",
+      "passed": true
+    },
+    {
+      "id": "period focus count C28.01",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C28.02",
+      "actual": "lesson-02",
+      "expected": "lesson-02",
+      "passed": true
+    },
+    {
+      "id": "period focus count C28.02",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C28.03",
+      "actual": "lesson-03",
+      "expected": "lesson-03",
+      "passed": true
+    },
+    {
+      "id": "period focus count C28.03",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C28.04",
+      "actual": "lesson-04",
+      "expected": "lesson-04",
+      "passed": true
+    },
+    {
+      "id": "period focus count C28.04",
+      "actual": 3,
+      "expected": 3,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C28.05",
+      "actual": "lesson-05",
+      "expected": "lesson-05",
+      "passed": true
+    },
+    {
+      "id": "period focus count C28.05",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C28.06",
+      "actual": "lesson-06",
+      "expected": "lesson-06",
+      "passed": true
+    },
+    {
+      "id": "period focus count C28.06",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C28.07",
+      "actual": "lesson-07",
+      "expected": "lesson-07",
+      "passed": true
+    },
+    {
+      "id": "period focus count C28.07",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C28.08",
+      "actual": "lesson-08",
+      "expected": "lesson-08",
+      "passed": true
+    },
+    {
+      "id": "period focus count C28.08",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "lesson count 29",
+      "actual": 8,
+      "expected": 8,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C29.01",
+      "actual": "lesson-01",
+      "expected": "lesson-01",
+      "passed": true
+    },
+    {
+      "id": "period focus count C29.01",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C29.02",
+      "actual": "lesson-02",
+      "expected": "lesson-02",
+      "passed": true
+    },
+    {
+      "id": "period focus count C29.02",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C29.03",
+      "actual": "lesson-03",
+      "expected": "lesson-03",
+      "passed": true
+    },
+    {
+      "id": "period focus count C29.03",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C29.04",
+      "actual": "lesson-04",
+      "expected": "lesson-04",
+      "passed": true
+    },
+    {
+      "id": "period focus count C29.04",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C29.05",
+      "actual": "lesson-05",
+      "expected": "lesson-05",
+      "passed": true
+    },
+    {
+      "id": "period focus count C29.05",
+      "actual": 3,
+      "expected": 3,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C29.06",
+      "actual": "lesson-06",
+      "expected": "lesson-06",
+      "passed": true
+    },
+    {
+      "id": "period focus count C29.06",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C29.07",
+      "actual": "lesson-07",
+      "expected": "lesson-07",
+      "passed": true
+    },
+    {
+      "id": "period focus count C29.07",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C29.08",
+      "actual": "lesson-08",
+      "expected": "lesson-08",
+      "passed": true
+    },
+    {
+      "id": "period focus count C29.08",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "lesson count 30",
+      "actual": 8,
+      "expected": 8,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C30.01",
+      "actual": "lesson-01",
+      "expected": "lesson-01",
+      "passed": true
+    },
+    {
+      "id": "period focus count C30.01",
+      "actual": 3,
+      "expected": 3,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C30.02",
+      "actual": "lesson-02",
+      "expected": "lesson-02",
+      "passed": true
+    },
+    {
+      "id": "period focus count C30.02",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C30.03",
+      "actual": "lesson-03",
+      "expected": "lesson-03",
+      "passed": true
+    },
+    {
+      "id": "period focus count C30.03",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C30.04",
+      "actual": "lesson-04",
+      "expected": "lesson-04",
+      "passed": true
+    },
+    {
+      "id": "period focus count C30.04",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C30.05",
+      "actual": "lesson-05",
+      "expected": "lesson-05",
+      "passed": true
+    },
+    {
+      "id": "period focus count C30.05",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C30.06",
+      "actual": "lesson-06",
+      "expected": "lesson-06",
+      "passed": true
+    },
+    {
+      "id": "period focus count C30.06",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C30.07",
+      "actual": "lesson-07",
+      "expected": "lesson-07",
+      "passed": true
+    },
+    {
+      "id": "period focus count C30.07",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C30.08",
+      "actual": "lesson-08",
+      "expected": "lesson-08",
+      "passed": true
+    },
+    {
+      "id": "period focus count C30.08",
+      "actual": 3,
+      "expected": 3,
+      "passed": true
+    },
+    {
+      "id": "SA29 source lesson identity lesson-01",
+      "actual": "lesson-01",
+      "expected": "lesson-01",
+      "passed": true
+    },
+    {
+      "id": "SA29 attached lesson-01",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "SA29 source lesson identity lesson-02",
+      "actual": "lesson-02",
+      "expected": "lesson-02",
+      "passed": true
+    },
+    {
+      "id": "SA29 attached lesson-02",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "SA29 source lesson identity lesson-03",
+      "actual": "lesson-03",
+      "expected": "lesson-03",
+      "passed": true
+    },
+    {
+      "id": "SA29 attached lesson-03",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "SA29 source lesson identity lesson-04",
+      "actual": "lesson-04",
+      "expected": "lesson-04",
+      "passed": true
+    },
+    {
+      "id": "SA29 attached lesson-04",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "SA29 source lesson identity lesson-05",
+      "actual": "lesson-05",
+      "expected": "lesson-05",
+      "passed": true
+    },
+    {
+      "id": "SA29 attached lesson-05",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "SA29 source lesson identity lesson-06",
+      "actual": "lesson-06",
+      "expected": "lesson-06",
+      "passed": true
+    },
+    {
+      "id": "SA29 attached lesson-06",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "SA29 source lesson identity lesson-07",
+      "actual": "lesson-07",
+      "expected": "lesson-07",
+      "passed": true
+    },
+    {
+      "id": "SA29 attached lesson-07",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "SA29 source lesson identity lesson-08",
+      "actual": "lesson-08",
+      "expected": "lesson-08",
+      "passed": true
+    },
+    {
+      "id": "SA29 attached lesson-08",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "explanation C28.01",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C28.01-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C28.01-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C28.01-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C28.01-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C28.01-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C28.01-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C28.01",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C28.01",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "explanation C28.02",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C28.02-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C28.02-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C28.02-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C28.02-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C28.02-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C28.02-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C28.02",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C28.02",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "explanation C28.03",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C28.03-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C28.03-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C28.03-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C28.03-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C28.03-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C28.03-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C28.03",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C28.03",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "amendment C28.03 SA-28",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "explanation C28.04",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C28.04-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C28.04-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C28.04-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C28.04-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C28.04-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C28.04-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C28.S01-E1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C28.S01-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C28.S01-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C28.S01-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "supplement answer C28.S01 explanation",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "supplement answer C28.S01 worked_task_and_answer",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "supplement answer C28.S01 practice_task_and_answer",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "supplement answer C28.S01 diagnostic_task_and_answer",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C28.04",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C28.04",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "amendment C28.04 SA-28",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "explanation C28.05",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C28.05-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C28.05-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C28.05-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C28.05-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C28.05-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C28.05-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C28.05",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C28.05",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "amendment C28.05 SA-28",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "explanation C28.06",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C28.06-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C28.06-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C28.06-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C28.06-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C28.06-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C28.06-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C28.06",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C28.06",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "explanation C28.07",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C28.07-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C28.07-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C28.07-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C28.07-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C28.07-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C28.07-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C28.07",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C28.07",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "amendment C28.07 SA-28",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "explanation C28.08",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C28.08-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C28.08-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C28.08-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C28.08-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C28.08-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C28.08-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C28.08",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C28.08",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C28-CAP-01 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C28-CAP-01 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C28-CAP-01 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C28-CAP-01 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C28-CAP-01",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C28-CAP-01",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "resolved C28-CAP-02 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C28-CAP-02 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C28-CAP-02 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C28-CAP-02 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C28-CAP-02",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C28-CAP-02",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "resolved C28-CAP-03 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C28-CAP-03 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C28-CAP-03 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C28-CAP-03 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C28-CAP-03",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C28-CAP-03",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "resolved C28-CAP-04 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C28-CAP-04 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C28-CAP-04 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C28-CAP-04 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C28-CAP-04",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C28-CAP-04",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "resolved C28-CAP-05 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C28-CAP-05 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C28-CAP-05 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C28-CAP-05 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C28-CAP-05",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C28-CAP-05",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "resolved C28-CAP-06 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C28-CAP-06 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C28-CAP-06 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C28-CAP-06 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C28-CAP-06",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C28-CAP-06",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "resolved C28-CAP-07 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C28-CAP-07 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C28-CAP-07 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C28-CAP-07 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C28-CAP-07",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C28-CAP-07",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "resolved C28-CAP-08 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C28-CAP-08 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C28-CAP-08 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C28-CAP-08 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C28-CAP-08",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C28-CAP-08",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "resolved C28-CAP-09 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C28-CAP-09 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C28-CAP-09 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C28-CAP-09 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C28-CAP-09",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C28-CAP-09",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C28.01",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C28.02",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C28.03",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C28.04",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C28.05",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C28.06",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C28.07",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C28.08",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C28.S01",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "all original capstone operations course-28",
+      "actual": [
+        "Specify sensor orientation, wavelength channels, gain, exposure, and calibration",
+        "Retain ordering, timestamps, channel identities, and fault states",
+        "Compute a declared Clear-reference transformation and preserve its inputs",
+        "Compare same-polarity and inverted structures without erasing weak channels",
+        "Freeze a geometric event rule before comparing the signal",
+        "Keep window support, phase, and removed components replayable",
+        "Track calibration limits, timing, gaps, and unresolved channel structure",
+        "Specify a reproducible forward test and retain every outcome"
+      ],
+      "expected": [
+        "Specify sensor orientation, wavelength channels, gain, exposure, and calibration",
+        "Retain ordering, timestamps, channel identities, and fault states",
+        "Compute a declared Clear-reference transformation and preserve its inputs",
+        "Compare same-polarity and inverted structures without erasing weak channels",
+        "Freeze a geometric event rule before comparing the signal",
+        "Keep window support, phase, and removed components replayable",
+        "Track calibration limits, timing, gaps, and unresolved channel structure",
+        "Specify a reproducible forward test and retain every outcome"
+      ],
+      "passed": true
+    },
+    {
+      "id": "stable contract course-28",
+      "actual": "af3206e71d56e97fa48869fce616a4caa58c4664dc5d8821ee56b42538034e85",
+      "expected": "af3206e71d56e97fa48869fce616a4caa58c4664dc5d8821ee56b42538034e85",
+      "passed": true
+    },
+    {
+      "id": "capstone score course-28",
+      "actual": 36,
+      "expected": 36,
+      "passed": true
+    },
+    {
+      "id": "explanation C29.01",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C29.01-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C29.01-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C29.01-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C29.01-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C29.01-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C29.01-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C29.01",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C29.01",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "amendment C29.01 SA-29-E11",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "explanation C29.02",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C29.02-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C29.02-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C29.02-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C29.02-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C29.02-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C29.02-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C29.02",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C29.02",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "amendment C29.02 SA-29-E11",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "explanation C29.03",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C29.03-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C29.03-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C29.03-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C29.03-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C29.03-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C29.03-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C29.03",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C29.03",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "amendment C29.03 SA-29-E11",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "explanation C29.04",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C29.04-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C29.04-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C29.04-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C29.04-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C29.04-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C29.04-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C29.04",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C29.04",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "amendment C29.04 SA-29-E11",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "explanation C29.05",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C29.05-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C29.05-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C29.05-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C29.05-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C29.05-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C29.05-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C29.05",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C29.05",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "amendment C29.05 SA-29-E11",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "explanation C29.06",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C29.06-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C29.06-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C29.06-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C29.06-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C29.06-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C29.06-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C29.06",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C29.06",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "amendment C29.06 SA-29-E11",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "explanation C29.07",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C29.07-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C29.07-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C29.07-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C29.07-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C29.07-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C29.07-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C29.07",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C29.07",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "amendment C29.07 SA-29-E11",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "explanation C29.08",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C29.08-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C29.08-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C29.08-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C29.08-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C29.08-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C29.08-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C29.08",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C29.08",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "amendment C29.08 SA-29-E11",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C29-CAP-01 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C29-CAP-01 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C29-CAP-01 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C29-CAP-01 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C29-CAP-01",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C29-CAP-01",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "resolved C29-CAP-02 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C29-CAP-02 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C29-CAP-02 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C29-CAP-02 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C29-CAP-02",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C29-CAP-02",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "resolved C29-CAP-03 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C29-CAP-03 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C29-CAP-03 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C29-CAP-03 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C29-CAP-03",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C29-CAP-03",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "resolved C29-CAP-04 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C29-CAP-04 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C29-CAP-04 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C29-CAP-04 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C29-CAP-04",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C29-CAP-04",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "resolved C29-CAP-05 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C29-CAP-05 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C29-CAP-05 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C29-CAP-05 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C29-CAP-05",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C29-CAP-05",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "resolved C29-CAP-06 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C29-CAP-06 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C29-CAP-06 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C29-CAP-06 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C29-CAP-06",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C29-CAP-06",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "resolved C29-CAP-07 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C29-CAP-07 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C29-CAP-07 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C29-CAP-07 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C29-CAP-07",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C29-CAP-07",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "resolved C29-CAP-08 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C29-CAP-08 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C29-CAP-08 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C29-CAP-08 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C29-CAP-08",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C29-CAP-08",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "legacy C29-MET-EX1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "legacy C29-MET-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "legacy C29-MET-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "legacy C29-PHASE-EX1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "legacy C29-SKEW-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "legacy C29-TYPE-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "legacy C29-DOMAIN-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "SA29 resolved C29.03-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "SA29 resolved C29.04-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "SA29 capstone resolved C29-CAP-03",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "SA29 capstone resolved C29-CAP-04",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "SA29 resolved C29.05-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "SA29 resolved C29.05-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "SA29 resolved C29.05-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "SA29 capstone resolved C29-CAP-05",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "SA29 resolved C29.05-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "SA29 capstone resolved C29-CAP-05",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "SA29 resolved C29.02-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "SA29 capstone resolved C29-CAP-02",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "SA29 resolved C29.07-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "SA29 resolved C29.08-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "SA29 capstone resolved C29-CAP-07",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "SA29 capstone resolved C29-CAP-08",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C29.01",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C29.02",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C29.03",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C29.04",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C29.05",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C29.06",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C29.07",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C29.08",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "all original capstone operations course-29",
+      "actual": [
+        "Separate a position direction from an unoriented galaxy axis",
+        "Trace a source-defined response into an address system",
+        "Read its basis, units, handedness, and origin",
+        "Compare galaxy and Cell3 constructions without identifying their physical normals",
+        "Reconstruct distance from a small positive metric",
+        "Track occupancy across levels without discarding sparse or weak regions",
+        "Explain a frozen comparison and retain phase drifts and mismatches",
+        "Compare recurring structures by explicit transformations and independent predictions"
+      ],
+      "expected": [
+        "Separate a position direction from an unoriented galaxy axis",
+        "Trace a source-defined response into an address system",
+        "Read its basis, units, handedness, and origin",
+        "Compare galaxy and Cell3 constructions without identifying their physical normals",
+        "Reconstruct distance from a small positive metric",
+        "Track occupancy across levels without discarding sparse or weak regions",
+        "Explain a frozen comparison and retain phase drifts and mismatches",
+        "Compare recurring structures by explicit transformations and independent predictions"
+      ],
+      "passed": true
+    },
+    {
+      "id": "stable contract course-29",
+      "actual": "d3ad20059c6d56f50ea25e57ee501eb438a99710ffcda660d9fe845944eb1e43",
+      "expected": "d3ad20059c6d56f50ea25e57ee501eb438a99710ffcda660d9fe845944eb1e43",
+      "passed": true
+    },
+    {
+      "id": "capstone score course-29",
+      "actual": 32,
+      "expected": 32,
+      "passed": true
+    },
+    {
+      "id": "explanation C30.01",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C30.01-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C30.01-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C30.01-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C30.01-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C30.01-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C30.01-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C30.01",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C30.01",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "amendment C30.01 SA-30",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "explanation C30.02",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C30.02-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C30.02-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C30.02-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C30.02-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C30.02-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C30.02-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C30.02",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C30.02",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "amendment C30.02 SA-30",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "explanation C30.03",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C30.03-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C30.03-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C30.03-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C30.03-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C30.03-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C30.03-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C30.03",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C30.03",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "explanation C30.04",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C30.04-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C30.04-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C30.04-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C30.04-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C30.04-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C30.04-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C30.04",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C30.04",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "amendment C30.04 SA-30",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "explanation C30.05",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C30.05-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C30.05-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C30.05-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C30.05-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C30.05-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C30.05-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C30.05",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C30.05",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "amendment C30.05 SA-30",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "explanation C30.06",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C30.06-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C30.06-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C30.06-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C30.06-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C30.06-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C30.06-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C30.06",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C30.06",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "explanation C30.07",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C30.07-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C30.07-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C30.07-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C30.07-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C30.07-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C30.07-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C30.07",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C30.07",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "explanation C30.08",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C30.08-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C30.08-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C30.08-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C30.08-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C30.08-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C30.08-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C30.08",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C30.08",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C30-CAP-01 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C30-CAP-01 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C30-CAP-01 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C30-CAP-01 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C30-CAP-01",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C30-CAP-01",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "resolved C30-CAP-02 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C30-CAP-02 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C30-CAP-02 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C30-CAP-02 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C30-CAP-02",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C30-CAP-02",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "resolved C30-CAP-03 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C30-CAP-03 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C30-CAP-03 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C30-CAP-03 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C30-CAP-03",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C30-CAP-03",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "resolved C30-CAP-04 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C30-CAP-04 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C30-CAP-04 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C30-CAP-04 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C30-CAP-04",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C30-CAP-04",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "resolved C30-CAP-05 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C30-CAP-05 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C30-CAP-05 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C30-CAP-05 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C30-CAP-05",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C30-CAP-05",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "resolved C30-CAP-06 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C30-CAP-06 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C30-CAP-06 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C30-CAP-06 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C30-CAP-06",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C30-CAP-06",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "resolved C30-CAP-07 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C30-CAP-07 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C30-CAP-07 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C30-CAP-07 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C30-CAP-07",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C30-CAP-07",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "resolved C30-CAP-08 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C30-CAP-08 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C30-CAP-08 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C30-CAP-08 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C30-CAP-08",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C30-CAP-08",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C30.01",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C30.02",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C30.03",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C30.04",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C30.05",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C30.06",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C30.07",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C30.08",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "all original capstone operations course-30",
+      "actual": [
+        "Connect the core modules and distinguish supplied premises from derived objects",
+        "Read the scope of a proof, replay, calibration, and measurement",
+        "Use a small inverse problem to test which parameters a measurement can recover",
+        "Compare candidate mechanisms by predictions and parameter needs",
+        "Freeze inputs, transformations, comparisons, and outcome handling",
+        "Retain all outcomes and define the next informative measurement",
+        "Write a reproducible report with sources, equations, residuals, and unresolved branches",
+        "Defend a complete geometric-to-instrument chain and its next test"
+      ],
+      "expected": [
+        "Connect the core modules and distinguish supplied premises from derived objects",
+        "Read the scope of a proof, replay, calibration, and measurement",
+        "Use a small inverse problem to test which parameters a measurement can recover",
+        "Compare candidate mechanisms by predictions and parameter needs",
+        "Freeze inputs, transformations, comparisons, and outcome handling",
+        "Retain all outcomes and define the next informative measurement",
+        "Write a reproducible report with sources, equations, residuals, and unresolved branches",
+        "Defend a complete geometric-to-instrument chain and its next test"
+      ],
+      "passed": true
+    },
+    {
+      "id": "stable contract course-30",
+      "actual": "ef34c51ff7c0fdfb4bfeacf90ef0eb66d2ec3f21688e61be617a69bfef861052",
+      "expected": "ef34c51ff7c0fdfb4bfeacf90ef0eb66d2ec3f21688e61be617a69bfef861052",
+      "passed": true
+    },
+    {
+      "id": "capstone score course-30",
+      "actual": 32,
+      "expected": 32,
+      "passed": true
+    },
+    {
+      "id": "24 original lessons",
+      "actual": 24,
+      "expected": 24,
+      "passed": true
+    },
+    {
+      "id": "25 capstone operations",
+      "actual": 25,
+      "expected": 25,
+      "passed": true
+    },
+    {
+      "id": "capstone decoder reconstruction",
+      "actual": [
+        [
+          "2"
+        ],
+        [
+          "3"
+        ],
+        [
+          "6"
+        ]
+      ],
+      "expected": [
+        [
+          "2"
+        ],
+        [
+          "3"
+        ],
+        [
+          "6"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "decoder residual normal",
+      "actual": [
+        [
+          "0"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "0"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "passed": true
+    }
+  ],
+  "course28": {
+    "authored_acquisition_rows": [
+      {
+        "acquisition_id": "toy-A",
+        "sequence": 0,
+        "timestamp_offset_s": 0,
+        "channel": "A",
+        "wavelength_nm": 500,
+        "raw_count": 2,
+        "Clear_count": 10,
+        "ratio": "1/5",
+        "ratio_status": "defined",
+        "fault_state": "not independently established",
+        "exposure_s": "1/5",
+        "gain_setting": 1,
+        "orientation": "fixed synthetic +z",
+        "calibration": "not supplied",
+        "retained_raw": true
+      },
+      {
+        "acquisition_id": "toy-A",
+        "sequence": 1,
+        "timestamp_offset_s": 1,
+        "channel": "A",
+        "wavelength_nm": 500,
+        "raw_count": 5,
+        "Clear_count": 0,
+        "ratio": null,
+        "ratio_status": "invalid_zero_Clear",
+        "fault_state": "not independently established",
+        "exposure_s": "1/5",
+        "gain_setting": 1,
+        "orientation": "fixed synthetic +z",
+        "calibration": "not supplied",
+        "retained_raw": true
+      },
+      {
+        "acquisition_id": "toy-A",
+        "sequence": 2,
+        "timestamp_offset_s": 2,
+        "channel": "A",
+        "wavelength_nm": 500,
+        "raw_count": 8,
+        "Clear_count": 20,
+        "ratio": "2/5",
+        "ratio_status": "defined",
+        "fault_state": "not independently established",
+        "exposure_s": "1/5",
+        "gain_setting": 1,
+        "orientation": "fixed synthetic +z",
+        "calibration": "not supplied",
+        "retained_raw": true
+      },
+      {
+        "acquisition_id": "toy-A",
+        "sequence": 3,
+        "timestamp_offset_s": 3,
+        "channel": "A",
+        "wavelength_nm": 500,
+        "raw_count": 1,
+        "Clear_count": 10,
+        "ratio": "1/10",
+        "ratio_status": "defined",
+        "fault_state": "not independently established",
+        "exposure_s": "1/5",
+        "gain_setting": 1,
+        "orientation": "fixed synthetic +z",
+        "calibration": "not supplied",
+        "retained_raw": true
+      },
+      {
+        "acquisition_id": "toy-A",
+        "sequence": 4,
+        "timestamp_offset_s": 4,
+        "channel": "A",
+        "wavelength_nm": 500,
+        "raw_count": 3,
+        "Clear_count": 10,
+        "ratio": "3/10",
+        "ratio_status": "defined",
+        "fault_state": "not independently established",
+        "exposure_s": "1/5",
+        "gain_setting": 1,
+        "orientation": "fixed synthetic +z",
+        "calibration": "not supplied",
+        "retained_raw": true
+      }
+    ],
+    "symmetry_ledgers": [
+      {
+        "input": [
+          [
+            "1"
+          ],
+          [
+            "2"
+          ],
+          [
+            "4"
+          ],
+          [
+            "3"
+          ]
+        ],
+        "reflection_same": [
+          [
+            "2"
+          ],
+          [
+            "3"
+          ],
+          [
+            "3"
+          ],
+          [
+            "2"
+          ]
+        ],
+        "reflection_inverted": [
+          [
+            "-1"
+          ],
+          [
+            "-1"
+          ],
+          [
+            "1"
+          ],
+          [
+            "1"
+          ]
+        ],
+        "antipodal_even": [
+          [
+            "5/2"
+          ],
+          [
+            "5/2"
+          ],
+          [
+            "5/2"
+          ],
+          [
+            "5/2"
+          ]
+        ],
+        "antipodal_odd": [
+          [
+            "-3/2"
+          ],
+          [
+            "-1/2"
+          ],
+          [
+            "3/2"
+          ],
+          [
+            "1/2"
+          ]
+        ]
+      },
+      {
+        "input": [
+          [
+            "3"
+          ],
+          [
+            "1"
+          ],
+          [
+            "-1"
+          ],
+          [
+            "1"
+          ]
+        ],
+        "reflection_same": [
+          [
+            "2"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "2"
+          ]
+        ],
+        "reflection_inverted": [
+          [
+            "1"
+          ],
+          [
+            "1"
+          ],
+          [
+            "-1"
+          ],
+          [
+            "-1"
+          ]
+        ],
+        "antipodal_even": [
+          [
+            "1"
+          ],
+          [
+            "1"
+          ],
+          [
+            "1"
+          ],
+          [
+            "1"
+          ]
+        ],
+        "antipodal_odd": [
+          [
+            "2"
+          ],
+          [
+            "0"
+          ],
+          [
+            "-2"
+          ],
+          [
+            "0"
+          ]
+        ]
+      }
+    ],
+    "reflection_same_projector": [
+      [
+        "1/2",
+        "0",
+        "0",
+        "1/2"
+      ],
+      [
+        "0",
+        "1/2",
+        "1/2",
+        "0"
+      ],
+      [
+        "0",
+        "1/2",
+        "1/2",
+        "0"
+      ],
+      [
+        "1/2",
+        "0",
+        "0",
+        "1/2"
+      ]
+    ],
+    "reflection_inverted_projector": [
+      [
+        "1/2",
+        "0",
+        "0",
+        "-1/2"
+      ],
+      [
+        "0",
+        "1/2",
+        "-1/2",
+        "0"
+      ],
+      [
+        "0",
+        "-1/2",
+        "1/2",
+        "0"
+      ],
+      [
+        "-1/2",
+        "0",
+        "0",
+        "1/2"
+      ]
+    ],
+    "antipodal_even_projector": [
+      [
+        "1/2",
+        "0",
+        "1/2",
+        "0"
+      ],
+      [
+        "0",
+        "1/2",
+        "0",
+        "1/2"
+      ],
+      [
+        "1/2",
+        "0",
+        "1/2",
+        "0"
+      ],
+      [
+        "0",
+        "1/2",
+        "0",
+        "1/2"
+      ]
+    ],
+    "antipodal_odd_projector": [
+      [
+        "1/2",
+        "0",
+        "-1/2",
+        "0"
+      ],
+      [
+        "0",
+        "1/2",
+        "0",
+        "-1/2"
+      ],
+      [
+        "-1/2",
+        "0",
+        "1/2",
+        "0"
+      ],
+      [
+        "0",
+        "-1/2",
+        "0",
+        "1/2"
+      ]
+    ],
+    "DFT_matrix": [
+      [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      [
+        "1",
+        "-I",
+        "-1",
+        "I"
+      ],
+      [
+        "1",
+        "-1",
+        "1",
+        "-1"
+      ],
+      [
+        "1",
+        "I",
+        "-1",
+        "-I"
+      ]
+    ],
+    "mean": "19/5",
+    "detail": [
+      [
+        "-9/5"
+      ],
+      [
+        "6/5"
+      ],
+      [
+        "21/5"
+      ],
+      [
+        "-14/5"
+      ],
+      [
+        "-4/5"
+      ]
+    ]
+  },
+  "course29": {
+    "metric": [
+      [
+        "2",
+        "1"
+      ],
+      [
+        "1",
+        "2"
+      ]
+    ],
+    "inverse_metric": [
+      [
+        "2/3",
+        "-1/3"
+      ],
+      [
+        "-1/3",
+        "2/3"
+      ]
+    ],
+    "phase": [
+      [
+        "1/4"
+      ],
+      [
+        "1/2"
+      ]
+    ],
+    "skew_basis": [
+      [
+        "1",
+        "9/10"
+      ],
+      [
+        "0",
+        "1/10"
+      ]
+    ],
+    "skew_point": [
+      [
+        "931/1000"
+      ],
+      [
+        "49/1000"
+      ]
+    ],
+    "root_ledgers": [
+      {
+        "name": "toyA",
+        "A": [
+          [
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "2",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "3"
+          ]
+        ],
+        "M": [
+          [
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "4",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "9"
+          ]
+        ],
+        "reciprocal_columns": [
+          [
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1/2",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1/3"
+          ]
+        ],
+        "s_ab": [
+          [
+            "1/2"
+          ],
+          [
+            "-1"
+          ],
+          [
+            "0"
+          ]
+        ],
+        "s_ac": [
+          [
+            "1/2"
+          ],
+          [
+            "0"
+          ],
+          [
+            "-3/2"
+          ]
+        ],
+        "s_bc": [
+          [
+            "0"
+          ],
+          [
+            "1"
+          ],
+          [
+            "-3/2"
+          ]
+        ],
+        "normal_unnormalized": [
+          [
+            "1"
+          ],
+          [
+            "1/2"
+          ],
+          [
+            "1/3"
+          ]
+        ],
+        "root_tensor": [
+          [
+            "1/2",
+            "-1/2",
+            "-3/4"
+          ],
+          [
+            "-1/2",
+            "2",
+            "-3/2"
+          ],
+          [
+            "-3/4",
+            "-3/2",
+            "9/2"
+          ]
+        ]
+      },
+      {
+        "name": "toyB",
+        "A": [
+          [
+            "2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "4"
+          ]
+        ],
+        "M": [
+          [
+            "4",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "16"
+          ]
+        ],
+        "reciprocal_columns": [
+          [
+            "1/2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1/4"
+          ]
+        ],
+        "s_ab": [
+          [
+            "1"
+          ],
+          [
+            "-1/2"
+          ],
+          [
+            "0"
+          ]
+        ],
+        "s_ac": [
+          [
+            "1"
+          ],
+          [
+            "0"
+          ],
+          [
+            "-2"
+          ]
+        ],
+        "s_bc": [
+          [
+            "0"
+          ],
+          [
+            "1/2"
+          ],
+          [
+            "-2"
+          ]
+        ],
+        "normal_unnormalized": [
+          [
+            "1/2"
+          ],
+          [
+            "1"
+          ],
+          [
+            "1/4"
+          ]
+        ],
+        "root_tensor": [
+          [
+            "2",
+            "-1/2",
+            "-2"
+          ],
+          [
+            "-1/2",
+            "1/2",
+            "-1"
+          ],
+          [
+            "-2",
+            "-1",
+            "8"
+          ]
+        ]
+      }
+    ],
+    "sheet_counts": [
+      1,
+      3,
+      6,
+      7,
+      6,
+      3,
+      1
+    ],
+    "source_diagnostics": {
+      "method": "Exact rational arithmetic on stored decimal literals after JSON numeric decoding; these differences preserve stored-precision closure and do not certify a source interval.",
+      "direct_reciprocal_closure": [
+        [
+          "15200634055525027/200000000000000000000000000000000",
+          "-273012162013564873/1000000000000000000000000000000000",
+          "-74279917454397197/2000000000000000000000000000000000"
+        ],
+        [
+          "8100698446411099/100000000000000000000000000000000",
+          "-152468118406807251/1000000000000000000000000000000000",
+          "69337828712512191/2000000000000000000000000000000000"
+        ],
+        [
+          "-25823250623933527/100000000000000000000000000000000",
+          "-3339356321688291/50000000000000000000000000000000",
+          "-2917718908207203/100000000000000000000000000000000"
+        ]
+      ],
+      "root_closure": [
+        [
+          "3/100000000000000000"
+        ],
+        [
+          "1/50000000000000000"
+        ],
+        [
+          "-3/200000000000000000"
+        ]
+      ],
+      "holdout_minus_discovery_sheet_fractions": [
+        "369801309011343/1000000000000000000",
+        "58364067304177/100000000000000000",
+        "82554493827141/100000000000000000",
+        "-246333476723913/100000000000000000",
+        "4677179218803/2000000000000000",
+        "-75786927838457/50000000000000000",
+        "-138503205717797/1000000000000000000"
+      ],
+      "source": "G01",
+      "source_pointers": [
+        "/ordered_direct_basis_A",
+        "/reciprocal_basis_Q",
+        "/holonomy",
+        "/observed_27_node_occupancy"
+      ],
+      "source_data_copied": false
+    }
+  },
+  "course30": {
+    "core_dependencies": [
+      "M01",
+      "M02",
+      "M03",
+      "M04",
+      "M05",
+      "M06",
+      "M07",
+      "M08",
+      "M09",
+      "M10",
+      "M11",
+      "M12",
+      "M13",
+      "M14",
+      "M15",
+      "M16",
+      "M17",
+      "M18"
+    ],
+    "edges": [
+      [
+        "M01",
+        "M02"
+      ],
+      [
+        "M02",
+        "M03"
+      ],
+      [
+        "M03",
+        "M04"
+      ],
+      [
+        "M01",
+        "M05"
+      ],
+      [
+        "M04",
+        "M05"
+      ],
+      [
+        "M05",
+        "M06"
+      ],
+      [
+        "M01",
+        "M07"
+      ],
+      [
+        "M05",
+        "M07"
+      ],
+      [
+        "M06",
+        "M07"
+      ],
+      [
+        "M03",
+        "M08"
+      ],
+      [
+        "M07",
+        "M08"
+      ],
+      [
+        "M06",
+        "M09"
+      ],
+      [
+        "M08",
+        "M09"
+      ],
+      [
+        "M09",
+        "M10"
+      ],
+      [
+        "M10",
+        "M11"
+      ],
+      [
+        "M11",
+        "M12"
+      ],
+      [
+        "M04",
+        "M13"
+      ],
+      [
+        "M10",
+        "M13"
+      ],
+      [
+        "M03",
+        "M14"
+      ],
+      [
+        "M11",
+        "M14"
+      ],
+      [
+        "M10",
+        "M15"
+      ],
+      [
+        "M13",
+        "M15"
+      ],
+      [
+        "M14",
+        "M15"
+      ],
+      [
+        "M11",
+        "M16"
+      ],
+      [
+        "M14",
+        "M16"
+      ],
+      [
+        "M05",
+        "M17"
+      ],
+      [
+        "M11",
+        "M17"
+      ],
+      [
+        "M03",
+        "M18"
+      ],
+      [
+        "M04",
+        "M18"
+      ],
+      [
+        "M07",
+        "M19"
+      ],
+      [
+        "M08",
+        "M19"
+      ],
+      [
+        "M10",
+        "M19"
+      ],
+      [
+        "M13",
+        "M19"
+      ],
+      [
+        "M18",
+        "M19"
+      ],
+      [
+        "M01",
+        "M20"
+      ],
+      [
+        "M02",
+        "M20"
+      ],
+      [
+        "M03",
+        "M20"
+      ],
+      [
+        "M04",
+        "M20"
+      ],
+      [
+        "M05",
+        "M20"
+      ],
+      [
+        "M06",
+        "M20"
+      ],
+      [
+        "M07",
+        "M20"
+      ],
+      [
+        "M08",
+        "M20"
+      ],
+      [
+        "M09",
+        "M20"
+      ],
+      [
+        "M10",
+        "M20"
+      ],
+      [
+        "M11",
+        "M20"
+      ],
+      [
+        "M12",
+        "M20"
+      ],
+      [
+        "M13",
+        "M20"
+      ],
+      [
+        "M14",
+        "M20"
+      ],
+      [
+        "M15",
+        "M20"
+      ],
+      [
+        "M16",
+        "M20"
+      ],
+      [
+        "M17",
+        "M20"
+      ],
+      [
+        "M18",
+        "M20"
+      ]
+    ],
+    "six_scalar_factors": [
+      "I",
+      "I",
+      -1,
+      "-I",
+      "I",
+      1
+    ],
+    "identifiability_design": [
+      [
+        "1",
+        "1"
+      ],
+      [
+        "2",
+        "2"
+      ]
+    ],
+    "theta_a": [
+      [
+        "2"
+      ],
+      [
+        "1"
+      ]
+    ],
+    "theta_b": [
+      [
+        "1"
+      ],
+      [
+        "2"
+      ]
+    ],
+    "expanded_design": [
+      [
+        "1",
+        "1"
+      ],
+      [
+        "1",
+        "-1"
+      ]
+    ],
+    "protocol_predictions": {
+      "+": 3,
+      "-": 1
+    },
+    "synthetic_rehearsal_values": {
+      "+": 3,
+      "-": 0
+    },
+    "residuals": {
+      "+": 0,
+      "-": -1
+    },
+    "status_examples": [
+      {
+        "pointer": "/a",
+        "presence": "present",
+        "raw_kind": "null",
+        "raw_value": null
+      },
+      {
+        "pointer": "/b",
+        "presence": "absent",
+        "raw_kind": null
+      },
+      {
+        "pointer": "/c",
+        "presence": "present",
+        "raw_kind": "string",
+        "raw_value": "unknown"
+      },
+      {
+        "pointer": "/d",
+        "presence": "present",
+        "raw_kind": "string",
+        "raw_value": "reported"
+      }
+    ]
+  },
+  "source_route_status": {
+    "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\route-source-retrieval-status.json",
+    "sha256": "2db00c1da129984fe9231b9e6cf3140f9beb9b7f155db912c2a1a872e1404960",
+    "status": {
+      "schema_version": "1.0",
+      "recorded_utc_date": "2026-11-05",
+      "course": "course-27",
+      "status": "full_route_certificate_not_retrieved_by_parent",
+      "confirmed_overview": {
+        "object_id": "c9335e2df74344bff5665df5a5e0b9094fef22147c76458f1a54efe49cefce62",
+        "logical_path": "applications/kfield_lucas_lab/rag_corpus/20_phase_route.md",
+        "byte_count": 470,
+        "range": [
+          0,
+          470
+        ],
+        "sha256": "c9335e2df74344bff5665df5a5e0b9094fef22147c76458f1a54efe49cefce62",
+        "interpretation": "Names quadratic-cost and least-cost-certificate objects and says the certificate records path, lower/upper bounds and gap. It supplies none of those numeric certificate fields."
+      },
+      "searches": [
+        {
+          "tool": "krytronx_search",
+          "query": "kfield.route.least-cost-certificate",
+          "matches": 0
+        },
+        {
+          "tool": "krytronx_project_rag_search",
+          "query": "least-cost route certificate lower upper optimality gap",
+          "prefix": "applications/kfield_lucas_lab/",
+          "matches": 0,
+          "rerank": false
+        },
+        {
+          "tools": [
+            "krytronx_search",
+            "krytronx_project_rag_search",
+            "krytronx_traverse"
+          ],
+          "result": "40-call MCP session bound exhausted",
+          "disposition": "No further parent MCP attempts. No quota or permission bypass."
+        }
+      ],
+      "snapshot_generation": "sha256:5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+      "source_guards": {
+        "S02": "BR-12 reports exact QPC algebra; its declaration alone is not an independent numerical replay.",
+        "S03_AUD_008": "G_phase, C and full W_qpc missing from that record. Recorded nonzero closure coordinate 4.58938078934712923077736690075e-12 needs a precision/interval contract.",
+        "S03_AUD_009": "Missing bodies retain VERIFIED_NOT_LOADED status. Definitions and pinned replay objects must precede any claimed fresh replay.",
+        "SA_27": "W_qpc=B^T G_phase B/4; exact source replay requires full typed matrices and route bounds/certificate."
+      },
+      "archive_lookup": "Filename-limited read-only lookup found several historical CMB maximum-residual and modulation-route records; these are different optimization objectives and were not substituted for the named least-cost certificate.",
+      "next_work": "Course27 author/auditor must preserve this retrieval scope and independently source any certificate they claim to reproduce. Synthetic route exercises remain explicitly synthetic and cannot be presented as the named archival certificate.",
+      "copies": "No raw source copies or data arrays created. This is compact provenance and retrieval status only."
+    }
+  },
+  "limitations": [
+    "Blueprint acceptance after amendment application only; completed lessons and capstone require independent later acceptance.",
+    "Pacing may expand at recovery checkpoints.",
+    "Galaxy lengths are unit-sphere reconstruction lengths; no radial calibration or cross-scale physical identity is supplied.",
+    "Source decimal diagnostics preserve numerical closure residuals, not certified intervals.",
+    "Full named route certificate and complete locked G_phase,C,W precision linkage remain unavailable; AUD008 nonzero closure, unloaded bodies and source bundle revision discrepancies remain visible.",
+    "Remote source records and parent support reports are comparisons, not freshly executed compiler proofs or empirical measurements.",
+    "No new physical experiment or favorable result was invented."
+  ],
+  "source_or_project_files_modified": false,
+  "large_arrays_saved": false
+}

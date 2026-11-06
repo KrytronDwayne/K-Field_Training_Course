@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.0",
+  "pending": [],
+  "updated_utc": "2026-11-05T19:26:32.1160265Z",
+  "scope": "Seven lessons, all capstone parts and rubric, teaching alignment, terminology, archival source fidelity and finite mathematics. Final assembly, manifest integrity and deterministic validator are separate manager checks.",
+  "auditor": "independent_audit",
+  "status": "passed_independent_content_audit",
+  "verification": {
+    "checks_passed": 20,
+    "script": "independent-verification.py",
+    "exit_code": 0,
+    "source_hashes": "All five source SHA-256 values independently matched input-contract.json",
+    "source_fidelity": "SA-20 claim, D10 conflict and AUD-007 correction retained accurately; no inferred missing selection proof or source isometry replay.",
+    "source_objects_read": [
+      "S02#/backbone_sequence/15",
+      "S02#/proof_nodes/78",
+      "S02#/proof_nodes/81",
+      "S03#/findings/6",
+      "S03#/findings/8"
+    ],
+    "runtime": "C:/Users/info/.conda/envs/tf_gpu_env/python.exe",
+    "method": "Exact fractions for scalar arithmetic; explicit complex 3-by-3 multiplication at tolerance 1e-12; independent hand-reading of all worked and diagnostic answers"
+  },
+  "notes": [
+    "No lesson files edited by auditor. All three minor findings were corrected by author and independently reread.",
+    "All nine capstone parts map to introduced and answered practice; full answer key independently checked and point rubric sums to 100.",
+    "All seven lessons meet question, 2-4 goals, prerequisite bridge, explanation, worked example, claim scope, 3-5 answered diagnostics and next-dependency requirements.",
+    "Mean/detail components, complements, zero Weyl coefficients, reconstructed w and singular branches are retained.",
+    "Independent source checks covered supplied archival files and exact M16/F038/X033/AUD-007/AUD-009 records. Integration RAG retrieval metadata was reviewed as manager provenance, not independently retrieved again.",
+    "Final assembly identity and deterministic validator acceptance remain manager responsibilities, not asserted by this content audit.",
+    "Initial multiline python -c invocation was rejected by conda before execution; file-based independent-verification.py then passed 20 checks under tf_gpu_env."
+  ],
+  "findings": [
+    {
+      "status": "resolved",
+      "location": "lesson-03.md / C20.S01-E1 and diagnostic 5",
+      "finding": "Rank was assessed before its explicit definition.",
+      "verification": "Read current definition and diagnostic after patch.",
+      "severity": "minor",
+      "id": "IA20-01",
+      "correction": "Image and rank are now defined in C20.S01-E1 before the diagnostic."
+    },
+    {
+      "status": "resolved",
+      "location": "sources.md S02 / source-provenance.json sources[1].used_pointers",
+      "finding": "A D10 selector was labelled as a JSON pointer.",
+      "verification": "Independently read S02 proof_operations index 9 and checked it names D10; reread both authored files.",
+      "severity": "minor",
+      "id": "IA20-02",
+      "correction": "Exact /proof_operations/9 now replaces selector in authored provenance."
+    },
+    {
+      "status": "resolved",
+      "location": "lesson-03.md / Session A; terminology.md unitary row",
+      "finding": "Glossary unitary criterion could be read to include rectangular isometries.",
+      "verification": "Read both revised definitions and checked consistency with the 27-to-243 lift.",
+      "severity": "minor",
+      "id": "IA20-03",
+      "correction": "Square unitary U dagger U = U U dagger = I is distinguished from rectangular isometry V dagger V = I."
+    }
+  ],
+  "unresolved": {
+    "major": 0,
+    "critical": 0,
+    "minor": 0
+  },
+  "reviewed_files": [
+    {
+      "path": "lesson-01.md",
+      "sha256": "ebcf88fce3a1b5231d1a844f51152f2690f6f935c4ed522282dfa6d824a3eb37"
+    },
+    {
+      "path": "lesson-02.md",
+      "sha256": "403cc3516c2eb3e2bf7c2a7d3171c48d8646631ec78bf090809f2e6821d99f63"
+    },
+    {
+      "path": "lesson-03.md",
+      "sha256": "56a278a399922de7e75b7788836c4a0d4b5ec65c701aed82610a30798355ab43"
+    },
+    {
+      "path": "lesson-04.md",
+      "sha256": "f40c3ab70dc355fad268ef9815c91f957fa3f9017fe1e64263e6d54bd76bf900"
+    },
+    {
+      "path": "lesson-05.md",
+      "sha256": "51ee238d2faa15cffaa590ce8d35d7b9630b5b57fb3f8a98fb825e22cf1d016f"
+    },
+    {
+      "path": "lesson-06.md",
+      "sha256": "2825223a76bcc7d4c8d859b99d7050788e6cd3331fbbc29d06c65a1e899e47c6"
+    },
+    {
+      "path": "lesson-07.md",
+      "sha256": "acc4c091042f2704543eb95d3b761f36e0a812c8d73a0341b3c8b806b7d9680f"
+    },
+    {
+      "path": "capstone.md",
+      "sha256": "42e15adad851ea91787d05390c65fa55e669518523220199aa524224146c3fc7"
+    },
+    {
+      "path": "course-map.md",
+      "sha256": "2006055b6a2d9e400ff8e1133e18c906d3ce54dd295a2c587ac5de1a6ffa4ddd"
+    },
+    {
+      "path": "teacher-guide.md",
+      "sha256": "92dd130bf6cfe06ca59625c5f01971a13bfadb1bf6194424084be7d57f83f4c4"
+    },
+    {
+      "path": "terminology.md",
+      "sha256": "5b4bf907366f6a03e8d389008e4d79aa4b1d33834556aaf9fd1c52d958c74ae3"
+    },
+    {
+      "path": "sources.md",
+      "sha256": "d147b1568de2c92e232b0c52720806bba4185377a82ec406d7b0eeee444153d9"
+    },
+    {
+      "path": "source-provenance.json",
+      "sha256": "61e79720d456b7fb2e2610dc4c83c0533180942443e3cacf22ec4e5d9461d1d3"
+    }
+  ]
+}

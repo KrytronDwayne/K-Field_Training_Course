@@ -1,0 +1,184 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Terminology and notation · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/22">Course 22</a><span>/</span><span>terminology</span></div><a class="original" href="../../../kfield-22-inverse-limits-continuum-rendering-and-detail/terminology.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#terminology-and-notation">Terminology and notation</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 01 — Finite prefixes and compatible sequences</a><a  href="lesson-02.html">Lesson 02 — A different meaning of closeness</a><a  href="lesson-03.html">Lesson 03 — The ternary inverse limit</a><a  href="lesson-04.html">Lesson 04 — A convergent real-space renderer</a><a  href="lesson-05.html">Lesson 05 — Cylinder observations</a><a  href="lesson-06.html">Lesson 06 — Retained-detail filtrations</a><a  href="lesson-07.html">Lesson 07 — Infinite objects and operator domains</a></details></aside><div class="reading-column"><article class="prose"><h1 id="terminology-and-notation" tabindex="-1">Terminology and notation</h1>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Term or symbol</th>
+<th>Meaning and local convention</th>
+<th>Introduced</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Z; Z/3^d Z</td>
+<td>Integers; their residues modulo 3^d</td>
+<td>01</td>
+</tr>
+<tr>
+<td>d, N, j</td>
+<td>Positive depth, truncation depth, digit index; dimensionless</td>
+<td>01,04</td>
+</tr>
+<tr>
+<td>u_j</td>
+<td>Balanced digit −1,0,1, or ordered triple of these; least significant first in addresses</td>
+<td>01</td>
+</tr>
+<tr>
+<td>t_d, a_d</td>
+<td>Signed weighted digit sum; its nonnegative residue</td>
+<td>01</td>
+</tr>
+<tr>
+<td>A_d</td>
+<td>Three-coordinate address set (Z/3^d Z)^3, with 27^d elements</td>
+<td>01,03</td>
+</tr>
+<tr>
+<td>π_d</td>
+<td>Coordinatewise reduction from depth d+1 to d</td>
+<td>01</td>
+</tr>
+<tr>
+<td>Compatibility</td>
+<td>Every deeper residue reduces to its stored shallower residue</td>
+<td>01</td>
+</tr>
+<tr>
+<td>δ, k</td>
+<td>Address distance 3^(−k) for exactly k shared low-order digits; zero for identical complete histories</td>
+<td>02</td>
+</tr>
+<tr>
+<td>A∞, Z₃³</td>
+<td>Set of complete compatible triple histories; not a finite residue set</td>
+<td>03</td>
+</tr>
+<tr>
+<td>Inverse limit</td>
+<td>Whole compatible ladder under reduction maps</td>
+<td>03</td>
+</tr>
+<tr>
+<td>r, S_N</td>
+<td>In the geometric-sum derivation only: scalar ratio and finite sum r+…+r^N</td>
+<td>04</td>
+</tr>
+<tr>
+<td>Σ</td>
+<td>Sum over the stated index range; infinite sum is a limit of partial sums</td>
+<td>04</td>
+</tr>
+<tr>
+<td>z_N, z</td>
+<td>Dimensionless normalized rendered partial vector and its real limit</td>
+<td>04</td>
+</tr>
+<tr>
+<td>B, r_N, r</td>
+<td>Declared length-valued matrix; rendered displacement Bz_N and limit Bz. This r is not the geometric ratio</td>
+<td>04</td>
+</tr>
+<tr>
+<td>LU</td>
+<td>Synthetic length unit, not a measured Cell3 calibration</td>
+<td>04</td>
+</tr>
+<tr>
+<td>O_K, x</td>
+<td>Declared physical origin and absolute position; x−O_K is displacement</td>
+<td>04</td>
+</tr>
+<tr>
+<td>Infinity norm</td>
+<td>Largest absolute coordinate; matrix version is largest absolute row sum</td>
+<td>04</td>
+</tr>
+<tr>
+<td>Absolute tail bound</td>
+<td>Upper bound on remaining absolute contribution, retained with exact rule or unresolved continuation</td>
+<td>04</td>
+</tr>
+<tr>
+<td>Ordered pair</td>
+<td>History and image retained together; equal images need not mean equal histories</td>
+<td>04</td>
+</tr>
+<tr>
+<td>f_d, g₂, composition ∘</td>
+<td>Finite-prefix functions; composition means apply the right function first</td>
+<td>05</td>
+</tr>
+<tr>
+<td>Cylinder, pullback</td>
+<td>Histories sharing a finite prefix; observation evaluated after reduction</td>
+<td>05</td>
+</tr>
+<tr>
+<td>P₀, P₁</td>
+<td>Four-cell global and adjacent-pair averaging, equal weights</td>
+<td>06</td>
+</tr>
+<tr>
+<td>Q₀, Q₁</td>
+<td>P₁−P₀ and I−P₁, retained between-pair and within-pair detail</td>
+<td>06</td>
+</tr>
+<tr>
+<td>I; transpose; projector</td>
+<td>Identity map; row/column swap; operation P satisfying P²=P</td>
+<td>06</td>
+</tr>
+<tr>
+<td>Dot product, orthogonal</td>
+<td>Sum of coordinate products; dot product zero</td>
+<td>06</td>
+</tr>
+<tr>
+<td>Filtration</td>
+<td>Sequence of nested coarse spaces; infinite reconstruction requires a convergence contract</td>
+<td>06</td>
+</tr>
+<tr>
+<td>E, Q</td>
+<td>A specified block averaging and I−E; product rules require explicit extra properties</td>
+<td>06</td>
+</tr>
+<tr>
+<td>Δf</td>
+<td>f_t−f_s, signed finite difference across two labeled endpoints</td>
+<td>06</td>
+</tr>
+<tr>
+<td>ℓ², sequence 2-norm</td>
+<td>Real square-summable sequence space; square root of sum of squared entries</td>
+<td>07</td>
+</tr>
+<tr>
+<td>Carrier, domain, action</td>
+<td>Ambient objects; allowed inputs for one operator; its transformation rule</td>
+<td>07</td>
+</tr>
+<tr>
+<td>D, Dom(D)</td>
+<td>Action (Dx)_n=nx_n; domain where Σn²x_n² is finite</td>
+<td>07</td>
+</tr>
+<tr>
+<td>Convergence mode</td>
+<td>Criterion specifying what it means to approach a limit, e.g. ℓ² norm</td>
+<td>07</td>
+</tr>
+<tr>
+<td>Unbounded</td>
+<td>No one finite constant bounds output norm by constant × input norm on the domain</td>
+<td>07</td>
+</tr>
+<tr>
+<td>Self-adjointness</td>
+<td>Advanced operator property involving the adjoint and its domain; recognition only</td>
+<td>07</td>
+</tr>
+</tbody>
+</table></div>
+<p>Reserved wider-series notation: M_cell=BᵀB and R_cell=M_cell^−1 are the Cell3 Gram metric and its inverse, whereas G_phase is a separate phase metric. None is required in core computations here. B in the illustrative diagonal example is explicitly synthetic, not the mature ordered ICRS Cell3 basis. The latter has intentional negative determinant and half-open cells [−1/2,1/2)^3; neither its numerical constants nor ownership rule is substituted by our examples. Address reduction is not nearest-integer rounding. No half-tie convention is needed for a residue operation.</p>
+<p>Source vocabulary and status: “reported” identifies an archival assertion; “derived” identifies the course's explicit mathematical consequence; “synthetic” identifies authored inputs; “not supplied” identifies a missing contract or body, not a refutation. Compiler M03/M07/M08 authority is not automatically mathematical-backbone authority. No parity, chirality, metric, physical velocity or energy branch is merged here.</p></article><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/22">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

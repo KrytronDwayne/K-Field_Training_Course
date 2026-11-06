@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.0",
+  "status": "passed",
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "findings": [
+    {
+      "id": "IA-MIN-01",
+      "level": "local",
+      "category": "source_pointer_clarity",
+      "file": "lesson-05.md",
+      "section": "Claim scope and source card",
+      "severity": "minor",
+      "defect": "The citation /emily_spectrum was shorthand rather than a complete JSON pointer.",
+      "correction": "Expanded to /backbone_sequence/7/emily_spectrum.",
+      "verification": "Independent auditor rechecked the repaired pointer against S02; see independent-audit.json.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "lesson-05",
+        "assembly"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "level": "local",
+      "category": "lesson_contract_and_prerequisites",
+      "evidence": "Independent full reading of all seven lessons and 28 E/W/P/D anchors plus three legacy anchors; each lesson has one question, 3–4 goals, bridge, worked example, practice and four answered diagnostics. E05/E06 accepted in independent-audit.json."
+    },
+    {
+      "level": "local",
+      "category": "mathematics_and_answers",
+      "evidence": "verify.py passed 115 exact rational/radical checks; independent_check.py separately corroborated all 27 eigenpairs and 729 dot products and exact rational M17 rank. Independent auditor hand checked all lesson answers."
+    },
+    {
+      "level": "cumulative",
+      "category": "unit_1",
+      "evidence": "Lessons 01–03 progress row action → common multiplier → two-case derivation → norm/dot definitions. No division by zero; exact radicals precede normalization."
+    },
+    {
+      "level": "cumulative",
+      "category": "unit_2",
+      "evidence": "Lessons 04–05 use defined product entries and finite sums before counting; exhaustive ledger lists 27 modes. Function parity, node chi and sheet populations retain distinct meanings."
+    },
+    {
+      "level": "cumulative",
+      "category": "unit_3",
+      "evidence": "Lessons 06–07 derive coefficient reconstruction and residual accounting before map tests. Degree calculation disproves constant-line invariance; reflection commutation is separately explained."
+    },
+    {
+      "level": "final",
+      "category": "coverage_and_assessment",
+      "evidence": "All seven kernel capabilities map to actual explanations, answered practice and capstone steps. Capstone operations retain named inputs/outputs; full answer key matches taught finite calculations and 100-point rubric."
+    },
+    {
+      "level": "final",
+      "category": "fidelity_and_sources",
+      "evidence": "Five source SHA-256 values verified; exact M08/M03/M17 and AUD-002 pointers inspected. Sources distinguish source reports, fresh finite results and synthetic examples. Graph retrieval failure disclosed; no formal authority promoted."
+    },
+    {
+      "level": "final",
+      "category": "definitions_units_and_invariants",
+      "evidence": "Dimensionless patterns; node order (−1,0,1), lexicographic triples and mode order (+,0,−) fixed. B_Y explicitly differs from geometric B. No extraneous physical constants or parity identities imported."
+    },
+    {
+      "level": "final",
+      "category": "evidence_and_residuals",
+      "evidence": "No empirical measurements fabricated. Full reconstruction, zero-mode residual, even/odd parts and mean/detail each recover input. Source gauge coordinate count does not become a 26-mode Emily claim."
+    },
+    {
+      "level": "final",
+      "category": "audience_and_minimality",
+      "evidence": "Eleven core periods at 55 minutes plus two capstone periods. Four dense lessons get two periods; squares, norms, finite sums and composition taught. M17 decoder and global spectral/formal claims remain recognition-only. No new teaching added in assembly."
+    },
+    {
+      "level": "final",
+      "category": "assembly_identity_and_order",
+      "evidence": "final_audit.py checked exactly one verbatim marker block for each of seven lessons in approved order; deterministic validator checks this again."
+    },
+    {
+      "level": "final",
+      "category": "rendering_and_links",
+      "evidence": "Markdown delivery only, as requested. Readable text/tables; all local Markdown artifact links resolved. No paginated or generated visual artifact needs a render tool."
+    },
+    {
+      "level": "final",
+      "category": "storage_and_recovery",
+      "evidence": "All persistent files contained in the assigned course directory. Checkpoint hashes are refreshed by manage.py; final external validator is required after this report and its actual exit is reported separately."
+    }
+  ],
+  "external_scope_gaps": [
+    "RAG object get returned snapshot object not found; local digest-verified source bodies provided core grounding.",
+    "AUD-002 global formula-DAG repair and fresh formal compiler replay are not certified."
+  ],
+  "independent_review": "independent-audit.json",
+  "replay": "verification.json"
+}

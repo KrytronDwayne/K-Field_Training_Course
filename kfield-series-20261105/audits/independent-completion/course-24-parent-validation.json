@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-24",
+  "timestamp": "2026-11-05T20:10:43.021809+00:00",
+  "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion",
+  "validator": "passed",
+  "validator_checks": [
+    "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+    "parsed manifest.json",
+    "parsed audit_report.json",
+    "parsed completion_report.json",
+    "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+  ],
+  "validator_errors": [],
+  "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+  "manifest_sha256": "c43ab78988dbeee2ab778ad847a76be128240a64e9463361a4735342ad189721",
+  "completion_report_sha256": "9be9b73cf5271857a0bd8fe93fa030e47500e90d239f3cb09bacb3d81223147c",
+  "course_sha256": "f364075d81df33a27d5a94a511f9f49a1fff046a41f1a1fe39ffc14058d04942"
+}

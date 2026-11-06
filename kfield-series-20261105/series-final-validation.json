@@ -1,0 +1,842 @@
+{
+  "schema_version": "1.0",
+  "created_utc": "2026-11-05T21:03:07.014461+00:00",
+  "status": "passed",
+  "course_count": 30,
+  "lesson_count": 205,
+  "backbone_modules": [
+    "M01",
+    "M02",
+    "M03",
+    "M04",
+    "M05",
+    "M06",
+    "M07",
+    "M08",
+    "M09",
+    "M10",
+    "M11",
+    "M12",
+    "M13",
+    "M14",
+    "M15",
+    "M16",
+    "M17",
+    "M18",
+    "M19",
+    "M20"
+  ],
+  "courses": [
+    {
+      "course_id": "course-01",
+      "title": "Reading the K-Field: Evidence, Models, and Information",
+      "lesson_count": 5,
+      "backbone_modules": [],
+      "prerequisites": [],
+      "manifest_sha256": "c040bf03de6ffa6682bcbc0a1d08c7421ac7c96fa25f25947e540fc2e761f882",
+      "course_sha256": "01554f80bdf2695cc8cd599667c916673539d39cc83dac236fdba48ba8b4aa35",
+      "capstone_sha256": "a1f0a0feffc2d26db49aa36176cbfd74347b530534a10a960f1d971a4dbca9dd",
+      "teacher_guide_sha256": "6dd165851eb2e3722760ba8ca0c96c726a4b511d65fb5b55ca27730e6dba2abb",
+      "acceptance_report": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\independent-completion\\course-01-parent-acceptance.json",
+      "acceptance_sha256": "3788fe257d1564f1b4aaeb8734b5ddff90149727e0e7964555952a6963502217",
+      "independent_report_sha256": "93fa5f454f172917df5c8cff1ad529784bf1c5ff351b3369ea71ad1d622718c5",
+      "historical_minor_findings_closed_by_parent_acceptance": [
+        {
+          "id": "C01-IND-01",
+          "verification": "A new actual destination validation generated this receipt; root, path and containment check all identify the project folder. Historical receipt retained outside course; final hashes revalidated below."
+        }
+      ],
+      "current_unresolved_counts": {
+        "critical": 0,
+        "major": 0,
+        "minor": 0
+      },
+      "fresh_validator_errors": []
+    },
+    {
+      "course_id": "course-02",
+      "title": "Mathematical Tools: Units, Vectors, and Coordinates",
+      "lesson_count": 7,
+      "backbone_modules": [],
+      "prerequisites": [
+        "course-01"
+      ],
+      "manifest_sha256": "0961f2bbfb79c9a191f183d00132c6fdadf4beb17d6434bd07d70df653dbdbcc",
+      "course_sha256": "2b87a1b31852e4ce5c4e3d477ef6839c1456f68a87998a64d9f39f40c1fde0a6",
+      "capstone_sha256": "69de897e0951611183138ce2b431b4c5accec2a2210d375713f39de088afe52f",
+      "teacher_guide_sha256": "d494f71e94bb63aa3442870d0ea45142b5479588592375c092121276a891286b",
+      "acceptance_report": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\independent-completion\\course-02-parent-acceptance.json",
+      "acceptance_sha256": "1aa3f4fad7ebd647c58aca3c920598bd7e7d18afc24d12c144e6f6f9defbbfe7",
+      "independent_report_sha256": "8621647b060c30f9dc1fab960f1cb5859b47bf7aea1039be6157add91ecbef0d",
+      "historical_minor_findings_closed_by_parent_acceptance": [],
+      "current_unresolved_counts": {
+        "critical": 0,
+        "major": 0,
+        "minor": 0
+      },
+      "fresh_validator_errors": []
+    },
+    {
+      "course_id": "course-03",
+      "title": "The Authoritative Cell3: Basis, Metric, and Scale",
+      "lesson_count": 6,
+      "backbone_modules": [
+        "M01"
+      ],
+      "prerequisites": [
+        "course-02"
+      ],
+      "manifest_sha256": "36c65cc3fe3e7a425a8c9ad2bb9daab534ed3fa358310e3f04105a7e04411b0d",
+      "course_sha256": "66b124a7e2e605b788520be81f061e3f0af030ff391782aa0e79b347d5b7194b",
+      "capstone_sha256": "85e7c73e56c843884243681e1a5ffa19ba77afcfd7ef634b172c3eff4e74dbc5",
+      "teacher_guide_sha256": "727ddd8e1f3d1dd38bfe62ca61c45ff2cffbcd0c39c90368dedbcc423b008787",
+      "acceptance_report": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\independent-completion\\course-03-parent-acceptance.json",
+      "acceptance_sha256": "23e6eb7a63d5293e7521ed2da22e09834bde5e7289cc2c3ab31ab0c95449175f",
+      "independent_report_sha256": "3ff10de77a496a74cfcf1e03b457f7ef60d5f74372de760e7113107ba6a205c0",
+      "historical_minor_findings_closed_by_parent_acceptance": [
+        {
+          "id": "TA03-MIN-01",
+          "verification": "Replaced absent local receipt reference with an existing destination validation record; resolved target exists. Completion metadata points to the same evidence and final parent acceptance."
+        },
+        {
+          "id": "TA03-MIN-02",
+          "verification": "Guide and map now permit added practice and require a fraction/block-inverse recheck before Lesson5 or independent assessment; conceptual IDs retained and period count flexible."
+        }
+      ],
+      "current_unresolved_counts": {
+        "critical": 0,
+        "major": 0,
+        "minor": 0
+      },
+      "fresh_validator_errors": []
+    },
+    {
+      "course_id": "course-04",
+      "title": "Affine Cells, Reciprocal Planes, and Unique Addresses",
+      "lesson_count": 6,
+      "backbone_modules": [
+        "M02"
+      ],
+      "prerequisites": [
+        "course-03"
+      ],
+      "manifest_sha256": "4c395d5cb5e632b9985b9578b17980f24f6cf6f27f2c04394a1a209a4402a60d",
+      "course_sha256": "4af65e80c937a3aaf54ecd32c24bace32cd913ad016a0b09dfe5eccd490bf6f4",
+      "capstone_sha256": "bc86a4f204e67503d6df1fd868badeb09196e34678bec59ac25741ad491aba5a",
+      "teacher_guide_sha256": "4a5a7a5494e926fe74ee73990d126205f012e8c1fd12720805f26c923f916741",
+      "acceptance_report": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\independent-completion\\course-04-parent-acceptance.json",
+      "acceptance_sha256": "b884411af7da2a4f6554d1fdde329a7622b3666577d571ba568f6a6d80e3d7fe",
+      "independent_report_sha256": "ac501519ae733aff5c0755ec4490a6050bd4bb43411874a4272cff78deed182d",
+      "historical_minor_findings_closed_by_parent_acceptance": [],
+      "current_unresolved_counts": {
+        "critical": 0,
+        "major": 0,
+        "minor": 0
+      },
+      "fresh_validator_errors": []
+    },
+    {
+      "course_id": "course-05",
+      "title": "Lucas Geometry: 27 Nodes, Polarity, and Sheets",
+      "lesson_count": 6,
+      "backbone_modules": [
+        "M03"
+      ],
+      "prerequisites": [
+        "course-04"
+      ],
+      "manifest_sha256": "777dc43c6db5de48b9b0587d02cb1c14a9cbb1d62b222983983306ebebd7a75b",
+      "course_sha256": "5003a215bd45c2a1cdae700268b426f3d8cc4a75cbb643b4072a631c7c16edce",
+      "capstone_sha256": "aba0cf3de5a57b419dc824d18ba42214d3323e107680671137d09e621094324f",
+      "teacher_guide_sha256": "b3f51d88fe1827fb6b21b9272ca66a263df7a839d0d1a5db8dff9b844eb1af89",
+      "acceptance_report": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\independent-completion\\course-05-parent-acceptance.json",
+      "acceptance_sha256": "8c8611e8f7b97960e7442a228b7a3b29b80d6b548e68289951e0ed17da447ff3",
+      "independent_report_sha256": "800bd6eb3e6dae084b733b9b5d963129b01216e9cb3379673adc18d647248de7",
+      "historical_minor_findings_closed_by_parent_acceptance": [],
+      "current_unresolved_counts": {
+        "critical": 0,
+        "major": 0,
+        "minor": 0
+      },
+      "fresh_validator_errors": []
+    },
+    {
+      "course_id": "course-06",
+      "title": "Recursive K-Field Geometry and Address Histories",
+      "lesson_count": 6,
+      "backbone_modules": [
+        "M03"
+      ],
+      "prerequisites": [
+        "course-05"
+      ],
+      "manifest_sha256": "b50318fbedde8e54567b698871480746bc449650b00a87e21b0c0f9b12af5aae",
+      "course_sha256": "74b9dfffcdd2e169f62f147e17995a9a47fca29150e4c2a5099f33fc8e8ae906",
+      "capstone_sha256": "c4b0cf79d8e412e9bf2f3c36eaaafd551757c3d41d00aeb403813afa40586af6",
+      "teacher_guide_sha256": "5dc0bc4a51f17263b5770522d37fffc72b719952ef2df564efcec05028ef6dff",
+      "acceptance_report": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\independent-completion\\course-06-parent-acceptance.json",
+      "acceptance_sha256": "35e9925587ff6c833b320998be2c177a5aa21d2d75ba6404745d612eb87fbd86",
+      "independent_report_sha256": "d7be32251b9d68fc967a2d83ceb60165742c2e6123f50fcff03d83f3cae46c39",
+      "historical_minor_findings_closed_by_parent_acceptance": [],
+      "current_unresolved_counts": {
+        "critical": 0,
+        "major": 0,
+        "minor": 0
+      },
+      "fresh_validator_errors": []
+    },
+    {
+      "course_id": "course-07",
+      "title": "Information-Complete Finite Calculus",
+      "lesson_count": 7,
+      "backbone_modules": [
+        "M04"
+      ],
+      "prerequisites": [
+        "course-06"
+      ],
+      "manifest_sha256": "1fcd7ac7a602b453cab9bd8b258e57992b7cc791a26d890905a307da694ce886",
+      "course_sha256": "279721651b5235938b278e8f581707473b7e2b08a49e023b3cb30f086c800f22",
+      "capstone_sha256": "54220f819d2f9dd28333d74da486292da1081e2424d2c0efa55d6b7480d7af34",
+      "teacher_guide_sha256": "45fac959833c38e7095c78394f6a483a6d9dfed67e37780efbc0bbf09881aa1e",
+      "acceptance_report": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\independent-completion\\course-07-parent-acceptance.json",
+      "acceptance_sha256": "22ad796e28cb7f04f3530ce72de84d569e653f8badf298619303560e1ddef127",
+      "independent_report_sha256": "7605ba43a9bebb53e087331be37be43509daf444008ab9bbde05de8b90613aac",
+      "historical_minor_findings_closed_by_parent_acceptance": [],
+      "current_unresolved_counts": {
+        "critical": 0,
+        "major": 0,
+        "minor": 0
+      },
+      "fresh_validator_errors": []
+    },
+    {
+      "course_id": "course-08",
+      "title": "Face-Area Ratios and the K-Field Mass Bridge",
+      "lesson_count": 6,
+      "backbone_modules": [
+        "M05"
+      ],
+      "prerequisites": [
+        "course-03",
+        "course-07"
+      ],
+      "manifest_sha256": "b6a74e9fd6942b1c092cc1a48cc71258235341138b862ddf4cc5a194d37200c5",
+      "course_sha256": "98a8dee354f2f032ef6df4810fb9b531426d899902766e1e58f850bfde44afcb",
+      "capstone_sha256": "a5fa8812165622baed218d630e9d42d3ce7a83e5044a0dbf60376dea0a36e1f2",
+      "teacher_guide_sha256": "647ebdec6be39fb1fb63c9c184b8a9141d4cc2623b57ae328386fd3664170e57",
+      "acceptance_report": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\independent-completion\\course-08-parent-acceptance.json",
+      "acceptance_sha256": "a844387072b4ed7e351bf767e5543cc3d38fbc4893b0756b05ab653a2f446e76",
+      "independent_report_sha256": "571d7da40b28aa053dc8af9a4033e12814bbb759d0e3589875f6a89067e9be62",
+      "historical_minor_findings_closed_by_parent_acceptance": [],
+      "current_unresolved_counts": {
+        "critical": 0,
+        "major": 0,
+        "minor": 0
+      },
+      "fresh_validator_errors": []
+    },
+    {
+      "course_id": "course-09",
+      "title": "Projective Integerization and Carry Dynamics",
+      "lesson_count": 6,
+      "backbone_modules": [
+        "M06"
+      ],
+      "prerequisites": [
+        "course-08"
+      ],
+      "manifest_sha256": "0a273f91710b68f7749f772f7c320830fe39cd045847493778fba6f82100a390",
+      "course_sha256": "b5c5bd3cad2a06673a1eba3834c4df6314ed24b69477da51e3e74f1bc95198ce",
+      "capstone_sha256": "91704fd6563a9a880b499a6aafa5dbba6e51e039f9d8d0cfb5a6c540ca9ac791",
+      "teacher_guide_sha256": "33560eca42356475f14f873bfd2df6dd99639ab8be3b9dbfe3a71797334824ef",
+      "acceptance_report": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\independent-completion\\course-09-parent-acceptance.json",
+      "acceptance_sha256": "18acf5b7f100e119032a43c1678240f36cd9c3bdb945fecf81e2e11973932727",
+      "independent_report_sha256": "fbb81850713d2fd10b45958f338e99e3e5a3800233c33dba48278b6b31f0e9a5",
+      "historical_minor_findings_closed_by_parent_acceptance": [],
+      "current_unresolved_counts": {
+        "critical": 0,
+        "major": 0,
+        "minor": 0
+      },
+      "fresh_validator_errors": []
+    },
+    {
+      "course_id": "course-10",
+      "title": "Shape and Scale: Devon Reduction and the Jack Jacobian",
+      "lesson_count": 6,
+      "backbone_modules": [
+        "M07"
+      ],
+      "prerequisites": [
+        "course-03",
+        "course-08",
+        "course-09"
+      ],
+      "manifest_sha256": "fc374b6b2d12a4c432f16bbca874a0e5f41686318a4424d6fb66be8c6f5d1b10",
+      "course_sha256": "7635d29c0ce7b99981dc194dece148acafdd513729a1ed5e3c9f4e73c2dfe73f",
+      "capstone_sha256": "7351fbf24aa7ebae2912be82e45885dd8b1b237839760052597967074129d87a",
+      "teacher_guide_sha256": "f72b575ea3415f000d0d8ce9851f471b7e5b34c3032d6f8f4070222b9beebc64",
+      "acceptance_report": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\independent-completion\\course-10-parent-acceptance.json",
+      "acceptance_sha256": "3be54fa6678aa163479b1595c1ba969ce7077ea41a856e2f9b7acd962d07c573",
+      "independent_report_sha256": "d3bb13d21d85d520863b255dd2e1a289bf52afc585b68d0ebcec5791eaa945c2",
+      "historical_minor_findings_closed_by_parent_acceptance": [],
+      "current_unresolved_counts": {
+        "critical": 0,
+        "major": 0,
+        "minor": 0
+      },
+      "fresh_validator_errors": []
+    },
+    {
+      "course_id": "course-11",
+      "title": "Lucas Graphs: Edges, Cycles, and Memory",
+      "lesson_count": 6,
+      "backbone_modules": [
+        "M08"
+      ],
+      "prerequisites": [
+        "course-05",
+        "course-10"
+      ],
+      "manifest_sha256": "5d05ec34a07727e52baefa7b776e30cb29411b8cbcb8e63a2f2478f614829e72",
+      "course_sha256": "a64730db4b1395ff95d5912736ac8157b83c9c3ff2f59fba710c033a9828364b",
+      "capstone_sha256": "4125ffefce9fe31afca733513e5dce9cf15430203f70fe5816baefc812e28400",
+      "teacher_guide_sha256": "f3bac04b56a5fbdbabd9db6c210982da44f60808d81d3ccd953a9be2d18aa681",
+      "acceptance_report": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\independent-completion\\course-11-parent-acceptance.json",
+      "acceptance_sha256": "30e606274f10af0564861e77e7fae1da06a5d6df3ef5d39d368d2732a49fc9c3",
+      "independent_report_sha256": "ba3e4e985bde1ea5d5a5ad51eaa244e66e190729a1519345545423758b154789",
+      "historical_minor_findings_closed_by_parent_acceptance": [],
+      "current_unresolved_counts": {
+        "critical": 0,
+        "major": 0,
+        "minor": 0
+      },
+      "fresh_validator_errors": []
+    },
+    {
+      "course_id": "course-12",
+      "title": "The Emily Spectrum: Modes and Eigenvectors",
+      "lesson_count": 7,
+      "backbone_modules": [
+        "M08"
+      ],
+      "prerequisites": [
+        "course-11"
+      ],
+      "manifest_sha256": "8108e25a5036110086b2e14b4a8d5e41e2b7ed828b2d1e3f00203c2b684eafb2",
+      "course_sha256": "4d2088a6a08434ecd3d92024b45c84b6bfed38382423682aa6e2449394bd1998",
+      "capstone_sha256": "9e69af9ba77d77b2fb6d556d0252732ec88d2fc620362e100690048e2a365ef0",
+      "teacher_guide_sha256": "a7f38ac2ac9defbae2b5a995a1d228349eda6a2e0812f9c22415703805fc994f",
+      "acceptance_report": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\independent-completion\\course-12-parent-acceptance.json",
+      "acceptance_sha256": "060bbabd4548c5314302d86df525ecd6d42a60676f2d6d59665525ac3b0a0c33",
+      "independent_report_sha256": "2497653632b5b60ef77b98dec26ed383ca99704a6f5c5489198955dac713c64a",
+      "historical_minor_findings_closed_by_parent_acceptance": [],
+      "current_unresolved_counts": {
+        "critical": 0,
+        "major": 0,
+        "minor": 0
+      },
+      "fresh_validator_errors": []
+    },
+    {
+      "course_id": "course-13",
+      "title": "Root Systems, Symmetry, and A1\u2013A2 Structure",
+      "lesson_count": 6,
+      "backbone_modules": [
+        "M09"
+      ],
+      "prerequisites": [
+        "course-09",
+        "course-11",
+        "course-12"
+      ],
+      "manifest_sha256": "f116d7b461bfd71dd8e2d69f3df9c02edd7bce41ffe54e824dfc0f9d03c2f398",
+      "course_sha256": "57c62850ec9f24f09bf8ab284464896c5ca9ed544df463b59a819883db5ba6ad",
+      "capstone_sha256": "f6c2f570586d6a284678652cd5a24b0aece4809a86c100f52609d24ca74b5dac",
+      "teacher_guide_sha256": "3f4a25410e2fe9ad12c57397887cc75bd78ec60b0157d720e5e42c35b1fd29a7",
+      "acceptance_report": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\independent-completion\\course-13-parent-acceptance.json",
+      "acceptance_sha256": "55c92ebb656e68ccb8135e0da14fefd67ce30f49d823745bd26679155b7e1755",
+      "independent_report_sha256": "d0bc08a3cfc19d6975b7b9f7a410af762382ef7fd5bf888cc0acf1f61f70fde8",
+      "historical_minor_findings_closed_by_parent_acceptance": [],
+      "current_unresolved_counts": {
+        "critical": 0,
+        "major": 0,
+        "minor": 0
+      },
+      "fresh_validator_errors": []
+    },
+    {
+      "course_id": "course-14",
+      "title": "Complex Carriers and Gauge Symmetry",
+      "lesson_count": 7,
+      "backbone_modules": [
+        "M10"
+      ],
+      "prerequisites": [
+        "course-13"
+      ],
+      "manifest_sha256": "09a85008b96cf2dccb9fe7d7efb42736994d3a161eb4b0bcc2cf317a35d767a7",
+      "course_sha256": "b4d77ad76287b02456e6b330a59c5a242e9257c1691e2ecf427fc57c1f8d168a",
+      "capstone_sha256": "3281a1a1d5cf1613914089b87469dbbcfbedb4abca333ad3e431fb034d360c82",
+      "teacher_guide_sha256": "387190185dfb0b2e9d7a204dd7daaf39ed97e84abca57fdfdf5c9763e11074d6",
+      "acceptance_report": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\independent-completion\\course-14-parent-acceptance.json",
+      "acceptance_sha256": "1fc8eb8d19f04a8240d415ae02e21eccfed21e86b7a339eaf9eed3ad46cb0882",
+      "independent_report_sha256": "445aa74dff05d79a64f63e5f11fe99465eb3207be34b30fc60968bc32c4c633e",
+      "historical_minor_findings_closed_by_parent_acceptance": [],
+      "current_unresolved_counts": {
+        "critical": 0,
+        "major": 0,
+        "minor": 0
+      },
+      "fresh_validator_errors": []
+    },
+    {
+      "course_id": "course-15",
+      "title": "Matter States, Hypercharge, and Anomaly Accounting",
+      "lesson_count": 7,
+      "backbone_modules": [
+        "M11"
+      ],
+      "prerequisites": [
+        "course-14"
+      ],
+      "manifest_sha256": "afb51e9dae2aff5f24b636ac13fad2540a698bc912b320483dc8ae79d9d201a4",
+      "course_sha256": "ca39f39cdf28bd83b0c78d5858e75779e593f1623a978e87611846fb0841b3fa",
+      "capstone_sha256": "d2025bcc60fe047bbdcaef9691a76a021eb8e45ac988a385a01c3aaa995c6db1",
+      "teacher_guide_sha256": "1eed5276026ba1e6bd6726e67db0d991eb6d2d73b77321639931fd0f846d086a",
+      "acceptance_report": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\independent-completion\\course-15-parent-acceptance.json",
+      "acceptance_sha256": "71509060e6d8988d425bcac55f701f8a055e26d23f09a8e7b7ddc3f105001660",
+      "independent_report_sha256": "ba0ecb4d0d97f27fded226ae43a6cc7aa6934cb407ef18b4cfeaefd8cfc9aa12",
+      "historical_minor_findings_closed_by_parent_acceptance": [],
+      "current_unresolved_counts": {
+        "critical": 0,
+        "major": 0,
+        "minor": 0
+      },
+      "fresh_validator_errors": []
+    },
+    {
+      "course_id": "course-16",
+      "title": "Higgs, Yukawa, and Interaction Interfaces",
+      "lesson_count": 7,
+      "backbone_modules": [
+        "M12"
+      ],
+      "prerequisites": [
+        "course-15"
+      ],
+      "manifest_sha256": "185ea4ac1ed678a574099abdc006808e57d404db078f0f3c42e45b0495f2b1c4",
+      "course_sha256": "cb5470e1d98e9350a09088c69f725aa78b3620d20d0302bfef75a4b4a01e3023",
+      "capstone_sha256": "ccb65236d07c6e4b158dfbbed421cd2d745a2a468691cfae4a6e46855e813524",
+      "teacher_guide_sha256": "5851a5c952a90407b11e288e1df4413d9136f61ce07c7fce58cbf231d50e294b",
+      "acceptance_report": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\independent-completion\\course-16-parent-acceptance.json",
+      "acceptance_sha256": "e1c4dc2751875b116c753aff4539ebb9c5fcce5d12b4119149314daa5677e819",
+      "independent_report_sha256": "2b682c9b62a1c321ed08bf87d0d4944cf0686c906995621c86a0637862c38055",
+      "historical_minor_findings_closed_by_parent_acceptance": [],
+      "current_unresolved_counts": {
+        "critical": 0,
+        "major": 0,
+        "minor": 0
+      },
+      "fresh_validator_errors": []
+    },
+    {
+      "course_id": "course-17",
+      "title": "Finite Gauge Transport and Conservative Dynamics",
+      "lesson_count": 8,
+      "backbone_modules": [
+        "M13"
+      ],
+      "prerequisites": [
+        "course-07",
+        "course-14"
+      ],
+      "manifest_sha256": "18a3c9ce6ae01e288bcbf284aa62fabbef66dd61a14a4c9fa5cd41798017076c",
+      "course_sha256": "de1fa6c859c2c01451fe72418e93011d75153cada347b806abc3de186b8cb115",
+      "capstone_sha256": "072700cebbe9c6f8e913769f9407dc313a0ef411d5d5bd8cdd2e94d1234d9056",
+      "teacher_guide_sha256": "489d512f509ac8d9ca520e0103c9f55fd5c1059358bb77a42660ee39b2f12af8",
+      "acceptance_report": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\independent-completion\\course-17-parent-acceptance.json",
+      "acceptance_sha256": "2aa8459d1cd60610cbeea1d430f86d41c47b61d1d9ed234ef912fcd0043450e0",
+      "independent_report_sha256": "81ae047225d595e25e9e50fb4bc16c0570a094fd1d750cb5c7fc56a08075200b",
+      "historical_minor_findings_closed_by_parent_acceptance": [],
+      "current_unresolved_counts": {
+        "critical": 0,
+        "major": 0,
+        "minor": 0
+      },
+      "fresh_validator_errors": []
+    },
+    {
+      "course_id": "course-18",
+      "title": "History, Orientation, and Chirality",
+      "lesson_count": 7,
+      "backbone_modules": [
+        "M14"
+      ],
+      "prerequisites": [
+        "course-06",
+        "course-15",
+        "course-17"
+      ],
+      "manifest_sha256": "afa689b1d9c2445105fd07d63ad6ed1359a40731253a5e285f2c550ca905eb1f",
+      "course_sha256": "7576a96bcf0b996a22a5319a1751a0390fda7ab82bffe6569b115e0f06ff8823",
+      "capstone_sha256": "2440cabe19191fb5512c53636b176e61ce8bf2436c93a5fa7c190fcb239f7e1c",
+      "teacher_guide_sha256": "646469a9c627e9fc0b7a6e0220aaeb3d63e124b4995b55a16b26af9b6d0b1580",
+      "acceptance_report": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\independent-completion\\course-18-parent-acceptance.json",
+      "acceptance_sha256": "795b48d7d2544fb4b8d1d6bafd5a001982f2d9c3b849f5f0f67b98eb36e2fecc",
+      "independent_report_sha256": "b1e25a04dc916460401a4c130173e480191882d95818cb55b9752750ac6a0a78",
+      "historical_minor_findings_closed_by_parent_acceptance": [],
+      "current_unresolved_counts": {
+        "critical": 0,
+        "major": 0,
+        "minor": 0
+      },
+      "fresh_validator_errors": []
+    },
+    {
+      "course_id": "course-19",
+      "title": "Action, Topology, and Phase Closure",
+      "lesson_count": 7,
+      "backbone_modules": [
+        "M15"
+      ],
+      "prerequisites": [
+        "course-16",
+        "course-17",
+        "course-18"
+      ],
+      "manifest_sha256": "acb9d98e720bcf42728ad02faee13e9a045d85026118ccf82d86f762b92a6a42",
+      "course_sha256": "a81e6bfa96181f6cbce06a115d71767458317e9e02be9f8f6f142a3c709f184c",
+      "capstone_sha256": "ae656960c7a09662463efa78e1f844729f849b866b145c19512c0e42722da7c2",
+      "teacher_guide_sha256": "718208995b49f217de979df76374662cc23c59cd52f2140ce3f125fe2ac5b54f",
+      "acceptance_report": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\independent-completion\\course-19-parent-acceptance.json",
+      "acceptance_sha256": "b179c3d4ba92d9351ba9a21118989e0d046374a6f06492b26a8bed85c8849f83",
+      "independent_report_sha256": "08b7d9eab7faba2bb1f8e13cda289944847219b60d3f6fe07c150dafbe27eab5",
+      "historical_minor_findings_closed_by_parent_acceptance": [],
+      "current_unresolved_counts": {
+        "critical": 0,
+        "major": 0,
+        "minor": 0
+      },
+      "fresh_validator_errors": []
+    },
+    {
+      "course_id": "course-20",
+      "title": "Family Structure and Simultaneous Occupation",
+      "lesson_count": 7,
+      "backbone_modules": [
+        "M16"
+      ],
+      "prerequisites": [
+        "course-15",
+        "course-18"
+      ],
+      "manifest_sha256": "62529e92e7384f40d07cae0643d20f7eefe50b1bd48fbdec5ceb8dc9fff3b2e7",
+      "course_sha256": "c9f3d60683c3810559a7a584658610a65d6eb81605f355b675abbd5f136d925d",
+      "capstone_sha256": "42e15adad851ea91787d05390c65fa55e669518523220199aa524224146c3fc7",
+      "teacher_guide_sha256": "92dd130bf6cfe06ca59625c5f01971a13bfadb1bf6194424084be7d57f83f4c4",
+      "acceptance_report": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\independent-completion\\course-20-parent-acceptance.json",
+      "acceptance_sha256": "9578d6673472a82b6a4ba08a85f7ef5d999a0ab80bd3116869a2e9fa7fb6f6d8",
+      "independent_report_sha256": "c0c8beb7bf7a63b7c2c6408ecdc1e6d7328bd3d5415da96502ccd0df080e83dd",
+      "historical_minor_findings_closed_by_parent_acceptance": [],
+      "current_unresolved_counts": {
+        "critical": 0,
+        "major": 0,
+        "minor": 0
+      },
+      "fresh_validator_errors": []
+    },
+    {
+      "course_id": "course-21",
+      "title": "Mass, Coupling, and Atomic Structure as Decoding Problems",
+      "lesson_count": 8,
+      "backbone_modules": [
+        "M17"
+      ],
+      "prerequisites": [
+        "course-08",
+        "course-12",
+        "course-15",
+        "course-20"
+      ],
+      "manifest_sha256": "ae145d12b568fc9445b7addfb0a5ed46997351c5c07151fb82192eb4f14360a1",
+      "course_sha256": "d32abb627e86b0d078ed6131767e1f60911219f1f22cb2410606bd26c3099814",
+      "capstone_sha256": "8e2a6ee0d98362d94f1870dbc86f01a4ca9a6ba7279957ffe78fda0116d73c21",
+      "teacher_guide_sha256": "3ecf832b60c7bfafb80d6cf127bf7659e331ed3d540a95d41220f6ceadf6ee6e",
+      "acceptance_report": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\independent-completion\\course-21-parent-acceptance.json",
+      "acceptance_sha256": "c45a774697a44dafae87141b2dac550cf34227160a8f82226b65b587ff045a9d",
+      "independent_report_sha256": "7571bead4eb8aee6731b9e1f3628cb9bbcdac7f1e829fa2d7a0faa03df75ab69",
+      "historical_minor_findings_closed_by_parent_acceptance": [],
+      "current_unresolved_counts": {
+        "critical": 0,
+        "major": 0,
+        "minor": 0
+      },
+      "fresh_validator_errors": []
+    },
+    {
+      "course_id": "course-22",
+      "title": "Inverse Limits, Continuum Rendering, and Detail",
+      "lesson_count": 7,
+      "backbone_modules": [
+        "M18"
+      ],
+      "prerequisites": [
+        "course-06",
+        "course-07",
+        "course-18"
+      ],
+      "manifest_sha256": "79689a859e6273bf15607fa11fa123775392ee64cd75638d13a11176a5bad1cd",
+      "course_sha256": "8c6d51faa81ab0a434d370e26772c47c1d48a402b518eef9e4750416f5122dd3",
+      "capstone_sha256": "c5337b060aa1b278e89077cec8389679d9c669ce63cbb6ceebf5467b26bbc3d2",
+      "teacher_guide_sha256": "c8e6bd73764009cc179275d0a1daeb16b6ee717862cef52ebffb7fd54d9840db",
+      "acceptance_report": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\independent-completion\\course-22-parent-acceptance.json",
+      "acceptance_sha256": "75d987beaa62af7fe91cb8762fa34202cfd26b526225434eca6d89e696501395",
+      "independent_report_sha256": "cd6321ba5c5e05943f983707df709235e59126ef9ade59a978686ded60d9200e",
+      "historical_minor_findings_closed_by_parent_acceptance": [],
+      "current_unresolved_counts": {
+        "critical": 0,
+        "major": 0,
+        "minor": 0
+      },
+      "fresh_validator_errors": []
+    },
+    {
+      "course_id": "course-23",
+      "title": "Gravity, Inertia, and Exceptional Branches",
+      "lesson_count": 7,
+      "backbone_modules": [
+        "M19"
+      ],
+      "prerequisites": [
+        "course-10",
+        "course-12",
+        "course-14",
+        "course-17",
+        "course-22"
+      ],
+      "manifest_sha256": "84b7d7d7a22e66b274c27089518e0c1855bb6d0ea25de96064eaf4252194391e",
+      "course_sha256": "8deb8a579cf0b7fc89f55e9978ec1b0c2482de59ad0a307b26d3f9c1c9a6e09b",
+      "capstone_sha256": "e9782e9edf7f4cf70c6f55313fe388212853e13540d3175d0caffdc95284fcbd",
+      "teacher_guide_sha256": "2c02dcf6ffbe2abdee3f7e27f319459c4a694155b5291bc957f8b5990c5cc641",
+      "acceptance_report": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\independent-completion\\course-23-parent-acceptance.json",
+      "acceptance_sha256": "1abe4bf0646cfbdb7d3bee631ee2047f56a499481f2ecca332c045b495fab537",
+      "independent_report_sha256": "bd57c1507b7bf7f04d48f2e732fb322778dda9ad65c3f2b985d8a5ccd1459b4c",
+      "historical_minor_findings_closed_by_parent_acceptance": [],
+      "current_unresolved_counts": {
+        "critical": 0,
+        "major": 0,
+        "minor": 0
+      },
+      "fresh_validator_errors": []
+    },
+    {
+      "course_id": "course-24",
+      "title": "Moving Reference Frames and Laboratory Motion",
+      "lesson_count": 7,
+      "backbone_modules": [],
+      "prerequisites": [
+        "course-02",
+        "course-03",
+        "course-04"
+      ],
+      "manifest_sha256": "c43ab78988dbeee2ab778ad847a76be128240a64e9463361a4735342ad189721",
+      "course_sha256": "f364075d81df33a27d5a94a511f9f49a1fff046a41f1a1fe39ffc14058d04942",
+      "capstone_sha256": "e0590c87f33bca90f645048d2cf07d5419917edd46d4ece70948582f3c3c6536",
+      "teacher_guide_sha256": "4770a5305f3a6cb43fabff49ca7e144255a76adcc4d56489c8eb417e413d8b45",
+      "acceptance_report": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\independent-completion\\course-24-parent-acceptance.json",
+      "acceptance_sha256": "e856f2c8b7bab61ece84bb29e4f7fd4886f264ce61f712682ddfcccf3c45e8cc",
+      "independent_report_sha256": "06adf8ca85e14d0d111d8994f8f6068b26d41383191bc8694e89b6eb90848569",
+      "historical_minor_findings_closed_by_parent_acceptance": [],
+      "current_unresolved_counts": {
+        "critical": 0,
+        "major": 0,
+        "minor": 0
+      },
+      "fresh_validator_errors": []
+    },
+    {
+      "course_id": "course-25",
+      "title": "Plane Crossings, Rulers, and Event Geometry",
+      "lesson_count": 7,
+      "backbone_modules": [],
+      "prerequisites": [
+        "course-04",
+        "course-05",
+        "course-24"
+      ],
+      "manifest_sha256": "aa96a1562e01130ea5a6d58089ce9813d3b50a04c147102e1942acc7be606ffe",
+      "course_sha256": "0ee0543e7553a01b7e23526f8d8f54aae3c40cfb17b9cc9233dc523531e98c87",
+      "capstone_sha256": "e596527d721b3945119be5aae98d76c14c3666c0264cf1c7d0d4dafd4598704a",
+      "teacher_guide_sha256": "82e8cfa1c726a370d97cf21a83f6a52e3df62e0a6c6e978e3c8de430fb462f20",
+      "acceptance_report": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\independent-completion\\course-25-parent-acceptance.json",
+      "acceptance_sha256": "dca22b45215f5fde018caf34ca2523c1dd2a32259908ac99e63f23faa001e343",
+      "independent_report_sha256": "73db8aea07ba224cc66fbe5a671f56df7c01aa0563e4126e6a76f3caf92c970e",
+      "historical_minor_findings_closed_by_parent_acceptance": [],
+      "current_unresolved_counts": {
+        "critical": 0,
+        "major": 0,
+        "minor": 0
+      },
+      "fresh_validator_errors": []
+    },
+    {
+      "course_id": "course-26",
+      "title": "Beats, Harmonics, and Spectral Energy\u2013Phase Structure",
+      "lesson_count": 8,
+      "backbone_modules": [],
+      "prerequisites": [
+        "course-12",
+        "course-14",
+        "course-25"
+      ],
+      "manifest_sha256": "2f37c34dc0b4e2982a91d9484938184c865c00e58d6661d1cf4735332ce2acf3",
+      "course_sha256": "d9bf1424c6ce970544d88e30376817f85904f2cc9895034bd3b89058e81bfea8",
+      "capstone_sha256": "d284dce16e4a6bb3817359361fb8b16038520cb2940e9989dfa1d283e0d08ecf",
+      "teacher_guide_sha256": "d3be97331372769287ef2b7e9dc840c5c7d7532da91c4a8cda6728d6ca43a2d3",
+      "acceptance_report": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\independent-completion\\course-26-parent-acceptance.json",
+      "acceptance_sha256": "8b494d598da27a48df73865abaa5ac3b248cee3afc5a2502c40843b823dee30f",
+      "independent_report_sha256": "b59646ac54d877857db7cccd4c72805d1e60f769c49fb4c5dc0b6cdc1b2f0ae4",
+      "historical_minor_findings_closed_by_parent_acceptance": [],
+      "current_unresolved_counts": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0,
+        "major": 0,
+        "minor": 0
+      },
+      "fresh_validator_errors": []
+    },
+    {
+      "course_id": "course-27",
+      "title": "Quadratic Phase Cost and Route Geometry",
+      "lesson_count": 7,
+      "backbone_modules": [],
+      "prerequisites": [
+        "course-10",
+        "course-17",
+        "course-25",
+        "course-26"
+      ],
+      "manifest_sha256": "d0ec26cb59f9779db784023c4d37f156e43b9ebf355dd89f94e3fab3841b8bed",
+      "course_sha256": "c42b6dbf673905cbd9d220396d667b1f8249197cde119dc4212c0cb5a9058a66",
+      "capstone_sha256": "8955466e81da9050112bf85c81b481ff1069e72ad222146eb2500a45c376457e",
+      "teacher_guide_sha256": "b7b8723f89b8e1b065721e6830b3ef2910fb533f50e9927e718d11939979b1a3",
+      "acceptance_report": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\independent-completion\\course-27-parent-acceptance.json",
+      "acceptance_sha256": "5d08faafc3a5f4e238d249728d372f003559daed6603b361ff3d46c63ce6723b",
+      "independent_report_sha256": "f7b991cbf46623fdd34f3c3dc8bbf8533994de8e7a71eddd9584004939f4ee6d",
+      "historical_minor_findings_closed_by_parent_acceptance": [],
+      "current_unresolved_counts": {
+        "critical": 0,
+        "major": 0,
+        "minor": 0
+      },
+      "fresh_validator_errors": []
+    },
+    {
+      "course_id": "course-28",
+      "title": "Photometer Experiments and Information-Preserving Analysis",
+      "lesson_count": 8,
+      "backbone_modules": [],
+      "prerequisites": [
+        "course-01",
+        "course-07",
+        "course-24",
+        "course-25",
+        "course-26",
+        "course-27"
+      ],
+      "manifest_sha256": "38e0106a373d2e4471759892c066447aa317dcd770c5d3c12d18d8b4c822c8b0",
+      "course_sha256": "676b97af8f622d1314a627b7c042f329d5a939ac07c7a8bf0d941c60564f7fc8",
+      "capstone_sha256": "978ce36cb1a9a142281f8f7ad9c9b632175e11dbd661f0a1d1f72fd2738a16c5",
+      "teacher_guide_sha256": "371e2fb0f2ddcd25451a7edb0ed9b4e43e05f055dc1fcd26af88d7d19e97fec9",
+      "acceptance_report": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\independent-completion\\course-28-parent-acceptance.json",
+      "acceptance_sha256": "d99580e2b16f7c888ba24d1f90707ee6a6851541f7d027a233a0642daab68049",
+      "independent_report_sha256": "b5aaed8b87aea1dd938a61936dbbc87a3f393c5baf59a01ddbe523e3f2272bee",
+      "historical_minor_findings_closed_by_parent_acceptance": [],
+      "current_unresolved_counts": {
+        "critical": 0,
+        "major": 0,
+        "minor": 0
+      },
+      "fresh_validator_errors": []
+    },
+    {
+      "course_id": "course-29",
+      "title": "Galactic Structure and Cross-Scale K-Field Geometry",
+      "lesson_count": 8,
+      "backbone_modules": [],
+      "prerequisites": [
+        "course-04",
+        "course-06",
+        "course-10",
+        "course-22",
+        "course-24",
+        "course-26"
+      ],
+      "manifest_sha256": "206b584066826720da45c06c304fd0749ce01a1b81c9b601056f5f825376ca3c",
+      "course_sha256": "85b0e67e2b6127813695c2d3744e5ccfd90871e36b34fb1cf796c7a3f707fc79",
+      "capstone_sha256": "d0e63179c6b9db722832af2cea188bf7cf01e685d1af2a47a3262db67e9bc921",
+      "teacher_guide_sha256": "4586b0713db828510738b60eade3bb1d4c0600685f2c7d6d7622553729d6391b",
+      "acceptance_report": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\independent-completion\\course-29-parent-acceptance.json",
+      "acceptance_sha256": "7bf40306d339f29ad2dee643b7d215ba8475c7393d48304a9bd8fe122a3e952f",
+      "independent_report_sha256": "4709606c636b19618375cc188bad90974dd92c8b743c0435a86ef720b6c9d3ef",
+      "historical_minor_findings_closed_by_parent_acceptance": [],
+      "current_unresolved_counts": {
+        "critical": 0,
+        "major": 0,
+        "minor": 0
+      },
+      "fresh_validator_errors": []
+    },
+    {
+      "course_id": "course-30",
+      "title": "Integrated K-Field Research: From Backbone to Test",
+      "lesson_count": 8,
+      "backbone_modules": [
+        "M20"
+      ],
+      "prerequisites": [
+        "course-19",
+        "course-20",
+        "course-21",
+        "course-22",
+        "course-23",
+        "course-27",
+        "course-28",
+        "course-29"
+      ],
+      "manifest_sha256": "086f82ba25c45c9facd07c7e46f4ca05ee0b418075139f689f72815042d69d86",
+      "course_sha256": "51ae4db248175714ca9d27ed220e6eef241e934cd38af3d19992985ed8bd050b",
+      "capstone_sha256": "8a5b0b23db21faf50af2ae0efac989a7e68f506695feb0664bf312d6aebe0597",
+      "teacher_guide_sha256": "acd3c5a8395c6e28687632355831ce2fd688c8a1b6b4a6b9606d75934af3cc69",
+      "acceptance_report": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\independent-completion\\course-30-parent-acceptance.json",
+      "acceptance_sha256": "fef9402c211c6acd5f0ca186f6f21b7a814510bb46b1fce890733eed68da0d93",
+      "independent_report_sha256": "5cf69ed8b764bf38abdf9ad7ce89ffc5c7cf8ec3bc697ba79c175f973f760d3c",
+      "historical_minor_findings_closed_by_parent_acceptance": [],
+      "current_unresolved_counts": {
+        "critical": 0,
+        "major": 0,
+        "minor": 0
+      },
+      "fresh_validator_errors": []
+    }
+  ],
+  "final_audits": [
+    {
+      "kind": "source",
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\series-source-final-audit.json",
+      "sha256": "33abf796f368a2c433c9e892cf4ae326da7033fd6f0d1caf22945cecf9471f99"
+    },
+    {
+      "kind": "teaching",
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\series-teaching-final-audit.json",
+      "sha256": "3ff3974aa07b519a9785b06a470ac5495f5a22388a56fc5d85190124d6a09660"
+    }
+  ],
+  "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+  "errors": [],
+  "scope": "Final structural/hash/link/dependency and completed-course validation, combined with separately reviewed source and teaching series audits. Does not claim classroom-tested pacing, fresh whole-corpus proof compilation or empirical validation."
+}

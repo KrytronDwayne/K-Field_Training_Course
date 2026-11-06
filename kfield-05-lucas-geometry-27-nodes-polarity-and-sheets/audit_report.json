@@ -1,0 +1,224 @@
+{
+  "schema_version": "1.0",
+  "status": "passed",
+  "findings": [
+    {
+      "id": "F-01",
+      "level": "local",
+      "category": "source_fidelity",
+      "file": "sources.md",
+      "section": "SA-05 and S02 /backbone_sequence/2/proof/0",
+      "severity": "major",
+      "defect": "The inspected source defines p=O_K+B L/2 but prints g_lambda dot p=lambda/2, omitting the origin term. Direct use at nonzero origin gives the wrong value.",
+      "correction": "Applied the approved SA-05 correction g_lambda dot (p-O_K)=lambda/2 throughout Lessons 2-4 and capstone; retained the printed-source discrepancy in provenance. No source mutation.",
+      "verification": "For L=(1,-1,1), corrected value 1/2; uncorrected value 7/6 differs by g dot O=2/3. All 27 affine residuals are exactly zero in verification.json.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "capstone",
+        "sources"
+      ]
+    }
+  ],
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "corrected_counts": {
+    "critical": 0,
+    "major": 1,
+    "minor": 0
+  },
+  "checks": [
+    {
+      "id": "LOCAL-01",
+      "level": "local",
+      "checkpoint": "lesson-01",
+      "categories": [
+        "prerequisite",
+        "audience",
+        "definition",
+        "notation",
+        "unit",
+        "logic",
+        "mathematics",
+        "evidence",
+        "source",
+        "assessment"
+      ],
+      "result": "passed",
+      "evidence": "Manager authored/reviewed complete text and answers; independent-audit.json confirms actual teaching and mathematical checks against hashed lesson text. Exact finite values and required IDs checked in verification.json."
+    },
+    {
+      "id": "LOCAL-02",
+      "level": "local",
+      "checkpoint": "lesson-02",
+      "categories": [
+        "prerequisite",
+        "audience",
+        "definition",
+        "notation",
+        "unit",
+        "logic",
+        "mathematics",
+        "evidence",
+        "source",
+        "assessment"
+      ],
+      "result": "passed",
+      "evidence": "Manager authored/reviewed complete text and answers; independent-audit.json confirms actual teaching and mathematical checks against hashed lesson text. Exact finite values and required IDs checked in verification.json."
+    },
+    {
+      "id": "LOCAL-03",
+      "level": "local",
+      "checkpoint": "lesson-03",
+      "categories": [
+        "prerequisite",
+        "audience",
+        "definition",
+        "notation",
+        "unit",
+        "logic",
+        "mathematics",
+        "evidence",
+        "source",
+        "assessment"
+      ],
+      "result": "passed",
+      "evidence": "Manager authored/reviewed complete text and answers; independent-audit.json confirms actual teaching and mathematical checks against hashed lesson text. Exact finite values and required IDs checked in verification.json."
+    },
+    {
+      "id": "LOCAL-04",
+      "level": "local",
+      "checkpoint": "lesson-04",
+      "categories": [
+        "prerequisite",
+        "audience",
+        "definition",
+        "notation",
+        "unit",
+        "logic",
+        "mathematics",
+        "evidence",
+        "source",
+        "assessment"
+      ],
+      "result": "passed",
+      "evidence": "Manager authored/reviewed complete text and answers; independent-audit.json confirms actual teaching and mathematical checks against hashed lesson text. Exact finite values and required IDs checked in verification.json."
+    },
+    {
+      "id": "LOCAL-05",
+      "level": "local",
+      "checkpoint": "lesson-05",
+      "categories": [
+        "prerequisite",
+        "audience",
+        "definition",
+        "notation",
+        "unit",
+        "logic",
+        "mathematics",
+        "evidence",
+        "source",
+        "assessment"
+      ],
+      "result": "passed",
+      "evidence": "Manager authored/reviewed complete text and answers; independent-audit.json confirms actual teaching and mathematical checks against hashed lesson text. Exact finite values and required IDs checked in verification.json."
+    },
+    {
+      "id": "LOCAL-06",
+      "level": "local",
+      "checkpoint": "lesson-06",
+      "categories": [
+        "prerequisite",
+        "audience",
+        "definition",
+        "notation",
+        "unit",
+        "logic",
+        "mathematics",
+        "evidence",
+        "source",
+        "assessment"
+      ],
+      "result": "passed",
+      "evidence": "Manager authored/reviewed complete text and answers; independent-audit.json confirms actual teaching and mathematical checks against hashed lesson text. Exact finite values and required IDs checked in verification.json."
+    },
+    {
+      "id": "UNIT-I",
+      "level": "cumulative",
+      "result": "passed",
+      "evidence": "Lessons 1-2: enumeration precedes mapping; L, q, p, z and u are introduced separately; boundary and inverse tasks have answered practice."
+    },
+    {
+      "id": "UNIT-II",
+      "level": "cumulative",
+      "result": "passed",
+      "evidence": "Lessons 3-4: dot product introduced before use; seven sheets precede two polarity and three remainder partitions; negatives handled explicitly; no complex exponential prerequisite."
+    },
+    {
+      "id": "UNIT-III",
+      "level": "cumulative",
+      "result": "passed",
+      "evidence": "Lessons 5-6: canonical representative and s introduced before registry use; all 27 rows retained; owner residual and inverse discrepancy distinguished; capstone operations have prior worked and independently answered practice."
+    },
+    {
+      "id": "FINAL-COVERAGE",
+      "level": "final",
+      "result": "passed",
+      "evidence": "Independent auditor accepted completed E05 content and all seven capstone mappings; six required concepts and mod-three bridge have actual E/W/P/D sections."
+    },
+    {
+      "id": "FINAL-MATH",
+      "level": "final",
+      "result": "passed",
+      "evidence": "Independent Fraction read-back checks all 27 rows, 13 pairs, sheet/parity/remainder/geometric counts and inverse identities. Auditor independently checked all 54 rendered-as-Markdown table rows against JSON."
+    },
+    {
+      "id": "FINAL-SOURCE",
+      "level": "final",
+      "result": "passed",
+      "evidence": "Five source hashes matched. S02 M02/M03 inspected in place; source status labels remain reports. Synthetic geometry and source Cell3 are explicitly separated; no historical numerical branch used as active constant."
+    },
+    {
+      "id": "FINAL-LOAD",
+      "level": "final",
+      "result": "passed",
+      "evidence": "Every lesson has four diagnostic checks, three goals, one essential question, worked answers and a bridge. Six 55-minute budgets plus two capstone periods; matrix inverse transpose is recognition-only. Pacing is estimated, not empirically classroom-tested."
+    },
+    {
+      "id": "FINAL-RETENTION",
+      "level": "final",
+      "result": "passed",
+      "evidence": "All original synthetic rows retained. v plus s reconstructs noncentral L; center separate; z plus u reconstructs q; R_L retained in each row. Deliberate failed comparison and repair explained."
+    },
+    {
+      "id": "FINAL-MARKDOWN",
+      "level": "final",
+      "result": "passed",
+      "evidence": "Manager read complete registry tables; 22 relative links resolve; every Markdown table has consistent cell counts. No PDF, Word or paginated output requested."
+    },
+    {
+      "id": "FINAL-ASSEMBLY",
+      "level": "final",
+      "result": "passed",
+      "evidence": "Assembly constructed from unchanged lesson bytes with exact checkpoint marker order; deterministic validator checks identity and hashes separately."
+    },
+    {
+      "id": "FINAL-MINIMALITY",
+      "level": "final",
+      "result": "passed",
+      "evidence": "Six lessons follow approved finite dependency chain; no new teaching in assembly, no source snapshots, no advanced recognition-only work assessed, no missing registry rows."
+    }
+  ],
+  "independent_audit": "independent-audit.json",
+  "verification": "verification.json",
+  "limitations": [
+    "Pacing has not been classroom-tested.",
+    "No broader mature corpus or integration proof replay is claimed.",
+    "Deterministic validator result is recorded in completion_report.json after execution."
+  ]
+}

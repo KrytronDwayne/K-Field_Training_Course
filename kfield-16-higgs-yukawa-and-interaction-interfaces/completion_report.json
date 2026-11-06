@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "status": "complete",
+  "topic": "Higgs, Yukawa, and Interaction Interfaces",
+  "audience": "High-school seniors; first-principles teaching, with concrete prerequisite capabilities and taught bridges.",
+  "assumptions": [
+    "A topical short course, not a semester per topic. Pacing is 55-minute core lessons plus capstone periods; split dense lessons if actual learner load requires it.",
+    "No prior calculus, abstract algebra, university linear algebra, or quantum mechanics unless explicitly taught earlier.",
+    "Required core assessments must be solvable with taught finite examples. Clearly label deeper recognition-only extensions.",
+    "Markdown is the delivery format; no PDF or Word generation is required."
+  ],
+  "outputs": [
+    "course-map.md",
+    "lesson-01.md",
+    "lesson-02.md",
+    "lesson-03.md",
+    "lesson-04.md",
+    "lesson-05.md",
+    "lesson-06.md",
+    "lesson-07.md",
+    "terminology.md",
+    "teacher-guide.md",
+    "capstone.md",
+    "sources.md",
+    "sources.json",
+    "worked-example-verification.json",
+    "verify_examples.py",
+    "build_records.py",
+    "input-contract.json",
+    "course.md",
+    "audit_report.json",
+    "finalize_records.py",
+    "completion_report.json"
+  ],
+  "audit_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "hashes": {
+    "course-map.md": "f1d4c690ec729eb279e0b8c9e8f3dcc8cd39bd3d993b7c7cbb2d6ae7cf2ed29b",
+    "lesson-01.md": "78095acc1aca02a31702eb2bfa5b01f0e63bbea8c1d026971a0dc0b9fc0d5d44",
+    "lesson-02.md": "c532d9bc768ba4c271282b4b0b0f8e36d0bfb67205e93c7ba157c87c0fcdd79a",
+    "lesson-03.md": "62172f865b541af0bc34671192ac9cdbc75ee85910f696b2a87820867c99831a",
+    "lesson-04.md": "63f665ce46013775f89a30ddb8fbcd912901b22385ab80ea5803c1422fecf931",
+    "lesson-05.md": "66885930686e47eee4803f82332278e9ad03d082e39ed4187bcdf03bf61dcc6f",
+    "lesson-06.md": "63910c03631a6ff274b0fb2dcef969c085dd28c9498f56f19f85f1d72a5c116f",
+    "lesson-07.md": "78c9724c72354d8674f710d84354474d93dfec017d83678a7d9ec623514c1df5",
+    "terminology.md": "587c12af611f79225da72f7054021cd2b4581207a1d8125b96245fce3cca9d14",
+    "teacher-guide.md": "5851a5c952a90407b11e288e1df4413d9136f61ce07c7fce58cbf231d50e294b",
+    "capstone.md": "ccb65236d07c6e4b158dfbbed421cd2d745a2a468691cfae4a6e46855e813524",
+    "sources.md": "fd8e3a83e4adc66a48fd4761e529d1ac6bc7d7b5ffdb372eaff796fa45149db0",
+    "sources.json": "fae3c9e4ba06f3b1ca4b13a7333af5b92c4fd91c085349d606ac9b1517525ac5",
+    "worked-example-verification.json": "e705f9346eb2947508b1e4d9009997d9a4c271ff71d152f84ba71bb3863a1378",
+    "verify_examples.py": "3f29bbb24359fe00560997e93c2919bb208d0e620477e95eea1a803e9c9990c9",
+    "build_records.py": "fbd7ea969ad68c8f6b84a24f7e425c7a4e1301bcbd657f257db316a93de9f227",
+    "input-contract.json": "2fac7b394b57096c20b4756aba1749f1914e009d05604d8a8c661d00d84940b0",
+    "course.md": "cb5470e1d98e9350a09088c69f725aa78b3620d20d0302bfef75a4b4a01e3023",
+    "audit_report.json": "8ed45c0e105d67c2219e2bf42779a16296e883f048bfad760d5c92eced26f641",
+    "finalize_records.py": "4f77a83badbcf117057a70e9d3808b4ae8b573f8e433c94e4fa650a06f166bbf",
+    "manifest.json": "185ea4ac1ed678a574099abdc006808e57d404db078f0f3c42e45b0495f2b1c4"
+  },
+  "lesson_count": 7,
+  "core_periods": 12,
+  "capstone_periods": 3,
+  "period_minutes": 55,
+  "source_gaps": [
+    "No fresh full compiler typecheck or complete kinetic-term derivation; not required for the finite assessed scope.",
+    "Physical occupied-state coefficients, potential, mixing, matching scale, and rate inputs are not supplied."
+  ],
+  "validator": {
+    "status": "passed",
+    "command": "& 'C:/ProgramData/anaconda3/Scripts/conda.exe' run -n tf_gpu_env python 'Z:/Kfield-doc-training/.work/validate_project_course.py' 'Z:/Kfield-doc-training/K-Field_Training_Course/kfield-16-higgs-yukawa-and-interaction-interfaces' --json",
+    "exit_code": 0,
+    "errors": [],
+    "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+    "verified_utc": "2026-11-05T18:56:00.7905831Z"
+  },
+  "harmless_unresolved_minor_findings": []
+}

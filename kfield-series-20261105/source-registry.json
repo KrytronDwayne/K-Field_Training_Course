@@ -1,0 +1,309 @@
+{
+  "schema_version": "1.0",
+  "corpus_generation": "sha256:5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+  "manifest_sha256": "5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+  "capabilities_note": "The capabilities response omitted snapshot identity; the paired generation and manifest digest were verified from root traversal and RAG response.",
+  "graph_manifest_object_id": "5f82424b4c8e217bb7e81fa7b54e0782f220d309916b0f9fc69547b12fe6bb55",
+  "repository": {
+    "node_id": "repository:KrytronDwayne/K-Field_Private",
+    "source_commit": "bd4f70c13a9cdb03baf97d45928d64a3e2459c37"
+  },
+  "testbench_references": [
+    {
+      "logical_path": "applications/kfield_lucas_lab/rag_corpus/35_spectral_energy_phase.md",
+      "object_id": "03dc7e11045b3912f1e8cc0d69a4789b6ad300ac78b4549ea86c45e51228c7bc",
+      "sha256": "03dc7e11045b3912f1e8cc0d69a4789b6ad300ac78b4549ea86c45e51228c7bc"
+    },
+    {
+      "logical_path": "applications/kfield_lucas_lab/rag_corpus/40_cmb_quarantine.md",
+      "object_id": "1dfff4443f99ebb949ca6f080a01452bdb6c58075a694c4b74055e64b4d4ecfb",
+      "sha256": "1dfff4443f99ebb949ca6f080a01452bdb6c58075a694c4b74055e64b4d4ecfb"
+    },
+    {
+      "logical_path": "applications/kfield_lucas_lab/rag_corpus/00_start_here.md",
+      "object_id": "acde765d72eca14bfa08df75bd3675137a326e1ad750d427351d556d8c48fefd",
+      "sha256": "acde765d72eca14bfa08df75bd3675137a326e1ad750d427351d556d8c48fefd"
+    },
+    {
+      "logical_path": "applications/kfield_lucas_lab/rag_corpus/50_physical_closure.md",
+      "object_id": "c2a25a583af904601968adc1d3efde825f76218c92a2f52d829afc093f52c02a",
+      "sha256": "c2a25a583af904601968adc1d3efde825f76218c92a2f52d829afc093f52c02a"
+    },
+    {
+      "logical_path": "applications/kfield_lucas_lab/rag_corpus/45_moving_reference_frames.md",
+      "object_id": "c8485397ee3cd5560624885a3bfcf20c9f6190e26129320e37037810b984e1aa",
+      "sha256": "c8485397ee3cd5560624885a3bfcf20c9f6190e26129320e37037810b984e1aa"
+    },
+    {
+      "logical_path": "applications/kfield_lucas_lab/rag_corpus/20_phase_route.md",
+      "object_id": "c9335e2df74344bff5665df5a5e0b9094fef22147c76458f1a54efe49cefce62",
+      "sha256": "c9335e2df74344bff5665df5a5e0b9094fef22147c76458f1a54efe49cefce62"
+    },
+    {
+      "logical_path": "applications/kfield_lucas_lab/rag_corpus/10_geometry_trajectory.md",
+      "object_id": "ce1abe83011a43bfbcd8aaf98f7fb9fdfabd31acbfdbc1208e45176596602ccb",
+      "sha256": "ce1abe83011a43bfbcd8aaf98f7fb9fdfabd31acbfdbc1208e45176596602ccb"
+    },
+    {
+      "logical_path": "applications/kfield_lucas_lab/rag_corpus/30_interferometer_capabilities.md",
+      "object_id": "e9c6d0346e7f4fa120e9836df9d4a45b7e2c587bc046874d91cb38a0c68c16bc",
+      "sha256": "e9c6d0346e7f4fa120e9836df9d4a45b7e2c587bc046874d91cb38a0c68c16bc"
+    }
+  ],
+  "galaxy_documents": [
+    {
+      "node_id": "doc:077541dd81559788e655",
+      "title": "K-Field hexagonal projection",
+      "path": "Documents/K-field_hexagonal_projection_1783716469.pdf",
+      "sha256": "f24525e7d4a7bb8016332b1da7a8685d56a0aa807a0b3bbb268e0d50e140f552",
+      "availability": "materialized_and_extracted"
+    },
+    {
+      "node_id": "doc:1179b64ffbe9dd3fac3f",
+      "title": "galaxy cell hidden holonomy summary",
+      "path": "Documents/galaxy_cell_hidden_holonomy_summary_1783791371.json",
+      "sha256": "bd6ff0e335f3c405000cd1f8adfa3ae947dc9362dfeb772764cf98ef62ae6f63",
+      "availability": "materialized_and_extracted"
+    },
+    {
+      "node_id": "doc:122d7b576a62699c594f",
+      "title": "K-Field Hidden Galaxy Distance Encoding 5k validation",
+      "path": "Documents/K-Field_Hidden_Galaxy_Distance_Encoding_5k_validation_1783865456.pdf",
+      "sha256": "17166ed85d3e5cf4ea7020c77704f8cdfed64afbf55dcc217de5dbbd69eaaaa1",
+      "availability": "materialized_and_extracted"
+    },
+    {
+      "node_id": "doc:14bb64dc22724fda0b95",
+      "title": "K-Field spherical gravity response graph audited",
+      "path": "Documents/K-field_spherical_gravity_response_graph_audited_1783692220.json",
+      "sha256": "aa7f4236b7f956c652690934d6444f597ea38b6e485cc77a22be884b567d1cea",
+      "availability": "materialized_and_extracted"
+    },
+    {
+      "node_id": "doc:1a9c64722984e6b8a2e9",
+      "title": "K-Field cell3 vs galaxy derived cell analogue",
+      "path": "Documents/K-field_cell3_vs_galaxy_derived_cell_analogue_1783794540.pdf",
+      "sha256": "69dcaace292365d22b9b48c43edc0ac4936b148ec68a5b265abc72aaff4f4447",
+      "availability": "materialized_and_extracted"
+    },
+    {
+      "node_id": "doc:207713150b6299cc5266",
+      "title": "K-Field Galaxy Density Zones",
+      "path": "Documents/K-Field_Galaxy_Density_Zones.png",
+      "availability": "repository_only"
+    },
+    {
+      "node_id": "doc:2deb6e87f412d08cc635",
+      "title": "K-Field galaxy sky position volumetric quantization",
+      "path": "Documents/K-field_galaxy_sky_position_volumetric_quantization_1783789746.pdf",
+      "sha256": "856777f0fae0d6b50e8d235435068b7ea3c25a83068cfbfb197b62835cbb8fbd",
+      "availability": "materialized_and_extracted"
+    },
+    {
+      "node_id": "doc:38057f469fa478c90761",
+      "title": "K-Field spherical gravity response in cell reference frame",
+      "path": "Documents/K-field_spherical_gravity_response_in_cell_reference_frame_1783688429.pdf",
+      "sha256": "8ec019aec2a661a39233ac9285fef3685aa843c52c0ca4d7ffbc1d7b38c8b68c",
+      "availability": "materialized_and_extracted"
+    },
+    {
+      "node_id": "doc:3d03424e2083d954168a",
+      "title": "K-Field generative phase honeycomb",
+      "path": "Documents/K-field_generative_phase_honeycomb_1783714678.png",
+      "sha256": "9aa8b0c40d18565d72317dcef702f1532427021f06ffd5f380ae1b393357b63d",
+      "availability": "materialized_and_extracted"
+    },
+    {
+      "node_id": "doc:4085acaa8ad6606be660",
+      "title": "K-Field gravity response",
+      "path": "Documents/K-field_gravity_response_1783654812.pdf",
+      "sha256": "aa6356cfa70a3e7d95e4bc6566dadbac10fb4e5a94b230fc49d689e5d7b0e18b",
+      "availability": "materialized_and_extracted"
+    },
+    {
+      "node_id": "doc:5fdb26f361343fe964ea",
+      "title": "K-Field generative grid group examples",
+      "path": "Documents/K-field_generative_grid_group_examples_1783714678.png",
+      "sha256": "5e276acd8c8037fadea6b51bf833773e2c83f99a7205c9e6df79f3c7a3ee1c08",
+      "availability": "materialized_and_extracted"
+    },
+    {
+      "node_id": "doc:608ac1eda3adcc2607fe",
+      "title": "K-Field cell3 and galaxy cell self affine local hierachy recurive residuals",
+      "path": "Documents/K-field_cell3_and_galaxy_cell_self_affine_local_hierachy_recurive_residuals_1783800071.pdf",
+      "sha256": "5f5f75683c3850b9042500b4cc87b1a202b75edd57fcf32395afe157c59f91d7",
+      "availability": "materialized_and_extracted"
+    },
+    {
+      "node_id": "doc:6f44a412aebd5ab399da",
+      "title": "K-Field cell3 and galaxy cell astrodynamics bridge",
+      "path": "Documents/K-field_cell3_and_galaxy_cell_astrodynamics_bridge_1783795426.pdf",
+      "sha256": "d10e48d4e0679b2f71990289eb6b6105bbd8a00ba660d5c62f7c01f5aa596277",
+      "availability": "materialized_and_extracted"
+    },
+    {
+      "node_id": "doc:78d01349fc0e20c19296",
+      "title": "K-Field galaxy axis group analysis",
+      "path": "Documents/K-field_galaxy_axis_group_analysis_1783718233.pdf",
+      "sha256": "54da573cfa91c8f6e212c6e55bde629e42deaa796b41aff45d5664a1192fc5fb",
+      "availability": "materialized_and_extracted"
+    },
+    {
+      "node_id": "doc:7c10a9199972146a8162",
+      "title": "K-Field Gravity Spherical Gravity Response 36x24 300dpi",
+      "path": "Documents/K-Field_Gravity_Spherical_Gravity_Response_36x24_300dpi.png",
+      "sha256": "2970e6f59edcb8cbd3281f80af38fab146ea975da64abd4163f6cb9e98757d57",
+      "availability": "materialized_and_extracted"
+    },
+    {
+      "node_id": "doc:7e8dbd73e10580b3acfd",
+      "title": "K-Field line of sight sum analysis",
+      "path": "Documents/K-field_line_of_sight_sum_analysis_1783690537.pdf",
+      "sha256": "ff03f30e1be9316b83974af6012ebe04190be162c4e6ea985c02d9d7671878b9",
+      "availability": "materialized_and_extracted"
+    },
+    {
+      "node_id": "doc:81cc7fcc10d4068820bc",
+      "title": "K-Field gravity as registry-curvature holonomy-frustration response",
+      "path": "Documents/K-field_gravity_as_registry-curvature_holonomy-frustration_response_1783789528.pdf",
+      "sha256": "14669a0cc21426731323abae0add37a76f9c7e0455bee1fe32995d1ac38ea2f3",
+      "availability": "materialized_and_extracted"
+    },
+    {
+      "node_id": "doc:83219e6a1ef6b0e189c0",
+      "title": "K-Field generative honeycomb grid icrs",
+      "path": "Documents/K-field_generative_honeycomb_grid_icrs_1783714678.png",
+      "sha256": "3b543915b16063b4376089af73e1a4ac9d302838f516112d221a9d625d4176fb",
+      "availability": "materialized_and_extracted"
+    },
+    {
+      "node_id": "doc:8c699d3b6a799a604cb3",
+      "title": "K-Field galaxy disk plane surface analysis",
+      "path": "Documents/K-field_galaxy_disk_plane_surface_analysis_1783723241.pdf",
+      "sha256": "91442aa134330f08b75229307221963855d90538ab3e2aa908a50bfe417242de",
+      "availability": "materialized_and_extracted"
+    },
+    {
+      "node_id": "doc:8dc4fc69b005b3729ed0",
+      "title": "K-Field unit sphere peak graph",
+      "path": "Documents/K-field_unit_sphere_peak_graph_1783707405(1).png",
+      "sha256": "fcedc09025505187c85b5ae5feb2743bdceff35f485fceb666281d72990c9eac",
+      "availability": "materialized_and_extracted"
+    },
+    {
+      "node_id": "doc:8e7ee9e845b6877e53ef",
+      "title": "K-Field spherical gravity response",
+      "path": "Documents/K-field_spherical_gravity_response_1783692220.pdf",
+      "sha256": "61c69d7508ae794e7f8b0ff1d75d7e2586ad8ad924d84cd0d333b64c28aa4c90",
+      "availability": "materialized_and_extracted"
+    },
+    {
+      "node_id": "doc:9336214bd137520ea176",
+      "title": "K-Field exact galaxy recovered holonomy sheet structure",
+      "path": "Documents/K-field_exact_galaxy_recovered_holonomy_sheet_structure_1783792098.pdf",
+      "sha256": "85cdaf21c7a777e9cdc6a49e518dbfa8be2eddcb82e390d7ba96d764e78fc077",
+      "availability": "materialized_and_extracted"
+    },
+    {
+      "node_id": "doc:9476e0a54c0619c00666",
+      "title": "K-Field Overlay MilkyWay Galaxy plane 20260710",
+      "path": "Documents/K-Field_Overlay_MilkyWay_Galaxy_plane_20260710.png",
+      "availability": "repository_only"
+    },
+    {
+      "node_id": "doc:97d14dd9fd34d6975807",
+      "title": "K-Field Hidden Galaxy Distance Encoding",
+      "path": "Documents/K-Field_Hidden_Galaxy_Distance_Encoding_1783863787.pdf",
+      "sha256": "16eac4672c3afd894b881195825be54cd3b22fad7295d8a4b9bc6d52a0ec9015",
+      "availability": "materialized_and_extracted"
+    },
+    {
+      "node_id": "doc:9b874bd57b55b462a011",
+      "title": "K-Field coupled galaxy unit ellipsoid G dual-metric generalized eigenstructure",
+      "path": "Documents/K-Field_coupled_galaxy_unit_ellipsoid_G_dual-metric_generalized_eigenstructure_1783870454.pdf",
+      "sha256": "605bcc21e3c8018c30d58906a7534483679c9f5bd03ef05a9e8b716678e39825",
+      "availability": "materialized_and_extracted"
+    },
+    {
+      "node_id": "doc:b205da68ec172c4d8d4b",
+      "title": "K-Field galaxy sky phase aware rectilinear grid analysis",
+      "path": "Documents/K-field_galaxy_sky_phase_aware_rectilinear_grid_analysis_1783786153.pdf",
+      "sha256": "a71fe4c4699e738f16b55b4bd5d03eca904e4ad6e3ea3dd92a5aa9381b8fa553",
+      "availability": "materialized_and_extracted"
+    },
+    {
+      "node_id": "doc:b23bb3a43f785a65b3b4",
+      "title": "K-Field pro forma probablilistic random equivalent result analysis",
+      "path": "Documents/K-field_pro_forma_probablilistic_random_equivalent_result_analysis_1783712564.pdf",
+      "sha256": "e2464e7da319eb17133c9be3e1b671c6d34b14ce4b6a7dddf1655f000a436719",
+      "availability": "materialized_and_extracted"
+    },
+    {
+      "node_id": "doc:b808d2e082e575e952b4",
+      "title": "K-Field generative grid missed continuation zoom",
+      "path": "Documents/K-field_generative_grid_missed_continuation_zoom_1783714678.png",
+      "sha256": "e4550889a6a8f0e6f4bd750da906030892f862f1ab4e66e75c1e0418512722f9",
+      "availability": "materialized_and_extracted"
+    },
+    {
+      "node_id": "doc:bb5e400264d78ef16bea",
+      "title": "K-Field Galaxy Overlay",
+      "path": "Documents/K-Field_Galaxy_Overlay.png",
+      "availability": "repository_only"
+    },
+    {
+      "node_id": "doc:c165032cdcbae3cabad3",
+      "title": "K-Field Galaxy Coherence",
+      "path": "Documents/K-Field_Galaxy_Coherence.png",
+      "availability": "repository_only"
+    },
+    {
+      "node_id": "doc:cca2f8d1409a2e51e2dc",
+      "title": "K-Field galaxy ellipsoid distance shells",
+      "path": "Documents/K-Field_galaxy_ellipsoid_distance_shells_1783865924.pdf",
+      "sha256": "170210b8204e24cef05098dd6572dc680d4a4a65b02b0700a8e1996a05d75297",
+      "availability": "materialized_and_extracted"
+    },
+    {
+      "node_id": "doc:d265071d8ed6d547632b",
+      "title": "K-Field galaxy group arrangement examples",
+      "path": "Documents/K-field_galaxy_group_arrangement_examples_1783707405(1).png",
+      "sha256": "d59a56d8d99dad3f2b7963ea6f739f93674a49d512da6413c6cb8c75ef107be5",
+      "availability": "materialized_and_extracted"
+    },
+    {
+      "node_id": "doc:deabe7febb5d5a21f26c",
+      "title": "K-Field spherical gravity response",
+      "path": "Documents/K-field_spherical_gravity_response_1783689961.pdf",
+      "sha256": "84a76ed258de51b646a0d4681e8456b21e3edb7b292e5e59db5e3d9229111f19",
+      "availability": "materialized_and_extracted"
+    },
+    {
+      "node_id": "doc:e81ee8577aa15a34c4d9",
+      "title": "K-Field generative honeycomb grid laminar",
+      "path": "Documents/K-field_generative_honeycomb_grid_laminar_1783714678.png",
+      "sha256": "0915572962ce5c48119e10d14a89aa1b6b2329979a5072eb374e8f3cf6e314eb",
+      "availability": "materialized_and_extracted"
+    },
+    {
+      "node_id": "doc:e8ffa7d71ea163950a5a",
+      "title": "K-Field unit ellipsoid transform analysis",
+      "path": "Documents/K-Field_unit_ellipsoid_transform_analysis_1783868790.pdf",
+      "sha256": "69e759f0e79271d24a8984776a27122fb576bbbff1ab02b1bc75542c2a06bb4b",
+      "availability": "materialized_and_extracted"
+    },
+    {
+      "node_id": "doc:f230f78faefd4c9ca20f",
+      "title": "K-Field galaxy axis spatial indexing in sky view",
+      "path": "Documents/K-field_galaxy_axis_spatial_indexing_in_sky_view_1783710493.pdf",
+      "sha256": "ff3a46b58365e89a39324093d2a027c20f25a50244d0ead9f9132ed23c6438b1",
+      "availability": "materialized_and_extracted"
+    }
+  ],
+  "retrieval_notes": [
+    "RAG reranking is disabled by server policy; use rerank:false.",
+    "Original source JSON digests are not all addressable through krytronx_get; the mature and corrected mathematical-essence files were found locally and their hashes verified.",
+    "Root traversal is truncated at depth one; it is a discovery route, not an exhaustive coverage certificate.",
+    "Stable keys named in testbench prose did not resolve in graph traversal; retrieve pinned exact artifacts and contracts rather than treating a display label as a graph ID."
+  ]
+}

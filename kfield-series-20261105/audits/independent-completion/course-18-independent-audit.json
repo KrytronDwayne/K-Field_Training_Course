@@ -1,0 +1,362 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-18",
+  "timestamp": "2026-11-05T19:17:22.087506+00:00",
+  "status": "passed_parent_independent_content_audit",
+  "eligible_for_parent_acceptance": true,
+  "reviewer": "Parent independent of course author; full manual review and own finite arithmetic. Parent directly repaired one glossary formatting defect and explicitly recorded authorship of that post-audit correction.",
+  "scope": "All seven actual lessons, ten-task capstone/full answers/rubric, map, guide, glossary, source notes and audits read. Final changed lesson02 reread in full, other lesson hashes unchanged. Final supports compared with read hashes. Source M14 and five angular/CP formula bodies plus BR05/BR10 and AUD009 read directly.",
+  "manual_read_inventory": [
+    "lesson-01.md",
+    "lesson-02.md",
+    "lesson-03.md",
+    "lesson-04.md",
+    "lesson-05.md",
+    "lesson-06.md",
+    "lesson-07.md",
+    "capstone.md",
+    "teacher-guide.md",
+    "course-map.md",
+    "terminology.md",
+    "sources.md",
+    "audit_report.json",
+    "independent-audit.json"
+  ],
+  "manifest_sha256": "afa689b1d9c2445105fd07d63ad6ed1359a40731253a5e285f2c550ca905eb1f",
+  "audited_files": {
+    "lesson-01.md": "368c786fc3b55fefaa4ef2399c03e4afebf2eb3546de852dce0463298c04ba54",
+    "lesson-02.md": "839c532bd997703987d3842df835f30ab46c9292f3ebb67f61dc3b4d6ba21dab",
+    "lesson-03.md": "16fc5b5439ccdc9b43f109a2ff79c69d6b1adc48fdd13e0276cb9b1fc508a362",
+    "lesson-04.md": "16d3710e218f183cc5a68c341a5549fe87f9df9d11038defd459776d89147634",
+    "lesson-05.md": "0f04af9b52333d58ce45677d875563a979c2d4c0270f8d5c04a9b539cf1fd2c1",
+    "lesson-06.md": "a6120bc92c1c16183f5e91df5e4d3b38e4af6337933a51f35fe1e26809a71882",
+    "lesson-07.md": "4014cd4e6d5af6f4f02bc7edfc2210ea0ea7470d717d32a3624b6476673d0cf9",
+    "capstone.md": "2440cabe19191fb5512c53636b176e61ce8bf2436c93a5fa7c190fcb239f7e1c",
+    "teacher-guide.md": "646469a9c627e9fc0b7a6e0220aaeb3d63e124b4995b55a16b26af9b6d0b1580",
+    "course-map.md": "463845fbf3eecb44ad9872b8e08d061f539fd1c6fe29c8599874236c877ecde6",
+    "terminology.md": "aeb8fff5aba73769e29b9feb29bca1c4ad9f30997b5a080dc2cff85cb3d10f33",
+    "sources.md": "877350d02e5298cb385df1828f23427ad645a2475380da5f5a483b2509d9e317",
+    "audit_report.json": "204b06f9559f06b81672259979b14a3a42fa3776253ae30c3bab5258a7e73a58",
+    "independent-audit.json": "7e69decae19e4c6b91dcf6e9349dca71af363f883bca8e84c8d3b5f78db70124",
+    "input-contract.json": "984773cfcd26597000fcb24a78625ae8a993136f4d46e31eccf0bf44adcf0d82",
+    "manifest.json": "afa689b1d9c2445105fd07d63ad6ed1359a40731253a5e285f2c550ca905eb1f",
+    "completion_report.json": "71eff95d4ccfeaf72d9f23c3504ea0062c9a07cf3eb9d6173e9169f0f8905a64",
+    "course.md": "7576a96bcf0b996a22a5319a1751a0390fda7ab82bffe6569b115e0f06ff8823",
+    "verification.json": "5375e1dfc8c02931fd1d4170ef1b22afcc205d9008ac7a973b4b957c691ca3ea"
+  },
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "findings": [
+    {
+      "id": "C18-PARENT-001",
+      "severity": "minor",
+      "file": "terminology.md",
+      "defect": "Norm bars were unescaped Markdown delimiters.",
+      "disposition": "corrected",
+      "verification": "Parent escaped four bars; all56 table rows have3cells. Original content-auditor hash and parent after-hash both retained in explicit addendum."
+    }
+  ],
+  "verified_repairs": [
+    "Explicit root removal L_a dagger e_Omega=0",
+    "Capstone reference points to Lesson02 and task08",
+    "Escaped norm bars preserve glossary table cells"
+  ],
+  "lesson_reviews": [
+    {
+      "lesson_id": "lesson-01",
+      "result": "pass",
+      "evidence": "Binary words with newest prefix on left, empty word versus zero vector, finite depth and explicit boundary policy taught; source B8 carrier separately typed."
+    },
+    {
+      "lesson_id": "lesson-02",
+      "result": "pass",
+      "evidence": "Square shift has both terminal/root defects and index0; rectangular injection index-1 and infinite unilateral index-1 have separately declared domains. All discarded terminal data retained."
+    },
+    {
+      "lesson_id": "lesson-03",
+      "result": "pass",
+      "evidence": "Norm preservation, injectivity, surjectivity and inverse on image distinguished with complete image/complement reconstruction and squared norms."
+    },
+    {
+      "lesson_id": "lesson-04",
+      "result": "pass",
+      "evidence": "All four q_n including zero operator retained; rank does not depend on one input. Root-defect hypothesis and P=I overlapping counterexample explicit."
+    },
+    {
+      "lesson_id": "lesson-05",
+      "result": "pass",
+      "evidence": "Basis/coframe order, reciprocal determinant sign, time direction, rescale and reflection tracked separately. Negative locked Cell3 handedness retained; toy basis clearly declared."
+    },
+    {
+      "lesson_id": "lesson-06",
+      "result": "pass",
+      "evidence": "Grading idempotence versus adjoint condition, anticommutation and distinct tensor factors taught. Source PL convention explicitly uses opposite sign assignment from unnamed generic G. Angular/spin dimensions and ell0 exception correct and not physical energy/occupation."
+    },
+    {
+      "lesson_id": "lesson-07",
+      "result": "pass",
+      "evidence": "Premise ledger retains B8/T0 gaps, full coframe/Clifford conventions and separate factors. Conditional gamma5 square calculation correct. Pointwise real carry restriction differs from arbitrary real matrices. Complex commutator and supplied diagonal determinant witness retain their distinct scope; diagonal Yukawa witness commutes and predicts no physical phase."
+    }
+  ],
+  "actual_capstone_practice_links": [
+    {
+      "step_id": "C18-CAP-01",
+      "worked_example_id": "C18.01-W1",
+      "prior_practice_id": "C18.01-P1",
+      "diagnostic_id": "C18.01-D1",
+      "result": "pass_actual_answered_practice",
+      "evidence": "Binary words with newest prefix on left, empty word versus zero vector, finite depth and explicit boundary policy taught; source B8 carrier separately typed."
+    },
+    {
+      "step_id": "C18-CAP-02",
+      "worked_example_id": "C18.02-W1",
+      "prior_practice_id": "C18.02-P1",
+      "diagnostic_id": "C18.02-D1",
+      "result": "pass_actual_answered_practice",
+      "evidence": "Square shift has both terminal/root defects and index0; rectangular injection index-1 and infinite unilateral index-1 have separately declared domains. All discarded terminal data retained."
+    },
+    {
+      "step_id": "C18-CAP-03",
+      "worked_example_id": "C18.03-W1",
+      "prior_practice_id": "C18.03-P1",
+      "diagnostic_id": "C18.03-D1",
+      "result": "pass_actual_answered_practice",
+      "evidence": "Norm preservation, injectivity, surjectivity and inverse on image distinguished with complete image/complement reconstruction and squared norms."
+    },
+    {
+      "step_id": "C18-CAP-04",
+      "worked_example_id": "C18.04-W1",
+      "prior_practice_id": "C18.04-P1",
+      "diagnostic_id": "C18.04-D1",
+      "result": "pass_actual_answered_practice",
+      "evidence": "All four q_n including zero operator retained; rank does not depend on one input. Root-defect hypothesis and P=I overlapping counterexample explicit."
+    },
+    {
+      "step_id": "C18-CAP-05",
+      "worked_example_id": "C18.05-W1",
+      "prior_practice_id": "C18.05-P1",
+      "diagnostic_id": "C18.05-D1",
+      "result": "pass_actual_answered_practice",
+      "evidence": "Basis/coframe order, reciprocal determinant sign, time direction, rescale and reflection tracked separately. Negative locked Cell3 handedness retained; toy basis clearly declared."
+    },
+    {
+      "step_id": "C18-CAP-06",
+      "worked_example_id": "C18.06-W1",
+      "prior_practice_id": "C18.06-P1",
+      "diagnostic_id": "C18.06-D1",
+      "result": "pass_actual_answered_practice",
+      "evidence": "Grading idempotence versus adjoint condition, anticommutation and distinct tensor factors taught. Source PL convention explicitly uses opposite sign assignment from unnamed generic G. Angular/spin dimensions and ell0 exception correct and not physical energy/occupation."
+    },
+    {
+      "step_id": "C18-CAP-07",
+      "worked_example_id": "C18.07-W1",
+      "prior_practice_id": "C18.07-P1",
+      "diagnostic_id": "C18.07-D1",
+      "result": "pass_actual_answered_practice",
+      "evidence": "Premise ledger retains B8/T0 gaps, full coframe/Clifford conventions and separate factors. Conditional gamma5 square calculation correct. Pointwise real carry restriction differs from arbitrary real matrices. Complex commutator and supplied diagonal determinant witness retain their distinct scope; diagonal Yukawa witness commutes and predicts no physical phase."
+    },
+    {
+      "step_id": "C18-CAP-08",
+      "worked_example_id": "C18.S01-W1",
+      "prior_practice_id": "C18.S01-P1",
+      "diagnostic_id": "C18.S01-D1",
+      "result": "pass_actual_answered_practice",
+      "evidence": "Square shift has both terminal/root defects and index0; rectangular injection index-1 and infinite unilateral index-1 have separately declared domains. All discarded terminal data retained."
+    },
+    {
+      "step_id": "C18-CAP-09",
+      "worked_example_id": "C18.S02-W1",
+      "prior_practice_id": "C18.S02-P1",
+      "diagnostic_id": "C18.S02-D1",
+      "result": "pass_actual_answered_practice",
+      "evidence": "Grading idempotence versus adjoint condition, anticommutation and distinct tensor factors taught. Source PL convention explicitly uses opposite sign assignment from unnamed generic G. Angular/spin dimensions and ell0 exception correct and not physical energy/occupation."
+    },
+    {
+      "step_id": "C18-CAP-10",
+      "worked_example_id": "C18.S03-W1",
+      "prior_practice_id": "C18.S03-P1",
+      "diagnostic_id": "C18.S03-D1",
+      "result": "pass_actual_answered_practice",
+      "evidence": "Premise ledger retains B8/T0 gaps, full coframe/Clifford conventions and separate factors. Conditional gamma5 square calculation correct. Pointwise real carry restriction differs from arbitrary real matrices. Complex commutator and supplied diagonal determinant witness retain their distinct scope; diagonal Yukawa witness commutes and predicts no physical phase."
+    }
+  ],
+  "senior_accessibility": "12core55-minute periods plus3capstone. Finite vectors, maps, products, defects, orientation and paired projectors taught locally. Three periods each for grading/angular material and source/complex CP material. All10 capstone tasks have answered prior practice; full Clifford/source radial proof remains recognition scope.",
+  "independent_recomputation": {
+    "math_report": "course-18-parent-math-verification.json",
+    "math_report_sha256": "a1aaf63a573dd9b55c9c50ebce84af24392a1e672d2a2f8b9ce65ef01fe5b980",
+    "mathematics_checks": 125,
+    "content_integrity_checks": 127,
+    "content_integrity_check_names": [
+      "read_lesson_hash_lesson-01.md",
+      "read_lesson_hash_lesson-02.md",
+      "read_lesson_hash_lesson-03.md",
+      "read_lesson_hash_lesson-04.md",
+      "read_lesson_hash_lesson-05.md",
+      "read_lesson_hash_lesson-06.md",
+      "read_lesson_hash_lesson-07.md",
+      "root_removal_repair",
+      "reference_repair",
+      "read_support_hash_course-map.md",
+      "read_support_hash_teacher-guide.md",
+      "read_support_hash_capstone.md",
+      "read_support_hash_sources.md",
+      "read_support_hash_terminology.md",
+      "glossary_three_cells_4",
+      "glossary_three_cells_5",
+      "glossary_three_cells_6",
+      "glossary_three_cells_7",
+      "glossary_three_cells_8",
+      "glossary_three_cells_9",
+      "glossary_three_cells_10",
+      "glossary_three_cells_11",
+      "glossary_three_cells_12",
+      "glossary_three_cells_13",
+      "glossary_three_cells_14",
+      "glossary_three_cells_15",
+      "glossary_three_cells_16",
+      "glossary_three_cells_17",
+      "glossary_three_cells_18",
+      "glossary_three_cells_19",
+      "glossary_three_cells_20",
+      "glossary_three_cells_21",
+      "glossary_three_cells_22",
+      "glossary_three_cells_23",
+      "glossary_three_cells_24",
+      "glossary_three_cells_25",
+      "glossary_three_cells_26",
+      "glossary_three_cells_27",
+      "glossary_three_cells_28",
+      "glossary_three_cells_29",
+      "glossary_three_cells_30",
+      "glossary_three_cells_31",
+      "glossary_three_cells_32",
+      "glossary_three_cells_33",
+      "glossary_three_cells_34",
+      "glossary_three_cells_35",
+      "glossary_three_cells_36",
+      "glossary_three_cells_37",
+      "glossary_three_cells_38",
+      "glossary_three_cells_39",
+      "glossary_three_cells_40",
+      "glossary_three_cells_41",
+      "glossary_three_cells_42",
+      "glossary_three_cells_43",
+      "glossary_three_cells_44",
+      "glossary_three_cells_45",
+      "glossary_three_cells_46",
+      "glossary_three_cells_47",
+      "glossary_three_cells_48",
+      "glossary_three_cells_49",
+      "glossary_three_cells_50",
+      "glossary_three_cells_51",
+      "glossary_three_cells_52",
+      "glossary_three_cells_53",
+      "glossary_three_cells_54",
+      "glossary_three_cells_55",
+      "glossary_three_cells_56",
+      "glossary_three_cells_57",
+      "glossary_three_cells_58",
+      "glossary_three_cells_59",
+      "own_math_record",
+      "source_S01",
+      "source_S02",
+      "source_S03",
+      "source_S04",
+      "source_S05",
+      "M14",
+      "pointer_F027",
+      "pointer_F028",
+      "pointer_X049",
+      "pointer_X038",
+      "pointer_X037",
+      "source_CP_boundary",
+      "source_root_hypothesis",
+      "actual_anchor_C18.01-E1",
+      "actual_anchor_C18.01-W1",
+      "actual_anchor_C18.01-P1",
+      "actual_anchor_C18.01-D1",
+      "actual_anchor_C18.02-E1",
+      "actual_anchor_C18.02-W1",
+      "actual_anchor_C18.02-P1",
+      "actual_anchor_C18.02-D1",
+      "actual_anchor_C18.03-E1",
+      "actual_anchor_C18.03-W1",
+      "actual_anchor_C18.03-P1",
+      "actual_anchor_C18.03-D1",
+      "actual_anchor_C18.04-E1",
+      "actual_anchor_C18.04-W1",
+      "actual_anchor_C18.04-P1",
+      "actual_anchor_C18.04-D1",
+      "actual_anchor_C18.05-E1",
+      "actual_anchor_C18.05-W1",
+      "actual_anchor_C18.05-P1",
+      "actual_anchor_C18.05-D1",
+      "actual_anchor_C18.06-E1",
+      "actual_anchor_C18.06-W1",
+      "actual_anchor_C18.06-P1",
+      "actual_anchor_C18.06-D1",
+      "actual_anchor_C18.07-E1",
+      "actual_anchor_C18.07-W1",
+      "actual_anchor_C18.07-P1",
+      "actual_anchor_C18.07-D1",
+      "actual_anchor_C18.S01-E1",
+      "actual_anchor_C18.S01-W1",
+      "actual_anchor_C18.S01-P1",
+      "actual_anchor_C18.S01-D1",
+      "actual_anchor_C18.S02-E1",
+      "actual_anchor_C18.S02-W1",
+      "actual_anchor_C18.S02-P1",
+      "actual_anchor_C18.S02-D1",
+      "actual_anchor_C18.S03-E1",
+      "actual_anchor_C18.S03-W1",
+      "actual_anchor_C18.S03-P1",
+      "actual_anchor_C18.S03-D1",
+      "audit_counts",
+      "transparent_parent_repair",
+      "fresh_project_validator"
+    ],
+    "total_checks": 252
+  },
+  "source_hashes": [
+    {
+      "id": "S01",
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180"
+    },
+    {
+      "id": "S02",
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3"
+    },
+    {
+      "id": "S03",
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e"
+    },
+    {
+      "id": "S04",
+      "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2"
+    },
+    {
+      "id": "S05",
+      "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7"
+    }
+  ],
+  "integrity": {
+    "validator_checks": [
+      "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+      "parsed manifest.json",
+      "parsed audit_report.json",
+      "parsed completion_report.json",
+      "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+    ],
+    "validator_errors": [],
+    "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9"
+  },
+  "limitations": [
+    "No source B8/T0 full typed replay, physical chirality-selection proof or complete Clifford realization.",
+    "Angular/spin dimensions and supplied diagonal CP existence identity do not predict energy, occupation or physical mixing/CP phases.",
+    "No classroom trial; fresh source access by parent used local pinned bytes, not a new graph query.",
+    "Parent formatting repair changes glossary bytes only; original audit provenance and exact prior hash remain explicit."
+  ]
+}

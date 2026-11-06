@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0",
+  "status": "complete",
+  "topic": "Integrated K-Field Research: From Backbone to Test",
+  "audience": "High-school seniors; first-principles teaching, with concrete prerequisite capabilities and taught bridges.",
+  "assumptions": [
+    "A topical short course, not a semester per topic. Pacing is 55-minute core lessons plus capstone periods; split dense lessons if actual learner load requires it.",
+    "No prior calculus, abstract algebra, university linear algebra, or quantum mechanics unless explicitly taught earlier.",
+    "Required core assessments must be solvable with taught finite examples. Clearly label deeper recognition-only extensions.",
+    "Markdown is the delivery format; no PDF or Word generation is required."
+  ],
+  "outputs": [
+    "course-map.md",
+    "sources.md",
+    "terminology.md",
+    "lesson-01.md",
+    "lesson-02.md",
+    "lesson-03.md",
+    "lesson-04.md",
+    "lesson-05.md",
+    "lesson-06.md",
+    "lesson-07.md",
+    "lesson-08.md",
+    "teacher-guide.md",
+    "capstone.md",
+    "course.md",
+    "audit_report.json",
+    "verification.json",
+    "verify_examples.py",
+    "build_course.py",
+    "input-contract.json",
+    "launch-prompt.md",
+    "finalize_course.py",
+    "completion_report.json"
+  ],
+  "audit_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "hashes": {
+    "course-map.md": "ee7cdd55fb77e0ef4acf7e3a11915a2138ca749ae111acaeeaf22863a17ed91d",
+    "sources.md": "1abee05eb6d8e5b4addbdc370ef55efdd15509b54cf9d94a4b70fe68c9a73ded",
+    "terminology.md": "360c7e7069ab83a1edc66a7163f6bcc4dd42b88b28d2b8717d4eee608b6b0a02",
+    "lesson-01.md": "2a8941021f3c6aa8af6078160e548342ca9269cdadfa4f088f26292eca3aa6ec",
+    "lesson-02.md": "148870f715184f5271ca27e5af81a5c0d8b0a7c8ae2efd92af6389c60013aef9",
+    "lesson-03.md": "1c542a7a7516f9e4c22952605e9438d40ca0ab2e080b8dca2aeec0c17978a89d",
+    "lesson-04.md": "2a276d57ce8f6fc90887e5c2e5a828a3a6eccd618f447b904a67486cc08f2549",
+    "lesson-05.md": "648ec91527ccc428d36f1820296809e4874f841eb6f8ba3347a729fe7c9a79ba",
+    "lesson-06.md": "3ce57e42f4a34400128e0fe09ad7ce0a9d05d6207f41e91dfd13c4f238ab47db",
+    "lesson-07.md": "0c2011dd4a2b2212b8e541a34f9b2f637ab2c2cf07e4ea716aa350368ffcb4cb",
+    "lesson-08.md": "7c3931a7529610fc324f4b938238d7979588f8acfff244c991d0909f3b791791",
+    "teacher-guide.md": "acd3c5a8395c6e28687632355831ce2fd688c8a1b6b4a6b9606d75934af3cc69",
+    "capstone.md": "8a5b0b23db21faf50af2ae0efac989a7e68f506695feb0664bf312d6aebe0597",
+    "course.md": "51ae4db248175714ca9d27ed220e6eef241e934cd38af3d19992985ed8bd050b",
+    "audit_report.json": "4e3e640e7f7e69dff5aeafa56088b70e1bb447060e293310764d6bc8701a0109",
+    "verification.json": "58245cde5b5b7565e109f3978da11eac1d16258dc253e9c2ebf845dae53e9098",
+    "verify_examples.py": "ad15c63f21569a2cec8e173179bd7a0253ff2592fed9feef1aa8d4a2a03a1803",
+    "build_course.py": "be6a541e27bf1545029c82ecfff84a8d9e639af08348d5e68323e317bf566dd0",
+    "input-contract.json": "4f601d2a8d032fa8bba6bdaf8bdafe8afa856d6fd4aa24c53193c1da9bc294fb",
+    "launch-prompt.md": "a37ab24d9a618f029c7b5e3ededad2f3ca3f4cd2f7f788f65423f76d79d2e15c",
+    "finalize_course.py": "f0199c233d50a9cfc65838206c4fea06ebba312397b48311642082ea5e9da665",
+    "manifest.json": "086f82ba25c45c9facd07c7e46f4ca05ee0b418075139f689f72815042d69d86"
+  },
+  "lesson_count": 8,
+  "core_periods": 16,
+  "capstone_periods": 3,
+  "period_minutes": 55,
+  "source_gaps": [
+    "Named route certificate body not retrieved; source numeric route replay gated.",
+    "Full G_phase/C/W_qpc precision linkage absent; AUD-008 nonzero residual retained.",
+    "Some mature formal and occupation-selection bodies remain source-reported/VERIFIED_NOT_LOADED; no fresh Agda checking.",
+    "Spectral revision discrepancy preserved by packet references; no empirical data replay claimed.",
+    "Physical apparatus/calibration/timing fields remain missing in a deliberately planned protocol; all assessed finite data are supplied."
+  ],
+  "findings_corrected": {
+    "critical": 0,
+    "major": 2,
+    "minor": 2
+  },
+  "unresolved_minor_findings": [],
+  "verification": {
+    "path": "verification.json",
+    "check_count": 44,
+    "runtime": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe"
+  },
+  "validator": {
+    "exit_code": 0,
+    "command": "Z:\\Kfield-doc-training\\.work\\validate_project_course.py Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test --json",
+    "result": {
+      "canonical_output_root": "Z:\\Kfield-doc-training\\K-Field_Training_Course",
+      "checks": [
+        "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+        "parsed manifest.json",
+        "parsed audit_report.json",
+        "parsed completion_report.json",
+        "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+      ],
+      "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test",
+      "errors": [],
+      "schema_version": "1.0",
+      "status": "passed",
+      "storage_authority": "User explicitly authorized project-folder outputs, 2026-11-05",
+      "validator_path": "C:\\Users\\info\\.codex\\skills\\build-high-school-course\\scripts\\validate_course.py",
+      "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9"
+    }
+  }
+}

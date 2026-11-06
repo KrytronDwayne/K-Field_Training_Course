@@ -1,0 +1,1015 @@
+{
+  "schema": "kfield.portable-blueprint-amendments.v1",
+  "status": "complete_portable_package_not_applied",
+  "scope": "Prepared source and educational requirements for parent application; no teaching acceptance or finished-course validation.",
+  "snapshot": {
+    "database_object_id": "ab46c19405bfb7bdc08d506e2f5656e6c1ca13842eee75ed08de1508a839573d",
+    "generation": "sha256:5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+    "manifest_sha256": "5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7"
+  },
+  "application_contract": {
+    "writes_by_auditor": "workspace outputs only",
+    "project_contracts_modified_on_resume": false,
+    "apply_mode": "non-destructive merge by amendment ID, concept ID and source sha256; do not replace whole contracts",
+    "existing_source_repairs": "SC001-SC008 already present; verify preservation, do not append duplicate supplemental rows",
+    "do_not_update": "Do not mark blueprint_audit passed automatically or overwrite parent ledger.",
+    "user_storage_override": "Workspace/project outputs are authorized. Adapt only the validator's location policy; preserve hashes, assembly, prerequisites and all other checks."
+  },
+  "input": {
+    "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-series-20261105/educational-amendments.json",
+    "sha256": "c97b0a2e5a71db5980a50db41cd65d9656f97e9e8641f1b907c6741a82a91e61",
+    "authority": "Parent educator amendments responding to independent teaching audit E05-E10; pending independent recheck"
+  },
+  "global_production_requirements": {
+    "E05": [
+      "Replace generic coverage placeholders with actual explanation, worked-example, practice, diagnostic, and capstone step IDs. A row passes only when the referenced content exists and the operation is taught before use.",
+      "For each capstone break the requested product into concrete operations with named inputs/outputs, link each operation to an earlier explanation AND an independently answered practice item; do not merely repeat outcome text.",
+      "Use source-exact finite examples where available and separately labeled synthetic analogues otherwise. Recognition-only extensions cannot be required computations.",
+      "Record teaching/practice/check minutes per lesson; split overloaded lessons and update every lesson/coverage/capstone link. Shared advanced notation is author guidance until introduced locally."
+    ]
+  },
+  "educational_amendments": [
+    {
+      "course": 12,
+      "finding": "E06",
+      "lessons": [
+        "lesson-03"
+      ],
+      "required_bridge": "Teach a square root as a number whose square is specified; define Av=lambda v component by component before eigenpair verification. General spectral proofs are recognition-only unless explicitly taught.",
+      "worked_example": {
+        "id": "C12-EIG-EX1",
+        "A": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "eigenpairs": [
+          {
+            "lambda": "sqrt(2)",
+            "v": [
+              "1",
+              "sqrt(2)",
+              "1"
+            ]
+          },
+          {
+            "lambda": "0",
+            "v": [
+              "1",
+              "0",
+              "-1"
+            ]
+          },
+          {
+            "lambda": "-sqrt(2)",
+            "v": [
+              "1",
+              "-sqrt(2)",
+              "1"
+            ]
+          }
+        ],
+        "checks": "Multiply every row for all three pairs. Nonzero modes have length2, zero mode length sqrt(2); normalize explicitly and verify pairwise dot products zero."
+      },
+      "practice": "C12-EIG-P1: verify A(2,0,-2)=0 and explain scaling of an eigenvector; C12-EIG-D1 test whether (1,1,1) is an eigenvector. Connect to source Emily system only after source-specific operator and ordering are pinned.",
+      "id": "EA-12-E06-1",
+      "status": "prepared_not_applied",
+      "merge_action": "Attach to named lesson authoring obligations and capstone prerequisites. Actual content links remain an E05 acceptance gate."
+    },
+    {
+      "course": 14,
+      "finding": "E06",
+      "lessons": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05"
+      ],
+      "required_bridge": "Teach i^2=-1, real/imaginary components, complex conjugation, squared modulus, matrix conjugate transpose, group composition and a finite map kernel through explicit operations.",
+      "worked_example": {
+        "id": "C14-CX-EX1",
+        "z": "1+i",
+        "rotation": "i*z=-1+i",
+        "squared_modulus_before_after": [
+          2,
+          2
+        ],
+        "unitary_example": "U=diag(i,-i), U†=diag(-i,i), U†U=I",
+        "finite_kernel_example": "Add modulo6 and map to addition modulo3 by f(k)=k mod3; enumerate all six inputs, kernel={0,3}. This toy map is not an asserted Standard Model quotient."
+      },
+      "practice": "C14-CX-P1 rotate 2-i by i and compute modulus; C14-KER-D1 compute kernel of k mod2 from addition modulo6, obtaining {0,2,4}. Trace the actual source cover kernel separately; do not infer it from the toy.",
+      "id": "EA-14-E06-2",
+      "status": "prepared_not_applied",
+      "merge_action": "Attach to named lesson authoring obligations and capstone prerequisites. Actual content links remain an E05 acceptance gate."
+    },
+    {
+      "course": 20,
+      "finding": "E07",
+      "lessons": [
+        "lesson-03",
+        "lesson-04",
+        "lesson-05"
+      ],
+      "required_bridge": "Define column independence and rank by explicit linear equations. Explain carrier dimension, number of product labels, and projector image rank as different counts.",
+      "worked_example": {
+        "id": "C20-RANK-EX1",
+        "P": [
+          [
+            "1/2",
+            "1/2",
+            0
+          ],
+          [
+            "1/2",
+            "1/2",
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "input": [
+          2,
+          0,
+          3
+        ],
+        "projected": [
+          1,
+          1,
+          3
+        ],
+        "retained_complement": [
+          1,
+          -1,
+          0
+        ],
+        "checks": "Multiply P^2=P; identify equal first two columns and independent third, rank2 in dimension3; reconstruct input from image+complement. A separate 2-by-3 product label table has six labels and establishes no projector rank."
+      },
+      "practice": "C20-RANK-P1 apply P to (4,2,-1), retain (1,-1,0); C20-RANK-D1 count rank of diag(1,0,0). Actual rank48 source claim must include exact factorization, assumptions, locator, and source-reported versus freshly verified status.",
+      "id": "EA-20-E07-3",
+      "status": "prepared_not_applied",
+      "merge_action": "Attach to named lesson authoring obligations and capstone prerequisites. Actual content links remain an E05 acceptance gate."
+    },
+    {
+      "course": 21,
+      "finding": "E07",
+      "lessons": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04"
+      ],
+      "required_bridge": "Teach a declared Euclidean decoder through two normal equations; preserve full residual coordinates as information. This classroom decoder is not automatically the source physical decoder.",
+      "worked_example": {
+        "id": "C21-DEC-EX1",
+        "A": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "y": [
+          2,
+          3,
+          6
+        ],
+        "normal_matrix": [
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "normal_rhs": [
+          8,
+          9
+        ],
+        "coefficients": [
+          "7/3",
+          "10/3"
+        ],
+        "represented": [
+          "7/3",
+          "10/3",
+          "17/3"
+        ],
+        "residual": [
+          "-1/3",
+          "-1/3",
+          "1/3"
+        ],
+        "checks": "Solve by elimination; check A^T r=0 and all three entries y=A*c+r. No residual component may be replaced by a score."
+      },
+      "practice": "C21-DEC-P1 y=(1,2,3) gives c=(1,2), r=0; C21-DEC-D1 y=(1,1,3) gives c=(4/3,4/3), r=(-1/3,-1/3,1/3). Relate represented/syndrome dimensions to pinned source only after local definitions.",
+      "id": "EA-21-E07-4",
+      "status": "prepared_not_applied",
+      "merge_action": "Attach to named lesson authoring obligations and capstone prerequisites. Actual content links remain an E05 acceptance gate."
+    },
+    {
+      "course": 21,
+      "finding": "E08",
+      "lessons": [
+        "lesson-05"
+      ],
+      "required_bridge": "Add a local reaction bookkeeping bridge BEFORE capstone: balance endpoint constituent/charge counts; specify whole-object mass state and electron convention; subtract final from initial mass; apply a declared mass-energy conversion; interpret positive release versus negative energy requirement.",
+      "worked_example": {
+        "id": "C21-RXN-EX1",
+        "reaction": "Synthetic A+B -> AB; constituents and charge are conserved by stipulated labels, not an empirical nuclear reaction. All masses refer to complete objects in the same stated reference convention.",
+        "masses_in_u": {
+          "A": "2",
+          "B": "3",
+          "AB": "4.9"
+        },
+        "synthetic_conversion": "1 u*c^2 = 10 E_unit",
+        "mass_difference": "0.1 u",
+        "released_energy": "1 E_unit"
+      },
+      "practice": "C21-RXN-P1 use AB mass5.05u with otherwise identical inputs: mass difference -0.05u and released-energy convention -0.5E_unit, requiring input0.5E_unit. C21-RXN-D1 diagnose an inconsistent electron convention before subtracting masses. Actual source examples retain their endpoint conventions and conversion provenance.",
+      "id": "EA-21-E08-5",
+      "status": "prepared_not_applied",
+      "merge_action": "Attach to named lesson authoring obligations and capstone prerequisites. Actual content links remain an E05 acceptance gate."
+    },
+    {
+      "course": 22,
+      "finding": "E09",
+      "lessons": [
+        "lesson-04"
+      ],
+      "required_bridge": "Derive the finite geometric sum by subtraction, state |r|<1 for the infinite-tail bound, and solve a finite tolerance inequality by checking powers.",
+      "worked_example": {
+        "id": "C22-TAIL-EX1",
+        "terms": "d_j=2^(-j), j>=1",
+        "prefix": "S_N=1-2^(-N)",
+        "remainder_bound": "sum_(j>N) |d_j| = 2^(-N)",
+        "tolerance": "epsilon=0.01 requires N>=7 because 1/128<=0.01 but 1/64>0.01",
+        "information_contract": "A bound does not authorize deleting tail coordinates; retain the exact rule/source and resolution history."
+      },
+      "practice": "C22-TAIL-P1 epsilon=1/32 permits N=5. C22-TAIL-D1 explain why the same finite geometric-tail formula does not certify convergence when r=1. Distinguish absolute bounds from signed sums.",
+      "id": "EA-22-E09-6",
+      "status": "prepared_not_applied",
+      "merge_action": "Attach to named lesson authoring obligations and capstone prerequisites. Actual content links remain an E05 acceptance gate."
+    },
+    {
+      "course": 24,
+      "finding": "E10",
+      "lessons": [
+        "lesson-01",
+        "lesson-02"
+      ],
+      "required_bridge": "Teach theta/phi or RA/Dec conventions explicitly; in the classroom RA alpha is measured from +x toward +y and declination delta from xy-plane, x=r cos(delta)cos(alpha), y=r cos(delta)sin(alpha), z=r sin(delta). Convert hours to degrees before trigonometry. Then teach discrete constant-velocity updates with fixed origin/frame and seconds.",
+      "worked_example": {
+        "id": "C24-FRAME-EX1",
+        "spherical": "r=2L, alpha=90deg, delta=30deg -> (0,sqrt(3),1)L",
+        "trajectory": "p0=(1,2,3)km, v=(2,-1,0)km/s, dt=2s -> p1=(5,0,3)km, p2=(9,-2,3)km",
+        "scope": "Synthetic fixed-frame constant velocity; not an ephemeris approximation or invented Galactic time law."
+      },
+      "practice": "C24-FRAME-P1 alpha=0deg,delta=0deg,r=3L -> (3,0,0)L; C24-TRAJ-D1 reconstruct p0=p2-2v*dt and verify units. Actual moving-frame chains use pinned source epochs, origins, and vector composition.",
+      "id": "EA-24-E10-7",
+      "status": "prepared_not_applied",
+      "merge_action": "Attach to named lesson authoring obligations and capstone prerequisites. Actual content links remain an E05 acceptance gate."
+    },
+    {
+      "course": 26,
+      "finding": "E10",
+      "lessons": [
+        "lesson-02",
+        "lesson-03",
+        "lesson-04"
+      ],
+      "required_bridge": "Derive cos(a)+cos(b)=2cos((a-b)/2)cos((a+b)/2) from taught addition rules; identify signed amplitude factor versus its absolute envelope and define frequency convention. Teach a four-sample DFT by enumerating powers of i, with both transform signs and inverse factor specified.",
+      "worked_example": {
+        "id": "C26-DFT-EX1",
+        "samples": [
+          1,
+          0,
+          -1,
+          0
+        ],
+        "forward": "X_k=sum_(n=0..3) x_n exp(-2*pi*i*k*n/4)",
+        "spectrum": [
+          0,
+          2,
+          0,
+          2
+        ],
+        "inverse": "x_n=(1/4)sum_(k=0..3)X_k exp(+2*pi*i*k*n/4)",
+        "shift_check": "y_n=x_(n-1 mod4)=[0,1,0,-1], Y=[0,-2i,0,2i]; same magnitudes but different phase. Reconstruct all four entries."
+      },
+      "practice": "C26-DFT-P1 transform/reconstruct (1,1,1,1) -> (4,0,0,0); C26-DFT-D1 compare full complex spectrum with magnitude-only reconstruction and retain every omitted phase or residual. C26-BEAT-P1 cos(2*pi*5t)+cos(2*pi*7t)=2cos(2*pi*t)cos(2*pi*6t); absolute-envelope peaks recur at2Hz.",
+      "id": "EA-26-E10-8",
+      "status": "prepared_not_applied",
+      "merge_action": "Attach to named lesson authoring obligations and capstone prerequisites. Actual content links remain an E05 acceptance gate."
+    }
+  ],
+  "source_amendments": [
+    {
+      "id": "SA-04",
+      "course": 4,
+      "finding": "source_fidelity",
+      "lessons": [
+        "lesson-01",
+        "lesson-03",
+        "lesson-04"
+      ],
+      "merge_action": "append unique requirements to source_audit_contract; attach to named lesson authoring obligations; preserve existing fields",
+      "requirements": [
+        "Use g_h=B^-T h for nonzero integer h and planes g_h dot (x-O_K)=m. Affine origins remain explicit.",
+        "Use canonical S02 /backbone_sequence/1/result or /mature_locked_cell3, not the stale /reciprocal_witness branch. Label superseded values as provenance, not measurement residuals."
+      ],
+      "source_references": [
+        "S02#/backbone_sequence/1",
+        "S03#/findings/4"
+      ],
+      "status": "prepared_not_applied"
+    },
+    {
+      "id": "SA-05",
+      "course": 5,
+      "finding": "source_fidelity",
+      "lessons": [
+        "lesson-02",
+        "lesson-03",
+        "lesson-04"
+      ],
+      "merge_action": "append unique requirements to source_audit_contract; attach to named lesson authoring obligations; preserve existing fields",
+      "requirements": [
+        "Use p(L)=O_K+B L/2 and g_lambda dot (p-O_K)=lambda/2; phase expressions require the same origin convention.",
+        "Keep integer lambda in -3..3, chi=(-1)^lambda, mod-three classes, directed node signs and 13 unoriented pairs separately typed."
+      ],
+      "source_references": [
+        "S02#/backbone_sequence/2"
+      ],
+      "status": "prepared_not_applied"
+    },
+    {
+      "id": "SA-06",
+      "course": 6,
+      "finding": "source_fidelity",
+      "lessons": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03"
+      ],
+      "merge_action": "append unique requirements to source_audit_contract; attach to named lesson authoring obligations; preserve existing fields",
+      "requirements": [
+        "Name the 27 half-step nodes, 27 complete Cell3 volumes in a Lucas Group and 729 complete volumes in a 9B Supergroup as distinct objects.",
+        "Include a finite count exercise for 27*8^n versus (3*2^n+1)^3; distinguish the 6859 Supergroup half-step points and 55 integer-lambda sheets from volume counts.",
+        "State the domain of 3^g*2^n+1=10 before checking its nonnegative solution; use separate symbols for dyadic depth and ternary address depth."
+      ],
+      "source_references": [
+        "S02#/backbone_sequence/2/typed_finite_objects",
+        "S02#/backbone_sequence/2/recursions",
+        "S02#/supergroup_uniqueness"
+      ],
+      "status": "prepared_not_applied"
+    },
+    {
+      "id": "SA-07",
+      "course": 7,
+      "finding": "source_fidelity",
+      "lessons": [
+        "lesson-02",
+        "lesson-04",
+        "lesson-06"
+      ],
+      "merge_action": "append unique requirements to source_audit_contract; attach to named lesson authoring obligations; preserve existing fields",
+      "requirements": [
+        "Teach EG-A1 through EG-A6 as constitutive premises with their source logical_role, not as conclusions derived from B alone.",
+        "The Q(fg) identity needs a specified linear idempotent E with the required conditional-expectation/bimodule properties; derive it under those hypotheses. Do not assert it for arbitrary projection.",
+        "Retain kernel/cokernel and singular branches; restrict inverse formulas to their declared invertible domain."
+      ],
+      "source_references": [
+        "S02#/constitutive_principles",
+        "S02#/backbone_sequence/3",
+        "S03#/findings/5",
+        "S03#/findings/11"
+      ],
+      "status": "prepared_not_applied"
+    },
+    {
+      "id": "SA-09",
+      "course": 9,
+      "finding": "source_fidelity",
+      "lessons": [
+        "lesson-01",
+        "lesson-03",
+        "lesson-04"
+      ],
+      "merge_action": "append unique requirements to source_audit_contract; attach to named lesson authoring obligations; preserve existing fields",
+      "requirements": [
+        "If adopting epsilon=Q-Kr in [-1/2,1/2), explicitly use nint(t)=ceil(t-1/2), choosing the lower integer at every half-tie. This is a course convention consistent with the interval, not a claim that the ambiguous archive supplied it.",
+        "Test t=+1/2 and -1/2 and translation by integer carries. Keep cell ownership floor(q+1/2) separate.",
+        "Include S=C_b+C_c, A=C_b-C_c, inverse halves and S congruent A modulo2 before the course13 side-transfer lattice."
+      ],
+      "source_references": [
+        "S02#/backbone_sequence/5",
+        "S03#/findings/12"
+      ],
+      "status": "prepared_not_applied"
+    },
+    {
+      "id": "SA-10",
+      "course": 10,
+      "finding": "source_fidelity",
+      "lessons": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-04"
+      ],
+      "merge_action": "append unique requirements to source_audit_contract; attach to named lesson authoring obligations; preserve existing fields",
+      "requirements": [
+        "For logarithms of dimensional areas specify a common reference area; ratio coordinates are dimensionless.",
+        "State the fixed-included-angle/coherent edge-scaling domain of the Jack matrix. Two scale-free area coordinates do not encode arbitrary edge-angle shear.",
+        "Distinguish the scalar gravity-related coordinate named Gamma2 from a demonstrated dynamical force law."
+      ],
+      "source_references": [
+        "S02#/backbone_sequence/6",
+        "S02#/scale_uniqueness_theorem"
+      ],
+      "status": "prepared_not_applied"
+    },
+    {
+      "id": "SA-12",
+      "course": 12,
+      "finding": "source_fidelity",
+      "lessons": [
+        "lesson-05",
+        "lesson-06",
+        "lesson-07"
+      ],
+      "merge_action": "append unique requirements to source_audit_contract; attach to named lesson authoring obligations; preserve existing fields",
+      "requirements": [
+        "Assign the antipodal node-function split explicitly:14 even and13 odd; removing the uniform even coordinate leaves13+13 observable coordinates.",
+        "Keep Emily adjacency modes, seven lambda-sheet populations, 13 antipodal pairs, 13 decoder channels and seven residual-syndrome dimensions as different carriers even where counts match."
+      ],
+      "source_references": [
+        "S02#/backbone_sequence/7/proof"
+      ],
+      "status": "prepared_not_applied"
+    },
+    {
+      "id": "SA-14",
+      "course": 14,
+      "finding": "source_fidelity",
+      "lessons": [
+        "lesson-03",
+        "lesson-05",
+        "lesson-07"
+      ],
+      "merge_action": "append unique requirements to source_audit_contract; attach to named lesson authoring obligations; preserve existing fields",
+      "requirements": [
+        "Use color-first H=C3 direct-sum W2 and charge vector (-2,-2,-2,3,3); any weak-first presentation requires a declared permutation.",
+        "Maintain two source records: the mature determinant-lock/Z6 construction and the integration's admitted physical global-form family Z1,Z2,Z3,Z6. Preserve exact formal authority and source status on each.",
+        "Compiler adjudication M03/M07/M08 labels are not interchangeable with identically numbered mathematical backbone modules."
+      ],
+      "source_references": [
+        "S02#/typed_conventions/carrier_order",
+        "S02#/backbone_sequence/9",
+        "S03#/findings/3",
+        "I01#/hazards/3",
+        "I02#/direct_authority_modules"
+      ],
+      "status": "prepared_not_applied"
+    },
+    {
+      "id": "SA-17",
+      "course": 17,
+      "finding": "source_fidelity",
+      "lessons": [
+        "lesson-05",
+        "lesson-06",
+        "lesson-07",
+        "lesson-08"
+      ],
+      "merge_action": "append unique requirements to source_audit_contract; attach to named lesson authoring obligations; preserve existing fields",
+      "requirements": [
+        "With delta=det(M_cell)=V^2, use H_E=delta^(1/3)R_cell and H_B=delta^(2/3) wedge^2 R_cell. The corrected-file older exponents remain historical.",
+        "For Cayley norm preservation specify self-adjoint L_hat, real tau and inverse domain. For gap certificates preserve positive coefficient assumptions, fixed-rung inputs and time/action units.",
+        "Retrieve a full pinned certificate before assigning a numerical certificate replay; otherwise teach exact scoped reading with replay inputs marked unavailable."
+      ],
+      "source_references": [
+        "S02#/backbone_sequence/12",
+        "S02#/hodge_normalization_theorem",
+        "S04#/hodge_correction_proof",
+        "S03#/findings/8"
+      ],
+      "status": "prepared_not_applied"
+    },
+    {
+      "id": "SA-20",
+      "course": 20,
+      "finding": "source_fidelity",
+      "lessons": [
+        "lesson-05",
+        "lesson-06",
+        "lesson-07"
+      ],
+      "merge_action": "append unique requirements to source_audit_contract; attach to named lesson authoring obligations; preserve existing fields",
+      "requirements": [
+        "Retain the source occupation claim, D10 guard conflict and correction record together. Rank multiplication verifies the projector count; source physical-carrier identification has its own premises and retrieval state.",
+        "Quote VERIFIED_FROZEN/VERIFIED_NOT_LOADED only as source-local statuses. Do not invent a missing occupation-selection proof or automatically downgrade a source merely because its body was not loaded.",
+        "Keep the existing C20.S01 Weyl and C20.S02 Schur rows; E07 rank example supplements them and does not replace them."
+      ],
+      "source_references": [
+        "S02#/proof_nodes/78",
+        "S02#/proof_nodes/81",
+        "S03#/findings/6"
+      ],
+      "status": "prepared_not_applied"
+    },
+    {
+      "id": "SA-21",
+      "course": 21,
+      "finding": "source_fidelity",
+      "lessons": [
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05",
+        "lesson-06"
+      ],
+      "merge_action": "append unique requirements to source_audit_contract; attach to named lesson authoring obligations; preserve existing fields",
+      "requirements": [
+        "Declare the decoder's scalar field and inner product. Rank plus LA=0 establishes image/kernel equality over the specified field; an integral-lattice equality additionally needs saturation/index evidence.",
+        "Do not substitute a newly invented L or W7 for the absent source matrices. A synthetic character example teaches the distinction; full source replay has a separate retrieval gate.",
+        "Use released energy Q_release=(m_initial-m_final)c^2 with balanced endpoint conventions in E08. Introduce it in lesson05 and practice again in existing C21.S03 lesson06; preserve binding and mass differences.",
+        "Keep nominal composition, isotope mass, molecular charge/ion state, isomers, graph spectra and binding residual as separate coordinates. Preserve the source's unresolved canonical map among three rank-three fibers."
+      ],
+      "source_references": [
+        "S02#/proof_nodes/10",
+        "S02#/proof_nodes/11",
+        "S02#/proof_nodes/23",
+        "S03#/findings/8",
+        "S05#/records/28",
+        "S05#/records/30",
+        "S05#/records/31"
+      ],
+      "status": "prepared_not_applied"
+    },
+    {
+      "id": "SA-24",
+      "course": 24,
+      "finding": "source_fidelity",
+      "lessons": [
+        "lesson-03",
+        "lesson-04",
+        "lesson-06"
+      ],
+      "merge_action": "append unique requirements to source_audit_contract; attach to named lesson authoring obligations; preserve existing fields",
+      "requirements": [
+        "Use the pinned physical velocity and its frame/epoch. G_phase V is a transformed vector, not physical CMB velocity.",
+        "The visual Galactic-center gauge and independent drawing scales do not supply Solar/Galactic short-window dynamics. Keep finite97-state rotation replay separate from observed180000-sample metadata."
+      ],
+      "source_references": [
+        "T40",
+        "T45",
+        "T50"
+      ],
+      "status": "prepared_not_applied"
+    },
+    {
+      "id": "SA-26",
+      "course": 26,
+      "finding": "source_fidelity",
+      "lessons": [
+        "lesson-05",
+        "lesson-06",
+        "lesson-07",
+        "lesson-08"
+      ],
+      "merge_action": "append unique requirements to source_audit_contract; attach to named lesson authoring obligations; preserve existing fields",
+      "requirements": [
+        "Retain reported_exploratory_to_be_verified for the spectral bundle, distinguish its two works from their PDF/JSON/abstract representations, and preserve all signed rows.",
+        "Fourteen rows contain three independent plane-cost values. qF=n^T G_phase n, signed gain and input-equivalent energy have different types; calibration/transfer obligations remain explicit.",
+        "Retain the exact four-angle formulas and denominator domains Q!=0, rho!=0 and sin(theta)!=0. Mark undefined results without dropping input rows.",
+        "Preserve C26.S01 comparator nullspace and source S05 parity/beat branches; an even comparator cannot test retained odd modes."
+      ],
+      "source_references": [
+        "T35",
+        "S05#/records/16",
+        "S05#/records/20",
+        "S05#/records/27"
+      ],
+      "status": "prepared_not_applied"
+    },
+    {
+      "id": "SA-27",
+      "course": 27,
+      "finding": "source_fidelity",
+      "lessons": [
+        "lesson-03",
+        "lesson-06",
+        "lesson-07"
+      ],
+      "merge_action": "append unique requirements to source_audit_contract; attach to named lesson authoring obligations; preserve existing fields",
+      "requirements": [
+        "Use W_qpc=B^T G_phase B/4 with declared matrix order, units and precision; G_phase is distinct from the geometric Gram metric.",
+        "Before exact source replay, pin G_phase, C, W_qpc and route bounds/certificate. A nonzero reconstruction difference needs a precision/interval contract and remains a retained coordinate.",
+        "The compact T20 overview is a discovery route, not the full route certificate; a synthetic path exercise cannot be presented as that certificate."
+      ],
+      "source_references": [
+        "S03#/findings/7",
+        "S03#/findings/8",
+        "S02#/branch_proofs/12",
+        "T20"
+      ],
+      "status": "prepared_not_applied"
+    },
+    {
+      "id": "SA-28",
+      "course": 28,
+      "finding": "source_fidelity",
+      "lessons": [
+        "lesson-03",
+        "lesson-04",
+        "lesson-05",
+        "lesson-07"
+      ],
+      "merge_action": "append unique requirements to source_audit_contract; attach to named lesson authoring obligations; preserve existing fields",
+      "requirements": [
+        "Preserve zero/invalid Clear denominators, acquisition faults, gaps, direction, phase and weak channels as flagged parallel records.",
+        "Keep same-polarity and inverted reflection checks separate; freeze event and comparison rules before evaluating signal outcomes.",
+        "Carry C28.S01 odd-channel comparator audit and complete residual reconstruction into the capstone."
+      ],
+      "source_references": [
+        "S05#/records/16",
+        "S05#/records/20",
+        "T35"
+      ],
+      "status": "prepared_not_applied"
+    },
+    {
+      "id": "SA-30",
+      "course": 30,
+      "finding": "source_fidelity",
+      "lessons": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-04",
+        "lesson-05"
+      ],
+      "merge_action": "append unique requirements to source_audit_contract; attach to named lesson authoring obligations; preserve existing fields",
+      "requirements": [
+        "Reconstruct M20 from M01-M18 plus constitutive principles, domain hypotheses, time/action normalization, vacuum/operator and occupied-state coordinates. M19 remains a separately retained extension.",
+        "Preserve all six determinant-line factors and all constituent logical boundaries even where compressed branch endpoint exact_boundary is null.",
+        "Keep integration's six minimal two-question experiment portfolios as designs, with no performed or favorable outcome inferred. Any current measurement case keeps its independent provenance.",
+        "Treat explicit null, missing, unknown and source-reported statuses as distinct values with return addresses."
+      ],
+      "source_references": [
+        "S02#/backbone_sequence/19",
+        "S02#/constitutive_principles",
+        "S03#/findings/0",
+        "S03#/findings/9",
+        "S03#/findings/10",
+        "I01#/results/10",
+        "I01#/open_obligations",
+        "T30"
+      ],
+      "status": "prepared_not_applied"
+    },
+    {
+      "id": "SA-29-E11",
+      "course": 29,
+      "finding": "E11",
+      "status": "prepared_not_applied",
+      "lessons": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05",
+        "lesson-06",
+        "lesson-07",
+        "lesson-08"
+      ],
+      "merge_action": "Append G01-G04 as source records by sha256; attach exact locators to existing C29.01-C29.08 rows; append the example/practice/check obligations below. Preserve the course title, prior source routes, and snapshot.",
+      "sources": [
+        {
+          "id": "G01",
+          "path": "Z:/Archive_20260911/Pre_Aug14/galaxy_cell_hidden_holonomy_summary_1783791371.json",
+          "sha256": "bd6ff0e335f3c405000cd1f8adfa3ae947dc9362dfeb772764cf98ef62ae6f63",
+          "pointers": [
+            "/ordered_direct_basis_A",
+            "/reciprocal_basis_Q",
+            "/joint_phase_origin",
+            "/galaxy_cell_geometry",
+            "/holonomy",
+            "/observed_27_node_occupancy",
+            "/pure_holonomy_coordinate_tests",
+            "/comparison_to_authoritative_K_field"
+          ],
+          "scope": "Exact small record read; 114381-direction sky-position cell; phase origin is a reciprocal phase coordinate.",
+          "evidence_class": "source",
+          "hash_verification": "verified in previous audit stage; not rehashed on resume"
+        },
+        {
+          "id": "G02",
+          "path": "Z:/Archive_20260911/Pre_Aug14/K-field_cell3_vs_galaxy_derived_cell_analogue_1783794540.pdf",
+          "sha256": "69dcaace292365d22b9b48c43edc0ac4936b148ec68a5b265abc72aaff4f4447",
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "locators": "p3 distinct axis versus sky-position pathways; p4 column basis, ICRS, positive galaxy determinant and unit-sphere reconstruction lengths; p8 frozen geometry; p17-20 occupancy, mixed coordinates and comparison boundaries.",
+          "scope": "No radial physical calibration. Historical Cell3 carrier values p7 do not replace S02 mature lock.",
+          "evidence_class": "source",
+          "hash_verification": "verified in previous audit stage; not rehashed on resume"
+        },
+        {
+          "id": "G03",
+          "path": "Z:/Archive_20260911/Pre_Aug14/K-field_spherical_gravity_response_graph_audited_1783692220.json",
+          "sha256": "aa7f4236b7f956c652690934d6444f597ea38b6e485cc77a22be884b567d1cea",
+          "pointers": [
+            "/status",
+            "/precision_contract",
+            "/coordinate_frame",
+            "/analytic_spherical_response",
+            "/reconstruction_sequence"
+          ],
+          "scope": "Historical Cell3-derived spherical response, not the galaxy cell. Domain excludes n dot N=0; G_star=D/F has transfer singularities; absolute scalar calibration undefined. Large graph arrays were not exported.",
+          "evidence_class": "source",
+          "hash_verification": "verified in previous audit stage; not rehashed on resume"
+        },
+        {
+          "id": "G04",
+          "path": "Z:/Archive_20260911/Pre_Aug14/K-field_galaxy_sky_position_volumetric_quantization_1783789746.pdf",
+          "sha256": "856777f0fae0d6b50e8d235435068b7ea3c25a83068cfbfb197b62835cbb8fbd",
+          "pages_read": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "locators": "p3 unit-sphere direction, discovery57076/holdout57305 and antipodal discovery versus directed assignments; p4 q_j dot x=k_j+phi_j, R rows=q_j^T, A=R^-1, center=A(k+phi), closest-vector assignment and retained vector/angular/radial residuals.",
+          "scope": "Phase origin phi and physical reconstruction center A phi have different types; closest-center assignment is not independent coordinate rounding in a skew metric.",
+          "evidence_class": "source",
+          "hash_verification": "verified in previous audit stage; not rehashed on resume"
+        }
+      ],
+      "source_role_guards": [
+        "G01/G04 describe a sky-position cell from114381 directed ICRS sky positions, not galaxy-axis orientations and not a physical-distance cell.",
+        "G01 /joint_phase_origin is phi in reciprocal phase coordinates. G04 p4 defines row reciprocal R=A^-1, q_j dot x=k_j+phi_j and centers A(k+phi); the reconstructed zero-index center A phi is not the dimensionless phase itself.",
+        "Name galaxy reciprocal-row matrix R_gal_rows separately from the inverse Gram metric R_cell. G01 Q uses reciprocal columns, with Q^T A=I.",
+        "G02 p4 supplies unit-sphere reconstruction-length units and positive galaxy determinant; preserve the negative mature Cell3 determinant. Do not divide raw galaxy lengths by nm lengths.",
+        "G02 p7 Cell3 ratios are historical witnesses and do not overwrite S02 mature locked values.",
+        "G03 is a historical Cell3 spherical-response branch. It does not define the galaxy direct basis or a calibrated galaxy force law. Absolute scalar calibration is undefined; n dot N=0 and F=0 are retained domain/singularity states.",
+        "G04 p4 closest-center assignment uses the embedded metric. Independent coordinate rounding is only an initial estimate in a skew cell.",
+        "Retain discovery/holdout occupancy, pure-coordinate comparisons, angular/Euclidean/radial residuals and null states. Quote legacy statistical terminology as source reporting; it does not authorize data rejection."
+      ],
+      "lesson_source_map": [
+        {
+          "lesson": "lesson-01",
+          "concept_id": "C29.01",
+          "locators": [
+            "G04 pp1,3",
+            "G02 p3"
+          ]
+        },
+        {
+          "lesson": "lesson-02",
+          "concept_id": "C29.02",
+          "locators": [
+            "G03#/analytic_spherical_response",
+            "G03#/precision_contract",
+            "G04 p4"
+          ],
+          "scope": "Compare source-local response and address contracts; do not identify their physical roles."
+        },
+        {
+          "lesson": "lesson-03",
+          "concept_id": "C29.03",
+          "locators": [
+            "G01#/ordered_direct_basis_A",
+            "G01#/reciprocal_basis_Q",
+            "G01#/joint_phase_origin",
+            "G02 p4",
+            "G04 p4"
+          ]
+        },
+        {
+          "lesson": "lesson-04",
+          "concept_id": "C29.04",
+          "locators": [
+            "G02 pp3-5,17,20",
+            "G01#/comparison_to_authoritative_K_field"
+          ]
+        },
+        {
+          "lesson": "lesson-05",
+          "concept_id": "C29.05",
+          "locators": [
+            "G02 p4 Section3.1",
+            "G04 p4"
+          ],
+          "scope": "Intrinsic metric distance in reconstructed coordinates; a physical galaxy-distance decoder needs its own pinned source and calibration before use."
+        },
+        {
+          "lesson": "lesson-06",
+          "concept_id": "C29.06",
+          "locators": [
+            "G01#/observed_27_node_occupancy",
+            "G04 p3"
+          ]
+        },
+        {
+          "lesson": "lesson-07",
+          "concept_id": "C29.07",
+          "locators": [
+            "G01#/pure_holonomy_coordinate_tests",
+            "G02 pp17-20",
+            "G04 p3"
+          ]
+        },
+        {
+          "lesson": "lesson-08",
+          "concept_id": "C29.08",
+          "locators": [
+            "G02 pp19-20"
+          ]
+        }
+      ],
+      "required_bridge": "Teach a 2D positive quadratic metric, phase-versus-center units and a skew closest-center counterexample before the source comparison. Computations remain synthetic unless explicitly tied to the source data and declared precision.",
+      "worked_example": {
+        "id": "C29-MET-EX1",
+        "label": "Synthetic classroom metric, not galaxy data",
+        "metric": [
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "inverse": "(1/3)[[2,-1],[-1,2]]",
+        "displacement": [
+          1,
+          -1
+        ],
+        "squared_distance": 2,
+        "positive_definiteness": "leading minor2 and determinant3",
+        "units": "q is a dimensionless address; assign M units L^2 so the squared distance is2L^2"
+      },
+      "practice": [
+        {
+          "id": "C29-MET-P1",
+          "lesson": "lesson-05",
+          "task": "For the same synthetic metric and q=(1,1), calculate q^T M q.",
+          "answer": "6L^2; the cross term changes the result."
+        },
+        {
+          "id": "C29-PHASE-EX1",
+          "lesson": "lesson-03",
+          "task": "For synthetic A=I_2 L, phi=(1/4,1/2), k=(1,-1), compute A(k+phi).",
+          "answer": "(5/4,-1/2)L; phi remains dimensionless and zero-index center is(1/4,1/2)L."
+        },
+        {
+          "id": "C29-SKEW-P1",
+          "lesson": "lesson-05",
+          "task": "For synthetic columns a=(1,0), b=(0.9,0.1), phi=0 and q=(0.49,0.49), compare rounded-address center0 with center b.",
+          "answer": "x=(0.931,0.049); squared distance to0 is0.869162, to b is0.003562. This disproves nearest-center assignment by independent rounding; it does not certify the global closest center."
+        }
+      ],
+      "diagnostics": [
+        {
+          "id": "C29-TYPE-D1",
+          "lesson": "lesson-04",
+          "task": "Explain why galaxy-unit-sphere length divided by a Cell3 nm spacing is not an admitted physical scale ratio."
+        },
+        {
+          "id": "C29-DOMAIN-D1",
+          "lesson": "lesson-02",
+          "task": "Classify n dot N=0 and F=0 cases before division; preserve source inputs, flags and unresolved channels."
+        },
+        {
+          "id": "C29-MET-D1",
+          "lesson": "lesson-05",
+          "task": "Check whether diag(1,-1) is a positive distance metric.",
+          "answer": "No; q=(0,1) gives squared value-1."
+        }
+      ],
+      "capstone_operation_map": [
+        {
+          "operation": "Trace source roles, units, phase and origin",
+          "prior_items": [
+            "C29-PHASE-EX1",
+            "C29-TYPE-D1"
+          ]
+        },
+        {
+          "operation": "Compute a positive synthetic metric distance and retain comparison differences",
+          "prior_items": [
+            "C29-MET-EX1",
+            "C29-MET-P1",
+            "C29-MET-D1"
+          ]
+        },
+        {
+          "operation": "Distinguish source assignment from independent rounding",
+          "prior_items": [
+            "C29-SKEW-P1"
+          ]
+        },
+        {
+          "operation": "State response domain and preserve undefined cases",
+          "prior_items": [
+            "C29-DOMAIN-D1"
+          ]
+        },
+        {
+          "operation": "Compare frozen occupancy and propose an independent test",
+          "prior_items": [
+            "lesson-07 source-reading practice to be authored and linked under E05",
+            "lesson-08 prediction practice to be authored and linked under E05"
+          ]
+        }
+      ],
+      "acceptance": "Source locators are verified. Application to the contract and independent teaching recheck remain required. Student content and actual E05 links have not been validated."
+    }
+  ],
+  "existing_supplement_rows": [
+    {
+      "course_id": "course-18",
+      "concept_ids": [
+        "C18.S01",
+        "C18.S02",
+        "C18.S03"
+      ],
+      "verification": "present in current project contract"
+    },
+    {
+      "course_id": "course-20",
+      "concept_ids": [
+        "C20.S01",
+        "C20.S02"
+      ],
+      "verification": "present in current project contract"
+    },
+    {
+      "course_id": "course-21",
+      "concept_ids": [
+        "C21.S01",
+        "C21.S02",
+        "C21.S03"
+      ],
+      "verification": "present in current project contract"
+    },
+    {
+      "course_id": "course-26",
+      "concept_ids": [
+        "C26.S01"
+      ],
+      "verification": "present in current project contract"
+    },
+    {
+      "course_id": "course-28",
+      "concept_ids": [
+        "C28.S01"
+      ],
+      "verification": "present in current project contract"
+    }
+  ],
+  "verification": {
+    "status": "passed_local_checks",
+    "scope": "JSON integrity, source IDs, mapping completeness and small example arithmetic; independent teaching recheck pending"
+  }
+}

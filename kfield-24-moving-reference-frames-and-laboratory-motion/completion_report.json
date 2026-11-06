@@ -1,0 +1,76 @@
+{
+  "status": "complete",
+  "topic": "Moving Reference Frames and Laboratory Motion",
+  "audience": "High-school seniors; first-principles teaching, with concrete prerequisite capabilities and taught bridges.",
+  "assumptions": [
+    "A topical short course, not a semester per topic. Pacing is 55-minute core lessons plus capstone periods; split dense lessons if actual learner load requires it.",
+    "No prior calculus, abstract algebra, university linear algebra, or quantum mechanics unless explicitly taught earlier.",
+    "Required core assessments must be solvable with taught finite examples. Clearly label deeper recognition-only extensions.",
+    "Markdown is the delivery format; no PDF or Word generation is required.",
+    "Synthetic fixed-frame and rotating-frame exercises; no real propagation with an unspecified source epoch.",
+    "No fresh Agda compilation or live observational replay; exact source text retained as source-reported authority.",
+    "Optional Lesson 4 recovery period if derivative bridge needs additional practice."
+  ],
+  "outputs": [
+    "course-map.md",
+    "lesson-01.md",
+    "lesson-02.md",
+    "lesson-03.md",
+    "lesson-04.md",
+    "lesson-05.md",
+    "lesson-06.md",
+    "lesson-07.md",
+    "terminology.md",
+    "teacher-guide.md",
+    "capstone.md",
+    "sources.md",
+    "verify_examples.py",
+    "worked-example-verification.json",
+    "course.md",
+    "audit_report.json",
+    "author_course.py",
+    "completion_report.json"
+  ],
+  "audit_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "hashes": {
+    "course-map.md": "f2db7fcc1b8674d5a8d907d2c7320f12cbe3bfd376175d4fa67d090d72fb5461",
+    "lesson-01.md": "94fdaf01836b7834df6d532d5f5b35aac467e97eb778423f674d13055f81f276",
+    "lesson-02.md": "022c89755c378fcfeccfc3a9eb765a0a9a76c63d419c920c0250926b0e3cfe53",
+    "lesson-03.md": "5fa81ac8b5b758f0b8482d57fca2380505dcc15724da195b4403369df6caaa35",
+    "lesson-04.md": "077f4405a9345f152373c06797f3c59cba5d591ba014baf1256a2647866b3af5",
+    "lesson-05.md": "c6379a41c2ccdae6c4bd0d2d4f8042432118427e0c238598e03ed4aaf7b00ab0",
+    "lesson-06.md": "17645d78a3593b7e91180cbd8a5954c497419f97be0ee51bd9cc36c671b90b58",
+    "lesson-07.md": "564161175bb5424d6a01bfbbec169885939da7c4c6243937feabdc3d3fd16b1c",
+    "terminology.md": "408b74ebad3cd3eb7fccae5164d32667f3c87ad11cec981fc5d7bbbdbe7ac6a6",
+    "teacher-guide.md": "4770a5305f3a6cb43fabff49ca7e144255a76adcc4d56489c8eb417e413d8b45",
+    "capstone.md": "e0590c87f33bca90f645048d2cf07d5419917edd46d4ece70948582f3c3c6536",
+    "sources.md": "7d0a968c68c8c186f4d6a1900a5fa22d3646a9c7963c7e7a04dba82c60fa3290",
+    "verify_examples.py": "2fa30490f5e2f218416db111145ac98b4c1b49135db9cb667de7a95a921fcddd",
+    "worked-example-verification.json": "4cdc3bee95d027debcdd97a76bb27ef396311c84e0de770fba26fd6330e614e8",
+    "course.md": "f364075d81df33a27d5a94a511f9f49a1fff046a41f1a1fe39ffc14058d04942",
+    "audit_report.json": "9e9eaea0ae1e7f880ca1637aa4bcd3b09a85217ea07c204f149a32aff2ce6a89",
+    "author_course.py": "70f7d5d02f4c70d33628eaba21924ca79a167baeadf7bcce7beea70b2c1fc3cf",
+    "manifest.json": "c43ab78988dbeee2ab778ad847a76be128240a64e9463361a4735342ad189721"
+  },
+  "lesson_count": 7,
+  "core_periods": 11,
+  "capstone_periods": 3,
+  "source_gaps": [
+    "Physical source vector epoch unspecified; no real propagation assigned.",
+    "Capabilities response omitted requested generation/manifest pair; retrieved object hashes match.",
+    "Underlying formal contracts not independently compiled; formal claims remain source-reported."
+  ],
+  "validator_command": "conda run -n tf_gpu_env python Z:/Kfield-doc-training/.work/validate_project_course.py Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion --json",
+  "validator_result_file": "validator-result.json",
+  "validator_exit_code": 0,
+  "validator_status": "passed",
+  "follow_up_repair": {
+    "finding": "C24-IND-001",
+    "status": "corrected; independent recheck pending",
+    "verification": "Seven AST-extracted lesson bodies match current teaching text; retained authoring script now hash-tracked."
+  }
+}

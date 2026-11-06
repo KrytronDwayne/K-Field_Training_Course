@@ -1,0 +1,67 @@
+{
+  "status": "complete",
+  "topic": "Information-Complete Finite Calculus",
+  "audience": "High-school seniors; first-principles teaching, with concrete prerequisite capabilities and taught bridges.",
+  "assumptions": [
+    "A topical short course, not a semester per topic. Pacing is 55-minute core lessons plus capstone periods; split dense lessons if actual learner load requires it.",
+    "No prior calculus, abstract algebra, university linear algebra, or quantum mechanics unless explicitly taught earlier.",
+    "Required core assessments must be solvable with taught finite examples. Clearly label deeper recognition-only extensions.",
+    "Markdown is the delivery format; no PDF or Word generation is required.",
+    "Synthetic SU examples only; general archival E proof remains scoped; seven lessons occupy eight core periods."
+  ],
+  "outputs": [
+    "course-map.md",
+    "lesson-01.md",
+    "lesson-02.md",
+    "lesson-03.md",
+    "lesson-04.md",
+    "lesson-05.md",
+    "lesson-06.md",
+    "lesson-07.md",
+    "terminology.md",
+    "teacher-guide.md",
+    "capstone.md",
+    "sources.md",
+    "sources.json",
+    "course.md",
+    "audit_report.json",
+    "worked-example-verification.json",
+    "verify_examples.py",
+    "independent-audit.json",
+    "completion_report.json"
+  ],
+  "audit_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "hashes": {
+    "course-map.md": "1b51cf0935b4606e1966174bff3d95b0d2b3aed2bf6a98755c89fabb97f818c5",
+    "lesson-01.md": "60389c656496c32f573d809c47d3768d2fe42c0be2234fe4954439b7db5f4a87",
+    "lesson-02.md": "5874ede2ccf3d0601427a074e9d5fb857665b76e14114cb0a3dee32da5af38c5",
+    "lesson-03.md": "22a86c95b4bf876408d31c74fee9715cb2c99e29d5fe1ff1e8ae37d10a943dd0",
+    "lesson-04.md": "21a3fe3ea0816a4f2e4d65648df4ac7057fa29c17546b72a153fabf8d3e6e530",
+    "lesson-05.md": "e1704e26b751be6b3cc8cdbd35a82343dc1bf8211a57db6dc674effafaea57ef",
+    "lesson-06.md": "2374c00a012b7d10af89f41a201675c2386a2d97e6866d757d0501d9796a9b38",
+    "lesson-07.md": "5c19e9d100c480edabf0c606128fe9ab890b19d1a6894e7af6f1f129aa959688",
+    "terminology.md": "84f56642aee364abe822a9e280b8d7c7136b6b992d3cab3a977b0da7ad621a64",
+    "teacher-guide.md": "45fac959833c38e7095c78394f6a483a6d9dfed67e37780efbc0bbf09881aa1e",
+    "capstone.md": "54220f819d2f9dd28333d74da486292da1081e2424d2c0efa55d6b7480d7af34",
+    "sources.md": "1551bf598dd38cf128bbf3af21322f554d43ebd3e8bb36b075864358a7169c48",
+    "sources.json": "a7859725831fdbe0ecb8c3ea4ebca9c052051c5dcab1a85fd9f86a57060f6a58",
+    "course.md": "279721651b5235938b278e8f581707473b7e2b08a49e023b3cb30f086c800f22",
+    "audit_report.json": "56381b427a03f2d51f95eaec44f67351d06feef997cf505a923bd93fe3d1f6fb",
+    "worked-example-verification.json": "7ef821586e016a383de1ff2a81c1e764b4d1c15b8c96ca7e9edf71cdb0e22eb7",
+    "verify_examples.py": "e0c3f07d83b7aeac268e5a8da9958a1e57f405737d2553bcd20b5dc261b9d631",
+    "independent-audit.json": "2d8c37b31e9c108b75a736e38413f4324ab698ea285954b35c575eab60b8c0f4",
+    "manifest.json": "1fcd7ac7a602b453cab9bd8b258e57992b7cc791a26d890905a307da694ce886"
+  },
+  "lesson_count": 7,
+  "core_periods": 8,
+  "capstone_periods": 2,
+  "source_gaps": [
+    "Compressed archival M04 does not supply a complete general E definition/proof body; finite block proof is supplied explicitly, without certifying that general body."
+  ],
+  "validator_note": "Required project adapter executed successfully with exit code 0. Final unchanged-content verification is recorded in validator-result.json.",
+  "validator_exit_code": 0
+}

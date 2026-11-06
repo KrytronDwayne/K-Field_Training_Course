@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-17",
+  "timestamp": "2026-11-05T19:10:58.428515+00:00",
+  "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-17-finite-gauge-transport-and-conservative-dynamics",
+  "validator": "passed",
+  "validator_checks": [
+    "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+    "parsed manifest.json",
+    "parsed audit_report.json",
+    "parsed completion_report.json",
+    "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+  ],
+  "validator_errors": [],
+  "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+  "manifest_sha256": "18a3c9ce6ae01e288bcbf284aa62fabbef66dd61a14a4c9fa5cd41798017076c",
+  "completion_report_sha256": "592a490c57e0a4090ed6976b0a0bfc4fe6291ce7d5df30c1eb6846c0b8cbb9c6",
+  "course_sha256": "de1fa6c859c2c01451fe72418e93011d75153cada347b806abc3de186b8cb115",
+  "status": "accepted",
+  "independent_audit": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\independent-completion\\course-17-independent-audit.json",
+  "independent_report_sha256": "81ae047225d595e25e9e50fb4bc16c0570a094fd1d750cb5c7fc56a08075200b",
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "scope": "Completed topical course accepted after parent review of independent source/content audit and fresh deterministic validation; documented source limitations retained."
+}

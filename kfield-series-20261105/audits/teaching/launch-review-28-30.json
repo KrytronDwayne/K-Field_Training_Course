@@ -1,0 +1,151 @@
+{
+  "schema_version": "1.0",
+  "created_utc": "2026-11-05T19:43:16.419731+00:00",
+  "audit_level": "pedagogic_blueprint",
+  "amendment_path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-teaching-auditor\\outputs\\teaching-amendments-28-30.json",
+  "amendment_sha256": "f533beac5c5a374a225b00a0e5c43319079d12ff7fe3f59a00714594b3a6866d",
+  "verification_path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-teaching-auditor\\outputs\\teaching-verification-28-30.json",
+  "verification_sha256": "40b5b402379561e5b46439cf6d727ee1283bc1a7595bed2e6e4c15f26cbcabf8",
+  "input_contracts": [
+    {
+      "course_id": "course-28",
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-28-photometer-experiments-and-information-preserving-analysis\\input-contract.json",
+      "sha256": "af3206e71d56e97fa48869fce616a4caa58c4664dc5d8821ee56b42538034e85"
+    },
+    {
+      "course_id": "course-29",
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\input-contract.json",
+      "sha256": "d3ad20059c6d56f50ea25e57ee501eb438a99710ffcda660d9fe845944eb1e43"
+    },
+    {
+      "course_id": "course-30",
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\input-contract.json",
+      "sha256": "ef34c51ff7c0fdfb4bfeacf90ef0eb66d2ec3f21688e61be617a69bfef861052"
+    }
+  ],
+  "findings": [
+    {
+      "id": "E05-course-28",
+      "severity": "major",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-28-photometer-experiments-and-information-preserving-analysis\\input-contract.json",
+      "section": "course_map;coverage_matrix;capstone_specification",
+      "defect": "Generic references lack complete local answered operations and backward assessment mapping.",
+      "minimal_repair": "Apply all authored anchors, source scopes, expanded periods and capstone answers/rubrics.",
+      "disposition": "corrected_in_portable_amendment",
+      "project_edit_performed": false
+    },
+    {
+      "id": "E05-course-29",
+      "severity": "major",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\input-contract.json",
+      "section": "course_map;coverage_matrix;capstone_specification",
+      "defect": "Generic references lack complete local answered operations and backward assessment mapping.",
+      "minimal_repair": "Apply all authored anchors, source scopes, expanded periods and capstone answers/rubrics.",
+      "disposition": "corrected_in_portable_amendment",
+      "project_edit_performed": false
+    },
+    {
+      "id": "E05-course-30",
+      "severity": "major",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\input-contract.json",
+      "section": "course_map;coverage_matrix;capstone_specification",
+      "defect": "Generic references lack complete local answered operations and backward assessment mapping.",
+      "minimal_repair": "Apply all authored anchors, source scopes, expanded periods and capstone answers/rubrics.",
+      "disposition": "corrected_in_portable_amendment",
+      "project_edit_performed": false
+    },
+    {
+      "id": "BRIDGE-28",
+      "severity": "major",
+      "section": "course-28",
+      "defect": "Raw and odd components or calibration domains can be lost.",
+      "minimal_repair": "Retain raw rows, invalid transforms, separate symmetry operators, C28.S01 and prospective/performed status.",
+      "disposition": "corrected_in_portable_amendment",
+      "project_edit_performed": false
+    },
+    {
+      "id": "BRIDGE-29",
+      "severity": "major",
+      "section": "course-29",
+      "defect": "Galaxy and Cell3 units, coordinate types and skew metrics can be conflated.",
+      "minimal_repair": "Apply SA29-E11 across all eight lessons, exact metric/phase exercises and all source locators and holdout boundaries.",
+      "disposition": "corrected_in_portable_amendment",
+      "project_edit_performed": false
+    },
+    {
+      "id": "BRIDGE-30",
+      "severity": "major",
+      "section": "course-30",
+      "defect": "Core closure, compiler labels and experimental claims can be conflated.",
+      "minimal_repair": "Retain all premises, M19 separation, six factors, identifiability and prospective instrument gates.",
+      "disposition": "corrected_in_portable_amendment",
+      "project_edit_performed": false
+    }
+  ],
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "unresolved_count_scope": "Pedagogic blueprint defects after entire amendment application only; retained source and empirical obligations are not closed.",
+  "courses": [
+    {
+      "course_id": "course-28",
+      "decision": "teaching_blueprint_pass_with_amendment",
+      "unresolved_critical": 0,
+      "unresolved_major": 0,
+      "unresolved_minor": 0,
+      "core_periods": 15,
+      "capstone_periods": 3,
+      "period_minutes": 55,
+      "launch_condition": "Apply entire amendment; produced lessons and capstone require later independent completed-course acceptance.",
+      "completed_course_approved": false
+    },
+    {
+      "course_id": "course-29",
+      "decision": "teaching_blueprint_pass_with_amendment",
+      "unresolved_critical": 0,
+      "unresolved_major": 0,
+      "unresolved_minor": 0,
+      "core_periods": 16,
+      "capstone_periods": 3,
+      "period_minutes": 55,
+      "launch_condition": "Apply entire amendment; produced lessons and capstone require later independent completed-course acceptance.",
+      "completed_course_approved": false
+    },
+    {
+      "course_id": "course-30",
+      "decision": "teaching_blueprint_pass_with_amendment",
+      "unresolved_critical": 0,
+      "unresolved_major": 0,
+      "unresolved_minor": 0,
+      "core_periods": 16,
+      "capstone_periods": 3,
+      "period_minutes": 55,
+      "launch_condition": "Apply entire amendment; produced lessons and capstone require later independent completed-course acceptance.",
+      "completed_course_approved": false
+    }
+  ],
+  "verification_summary": {
+    "checks_passed": 660,
+    "checks_failed": 0,
+    "original_lesson_anchors": 24,
+    "supplemental_anchor_sets": 1,
+    "capstone_steps": 25,
+    "all_original_concepts_preserved": true,
+    "all_references_resolve": true
+  },
+  "limitations": [
+    "Blueprint acceptance after amendment application only; completed lessons and capstone require independent later acceptance.",
+    "Pacing may expand at recovery checkpoints.",
+    "Galaxy lengths are unit-sphere reconstruction lengths; no radial calibration or cross-scale physical identity is supplied.",
+    "Source decimal diagnostics preserve numerical closure residuals, not certified intervals.",
+    "Full named route certificate and complete locked G_phase,C,W precision linkage remain unavailable; AUD008 nonzero closure, unloaded bodies and source bundle revision discrepancies remain visible.",
+    "Remote source records and parent support reports are comparisons, not freshly executed compiler proofs or empirical measurements.",
+    "No new physical experiment or favorable result was invented."
+  ],
+  "source_report_sha256": "eef89a28971ef7e5380977c31b62ed6d64f2831759e679ee967b6c253a33c04a",
+  "ledger_sha256_at_report": "f310d948c6dc79da37eaf291ef8452f4749eefaab43dafc7d9e4ec4ce312d3e7",
+  "finished_course_pass": false,
+  "source_or_project_files_modified": false
+}

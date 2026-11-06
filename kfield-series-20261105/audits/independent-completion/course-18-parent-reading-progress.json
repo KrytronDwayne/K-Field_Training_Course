@@ -1,0 +1,26 @@
+{
+  "course_id": "course-18",
+  "status": "partial_review_not_acceptance",
+  "reviewer": "Parent coordinator independent of course author",
+  "read_scope": "All seven actual draft lessons read in full. S02 M14, angular/spin nodes4/18/25, CP nodes9/76 and branches5/10 read directly; S03 AUD009 read. Final support files/capstone and fresh independent math are still required.",
+  "read_hashes": {
+    "lesson-01.md": "368c786fc3b55fefaa4ef2399c03e4afebf2eb3546de852dce0463298c04ba54",
+    "lesson-02.md": "3bc21c8ae64690a189d9d17519c8a0cf5582cc9557505ac3414c2479f2718aa6",
+    "lesson-03.md": "16fc5b5439ccdc9b43f109a2ff79c69d6b1adc48fdd13e0276cb9b1fc508a362",
+    "lesson-04.md": "16d3710e218f183cc5a68c341a5549fe87f9df9d11038defd459776d89147634",
+    "lesson-05.md": "0f04af9b52333d58ce45677d875563a979c2d4c0270f8d5c04a9b539cf1fd2c1",
+    "lesson-06.md": "a6120bc92c1c16183f5e91df5e4d3b38e4af6337933a51f35fe1e26809a71882",
+    "lesson-07.md": "4014cd4e6d5af6f4f02bc7edfc2210ea0ea7470d717d32a3624b6476673d0cf9"
+  },
+  "lesson_review_notes": [
+    "Binary words with newest prefix on left, empty word versus zero vector, finite depth and explicit boundary policy taught; source B8 carrier separately typed.",
+    "Square shift has both terminal/root defects and index0; rectangular injection index-1 and infinite unilateral index-1 have separately declared domains. All discarded terminal data retained.",
+    "Norm preservation, injectivity, surjectivity and inverse on image distinguished with complete image/complement reconstruction and squared norms.",
+    "All four q_n including zero operator retained; rank does not depend on one input. Root-defect hypothesis and P=I overlapping counterexample explicit.",
+    "Basis/coframe order, reciprocal determinant sign, time direction, rescale and reflection tracked separately. Negative locked Cell3 handedness retained; toy basis clearly declared.",
+    "Grading idempotence versus adjoint condition, anticommutation and distinct tensor factors taught. Source PL convention explicitly uses opposite sign assignment from unnamed generic G. Angular/spin dimensions and ell0 exception correct and not physical energy/occupation.",
+    "Premise ledger retains B8/T0 gaps, full coframe/Clifford conventions and separate factors. Conditional gamma5 square calculation correct. Pointwise real carry restriction differs from arbitrary real matrices. Complex commutator and supplied diagonal determinant witness retain their distinct scope; diagonal Yukawa witness commutes and predicts no physical phase."
+  ],
+  "findings_so_far": [],
+  "pending": ["Recompare final hashes and reread changed lessons; builder reports root-removal clarification and reference repair", "Read final capstone/key/rubric and support files", "Fresh independent arithmetic", "Fresh validator and acceptance gate"]
+}

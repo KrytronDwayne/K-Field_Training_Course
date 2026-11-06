@@ -1,0 +1,567 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-14",
+  "title": "Independent completed-course audit: Complex Carriers and Gauge Symmetry",
+  "reviewed_utc": "2026-11-05T18:46:23.597596+00:00",
+  "status": "passed",
+  "manifest_sha256": "09a85008b96cf2dccb9fe7d7efb42736994d3a161eb4b0bcc2cf317a35d767a7",
+  "scope": {
+    "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-14-complex-carriers-and-gauge-symmetry",
+    "read": "All seven actual lessons, capstone tasks/full key/rubric/backward map, teacher guide, map, glossary, source notes/provenance cards, input contract including SA-14 and EA-14-E06-2, builder audit, recorded verification, manifest and completion. Assembled course verified against all read lesson texts.",
+    "source_scope": "Direct local S02 typed conventions, M10 /backbone_sequence/9 and /branch_proofs/6 endpoint; S03 AUD-004 /findings/3. Fresh pinned integration excerpts reviewed separately. All five local source files rehashed.",
+    "independent_work": "Fresh auditor-authored exact arithmetic engine and matrix operations. Builder and parent calculation functions not reused. Parent roots-carriers rows compared only after independent results.",
+    "writes": "Only auditor-workspace intermediate verifier and requested output JSON reports; no course/source/parent/Desktop/skill/setting changes."
+  },
+  "audited_files": {
+    "course-map.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-14-complex-carriers-and-gauge-symmetry\\course-map.md",
+      "sha256": "ed29865a8c49062bdde060e208b3f5a59c52f3bfa5731153bcac8555e3b2e3b7"
+    },
+    "lesson-01.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-14-complex-carriers-and-gauge-symmetry\\lesson-01.md",
+      "sha256": "1d9b94c58b823f52191fcc51db03d068a711aa8803c538bc9cae55bf2805de25"
+    },
+    "lesson-02.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-14-complex-carriers-and-gauge-symmetry\\lesson-02.md",
+      "sha256": "699e720bf93b6176cb63a35ff11888b2a3bd7ea6c5c7007213b5f701191d2fd5"
+    },
+    "lesson-03.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-14-complex-carriers-and-gauge-symmetry\\lesson-03.md",
+      "sha256": "ef1972737de333712ef2f7925db3e8374df5582b3053a2fdee73c5d3712133cd"
+    },
+    "lesson-04.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-14-complex-carriers-and-gauge-symmetry\\lesson-04.md",
+      "sha256": "a21749980db93d114fe18da7eaa9563c1e453cbe89fc9cca5fd2e3fe5bbfede0"
+    },
+    "lesson-05.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-14-complex-carriers-and-gauge-symmetry\\lesson-05.md",
+      "sha256": "1d2107599e9638c7589b5967168a6ae42529ed200a6b14bee11a365eee88e1c5"
+    },
+    "lesson-06.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-14-complex-carriers-and-gauge-symmetry\\lesson-06.md",
+      "sha256": "626c5f16593589ec5813b84ff4e3f0f9d53d601f123443f3c846a3c10ebdba47"
+    },
+    "lesson-07.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-14-complex-carriers-and-gauge-symmetry\\lesson-07.md",
+      "sha256": "7120ac55e0af97c0910dacffa14112116fe0693b925b71b3daae7b862d6ac774"
+    },
+    "terminology.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-14-complex-carriers-and-gauge-symmetry\\terminology.md",
+      "sha256": "43c4e9835999da77f47526661679f681c407a9ecaf7150684c8c1c1cc4e93724"
+    },
+    "teacher-guide.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-14-complex-carriers-and-gauge-symmetry\\teacher-guide.md",
+      "sha256": "387190185dfb0b2e9d7a204dd7daaf39ed97e84abca57fdfdf5c9763e11074d6"
+    },
+    "capstone.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-14-complex-carriers-and-gauge-symmetry\\capstone.md",
+      "sha256": "3281a1a1d5cf1613914089b87469dbbcfbedb4abca333ad3e431fb034d360c82"
+    },
+    "sources.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-14-complex-carriers-and-gauge-symmetry\\sources.md",
+      "sha256": "661c55f2f10fcb45a3df6ec7b38dfb1b5afb39cb68a24e10cfdbe7f7e752e5f6"
+    },
+    "verification.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-14-complex-carriers-and-gauge-symmetry\\verification.json",
+      "sha256": "68b81f6b86ad4118dc208c1ccec7095895549f52bcd56fc916c6bb19bb3e72e0"
+    },
+    "course.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-14-complex-carriers-and-gauge-symmetry\\course.md",
+      "sha256": "b4d77ad76287b02456e6b330a59c5a242e9257c1691e2ecf427fc57c1f8d168a"
+    },
+    "audit_report.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-14-complex-carriers-and-gauge-symmetry\\audit_report.json",
+      "sha256": "8f67af75d949858f731e46a85f82a22b94320ad1def839347e21c588b4d5cc15"
+    },
+    "input-contract.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-14-complex-carriers-and-gauge-symmetry\\input-contract.json",
+      "sha256": "47dc0d1083528f0e4e2d0e4e5e2d152609c586578cc3d5658c600325224140fe"
+    },
+    "manage.py": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-14-complex-carriers-and-gauge-symmetry\\manage.py",
+      "sha256": "f262d5d0fd67a9601db01e3d0d4739bd6fdf25bffd767371374c3f8066d0337e"
+    },
+    "build_support.py": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-14-complex-carriers-and-gauge-symmetry\\build_support.py",
+      "sha256": "15bbeb099b3ffa17617117ad7cfac5b7353a2d8ea0d5ddfa5db7c1964f0cdad2"
+    },
+    "verify_examples.py": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-14-complex-carriers-and-gauge-symmetry\\verify_examples.py",
+      "sha256": "984e171e4fdc8c908fd4b5a71e74a385b98c6fd8d8a7ba166e2d8d30ce1573b5"
+    },
+    "finalize.py": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-14-complex-carriers-and-gauge-symmetry\\finalize.py",
+      "sha256": "e9a908100d0dab9170bb105d584bfeeb718450f992d4107e1eaa5092886e2d15"
+    },
+    "completion_report.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-14-complex-carriers-and-gauge-symmetry\\completion_report.json",
+      "sha256": "d24386eafba7a2c184f1fa0fa9e9e15817180671d7ff7b22110282e10ee95865"
+    },
+    "manifest.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-14-complex-carriers-and-gauge-symmetry\\manifest.json",
+      "sha256": "09a85008b96cf2dccb9fe7d7efb42736994d3a161eb4b0bcc2cf317a35d767a7"
+    }
+  },
+  "source_hashes": [
+    {
+      "id": "S01",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180"
+    },
+    {
+      "id": "S02",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3"
+    },
+    {
+      "id": "S03",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e"
+    },
+    {
+      "id": "S04",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+      "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2"
+    },
+    {
+      "id": "S05",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+      "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7"
+    }
+  ],
+  "integration_provenance": {
+    "method": "Fresh read-only sparse RAG query with rerank=false and logical path prefix kfield_standard_model/. Capabilities discovery preceded retrieval.",
+    "corpus_generation": "sha256:5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+    "manifest_sha256": "5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+    "rag_index_sha256": "aca56e6b5b2b717459cea9790e6142ea9e8058f74d135710906926e9065ad54a",
+    "records": [
+      {
+        "id": "I01",
+        "logical_path": "kfield_standard_model/project_record.json",
+        "canonical_source_card_path": "applications/kfield_standard_model/collaborator_record/project_record.json",
+        "sha256": "3800c854da827a64e72507722904bcafab07a31e88f2bc73920a8e7f62f62c1c",
+        "pointers": [
+          "/hazards/3",
+          "/open_obligations/1",
+          "/open_obligations/2"
+        ],
+        "object_id": "ragobj:66f227dde0830ee67ec6225f58676e0a9720e8c496c56496f10651bfcb3c7572",
+        "locator": {
+          "end_line_inclusive": 142,
+          "kind": "lines",
+          "start_line": 1
+        },
+        "trust": "source",
+        "source_identity_matches_course": true,
+        "local_byte_hash_independently_recomputed": false,
+        "conclusion": "Physical global forms Z1,Z2,Z3,Z6 remain an unresolved family; seventeen compiler modules lack direct authority."
+      },
+      {
+        "id": "I02",
+        "logical_path": "kfield_standard_model/evidence/p12_standard_model_compiler_adjudication_report.json",
+        "sha256": "a3dfca0e55e525c6522c3088b95e5bcc048c141fce340bfe980fcfc14123220a",
+        "pointers": [
+          "/direct_authority_modules",
+          "/agda/certificate",
+          "/known_science_replay"
+        ],
+        "object_id": "ragobj:8539daf4cdda9c1c7d0666326b9ab394057e802a8dde351c45e283a7ad70ad09",
+        "locator": {
+          "end_line_inclusive": 101,
+          "kind": "lines",
+          "start_line": 1
+        },
+        "trust": "source",
+        "source_identity_matches_course": true,
+        "local_byte_hash_independently_recomputed": false,
+        "conclusion": "Direct authority is limited to compiler M03,M07,M08; the named Safe Agda certificate is reported, not newly executed here."
+      }
+    ],
+    "identity_scope": "Both reported integration source identities match the pinned course cards. Unlike local S01–S05, integration hashes were not recomputed from complete local byte streams. The retrieved source-attributed excerpts directly support the retained family and authority scope.",
+    "coverage": "Query results are truncated discovery results, not exhaustive corpus coverage; only the two named records support this audit's integration comparison.",
+    "compiler_rerun": false
+  },
+  "findings": [],
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "verified_repairs": [
+    {
+      "id": "C14-A01",
+      "original_severity": "major",
+      "disposition": "independently_verified_resolved",
+      "file": "lesson-01.md",
+      "line": 29,
+      "evidence": "Within C14.01-P1, the exact unit-phase calculation uses conjugation and(sqrt3)^2=3 to give1; Lesson05 explicitly computes zeta squared,cubed,sixth powers and lists six distinct coordinates. Recomputed without rounding."
+    },
+    {
+      "id": "C14-A02",
+      "original_severity": "minor",
+      "disposition": "independently_verified_resolved",
+      "file": "terminology.md",
+      "evidence": "Internal modulus/norm pipes are escaped. Independent parser checks all34 table rows retain exactly three cells."
+    }
+  ],
+  "lesson_reviews": [
+    {
+      "lesson_id": "lesson-01",
+      "status": "passed",
+      "teaching": "Defines complex components, conjugation, squared modulus, quarter-turns, unit phases and inverse phases with explicit coordinates; magnitude is not substituted for phase.",
+      "recomputation": "1+i and2-i rotations, conjugates, norms and inverse operations agree; products3+i and3-i and (1+i)^2=2i agree. Exact zeta conjugate product is1.",
+      "practice": "C14.01-P1 / C14-CX-P1 practices the capstone2-i rotation and inverse. Its section includes the repaired exact zeta check before Diagnostics.",
+      "scope": "Zero has no unique phase; all examples are dimensionless synthetic arithmetic.",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-14-complex-carriers-and-gauge-symmetry\\lesson-01.md",
+      "sha256": "1d9b94c58b823f52191fcc51db03d068a711aa8803c538bc9cae55bf2805de25"
+    },
+    {
+      "lesson_id": "lesson-02",
+      "status": "passed",
+      "teaching": "Introduces matrix products, dagger, inner product conjugating the first argument, and both-order unitary inverse checks before five-coordinate carriers.",
+      "recomputation": "U=diag(i,-i) preserves squared norm7. Non-diagonal V has V†V=VV†=I, determinant1, maps(1,i) to(0,sqrt2 i) and(2,0) to(sqrt2,sqrt2 i), and reverses both exactly. VᵀV is not I.",
+      "practice": "P1 contains the full non-diagonal matrix multiplication and two input/recovery computations. Diagnostic3 explicitly computes the transpose-only failure assessed in CAP02.",
+      "scope": "A single preserved length or invertibility is not mistaken for general unitarity.",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-14-complex-carriers-and-gauge-symmetry\\lesson-02.md",
+      "sha256": "699e720bf93b6176cb63a35ff11888b2a3bd7ea6c5c7007213b5f701191d2fd5"
+    },
+    {
+      "lesson_id": "lesson-03",
+      "status": "passed",
+      "teaching": "Declares color-first H=C3⊕W2, complementary projectors and a full5x5 weak-first-to-color-first permutation; operators transform by P A_old Pᵀ.",
+      "recomputation": "PᵀP=PPᵀ=I5, projector identities hold, both stated tuples recover, and diag(3,3,-2,-2,-2) transforms to diag(-2,-2,-2,3,3).",
+      "practice": "P1 uses the exact capstone complex tuple, both projections and operator transport. W1 and E1 explicitly teach reverse order.",
+      "scope": "Preserves the source weak-first display as a distinct typed view with a declared intertwiner, rather than relabeling values silently.",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-14-complex-carriers-and-gauge-symmetry\\lesson-03.md",
+      "sha256": "ef1972737de333712ef2f7925db3e8374df5582b3053a2fdee73c5d3712133cd"
+    },
+    {
+      "lesson_id": "lesson-04",
+      "status": "passed",
+      "teaching": "Teaches ad-bc and diagonal/block determinants; declares the top-form scaling contract and separates det=1 from norm preservation. Derives central exponent3a+2b and integer solutionsa=-2m,b=3m.",
+      "recomputation": "Required block determinant product is1; weights(-2,3),(2,-3),(4,-6) satisfy the lock, with the latter nonprimitive. Weights(1,0) atz=i fail. diag(2,1/2) has determinant1 but changes squared norm1to4.",
+      "practice": "P1 supplies the exact capstone blocks and norm/top-form counterexample. E1 derives the exponent; diagnostic checks cover nonprimitive weights and whyz=1 alone is insufficient.",
+      "scope": "General exterior-algebra construction and connected-group classification are recognition-only, not hidden capstone prerequisites.",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-14-complex-carriers-and-gauge-symmetry\\lesson-04.md",
+      "sha256": "a21749980db93d114fe18da7eaa9563c1e453cbe89fc9cca5fd2e3fe5bbfede0"
+    },
+    {
+      "lesson_id": "lesson-05",
+      "status": "passed",
+      "teaching": "Defines composition, identity, inverses, map kernels and quotient ambiguity with finite modulo maps before the source cover. Solves the identity equations and determinant restrictions, then enumerates every source kernel row.",
+      "recomputation": "All6 exact scalar triples satisfy SU3/SU2 unitarity and determinants and map to identity. Their phases are distinct; composition and inverse labels agree with Z6. Toy kernels are{0,3} and{0,2,4}, each with exact retained-label recovery.",
+      "practice": "P1 independently prompts completion of the six-row table, determinant/action checks and retained-label accounting. Diagnostic item3 explicitly asks why there can be no seventh member; item4 asks inverse information. Source and toy kernels remain separate.",
+      "scope": "Finite kernel exhaustion is proved. General surjectivity/topology is source-read recognition; the kernel does not select a physical global form.",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-14-complex-carriers-and-gauge-symmetry\\lesson-05.md",
+      "sha256": "1d2107599e9638c7589b5967168a6ae42529ed200a6b14bee11a365eee88e1c5"
+    },
+    {
+      "lesson_id": "lesson-06",
+      "status": "passed",
+      "teaching": "Separates abstract group, carrier, action, inverse and invariant. Distinguishes global from independent local phases and the actionsz versusz^2.",
+      "recomputation": "Local phases(-1,i) send(2,i) to(-2,-1), preserve squared norm5 and invert. Other worked/diagnostic local actions agree; the two single-node actions differ at i and-1.",
+      "practice": "P1 gives the exact capstone action and inverse with the full typed record; diagnostics distinguish norm data from full amplitudes and missing coupling/evolution rules.",
+      "scope": "No measured field, force, coupling or dynamics is inferred from a norm invariant.",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-14-complex-carriers-and-gauge-symmetry\\lesson-06.md",
+      "sha256": "626c5f16593589ec5813b84ff4e3f0f9d53d601f123443f3c846a3c10ebdba47"
+    },
+    {
+      "lesson_id": "lesson-07",
+      "status": "passed",
+      "teaching": "Provides source cards with paths, hashes, pointers and explicit evidence categories; separates mature construction, integration nonselection, namespace and reported certificate status.",
+      "recomputation": "All five local source hashes independently match. Fresh I01/I02 excerpts match course identities and substantiate Z1/Z2/Z3/Z6 and compiler-only M03/M07/M08 authority.",
+      "practice": "P1 classifies the kernel, physical uniqueness and certificate statements and asks reconstruction of both source-addressed rows. CAP07 uses supplied cards rather than requiring external retrieval or compilation.",
+      "scope": "Source-reported BR-06 closure and Agda certificate are not promoted to fresh full-proof verification or empirical selection.",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-14-complex-carriers-and-gauge-symmetry\\lesson-07.md",
+      "sha256": "7120ac55e0af97c0910dacffa14112116fe0693b925b71b3daae7b862d6ac774"
+    }
+  ],
+  "actual_capstone_practice_links": [
+    {
+      "step_id": "C14-CAP-01",
+      "lesson": "lesson-01.md",
+      "locations": {
+        "explanation_id": {
+          "id": "C14.01-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C14.01-W1",
+          "line": 19
+        },
+        "prior_practice_id": {
+          "id": "C14.01-P1",
+          "line": 23
+        },
+        "diagnostic_id": {
+          "id": "C14.01-D1",
+          "line": 31
+        }
+      },
+      "semantic_evidence": "Actual P1 rotates2-i, computes the output conjugate/modulus and reverses it. E1 defines the input conjugate and retains direction; the repaired zeta unit calculation is present in the same section.",
+      "adequate": true
+    },
+    {
+      "step_id": "C14-CAP-02",
+      "lesson": "lesson-02.md",
+      "locations": {
+        "explanation_id": {
+          "id": "C14.02-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C14.02-W1",
+          "line": 17
+        },
+        "prior_practice_id": {
+          "id": "C14.02-P1",
+          "line": 21
+        },
+        "diagnostic_id": {
+          "id": "C14.02-D1",
+          "line": 31
+        }
+      },
+      "semantic_evidence": "Actual P1 multiplies the non-diagonal V†V, applies V to the capstone vector, checks norm and recovers it. Diagnostic3 supplies the requested transpose counterexample.",
+      "adequate": true
+    },
+    {
+      "step_id": "C14-CAP-03",
+      "lesson": "lesson-03.md",
+      "locations": {
+        "explanation_id": {
+          "id": "C14.03-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C14.03-W1",
+          "line": 29
+        },
+        "prior_practice_id": {
+          "id": "C14.03-P1",
+          "line": 33
+        },
+        "diagnostic_id": {
+          "id": "C14.03-D1",
+          "line": 39
+        }
+      },
+      "semantic_evidence": "Actual P1 gives the exact weak-first complex tuple and both projections, then verifies charge transport on an arbitrary input. E1/W1 provide Pᵀ recovery.",
+      "adequate": true
+    },
+    {
+      "step_id": "C14-CAP-04",
+      "lesson": "lesson-04.md",
+      "locations": {
+        "explanation_id": {
+          "id": "C14.04-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C14.04-W1",
+          "line": 21
+        },
+        "prior_practice_id": {
+          "id": "C14.04-P1",
+          "line": 25
+        },
+        "diagnostic_id": {
+          "id": "C14.04-D1",
+          "line": 31
+        }
+      },
+      "semantic_evidence": "Actual P1 computes both capstone block determinants and contrasts the determinant-one norm failure; E1 derives the central exponent before the exercises.",
+      "adequate": true
+    },
+    {
+      "step_id": "C14-CAP-05",
+      "lesson": "lesson-05.md",
+      "locations": {
+        "explanation_id": {
+          "id": "C14.05-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C14.05-W1",
+          "line": 31
+        },
+        "prior_practice_id": {
+          "id": "C14.05-P1",
+          "line": 35
+        },
+        "diagnostic_id": {
+          "id": "C14.05-D1",
+          "line": 54
+        }
+      },
+      "semantic_evidence": "Actual P1 completes all six source rows and checks determinant/action exponents. The earlier toy-map worked section plus independent mod2 practice establishes the toy distinction. Prior diagnostic3 explicitly practices exhaustion; diagnostic4 independently asks retained labels for both maps.",
+      "adequate": true
+    },
+    {
+      "step_id": "C14-CAP-06",
+      "lesson": "lesson-06.md",
+      "locations": {
+        "explanation_id": {
+          "id": "C14.06-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C14.06-W1",
+          "line": 17
+        },
+        "prior_practice_id": {
+          "id": "C14.06-P1",
+          "line": 21
+        },
+        "diagnostic_id": {
+          "id": "C14.06-D1",
+          "line": 27
+        }
+      },
+      "semantic_evidence": "Actual P1 uses the exact capstone phases and amplitudes, inverse, norm, group/carrier/action record; diagnostics address the missing physical rule.",
+      "adequate": true
+    },
+    {
+      "step_id": "C14-CAP-07",
+      "lesson": "lesson-07.md",
+      "locations": {
+        "explanation_id": {
+          "id": "C14.07-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C14.07-W1",
+          "line": 17
+        },
+        "prior_practice_id": {
+          "id": "C14.07-P1",
+          "line": 28
+        },
+        "diagnostic_id": {
+          "id": "C14.07-D1",
+          "line": 36
+        }
+      },
+      "semantic_evidence": "Actual P1 reconstructs the two-row source comparison using supplied paths/hashes/pointers and classifies fresh finite algebra versus reported formal status. All four physical candidates and distinct compiler namespace are required explicitly.",
+      "adequate": true
+    }
+  ],
+  "amendment_review": {
+    "SA_14": "Actual lessons03,05,07 preserve color-first typed order and weights, explicit permutation, mature determinant-lock/Z6 contract, integration's four physical forms, and compiler/backbone namespace distinction.",
+    "EA_14_E06_2": "Complex arithmetic, conjugation, squared modulus, conjugate transpose, group composition and finite-map kernels are concretely taught before dependent operations. Legacy C14-CX-EX1,C14-CX-P1,C14-KER-D1 IDs and exercises remain.",
+    "practice_gate": "Every required capstone operation has actual prior explanation and attempted answered practice/diagnostics. Necessity/exhaustion is explicitly practiced in Lesson05 diagnostic3, not inferred merely from table presence.",
+    "source_gap_discipline": "M09 premises, full branch proof bodies, connected-group classification, cover topology and fresh Agda execution are not claimed verified. They are scoped away from the finite core, not silently filled."
+  },
+  "independent_recomputation": {
+    "verification_file": "course-14-independent-verification.json",
+    "status": "passed",
+    "exit_code": 0,
+    "runtime": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+    "arithmetic": "Exact eight-coordinate Q(sqrt2,sqrt3,i) with Fraction coefficients; sqrt2^2=2, sqrt3^2=3, i^2=-1; no floating-point tolerance",
+    "check_count": 497,
+    "checks_by_group": {
+      "integrity": 93,
+      "source-contract": 9,
+      "actual-links": 38,
+      "repair": 36,
+      "field-controls": 3,
+      "complex": 21,
+      "unitary": 20,
+      "carrier": 12,
+      "determinant": 11,
+      "kernel": 86,
+      "fiber-decoder": 18,
+      "toy-kernel": 86,
+      "local-actions": 11,
+      "actual-tables": 32,
+      "parent-comparison": 19,
+      "rubric": 2
+    },
+    "count_scope": "497 assertions include mathematics, actual table entries, source/contract identities, file integrity, link presence and recorded repair checks; counts do not replace semantic content review.",
+    "key_results": "Exact non-diagonal unitarity and inverse; full5x5 typed permutation and charge conjugation; norm/top-form counterexamples; all6 SU determinants/actions; six distinct roots and exact factorization of t^6-1; composition/inverse labels; toy inverse accounting; supplemental general-output six-preimage recovery.",
+    "exhaustion": {
+      "necessary": "Identity output implies g3=z^2 I3 and g2=z^-3 I2. Their determinant constraints imply z^6=1; neither matrix has remaining independent entries.",
+      "sufficient": "Every listed unit phase and its forced scalar matrices has determinant one, is unitary, and maps to both identity blocks; all six rows recomputed.",
+      "exact_roots": "Six exact distinct powers of (1+i sqrt3)/2 are checked. Additionally the independently multiplied six linear factors give t^6-1 exactly; over C their product vanishes only at the listed roots.",
+      "course_argument": "The actual lesson establishes exhaustiveness by unit-circle angles and checks powers without rounding. The extra polynomial factorization is an auditor-only corroboration, not an untaught assessment requirement.",
+      "inverse_information": "The identity image requires retained k modulo6. For an arbitrary image with a chosen preimage, all alternatives differ by a kernel element; retain that representative and k. A supplemental nontrivial matrix example checks six distinct representatives, identical outputs and reverse recovery."
+    },
+    "parent_support": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\roots-carriers-bridge-verification.json",
+      "sha256": "196bf6bf04fda78bded77716bb6478595de098890baef51662c51e6089675529",
+      "use": "Comparison only after independent calculations"
+    }
+  },
+  "assessment_and_accessibility": {
+    "capstone_steps": 7,
+    "weights": [
+      10,
+      15,
+      15,
+      15,
+      25,
+      10,
+      10
+    ],
+    "total_points": 100,
+    "rubric": "All subpart allocations sum correctly. Original and corrected responses are retained; high totals do not waive order, kernel or source-family errors.",
+    "audience": "Senior arithmetic, fractions, powers and bracket expansion suffice for the taught finite operations. Complex numbers, matrices, determinants, groups, kernels and source reading are explicitly introduced; compiler execution, calculus and general classification are not assessed.",
+    "pacing": {
+      "lesson_periods": [
+        2,
+        2,
+        1,
+        2,
+        3,
+        1,
+        1
+      ],
+      "minutes_per_period": 55,
+      "core_minutes": 660,
+      "capstone_minutes": 165,
+      "total_minutes": 825
+    },
+    "pacing_judgment": "The three-period kernel lesson and two-period arithmetic/matrix/determinant lessons preserve the approved dense-topic splits. Teacher repair gates are present. Feasibility is content-based, not classroom-measured."
+  },
+  "source_and_authority_boundaries": {
+    "mature_contract": "Preserved Hermitian color/weak blocks plus top form give the displayed determinant-locked setting. The explicitly defined Phi has kernelZ6; this finite result is independently verified.",
+    "typed_order": "The governing color-first rule and AUD-004 correction are retained without erasing M10's weak-first presentation. P transports tuples, projectors/actions and charge weights consistently.",
+    "integration_family": "I01 retains Z1,Z2,Z3,Z6 for physical global-form selection. This is not contradicted or replaced by the fixed-carrier kernel calculation.",
+    "compiler": "Only compiler M03,M07,M08 are reported direct-authority modules in I02. They are not the identically numbered backbone modules; no transfer of authority occurs.",
+    "formal_status": "The named Safe Agda certificate and BR-06 closed_exact_gauge_matter_theorem endpoint are source-reported statuses, not freshly rerun proofs or source-author authentication.",
+    "evidence_layers": "Synthetic finite arithmetic, source occurrence, interpretation and physical/dynamical questions remain separately labeled."
+  },
+  "fresh_project_validation": {
+    "canonical_output_root": "Z:\\Kfield-doc-training\\K-Field_Training_Course",
+    "checks": [
+      "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+      "parsed manifest.json",
+      "parsed audit_report.json",
+      "parsed completion_report.json",
+      "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+    ],
+    "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-14-complex-carriers-and-gauge-symmetry",
+    "errors": [],
+    "schema_version": "1.0",
+    "status": "passed",
+    "storage_authority": "User explicitly authorized project-folder outputs, 2026-11-05",
+    "validator_path": "C:\\Users\\info\\.codex\\skills\\build-high-school-course\\scripts\\validate_course.py",
+    "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+    "exit_code": 0,
+    "fixture_mode": false,
+    "adapter": "Z:/Kfield-doc-training/.work/validate_project_course.py",
+    "scope": "Installed validator through the authorized project-root adapter; only canonical output root overridden.",
+    "runtime_note": "Existing Conda OpenCL vendors/temp.txt warning emitted; verifier and validator both exited0 without environment changes."
+  },
+  "limitations": [
+    "Finite algebra and teaching audit, not a complete proof of source branch closure, general group classification, M09 assumptions or cover topology.",
+    "Fresh integration excerpts verify attribution and reported dispositions; full integration-file byte hashes were not locally recomputed and no Agda compiler was run.",
+    "No unique physical global form, charge scale, force, coupling or empirical mechanism is inferred.",
+    "No classroom learner trial or measured timing assessment performed.",
+    "Markdown-only delivery: tables and textual equations inspected; no paginated document rendering was requested.",
+    "Recommendation applies to the recorded manifest/file hashes; parent retains final acceptance authority."
+  ],
+  "eligible_for_parent_acceptance": true,
+  "source_files_copied": false,
+  "course_or_parent_files_modified": false
+}

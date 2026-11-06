@@ -1,0 +1,2428 @@
+{
+  "schema_version": "1.0",
+  "created_utc": "2026-11-05T18:20:13.697555+00:00",
+  "scope": "Portable teaching BLUEPRINT amendments only; no completed-course approval.",
+  "source_basis": [
+    {
+      "id": "S01",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "role": "archival source; reported status is distinct from fresh verification"
+    },
+    {
+      "id": "S02",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "role": "archival source; reported status is distinct from fresh verification"
+    },
+    {
+      "id": "S03",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "role": "archival source; reported status is distinct from fresh verification"
+    },
+    {
+      "id": "S04",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+      "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "role": "archival source; reported status is distinct from fresh verification"
+    },
+    {
+      "id": "S05",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+      "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+      "role": "archival source; reported status is distinct from fresh verification"
+    }
+  ],
+  "courses": [
+    {
+      "course_id": "course-13",
+      "input_contract_path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-13-root-systems-symmetry-and-a1-a2-structure\\input-contract.json",
+      "input_contract_sha256": "7de23b047626f64f38043f8f6e0f4a3f768fb0b56120b8b2b7761a247d4cb5b3",
+      "application": "Merge additively as teaching_amendment, replace generic coverage references with explicit exercise IDs, and retain all original concepts, source amendments and educational bridge IDs. Parent applies; no project edit was made.",
+      "applied_source_amendments_read": {},
+      "original_subject_kernel": {
+        "objects_and_operations": [
+          {
+            "concept_id": "C13.01",
+            "concept": "Symmetry as an operation with a rule",
+            "operation": "Check closure and invariants in a small transformation set"
+          },
+          {
+            "concept_id": "C13.02",
+            "concept": "Side transfers and the A1 pattern",
+            "operation": "Derive the allowed two-side transfer and its parity quotient"
+          },
+          {
+            "concept_id": "C13.03",
+            "concept": "Three channels and the A2 plane",
+            "operation": "Draw sum-zero triples and compute their basic inner products"
+          },
+          {
+            "concept_id": "C13.04",
+            "concept": "Roots, weights, and quotient labels",
+            "operation": "Distinguish a root step from a weight class"
+          },
+          {
+            "concept_id": "C13.05",
+            "concept": "Primitive lifts and role separation",
+            "operation": "Separate primitive lifts, family labels, and detector parity"
+          },
+          {
+            "concept_id": "C13.06",
+            "concept": "From a geometric pattern to an action",
+            "operation": "Specify the carrier and map needed for a symmetry claim"
+          }
+        ],
+        "source_modules": [
+          "M09"
+        ],
+        "scope": "Build a labeled A1/A2 transfer atlas with invariant checks and a precise account of each quotient.",
+        "common_failure_modes": [
+          "Untaught prerequisite",
+          "Unscoped symbol or unit",
+          "An illustrative example presented as real evidence",
+          "A source label promoted beyond its evidence class",
+          "A residual or source branch silently omitted"
+        ]
+      },
+      "original_capstone_specification": {
+        "task": "Build a labeled A1/A2 transfer atlas with invariant checks and a precise account of each quotient.",
+        "required_operations": [
+          "Check closure and invariants in a small transformation set",
+          "Derive the allowed two-side transfer and its parity quotient",
+          "Draw sum-zero triples and compute their basic inner products",
+          "Distinguish a root step from a weight class",
+          "Separate primitive lifts, family labels, and detector parity",
+          "Specify the carrier and map needed for a symmetry claim"
+        ],
+        "rule": "Map every capstone operation to a prior introduction and practice; provide full answers, point rubric, source scope, and residual accounting."
+      },
+      "source_coverage_review_rows": [
+        {
+          "course_id": "course-13",
+          "title": "Root Systems, Symmetry, and A1–A2 Structure",
+          "backbone_modules": [
+            "M09"
+          ],
+          "topic_boundary": "A1 carry-side transfers and A2 primitive lifts; roots, weights and quotient labels preserve physical roles.",
+          "cognitive_or_fidelity_risk": "An isomorphic lattice is not an identified physical action.",
+          "status": "source_map_review_complete_teaching_decision_pending",
+          "primary_sources": [
+            "S02"
+          ],
+          "source_pointer": "/backbone_sequence/8",
+          "packet_at_review": {
+            "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-13-root-systems-symmetry-and-a1-a2-structure\\input-contract.json",
+            "sha256": "30856fd09d2a404367464adf249afc82fa5c0e85900f5e06a8d1dfafea98859b",
+            "lesson_count": 6
+          },
+          "required_amendment_ids": [],
+          "source_launch_decision": "ready_for_source_scoped_drafting_with_required_gates",
+          "decision_scope": "Source/coverage only; no new teaching acceptance or finished-course validation.",
+          "educational_gate": [
+            "E05",
+            "independent_teaching_recheck"
+          ]
+        }
+      ],
+      "source_scope": {
+        "primary": "S02#/backbone_sequence/8",
+        "branches": [
+          "S02#/branch_proofs/3",
+          "S02#/branch_proofs/6"
+        ],
+        "finite_scope": "A1 carry difference root2Z in weightZ; A2 roots are integer zero-sum triples, centered weight lattice generated byu1,u2; quotient criterion a+b mod3. Abstract Euclidean root dot product is not the Cell3 physical metric. Primitive-lift channel roles, 27 compatible address lifts, family tags, face-ray coordinates and detector parity are separate.",
+        "source_formula_ids": [
+          "KFM-X020",
+          "KFM-X021",
+          "KFM-X014"
+        ],
+        "extension_boundary": "Full address/character-channel compiler and physical action identification are not prerequisites of this finite root atlas."
+      },
+      "course_map": [
+        {
+          "id": "lesson-01",
+          "title": "Symmetry as an operation with a rule",
+          "entry_prerequisites": [
+            "course-09",
+            "course-11",
+            "course-12"
+          ],
+          "concept_ids": [
+            "C13.01"
+          ],
+          "worked_example_capability": "Check closure and invariants in a small transformation set",
+          "assessment_target": "Check closure and invariants in a small transformation set",
+          "later_use": "lesson-02",
+          "core_minutes": 55,
+          "planned_periods": 1,
+          "planned_total_minutes": 55,
+          "explanation_id": "C13.01-E1",
+          "worked_example_id": "C13.01-W1",
+          "prior_practice_id": "C13.01-P1",
+          "diagnostic_id": "C13.01-D1"
+        },
+        {
+          "id": "lesson-02",
+          "title": "Side transfers and the A1 pattern",
+          "entry_prerequisites": [
+            "lesson-01"
+          ],
+          "concept_ids": [
+            "C13.02"
+          ],
+          "worked_example_capability": "Derive the allowed two-side transfer and its parity quotient",
+          "assessment_target": "Derive the allowed two-side transfer and its parity quotient",
+          "later_use": "lesson-03",
+          "core_minutes": 55,
+          "planned_periods": 2,
+          "planned_total_minutes": 110,
+          "explanation_id": "C13.02-E1",
+          "worked_example_id": "C13.02-W1",
+          "prior_practice_id": "C13.02-P1",
+          "diagnostic_id": "C13.02-D1"
+        },
+        {
+          "id": "lesson-03",
+          "title": "Three channels and the A2 plane",
+          "entry_prerequisites": [
+            "lesson-02"
+          ],
+          "concept_ids": [
+            "C13.03"
+          ],
+          "worked_example_capability": "Draw sum-zero triples and compute their basic inner products",
+          "assessment_target": "Draw sum-zero triples and compute their basic inner products",
+          "later_use": "lesson-04",
+          "core_minutes": 55,
+          "planned_periods": 2,
+          "planned_total_minutes": 110,
+          "explanation_id": "C13.03-E1",
+          "worked_example_id": "C13.03-W1",
+          "prior_practice_id": "C13.03-P1",
+          "diagnostic_id": "C13.03-D1"
+        },
+        {
+          "id": "lesson-04",
+          "title": "Roots, weights, and quotient labels",
+          "entry_prerequisites": [
+            "lesson-03"
+          ],
+          "concept_ids": [
+            "C13.04"
+          ],
+          "worked_example_capability": "Distinguish a root step from a weight class",
+          "assessment_target": "Distinguish a root step from a weight class",
+          "later_use": "lesson-05",
+          "core_minutes": 55,
+          "planned_periods": 2,
+          "planned_total_minutes": 110,
+          "explanation_id": "C13.04-E1",
+          "worked_example_id": "C13.04-W1",
+          "prior_practice_id": "C13.04-P1",
+          "diagnostic_id": "C13.04-D1"
+        },
+        {
+          "id": "lesson-05",
+          "title": "Primitive lifts and role separation",
+          "entry_prerequisites": [
+            "lesson-04"
+          ],
+          "concept_ids": [
+            "C13.05"
+          ],
+          "worked_example_capability": "Separate primitive lifts, family labels, and detector parity",
+          "assessment_target": "Separate primitive lifts, family labels, and detector parity",
+          "later_use": "lesson-06",
+          "core_minutes": 55,
+          "planned_periods": 1,
+          "planned_total_minutes": 55,
+          "explanation_id": "C13.05-E1",
+          "worked_example_id": "C13.05-W1",
+          "prior_practice_id": "C13.05-P1",
+          "diagnostic_id": "C13.05-D1"
+        },
+        {
+          "id": "lesson-06",
+          "title": "From a geometric pattern to an action",
+          "entry_prerequisites": [
+            "lesson-05"
+          ],
+          "concept_ids": [
+            "C13.06"
+          ],
+          "worked_example_capability": "Specify the carrier and map needed for a symmetry claim",
+          "assessment_target": "Specify the carrier and map needed for a symmetry claim",
+          "later_use": "capstone",
+          "core_minutes": 55,
+          "planned_periods": 1,
+          "planned_total_minutes": 55,
+          "explanation_id": "C13.06-E1",
+          "worked_example_id": "C13.06-W1",
+          "prior_practice_id": "C13.06-P1",
+          "diagnostic_id": "C13.06-D1"
+        }
+      ],
+      "lessons": [
+        {
+          "lesson_id": "lesson-01",
+          "concept_id": "C13.01",
+          "explanation_id": "C13.01-E1",
+          "bridge_to_teach": "Define a transformation, composition, identity and inverse by acting on explicit tuples. Build finite composition tables before the group name. State the carrier and the quantity preserved.",
+          "worked_example": {
+            "id": "C13.01-W1",
+            "task_and_answer": "On ordered real pairs let R(x,y)=(y,x). I and R satisfy II=I,IR=RI=R,RR=I. For(2,5), R gives(5,2), preserving sum7 and squared norm29; inverse is R."
+          },
+          "guided_practice": {
+            "id": "C13.01-P1",
+            "task_and_answer": "On ordered triples let T(x,y,z)=(z,x,y). T(1,2,3)=(3,1,2), T^2 gives(2,3,1), T^3=I. The three operations compose by exponents modulo3 and preserve sum6 and squared norm14."
+          },
+          "diagnostic": {
+            "id": "C13.01-D1",
+            "task_and_answer": "The set{I,T} is not closed since T*T=T^2 is missing. A rule without a carrier or composition law is insufficient for a symmetry claim."
+          },
+          "planned_periods": 1,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand these anchors into actual senior-facing teaching with 2–4 goals and 3–5 answered diagnostics. Preserve original IDs and all source/educational amendments. Every assessed operation needs prior independently answered practice. Periods may expand; split dense sessions with all links updated.",
+          "original_title": "Symmetry as an operation with a rule",
+          "original_assessment_target": "Check closure and invariants in a small transformation set",
+          "required_source_amendment_ids": [],
+          "original_entry_prerequisites": [
+            "course-09",
+            "course-11",
+            "course-12"
+          ]
+        },
+        {
+          "lesson_id": "lesson-02",
+          "concept_id": "C13.02",
+          "explanation_id": "C13.02-E1",
+          "bridge_to_teach": "Review signed carries, S=C_b+C_c and A=C_b-C_c; derive inverse halves and equal-parity condition. Teach integer congruence including negative examples and the root-step quotient Q1=2Z within P1=Z.",
+          "worked_example": {
+            "id": "C13.02-W1",
+            "task_and_answer": "(C_b,C_c)=(2,1) gives(S,A)=(3,1). Transfer(1,-1) yields(3,0),(S,A)=(3,3); S fixed,A increased2, odd class retained. Reverse by(-1,1)."
+          },
+          "guided_practice": {
+            "id": "C13.02-P1",
+            "task_and_answer": "(-1,3) gives S=2,A=-4; after transfer(0,2),S=2,A=-2. Both represent even class0 mod2. Recover the input as((S+A)/2,(S-A)/2)=(-1,3)."
+          },
+          "diagnostic": {
+            "id": "C13.02-D1",
+            "task_and_answer": "A parity class alone loses the integer A; retain A or quotient representative plus its even displacement. S=1,A=0 cannot decode integer carries. Carry parity is not detector antipodal parity."
+          },
+          "planned_periods": 2,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand these anchors into actual senior-facing teaching with 2–4 goals and 3–5 answered diagnostics. Preserve original IDs and all source/educational amendments. Every assessed operation needs prior independently answered practice. Periods may expand; split dense sessions with all links updated.",
+          "original_title": "Side transfers and the A1 pattern",
+          "original_assessment_target": "Derive the allowed two-side transfer and its parity quotient",
+          "required_source_amendment_ids": [],
+          "original_entry_prerequisites": [
+            "lesson-01"
+          ]
+        },
+        {
+          "lesson_id": "lesson-03",
+          "concept_id": "C13.03",
+          "explanation_id": "C13.03-E1",
+          "bridge_to_teach": "Build the plane x+y+z=0 with integer vectors. Define alpha1=(1,-1,0),alpha2=(0,1,-1); use ordinary Euclidean dot products on this abstract carrier, not a Cell3 physical metric. Teach Cartan entries2(alpha_i dot alpha_j)/(alpha_j dot alpha_j).",
+          "worked_example": {
+            "id": "C13.03-W1",
+            "task_and_answer": "alpha1^2=alpha2^2=2 and alpha1 dot alpha2=-1, so Cartan=[[2,-1],[-1,2]]. All six roots are the signed differences e_i-e_j. q=(2,-3,1)=2alpha1-alpha2."
+          },
+          "guided_practice": {
+            "id": "C13.03-P1",
+            "task_and_answer": "q=(-1,3,-2)=-alpha1+2alpha2; reconstruct each component. alpha1+alpha2=(1,0,-1) has norm squared2; alpha1 dot(alpha1+alpha2)=1. Verify zero sum for every root."
+          },
+          "diagnostic": {
+            "id": "C13.03-D1",
+            "task_and_answer": "Zero-sum(1/2,-1/2,0) lies in the real plane but not its integer root lattice. Any integer q=(x,y,z) with sum0 equals x alpha1-z alpha2; show this componentwise."
+          },
+          "planned_periods": 2,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand these anchors into actual senior-facing teaching with 2–4 goals and 3–5 answered diagnostics. Preserve original IDs and all source/educational amendments. Every assessed operation needs prior independently answered practice. Periods may expand; split dense sessions with all links updated.",
+          "original_title": "Three channels and the A2 plane",
+          "original_assessment_target": "Draw sum-zero triples and compute their basic inner products",
+          "required_source_amendment_ids": [],
+          "original_entry_prerequisites": [
+            "lesson-02"
+          ]
+        },
+        {
+          "lesson_id": "lesson-04",
+          "concept_id": "C13.04",
+          "explanation_id": "C13.04-E1",
+          "bridge_to_teach": "Define centered weights u_i=e_i-(1,1,1)/3. Explicitly define P2=Z u1+Z u2 with u3=-u1-u2, and Q2 as integer zero-sum vectors. Show a u1+b u2 is integral iff a+b=0 mod3, giving three classes without assuming an abstract quotient theorem.",
+          "worked_example": {
+            "id": "C13.04-W1",
+            "task_and_answer": "u1=(2,-1,-1)/3; u1-u2=alpha1. u1 and2u1 are nonintegral but3u1=(2,-1,-1) is a root-lattice vector. Representatives0,u1,2u1 have classes0,1,2; addition is modulo3."
+          },
+          "guided_practice": {
+            "id": "C13.04-P1",
+            "task_and_answer": "u1+u2=(1,1,-2)/3 has class2. 2u1+u2=(1,0,-1)=alpha1+alpha2 has class0. u2-u1=(-1,1,0) lies in Q2, so u1 andu2 share a class. Retain coefficients(a,b) when making a quotient view."
+          },
+          "diagnostic": {
+            "id": "C13.04-D1",
+            "task_and_answer": "The three displayed weights u1,u2,u3 are three channels in one nonzero quotient class, not the three quotient classes. A root step leaves class unchanged but changes the vector; quotient label alone cannot reconstruct it."
+          },
+          "planned_periods": 2,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand these anchors into actual senior-facing teaching with 2–4 goals and 3–5 answered diagnostics. Preserve original IDs and all source/educational amendments. Every assessed operation needs prior independently answered practice. Periods may expand; split dense sessions with all links updated.",
+          "original_title": "Roots, weights, and quotient labels",
+          "original_assessment_target": "Distinguish a root step from a weight class",
+          "required_source_amendment_ids": [],
+          "original_entry_prerequisites": [
+            "lesson-03"
+          ]
+        },
+        {
+          "lesson_id": "lesson-05",
+          "concept_id": "C13.05",
+          "explanation_id": "C13.05-E1",
+          "bridge_to_teach": "Use a typed record to separate formal primitive-lift channel basis e1,e2,e3, their centered weights, family labels, projective ray coordinates and detector parity. Read source M09 guards and distinguish three primitive channels from all compatible address lifts.",
+          "worked_example": {
+            "id": "C13.05-W1",
+            "task_and_answer": "Formal e1,e2 have sum1 and differencealpha1. Centering givesu1,u2. A source-compatible lift of residue(1,0,0) mod3 is(1,0,0)+3(0,1,-1)=(1,3,-3), reducing to the same residue. It is not a new face-area ratio."
+          },
+          "guided_practice": {
+            "id": "C13.05-P1",
+            "task_and_answer": "Use lift(1,0,0)+3(-1,0,1)=(-2,0,3); reduction mod3 again(1,0,0), and retained lift digit(-1,0,1) reconstructs it. Separately record an arbitrary family tag F2 and detector parity -1; neither is determined by A mod2 or weight class."
+          },
+          "diagnostic": {
+            "id": "C13.05-D1",
+            "task_and_answer": "There are27 compatible lifts when all three digits vary in{-1,0,1}; this does not mean27 primitive channel types. The source three primitive lifts are not the three projective ray coordinates; do not identify them just because both use triples."
+          },
+          "planned_periods": 1,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand these anchors into actual senior-facing teaching with 2–4 goals and 3–5 answered diagnostics. Preserve original IDs and all source/educational amendments. Every assessed operation needs prior independently answered practice. Periods may expand; split dense sessions with all links updated.",
+          "original_title": "Primitive lifts and role separation",
+          "original_assessment_target": "Separate primitive lifts, family labels, and detector parity",
+          "required_source_amendment_ids": [],
+          "original_entry_prerequisites": [
+            "lesson-04"
+          ]
+        },
+        {
+          "lesson_id": "lesson-06",
+          "concept_id": "C13.06",
+          "explanation_id": "C13.06-E1",
+          "bridge_to_teach": "Require a carrier, map and invariant check for an action. Use explicit permutation matrices on the root plane. Keep numerical coincidences and physical assignments separate from the finite action proved.",
+          "worked_example": {
+            "id": "C13.06-W1",
+            "task_and_answer": "T(x,y,z)=(z,x,y) sends alpha1 toalpha2 and alpha2 to(-1,0,1)=-(alpha1+alpha2). T^3=I and T^T T=I, hence it permutes roots and preserves dot products and the zero-sum plane."
+          },
+          "guided_practice": {
+            "id": "C13.06-P1",
+            "task_and_answer": "T(2,-3,1)=(1,2,-3)=alpha1+3alpha2. T^2 returns via(-3,1,2), and T^3 restores(2,-3,1). Compute squared norm14 before/after; retain the original vector with quotient label."
+          },
+          "diagnostic": {
+            "id": "C13.06-D1",
+            "task_and_answer": "A matching A2 diagram on a different carrier does not specify a physical action. Supply an explicit map and check that the declared operations commute with it; otherwise label the identification unresolved."
+          },
+          "planned_periods": 1,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand these anchors into actual senior-facing teaching with 2–4 goals and 3–5 answered diagnostics. Preserve original IDs and all source/educational amendments. Every assessed operation needs prior independently answered practice. Periods may expand; split dense sessions with all links updated.",
+          "original_title": "From a geometric pattern to an action",
+          "original_assessment_target": "Specify the carrier and map needed for a symmetry claim",
+          "required_source_amendment_ids": [],
+          "original_entry_prerequisites": [
+            "lesson-05"
+          ]
+        }
+      ],
+      "capstone_backward_map": [
+        {
+          "step_id": "C13-CAP-01",
+          "operation": "Build the three-operation permutation table and verify identity,inverse,sum and norm on(1,2,3).",
+          "introduction": "lesson-01",
+          "explanation_id": "C13.01-E1",
+          "worked_example_id": "C13.01-W1",
+          "prior_practice_id": "C13.01-P1",
+          "diagnostic_id": "C13.01-D1"
+        },
+        {
+          "step_id": "C13-CAP-02",
+          "operation": "Apply the side transfer to(-1,3), decode S/A and preserve the quotient class with full carry data.",
+          "introduction": "lesson-02",
+          "explanation_id": "C13.02-E1",
+          "worked_example_id": "C13.02-W1",
+          "prior_practice_id": "C13.02-P1",
+          "diagnostic_id": "C13.02-D1"
+        },
+        {
+          "step_id": "C13-CAP-03",
+          "operation": "Enumerate six roots, calculate Cartan entries and reconstruct(-1,3,-2) from simple roots.",
+          "introduction": "lesson-03",
+          "explanation_id": "C13.03-E1",
+          "worked_example_id": "C13.03-W1",
+          "prior_practice_id": "C13.03-P1",
+          "diagnostic_id": "C13.03-D1"
+        },
+        {
+          "step_id": "C13-CAP-04",
+          "operation": "Compute centered weights and classes ofu1+u2 and2u1+u2; distinguish the three weight channels from the three quotient classes.",
+          "introduction": "lesson-04",
+          "explanation_id": "C13.04-E1",
+          "worked_example_id": "C13.04-W1",
+          "prior_practice_id": "C13.04-P1",
+          "diagnostic_id": "C13.04-D1"
+        },
+        {
+          "step_id": "C13-CAP-05",
+          "operation": "Decode the taught compatible lift, retaining residue and lift digit; separate primitive channels,family tag,ray coordinates and detector parity.",
+          "introduction": "lesson-05",
+          "explanation_id": "C13.05-E1",
+          "worked_example_id": "C13.05-W1",
+          "prior_practice_id": "C13.05-P1",
+          "diagnostic_id": "C13.05-D1"
+        },
+        {
+          "step_id": "C13-CAP-06",
+          "operation": "Verify the supplied cyclic action on roots and(2,-3,1), state carrier,map and limits on physical identification.",
+          "introduction": "lesson-06",
+          "explanation_id": "C13.06-E1",
+          "worked_example_id": "C13.06-W1",
+          "prior_practice_id": "C13.06-P1",
+          "diagnostic_id": "C13.06-D1"
+        }
+      ],
+      "core_periods": 9,
+      "capstone_periods": 2,
+      "period_minutes": 55,
+      "core_boundary": "Finite signed arithmetic,explicit matrices,small exterior basis operations and source-reading cards. General Lie theory,quotient-bundle anomaly proofs,full source compiler execution,empirical physical uniqueness and untaught variational dynamics are not hidden capstone requirements.",
+      "prerequisite_status": "Blueprint closure checked for explicit operations. Final produced explanations,answered practice and assessment must still undergo independent content acceptance."
+    },
+    {
+      "course_id": "course-14",
+      "input_contract_path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-14-complex-carriers-and-gauge-symmetry\\input-contract.json",
+      "input_contract_sha256": "a54f2c7073bd7533dae3760961ff64ed633a13edfc97f303d3942b4015ffd632",
+      "application": "Merge additively as teaching_amendment, replace generic coverage references with explicit exercise IDs, and retain all original concepts, source amendments and educational bridge IDs. Parent applies; no project edit was made.",
+      "applied_source_amendments_read": {
+        "SA-14": {
+          "id": "SA-14",
+          "course": 14,
+          "finding": "source_fidelity",
+          "lessons": [
+            "lesson-03",
+            "lesson-05",
+            "lesson-07"
+          ],
+          "merge_action": "append unique requirements to source_audit_contract; attach to named lesson authoring obligations; preserve existing fields",
+          "requirements": [
+            "Use color-first H=C3 direct-sum W2 and charge vector (-2,-2,-2,3,3); any weak-first presentation requires a declared permutation.",
+            "Maintain two source records: the mature determinant-lock/Z6 construction and the integration's admitted physical global-form family Z1,Z2,Z3,Z6. Preserve exact formal authority and source status on each.",
+            "Compiler adjudication M03/M07/M08 labels are not interchangeable with identically numbered mathematical backbone modules."
+          ],
+          "source_references": [
+            "S02#/typed_conventions/carrier_order",
+            "S02#/backbone_sequence/9",
+            "S03#/findings/3",
+            "I01#/hazards/3",
+            "I02#/direct_authority_modules"
+          ],
+          "status": "applied_to_blueprint_by_parent",
+          "prior_application_status": "prepared_not_applied",
+          "applied_at": "2026-11-05T17:02:05.375955+00:00"
+        },
+        "EA-14-E06-2": {
+          "course": 14,
+          "finding": "E06",
+          "lessons": [
+            "lesson-01",
+            "lesson-02",
+            "lesson-03",
+            "lesson-04",
+            "lesson-05"
+          ],
+          "required_bridge": "Teach i^2=-1, real/imaginary components, complex conjugation, squared modulus, matrix conjugate transpose, group composition and a finite map kernel through explicit operations.",
+          "worked_example": {
+            "id": "C14-CX-EX1",
+            "z": "1+i",
+            "rotation": "i*z=-1+i",
+            "squared_modulus_before_after": [
+              2,
+              2
+            ],
+            "unitary_example": "U=diag(i,-i), U†=diag(-i,i), U†U=I",
+            "finite_kernel_example": "Add modulo6 and map to addition modulo3 by f(k)=k mod3; enumerate all six inputs, kernel={0,3}. This toy map is not an asserted Standard Model quotient."
+          },
+          "practice": "C14-CX-P1 rotate 2-i by i and compute modulus; C14-KER-D1 compute kernel of k mod2 from addition modulo6, obtaining {0,2,4}. Trace the actual source cover kernel separately; do not infer it from the toy.",
+          "id": "EA-14-E06-2",
+          "status": "applied_to_blueprint_by_parent",
+          "merge_action": "Attach to named lesson authoring obligations and capstone prerequisites. Actual content links remain an E05 acceptance gate.",
+          "prior_application_status": "prepared_not_applied",
+          "applied_at": "2026-11-05T17:02:05.375955+00:00"
+        }
+      },
+      "original_subject_kernel": {
+        "objects_and_operations": [
+          {
+            "concept_id": "C14.01",
+            "concept": "Complex numbers and phase",
+            "operation": "Compute conjugates, magnitudes, and simple phase rotations"
+          },
+          {
+            "concept_id": "C14.02",
+            "concept": "Inner products and unitary changes",
+            "operation": "Verify a small norm-preserving complex transformation"
+          },
+          {
+            "concept_id": "C14.03",
+            "concept": "The ordered three-plus-two carrier",
+            "operation": "Represent the color-first block order consistently"
+          },
+          {
+            "concept_id": "C14.04",
+            "concept": "Determinants and the top-form lock",
+            "operation": "Explain and calculate a small determinant-preservation condition"
+          },
+          {
+            "concept_id": "C14.05",
+            "concept": "Cover maps and quotient kernels",
+            "operation": "Verify the finite center-kernel calculation in a concrete example"
+          },
+          {
+            "concept_id": "C14.06",
+            "concept": "Local symmetry and physical role",
+            "operation": "Separate an abstract group from a supplied action on a carrier"
+          },
+          {
+            "concept_id": "C14.07",
+            "concept": "Reconciling source branches",
+            "operation": "State the mature-group claim and the integration gauge-family disposition with their distinct scopes"
+          }
+        ],
+        "source_modules": [
+          "M10"
+        ],
+        "scope": "Trace a fully typed carrier-to-cover-map example and prepare a source-comparison table that preserves unresolved global-form distinctions.",
+        "common_failure_modes": [
+          "Untaught prerequisite",
+          "Unscoped symbol or unit",
+          "An illustrative example presented as real evidence",
+          "A source label promoted beyond its evidence class",
+          "A residual or source branch silently omitted"
+        ]
+      },
+      "original_capstone_specification": {
+        "task": "Trace a fully typed carrier-to-cover-map example and prepare a source-comparison table that preserves unresolved global-form distinctions.",
+        "required_operations": [
+          "Compute conjugates, magnitudes, and simple phase rotations",
+          "Verify a small norm-preserving complex transformation",
+          "Represent the color-first block order consistently",
+          "Explain and calculate a small determinant-preservation condition",
+          "Verify the finite center-kernel calculation in a concrete example",
+          "Separate an abstract group from a supplied action on a carrier",
+          "State the mature-group claim and the integration gauge-family disposition with their distinct scopes"
+        ],
+        "rule": "Map every capstone operation to a prior introduction and practice; provide full answers, point rubric, source scope, and residual accounting."
+      },
+      "source_coverage_review_rows": [
+        {
+          "course_id": "course-14",
+          "title": "Complex Carriers and Gauge Symmetry",
+          "backbone_modules": [
+            "M10"
+          ],
+          "topic_boundary": "Complex color-first carrier, determinant lock, cover kernel and separate source-local/global-form adjudications.",
+          "cognitive_or_fidelity_risk": "Abstract quotient calculation does not resolve the integration's physical global-form family.",
+          "status": "source_map_review_complete_teaching_decision_pending",
+          "primary_sources": [
+            "S02"
+          ],
+          "source_pointer": "/backbone_sequence/9",
+          "packet_at_review": {
+            "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-14-complex-carriers-and-gauge-symmetry\\input-contract.json",
+            "sha256": "3de310239aaf64f6ae0cfa813ff9a129ee8f73404789e06eca502bf0a48754c1",
+            "lesson_count": 7
+          },
+          "required_amendment_ids": [
+            "SA-14"
+          ],
+          "source_launch_decision": "ready_for_source_scoped_drafting_with_required_gates",
+          "decision_scope": "Source/coverage only; no new teaching acceptance or finished-course validation.",
+          "educational_gate": [
+            "E05",
+            "E06",
+            "independent_teaching_recheck"
+          ]
+        }
+      ],
+      "source_scope": {
+        "primary": "S02#/backbone_sequence/9",
+        "correction": "S03#/findings/3",
+        "branches": [
+          "S02#/branch_proofs/6"
+        ],
+        "canonical_order": "C3 then W2; source weak-first tuple uses the explicit5x5 permutation with output indices[2,3,4,0,1].",
+        "cover_domain": "SU(3)xSU(2)xU(1), with the stated block Hermitian/top-form contract. Phi is the displayed source map; its kernel is exactly the six verified elements. Abstract surjectivity/group classification may be source-read recognition; no universal physical uniqueness proof is assessed.",
+        "integration_card": {
+          "I01": {
+            "logical_path": "applications/kfield_standard_model/collaborator_record/project_record.json",
+            "retrieved_alias": "kfield_standard_model/project_record.json",
+            "sha256": "3800c854da827a64e72507722904bcafab07a31e88f2bc73920a8e7f62f62c1c",
+            "pointers": [
+              "/hazards/3",
+              "/open_obligations/1",
+              "/open_obligations/2"
+            ],
+            "retrieval": "Krytronx RAG source-attributed lines1–142; semantic_entity search returned no match; ragobj byte getter returned object-not-found. Content below is grounded in the returned RAG source excerpts and the matching prior source-audit hash, not a fresh local byte hash.",
+            "global_form_family": [
+              "Z1",
+              "Z2",
+              "Z3",
+              "Z6"
+            ],
+            "status": "integration admits the family; unique physical member remains unresolved"
+          },
+          "I02": {
+            "logical_path": "kfield_standard_model/evidence/p12_standard_model_compiler_adjudication_report.json",
+            "sha256": "a3dfca0e55e525c6522c3088b95e5bcc048c141fce340bfe980fcfc14123220a",
+            "pointers": [
+              "/direct_authority_modules",
+              "/agda/certificate",
+              "/known_science_replay"
+            ],
+            "retrieval": "Krytronx RAG source-attributed lines1–101; exact fields visible in returned source excerpt.",
+            "direct_authority_modules": [
+              "M03",
+              "M07",
+              "M08"
+            ],
+            "namespace": "Standard Model compiler adjudication, not mathematical backbone",
+            "reported_certificate": "KField.StandardModelCompilerAdjudication.p12-standard-model-compiler-adjudication",
+            "fresh_typecheck": false
+          },
+          "retrieval_identity": {
+            "corpus_generation": "sha256:5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+            "manifest_sha256": "5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+            "origin": "paired fields on RAG responses; capabilities alone exposed no corpus pair",
+            "rag_index_sha256": "aca56e6b5b2b717459cea9790e6142ea9e8058f74d135710906926e9065ad54a"
+          },
+          "teaching_use": "Supply this small provenance card with source-local contract and integration status in separate rows. No compiler execution, global physical uniqueness or source-author authentication is claimed."
+        }
+      },
+      "course_map": [
+        {
+          "id": "lesson-01",
+          "title": "Complex numbers and phase",
+          "entry_prerequisites": [
+            "course-13"
+          ],
+          "concept_ids": [
+            "C14.01"
+          ],
+          "worked_example_capability": "Compute conjugates, magnitudes, and simple phase rotations",
+          "assessment_target": "Compute conjugates, magnitudes, and simple phase rotations",
+          "later_use": "lesson-02",
+          "core_minutes": 55,
+          "required_amendment_ids": [
+            "EA-14-E06-2"
+          ],
+          "planned_periods": 2,
+          "planned_total_minutes": 110,
+          "explanation_id": "C14.01-E1",
+          "worked_example_id": "C14.01-W1",
+          "prior_practice_id": "C14.01-P1",
+          "diagnostic_id": "C14.01-D1"
+        },
+        {
+          "id": "lesson-02",
+          "title": "Inner products and unitary changes",
+          "entry_prerequisites": [
+            "lesson-01"
+          ],
+          "concept_ids": [
+            "C14.02"
+          ],
+          "worked_example_capability": "Verify a small norm-preserving complex transformation",
+          "assessment_target": "Verify a small norm-preserving complex transformation",
+          "later_use": "lesson-03",
+          "core_minutes": 55,
+          "required_amendment_ids": [
+            "EA-14-E06-2"
+          ],
+          "planned_periods": 2,
+          "planned_total_minutes": 110,
+          "explanation_id": "C14.02-E1",
+          "worked_example_id": "C14.02-W1",
+          "prior_practice_id": "C14.02-P1",
+          "diagnostic_id": "C14.02-D1"
+        },
+        {
+          "id": "lesson-03",
+          "title": "The ordered three-plus-two carrier",
+          "entry_prerequisites": [
+            "lesson-02"
+          ],
+          "concept_ids": [
+            "C14.03"
+          ],
+          "worked_example_capability": "Represent the color-first block order consistently",
+          "assessment_target": "Represent the color-first block order consistently",
+          "later_use": "lesson-04",
+          "core_minutes": 55,
+          "required_amendment_ids": [
+            "SA-14",
+            "EA-14-E06-2"
+          ],
+          "planned_periods": 1,
+          "planned_total_minutes": 55,
+          "explanation_id": "C14.03-E1",
+          "worked_example_id": "C14.03-W1",
+          "prior_practice_id": "C14.03-P1",
+          "diagnostic_id": "C14.03-D1"
+        },
+        {
+          "id": "lesson-04",
+          "title": "Determinants and the top-form lock",
+          "entry_prerequisites": [
+            "lesson-03"
+          ],
+          "concept_ids": [
+            "C14.04"
+          ],
+          "worked_example_capability": "Explain and calculate a small determinant-preservation condition",
+          "assessment_target": "Explain and calculate a small determinant-preservation condition",
+          "later_use": "lesson-05",
+          "core_minutes": 55,
+          "required_amendment_ids": [
+            "EA-14-E06-2"
+          ],
+          "planned_periods": 2,
+          "planned_total_minutes": 110,
+          "explanation_id": "C14.04-E1",
+          "worked_example_id": "C14.04-W1",
+          "prior_practice_id": "C14.04-P1",
+          "diagnostic_id": "C14.04-D1"
+        },
+        {
+          "id": "lesson-05",
+          "title": "Cover maps and quotient kernels",
+          "entry_prerequisites": [
+            "lesson-04"
+          ],
+          "concept_ids": [
+            "C14.05"
+          ],
+          "worked_example_capability": "Verify the finite center-kernel calculation in a concrete example",
+          "assessment_target": "Verify the finite center-kernel calculation in a concrete example",
+          "later_use": "lesson-06",
+          "core_minutes": 55,
+          "required_amendment_ids": [
+            "SA-14",
+            "EA-14-E06-2"
+          ],
+          "planned_periods": 3,
+          "planned_total_minutes": 165,
+          "explanation_id": "C14.05-E1",
+          "worked_example_id": "C14.05-W1",
+          "prior_practice_id": "C14.05-P1",
+          "diagnostic_id": "C14.05-D1"
+        },
+        {
+          "id": "lesson-06",
+          "title": "Local symmetry and physical role",
+          "entry_prerequisites": [
+            "lesson-05"
+          ],
+          "concept_ids": [
+            "C14.06"
+          ],
+          "worked_example_capability": "Separate an abstract group from a supplied action on a carrier",
+          "assessment_target": "Separate an abstract group from a supplied action on a carrier",
+          "later_use": "lesson-07",
+          "core_minutes": 55,
+          "planned_periods": 1,
+          "planned_total_minutes": 55,
+          "explanation_id": "C14.06-E1",
+          "worked_example_id": "C14.06-W1",
+          "prior_practice_id": "C14.06-P1",
+          "diagnostic_id": "C14.06-D1"
+        },
+        {
+          "id": "lesson-07",
+          "title": "Reconciling source branches",
+          "entry_prerequisites": [
+            "lesson-06"
+          ],
+          "concept_ids": [
+            "C14.07"
+          ],
+          "worked_example_capability": "State the mature-group claim and the integration gauge-family disposition with their distinct scopes",
+          "assessment_target": "State the mature-group claim and the integration gauge-family disposition with their distinct scopes",
+          "later_use": "capstone",
+          "core_minutes": 55,
+          "required_amendment_ids": [
+            "SA-14"
+          ],
+          "planned_periods": 1,
+          "planned_total_minutes": 55,
+          "explanation_id": "C14.07-E1",
+          "worked_example_id": "C14.07-W1",
+          "prior_practice_id": "C14.07-P1",
+          "diagnostic_id": "C14.07-D1"
+        }
+      ],
+      "lessons": [
+        {
+          "lesson_id": "lesson-01",
+          "concept_id": "C14.01",
+          "explanation_id": "C14.01-E1",
+          "bridge_to_teach": "Retain EA-14-E06-2. Teach i^2=-1, a+ib, addition/multiplication, conjugation and |z|^2=zbar*z. Teach unit phases using1,i,-1,-i first; then introduce exact zeta=(1+i sqrt3)/2 for later finite enumeration.",
+          "worked_example": {
+            "id": "C14.01-W1",
+            "task_and_answer": "C14-CX-EX1: z=1+i; conjugate1-i, squared modulus2. iz=-1+i has the same squared modulus2; multiplication by -i reverses the rotation."
+          },
+          "guided_practice": {
+            "id": "C14.01-P1",
+            "task_and_answer": "C14-CX-P1: z=2-i, conjugate2+i, squared modulus5. iz=1+2i, again5; -i(1+2i)=2-i. Check zeta conjugate*zeta=1 using(sqrt3)^2=3."
+          },
+          "diagnostic": {
+            "id": "C14.01-D1",
+            "task_and_answer": "z^2 is not |z|^2: (1+i)^2=2i but |1+i|^2=2. Preserve both real and imaginary parts; magnitude alone loses phase."
+          },
+          "planned_periods": 2,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand these anchors into actual senior-facing teaching with 2–4 goals and 3–5 answered diagnostics. Preserve original IDs and all source/educational amendments. Every assessed operation needs prior independently answered practice. Periods may expand; split dense sessions with all links updated.",
+          "legacy_required_ids": [
+            "C14-CX-EX1",
+            "C14-CX-P1"
+          ],
+          "original_title": "Complex numbers and phase",
+          "original_assessment_target": "Compute conjugates, magnitudes, and simple phase rotations",
+          "required_source_amendment_ids": [
+            "EA-14-E06-2"
+          ],
+          "original_entry_prerequisites": [
+            "course-13"
+          ]
+        },
+        {
+          "lesson_id": "lesson-02",
+          "concept_id": "C14.02",
+          "explanation_id": "C14.02-E1",
+          "bridge_to_teach": "Teach conjugate transpose by conjugating and transposing entries, Hermitian inner product v†w, and unitary inverse U†. Give actual2x2 matrix multiplication and vector recovery before block notation.",
+          "worked_example": {
+            "id": "C14.02-W1",
+            "task_and_answer": "U=diag(i,-i), U†=diag(-i,i), U†U=I. On(1+i,2-i), output=(-1+i,-1-2i); norm squared2+5=7 is retained and U† restores the input."
+          },
+          "guided_practice": {
+            "id": "C14.02-P1",
+            "task_and_answer": "V=(1/sqrt2)[[1,i],[i,1]], V†=(1/sqrt2)[[1,-i],[-i,1]]. Multiply to get I. V(1,i)=(0,sqrt2*i), norms2; V† restores(1,i). Also V(2,0)=(sqrt2,i sqrt2), norms4."
+          },
+          "diagnostic": {
+            "id": "C14.02-D1",
+            "task_and_answer": "Transpose alone gives V^T=V but V^T V=[[0,i],[i,0]], not I. Nonzero phases cannot be dropped during recovery."
+          },
+          "planned_periods": 2,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand these anchors into actual senior-facing teaching with 2–4 goals and 3–5 answered diagnostics. Preserve original IDs and all source/educational amendments. Every assessed operation needs prior independently answered practice. Periods may expand; split dense sessions with all links updated.",
+          "original_title": "Inner products and unitary changes",
+          "original_assessment_target": "Verify a small norm-preserving complex transformation",
+          "required_source_amendment_ids": [
+            "EA-14-E06-2"
+          ],
+          "original_entry_prerequisites": [
+            "lesson-01"
+          ]
+        },
+        {
+          "lesson_id": "lesson-03",
+          "concept_id": "C14.03",
+          "explanation_id": "C14.03-E1",
+          "bridge_to_teach": "Use color-first H=C3 direct-sum W2. Define Pc=diag(1,1,1,0,0),Pw=I-Pc; prove PcPw=0 and h=Pch+Pwh. Quote source weak-first order only with explicit permutation P(w1,w2,c1,c2,c3)=(c1,c2,c3,w1,w2).",
+          "worked_example": {
+            "id": "C14.03-W1",
+            "task_and_answer": "Weak-first tuple(1,2,3,4,5) maps to color-first(3,4,5,1,2). P^T reverses it. Pc selects(3,4,5,0,0),Pw selects(0,0,0,1,2); their sum reconstructs h. Charge vector becomes(-2,-2,-2,3,3)."
+          },
+          "guided_practice": {
+            "id": "C14.03-P1",
+            "task_and_answer": "Weak-first(i,-1,2,0,1+i) maps to(2,0,1+i,i,-1). Retain both projections and reconstruct. Conjugating diag(3,3,-2,-2,-2) by P yields diag(-2,-2,-2,3,3)."
+          },
+          "diagnostic": {
+            "id": "C14.03-D1",
+            "task_and_answer": "S02 M10 displays W then C, while typed_conventions and S03 AUD-004 require color-first. A permutation must act on tuples, matrices and charge entries together; changing only a heading is not sufficient."
+          },
+          "planned_periods": 1,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand these anchors into actual senior-facing teaching with 2–4 goals and 3–5 answered diagnostics. Preserve original IDs and all source/educational amendments. Every assessed operation needs prior independently answered practice. Periods may expand; split dense sessions with all links updated.",
+          "original_title": "The ordered three-plus-two carrier",
+          "original_assessment_target": "Represent the color-first block order consistently",
+          "required_source_amendment_ids": [
+            "SA-14",
+            "EA-14-E06-2"
+          ],
+          "original_entry_prerequisites": [
+            "lesson-02"
+          ]
+        },
+        {
+          "lesson_id": "lesson-04",
+          "concept_id": "C14.04",
+          "explanation_id": "C14.04-E1",
+          "bridge_to_teach": "Teach determinant on2x2, diagonal products and volume/top-form scaling before the lock. State preserved Hermitian blocks plus top-form assumption. Central color weight a and weak weight b give total3a+2b; all-phase preservation requires zero. Define top form here as an ordered alternating volume coefficient that transforms by det(U); its full exterior basis construction is taught next course. No untaught general exterior-algebra proof is assessed here.",
+          "worked_example": {
+            "id": "C14.04-W1",
+            "task_and_answer": "For diag(i,-i), determinant1. Color diag(i,-i,1) and weak I2 give determinant product1. Central diag(z^a I3,z^b I2) scales the top form by z^(3a+2b); a=-2,b=3 gives exponent0."
+          },
+          "guided_practice": {
+            "id": "C14.04-P1",
+            "task_and_answer": "Color diag(-1,-1,1), weak diag(i,-i) have determinants1 and1, hence preserve the top form. a=2,b=-3 also gives zero exponent. a=1,b=0 with z=i gives determinant i^3=-i, so it fails."
+          },
+          "diagnostic": {
+            "id": "C14.04-D1",
+            "task_and_answer": "A determinant-one matrix need not preserve norm: diag(2,1/2) has determinant1 but sends(1,0) to(2,0). Both the Hermitian and top-form conditions are needed; all-phase lock is stronger than one accidental phase test."
+          },
+          "planned_periods": 2,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand these anchors into actual senior-facing teaching with 2–4 goals and 3–5 answered diagnostics. Preserve original IDs and all source/educational amendments. Every assessed operation needs prior independently answered practice. Periods may expand; split dense sessions with all links updated.",
+          "original_title": "Determinants and the top-form lock",
+          "original_assessment_target": "Explain and calculate a small determinant-preservation condition",
+          "required_source_amendment_ids": [
+            "EA-14-E06-2"
+          ],
+          "original_entry_prerequisites": [
+            "lesson-03"
+          ]
+        },
+        {
+          "lesson_id": "lesson-05",
+          "concept_id": "C14.05",
+          "explanation_id": "C14.05-E1",
+          "bridge_to_teach": "Retain finite additive kernel bridge before the source cover. Define kernel as inputs sent to identity and show composition preservation. Then for Phi(g3,g2,z)=(z^-2g3,z^3g2), solve identity equations and determinant constraints; enumerate all six phases exactly.",
+          "worked_example": {
+            "id": "C14.05-W1",
+            "task_and_answer": "Toy k mod3 from addition mod6 lists outputs0,1,2,0,1,2 and kernel{0,3}; it is not the source quotient. For source z=zeta, take g3=zeta^2 I3,g2=-I2. Determinants=zeta^6=1 and(-1)^2=1; both Phi blocks are I."
+          },
+          "guided_practice": {
+            "id": "C14.05-P1",
+            "task_and_answer": "Toy k mod2 has kernel{0,2,4}, retaining input label for reconstruction. Source z=zeta^2 gives g3=zeta^4 I3,g2=I2; source z=-1 gives g3=I3,g2=-I2. Verify both determinants/actions, then complete the six-row table k=0..5 using zeta^6=1. Full answer in powers of zeta for k=0..5: z exponents(0,1,2,3,4,5), g3 scalar exponents(0,2,4,0,2,4), g2 scalar exponents(0,3,0,3,0,3). Every determinant and both block actions equal1; retain k because the image alone loses the kernel member."
+          },
+          "diagnostic": {
+            "id": "C14.05-D1",
+            "task_and_answer": "C14-KER-D1 is the mod2 toy check. For any source kernel member, identity output forces g3=z^2I3 and g2=z^-3I2; det g3=1 forces z^6=1. Thus these six exhaust this map kernel. This proves the stated finite kernel under its contract, not a unique physical global form."
+          },
+          "planned_periods": 3,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand these anchors into actual senior-facing teaching with 2–4 goals and 3–5 answered diagnostics. Preserve original IDs and all source/educational amendments. Every assessed operation needs prior independently answered practice. Periods may expand; split dense sessions with all links updated.",
+          "legacy_required_ids": [
+            "C14-KER-D1"
+          ],
+          "original_title": "Cover maps and quotient kernels",
+          "original_assessment_target": "Verify the finite center-kernel calculation in a concrete example",
+          "required_source_amendment_ids": [
+            "SA-14",
+            "EA-14-E06-2"
+          ],
+          "original_entry_prerequisites": [
+            "lesson-04"
+          ]
+        },
+        {
+          "lesson_id": "lesson-06",
+          "concept_id": "C14.06",
+          "explanation_id": "C14.06-E1",
+          "bridge_to_teach": "Distinguish an abstract group and a specified action. State group element, domain, action, inverse and invariant. Teach independent local phase choices on two nodes as operations, without claiming a dynamical transport law.",
+          "worked_example": {
+            "id": "C14.06-W1",
+            "task_and_answer": "On two complex node amplitudes(1,1), the local action diag(i,-i) gives(i,-i); total norm squared2 is preserved and conjugate inverse restores it. The same scalar i at both nodes would give(i,i), a different action."
+          },
+          "guided_practice": {
+            "id": "C14.06-P1",
+            "task_and_answer": "On(2,i), diag(-1,i) gives(-2,-1), norm squared5. Inverse diag(-1,-i) restores(2,i). Record both local phases, node ordering and input amplitudes."
+          },
+          "diagnostic": {
+            "id": "C14.06-D1",
+            "task_and_answer": "Norm invariance alone supplies no evolution equation, coupling, curvature or measured field. Distinct actions of the same abstract group require their own map and physical-role record."
+          },
+          "planned_periods": 1,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand these anchors into actual senior-facing teaching with 2–4 goals and 3–5 answered diagnostics. Preserve original IDs and all source/educational amendments. Every assessed operation needs prior independently answered practice. Periods may expand; split dense sessions with all links updated.",
+          "original_title": "Local symmetry and physical role",
+          "original_assessment_target": "Separate an abstract group from a supplied action on a carrier",
+          "required_source_amendment_ids": [],
+          "original_entry_prerequisites": [
+            "lesson-05"
+          ]
+        },
+        {
+          "lesson_id": "lesson-07",
+          "concept_id": "C14.07",
+          "explanation_id": "C14.07-E1",
+          "bridge_to_teach": "Maintain two source-addressed rows: mature determinant-lock construction and accepted integration adjudication. Teach how to read an authority scope and namespace before comparing claims. Supply compact source cards so students need not browse or compile.",
+          "worked_example": {
+            "id": "C14.07-W1",
+            "task_and_answer": "S02 M10 concludes the Z6 quotient under preserved blocks/top form. I01 project_record hazards/3 and open obligations retain physical global forms Z1,Z2,Z3,Z6. I02 direct_authority_modules=[M03,M07,M08] refers to compiler adjudication, not backbone M03/M07/M08."
+          },
+          "guided_practice": {
+            "id": "C14.07-P1",
+            "task_and_answer": "Classify: six kernel elements for the displayed Phi -> finite algebra under source contract; unique physical Z6 -> not selected by the integration; Safe Agda certificate -> reported formal adjudication, not freshly rerun here. Reconstruct the two-row comparison with logical paths, hashes, locators and distinct statuses."
+          },
+          "diagnostic": {
+            "id": "C14.07-D1",
+            "task_and_answer": "Do not erase one record to resolve a perceived conflict. The integration keeps17 other compiler modules conditional or unresolved; a matching module number cannot transfer authority into a backbone theorem."
+          },
+          "planned_periods": 1,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand these anchors into actual senior-facing teaching with 2–4 goals and 3–5 answered diagnostics. Preserve original IDs and all source/educational amendments. Every assessed operation needs prior independently answered practice. Periods may expand; split dense sessions with all links updated.",
+          "original_title": "Reconciling source branches",
+          "original_assessment_target": "State the mature-group claim and the integration gauge-family disposition with their distinct scopes",
+          "required_source_amendment_ids": [
+            "SA-14"
+          ],
+          "original_entry_prerequisites": [
+            "lesson-06"
+          ]
+        }
+      ],
+      "capstone_backward_map": [
+        {
+          "step_id": "C14-CAP-01",
+          "operation": "Rotate2-i, compute conjugates/moduli and recover the input; retain phase.",
+          "introduction": "lesson-01",
+          "explanation_id": "C14.01-E1",
+          "worked_example_id": "C14.01-W1",
+          "prior_practice_id": "C14.01-P1",
+          "diagnostic_id": "C14.01-D1"
+        },
+        {
+          "step_id": "C14-CAP-02",
+          "operation": "Verify the taught non-diagonal2x2 unitary, apply it to(1,i) and invert.",
+          "introduction": "lesson-02",
+          "explanation_id": "C14.02-E1",
+          "worked_example_id": "C14.02-W1",
+          "prior_practice_id": "C14.02-P1",
+          "diagnostic_id": "C14.02-D1"
+        },
+        {
+          "step_id": "C14-CAP-03",
+          "operation": "Permute the supplied weak-first complex tuple and charge matrix to color-first; split/reconstruct viaPc/Pw.",
+          "introduction": "lesson-03",
+          "explanation_id": "C14.03-E1",
+          "worked_example_id": "C14.03-W1",
+          "prior_practice_id": "C14.03-P1",
+          "diagnostic_id": "C14.03-D1"
+        },
+        {
+          "step_id": "C14-CAP-04",
+          "operation": "Calculate determinant products and check the central lock, while distinguishing norm preservation.",
+          "introduction": "lesson-04",
+          "explanation_id": "C14.04-E1",
+          "worked_example_id": "C14.04-W1",
+          "prior_practice_id": "C14.04-P1",
+          "diagnostic_id": "C14.04-D1"
+        },
+        {
+          "step_id": "C14-CAP-05",
+          "operation": "Enumerate the toy kernel and all six source cover-kernel phases; verify determinants/actions and why the list is exhaustive.",
+          "introduction": "lesson-05",
+          "explanation_id": "C14.05-E1",
+          "worked_example_id": "C14.05-W1",
+          "prior_practice_id": "C14.05-P1",
+          "diagnostic_id": "C14.05-D1"
+        },
+        {
+          "step_id": "C14-CAP-06",
+          "operation": "Apply and reverse the two-node local action; state the carrier and preserved norm without inferring dynamics.",
+          "introduction": "lesson-06",
+          "explanation_id": "C14.06-E1",
+          "worked_example_id": "C14.06-W1",
+          "prior_practice_id": "C14.06-P1",
+          "diagnostic_id": "C14.06-D1"
+        },
+        {
+          "step_id": "C14-CAP-07",
+          "operation": "Build the two-row mature/integration comparison with source hashes,pointers,global-form family and compiler namespace.",
+          "introduction": "lesson-07",
+          "explanation_id": "C14.07-E1",
+          "worked_example_id": "C14.07-W1",
+          "prior_practice_id": "C14.07-P1",
+          "diagnostic_id": "C14.07-D1"
+        }
+      ],
+      "core_periods": 12,
+      "capstone_periods": 3,
+      "period_minutes": 55,
+      "core_boundary": "Finite signed arithmetic,explicit matrices,small exterior basis operations and source-reading cards. General Lie theory,quotient-bundle anomaly proofs,full source compiler execution,empirical physical uniqueness and untaught variational dynamics are not hidden capstone requirements.",
+      "prerequisite_status": "Blueprint closure checked for explicit operations. Final produced explanations,answered practice and assessment must still undergo independent content acceptance."
+    },
+    {
+      "course_id": "course-15",
+      "input_contract_path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-15-matter-states-hypercharge-and-anomaly-accounting\\input-contract.json",
+      "input_contract_sha256": "e6a846d12becca46f9844b1d28584e0bf21e930ae982b272a7ef92448bdab766",
+      "application": "Merge additively as teaching_amendment, replace generic coverage references with explicit exercise IDs, and retain all original concepts, source amendments and educational bridge IDs. Parent applies; no project edit was made.",
+      "applied_source_amendments_read": {},
+      "original_subject_kernel": {
+        "objects_and_operations": [
+          {
+            "concept_id": "C15.01",
+            "concept": "Choosing states with combinations",
+            "operation": "Count subsets and introduce exterior states through exchange signs"
+          },
+          {
+            "concept_id": "C15.02",
+            "concept": "The sixteen even exterior states",
+            "operation": "Enumerate the source carrier by color and weak degrees"
+          },
+          {
+            "concept_id": "C15.03",
+            "concept": "Charge as an additive rule",
+            "operation": "Compute charges and multiplicities from the declared degree formula"
+          },
+          {
+            "concept_id": "C15.04",
+            "concept": "Why anomaly sums are bookkeeping constraints",
+            "operation": "Calculate finite weighted sums before interpreting them"
+          },
+          {
+            "concept_id": "C15.05",
+            "concept": "The primitive hypercharge line",
+            "operation": "Solve the determinant/anomaly relation and fix a declared sign convention"
+          },
+          {
+            "concept_id": "C15.06",
+            "concept": "Parity and representation checks",
+            "operation": "Check the stated finite parity and representation inventory"
+          },
+          {
+            "concept_id": "C15.07",
+            "concept": "From a finite census to a source claim",
+            "operation": "Explain the assumptions and exact scope of the matter construction"
+          }
+        ],
+        "source_modules": [
+          "M11"
+        ],
+        "scope": "Construct and independently verify the sixteen-state charge census, with all multiplicities and source-scoped anomaly checks.",
+        "common_failure_modes": [
+          "Untaught prerequisite",
+          "Unscoped symbol or unit",
+          "An illustrative example presented as real evidence",
+          "A source label promoted beyond its evidence class",
+          "A residual or source branch silently omitted"
+        ]
+      },
+      "original_capstone_specification": {
+        "task": "Construct and independently verify the sixteen-state charge census, with all multiplicities and source-scoped anomaly checks.",
+        "required_operations": [
+          "Count subsets and introduce exterior states through exchange signs",
+          "Enumerate the source carrier by color and weak degrees",
+          "Compute charges and multiplicities from the declared degree formula",
+          "Calculate finite weighted sums before interpreting them",
+          "Solve the determinant/anomaly relation and fix a declared sign convention",
+          "Check the stated finite parity and representation inventory",
+          "Explain the assumptions and exact scope of the matter construction"
+        ],
+        "rule": "Map every capstone operation to a prior introduction and practice; provide full answers, point rubric, source scope, and residual accounting."
+      },
+      "source_coverage_review_rows": [
+        {
+          "course_id": "course-15",
+          "title": "Matter States, Hypercharge, and Anomaly Accounting",
+          "backbone_modules": [
+            "M11"
+          ],
+          "topic_boundary": "16-state exterior census, primitive hypercharge, local anomaly arithmetic and Witten parity with declared normalization.",
+          "cognitive_or_fidelity_risk": "State counting alone does not teach exterior signs or anomaly index normalization.",
+          "status": "source_map_review_complete_teaching_decision_pending",
+          "primary_sources": [
+            "S02"
+          ],
+          "source_pointer": "/backbone_sequence/10",
+          "packet_at_review": {
+            "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-15-matter-states-hypercharge-and-anomaly-accounting\\input-contract.json",
+            "sha256": "078d84a784d63ef3f4c5ba9023c9bea33dfcd43d2d694ae539929effdea02dec",
+            "lesson_count": 7
+          },
+          "required_amendment_ids": [],
+          "source_launch_decision": "ready_for_source_scoped_drafting_with_required_gates",
+          "decision_scope": "Source/coverage only; no new teaching acceptance or finished-course validation.",
+          "educational_gate": [
+            "E05",
+            "independent_teaching_recheck"
+          ]
+        }
+      ],
+      "source_scope": {
+        "primary": "S02#/backbone_sequence/10",
+        "branches": [
+          "S02#/branch_proofs/6"
+        ],
+        "source_formula_ids": [
+          "KFM-X022",
+          "KFM-X023",
+          "KFM-X024",
+          "KFM-X026",
+          "KFM-X027",
+          "KFM-F033",
+          "KFM-F034",
+          "KFM-F035",
+          "KFM-F036"
+        ],
+        "carrier": "Even exterior algebra of color-first C3+W2 with the given source left-Weyl inventory. Internal exterior parity is not physical Lorentz chirality.",
+        "normalization": "Mixed indexT(3)=T(bar3)=T(2)=1/2; multiply by spectator multiplicity. Pure SU3 cubic signs+1 for3,-1 forbar3. U1 linear/cubic sums weight by component multiplicity. Witten test counts weak doublets3+1=4.",
+        "global_boundary": "Perturbative sums and the even Witten count are not full global-anomaly verification on every non-liftable quotient-group bundle."
+      },
+      "course_map": [
+        {
+          "id": "lesson-01",
+          "title": "Choosing states with combinations",
+          "entry_prerequisites": [
+            "course-14"
+          ],
+          "concept_ids": [
+            "C15.01"
+          ],
+          "worked_example_capability": "Count subsets and introduce exterior states through exchange signs",
+          "assessment_target": "Count subsets and introduce exterior states through exchange signs",
+          "later_use": "lesson-02",
+          "core_minutes": 55,
+          "planned_periods": 2,
+          "planned_total_minutes": 110,
+          "explanation_id": "C15.01-E1",
+          "worked_example_id": "C15.01-W1",
+          "prior_practice_id": "C15.01-P1",
+          "diagnostic_id": "C15.01-D1"
+        },
+        {
+          "id": "lesson-02",
+          "title": "The sixteen even exterior states",
+          "entry_prerequisites": [
+            "lesson-01"
+          ],
+          "concept_ids": [
+            "C15.02"
+          ],
+          "worked_example_capability": "Enumerate the source carrier by color and weak degrees",
+          "assessment_target": "Enumerate the source carrier by color and weak degrees",
+          "later_use": "lesson-03",
+          "core_minutes": 55,
+          "planned_periods": 2,
+          "planned_total_minutes": 110,
+          "explanation_id": "C15.02-E1",
+          "worked_example_id": "C15.02-W1",
+          "prior_practice_id": "C15.02-P1",
+          "diagnostic_id": "C15.02-D1"
+        },
+        {
+          "id": "lesson-03",
+          "title": "Charge as an additive rule",
+          "entry_prerequisites": [
+            "lesson-02"
+          ],
+          "concept_ids": [
+            "C15.03"
+          ],
+          "worked_example_capability": "Compute charges and multiplicities from the declared degree formula",
+          "assessment_target": "Compute charges and multiplicities from the declared degree formula",
+          "later_use": "lesson-04",
+          "core_minutes": 55,
+          "planned_periods": 2,
+          "planned_total_minutes": 110,
+          "explanation_id": "C15.03-E1",
+          "worked_example_id": "C15.03-W1",
+          "prior_practice_id": "C15.03-P1",
+          "diagnostic_id": "C15.03-D1"
+        },
+        {
+          "id": "lesson-04",
+          "title": "Why anomaly sums are bookkeeping constraints",
+          "entry_prerequisites": [
+            "lesson-03"
+          ],
+          "concept_ids": [
+            "C15.04"
+          ],
+          "worked_example_capability": "Calculate finite weighted sums before interpreting them",
+          "assessment_target": "Calculate finite weighted sums before interpreting them",
+          "later_use": "lesson-05",
+          "core_minutes": 55,
+          "planned_periods": 3,
+          "planned_total_minutes": 165,
+          "explanation_id": "C15.04-E1",
+          "worked_example_id": "C15.04-W1",
+          "prior_practice_id": "C15.04-P1",
+          "diagnostic_id": "C15.04-D1"
+        },
+        {
+          "id": "lesson-05",
+          "title": "The primitive hypercharge line",
+          "entry_prerequisites": [
+            "lesson-04"
+          ],
+          "concept_ids": [
+            "C15.05"
+          ],
+          "worked_example_capability": "Solve the determinant/anomaly relation and fix a declared sign convention",
+          "assessment_target": "Solve the determinant/anomaly relation and fix a declared sign convention",
+          "later_use": "lesson-06",
+          "core_minutes": 55,
+          "planned_periods": 2,
+          "planned_total_minutes": 110,
+          "explanation_id": "C15.05-E1",
+          "worked_example_id": "C15.05-W1",
+          "prior_practice_id": "C15.05-P1",
+          "diagnostic_id": "C15.05-D1"
+        },
+        {
+          "id": "lesson-06",
+          "title": "Parity and representation checks",
+          "entry_prerequisites": [
+            "lesson-05"
+          ],
+          "concept_ids": [
+            "C15.06"
+          ],
+          "worked_example_capability": "Check the stated finite parity and representation inventory",
+          "assessment_target": "Check the stated finite parity and representation inventory",
+          "later_use": "lesson-07",
+          "core_minutes": 55,
+          "planned_periods": 2,
+          "planned_total_minutes": 110,
+          "explanation_id": "C15.06-E1",
+          "worked_example_id": "C15.06-W1",
+          "prior_practice_id": "C15.06-P1",
+          "diagnostic_id": "C15.06-D1"
+        },
+        {
+          "id": "lesson-07",
+          "title": "From a finite census to a source claim",
+          "entry_prerequisites": [
+            "lesson-06"
+          ],
+          "concept_ids": [
+            "C15.07"
+          ],
+          "worked_example_capability": "Explain the assumptions and exact scope of the matter construction",
+          "assessment_target": "Explain the assumptions and exact scope of the matter construction",
+          "later_use": "capstone",
+          "core_minutes": 55,
+          "planned_periods": 1,
+          "planned_total_minutes": 55,
+          "explanation_id": "C15.07-E1",
+          "worked_example_id": "C15.07-W1",
+          "prior_practice_id": "C15.07-P1",
+          "diagnostic_id": "C15.07-D1"
+        }
+      ],
+      "lessons": [
+        {
+          "lesson_id": "lesson-01",
+          "concept_id": "C15.01",
+          "explanation_id": "C15.01-E1",
+          "bridge_to_teach": "Introduce exterior states as ordered distinct subsets of the color-first basis(c1,c2,c3,w1,w2). Teach swaps change sign and repeated basis entries give zero, then binomial counting. Keep coefficient signs with the sorted basis.",
+          "worked_example": {
+            "id": "C15.01-W1",
+            "task_and_answer": "c2 wedge c1=-c1 wedge c2; c1 wedge c1=0. For three labels there are1 empty,3 single,3 pair,1 triple basis states. For five labels the even degrees0,2,4 have1,10,5 states, total16."
+          },
+          "guided_practice": {
+            "id": "C15.01-P1",
+            "task_and_answer": "w1 wedge c1=-c1 wedge w1. Sorting(c3,c1,c2) takes two swaps, giving+c1 wedge c2 wedge c3. Enumerate all six pairs of(c1,c2,w1,w2); the ordered triple(c1,w1,c1) vanishes."
+          },
+          "diagnostic": {
+            "id": "C15.01-D1",
+            "task_and_answer": "Counting permutations instead of subsets overcounts basis states; the permutation sign belongs to the coefficient. Exterior-even is an internal degree label, not a physical Lorentz chirality assignment."
+          },
+          "planned_periods": 2,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand these anchors into actual senior-facing teaching with 2–4 goals and 3–5 answered diagnostics. Preserve original IDs and all source/educational amendments. Every assessed operation needs prior independently answered practice. Periods may expand; split dense sessions with all links updated.",
+          "original_title": "Choosing states with combinations",
+          "original_assessment_target": "Count subsets and introduce exterior states through exchange signs",
+          "required_source_amendment_ids": [],
+          "original_entry_prerequisites": [
+            "course-14"
+          ]
+        },
+        {
+          "lesson_id": "lesson-02",
+          "concept_id": "C15.02",
+          "explanation_id": "C15.02-E1",
+          "bridge_to_teach": "Teach bidegree(r_C,s_W), bounds0<=r<=3 and0<=s<=2, and multiplicity binom(3,r)binom(2,s). Enumerate all allowed pairs with r+s even before naming sectors. Derive the graded block-order sign(-1)^(r*s) when swapping entire color/weak blocks.",
+          "worked_example": {
+            "id": "C15.02-W1",
+            "task_and_answer": "Even bidegrees are(0,0),(0,2),(1,1),(2,0),(2,2),(3,1), with multiplicities1,1,6,3,3,2. The(1,1) basis lists c_i wedge w_j for i=1..3,j=1..2; sector labels are supplied after enumeration."
+          },
+          "guided_practice": {
+            "id": "C15.02-P1",
+            "task_and_answer": "List degree4 states by omitted basis label: omit c1,c2,c3 -> three(2,2) states; omit w1,w2 -> two(3,1) states. Degree2 splits as3 color pairs+6 mixed pairs+1 weak pair=10. Sum with degree0 gives16."
+          },
+          "diagnostic": {
+            "id": "C15.02-D1",
+            "task_and_answer": "Weak-first w_j wedge c_i=-c_i wedge w_j. The carrier permutation alone is not permission to drop exterior signs. Full exterior algebra has32 states; selecting even16 is the source construction, not a claim to count all exterior states."
+          },
+          "planned_periods": 2,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand these anchors into actual senior-facing teaching with 2–4 goals and 3–5 answered diagnostics. Preserve original IDs and all source/educational amendments. Every assessed operation needs prior independently answered practice. Periods may expand; split dense sessions with all links updated.",
+          "original_title": "The sixteen even exterior states",
+          "original_assessment_target": "Enumerate the source carrier by color and weak degrees",
+          "required_source_amendment_ids": [],
+          "original_entry_prerequisites": [
+            "lesson-01"
+          ]
+        },
+        {
+          "lesson_id": "lesson-03",
+          "concept_id": "C15.03",
+          "explanation_id": "C15.03-E1",
+          "bridge_to_teach": "Define central phase weights a for each color basis vector and b for each weak vector; exterior phase exponents add, giving q=a*r+b*s. Under primitive convention a=-2,b=3 use Y=q/6. Teach triality t=r mod3 and weak parity p=s mod2 for the supplied descent test.",
+          "worked_example": {
+            "id": "C15.03-W1",
+            "task_and_answer": "For Q bidegree(1,1), q=1,Y=1/6,multiplicity6. For u^c(2,0),q=-4,Y=-2/3,multiplicity3. Descent q+2t+3p is6 for Q and0 for u^c, both0 mod6."
+          },
+          "guided_practice": {
+            "id": "C15.03-P1",
+            "task_and_answer": "Compute remaining rows: nu^c(0,0):m1,q0,Y0; e^c(0,2):m1,q6,Y1; d^c(2,2):m3,q2,Y1/3; L(3,1):m2,q-3,Y-1/2. Their descent integers are0,6,6,0. Assemble the six-row census without merging multiplicity and charge."
+          },
+          "diagnostic": {
+            "id": "C15.03-D1",
+            "task_and_answer": "A sector with multiplicity3 and q=-4 contributes-12 to a linear charge sum and-192 to a cubic sum; cubing its total charge(-12)^3 is a different operation. State the carrier and weights first."
+          },
+          "planned_periods": 2,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand these anchors into actual senior-facing teaching with 2–4 goals and 3–5 answered diagnostics. Preserve original IDs and all source/educational amendments. Every assessed operation needs prior independently answered practice. Periods may expand; split dense sessions with all links updated.",
+          "original_title": "Charge as an additive rule",
+          "original_assessment_target": "Compute charges and multiplicities from the declared degree formula",
+          "required_source_amendment_ids": [],
+          "original_entry_prerequisites": [
+            "lesson-02"
+          ]
+        },
+        {
+          "lesson_id": "lesson-04",
+          "concept_id": "C15.04",
+          "explanation_id": "C15.04-E1",
+          "bridge_to_teach": "Teach each finite anomaly sum explicitly for the declared left-Weyl inventory. Use Dynkin index T(fundamental)=T(antifundamental)=1/2 for mixed sums, and cubic SU3 signs+1/-1. Retain every sector contribution. These are the source perturbative local tests, not a universal global-bundle theorem.",
+          "worked_example": {
+            "id": "C15.04-W1",
+            "task_and_answer": "At primitive q values, gravitational/linear sum=0+6+6-12+6-6=0; cubic sum=0+216+6-192+24-54=0. SU3^2U1=(2*1-4+2)/2=0; SU2^2U1=(3*1-3)/2=0; SU3^3=2-1-1=0."
+          },
+          "guided_practice": {
+            "id": "C15.04-P1",
+            "task_and_answer": "For a=1,b=0, rows carry q=(0,0,1,2,2,3). Weighted linear=24,cubic=108; both mixed sums=3, while SU3^3 remains0. For a=0,b=1, q=(0,2,1,0,2,1), linear16,cubic40,both mixed2. Keep these nonzero test results rather than changing the inputs."
+          },
+          "diagnostic": {
+            "id": "C15.04-D1",
+            "task_and_answer": "With general(a,b), derive mixed sums3a+2b, linear8(3a+2b), and cubic108a^3+144a^2b+108ab^2+40b^3. No one of these numerical checks alone stands for every anomaly; a named test and normalization are required."
+          },
+          "planned_periods": 3,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand these anchors into actual senior-facing teaching with 2–4 goals and 3–5 answered diagnostics. Preserve original IDs and all source/educational amendments. Every assessed operation needs prior independently answered practice. Periods may expand; split dense sessions with all links updated.",
+          "original_title": "Why anomaly sums are bookkeeping constraints",
+          "original_assessment_target": "Calculate finite weighted sums before interpreting them",
+          "required_source_amendment_ids": [],
+          "original_entry_prerequisites": [
+            "lesson-03"
+          ]
+        },
+        {
+          "lesson_id": "lesson-05",
+          "concept_id": "C15.05",
+          "explanation_id": "C15.05-E1",
+          "bridge_to_teach": "Factor the cubic into(3a+2b)(36a^2+24ab+20b^2). Complete the square to establish positivity without assuming a matrix-positivity theorem. Solve the integer relation using divisibility and gcd; distinguish normalization/sign convention from extra physics.",
+          "worked_example": {
+            "id": "C15.05-W1",
+            "task_and_answer": "36a^2+24ab+20b^2=36(a+b/3)^2+16b^2, positive unlessa=b=0. For nonzero real weights, cubic cancellation forces3a+2b=0. Integer solutions(a,b)=(-2k,3k); primitive gcd1 gives k=+/-1. Choose color negative,weak positive ->(-2,3)."
+          },
+          "guided_practice": {
+            "id": "C15.05-P1",
+            "task_and_answer": "For(a,b)=(-4,6), lock holds but gcd=2, so divide by2 to get(-2,3). For(2,-3), gcd1 and opposite convention reverses all charges. At(1,1), positive factor80 and linear factor5 give cubic400; it is not on the allowed line. Independently expand36(a+b/3)^2+16b^2 to36a^2+24ab+20b^2; multiply by3a+2b to recover coefficients(108,144,108,40) for(a^3,a^2b,ab^2,b^3). This is the answered factorization practice before capstone."
+          },
+          "diagnostic": {
+            "id": "C15.05-D1",
+            "task_and_answer": "The zero pair trivially cancels but is not a nonzero primitive generator. The determinant lock and anomaly line agree for the stated exterior inventory and normalization; no unmentioned carrier or arbitrary charge assignment is classified."
+          },
+          "planned_periods": 2,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand these anchors into actual senior-facing teaching with 2–4 goals and 3–5 answered diagnostics. Preserve original IDs and all source/educational amendments. Every assessed operation needs prior independently answered practice. Periods may expand; split dense sessions with all links updated.",
+          "original_title": "The primitive hypercharge line",
+          "original_assessment_target": "Solve the determinant/anomaly relation and fix a declared sign convention",
+          "required_source_amendment_ids": [],
+          "original_entry_prerequisites": [
+            "lesson-04"
+          ]
+        },
+        {
+          "lesson_id": "lesson-06",
+          "concept_id": "C15.06",
+          "explanation_id": "C15.06-E1",
+          "bridge_to_teach": "Keep exterior complement, representation type, weak-doublet parity and physical chirality distinct. Pair color wedges with the color top form to explain the dual3bar action; supply source representation labels and verify a diagonal action. Teach Witten parity as the stated finite count.",
+          "worked_example": {
+            "id": "C15.06-W1",
+            "task_and_answer": "Complement sends(r,s)->(3-r,2-s), so even becomes odd and q becomes-q because total basis charge0. A Q basis state c1 wedge w1 complements c2 wedge c3 wedge w2, bidegree(2,1),q=-1. Weak doublets are3 colored Q copies+1 L=4, even."
+          },
+          "guided_practice": {
+            "id": "C15.06-P1",
+            "task_and_answer": "Complement u^c basis c1 wedge c2 gives c3 wedge w1 wedge w2, bidegree(1,2),q=4; complement twice restores the subset with its recorded orientation convention. Under color diag(i,-i,1), c1 wedge c3 has phase i, equal to the inverse phase of c2; this checks the dual labeling. Counting only Q would give3 doublets and fails the stated even-count test; restore the full inventory. Restoring L yields3+1=4 doublets and remainder0 mod2."
+          },
+          "diagnostic": {
+            "id": "C15.06-D1",
+            "task_and_answer": "The six representation rows are(1,1),(1,1),(3,2),(bar3,1),(bar3,1),(1,2) in census order. Witten doublet parity is not exterior parity, detector parity or carry parity; the even count is not a full anomaly proof for every non-liftable quotient bundle."
+          },
+          "planned_periods": 2,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand these anchors into actual senior-facing teaching with 2–4 goals and 3–5 answered diagnostics. Preserve original IDs and all source/educational amendments. Every assessed operation needs prior independently answered practice. Periods may expand; split dense sessions with all links updated.",
+          "original_title": "Parity and representation checks",
+          "original_assessment_target": "Check the stated finite parity and representation inventory",
+          "required_source_amendment_ids": [],
+          "original_entry_prerequisites": [
+            "lesson-05"
+          ]
+        },
+        {
+          "lesson_id": "lesson-07",
+          "concept_id": "C15.07",
+          "explanation_id": "C15.07-E1",
+          "bridge_to_teach": "Build a source-scoped census report with ordered basis, exterior rule, charge convention, multiplicities, weighted contributions, tested constraints and explicit source/integration boundaries. Retain every excluded or failing trial as a labeled test input.",
+          "worked_example": {
+            "id": "C15.07-W1",
+            "task_and_answer": "The report using color-first5-dimensional H, even exterior sector and(-2,3) reproduces16 internal components and the source one-family labels. Mark the finite enumeration and algebra freshly checked; source physical interpretation and global-form scope remain separately tagged."
+          },
+          "guided_practice": {
+            "id": "C15.07-P1",
+            "task_and_answer": "Audit a proposed report that supplies only16 and weighted linear sum0: it lacks the six bidegrees, full cubic and mixed sums, representation action, Witten count, descent and scope. Fill those from the answered ledger; retain the failed(a,b)=(1,0) trial and its nonzero contributions."
+          },
+          "diagnostic": {
+            "id": "C15.07-D1",
+            "task_and_answer": "Neither matching16 states nor internal even degree selects Lorentz chirality or proves a physical family count. Compiler authority and backbone modules remain separate namespaces; do not promote the finite census beyond its explicit assumptions."
+          },
+          "planned_periods": 1,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand these anchors into actual senior-facing teaching with 2–4 goals and 3–5 answered diagnostics. Preserve original IDs and all source/educational amendments. Every assessed operation needs prior independently answered practice. Periods may expand; split dense sessions with all links updated.",
+          "original_title": "From a finite census to a source claim",
+          "original_assessment_target": "Explain the assumptions and exact scope of the matter construction",
+          "required_source_amendment_ids": [],
+          "original_entry_prerequisites": [
+            "lesson-06"
+          ]
+        }
+      ],
+      "capstone_backward_map": [
+        {
+          "step_id": "C15-CAP-01",
+          "operation": "Sort signed exterior monomials, reject repeated indices and count even subsets of five labels.",
+          "introduction": "lesson-01",
+          "explanation_id": "C15.01-E1",
+          "worked_example_id": "C15.01-W1",
+          "prior_practice_id": "C15.01-P1",
+          "diagnostic_id": "C15.01-D1"
+        },
+        {
+          "step_id": "C15-CAP-02",
+          "operation": "Enumerate all six bidegrees and multiplicities; explicitly list degree4 states and account for block-swap signs.",
+          "introduction": "lesson-02",
+          "explanation_id": "C15.02-E1",
+          "worked_example_id": "C15.02-W1",
+          "prior_practice_id": "C15.02-P1",
+          "diagnostic_id": "C15.02-D1"
+        },
+        {
+          "step_id": "C15-CAP-03",
+          "operation": "Fill every q,Y and descent residue in the16-state census using declared color-first weights.",
+          "introduction": "lesson-03",
+          "explanation_id": "C15.03-E1",
+          "worked_example_id": "C15.03-W1",
+          "prior_practice_id": "C15.03-P1",
+          "diagnostic_id": "C15.03-D1"
+        },
+        {
+          "step_id": "C15-CAP-04",
+          "operation": "Compute the five named local tests with weights and normalization; replay one off-line(a,b) trial and retain its nonzero sums.",
+          "introduction": "lesson-04",
+          "explanation_id": "C15.04-E1",
+          "worked_example_id": "C15.04-W1",
+          "prior_practice_id": "C15.04-P1",
+          "diagnostic_id": "C15.04-D1"
+        },
+        {
+          "step_id": "C15-CAP-05",
+          "operation": "Complete the square,factor the cubic and solve the primitive integral charge line with declared global sign.",
+          "introduction": "lesson-05",
+          "explanation_id": "C15.05-E1",
+          "worked_example_id": "C15.05-W1",
+          "prior_practice_id": "C15.05-P1",
+          "diagnostic_id": "C15.05-D1"
+        },
+        {
+          "step_id": "C15-CAP-06",
+          "operation": "Compute a complement example,verify the diagonal dual-color action and four-doublet Witten count; keep all parity notions distinct.",
+          "introduction": "lesson-06",
+          "explanation_id": "C15.06-E1",
+          "worked_example_id": "C15.06-W1",
+          "prior_practice_id": "C15.06-P1",
+          "diagnostic_id": "C15.06-D1"
+        },
+        {
+          "step_id": "C15-CAP-07",
+          "operation": "Assemble the source-scoped census and assumption table,retaining tests and unresolved physical/global distinctions.",
+          "introduction": "lesson-07",
+          "explanation_id": "C15.07-E1",
+          "worked_example_id": "C15.07-W1",
+          "prior_practice_id": "C15.07-P1",
+          "diagnostic_id": "C15.07-D1"
+        }
+      ],
+      "core_periods": 14,
+      "capstone_periods": 3,
+      "period_minutes": 55,
+      "core_boundary": "Finite signed arithmetic,explicit matrices,small exterior basis operations and source-reading cards. General Lie theory,quotient-bundle anomaly proofs,full source compiler execution,empirical physical uniqueness and untaught variational dynamics are not hidden capstone requirements.",
+      "prerequisite_status": "Blueprint closure checked for explicit operations. Final produced explanations,answered practice and assessment must still undergo independent content acceptance."
+    },
+    {
+      "course_id": "course-16",
+      "input_contract_path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\input-contract.json",
+      "input_contract_sha256": "b992442aae2ae774be60ab0e7b55a68fb664d05db12083ea38e49aa2560e6073",
+      "application": "Merge additively as teaching_amendment, replace generic coverage references with explicit exercise IDs, and retain all original concepts, source amendments and educational bridge IDs. Parent applies; no project edit was made.",
+      "applied_source_amendments_read": {},
+      "original_subject_kernel": {
+        "objects_and_operations": [
+          {
+            "concept_id": "C16.01",
+            "concept": "Interactions must match their inputs",
+            "operation": "Track the types and charges entering a simple interaction"
+          },
+          {
+            "concept_id": "C16.02",
+            "concept": "Invariant contractions",
+            "operation": "Check a small allowed contraction and a forbidden alternative"
+          },
+          {
+            "concept_id": "C16.03",
+            "concept": "The Higgs doublet interface",
+            "operation": "Explain the role of the supplied doublet and vacuum coordinate"
+          },
+          {
+            "concept_id": "C16.04",
+            "concept": "Unbroken charge and mass formulas",
+            "operation": "Derive a scaffolded charge-preservation and algebraic mass relation"
+          },
+          {
+            "concept_id": "C16.05",
+            "concept": "Yukawa maps and mixing inputs",
+            "operation": "Separate matrix structure from its numerical coefficients"
+          },
+          {
+            "concept_id": "C16.06",
+            "concept": "Energy and transition accounting",
+            "operation": "Track energy changes without inferring a transition rate"
+          },
+          {
+            "concept_id": "C16.07",
+            "concept": "What a complete interaction specification needs",
+            "operation": "List the supplied parameters and possible observations that determine them"
+          }
+        ],
+        "source_modules": [
+          "M12"
+        ],
+        "scope": "Design a typed interaction ledger with charge checks, an explicit synthetic coefficient example, and a clear list of source-defined inputs.",
+        "common_failure_modes": [
+          "Untaught prerequisite",
+          "Unscoped symbol or unit",
+          "An illustrative example presented as real evidence",
+          "A source label promoted beyond its evidence class",
+          "A residual or source branch silently omitted"
+        ]
+      },
+      "original_capstone_specification": {
+        "task": "Design a typed interaction ledger with charge checks, an explicit synthetic coefficient example, and a clear list of source-defined inputs.",
+        "required_operations": [
+          "Track the types and charges entering a simple interaction",
+          "Check a small allowed contraction and a forbidden alternative",
+          "Explain the role of the supplied doublet and vacuum coordinate",
+          "Derive a scaffolded charge-preservation and algebraic mass relation",
+          "Separate matrix structure from its numerical coefficients",
+          "Track energy changes without inferring a transition rate",
+          "List the supplied parameters and possible observations that determine them"
+        ],
+        "rule": "Map every capstone operation to a prior introduction and practice; provide full answers, point rubric, source scope, and residual accounting."
+      },
+      "source_coverage_review_rows": [
+        {
+          "course_id": "course-16",
+          "title": "Higgs, Yukawa, and Interaction Interfaces",
+          "backbone_modules": [
+            "M12"
+          ],
+          "topic_boundary": "Typed Higgs/Yukawa contractions; supplied vacuum, coefficients, mixing and matching-scale coordinates.",
+          "cognitive_or_fidelity_risk": "General contractions need explicit small examples; coefficients remain inputs.",
+          "status": "source_map_review_complete_teaching_decision_pending",
+          "primary_sources": [
+            "S02"
+          ],
+          "source_pointer": "/backbone_sequence/11",
+          "packet_at_review": {
+            "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\input-contract.json",
+            "sha256": "c8f00b5774ee3abe3c1435ed43d1cf947fdf3000fd298ac26e92c06003d8f891",
+            "lesson_count": 7
+          },
+          "required_amendment_ids": [],
+          "source_launch_decision": "ready_for_source_scoped_drafting_with_required_gates",
+          "decision_scope": "Source/coverage only; no new teaching acceptance or finished-course validation.",
+          "educational_gate": [
+            "E05",
+            "independent_teaching_recheck"
+          ]
+        }
+      ],
+      "source_scope": {
+        "primary": "S02#/backbone_sequence/11",
+        "branches": [
+          "S02#/branch_proofs/7"
+        ],
+        "source_formula_ids": [
+          "KFM-X028",
+          "KFM-X029",
+          "KFM-X030"
+        ],
+        "invariance_bridge": "Exterior functor U acts on each vector; a dual covector acts by l U^-1, preserving evaluation and contraction. Top-form extraction is invariant when detU=1. Explicit small basis checks illustrate this argument; charge0 alone is insufficient.",
+        "occupied_state_inputs": [
+          "vacuum magnitude",
+          "Higgs-potential coefficients",
+          "Yukawa coefficient matrices",
+          "mixing coordinates",
+          "matching scale"
+        ],
+        "additional_ledger_inputs": [
+          "g2",
+          "gY",
+          "ordered basis",
+          "units",
+          "initial/boundary state",
+          "matching-scale metadata",
+          "any dynamical rule needed for rates"
+        ],
+        "compiler_scope": "Mass-squared relations are supplied parameterized compiler formulas; rho identity is checked on its nonzero denominator domain. Numerical masses, coefficient matrices and energy examples are synthetic, not observations."
+      },
+      "course_map": [
+        {
+          "id": "lesson-01",
+          "title": "Interactions must match their inputs",
+          "entry_prerequisites": [
+            "course-15"
+          ],
+          "concept_ids": [
+            "C16.01"
+          ],
+          "worked_example_capability": "Track the types and charges entering a simple interaction",
+          "assessment_target": "Track the types and charges entering a simple interaction",
+          "later_use": "lesson-02",
+          "core_minutes": 55,
+          "planned_periods": 2,
+          "planned_total_minutes": 110,
+          "explanation_id": "C16.01-E1",
+          "worked_example_id": "C16.01-W1",
+          "prior_practice_id": "C16.01-P1",
+          "diagnostic_id": "C16.01-D1"
+        },
+        {
+          "id": "lesson-02",
+          "title": "Invariant contractions",
+          "entry_prerequisites": [
+            "lesson-01"
+          ],
+          "concept_ids": [
+            "C16.02"
+          ],
+          "worked_example_capability": "Check a small allowed contraction and a forbidden alternative",
+          "assessment_target": "Check a small allowed contraction and a forbidden alternative",
+          "later_use": "lesson-03",
+          "core_minutes": 55,
+          "planned_periods": 3,
+          "planned_total_minutes": 165,
+          "explanation_id": "C16.02-E1",
+          "worked_example_id": "C16.02-W1",
+          "prior_practice_id": "C16.02-P1",
+          "diagnostic_id": "C16.02-D1"
+        },
+        {
+          "id": "lesson-03",
+          "title": "The Higgs doublet interface",
+          "entry_prerequisites": [
+            "lesson-02"
+          ],
+          "concept_ids": [
+            "C16.03"
+          ],
+          "worked_example_capability": "Explain the role of the supplied doublet and vacuum coordinate",
+          "assessment_target": "Explain the role of the supplied doublet and vacuum coordinate",
+          "later_use": "lesson-04",
+          "core_minutes": 55,
+          "planned_periods": 1,
+          "planned_total_minutes": 55,
+          "explanation_id": "C16.03-E1",
+          "worked_example_id": "C16.03-W1",
+          "prior_practice_id": "C16.03-P1",
+          "diagnostic_id": "C16.03-D1"
+        },
+        {
+          "id": "lesson-04",
+          "title": "Unbroken charge and mass formulas",
+          "entry_prerequisites": [
+            "lesson-03"
+          ],
+          "concept_ids": [
+            "C16.04"
+          ],
+          "worked_example_capability": "Derive a scaffolded charge-preservation and algebraic mass relation",
+          "assessment_target": "Derive a scaffolded charge-preservation and algebraic mass relation",
+          "later_use": "lesson-05",
+          "core_minutes": 55,
+          "planned_periods": 2,
+          "planned_total_minutes": 110,
+          "explanation_id": "C16.04-E1",
+          "worked_example_id": "C16.04-W1",
+          "prior_practice_id": "C16.04-P1",
+          "diagnostic_id": "C16.04-D1"
+        },
+        {
+          "id": "lesson-05",
+          "title": "Yukawa maps and mixing inputs",
+          "entry_prerequisites": [
+            "lesson-04"
+          ],
+          "concept_ids": [
+            "C16.05"
+          ],
+          "worked_example_capability": "Separate matrix structure from its numerical coefficients",
+          "assessment_target": "Separate matrix structure from its numerical coefficients",
+          "later_use": "lesson-06",
+          "core_minutes": 55,
+          "planned_periods": 2,
+          "planned_total_minutes": 110,
+          "explanation_id": "C16.05-E1",
+          "worked_example_id": "C16.05-W1",
+          "prior_practice_id": "C16.05-P1",
+          "diagnostic_id": "C16.05-D1"
+        },
+        {
+          "id": "lesson-06",
+          "title": "Energy and transition accounting",
+          "entry_prerequisites": [
+            "lesson-05"
+          ],
+          "concept_ids": [
+            "C16.06"
+          ],
+          "worked_example_capability": "Track energy changes without inferring a transition rate",
+          "assessment_target": "Track energy changes without inferring a transition rate",
+          "later_use": "lesson-07",
+          "core_minutes": 55,
+          "planned_periods": 1,
+          "planned_total_minutes": 55,
+          "explanation_id": "C16.06-E1",
+          "worked_example_id": "C16.06-W1",
+          "prior_practice_id": "C16.06-P1",
+          "diagnostic_id": "C16.06-D1"
+        },
+        {
+          "id": "lesson-07",
+          "title": "What a complete interaction specification needs",
+          "entry_prerequisites": [
+            "lesson-06"
+          ],
+          "concept_ids": [
+            "C16.07"
+          ],
+          "worked_example_capability": "List the supplied parameters and possible observations that determine them",
+          "assessment_target": "List the supplied parameters and possible observations that determine them",
+          "later_use": "capstone",
+          "core_minutes": 55,
+          "planned_periods": 1,
+          "planned_total_minutes": 55,
+          "explanation_id": "C16.07-E1",
+          "worked_example_id": "C16.07-W1",
+          "prior_practice_id": "C16.07-P1",
+          "diagnostic_id": "C16.07-D1"
+        }
+      ],
+      "lessons": [
+        {
+          "lesson_id": "lesson-01",
+          "concept_id": "C16.01",
+          "explanation_id": "C16.01-E1",
+          "bridge_to_teach": "Carry the course15 typed sectors forward. Specify H_phi in W of bidegree(0,1),q=3,Y=1/2 and its Hermitian-dual covector barH with q=-3. Read each of the four source interface formulas before computing its charge.",
+          "worked_example": {
+            "id": "C16.01-W1",
+            "task_and_answer": "Up inputs u^c(2,0),Q(1,1),H(0,1) have q=-4+1+3=0 and total bidegree(3,2). Neutrino inputs nu^c(0,0),L(3,1),H(0,1) have0-3+3=0 and(3,2)."
+          },
+          "guided_practice": {
+            "id": "C16.01-P1",
+            "task_and_answer": "Down inputs d^c(2,2),Q(1,1),barH covector: charges2+1-3=0; contracting one weak slot first leaves d^c at(2,1), then top degree(3,2). Electron e^c(0,2),L(3,1),barH gives6-3-3=0, contraction yields e^c at(0,1), then(3,2)."
+          },
+          "diagnostic": {
+            "id": "C16.01-D1",
+            "task_and_answer": "Replacing barH by H in down gives2+1+3=6 and is not the same interface. Zero charge alone cannot replace the declared color/weak contractions or the top-form check."
+          },
+          "planned_periods": 2,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand these anchors into actual senior-facing teaching with 2–4 goals and 3–5 answered diagnostics. Preserve original IDs and all source/educational amendments. Every assessed operation needs prior independently answered practice. Periods may expand; split dense sessions with all links updated.",
+          "original_title": "Interactions must match their inputs",
+          "original_assessment_target": "Track the types and charges entering a simple interaction",
+          "required_source_amendment_ids": [],
+          "original_entry_prerequisites": [
+            "course-15"
+          ]
+        },
+        {
+          "lesson_id": "lesson-02",
+          "concept_id": "C16.02",
+          "explanation_id": "C16.02-E1",
+          "bridge_to_teach": "Teach iota_l(v1 wedge...wedge vk)=sum_j(-1)^(j-1)l(vj) times the remaining wedge. Use ordered basis c1,c2,c3,w1,w2 and Omega their full wedge. Omega^-1 extracts the top-form coefficient. Explain covariance: transform every vector by U and the covector by l U^-1; detU=1 preserves Omega.",
+          "worked_example": {
+            "id": "C16.02-W1",
+            "task_and_answer": "iota_w1*(w1 wedge w2)=w2 and iota_w2*(w1 wedge w2)=-w1. For up use u=c1c2,Q=c3w1,H=w2: product=+Omega. For nu use nu=1,L=c1c2c3w1,H=w2: +Omega."
+          },
+          "guided_practice": {
+            "id": "C16.02-P1",
+            "task_and_answer": "For down use d=c1c2w1w2,Q=c3w1,barH=w1*: contraction givesc1c2w2 and Q wedge that is+Omega. For electron e=w1w2,L=c1c2c3w1,barH=w1*: contractionw2 yields+Omega. Using H=w1 with L endingw1 gives zero because a basis factor repeats; this is a zero component, not a new allowed nonzero scalar."
+          },
+          "diagnostic": {
+            "id": "C16.02-D1",
+            "task_and_answer": "An arbitrary charge-zero product need not be top degree. Check signs, vector/covector type, weak slot removed and final degree(3,2). Under diag(i,-i,1,1,1), the color phases multiply1 and the tested scalars remain unchanged; under a weak phase the covector must transform inversely."
+          },
+          "planned_periods": 3,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand these anchors into actual senior-facing teaching with 2–4 goals and 3–5 answered diagnostics. Preserve original IDs and all source/educational amendments. Every assessed operation needs prior independently answered practice. Periods may expand; split dense sessions with all links updated.",
+          "supplemental_exercises": [
+            {
+              "explanation_id": "C16.02-E2",
+              "worked_example_id": "C16.02-W2",
+              "prior_practice_id": "C16.02-P2",
+              "diagnostic_id": "C16.02-D2",
+              "explanation": "Apply a block-unitary diagonal action to all vector and dual slots. Covectors acquire inverse phases. Verify the evaluated scalar directly before the general covariance statement.",
+              "worked_task_and_answer": "Take weak diag(i,-i) and identity color. For upQ containingw1 gainsi,H=w2 gains-i, so product factor1. For neutrinoL endingw1 gainsi andH=w2 gains-i, again1.",
+              "practice_task_and_answer": "For down,d=c1c2w1w2 has weak phase1,Q=c3w1 gainsi,barH=w1* gains-i, so final factor1. Electron e=w1w2 has1,L endingw1 gainsi,barH gains-i, again1. Separately choose upu=c1c3,Q=c2w1,H=w2: one color swap gives-Omega; nuL=c1c2c3w2,H=w1 gives-Omega. Thus signs may differ while invariant scalar character remains.",
+              "diagnostic_task_and_answer": "If barH is incorrectly transformed as a vector with phasei, the down/electron product acquiresi*i=-1; this falsifies that mistyped action. Retain the failed sign and repair the dual rule."
+            }
+          ],
+          "original_title": "Invariant contractions",
+          "original_assessment_target": "Check a small allowed contraction and a forbidden alternative",
+          "required_source_amendment_ids": [],
+          "original_entry_prerequisites": [
+            "lesson-01"
+          ]
+        },
+        {
+          "lesson_id": "lesson-03",
+          "concept_id": "C16.03",
+          "explanation_id": "C16.03-E1",
+          "bridge_to_teach": "Teach the two Higgs components explicitly: H=(H_plus,H_zero), T3=diag(1/2,-1/2),Y=I/2 and Qelectric=T3+Y. Treat v as a supplied nonnegative magnitude with declared mass units in the compiler convention; no numerical vacuum scale is derived here.",
+          "worked_example": {
+            "id": "C16.03-W1",
+            "task_and_answer": "Qelectric=diag(1,0), so upper charge+1 and lower charge0. Supplied vacuum(0,v/sqrt2) is annihilated by Qelectric. At synthetic v=2 mass units, vacuum=(0,sqrt2), norm squared2."
+          },
+          "guided_practice": {
+            "id": "C16.03-P1",
+            "task_and_answer": "At synthetic v=4, vacuum=(0,2sqrt2), norm squared8 and Qelectric times vacuum=(0,0). A test vector(1,0) has Qelectric output(1,0), so placing a vacuum solely there does not preserve this generator."
+          },
+          "diagnostic": {
+            "id": "C16.03-D1",
+            "task_and_answer": "A charge-neutral lower component states which generator leaves that vector fixed; it does not choose v, potential coefficients, vacuum stability or transition rate."
+          },
+          "planned_periods": 1,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand these anchors into actual senior-facing teaching with 2–4 goals and 3–5 answered diagnostics. Preserve original IDs and all source/educational amendments. Every assessed operation needs prior independently answered practice. Periods may expand; split dense sessions with all links updated.",
+          "original_title": "The Higgs doublet interface",
+          "original_assessment_target": "Explain the role of the supplied doublet and vacuum coordinate",
+          "required_source_amendment_ids": [],
+          "original_entry_prerequisites": [
+            "lesson-02"
+          ]
+        },
+        {
+          "lesson_id": "lesson-04",
+          "concept_id": "C16.04",
+          "explanation_id": "C16.04-E1",
+          "bridge_to_teach": "Use the supplied compiler quadratic-form formulas mW^2=g2^2 v^2/4 and mZ^2=(g2^2+gY^2)v^2/4. Define cos²theta=g2²/(g2²+gY²), then cancel factors to derive rho=mW²/(mZ² cos²theta)=1 where the denominator is nonzero.",
+          "worked_example": {
+            "id": "C16.04-W1",
+            "task_and_answer": "Synthetic dimensionless g2=3,gY=4 and v=2 mass units gives mW²=9,mZ²=25,cos²theta=9/25,rho=1. These are algebraic outputs, not measured masses."
+          },
+          "guided_practice": {
+            "id": "C16.04-P1",
+            "task_and_answer": "Synthetic g2=4,gY=3,v=2 gives mW²=16,mZ²=25,cos²theta=16/25,rho=1. Doubling v doubles the positive masses and multiplies squared masses by4; couplings and ratio stay fixed."
+          },
+          "diagnostic": {
+            "id": "C16.04-D1",
+            "task_and_answer": "At v=0 both squared masses vanish but the displayed ratio is0/0; do not claim it is numerically evaluated there. Matching scale and couplings remain recorded inputs. Deriving these substitutions does not derive the physical quadratic form from an untaught field theory."
+          },
+          "planned_periods": 2,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand these anchors into actual senior-facing teaching with 2–4 goals and 3–5 answered diagnostics. Preserve original IDs and all source/educational amendments. Every assessed operation needs prior independently answered practice. Periods may expand; split dense sessions with all links updated.",
+          "original_title": "Unbroken charge and mass formulas",
+          "original_assessment_target": "Derive a scaffolded charge-preservation and algebraic mass relation",
+          "required_source_amendment_ids": [],
+          "original_entry_prerequisites": [
+            "lesson-03"
+          ]
+        },
+        {
+          "lesson_id": "lesson-05",
+          "concept_id": "C16.05",
+          "explanation_id": "C16.05-E1",
+          "bridge_to_teach": "Treat Yukawa coefficients as a supplied matrix mapping a specified finite family input to output. Separate carrier-compatible structure from numerical entries, mixing basis and normalization. Use2x2 synthetic action and explicitly retain input/state records.",
+          "worked_example": {
+            "id": "C16.05-W1",
+            "task_and_answer": "Synthetic Y=[[1,2],[0,3]] acting onf=(2,-1) gives(0,-3). Same allowed matrix shape with different entries can give different outputs. In a declared classroom mass convention M=(v/sqrt2)Y, v=sqrt2 makes M=Y."
+          },
+          "guided_practice": {
+            "id": "C16.05-P1",
+            "task_and_answer": "Synthetic Y=[[2,0],[1,1]],f=(1,2) gives(2,3). Relabel both input/output by swap P: Yprime=P Y P^T=[[1,1],[0,2]], fprime=(2,1), outputprime=(3,2)=P(2,3). Retain Y and P; structure alone does not select them."
+          },
+          "diagnostic": {
+            "id": "C16.05-D1",
+            "task_and_answer": "Do not infer mixing angles or Yukawa values from charge cancellation. A basis change must transform vectors and matrices together; a source state-coordinate list is not a table of measured coefficients."
+          },
+          "planned_periods": 2,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand these anchors into actual senior-facing teaching with 2–4 goals and 3–5 answered diagnostics. Preserve original IDs and all source/educational amendments. Every assessed operation needs prior independently answered practice. Periods may expand; split dense sessions with all links updated.",
+          "original_title": "Yukawa maps and mixing inputs",
+          "original_assessment_target": "Separate matrix structure from its numerical coefficients",
+          "required_source_amendment_ids": [],
+          "original_entry_prerequisites": [
+            "lesson-04"
+          ]
+        },
+        {
+          "lesson_id": "lesson-06",
+          "concept_id": "C16.06",
+          "explanation_id": "C16.06-E1",
+          "bridge_to_teach": "Keep a typed action/energy ledger. Read the six source action sectors as architecture with supplied coefficients and boundary states; assess only finite additive energy differences and signed residual reconstruction, not an untaught variational derivation.",
+          "worked_example": {
+            "id": "C16.06-W1",
+            "task_and_answer": "Synthetic energy ledger in common units: before(5,2,1),after(4,4,1) gives signed components(-1,+2,0), totals8->9,net+1. If a model predicts+.8, retained residual+.2 restores actual+1. No rate follows without a time/update model."
+          },
+          "guided_practice": {
+            "id": "C16.06-P1",
+            "task_and_answer": "Before(3,1,2),after(2,1,1) gives(-1,0,-1),totals6->4,net-2. Prediction-1.5 plus residual-.5 restores-2. Retain labels, signs, endpoints and any supplied external transfer; an unclosed balance remains a named residual."
+          },
+          "diagnostic": {
+            "id": "C16.06-D1",
+            "task_and_answer": "Source S_native,S_gauge,S_fermion,S_Higgs,S_Yukawa,S_TG label action terms, not automatically separately measured energies. An energy difference has no time dimension and cannot determine a transition rate by itself."
+          },
+          "planned_periods": 1,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand these anchors into actual senior-facing teaching with 2–4 goals and 3–5 answered diagnostics. Preserve original IDs and all source/educational amendments. Every assessed operation needs prior independently answered practice. Periods may expand; split dense sessions with all links updated.",
+          "original_title": "Energy and transition accounting",
+          "original_assessment_target": "Track energy changes without inferring a transition rate",
+          "required_source_amendment_ids": [],
+          "original_entry_prerequisites": [
+            "lesson-05"
+          ]
+        },
+        {
+          "lesson_id": "lesson-07",
+          "concept_id": "C16.07",
+          "explanation_id": "C16.07-E1",
+          "bridge_to_teach": "List the complete interaction contract: ordered sectors, conjugate/dual rules, Omega, coefficient matrices, vacuum magnitude, potential coefficients, mixing basis, couplings, matching scale, units, boundary/initial states and tested observations. Distinguish proposed measurement categories from acquired data.",
+          "worked_example": {
+            "id": "C16.07-W1",
+            "task_and_answer": "For the worked ledger record synthetic g2=3,gY=4,v=2, chosenY and basis, finite contraction examples, mass identities and energy residual. Potential coefficients and matching scale are unspecified inputs; do not fill them from symmetry alone."
+          },
+          "guided_practice": {
+            "id": "C16.07-P1",
+            "task_and_answer": "For the practice ledger recordg2=4,gY=3,v=2,Y=[[2,0],[1,1]],explicit swapP and energy remainder-.5. Mark masses/mixing measurements as possible constraints, rate data as additional transition information, and scale/state assumptions as required metadata; no observation is invented."
+          },
+          "diagnostic": {
+            "id": "C16.07-D1",
+            "task_and_answer": "A complete structural interface may leave numerical coordinates unfilled. Label those open inputs; do not claim unique masses, potential or rates. Preserve source-reported compiler statements separately from this finite classroom replay."
+          },
+          "planned_periods": 1,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand these anchors into actual senior-facing teaching with 2–4 goals and 3–5 answered diagnostics. Preserve original IDs and all source/educational amendments. Every assessed operation needs prior independently answered practice. Periods may expand; split dense sessions with all links updated.",
+          "original_title": "What a complete interaction specification needs",
+          "original_assessment_target": "List the supplied parameters and possible observations that determine them",
+          "required_source_amendment_ids": [],
+          "original_entry_prerequisites": [
+            "lesson-06"
+          ]
+        }
+      ],
+      "capstone_backward_map": [
+        {
+          "step_id": "C16-CAP-01",
+          "operation": "Record types,charges and bidegrees of all four supplied interaction interfaces.",
+          "introduction": "lesson-01",
+          "explanation_id": "C16.01-E1",
+          "worked_example_id": "C16.01-W1",
+          "prior_practice_id": "C16.01-P1",
+          "diagnostic_id": "C16.01-D1"
+        },
+        {
+          "step_id": "C16-CAP-02",
+          "operation": "Calculate the four taught basis contractions with signs and final top degree; test a zero repeated-slot case and state the covariance argument.",
+          "introduction": "lesson-02",
+          "explanation_id": "C16.02-E1",
+          "worked_example_id": "C16.02-W1",
+          "prior_practice_id": "C16.02-P1",
+          "diagnostic_id": "C16.02-D1",
+          "additional_explanation_id": "C16.02-E2",
+          "additional_worked_example_id": "C16.02-W2",
+          "additional_prior_practice_id": "C16.02-P2",
+          "additional_diagnostic_id": "C16.02-D2"
+        },
+        {
+          "step_id": "C16-CAP-03",
+          "operation": "Compute two Higgs component charges and test the neutral vacuum atv=4.",
+          "introduction": "lesson-03",
+          "explanation_id": "C16.03-E1",
+          "worked_example_id": "C16.03-W1",
+          "prior_practice_id": "C16.03-P1",
+          "diagnostic_id": "C16.03-D1"
+        },
+        {
+          "step_id": "C16-CAP-04",
+          "operation": "Substitute syntheticg2=4,gY=3,v=2 into mass-squared formulas and verifyrho with its denominator condition.",
+          "introduction": "lesson-04",
+          "explanation_id": "C16.04-E1",
+          "worked_example_id": "C16.04-W1",
+          "prior_practice_id": "C16.04-P1",
+          "diagnostic_id": "C16.04-D1"
+        },
+        {
+          "step_id": "C16-CAP-05",
+          "operation": "Apply the practice Yukawa matrix and the explicit swap basis change, preserving all coefficients and maps.",
+          "introduction": "lesson-05",
+          "explanation_id": "C16.05-E1",
+          "worked_example_id": "C16.05-W1",
+          "prior_practice_id": "C16.05-P1",
+          "diagnostic_id": "C16.05-D1"
+        },
+        {
+          "step_id": "C16-CAP-06",
+          "operation": "Rebuild the signed practice energy ledger from endpoints,prediction and residual; identify missing rate information.",
+          "introduction": "lesson-06",
+          "explanation_id": "C16.06-E1",
+          "worked_example_id": "C16.06-W1",
+          "prior_practice_id": "C16.06-P1",
+          "diagnostic_id": "C16.06-D1"
+        },
+        {
+          "step_id": "C16-CAP-07",
+          "operation": "Complete the typed interaction contract and list unfilled source state inputs and possible constraining observations without inventing data.",
+          "introduction": "lesson-07",
+          "explanation_id": "C16.07-E1",
+          "worked_example_id": "C16.07-W1",
+          "prior_practice_id": "C16.07-P1",
+          "diagnostic_id": "C16.07-D1"
+        }
+      ],
+      "core_periods": 12,
+      "capstone_periods": 3,
+      "period_minutes": 55,
+      "core_boundary": "Finite signed arithmetic,explicit matrices,small exterior basis operations and source-reading cards. General Lie theory,quotient-bundle anomaly proofs,full source compiler execution,empirical physical uniqueness and untaught variational dynamics are not hidden capstone requirements.",
+      "prerequisite_status": "Blueprint closure checked for explicit operations. Final produced explanations,answered practice and assessment must still undergo independent content acceptance."
+    }
+  ],
+  "verification_record": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-teaching-auditor\\outputs\\teaching-verification-13-16.json",
+  "verification_sha256": "eda2840c44c9a47632abf08c053968aae295e8153d693a3a43b7ec1cc6a52db4",
+  "integration_provenance": {
+    "I01": {
+      "logical_path": "applications/kfield_standard_model/collaborator_record/project_record.json",
+      "retrieved_alias": "kfield_standard_model/project_record.json",
+      "sha256": "3800c854da827a64e72507722904bcafab07a31e88f2bc73920a8e7f62f62c1c",
+      "pointers": [
+        "/hazards/3",
+        "/open_obligations/1",
+        "/open_obligations/2"
+      ],
+      "retrieval": "Krytronx RAG source-attributed lines1–142; semantic_entity search returned no match; ragobj byte getter returned object-not-found. Content below is grounded in the returned RAG source excerpts and the matching prior source-audit hash, not a fresh local byte hash.",
+      "global_form_family": [
+        "Z1",
+        "Z2",
+        "Z3",
+        "Z6"
+      ],
+      "status": "integration admits the family; unique physical member remains unresolved"
+    },
+    "I02": {
+      "logical_path": "kfield_standard_model/evidence/p12_standard_model_compiler_adjudication_report.json",
+      "sha256": "a3dfca0e55e525c6522c3088b95e5bcc048c141fce340bfe980fcfc14123220a",
+      "pointers": [
+        "/direct_authority_modules",
+        "/agda/certificate",
+        "/known_science_replay"
+      ],
+      "retrieval": "Krytronx RAG source-attributed lines1–101; exact fields visible in returned source excerpt.",
+      "direct_authority_modules": [
+        "M03",
+        "M07",
+        "M08"
+      ],
+      "namespace": "Standard Model compiler adjudication, not mathematical backbone",
+      "reported_certificate": "KField.StandardModelCompilerAdjudication.p12-standard-model-compiler-adjudication",
+      "fresh_typecheck": false
+    },
+    "retrieval_identity": {
+      "corpus_generation": "sha256:5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+      "manifest_sha256": "5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+      "origin": "paired fields on RAG responses; capabilities alone exposed no corpus pair",
+      "rag_index_sha256": "aca56e6b5b2b717459cea9790e6142ea9e8058f74d135710906926e9065ad54a"
+    },
+    "teaching_use": "Supply this small provenance card with source-local contract and integration status in separate rows. No compiler execution, global physical uniqueness or source-author authentication is claimed."
+  },
+  "source_or_project_files_modified": false
+}

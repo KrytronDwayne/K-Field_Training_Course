@@ -1,0 +1,93 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Lesson 3: The eta and alpha constructions · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/8">Course 08</a><span>/</span><span>lesson 03</span></div><a class="original" href="../../../kfield-08-face-area-ratios-and-the-k-field-mass-bridge/lesson-03.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#lesson-3-the-eta-and-alpha-constructions">Lesson 3: The eta and alpha constructions</a><a href="#c0803-e1-definitions-not-guessed-numerical-matches">C08.03-E1 — Definitions, not guessed numerical matches</a><a href="#c0803-w1-evaluate-and-cross-check">C08.03-W1 — Evaluate and cross-check</a><a href="#c0803-e2-reading-the-locked-evaluation-card">C08.03-E2 — Reading the locked evaluation card</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 1: From faces to dimensionless ratios</a><a  href="lesson-02.html">Lesson 2: What uniform scaling leaves unchanged</a><a aria-current=page href="lesson-03.html">Lesson 3: The eta and alpha constructions</a><a  href="lesson-04.html">Lesson 4: Locked and historical numerical branches</a><a  href="lesson-05.html">Lesson 5: Geometry, calibration, and interpretation</a><a  href="lesson-06.html">Lesson 6: Sensitivity and retained numerical closure</a></details></aside><div class="reading-column"><article class="prose"><h1 id="lesson-3-the-eta-and-alpha-constructions" tabindex="-1">Lesson 3: The eta and alpha constructions</h1>
+<p>Essential question: How do the source definitions turn two area ratios into eta and alpha?</p>
+<p>Goals</p>
+<ul>
+<li>Evaluate eta, alpha_inverse, alpha, and their product from one labeled triple.</li>
+<li>Verify the product using a second algebraic path.</li>
+<li>Read stored and recomputed source values with their units and signed closure differences.</li>
+</ul>
+<p>Pacing: 55 minutes — retrieval 5; explanation and worked example 20; guided practice 15; diagnostics and repair 15.</p>
+<p>Prerequisite bridge</p>
+<p>Lesson 2 established that a common area factor cancels. A reciprocal of a nonzero number x is 1/x; multiplying x by 1/x gives 1. Thus alpha⁻¹ means 1/alpha, not a negative alpha. The spelling alpha_inverse below means the same reciprocal.</p>
+<h2 id="c0803-e1-definitions-not-guessed-numerical-matches" tabindex="-1">C08.03-E1 — Definitions, not guessed numerical matches</h2>
+<p>The active definitions in S02#/backbone_sequence/4/definitions are eta=1000 A_bc/A_ab and alpha_inverse=100 A_bc/A_ac. The factors 1000 and 100 are part of these definitions and dimensionless. They are not unit conversions invented by this course. Compute each fraction before interpreting it. Because alpha is the reciprocal of alpha_inverse, alpha=A_ac/(100 A_bc).</p>
+<p>Multiplying the definitions gives eta×alpha=(1000 A_bc/A_ab)×(A_ac/(100 A_bc)). Cancel the nonzero A_bc and reduce 1000/100 to 10. The result is eta×alpha=10 A_ac/A_ab. This supplies two paths to the same quantity: multiply the separately calculated eta and alpha, or use the direct face quotient. Their signed difference, product path minus direct path, is the algebraic closure difference. Exact arithmetic makes it zero for any positive input triple.</p>
+<p>Every result is dimensionless because area units cancel. A dimensionless number can serve a physical ratio, but the formula alone does not name a measured physical object. We return to that distinction in lesson 5.</p>
+<h2 id="c0803-w1-evaluate-and-cross-check" tabindex="-1">C08.03-W1 — Evaluate and cross-check</h2>
+<p>Use the synthetic triple (12,8,6) U². Eta=1000×12/6=2000. Alpha_inverse=100×12/8=150. Its reciprocal is alpha=1/150. The product is 2000/150=40/3. The direct path is 10×8/6=80/6=40/3. Subtracting gives 40/3−40/3=0. No intermediate rounded decimals were needed.</p>
+<h2 id="c0803-e2-reading-the-locked-evaluation-card" tabindex="-1">C08.03-E2 — Reading the locked evaluation card</h2>
+<p>For active Cell3 the source-stored input areas, in nm², are bc=0.3578095391285615, ac=0.2611062357902053, ab=0.19486916546048413 (S02#/mature_locked_cell3/face_areas_nm2). A nanometre, nm, is 10⁻⁹ metre; nm² is its square area unit. All three inputs use the same unit, so it cancels. The source's stored output decimals are separately recorded facts about that file. They remain the authoritative stored witnesses; a fresh quotient is an arithmetic diagnostic, not a replacement authority.</p>
+<p>A decimal lexeme is the original written number, including its digits. For exact recomputation, interpret a finite decimal as an integer divided by a power of ten: for example 0.125=125/1000=1/8. Apply this rule to each source area, then evaluate the definitions using fractions. The supplied card below removes long-integer arithmetic from the required student workload. Read a row as three linked numbers: stored, recomputed, and signed difference d=recomputed−stored. The reconstruction equation is recomputed=stored+d. Keep d even when it is tiny. These are arithmetic discrepancies between finite records, not new experimental residuals.</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Quantity</th>
+<th>Stored S02 lexeme</th>
+<th>Exact recomputation</th>
+<th>Signed recomputed − stored</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>eta</td>
+<td>1836.1526734259999</td>
+<td>35780953912856150000/19486916546048413</td>
+<td>43827170816668413/194869165460484130000000000000</td>
+</tr>
+<tr>
+<td>alpha_inverse</td>
+<td>137.035999177</td>
+<td>357809539128561500/2611062357902053</td>
+<td>85645389619/2611062357902053000000000</td>
+</tr>
+<tr>
+<td>alpha</td>
+<td>0.0072973525643314245</td>
+<td>2611062357902053/357809539128561500</td>
+<td>-1741030399723427/1431238156514246000000000000000000</td>
+</tr>
+<tr>
+<td>eta_alpha</td>
+<td>13.399053419929224</td>
+<td>23736930526382300/1771537867822583</td>
+<td>-791906356108199/221442233477822875000000000000</td>
+</tr>
+</tbody>
+</table></div>
+<p>The exact eta fraction, for example, is obtained by 1000×(3578095391285615/10¹⁶)/(19486916546048413/10¹⁷)=35780953912856150000/19486916546048413. The two product paths agree exactly when they use this same area triple. Mixing a stored output with a recomputed output need not give exact closure. The complete card and decimal displays are also in verification.json.</p>
+<blockquote>
+<p>Claim scope: W1 is synthetic. The card is a fresh evaluation of stored decimal areas alongside source-reported constants. S03#/authority_contract assigns precedence to mature stored lexemes; the arithmetic comparison does not reassign that precedence or certify the source's full physical interpretation.</p>
+</blockquote>
+<p>Guided practice — C08.03-P1</p>
+<p>For synthetic (15,10,5) U² calculate every output and both product paths. <strong>Answer:</strong> r=(1,2/3,1/3); eta=1000×15/5=3000; alpha_inverse=100×15/10=150; alpha=1/150. Product 3000/150=20, direct 10×10/5=20, closure 0. <strong>P1 source-card follow-up:</strong> identify the sign and reconstruction rule for the alpha row. <strong>Answer:</strong> d is negative; recomputed alpha equals the stored alpha plus that entire negative fraction. Do not replace d by zero.</p>
+<p>Diagnostic checks</p>
+<ol>
+<li>
+<p><strong>C08.03-D1</strong> Someone writes alpha=100 A_bc/A_ac. Repair it, then record all four signed differences from the locked card.</p>
+</li>
+<li>
+<p><strong>C08.03-D2</strong> For the synthetic W1 input, are the outputs in U², kilograms, or dimensionless?</p>
+</li>
+<li>
+<p><strong>C08.03-D3</strong> Why can 10 A_ac/A_ab be used as an independent arithmetic cross-check?</p>
+</li>
+<li>
+<p><strong>C08.03-D4</strong> Does the source-stored eta become invalid merely because a decimal-area recomputation differs?</p>
+</li>
+</ol>
+<p>Worked diagnostic answers</p>
+<ol>
+<li>
+<p>The displayed formula is alpha_inverse; alpha=A_ac/(100 A_bc). The four signed differences are the complete fractions in the card’s final column in eta, alpha_inverse, alpha, eta_alpha order; their signs are +,+,−,−. Retaining those exact fractions and using recomputed=stored+d completes the record.</p>
+</li>
+<li>
+<p>Dimensionless: each construction divides equal area units and multiplies by dimensionless factors.</p>
+</li>
+<li>
+<p>Substitution and cancellation derived it from eta×alpha, so a disagreement on identical exact inputs reveals arithmetic or input inconsistency.</p>
+</li>
+<li>
+<p>No. Keep the stored witness in its source-authority role and the fresh value in its arithmetic-diagnostic role. Finite decimal input reconstruction and stored output records are distinct.</p>
+</li>
+</ol>
+<p>Next dependency: <a href="lesson-04.html">lesson-04</a>. Carry the labeled input triple, divisor, source role, and retained differences forward.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><a class="button secondary" href="lesson-02.html">← Previous lesson</a><a class="button" href="lesson-04.html">Next lesson →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/8">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

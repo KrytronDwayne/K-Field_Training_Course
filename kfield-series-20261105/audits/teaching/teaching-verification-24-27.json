@@ -1,0 +1,7230 @@
+{
+  "schema_version": "1.0",
+  "created_utc": "2026-11-05T19:22:47.846756+00:00",
+  "status": "passed",
+  "runtime": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+  "script_sha256": "fc5bcbb13a381c488a890b5b540422eaec251f77f1792da6ec322a25c72fb7de",
+  "method": "Fresh exact SymPy finite arithmetic, symbolic identities and reconstruction checks. Parent script/report read only, not executed/imported. Separate source diagnostics use parsed binary64 values and retain every closure, without exact/interval certification. Coverage checks establish blueprint references, not mastery.",
+  "input_contracts": [
+    {
+      "course_id": "course-24",
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\input-contract.json",
+      "sha256": "e7b8f78d7de5df1d7cc72d598b41eede1281d036815b12131a51490d75764560"
+    },
+    {
+      "course_id": "course-25",
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-25-plane-crossings-rulers-and-event-geometry\\input-contract.json",
+      "sha256": "bd4bc43776aa5c4a943b6aab9b8b5dad538a7870d4f0c311be9081b85c0fd70c"
+    },
+    {
+      "course_id": "course-26",
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\input-contract.json",
+      "sha256": "9a49123e304afc053c0ed4685e72820491b9e2c65a57031c1ac31ada0399422f"
+    },
+    {
+      "course_id": "course-27",
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-27-quadratic-phase-cost-and-route-geometry\\input-contract.json",
+      "sha256": "4f9cdeff609a39dbbc7c38175b49b108c6dbe61a113874290e8a05f44e398be7"
+    }
+  ],
+  "source_hashes": [
+    {
+      "id": "S01",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "hash_check": "verified locally; original source left in place",
+      "evidence_class": "source"
+    },
+    {
+      "id": "S02",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "hash_check": "verified locally; original source left in place",
+      "evidence_class": "source"
+    },
+    {
+      "id": "S03",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "hash_check": "verified locally; original source left in place",
+      "evidence_class": "source"
+    },
+    {
+      "id": "S04",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+      "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "hash_check": "verified locally; original source left in place",
+      "evidence_class": "source"
+    },
+    {
+      "id": "S05",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+      "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "hash_check": "verified locally; original source left in place",
+      "evidence_class": "source"
+    }
+  ],
+  "source_registry_sha256": "208a8ed59a10d72a74e1aa084b86d1f6809bb8f43168c7a98edc68598db5e78b",
+  "source_audit_sha256": "eef89a28971ef7e5380977c31b62ed6d64f2831759e679ee967b6c253a33c04a",
+  "parent_support_index_sha256": "55fe70b9b689d7eedea71af2d2b39006ea9f4baa61d9694e32f9835e12e553fc",
+  "parent_comparison_reports": [
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\educational-example-verification.json",
+      "sha256": "4a78076d0946868a654bbf957ef034b40262c808cc967b5294b21b79ff469faf"
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\applied-bridge-verification.json",
+      "sha256": "4f189fedd0126bbcc332acffc8e5abd36cfcdcf26a74cf747ac45162c356ecb7"
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\route-source-retrieval-status.json",
+      "sha256": "2db00c1da129984fe9231b9e6cf3140f9beb9b7f155db912c2a1a872e1404960"
+    }
+  ],
+  "parent_comparison_script": {
+    "path": "Z:\\Kfield-doc-training\\.work\\verify_applied_bridges.py",
+    "sha256": "aff9ecf863a2814a9f2c299b6122f447601070c79e455eefe5b08d3e0d126017",
+    "executed": false
+  },
+  "remote_reads": [
+    {
+      "id": "T50",
+      "logical_path": "applications/kfield_lucas_lab/rag_corpus/50_physical_closure.md",
+      "sha256": "c2a25a583af904601968adc1d3efde825f76218c92a2f52d829afc093f52c02a",
+      "byte_range": [
+        0,
+        1761
+      ],
+      "read_status": "Full bounded bytes read through krytronx_get; returned range digest matched registry."
+    },
+    {
+      "id": "T35",
+      "logical_path": "applications/kfield_lucas_lab/rag_corpus/35_spectral_energy_phase.md",
+      "sha256": "03dc7e11045b3912f1e8cc0d69a4789b6ad300ac78b4549ea86c45e51228c7bc",
+      "byte_range": [
+        0,
+        3018
+      ],
+      "read_status": "Full bounded bytes read through krytronx_get; returned range digest matched registry."
+    },
+    {
+      "id": "T45",
+      "logical_path": "applications/kfield_lucas_lab/rag_corpus/45_moving_reference_frames.md",
+      "sha256": "c8485397ee3cd5560624885a3bfcf20c9f6190e26129320e37037810b984e1aa",
+      "byte_range": [
+        0,
+        2651
+      ],
+      "read_status": "Full bounded bytes read through krytronx_get; returned range digest matched registry."
+    },
+    {
+      "id": "T40",
+      "logical_path": "applications/kfield_lucas_lab/rag_corpus/40_cmb_quarantine.md",
+      "sha256": "1dfff4443f99ebb949ca6f080a01452bdb6c58075a694c4b74055e64b4d4ecfb",
+      "byte_range": [
+        0,
+        426
+      ],
+      "read_status": "Full bounded bytes read through krytronx_get; returned range digest matched registry."
+    },
+    {
+      "id": "T20",
+      "logical_path": "applications/kfield_lucas_lab/rag_corpus/20_phase_route.md",
+      "sha256": "c9335e2df74344bff5665df5a5e0b9094fef22147c76458f1a54efe49cefce62",
+      "byte_range": [
+        0,
+        470
+      ],
+      "read_status": "Full bounded bytes read through krytronx_get; returned range digest matched registry."
+    },
+    {
+      "id": "T10",
+      "logical_path": "applications/kfield_lucas_lab/rag_corpus/10_geometry_trajectory.md",
+      "sha256": "ce1abe83011a43bfbcd8aaf98f7fb9fdfabd31acbfdbc1208e45176596602ccb",
+      "byte_range": [
+        0,
+        545
+      ],
+      "read_status": "Full bounded bytes read through krytronx_get; returned range digest matched registry."
+    },
+    {
+      "id": "spectral_bundle",
+      "sha256": "04044230f3b2536d22654b294760106eca301f212e4eb4157989b330ff611f17",
+      "byte_range": [
+        0,
+        6438
+      ]
+    },
+    {
+      "id": "spectral_work",
+      "sha256": "d4105a6d6802e6bb2a2ba8e76a1d23a27973fca3d3335fd8335690a41ab72dfa",
+      "byte_range": [
+        0,
+        48364
+      ]
+    },
+    {
+      "id": "energy_work",
+      "sha256": "9120f80210b235b8612d6479fe25272eb3824f31c5a1394e7e9d12718e57e70f",
+      "byte_range": [
+        0,
+        22424
+      ]
+    }
+  ],
+  "snapshot": {
+    "generation": "sha256:5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+    "manifest_sha256": "5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+    "verification": "RAG and root traversal returned this pair; capabilities omitted snapshot fields."
+  },
+  "source_diagnostic_script_input_sha256": "fa1783222c02097fc64a36211f1f50da79db7f052e35f36eb8003e75160ab055",
+  "check_count": 744,
+  "failed_count": 0,
+  "checks": [
+    {
+      "id": "runtime",
+      "actual": "c:\\users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+      "expected": "c:\\users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+      "passed": true
+    },
+    {
+      "id": "source hash S01",
+      "actual": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "expected": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "passed": true
+    },
+    {
+      "id": "source hash S02",
+      "actual": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "expected": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "passed": true
+    },
+    {
+      "id": "source hash S03",
+      "actual": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "expected": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "passed": true
+    },
+    {
+      "id": "source hash S04",
+      "actual": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "expected": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "passed": true
+    },
+    {
+      "id": "source hash S05",
+      "actual": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+      "expected": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+      "passed": true
+    },
+    {
+      "id": "parent comparison hash educational-example-verification.json",
+      "actual": "4a78076d0946868a654bbf957ef034b40262c808cc967b5294b21b79ff469faf",
+      "expected": "4a78076d0946868a654bbf957ef034b40262c808cc967b5294b21b79ff469faf",
+      "passed": true
+    },
+    {
+      "id": "parent comparison hash applied-bridge-verification.json",
+      "actual": "4f189fedd0126bbcc332acffc8e5abd36cfcdcf26a74cf747ac45162c356ecb7",
+      "expected": "4f189fedd0126bbcc332acffc8e5abd36cfcdcf26a74cf747ac45162c356ecb7",
+      "passed": true
+    },
+    {
+      "id": "parent comparison hash route-source-retrieval-status.json",
+      "actual": "2db00c1da129984fe9231b9e6cf3140f9beb9b7f155db912c2a1a872e1404960",
+      "expected": "2db00c1da129984fe9231b9e6cf3140f9beb9b7f155db912c2a1a872e1404960",
+      "passed": true
+    },
+    {
+      "id": "parent script read",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "parent script hash",
+      "actual": "aff9ecf863a2814a9f2c299b6122f447601070c79e455eefe5b08d3e0d126017",
+      "expected": "aff9ecf863a2814a9f2c299b6122f447601070c79e455eefe5b08d3e0d126017",
+      "passed": true
+    },
+    {
+      "id": "snapshot digest",
+      "actual": "5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+      "expected": "5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+      "passed": true
+    },
+    {
+      "id": "all event rows retained",
+      "actual": 14,
+      "expected": 14,
+      "passed": true
+    },
+    {
+      "id": "three plane families",
+      "actual": {
+        "w": 4,
+        "v": 4,
+        "lambda": 6
+      },
+      "expected": {
+        "w": 4,
+        "v": 4,
+        "lambda": 6
+      },
+      "passed": true
+    },
+    {
+      "id": "signed event census",
+      "actual": {
+        "1": 8,
+        "-1": 6
+      },
+      "expected": {
+        "1": 8,
+        "-1": 6
+      },
+      "passed": true
+    },
+    {
+      "id": "source energy subset count",
+      "actual": 5,
+      "expected": 5,
+      "passed": true
+    },
+    {
+      "id": "source paired row 415-515:415:w",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "source signed comparison 415-515:415:w",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "source full count closure 415-515:415:w",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "source paired row 415-515:515:w",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "source signed comparison 415-515:515:w",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "source full count closure 415-515:515:w",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "source paired row 445-555:445:v",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "source signed comparison 445-555:445:v",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "source full count closure 445-555:445:v",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "source paired row 445-555:555:v",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "source signed comparison 445-555:555:v",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "source full count closure 445-555:555:v",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "source paired row 480-630:480:lambda",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "source signed comparison 480-630:480:lambda",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "source full count closure 480-630:480:lambda",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "source paired row 480-630:630:lambda",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "source signed comparison 480-630:630:lambda",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "source full count closure 480-630:630:lambda",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "source paired row 515-680:515:lambda",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "source signed comparison 515-680:515:lambda",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "source full count closure 515-680:515:lambda",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "source paired row 515-680:680:lambda",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "source signed comparison 515-680:680:lambda",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "source full count closure 515-680:680:lambda",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "source paired row 630-910:630:w",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "source signed comparison 630-910:630:w",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "source full count closure 630-910:630:w",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "source paired row 630-910:910:w",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "source signed comparison 630-910:910:w",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "source full count closure 630-910:910:w",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "source paired row 415-590:415:lambda",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "source signed comparison 415-590:415:lambda",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "source full count closure 415-590:415:lambda",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "source paired row 415-590:590:lambda",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "source signed comparison 415-590:590:lambda",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "source full count closure 415-590:590:lambda",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "source paired row 515-590:515:v",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "source signed comparison 515-590:515:v",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "source full count closure 515-590:515:v",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "source paired row 515-590:590:v",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "source signed comparison 515-590:590:v",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "source full count closure 515-590:590:v",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "AUD008 residual lexical value",
+      "actual": "4.58938078934712923077736690075e-12",
+      "expected": "4.58938078934712923077736690075e-12",
+      "passed": true
+    },
+    {
+      "id": "rotation orthogonal",
+      "actual": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "expected": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "rotation determinant",
+      "actual": "1",
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "id": "rigid frame position",
+      "actual": [
+        [
+          "4"
+        ],
+        [
+          "5"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "expected": [
+        [
+          "4"
+        ],
+        [
+          "5"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "rigid frame inverse",
+      "actual": [
+        [
+          "2"
+        ],
+        [
+          "1"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "2"
+        ],
+        [
+          "1"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "fixed velocity rotate",
+      "actual": [
+        [
+          "0"
+        ],
+        [
+          "1"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "0"
+        ],
+        [
+          "1"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "moving frame derivative",
+      "actual": [
+        [
+          "1 - sin(t)"
+        ],
+        [
+          "cos(t)"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "1 - sin(t)"
+        ],
+        [
+          "cos(t)"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "moving derivative at zero",
+      "actual": [
+        [
+          "1"
+        ],
+        [
+          "1"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "1"
+        ],
+        [
+          "1"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "moving derivative at pi2",
+      "actual": [
+        [
+          "0"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "0"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "spherical worked",
+      "actual": [
+        [
+          "0"
+        ],
+        [
+          "sqrt(3)"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "expected": [
+        [
+          "0"
+        ],
+        [
+          "sqrt(3)"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "hours to degrees",
+      "actual": 90,
+      "expected": 90,
+      "passed": true
+    },
+    {
+      "id": "trajectory p1",
+      "actual": [
+        [
+          "5"
+        ],
+        [
+          "0"
+        ],
+        [
+          "3"
+        ]
+      ],
+      "expected": [
+        [
+          "5"
+        ],
+        [
+          "0"
+        ],
+        [
+          "3"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "trajectory p2",
+      "actual": [
+        [
+          "9"
+        ],
+        [
+          "-2"
+        ],
+        [
+          "3"
+        ]
+      ],
+      "expected": [
+        [
+          "9"
+        ],
+        [
+          "-2"
+        ],
+        [
+          "3"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "trajectory reverse",
+      "actual": [
+        [
+          "1"
+        ],
+        [
+          "2"
+        ],
+        [
+          "3"
+        ]
+      ],
+      "expected": [
+        [
+          "1"
+        ],
+        [
+          "2"
+        ],
+        [
+          "3"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "nested sum",
+      "actual": [
+        [
+          "9"
+        ],
+        [
+          "2"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "expected": [
+        [
+          "9"
+        ],
+        [
+          "2"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "decomposed two-second displacement",
+      "actual": [
+        [
+          "18"
+        ],
+        [
+          "4"
+        ],
+        [
+          "2"
+        ]
+      ],
+      "expected": [
+        [
+          "18"
+        ],
+        [
+          "4"
+        ],
+        [
+          "2"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "physical source speed",
+      "actual": 369812.50200040644,
+      "expected": 369812.50200040644,
+      "passed": true
+    },
+    {
+      "id": "physical and transformed source differ",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unit plane normal",
+      "actual": "1",
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "id": "plane projected speed",
+      "actual": "6/5",
+      "expected": "6/5",
+      "passed": true
+    },
+    {
+      "id": "signed passage rate",
+      "actual": "2",
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "reverse passage rate",
+      "actual": "-2",
+      "expected": -2,
+      "passed": true
+    },
+    {
+      "id": "plane event 0",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "plane event 1",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "plane event 2",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "plane event 3",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "reverse event -3",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "reverse event -2",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "reverse event -1",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "reverse event 0",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "linear bracket endpoints",
+      "actual": [
+        "-2/5",
+        "6/5"
+      ],
+      "expected": [
+        "-2/5",
+        "6/5"
+      ],
+      "passed": true
+    },
+    {
+      "id": "linear root",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "two same-sign bracket roots",
+      "actual": [
+        "1",
+        "2"
+      ],
+      "expected": [
+        1,
+        2
+      ],
+      "passed": true
+    },
+    {
+      "id": "tangent root",
+      "actual": [
+        "1"
+      ],
+      "expected": [
+        1
+      ],
+      "passed": true
+    },
+    {
+      "id": "tangent derivative",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "ruler time 1",
+      "actual": "1/2",
+      "expected": "1/2",
+      "passed": true
+    },
+    {
+      "id": "ruler time -1",
+      "actual": "1/2",
+      "expected": "1/2",
+      "passed": true
+    },
+    {
+      "id": "DFT inverse",
+      "actual": [
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "expected": [
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "DFT cosine",
+      "actual": [
+        [
+          "0"
+        ],
+        [
+          "2"
+        ],
+        [
+          "0"
+        ],
+        [
+          "2"
+        ]
+      ],
+      "expected": [
+        [
+          "0"
+        ],
+        [
+          "2"
+        ],
+        [
+          "0"
+        ],
+        [
+          "2"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "inverse cosine",
+      "actual": [
+        [
+          "1"
+        ],
+        [
+          "0"
+        ],
+        [
+          "-1"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "1"
+        ],
+        [
+          "0"
+        ],
+        [
+          "-1"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "DFT delayed",
+      "actual": [
+        [
+          "0"
+        ],
+        [
+          "-2*I"
+        ],
+        [
+          "0"
+        ],
+        [
+          "2*I"
+        ]
+      ],
+      "expected": [
+        [
+          "0"
+        ],
+        [
+          "-2*I"
+        ],
+        [
+          "0"
+        ],
+        [
+          "2*I"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "inverse delayed",
+      "actual": [
+        [
+          "0"
+        ],
+        [
+          "1"
+        ],
+        [
+          "0"
+        ],
+        [
+          "-1"
+        ]
+      ],
+      "expected": [
+        [
+          "0"
+        ],
+        [
+          "1"
+        ],
+        [
+          "0"
+        ],
+        [
+          "-1"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "DFT constant",
+      "actual": [
+        [
+          "4"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "4"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "inverse constant",
+      "actual": [
+        [
+          "1"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "expected": [
+        [
+          "1"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "DFT general",
+      "actual": [
+        [
+          "10"
+        ],
+        [
+          "-2 + 2*I"
+        ],
+        [
+          "-2"
+        ],
+        [
+          "-2 - 2*I"
+        ]
+      ],
+      "expected": [
+        [
+          "10"
+        ],
+        [
+          "-2 + 2*I"
+        ],
+        [
+          "-2"
+        ],
+        [
+          "-2 - 2*I"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "inverse general",
+      "actual": [
+        [
+          "1"
+        ],
+        [
+          "2"
+        ],
+        [
+          "3"
+        ],
+        [
+          "4"
+        ]
+      ],
+      "expected": [
+        [
+          "1"
+        ],
+        [
+          "2"
+        ],
+        [
+          "3"
+        ],
+        [
+          "4"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "shift phase",
+      "actual": [
+        [
+          "10"
+        ],
+        [
+          "2 + 2*I"
+        ],
+        [
+          "2"
+        ],
+        [
+          "2 - 2*I"
+        ]
+      ],
+      "expected": [
+        [
+          "10"
+        ],
+        [
+          "2 + 2*I"
+        ],
+        [
+          "2"
+        ],
+        [
+          "2 - 2*I"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "parity reconstruction",
+      "actual": [
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "expected": [
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "parity orthogonality",
+      "actual": [
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "parity idempotents",
+      "actual": [
+        [
+          [
+            "1/2",
+            "0",
+            "1/2",
+            "0"
+          ],
+          [
+            "0",
+            "1/2",
+            "0",
+            "1/2"
+          ],
+          [
+            "1/2",
+            "0",
+            "1/2",
+            "0"
+          ],
+          [
+            "0",
+            "1/2",
+            "0",
+            "1/2"
+          ]
+        ],
+        [
+          [
+            "1/2",
+            "0",
+            "-1/2",
+            "0"
+          ],
+          [
+            "0",
+            "1/2",
+            "0",
+            "-1/2"
+          ],
+          [
+            "-1/2",
+            "0",
+            "1/2",
+            "0"
+          ],
+          [
+            "0",
+            "-1/2",
+            "0",
+            "1/2"
+          ]
+        ]
+      ],
+      "expected": [
+        [
+          [
+            "1/2",
+            "0",
+            "1/2",
+            "0"
+          ],
+          [
+            "0",
+            "1/2",
+            "0",
+            "1/2"
+          ],
+          [
+            "1/2",
+            "0",
+            "1/2",
+            "0"
+          ],
+          [
+            "0",
+            "1/2",
+            "0",
+            "1/2"
+          ]
+        ],
+        [
+          [
+            "1/2",
+            "0",
+            "-1/2",
+            "0"
+          ],
+          [
+            "0",
+            "1/2",
+            "0",
+            "-1/2"
+          ],
+          [
+            "-1/2",
+            "0",
+            "1/2",
+            "0"
+          ],
+          [
+            "0",
+            "-1/2",
+            "0",
+            "1/2"
+          ]
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "parity signal reconstruction [1, 2, 3, 4]",
+      "actual": [
+        [
+          "1"
+        ],
+        [
+          "2"
+        ],
+        [
+          "3"
+        ],
+        [
+          "4"
+        ]
+      ],
+      "expected": [
+        [
+          "1"
+        ],
+        [
+          "2"
+        ],
+        [
+          "3"
+        ],
+        [
+          "4"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "even odd-frequency zero [1, 2, 3, 4]",
+      "actual": [
+        "0",
+        "0"
+      ],
+      "expected": [
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "id": "odd even-frequency zero [1, 2, 3, 4]",
+      "actual": [
+        "0",
+        "0"
+      ],
+      "expected": [
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "id": "comparator blindness [1, 2, 3, 4]",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "parity signal reconstruction [3, 1, -1, 1]",
+      "actual": [
+        [
+          "3"
+        ],
+        [
+          "1"
+        ],
+        [
+          "-1"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "expected": [
+        [
+          "3"
+        ],
+        [
+          "1"
+        ],
+        [
+          "-1"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "even odd-frequency zero [3, 1, -1, 1]",
+      "actual": [
+        "0",
+        "0"
+      ],
+      "expected": [
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "id": "odd even-frequency zero [3, 1, -1, 1]",
+      "actual": [
+        "0",
+        "0"
+      ],
+      "expected": [
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "id": "comparator blindness [3, 1, -1, 1]",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "beat addition identity",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "beat5and7 0",
+      "actual": "2",
+      "expected": "2",
+      "passed": true
+    },
+    {
+      "id": "beat5and7 1/4",
+      "actual": "0",
+      "expected": "0",
+      "passed": true
+    },
+    {
+      "id": "beat5and7 1/2",
+      "actual": "-2",
+      "expected": "-2",
+      "passed": true
+    },
+    {
+      "id": "four angle reconstruct [8, 4, 6, 2]33/5",
+      "actual": [
+        "8",
+        "4",
+        "6",
+        "2"
+      ],
+      "expected": [
+        "8",
+        "4",
+        "6",
+        "2"
+      ],
+      "passed": true
+    },
+    {
+      "id": "four angle reconstruct [2, 5, 4, 3]33/5",
+      "actual": [
+        "2",
+        "5",
+        "4",
+        "3"
+      ],
+      "expected": [
+        "2",
+        "5",
+        "4",
+        "3"
+      ],
+      "passed": true
+    },
+    {
+      "id": "four angle reconstruct [1, 0, 3, 0]33/5",
+      "actual": [
+        "1",
+        "0",
+        "3",
+        "0"
+      ],
+      "expected": [
+        "1",
+        "0",
+        "3",
+        "0"
+      ],
+      "passed": true
+    },
+    {
+      "id": "four angle reconstruct [8, 4, 6, 2]03/5",
+      "actual": [
+        "8",
+        "4",
+        "6",
+        "2"
+      ],
+      "expected": [
+        "8",
+        "4",
+        "6",
+        "2"
+      ],
+      "passed": true
+    },
+    {
+      "id": "four angle reconstruct [8, 4, 6, 2]30",
+      "actual": [
+        "8",
+        "4",
+        "6",
+        "2"
+      ],
+      "expected": [
+        "8",
+        "4",
+        "6",
+        "2"
+      ],
+      "passed": true
+    },
+    {
+      "id": "four-angle worked",
+      "actual": [
+        "3",
+        "4",
+        "4/3",
+        "1/2",
+        "8/3"
+      ],
+      "expected": [
+        3,
+        4,
+        "4/3",
+        "1/2",
+        "8/3"
+      ],
+      "passed": true
+    },
+    {
+      "id": "four-angle negative practice",
+      "actual": [
+        "4",
+        "-1",
+        "-1/4",
+        "1/2",
+        "-1/2"
+      ],
+      "expected": [
+        4,
+        -1,
+        "-1/4",
+        "1/2",
+        "-1/2"
+      ],
+      "passed": true
+    },
+    {
+      "id": "all domain failures retained",
+      "actual": [
+        null,
+        null,
+        null
+      ],
+      "expected": [
+        null,
+        null,
+        null
+      ],
+      "passed": true
+    },
+    {
+      "id": "energy equivalent",
+      "actual": "8",
+      "expected": 8,
+      "passed": true
+    },
+    {
+      "id": "photon equivalent",
+      "actual": "2/5",
+      "expected": "2/5",
+      "passed": true
+    },
+    {
+      "id": "energy interval endpoints",
+      "actual": [
+        "8",
+        "16"
+      ],
+      "expected": [
+        8,
+        16
+      ],
+      "passed": true
+    },
+    {
+      "id": "positive form eigenvalues",
+      "actual": {
+        "3": 1,
+        "1": 1
+      },
+      "expected": {
+        "1": 1,
+        "3": 1
+      },
+      "passed": true
+    },
+    {
+      "id": "full cross term",
+      "actual": "6",
+      "expected": 6,
+      "passed": true
+    },
+    {
+      "id": "pullback matrix",
+      "actual": [
+        [
+          "2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "expected": [
+        [
+          "2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "pullback equality",
+      "actual": "6",
+      "expected": "6",
+      "passed": true
+    },
+    {
+      "id": "pullback value",
+      "actual": "6",
+      "expected": 6,
+      "passed": true
+    },
+    {
+      "id": "congruence practice",
+      "actual": "6",
+      "expected": 6,
+      "passed": true
+    },
+    {
+      "id": "route endpoint straight",
+      "actual": [
+        [
+          "2"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "2"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "route endpoint dogleg",
+      "actual": [
+        [
+          "2"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "2"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "route endpoint reverse_dogleg",
+      "actual": [
+        [
+          "2"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "2"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "route totals",
+      "actual": [
+        "4",
+        "8",
+        "8"
+      ],
+      "expected": [
+        4,
+        8,
+        8
+      ],
+      "passed": true
+    },
+    {
+      "id": "fixed time route bound identity",
+      "actual": "4*dx**2 + 4*dx*dy + 4*dy**2",
+      "expected": "4*dx**2 + 4*dx*dy + 4*dy**2",
+      "passed": true
+    },
+    {
+      "id": "positive excess decomposition",
+      "actual": "2*dx**2 + 2*dx*dy + 2*dy**2",
+      "expected": "2*dx**2 + 2*dx*dy + 2*dy**2",
+      "passed": true
+    },
+    {
+      "id": "duration counterexample",
+      "actual": "2",
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "precision retained difference",
+      "actual": "1/30000",
+      "expected": "1/30000",
+      "passed": true
+    },
+    {
+      "id": "nested trajectory endpoint",
+      "actual": [
+        [
+          "19"
+        ],
+        [
+          "6"
+        ],
+        [
+          "5"
+        ]
+      ],
+      "expected": [
+        [
+          "19"
+        ],
+        [
+          "6"
+        ],
+        [
+          "5"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "changed component endpoint",
+      "actual": [
+        [
+          "23"
+        ],
+        [
+          "6"
+        ],
+        [
+          "5"
+        ]
+      ],
+      "expected": [
+        [
+          "23"
+        ],
+        [
+          "6"
+        ],
+        [
+          "5"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "moving acceleration",
+      "actual": [
+        [
+          "-1"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "-1"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "local triad mapping",
+      "actual": [
+        [
+          "1"
+        ],
+        [
+          "0"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "expected": [
+        [
+          "1"
+        ],
+        [
+          "0"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "changed origin phase",
+      "actual": "-1",
+      "expected": -1,
+      "passed": true
+    },
+    {
+      "id": "linear bracket practice",
+      "actual": "3/2",
+      "expected": "3/2",
+      "passed": true
+    },
+    {
+      "id": "oscillator wavelength",
+      "actual": "3/4",
+      "expected": "3/4",
+      "passed": true
+    },
+    {
+      "id": "sinusoid worked samples",
+      "actual": [
+        "1",
+        "-1",
+        "1",
+        "3"
+      ],
+      "expected": [
+        1,
+        -1,
+        1,
+        3
+      ],
+      "passed": true
+    },
+    {
+      "id": "sinusoid practice samples",
+      "actual": [
+        "3",
+        "0",
+        "-3",
+        "0"
+      ],
+      "expected": [
+        3,
+        0,
+        -3,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "id": "signed energy interval",
+      "actual": [
+        "-3",
+        "-3/2"
+      ],
+      "expected": [
+        -3,
+        "-3/2"
+      ],
+      "passed": true
+    },
+    {
+      "id": "even spectrum",
+      "actual": [
+        [
+          "10"
+        ],
+        [
+          "0"
+        ],
+        [
+          "-2"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "10"
+        ],
+        [
+          "0"
+        ],
+        [
+          "-2"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "odd spectrum",
+      "actual": [
+        [
+          "0"
+        ],
+        [
+          "-2 + 2*I"
+        ],
+        [
+          "0"
+        ],
+        [
+          "-2 - 2*I"
+        ]
+      ],
+      "expected": [
+        [
+          "0"
+        ],
+        [
+          "-2 + 2*I"
+        ],
+        [
+          "0"
+        ],
+        [
+          "-2 - 2*I"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "practice even spectrum",
+      "actual": [
+        [
+          "4"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "4"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "practice odd spectrum",
+      "actual": [
+        [
+          "0"
+        ],
+        [
+          "4"
+        ],
+        [
+          "0"
+        ],
+        [
+          "4"
+        ]
+      ],
+      "expected": [
+        [
+          "0"
+        ],
+        [
+          "4"
+        ],
+        [
+          "0"
+        ],
+        [
+          "4"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "all shift comparator nullspace 0",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "all shift comparator nullspace 1",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "all shift comparator nullspace 2",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "all shift comparator nullspace 3",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "positive form practice",
+      "actual": "14",
+      "expected": 14,
+      "passed": true
+    },
+    {
+      "id": "plane ruler rate cost",
+      "actual": "2",
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "subdivision invariant",
+      "actual": "4",
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "toy rounding enclosure",
+      "actual": "True",
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "interval gap",
+      "actual": "1/5",
+      "expected": "1/5",
+      "passed": true
+    },
+    {
+      "id": "coupling equal output",
+      "actual": 6,
+      "expected": 6,
+      "passed": true
+    },
+    {
+      "id": "lesson count 24",
+      "actual": 7,
+      "expected": 7,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C24.01",
+      "actual": "lesson-01",
+      "expected": "lesson-01",
+      "passed": true
+    },
+    {
+      "id": "period focus count C24.01",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C24.02",
+      "actual": "lesson-02",
+      "expected": "lesson-02",
+      "passed": true
+    },
+    {
+      "id": "period focus count C24.02",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C24.03",
+      "actual": "lesson-03",
+      "expected": "lesson-03",
+      "passed": true
+    },
+    {
+      "id": "period focus count C24.03",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C24.04",
+      "actual": "lesson-04",
+      "expected": "lesson-04",
+      "passed": true
+    },
+    {
+      "id": "period focus count C24.04",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C24.05",
+      "actual": "lesson-05",
+      "expected": "lesson-05",
+      "passed": true
+    },
+    {
+      "id": "period focus count C24.05",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C24.06",
+      "actual": "lesson-06",
+      "expected": "lesson-06",
+      "passed": true
+    },
+    {
+      "id": "period focus count C24.06",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C24.07",
+      "actual": "lesson-07",
+      "expected": "lesson-07",
+      "passed": true
+    },
+    {
+      "id": "period focus count C24.07",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "id": "lesson count 25",
+      "actual": 7,
+      "expected": 7,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C25.01",
+      "actual": "lesson-01",
+      "expected": "lesson-01",
+      "passed": true
+    },
+    {
+      "id": "period focus count C25.01",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C25.02",
+      "actual": "lesson-02",
+      "expected": "lesson-02",
+      "passed": true
+    },
+    {
+      "id": "period focus count C25.02",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C25.03",
+      "actual": "lesson-03",
+      "expected": "lesson-03",
+      "passed": true
+    },
+    {
+      "id": "period focus count C25.03",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C25.04",
+      "actual": "lesson-04",
+      "expected": "lesson-04",
+      "passed": true
+    },
+    {
+      "id": "period focus count C25.04",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C25.05",
+      "actual": "lesson-05",
+      "expected": "lesson-05",
+      "passed": true
+    },
+    {
+      "id": "period focus count C25.05",
+      "actual": 3,
+      "expected": 3,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C25.06",
+      "actual": "lesson-06",
+      "expected": "lesson-06",
+      "passed": true
+    },
+    {
+      "id": "period focus count C25.06",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C25.07",
+      "actual": "lesson-07",
+      "expected": "lesson-07",
+      "passed": true
+    },
+    {
+      "id": "period focus count C25.07",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "lesson count 26",
+      "actual": 8,
+      "expected": 8,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C26.01",
+      "actual": "lesson-01",
+      "expected": "lesson-01",
+      "passed": true
+    },
+    {
+      "id": "period focus count C26.01",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C26.02",
+      "actual": "lesson-02",
+      "expected": "lesson-02",
+      "passed": true
+    },
+    {
+      "id": "period focus count C26.02",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C26.03",
+      "actual": "lesson-03",
+      "expected": "lesson-03",
+      "passed": true
+    },
+    {
+      "id": "period focus count C26.03",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C26.04",
+      "actual": "lesson-04",
+      "expected": "lesson-04",
+      "passed": true
+    },
+    {
+      "id": "period focus count C26.04",
+      "actual": 3,
+      "expected": 3,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C26.05",
+      "actual": "lesson-05",
+      "expected": "lesson-05",
+      "passed": true
+    },
+    {
+      "id": "period focus count C26.05",
+      "actual": 3,
+      "expected": 3,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C26.06",
+      "actual": "lesson-06",
+      "expected": "lesson-06",
+      "passed": true
+    },
+    {
+      "id": "period focus count C26.06",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C26.07",
+      "actual": "lesson-07",
+      "expected": "lesson-07",
+      "passed": true
+    },
+    {
+      "id": "period focus count C26.07",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C26.08",
+      "actual": "lesson-08",
+      "expected": "lesson-08",
+      "passed": true
+    },
+    {
+      "id": "period focus count C26.08",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "lesson count 27",
+      "actual": 7,
+      "expected": 7,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C27.01",
+      "actual": "lesson-01",
+      "expected": "lesson-01",
+      "passed": true
+    },
+    {
+      "id": "period focus count C27.01",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C27.02",
+      "actual": "lesson-02",
+      "expected": "lesson-02",
+      "passed": true
+    },
+    {
+      "id": "period focus count C27.02",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C27.03",
+      "actual": "lesson-03",
+      "expected": "lesson-03",
+      "passed": true
+    },
+    {
+      "id": "period focus count C27.03",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C27.04",
+      "actual": "lesson-04",
+      "expected": "lesson-04",
+      "passed": true
+    },
+    {
+      "id": "period focus count C27.04",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C27.05",
+      "actual": "lesson-05",
+      "expected": "lesson-05",
+      "passed": true
+    },
+    {
+      "id": "period focus count C27.05",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C27.06",
+      "actual": "lesson-06",
+      "expected": "lesson-06",
+      "passed": true
+    },
+    {
+      "id": "period focus count C27.06",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "lesson identity C27.07",
+      "actual": "lesson-07",
+      "expected": "lesson-07",
+      "passed": true
+    },
+    {
+      "id": "period focus count C27.07",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "id": "explanation C24.01",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C24.01-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C24.01-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C24.01-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C24.01-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C24.01-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C24.01-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C24.01",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C24.01",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "amendment C24.01 EA-24-E10-7",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "explanation C24.02",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C24.02-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C24.02-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C24.02-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C24.02-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C24.02-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C24.02-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C24.02",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C24.02",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "amendment C24.02 EA-24-E10-7",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "explanation C24.03",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C24.03-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C24.03-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C24.03-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C24.03-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C24.03-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C24.03-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C24.03",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C24.03",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "amendment C24.03 SA-24",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "explanation C24.04",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C24.04-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C24.04-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C24.04-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C24.04-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C24.04-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C24.04-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C24.04",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C24.04",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "amendment C24.04 SA-24",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "explanation C24.05",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C24.05-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C24.05-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C24.05-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C24.05-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C24.05-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C24.05-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C24.05",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C24.05",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "explanation C24.06",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C24.06-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C24.06-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C24.06-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C24.06-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C24.06-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C24.06-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C24.06",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C24.06",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "amendment C24.06 SA-24",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "explanation C24.07",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C24.07-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C24.07-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C24.07-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C24.07-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C24.07-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C24.07-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C24.07",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C24.07",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C24-CAP-01 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C24-CAP-01 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C24-CAP-01 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C24-CAP-01 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C24-CAP-01",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C24-CAP-01",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "resolved C24-CAP-02 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C24-CAP-02 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C24-CAP-02 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C24-CAP-02 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C24-CAP-02",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C24-CAP-02",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "resolved C24-CAP-03 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C24-CAP-03 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C24-CAP-03 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C24-CAP-03 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C24-CAP-03",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C24-CAP-03",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "resolved C24-CAP-04 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C24-CAP-04 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C24-CAP-04 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C24-CAP-04 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C24-CAP-04",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C24-CAP-04",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "resolved C24-CAP-05 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C24-CAP-05 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C24-CAP-05 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C24-CAP-05 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C24-CAP-05",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C24-CAP-05",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "resolved C24-CAP-06 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C24-CAP-06 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C24-CAP-06 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C24-CAP-06 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C24-CAP-06",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C24-CAP-06",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "resolved C24-CAP-07 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C24-CAP-07 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C24-CAP-07 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C24-CAP-07 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C24-CAP-07",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C24-CAP-07",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "legacy C24-FRAME-EX1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "legacy C24-FRAME-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "legacy C24-TRAJ-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C24.01",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C24.02",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C24.03",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C24.04",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C24.05",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C24.06",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C24.07",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "all original capstone operations course-24",
+      "actual": [
+        "Specify a position and velocity in a named frame at a named epoch",
+        "Convert a simple sky direction and local-axis description",
+        "Trace CMB, Sun, Earth-Moon barycenter, Earth, and laboratory contributions",
+        "Compose compatible velocity contributions and retain their signs",
+        "Distinguish an Earth-carried orientation from a fixed comparison direction",
+        "Identify independent drawing scales and the Galactic-center gauge choice",
+        "Record time standard, units, ephemeris, site, and geometry inputs"
+      ],
+      "expected": [
+        "Specify a position and velocity in a named frame at a named epoch",
+        "Convert a simple sky direction and local-axis description",
+        "Trace CMB, Sun, Earth-Moon barycenter, Earth, and laboratory contributions",
+        "Compose compatible velocity contributions and retain their signs",
+        "Distinguish an Earth-carried orientation from a fixed comparison direction",
+        "Identify independent drawing scales and the Galactic-center gauge choice",
+        "Record time standard, units, ephemeris, site, and geometry inputs"
+      ],
+      "passed": true
+    },
+    {
+      "id": "stable contract course-24",
+      "actual": "e7b8f78d7de5df1d7cc72d598b41eede1281d036815b12131a51490d75764560",
+      "expected": "e7b8f78d7de5df1d7cc72d598b41eede1281d036815b12131a51490d75764560",
+      "passed": true
+    },
+    {
+      "id": "capstone score course-24",
+      "actual": 28,
+      "expected": 28,
+      "passed": true
+    },
+    {
+      "id": "explanation C25.01",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C25.01-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C25.01-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C25.01-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C25.01-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C25.01-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C25.01-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C25.01",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C25.01",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "explanation C25.02",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C25.02-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C25.02-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C25.02-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C25.02-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C25.02-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C25.02-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C25.02",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C25.02",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "explanation C25.03",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C25.03-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C25.03-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C25.03-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C25.03-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C25.03-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C25.03-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C25.03",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C25.03",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "explanation C25.04",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C25.04-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C25.04-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C25.04-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C25.04-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C25.04-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C25.04-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C25.04",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C25.04",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "explanation C25.05",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C25.05-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C25.05-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C25.05-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C25.05-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C25.05-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C25.05-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C25.05",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C25.05",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "explanation C25.06",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C25.06-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C25.06-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C25.06-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C25.06-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C25.06-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C25.06-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C25.06",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C25.06",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "explanation C25.07",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C25.07-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C25.07-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C25.07-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C25.07-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C25.07-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C25.07-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C25.07",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C25.07",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C25-CAP-01 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C25-CAP-01 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C25-CAP-01 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C25-CAP-01 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C25-CAP-01",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C25-CAP-01",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "resolved C25-CAP-02 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C25-CAP-02 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C25-CAP-02 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C25-CAP-02 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C25-CAP-02",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C25-CAP-02",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "resolved C25-CAP-03 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C25-CAP-03 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C25-CAP-03 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C25-CAP-03 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C25-CAP-03",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C25-CAP-03",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "resolved C25-CAP-04 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C25-CAP-04 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C25-CAP-04 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C25-CAP-04 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C25-CAP-04",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C25-CAP-04",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "resolved C25-CAP-05 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C25-CAP-05 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C25-CAP-05 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C25-CAP-05 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C25-CAP-05",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C25-CAP-05",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "resolved C25-CAP-06 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C25-CAP-06 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C25-CAP-06 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C25-CAP-06 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C25-CAP-06",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C25-CAP-06",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "resolved C25-CAP-07 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C25-CAP-07 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C25-CAP-07 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C25-CAP-07 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C25-CAP-07",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C25-CAP-07",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C25.01",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C25.02",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C25.03",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C25.04",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C25.05",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C25.06",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C25.07",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "all original capstone operations course-25",
+      "actual": [
+        "Compute a signed plane coordinate along a path",
+        "Derive the projected crossing rate with dimensions",
+        "Convert a spatial ruler into a time scale",
+        "Compare source-defined rulers without equating their physical roles",
+        "Locate a crossing inside a continuous bracket",
+        "Distinguish the different celestial and geometric event definitions",
+        "Retain direction, polarity, uncertainty, gaps, and event provenance"
+      ],
+      "expected": [
+        "Compute a signed plane coordinate along a path",
+        "Derive the projected crossing rate with dimensions",
+        "Convert a spatial ruler into a time scale",
+        "Compare source-defined rulers without equating their physical roles",
+        "Locate a crossing inside a continuous bracket",
+        "Distinguish the different celestial and geometric event definitions",
+        "Retain direction, polarity, uncertainty, gaps, and event provenance"
+      ],
+      "passed": true
+    },
+    {
+      "id": "stable contract course-25",
+      "actual": "bd4bc43776aa5c4a943b6aab9b8b5dad538a7870d4f0c311be9081b85c0fd70c",
+      "expected": "bd4bc43776aa5c4a943b6aab9b8b5dad538a7870d4f0c311be9081b85c0fd70c",
+      "passed": true
+    },
+    {
+      "id": "capstone score course-25",
+      "actual": 28,
+      "expected": 28,
+      "passed": true
+    },
+    {
+      "id": "explanation C26.01",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C26.01-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C26.01-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C26.01-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C26.01-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C26.01-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C26.01-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C26.01",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C26.01",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "explanation C26.02",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C26.02-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C26.02-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C26.02-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C26.02-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C26.02-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C26.02-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C26.02",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C26.02",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "amendment C26.02 EA-26-E10-8",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "explanation C26.03",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C26.03-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C26.03-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C26.03-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C26.03-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C26.03-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C26.03-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C26.03",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C26.03",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "amendment C26.03 EA-26-E10-8",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "explanation C26.04",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C26.04-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C26.04-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C26.04-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C26.04-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C26.04-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C26.04-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C26.04",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C26.04",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "amendment C26.04 EA-26-E10-8",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "explanation C26.05",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C26.05-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C26.05-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C26.05-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C26.05-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C26.05-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C26.05-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C26.S01-E1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C26.S01-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C26.S01-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C26.S01-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "supplement answer C26.S01 explanation",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "supplement answer C26.S01 worked_task_and_answer",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "supplement answer C26.S01 practice_task_and_answer",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "supplement answer C26.S01 diagnostic_task_and_answer",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C26.05",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C26.05",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "amendment C26.05 SA-26",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "explanation C26.06",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C26.06-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C26.06-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C26.06-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C26.06-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C26.06-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C26.06-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C26.06",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C26.06",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "amendment C26.06 SA-26",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "explanation C26.07",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C26.07-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C26.07-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C26.07-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C26.07-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C26.07-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C26.07-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C26.07",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C26.07",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "amendment C26.07 SA-26",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "explanation C26.08",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C26.08-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C26.08-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C26.08-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C26.08-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C26.08-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C26.08-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C26.08",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C26.08",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "amendment C26.08 SA-26",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C26-CAP-01 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C26-CAP-01 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C26-CAP-01 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C26-CAP-01 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C26-CAP-01",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C26-CAP-01",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "resolved C26-CAP-02 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C26-CAP-02 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C26-CAP-02 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C26-CAP-02 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C26-CAP-02",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C26-CAP-02",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "resolved C26-CAP-03 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C26-CAP-03 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C26-CAP-03 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C26-CAP-03 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C26-CAP-03",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C26-CAP-03",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "resolved C26-CAP-04 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C26-CAP-04 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C26-CAP-04 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C26-CAP-04 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C26-CAP-04",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C26-CAP-04",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "resolved C26-CAP-05 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C26-CAP-05 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C26-CAP-05 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C26-CAP-05 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C26-CAP-05",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C26-CAP-05",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "resolved C26-CAP-06 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C26-CAP-06 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C26-CAP-06 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C26-CAP-06 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C26-CAP-06",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C26-CAP-06",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "resolved C26-CAP-07 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C26-CAP-07 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C26-CAP-07 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C26-CAP-07 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C26-CAP-07",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C26-CAP-07",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "resolved C26-CAP-08 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C26-CAP-08 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C26-CAP-08 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C26-CAP-08 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C26-CAP-08",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C26-CAP-08",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "resolved C26-CAP-09 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C26-CAP-09 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C26-CAP-09 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C26-CAP-09 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C26-CAP-09",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C26-CAP-09",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "legacy C26-DFT-EX1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "legacy C26-DFT-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "legacy C26-DFT-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "legacy C26-BEAT-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C26.01",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C26.02",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C26.03",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C26.04",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C26.05",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C26.06",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C26.07",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C26.08",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C26.S01",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "all original capstone operations course-26",
+      "actual": [
+        "Read and reconstruct a sinusoid with stated units",
+        "Derive a two-frequency beat example",
+        "Relate integer harmonics to the declared trajectory geometry",
+        "Reconstruct a short signal from signed complex coefficients",
+        "Compare channels without losing polarity or reference definitions",
+        "Calculate a source-defined energy equivalent and state its physical meaning",
+        "Read the retained spectral ledger without treating repeated levels as independent inputs",
+        "Carry all unexplained components into a new comparison"
+      ],
+      "expected": [
+        "Read and reconstruct a sinusoid with stated units",
+        "Derive a two-frequency beat example",
+        "Relate integer harmonics to the declared trajectory geometry",
+        "Reconstruct a short signal from signed complex coefficients",
+        "Compare channels without losing polarity or reference definitions",
+        "Calculate a source-defined energy equivalent and state its physical meaning",
+        "Read the retained spectral ledger without treating repeated levels as independent inputs",
+        "Carry all unexplained components into a new comparison"
+      ],
+      "passed": true
+    },
+    {
+      "id": "stable contract course-26",
+      "actual": "9a49123e304afc053c0ed4685e72820491b9e2c65a57031c1ac31ada0399422f",
+      "expected": "9a49123e304afc053c0ed4685e72820491b9e2c65a57031c1ac31ada0399422f",
+      "passed": true
+    },
+    {
+      "id": "capstone score course-26",
+      "actual": 36,
+      "expected": 36,
+      "passed": true
+    },
+    {
+      "id": "explanation C27.01",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C27.01-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C27.01-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C27.01-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C27.01-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C27.01-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C27.01-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C27.01",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C27.01",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "explanation C27.02",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C27.02-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C27.02-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C27.02-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C27.02-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C27.02-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C27.02-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C27.02",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C27.02",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "explanation C27.03",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C27.03-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C27.03-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C27.03-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C27.03-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C27.03-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C27.03-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C27.03",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C27.03",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "amendment C27.03 SA-27",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "explanation C27.04",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C27.04-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C27.04-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C27.04-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C27.04-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C27.04-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C27.04-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C27.04",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C27.04",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "explanation C27.05",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C27.05-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C27.05-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C27.05-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C27.05-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C27.05-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C27.05-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C27.05",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C27.05",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "explanation C27.06",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C27.06-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C27.06-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C27.06-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C27.06-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C27.06-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C27.06-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C27.06",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C27.06",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "amendment C27.06 SA-27",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "explanation C27.07",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C27.07-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C27.07-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C27.07-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C27.07-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "unique C27.07-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C27.07-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "lesson pacing C27.07",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "lesson concepts C27.07",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "amendment C27.07 SA-27",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C27-CAP-01 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C27-CAP-01 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C27-CAP-01 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C27-CAP-01 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C27-CAP-01",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C27-CAP-01",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "resolved C27-CAP-02 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C27-CAP-02 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C27-CAP-02 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C27-CAP-02 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C27-CAP-02",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C27-CAP-02",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "resolved C27-CAP-03 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C27-CAP-03 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C27-CAP-03 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C27-CAP-03 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C27-CAP-03",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C27-CAP-03",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "resolved C27-CAP-04 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C27-CAP-04 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C27-CAP-04 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C27-CAP-04 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C27-CAP-04",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C27-CAP-04",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "resolved C27-CAP-05 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C27-CAP-05 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C27-CAP-05 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C27-CAP-05 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C27-CAP-05",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C27-CAP-05",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "resolved C27-CAP-06 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C27-CAP-06 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C27-CAP-06 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C27-CAP-06 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C27-CAP-06",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C27-CAP-06",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "resolved C27-CAP-07 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C27-CAP-07 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C27-CAP-07 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C27-CAP-07 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone answer C27-CAP-07",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "capstone rubric C27-CAP-07",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C27.01",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C27.02",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C27.03",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C27.04",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C27.05",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C27.06",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C27.07",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "all original capstone operations course-27",
+      "actual": [
+        "Evaluate and visualize a small positive form",
+        "Derive the cost under the source ruler and time conventions",
+        "Verify a small matrix congruence without claiming new dynamics",
+        "Compute a discrete cumulative path cost with units",
+        "Compare admissible paths under one fixed specification",
+        "Read a route bound and retain nonzero numerical closure coordinates",
+        "Identify the additional observations needed to connect modeled cost to measured response"
+      ],
+      "expected": [
+        "Evaluate and visualize a small positive form",
+        "Derive the cost under the source ruler and time conventions",
+        "Verify a small matrix congruence without claiming new dynamics",
+        "Compute a discrete cumulative path cost with units",
+        "Compare admissible paths under one fixed specification",
+        "Read a route bound and retain nonzero numerical closure coordinates",
+        "Identify the additional observations needed to connect modeled cost to measured response"
+      ],
+      "passed": true
+    },
+    {
+      "id": "stable contract course-27",
+      "actual": "4f9cdeff609a39dbbc7c38175b49b108c6dbe61a113874290e8a05f44e398be7",
+      "expected": "4f9cdeff609a39dbbc7c38175b49b108c6dbe61a113874290e8a05f44e398be7",
+      "passed": true
+    },
+    {
+      "id": "capstone score course-27",
+      "actual": 28,
+      "expected": 28,
+      "passed": true
+    }
+  ],
+  "course24": {
+    "R": [
+      [
+        "0",
+        "-1",
+        "0"
+      ],
+      [
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "position_local": [
+      [
+        "2"
+      ],
+      [
+        "1"
+      ],
+      [
+        "0"
+      ]
+    ],
+    "origin": [
+      [
+        "5"
+      ],
+      [
+        "3"
+      ],
+      [
+        "1"
+      ]
+    ],
+    "position_world": [
+      [
+        "4"
+      ],
+      [
+        "5"
+      ],
+      [
+        "1"
+      ]
+    ],
+    "velocity_components": [
+      [
+        [
+          "10"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ]
+      ],
+      [
+        [
+          "0"
+        ],
+        [
+          "2"
+        ],
+        [
+          "0"
+        ]
+      ],
+      [
+        [
+          "-1"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ]
+      ],
+      [
+        [
+          "0"
+        ],
+        [
+          "0"
+        ],
+        [
+          "1"
+        ]
+      ]
+    ],
+    "total_velocity": [
+      [
+        "9"
+      ],
+      [
+        "2"
+      ],
+      [
+        "1"
+      ]
+    ],
+    "synthetic_path": {
+      "p0": [
+        [
+          "1"
+        ],
+        [
+          "2"
+        ],
+        [
+          "3"
+        ]
+      ],
+      "v": [
+        [
+          "2"
+        ],
+        [
+          "-1"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "dt": 2,
+      "p1": [
+        [
+          "5"
+        ],
+        [
+          "0"
+        ],
+        [
+          "3"
+        ]
+      ],
+      "p2": [
+        [
+          "9"
+        ],
+        [
+          "-2"
+        ],
+        [
+          "3"
+        ]
+      ]
+    },
+    "physical_velocity_source": {
+      "path": "Z:\\Archive_20260911\\Pre_Aug14\\K-Field_linear_inertia_derivation_1784989727.json",
+      "sha256": "4651a532fe43e8091748ef4f7e28bb899e1a2ea798d689ba1724e99530cd55ab",
+      "pointer": "/derived_results/earth_cmb",
+      "epoch": "not specified in read authority; not inferred from publication"
+    }
+  },
+  "course25": {
+    "normal": [
+      [
+        "3/5"
+      ],
+      [
+        "4/5"
+      ],
+      [
+        "0"
+      ]
+    ],
+    "spacing_m": "3/5",
+    "velocity_m_s": [
+      [
+        "2"
+      ],
+      [
+        "0"
+      ],
+      [
+        "0"
+      ]
+    ],
+    "event_rows": [
+      {
+        "family": "A",
+        "sheet_index": 0,
+        "time_s": "0",
+        "position_m": [
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ]
+        ],
+        "signed_rate_per_s": 2,
+        "closure_m": "0"
+      },
+      {
+        "family": "A",
+        "sheet_index": 1,
+        "time_s": "1/2",
+        "position_m": [
+          [
+            "1"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ]
+        ],
+        "signed_rate_per_s": 2,
+        "closure_m": "0"
+      },
+      {
+        "family": "A",
+        "sheet_index": 2,
+        "time_s": "1",
+        "position_m": [
+          [
+            "2"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ]
+        ],
+        "signed_rate_per_s": 2,
+        "closure_m": "0"
+      },
+      {
+        "family": "A",
+        "sheet_index": 3,
+        "time_s": "3/2",
+        "position_m": [
+          [
+            "3"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ]
+        ],
+        "signed_rate_per_s": 2,
+        "closure_m": "0"
+      }
+    ],
+    "unresolved_examples": [
+      "continuous same-sign endpoints with roots1,2",
+      "tangent contact at1",
+      "discontinuity sign jump without guaranteed zero",
+      "missing interval with no interpolation claim"
+    ]
+  },
+  "course26": {
+    "DFT_matrix": [
+      [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      [
+        "1",
+        "-I",
+        "-1",
+        "I"
+      ],
+      [
+        "1",
+        "-1",
+        "1",
+        "-1"
+      ],
+      [
+        "1",
+        "I",
+        "-1",
+        "-I"
+      ]
+    ],
+    "inverse_matrix": [
+      [
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4"
+      ],
+      [
+        "1/4",
+        "I/4",
+        "-1/4",
+        "-I/4"
+      ],
+      [
+        "1/4",
+        "-1/4",
+        "1/4",
+        "-1/4"
+      ],
+      [
+        "1/4",
+        "-I/4",
+        "-1/4",
+        "I/4"
+      ]
+    ],
+    "DFT_ledgers": [
+      {
+        "label": "cosine",
+        "x": [
+          [
+            "1"
+          ],
+          [
+            "0"
+          ],
+          [
+            "-1"
+          ],
+          [
+            "0"
+          ]
+        ],
+        "X": [
+          [
+            "0"
+          ],
+          [
+            "2"
+          ],
+          [
+            "0"
+          ],
+          [
+            "2"
+          ]
+        ],
+        "inverse": [
+          [
+            "1"
+          ],
+          [
+            "0"
+          ],
+          [
+            "-1"
+          ],
+          [
+            "0"
+          ]
+        ]
+      },
+      {
+        "label": "delayed",
+        "x": [
+          [
+            "0"
+          ],
+          [
+            "1"
+          ],
+          [
+            "0"
+          ],
+          [
+            "-1"
+          ]
+        ],
+        "X": [
+          [
+            "0"
+          ],
+          [
+            "-2*I"
+          ],
+          [
+            "0"
+          ],
+          [
+            "2*I"
+          ]
+        ],
+        "inverse": [
+          [
+            "0"
+          ],
+          [
+            "1"
+          ],
+          [
+            "0"
+          ],
+          [
+            "-1"
+          ]
+        ]
+      },
+      {
+        "label": "constant",
+        "x": [
+          [
+            "1"
+          ],
+          [
+            "1"
+          ],
+          [
+            "1"
+          ],
+          [
+            "1"
+          ]
+        ],
+        "X": [
+          [
+            "4"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ]
+        ],
+        "inverse": [
+          [
+            "1"
+          ],
+          [
+            "1"
+          ],
+          [
+            "1"
+          ],
+          [
+            "1"
+          ]
+        ]
+      },
+      {
+        "label": "general",
+        "x": [
+          [
+            "1"
+          ],
+          [
+            "2"
+          ],
+          [
+            "3"
+          ],
+          [
+            "4"
+          ]
+        ],
+        "X": [
+          [
+            "10"
+          ],
+          [
+            "-2 + 2*I"
+          ],
+          [
+            "-2"
+          ],
+          [
+            "-2 - 2*I"
+          ]
+        ],
+        "inverse": [
+          [
+            "1"
+          ],
+          [
+            "2"
+          ],
+          [
+            "3"
+          ],
+          [
+            "4"
+          ]
+        ]
+      }
+    ],
+    "even_projector": [
+      [
+        "1/2",
+        "0",
+        "1/2",
+        "0"
+      ],
+      [
+        "0",
+        "1/2",
+        "0",
+        "1/2"
+      ],
+      [
+        "1/2",
+        "0",
+        "1/2",
+        "0"
+      ],
+      [
+        "0",
+        "1/2",
+        "0",
+        "1/2"
+      ]
+    ],
+    "odd_projector": [
+      [
+        "1/2",
+        "0",
+        "-1/2",
+        "0"
+      ],
+      [
+        "0",
+        "1/2",
+        "0",
+        "-1/2"
+      ],
+      [
+        "-1/2",
+        "0",
+        "1/2",
+        "0"
+      ],
+      [
+        "0",
+        "-1/2",
+        "0",
+        "1/2"
+      ]
+    ],
+    "four_angle_ledgers": [
+      {
+        "counts": [
+          8,
+          4,
+          6,
+          2
+        ],
+        "Q": "3",
+        "M": "7",
+        "contrast_G": "4",
+        "pair_half_differences": [
+          "1",
+          "1"
+        ],
+        "fractional_gain": "4/3",
+        "rho": "1/2",
+        "P": "8/3",
+        "domain_status": "defined",
+        "reconstructed": [
+          "8",
+          "4",
+          "6",
+          "2"
+        ]
+      },
+      {
+        "counts": [
+          2,
+          5,
+          4,
+          3
+        ],
+        "Q": "4",
+        "M": "3",
+        "contrast_G": "-1",
+        "pair_half_differences": [
+          "-1",
+          "1"
+        ],
+        "fractional_gain": "-1/4",
+        "rho": "1/2",
+        "P": "-1/2",
+        "domain_status": "defined",
+        "reconstructed": [
+          "2",
+          "5",
+          "4",
+          "3"
+        ]
+      },
+      {
+        "counts": [
+          1,
+          0,
+          3,
+          0
+        ],
+        "Q": "0",
+        "M": "2",
+        "contrast_G": "2",
+        "pair_half_differences": [
+          "-1",
+          "0"
+        ],
+        "fractional_gain": null,
+        "rho": "1/2",
+        "P": null,
+        "domain_status": "undefined; all input counts and valid intermediate values retained",
+        "reconstructed": [
+          "1",
+          "0",
+          "3",
+          "0"
+        ]
+      },
+      {
+        "counts": [
+          8,
+          4,
+          6,
+          2
+        ],
+        "Q": "3",
+        "M": "7",
+        "contrast_G": "4",
+        "pair_half_differences": [
+          "1",
+          "1"
+        ],
+        "fractional_gain": "4/3",
+        "rho": "0",
+        "P": null,
+        "domain_status": "undefined; all input counts and valid intermediate values retained",
+        "reconstructed": [
+          "8",
+          "4",
+          "6",
+          "2"
+        ]
+      },
+      {
+        "counts": [
+          8,
+          4,
+          6,
+          2
+        ],
+        "Q": "3",
+        "M": "7",
+        "contrast_G": "4",
+        "pair_half_differences": [
+          "1",
+          "1"
+        ],
+        "fractional_gain": "4/3",
+        "rho": null,
+        "P": null,
+        "domain_status": "undefined; all input counts and valid intermediate values retained",
+        "reconstructed": [
+          "8",
+          "4",
+          "6",
+          "2"
+        ]
+      }
+    ],
+    "all14_source_row_diagnostics": {
+      "scope": "Derived row-level diagnostics from immutable sources read in memory; no source dataset copied. Arithmetic uses parsed binary64 JSON numbers and supplies no certified interval or exact-equality tolerance.",
+      "spectral_source_sha256": "d4105a6d6802e6bb2a2ba8e76a1d23a27973fca3d3335fd8335690a41ab72dfa",
+      "energy_source_sha256": "9120f80210b235b8612d6479fe25272eb3824f31c5a1394e7e9d12718e57e70f",
+      "bundle_sha256": "04044230f3b2536d22654b294760106eca301f212e4eb4157989b330ff611f17",
+      "row_diagnostics": [
+        {
+          "source_pointer": "/events/0",
+          "event_id": "415-515:415:w",
+          "family": "w",
+          "gain_sign": 1,
+          "P_sign": 1,
+          "energy_interval_present": false,
+          "derived_closure_P_minus_gain_over_rho": 0,
+          "derived_closure_gain_minus_rhoP": 0,
+          "original_row_retained_at": "sha256:d4105a6d6802e6bb2a2ba8e76a1d23a27973fca3d3335fd8335690a41ab72dfa",
+          "energy_pointer": "/all_event_channel_modulations/0",
+          "source_pair_key_matches": true,
+          "derived_pair_half_differences": [
+            1.064059614572102,
+            0.4421788437163059
+          ],
+          "derived_count_reconstruction_closure": [
+            0,
+            2.2737367544323206e-13,
+            2.2737367544323206e-13,
+            0
+          ],
+          "derived_fractional_gain_closure": 0,
+          "comparison_P_sign_preserved": true,
+          "explicit_family_alias": "identical",
+          "pair_key_matches_after_declared_alias": true
+        },
+        {
+          "source_pointer": "/events/1",
+          "event_id": "415-515:515:w",
+          "family": "w",
+          "gain_sign": 1,
+          "P_sign": 1,
+          "energy_interval_present": true,
+          "derived_closure_P_minus_gain_over_rho": 4.440892098500626e-16,
+          "derived_closure_gain_minus_rhoP": -2.710505431213761e-20,
+          "original_row_retained_at": "sha256:d4105a6d6802e6bb2a2ba8e76a1d23a27973fca3d3335fd8335690a41ab72dfa",
+          "energy_pointer": "/all_event_channel_modulations/1",
+          "source_pair_key_matches": true,
+          "derived_pair_half_differences": [
+            -0.4326896895927348,
+            4.600965465611807
+          ],
+          "derived_count_reconstruction_closure": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "derived_fractional_gain_closure": 0,
+          "comparison_P_sign_preserved": true,
+          "explicit_family_alias": "identical",
+          "pair_key_matches_after_declared_alias": true
+        },
+        {
+          "source_pointer": "/events/2",
+          "event_id": "445-555:445:v",
+          "family": "v",
+          "gain_sign": 1,
+          "P_sign": 1,
+          "energy_interval_present": true,
+          "derived_closure_P_minus_gain_over_rho": -1.1102230246251565e-16,
+          "derived_closure_gain_minus_rhoP": 1.0842021724855044e-19,
+          "original_row_retained_at": "sha256:d4105a6d6802e6bb2a2ba8e76a1d23a27973fca3d3335fd8335690a41ab72dfa",
+          "energy_pointer": "/all_event_channel_modulations/2",
+          "source_pair_key_matches": true,
+          "derived_pair_half_differences": [
+            2.03521596642895,
+            -2.859136134284199
+          ],
+          "derived_count_reconstruction_closure": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "derived_fractional_gain_closure": 0,
+          "comparison_P_sign_preserved": true,
+          "explicit_family_alias": "identical",
+          "pair_key_matches_after_declared_alias": true
+        },
+        {
+          "source_pointer": "/events/3",
+          "event_id": "445-555:555:v",
+          "family": "v",
+          "gain_sign": -1,
+          "P_sign": -1,
+          "energy_interval_present": false,
+          "derived_closure_P_minus_gain_over_rho": 5.551115123125783e-17,
+          "derived_closure_gain_minus_rhoP": -5.421010862427522e-20,
+          "original_row_retained_at": "sha256:d4105a6d6802e6bb2a2ba8e76a1d23a27973fca3d3335fd8335690a41ab72dfa",
+          "energy_pointer": "/all_event_channel_modulations/3",
+          "source_pair_key_matches": true,
+          "derived_pair_half_differences": [
+            -4.181165384975429,
+            -1.7934961549253785
+          ],
+          "derived_count_reconstruction_closure": [
+            0,
+            0,
+            -1.8189894035458565e-12,
+            0
+          ],
+          "derived_fractional_gain_closure": 0,
+          "comparison_P_sign_preserved": true,
+          "explicit_family_alias": "identical",
+          "pair_key_matches_after_declared_alias": true
+        },
+        {
+          "source_pointer": "/events/4",
+          "event_id": "480-630:480:lambda",
+          "family": "lambda",
+          "gain_sign": -1,
+          "P_sign": -1,
+          "energy_interval_present": false,
+          "derived_closure_P_minus_gain_over_rho": -8.673617379884035e-19,
+          "derived_closure_gain_minus_rhoP": 6.776263578034403e-21,
+          "original_row_retained_at": "sha256:d4105a6d6802e6bb2a2ba8e76a1d23a27973fca3d3335fd8335690a41ab72dfa",
+          "energy_pointer": "/all_event_channel_modulations/4",
+          "source_pair_key_matches": false,
+          "derived_pair_half_differences": [
+            -4.129506941658292,
+            -4.8975347082896405
+          ],
+          "derived_count_reconstruction_closure": [
+            1.8189894035458565e-12,
+            -1.8189894035458565e-12,
+            0,
+            0
+          ],
+          "derived_fractional_gain_closure": 0,
+          "comparison_P_sign_preserved": true,
+          "explicit_family_alias": "energy lambda-sheet -> quadratic lambda",
+          "pair_key_matches_after_declared_alias": true
+        },
+        {
+          "source_pointer": "/events/5",
+          "event_id": "480-630:630:lambda",
+          "family": "lambda",
+          "gain_sign": 1,
+          "P_sign": 1,
+          "energy_interval_present": true,
+          "derived_closure_P_minus_gain_over_rho": 0,
+          "derived_closure_gain_minus_rhoP": 1.0842021724855044e-19,
+          "original_row_retained_at": "sha256:d4105a6d6802e6bb2a2ba8e76a1d23a27973fca3d3335fd8335690a41ab72dfa",
+          "energy_pointer": "/all_event_channel_modulations/5",
+          "source_pair_key_matches": false,
+          "derived_pair_half_differences": [
+            1.037788093501149,
+            2.759973473853279
+          ],
+          "derived_count_reconstruction_closure": [
+            0,
+            0,
+            0,
+            1.8189894035458565e-12
+          ],
+          "derived_fractional_gain_closure": 0,
+          "comparison_P_sign_preserved": true,
+          "explicit_family_alias": "energy lambda-sheet -> quadratic lambda",
+          "pair_key_matches_after_declared_alias": true
+        },
+        {
+          "source_pointer": "/events/6",
+          "event_id": "515-680:515:lambda",
+          "family": "lambda",
+          "gain_sign": -1,
+          "P_sign": -1,
+          "energy_interval_present": false,
+          "derived_closure_P_minus_gain_over_rho": 0,
+          "derived_closure_gain_minus_rhoP": 0,
+          "original_row_retained_at": "sha256:d4105a6d6802e6bb2a2ba8e76a1d23a27973fca3d3335fd8335690a41ab72dfa",
+          "energy_pointer": "/all_event_channel_modulations/6",
+          "source_pair_key_matches": false,
+          "derived_pair_half_differences": [
+            -0.18510335361952457,
+            0.33413788800953625
+          ],
+          "derived_count_reconstruction_closure": [
+            0,
+            -1.8189894035458565e-12,
+            1.8189894035458565e-12,
+            0
+          ],
+          "derived_fractional_gain_closure": 0,
+          "comparison_P_sign_preserved": true,
+          "explicit_family_alias": "energy lambda-sheet -> quadratic lambda",
+          "pair_key_matches_after_declared_alias": true
+        },
+        {
+          "source_pointer": "/events/7",
+          "event_id": "515-680:680:lambda",
+          "family": "lambda",
+          "gain_sign": -1,
+          "P_sign": -1,
+          "energy_interval_present": false,
+          "derived_closure_P_minus_gain_over_rho": 0,
+          "derived_closure_gain_minus_rhoP": 0,
+          "original_row_retained_at": "sha256:d4105a6d6802e6bb2a2ba8e76a1d23a27973fca3d3335fd8335690a41ab72dfa",
+          "energy_pointer": "/all_event_channel_modulations/7",
+          "source_pair_key_matches": false,
+          "derived_pair_half_differences": [
+            1.6638660849903317,
+            -0.6379553616634439
+          ],
+          "derived_count_reconstruction_closure": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "derived_fractional_gain_closure": 0,
+          "comparison_P_sign_preserved": true,
+          "explicit_family_alias": "energy lambda-sheet -> quadratic lambda",
+          "pair_key_matches_after_declared_alias": true
+        },
+        {
+          "source_pointer": "/events/8",
+          "event_id": "630-910:630:w",
+          "family": "w",
+          "gain_sign": 1,
+          "P_sign": 1,
+          "energy_interval_present": true,
+          "derived_closure_P_minus_gain_over_rho": 1.7763568394002505e-15,
+          "derived_closure_gain_minus_rhoP": -1.0842021724855044e-19,
+          "original_row_retained_at": "sha256:d4105a6d6802e6bb2a2ba8e76a1d23a27973fca3d3335fd8335690a41ab72dfa",
+          "energy_pointer": "/all_event_channel_modulations/8",
+          "source_pair_key_matches": true,
+          "derived_pair_half_differences": [
+            -0.8289006782870274,
+            1.5888741521403063
+          ],
+          "derived_count_reconstruction_closure": [
+            0,
+            0,
+            0,
+            1.8189894035458565e-12
+          ],
+          "derived_fractional_gain_closure": 0,
+          "comparison_P_sign_preserved": true,
+          "explicit_family_alias": "identical",
+          "pair_key_matches_after_declared_alias": true
+        },
+        {
+          "source_pointer": "/events/9",
+          "event_id": "630-910:910:w",
+          "family": "w",
+          "gain_sign": 1,
+          "P_sign": 1,
+          "energy_interval_present": false,
+          "derived_closure_P_minus_gain_over_rho": 0,
+          "derived_closure_gain_minus_rhoP": 0,
+          "original_row_retained_at": "sha256:d4105a6d6802e6bb2a2ba8e76a1d23a27973fca3d3335fd8335690a41ab72dfa",
+          "energy_pointer": "/all_event_channel_modulations/9",
+          "source_pair_key_matches": true,
+          "derived_pair_half_differences": [
+            -1.3120445661302256,
+            -0.21806684919556574
+          ],
+          "derived_count_reconstruction_closure": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "derived_fractional_gain_closure": 0,
+          "comparison_P_sign_preserved": true,
+          "explicit_family_alias": "identical",
+          "pair_key_matches_after_declared_alias": true
+        },
+        {
+          "source_pointer": "/events/10",
+          "event_id": "415-590:415:lambda",
+          "family": "lambda",
+          "gain_sign": -1,
+          "P_sign": -1,
+          "energy_interval_present": false,
+          "derived_closure_P_minus_gain_over_rho": 0,
+          "derived_closure_gain_minus_rhoP": 0,
+          "original_row_retained_at": "sha256:d4105a6d6802e6bb2a2ba8e76a1d23a27973fca3d3335fd8335690a41ab72dfa",
+          "energy_pointer": "/all_event_channel_modulations/10",
+          "source_pair_key_matches": false,
+          "derived_pair_half_differences": [
+            0.3718807708557961,
+            -1.814059614572102
+          ],
+          "derived_count_reconstruction_closure": [
+            0,
+            2.2737367544323206e-13,
+            0,
+            0
+          ],
+          "derived_fractional_gain_closure": 0,
+          "comparison_P_sign_preserved": true,
+          "explicit_family_alias": "energy lambda-sheet -> quadratic lambda",
+          "pair_key_matches_after_declared_alias": true
+        },
+        {
+          "source_pointer": "/events/11",
+          "event_id": "415-590:590:lambda",
+          "family": "lambda",
+          "gain_sign": 1,
+          "P_sign": 1,
+          "energy_interval_present": false,
+          "derived_closure_P_minus_gain_over_rho": 0,
+          "derived_closure_gain_minus_rhoP": 0,
+          "original_row_retained_at": "sha256:d4105a6d6802e6bb2a2ba8e76a1d23a27973fca3d3335fd8335690a41ab72dfa",
+          "energy_pointer": "/all_event_channel_modulations/11",
+          "source_pair_key_matches": false,
+          "derived_pair_half_differences": [
+            -5.72522568671684,
+            -3.5576579807020607
+          ],
+          "derived_count_reconstruction_closure": [
+            1.8189894035458565e-12,
+            0,
+            0,
+            0
+          ],
+          "derived_fractional_gain_closure": 0,
+          "comparison_P_sign_preserved": true,
+          "explicit_family_alias": "energy lambda-sheet -> quadratic lambda",
+          "pair_key_matches_after_declared_alias": true
+        },
+        {
+          "source_pointer": "/events/12",
+          "event_id": "515-590:515:v",
+          "family": "v",
+          "gain_sign": -1,
+          "P_sign": -1,
+          "energy_interval_present": false,
+          "derived_closure_P_minus_gain_over_rho": 3.469446951953614e-18,
+          "derived_closure_gain_minus_rhoP": -1.6940658945086007e-21,
+          "original_row_retained_at": "sha256:d4105a6d6802e6bb2a2ba8e76a1d23a27973fca3d3335fd8335690a41ab72dfa",
+          "energy_pointer": "/all_event_channel_modulations/12",
+          "source_pair_key_matches": true,
+          "derived_pair_half_differences": [
+            -6.281241491175933,
+            1.2980690687782044
+          ],
+          "derived_count_reconstruction_closure": [
+            0,
+            0,
+            1.8189894035458565e-12,
+            0
+          ],
+          "derived_fractional_gain_closure": 0,
+          "comparison_P_sign_preserved": true,
+          "explicit_family_alias": "identical",
+          "pair_key_matches_after_declared_alias": true
+        },
+        {
+          "source_pointer": "/events/13",
+          "event_id": "515-590:590:v",
+          "family": "v",
+          "gain_sign": 1,
+          "P_sign": 1,
+          "energy_interval_present": true,
+          "derived_closure_P_minus_gain_over_rho": 0,
+          "derived_closure_gain_minus_rhoP": 0,
+          "original_row_retained_at": "sha256:d4105a6d6802e6bb2a2ba8e76a1d23a27973fca3d3335fd8335690a41ab72dfa",
+          "energy_pointer": "/all_event_channel_modulations/13",
+          "source_pair_key_matches": true,
+          "derived_pair_half_differences": [
+            -1.9945937639076874,
+            -4.722522568671593
+          ],
+          "derived_count_reconstruction_closure": [
+            0,
+            0,
+            0,
+            1.8189894035458565e-12
+          ],
+          "derived_fractional_gain_closure": 0,
+          "comparison_P_sign_preserved": true,
+          "explicit_family_alias": "identical",
+          "pair_key_matches_after_declared_alias": true
+        }
+      ]
+    },
+    "source_rows_copied": false,
+    "source_full_records_preserved": "Whole immutable spectral and energy hashes plus exact pointers; all original fields remain at source."
+  },
+  "course27": {
+    "synthetic_G": [
+      [
+        "2",
+        "1"
+      ],
+      [
+        "1",
+        "2"
+      ]
+    ],
+    "synthetic_B": [
+      [
+        "2",
+        "0"
+      ],
+      [
+        "0",
+        "1"
+      ]
+    ],
+    "synthetic_W": [
+      [
+        "2",
+        "1/2"
+      ],
+      [
+        "1/2",
+        "1/2"
+      ]
+    ],
+    "route_ledgers": [
+      {
+        "label": "straight",
+        "velocities_L_per_T": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "durations_T": [
+          1,
+          1
+        ],
+        "segment_cost_per_T": [
+          "2",
+          "2"
+        ],
+        "cumulative_cost_per_T": [
+          "2",
+          "4"
+        ],
+        "displacement_L": [
+          [
+            "2"
+          ],
+          [
+            "0"
+          ]
+        ],
+        "total_cost_per_T": "4"
+      },
+      {
+        "label": "dogleg",
+        "velocities_L_per_T": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        "durations_T": [
+          1,
+          1
+        ],
+        "segment_cost_per_T": [
+          "6",
+          "2"
+        ],
+        "cumulative_cost_per_T": [
+          "6",
+          "8"
+        ],
+        "displacement_L": [
+          [
+            "2"
+          ],
+          [
+            "0"
+          ]
+        ],
+        "total_cost_per_T": "8"
+      },
+      {
+        "label": "reverse_dogleg",
+        "velocities_L_per_T": [
+          [
+            1,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "durations_T": [
+          1,
+          1
+        ],
+        "segment_cost_per_T": [
+          "2",
+          "6"
+        ],
+        "cumulative_cost_per_T": [
+          "2",
+          "8"
+        ],
+        "displacement_L": [
+          [
+            "2"
+          ],
+          [
+            "0"
+          ]
+        ],
+        "total_cost_per_T": "8"
+      }
+    ],
+    "synthetic_certificate": {
+      "lower": 4,
+      "upper": 4,
+      "gap": 0,
+      "units": "1/T",
+      "fixed_duration": 2,
+      "fixed_displacement": [
+        2,
+        0
+      ],
+      "scope": "Explicit fixed endpoints(0,0)->(2,0),T=2,constant positive G,admissible absolutely continuous square-integrable-velocity paths. Decomposition gives lower=upper4/T_units and gap0. Fixed time and admissibility are essential; changing either changes the conclusion."
+    },
+    "source_route_status": {
+      "schema_version": "1.0",
+      "recorded_utc_date": "2026-11-05",
+      "course": "course-27",
+      "status": "full_route_certificate_not_retrieved_by_parent",
+      "confirmed_overview": {
+        "object_id": "c9335e2df74344bff5665df5a5e0b9094fef22147c76458f1a54efe49cefce62",
+        "logical_path": "applications/kfield_lucas_lab/rag_corpus/20_phase_route.md",
+        "byte_count": 470,
+        "range": [
+          0,
+          470
+        ],
+        "sha256": "c9335e2df74344bff5665df5a5e0b9094fef22147c76458f1a54efe49cefce62",
+        "interpretation": "Names quadratic-cost and least-cost-certificate objects and says the certificate records path, lower/upper bounds and gap. It supplies none of those numeric certificate fields."
+      },
+      "searches": [
+        {
+          "tool": "krytronx_search",
+          "query": "kfield.route.least-cost-certificate",
+          "matches": 0
+        },
+        {
+          "tool": "krytronx_project_rag_search",
+          "query": "least-cost route certificate lower upper optimality gap",
+          "prefix": "applications/kfield_lucas_lab/",
+          "matches": 0,
+          "rerank": false
+        },
+        {
+          "tools": [
+            "krytronx_search",
+            "krytronx_project_rag_search",
+            "krytronx_traverse"
+          ],
+          "result": "40-call MCP session bound exhausted",
+          "disposition": "No further parent MCP attempts. No quota or permission bypass."
+        }
+      ],
+      "snapshot_generation": "sha256:5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+      "source_guards": {
+        "S02": "BR-12 reports exact QPC algebra; its declaration alone is not an independent numerical replay.",
+        "S03_AUD_008": "G_phase, C and full W_qpc missing from that record. Recorded nonzero closure coordinate 4.58938078934712923077736690075e-12 needs a precision/interval contract.",
+        "S03_AUD_009": "Missing bodies retain VERIFIED_NOT_LOADED status. Definitions and pinned replay objects must precede any claimed fresh replay.",
+        "SA_27": "W_qpc=B^T G_phase B/4; exact source replay requires full typed matrices and route bounds/certificate."
+      },
+      "archive_lookup": "Filename-limited read-only lookup found several historical CMB maximum-residual and modulation-route records; these are different optimization objectives and were not substituted for the named least-cost certificate.",
+      "next_work": "Course27 author/auditor must preserve this retrieval scope and independently source any certificate they claim to reproduce. Synthetic route exercises remain explicitly synthetic and cannot be presented as the named archival certificate.",
+      "copies": "No raw source copies or data arrays created. This is compact provenance and retrieval status only."
+    }
+  },
+  "source_or_project_files_modified": false,
+  "large_arrays_saved": false
+}

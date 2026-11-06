@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-25",
+  "timestamp": "2026-11-05T20:07:18.531893+00:00",
+  "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-25-plane-crossings-rulers-and-event-geometry",
+  "validator": "passed",
+  "validator_checks": [
+    "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+    "parsed manifest.json",
+    "parsed audit_report.json",
+    "parsed completion_report.json",
+    "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+  ],
+  "validator_errors": [],
+  "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+  "manifest_sha256": "aa96a1562e01130ea5a6d58089ce9813d3b50a04c147102e1942acc7be606ffe",
+  "completion_report_sha256": "c0b9d3ade02fafc31f3bf7e22b4d4a6ed1bc2eb120a1b2d8f893da68d258e1e1",
+  "course_sha256": "0ee0543e7553a01b7e23526f8d8f54aae3c40cfb17b9cc9233dc523531e98c87",
+  "status": "accepted",
+  "independent_audit": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\independent-completion\\course-25-independent-audit.json",
+  "independent_report_sha256": "73db8aea07ba224cc66fbe5a671f56df7c01aa0563e4126e6a76f3caf92c970e",
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "scope": "Completed topical course accepted after parent review of independent source/content audit and fresh deterministic validation; documented source limitations retained."
+}

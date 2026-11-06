@@ -1,0 +1,829 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Outcome · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/9">Course 09</a><span>/</span><span>launch prompt</span></div><a class="original" href="../../../kfield-09-projective-integerization-and-carry-dynamics/launch-prompt.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#outcome">Outcome</a><a href="#success-criteria">Success criteria</a><a href="#constraints">Constraints</a><a href="#recovery-protocol">Recovery protocol</a><a href="#lesson-and-audit-contract">Lesson and audit contract</a><a href="#deliverables-and-assembly">Deliverables and assembly</a><a href="#stop-and-report-rules">Stop and report rules</a><a href="#manager-execution-contract">Manager execution contract</a><a href="#runtime-subject-packet">Runtime subject packet</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 01 — Nearest-integer maps need a tie rule</a><a  href="lesson-02.html">Lesson 02 — Projective rays at successive scales</a><a  href="lesson-03.html">Lesson 03 — The retained rounding coordinate</a><a  href="lesson-04.html">Lesson 04 — Carry between generations</a><a  href="lesson-05.html">Lesson 05 — Small differences at deeper levels</a><a  href="lesson-06.html">Lesson 06 — A lossless recursive compiler</a></details></aside><div class="reading-column"><article class="prose"><p>Role: You are the autonomous author, verifier, and recovery steward for a complete high-school course. Teach the stated audience from first principles with precise, age-appropriate language.</p>
+<h1 id="outcome" tabindex="-1">Outcome</h1>
+<p>Build the complete course described by the runtime subject packet. Work continuously through all lessons, supporting materials, final assembly, hostile audit, repair, and deterministic validation. Do not stop after an outline, sample unit, or partial course.</p>
+<p>Write every persistent course artifact directly into the absolute <code>course_output_directory</code> in the runtime packet. That directory is the sole recovery and delivery location for this course.</p>
+<h1 id="success-criteria" tabindex="-1">Success criteria</h1>
+<ul>
+<li>Every required concept is introduced, practiced, assessed, and connected to later use.</li>
+<li>Every lesson satisfies the lesson contract and has zero unresolved critical or major local findings.</li>
+<li>Definitions, terms, symbols, units, source claims, examples, and answers are correct and consistent.</li>
+<li>The capstone is solvable from the actual course.</li>
+<li>The assembled course contains every passed lesson verbatim and in approved order.</li>
+<li>Recovery state is current, hashes validate, and the final hostile audit has zero unresolved critical and major findings.</li>
+<li>All requested artifacts exist and the deterministic validator exits successfully.</li>
+</ul>
+<h1 id="constraints" tabindex="-1">Constraints</h1>
+<p>Preserve the supplied subject kernel, invariants, evidence rules, audience, and course map. Separate observations or source facts, derived implications, interpretations, proposed mechanisms, established reference theory, and unresolved questions when those layers apply. Never fabricate concrete facts, sources, data, quotations, or real-world evidence; use symbolic or clearly synthetic examples if grounding is unavailable. Use authoritative retrieval when the runtime packet requires current or exact facts.</p>
+<p>Make reasonable assumptions and record them. Do not ask for intermediate approval. Ask for user attention only if a missing fact or authority would materially change the course and cannot be safely represented as an explicit assumption or placeholder.</p>
+<p>Keep progress updates concise and write substantive work to files. Do not expose private reasoning traces; audit records contain only findings, corrections, verification, and dispositions.</p>
+<p>Do not save a persistent course artifact in the generated task workspace or any directory outside <code>course_output_directory</code>. If that destination is unavailable, preserve any already-written state there and report the storage blocker; do not silently substitute another location.</p>
+<h1 id="recovery-protocol" tabindex="-1">Recovery protocol</h1>
+<p>Inside <code>course_output_directory</code>, initialize <code>manifest.json</code>, <code>course-map.md</code>, <code>terminology.md</code>, <code>audit_report.json</code>, and <code>completion_report.json</code>, plus one file per lesson. Treat that manifest as the recovery authority, but verify every existing checkpoint file and SHA-256 before trusting its status. Save a complete section before marking it passed. Resume from the first missing or failed dependency. Do not regenerate passed work without a concrete dependent defect.</p>
+<p>Use stable checkpoint IDs, dependency lists, statuses (<code>pending</code>, <code>drafted</code>, <code>passed</code>, <code>failed</code>), relative paths, summaries, and SHA-256 hashes. Update blockers and the next action after each checkpoint.</p>
+<h1 id="lesson-and-audit-contract" tabindex="-1">Lesson and audit contract</h1>
+<p>Each lesson needs one essential question, two to four observable goals, a bridge from taught material, a first-principles explanation, at least one fully worked verifiable example, a claim-scope box when needed, three to five diagnostic checks, concise worked answers, and a link to the next dependency.</p>
+<p>Recompute examples and answers independently. At every lesson run local prerequisite, audience, definition, notation, unit, logical, mathematical, evidence, and source checks. At unit boundaries run cumulative terminology, dependency, complexity, coverage, and capstone checks. Classify findings as critical, major, or minor; patch the earliest source and rerun affected checks. Stop revising for style once correctness and learning are no longer improved.</p>
+<h1 id="deliverables-and-assembly" tabindex="-1">Deliverables and assembly</h1>
+<p>Create student lessons, terminology/glossary, teacher guide, capstone and full answer key/rubric, final assembled course, manifest, audit report, and completion report. Add no new substantive teaching during assembly. Insert each lesson verbatim between <code>&lt;!-- BEGIN: CHECKPOINT_ID --&gt;</code> and <code>&lt;!-- END: CHECKPOINT_ID --&gt;</code> markers in course order.</p>
+<p>If a requested output is paginated or visual, use its applicable artifact skill to render, inspect, and repair it. Run the final hostile audit across coverage, fidelity, dependency order, correctness, terminology, examples, evidence layers, audience load, assessment alignment, recovery integrity, assembly identity, rendering, and minimality.</p>
+<h1 id="stop-and-report-rules" tabindex="-1">Stop and report rules</h1>
+<p>Success requires zero unresolved critical findings, zero unresolved major findings, every checkpoint passed, current hashes, correct assembly order/identity, complete outputs, and a successful deterministic validator run. On failure, repair and rerun affected checks. On a genuine blocker, preserve the recovery files and report only the smallest action needed. On success, report artifact paths, assumptions, audit counts, hashes, validator result, and any harmless unresolved minor findings.</p>
+<h1 id="manager-execution-contract" tabindex="-1">Manager execution contract</h1>
+<p>This is the one course-production task created by the parent through build-high-school-course. You are its curriculum manager and author. Execute that skill's production, audit, recovery, and validator requirements in this task; do not recursively create a second course task or any other task. The user authorized all 30 course-manager tasks and independent auditors. The parent coordinates them.</p>
+<p>The user's exact standing authorization is: 'do not stop for user approval. You are approved to proceed with all required tasks, proceed'</p>
+<p>Read the build-high-school-course SKILL.md, methodology, audit rubric, and validator implementation; the complete approved subject packet follows here. Read the residual-information-paradigm skill at the beginning. Use krytronx-knowledge-graph and relevant domain skills for exact source grounding. Source retrieval is read-only. Preserve source-local definitions and record exact paths, SHA-256, pointers/pages and evidence classes. Never bulk-copy source data into the course. Small clearly labeled teaching examples and their verification records are allowed.</p>
+<p>Use GPT-6 Astra as the user explicitly selected. Preserve the configured reasoning setting. The user explicitly overrides the skill's Desktop-only/projectless defaults: write course outputs within the saved project Z:/Kfield-doc-training and move them later. This task is running directly in that project. The runtime course_output_directory is authoritative and already exists. Use ordinary workspace writes; do not request Desktop access. The parent has approved proceeding and no further content approval is required. Validate with Z:/Kfield-doc-training/.work/validate_project_course.py COURSE_DIRECTORY --json. This adapter runs the installed validator unchanged except that its canonical-root constant is the user-selected project folder, preserving containment, content, hash, assembly, and audit checks.</p>
+<p>Python must run through &amp; 'C:/ProgramData/anaconda3/Scripts/conda.exe' run -n tf_gpu_env python. Do not install or change packages. Avoid long or GPU work; hand-checkable mathematics and lightweight standard-library checks suffice. Do not create raw source snapshots or large npz files.</p>
+<p>The course is a complete topical course for seniors, not an outline. Write connected, clear explanations and fully worked examples; use only the necessary mathematical formalism and explicitly teach every new operation. Keep all core tasks solvable from taught material. Add diagrams/tables when they improve learning; Markdown and Mermaid are sufficient. Refine lesson boundaries if necessary for prerequisite closure, recording the rationale and updating coverage and capstone maps. Do not reduce coverage to finish faster or pad the course with boilerplate. Core lessons each require one essential question, two to four observable goals, an explicit prerequisite bridge, first-principles instruction, a fully worked independently recomputed example, an appropriate evidence-scope box, three to five diagnostic questions, worked answers, and a next-dependency link.</p>
+<p>Initialize recovery authorities before substantive generation. The input-contract.json is already present. Do not mark complete until the actual validator exits zero and all critical/major findings are corrected. Read the validator schema instead of guessing it. Include all student and teacher artifacts, a capstone with full answers and rubric, precise source notes, and the exact assembly marker protocol. Audit records must describe actual checks and actual corrections, never invented passes. The parent and independent auditor will reread and recompute your output.</p>
+<p>On completion report the exact course title, output directory, lesson count, validator result, unresolved counts, and any source gaps in your final reply. The parent polls your progress and final response. Do not call messaging tools to send parent status or completion; these can trigger separate app approvals. Then await possible audit repair requests. No messages to external people and no publishing are authorized.</p>
+<h1 id="runtime-subject-packet" tabindex="-1">Runtime subject packet</h1>
+<pre aria-label="Scrollable literal code or matrix" role="region" tabindex="0"><code class="language-json">{
+  "schema_version": "1.0",
+  "course_output_root": "Z:\\Kfield-doc-training\\K-Field_Training_Course",
+  "course_output_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-09-projective-integerization-and-carry-dynamics",
+  "topic": "Projective Integerization and Carry Dynamics",
+  "series_course_id": "course-09",
+  "audience": "High-school seniors; first-principles teaching, with concrete prerequisite capabilities and taught bridges.",
+  "prerequisites": [
+    "Signed arithmetic, fractions, ratios, powers, linear equations, and coordinate graphs",
+    "Capabilities taught in course-08"
+  ],
+  "learning_outcomes": [
+    "Specify and test a deterministic rounding convention",
+    "Compute a low-depth integer approximation",
+    "Reconstruct the original ray value from integer and residual",
+    "Derive the carry recurrence from two consecutive levels",
+    "Explain how distinct source rays first produce distinct integer records",
+    "Audit a finite carry table and recover every represented value"
+  ],
+  "requested_deliverables": [
+    "student lessons",
+    "course-map.md",
+    "terminology.md",
+    "teacher-guide.md",
+    "capstone.md with full answers and rubric",
+    "course.md",
+    "manifest.json",
+    "audit_report.json",
+    "completion_report.json",
+    "compact sources and worked-example verification"
+  ],
+  "assumptions": [
+    "A topical short course, not a semester per topic. Pacing is 55-minute core lessons plus capstone periods; split dense lessons if actual learner load requires it.",
+    "No prior calculus, abstract algebra, university linear algebra, or quantum mechanics unless explicitly taught earlier.",
+    "Required core assessments must be solvable with taught finite examples. Clearly label deeper recognition-only extensions.",
+    "Markdown is the delivery format; no PDF or Word generation is required."
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "role": "archival source; reported status is distinct from fresh verification"
+    },
+    {
+      "id": "S02",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "role": "archival source; reported status is distinct from fresh verification"
+    },
+    {
+      "id": "S03",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "role": "archival source; reported status is distinct from fresh verification"
+    },
+    {
+      "id": "S04",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+      "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "role": "archival source; reported status is distinct from fresh verification"
+    },
+    {
+      "id": "S05",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+      "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+      "role": "archival source; reported status is distinct from fresh verification"
+    }
+  ],
+  "source_routing": {
+    "primary_skill": "C:/Users/info/.codex/skills/krytronx-knowledge-graph/SKILL.md",
+    "graph_root": "repository:KrytronDwayne/K-Field_Private",
+    "testbench_root": "application:kfield-lucas-lab",
+    "snapshot_generation": "sha256:5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+    "manifest_sha256": "5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+    "rag_rerank": false,
+    "backbone_source_pointer": "/backbone_sequence",
+    "required_modules": [
+      "M06"
+    ],
+    "guidance": "Retrieve exact topic sources and source-local pointers; use the provided archival files read-only and verify their hashes. Do not rely only on titles or summaries. For experimental topics search the testbench topic and local relevant domain skills."
+  },
+  "evidence_rules": [
+    "Preserve empirical observations, derived implications, inferred structure, mechanisms, reference theory, and unresolved questions as distinct layers.",
+    "Read-only sources: no source-data copies, database exports, reindexing, or large arrays. Persist only authored course artifacts, compact provenance, audits, and small clearly synthetic examples.",
+    "Cell3 uses ICRS columns [a b c], an intentional negative determinant, and half-open cells [-1/2,1/2)^3. Use x-O_K in affine reciprocal identities.",
+    "Use the mature locked geometry and exact source provenance. Historical and corrected numerical branches remain separately labeled; do not silently mix their constants.",
+    "Use M_cell=B^T B and R_cell=M_cell^-1; distinguish G_phase, G_eff, reciprocal bases, distance Q, Q_g, and Q_nu.",
+    "Gauge-carrier tuples use color-first C_3 direct-sum W_2. A weak-first view needs an explicit permutation.",
+    "Do not merge detector parity, A1 carry parity, projective signs, chirality, family labels, primitive lifts, or distinct dyadic and ternary recursions.",
+    "Declare nearest-integer half-ties and the corresponding residual interval consistently; the half-open cell ownership rule is a separate operation.",
+    "The detail-product identity needs explicit hypotheses on E beyond Q=I-E; retain the product of finite differences.",
+    "M19 contains mixed extension branches and is not a premise of M20 core closure. Reconstruct prerequisites from module requires, with the documented audit corrections.",
+    "Preserve mature-source claims and accepted integration dispositions separately. In the integration only compiler M03, M07, M08 have direct authority; these compiler labels are not automatically the mathematical-backbone module labels. Preserve the admitted global-form family Z1,Z2,Z3,Z6 and source-local uniqueness claims with explicit contracts.",
+    "Treat matching dimensions or graph labels as neither an intertwiner nor a proof. A missing proof body remains a source-reported status with a retrieval gap.",
+    "Physical CMB velocity is distinct from phase-transformed vectors; the testbench admitted speed is 369812.50200040644 m/s. The Galactic Center is a visual gauge; do not invent Solar or Galactic short-window dynamics.",
+    "A photon-equivalent model energy is not measured transferred energy, and phase is not force. Preserve signed events and the three independent plane-cost levels in the fourteen-row 2026-08-26 bundle.",
+    "Cell3 and galaxy-derived cells have separately typed units, metrics, handedness, scales, and normals. Recurrence is an explanatory target, not permission to merge definitions.",
+    "Every residual remains a primary coordinate. Transformations are reversible or accompanied by all removed components and reconstruction rules; no outlier deletion or significance-based erasure.",
+    "Use tf_gpu_env through C:/ProgramData/anaconda3/Scripts/conda.exe run -n tf_gpu_env python. No package changes without approval."
+  ],
+  "subject_kernel": {
+    "objects_and_operations": [
+      {
+        "concept_id": "C09.01",
+        "concept": "Nearest-integer maps need a tie rule",
+        "operation": "Specify and test a deterministic rounding convention"
+      },
+      {
+        "concept_id": "C09.02",
+        "concept": "Projective rays at successive scales",
+        "operation": "Compute a low-depth integer approximation"
+      },
+      {
+        "concept_id": "C09.03",
+        "concept": "The retained rounding coordinate",
+        "operation": "Reconstruct the original ray value from integer and residual"
+      },
+      {
+        "concept_id": "C09.04",
+        "concept": "Carry between generations",
+        "operation": "Derive the carry recurrence from two consecutive levels"
+      },
+      {
+        "concept_id": "C09.05",
+        "concept": "Small differences at deeper levels",
+        "operation": "Explain how distinct source rays first produce distinct integer records"
+      },
+      {
+        "concept_id": "C09.06",
+        "concept": "A lossless recursive compiler",
+        "operation": "Audit a finite carry table and recover every represented value"
+      }
+    ],
+    "source_modules": [
+      "M06"
+    ],
+    "scope": "Produce a short integerization-and-carry ledger with a stated tie rule and exact reconstruction of a clearly labeled synthetic ray.",
+    "common_failure_modes": [
+      "Untaught prerequisite",
+      "Unscoped symbol or unit",
+      "An illustrative example presented as real evidence",
+      "A source label promoted beyond its evidence class",
+      "A residual or source branch silently omitted"
+    ]
+  },
+  "invariants": [
+    "Preserve empirical observations, derived implications, inferred structure, mechanisms, reference theory, and unresolved questions as distinct layers.",
+    "Read-only sources: no source-data copies, database exports, reindexing, or large arrays. Persist only authored course artifacts, compact provenance, audits, and small clearly synthetic examples.",
+    "Cell3 uses ICRS columns [a b c], an intentional negative determinant, and half-open cells [-1/2,1/2)^3. Use x-O_K in affine reciprocal identities.",
+    "Use the mature locked geometry and exact source provenance. Historical and corrected numerical branches remain separately labeled; do not silently mix their constants.",
+    "Use M_cell=B^T B and R_cell=M_cell^-1; distinguish G_phase, G_eff, reciprocal bases, distance Q, Q_g, and Q_nu.",
+    "Gauge-carrier tuples use color-first C_3 direct-sum W_2. A weak-first view needs an explicit permutation.",
+    "Do not merge detector parity, A1 carry parity, projective signs, chirality, family labels, primitive lifts, or distinct dyadic and ternary recursions.",
+    "Declare nearest-integer half-ties and the corresponding residual interval consistently; the half-open cell ownership rule is a separate operation.",
+    "The detail-product identity needs explicit hypotheses on E beyond Q=I-E; retain the product of finite differences.",
+    "M19 contains mixed extension branches and is not a premise of M20 core closure. Reconstruct prerequisites from module requires, with the documented audit corrections.",
+    "Preserve mature-source claims and accepted integration dispositions separately. In the integration only compiler M03, M07, M08 have direct authority; these compiler labels are not automatically the mathematical-backbone module labels. Preserve the admitted global-form family Z1,Z2,Z3,Z6 and source-local uniqueness claims with explicit contracts.",
+    "Treat matching dimensions or graph labels as neither an intertwiner nor a proof. A missing proof body remains a source-reported status with a retrieval gap.",
+    "Physical CMB velocity is distinct from phase-transformed vectors; the testbench admitted speed is 369812.50200040644 m/s. The Galactic Center is a visual gauge; do not invent Solar or Galactic short-window dynamics.",
+    "A photon-equivalent model energy is not measured transferred energy, and phase is not force. Preserve signed events and the three independent plane-cost levels in the fourteen-row 2026-08-26 bundle.",
+    "Cell3 and galaxy-derived cells have separately typed units, metrics, handedness, scales, and normals. Recurrence is an explanatory target, not permission to merge definitions.",
+    "Every residual remains a primary coordinate. Transformations are reversible or accompanied by all removed components and reconstruction rules; no outlier deletion or significance-based erasure.",
+    "Use tf_gpu_env through C:/ProgramData/anaconda3/Scripts/conda.exe run -n tf_gpu_env python. No package changes without approval."
+  ],
+  "notation_registry": {
+    "M_cell": "Cell3 Gram metric",
+    "R_cell": "inverse Cell3 Gram metric",
+    "G_phase": "distinct phase metric",
+    "O_K": "declared physical origin",
+    "B": "source-locked ordered basis; source-local row/column distinctions must be explicit"
+  },
+  "coverage_matrix": [
+    {
+      "concept_id": "C09.01",
+      "concept": "Nearest-integer maps need a tie rule",
+      "introduction": "lesson-01",
+      "practice": "C09.01-P1",
+      "assessment": "C09.01-D1",
+      "later_use": "lesson-02",
+      "worked_example": "C09.01-W1",
+      "all_required_teaching_item_ids": [
+        "C09.01-W1",
+        "C09.01-P1",
+        "C09.01-D1"
+      ]
+    },
+    {
+      "concept_id": "C09.02",
+      "concept": "Projective rays at successive scales",
+      "introduction": "lesson-02",
+      "practice": "C09.02-P1",
+      "assessment": "C09.02-D1",
+      "later_use": "lesson-03",
+      "worked_example": "C09.02-W1",
+      "all_required_teaching_item_ids": [
+        "C09.02-W1",
+        "C09.02-P1",
+        "C09.02-D1"
+      ]
+    },
+    {
+      "concept_id": "C09.03",
+      "concept": "The retained rounding coordinate",
+      "introduction": "lesson-03",
+      "practice": "C09.03-P1",
+      "assessment": "C09.03-D1",
+      "later_use": "lesson-04",
+      "worked_example": "C09.03-W1",
+      "all_required_teaching_item_ids": [
+        "C09.03-W1",
+        "C09.03-P1",
+        "C09.03-D1"
+      ]
+    },
+    {
+      "concept_id": "C09.04",
+      "concept": "Carry between generations",
+      "introduction": "lesson-04",
+      "practice": "C09.04-P1",
+      "assessment": "C09.04-D1",
+      "later_use": "lesson-05",
+      "worked_example": "C09.04-W1",
+      "all_required_teaching_item_ids": [
+        "C09.04-W1",
+        "C09.04-P1",
+        "C09.04-D1"
+      ]
+    },
+    {
+      "concept_id": "C09.05",
+      "concept": "Small differences at deeper levels",
+      "introduction": "lesson-05",
+      "practice": "C09.05-P1",
+      "assessment": "C09.05-D1",
+      "later_use": "lesson-06",
+      "worked_example": "C09.05-W1",
+      "all_required_teaching_item_ids": [
+        "C09.05-W1",
+        "C09.05-P1",
+        "C09.05-D1"
+      ]
+    },
+    {
+      "concept_id": "C09.06",
+      "concept": "A lossless recursive compiler",
+      "introduction": "lesson-06",
+      "practice": "C09.06-P1",
+      "assessment": "C09.06-D1",
+      "later_use": "capstone",
+      "worked_example": "C09.06-W1",
+      "all_required_teaching_item_ids": [
+        "C09.06-W1",
+        "C09.06-P1",
+        "C09.06-D1"
+      ]
+    }
+  ],
+  "course_map": [
+    {
+      "id": "lesson-01",
+      "title": "Nearest-integer maps need a tie rule",
+      "entry_prerequisites": [
+        "course-08"
+      ],
+      "concept_ids": [
+        "C09.01"
+      ],
+      "worked_example_capability": "Specify and test a deterministic rounding convention",
+      "assessment_target": "Specify and test a deterministic rounding convention",
+      "later_use": "lesson-02",
+      "core_minutes": 55,
+      "required_amendment_ids": [
+        "SA-09"
+      ],
+      "teaching_anchor": {
+        "lesson_id": "lesson-01",
+        "concept_id": "C09.01",
+        "bridge_to_teach": "Teach ceiling as the least integer not below a value, including negatives. Adopt nint(t)=ceil(t-1/2), lower integer at every exact half-tie, to make epsilon=nint(t)-t belong to[-1/2,1/2). This is the declared course repair of an ambiguous archive convention.",
+        "worked_example": {
+          "id": "C09.01-W1",
+          "task_and_answer": "t=+1/2 givesQ=0,epsilon=-1/2; t=-1/2 givesQ=-1,epsilon=-1/2. t=3/2 givesQ=1; t=-3/2 givesQ=-2. Both signs choose the lower integer, not away-from-zero or ties-to-even."
+        },
+        "guided_practice": {
+          "id": "C09.01-P1",
+          "task_and_answer": "t=49/100 givesQ=0,epsilon=-49/100; t=51/100 givesQ=1,epsilon=49/100. Translation by integer m=3: nint(t+3)=nint(t)+3 and residual stays unchanged."
+        },
+        "diagnostic": {
+          "id": "C09.01-D1",
+          "task_and_answer": "At q=1/2, cell owner floor(q+1/2)=1 but integerizer nint(q)=0. At q=-1/2, owner0 but integerizer-1. Keep the operations and epsilon sign convention separately labeled."
+        },
+        "planned_periods": 1,
+        "minutes_per_period": 55,
+        "teaching_allocation_per_period": {
+          "retrieval": 5,
+          "explanation_and_worked_example": 20,
+          "guided_practice": 15,
+          "independent_diagnostics_and_repair": 15
+        },
+        "production_requirement": "These are blueprint anchors, not full lessons. Expand to2–4 observable goals and3–5 diagnostics, with worked answers. A failed prerequisite check triggers extra practice before dependent work; periods may expand.",
+        "original_title": "Nearest-integer maps need a tie rule",
+        "original_assessment_target": "Specify and test a deterministic rounding convention",
+        "required_source_amendment_ids": [
+          "SA-09"
+        ]
+      }
+    },
+    {
+      "id": "lesson-02",
+      "title": "Projective rays at successive scales",
+      "entry_prerequisites": [
+        "lesson-01"
+      ],
+      "concept_ids": [
+        "C09.02"
+      ],
+      "worked_example_capability": "Compute a low-depth integer approximation",
+      "assessment_target": "Compute a low-depth integer approximation",
+      "later_use": "lesson-03",
+      "core_minutes": 55,
+      "teaching_anchor": {
+        "lesson_id": "lesson-02",
+        "concept_id": "C09.02",
+        "bridge_to_teach": "Read the exact source scale K_g=27^g before arithmetic. This g counts integerization generations, not course06 dyadic or ternary address depth. Introduce Q_g as the integer triple, distinct from the course07 detail operator.",
+        "worked_example": {
+          "id": "C09.02-W1",
+          "task_and_answer": "Synthetic ray r=(1,2/3,1/2): K0=1,K1=27,K2=729. Q0=(1,1,0),Q1=(27,18,13),Q2=(729,486,364). At the half-ties13.5 and364.5 the lower integer is retained."
+        },
+        "guided_practice": {
+          "id": "C09.02-P1",
+          "task_and_answer": "Synthetic r=(1,1/3,1/4): Q0=(1,0,0),Q1=(27,9,7),Q2=(729,243,182). Keep all scaled inputs as exact fractions."
+        },
+        "diagnostic": {
+          "id": "C09.02-D1",
+          "task_and_answer": "Explain why replacing27^g with3^g changes the exercise. For a source-reading check, use S02 active ray and g0..2: Q=(1,1,1),(27,20,15),(729,532,397); label this a replay of stored source inputs, not the synthetic ray."
+        },
+        "planned_periods": 1,
+        "minutes_per_period": 55,
+        "teaching_allocation_per_period": {
+          "retrieval": 5,
+          "explanation_and_worked_example": 20,
+          "guided_practice": 15,
+          "independent_diagnostics_and_repair": 15
+        },
+        "production_requirement": "These are blueprint anchors, not full lessons. Expand to2–4 observable goals and3–5 diagnostics, with worked answers. A failed prerequisite check triggers extra practice before dependent work; periods may expand.",
+        "original_title": "Projective rays at successive scales",
+        "original_assessment_target": "Compute a low-depth integer approximation",
+        "required_source_amendment_ids": []
+      }
+    },
+    {
+      "id": "lesson-03",
+      "title": "The retained rounding coordinate",
+      "entry_prerequisites": [
+        "lesson-02"
+      ],
+      "concept_ids": [
+        "C09.03"
+      ],
+      "worked_example_capability": "Reconstruct the original ray value from integer and residual",
+      "assessment_target": "Reconstruct the original ray value from integer and residual",
+      "later_use": "lesson-04",
+      "core_minutes": 55,
+      "required_amendment_ids": [
+        "SA-09"
+      ],
+      "teaching_anchor": {
+        "lesson_id": "lesson-03",
+        "concept_id": "C09.03",
+        "bridge_to_teach": "Derive r=(Q_g-epsilon_g)/K_g from epsilon_g=Q_g-K_g*r. The residual has integer-count units relative to the scaled dimensionless ray, and epsilon_g/K_g is the ray-coordinate error with this declared sign.",
+        "worked_example": {
+          "id": "C09.03-W1",
+          "task_and_answer": "For r=(1,2/3,1/2), epsilon0=(0,1/3,-1/2),epsilon1=(0,0,-1/2),epsilon2=(0,0,-1/2). Atg1 reconstruct the third ray coordinate as(13-(-1/2))/27=1/2."
+        },
+        "guided_practice": {
+          "id": "C09.03-P1",
+          "task_and_answer": "For r=(1,1/3,1/4), epsilon0=(0,-1/3,-1/4),epsilon1=(0,0,1/4),epsilon2=(0,0,-1/4). Restore1/4 from(7-1/4)/27 and from(182+1/4)/729."
+        },
+        "diagnostic": {
+          "id": "C09.03-D1",
+          "task_and_answer": "Using(Q+epsilon)/K at the half-tie gives12.5/27, which is wrong. Retain the sign, all three coordinates, generation and ray identity; an error magnitude alone is not a decoder."
+        },
+        "planned_periods": 1,
+        "minutes_per_period": 55,
+        "teaching_allocation_per_period": {
+          "retrieval": 5,
+          "explanation_and_worked_example": 20,
+          "guided_practice": 15,
+          "independent_diagnostics_and_repair": 15
+        },
+        "production_requirement": "These are blueprint anchors, not full lessons. Expand to2–4 observable goals and3–5 diagnostics, with worked answers. A failed prerequisite check triggers extra practice before dependent work; periods may expand.",
+        "original_title": "The retained rounding coordinate",
+        "original_assessment_target": "Reconstruct the original ray value from integer and residual",
+        "required_source_amendment_ids": [
+          "SA-09"
+        ]
+      }
+    },
+    {
+      "id": "lesson-04",
+      "title": "Carry between generations",
+      "entry_prerequisites": [
+        "lesson-03"
+      ],
+      "concept_ids": [
+        "C09.04"
+      ],
+      "worked_example_capability": "Derive the carry recurrence from two consecutive levels",
+      "assessment_target": "Derive the carry recurrence from two consecutive levels",
+      "later_use": "lesson-05",
+      "core_minutes": 110,
+      "required_amendment_ids": [
+        "SA-09"
+      ],
+      "teaching_anchor": {
+        "lesson_id": "lesson-04",
+        "concept_id": "C09.04",
+        "bridge_to_teach": "Use two periods: first derive and check integer/residual carry recurrence; second introduce side sums/differences with inverse halves and same-parity constraint. Teach modular parity through even/odd sums before naming a lattice.",
+        "worked_example": {
+          "id": "C09.04-W1",
+          "task_and_answer": "For r=(1,2/3,1/2), C1=Q1-27Q0=(0,-9,13), C2=(0,0,13). Derive C_g=epsilon_g-27epsilon_(g-1), hence epsilon_g=27epsilon_(g-1)+C_g. Translation equivariance yields C_g=nint(-27epsilon_(g-1)). Atg1, side modes S=4,A=-22 recover C_b=(S+A)/2=-9,C_c=(S-A)/2=13."
+        },
+        "guided_practice": {
+          "id": "C09.04-P1",
+          "task_and_answer": "For r=(1,1/3,1/4), C1=(0,9,7),C2=(0,0,-7). Modes atg1:S=16,A=2; atg2:S=-7,A=7. Inverse halves recover both integer side carries. Check the direct and residual routes independently."
+        },
+        "diagnostic": {
+          "id": "C09.04-D1",
+          "task_and_answer": "S=1,A=0 would give half-integer carries and is not allowed for integer C_b,C_c. Conversely S and A with the same parity give integer inverse halves. Source g3 witness C=(0,-1,1) has S=0,A=-2. Do not identify this parity condition with detector polarity."
+        },
+        "planned_periods": 2,
+        "minutes_per_period": 55,
+        "teaching_allocation_per_period": {
+          "retrieval": 5,
+          "explanation_and_worked_example": 20,
+          "guided_practice": 15,
+          "independent_diagnostics_and_repair": 15
+        },
+        "production_requirement": "These are blueprint anchors, not full lessons. Expand to2–4 observable goals and3–5 diagnostics, with worked answers. A failed prerequisite check triggers extra practice before dependent work; periods may expand.",
+        "original_title": "Carry between generations",
+        "original_assessment_target": "Derive the carry recurrence from two consecutive levels",
+        "required_source_amendment_ids": [
+          "SA-09"
+        ]
+      }
+    },
+    {
+      "id": "lesson-05",
+      "title": "Small differences at deeper levels",
+      "entry_prerequisites": [
+        "lesson-04"
+      ],
+      "concept_ids": [
+        "C09.05"
+      ],
+      "worked_example_capability": "Explain how distinct source rays first produce distinct integer records",
+      "assessment_target": "Explain how distinct source rays first produce distinct integer records",
+      "later_use": "lesson-06",
+      "core_minutes": 55,
+      "teaching_anchor": {
+        "lesson_id": "lesson-05",
+        "concept_id": "C09.05",
+        "bridge_to_teach": "Compare two exact ray inputs under the same rule and explicitly bounded generations. A first difference is a fact about the specified inputs and rounding, not a general guarantee at a predetermined depth.",
+        "worked_example": {
+          "id": "C09.05-W1",
+          "task_and_answer": "Compare synthetic rays(1,2/3,1/2) and(1,2/3+1/1000,1/2). Their Q triples agree atg0 andg1. Atg2 the middle scaled coordinate changes486-&gt;486729/1000=486.729, so Q_b changes486-&gt;487. Retained epsilons distinguish the rays even before integer Q differs."
+        },
+        "guided_practice": {
+          "id": "C09.05-P1",
+          "task_and_answer": "Compare(1,1/3,1/4) with(1,1/3+1/10000,1/4): Q agrees throughg2; atg3 the middle input changes6561-&gt;6562.9683, so Q_b changes6561-&gt;6563. Record the full signed residuals as well as first differing generation."
+        },
+        "diagnostic": {
+          "id": "C09.05-D1",
+          "task_and_answer": "For historical source comparison only, separately replay S01 master_geometry and S01 locked_mass_bridge strings throughg8; the source reports equality throughg7 then master-minus-locked=(0,8,7) atg8. Compare against a fresh exact replay and retain any discrepancy. Neither historical ray replaces the active S02 ray."
+        },
+        "planned_periods": 1,
+        "minutes_per_period": 55,
+        "teaching_allocation_per_period": {
+          "retrieval": 5,
+          "explanation_and_worked_example": 20,
+          "guided_practice": 15,
+          "independent_diagnostics_and_repair": 15
+        },
+        "production_requirement": "These are blueprint anchors, not full lessons. Expand to2–4 observable goals and3–5 diagnostics, with worked answers. A failed prerequisite check triggers extra practice before dependent work; periods may expand.",
+        "original_title": "Small differences at deeper levels",
+        "original_assessment_target": "Explain how distinct source rays first produce distinct integer records",
+        "required_source_amendment_ids": []
+      }
+    },
+    {
+      "id": "lesson-06",
+      "title": "A lossless recursive compiler",
+      "entry_prerequisites": [
+        "lesson-05"
+      ],
+      "concept_ids": [
+        "C09.06"
+      ],
+      "worked_example_capability": "Audit a finite carry table and recover every represented value",
+      "assessment_target": "Audit a finite carry table and recover every represented value",
+      "later_use": "capstone",
+      "core_minutes": 55,
+      "teaching_anchor": {
+        "lesson_id": "lesson-06",
+        "concept_id": "C09.06",
+        "bridge_to_teach": "Expand the finite recurrence by substitution and teach the finite terminal residual before any infinite-series recognition note. A finite carry ledger is not exact ray recovery unless its terminal epsilon is retained.",
+        "worked_example": {
+          "id": "C09.06-W1",
+          "task_and_answer": "Atg2, Q2=729Q0+27C1+C2. For synthetic(1,2/3,1/2), this yields(729,486,364). Exact ray recovery is r=Q0+C1/27+C2/729-epsilon2/729; the last half-coordinate needs+1/1458."
+        },
+        "guided_practice": {
+          "id": "C09.06-P1",
+          "task_and_answer": "For synthetic(1,1/3,1/4), Q2=(729,243,182), and subtracting epsilon2/729 adds1/2916 to the third ray coordinate. Rebuild the entire ledger from original ray and separately decode backward from Q0,carries,terminal epsilon."
+        },
+        "diagnostic": {
+          "id": "C09.06-D1",
+          "task_and_answer": "Round-trip S/A to C_b,C_c, rebuild Q and epsilon with their generation rules, restore every ray coordinate, and retain branch/rule/ordering metadata. The archive infinite carry series is recognition-only; no limit proof is required for this finite capstone."
+        },
+        "planned_periods": 1,
+        "minutes_per_period": 55,
+        "teaching_allocation_per_period": {
+          "retrieval": 5,
+          "explanation_and_worked_example": 20,
+          "guided_practice": 15,
+          "independent_diagnostics_and_repair": 15
+        },
+        "production_requirement": "These are blueprint anchors, not full lessons. Expand to2–4 observable goals and3–5 diagnostics, with worked answers. A failed prerequisite check triggers extra practice before dependent work; periods may expand.",
+        "original_title": "A lossless recursive compiler",
+        "original_assessment_target": "Audit a finite carry table and recover every represented value",
+        "required_source_amendment_ids": []
+      }
+    }
+  ],
+  "capstone_specification": {
+    "task": "Produce a short integerization-and-carry ledger with a stated tie rule and exact reconstruction of a clearly labeled synthetic ray.",
+    "required_operations": [
+      "Declare tie-down ceiling rule and sign; test both signed ties and contrast cell ownership.",
+      "Compute K_g and Q_g for synthetic ray(1,1/3,1/4) throughg2; keep source and synthetic inputs separate.",
+      "Calculate every epsilon and reconstruct the exact ray from each generation.",
+      "Derive and verify carries from both integer and residual routes; compute S/A, invert halves and reject opposite parity.",
+      "Compare the taught perturbed ray throughg3; label first integer difference and earlier residual differences; interpret supplied historical g8 replay as provenance.",
+      "Build finite carry-sum reconstruction with terminal epsilon; reverse every side-mode and carry transform; retain rules, ordering, branch and units."
+    ],
+    "rule": "Map every capstone operation to a prior introduction and practice; provide full answers, point rubric, source scope, and residual accounting.",
+    "backward_map": [
+      {
+        "step_id": "C09-CAP-01",
+        "operation": "Declare tie-down ceiling rule and sign; test both signed ties and contrast cell ownership.",
+        "introduction": "lesson-01",
+        "worked_id": "C09.01-W1",
+        "prior_practice_id": "C09.01-P1",
+        "diagnostic_id": "C09.01-D1",
+        "worked_example_id": "C09.01-W1"
+      },
+      {
+        "step_id": "C09-CAP-02",
+        "operation": "Compute K_g and Q_g for synthetic ray(1,1/3,1/4) throughg2; keep source and synthetic inputs separate.",
+        "introduction": "lesson-02",
+        "worked_id": "C09.02-W1",
+        "prior_practice_id": "C09.02-P1",
+        "diagnostic_id": "C09.02-D1",
+        "worked_example_id": "C09.02-W1"
+      },
+      {
+        "step_id": "C09-CAP-03",
+        "operation": "Calculate every epsilon and reconstruct the exact ray from each generation.",
+        "introduction": "lesson-03",
+        "worked_id": "C09.03-W1",
+        "prior_practice_id": "C09.03-P1",
+        "diagnostic_id": "C09.03-D1",
+        "worked_example_id": "C09.03-W1"
+      },
+      {
+        "step_id": "C09-CAP-04",
+        "operation": "Derive and verify carries from both integer and residual routes; compute S/A, invert halves and reject opposite parity.",
+        "introduction": "lesson-04",
+        "worked_id": "C09.04-W1",
+        "prior_practice_id": "C09.04-P1",
+        "diagnostic_id": "C09.04-D1",
+        "worked_example_id": "C09.04-W1"
+      },
+      {
+        "step_id": "C09-CAP-05",
+        "operation": "Compare the taught perturbed ray throughg3; label first integer difference and earlier residual differences; interpret supplied historical g8 replay as provenance.",
+        "introduction": "lesson-05",
+        "worked_id": "C09.05-W1",
+        "prior_practice_id": "C09.05-P1",
+        "diagnostic_id": "C09.05-D1",
+        "worked_example_id": "C09.05-W1"
+      },
+      {
+        "step_id": "C09-CAP-06",
+        "operation": "Build finite carry-sum reconstruction with terminal epsilon; reverse every side-mode and carry transform; retain rules, ordering, branch and units.",
+        "introduction": "lesson-06",
+        "worked_id": "C09.06-W1",
+        "prior_practice_id": "C09.06-P1",
+        "diagnostic_id": "C09.06-D1",
+        "worked_example_id": "C09.06-W1"
+      }
+    ]
+  },
+  "blueprint_audit": {
+    "status": "approved_source_and_prerequisite_blueprint",
+    "unresolved_critical": 0,
+    "unresolved_major": 0,
+    "source_review": {
+      "status": "ready_for_source_scoped_drafting",
+      "basis": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\source-coverage\\source-coverage-audit.json",
+      "source_report_sha256": "eef89a28971ef7e5380977c31b62ed6d64f2831759e679ee967b6c253a33c04a",
+      "portable_requirements_applied": true,
+      "educational_acceptance": "Independent teaching review and actual E05 content gate remain required.",
+      "applied_at": "2026-11-05T17:02:05.375955+00:00"
+    },
+    "teaching_review_path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\teaching\\launch-review-07-09.json",
+    "teaching_amendment_sha256": "c63a488d9a0423c1d7d361d3bb08af87373e44e84d57618845d3f4e62c8da6ab",
+    "review_scope": "Blueprint clearance only. Actual lesson content and E05 links require independent final acceptance.",
+    "applied_at": "2026-11-05T17:30:04.348372+00:00"
+  },
+  "validator": {
+    "skill_relative_path": "scripts/validate_course.py",
+    "required_command": "&amp; 'C:\\ProgramData\\anaconda3\\Scripts\\conda.exe' run -n tf_gpu_env python 'C:\\Users\\info\\.codex\\skills\\build-high-school-course\\scripts\\validate_course.py' 'Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-09-projective-integerization-and-carry-dynamics' --json"
+  },
+  "storage_override": {
+    "authority": "User: write outputs to the project folder and move them later",
+    "original_root": "C:\\Users\\info\\Desktop\\K-Field_Training_Course",
+    "canonical_project_root": "Z:\\Kfield-doc-training\\K-Field_Training_Course"
+  },
+  "production_requirements": {
+    "E05": [
+      "Replace generic coverage placeholders with actual explanation, worked-example, practice, diagnostic, and capstone step IDs. A row passes only when the referenced content exists and the operation is taught before use.",
+      "For each capstone break the requested product into concrete operations with named inputs/outputs, link each operation to an earlier explanation AND an independently answered practice item; do not merely repeat outcome text.",
+      "Use source-exact finite examples where available and separately labeled synthetic analogues otherwise. Recognition-only extensions cannot be required computations.",
+      "Record teaching/practice/check minutes per lesson; split overloaded lessons and update every lesson/coverage/capstone link. Shared advanced notation is author guidance until introduced locally."
+    ]
+  },
+  "applied_audit_amendments": {
+    "SA-09": {
+      "id": "SA-09",
+      "course": 9,
+      "finding": "source_fidelity",
+      "lessons": [
+        "lesson-01",
+        "lesson-03",
+        "lesson-04"
+      ],
+      "merge_action": "append unique requirements to source_audit_contract; attach to named lesson authoring obligations; preserve existing fields",
+      "requirements": [
+        "If adopting epsilon=Q-Kr in [-1/2,1/2), explicitly use nint(t)=ceil(t-1/2), choosing the lower integer at every half-tie. This is a course convention consistent with the interval, not a claim that the ambiguous archive supplied it.",
+        "Test t=+1/2 and -1/2 and translation by integer carries. Keep cell ownership floor(q+1/2) separate.",
+        "Include S=C_b+C_c, A=C_b-C_c, inverse halves and S congruent A modulo2 before the course13 side-transfer lattice."
+      ],
+      "source_references": [
+        "S02#/backbone_sequence/5",
+        "S03#/findings/12"
+      ],
+      "status": "applied_to_blueprint_by_parent",
+      "prior_application_status": "prepared_not_applied",
+      "applied_at": "2026-11-05T17:02:05.375955+00:00"
+    }
+  },
+  "source_audit_readiness": {
+    "status": "ready_for_source_scoped_drafting",
+    "basis": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\source-coverage\\source-coverage-audit.json",
+    "source_report_sha256": "eef89a28971ef7e5380977c31b62ed6d64f2831759e679ee967b6c253a33c04a",
+    "portable_requirements_applied": true,
+    "educational_acceptance": "Independent teaching review and actual E05 content gate remain required.",
+    "applied_at": "2026-11-05T17:02:05.375955+00:00"
+  },
+  "teaching_blueprint_contract": {
+    "schema_version": "1.0",
+    "created_utc": "2026-11-05T17:28:59.617960+00:00",
+    "scope": "Pedagogic BLUEPRINT amendments only; no completed-course approval.",
+    "source_basis": [
+      {
+        "id": "S01",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+        "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+        "read_only": true
+      },
+      {
+        "id": "S02",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+        "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+        "read_only": true
+      },
+      {
+        "id": "S03",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+        "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+        "read_only": true
+      }
+    ],
+    "course09_generation_and_rounding": {
+      "source_generation_rule": "K_g=27^g",
+      "course_rule": "nint(t)=ceil(t-1/2), lower integer at every half-tie",
+      "epsilon": "Q_g-K_g*r in[-1/2,1/2)",
+      "source_status": "The archive left half-ties ambiguous; this is an explicit course convention required by SA-09, not an attributed original definition.",
+      "finite_decoder": "r=Q_0+sum_(j=1..g) C_j/27^j-epsilon_g/27^g",
+      "integer_equivariance": "nint(t+m)=nint(t)+m for every integer m; this justifies the carry rounding formula.",
+      "side_modes": "S=C_b+C_c; A=C_b-C_c; inverse halves require S congruent A mod2."
+    },
+    "verification_record": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-teaching-auditor\\outputs\\teaching-verification-07-09.json",
+    "verification_sha256": "49e1efd1ea38ed3884089caaecb9c0009a69af87a48bbf113beefb63f5dd43c6",
+    "source_or_project_files_modified": false,
+    "course_amendment": {
+      "course_id": "course-09",
+      "input_contract_path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-09-projective-integerization-and-carry-dynamics\\input-contract.json",
+      "input_contract_sha256": "fd2bca6921dbf570ceb397568dcaa8e4f62faf21cfbbd70b15675caefc934222",
+      "application": "Add as teaching_amendment and replace generic coverage references with the explicit IDs. Preserve all original subject outcomes, source obligations and lesson required_amendment_ids; this file does not edit the project.",
+      "applied_source_amendments_read": {
+        "SA-09": {
+          "id": "SA-09",
+          "course": 9,
+          "finding": "source_fidelity",
+          "lessons": [
+            "lesson-01",
+            "lesson-03",
+            "lesson-04"
+          ],
+          "merge_action": "append unique requirements to source_audit_contract; attach to named lesson authoring obligations; preserve existing fields",
+          "requirements": [
+            "If adopting epsilon=Q-Kr in [-1/2,1/2), explicitly use nint(t)=ceil(t-1/2), choosing the lower integer at every half-tie. This is a course convention consistent with the interval, not a claim that the ambiguous archive supplied it.",
+            "Test t=+1/2 and -1/2 and translation by integer carries. Keep cell ownership floor(q+1/2) separate.",
+            "Include S=C_b+C_c, A=C_b-C_c, inverse halves and S congruent A modulo2 before the course13 side-transfer lattice."
+          ],
+          "source_references": [
+            "S02#/backbone_sequence/5",
+            "S03#/findings/12"
+          ],
+          "status": "applied_to_blueprint_by_parent",
+          "prior_application_status": "prepared_not_applied",
+          "applied_at": "2026-11-05T17:02:05.375955+00:00"
+        }
+      },
+      "original_subject_kernel": {
+        "objects_and_operations": [
+          {
+            "concept_id": "C09.01",
+            "concept": "Nearest-integer maps need a tie rule",
+            "operation": "Specify and test a deterministic rounding convention"
+          },
+          {
+            "concept_id": "C09.02",
+            "concept": "Projective rays at successive scales",
+            "operation": "Compute a low-depth integer approximation"
+          },
+          {
+            "concept_id": "C09.03",
+            "concept": "The retained rounding coordinate",
+            "operation": "Reconstruct the original ray value from integer and residual"
+          },
+          {
+            "concept_id": "C09.04",
+            "concept": "Carry between generations",
+            "operation": "Derive the carry recurrence from two consecutive levels"
+          },
+          {
+            "concept_id": "C09.05",
+            "concept": "Small differences at deeper levels",
+            "operation": "Explain how distinct source rays first produce distinct integer records"
+          },
+          {
+            "concept_id": "C09.06",
+            "concept": "A lossless recursive compiler",
+            "operation": "Audit a finite carry table and recover every represented value"
+          }
+        ],
+        "source_modules": [
+          "M06"
+        ],
+        "scope": "Produce a short integerization-and-carry ledger with a stated tie rule and exact reconstruction of a clearly labeled synthetic ray.",
+        "common_failure_modes": [
+          "Untaught prerequisite",
+          "Unscoped symbol or unit",
+          "An illustrative example presented as real evidence",
+          "A source label promoted beyond its evidence class",
+          "A residual or source branch silently omitted"
+        ]
+      },
+      "core_periods": 7,
+      "capstone_periods": 2,
+      "core_boundary": "Finite hand-checkable examples and supplied source-reading cards are assessed. Full archive proof certification, infinite-series limits, gauge transport and physical mass identification are not silently required.",
+      "prerequisite_status": "Closed for these explicit finite operations with the listed bridges and prior-course arithmetic; final lesson checks remain required.",
+      "inline_content_location": "Complete lesson anchors are in course_map[*].teaching_anchor; complete capstone mapping is in capstone_specification.backward_map below."
+    },
+    "completed_course_acceptance": false
+  }
+}
+</code></pre></article><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/9">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

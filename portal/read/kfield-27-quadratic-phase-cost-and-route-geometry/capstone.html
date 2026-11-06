@@ -1,0 +1,145 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Capstone — Two routes, one declared cost, and an honest certificate audit · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/27">Course 27</a><span>/</span><span>capstone</span></div><a class="original" href="../../../kfield-27-quadratic-phase-cost-and-route-geometry/capstone.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#capstone-two-routes-one-declared-cost-and-an-honest-certificate-audit">Capstone — Two routes, one declared cost, and an honest certificate audit</a><a href="#input-packet">Input packet</a><a href="#student-tasks">Student tasks</a><a href="#c27-cap-01-evaluate-and-visualize">C27-CAP-01 — Evaluate and visualize</a><a href="#c27-cap-02-derive-from-rulers">C27-CAP-02 — Derive from rulers</a><a href="#c27-cap-03-check-the-complete-congruence">C27-CAP-03 — Check the complete congruence</a><a href="#c27-cap-04-keep-the-path-ledger">C27-CAP-04 — Keep the path ledger</a><a href="#c27-cap-05-certify-within-a-fixed-domain">C27-CAP-05 — Certify within a fixed domain</a><a href="#c27-cap-06-audit-precision-and-provenance">C27-CAP-06 — Audit precision and provenance</a><a href="#c27-cap-07-propose-a-discriminating-observation">C27-CAP-07 — Propose a discriminating observation</a><a href="#full-worked-key-and-28-point-rubric">Full worked key and 28-point rubric</a><a href="#backward-map-actual-operations-before-assessment">Backward map: actual operations before assessment</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 1 — A quadratic form as a directional cost</a><a  href="lesson-02.html">Lesson 2 — From plane counts to phase cost</a><a  href="lesson-03.html">Lesson 3 — Pullbacks and coordinate changes</a><a  href="lesson-04.html">Lesson 4 — Integrating cost along a path</a><a  href="lesson-05.html">Lesson 5 — Route comparison and constraints</a><a  href="lesson-06.html">Lesson 6 — Certificates and precision residuals</a><a  href="lesson-07.html">Lesson 7 — Phase cost and physical coupling</a></details></aside><div class="reading-column"><article class="prose"><h1 id="capstone-two-routes-one-declared-cost-and-an-honest-certificate-audit" tabindex="-1">Capstone — Two routes, one declared cost, and an honest certificate audit</h1>
+<p>Allow three 55-minute periods: (1) typed inputs, ellipse and pullback; (2) ledgers, route comparison and proof; (3) source/precision audit, coupling, reconstruction and corrections. All numerical inputs are synthetic except the explicitly identified source cards. No internet, calculus or missing source matrix is needed to complete this assessment.</p>
+<h2 id="input-packet" tabindex="-1">Input packet</h2>
+<p>Use length unit L, time unit τ, detector unit D, a fixed origin (0,0)L and fixed orthogonal axes. For Tasks 1, 3–5 use G=[[2,1],[1,2]]L⁻². B=diag(2,1)L maps dimensionless u to displacement z=Bu/2. J=ΣΔt vᵀGv. Start (0,0)L, end (2,0)L and total duration 2τ. Admissible core paths have any finite number of positive-duration constant-velocity segments, with no obstacles or speed cap. Path A has velocities (1,0),(1,0)L/τ; path B has (1,1),(1,−1)L/τ; each listed segment lasts τ.</p>
+<p>Task 2 is a <strong>separate ruler contract</strong>, not a substitution into that G: n₁=(1,0),d₁=L,n₂=(0,1),d₂=2L,o=(0,0)L,H=I. Use v=(−1,2)L/τ for two τ-long segments.</p>
+<p>Source cards, available in full teaching context in Lesson 6 and provenance in sources.md: T20 names a least-cost certificate but supplies no numeric path, bounds or gap. S02 /branch_proofs/12 reports exact QPC linear-algebra closure. S03 AUD-008 names missing G_phase, C and complete W_qpc and stores <strong>4.58938078934712923077736690075e-12</strong> without the needed precision/interval bridge. AUD-009 provides missing-body status VERIFIED_NOT_LOADED. A separate spectral G_phase has been retrieved, but its equivalence to the locked route inputs is not supplied. Do not invent those inputs.</p>
+<h2 id="student-tasks" tabindex="-1">Student tasks</h2>
+<h3 id="c27-cap-01-evaluate-and-visualize" tabindex="-1">C27-CAP-01 — Evaluate and visualize</h3>
+<p>Compute q for velocities (1,2) and (1,−1)L/τ, then reverse each and retain all signed vectors. For displacement inputs, draw the q=1 ellipse with the exact diagonal and axis-crossing anchors from Lesson 1; label principal semiaxes. Show why diag(1,−1)L⁻² is not a positive form.</p>
+<h3 id="c27-cap-02-derive-from-rulers" tabindex="-1">C27-CAP-02 — Derive from rulers</h3>
+<p>Under Task 2's separate rulers, derive signed plane rates from Δp/Δt, compute the physical ruler matrix and give cumulative count and cost after each segment. Explain why the result cannot be claimed as a source route value without source ruler and time conventions.</p>
+<h3 id="c27-cap-03-check-the-complete-congruence" tabindex="-1">C27-CAP-03 — Check the complete congruence</h3>
+<p>Compute all four entries of W=BᵀGB/4. Use u-dot=(2,−2)/τ to calculate v and both costs. Recover u-dot from v and check T_BᵀWT_B=G. Explain the factor 1/4 and why this identity alone adds no dynamics.</p>
+<h3 id="c27-cap-04-keep-the-path-ledger" tabindex="-1">C27-CAP-04 — Keep the path ledger</h3>
+<p>For A and B, provide duration, signed velocity, endpoint, rate, segment cost and cumulative cost. Reverse B's segment order and report the changed history. Split A into four half-τ segments and provide the map back to its two original segments.</p>
+<h3 id="c27-cap-05-certify-within-a-fixed-domain" tabindex="-1">C27-CAP-05 — Certify within a fixed domain</h3>
+<p>Use v-bar=D/T and retained deviations δ_i to prove the finite-route lower bound for the input packet. Give an attaining path, upper bound and gap. Reconstruct B's excess from its deviations. Explain the changed outcome if T becomes 4τ and what remains valid if an obstacle excludes the straight path.</p>
+<h3 id="c27-cap-06-audit-precision-and-provenance" tabindex="-1">C27-CAP-06 — Audit precision and provenance</h3>
+<p>Audit the supplied T20/S02/S03 cards: separate the attributed source claim from what can be replayed here, list the missing certificate fields and preserve the full nonzero closure string. Independently compute 1/3−0.3333 under four-decimal positive truncation, provide its interval and reconstruction. Calculate the gap between bounds 3.9/τ and 4.1/τ. Explain why neither toy rule certifies the source closure.</p>
+<h3 id="c27-cap-07-propose-a-discriminating-observation" tabindex="-1">C27-CAP-07 — Propose a discriminating observation</h3>
+<p>Under synthetic y=kr with dimensionless r, give two factor pairs for y=6D. An independent calibration supplies r=3; determine and freeze k. For a second reading 7D with the same r, record prediction, signed residual and reconstruction. Name the observations and transfer specification needed to distinguish coupling candidates. Separate your route proof from any claim of measured energy transfer.</p>
+<h2 id="full-worked-key-and-28-point-rubric" tabindex="-1">Full worked key and 28-point rubric</h2>
+<p>Award four points per task, one for each specified component below. Award a calculation point for correct carried-forward work after a separately penalized arithmetic error; do not penalize the same error twice. Source fabrication or deleting residuals loses the relevant scope/retention point and requires correction before reporting mastery.</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Task</th>
+<th>Point 1: typed inputs/domain</th>
+<th>Point 2: operation</th>
+<th>Point 3: reconstruction/classification</th>
+<th>Point 4: retained information/boundary</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>01</td>
+<td>G in L⁻²; rates τ⁻² and displacement cost dimensionless</td>
+<td>2+4+8=14 and 2−2+2=2; reversals same</td>
+<td>Ellipse long semiaxis L on n₋, short L/√3 on n₊; correct anchors</td>
+<td>Signed vectors retained; counterexample (0,1)L gives −1 for alternative matrix</td>
+</tr>
+<tr>
+<td>02</td>
+<td>Declare the separate spacings and H=I</td>
+<td>a=(−1,1)/τ; G_ruler=diag(1,1/4)L⁻²; rate 2/τ²</td>
+<td>Cumulative counts (−1,1),(−2,2); cumulative cost 2/τ,4/τ</td>
+<td>Preserve signs, origin, two durations; source normalization still required</td>
+</tr>
+<tr>
+<td>03</td>
+<td>B's column map and u-dot units declared</td>
+<td>GB=[[4,1],[2,2]]L⁻¹, BᵀGB=[[8,2],[2,2]], W=[[2,1/2],[1/2,1/2]]</td>
+<td>v=(2,−1)L/τ; both costs 8−4+2=6/τ²; T_B=diag(1,2)L⁻¹ recovers (2,−2)/τ and T_BᵀWT_B=G</td>
+<td>Two factors 1/2 give 1/4; identity is coordinate substitution, not new dynamics</td>
+</tr>
+<tr>
+<td>04</td>
+<td>Common start/end, time, G and segment interpolation</td>
+<td>A contributions 2,2 per τ; B contributions 6,2 per τ</td>
+<td>A endpoints (1,0),(2,0); B (1,1),(2,0); cumulative A 2,4; B 6,8 per τ</td>
+<td>Reversed B endpoints (1,−1),(2,0), cumulative 2,8; split A contributes four 1/τ values; pair 1–2→A1 and 3–4→A2</td>
+</tr>
+<tr>
+<td>05</td>
+<td>Finite positive-duration segments, fixed T, G positive, no obstacle</td>
+<td>ΣΔt δ=0; mixed terms cancel; J=T v-barᵀGv-bar+ΣΔt δᵀGδ</td>
+<td>v-bar=(1,0)L/τ; lower=upper=4/τ, zero gap; B deviations (0,±1)L/τ add excess 4/τ</td>
+<td>At 4τ minimum is 2/τ for a different problem; obstacle preserves bound but removes straight attainment claim</td>
+</tr>
+<tr>
+<td>06</td>
+<td>Same units for bounds; source provenance distinguished</td>
+<td>Residual 1/30000; interval [0.3333,0.3334); gap 0.2/τ</td>
+<td>3333/10000+1/30000=1/3; S02 exact claim preserved as attributed, no source replay claimed</td>
+<td>Exact AUD-008 string retained; list full source matrices, order/units, precision, objective, domain, time/endpoints, path/bounds/gap and replay; no imported toy tolerance</td>
+</tr>
+<tr>
+<td>07</td>
+<td>y in D, r dimensionless, k in D</td>
+<td>Pairs (2D,3),(1D,6); with r=3, k=2D</td>
+<td>Frozen prediction 6D; e=+1D; 7D=6D+1D</td>
+<td>Keep candidates and rows; independent calibration plus source state, timing/orientation/exposure and transfer law; no energy-transfer promotion</td>
+</tr>
+</tbody>
+</table></div>
+<p>For Task 1's drawing, the short-axis endpoints are ±(1/√6,1/√6)L; long-axis endpoints ±(1/√2,−1/√2)L; horizontal/vertical crossings are ±L/√2 on each axis. All satisfy q=1. The diagonal decomposition 3(s/L)²+(t/L)²=1 explains the smooth ellipse.</p>
+<p>For Task 4, subdivision endpoints are (1/2,0),(1,0),(3/2,0),(2,0)L, cumulative costs 1,2,3,4 per τ. Dividing segment contributions by their durations recovers the constant rate; retaining the signed velocities additionally reconstructs positions. Costs alone cannot reconstruct direction.</p>
+<p>For Task 6, an acceptable source audit explicitly says that the spectral-instance decimal matrix does not supply the locked C, complete W or certificate bridge. A source's exact claim and an auditor's missing-object report are separate records. VERIFIED_NOT_LOADED is a retrieval state, not a freshly checked theorem or a claim that the source is false.</p>
+<p>For Task 7, acceptable discrimination includes independently measuring r under fixed orientation/exposure or testing two predeclared transfer laws under a controlled changed input that makes their predictions differ. Merely refitting k to each output does not distinguish them. The additional residual remains an observation channel for later decoding.</p>
+<h2 id="backward-map-actual-operations-before-assessment" tabindex="-1">Backward map: actual operations before assessment</h2>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Capstone step and input→output</th>
+<th>Explanation</th>
+<th>Answered practice</th>
+<th>Local diagnostic</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>01: G,v→q; q=1→ellipse anchors</td>
+<td>C27.01-E1/W1</td>
+<td>C27.01-P1, including plot</td>
+<td>C27.01-D1</td>
+</tr>
+<tr>
+<td>02: n,d,H,v,Δt→ruler matrix, signed rates/counts/cost</td>
+<td>C27.02-E1/W1</td>
+<td>C27.02-P1a and remaining P1</td>
+<td>C27.02-D1</td>
+</tr>
+<tr>
+<td>03: B,G,u-dot→W,v,cost and inverse</td>
+<td>C27.03-E1/W1</td>
+<td>C27.03-P1a and remaining P1</td>
+<td>C27.03-D1</td>
+</tr>
+<tr>
+<td>04: ordered velocities/durations→ledger and subdivision map</td>
+<td>C27.04-E1/W1</td>
+<td>C27.04-P1</td>
+<td>C27.04-D1</td>
+</tr>
+<tr>
+<td>05: fixed contract and δ→lower/upper bound proof and constraint comparison</td>
+<td>C27.05-E1/W1</td>
+<td>C27.05-P1a and remaining P1</td>
+<td>C27.05-D1</td>
+</tr>
+<tr>
+<td>06: cards/decimals→source missing-field audit and retained residual</td>
+<td>C27.06-E1/W1</td>
+<td>C27.06-P1</td>
+<td>C27.06-D1</td>
+</tr>
+<tr>
+<td>07: response/calibration→candidate factors, fixed prediction/residual and proposed observation</td>
+<td>C27.07-E1/W1</td>
+<td>C27.07-P1</td>
+<td>C27.07-D1</td>
+</tr>
+</tbody>
+</table></div>
+<p>No generalized eigenproblem, real laboratory motion calculation or continuum proof is assessed.</p></article><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/27">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

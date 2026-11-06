@@ -1,0 +1,144 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Terminology and notation · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/9">Course 09</a><span>/</span><span>terminology</span></div><a class="original" href="../../../kfield-09-projective-integerization-and-carry-dynamics/terminology.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#terminology-and-notation">Terminology and notation</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 01 — Nearest-integer maps need a tie rule</a><a  href="lesson-02.html">Lesson 02 — Projective rays at successive scales</a><a  href="lesson-03.html">Lesson 03 — The retained rounding coordinate</a><a  href="lesson-04.html">Lesson 04 — Carry between generations</a><a  href="lesson-05.html">Lesson 05 — Small differences at deeper levels</a><a  href="lesson-06.html">Lesson 06 — A lossless recursive compiler</a></details></aside><div class="reading-column"><article class="prose"><h1 id="terminology-and-notation" tabindex="-1">Terminology and notation</h1>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Term/symbol</th>
+<th>Meaning and contract</th>
+<th>First taught</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Integer</td>
+<td>Whole number, positive, zero, or negative</td>
+<td>01</td>
+</tr>
+<tr>
+<td>ceil(t), floor(t)</td>
+<td>Least integer ≥t; greatest integer ≤t</td>
+<td>01 E1</td>
+</tr>
+<tr>
+<td>nint(t)</td>
+<td>ceil(t−1/2); lower neighbor at either signed half-tie</td>
+<td>01 E1</td>
+</tr>
+<tr>
+<td>Half-tie</td>
+<td>Input halfway between adjacent integers</td>
+<td>01 E1</td>
+</tr>
+<tr>
+<td>[−1/2,1/2)</td>
+<td>Includes −1/2, excludes +1/2</td>
+<td>01 E1</td>
+</tr>
+<tr>
+<td>Integer translation</td>
+<td>nint(t+m)=nint(t)+m for integer m</td>
+<td>01 P1</td>
+</tr>
+<tr>
+<td>Cell owner</td>
+<td>floor(q+1/2), centers q−owner in the half-open cell</td>
+<td>01 E2</td>
+</tr>
+<tr>
+<td>Projective ray, r</td>
+<td>Here a class of positive triples under positive common scaling, represented by first coordinate 1</td>
+<td>02 E1</td>
+</tr>
+<tr>
+<td>Normalization magnitude</td>
+<td>Original first coordinate; must be retained separately if original triple is needed</td>
+<td>02 E1</td>
+</tr>
+<tr>
+<td>a,b,c</td>
+<td>Ordered coordinate slots; not lengths or basis columns in this course</td>
+<td>02 E1</td>
+</tr>
+<tr>
+<td>g</td>
+<td>Nonnegative integer generation, not another course's address depth</td>
+<td>02 E1</td>
+</tr>
+<tr>
+<td>K_g</td>
+<td>Scale 27^g</td>
+<td>02 E1</td>
+</tr>
+<tr>
+<td>Q_g</td>
+<td>Componentwise nint(K_g r), an integer-count triple; not a metric or detail operator</td>
+<td>02 E1</td>
+</tr>
+<tr>
+<td>epsilon_g</td>
+<td>Signed count-coordinate residual Q_g−K_g r; each entry in [−1/2,1/2)</td>
+<td>03 E1</td>
+</tr>
+<tr>
+<td>epsilon_g/K_g</td>
+<td>Ratio-coordinate difference Q_g/K_g−r</td>
+<td>03 E1</td>
+</tr>
+<tr>
+<td>Decoder</td>
+<td>r=(Q_g−epsilon_g)/K_g; reconstructs the supplied normalized ray</td>
+<td>03 E1</td>
+</tr>
+<tr>
+<td>C_g</td>
+<td>Carry Q_g−27Q_(g−1), g≥1; C_0 is undefined here</td>
+<td>04 E1</td>
+</tr>
+<tr>
+<td>S,A</td>
+<td>C_b+C_c and C_b−C_c at one generation; retain C_a separately</td>
+<td>04 E2</td>
+</tr>
+<tr>
+<td>Same parity</td>
+<td>Both even or both odd; S congruent A modulo 2</td>
+<td>04 E2</td>
+</tr>
+<tr>
+<td>Side-mode lattice</td>
+<td>Integer pairs (S,A) with same parity; only this membership condition is used</td>
+<td>04 E2</td>
+</tr>
+<tr>
+<td>delta, prime mark</td>
+<td>Signed difference between two input coordinates; prime marks the second input</td>
+<td>05 E1</td>
+</tr>
+<tr>
+<td>R,R',T,T'</td>
+<td>Names of synthetic rays/comparisons, not metrics</td>
+<td>05 W1/P1</td>
+</tr>
+<tr>
+<td>Terminal residual</td>
+<td>Residual at the final retained generation, required for exact finite decoding</td>
+<td>06 E1</td>
+</tr>
+<tr>
+<td>sum_(j=1..g)</td>
+<td>Add terms with integer index j from 1 through g</td>
+<td>06 E1</td>
+</tr>
+<tr>
+<td>Finite compiler</td>
+<td>Deterministic, reversible ledger transformation under its metadata contract</td>
+<td>06 E1</td>
+</tr>
+<tr>
+<td>Branch</td>
+<td>Named source or synthetic input identity, never inferred from matching integer rows</td>
+<td>03 D4; 05 E2</td>
+</tr>
+</tbody>
+</table></div>
+<p>All ray ratios and scales are dimensionless. “Count coordinate” distinguishes the scaled integer/residual representation from its ratio-coordinate decoder; neither denotes a measured length or energy. Source input precision is part of the branch metadata.</p>
+<p>Reserved series notation M_cell, R_cell, G_phase, O_K, and B is not needed for these finite operations and is not reassigned. Likewise projective signs, detector parity, chirality, and family labels remain separate notions, not synonyms for the even/odd side-mode condition.</p></article><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/9">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

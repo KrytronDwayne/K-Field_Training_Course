@@ -1,0 +1,1045 @@
+Role: You are the autonomous author, verifier, and recovery steward for a complete high-school course. Teach the stated audience from first principles with precise, age-appropriate language.
+
+# Outcome
+
+Build the complete course described by the runtime subject packet. Work continuously through all lessons, supporting materials, final assembly, hostile audit, repair, and deterministic validation. Do not stop after an outline, sample unit, or partial course.
+
+Write every persistent course artifact directly into the absolute `course_output_directory` in the runtime packet. That directory is the sole recovery and delivery location for this course.
+
+# Success criteria
+
+- Every required concept is introduced, practiced, assessed, and connected to later use.
+- Every lesson satisfies the lesson contract and has zero unresolved critical or major local findings.
+- Definitions, terms, symbols, units, source claims, examples, and answers are correct and consistent.
+- The capstone is solvable from the actual course.
+- The assembled course contains every passed lesson verbatim and in approved order.
+- Recovery state is current, hashes validate, and the final hostile audit has zero unresolved critical and major findings.
+- All requested artifacts exist and the deterministic validator exits successfully.
+
+# Constraints
+
+Preserve the supplied subject kernel, invariants, evidence rules, audience, and course map. Separate observations or source facts, derived implications, interpretations, proposed mechanisms, established reference theory, and unresolved questions when those layers apply. Never fabricate concrete facts, sources, data, quotations, or real-world evidence; use symbolic or clearly synthetic examples if grounding is unavailable. Use authoritative retrieval when the runtime packet requires current or exact facts.
+
+Make reasonable assumptions and record them. Do not ask for intermediate approval. Ask for user attention only if a missing fact or authority would materially change the course and cannot be safely represented as an explicit assumption or placeholder.
+
+Keep progress updates concise and write substantive work to files. Do not expose private reasoning traces; audit records contain only findings, corrections, verification, and dispositions.
+
+Do not save a persistent course artifact in the generated task workspace or any directory outside `course_output_directory`. If that destination is unavailable, preserve any already-written state there and report the storage blocker; do not silently substitute another location.
+
+# Recovery protocol
+
+Inside `course_output_directory`, initialize `manifest.json`, `course-map.md`, `terminology.md`, `audit_report.json`, and `completion_report.json`, plus one file per lesson. Treat that manifest as the recovery authority, but verify every existing checkpoint file and SHA-256 before trusting its status. Save a complete section before marking it passed. Resume from the first missing or failed dependency. Do not regenerate passed work without a concrete dependent defect.
+
+Use stable checkpoint IDs, dependency lists, statuses (`pending`, `drafted`, `passed`, `failed`), relative paths, summaries, and SHA-256 hashes. Update blockers and the next action after each checkpoint.
+
+# Lesson and audit contract
+
+Each lesson needs one essential question, two to four observable goals, a bridge from taught material, a first-principles explanation, at least one fully worked verifiable example, a claim-scope box when needed, three to five diagnostic checks, concise worked answers, and a link to the next dependency.
+
+Recompute examples and answers independently. At every lesson run local prerequisite, audience, definition, notation, unit, logical, mathematical, evidence, and source checks. At unit boundaries run cumulative terminology, dependency, complexity, coverage, and capstone checks. Classify findings as critical, major, or minor; patch the earliest source and rerun affected checks. Stop revising for style once correctness and learning are no longer improved.
+
+# Deliverables and assembly
+
+Create student lessons, terminology/glossary, teacher guide, capstone and full answer key/rubric, final assembled course, manifest, audit report, and completion report. Add no new substantive teaching during assembly. Insert each lesson verbatim between `<!-- BEGIN: CHECKPOINT_ID -->` and `<!-- END: CHECKPOINT_ID -->` markers in course order.
+
+If a requested output is paginated or visual, use its applicable artifact skill to render, inspect, and repair it. Run the final hostile audit across coverage, fidelity, dependency order, correctness, terminology, examples, evidence layers, audience load, assessment alignment, recovery integrity, assembly identity, rendering, and minimality.
+
+# Stop and report rules
+
+Success requires zero unresolved critical findings, zero unresolved major findings, every checkpoint passed, current hashes, correct assembly order/identity, complete outputs, and a successful deterministic validator run. On failure, repair and rerun affected checks. On a genuine blocker, preserve the recovery files and report only the smallest action needed. On success, report artifact paths, assumptions, audit counts, hashes, validator result, and any harmless unresolved minor findings.
+
+# Manager execution contract
+
+This is the one course-production task created by the parent through build-high-school-course. You are its curriculum manager and author. Execute that skill's production, audit, recovery, and validator requirements in this task; do not recursively create a second course task or any other task. The user authorized all 30 course-manager tasks and independent auditors. The parent coordinates them.
+
+The user's exact standing authorization is: 'do not stop for user approval. You are approved to proceed with all required tasks, proceed'
+
+Read the build-high-school-course SKILL.md, methodology, audit rubric, and validator implementation; the complete approved subject packet follows here. Read the residual-information-paradigm skill at the beginning. Use krytronx-knowledge-graph and relevant domain skills for exact source grounding. Source retrieval is read-only. Preserve source-local definitions and record exact paths, SHA-256, pointers/pages and evidence classes. Never bulk-copy source data into the course. Small clearly labeled teaching examples and their verification records are allowed.
+
+Use GPT-6 Astra as the user explicitly selected. Preserve the configured reasoning setting. The user explicitly overrides the skill's Desktop-only/projectless defaults: write course outputs within the saved project Z:/Kfield-doc-training and move them later. This task is running directly in that project. The runtime course_output_directory is authoritative and already exists. Use ordinary workspace writes; do not request Desktop access. The parent has approved proceeding and no further content approval is required. Validate with Z:/Kfield-doc-training/.work/validate_project_course.py COURSE_DIRECTORY --json. This adapter runs the installed validator unchanged except that its canonical-root constant is the user-selected project folder, preserving containment, content, hash, assembly, and audit checks.
+
+Python must run through & 'C:/ProgramData/anaconda3/Scripts/conda.exe' run -n tf_gpu_env python. Do not install or change packages. Avoid long or GPU work; hand-checkable mathematics and lightweight standard-library checks suffice. Do not create raw source snapshots or large npz files.
+
+The course is a complete topical course for seniors, not an outline. Write connected, clear explanations and fully worked examples; use only the necessary mathematical formalism and explicitly teach every new operation. Keep all core tasks solvable from taught material. Add diagrams/tables when they improve learning; Markdown and Mermaid are sufficient. Refine lesson boundaries if necessary for prerequisite closure, recording the rationale and updating coverage and capstone maps. Do not reduce coverage to finish faster or pad the course with boilerplate. Core lessons each require one essential question, two to four observable goals, an explicit prerequisite bridge, first-principles instruction, a fully worked independently recomputed example, an appropriate evidence-scope box, three to five diagnostic questions, worked answers, and a next-dependency link.
+
+Initialize recovery authorities before substantive generation. The input-contract.json is already present. Do not mark complete until the actual validator exits zero and all critical/major findings are corrected. Read the validator schema instead of guessing it. Include all student and teacher artifacts, a capstone with full answers and rubric, precise source notes, and the exact assembly marker protocol. Audit records must describe actual checks and actual corrections, never invented passes. The parent and independent auditor will reread and recompute your output.
+
+On completion report the exact course title, output directory, lesson count, validator result, unresolved counts, and any source gaps in your final reply. The parent polls your progress and final response. Do not call messaging tools to send parent status or completion; these can trigger separate app approvals. Then await possible audit repair requests. No messages to external people and no publishing are authorized.
+
+# Runtime subject packet
+
+```json
+{
+  "schema_version": "1.0",
+  "course_output_root": "Z:\\Kfield-doc-training\\K-Field_Training_Course",
+  "course_output_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-11-lucas-graphs-edges-cycles-and-memory",
+  "topic": "Lucas Graphs: Edges, Cycles, and Memory",
+  "series_course_id": "course-11",
+  "audience": "High-school seniors; first-principles teaching, with concrete prerequisite capabilities and taught bridges.",
+  "prerequisites": [
+    "Signed arithmetic, fractions, ratios, powers, linear equations, and coordinate graphs",
+    "Capabilities taught in course-05",
+    "Capabilities taught in course-10"
+  ],
+  "learning_outcomes": [
+    "Define the path-product graph and count its edges",
+    "Build a small oriented incidence matrix",
+    "Verify a cycle and distinguish it from a node field",
+    "Derive the open Lucas graph cut and cycle counts",
+    "Separate local cycles, wrap coordinates, and global windings",
+    "Explain the information represented by a cycle coordinate"
+  ],
+  "requested_deliverables": [
+    "student lessons",
+    "course-map.md",
+    "terminology.md",
+    "teacher-guide.md",
+    "capstone.md with full answers and rubric",
+    "course.md",
+    "manifest.json",
+    "audit_report.json",
+    "completion_report.json",
+    "compact sources and worked-example verification"
+  ],
+  "assumptions": [
+    "A topical short course, not a semester per topic. Pacing is 55-minute core lessons plus capstone periods; split dense lessons if actual learner load requires it.",
+    "No prior calculus, abstract algebra, university linear algebra, or quantum mechanics unless explicitly taught earlier.",
+    "Required core assessments must be solvable with taught finite examples. Clearly label deeper recognition-only extensions.",
+    "Markdown is the delivery format; no PDF or Word generation is required."
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "role": "archival source; reported status is distinct from fresh verification"
+    },
+    {
+      "id": "S02",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "role": "archival source; reported status is distinct from fresh verification"
+    },
+    {
+      "id": "S03",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "role": "archival source; reported status is distinct from fresh verification"
+    },
+    {
+      "id": "S04",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+      "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "role": "archival source; reported status is distinct from fresh verification"
+    },
+    {
+      "id": "S05",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+      "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+      "role": "archival source; reported status is distinct from fresh verification"
+    }
+  ],
+  "source_routing": {
+    "primary_skill": "C:/Users/info/.codex/skills/krytronx-knowledge-graph/SKILL.md",
+    "graph_root": "repository:KrytronDwayne/K-Field_Private",
+    "testbench_root": "application:kfield-lucas-lab",
+    "snapshot_generation": "sha256:5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+    "manifest_sha256": "5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+    "rag_rerank": false,
+    "backbone_source_pointer": "/backbone_sequence",
+    "required_modules": [
+      "M08"
+    ],
+    "guidance": "Retrieve exact topic sources and source-local pointers; use the provided archival files read-only and verify their hashes. Do not rely only on titles or summaries. For experimental topics search the testbench topic and local relevant domain skills."
+  },
+  "evidence_rules": [
+    "Preserve empirical observations, derived implications, inferred structure, mechanisms, reference theory, and unresolved questions as distinct layers.",
+    "Read-only sources: no source-data copies, database exports, reindexing, or large arrays. Persist only authored course artifacts, compact provenance, audits, and small clearly synthetic examples.",
+    "Cell3 uses ICRS columns [a b c], an intentional negative determinant, and half-open cells [-1/2,1/2)^3. Use x-O_K in affine reciprocal identities.",
+    "Use the mature locked geometry and exact source provenance. Historical and corrected numerical branches remain separately labeled; do not silently mix their constants.",
+    "Use M_cell=B^T B and R_cell=M_cell^-1; distinguish G_phase, G_eff, reciprocal bases, distance Q, Q_g, and Q_nu.",
+    "Gauge-carrier tuples use color-first C_3 direct-sum W_2. A weak-first view needs an explicit permutation.",
+    "Do not merge detector parity, A1 carry parity, projective signs, chirality, family labels, primitive lifts, or distinct dyadic and ternary recursions.",
+    "Declare nearest-integer half-ties and the corresponding residual interval consistently; the half-open cell ownership rule is a separate operation.",
+    "The detail-product identity needs explicit hypotheses on E beyond Q=I-E; retain the product of finite differences.",
+    "M19 contains mixed extension branches and is not a premise of M20 core closure. Reconstruct prerequisites from module requires, with the documented audit corrections.",
+    "Preserve mature-source claims and accepted integration dispositions separately. In the integration only compiler M03, M07, M08 have direct authority; these compiler labels are not automatically the mathematical-backbone module labels. Preserve the admitted global-form family Z1,Z2,Z3,Z6 and source-local uniqueness claims with explicit contracts.",
+    "Treat matching dimensions or graph labels as neither an intertwiner nor a proof. A missing proof body remains a source-reported status with a retrieval gap.",
+    "Physical CMB velocity is distinct from phase-transformed vectors; the testbench admitted speed is 369812.50200040644 m/s. The Galactic Center is a visual gauge; do not invent Solar or Galactic short-window dynamics.",
+    "A photon-equivalent model energy is not measured transferred energy, and phase is not force. Preserve signed events and the three independent plane-cost levels in the fourteen-row 2026-08-26 bundle.",
+    "Cell3 and galaxy-derived cells have separately typed units, metrics, handedness, scales, and normals. Recurrence is an explanatory target, not permission to merge definitions.",
+    "Every residual remains a primary coordinate. Transformations are reversible or accompanied by all removed components and reconstruction rules; no outlier deletion or significance-based erasure.",
+    "Use tf_gpu_env through C:/ProgramData/anaconda3/Scripts/conda.exe run -n tf_gpu_env python. No package changes without approval."
+  ],
+  "subject_kernel": {
+    "objects_and_operations": [
+      {
+        "concept_id": "C11.01",
+        "concept": "From nodes to a graph",
+        "operation": "Define the path-product graph and count its edges"
+      },
+      {
+        "concept_id": "C11.02",
+        "concept": "Walking, connectivity, and incidence",
+        "operation": "Build a small oriented incidence matrix"
+      },
+      {
+        "concept_id": "C11.03",
+        "concept": "Cuts and cycles",
+        "operation": "Verify a cycle and distinguish it from a node field"
+      },
+      {
+        "concept_id": "C11.04",
+        "concept": "The 26 and 28 dimensions",
+        "operation": "Derive the open Lucas graph cut and cycle counts"
+      },
+      {
+        "concept_id": "C11.05",
+        "concept": "Adding periodic wrap edges",
+        "operation": "Separate local cycles, wrap coordinates, and global windings"
+      },
+      {
+        "concept_id": "C11.06",
+        "concept": "Memory needs a specified state",
+        "operation": "Explain the information represented by a cycle coordinate"
+      }
+    ],
+    "source_modules": [
+      "M08"
+    ],
+    "scope": "Construct a smaller graph by hand, verify its cycle count, and use the same reasoning to audit the Lucas graph counts.",
+    "common_failure_modes": [
+      "Untaught prerequisite",
+      "Unscoped symbol or unit",
+      "An illustrative example presented as real evidence",
+      "A source label promoted beyond its evidence class",
+      "A residual or source branch silently omitted"
+    ]
+  },
+  "invariants": [
+    "Preserve empirical observations, derived implications, inferred structure, mechanisms, reference theory, and unresolved questions as distinct layers.",
+    "Read-only sources: no source-data copies, database exports, reindexing, or large arrays. Persist only authored course artifacts, compact provenance, audits, and small clearly synthetic examples.",
+    "Cell3 uses ICRS columns [a b c], an intentional negative determinant, and half-open cells [-1/2,1/2)^3. Use x-O_K in affine reciprocal identities.",
+    "Use the mature locked geometry and exact source provenance. Historical and corrected numerical branches remain separately labeled; do not silently mix their constants.",
+    "Use M_cell=B^T B and R_cell=M_cell^-1; distinguish G_phase, G_eff, reciprocal bases, distance Q, Q_g, and Q_nu.",
+    "Gauge-carrier tuples use color-first C_3 direct-sum W_2. A weak-first view needs an explicit permutation.",
+    "Do not merge detector parity, A1 carry parity, projective signs, chirality, family labels, primitive lifts, or distinct dyadic and ternary recursions.",
+    "Declare nearest-integer half-ties and the corresponding residual interval consistently; the half-open cell ownership rule is a separate operation.",
+    "The detail-product identity needs explicit hypotheses on E beyond Q=I-E; retain the product of finite differences.",
+    "M19 contains mixed extension branches and is not a premise of M20 core closure. Reconstruct prerequisites from module requires, with the documented audit corrections.",
+    "Preserve mature-source claims and accepted integration dispositions separately. In the integration only compiler M03, M07, M08 have direct authority; these compiler labels are not automatically the mathematical-backbone module labels. Preserve the admitted global-form family Z1,Z2,Z3,Z6 and source-local uniqueness claims with explicit contracts.",
+    "Treat matching dimensions or graph labels as neither an intertwiner nor a proof. A missing proof body remains a source-reported status with a retrieval gap.",
+    "Physical CMB velocity is distinct from phase-transformed vectors; the testbench admitted speed is 369812.50200040644 m/s. The Galactic Center is a visual gauge; do not invent Solar or Galactic short-window dynamics.",
+    "A photon-equivalent model energy is not measured transferred energy, and phase is not force. Preserve signed events and the three independent plane-cost levels in the fourteen-row 2026-08-26 bundle.",
+    "Cell3 and galaxy-derived cells have separately typed units, metrics, handedness, scales, and normals. Recurrence is an explanatory target, not permission to merge definitions.",
+    "Every residual remains a primary coordinate. Transformations are reversible or accompanied by all removed components and reconstruction rules; no outlier deletion or significance-based erasure.",
+    "Use tf_gpu_env through C:/ProgramData/anaconda3/Scripts/conda.exe run -n tf_gpu_env python. No package changes without approval."
+  ],
+  "notation_registry": {
+    "M_cell": "Cell3 Gram metric",
+    "R_cell": "inverse Cell3 Gram metric",
+    "G_phase": "distinct phase metric",
+    "O_K": "declared physical origin",
+    "B": "source-locked ordered basis; source-local row/column distinctions must be explicit"
+  },
+  "coverage_matrix": [
+    {
+      "concept_id": "C11.01",
+      "concept": "From nodes to a graph",
+      "introduction": "lesson-01",
+      "practice": "C11.01-P1",
+      "assessment": "C11.01-D1",
+      "later_use": "lesson-02",
+      "worked_example": "C11.01-W1",
+      "all_required_teaching_item_ids": [
+        "C11.01-E1",
+        "C11.01-W1",
+        "C11.01-P1",
+        "C11.01-D1"
+      ]
+    },
+    {
+      "concept_id": "C11.02",
+      "concept": "Walking, connectivity, and incidence",
+      "introduction": "lesson-02",
+      "practice": "C11.02-P1",
+      "assessment": "C11.02-D1",
+      "later_use": "lesson-03",
+      "worked_example": "C11.02-W1",
+      "all_required_teaching_item_ids": [
+        "C11.02-E1",
+        "C11.02-W1",
+        "C11.02-P1",
+        "C11.02-D1"
+      ]
+    },
+    {
+      "concept_id": "C11.03",
+      "concept": "Cuts and cycles",
+      "introduction": "lesson-03",
+      "practice": "C11.03-P1",
+      "assessment": "C11.03-D1",
+      "later_use": "lesson-04",
+      "worked_example": "C11.03-W1",
+      "all_required_teaching_item_ids": [
+        "C11.03-E1",
+        "C11.03-W1",
+        "C11.03-P1",
+        "C11.03-D1"
+      ]
+    },
+    {
+      "concept_id": "C11.04",
+      "concept": "The 26 and 28 dimensions",
+      "introduction": "lesson-04",
+      "practice": "C11.04-P1",
+      "assessment": "C11.04-D1",
+      "later_use": "lesson-05",
+      "worked_example": "C11.04-W1",
+      "all_required_teaching_item_ids": [
+        "C11.04-E1",
+        "C11.04-W1",
+        "C11.04-P1",
+        "C11.04-D1"
+      ]
+    },
+    {
+      "concept_id": "C11.05",
+      "concept": "Adding periodic wrap edges",
+      "introduction": "lesson-05",
+      "practice": "C11.05-P1",
+      "assessment": "C11.05-D1",
+      "later_use": "lesson-06",
+      "worked_example": "C11.05-W1",
+      "all_required_teaching_item_ids": [
+        "C11.05-E1",
+        "C11.05-W1",
+        "C11.05-P1",
+        "C11.05-D1"
+      ]
+    },
+    {
+      "concept_id": "C11.06",
+      "concept": "Memory needs a specified state",
+      "introduction": "lesson-06",
+      "practice": "C11.06-P1",
+      "assessment": "C11.06-D1",
+      "later_use": "capstone",
+      "worked_example": "C11.06-W1",
+      "all_required_teaching_item_ids": [
+        "C11.06-E1",
+        "C11.06-W1",
+        "C11.06-P1",
+        "C11.06-D1"
+      ]
+    }
+  ],
+  "course_map": [
+    {
+      "id": "lesson-01",
+      "title": "From nodes to a graph",
+      "entry_prerequisites": [
+        "course-05",
+        "course-10"
+      ],
+      "concept_ids": [
+        "C11.01"
+      ],
+      "worked_example_capability": "Define the path-product graph and count its edges",
+      "assessment_target": "Define the path-product graph and count its edges",
+      "later_use": "lesson-02",
+      "core_minutes": 55,
+      "teaching_anchor": {
+        "lesson_id": "lesson-01",
+        "concept_id": "C11.01",
+        "explanation_id": "C11.01-E1",
+        "bridge_to_teach": "Define vertices, undirected edges, paths, adjacency and Cartesian product by one-coordinate steps. Draw P2 square P2 and P3 square P2 before P3 cubed; open boundaries have no wrap edges.",
+        "worked_example": {
+          "id": "C11.01-W1",
+          "task_and_answer": "A 2x2 square has4 nodes,4 edges. A 3x2 rectangle has6 nodes,7 edges:2*2 horizontal+1*3 vertical. In P3 cubed each of3 axes contributes2*3*3=18 edges; total54 and27 nodes."
+        },
+        "guided_practice": {
+          "id": "C11.01-P1",
+          "task_and_answer": "A 3x3 open square has9 nodes,12 edges:2*3 per axis. Extend the same counting to3x3x3 and recover27 nodes,54 edges. A corner has3 neighbors, an edge-center4, face-center5, center6."
+        },
+        "diagnostic": {
+          "id": "C11.01-D1",
+          "task_and_answer": "Moving from coordinate0 directly to2 is not an open edge. Vertex labels or equal node counts alone do not specify an adjacency operator."
+        },
+        "planned_periods": 1,
+        "minutes_per_period": 55,
+        "teaching_allocation_per_period": {
+          "retrieval": 5,
+          "explanation_and_worked_example": 20,
+          "guided_practice": 15,
+          "independent_diagnostics_and_repair": 15
+        },
+        "production_requirement": "Expand into actual student-facing explanations, 2–4 observable goals and 3–5 answered diagnostics. Every assessed suboperation needs an independently answered practice item. Keep original lesson IDs; if splitting files, retain parent IDs and update every map. Additional periods are permitted.",
+        "original_title": "From nodes to a graph",
+        "original_assessment_target": "Define the path-product graph and count its edges",
+        "required_source_amendment_ids": [],
+        "original_entry_prerequisites": [
+          "course-05",
+          "course-10"
+        ]
+      }
+    },
+    {
+      "id": "lesson-02",
+      "title": "Walking, connectivity, and incidence",
+      "entry_prerequisites": [
+        "lesson-01"
+      ],
+      "concept_ids": [
+        "C11.02"
+      ],
+      "worked_example_capability": "Build a small oriented incidence matrix",
+      "assessment_target": "Build a small oriented incidence matrix",
+      "later_use": "lesson-03",
+      "core_minutes": 110,
+      "teaching_anchor": {
+        "lesson_id": "lesson-02",
+        "concept_id": "C11.02",
+        "explanation_id": "C11.02-E1",
+        "bridge_to_teach": "Choose edge orientations as bookkeeping and define incidence D with -1 at tail,+1 at head. Teach rank by elementary elimination on a small matrix; each column sums0. Node fields, oriented edge fields and node divergences are differently sized objects.",
+        "worked_example": {
+          "id": "C11.02-W1",
+          "task_and_answer": "Triangle nodes0,1,2 and ordered edges01,12,20 give D=[[-1,0,1],[1,-1,0],[0,1,-1]]. Column3=-column1-column2, first two independent, rank2. f=(2,3,4) gives Df=(2,-1,-1), total0."
+        },
+        "guided_practice": {
+          "id": "C11.02-P1",
+          "task_and_answer": "Square ordered edges01,12,23,30 has incidence columns (-1,1,0,0),(0,-1,1,0),(0,0,-1,1),(1,0,0,-1). Last is minus first three; rank3. f=(2,3,4,5) gives(3,-1,-1,-1)."
+        },
+        "diagnostic": {
+          "id": "C11.02-D1",
+          "task_and_answer": "Reversing edge01 reverses its column and its flow coordinate; the represented divergence stays unchanged. D maps edge flows to node divergences; D^T maps node potentials to edge differences."
+        },
+        "planned_periods": 2,
+        "minutes_per_period": 55,
+        "teaching_allocation_per_period": {
+          "retrieval": 5,
+          "explanation_and_worked_example": 20,
+          "guided_practice": 15,
+          "independent_diagnostics_and_repair": 15
+        },
+        "production_requirement": "Expand into actual student-facing explanations, 2–4 observable goals and 3–5 answered diagnostics. Every assessed suboperation needs an independently answered practice item. Keep original lesson IDs; if splitting files, retain parent IDs and update every map. Additional periods are permitted.",
+        "original_title": "Walking, connectivity, and incidence",
+        "original_assessment_target": "Build a small oriented incidence matrix",
+        "required_source_amendment_ids": [],
+        "original_entry_prerequisites": [
+          "lesson-01"
+        ]
+      }
+    },
+    {
+      "id": "lesson-03",
+      "title": "Cuts and cycles",
+      "entry_prerequisites": [
+        "lesson-02"
+      ],
+      "concept_ids": [
+        "C11.03"
+      ],
+      "worked_example_capability": "Verify a cycle and distinguish it from a node field",
+      "assessment_target": "Verify a cycle and distinguish it from a node field",
+      "later_use": "lesson-04",
+      "core_minutes": 110,
+      "teaching_anchor": {
+        "lesson_id": "lesson-03",
+        "concept_id": "C11.03",
+        "explanation_id": "C11.03-E1",
+        "bridge_to_teach": "Teach spanning tree, chord, fundamental cycle and cut/gradient on small graphs. A cycle has Df=0; verify rather than infer it from a drawing. Explain independence through a unique nonzero chord coordinate.",
+        "worked_example": {
+          "id": "C11.03-W1",
+          "task_and_answer": "Triangle tree edges01,12 and chord20 give c=(1,1,1), Dc=0. Node potential(2,5,7) gives gradient D^T phi=(3,2,-5); its dot with c is0. A tree has no nonzero circulation by leaf elimination."
+        },
+        "guided_practice": {
+          "id": "C11.03-P1",
+          "task_and_answer": "Square tree01,12,23 and chord30 give c=(1,1,1,1), Dc=0. Potential(0,1,3,2) gives(1,2,-1,-2), dot c=0. Circulation3c=(3,3,3,3) is decoded by the chord coefficient3."
+        },
+        "diagnostic": {
+          "id": "C11.03-D1",
+          "task_and_answer": "A node potential has4 entries on the square and an edge circulation also happens to have4; equal length does not make them the same object. A general edge flow need not be a cycle."
+        },
+        "planned_periods": 2,
+        "minutes_per_period": 55,
+        "teaching_allocation_per_period": {
+          "retrieval": 5,
+          "explanation_and_worked_example": 20,
+          "guided_practice": 15,
+          "independent_diagnostics_and_repair": 15
+        },
+        "production_requirement": "Expand into actual student-facing explanations, 2–4 observable goals and 3–5 answered diagnostics. Every assessed suboperation needs an independently answered practice item. Keep original lesson IDs; if splitting files, retain parent IDs and update every map. Additional periods are permitted.",
+        "original_title": "Cuts and cycles",
+        "original_assessment_target": "Verify a cycle and distinguish it from a node field",
+        "required_source_amendment_ids": [],
+        "original_entry_prerequisites": [
+          "lesson-02"
+        ]
+      }
+    },
+    {
+      "id": "lesson-04",
+      "title": "The 26 and 28 dimensions",
+      "entry_prerequisites": [
+        "lesson-03"
+      ],
+      "concept_ids": [
+        "C11.04"
+      ],
+      "worked_example_capability": "Derive the open Lucas graph cut and cycle counts",
+      "assessment_target": "Derive the open Lucas graph cut and cycle counts",
+      "later_use": "lesson-05",
+      "core_minutes": 55,
+      "teaching_anchor": {
+        "lesson_id": "lesson-04",
+        "concept_id": "C11.04",
+        "explanation_id": "C11.04-E1",
+        "bridge_to_teach": "Derive rank V-1 using a connected spanning tree and leaf elimination, and cycle dimension E-V+1 using one fundamental cycle per chord. Work 3x2 before Lucas; specify an actual reproducible tree for the source graph.",
+        "worked_example": {
+          "id": "C11.04-W1",
+          "task_and_answer": "The3x2 rectangle has6 nodes,7 edges,tree5,rank5 and2 cycles. For Lucas27 nodes,tree26,rank26 and54-26=28 cycles. Root at(0,0,0); each nonroot vertex attaches to the vertex obtained by decrementing its first nonzero coordinate."
+        },
+        "guided_practice": {
+          "id": "C11.04-P1",
+          "task_and_answer": "The3x3 open square has9 nodes,12 edges,tree8,rank8 and4 independent chord cycles. Apply the identical leaf/chord argument to Lucas to obtain26 cut coordinates and28 cycle coordinates; retain the tree and orientations."
+        },
+        "diagnostic": {
+          "id": "C11.04-D1",
+          "task_and_answer": "A count alone does not supply the28 values. Give every chord cycle coefficient1 on its own chord and signed tree-path entries closing it. Chord restriction is the identity, proving independence and allowing exact coefficient recovery."
+        },
+        "planned_periods": 1,
+        "minutes_per_period": 55,
+        "teaching_allocation_per_period": {
+          "retrieval": 5,
+          "explanation_and_worked_example": 20,
+          "guided_practice": 15,
+          "independent_diagnostics_and_repair": 15
+        },
+        "production_requirement": "Expand into actual student-facing explanations, 2–4 observable goals and 3–5 answered diagnostics. Every assessed suboperation needs an independently answered practice item. Keep original lesson IDs; if splitting files, retain parent IDs and update every map. Additional periods are permitted.",
+        "original_title": "The 26 and 28 dimensions",
+        "original_assessment_target": "Derive the open Lucas graph cut and cycle counts",
+        "required_source_amendment_ids": [],
+        "original_entry_prerequisites": [
+          "lesson-03"
+        ]
+      }
+    },
+    {
+      "id": "lesson-05",
+      "title": "Adding periodic wrap edges",
+      "entry_prerequisites": [
+        "lesson-04"
+      ],
+      "concept_ids": [
+        "C11.05"
+      ],
+      "worked_example_capability": "Separate local cycles, wrap coordinates, and global windings",
+      "assessment_target": "Separate local cycles, wrap coordinates, and global windings",
+      "later_use": "lesson-06",
+      "core_minutes": 110,
+      "teaching_anchor": {
+        "lesson_id": "lesson-05",
+        "concept_id": "C11.05",
+        "explanation_id": "C11.05-E1",
+        "bridge_to_teach": "Add one oriented wrap edge2->0 on each axis line. With the SAME open spanning tree, the new27 chords yield27 new fundamental cycles. For each axis use nine wrap coefficients w_j, winding W=sum w_j, mean W/9 and details d_j=w_j-W/9. Choose first eight details; ninth is minus their sum.",
+        "worked_example": {
+          "id": "C11.05-W1",
+          "task_and_answer": "Open54+27=81 edges; rank26 unchanged,cycles55. For one axis w=(1,2,3,4,5,6,7,8,9), W=45, mean5, details=(-4,-3,-2,-1,0,1,2,3,4). Reconstruct w_j=W/9+d_j. Three axes give24 independent zero-sum details+3 winding coordinates, plus28 open cycles."
+        },
+        "guided_practice": {
+          "id": "C11.05-P1",
+          "task_and_answer": "For one axis w=(0,0,0,0,0,0,0,0,9), W=9, mean1, details=(-1,-1,-1,-1,-1,-1,-1,-1,8). Retain first8 and W; recover ninth and every w. Use zero lists for other axes; reconstruct the circulation as the sum of these coefficients times the declared fundamental cycles."
+        },
+        "diagnostic": {
+          "id": "C11.05-D1",
+          "task_and_answer": "The mean and winding sum differ by9. Details may be rational even for integer w; integral data require the matching lattice constraint, so do not claim a free integer direct product in mean coordinates. A different tree changes coordinates, not the represented circulation."
+        },
+        "planned_periods": 2,
+        "minutes_per_period": 55,
+        "teaching_allocation_per_period": {
+          "retrieval": 5,
+          "explanation_and_worked_example": 20,
+          "guided_practice": 15,
+          "independent_diagnostics_and_repair": 15
+        },
+        "production_requirement": "Expand into actual student-facing explanations, 2–4 observable goals and 3–5 answered diagnostics. Every assessed suboperation needs an independently answered practice item. Keep original lesson IDs; if splitting files, retain parent IDs and update every map. Additional periods are permitted.",
+        "original_title": "Adding periodic wrap edges",
+        "original_assessment_target": "Separate local cycles, wrap coordinates, and global windings",
+        "required_source_amendment_ids": [],
+        "original_entry_prerequisites": [
+          "lesson-04"
+        ]
+      }
+    },
+    {
+      "id": "lesson-06",
+      "title": "Memory needs a specified state",
+      "entry_prerequisites": [
+        "lesson-05"
+      ],
+      "concept_ids": [
+        "C11.06"
+      ],
+      "worked_example_capability": "Explain the information represented by a cycle coordinate",
+      "assessment_target": "Explain the information represented by a cycle coordinate",
+      "later_use": "capstone",
+      "core_minutes": 55,
+      "teaching_anchor": {
+        "lesson_id": "lesson-06",
+        "concept_id": "C11.06",
+        "explanation_id": "C11.06-E1",
+        "bridge_to_teach": "Define memory as a specified retained state, basis, orientation and decoder. A cycle-space dimension is capacity, not a dynamical storage law. For a general flow retain the noncycle/tree remainder as well as chord coefficients; only a verified circulation needs no remainder.",
+        "worked_example": {
+          "id": "C11.06-W1",
+          "task_and_answer": "Triangle f=(2,3,4), chord q=4, c=(1,1,1): remainder f-qc=(-2,-1,0), so f=4c+remainder. Divergence of remainder equals Df=(2,-1,-1). Do not erase it while calling q the complete flow."
+        },
+        "guided_practice": {
+          "id": "C11.06-P1",
+          "task_and_answer": "Square f=(2,3,4,5), q=5 and c=(1,1,1,1): remainder=(-3,-2,-1,0), f=5c+remainder, divergence=(3,-1,-1,-1). For verified flow3c the remainder is0 and q=3 reconstructs everything."
+        },
+        "diagnostic": {
+          "id": "C11.06-D1",
+          "task_and_answer": "Changing q through time requires an explicit update rule and data. Counts28,55 or52 alone provide neither a measured memory duration nor an exceptional-group action. Retain the28 open coefficients,24 wrap details,3 windings and any noncycle remainder for the chosen finite state."
+        },
+        "planned_periods": 1,
+        "minutes_per_period": 55,
+        "teaching_allocation_per_period": {
+          "retrieval": 5,
+          "explanation_and_worked_example": 20,
+          "guided_practice": 15,
+          "independent_diagnostics_and_repair": 15
+        },
+        "production_requirement": "Expand into actual student-facing explanations, 2–4 observable goals and 3–5 answered diagnostics. Every assessed suboperation needs an independently answered practice item. Keep original lesson IDs; if splitting files, retain parent IDs and update every map. Additional periods are permitted.",
+        "original_title": "Memory needs a specified state",
+        "original_assessment_target": "Explain the information represented by a cycle coordinate",
+        "required_source_amendment_ids": [],
+        "original_entry_prerequisites": [
+          "lesson-05"
+        ]
+      }
+    }
+  ],
+  "capstone_specification": {
+    "task": "Construct a smaller graph by hand, verify its cycle count, and use the same reasoning to audit the Lucas graph counts.",
+    "required_operations": [
+      "Draw the open3x2 graph and verify its6 nodes/7 edges; audit the27-node/54-edge Lucas count.",
+      "Build the ordered square incidence matrix; compute divergence of(2,3,4,5) and show its rank3 by dependent/independent columns.",
+      "Identify square spanning tree/chord, verify its cycle and gradient orthogonality; record cycle orientation and coefficient decoder.",
+      "Use the tree/chord argument to audit rank26/cycles28; specify the reproducible Lucas tree and why chord-cycle columns are independent.",
+      "Audit periodic81 edges/55 cycles; decode the supplied nine-entry wrap list into W,8 free details and ninth dependent detail, then reconstruct all coefficients in the declared cycle basis.",
+      "Reconstruct the square general flow from q=5 and retained tree remainder; distinguish circulation coordinates from a full flow and state why dimension counts do not specify dynamics."
+    ],
+    "rule": "Map every capstone operation to a prior introduction and practice; provide full answers, point rubric, source scope, and residual accounting.",
+    "backward_map": [
+      {
+        "step_id": "C11-CAP-01",
+        "operation": "Draw the open3x2 graph and verify its6 nodes/7 edges; audit the27-node/54-edge Lucas count.",
+        "introduction": "lesson-01",
+        "explanation_id": "C11.01-E1",
+        "worked_example_id": "C11.01-W1",
+        "prior_practice_id": "C11.01-P1",
+        "diagnostic_id": "C11.01-D1"
+      },
+      {
+        "step_id": "C11-CAP-02",
+        "operation": "Build the ordered square incidence matrix; compute divergence of(2,3,4,5) and show its rank3 by dependent/independent columns.",
+        "introduction": "lesson-02",
+        "explanation_id": "C11.02-E1",
+        "worked_example_id": "C11.02-W1",
+        "prior_practice_id": "C11.02-P1",
+        "diagnostic_id": "C11.02-D1"
+      },
+      {
+        "step_id": "C11-CAP-03",
+        "operation": "Identify square spanning tree/chord, verify its cycle and gradient orthogonality; record cycle orientation and coefficient decoder.",
+        "introduction": "lesson-03",
+        "explanation_id": "C11.03-E1",
+        "worked_example_id": "C11.03-W1",
+        "prior_practice_id": "C11.03-P1",
+        "diagnostic_id": "C11.03-D1"
+      },
+      {
+        "step_id": "C11-CAP-04",
+        "operation": "Use the tree/chord argument to audit rank26/cycles28; specify the reproducible Lucas tree and why chord-cycle columns are independent.",
+        "introduction": "lesson-04",
+        "explanation_id": "C11.04-E1",
+        "worked_example_id": "C11.04-W1",
+        "prior_practice_id": "C11.04-P1",
+        "diagnostic_id": "C11.04-D1"
+      },
+      {
+        "step_id": "C11-CAP-05",
+        "operation": "Audit periodic81 edges/55 cycles; decode the supplied nine-entry wrap list into W,8 free details and ninth dependent detail, then reconstruct all coefficients in the declared cycle basis.",
+        "introduction": "lesson-05",
+        "explanation_id": "C11.05-E1",
+        "worked_example_id": "C11.05-W1",
+        "prior_practice_id": "C11.05-P1",
+        "diagnostic_id": "C11.05-D1"
+      },
+      {
+        "step_id": "C11-CAP-06",
+        "operation": "Reconstruct the square general flow from q=5 and retained tree remainder; distinguish circulation coordinates from a full flow and state why dimension counts do not specify dynamics.",
+        "introduction": "lesson-06",
+        "explanation_id": "C11.06-E1",
+        "worked_example_id": "C11.06-W1",
+        "prior_practice_id": "C11.06-P1",
+        "diagnostic_id": "C11.06-D1"
+      }
+    ]
+  },
+  "blueprint_audit": {
+    "status": "approved_source_and_prerequisite_blueprint",
+    "unresolved_critical": 0,
+    "unresolved_major": 0,
+    "source_review": {
+      "status": "ready_for_source_scoped_drafting",
+      "basis": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\source-coverage\\source-coverage-audit.json",
+      "source_report_sha256": "eef89a28971ef7e5380977c31b62ed6d64f2831759e679ee967b6c253a33c04a",
+      "portable_requirements_applied": true,
+      "educational_acceptance": "Independent teaching review and actual E05 content gate remain required.",
+      "applied_at": "2026-11-05T17:02:05.375955+00:00"
+    },
+    "teaching_review_path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\teaching\\launch-review-10-12.json",
+    "teaching_amendment_sha256": "4c49b9653c5fbfbbe7b0afac029b2552904b409ba49b5b329e97cd95437813db",
+    "review_scope": "Blueprint clearance only. Actual lesson content and E05 links require independent final acceptance.",
+    "applied_at": "2026-11-05T18:01:47.416304+00:00"
+  },
+  "validator": {
+    "skill_relative_path": "scripts/validate_course.py",
+    "required_command": "& 'C:\\ProgramData\\anaconda3\\Scripts\\conda.exe' run -n tf_gpu_env python 'C:\\Users\\info\\.codex\\skills\\build-high-school-course\\scripts\\validate_course.py' 'Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-11-lucas-graphs-edges-cycles-and-memory' --json"
+  },
+  "storage_override": {
+    "authority": "User: write outputs to the project folder and move them later",
+    "original_root": "C:\\Users\\info\\Desktop\\K-Field_Training_Course",
+    "canonical_project_root": "Z:\\Kfield-doc-training\\K-Field_Training_Course"
+  },
+  "production_requirements": {
+    "E05": [
+      "Replace generic coverage placeholders with actual explanation, worked-example, practice, diagnostic, and capstone step IDs. A row passes only when the referenced content exists and the operation is taught before use.",
+      "For each capstone break the requested product into concrete operations with named inputs/outputs, link each operation to an earlier explanation AND an independently answered practice item; do not merely repeat outcome text.",
+      "Use source-exact finite examples where available and separately labeled synthetic analogues otherwise. Recognition-only extensions cannot be required computations.",
+      "Record teaching/practice/check minutes per lesson; split overloaded lessons and update every lesson/coverage/capstone link. Shared advanced notation is author guidance until introduced locally."
+    ]
+  },
+  "applied_audit_amendments": {},
+  "source_audit_readiness": {
+    "status": "ready_for_source_scoped_drafting",
+    "basis": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\source-coverage\\source-coverage-audit.json",
+    "source_report_sha256": "eef89a28971ef7e5380977c31b62ed6d64f2831759e679ee967b6c253a33c04a",
+    "portable_requirements_applied": true,
+    "educational_acceptance": "Independent teaching review and actual E05 content gate remain required.",
+    "applied_at": "2026-11-05T17:02:05.375955+00:00"
+  },
+  "teaching_blueprint_contract": {
+    "schema_version": "1.0",
+    "created_utc": "2026-11-05T17:59:06.968923+00:00",
+    "scope": "Portable teaching BLUEPRINT amendments only; no completed-course approval.",
+    "source_basis": [
+      {
+        "id": "S01",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+        "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+        "role": "archival source; reported status is distinct from fresh verification"
+      },
+      {
+        "id": "S02",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+        "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+        "role": "archival source; reported status is distinct from fresh verification"
+      },
+      {
+        "id": "S03",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+        "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+        "role": "archival source; reported status is distinct from fresh verification"
+      },
+      {
+        "id": "S04",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+        "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+        "role": "archival source; reported status is distinct from fresh verification"
+      },
+      {
+        "id": "S05",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+        "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+        "role": "archival source; reported status is distinct from fresh verification"
+      }
+    ],
+    "source_scope": {
+      "course10": {
+        "primary": "S02#/backbone_sequence/6",
+        "supplemental": [
+          "S02#/scale_uniqueness_theorem",
+          "S02#/backbone_sequence/18/branches/gravity_scalar_lift"
+        ],
+        "exact_source_definitions": [
+          "y=(ln A_ab,ln A_ac,ln A_bc)^T",
+          "P_H=I-(1/3)11^T",
+          "e_s=(1,1,1)/sqrt(3)",
+          "e_u=(-1,1,0)/sqrt(2)",
+          "e_v=(-1,-1,2)/sqrt(6)",
+          "y=s e_s+u e_u+v e_v"
+        ],
+        "Jack_inverse": [
+          "x_a=(dG-2dA+3dE)/12",
+          "x_b=(dG-14dA+3dE)/12",
+          "x_c=(dG-2dA+15dE)/12"
+        ],
+        "typed_Devon_object": "The typed reduced object containing direct metric, cofactors, reciprocal metric, common scale, A2 shape fiber, scalar lift, branch modes, and their invertible maps; its components are not collapsed into one untyped vector.",
+        "area_tangent_to_scalar": "dln Gamma2=9dln A_ab+8dln A_ac-11dln A_bc from explicitly named M19 branch; it yields row(17,-2,-3) under fixed-angle edge scaling. This does not certify other M19 branches or assert dynamics.",
+        "scope_guard": "SA-10 replaces dimensional log shorthand by ln(A/A0). All logs use positive quantities. Two shape coordinates describe three area ratios modulo common scale; arbitrary edge-angle shear requires further coordinates. J is a tangent map; finite exact classroom maps are separately declared."
+      },
+      "course11": {
+        "primary": "S02#/backbone_sequence/7",
+        "supplemental": "S02#/backbone_sequence/18/branches/exceptional_cycle_bridge",
+        "coordinate_choice": "Open vertices lexicographic in{0,1,2}^3. Open edges oriented increasing coordinate, axes0,1,2 then lexicographic tails. Root0; parent decrements first nonzero coordinate. Each non-tree edge is a chord, cycle=+1 on that chord plus signed tree path head-to-tail. Wrap edges point2->0; ordered by axis and lexicographic tail. Wrap winding W_axis=sum9 chord coefficients; mean=W/9; first8 zero-sum details free, ninth=-sum8. Circulation reconstructed by fundamental-cycle sum; a general flow additionally retains its tree remainder.",
+        "integer_guard": "This is a real/rational coordinate decomposition. For integer coefficients, mean/detail coordinates obey compatibility constraints; no unsupported integral direct-product claim.",
+        "dynamics_guard": "The52=28+24 and55=52+3 counts are finite coordinate counts; no F4 action, force, memory lifetime or dynamics is derived."
+      },
+      "course12": {
+        "primary": "S02#/backbone_sequence/7",
+        "supplemental": [
+          "S02#/backbone_sequence/2/sheet_populations",
+          "S02#/backbone_sequence/16"
+        ],
+        "operator": "Open unweighted Cartesian-product adjacency on lexicographic triples; P3 node order(-1,0,1). Orthonormal modes ordered(+,0,-).",
+        "source_amendment_preservation": "Retain SA-12 and EA-12-E06-1 verbatim including legacy exercise IDs. Function parity14even/13odd becomes13+13 centered coordinate count only with retained mean. Node chi13+/14-,13 antipodal pairs,13 decoder channels,7 syndrome dimensions,7 sheet populations and7 distinct Emily eigenvalues remain different objects. M17 channel matrix is independently checked as13x6 rank6, but its full decoder is recognition-only in this course.",
+        "uniform_guard": "A1=degree vector is not constant. The constant line is not adjacency invariant; quotienting constants does not induce open adjacency, nor delete one Emily eigenmode. If a builder adds a projected operator, it must explicitly define Q A Q on im Q and check its own spectrum; it cannot inherit the Emily list. The recommended core introduces no projected operator.",
+        "identity_guard": "Every spectral identity names both operators and map and verifies B T=T A. Count agreement alone is insufficient."
+      },
+      "audit_correction_context": {
+        "source": "S03#/findings/1",
+        "finding": "AUD-002",
+        "scope": "The source flags serialization/DAG incompleteness including M07/M08 expansions. This review uses explicit mature formula bodies and finite fresh computations; it does not certify global formula-DAG repair or source closure."
+      }
+    },
+    "verification_record": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-teaching-auditor\\outputs\\teaching-verification-10-12.json",
+    "verification_sha256": "070e7e0fab6385a25b2e7a8ab39bf2d7a41069b9fad037f966deb84d9bafaca9",
+    "source_or_project_files_modified": false,
+    "course_amendment": {
+      "course_id": "course-11",
+      "input_contract_path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-11-lucas-graphs-edges-cycles-and-memory\\input-contract.json",
+      "input_contract_sha256": "a1389bcfecd82cd5e83626b27438fd38fb2e5192d809cc46484ab9d8a535b5b2",
+      "application": "Merge additively as teaching_amendment. Replace generic coverage references with explicit IDs. Preserve all original course_map IDs, concepts, source requirements, applied amendments and supplemental exercises. Parent applies; no project edits made.",
+      "applied_source_amendments_read": {},
+      "original_subject_kernel": {
+        "objects_and_operations": [
+          {
+            "concept_id": "C11.01",
+            "concept": "From nodes to a graph",
+            "operation": "Define the path-product graph and count its edges"
+          },
+          {
+            "concept_id": "C11.02",
+            "concept": "Walking, connectivity, and incidence",
+            "operation": "Build a small oriented incidence matrix"
+          },
+          {
+            "concept_id": "C11.03",
+            "concept": "Cuts and cycles",
+            "operation": "Verify a cycle and distinguish it from a node field"
+          },
+          {
+            "concept_id": "C11.04",
+            "concept": "The 26 and 28 dimensions",
+            "operation": "Derive the open Lucas graph cut and cycle counts"
+          },
+          {
+            "concept_id": "C11.05",
+            "concept": "Adding periodic wrap edges",
+            "operation": "Separate local cycles, wrap coordinates, and global windings"
+          },
+          {
+            "concept_id": "C11.06",
+            "concept": "Memory needs a specified state",
+            "operation": "Explain the information represented by a cycle coordinate"
+          }
+        ],
+        "source_modules": [
+          "M08"
+        ],
+        "scope": "Construct a smaller graph by hand, verify its cycle count, and use the same reasoning to audit the Lucas graph counts.",
+        "common_failure_modes": [
+          "Untaught prerequisite",
+          "Unscoped symbol or unit",
+          "An illustrative example presented as real evidence",
+          "A source label promoted beyond its evidence class",
+          "A residual or source branch silently omitted"
+        ]
+      },
+      "original_capstone_specification": {
+        "task": "Construct a smaller graph by hand, verify its cycle count, and use the same reasoning to audit the Lucas graph counts.",
+        "required_operations": [
+          "Define the path-product graph and count its edges",
+          "Build a small oriented incidence matrix",
+          "Verify a cycle and distinguish it from a node field",
+          "Derive the open Lucas graph cut and cycle counts",
+          "Separate local cycles, wrap coordinates, and global windings",
+          "Explain the information represented by a cycle coordinate"
+        ],
+        "rule": "Map every capstone operation to a prior introduction and practice; provide full answers, point rubric, source scope, and residual accounting."
+      },
+      "source_coverage_review_rows": [
+        {
+          "course_id": "course-11",
+          "title": "Lucas Graphs: Edges, Cycles, and Memory",
+          "backbone_modules": [
+            "M08"
+          ],
+          "topic_boundary": "Open product graph, cuts/cycles, 27 wrap coordinates and three windings; cycle variables are specified states.",
+          "cognitive_or_fidelity_risk": "Introduce rank through elimination before dimension formulas.",
+          "status": "source_map_review_complete_teaching_decision_pending",
+          "primary_sources": [
+            "S02"
+          ],
+          "source_pointer": "/backbone_sequence/7",
+          "packet_at_review": {
+            "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-11-lucas-graphs-edges-cycles-and-memory\\input-contract.json",
+            "sha256": "356ffd378c40413b7130d81ea7e5f4ae2c58423ef238dd10e496353e83c53bdd",
+            "lesson_count": 6
+          },
+          "required_amendment_ids": [],
+          "source_launch_decision": "ready_for_source_scoped_drafting_with_required_gates",
+          "decision_scope": "Source/coverage only; no new teaching acceptance or finished-course validation.",
+          "educational_gate": [
+            "E05",
+            "independent_teaching_recheck"
+          ]
+        }
+      ],
+      "course_map": [
+        {
+          "id": "lesson-01",
+          "title": "From nodes to a graph",
+          "entry_prerequisites": [
+            "course-05",
+            "course-10"
+          ],
+          "concept_ids": [
+            "C11.01"
+          ],
+          "worked_example_capability": "Define the path-product graph and count its edges",
+          "assessment_target": "Define the path-product graph and count its edges",
+          "later_use": "lesson-02",
+          "core_minutes": 55,
+          "planned_periods": 1,
+          "planned_total_minutes": 55,
+          "explanation_id": "C11.01-E1",
+          "worked_example_id": "C11.01-W1",
+          "prior_practice_id": "C11.01-P1",
+          "diagnostic_id": "C11.01-D1"
+        },
+        {
+          "id": "lesson-02",
+          "title": "Walking, connectivity, and incidence",
+          "entry_prerequisites": [
+            "lesson-01"
+          ],
+          "concept_ids": [
+            "C11.02"
+          ],
+          "worked_example_capability": "Build a small oriented incidence matrix",
+          "assessment_target": "Build a small oriented incidence matrix",
+          "later_use": "lesson-03",
+          "core_minutes": 55,
+          "planned_periods": 2,
+          "planned_total_minutes": 110,
+          "explanation_id": "C11.02-E1",
+          "worked_example_id": "C11.02-W1",
+          "prior_practice_id": "C11.02-P1",
+          "diagnostic_id": "C11.02-D1"
+        },
+        {
+          "id": "lesson-03",
+          "title": "Cuts and cycles",
+          "entry_prerequisites": [
+            "lesson-02"
+          ],
+          "concept_ids": [
+            "C11.03"
+          ],
+          "worked_example_capability": "Verify a cycle and distinguish it from a node field",
+          "assessment_target": "Verify a cycle and distinguish it from a node field",
+          "later_use": "lesson-04",
+          "core_minutes": 55,
+          "planned_periods": 2,
+          "planned_total_minutes": 110,
+          "explanation_id": "C11.03-E1",
+          "worked_example_id": "C11.03-W1",
+          "prior_practice_id": "C11.03-P1",
+          "diagnostic_id": "C11.03-D1"
+        },
+        {
+          "id": "lesson-04",
+          "title": "The 26 and 28 dimensions",
+          "entry_prerequisites": [
+            "lesson-03"
+          ],
+          "concept_ids": [
+            "C11.04"
+          ],
+          "worked_example_capability": "Derive the open Lucas graph cut and cycle counts",
+          "assessment_target": "Derive the open Lucas graph cut and cycle counts",
+          "later_use": "lesson-05",
+          "core_minutes": 55,
+          "planned_periods": 1,
+          "planned_total_minutes": 55,
+          "explanation_id": "C11.04-E1",
+          "worked_example_id": "C11.04-W1",
+          "prior_practice_id": "C11.04-P1",
+          "diagnostic_id": "C11.04-D1"
+        },
+        {
+          "id": "lesson-05",
+          "title": "Adding periodic wrap edges",
+          "entry_prerequisites": [
+            "lesson-04"
+          ],
+          "concept_ids": [
+            "C11.05"
+          ],
+          "worked_example_capability": "Separate local cycles, wrap coordinates, and global windings",
+          "assessment_target": "Separate local cycles, wrap coordinates, and global windings",
+          "later_use": "lesson-06",
+          "core_minutes": 55,
+          "planned_periods": 2,
+          "planned_total_minutes": 110,
+          "explanation_id": "C11.05-E1",
+          "worked_example_id": "C11.05-W1",
+          "prior_practice_id": "C11.05-P1",
+          "diagnostic_id": "C11.05-D1"
+        },
+        {
+          "id": "lesson-06",
+          "title": "Memory needs a specified state",
+          "entry_prerequisites": [
+            "lesson-05"
+          ],
+          "concept_ids": [
+            "C11.06"
+          ],
+          "worked_example_capability": "Explain the information represented by a cycle coordinate",
+          "assessment_target": "Explain the information represented by a cycle coordinate",
+          "later_use": "capstone",
+          "core_minutes": 55,
+          "planned_periods": 1,
+          "planned_total_minutes": 55,
+          "explanation_id": "C11.06-E1",
+          "worked_example_id": "C11.06-W1",
+          "prior_practice_id": "C11.06-P1",
+          "diagnostic_id": "C11.06-D1"
+        }
+      ],
+      "core_periods": 9,
+      "capstone_periods": 2,
+      "period_minutes": 55,
+      "core_boundary": "Finite hand-checkable algebra, small graph calculations and supplied source cards. No general calculus/spectral theorem, arbitrary shear reconstruction, physical force derivation, dynamics inference from counts or exceptional-group identification is silently assessed.",
+      "prerequisite_status": "Blueprint closure checked for every explicit capstone operation; actual produced lessons/practice still require independent acceptance.",
+      "inline_content_location": "Complete lesson anchors are in course_map[*].teaching_anchor; complete capstone mapping is in capstone_specification.backward_map below."
+    },
+    "completed_course_acceptance": false
+  }
+}
+```

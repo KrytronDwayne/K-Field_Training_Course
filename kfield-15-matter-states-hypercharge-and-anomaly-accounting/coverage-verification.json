@@ -1,0 +1,90 @@
+{
+  "status": "passed",
+  "rows": [
+    {
+      "concept_id": "C15.01",
+      "lesson": "lesson-01.md",
+      "explanation": "C15.01-E1",
+      "worked_example": "C15.01-W1",
+      "answered_practice": "C15.01-P1",
+      "diagnostic": "C15.01-D1",
+      "capstone_step": "C15-CAP-01",
+      "operation": "Sort signed exterior monomials, reject repeated indices and count even subsets of five labels.",
+      "status": "passed",
+      "content_review": "Manual manager and independent auditor; actual operations and answers present before capstone use"
+    },
+    {
+      "concept_id": "C15.02",
+      "lesson": "lesson-02.md",
+      "explanation": "C15.02-E1",
+      "worked_example": "C15.02-W1",
+      "answered_practice": "C15.02-P1",
+      "diagnostic": "C15.02-D1",
+      "capstone_step": "C15-CAP-02",
+      "operation": "Enumerate all six bidegrees and multiplicities; explicitly list degree4 states and account for block-swap signs.",
+      "status": "passed",
+      "content_review": "Manual manager and independent auditor; actual operations and answers present before capstone use"
+    },
+    {
+      "concept_id": "C15.03",
+      "lesson": "lesson-03.md",
+      "explanation": "C15.03-E1",
+      "worked_example": "C15.03-W1",
+      "answered_practice": "C15.03-P1",
+      "diagnostic": "C15.03-D1",
+      "capstone_step": "C15-CAP-03",
+      "operation": "Fill every q,Y and descent residue in the16-state census using declared color-first weights.",
+      "status": "passed",
+      "content_review": "Manual manager and independent auditor; actual operations and answers present before capstone use"
+    },
+    {
+      "concept_id": "C15.04",
+      "lesson": "lesson-04.md",
+      "explanation": "C15.04-E1",
+      "worked_example": "C15.04-W1",
+      "answered_practice": "C15.04-P1",
+      "diagnostic": "C15.04-D1",
+      "capstone_step": "C15-CAP-04",
+      "operation": "Compute the five named local tests with weights and normalization; replay one off-line(a,b) trial and retain its nonzero sums.",
+      "status": "passed",
+      "content_review": "Manual manager and independent auditor; actual operations and answers present before capstone use"
+    },
+    {
+      "concept_id": "C15.05",
+      "lesson": "lesson-05.md",
+      "explanation": "C15.05-E1",
+      "worked_example": "C15.05-W1",
+      "answered_practice": "C15.05-P1",
+      "diagnostic": "C15.05-D1",
+      "capstone_step": "C15-CAP-05",
+      "operation": "Complete the square,factor the cubic and solve the primitive integral charge line with declared global sign.",
+      "status": "passed",
+      "content_review": "Manual manager and independent auditor; actual operations and answers present before capstone use"
+    },
+    {
+      "concept_id": "C15.06",
+      "lesson": "lesson-06.md",
+      "explanation": "C15.06-E1",
+      "worked_example": "C15.06-W1",
+      "answered_practice": "C15.06-P1",
+      "diagnostic": "C15.06-D1",
+      "capstone_step": "C15-CAP-06",
+      "operation": "Compute a complement example,verify the diagonal dual-color action and four-doublet Witten count; keep all parity notions distinct.",
+      "status": "passed",
+      "content_review": "Manual manager and independent auditor; actual operations and answers present before capstone use"
+    },
+    {
+      "concept_id": "C15.07",
+      "lesson": "lesson-07.md",
+      "explanation": "C15.07-E1",
+      "worked_example": "C15.07-W1",
+      "answered_practice": "C15.07-P1",
+      "diagnostic": "C15.07-D1",
+      "capstone_step": "C15-CAP-07",
+      "operation": "Assemble the source-scoped census and assumption table,retaining tests and unresolved physical/global distinctions.",
+      "status": "passed",
+      "content_review": "Manual manager and independent auditor; actual operations and answers present before capstone use"
+    }
+  ],
+  "method": "Anchor existence, exact assembly extraction, manual operation/practice/assessment correspondence; not existence-only educational acceptance."
+}

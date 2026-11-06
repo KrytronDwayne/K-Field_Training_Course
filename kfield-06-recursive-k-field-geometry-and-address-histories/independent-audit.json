@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.0",
+  "auditor": "independent_audit",
+  "status": "passed_substantive_audit",
+  "scope": "Read all six lessons, capstone, course map, terminology, teacher guide and source notes; independently read S02 M02/M03 and S03 correction contract. Recovery finalization and deterministic validator remain author responsibility.",
+  "unresolved_critical": 0,
+  "unresolved_major": 0,
+  "unresolved_minor": 0,
+  "findings": [
+    {
+      "correction": "Added explicit derivation of depth2 cell/corner counts with answer",
+      "verification": "Read revised P1:12 per axis,1728 cells,2197 vertices; recomputed independently",
+      "severity": "major",
+      "affected_checkpoint_ids": [
+        "lesson-03",
+        "capstone"
+      ],
+      "audit_level": "final",
+      "disposition": "corrected",
+      "defect": "Count derivation was taught but mapped practice asked only scaling and volume",
+      "section": "C06.03-P1",
+      "category": "assessment_alignment",
+      "id": "IA-01",
+      "file": "lesson-03.md"
+    },
+    {
+      "correction": "Added depth0,1,2 product-count request and answer",
+      "verification": "Read revised request and answer1,27,729; independently recomputed Cartesian counts",
+      "severity": "major",
+      "affected_checkpoint_ids": [
+        "lesson-02",
+        "capstone"
+      ],
+      "audit_level": "final",
+      "disposition": "corrected",
+      "defect": "Mapped practice did not explicitly request 3D product counts required by capstone02",
+      "section": "C06.02-P1",
+      "category": "assessment_alignment",
+      "id": "IA-02",
+      "file": "lesson-02.md"
+    },
+    {
+      "correction": "Expanded to /backbone_sequence/1/boundary_rule",
+      "verification": "Resolved against source M02",
+      "severity": "minor",
+      "affected_checkpoint_ids": [
+        "sources"
+      ],
+      "audit_level": "final",
+      "disposition": "corrected",
+      "defect": "Boundary pointer abbreviated ambiguously",
+      "section": "Claim routing and corrections",
+      "category": "source_grounding",
+      "id": "IA-03",
+      "file": "sources.md"
+    },
+    {
+      "correction": "Removed plus",
+      "verification": "Read corrected paragraph",
+      "severity": "minor",
+      "affected_checkpoint_ids": [
+        "lesson-03"
+      ],
+      "audit_level": "local",
+      "disposition": "corrected",
+      "defect": "Stray leading plus before To scale",
+      "section": "C06.03-E1",
+      "category": "clarity",
+      "id": "IA-04",
+      "file": "lesson-03.md"
+    }
+  ],
+  "checks": [
+    "Source SHA256 S02 and S03 independently match packet",
+    "All six lesson contracts present with4 diagnostic checks each; explanations and worked answers support required finite operations",
+    "Nine capstone operations trace to taught explanations and answered prior practice after IA01/IA02 repairs",
+    "Independent tf_gpu_env command enumerated all27 signed ternary words: exact range-13..13 and both modular compatibility transitions pass",
+    "Independent enumeration of6859 triples attains every integer sheet-27..27",
+    "Independent Group counts depths0..2:(27,64),(216,343),(1728,2197)",
+    "Hand recomputed binary parents, balanced5/8 histories, remainder examples, rung proof, volume162, lossless reconstruction and100-point rubric",
+    "Assembly checked six lesson blocks in order with exact normalized-text content; rechecked containment of revised lesson text after final repair",
+    "Source-reported proof status separated from finite verification; synthetic basis labeled; no unsupported empirical claim",
+    "Residual signs, zero details, depths and order retained; half-open ownership distinguished from boundary sampling",
+    "Pacing seven core periods plus two capstone periods; no unintroduced calculus or matrix computation required"
+  ],
+  "source_gap": "No missing finite core source definitions. Infinite-history proof replay is outside assessed scope.",
+  "assembly": "passed",
+  "recovery_scope": "Final manifest hashes/audit integration and validator not certified by this substantive audit",
+  "snapshot_sha256": {
+    "lesson-04.md": "a228c0887ba0398e32515b3447bcee554b6ca8ac94791f21a6506631186d3dc3",
+    "lesson-03.md": "398b9993b01c334e1b9be5e1e5944c3cd15b41cbdedd2725202e6adf0601b9d1",
+    "lesson-02.md": "611a9953db659e51dee48bf4ac191efc3fcabcf4e6fc8aa6338981777193cccd",
+    "course-map.md": "a91a89f110a79c2cdb45afd4b17f06f24809f88ea2bda7d8f0e829c74ae769b9",
+    "sources.md": "8d41d656ab41af78215d82a0f31e48439b31a08def794924a73a67217859bc94",
+    "teacher-guide.md": "5dc0bc4a51f17263b5770522d37fffc72b719952ef2df564efcec05028ef6dff",
+    "launch-prompt.md": "829124a2decf90f9ad9352d844169413a4d4685cc89a02ddfb9bc98a31e70c5b",
+    "terminology.md": "94ed8788ba33561bc4b850a84d8d13e345085d97fe8ba606c98ba0fe02eb9391",
+    "lesson-06.md": "5979b5238c3c837352e9bc6f0ecd87b421939ecc78aac4e8b1f54a5c1257e1ee",
+    "capstone.md": "c4b0cf79d8e412e9bf2f3c36eaaafd551757c3d41d00aeb403813afa40586af6",
+    "lesson-05.md": "3508775e83af5adf592925d4228bb2e47de3deaeb234cd8a3464a131ef058785",
+    "course.md": "74b9dfffcdd2e169f62f147e17995a9a47fca29150e4c2a5099f33fc8e8ae906",
+    "lesson-01.md": "fbde96fb5b20225686212292966e5ffe499a66cc88c570129e1985c32c657a79"
+  }
+}

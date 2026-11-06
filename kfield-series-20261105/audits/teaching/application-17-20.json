@@ -1,0 +1,34 @@
+{
+  "status": "applied_and_references_verified",
+  "courses": [
+    {
+      "course": 17,
+      "lesson_anchors": 8,
+      "capstone_steps": 8,
+      "retained_source_amendments": [
+        "SA-17"
+      ]
+    },
+    {
+      "course": 18,
+      "lesson_anchors": 7,
+      "capstone_steps": 10,
+      "retained_source_amendments": []
+    },
+    {
+      "course": 19,
+      "lesson_anchors": 7,
+      "capstone_steps": 7,
+      "retained_source_amendments": []
+    },
+    {
+      "course": 20,
+      "lesson_anchors": 7,
+      "capstone_steps": 9,
+      "retained_source_amendments": [
+        "SA-20",
+        "EA-20-E07-3"
+      ]
+    }
+  ]
+}

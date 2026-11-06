@@ -1,0 +1,97 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Oscillations, frequency, and phase · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/26">Course 26</a><span>/</span><span>lesson 01</span></div><a class="original" href="../../../kfield-26-beats-harmonics-and-spectral-energy-phase-structure/lesson-01.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#oscillations-frequency-and-phase">Oscillations, frequency, and phase</a><a href="#c2601-e1-a-circle-becomes-a-signal">C26.01-E1 — A circle becomes a signal</a><a href="#c2601-w1-worked-synthetic-example">C26.01-W1 — Worked synthetic example</a><a href="#c2601-p1-practice-with-worked-answer">C26.01-P1 — Practice with worked answer</a><a href="#c2601-d1-diagnostic-checks-and-answers">C26.01-D1 — Diagnostic checks and answers</a></nav></details><details class="course-nav" open><summary>In this course</summary><a aria-current=page href="lesson-01.html">Oscillations, frequency, and phase</a><a  href="lesson-02.html">Superposition and beat envelopes</a><a  href="lesson-03.html">Harmonics and spatial rulers</a><a  href="lesson-04.html">Spectral coefficients retain phase</a><a  href="lesson-05.html">Cross-channel phase and wavelength</a><a  href="lesson-06.html">Photon-equivalent model energy</a><a  href="lesson-07.html">Signed event evidence</a><a  href="lesson-08.html">Residual spectra as the next measurement</a></details></aside><div class="reading-column"><article class="prose"><h1 id="oscillations-frequency-and-phase" tabindex="-1">Oscillations, frequency, and phase</h1>
+<p><strong>Essential question:</strong> What information lets us reconstruct an oscillation?</p>
+<p><strong>Goals:</strong> Identify amplitude, baseline, period and phase; calculate signed samples; explain the need for a time reference.</p>
+<p><strong>Prerequisite bridge.</strong> We use signed arithmetic and coordinate graphs. Earlier courses introduce reference choices; here we rebuild the circle operations we need. On a circle of radius one, a point's horizontal coordinate is cosine and its vertical coordinate is sine. These coordinates can be negative.</p>
+<h2 id="c2601-e1-a-circle-becomes-a-signal" tabindex="-1">C26.01-E1 — A circle becomes a signal</h2>
+<p>An angle measures a turn from the positive horizontal axis. Positive angles turn counterclockwise. One full turn is 360 degrees or 2π radians; a quarter turn is π/2 radians. A radian measures an arc whose length equals the radius. Convert degrees to radians by multiplying by π/180. The number π is approximately 3.14159.</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Angle</th>
+<th style="text-align: right;">0</th>
+<th style="text-align: right;">π/2</th>
+<th style="text-align: right;">π</th>
+<th style="text-align: right;">3π/2</th>
+<th style="text-align: right;">2π</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>cosine</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">−1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>sine</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">−1</td>
+<td style="text-align: right;">0</td>
+</tr>
+</tbody>
+</table></div>
+<p>The period T is the time for a full repetition. Frequency f=1/T counts cycles per second, in hertz (Hz). Angular frequency ω=2πf counts radians per second. A frequency of 2 Hz means a period of 1/2 s and angular frequency 4π radians/s.</p>
+<p>Write x(t)=A cos(2πft+φ)+b. Time t is in seconds. The phase offset φ is the angle at the chosen time zero. Amplitude A≥0 is the maximum departure from baseline b. The quantities x, A and b have the same units. The argument of cosine is an angle, not counts. The graph lies between b−A and b+A. The varying component x−b is called AC; the constant baseline is DC. To reconstruct x, retain both.</p>
+<p>A sine coordinate is in quadrature with cosine: sin θ=cos(θ−π/2), a quarter-turn displacement. Reversing an angle leaves cosine unchanged and changes the sign of sine. Adding π changes the sign of both coordinates. These circle facts will make direction and polarity visible later.</p>
+<p>Evaluate a sinusoid by calculating its angle first, reading cosine second, then multiplying by A and adding b. A changed time origin changes the recorded phase offset; compare phases only after declaring that origin.</p>
+<h2 id="c2601-w1-worked-synthetic-example" tabindex="-1">C26.01-W1 — Worked synthetic example</h2>
+<p>Let x(t)=2 cos(πt+π/2)+1 counts, t in seconds. Matching π to 2πf gives f=1/2 Hz, T=2 s, A=2 counts, b=1 count.</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th style="text-align: right;">t (s)</th>
+<th style="text-align: right;">angle</th>
+<th style="text-align: right;">cosine</th>
+<th style="text-align: right;">AC (counts)</th>
+<th style="text-align: right;">x (counts)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">π/2</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td style="text-align: right;">1/2</td>
+<td style="text-align: right;">π</td>
+<td style="text-align: right;">−1</td>
+<td style="text-align: right;">−2</td>
+<td style="text-align: right;">−1</td>
+</tr>
+<tr>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">3π/2</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td style="text-align: right;">3/2</td>
+<td style="text-align: right;">2π</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">3</td>
+</tr>
+</tbody>
+</table></div>
+<p>For example, at t=1/2, 2(−1)+1=−1. The negative entry is a synthetic signed coordinate. It is not missing data. Save the spacing 1/2 s, order, baseline and every sign. The next sample at t=2 s repeats the first.</p>
+<h2 id="c2601-p1-practice-with-worked-answer" tabindex="-1">C26.01-P1 — Practice with worked answer</h2>
+<p>For y(t)=3 cos(2πt) counts, find f,T and samples at 0,1/4,1/2,3/4 s; then add π to the phase. <strong>Answer:</strong> f=1 Hz and T=1 s. Angles 0,π/2,π,3π/2 give (3,0,−3,0) counts. The shifted samples are (−3,0,3,0). Keep t=0 as origin, spacing 1/4 s and baseline zero.</p>
+<h2 id="c2601-d1-diagnostic-checks-and-answers" tabindex="-1">C26.01-D1 — Diagnostic checks and answers</h2>
+<ol>
+<li>A period is 4 s. Find f and ω. <strong>Answer:</strong> 1/4 Hz and π/2 radians/s.</li>
+<li>Does amplitude 3 determine x(0)? <strong>Answer:</strong> No: phase and baseline are needed. At baseline zero, phase 0 gives 3 and phase π gives −3.</li>
+<li>At t=1/2 in W1, what is the AC value? <strong>Answer:</strong> −2 counts; adding baseline 1 reconstructs −1.</li>
+<li>What does a maximum magnitude omit? <strong>Answer:</strong> Timing, phase, baseline and other samples. Keep them beside the summary.</li>
+</ol>
+<blockquote>
+<p><strong>Claim scope:</strong> These are exact calculations from synthetic equations, not measured detector observations. Phase is a cycle coordinate, not force.</p>
+</blockquote>
+<p><strong>Next dependency:</strong> <a href="lesson-02.html">Lesson 2</a> adds oscillations with their signs intact.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><span></span><a class="button" href="lesson-02.html">Next lesson →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/26">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

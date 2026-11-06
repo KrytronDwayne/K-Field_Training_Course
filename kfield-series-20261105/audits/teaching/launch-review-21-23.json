@@ -1,0 +1,150 @@
+{
+  "schema_version": "1.0",
+  "created_utc": "2026-11-05T19:03:09.929773+00:00",
+  "audit_level": "pedagogic_blueprint",
+  "amendment_path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-teaching-auditor\\outputs\\teaching-amendments-21-23.json",
+  "amendment_sha256": "c4935f2e221ed2cf4e06ff554a8e3e82fcd070e91bcb4203ee973a618c31ecd3",
+  "verification_path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-teaching-auditor\\outputs\\teaching-verification-21-23.json",
+  "verification_sha256": "1ba86ca04e3a91c21fca60a9da6901f26f1d0bd45ed513aaafc65cce59d8103c",
+  "input_contracts": [
+    {
+      "course_id": "course-21",
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\input-contract.json",
+      "sha256": "15fed9c9b09259ed6d25d0658aaaa117278431d536661bee506a9953c2acb346"
+    },
+    {
+      "course_id": "course-22",
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-22-inverse-limits-continuum-rendering-and-detail\\input-contract.json",
+      "sha256": "94bbe4a3a3789733ca4d575c07ae8eb80fa159c75e4c86696f633bcd740ef84b"
+    },
+    {
+      "course_id": "course-23",
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-23-gravity-inertia-and-exceptional-branches\\input-contract.json",
+      "sha256": "d7c81a2497f4c6cdcd79b6d680abaeef4a8aa9f6b7cae2be0a5d575c0d9e512b"
+    }
+  ],
+  "findings": [
+    {
+      "id": "E05-course-21",
+      "severity": "major",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\input-contract.json",
+      "section": "coverage_matrix;course_map;capstone_specification",
+      "defect": "Generic blueprint references do not yet supply complete answered operations or backward assessment coverage.",
+      "minimal_repair": "Apply the authored lesson/supplement anchors, legacy aliases, expanded pacing, source scopes and capstone answers/rubric.",
+      "disposition": "corrected_in_portable_amendment",
+      "project_edit_performed": false
+    },
+    {
+      "id": "E05-course-22",
+      "severity": "major",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-22-inverse-limits-continuum-rendering-and-detail\\input-contract.json",
+      "section": "coverage_matrix;course_map;capstone_specification",
+      "defect": "Generic blueprint references do not yet supply complete answered operations or backward assessment coverage.",
+      "minimal_repair": "Apply the authored lesson/supplement anchors, legacy aliases, expanded pacing, source scopes and capstone answers/rubric.",
+      "disposition": "corrected_in_portable_amendment",
+      "project_edit_performed": false
+    },
+    {
+      "id": "E05-course-23",
+      "severity": "major",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-23-gravity-inertia-and-exceptional-branches\\input-contract.json",
+      "section": "coverage_matrix;course_map;capstone_specification",
+      "defect": "Generic blueprint references do not yet supply complete answered operations or backward assessment coverage.",
+      "minimal_repair": "Apply the authored lesson/supplement anchors, legacy aliases, expanded pacing, source scopes and capstone answers/rubric.",
+      "disposition": "corrected_in_portable_amendment",
+      "project_edit_performed": false
+    },
+    {
+      "id": "BRIDGE-21",
+      "severity": "major",
+      "section": "course-21",
+      "defect": "Decoder, lattice and physical mass claims can be conflated; composition fibers and balanced endpoint work require distinct practice.",
+      "minimal_repair": "Keep full residuals, the field/lattice distinction, L_int versus missing L/W7, all C21.S01/S02/S03 operations and balanced energy bookkeeping.",
+      "disposition": "corrected_in_portable_amendment",
+      "project_edit_performed": false
+    },
+    {
+      "id": "BRIDGE-22",
+      "severity": "major",
+      "section": "course-22",
+      "defect": "A finite renderer may erase address distinctions, omit physical norm/units or silently assume infinite operator domains.",
+      "minimal_repair": "Retain compatible histories including equal-image endpoints, geometric derivation, normalized/physical bounds, all details and explicit domain counterexamples.",
+      "disposition": "corrected_in_portable_amendment",
+      "project_edit_performed": false
+    },
+    {
+      "id": "BRIDGE-23",
+      "severity": "major",
+      "section": "course-23",
+      "defect": "Reconstruction identities and matching dimensions can be promoted to untaught forces or exceptional actions.",
+      "minimal_repair": "Use declared scalar/reciprocal hypotheses and metric, signed mechanism predictions, exact graph counts and explicit missing-definition/intertwiner boundaries.",
+      "disposition": "corrected_in_portable_amendment",
+      "project_edit_performed": false
+    }
+  ],
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "unresolved_count_scope": "Pedagogical blueprint defects after applying the complete amendment only. Source retrieval and unconstructed extension obligations remain disclosed below; they have not been solved.",
+  "courses": [
+    {
+      "course_id": "course-21",
+      "decision": "teaching_blueprint_pass_with_amendment",
+      "unresolved_critical": 0,
+      "unresolved_major": 0,
+      "unresolved_minor": 0,
+      "core_periods": 17,
+      "capstone_periods": 3,
+      "period_minutes": 55,
+      "launch_condition": "Parent applies the entire portable amendment; produced lessons and capstone still require independent completed-course acceptance.",
+      "completed_course_approved": false
+    },
+    {
+      "course_id": "course-22",
+      "decision": "teaching_blueprint_pass_with_amendment",
+      "unresolved_critical": 0,
+      "unresolved_major": 0,
+      "unresolved_minor": 0,
+      "core_periods": 12,
+      "capstone_periods": 3,
+      "period_minutes": 55,
+      "launch_condition": "Parent applies the entire portable amendment; produced lessons and capstone still require independent completed-course acceptance.",
+      "completed_course_approved": false
+    },
+    {
+      "course_id": "course-23",
+      "decision": "teaching_blueprint_pass_with_amendment",
+      "unresolved_critical": 0,
+      "unresolved_major": 0,
+      "unresolved_minor": 0,
+      "core_periods": 13,
+      "capstone_periods": 3,
+      "period_minutes": 55,
+      "launch_condition": "Parent applies the entire portable amendment; produced lessons and capstone still require independent completed-course acceptance.",
+      "completed_course_approved": false
+    }
+  ],
+  "verification_summary": {
+    "checks_passed": 658,
+    "checks_failed": 0,
+    "original_lesson_anchors": 22,
+    "supplemental_anchor_sets": 3,
+    "capstone_steps": 25,
+    "all_original_concepts_preserved": true,
+    "all_references_resolve": true
+  },
+  "limitations": [
+    "This is conditional blueprint acceptance; no completed course was built or approved.",
+    "Pacing is an instructional allocation, not classroom-tested mastery; recovery periods may expand.",
+    "Missing source7x13 L, W7/action conventions and source F/M/Gamma2 definition bodies remain VERIFIED_NOT_LOADED. Derived L_int, inferred scalar formulas and toy characters do not replace them.",
+    "The R023 stored isotope mass-step claim, cohomology dimension theorem and exceptional carrier theorems are attributed source statements; their full proofs/constants were not replayed here.",
+    "No specific F4 action, E6/E7 real form, physical cohomology coupling, physical force law or occupation-selection proof is constructed.",
+    "No corpus-generation freshness claim, compiler verification or empirical measurement validation is made."
+  ],
+  "source_report_sha256": "eef89a28971ef7e5380977c31b62ed6d64f2831759e679ee967b6c253a33c04a",
+  "ledger_sha256_at_report": "8144157e20877f678a1c541c5bcc91f52aa6fa2f9e357381ac597d2c1384ce9c",
+  "finished_course_pass": false,
+  "source_or_project_files_modified": false
+}

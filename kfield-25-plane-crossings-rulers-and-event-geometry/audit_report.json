@@ -1,0 +1,169 @@
+{
+  "status": "passed",
+  "findings": [
+    {
+      "id": "C25-F001",
+      "level": "final",
+      "category": "Markdown table structure",
+      "file": "terminology.md",
+      "section": "Terminology table absolute-value rows",
+      "severity": "minor",
+      "defect": "Unescaped vertical bars in absolute-value notation split the glossary table into extra columns.",
+      "correction": "Replaced bars with verbal absolute-value descriptions in both affected rows.",
+      "verification": "Course-local table parser confirms consistent column counts; parent independently flagged the earlier version and correction was already applied.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "terminology"
+      ]
+    }
+  ],
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "checks": [
+    {
+      "level": "local",
+      "results": [
+        {
+          "checkpoint": "lesson-01",
+          "status": "passed",
+          "checks": [
+            "prerequisite bridge",
+            "2–4 observable goals",
+            "definition and notation",
+            "units and arithmetic independently recomputed",
+            "3–5 answered diagnostics",
+            "source and synthetic scope",
+            "next dependency"
+          ],
+          "evidence": "Author reread plus independent-audit.json with exact reviewed SHA-256"
+        },
+        {
+          "checkpoint": "lesson-02",
+          "status": "passed",
+          "checks": [
+            "prerequisite bridge",
+            "2–4 observable goals",
+            "definition and notation",
+            "units and arithmetic independently recomputed",
+            "3–5 answered diagnostics",
+            "source and synthetic scope",
+            "next dependency"
+          ],
+          "evidence": "Author reread plus independent-audit.json with exact reviewed SHA-256"
+        },
+        {
+          "checkpoint": "lesson-03",
+          "status": "passed",
+          "checks": [
+            "prerequisite bridge",
+            "2–4 observable goals",
+            "definition and notation",
+            "units and arithmetic independently recomputed",
+            "3–5 answered diagnostics",
+            "source and synthetic scope",
+            "next dependency"
+          ],
+          "evidence": "Author reread plus independent-audit.json with exact reviewed SHA-256"
+        },
+        {
+          "checkpoint": "lesson-04",
+          "status": "passed",
+          "checks": [
+            "prerequisite bridge",
+            "2–4 observable goals",
+            "definition and notation",
+            "units and arithmetic independently recomputed",
+            "3–5 answered diagnostics",
+            "source and synthetic scope",
+            "next dependency"
+          ],
+          "evidence": "Author reread plus independent-audit.json with exact reviewed SHA-256"
+        },
+        {
+          "checkpoint": "lesson-05",
+          "status": "passed",
+          "checks": [
+            "prerequisite bridge",
+            "2–4 observable goals",
+            "definition and notation",
+            "units and arithmetic independently recomputed",
+            "3–5 answered diagnostics",
+            "source and synthetic scope",
+            "next dependency"
+          ],
+          "evidence": "Author reread plus independent-audit.json with exact reviewed SHA-256"
+        },
+        {
+          "checkpoint": "lesson-06",
+          "status": "passed",
+          "checks": [
+            "prerequisite bridge",
+            "2–4 observable goals",
+            "definition and notation",
+            "units and arithmetic independently recomputed",
+            "3–5 answered diagnostics",
+            "source and synthetic scope",
+            "next dependency"
+          ],
+          "evidence": "Author reread plus independent-audit.json with exact reviewed SHA-256"
+        },
+        {
+          "checkpoint": "lesson-07",
+          "status": "passed",
+          "checks": [
+            "prerequisite bridge",
+            "2–4 observable goals",
+            "definition and notation",
+            "units and arithmetic independently recomputed",
+            "3–5 answered diagnostics",
+            "source and synthetic scope",
+            "next dependency"
+          ],
+          "evidence": "Author reread plus independent-audit.json with exact reviewed SHA-256"
+        }
+      ]
+    },
+    {
+      "level": "cumulative",
+      "unit": "Lessons 1–3",
+      "result": "passed",
+      "evidence": "q, s_k and r retain meanings; moving inputs evaluated separately; cycles/radians and finite accumulation taught before use"
+    },
+    {
+      "level": "cumulative",
+      "unit": "Lessons 4–6",
+      "result": "passed",
+      "evidence": "Ruler roles separated; continuity/linear hypotheses precede root use; celestial equations and angular units taught before capstone"
+    },
+    {
+      "level": "cumulative",
+      "unit": "Lesson 7 and capstone",
+      "result": "passed",
+      "evidence": "Both family ledgers, zero/contact/jump/gap branches, endpoint support and signed residual reconstruction all retained"
+    },
+    {
+      "level": "final",
+      "result": "passed",
+      "evidence": [
+        "Seven E1/W1/P1/D1 anchors and all C25-CAP steps checked in actual content",
+        "Independent arithmetic, content review and reviewed hashes passed",
+        "Source hashes rechecked, pinned bounded reads and source-local pointers recorded",
+        "Teacher guide pacing totals 11 core plus 3 capstone periods; 28-point rubric",
+        "All Markdown tables in support files have consistent column counts; local links resolve",
+        "Synthetic full paths remain authored cards; no source snapshots or large arrays",
+        "Assembly uses exact lesson bytes modulo trailing newline protocol; final machine validator remains mandatory",
+        "No new substantive teaching added during assembly",
+        "Source-only advanced invariants are scoped explicitly, not promoted to hidden prerequisites"
+      ]
+    }
+  ],
+  "independent_review": "independent-audit.json",
+  "rendering": "Markdown only; table and link structure checked. No paginated rendering requested.",
+  "source_gaps": [
+    "Underlying frame contracts and Agda bodies named by T45 were not exposed as pinned bodies in the bounded retrieval routes used. No fresh engine/compiler replay is claimed; core tasks use fully supplied synthetic contracts.",
+    "T10 is a source description, not a full detector transfer specification. No detector beat, force or energy inference is assessed."
+  ]
+}

@@ -1,0 +1,621 @@
+{
+  "status": "passed",
+  "runtime": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+  "arithmetic": "exact fractions; alternate base-three enumeration and inverse equations",
+  "rows_checked": 27,
+  "pairs_checked": 13,
+  "row_verification": [
+    {
+      "row": "N01",
+      "L": [
+        -1,
+        -1,
+        -1
+      ],
+      "R_L": [
+        "0",
+        "0",
+        "0"
+      ],
+      "affine_sheet_residual": "0",
+      "ownership_residual": [
+        "0",
+        "0",
+        "0"
+      ],
+      "pair_reconstruction": "passed"
+    },
+    {
+      "row": "N02",
+      "L": [
+        -1,
+        -1,
+        0
+      ],
+      "R_L": [
+        "0",
+        "0",
+        "0"
+      ],
+      "affine_sheet_residual": "0",
+      "ownership_residual": [
+        "0",
+        "0",
+        "0"
+      ],
+      "pair_reconstruction": "passed"
+    },
+    {
+      "row": "N03",
+      "L": [
+        -1,
+        -1,
+        1
+      ],
+      "R_L": [
+        "0",
+        "0",
+        "0"
+      ],
+      "affine_sheet_residual": "0",
+      "ownership_residual": [
+        "0",
+        "0",
+        "0"
+      ],
+      "pair_reconstruction": "passed"
+    },
+    {
+      "row": "N04",
+      "L": [
+        -1,
+        0,
+        -1
+      ],
+      "R_L": [
+        "0",
+        "0",
+        "0"
+      ],
+      "affine_sheet_residual": "0",
+      "ownership_residual": [
+        "0",
+        "0",
+        "0"
+      ],
+      "pair_reconstruction": "passed"
+    },
+    {
+      "row": "N05",
+      "L": [
+        -1,
+        0,
+        0
+      ],
+      "R_L": [
+        "0",
+        "0",
+        "0"
+      ],
+      "affine_sheet_residual": "0",
+      "ownership_residual": [
+        "0",
+        "0",
+        "0"
+      ],
+      "pair_reconstruction": "passed"
+    },
+    {
+      "row": "N06",
+      "L": [
+        -1,
+        0,
+        1
+      ],
+      "R_L": [
+        "0",
+        "0",
+        "0"
+      ],
+      "affine_sheet_residual": "0",
+      "ownership_residual": [
+        "0",
+        "0",
+        "0"
+      ],
+      "pair_reconstruction": "passed"
+    },
+    {
+      "row": "N07",
+      "L": [
+        -1,
+        1,
+        -1
+      ],
+      "R_L": [
+        "0",
+        "0",
+        "0"
+      ],
+      "affine_sheet_residual": "0",
+      "ownership_residual": [
+        "0",
+        "0",
+        "0"
+      ],
+      "pair_reconstruction": "passed"
+    },
+    {
+      "row": "N08",
+      "L": [
+        -1,
+        1,
+        0
+      ],
+      "R_L": [
+        "0",
+        "0",
+        "0"
+      ],
+      "affine_sheet_residual": "0",
+      "ownership_residual": [
+        "0",
+        "0",
+        "0"
+      ],
+      "pair_reconstruction": "passed"
+    },
+    {
+      "row": "N09",
+      "L": [
+        -1,
+        1,
+        1
+      ],
+      "R_L": [
+        "0",
+        "0",
+        "0"
+      ],
+      "affine_sheet_residual": "0",
+      "ownership_residual": [
+        "0",
+        "0",
+        "0"
+      ],
+      "pair_reconstruction": "passed"
+    },
+    {
+      "row": "N10",
+      "L": [
+        0,
+        -1,
+        -1
+      ],
+      "R_L": [
+        "0",
+        "0",
+        "0"
+      ],
+      "affine_sheet_residual": "0",
+      "ownership_residual": [
+        "0",
+        "0",
+        "0"
+      ],
+      "pair_reconstruction": "passed"
+    },
+    {
+      "row": "N11",
+      "L": [
+        0,
+        -1,
+        0
+      ],
+      "R_L": [
+        "0",
+        "0",
+        "0"
+      ],
+      "affine_sheet_residual": "0",
+      "ownership_residual": [
+        "0",
+        "0",
+        "0"
+      ],
+      "pair_reconstruction": "passed"
+    },
+    {
+      "row": "N12",
+      "L": [
+        0,
+        -1,
+        1
+      ],
+      "R_L": [
+        "0",
+        "0",
+        "0"
+      ],
+      "affine_sheet_residual": "0",
+      "ownership_residual": [
+        "0",
+        "0",
+        "0"
+      ],
+      "pair_reconstruction": "passed"
+    },
+    {
+      "row": "N13",
+      "L": [
+        0,
+        0,
+        -1
+      ],
+      "R_L": [
+        "0",
+        "0",
+        "0"
+      ],
+      "affine_sheet_residual": "0",
+      "ownership_residual": [
+        "0",
+        "0",
+        "0"
+      ],
+      "pair_reconstruction": "passed"
+    },
+    {
+      "row": "N14",
+      "L": [
+        0,
+        0,
+        0
+      ],
+      "R_L": [
+        "0",
+        "0",
+        "0"
+      ],
+      "affine_sheet_residual": "0",
+      "ownership_residual": [
+        "0",
+        "0",
+        "0"
+      ],
+      "pair_reconstruction": "center singleton"
+    },
+    {
+      "row": "N15",
+      "L": [
+        0,
+        0,
+        1
+      ],
+      "R_L": [
+        "0",
+        "0",
+        "0"
+      ],
+      "affine_sheet_residual": "0",
+      "ownership_residual": [
+        "0",
+        "0",
+        "0"
+      ],
+      "pair_reconstruction": "passed"
+    },
+    {
+      "row": "N16",
+      "L": [
+        0,
+        1,
+        -1
+      ],
+      "R_L": [
+        "0",
+        "0",
+        "0"
+      ],
+      "affine_sheet_residual": "0",
+      "ownership_residual": [
+        "0",
+        "0",
+        "0"
+      ],
+      "pair_reconstruction": "passed"
+    },
+    {
+      "row": "N17",
+      "L": [
+        0,
+        1,
+        0
+      ],
+      "R_L": [
+        "0",
+        "0",
+        "0"
+      ],
+      "affine_sheet_residual": "0",
+      "ownership_residual": [
+        "0",
+        "0",
+        "0"
+      ],
+      "pair_reconstruction": "passed"
+    },
+    {
+      "row": "N18",
+      "L": [
+        0,
+        1,
+        1
+      ],
+      "R_L": [
+        "0",
+        "0",
+        "0"
+      ],
+      "affine_sheet_residual": "0",
+      "ownership_residual": [
+        "0",
+        "0",
+        "0"
+      ],
+      "pair_reconstruction": "passed"
+    },
+    {
+      "row": "N19",
+      "L": [
+        1,
+        -1,
+        -1
+      ],
+      "R_L": [
+        "0",
+        "0",
+        "0"
+      ],
+      "affine_sheet_residual": "0",
+      "ownership_residual": [
+        "0",
+        "0",
+        "0"
+      ],
+      "pair_reconstruction": "passed"
+    },
+    {
+      "row": "N20",
+      "L": [
+        1,
+        -1,
+        0
+      ],
+      "R_L": [
+        "0",
+        "0",
+        "0"
+      ],
+      "affine_sheet_residual": "0",
+      "ownership_residual": [
+        "0",
+        "0",
+        "0"
+      ],
+      "pair_reconstruction": "passed"
+    },
+    {
+      "row": "N21",
+      "L": [
+        1,
+        -1,
+        1
+      ],
+      "R_L": [
+        "0",
+        "0",
+        "0"
+      ],
+      "affine_sheet_residual": "0",
+      "ownership_residual": [
+        "0",
+        "0",
+        "0"
+      ],
+      "pair_reconstruction": "passed"
+    },
+    {
+      "row": "N22",
+      "L": [
+        1,
+        0,
+        -1
+      ],
+      "R_L": [
+        "0",
+        "0",
+        "0"
+      ],
+      "affine_sheet_residual": "0",
+      "ownership_residual": [
+        "0",
+        "0",
+        "0"
+      ],
+      "pair_reconstruction": "passed"
+    },
+    {
+      "row": "N23",
+      "L": [
+        1,
+        0,
+        0
+      ],
+      "R_L": [
+        "0",
+        "0",
+        "0"
+      ],
+      "affine_sheet_residual": "0",
+      "ownership_residual": [
+        "0",
+        "0",
+        "0"
+      ],
+      "pair_reconstruction": "passed"
+    },
+    {
+      "row": "N24",
+      "L": [
+        1,
+        0,
+        1
+      ],
+      "R_L": [
+        "0",
+        "0",
+        "0"
+      ],
+      "affine_sheet_residual": "0",
+      "ownership_residual": [
+        "0",
+        "0",
+        "0"
+      ],
+      "pair_reconstruction": "passed"
+    },
+    {
+      "row": "N25",
+      "L": [
+        1,
+        1,
+        -1
+      ],
+      "R_L": [
+        "0",
+        "0",
+        "0"
+      ],
+      "affine_sheet_residual": "0",
+      "ownership_residual": [
+        "0",
+        "0",
+        "0"
+      ],
+      "pair_reconstruction": "passed"
+    },
+    {
+      "row": "N26",
+      "L": [
+        1,
+        1,
+        0
+      ],
+      "R_L": [
+        "0",
+        "0",
+        "0"
+      ],
+      "affine_sheet_residual": "0",
+      "ownership_residual": [
+        "0",
+        "0",
+        "0"
+      ],
+      "pair_reconstruction": "passed"
+    },
+    {
+      "row": "N27",
+      "L": [
+        1,
+        1,
+        1
+      ],
+      "R_L": [
+        "0",
+        "0",
+        "0"
+      ],
+      "affine_sheet_residual": "0",
+      "ownership_residual": [
+        "0",
+        "0",
+        "0"
+      ],
+      "pair_reconstruction": "passed"
+    }
+  ],
+  "explicit_example_checks": [
+    "C05.02-W1",
+    "C05.02-P1",
+    "C05.02-D1",
+    "C05.02-D3",
+    "C05.05-W1",
+    "C05.05-W1-partner",
+    "C05.05-P1",
+    "C05.05-P1-partner",
+    "C05.06-W1",
+    "C05.06-P1",
+    "C05.03 origin omission difference",
+    "C05.06-P2 deliberate residual"
+  ],
+  "teaching_ids_checked": [
+    "C05.01-E1",
+    "C05.01-W1",
+    "C05.01-P1",
+    "C05.01-D1",
+    "C05.02-E1",
+    "C05.02-W1",
+    "C05.02-P1",
+    "C05.02-D1",
+    "C05.03-E1",
+    "C05.03-W1",
+    "C05.03-P1",
+    "C05.03-D1",
+    "C05.04-E1",
+    "C05.04-W1",
+    "C05.04-P1",
+    "C05.04-D1",
+    "C05.04-E2",
+    "C05.04-W2",
+    "C05.04-P2",
+    "C05.04-D2",
+    "C05.05-E1",
+    "C05.05-W1",
+    "C05.05-P1",
+    "C05.05-D1",
+    "C05.06-E1",
+    "C05.06-W1",
+    "C05.06-P1",
+    "C05.06-D1"
+  ],
+  "source_pins": [
+    {
+      "id": "S01",
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "matched": true
+    },
+    {
+      "id": "S02",
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "matched": true
+    },
+    {
+      "id": "S03",
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "matched": true
+    },
+    {
+      "id": "S04",
+      "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "matched": true
+    },
+    {
+      "id": "S05",
+      "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+      "matched": true
+    }
+  ],
+  "limitations": "Arithmetic and identifier presence are machine checks; pedagogical and evidence judgments are recorded in independent-audit.json and audit_report.json."
+}

@@ -1,0 +1,1221 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-16",
+  "created_utc": "2026-11-05T19:04:40.695928+00:00",
+  "status": "passed",
+  "manifest_sha256": "185ea4ac1ed678a574099abdc006808e57d404db078f0f3c42e45b0495f2b1c4",
+  "audited_files": {
+    "course-map.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\course-map.md",
+      "sha256": "f1d4c690ec729eb279e0b8c9e8f3dcc8cd39bd3d993b7c7cbb2d6ae7cf2ed29b"
+    },
+    "lesson-01.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\lesson-01.md",
+      "sha256": "78095acc1aca02a31702eb2bfa5b01f0e63bbea8c1d026971a0dc0b9fc0d5d44"
+    },
+    "lesson-02.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\lesson-02.md",
+      "sha256": "c532d9bc768ba4c271282b4b0b0f8e36d0bfb67205e93c7ba157c87c0fcdd79a"
+    },
+    "lesson-03.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\lesson-03.md",
+      "sha256": "62172f865b541af0bc34671192ac9cdbc75ee85910f696b2a87820867c99831a"
+    },
+    "lesson-04.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\lesson-04.md",
+      "sha256": "63f665ce46013775f89a30ddb8fbcd912901b22385ab80ea5803c1422fecf931"
+    },
+    "lesson-05.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\lesson-05.md",
+      "sha256": "66885930686e47eee4803f82332278e9ad03d082e39ed4187bcdf03bf61dcc6f"
+    },
+    "lesson-06.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\lesson-06.md",
+      "sha256": "63910c03631a6ff274b0fb2dcef969c085dd28c9498f56f19f85f1d72a5c116f"
+    },
+    "lesson-07.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\lesson-07.md",
+      "sha256": "78c9724c72354d8674f710d84354474d93dfec017d83678a7d9ec623514c1df5"
+    },
+    "terminology.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\terminology.md",
+      "sha256": "587c12af611f79225da72f7054021cd2b4581207a1d8125b96245fce3cca9d14"
+    },
+    "teacher-guide.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\teacher-guide.md",
+      "sha256": "5851a5c952a90407b11e288e1df4413d9136f61ce07c7fce58cbf231d50e294b"
+    },
+    "capstone.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\capstone.md",
+      "sha256": "ccb65236d07c6e4b158dfbbed421cd2d745a2a468691cfae4a6e46855e813524"
+    },
+    "sources.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\sources.md",
+      "sha256": "fd8e3a83e4adc66a48fd4761e529d1ac6bc7d7b5ffdb372eaff796fa45149db0"
+    },
+    "sources.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\sources.json",
+      "sha256": "fae3c9e4ba06f3b1ca4b13a7333af5b92c4fd91c085349d606ac9b1517525ac5"
+    },
+    "worked-example-verification.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\worked-example-verification.json",
+      "sha256": "e705f9346eb2947508b1e4d9009997d9a4c271ff71d152f84ba71bb3863a1378"
+    },
+    "verify_examples.py": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\verify_examples.py",
+      "sha256": "3f29bbb24359fe00560997e93c2919bb208d0e620477e95eea1a803e9c9990c9"
+    },
+    "build_records.py": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\build_records.py",
+      "sha256": "fbd7ea969ad68c8f6b84a24f7e425c7a4e1301bcbd657f257db316a93de9f227"
+    },
+    "input-contract.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\input-contract.json",
+      "sha256": "2fac7b394b57096c20b4756aba1749f1914e009d05604d8a8c661d00d84940b0"
+    },
+    "course.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\course.md",
+      "sha256": "cb5470e1d98e9350a09088c69f725aa78b3620d20d0302bfef75a4b4a01e3023"
+    },
+    "audit_report.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\audit_report.json",
+      "sha256": "8ed45c0e105d67c2219e2bf42779a16296e883f048bfad760d5c92eced26f641"
+    },
+    "finalize_records.py": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\finalize_records.py",
+      "sha256": "4f77a83badbcf117057a70e9d3808b4ae8b573f8e433c94e4fa650a06f166bbf"
+    },
+    "completion_report.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\completion_report.json",
+      "sha256": "6d6f9a4d47eb97baf10a9afddb4b13436ce17dc9aa3d6eeaca56a270583b9870"
+    },
+    "manifest.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\manifest.json",
+      "sha256": "185ea4ac1ed678a574099abdc006808e57d404db078f0f3c42e45b0495f2b1c4"
+    },
+    "launch-prompt.md": {
+      "sha256": "5a1fdf652bd3166f7c012f9f857f6b8552c9cf49d782a01bd9d1e71b6a46abf2",
+      "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-16-higgs-yukawa-and-interaction-interfaces/launch-prompt.md"
+    }
+  },
+  "source_hashes": [
+    {
+      "id": "S01",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180"
+    },
+    {
+      "id": "S02",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3"
+    },
+    {
+      "id": "S03",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e"
+    },
+    {
+      "id": "S04",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+      "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2"
+    },
+    {
+      "id": "S05",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+      "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7"
+    }
+  ],
+  "actual_capstone_links": [
+    {
+      "step_id": "C16-CAP-01",
+      "lesson": "lesson-01.md",
+      "locations": {
+        "explanation_id": {
+          "id": "C16.01-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C16.01-W1",
+          "line": 43
+        },
+        "prior_practice_id": {
+          "id": "C16.01-P1",
+          "line": 47
+        },
+        "diagnostic_id": {
+          "id": "C16.01-D1",
+          "line": 57
+        }
+      }
+    },
+    {
+      "step_id": "C16-CAP-02",
+      "lesson": "lesson-02.md",
+      "locations": {
+        "explanation_id": {
+          "id": "C16.02-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C16.02-W1",
+          "line": 19
+        },
+        "prior_practice_id": {
+          "id": "C16.02-P1",
+          "line": 25
+        },
+        "diagnostic_id": {
+          "id": "C16.02-D1",
+          "line": 57
+        },
+        "additional_explanation_id": {
+          "id": "C16.02-E2",
+          "line": 31
+        },
+        "additional_worked_example_id": {
+          "id": "C16.02-W2",
+          "line": 41
+        },
+        "additional_prior_practice_id": {
+          "id": "C16.02-P2",
+          "line": 45
+        },
+        "additional_diagnostic_id": {
+          "id": "C16.02-D2",
+          "line": 58
+        }
+      }
+    },
+    {
+      "step_id": "C16-CAP-03",
+      "lesson": "lesson-03.md",
+      "locations": {
+        "explanation_id": {
+          "id": "C16.03-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C16.03-W1",
+          "line": 19
+        },
+        "prior_practice_id": {
+          "id": "C16.03-P1",
+          "line": 23
+        },
+        "diagnostic_id": {
+          "id": "C16.03-D1",
+          "line": 33
+        }
+      }
+    },
+    {
+      "step_id": "C16-CAP-04",
+      "lesson": "lesson-04.md",
+      "locations": {
+        "explanation_id": {
+          "id": "C16.04-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C16.04-W1",
+          "line": 25
+        },
+        "prior_practice_id": {
+          "id": "C16.04-P1",
+          "line": 29
+        },
+        "diagnostic_id": {
+          "id": "C16.04-D1",
+          "line": 39
+        }
+      }
+    },
+    {
+      "step_id": "C16-CAP-05",
+      "lesson": "lesson-05.md",
+      "locations": {
+        "explanation_id": {
+          "id": "C16.05-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C16.05-W1",
+          "line": 19
+        },
+        "prior_practice_id": {
+          "id": "C16.05-P1",
+          "line": 23
+        },
+        "diagnostic_id": {
+          "id": "C16.05-D1",
+          "line": 33
+        }
+      }
+    },
+    {
+      "step_id": "C16-CAP-06",
+      "lesson": "lesson-06.md",
+      "locations": {
+        "explanation_id": {
+          "id": "C16.06-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C16.06-W1",
+          "line": 21
+        },
+        "prior_practice_id": {
+          "id": "C16.06-P1",
+          "line": 32
+        },
+        "diagnostic_id": {
+          "id": "C16.06-D1",
+          "line": 42
+        }
+      }
+    },
+    {
+      "step_id": "C16-CAP-07",
+      "lesson": "lesson-07.md",
+      "locations": {
+        "explanation_id": {
+          "id": "C16.07-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C16.07-W1",
+          "line": 27
+        },
+        "prior_practice_id": {
+          "id": "C16.07-P1",
+          "line": 33
+        },
+        "diagnostic_id": {
+          "id": "C16.07-D1",
+          "line": 45
+        }
+      }
+    }
+  ],
+  "repair_locations": {
+    "lesson-02": [
+      {
+        "text": "Explain why transforming a covector by ℓU⁻¹ preserves evaluation",
+        "lines": [
+          47
+        ]
+      },
+      {
+        "text": "Practice explanation answer:",
+        "lines": [
+          51
+        ]
+      },
+      {
+        "text": "(ℓU⁻¹)(Uv)=ℓ(U⁻¹U)v=ℓv",
+        "lines": [
+          51
+        ]
+      },
+      {
+        "text": "when det U=1 its coefficient relative to Ω is unchanged",
+        "lines": [
+          51
+        ]
+      }
+    ],
+    "lesson-07": [
+      {
+        "text": "write one sentence distinguishing its compiler authority and global-form status",
+        "lines": [
+          35
+        ]
+      },
+      {
+        "text": "Source-scope practice answer:",
+        "lines": [
+          41
+        ]
+      },
+      {
+        "text": "not automatically backbone M12",
+        "lines": [
+          41
+        ]
+      },
+      {
+        "text": "Z1,Z2,Z3,Z6",
+        "lines": [
+          39,
+          41
+        ]
+      }
+    ]
+  },
+  "runtime": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+  "verifier_path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-series-source-auditor\\work\\audit_course16.py",
+  "verifier_sha256": "106382b2cf619d8cc8f7e5d8b34bba53430c135170dd05af0f979376b37c9cf6",
+  "arithmetic": "Fraction real/imaginary coordinates and exact sparse exterior algebra; no floating-point tolerance",
+  "independence": "New auditor-owned exterior, contraction, induced-action and rational algorithms; no builder/parent calculation functions imported or executed",
+  "check_count": 836,
+  "checks_by_group": {
+    "integrity": 95,
+    "source-contract": 12,
+    "actual-links": 39,
+    "practice-repairs": 8,
+    "charges-types": 17,
+    "exterior": 13,
+    "covariance": 594,
+    "negative-controls": 2,
+    "vacuum": 10,
+    "mass": 20,
+    "yukawa-map": 9,
+    "energy": 11,
+    "actual-table": 4,
+    "rubric": 2
+  },
+  "failures": [],
+  "results": {
+    "sector_rows": [
+      {
+        "sector": "nu^c",
+        "degree": [
+          0,
+          0
+        ],
+        "charge": 0,
+        "hypercharge": "0"
+      },
+      {
+        "sector": "e^c",
+        "degree": [
+          0,
+          2
+        ],
+        "charge": 6,
+        "hypercharge": "1"
+      },
+      {
+        "sector": "Q",
+        "degree": [
+          1,
+          1
+        ],
+        "charge": 1,
+        "hypercharge": "1/6"
+      },
+      {
+        "sector": "u^c",
+        "degree": [
+          2,
+          0
+        ],
+        "charge": -4,
+        "hypercharge": "-2/3"
+      },
+      {
+        "sector": "d^c",
+        "degree": [
+          2,
+          2
+        ],
+        "charge": 2,
+        "hypercharge": "1/3"
+      },
+      {
+        "sector": "L",
+        "degree": [
+          3,
+          1
+        ],
+        "charge": -3,
+        "hypercharge": "-1/2"
+      }
+    ],
+    "interface_routes": {
+      "up": {
+        "charges": [
+          -4,
+          1,
+          3
+        ],
+        "degrees": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "final": [
+          3,
+          2
+        ]
+      },
+      "neutrino": {
+        "charges": [
+          0,
+          -3,
+          3
+        ],
+        "degrees": [
+          [
+            0,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "final": [
+          3,
+          2
+        ]
+      },
+      "down": {
+        "charges": [
+          1,
+          -3,
+          2
+        ],
+        "contracted_from": [
+          2,
+          2
+        ],
+        "contracted_to": [
+          2,
+          1
+        ],
+        "outer_degree": [
+          1,
+          1
+        ],
+        "final": [
+          3,
+          2
+        ]
+      },
+      "electron": {
+        "charges": [
+          -3,
+          -3,
+          6
+        ],
+        "contracted_from": [
+          0,
+          2
+        ],
+        "contracted_to": [
+          0,
+          1
+        ],
+        "outer_degree": [
+          3,
+          1
+        ],
+        "final": [
+          3,
+          2
+        ]
+      }
+    },
+    "four_scalars": {
+      "up": "1",
+      "neutrino": "1",
+      "down": "1",
+      "electron": "1"
+    },
+    "exterior_cases": {
+      "down_contraction": [
+        {
+          "slots": [
+            0,
+            1,
+            4
+          ],
+          "coefficient": "1"
+        }
+      ],
+      "down_input_order": [
+        2,
+        3,
+        0,
+        1,
+        4
+      ],
+      "down_swaps": 4,
+      "repeated_neutrino_scalar": 0,
+      "negative_up": -1,
+      "negative_neutrino": -1,
+      "wrong_dual_down": -1,
+      "wrong_dual_electron": -1
+    },
+    "covariance_checks": [
+      {
+        "label": "weak-phase",
+        "matrix": [
+          [
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            "(0,1i)",
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            "(0,-1i)"
+          ]
+        ],
+        "inverse": [
+          [
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "(0,-1i)",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "(0,1i)"
+          ]
+        ],
+        "exterior_basis_size": 32,
+        "covector_basis_size": 5,
+        "contraction_covariance_cases": 160,
+        "inverse_cases": 32,
+        "interface_scalars": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "mismatches": 0
+      },
+      {
+        "label": "color-phase",
+        "matrix": [
+          [
+            "(0,1i)",
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            "(0,-1i)",
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "inverse": [
+          [
+            "(0,-1i)",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "(0,1i)",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "exterior_basis_size": 32,
+        "covector_basis_size": 5,
+        "contraction_covariance_cases": 160,
+        "inverse_cases": 32,
+        "interface_scalars": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "mismatches": 0
+      },
+      {
+        "label": "auditor-nondiagonal-rational-blocks",
+        "matrix": [
+          [
+            "3/5",
+            "-4/5",
+            0,
+            0,
+            0
+          ],
+          [
+            "4/5",
+            "3/5",
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            "5/13",
+            "-12/13"
+          ],
+          [
+            0,
+            0,
+            0,
+            "12/13",
+            "5/13"
+          ]
+        ],
+        "inverse": [
+          [
+            "3/5",
+            "4/5",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "-4/5",
+            "3/5",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "5/13",
+            "12/13"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "-12/13",
+            "5/13"
+          ]
+        ],
+        "exterior_basis_size": 32,
+        "covector_basis_size": 5,
+        "contraction_covariance_cases": 160,
+        "inverse_cases": 32,
+        "interface_scalars": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "mismatches": 0
+      }
+    ],
+    "vacua": [
+      {
+        "v": 0,
+        "vacuum_sqrt2_coefficients": [
+          0,
+          "0"
+        ],
+        "squared_norm": 0,
+        "charge_output": [
+          0,
+          0
+        ],
+        "units": "vacuum mu; squared norm mu^2"
+      },
+      {
+        "v": 2,
+        "vacuum_sqrt2_coefficients": [
+          0,
+          "1"
+        ],
+        "squared_norm": 2,
+        "charge_output": [
+          0,
+          0
+        ],
+        "units": "vacuum mu; squared norm mu^2"
+      },
+      {
+        "v": 4,
+        "vacuum_sqrt2_coefficients": [
+          0,
+          "2"
+        ],
+        "squared_norm": 8,
+        "charge_output": [
+          0,
+          0
+        ],
+        "units": "vacuum mu; squared norm mu^2"
+      },
+      {
+        "v": 6,
+        "vacuum_sqrt2_coefficients": [
+          0,
+          "3"
+        ],
+        "squared_norm": 18,
+        "charge_output": [
+          0,
+          0
+        ],
+        "units": "vacuum mu; squared norm mu^2"
+      }
+    ],
+    "masses": [
+      {
+        "g2": "3",
+        "gY": "4",
+        "v": "2",
+        "mW_squared": "9",
+        "mZ_squared": "25",
+        "cosine_squared": "9/25",
+        "rho_denominator": "9",
+        "rho": "1",
+        "positive_masses": [
+          3,
+          5
+        ]
+      },
+      {
+        "g2": "4",
+        "gY": "3",
+        "v": "2",
+        "mW_squared": "16",
+        "mZ_squared": "25",
+        "cosine_squared": "16/25",
+        "rho_denominator": "16",
+        "rho": "1",
+        "positive_masses": [
+          4,
+          5
+        ]
+      },
+      {
+        "g2": "4",
+        "gY": "3",
+        "v": "4",
+        "mW_squared": "64",
+        "mZ_squared": "100",
+        "cosine_squared": "16/25",
+        "rho_denominator": "64",
+        "rho": "1",
+        "positive_masses": [
+          8,
+          10
+        ]
+      },
+      {
+        "g2": "4",
+        "gY": "3",
+        "v": "0",
+        "mW_squared": "0",
+        "mZ_squared": "0",
+        "cosine_squared": "16/25",
+        "rho_denominator": "0",
+        "rho": null
+      },
+      {
+        "g2": "0",
+        "gY": "3",
+        "v": "2",
+        "mW_squared": "0",
+        "mZ_squared": "9",
+        "cosine_squared": "0",
+        "rho_denominator": "0",
+        "rho": null
+      },
+      {
+        "g2": "0",
+        "gY": "0",
+        "v": "2",
+        "mW_squared": "0",
+        "mZ_squared": "0",
+        "cosine_squared": null,
+        "rho_denominator": null,
+        "rho": null
+      }
+    ],
+    "yukawa": {
+      "worked_matrix": [
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "worked_input": [
+        2,
+        -1
+      ],
+      "worked_output": [
+        0,
+        -3
+      ],
+      "practice_matrix": [
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "practice_input": [
+        1,
+        2
+      ],
+      "practice_output": [
+        2,
+        3
+      ],
+      "swap": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "swapped_matrix": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "swapped_input": [
+        2,
+        1
+      ],
+      "swapped_output": [
+        3,
+        2
+      ],
+      "wrong_unswapped_input_output": [
+        3,
+        4
+      ],
+      "worked_L5_normalization": "v=sqrt2 mu gives M=Y mu and Mf=(0,-3) mu",
+      "contract_L7_normalization": "v=2 mu gives M=sqrt2 Y mu and worked Mf=(0,-3 sqrt2) mu",
+      "capstone_normalization": "v=2 mu gives Mf=(2 sqrt2,3 sqrt2) mu",
+      "coordinate_change_residual": [
+        0,
+        0
+      ]
+    },
+    "energy_ledgers": [
+      {
+        "case": "W1",
+        "labels": [
+          "A",
+          "B",
+          "C"
+        ],
+        "before": [
+          5,
+          2,
+          1
+        ],
+        "after": [
+          4,
+          4,
+          1
+        ],
+        "changes": [
+          -1,
+          2,
+          0
+        ],
+        "total_before": 8,
+        "total_after": 9,
+        "net_change": 1,
+        "prediction": "4/5",
+        "retained_model_residual": "1/5",
+        "reconstructed_change": "1",
+        "units": "epsilon",
+        "external_transfer": null,
+        "elapsed_time": null,
+        "event_definition": null,
+        "dynamics": null
+      },
+      {
+        "case": "P1-CAP06",
+        "labels": [
+          "A",
+          "B",
+          "C"
+        ],
+        "before": [
+          3,
+          1,
+          2
+        ],
+        "after": [
+          2,
+          1,
+          1
+        ],
+        "changes": [
+          -1,
+          0,
+          -1
+        ],
+        "total_before": 6,
+        "total_after": 4,
+        "net_change": -2,
+        "prediction": "-3/2",
+        "retained_model_residual": "-1/2",
+        "reconstructed_change": "-2",
+        "units": "epsilon",
+        "external_transfer": null,
+        "elapsed_time": null,
+        "event_definition": null,
+        "dynamics": null
+      }
+    ],
+    "supplied_transfer_diagnostic": {
+      "net_change": -2,
+      "additional_transfer": "-9/5",
+      "balance_residual": "-1/5",
+      "separate_model_residual": "-1/2",
+      "status": "Hypothetical additional input; not present in the core practice ledger"
+    }
+  },
+  "title": "Independent exact verification: Course16 Higgs, Yukawa, and Interaction Interfaces",
+  "observed_structure": {
+    "kind": "Reviewed authored course artifacts and pinned source records; classroom numerical examples are explicitly synthetic.",
+    "empirical_measurement_dataset": null
+  },
+  "general_covariance_argument_review": {
+    "premise": "U is an invertible block action on the color-first C3 direct-sum W2 carrier, with det U=1; for the Hermitian-dual identification used by the course, U is unitary.",
+    "evaluation": "For each vector v, (ell U^-1)(Uv)=ell v.",
+    "contraction": "In the alternating deleted-slot definition, each contracted evaluation is unchanged and every remaining vector receives U. Therefore i_(ell U^-1)(Lambda^k U a)=Lambda^(k-1) U(i_ell a).",
+    "top_form": "Wedge products transform under the induced exterior action. The final degree-(3,2) top form gains det U=1, so its coefficient relative to the fixed Omega is unchanged.",
+    "boundary": "This algebraic argument, not charge cancellation or a few diagonal examples alone, supports general covariance on the stated action domain. The exact numerical tests separately cover three specified matrices, including a non-diagonal block rotation."
+  },
+  "input_and_output_conventions": {
+    "basis": [
+      "c1",
+      "c2",
+      "c3",
+      "w1",
+      "w2"
+    ],
+    "basis_indices": "0..4 in this same order",
+    "top_form": "Omega=c1 wedge c2 wedge c3 wedge w1 wedge w2",
+    "scalar_extraction": "Omega^-1 means the coefficient of this ordered top form, not a reciprocal numerical amplitude.",
+    "charge": "q=-2r+3s; Y_h=q/6. The weak Hermitian-dual covector has q=-3 but is not assigned an exterior degree.",
+    "gaussian_serialization": "Real rational strings are exact; (a,bi) represents a+b*i. Sparse exterior basis entries use zero-based slots.",
+    "radical_serialization": "vacuum_sqrt2_coefficients multiply sqrt(2); mass-map radicals are stated symbolically, never rounded.",
+    "units": {
+      "amplitudes": "synthetic dimensionless structural coefficients",
+      "vacuum_and_mass": "mu",
+      "mass_squared": "mu^2",
+      "couplings_and_yukawa_coefficients": "dimensionless",
+      "energy": "epsilon",
+      "action": "energy times time"
+    }
+  },
+  "verification_scope": {
+    "tests": 836,
+    "finite_covariance": "For each of three specific unitary determinant-one block matrices: all 32 exterior basis blades, all 5 covector basis elements, 160 contraction covariance cases, 32 inverse-action cases, top-form and four-interface checks. The non-diagonal rational rotation is an auditor-only extension, not an extra student requirement.",
+    "undefined_domains": "rho=null denotes undefined, not zero; both-couplings-zero also makes cosine-squared undefined.",
+    "independence": "New auditor-owned exterior, contraction, induced-action and rational algorithms; no builder/parent calculation functions imported or executed",
+    "source_claims": "M12 source status and Safe Agda certificate claims remain attributed; neither full kinetic-term derivation nor full compiler closure was executed."
+  },
+  "integration_provenance": {
+    "retrieval": "Fresh read-only Krytronx project RAG sparse search, rerank=false; selected source excerpts inspected, not a complete corpus review.",
+    "corpus_generation": "sha256:5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+    "manifest_sha256": "5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+    "rag_index_sha256": "aca56e6b5b2b717459cea9790e6142ea9e8058f74d135710906926e9065ad54a",
+    "sources": [
+      {
+        "logical_path": "kfield_standard_model/project_record.json",
+        "sha256": "3800c854da827a64e72507722904bcafab07a31e88f2bc73920a8e7f62f62c1c",
+        "locator": {
+          "end_line_inclusive": 142,
+          "kind": "lines",
+          "start_line": 1
+        },
+        "object_id": "ragobj:66f227dde0830ee67ec6225f58676e0a9720e8c496c56496f10651bfcb3c7572",
+        "chunk_id": "ragchunk:652038a03809b0c0a74e1cdd51fe8fbe4564d05dbf3916ca1e0dfeb9f2a8573e"
+      },
+      {
+        "logical_path": "kfield_standard_model/evidence/p12_standard_model_compiler_adjudication_report.json",
+        "sha256": "a3dfca0e55e525c6522c3088b95e5bcc048c141fce340bfe980fcfc14123220a",
+        "locator": {
+          "end_line_inclusive": 101,
+          "kind": "lines",
+          "start_line": 1
+        },
+        "object_id": "ragobj:8539daf4cdda9c1c7d0666326b9ab394057e802a8dde351c45e283a7ad70ad09",
+        "chunk_id": "ragchunk:43bdac5e9a571cbb34cf44f9e74a42a0ec9d32dbc72d3e521427d3fac382e4f6"
+      }
+    ],
+    "digest_scope": "Integration source hashes are returned by the source retrieval service, not independently calculated local byte hashes. Local S01-S05 hashes were freshly calculated.",
+    "interpretation": "The source reports direct authority for compiler M03/M07/M08 and admits Z1/Z2/Z3/Z6 without selecting a unique global form. These compiler identifiers are a distinct namespace from the mathematical-backbone M12 used by this course.",
+    "m12_replay": "The adjudication source lists the rho rational identity and four vanishing Yukawa charge sums as known-science replay. That record is not fresh compiler execution by this auditor and does not replace the course's explicit contractions.",
+    "fresh_agda_execution": false
+  },
+  "fresh_project_validation": {
+    "canonical_output_root": "Z:\\Kfield-doc-training\\K-Field_Training_Course",
+    "checks": [
+      "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+      "parsed manifest.json",
+      "parsed audit_report.json",
+      "parsed completion_report.json",
+      "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+    ],
+    "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces",
+    "errors": [],
+    "schema_version": "1.0",
+    "status": "passed",
+    "storage_authority": "User explicitly authorized project-folder outputs, 2026-11-05",
+    "validator_path": "C:\\Users\\info\\.codex\\skills\\build-high-school-course\\scripts\\validate_course.py",
+    "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+    "exit_code": 0,
+    "adapter": {
+      "sha256": "3fdba74f7ac1430208a4e652200026dc98988f607f60fc928bda65d5857cc745",
+      "path": "Z:/Kfield-doc-training/.work/validate_project_course.py"
+    },
+    "fixture_mode": false,
+    "override": "Only CANONICAL_OUTPUT_ROOT; all installed content/integrity checks remain active."
+  },
+  "environment_note": "Conda emitted an OpenCL vendors/temp.txt startup warning; exact stdlib-only verification and validator both returned exit 0. No GPU computation or package changes were required.",
+  "limitations": [
+    "Exact finite calculation and source-fidelity review, not a measurement acquisition or parameter inference.",
+    "No fresh Agda/Safe compiler run, variational dynamics, full quantum-field derivation, or experimental validation.",
+    "No classroom trial; pacing assessed from authored operations and teacher guidance."
+  ],
+  "source_files_copied": false,
+  "course_or_parent_files_modified": false
+}

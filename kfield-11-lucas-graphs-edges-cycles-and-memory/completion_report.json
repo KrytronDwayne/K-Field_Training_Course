@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "status": "complete",
+  "topic": "Lucas Graphs: Edges, Cycles, and Memory",
+  "audience": "High-school seniors; first-principles teaching, with concrete prerequisite capabilities and taught bridges.",
+  "assumptions": [
+    "A topical short course, not a semester per topic. Pacing is 55-minute core lessons plus capstone periods; split dense lessons if actual learner load requires it.",
+    "No prior calculus, abstract algebra, university linear algebra, or quantum mechanics unless explicitly taught earlier.",
+    "Required core assessments must be solvable with taught finite examples. Clearly label deeper recognition-only extensions.",
+    "Markdown is the delivery format; no PDF or Word generation is required.",
+    "All classroom flow values are dimensionless synthetic inputs; exact real/rational graph algebra is the assessed domain.",
+    "Source AUD-002 is retained as global serialization scope boundary, not claimed repaired.",
+    "Nine core 55-minute periods plus two capstone periods preserve approved lesson IDs and pacing."
+  ],
+  "outputs": [
+    "course-map.md",
+    "lesson-01.md",
+    "lesson-02.md",
+    "lesson-03.md",
+    "lesson-04.md",
+    "lesson-05.md",
+    "lesson-06.md",
+    "terminology.md",
+    "teacher-guide.md",
+    "capstone.md",
+    "sources.md",
+    "source-provenance.json",
+    "verify_examples.py",
+    "worked-example-verification.json",
+    "independent-content-audit.json",
+    "finalize_course.py",
+    "course.md",
+    "audit_report.json",
+    "completion_report.json"
+  ],
+  "audit_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "hashes": {
+    "course-map.md": "b4dd87c93720f70d3cae696ec7d87ba617e4867934513ce09ac8c498b1da104c",
+    "lesson-01.md": "15e7b66d1189c5da952b3fc9044359fe1946f0fac152e2c91264ae9851e811b4",
+    "lesson-02.md": "92826abc79c495192a0e17c53e2261f44a155ce42a066abe1867687732d38fa7",
+    "lesson-03.md": "cf772af167da4e0c6571fa95bf634ca4ec32a38c1289f6afa82a05b55808c3af",
+    "lesson-04.md": "012a6190c1a163b5ccfdf312398c4b4dd09698568ae38a72fa6b447ec996d62e",
+    "lesson-05.md": "864dead6cda6423a1dc729927eca62bfde57021892e4e92578925c05668502fa",
+    "lesson-06.md": "193a80457ea115f13e5306887822c9bea7c83f8c4ec57d58fc9f4c7bc8c520bb",
+    "terminology.md": "a1d6953ce3025251b8943d05109916ff0fbe00edd615be1ad0b05f51766270dd",
+    "teacher-guide.md": "f3bac04b56a5fbdbabd9db6c210982da44f60808d81d3ccd953a9be2d18aa681",
+    "capstone.md": "4125ffefce9fe31afca733513e5dce9cf15430203f70fe5816baefc812e28400",
+    "sources.md": "d340500632b312b547837c3b0401709c778b1dcfcc73a2bdfb1a8a8d4a850f8a",
+    "source-provenance.json": "382d7374d5842f4f7c1436564e3ff6ece4d9006296de94250cd0ccd717667c28",
+    "verify_examples.py": "7a262ca516064079ab2bff872ba71b3be95effd8bc692e592408d62024b722c2",
+    "worked-example-verification.json": "d46b2227b62c79ea192f0a725ef4d3d485735856c1632ae2784868219e8d4981",
+    "independent-content-audit.json": "51b597ce1dcf48377233d1823b1fa16804614a3ea6431b3ff42567557b8ab5c6",
+    "finalize_course.py": "43ee1c1d4559d3a4a85311467f37308037403d9a5dded57f1261a68756d5942b",
+    "course.md": "a64730db4b1395ff95d5912736ac8157b83c9c3ff2f59fba710c033a9828364b",
+    "audit_report.json": "60aa3a554e511f9af3d579d35c11b280c1feb16f60278c961b3942b4bd6d630d",
+    "manifest.json": "5d05ec34a07727e52baefa7b776e30cb29411b8cbcb8e63a2f2478f614829e72"
+  },
+  "source_gaps": [
+    "No finite-core retrieval gap. Global formula-DAG closure and exceptional/dynamical extensions remain outside certification."
+  ],
+  "lesson_count": 6,
+  "validator": {
+    "command": "validate_project_course.py COURSE_DIRECTORY --json",
+    "result": "passed; exit 0; see validator-result.json"
+  }
+}

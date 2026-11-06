@@ -1,0 +1,1 @@
+Canonical series output directory created and writable.

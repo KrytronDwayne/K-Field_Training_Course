@@ -1,0 +1,54 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Lesson 1: From faces to dimensionless ratios · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/8">Course 08</a><span>/</span><span>lesson 01</span></div><a class="original" href="../../../kfield-08-face-area-ratios-and-the-k-field-mass-bridge/lesson-01.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#lesson-1-from-faces-to-dimensionless-ratios">Lesson 1: From faces to dimensionless ratios</a><a href="#c0801-e1-labels-before-division">C08.01-E1 — Labels before division</a><a href="#c0801-w1-a-fully-labeled-synthetic-box">C08.01-W1 — A fully labeled synthetic box</a></nav></details><details class="course-nav" open><summary>In this course</summary><a aria-current=page href="lesson-01.html">Lesson 1: From faces to dimensionless ratios</a><a  href="lesson-02.html">Lesson 2: What uniform scaling leaves unchanged</a><a  href="lesson-03.html">Lesson 3: The eta and alpha constructions</a><a  href="lesson-04.html">Lesson 4: Locked and historical numerical branches</a><a  href="lesson-05.html">Lesson 5: Geometry, calibration, and interpretation</a><a  href="lesson-06.html">Lesson 6: Sensitivity and retained numerical closure</a></details></aside><div class="reading-column"><article class="prose"><h1 id="lesson-1-from-faces-to-dimensionless-ratios" tabindex="-1">Lesson 1: From faces to dimensionless ratios</h1>
+<p>Essential question: What information does a face-area ratio keep, and what must we retain to recover size?</p>
+<p>Goals</p>
+<ul>
+<li>Compute a ray in bc/ac/ab order.</li>
+<li>Reconstruct all three areas from the ray and its labeled divisor.</li>
+<li>Explain why an area ray does not specify a unique spatial cell.</li>
+</ul>
+<p>Pacing: 55 minutes — retrieval 5; explanation and worked example 20; guided practice 15; diagnostics and repair 15.</p>
+<p>Prerequisite bridge</p>
+<p>Courses 03 and 07 supply labeled geometry and arithmetic. Here the needed entry skills are multiplying two lengths to find a rectangular area and simplifying a fraction. Check: 3 times 4 is 12; 8/12 reduces to 2/3 by dividing numerator and denominator by 4. If either operation is uncertain, repeat with 6/9 before proceeding.</p>
+<h2 id="c0801-e1-labels-before-division" tabindex="-1">C08.01-E1 — Labels before division</h2>
+<p>Imagine a classroom box with three perpendicular edges named a, b, and c. The face meeting b and c is called bc; the other two face types are ac and ab. Write their areas as A_bc, A_ac, and A_ab. A is a name for area, and its subscript identifies the face. If a length unit is U, area uses U²: a square U by U. Cell3 faces need not be rectangles. In this course their areas are supplied, so no angle formula or vector operation is needed.</p>
+<p>An ordered triple is a list whose positions have declared meanings. We always use (A_bc,A_ac,A_ab). A positive area ray is the collection of all positive common multiples of one such triple. For example, (12,8,6) and (18,12,9) belong to one ray because the second is 3/2 times the first. The order still matters.</p>
+<p>To normalize, divide each entry by the positive first area. This produces r=(1,A_ac/A_bc,A_ab/A_bc). The symbol r names the normalized area ray. Each quotient has units U²/U²=1, so it is dimensionless. The first entry is always 1; only the other two entries can vary independently. This determines the area triple up to one common multiplier. It does not determine all angles, edge directions, or a unique basis in space. In the source's phrase “projective shape,” the scope here is the projective <strong>area</strong> triple; a spatial reconstruction needs additional geometric assumptions.</p>
+<p>Normalizing without retaining A_bc loses the absolute size. We therefore keep the pair (A_bc,r), including the unit and labels. The reconstruction rule is (A_bc,A_ac,A_ab)=A_bc times r, meaning multiply every component by the retained area.</p>
+<h2 id="c0801-w1-a-fully-labeled-synthetic-box" tabindex="-1">C08.01-W1 — A fully labeled synthetic box</h2>
+<p>Take a=2 U, b=3 U, c=4 U, mutually perpendicular. Its areas are bc=3×4=12 U², ac=2×4=8 U², ab=2×3=6 U². Normalize: 12/12=1, 8/12=2/3, 6/12=1/2. Thus r=(1,2/3,1/2), with divisor 12 U². Reconstruction gives 12×1=12, 12×2/3=8, and 12×1/2=6 U². Every original component is recovered.</p>
+<blockquote>
+<p>Claim scope: This is a synthetic orthogonal box, not Cell3 or a measurement. The ray definition is S02#/backbone_sequence/4/definitions. Source paths and verified hashes are in sources.md. Source Cell3 uses an ordered basis with a negative determinant; positive face-area magnitudes do not encode that orientation.</p>
+</blockquote>
+<p>Guided practice — C08.01-P1</p>
+<p>Normalize (18,12,9) U², keep the divisor, and reconstruct. Work before reading the answer. <strong>Answer:</strong> dividing by 18 U² gives (1,2/3,1/2). Multiplying that ray by 18 U² gives (18,12,9) U². The normalized shape matches W1, while each area is 3/2 as large. The divisor distinguishes them.</p>
+<p>Diagnostic checks</p>
+<ol>
+<li>
+<p><strong>C08.01-D1</strong> Swap ac and ab in W1 while retaining the declared order. What ray results?</p>
+</li>
+<li>
+<p><strong>C08.01-D2</strong> Normalize (15,10,5) U² and reconstruct it.</p>
+</li>
+<li>
+<p><strong>C08.01-D3</strong> Can (1,2/3,1/2) alone tell you A_bc or the cell angles?</p>
+</li>
+<li>
+<p><strong>C08.01-D4</strong> Why must A_bc be positive in this course?</p>
+</li>
+</ol>
+<p>Worked diagnostic answers</p>
+<ol>
+<li>
+<p>The input becomes (12,6,8), so r=(1,1/2,2/3); this differs from W1.</p>
+</li>
+<li>
+<p>Dividing by 15 gives (1,2/3,1/3). Retain 15 U²; multiplying returns (15,10,5) U².</p>
+</li>
+<li>
+<p>No. Any positive divisor supplies a possible size, and the ray contains no complete angle specification.</p>
+</li>
+<li>
+<p>Zero would make division undefined; negative values would not be positive face-area magnitudes. The positivity contract also makes every later reciprocal defined.</p>
+</li>
+</ol>
+<p>Next dependency: <a href="lesson-02.html">lesson-02</a>. Carry the labeled input triple, divisor, source role, and retained differences forward.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><span></span><a class="button" href="lesson-02.html">Next lesson →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/8">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

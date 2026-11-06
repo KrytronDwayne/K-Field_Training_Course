@@ -1,0 +1,61 @@
+[
+  {
+    "source_path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-course-02\\K-Field_Training_Course\\kfield-02-mathematical-tools-units-vectors-and-coordinates\\restart-checkpoint.json",
+    "sha256": "d725d9de30e41f0cf8188b817c16137895d1b90e88a6f82bab9e61dea50db699",
+    "checkpoint": {
+      "status": "stopped_in_progress",
+      "restart_requires": "Explicit parent instruction following new user approval",
+      "output_directory": "C:/Users/info/Documents/Codex/2026-11-05/kfield-course-02/K-Field_Training_Course/kfield-02-mathematical-tools-units-vectors-and-coordinates",
+      "workspace": "C:/Users/info/Documents/Codex/2026-11-05/kfield-course-02",
+      "drafted_files": [
+        "lesson-01.md",
+        "lesson-02.md",
+        "lesson-03.md",
+        "lesson-04.md",
+        "lesson-05.md",
+        "lesson-06.md",
+        "lesson-07.md",
+        "capstone.md",
+        "course-map.md",
+        "terminology.md",
+        "teacher-guide.md"
+      ],
+      "recovery_files": [
+        "input-contract.json",
+        "manifest.json",
+        "audit_report.json",
+        "completion_report.json"
+      ],
+      "completed_checks": [
+        "Required skills, methodology, rubric and validator schema read",
+        "S01-S05 local SHA256 values match input contract",
+        "S02 required typed_conventions basis and metric_symbols read",
+        "Independent seven-lesson audit recomputed all examples: zero critical/major, two minor clarifications",
+        "Both minor clarifications repaired: dimensionless diagnostic directions and magnitude wording",
+        "tf_gpu_env sys.executable verified",
+        "Ordinary workspace write verified"
+      ],
+      "unfinished_steps": [
+        "Refresh manifest hashes after minor lesson edits; existing manifest has drafted statuses and older hashes for edited lessons",
+        "Finish compact sources.md and source-records.json; no archival snapshots",
+        "Author and execute standard-library synthetic arithmetic verification",
+        "Audit capstone and supporting materials independently",
+        "Fix glossary table magnitude row containing unescaped vertical bars",
+        "Assemble course.md with exact lesson markers",
+        "Produce actual local/cumulative/final audit records; initialized audit_report still in_progress",
+        "Finalize dependency graph, checkpoint statuses and completion hashes only after checks",
+        "Run location-only validator adapter without fixture mode and record actual result"
+      ],
+      "pending_findings": [
+        "Minor glossary Markdown row: |v| contains unescaped pipe characters and needs table-safe wording",
+        "Source-generation limitation: capabilities response exposes application digest, not supplied corpus-generation digest; record precisely without claiming verification"
+      ],
+      "validator_status": "NOT RUN; original hardcoded Desktop root superseded by user-authorized location-only adapter",
+      "validator_adapter": "Z:/Kfield-doc-training/.work/validate_project_course.py",
+      "validator_output_root": "C:/Users/info/Documents/Codex/2026-11-05/kfield-course-02/K-Field_Training_Course",
+      "pending_command": null,
+      "source_data_copied": false,
+      "notes": "No course completion claimed. All teaching artifacts remain drafted. Independent lesson auditor finished; no active child work known. No further production until explicit restart."
+    }
+  }
+]

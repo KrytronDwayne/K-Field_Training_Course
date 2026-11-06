@@ -1,0 +1,937 @@
+{
+  "schema": "kfield-series-source-final-audit-v1",
+  "created_utc": "2026-11-05T20:57:01Z",
+  "status": "passed_after_narrow_wording_recheck",
+  "eligible_for_series_acceptance": true,
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "snapshot_utc": "2026-11-05T20:54:47.014437+00:00",
+  "audit_type": "independent final whole-series source and coverage review",
+  "root": "Z:/Kfield-doc-training/K-Field_Training_Course",
+  "course_count": 30,
+  "lesson_count": 205,
+  "scope": {
+    "completed": "Coverage and prerequisites, source authority and corrections, cross-course convention boundaries, guides/pacing, current artifact integrity and thirty fresh validators.",
+    "not_claimed": "Not a new full pedagogical/numerical review of every one of the 205 lessons. Not a fresh remote corpus, compiler, complete certificate, original acquisition or classroom validation.",
+    "personally_read_this_final_pass": [
+      "Entire START-HERE.md, TEACHING-PATHWAYS.md, series-map.md, teaching-pathways.json, educational-amendments.json and source-registry.json.",
+      "All thirty ledger entries, parent acceptance records, independent reports, manifests and completion records parsed; selected report scope/findings/limitations/source-boundary fields reread, with reliance explicitly retained.",
+      "Selected actual instructional paragraphs across all thirty courses, including the 150 paragraph-read records in the companion verification; searches are discovery aids, not full-lesson review claims.",
+      "Additional direct passages: C21 lesson04 mass boundary; complete C22 lesson04 and the lesson06 conditional-expectation/product passage; C26 lesson07 all-row ledger and independence guard; C27 complete lesson07 and certificate/precision passage of lesson06; C28 dual-parity and Clear-zero teaching; C29 origin/units and skew-distance counterexample; C03 teacher-guide pacing and validation links.",
+      "Source-coverage historical findings and application recheck. E11-SOURCE was corrected at source-packet application stage; final C29 teaching is supported separately by its accepted full-course review.",
+      "Narrow follow-up: reread full current C27 lesson07, corrected T35 source paragraph, current parent acceptance and independent repair record; inspected manage.py assembly/recovery logic without executing it."
+    ],
+    "prior_work_in_this_task": [
+      "Earlier independent full-course reviews personally performed for C01,C05,C06,C07,C11,C14,C16,C19,C21,C24,C26,C30, bounded by their saved audit scopes.",
+      "Earlier C26 independent verification checked all fourteen signed source rows, model-energy boundaries and local/remote parsed-value comparisons. Those numerical checks are not represented as freshly repeated by the final structural verifier.",
+      "Earlier C30 review and narrow repair verification checked completed research design versus performed validation."
+    ],
+    "relied_on": "The other accepted full-course independent reviews, including parent independent-content audits, support detailed lesson practice, assessment, arithmetic and complete source-card coverage outside the current selected rereads. Their exact hashes and original findings/parent corrections are retained in the companion verification.",
+    "writes": "Only auditor-owned work files and these outputs. No source/course/project/Desktop changes, source dataset copies, package changes, escalation, new tasks or new remote calls."
+  },
+  "entry_gate": {
+    "status": "passed_current_snapshot",
+    "all_thirty_parent_acceptances": "accepted with zero recorded unresolved counts",
+    "fresh_validators_passed": 30,
+    "fixture_mode": false,
+    "checks_passed": 2457,
+    "narrow_repair_checks_passed": 14,
+    "failures": [],
+    "note": "Fresh whole-series verification after C27 reacceptance; only C27 course bytes changed from the original snapshot. All seven pinned series files, including the three public guides, are unchanged."
+  },
+  "coverage_judgment": {
+    "status": "passed",
+    "module_map": {
+      "M01": [
+        "course-03"
+      ],
+      "M02": [
+        "course-04"
+      ],
+      "M03": [
+        "course-05",
+        "course-06"
+      ],
+      "M04": [
+        "course-07"
+      ],
+      "M05": [
+        "course-08"
+      ],
+      "M06": [
+        "course-09"
+      ],
+      "M07": [
+        "course-10"
+      ],
+      "M08": [
+        "course-11",
+        "course-12"
+      ],
+      "M09": [
+        "course-13"
+      ],
+      "M10": [
+        "course-14"
+      ],
+      "M11": [
+        "course-15"
+      ],
+      "M12": [
+        "course-16"
+      ],
+      "M13": [
+        "course-17"
+      ],
+      "M14": [
+        "course-18"
+      ],
+      "M15": [
+        "course-19"
+      ],
+      "M16": [
+        "course-20"
+      ],
+      "M17": [
+        "course-21"
+      ],
+      "M18": [
+        "course-22"
+      ],
+      "M19": [
+        "course-23"
+      ],
+      "M20": [
+        "course-30"
+      ]
+    },
+    "internal_backbone_dependencies_checked": 52,
+    "educational_prerequisite_edges_checked": 76,
+    "pathway_count": 7,
+    "all_pathways_match_transitive_prerequisite_closures": true,
+    "course30_closure_covers_all30": true,
+    "foundation": "C01-C02 provide evidence and mathematical preparation; M01-M20 map to completed courses; C24-C29 supply explicit application paths into C30.",
+    "source_correction": "M19 is outside the corrected mathematical M20 core chain. Its inclusion in the educational C30 course prerequisite closure preserves branch literacy, not a restored M19-to-M20 proof dependency.",
+    "limitations": "Module mapping and source coverage do not imply every archival missing object has been loaded or every source claim physically established."
+  },
+  "guide_judgment": {
+    "status": "passed",
+    "evidence": [
+      "Z:/Kfield-doc-training/K-Field_Training_Course/START-HERE.md",
+      "Z:/Kfield-doc-training/K-Field_Training_Course/TEACHING-PATHWAYS.md",
+      "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-series-20261105/series-map.md"
+    ],
+    "judgment": "The user-facing guides present a multi-term sequence, not a one-year promise; completed teacher-guide pacing supersedes early blueprint lesson-duration estimates. Source limits are visible at instructional use, not only in audit files.",
+    "pacing_check": "C03 current guide states 440 minutes including two capstone periods and flexible remediation; its validation references target project records. This final review does not claim a new timing audit of all thirty guides.",
+    "historical_records": "Historical blueprint/application statuses and 205-times-55 arithmetic are not treated as current classroom-duration guarantees. Corrected source-application findings are not reopened merely because their earlier audit preserves pending status."
+  },
+  "cross_course_judgments": [
+    {
+      "id": "SCF-01",
+      "topic": "evidence classes",
+      "courses": [
+        1,
+        30
+      ],
+      "status": "passed",
+      "judgment": "Source-reported observations, derived transforms, mechanisms and planned experiments remain separately typed.",
+      "evidence": [
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-01-reading-the-k-field-evidence-models-and-information/lesson-01.md",
+          "line": 25
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-30-integrated-k-field-research-from-backbone-to-test/lesson-07.md",
+          "line": 27
+        }
+      ]
+    },
+    {
+      "id": "SCF-02",
+      "topic": "Cell3 authority and geometry types",
+      "courses": [
+        3,
+        4,
+        23,
+        29,
+        30
+      ],
+      "status": "passed",
+      "judgment": "ICRS ordered columns, intentional negative determinant, physical origin and half-open ownership remain distinct from synthetic positive-determinant examples and galaxy reconstruction geometry.",
+      "evidence": [
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-03-the-authoritative-cell3-basis-metric-and-scale/lesson-01.md",
+          "line": 21
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-04-affine-cells-reciprocal-planes-and-unique-addresses/lesson-02.md",
+          "line": 21
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-23-gravity-inertia-and-exceptional-branches/lesson-02.md",
+          "line": 41
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-29-galactic-structure-and-cross-scale-k-field-geometry/lesson-03.md",
+          "line": 37
+        }
+      ]
+    },
+    {
+      "id": "SCF-03",
+      "topic": "metrics and units",
+      "courses": [
+        3,
+        23,
+        24,
+        26,
+        27,
+        29
+      ],
+      "status": "passed",
+      "judgment": "Direct Gram metric, inverse Gram metric, reciprocal basis, G_phase, G_eff and source-local Q symbols are not silently identified.",
+      "evidence": [
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-23-gravity-inertia-and-exceptional-branches/lesson-02.md",
+          "line": 41
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-29-galactic-structure-and-cross-scale-k-field-geometry/lesson-03.md",
+          "line": 17
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-29-galactic-structure-and-cross-scale-k-field-geometry/lesson-04.md",
+          "line": 47
+        }
+      ]
+    },
+    {
+      "id": "SCF-04",
+      "topic": "carry versus ownership half-ties",
+      "courses": [
+        4,
+        9,
+        29,
+        30
+      ],
+      "status": "passed",
+      "judgment": "Ownership uses floor(q+1/2) with u=q-z; carry uses ceil(t-1/2) with epsilon=Q-t. The same half-open residual interval does not make these the same tie convention.",
+      "evidence": [
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-04-affine-cells-reciprocal-planes-and-unique-addresses/lesson-02.md",
+          "line": 21
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-09-projective-integerization-and-carry-dynamics/lesson-01.md",
+          "line": 19
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-30-integrated-k-field-research-from-backbone-to-test/lesson-01.md",
+          "line": 27
+        }
+      ]
+    },
+    {
+      "id": "SCF-05",
+      "topic": "ternary versus dyadic counts",
+      "courses": [
+        5,
+        6,
+        22
+      ],
+      "status": "passed",
+      "judgment": "Ternary address count 27^d3 is separate from 27*8^n2 dyadic subcells and (3*2^n2+1)^3 geometric vertices.",
+      "evidence": [
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-06-recursive-k-field-geometry-and-address-histories/lesson-02.md",
+          "line": 21
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-06-recursive-k-field-geometry-and-address-histories/lesson-03.md",
+          "line": 11
+        }
+      ]
+    },
+    {
+      "id": "SCF-06",
+      "topic": "conditional expectation hypotheses",
+      "courses": [
+        7,
+        22
+      ],
+      "status": "passed",
+      "judgment": "Finite fixed-block linear, unital, idempotent averaging and its subalgebra/bimodule properties support the stated product identity. Q=I-E alone is not promoted to a sufficient hypothesis; infinite product domains remain unsupplied.",
+      "evidence": [
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-07-information-complete-finite-calculus/lesson-04.md",
+          "line": 13
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-07-information-complete-finite-calculus/lesson-04.md",
+          "line": 19
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-22-inverse-limits-continuum-rendering-and-detail/lesson-06.md",
+          "line": 33
+        }
+      ]
+    },
+    {
+      "id": "SCF-07",
+      "topic": "fixed-angle shape and force",
+      "courses": [
+        8,
+        10,
+        23
+      ],
+      "status": "passed",
+      "judgment": "Area ratios and positive fixed-angle scaling are conditional geometric statements, not derived force laws or complete spatial reconstruction from area ratios alone.",
+      "evidence": [
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-08-face-area-ratios-and-the-k-field-mass-bridge/lesson-01.md",
+          "line": 23
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-10-shape-and-scale-devon-reduction-and-the-jack-jacobian/lesson-01.md",
+          "line": 21
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-10-shape-and-scale-devon-reduction-and-the-jack-jacobian/lesson-01.md",
+          "line": 33
+        }
+      ]
+    },
+    {
+      "id": "SCF-08",
+      "topic": "Emily modes and parity",
+      "courses": [
+        11,
+        12,
+        13,
+        28
+      ],
+      "status": "passed",
+      "judgment": "Mode eigenvalue signs, 13/14 node chi counts, 14/13 antipodal function dimensions and detector parity operators have separate definitions.",
+      "evidence": [
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-12-the-emily-spectrum-modes-and-eigenvectors/lesson-05.md",
+          "line": 29
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-12-the-emily-spectrum-modes-and-eigenvectors/lesson-05.md",
+          "line": 33
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-13-root-systems-symmetry-and-a1-a2-structure/lesson-02.md",
+          "line": 25
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-28-photometer-experiments-and-information-preserving-analysis/lesson-04.md",
+          "line": 26
+        }
+      ]
+    },
+    {
+      "id": "SCF-09",
+      "topic": "color order global form and namespaces",
+      "courses": [
+        14,
+        15,
+        16
+      ],
+      "status": "passed",
+      "judgment": "Color-first conversion explicitly permutes operators. Source Z6 kernel/quotient remains source-local; integration admits Z1/Z2/Z3/Z6. Compiler M03/M07/M08 are not mathematical module indices.",
+      "evidence": [
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-14-complex-carriers-and-gauge-symmetry/lesson-03.md",
+          "line": 15
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-14-complex-carriers-and-gauge-symmetry/lesson-05.md",
+          "line": 52
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-14-complex-carriers-and-gauge-symmetry/lesson-07.md",
+          "line": 15
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-15-matter-states-hypercharge-and-anomaly-accounting/lesson-07.md",
+          "line": 17
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-16-higgs-yukawa-and-interaction-interfaces/lesson-07.md",
+          "line": 39
+        }
+      ]
+    },
+    {
+      "id": "SCF-10",
+      "topic": "Hodge normalization and missing conventions",
+      "courses": [
+        17
+      ],
+      "status": "passed",
+      "judgment": "Mature powers 1/3 and 2/3 are separated from historical 2/3 and 4/3; the synthetic J does not supply the missing archival convention. Native fixed-rung certificate inputs remain unavailable.",
+      "evidence": [
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-17-finite-gauge-transport-and-conservative-dynamics/lesson-06.md",
+          "line": 19
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-17-finite-gauge-transport-and-conservative-dynamics/lesson-06.md",
+          "line": 21
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-17-finite-gauge-transport-and-conservative-dynamics/lesson-06.md",
+          "line": 40
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-17-finite-gauge-transport-and-conservative-dynamics/lesson-07.md",
+          "line": 32
+        }
+      ]
+    },
+    {
+      "id": "SCF-11",
+      "topic": "history and chirality",
+      "courses": [
+        18
+      ],
+      "status": "passed",
+      "judgment": "Finite binary examples are not the full eight-letter infinite carrier. Parent full-review evidence supports retained angular/spin and CP boundaries; this final pass sampled the explicit carrier limitation rather than repeating that full review.",
+      "evidence": [
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-18-history-orientation-and-chirality/lesson-01.md",
+          "line": 41
+        }
+      ]
+    },
+    {
+      "id": "SCF-12",
+      "topic": "action and closure",
+      "courses": [
+        19,
+        27,
+        30
+      ],
+      "status": "passed",
+      "judgment": "Typed source action, six determinant-line factors and every-admitted-sector requirement are not replaced by scalar synthetic products. Missing operators, topology, trivializations, coefficients and normalization remain visible. The QPC residual is not declared zero by an invented precision rule.",
+      "evidence": [
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-19-action-topology-and-phase-closure/lesson-01.md",
+          "line": 33
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-19-action-topology-and-phase-closure/lesson-03.md",
+          "line": 31
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-19-action-topology-and-phase-closure/lesson-04.md",
+          "line": 38
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-27-quadratic-phase-cost-and-route-geometry/lesson-06.md",
+          "line": 30
+        }
+      ]
+    },
+    {
+      "id": "SCF-13",
+      "topic": "conditional 48-sector occupation",
+      "courses": [
+        20
+      ],
+      "status": "passed",
+      "judgment": "Rank 48 is conditional on a nonzero self-adjoint rank-one history projector. Equal family restrictions do not establish physical occupation or orthogonality of distinct history projectors.",
+      "evidence": [
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-20-family-structure-and-simultaneous-occupation/lesson-05.md",
+          "line": 13
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-20-family-structure-and-simultaneous-occupation/lesson-05.md",
+          "line": 26
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-20-family-structure-and-simultaneous-occupation/lesson-05.md",
+          "line": 47
+        }
+      ]
+    },
+    {
+      "id": "SCF-14",
+      "topic": "C21 ratio versus mass and integral exactness",
+      "courses": [
+        21
+      ],
+      "status": "passed",
+      "judgment": "Known dimensionless c dot b remains computable when only reference mass is missing; dimensional mass stays symbolic. Integer saturation is stronger than field rank. Toy L_int and Walsh table do not fill missing source L/W7.",
+      "evidence": [
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems/lesson-04.md",
+          "line": 20
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems/lesson-04.md",
+          "line": 22
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems/lesson-02.md",
+          "line": 26
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems/lesson-03.md",
+          "line": 87
+        }
+      ]
+    },
+    {
+      "id": "SCF-15",
+      "topic": "C22 joint history renderer and domains",
+      "courses": [
+        22
+      ],
+      "status": "passed",
+      "judgment": "Distinct histories with a common real image are worked explicitly; the retained object is history plus image. Finite detail reconstruction does not assert an unspecified infinite-domain identity.",
+      "evidence": [
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-22-inverse-limits-continuum-rendering-and-detail/lesson-04.md",
+          "line": 29
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-22-inverse-limits-continuum-rendering-and-detail/lesson-06.md",
+          "line": 31
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-22-inverse-limits-continuum-rendering-and-detail/lesson-07.md",
+          "line": 17
+        }
+      ]
+    },
+    {
+      "id": "SCF-16",
+      "topic": "M19 outside M20 core and scalar determinant",
+      "courses": [
+        23,
+        30
+      ],
+      "status": "passed",
+      "judgment": "The forward scalar map in order (F,M,G) has determinant +6. M19 remains a separately retained mixed branch, not a mathematical premise of M20 core closure; educational sequencing through C23 is not that removed source edge.",
+      "evidence": [
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-23-gravity-inertia-and-exceptional-branches/lesson-01.md",
+          "line": 25
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-23-gravity-inertia-and-exceptional-branches/lesson-04.md",
+          "line": 54
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-30-integrated-k-field-research-from-backbone-to-test/lesson-01.md",
+          "line": 19
+        }
+      ]
+    },
+    {
+      "id": "SCF-17",
+      "topic": "physical motion versus phase and display frames",
+      "courses": [
+        24
+      ],
+      "status": "passed",
+      "judgment": "Physical Earth/CMB vector, its unprovided epoch, experiment-local velocity, G_phase V and Galactic-center display gauge remain separate.",
+      "evidence": [
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-24-moving-reference-frames-and-laboratory-motion/lesson-03.md",
+          "line": 16
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-24-moving-reference-frames-and-laboratory-motion/lesson-03.md",
+          "line": 43
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-24-moving-reference-frames-and-laboratory-motion/lesson-03.md",
+          "line": 45
+        }
+      ]
+    },
+    {
+      "id": "SCF-18",
+      "topic": "event existence and timing",
+      "courses": [
+        25
+      ],
+      "status": "passed",
+      "judgment": "Continuity plus sign change establishes existence, not unique interpolated timing. Actual lessons separately treat contacts, multiple roots, discontinuities and gaps; the final pass reread the existence statement and relies on the full course review for all worked cases.",
+      "evidence": [
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-25-plane-crossings-rulers-and-event-geometry/lesson-05.md",
+          "line": 7
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-25-plane-crossings-rulers-and-event-geometry/lesson-05.md",
+          "line": 13
+        }
+      ]
+    },
+    {
+      "id": "SCF-19",
+      "topic": "fourteen signed events and three cost levels",
+      "courses": [
+        26,
+        27,
+        28,
+        30
+      ],
+      "status": "passed_after_repair",
+      "judgment": "All fourteen signed rows remain retained. C26 locally defines independent levels as distinct inputs without statistical-independence inference. Current C27 now uses distinct levels plus an explicit statistical-independence boundary, consistent with C28/C30.",
+      "evidence": [
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-26-beats-harmonics-and-spectral-energy-phase-structure/lesson-07.md",
+          "line": 17
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-27-quadratic-phase-cost-and-route-geometry/lesson-07.md",
+          "line": 23
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-30-integrated-k-field-research-from-backbone-to-test/lesson-05.md",
+          "line": 47
+        }
+      ]
+    },
+    {
+      "id": "SCF-20",
+      "topic": "spectral notation byte identity and model energy",
+      "courses": [
+        26,
+        27
+      ],
+      "status": "passed_bounded_reliance",
+      "judgment": "C26 types count contrast separately from fractional gain and phase metric. Earlier independent source replay checked all fourteen rows and found parsed-value equality despite local/remote byte digest differences; unresolved PDF/revision closure is not a newly certified identity. Energy equivalence is not measured transfer or detected photon count.",
+      "evidence": [
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-26-beats-harmonics-and-spectral-energy-phase-structure/lesson-05.md",
+          "line": 20
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-26-beats-harmonics-and-spectral-energy-phase-structure/lesson-06.md",
+          "line": 13
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-27-quadratic-phase-cost-and-route-geometry/lesson-07.md",
+          "line": 23
+        }
+      ]
+    },
+    {
+      "id": "SCF-21",
+      "topic": "QPC certificate gate",
+      "courses": [
+        27
+      ],
+      "status": "passed",
+      "judgment": "Source overview names and attributed exact closure do not supply missing objective/path/metric/precision/replay inputs. The exact synthetic optimum is not the source certificate.",
+      "evidence": [
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-27-quadratic-phase-cost-and-route-geometry/lesson-03.md",
+          "line": 47
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-27-quadratic-phase-cost-and-route-geometry/lesson-06.md",
+          "line": 13
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-27-quadratic-phase-cost-and-route-geometry/lesson-06.md",
+          "line": 23
+        }
+      ]
+    },
+    {
+      "id": "SCF-22",
+      "topic": "photometer dual parity and Clear zero",
+      "courses": [
+        28
+      ],
+      "status": "passed",
+      "judgment": "Same/inverted reflection and even/odd half-turn components are explicitly reconstructive. Undefined Clear ratio is flagged with raw numerator/denominator preserved; mathematical nonzero and stricter instrument-positive domains are distinguished.",
+      "evidence": [
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-28-photometer-experiments-and-information-preserving-analysis/lesson-04.md",
+          "line": 22
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-28-photometer-experiments-and-information-preserving-analysis/lesson-04.md",
+          "line": 26
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-28-photometer-experiments-and-information-preserving-analysis/lesson-03.md",
+          "line": 19
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-28-photometer-experiments-and-information-preserving-analysis/lesson-03.md",
+          "line": 27
+        }
+      ]
+    },
+    {
+      "id": "SCF-23",
+      "topic": "galaxy units origin phase and skew nearest",
+      "courses": [
+        29
+      ],
+      "status": "passed",
+      "judgment": "Dimensionless phase, coordinate origin and length-valued zero-index center are distinct; reconstruction units are not silently nanometres or kpc. Reciprocal basis is not inverse metric. A skew counterexample disproves coordinate rounding as a closest-center certificate without overclaiming the alternative center is globally closest.",
+      "evidence": [
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-29-galactic-structure-and-cross-scale-k-field-geometry/lesson-03.md",
+          "line": 15
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-29-galactic-structure-and-cross-scale-k-field-geometry/lesson-03.md",
+          "line": 17
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-29-galactic-structure-and-cross-scale-k-field-geometry/lesson-03.md",
+          "line": 29
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-29-galactic-structure-and-cross-scale-k-field-geometry/lesson-05.md",
+          "line": 27
+        }
+      ]
+    },
+    {
+      "id": "SCF-24",
+      "topic": "research design versus validation",
+      "courses": [
+        30
+      ],
+      "status": "passed",
+      "judgment": "A completed teaching portfolio can contain a planned empirical protocol; the report explicitly states no real acquisition was performed.",
+      "evidence": [
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-30-integrated-k-field-research-from-backbone-to-test/lesson-05.md",
+          "line": 47
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-30-integrated-k-field-research-from-backbone-to-test/lesson-07.md",
+          "line": 27
+        }
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "SERIES-SRC-001",
+      "severity": "minor",
+      "status": "resolved",
+      "disposition": "corrected",
+      "category": "cross_course_source_wording",
+      "blocks_series_acceptance": false,
+      "title": "Course27 leaves the source term independent cost levels locally ambiguous",
+      "evidence": [
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-27-quadratic-phase-cost-and-route-geometry/lesson-07.md",
+          "line": 23,
+          "sha256": "0bae6c30af976e9b11d2b3a1613d68d095fc30fac21f97113463095386ee9436",
+          "observed": "Current authored wording uses distinct plane-family cost levels and explicitly denies statistical-independence inference."
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-27-quadratic-phase-cost-and-route-geometry/course.md",
+          "line": 384,
+          "sha256": "c42b6dbf673905cbd9d220396d667b1f8249197cde119dc4212c0cb5a9058a66",
+          "observed": "Current authored wording uses distinct plane-family cost levels and explicitly denies statistical-independence inference."
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-27-quadratic-phase-cost-and-route-geometry/sources.md",
+          "line": 34,
+          "sha256": "d5c4ed739e70ba87846d0a3ed74f75feb27bd940bf46392e06a8abd02b879985",
+          "observed": "Current authored wording uses distinct plane-family cost levels and explicitly denies statistical-independence inference."
+        }
+      ],
+      "assessment": "The wording is attributed to T35 and does not explicitly assert a statistical result. The defect is therefore minor instructional ambiguity, not a finding that the source attribution is false. Across the final series, C26 locally defines independent levels as distinct inputs and explicitly denies statistical-independence inference; C28/C30 use distinct levels. C27 lacks that local boundary in its teaching paragraph and source paraphrase.",
+      "correction": "Use three distinct plane-family cost levels in the authored C27 lesson and source paraphrase, and state that three distinct inputs do not establish statistical independence of families, signed responses or shared calibration. Preserve every signed row, immutable original source wording, evidence status and the model-energy/transfer distinction. Propagate the lesson to course.md and the active recovery authoring path; refresh affected hashes, completion, validation and parent acceptance.",
+      "verification_required": "Reread the corrected paragraph and source note, confirm assembly/recovery consistency and unchanged mathematical/source scope, rerun actual C27 validator and whole-series integrity bindings, and republish both series reports with current course/guide hashes.",
+      "related_judgment": "SCF-19",
+      "repair_request_status": "Applied by author, reaccepted by parent, and independently rechecked here.",
+      "original_evidence": [
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-27-quadratic-phase-cost-and-route-geometry/lesson-07.md",
+          "line": 23,
+          "sha256": "11b625ac2838ecd6b1fab9debb0817a228595f52d2604db186fadfef775c5963",
+          "observed": "three independent plane-family cost levels"
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-27-quadratic-phase-cost-and-route-geometry/course.md",
+          "line": 384,
+          "sha256": "705cbe4523551c6d9cba423d260e4cd57421f4c2759738001d8a2a5c625ad45a",
+          "observed": "assembled copy of the same unqualified instructional wording"
+        },
+        {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-27-quadratic-phase-cost-and-route-geometry/sources.md",
+          "line": 34,
+          "sha256": "68b8c294f2a8ab8d2858b73fb615f633b7ae63d9b51fce42c539440ca1546e1b",
+          "observed": "three independent plane-family costs"
+        }
+      ],
+      "resolved_utc": "2026-11-05T20:57:01Z",
+      "independent_recheck": {
+        "status": "passed",
+        "checks": 14,
+        "method": "Personally reread corrected passages; reconstructed each pre-repair full file by reversing only the two authorized wording changes and matched its original SHA-256 for lesson07, sources.md and course.md. Thus all other mathematical examples, signed-row references and evidence boundaries in those full files are unchanged. Inspected manage.py: finish reads actual lesson bodies, not stale embedded prose. Reran all thirty actual validators and the entire 2457-check structural verifier.",
+        "current_sha256": {
+          "lesson-07.md": "0bae6c30af976e9b11d2b3a1613d68d095fc30fac21f97113463095386ee9436",
+          "sources.md": "d5c4ed739e70ba87846d0a3ed74f75feb27bd940bf46392e06a8abd02b879985",
+          "course.md": "c42b6dbf673905cbd9d220396d667b1f8249197cde119dc4212c0cb5a9058a66"
+        }
+      }
+    }
+  ],
+  "source_provenance": {
+    "generation": "sha256:5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+    "graph_manifest_sha256": "5f82424b4c8e217bb7e81fa7b54e0782f220d309916b0f9fc69547b12fe6bb55",
+    "repository_commit": "bd4f70c13a9cdb03baf97d45928d64a3e2459c37",
+    "freshness": "Frozen existing identities and earlier legitimate retrieval receipts; no new remote freshness assertion. Earlier depth-one discovery was truncated and is not exhaustive coverage.",
+    "local_backbone_sources": [
+      {
+        "id": "S01",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+        "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180"
+      },
+      {
+        "id": "S02",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+        "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3"
+      },
+      {
+        "id": "S03",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+        "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e"
+      },
+      {
+        "id": "S04",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+        "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2"
+      },
+      {
+        "id": "S05",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+        "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7"
+      }
+    ],
+    "galaxy_sources": [
+      {
+        "id": "G01",
+        "path": "Z:/Archive_20260911/Pre_Aug14/galaxy_cell_hidden_holonomy_summary_1783791371.json",
+        "sha256": "bd6ff0e335f3c405000cd1f8adfa3ae947dc9362dfeb772764cf98ef62ae6f63",
+        "verification": "fresh byte hash matched pinned identity; not a fresh full-content or PDF review"
+      },
+      {
+        "id": "G02",
+        "path": "Z:/Archive_20260911/Pre_Aug14/K-field_cell3_vs_galaxy_derived_cell_analogue_1783794540.pdf",
+        "sha256": "69dcaace292365d22b9b48c43edc0ac4936b148ec68a5b265abc72aaff4f4447",
+        "verification": "fresh byte hash matched pinned identity; not a fresh full-content or PDF review"
+      },
+      {
+        "id": "G03",
+        "path": "Z:/Archive_20260911/Pre_Aug14/K-field_spherical_gravity_response_graph_audited_1783692220.json",
+        "sha256": "aa7f4236b7f956c652690934d6444f597ea38b6e485cc77a22be884b567d1cea",
+        "verification": "fresh byte hash matched pinned identity; not a fresh full-content or PDF review"
+      },
+      {
+        "id": "G04",
+        "path": "Z:/Archive_20260911/Pre_Aug14/K-field_galaxy_sky_position_volumetric_quantization_1783789746.pdf",
+        "sha256": "856777f0fae0d6b50e8d235435068b7ea3c25a83068cfbfb197b62835cbb8fbd",
+        "verification": "fresh byte hash matched pinned identity; not a fresh full-content or PDF review"
+      }
+    ],
+    "historical_application": "E11-SOURCE has disposition corrected in source-application-recheck.json; its source-packet-only boundary is supplemented by the later accepted C29 completion review.",
+    "unresolved_source_objects": "Missing L/W7, topology/determinant-line carriers, fixed-rung/route native certificates, archival J, some compiler/action bodies and source measurement/calibration inputs remain explicitly bounded. They are not course defects when accurately taught as unavailable.",
+    "residual_preservation": "Signed observations, null energy fields, both parity components, negative responses, precision/revision mismatches and component residuals remain represented. Summary checks are not substitutes for the retained source records."
+  },
+  "course_sha256": {
+    "course-01": "01554f80bdf2695cc8cd599667c916673539d39cc83dac236fdba48ba8b4aa35",
+    "course-02": "2b87a1b31852e4ce5c4e3d477ef6839c1456f68a87998a64d9f39f40c1fde0a6",
+    "course-03": "66b124a7e2e605b788520be81f061e3f0af030ff391782aa0e79b347d5b7194b",
+    "course-04": "4af65e80c937a3aaf54ecd32c24bace32cd913ad016a0b09dfe5eccd490bf6f4",
+    "course-05": "5003a215bd45c2a1cdae700268b426f3d8cc4a75cbb643b4072a631c7c16edce",
+    "course-06": "74b9dfffcdd2e169f62f147e17995a9a47fca29150e4c2a5099f33fc8e8ae906",
+    "course-07": "279721651b5235938b278e8f581707473b7e2b08a49e023b3cb30f086c800f22",
+    "course-08": "98a8dee354f2f032ef6df4810fb9b531426d899902766e1e58f850bfde44afcb",
+    "course-09": "b5c5bd3cad2a06673a1eba3834c4df6314ed24b69477da51e3e74f1bc95198ce",
+    "course-10": "7635d29c0ce7b99981dc194dece148acafdd513729a1ed5e3c9f4e73c2dfe73f",
+    "course-11": "a64730db4b1395ff95d5912736ac8157b83c9c3ff2f59fba710c033a9828364b",
+    "course-12": "4d2088a6a08434ecd3d92024b45c84b6bfed38382423682aa6e2449394bd1998",
+    "course-13": "57c62850ec9f24f09bf8ab284464896c5ca9ed544df463b59a819883db5ba6ad",
+    "course-14": "b4d77ad76287b02456e6b330a59c5a242e9257c1691e2ecf427fc57c1f8d168a",
+    "course-15": "ca39f39cdf28bd83b0c78d5858e75779e593f1623a978e87611846fb0841b3fa",
+    "course-16": "cb5470e1d98e9350a09088c69f725aa78b3620d20d0302bfef75a4b4a01e3023",
+    "course-17": "de1fa6c859c2c01451fe72418e93011d75153cada347b806abc3de186b8cb115",
+    "course-18": "7576a96bcf0b996a22a5319a1751a0390fda7ab82bffe6569b115e0f06ff8823",
+    "course-19": "a81e6bfa96181f6cbce06a115d71767458317e9e02be9f8f6f142a3c709f184c",
+    "course-20": "c9f3d60683c3810559a7a584658610a65d6eb81605f355b675abbd5f136d925d",
+    "course-21": "d32abb627e86b0d078ed6131767e1f60911219f1f22cb2410606bd26c3099814",
+    "course-22": "8c6d51faa81ab0a434d370e26772c47c1d48a402b518eef9e4750416f5122dd3",
+    "course-23": "8deb8a579cf0b7fc89f55e9978ec1b0c2482de59ad0a307b26d3f9c1c9a6e09b",
+    "course-24": "f364075d81df33a27d5a94a511f9f49a1fff046a41f1a1fe39ffc14058d04942",
+    "course-25": "0ee0543e7553a01b7e23526f8d8f54aae3c40cfb17b9cc9233dc523531e98c87",
+    "course-26": "d9bf1424c6ce970544d88e30376817f85904f2cc9895034bd3b89058e81bfea8",
+    "course-27": "c42b6dbf673905cbd9d220396d667b1f8249197cde119dc4212c0cb5a9058a66",
+    "course-28": "676b97af8f622d1314a627b7c042f329d5a939ac07c7a8bf0d941c60564f7fc8",
+    "course-29": "85b0e67e2b6127813695c2d3744e5ccfd90871e36b34fb1cf796c7a3f707fc79",
+    "course-30": "51ae4db248175714ca9d27ed220e6eef241e934cd38af3d19992985ed8bd050b"
+  },
+  "series_file_sha256": {
+    "START-HERE.md": "3b3ff9ef04dd1f00130ad5ad92768f6f09de7e85a65a7fac5786e7cae01f44b1",
+    "TEACHING-PATHWAYS.md": "2d8cb194a8dfd65ea8cd698793683415169759ca73f3f89d26c87bb999c1e030",
+    "kfield-series-20261105/series-map.md": "e13e9a2775be10c3139a7160ed478ef5dc2c4e96e776ca4bea939219237c8a96",
+    "kfield-series-20261105/series-ledger.json": "5e1aa480dafda2f979926884213b95498d055e3e2091880fa530d00e9949ec00",
+    "kfield-series-20261105/source-registry.json": "208a8ed59a10d72a74e1aa084b86d1f6809bb8f43168c7a98edc68598db5e78b",
+    "kfield-series-20261105/educational-amendments.json": "c97b0a2e5a71db5980a50db41cd65d9656f97e9e8641f1b907c6741a82a91e61",
+    "kfield-series-20261105/teaching-pathways.json": "3d92bb1ee78323917109711afe0459430baa884fbc3670661597e1766f2e6e39"
+  },
+  "source_coverage_record_sha256": {
+    "kfield-series-20261105/audits/source-coverage/first-three-review.json": "e03036b1aff2c8fe9b7b8033173df736c9c770d434c911f0fa9b4e67385e4444",
+    "kfield-series-20261105/audits/source-coverage/later-findings.json": "18b268cfed3994eec9b30218e8183a0da0121f2859f1e9fc2bc4a49843ec6a28",
+    "kfield-series-20261105/audits/source-coverage/blueprint-amendments.json": "2cfc9fabdd0a3bebee1dc8336e6608cdc9570e9135ed501adfcf8b9d35fff4d2",
+    "kfield-series-20261105/audits/source-coverage/source-coverage-audit.json": "eef89a28971ef7e5380977c31b62ed6d64f2831759e679ee967b6c253a33c04a",
+    "kfield-series-20261105/audits/source-coverage/source-coverage-audit.md": "1fcb84f25761de734a31bed7c8ddcac1059e8ceb169cb43a164a8da756b3a77f",
+    "kfield-series-20261105/audits/source-coverage/application-report.json": "8e2bdf1b5292c32a5aea6fc3e5a7dacb8393d5064f28d753839521f0b272c2be",
+    "kfield-series-20261105/audits/source-coverage/source-application-recheck.json": "6b5bb53933a69eedae73bfa05abca1af8148aaa82a08e8ec18f5fbd168b3cd20"
+  },
+  "limitations": [
+    "Acceptance, when repaired, is for the stated educational source/coverage scope and exact artifact snapshot, not complete physical validation of the framework.",
+    "No fresh remote retrieval after the prior forty-call session quota; no bypass or new connector task was used.",
+    "No fresh compiler run, full native route/fixed-rung certificate replay, raw-data acquisition replay or classroom trial.",
+    "Galaxy PDFs were freshly rehashed, not fully reread or rendered in this final pass; detailed source interpretation relies on the accepted full C29 review.",
+    "The C27 repair and current bindings are now verified. Acceptance remains restricted to this exact snapshot and the stated source/coverage scope; unresolved archival inputs remain visible instructional boundaries, not silently completed source replays."
+  ],
+  "verification_file": "C:/Users/info/Documents/Codex/2026-11-05/kfield-series-source-auditor/outputs/series-source-final-verification.json",
+  "repair_history": {
+    "prior_reports": {
+      "audit": {
+        "path": "C:/Users/info/Documents/Codex/2026-11-05/kfield-series-source-auditor/work/series-source-before-wording-repair-audit.json",
+        "sha256": "428296b55e03210c8ae3987dd2772277fd877b6809690fb5fd13156c30268474"
+      },
+      "verification": {
+        "path": "C:/Users/info/Documents/Codex/2026-11-05/kfield-series-source-auditor/work/series-source-before-wording-repair-verification.json",
+        "sha256": "bab8898a687af079c578f9c585190109db237ad00e0eea883f93b7890c66e43d"
+      },
+      "original_unresolved_counts": {
+        "critical": 0,
+        "major": 0,
+        "minor": 1
+      },
+      "note": "Exact original reports preserved before replacement; no source data copied."
+    },
+    "recheck_utc": "2026-11-05T20:57:01Z",
+    "changed_courses": [
+      "course-27"
+    ],
+    "unchanged_series_file_hashes": true
+  }
+}

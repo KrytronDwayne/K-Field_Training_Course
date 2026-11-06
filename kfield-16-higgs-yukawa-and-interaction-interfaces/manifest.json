@@ -1,0 +1,392 @@
+{
+  "schema_version": "1.0",
+  "topic": "Higgs, Yukawa, and Interaction Interfaces",
+  "audience": "High-school seniors; first-principles teaching, with concrete prerequisite capabilities and taught bridges.",
+  "assumptions": [
+    "A topical short course, not a semester per topic. Pacing is 55-minute core lessons plus capstone periods; split dense lessons if actual learner load requires it.",
+    "No prior calculus, abstract algebra, university linear algebra, or quantum mechanics unless explicitly taught earlier.",
+    "Required core assessments must be solvable with taught finite examples. Clearly label deeper recognition-only extensions.",
+    "Markdown is the delivery format; no PDF or Word generation is required."
+  ],
+  "ordered_deliverables": [
+    "course-map.md",
+    "lesson-01.md",
+    "lesson-02.md",
+    "lesson-03.md",
+    "lesson-04.md",
+    "lesson-05.md",
+    "lesson-06.md",
+    "lesson-07.md",
+    "terminology.md",
+    "teacher-guide.md",
+    "capstone.md",
+    "sources.md",
+    "sources.json",
+    "worked-example-verification.json",
+    "verify_examples.py",
+    "build_records.py",
+    "input-contract.json",
+    "course.md",
+    "audit_report.json",
+    "finalize_records.py",
+    "completion_report.json"
+  ],
+  "checkpoints": [
+    {
+      "id": "map",
+      "kind": "course-map",
+      "path": "course-map.md",
+      "dependencies": [],
+      "status": "passed",
+      "sha256": "f1d4c690ec729eb279e0b8c9e8f3dcc8cd39bd3d993b7c7cbb2d6ae7cf2ed29b",
+      "summary": "course-map: course-map.md"
+    },
+    {
+      "id": "lesson-01",
+      "kind": "lesson",
+      "path": "lesson-01.md",
+      "dependencies": [
+        "map"
+      ],
+      "status": "passed",
+      "sha256": "78095acc1aca02a31702eb2bfa5b01f0e63bbea8c1d026971a0dc0b9fc0d5d44",
+      "summary": "lesson: lesson-01.md"
+    },
+    {
+      "id": "lesson-02",
+      "kind": "lesson",
+      "path": "lesson-02.md",
+      "dependencies": [
+        "lesson-01"
+      ],
+      "status": "passed",
+      "sha256": "c532d9bc768ba4c271282b4b0b0f8e36d0bfb67205e93c7ba157c87c0fcdd79a",
+      "summary": "lesson: lesson-02.md"
+    },
+    {
+      "id": "lesson-03",
+      "kind": "lesson",
+      "path": "lesson-03.md",
+      "dependencies": [
+        "lesson-02"
+      ],
+      "status": "passed",
+      "sha256": "62172f865b541af0bc34671192ac9cdbc75ee85910f696b2a87820867c99831a",
+      "summary": "lesson: lesson-03.md"
+    },
+    {
+      "id": "lesson-04",
+      "kind": "lesson",
+      "path": "lesson-04.md",
+      "dependencies": [
+        "lesson-03"
+      ],
+      "status": "passed",
+      "sha256": "63f665ce46013775f89a30ddb8fbcd912901b22385ab80ea5803c1422fecf931",
+      "summary": "lesson: lesson-04.md"
+    },
+    {
+      "id": "lesson-05",
+      "kind": "lesson",
+      "path": "lesson-05.md",
+      "dependencies": [
+        "lesson-04"
+      ],
+      "status": "passed",
+      "sha256": "66885930686e47eee4803f82332278e9ad03d082e39ed4187bcdf03bf61dcc6f",
+      "summary": "lesson: lesson-05.md"
+    },
+    {
+      "id": "lesson-06",
+      "kind": "lesson",
+      "path": "lesson-06.md",
+      "dependencies": [
+        "lesson-05"
+      ],
+      "status": "passed",
+      "sha256": "63910c03631a6ff274b0fb2dcef969c085dd28c9498f56f19f85f1d72a5c116f",
+      "summary": "lesson: lesson-06.md"
+    },
+    {
+      "id": "lesson-07",
+      "kind": "lesson",
+      "path": "lesson-07.md",
+      "dependencies": [
+        "lesson-06"
+      ],
+      "status": "passed",
+      "sha256": "78c9724c72354d8674f710d84354474d93dfec017d83678a7d9ec623514c1df5",
+      "summary": "lesson: lesson-07.md"
+    },
+    {
+      "id": "glossary",
+      "kind": "terminology",
+      "path": "terminology.md",
+      "dependencies": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05",
+        "lesson-06",
+        "lesson-07"
+      ],
+      "status": "passed",
+      "sha256": "587c12af611f79225da72f7054021cd2b4581207a1d8125b96245fce3cca9d14",
+      "summary": "terminology: terminology.md"
+    },
+    {
+      "id": "teacher",
+      "kind": "teacher-guide",
+      "path": "teacher-guide.md",
+      "dependencies": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05",
+        "lesson-06",
+        "lesson-07"
+      ],
+      "status": "passed",
+      "sha256": "5851a5c952a90407b11e288e1df4413d9136f61ce07c7fce58cbf231d50e294b",
+      "summary": "teacher-guide: teacher-guide.md"
+    },
+    {
+      "id": "capstone",
+      "kind": "capstone",
+      "path": "capstone.md",
+      "dependencies": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05",
+        "lesson-06",
+        "lesson-07"
+      ],
+      "status": "passed",
+      "sha256": "ccb65236d07c6e4b158dfbbed421cd2d745a2a468691cfae4a6e46855e813524",
+      "summary": "capstone: capstone.md"
+    },
+    {
+      "id": "sources",
+      "kind": "supplement",
+      "path": "sources.md",
+      "dependencies": [],
+      "status": "passed",
+      "sha256": "fd8e3a83e4adc66a48fd4761e529d1ac6bc7d7b5ffdb372eaff796fa45149db0",
+      "summary": "supplement: sources.md"
+    },
+    {
+      "id": "source-record",
+      "kind": "supplement",
+      "path": "sources.json",
+      "dependencies": [],
+      "status": "passed",
+      "sha256": "fae3c9e4ba06f3b1ca4b13a7333af5b92c4fd91c085349d606ac9b1517525ac5",
+      "summary": "supplement: sources.json"
+    },
+    {
+      "id": "verification",
+      "kind": "supplement",
+      "path": "worked-example-verification.json",
+      "dependencies": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05",
+        "lesson-06",
+        "lesson-07"
+      ],
+      "status": "passed",
+      "sha256": "e705f9346eb2947508b1e4d9009997d9a4c271ff71d152f84ba71bb3863a1378",
+      "summary": "supplement: worked-example-verification.json"
+    },
+    {
+      "id": "verification-script",
+      "kind": "supplement",
+      "path": "verify_examples.py",
+      "dependencies": [],
+      "status": "passed",
+      "sha256": "3f29bbb24359fe00560997e93c2919bb208d0e620477e95eea1a803e9c9990c9",
+      "summary": "supplement: verify_examples.py"
+    },
+    {
+      "id": "records-script",
+      "kind": "supplement",
+      "path": "build_records.py",
+      "dependencies": [],
+      "status": "passed",
+      "sha256": "fbd7ea969ad68c8f6b84a24f7e425c7a4e1301bcbd657f257db316a93de9f227",
+      "summary": "supplement: build_records.py"
+    },
+    {
+      "id": "contract",
+      "kind": "supplement",
+      "path": "input-contract.json",
+      "dependencies": [],
+      "status": "passed",
+      "sha256": "2fac7b394b57096c20b4756aba1749f1914e009d05604d8a8c661d00d84940b0",
+      "summary": "supplement: input-contract.json"
+    },
+    {
+      "id": "assembly",
+      "kind": "assembly",
+      "path": "course.md",
+      "dependencies": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05",
+        "lesson-06",
+        "lesson-07"
+      ],
+      "status": "passed",
+      "sha256": "cb5470e1d98e9350a09088c69f725aa78b3620d20d0302bfef75a4b4a01e3023",
+      "summary": "assembly: course.md"
+    },
+    {
+      "id": "audit",
+      "kind": "audit",
+      "path": "audit_report.json",
+      "dependencies": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05",
+        "lesson-06",
+        "lesson-07",
+        "capstone"
+      ],
+      "status": "passed",
+      "sha256": "8ed45c0e105d67c2219e2bf42779a16296e883f048bfad760d5c92eced26f641",
+      "summary": "audit: audit_report.json"
+    },
+    {
+      "id": "finalize-script",
+      "kind": "supplement",
+      "path": "finalize_records.py",
+      "dependencies": [],
+      "status": "passed",
+      "sha256": "4f77a83badbcf117057a70e9d3808b4ae8b573f8e433c94e4fa650a06f166bbf",
+      "summary": "Refresh audited completion and hashes; validator runs separately."
+    }
+  ],
+  "dependencies": {
+    "map": [],
+    "lesson-01": [
+      "map"
+    ],
+    "lesson-02": [
+      "lesson-01"
+    ],
+    "lesson-03": [
+      "lesson-02"
+    ],
+    "lesson-04": [
+      "lesson-03"
+    ],
+    "lesson-05": [
+      "lesson-04"
+    ],
+    "lesson-06": [
+      "lesson-05"
+    ],
+    "lesson-07": [
+      "lesson-06"
+    ],
+    "glossary": [
+      "lesson-01",
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05",
+      "lesson-06",
+      "lesson-07"
+    ],
+    "teacher": [
+      "lesson-01",
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05",
+      "lesson-06",
+      "lesson-07"
+    ],
+    "capstone": [
+      "lesson-01",
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05",
+      "lesson-06",
+      "lesson-07"
+    ],
+    "sources": [],
+    "source-record": [],
+    "verification": [
+      "lesson-01",
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05",
+      "lesson-06",
+      "lesson-07"
+    ],
+    "verification-script": [],
+    "records-script": [],
+    "contract": [],
+    "assembly": [
+      "lesson-01",
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05",
+      "lesson-06",
+      "lesson-07"
+    ],
+    "audit": [
+      "lesson-01",
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05",
+      "lesson-06",
+      "lesson-07",
+      "capstone"
+    ],
+    "finalize-script": []
+  },
+  "course_order": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03",
+    "lesson-04",
+    "lesson-05",
+    "lesson-06",
+    "lesson-07"
+  ],
+  "assembly": {
+    "path": "course.md",
+    "section_ids": [
+      "lesson-01",
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05",
+      "lesson-06",
+      "lesson-07"
+    ]
+  },
+  "audit_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "blockers": [],
+  "next_action": "none"
+}

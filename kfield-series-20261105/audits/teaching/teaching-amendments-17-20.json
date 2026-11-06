@@ -1,0 +1,2907 @@
+{
+  "schema_version": "1.0",
+  "created_utc": "2026-11-05T18:44:36.579330+00:00",
+  "scope": "Portable teaching BLUEPRINT amendments only; no completed-course acceptance.",
+  "source_basis": [
+    {
+      "id": "S01",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "role": "archival source; reported status is distinct from fresh verification"
+    },
+    {
+      "id": "S02",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "role": "archival source; reported status is distinct from fresh verification"
+    },
+    {
+      "id": "S03",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "role": "archival source; reported status is distinct from fresh verification"
+    },
+    {
+      "id": "S04",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+      "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "role": "archival source; reported status is distinct from fresh verification"
+    },
+    {
+      "id": "S05",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+      "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+      "role": "archival source; reported status is distinct from fresh verification"
+    }
+  ],
+  "courses": [
+    {
+      "course_id": "course-17",
+      "input_contract_path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-17-finite-gauge-transport-and-conservative-dynamics\\input-contract.json",
+      "input_contract_sha256": "f48ee46040414a6355434cec1a8fb54a820d6a35e15182e197bc688230cce30c",
+      "application": "Merge additively as teaching_amendment. Replace generic coverage references with exact exercise IDs. Preserve every original concept,source/educational amendment,supplemental exercise and legacy bridge ID. Parent applies; no project edit made.",
+      "applied_source_amendments_read": {
+        "SA-17": {
+          "id": "SA-17",
+          "course": 17,
+          "finding": "source_fidelity",
+          "lessons": [
+            "lesson-05",
+            "lesson-06",
+            "lesson-07",
+            "lesson-08"
+          ],
+          "merge_action": "append unique requirements to source_audit_contract; attach to named lesson authoring obligations; preserve existing fields",
+          "requirements": [
+            "With delta=det(M_cell)=V^2, use H_E=delta^(1/3)R_cell and H_B=delta^(2/3) wedge^2 R_cell. The corrected-file older exponents remain historical.",
+            "For Cayley norm preservation specify self-adjoint L_hat, real tau and inverse domain. For gap certificates preserve positive coefficient assumptions, fixed-rung inputs and time/action units.",
+            "Retrieve a full pinned certificate before assigning a numerical certificate replay; otherwise teach exact scoped reading with replay inputs marked unavailable."
+          ],
+          "source_references": [
+            "S02#/backbone_sequence/12",
+            "S02#/hodge_normalization_theorem",
+            "S04#/hodge_correction_proof",
+            "S03#/findings/8"
+          ],
+          "status": "applied_to_blueprint_by_parent",
+          "prior_application_status": "prepared_not_applied",
+          "applied_at": "2026-11-05T17:02:05.375955+00:00"
+        }
+      },
+      "original_subject_kernel": {
+        "objects_and_operations": [
+          {
+            "concept_id": "C17.01",
+            "concept": "Link transport between local frames",
+            "operation": "Apply a small link map to a state"
+          },
+          {
+            "concept_id": "C17.02",
+            "concept": "Covariant finite differences",
+            "operation": "Check how a difference changes when local frames change"
+          },
+          {
+            "concept_id": "C17.03",
+            "concept": "Loops and holonomy",
+            "operation": "Multiply ordered links around a small loop"
+          },
+          {
+            "concept_id": "C17.04",
+            "concept": "A finite gauge-invariant action",
+            "operation": "Verify a simple invariant loop quantity"
+          },
+          {
+            "concept_id": "C17.05",
+            "concept": "Norm-preserving time steps",
+            "operation": "Check a rational or Cayley update under its stated hypotheses"
+          },
+          {
+            "concept_id": "C17.06",
+            "concept": "Metric and Hodge factors",
+            "operation": "Introduce a low-dimensional metric-weighted comparison before the source matrices"
+          },
+          {
+            "concept_id": "C17.07",
+            "concept": "Reading a fixed-rung certificate",
+            "operation": "Identify its domain, supplied coefficients, and precision"
+          },
+          {
+            "concept_id": "C17.08",
+            "concept": "Conservation and continuum scope",
+            "operation": "Test a conserved quantity and distinguish finite evolution from a limit theorem"
+          }
+        ],
+        "source_modules": [
+          "M13"
+        ],
+        "scope": "Build and verify a small linked-state model with a loop invariant and a conservative update, then map its objects to the source construction.",
+        "common_failure_modes": [
+          "Untaught prerequisite",
+          "Unscoped symbol or unit",
+          "An illustrative example presented as real evidence",
+          "A source label promoted beyond its evidence class",
+          "A residual or source branch silently omitted"
+        ]
+      },
+      "original_capstone_specification": {
+        "task": "Build and verify a small linked-state model with a loop invariant and a conservative update, then map its objects to the source construction.",
+        "required_operations": [
+          "Apply a small link map to a state",
+          "Check how a difference changes when local frames change",
+          "Multiply ordered links around a small loop",
+          "Verify a simple invariant loop quantity",
+          "Check a rational or Cayley update under its stated hypotheses",
+          "Introduce a low-dimensional metric-weighted comparison before the source matrices",
+          "Identify its domain, supplied coefficients, and precision",
+          "Test a conserved quantity and distinguish finite evolution from a limit theorem"
+        ],
+        "rule": "Map every capstone operation to a prior introduction and practice; provide full answers, point rubric, source scope, and residual accounting."
+      },
+      "source_coverage_review_rows": [
+        {
+          "course_id": "course-17",
+          "title": "Finite Gauge Transport and Conservative Dynamics",
+          "backbone_modules": [
+            "M13"
+          ],
+          "topic_boundary": "Finite gauge transport, Cayley hypotheses, mature determinant-normalized Hodge blocks and finite-rung certificate domains.",
+          "cognitive_or_fidelity_risk": "Use exponents 1/3 and 2/3 with delta=det(M), not S01's older exponents.",
+          "status": "source_map_review_complete_teaching_decision_pending",
+          "primary_sources": [
+            "S02"
+          ],
+          "source_pointer": "/backbone_sequence/12",
+          "packet_at_review": {
+            "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-17-finite-gauge-transport-and-conservative-dynamics\\input-contract.json",
+            "sha256": "4212f2c483c6e77fdf70267f69d93643a24dbb3cbab0a993a2ae4c88e4b2620b",
+            "lesson_count": 8
+          },
+          "required_amendment_ids": [
+            "SA-17"
+          ],
+          "source_launch_decision": "ready_for_source_scoped_drafting_with_required_gates",
+          "decision_scope": "Source/coverage only; no new teaching acceptance or finished-course validation.",
+          "educational_gate": [
+            "E05",
+            "independent_teaching_recheck"
+          ]
+        }
+      ],
+      "source_scope": {
+        "primary": "S02#/backbone_sequence/12",
+        "additional": [
+          "S02#/hodge_normalization_theorem",
+          "S04#/hodge_correction_proof",
+          "S03#/findings/8"
+        ],
+        "Hodge_convention": "Synthetic M in LU^2,R in LU^-2,delta=det M=V^2 in LU^6. Bivectors(12,13,23); J=[[0,0,1],[0,-1,0],[1,0,0]]. HE=delta^(1/3)R,HB=delta^(2/3)wedge^2 R are dimensionless. Exponents follow requiring normalization for every positive delta,not only delta=1. This chosen J is declared for the example,not substituted for an unloaded archival convention.",
+        "historical_branch": {
+          "source": "S01#/backbone_sequence/12/definitions",
+          "electric": "delta^(2/3)R",
+          "magnetic": "delta^(4/3)wedge^2 R",
+          "status": "historical exponents superseded by mature determinant-normalization correction"
+        },
+        "Cayley_domain": "Self-adjoint Lhat,real tau_C and invertible denominator; tau_C*Lhat dimensionless. Keep tau_C distinct from any Hodge-length symbol and source tau_R unless a conversion is explicitly supplied.",
+        "certificate_scope": {
+          "source_reported_bounds": {
+            "epsilon_E": "<0.007744166",
+            "epsilon_B": "<0.015868134",
+            "alpha": "<=0.5244",
+            "Delta": ">0.10185916 H_N/tau_R"
+          },
+          "full_pinned_replay_inputs": "not available in the read source packet",
+          "assigned_operation": "source-scoped reading only; no numerical certificate replay",
+          "positive_domain": "native plaquette/detail coefficients positive; c_*>0",
+          "units": "H_N action,tau_R time,H_N/tau_R energy; normalized root bound distinguished from physical energy gap"
+        },
+        "continuum": "Finite unitary identities and source finite-compiler claims do not certify optional infinite operator-domain or continuum comparison theorems."
+      },
+      "course_map": [
+        {
+          "id": "lesson-01",
+          "title": "Link transport between local frames",
+          "entry_prerequisites": [
+            "course-07",
+            "course-14"
+          ],
+          "concept_ids": [
+            "C17.01"
+          ],
+          "worked_example_capability": "Apply a small link map to a state",
+          "assessment_target": "Apply a small link map to a state",
+          "later_use": "lesson-02",
+          "core_minutes": 55,
+          "planned_periods": 1,
+          "planned_total_minutes": 55,
+          "explanation_id": "C17.01-E1",
+          "worked_example_id": "C17.01-W1",
+          "prior_practice_id": "C17.01-P1",
+          "diagnostic_id": "C17.01-D1"
+        },
+        {
+          "id": "lesson-02",
+          "title": "Covariant finite differences",
+          "entry_prerequisites": [
+            "lesson-01"
+          ],
+          "concept_ids": [
+            "C17.02"
+          ],
+          "worked_example_capability": "Check how a difference changes when local frames change",
+          "assessment_target": "Check how a difference changes when local frames change",
+          "later_use": "lesson-03",
+          "core_minutes": 55,
+          "planned_periods": 1,
+          "planned_total_minutes": 55,
+          "explanation_id": "C17.02-E1",
+          "worked_example_id": "C17.02-W1",
+          "prior_practice_id": "C17.02-P1",
+          "diagnostic_id": "C17.02-D1"
+        },
+        {
+          "id": "lesson-03",
+          "title": "Loops and holonomy",
+          "entry_prerequisites": [
+            "lesson-02"
+          ],
+          "concept_ids": [
+            "C17.03"
+          ],
+          "worked_example_capability": "Multiply ordered links around a small loop",
+          "assessment_target": "Multiply ordered links around a small loop",
+          "later_use": "lesson-04",
+          "core_minutes": 55,
+          "planned_periods": 2,
+          "planned_total_minutes": 110,
+          "explanation_id": "C17.03-E1",
+          "worked_example_id": "C17.03-W1",
+          "prior_practice_id": "C17.03-P1",
+          "diagnostic_id": "C17.03-D1"
+        },
+        {
+          "id": "lesson-04",
+          "title": "A finite gauge-invariant action",
+          "entry_prerequisites": [
+            "lesson-03"
+          ],
+          "concept_ids": [
+            "C17.04"
+          ],
+          "worked_example_capability": "Verify a simple invariant loop quantity",
+          "assessment_target": "Verify a simple invariant loop quantity",
+          "later_use": "lesson-05",
+          "core_minutes": 55,
+          "planned_periods": 1,
+          "planned_total_minutes": 55,
+          "explanation_id": "C17.04-E1",
+          "worked_example_id": "C17.04-W1",
+          "prior_practice_id": "C17.04-P1",
+          "diagnostic_id": "C17.04-D1"
+        },
+        {
+          "id": "lesson-05",
+          "title": "Norm-preserving time steps",
+          "entry_prerequisites": [
+            "lesson-04"
+          ],
+          "concept_ids": [
+            "C17.05"
+          ],
+          "worked_example_capability": "Check a rational or Cayley update under its stated hypotheses",
+          "assessment_target": "Check a rational or Cayley update under its stated hypotheses",
+          "later_use": "lesson-06",
+          "core_minutes": 55,
+          "required_amendment_ids": [
+            "SA-17"
+          ],
+          "planned_periods": 2,
+          "planned_total_minutes": 110,
+          "explanation_id": "C17.05-E1",
+          "worked_example_id": "C17.05-W1",
+          "prior_practice_id": "C17.05-P1",
+          "diagnostic_id": "C17.05-D1"
+        },
+        {
+          "id": "lesson-06",
+          "title": "Metric and Hodge factors",
+          "entry_prerequisites": [
+            "lesson-05"
+          ],
+          "concept_ids": [
+            "C17.06"
+          ],
+          "worked_example_capability": "Introduce a low-dimensional metric-weighted comparison before the source matrices",
+          "assessment_target": "Introduce a low-dimensional metric-weighted comparison before the source matrices",
+          "later_use": "lesson-07",
+          "core_minutes": 55,
+          "required_amendment_ids": [
+            "SA-17"
+          ],
+          "planned_periods": 3,
+          "planned_total_minutes": 165,
+          "explanation_id": "C17.06-E1",
+          "worked_example_id": "C17.06-W1",
+          "prior_practice_id": "C17.06-P1",
+          "diagnostic_id": "C17.06-D1"
+        },
+        {
+          "id": "lesson-07",
+          "title": "Reading a fixed-rung certificate",
+          "entry_prerequisites": [
+            "lesson-06"
+          ],
+          "concept_ids": [
+            "C17.07"
+          ],
+          "worked_example_capability": "Identify its domain, supplied coefficients, and precision",
+          "assessment_target": "Identify its domain, supplied coefficients, and precision",
+          "later_use": "lesson-08",
+          "core_minutes": 55,
+          "required_amendment_ids": [
+            "SA-17"
+          ],
+          "planned_periods": 2,
+          "planned_total_minutes": 110,
+          "explanation_id": "C17.07-E1",
+          "worked_example_id": "C17.07-W1",
+          "prior_practice_id": "C17.07-P1",
+          "diagnostic_id": "C17.07-D1"
+        },
+        {
+          "id": "lesson-08",
+          "title": "Conservation and continuum scope",
+          "entry_prerequisites": [
+            "lesson-07"
+          ],
+          "concept_ids": [
+            "C17.08"
+          ],
+          "worked_example_capability": "Test a conserved quantity and distinguish finite evolution from a limit theorem",
+          "assessment_target": "Test a conserved quantity and distinguish finite evolution from a limit theorem",
+          "later_use": "capstone",
+          "core_minutes": 55,
+          "required_amendment_ids": [
+            "SA-17"
+          ],
+          "planned_periods": 1,
+          "planned_total_minutes": 55,
+          "explanation_id": "C17.08-E1",
+          "worked_example_id": "C17.08-W1",
+          "prior_practice_id": "C17.08-P1",
+          "diagnostic_id": "C17.08-D1"
+        }
+      ],
+      "lessons": [
+        {
+          "lesson_id": "lesson-01",
+          "concept_id": "C17.01",
+          "explanation_id": "C17.01-E1",
+          "bridge_to_teach": "Declare local complex state spaces and U_xy as a map FROM frame y TO frame x. Review adjoint/unitary inverse and exact complex multiplication before links. Distinguish changing coordinates from changing the state.",
+          "worked_example": {
+            "id": "C17.01-W1",
+            "task_and_answer": "Scalar link U_xy=i sends psi_y=2 to2i in frame x; inverse -i restores2. A2x2 link diag(i,-i) sends(1,2) to(i,-2i), norm squared5; conjugate transpose restores input."
+          },
+          "guided_practice": {
+            "id": "C17.01-P1",
+            "task_and_answer": "U_xy=-i sends psi_y=1+i to1-i; inverse i restores1+i, norm squared2. For diag(-1, i), input(2,1) gives(-2, i), norm squared5 and inverse diag(-1,-i) restores."
+          },
+          "diagnostic": {
+            "id": "C17.01-D1",
+            "task_and_answer": "U_xy and U_yx cannot be silently exchanged. With a unitary link U_yx=U_xy dagger; it maps the other direction."
+          },
+          "planned_periods": 1,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand into actual senior-facing explanations,2–4 observable goals and3–5 answered diagnostics. Preserve original IDs and every supplemental concept. Split dense sessions with links updated; period counts may expand.",
+          "original_title": "Link transport between local frames",
+          "original_assessment_target": "Apply a small link map to a state",
+          "original_concept_ids": [
+            "C17.01"
+          ],
+          "required_source_amendment_ids": [],
+          "source_coverage_requirements": [],
+          "original_entry_prerequisites": [
+            "course-07",
+            "course-14"
+          ]
+        },
+        {
+          "lesson_id": "lesson-02",
+          "concept_id": "C17.02",
+          "explanation_id": "C17.02-E1",
+          "bridge_to_teach": "Teach the finite covariant difference d_x=psi_x-U_xy psi_y and frame rules psi_x prime=G_x psi_x, U_xy prime=G_x U_xy G_y inverse. Derive cancellation of the intermediate frame by multiplication.",
+          "worked_example": {
+            "id": "C17.02-W1",
+            "task_and_answer": "psi_x=1, psi_y=2, U=i givesd=1-2i. WithG_x=i, G_y=-1, Uprime=1 and transformed difference2+i=i*d."
+          },
+          "guided_practice": {
+            "id": "C17.02-P1",
+            "task_and_answer": "psi_x=2, psi_y=1+i, U=-i givesd=1+i. G_x=-1, G_y=i makesUprime=1, psi_x prime=-2, psi_y prime=-1+i; dprime=-1-i=G_x*d. Retain both descriptions."
+          },
+          "diagnostic": {
+            "id": "C17.02-D1",
+            "task_and_answer": "Subtracting untransported vectors from different frames loses the declared comparison. A difference is covariant; it need not have identical components in two frames."
+          },
+          "planned_periods": 1,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand into actual senior-facing explanations,2–4 observable goals and3–5 answered diagnostics. Preserve original IDs and every supplemental concept. Split dense sessions with links updated; period counts may expand.",
+          "original_title": "Covariant finite differences",
+          "original_assessment_target": "Check how a difference changes when local frames change",
+          "original_concept_ids": [
+            "C17.02"
+          ],
+          "required_source_amendment_ids": [],
+          "source_coverage_requirements": [],
+          "original_entry_prerequisites": [
+            "lesson-01"
+          ]
+        },
+        {
+          "lesson_id": "lesson-03",
+          "concept_id": "C17.03",
+          "explanation_id": "C17.03-E1",
+          "bridge_to_teach": "Define loop product with a basepoint and rightmost map acting first. For U01 U12 U20, intermediate changes cancel and the loop transforms byG0 Uloop G0 inverse. Teach noncommuting2x2 multiplication.",
+          "worked_example": {
+            "id": "C17.03-W1",
+            "task_and_answer": "UseX=[[0,1],[1,0]], Z=diag(1,-1), U01=X, U12=Z, U20=I. LoopXZ=[[0,-1],[1,0]], whileZX=-XZ; order matters."
+          },
+          "guided_practice": {
+            "id": "C17.03-P1",
+            "task_and_answer": "Exchange linksU01=Z, U12=X, U20=I; loopZX=[[0,1],[-1,0]]. Apply to(1,0) to obtain(0,-1), compared with(0,1) fromXZ. Verify conjugation byZ sends either loop to its negative."
+          },
+          "diagnostic": {
+            "id": "C17.03-D1",
+            "task_and_answer": "The scalar loop i*1*i=-1 happens to commute, but cannot justify reordering matrix links. Record the basepoint and complete ordered product."
+          },
+          "planned_periods": 2,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand into actual senior-facing explanations,2–4 observable goals and3–5 answered diagnostics. Preserve original IDs and every supplemental concept. Split dense sessions with links updated; period counts may expand.",
+          "original_title": "Loops and holonomy",
+          "original_assessment_target": "Multiply ordered links around a small loop",
+          "original_concept_ids": [
+            "C17.03"
+          ],
+          "required_source_amendment_ids": [],
+          "source_coverage_requirements": [],
+          "original_entry_prerequisites": [
+            "lesson-02"
+          ]
+        },
+        {
+          "lesson_id": "lesson-04",
+          "concept_id": "C17.04",
+          "explanation_id": "C17.04-E1",
+          "bridge_to_teach": "Define trace as diagonal sum and demonstrate trace invariance under conjugation. Use the supplied finite action term beta ReTr(I-Uloop), with positive beta and a declared action-unit normalization.",
+          "worked_example": {
+            "id": "C17.04-W1",
+            "task_and_answer": "ForXZ, Tr(XZ)=0 and ReTr(I-XZ)=2; beta=3 action units gives6. Conjugation byZ gives-XZ with the same trace/action."
+          },
+          "guided_practice": {
+            "id": "C17.04-P1",
+            "task_and_answer": "ForZX withbeta=2 action units, action4. Scalar loop-1 withbeta=2 action units also gives4. Frame phasesG0=-1, G1=i, G2=1 change(i,1, i) links to(-1, i,-i), leaving loop-1."
+          },
+          "diagnostic": {
+            "id": "C17.04-D1",
+            "task_and_answer": "Matching one trace does not mean matching full loops. Retain the loop matrices and all coefficients; gauge-invariance is a finite algebraic property, not a measurement or continuum theorem."
+          },
+          "planned_periods": 1,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand into actual senior-facing explanations,2–4 observable goals and3–5 answered diagnostics. Preserve original IDs and every supplemental concept. Split dense sessions with links updated; period counts may expand.",
+          "original_title": "A finite gauge-invariant action",
+          "original_assessment_target": "Verify a simple invariant loop quantity",
+          "original_concept_ids": [
+            "C17.04"
+          ],
+          "required_source_amendment_ids": [],
+          "source_coverage_requirements": [],
+          "original_entry_prerequisites": [
+            "lesson-03"
+          ]
+        },
+        {
+          "lesson_id": "lesson-05",
+          "concept_id": "C17.05",
+          "explanation_id": "C17.05-E1",
+          "bridge_to_teach": "Review complex adjoints and norms; require Lhat=Lhat dagger, real tau_C and invertible I+i tau_C Lhat. Make tau_C Lhat dimensionless. Prove Cayley adjoint cancellation before asserting conservation; retain the inverse step.",
+          "worked_example": {
+            "id": "C17.05-W1",
+            "task_and_answer": "Lhat=diag(1,2), tau_C=1 in compatible time units givesC=diag(-i,-3/5-4i/5). Input(1,2) maps(-i,-6/5-8i/5); norm squared5 is preserved, C dagger recovers input."
+          },
+          "guided_practice": {
+            "id": "C17.05-P1",
+            "task_and_answer": "Lhat=diag(0,2), tau_C=1/2 givesC=diag(1,-i). Input(1+i,2) maps(1+i,-2i), norm squared6; reverse withC dagger. Verify both diagonal factors have modulus1 and denominator determinant nonzero."
+          },
+          "diagnostic": {
+            "id": "C17.05-D1",
+            "task_and_answer": "If scalarLhat=i/2, tau_C=1, C=3 and norm squared scales by9; self-adjointness cannot be omitted. Do not reuse tau_C as the Hodge normalization length or archived tau_R without a declared conversion."
+          },
+          "planned_periods": 2,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand into actual senior-facing explanations,2–4 observable goals and3–5 answered diagnostics. Preserve original IDs and every supplemental concept. Split dense sessions with links updated; period counts may expand.",
+          "original_title": "Norm-preserving time steps",
+          "original_assessment_target": "Check a rational or Cayley update under its stated hypotheses",
+          "original_concept_ids": [
+            "C17.05"
+          ],
+          "required_source_amendment_ids": [
+            "SA-17"
+          ],
+          "source_coverage_requirements": [],
+          "original_entry_prerequisites": [
+            "lesson-04"
+          ]
+        },
+        {
+          "lesson_id": "lesson-06",
+          "concept_id": "C17.06",
+          "explanation_id": "C17.06-E1",
+          "bridge_to_teach": "Begin with a metric-weighted norm diag(1,4): vector(1,1) has squared length5. Then declare3D M, R=M^-1, delta=detM=V², bivector order(12,13,23), wedge²R as2x2 minors and J=[[0,0,1],[0,-1,0],[1,0,0]].",
+          "worked_example": {
+            "id": "C17.06-W1",
+            "task_and_answer": "Synthetic M=diag(1,4,16) LU², delta64 LU^6, R=diag(1,1/4,1/16) LU^-2. HE=delta^(1/3)R=diag(4,1,1/4); HB=delta^(2/3)wedge²R=diag(4,1,1/4). Both determinants1; J HB J^T=HE^-1."
+          },
+          "guided_practice": {
+            "id": "C17.06-P1",
+            "task_and_answer": "M=diag(4,1,16) givesHE=diag(1,4,1/4), HB=diag(4,1/4,1); J HB J^T=diag(1,1/4,4)=HE^-1. Scale M by4:delta scales64, R by1/4; HE andHB unchanged. In2D metricdiag(4,1), vector(1,2) has squared length8."
+          },
+          "diagnostic": {
+            "id": "C17.06-D1",
+            "task_and_answer": "M LU², delta LU^6, R LU^-2, wedge²R LU^-4 make both normalized blocks dimensionless. In3D det(delta^a R)=delta^(3a-1) and det(delta^b wedge²R)=delta^(3b-2); hencea=1/3, b=2/3. S01 older2/3,4/3 exponents are historical; atdelta64 their determinants64 and4096 fail normalization."
+          },
+          "planned_periods": 3,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand into actual senior-facing explanations,2–4 observable goals and3–5 answered diagnostics. Preserve original IDs and every supplemental concept. Split dense sessions with links updated; period counts may expand.",
+          "original_title": "Metric and Hodge factors",
+          "original_assessment_target": "Introduce a low-dimensional metric-weighted comparison before the source matrices",
+          "original_concept_ids": [
+            "C17.06"
+          ],
+          "required_source_amendment_ids": [
+            "SA-17"
+          ],
+          "source_coverage_requirements": [],
+          "original_entry_prerequisites": [
+            "lesson-05"
+          ]
+        },
+        {
+          "lesson_id": "lesson-07",
+          "concept_id": "C17.07",
+          "explanation_id": "C17.07-E1",
+          "bridge_to_teach": "Read the finite-rung claims as certificate-scoped source statements. Record exact compiler/rung, coefficient positivity, units, precision/interval bounds, source hash and replay-object availability. Without a full pinned certificate, assign scoped reading only, not numerical replay.",
+          "worked_example": {
+            "id": "C17.07-W1",
+            "task_and_answer": "S02 M13 reports epsilon_E<.007744166, epsilon_B<.015868134, alpha<=.5244 and gapDelta>.10185916 H_N/tau_R. Keep strict/non-strict signs and digits. H_N action divided bytau_R time gives energy. AUD-009 names missing fixed-rung inputs; no fresh certificate replay is claimed."
+          },
+          "guided_practice": {
+            "id": "C17.07-P1",
+            "task_and_answer": "Classify a packet containing only those four numbers: source summary available; full compiler matrices, positive coefficient list, interval method, hash/replay command and domain absent. Mark replay unavailable. Separately a synthetic normalized boundd_root=3/10, c*=1/20 yieldsmin(d_root,2c*)=1/10 timesE0=H_N/tau_R; it does not reproduce the archived bound."
+          },
+          "diagnostic": {
+            "id": "C17.07-D1",
+            "task_and_answer": "Retain positive c*>0 and the fixed-compiler domain. A source-local VERIFIED_NOT_LOADED label is a retrieval/status record, not invented certification or automatic refutation. Infinite-depth operator and continuum comparisons remain separate."
+          },
+          "planned_periods": 2,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand into actual senior-facing explanations,2–4 observable goals and3–5 answered diagnostics. Preserve original IDs and every supplemental concept. Split dense sessions with links updated; period counts may expand.",
+          "original_title": "Reading a fixed-rung certificate",
+          "original_assessment_target": "Identify its domain, supplied coefficients, and precision",
+          "original_concept_ids": [
+            "C17.07"
+          ],
+          "required_source_amendment_ids": [
+            "SA-17"
+          ],
+          "source_coverage_requirements": [],
+          "original_entry_prerequisites": [
+            "lesson-06"
+          ]
+        },
+        {
+          "lesson_id": "lesson-08",
+          "concept_id": "C17.08",
+          "explanation_id": "C17.08-E1",
+          "bridge_to_teach": "Test the exact conserved quantity of the specified finite update; distinguish unitary norm conservation from other observables and from a continuum limit. Preserve every component and any finite comparison remainder.",
+          "worked_example": {
+            "id": "C17.08-W1",
+            "task_and_answer": "For the worked Cayley step, norm squared =5 and psi dagger Lhat psi=9 before/after because this C is a function ofLhat. The two complex amplitudes change and are retained."
+          },
+          "guided_practice": {
+            "id": "C17.08-P1",
+            "task_and_answer": "For the practice step, norm squared =6 and Lhat expectation8 before/after. Two steps give(1+i,-2), still norm squared 6; inverse steps recover the original. Repeated finite unitarity does not prove convergence to an unprovided continuum operator."
+          },
+          "diagnostic": {
+            "id": "C17.08-D1",
+            "task_and_answer": "Source thermal-detail convergence uses positive coefficients and its infinite series; the first three synthetic terms forbeta*c*=ln16 are1/16,1/32,1/1024. Finite terms illustrate but do not certify missing infinite operator-domain premises. Report finite theorem, source certificate claim and optional continuum comparison separately."
+          },
+          "planned_periods": 1,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand into actual senior-facing explanations,2–4 observable goals and3–5 answered diagnostics. Preserve original IDs and every supplemental concept. Split dense sessions with links updated; period counts may expand.",
+          "original_title": "Conservation and continuum scope",
+          "original_assessment_target": "Test a conserved quantity and distinguish finite evolution from a limit theorem",
+          "original_concept_ids": [
+            "C17.08"
+          ],
+          "required_source_amendment_ids": [
+            "SA-17"
+          ],
+          "source_coverage_requirements": [],
+          "original_entry_prerequisites": [
+            "lesson-07"
+          ]
+        }
+      ],
+      "capstone_backward_map": [
+        {
+          "step_id": "C17-CAP-01",
+          "operation": "Apply and invert the taught link on a complex state with declared source/target frames.",
+          "introduction": "lesson-01",
+          "explanation_id": "C17.01-E1",
+          "worked_example_id": "C17.01-W1",
+          "prior_practice_id": "C17.01-P1",
+          "diagnostic_id": "C17.01-D1"
+        },
+        {
+          "step_id": "C17-CAP-02",
+          "operation": "Compute the practice covariant difference and its transformed components, verifying dprime=Gx*d.",
+          "introduction": "lesson-02",
+          "explanation_id": "C17.02-E1",
+          "worked_example_id": "C17.02-W1",
+          "prior_practice_id": "C17.02-P1",
+          "diagnostic_id": "C17.02-D1"
+        },
+        {
+          "step_id": "C17-CAP-03",
+          "operation": "Multiply the noncommuting practice loop in the declared order and compare reversed order.",
+          "introduction": "lesson-03",
+          "explanation_id": "C17.03-E1",
+          "worked_example_id": "C17.03-W1",
+          "prior_practice_id": "C17.03-P1",
+          "diagnostic_id": "C17.03-D1"
+        },
+        {
+          "step_id": "C17-CAP-04",
+          "operation": "Calculate the loop action before/after the taught frame change and retain the full loop.",
+          "introduction": "lesson-04",
+          "explanation_id": "C17.04-E1",
+          "worked_example_id": "C17.04-W1",
+          "prior_practice_id": "C17.04-P1",
+          "diagnostic_id": "C17.04-D1"
+        },
+        {
+          "step_id": "C17-CAP-05",
+          "operation": "Compute and invert the practice Cayley step,check adjoint/norm and all hypotheses.",
+          "introduction": "lesson-05",
+          "explanation_id": "C17.05-E1",
+          "worked_example_id": "C17.05-W1",
+          "prior_practice_id": "C17.05-P1",
+          "diagnostic_id": "C17.05-D1"
+        },
+        {
+          "step_id": "C17-CAP-06",
+          "operation": "Compute the practice HE/HB blocks,determinants,duality and units; identify historical exponents.",
+          "introduction": "lesson-06",
+          "explanation_id": "C17.06-E1",
+          "worked_example_id": "C17.06-W1",
+          "prior_practice_id": "C17.06-P1",
+          "diagnostic_id": "C17.06-D1"
+        },
+        {
+          "step_id": "C17-CAP-07",
+          "operation": "Read the archived finite-rung bound with its domains,precision and missing replay inputs; evaluate only the separately declared synthetic minimum.",
+          "introduction": "lesson-07",
+          "explanation_id": "C17.07-E1",
+          "worked_example_id": "C17.07-W1",
+          "prior_practice_id": "C17.07-P1",
+          "diagnostic_id": "C17.07-D1"
+        },
+        {
+          "step_id": "C17-CAP-08",
+          "operation": "Verify finite norm and Lhat expectation conservation and distinguish source/continuum claims.",
+          "introduction": "lesson-08",
+          "explanation_id": "C17.08-E1",
+          "worked_example_id": "C17.08-W1",
+          "prior_practice_id": "C17.08-P1",
+          "diagnostic_id": "C17.08-D1"
+        }
+      ],
+      "core_periods": 13,
+      "capstone_periods": 3,
+      "period_minutes": 55,
+      "core_boundary": "Assess the explicit finite operations and exact source-reading cards. No missing certificate replay,full Clifford/physical chirality proof,global determinant-line existence proof,continuum limit,or physical occupation-selection proof is silently assigned.",
+      "prerequisite_status": "Blueprint closure checked; actual produced student-facing explanations,answered practice and capstone require later independent content acceptance."
+    },
+    {
+      "course_id": "course-18",
+      "input_contract_path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-18-history-orientation-and-chirality\\input-contract.json",
+      "input_contract_sha256": "f7ab24bebf450438429e81a83c365ee2a3dafd3d086c9552f3e520d0af31035d",
+      "application": "Merge additively as teaching_amendment. Replace generic coverage references with exact exercise IDs. Preserve every original concept,source/educational amendment,supplemental exercise and legacy bridge ID. Parent applies; no project edit made.",
+      "applied_source_amendments_read": {},
+      "original_subject_kernel": {
+        "objects_and_operations": [
+          {
+            "concept_id": "C18.01",
+            "concept": "Address histories as words",
+            "operation": "Generate a finite prefix tree and retain the empty word"
+          },
+          {
+            "concept_id": "C18.02",
+            "concept": "Shift operators and root defects",
+            "operation": "Verify prefixing and its partial inverse on a small tree"
+          },
+          {
+            "concept_id": "C18.03",
+            "concept": "Isometry versus reversible evolution",
+            "operation": "Distinguish norm preservation from surjectivity"
+          },
+          {
+            "concept_id": "C18.04",
+            "concept": "History projectors",
+            "operation": "Check idempotence and orthogonality of finite projectors"
+          },
+          {
+            "concept_id": "C18.05",
+            "concept": "Spatial handedness and a time direction",
+            "operation": "Track orientation without silent reflections"
+          },
+          {
+            "concept_id": "C18.06",
+            "concept": "Chirality as a graded construction",
+            "operation": "Use small matrix models to explain a declared grading"
+          },
+          {
+            "concept_id": "C18.07",
+            "concept": "The source K4 construction",
+            "operation": "Trace the carrier, coframe, and history assumptions behind the archived statement"
+          },
+          {
+            "concept_id": "C18.S01",
+            "concept": "Finite shift endpoint defects",
+            "operation": "Compute root and terminal defects on a finite truncation; compare with a rectangular isometry and state the infinite-carrier scope."
+          },
+          {
+            "concept_id": "C18.S02",
+            "concept": "Angular and spin branch scope",
+            "operation": "Sum 1+3+5 at a small cutoff, count paired spin labels, and explain why the abstract representation does not identify a physical angular Hamiltonian or occupation."
+          },
+          {
+            "concept_id": "C18.S03",
+            "concept": "CP capability and real carry obstruction",
+            "operation": "Compute a small commutator, contrast a commuting real example with supplied complex operators, and classify existence of a witness separately from prediction of a physical CP phase."
+          }
+        ],
+        "source_modules": [
+          "M14"
+        ],
+        "scope": "Build a finite history model and an orientation ledger, then explain exactly which source objects support the chirality construction.",
+        "common_failure_modes": [
+          "Untaught prerequisite",
+          "Unscoped symbol or unit",
+          "An illustrative example presented as real evidence",
+          "A source label promoted beyond its evidence class",
+          "A residual or source branch silently omitted"
+        ]
+      },
+      "original_capstone_specification": {
+        "task": "Build a finite history model and an orientation ledger, then explain exactly which source objects support the chirality construction.",
+        "required_operations": [
+          "Generate a finite prefix tree and retain the empty word",
+          "Verify prefixing and its partial inverse on a small tree",
+          "Distinguish norm preservation from surjectivity",
+          "Check idempotence and orthogonality of finite projectors",
+          "Track orientation without silent reflections",
+          "Use small matrix models to explain a declared grading",
+          "Trace the carrier, coframe, and history assumptions behind the archived statement"
+        ],
+        "rule": "Map every capstone operation to a prior introduction and practice; provide full answers, point rubric, source scope, and residual accounting."
+      },
+      "source_coverage_review_rows": [
+        {
+          "course_id": "course-18",
+          "title": "History, Orientation, and Chirality",
+          "backbone_modules": [
+            "M14"
+          ],
+          "topic_boundary": "History shifts, finite endpoint defects, chirality, and bounded angular/spin and CP branch comparisons.",
+          "cognitive_or_fidelity_risk": "A finite square shift cannot satisfy both infinite-shift isometry identities.",
+          "status": "source_map_review_complete_teaching_decision_pending",
+          "primary_sources": [
+            "S02"
+          ],
+          "source_pointer": "/backbone_sequence/13",
+          "packet_at_review": {
+            "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-18-history-orientation-and-chirality\\input-contract.json",
+            "sha256": "3262e03582892ed17113f4819a3863dd3421a4ca0c1ac9aa7f8c70dbb90ab3b7",
+            "lesson_count": 7
+          },
+          "required_amendment_ids": [],
+          "source_launch_decision": "ready_for_source_scoped_drafting_with_required_gates",
+          "decision_scope": "Source/coverage only; no new teaching acceptance or finished-course validation.",
+          "educational_gate": [
+            "E05",
+            "independent_teaching_recheck"
+          ]
+        }
+      ],
+      "source_scope": {
+        "primary": "S02#/backbone_sequence/13",
+        "additional": [
+          "S02#/branch_proofs/5",
+          "S02#/proof_nodes/4",
+          "S02#/proof_nodes/18",
+          "S02#/proof_nodes/25",
+          "S02#/branch_proofs/10",
+          "S02#/proof_nodes/9",
+          "S02#/proof_nodes/76",
+          "S03#/findings/8"
+        ],
+        "amendment_state": "Current contract has no named SA-18; preserve C18.S01/S02/S03 and all associated lesson requirements instead of inventing an amendment.",
+        "history_spaces": "Finite square3x3 shift has root and terminal defects,index0. RectangularC2->C3 isometry is not onto. Infinite unilateral shift onl2(N0) has no terminal cutoff,ker0,cokernel1,index-1. Full sourcewordspace l2(B8*) and radialT0 require their separate definitions; the binary toy is not sourceB8.",
+        "chirality": "Spacetime coframe/Clifford construction and internal exterior parity act on distinct factors. Toygrading/correlation identities do not supply the physical chirality-selection proof.",
+        "angular_spin": "Keep angular count(m+1)^2,spin-paired2(m+1)^2 and supplied C2=ell(ell+1); ell0 has no negative-spin summand. Representation counts do not select a physical angular Hamiltonian or occupation.",
+        "CP": "The real carry obstruction is scoped to commutative pointwise operators. Noncommuting complex toy matrices show noncommutativity only. Source Yu=S,Yd=D S^-1 D with supplied positive A andphasek verifies a determinant existence identity,not a numerical physical CP prediction."
+      },
+      "course_map": [
+        {
+          "id": "lesson-01",
+          "title": "Address histories as words",
+          "entry_prerequisites": [
+            "course-06",
+            "course-15",
+            "course-17"
+          ],
+          "concept_ids": [
+            "C18.01"
+          ],
+          "worked_example_capability": "Generate a finite prefix tree and retain the empty word",
+          "assessment_target": "Generate a finite prefix tree and retain the empty word",
+          "later_use": "lesson-02",
+          "core_minutes": 55,
+          "planned_periods": 1,
+          "planned_total_minutes": 55,
+          "explanation_id": "C18.01-E1",
+          "worked_example_id": "C18.01-W1",
+          "prior_practice_id": "C18.01-P1",
+          "diagnostic_id": "C18.01-D1"
+        },
+        {
+          "id": "lesson-02",
+          "title": "Shift operators and root defects",
+          "entry_prerequisites": [
+            "lesson-01"
+          ],
+          "concept_ids": [
+            "C18.02",
+            "C18.S01"
+          ],
+          "worked_example_capability": "Verify prefixing and its partial inverse on a small tree",
+          "assessment_target": "Verify prefixing and its partial inverse on a small tree",
+          "later_use": "lesson-03",
+          "core_minutes": 55,
+          "source_coverage_requirements": [
+            {
+              "concept_id": "C18.S01",
+              "operation": "Compute root and terminal defects on a finite truncation; compare with a rectangular isometry and state the infinite-carrier scope.",
+              "source_pointers": [
+                "S02#/backbone_sequence/13/definitions"
+              ]
+            }
+          ],
+          "pacing_rule": "Preserve every existing operation. Split into additional sessions if these bridge/practice requirements exceed the core period; update recovery checkpoints during production.",
+          "planned_periods": 2,
+          "planned_total_minutes": 110,
+          "explanation_id": "C18.02-E1",
+          "worked_example_id": "C18.02-W1",
+          "prior_practice_id": "C18.02-P1",
+          "diagnostic_id": "C18.02-D1"
+        },
+        {
+          "id": "lesson-03",
+          "title": "Isometry versus reversible evolution",
+          "entry_prerequisites": [
+            "lesson-02"
+          ],
+          "concept_ids": [
+            "C18.03"
+          ],
+          "worked_example_capability": "Distinguish norm preservation from surjectivity",
+          "assessment_target": "Distinguish norm preservation from surjectivity",
+          "later_use": "lesson-04",
+          "core_minutes": 55,
+          "planned_periods": 1,
+          "planned_total_minutes": 55,
+          "explanation_id": "C18.03-E1",
+          "worked_example_id": "C18.03-W1",
+          "prior_practice_id": "C18.03-P1",
+          "diagnostic_id": "C18.03-D1"
+        },
+        {
+          "id": "lesson-04",
+          "title": "History projectors",
+          "entry_prerequisites": [
+            "lesson-03"
+          ],
+          "concept_ids": [
+            "C18.04"
+          ],
+          "worked_example_capability": "Check idempotence and orthogonality of finite projectors",
+          "assessment_target": "Check idempotence and orthogonality of finite projectors",
+          "later_use": "lesson-05",
+          "core_minutes": 55,
+          "planned_periods": 1,
+          "planned_total_minutes": 55,
+          "explanation_id": "C18.04-E1",
+          "worked_example_id": "C18.04-W1",
+          "prior_practice_id": "C18.04-P1",
+          "diagnostic_id": "C18.04-D1"
+        },
+        {
+          "id": "lesson-05",
+          "title": "Spatial handedness and a time direction",
+          "entry_prerequisites": [
+            "lesson-04"
+          ],
+          "concept_ids": [
+            "C18.05"
+          ],
+          "worked_example_capability": "Track orientation without silent reflections",
+          "assessment_target": "Track orientation without silent reflections",
+          "later_use": "lesson-06",
+          "core_minutes": 55,
+          "planned_periods": 1,
+          "planned_total_minutes": 55,
+          "explanation_id": "C18.05-E1",
+          "worked_example_id": "C18.05-W1",
+          "prior_practice_id": "C18.05-P1",
+          "diagnostic_id": "C18.05-D1"
+        },
+        {
+          "id": "lesson-06",
+          "title": "Chirality as a graded construction",
+          "entry_prerequisites": [
+            "lesson-05"
+          ],
+          "concept_ids": [
+            "C18.06",
+            "C18.S02"
+          ],
+          "worked_example_capability": "Use small matrix models to explain a declared grading",
+          "assessment_target": "Use small matrix models to explain a declared grading",
+          "later_use": "lesson-07",
+          "core_minutes": 55,
+          "source_coverage_requirements": [
+            {
+              "concept_id": "C18.S02",
+              "operation": "Sum 1+3+5 at a small cutoff, count paired spin labels, and explain why the abstract representation does not identify a physical angular Hamiltonian or occupation.",
+              "source_pointers": [
+                "S02#/branch_proofs/5",
+                "S02#/proof_nodes/4",
+                "S02#/proof_nodes/18",
+                "S02#/proof_nodes/25"
+              ]
+            }
+          ],
+          "pacing_rule": "Preserve every existing operation. Split into additional sessions if these bridge/practice requirements exceed the core period; update recovery checkpoints during production.",
+          "planned_periods": 3,
+          "planned_total_minutes": 165,
+          "explanation_id": "C18.06-E1",
+          "worked_example_id": "C18.06-W1",
+          "prior_practice_id": "C18.06-P1",
+          "diagnostic_id": "C18.06-D1"
+        },
+        {
+          "id": "lesson-07",
+          "title": "The source K4 construction",
+          "entry_prerequisites": [
+            "lesson-06"
+          ],
+          "concept_ids": [
+            "C18.07",
+            "C18.S03"
+          ],
+          "worked_example_capability": "Trace the carrier, coframe, and history assumptions behind the archived statement",
+          "assessment_target": "Trace the carrier, coframe, and history assumptions behind the archived statement",
+          "later_use": "capstone",
+          "core_minutes": 55,
+          "source_coverage_requirements": [
+            {
+              "concept_id": "C18.S03",
+              "operation": "Compute a small commutator, contrast a commuting real example with supplied complex operators, and classify existence of a witness separately from prediction of a physical CP phase.",
+              "source_pointers": [
+                "S02#/branch_proofs/10",
+                "S02#/proof_nodes/9",
+                "S02#/proof_nodes/76"
+              ]
+            }
+          ],
+          "pacing_rule": "Preserve every existing operation. Split into additional sessions if these bridge/practice requirements exceed the core period; update recovery checkpoints during production.",
+          "planned_periods": 3,
+          "planned_total_minutes": 165,
+          "explanation_id": "C18.07-E1",
+          "worked_example_id": "C18.07-W1",
+          "prior_practice_id": "C18.07-P1",
+          "diagnostic_id": "C18.07-D1"
+        }
+      ],
+      "lessons": [
+        {
+          "lesson_id": "lesson-01",
+          "concept_id": "C18.01",
+          "explanation_id": "C18.01-E1",
+          "bridge_to_teach": "Define a word, empty word Omega, prefix and truncation depth before history-space notation. Use a labeled binary classroom alphabet{a, b}; keep the source eight-letter alphabetB8 distinct and do not invent its missing physical labeling.",
+          "worked_example": {
+            "id": "C18.01-W1",
+            "task_and_answer": "Depth<=2 binary words areOmega, a, b, aa, ab, ba, bb:7 orthogonal labels. Prefixa sends Omega->a, b->ab; removing a first a is the partial inverse, while removing a from ba gives zero in the linear operator model."
+          },
+          "guided_practice": {
+            "id": "C18.01-P1",
+            "task_and_answer": "At depth<=1 keep Omega, a, b. Prefix b sends Omega->b; at depth 2 it sends a->ba, b->bb. The empty word is a state label, not zero amplitude. An amplitude ledger retains every word and signed/complex coefficient."
+          },
+          "diagnostic": {
+            "id": "C18.01-D1",
+            "task_and_answer": "A finite cutoff must state how terminal words are handled. The sourceF_hist=l²(B8*) includes all finite words and an empty-word root; it is not this 7-state matrix."
+          },
+          "planned_periods": 1,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand into actual senior-facing explanations,2–4 observable goals and3–5 answered diagnostics. Preserve original IDs and every supplemental concept. Split dense sessions with links updated; period counts may expand.",
+          "original_title": "Address histories as words",
+          "original_assessment_target": "Generate a finite prefix tree and retain the empty word",
+          "original_concept_ids": [
+            "C18.01"
+          ],
+          "required_source_amendment_ids": [],
+          "source_coverage_requirements": [],
+          "original_entry_prerequisites": [
+            "course-06",
+            "course-15",
+            "course-17"
+          ]
+        },
+        {
+          "lesson_id": "lesson-02",
+          "concept_id": "C18.02",
+          "explanation_id": "C18.02-E1",
+          "bridge_to_teach": "Teach a three-state radial truncationS e0=e1, S e1=e2, S e2=0 and its transpose partial inverse. Compute both endpoint defects, then contrast a rectangular embedding. Keep square finite index and infinite unilateral-shift index separate.",
+          "worked_example": {
+            "id": "C18.02-W1",
+            "task_and_answer": "S=[[0,0,0],[1,0,0],[0,1,0]]. S†S=diag(1,1,0), SS†=diag(0,1,1); terminal and root defects each rank 1. kerS andkerS† each dimension 1, so finite index 0."
+          },
+          "guided_practice": {
+            "id": "C18.02-P1",
+            "task_and_answer": "Forf=(2,3,4), Sf=(0,2,3), S†Sf=(2,3,0). Retain terminal4e2 to restoref. RectangularT:C²->C³, T(a, b)=(0, a, b) satisfiesT†T=I2 andTT†=diag(0,1,1); input(2,3) has norm squared 13 preserved."
+          },
+          "diagnostic": {
+            "id": "C18.02-D1",
+            "task_and_answer": "The infinite unilateral shift onl²(N0) has no terminal defect, kerS=0, cokernel span e0 and index-1. Its isometry and index statements use that separate space/domain; they cannot be assigned to the3x3 truncation."
+          },
+          "planned_periods": 2,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand into actual senior-facing explanations,2–4 observable goals and3–5 answered diagnostics. Preserve original IDs and every supplemental concept. Split dense sessions with links updated; period counts may expand.",
+          "supplemental_exercises": [
+            {
+              "concept_id": "C18.S01",
+              "explanation_id": "C18.S01-E1",
+              "worked_example_id": "C18.S01-W1",
+              "prior_practice_id": "C18.S01-P1",
+              "diagnostic_id": "C18.S01-D1",
+              "explanation": "Compare square truncation and rectangular isometry with explicit domains and endpoint ledgers.",
+              "worked_task_and_answer": "The3x3 shift hasI-S†S=diag(0,0,1), I-SS†=diag(1,0,0), bothrank 1, index 0.",
+              "practice_task_and_answer": "Forf=(1,-2,5), Sf=(0,1,-2), S†Sf=(1,-2,0); addingretained(0,0,5) restoresf. ForT:C²->C³, T(1,-2)=(0,1,-2), norm squared 5 is preserved; T†T=I2.",
+              "diagnostic_task_and_answer": "A finite square matrix has equal kernel/cokernel dimensions; the infinite l²(N0) unilateral shift haskernel0, cokernel1 and index-1. Do not infer the latter from truncation."
+            }
+          ],
+          "original_title": "Shift operators and root defects",
+          "original_assessment_target": "Verify prefixing and its partial inverse on a small tree",
+          "original_concept_ids": [
+            "C18.02",
+            "C18.S01"
+          ],
+          "required_source_amendment_ids": [],
+          "source_coverage_requirements": [
+            {
+              "concept_id": "C18.S01",
+              "operation": "Compute root and terminal defects on a finite truncation; compare with a rectangular isometry and state the infinite-carrier scope.",
+              "source_pointers": [
+                "S02#/backbone_sequence/13/definitions"
+              ]
+            }
+          ],
+          "original_entry_prerequisites": [
+            "lesson-01"
+          ]
+        },
+        {
+          "lesson_id": "lesson-03",
+          "concept_id": "C18.03",
+          "explanation_id": "C18.03-E1",
+          "bridge_to_teach": "Separate norm-preserving injection, surjectivity and two-sided inverse. Show partial inverse works on the image of a rectangular isometry and preserve the missing range component for general vectors.",
+          "worked_example": {
+            "id": "C18.03-W1",
+            "task_and_answer": "T(a, b)=(0, a, b) preservesnorm. T†(0,2,3)=(2,3), but no input reaches(1,0,0). ThusT†T=I2 whileTT† is a projection, notI3."
+          },
+          "guided_practice": {
+            "id": "C18.03-P1",
+            "task_and_answer": "For output-space vector(5,2,3), T† gives(2,3); T T† gives(0,2,3), retained complement(5,0,0) restores the vector. Compare3x3 shift input(0,0,1), which maps0 and loses norm unless terminal coefficient is retained."
+          },
+          "diagnostic": {
+            "id": "C18.03-D1",
+            "task_and_answer": "A one-sided inverse does not make a map reversible on its entire codomain. Specify the image and complement; do not claim time evolution from an isometry alone."
+          },
+          "planned_periods": 1,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand into actual senior-facing explanations,2–4 observable goals and3–5 answered diagnostics. Preserve original IDs and every supplemental concept. Split dense sessions with links updated; period counts may expand.",
+          "original_title": "Isometry versus reversible evolution",
+          "original_assessment_target": "Distinguish norm preservation from surjectivity",
+          "original_concept_ids": [
+            "C18.03"
+          ],
+          "required_source_amendment_ids": [],
+          "source_coverage_requirements": [],
+          "original_entry_prerequisites": [
+            "lesson-02"
+          ]
+        },
+        {
+          "lesson_id": "lesson-04",
+          "concept_id": "C18.04",
+          "explanation_id": "C18.04-E1",
+          "bridge_to_teach": "Teach q_n=S^n P0(S†)^n using the explicit finite shift and root projector. Check self-adjointness, idempotence, orthogonality and ranks, including the first vanishing projector after the cutoff.",
+          "worked_example": {
+            "id": "C18.04-W1",
+            "task_and_answer": "q0=diag(1,0,0), q1=diag(0,1,0), q2=diag(0,0,1), q3=0. The first three sumI3, all pairwise products vanish. On(1,2,3) they retain(1,0,0),(0,2,0),(0,0,3)."
+          },
+          "guided_practice": {
+            "id": "C18.04-P1",
+            "task_and_answer": "On(-1,4,0), q0 gives(-1,0,0), q1(0,4,0), q2(0,0,0); retain the zero third coordinate and reconstruct. Eachq0..2 has rank 1, whileq3 rank 0; verifyq1²=q1 andq1q2=0."
+          },
+          "diagnostic": {
+            "id": "C18.04-D1",
+            "task_and_answer": "The source wandering projection must lie in the defect space for the asserted orthogonality. A genericP cannot be inserted into the formula without checking this hypothesis."
+          },
+          "planned_periods": 1,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand into actual senior-facing explanations,2–4 observable goals and3–5 answered diagnostics. Preserve original IDs and every supplemental concept. Split dense sessions with links updated; period counts may expand.",
+          "original_title": "History projectors",
+          "original_assessment_target": "Check idempotence and orthogonality of finite projectors",
+          "original_concept_ids": [
+            "C18.04"
+          ],
+          "required_source_amendment_ids": [],
+          "source_coverage_requirements": [],
+          "original_entry_prerequisites": [
+            "lesson-03"
+          ]
+        },
+        {
+          "lesson_id": "lesson-05",
+          "concept_id": "C18.05",
+          "explanation_id": "C18.05-E1",
+          "bridge_to_teach": "Record spatial basis order, determinant sign, time direction and coframe order independently. Use a toy diagonal spatial basis to teach sign changes; do not reflect the authoritative left-handed Cell3 basis to make it right-handed.",
+          "worked_example": {
+            "id": "C18.05-W1",
+            "task_and_answer": "SyntheticB=diag(1,2,-3) has det-6. Swapping the first two columns givesdet+6; reversing the time covector changes the four-dimensional orientation sign once more. Preserve both operations in the ledger."
+          },
+          "guided_practice": {
+            "id": "C18.05-P1",
+            "task_and_answer": "B=diag(2,1,-4) has det-8. Multiplying all spatial lengths bypositive 2 yields det-64 and preserves handedness. Reversing only the third axis flips the sign; label it as a changed orientation, not the same source basis."
+          },
+          "diagnostic": {
+            "id": "C18.05-D1",
+            "task_and_answer": "A forward history choice is an additional temporal/coframe premise. Its sign is not inferred from a determinant magnitude or an internal exterior parity label."
+          },
+          "planned_periods": 1,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand into actual senior-facing explanations,2–4 observable goals and3–5 answered diagnostics. Preserve original IDs and every supplemental concept. Split dense sessions with links updated; period counts may expand.",
+          "original_title": "Spatial handedness and a time direction",
+          "original_assessment_target": "Track orientation without silent reflections",
+          "original_concept_ids": [
+            "C18.05"
+          ],
+          "required_source_amendment_ids": [],
+          "source_coverage_requirements": [],
+          "original_entry_prerequisites": [
+            "lesson-04"
+          ]
+        },
+        {
+          "lesson_id": "lesson-06",
+          "concept_id": "C18.06",
+          "explanation_id": "C18.06-E1",
+          "bridge_to_teach": "Teach a gradingG²=I withG=diag(1,-1), andPminus=(I-G)/2, Pplus=(I+G)/2. Use distinct two-state factors labeled(L, R) and(even, odd); form their correlation projector before discussing source chirality. Include the angular/spin supplement.",
+          "worked_example": {
+            "id": "C18.06-W1",
+            "task_and_answer": "Pminus=diag(0,1), Pplus=diag(1,0) are orthogonal idempotents. On the independently ordered tensor labels(L, even),(L, odd),(R, even),(R, odd), Pi=diag(1,0,0,1). Pi(1,2,3,4)=(1,0,0,4), complement(0,2,3,0) is retained."
+          },
+          "guided_practice": {
+            "id": "C18.06-P1",
+            "task_and_answer": "Pi(2,-1,0,3)=(2,0,0,3), complement(0,-1,0,0); reconstruct. Factor projectors commute because they act on separate factors. ForG=diag(1,-1) andXswap, GX+XG=0; verify bothP²=P andPminus Pplus=0."
+          },
+          "diagnostic": {
+            "id": "C18.06-D1",
+            "task_and_answer": "The toy grading is not a complete spacetime Clifford representation. Correlating two labels does not equate them: spacetime chirality and exterior parity remain different factors."
+          },
+          "planned_periods": 3,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand into actual senior-facing explanations,2–4 observable goals and3–5 answered diagnostics. Preserve original IDs and every supplemental concept. Split dense sessions with links updated; period counts may expand.",
+          "supplemental_exercises": [
+            {
+              "concept_id": "C18.S02",
+              "explanation_id": "C18.S02-E1",
+              "worked_example_id": "C18.S02-W1",
+              "prior_practice_id": "C18.S02-P1",
+              "diagnostic_id": "C18.S02-D1",
+              "explanation": "Teach2ell+1 as a supplied angular representation dimension, then sum and attach two independent spin labels. The Clebsch-Gordan split is source-read; minus term absent atell0.",
+              "worked_task_and_answer": "At cutoff m=2, dimensions1+3+5=9; paired spin labels give18. Supplied C2 eigenvalues ell(ell+1) are0,2,6. For ell1, spin-half split dimensions4+2=6 matches2*3.",
+              "practice_task_and_answer": "At m=3 add 7 to obtain 16, spin labels 32; ell3 has C2=12. For ell2, spin-half termsj=5/2 and3/2 have dimensions 6+4=10=2*5. At ell0 keep only j=1/2 dimension2, not a negative-j term.",
+              "diagnostic_task_and_answer": "These counts do not define a physical Cell3 angular Hamiltonian, energy spacing or occupation. Retain the representation/carrier and source scope separately."
+            }
+          ],
+          "original_title": "Chirality as a graded construction",
+          "original_assessment_target": "Use small matrix models to explain a declared grading",
+          "original_concept_ids": [
+            "C18.06",
+            "C18.S02"
+          ],
+          "required_source_amendment_ids": [],
+          "source_coverage_requirements": [
+            {
+              "concept_id": "C18.S02",
+              "operation": "Sum 1+3+5 at a small cutoff, count paired spin labels, and explain why the abstract representation does not identify a physical angular Hamiltonian or occupation.",
+              "source_pointers": [
+                "S02#/branch_proofs/5",
+                "S02#/proof_nodes/4",
+                "S02#/proof_nodes/18",
+                "S02#/proof_nodes/25"
+              ]
+            }
+          ],
+          "original_entry_prerequisites": [
+            "lesson-05"
+          ]
+        },
+        {
+          "lesson_id": "lesson-07",
+          "concept_id": "C18.07",
+          "explanation_id": "C18.07-E1",
+          "bridge_to_teach": "Read source K4 construction as a dependency ledger: history carrier/defect, spatial coframe, forward time covector, metric-signature/Clifford convention, gamma5 and correlated projector. State which finite identities were checked and which source bodies are not loaded. Include the CP supplement.",
+          "worked_example": {
+            "id": "C18.07-W1",
+            "task_and_answer": "SourceM14 definesgamma5=i gamma0 gamma1 gamma2 gamma3 andPL/PR; its Clifford relations imply the projector identities within its convention. Toy matrices checked the grading algebra only. Source radialT0 index-1 requires its specified infinite radial space; AUD-009 listsT0 and B8 definitions as missing replay objects."
+          },
+          "guided_practice": {
+            "id": "C18.07-P1",
+            "task_and_answer": "Classify: three-state shift index 0=fresh finite check; infinite radial index-1=source statement with separate space/domain; Pi_phys=PL tensorPeven+PR tensorPodd=source correlation with distinct factors; left-handed coframe+forward history=declared orientation inputs. Preserve source pointers and missing-object fields."
+          },
+          "diagnostic": {
+            "id": "C18.07-D1",
+            "task_and_answer": "No finite matrix example supplies a missing physical chirality-selection proof or source operator definition. CP existence arithmetic and angular representation counts remain separate from predicted physical phases or occupations."
+          },
+          "planned_periods": 3,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand into actual senior-facing explanations,2–4 observable goals and3–5 answered diagnostics. Preserve original IDs and every supplemental concept. Split dense sessions with links updated; period counts may expand.",
+          "supplemental_exercises": [
+            {
+              "concept_id": "C18.S03",
+              "explanation_id": "C18.S03-E1",
+              "worked_example_id": "C18.S03-W1",
+              "prior_practice_id": "C18.S03-P1",
+              "diagnostic_id": "C18.S03-D1",
+              "explanation": "Define commutator[A, B]=AB-BA; distinguish pointwise real diagonal carry operators from general real matrices and supplied complex matrices. Teach a finite determinant existence witness without identifying a physical CP phase.",
+              "worked_task_and_answer": "diag(1,2) anddiag(3,4) commute. X=[[0,1],[1,0]], Y=[[0,-i],[i,0]] give[X, Y]=2i diag(1,-1), nonzero. This proves noncommutativity, not a measuredCP invariant.",
+              "practice_task_and_answer": "A=diag(1,-1), B=[[0,1+i],[1-i,0]] give[A, B]=[[0,2+2i],[-2+2i,0]]. Separately choose source-style positiveA0=diag(4,1,1/4), S=diag(2,1,1/2), D=diag(1, omega, omega²):Yu=S, Yd=D S^-1 D givesdet(YuYd)=1. Here both matrices are diagonal and commute, so determinant1 alone does not establish nonzeroCP.",
+              "diagnostic_task_and_answer": "The source real-carry obstruction assumes a commutative pointwise algebra; real matrices in general need not commute. A supplied positiveA and phase k are inputs; an existence witness does not predict CKM/PMNS values."
+            }
+          ],
+          "original_title": "The source K4 construction",
+          "original_assessment_target": "Trace the carrier, coframe, and history assumptions behind the archived statement",
+          "original_concept_ids": [
+            "C18.07",
+            "C18.S03"
+          ],
+          "required_source_amendment_ids": [],
+          "source_coverage_requirements": [
+            {
+              "concept_id": "C18.S03",
+              "operation": "Compute a small commutator, contrast a commuting real example with supplied complex operators, and classify existence of a witness separately from prediction of a physical CP phase.",
+              "source_pointers": [
+                "S02#/branch_proofs/10",
+                "S02#/proof_nodes/9",
+                "S02#/proof_nodes/76"
+              ]
+            }
+          ],
+          "original_entry_prerequisites": [
+            "lesson-06"
+          ]
+        }
+      ],
+      "capstone_backward_map": [
+        {
+          "step_id": "C18-CAP-01",
+          "operation": "Enumerate the finite binary word tree and retain the empty-word label and amplitudes.",
+          "introduction": "lesson-01",
+          "explanation_id": "C18.01-E1",
+          "worked_example_id": "C18.01-W1",
+          "prior_practice_id": "C18.01-P1",
+          "diagnostic_id": "C18.01-D1"
+        },
+        {
+          "step_id": "C18-CAP-02",
+          "operation": "Apply the square shift and reconstruct from shifted input plus terminal component.",
+          "introduction": "lesson-02",
+          "explanation_id": "C18.02-E1",
+          "worked_example_id": "C18.02-W1",
+          "prior_practice_id": "C18.02-P1",
+          "diagnostic_id": "C18.02-D1"
+        },
+        {
+          "step_id": "C18-CAP-03",
+          "operation": "Apply the rectangular isometry,its partial inverse and retained codomain complement.",
+          "introduction": "lesson-03",
+          "explanation_id": "C18.03-E1",
+          "worked_example_id": "C18.03-W1",
+          "prior_practice_id": "C18.03-P1",
+          "diagnostic_id": "C18.03-D1"
+        },
+        {
+          "step_id": "C18-CAP-04",
+          "operation": "Compute q0 throughq3,check their ranks/products and reconstruct the practice vector includingzeros.",
+          "introduction": "lesson-04",
+          "explanation_id": "C18.04-E1",
+          "worked_example_id": "C18.04-W1",
+          "prior_practice_id": "C18.04-P1",
+          "diagnostic_id": "C18.04-D1"
+        },
+        {
+          "step_id": "C18-CAP-05",
+          "operation": "Build the orientation ledger under a positive rescale and a single reflection.",
+          "introduction": "lesson-05",
+          "explanation_id": "C18.05-E1",
+          "worked_example_id": "C18.05-W1",
+          "prior_practice_id": "C18.05-P1",
+          "diagnostic_id": "C18.05-D1"
+        },
+        {
+          "step_id": "C18-CAP-06",
+          "operation": "Compute the two-factor correlation projector and reconstruct image+complement without identifying the labels.",
+          "introduction": "lesson-06",
+          "explanation_id": "C18.06-E1",
+          "worked_example_id": "C18.06-W1",
+          "prior_practice_id": "C18.06-P1",
+          "diagnostic_id": "C18.06-D1"
+        },
+        {
+          "step_id": "C18-CAP-07",
+          "operation": "Classify sourceK4/history/coframe premises and unloaded objects using supplied source cards.",
+          "introduction": "lesson-07",
+          "explanation_id": "C18.07-E1",
+          "worked_example_id": "C18.07-W1",
+          "prior_practice_id": "C18.07-P1",
+          "diagnostic_id": "C18.07-D1"
+        },
+        {
+          "step_id": "C18-CAP-08",
+          "operation": "Compute both finite endpoint defects andindex0; contrast the rectangular isometry and separate infinite-space index-1.",
+          "introduction": "lesson-02",
+          "concept_id": "C18.S01",
+          "explanation_id": "C18.S01-E1",
+          "worked_example_id": "C18.S01-W1",
+          "prior_practice_id": "C18.S01-P1",
+          "diagnostic_id": "C18.S01-D1"
+        },
+        {
+          "step_id": "C18-CAP-09",
+          "operation": "Compute the angular/spin practice counts andsource-scoped representation limits.",
+          "introduction": "lesson-06",
+          "concept_id": "C18.S02",
+          "explanation_id": "C18.S02-E1",
+          "worked_example_id": "C18.S02-W1",
+          "prior_practice_id": "C18.S02-P1",
+          "diagnostic_id": "C18.S02-D1"
+        },
+        {
+          "step_id": "C18-CAP-10",
+          "operation": "Compute the practice commutator anddeterminant witness; distinguish existence from a predicted physicalCP phase.",
+          "introduction": "lesson-07",
+          "concept_id": "C18.S03",
+          "explanation_id": "C18.S03-E1",
+          "worked_example_id": "C18.S03-W1",
+          "prior_practice_id": "C18.S03-P1",
+          "diagnostic_id": "C18.S03-D1"
+        }
+      ],
+      "core_periods": 12,
+      "capstone_periods": 3,
+      "period_minutes": 55,
+      "core_boundary": "Assess the explicit finite operations and exact source-reading cards. No missing certificate replay,full Clifford/physical chirality proof,global determinant-line existence proof,continuum limit,or physical occupation-selection proof is silently assigned.",
+      "prerequisite_status": "Blueprint closure checked; actual produced student-facing explanations,answered practice and capstone require later independent content acceptance."
+    },
+    {
+      "course_id": "course-19",
+      "input_contract_path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure\\input-contract.json",
+      "input_contract_sha256": "7260b6868a9b51dee46e8aaf5e84b32491decddb85b00e82c90e829f5feb8531",
+      "application": "Merge additively as teaching_amendment. Replace generic coverage references with exact exercise IDs. Preserve every original concept,source/educational amendment,supplemental exercise and legacy bridge ID. Parent applies; no project edit made.",
+      "applied_source_amendments_read": {},
+      "original_subject_kernel": {
+        "objects_and_operations": [
+          {
+            "concept_id": "C19.01",
+            "concept": "An action as a complete mathematical specification",
+            "operation": "Identify state variables, terms, coefficients, and domains"
+          },
+          {
+            "concept_id": "C19.02",
+            "concept": "Discrete action accounting",
+            "operation": "Evaluate a short synthetic path action with units"
+          },
+          {
+            "concept_id": "C19.03",
+            "concept": "Topology through loops and boundary data",
+            "operation": "Distinguish a local coordinate change from a global loop condition"
+          },
+          {
+            "concept_id": "C19.04",
+            "concept": "Phase factors and their product",
+            "operation": "Compute a composite phase while retaining every factor"
+          },
+          {
+            "concept_id": "C19.05",
+            "concept": "Determinant-line bookkeeping",
+            "operation": "Use a finite product analogy before the source construction"
+          },
+          {
+            "concept_id": "C19.06",
+            "concept": "Closure and admitted sectors",
+            "operation": "Check a specified sector without assuming all sectors were checked"
+          },
+          {
+            "concept_id": "C19.07",
+            "concept": "A complete premise ledger",
+            "operation": "Classify every input as a locked root, theorem, constitutive rule, domain condition, or state coordinate"
+          }
+        ],
+        "source_modules": [
+          "M15"
+        ],
+        "scope": "Audit a finite action and phase-closure packet, including its boundary conditions, missing-input tests, and retained factors.",
+        "common_failure_modes": [
+          "Untaught prerequisite",
+          "Unscoped symbol or unit",
+          "An illustrative example presented as real evidence",
+          "A source label promoted beyond its evidence class",
+          "A residual or source branch silently omitted"
+        ]
+      },
+      "original_capstone_specification": {
+        "task": "Audit a finite action and phase-closure packet, including its boundary conditions, missing-input tests, and retained factors.",
+        "required_operations": [
+          "Identify state variables, terms, coefficients, and domains",
+          "Evaluate a short synthetic path action with units",
+          "Distinguish a local coordinate change from a global loop condition",
+          "Compute a composite phase while retaining every factor",
+          "Use a finite product analogy before the source construction",
+          "Check a specified sector without assuming all sectors were checked",
+          "Classify every input as a locked root, theorem, constitutive rule, domain condition, or state coordinate"
+        ],
+        "rule": "Map every capstone operation to a prior introduction and practice; provide full answers, point rubric, source scope, and residual accounting."
+      },
+      "source_coverage_review_rows": [
+        {
+          "course_id": "course-19",
+          "title": "Action, Topology, and Phase Closure",
+          "backbone_modules": [
+            "M15"
+          ],
+          "topic_boundary": "Action coefficients, boundary sectors, charge topology, all determinant-line factors and explicit premise inventory.",
+          "cognitive_or_fidelity_risk": "Do not turn phase closure into an unscoped continuum/bordism theorem.",
+          "status": "source_map_review_complete_teaching_decision_pending",
+          "primary_sources": [
+            "S02"
+          ],
+          "source_pointer": "/backbone_sequence/14",
+          "packet_at_review": {
+            "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure\\input-contract.json",
+            "sha256": "45f8548566eefcbab713fadec638a931fb0ec3f2c5ee52ccef1d7f9f31e3c45f",
+            "lesson_count": 7
+          },
+          "required_amendment_ids": [],
+          "source_launch_decision": "ready_for_source_scoped_drafting_with_required_gates",
+          "decision_scope": "Source/coverage only; no new teaching acceptance or finished-course validation.",
+          "educational_gate": [
+            "E05",
+            "independent_teaching_recheck"
+          ]
+        }
+      ],
+      "source_scope": {
+        "primary": "S02#/backbone_sequence/14",
+        "additional": [
+          "S03#/findings/8"
+        ],
+        "all_six_factors": [
+          "UV",
+          "light",
+          "reg",
+          "heavy",
+          "cap",
+          "induced"
+        ],
+        "trivialization": "The scalar phase toy is defined only after a declared tensor-line basis and trivialization tau. Every factor and basis change remains recorded; a finite product1 is not a global proof.",
+        "topology_contract": "Integers A3,A2,C and declared dual charges d3,d2 integers with d3/3+d2/4+d1/72 integral. Arithmetic under this determinant-lock contract does not independently establish which physical sectors are admitted.",
+        "action_scope": "Original M15 action terms must be source-read with their variables,coefficients and units. The scalar path sum is separately synthetic. Boundary values,operator coefficients,time/action normalization and admitted-sector list are retained inputs."
+      },
+      "course_map": [
+        {
+          "id": "lesson-01",
+          "title": "An action as a complete mathematical specification",
+          "entry_prerequisites": [
+            "course-16",
+            "course-17",
+            "course-18"
+          ],
+          "concept_ids": [
+            "C19.01"
+          ],
+          "worked_example_capability": "Identify state variables, terms, coefficients, and domains",
+          "assessment_target": "Identify state variables, terms, coefficients, and domains",
+          "later_use": "lesson-02",
+          "core_minutes": 55,
+          "planned_periods": 1,
+          "planned_total_minutes": 55,
+          "explanation_id": "C19.01-E1",
+          "worked_example_id": "C19.01-W1",
+          "prior_practice_id": "C19.01-P1",
+          "diagnostic_id": "C19.01-D1"
+        },
+        {
+          "id": "lesson-02",
+          "title": "Discrete action accounting",
+          "entry_prerequisites": [
+            "lesson-01"
+          ],
+          "concept_ids": [
+            "C19.02"
+          ],
+          "worked_example_capability": "Evaluate a short synthetic path action with units",
+          "assessment_target": "Evaluate a short synthetic path action with units",
+          "later_use": "lesson-03",
+          "core_minutes": 55,
+          "planned_periods": 1,
+          "planned_total_minutes": 55,
+          "explanation_id": "C19.02-E1",
+          "worked_example_id": "C19.02-W1",
+          "prior_practice_id": "C19.02-P1",
+          "diagnostic_id": "C19.02-D1"
+        },
+        {
+          "id": "lesson-03",
+          "title": "Topology through loops and boundary data",
+          "entry_prerequisites": [
+            "lesson-02"
+          ],
+          "concept_ids": [
+            "C19.03"
+          ],
+          "worked_example_capability": "Distinguish a local coordinate change from a global loop condition",
+          "assessment_target": "Distinguish a local coordinate change from a global loop condition",
+          "later_use": "lesson-04",
+          "core_minutes": 55,
+          "planned_periods": 1,
+          "planned_total_minutes": 55,
+          "explanation_id": "C19.03-E1",
+          "worked_example_id": "C19.03-W1",
+          "prior_practice_id": "C19.03-P1",
+          "diagnostic_id": "C19.03-D1"
+        },
+        {
+          "id": "lesson-04",
+          "title": "Phase factors and their product",
+          "entry_prerequisites": [
+            "lesson-03"
+          ],
+          "concept_ids": [
+            "C19.04"
+          ],
+          "worked_example_capability": "Compute a composite phase while retaining every factor",
+          "assessment_target": "Compute a composite phase while retaining every factor",
+          "later_use": "lesson-05",
+          "core_minutes": 55,
+          "planned_periods": 1,
+          "planned_total_minutes": 55,
+          "explanation_id": "C19.04-E1",
+          "worked_example_id": "C19.04-W1",
+          "prior_practice_id": "C19.04-P1",
+          "diagnostic_id": "C19.04-D1"
+        },
+        {
+          "id": "lesson-05",
+          "title": "Determinant-line bookkeeping",
+          "entry_prerequisites": [
+            "lesson-04"
+          ],
+          "concept_ids": [
+            "C19.05"
+          ],
+          "worked_example_capability": "Use a finite product analogy before the source construction",
+          "assessment_target": "Use a finite product analogy before the source construction",
+          "later_use": "lesson-06",
+          "core_minutes": 55,
+          "planned_periods": 2,
+          "planned_total_minutes": 110,
+          "explanation_id": "C19.05-E1",
+          "worked_example_id": "C19.05-W1",
+          "prior_practice_id": "C19.05-P1",
+          "diagnostic_id": "C19.05-D1"
+        },
+        {
+          "id": "lesson-06",
+          "title": "Closure and admitted sectors",
+          "entry_prerequisites": [
+            "lesson-05"
+          ],
+          "concept_ids": [
+            "C19.06"
+          ],
+          "worked_example_capability": "Check a specified sector without assuming all sectors were checked",
+          "assessment_target": "Check a specified sector without assuming all sectors were checked",
+          "later_use": "lesson-07",
+          "core_minutes": 55,
+          "planned_periods": 2,
+          "planned_total_minutes": 110,
+          "explanation_id": "C19.06-E1",
+          "worked_example_id": "C19.06-W1",
+          "prior_practice_id": "C19.06-P1",
+          "diagnostic_id": "C19.06-D1"
+        },
+        {
+          "id": "lesson-07",
+          "title": "A complete premise ledger",
+          "entry_prerequisites": [
+            "lesson-06"
+          ],
+          "concept_ids": [
+            "C19.07"
+          ],
+          "worked_example_capability": "Classify every input as a locked root, theorem, constitutive rule, domain condition, or state coordinate",
+          "assessment_target": "Classify every input as a locked root, theorem, constitutive rule, domain condition, or state coordinate",
+          "later_use": "capstone",
+          "core_minutes": 55,
+          "planned_periods": 1,
+          "planned_total_minutes": 55,
+          "explanation_id": "C19.07-E1",
+          "worked_example_id": "C19.07-W1",
+          "prior_practice_id": "C19.07-P1",
+          "diagnostic_id": "C19.07-D1"
+        }
+      ],
+      "lessons": [
+        {
+          "lesson_id": "lesson-01",
+          "concept_id": "C19.01",
+          "explanation_id": "C19.01-E1",
+          "bridge_to_teach": "Define an action specification by its variables, ordered times, terms, coefficient units, domain, boundaries and evaluation rule. Read all four source integrand terms but use a separately declared finite scalar analogue for arithmetic.",
+          "worked_example": {
+            "id": "C19.01-W1",
+            "task_and_answer": "Toyq dimensionless, dt=1 TU, k=2 AU*TU, vpot=2 AU/TU. DefineS=sum_j dt[k/2*((q_j+1-q_j)/dt)^2-vpot/2*q_j²], with fixed endpoints and ordered samples. Each term hasaction unitsAU."
+          },
+          "guided_practice": {
+            "id": "C19.01-P1",
+            "task_and_answer": "For path(1,2,2), list3 state values,2 time intervals, coefficientsk, vpot and declared left-endpoint potential rule. Changingvpot changes the model; changingdt requires recomputing velocity and weights."
+          },
+          "diagnostic": {
+            "id": "C19.01-D1",
+            "task_and_answer": "SourceM15 mu, M, kappa, epsilon, U, C, s, boundaries andtime normalization require typed definitions. The toy is not an invented replay of an unavailable full source action packet."
+          },
+          "planned_periods": 1,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand into actual senior-facing explanations,2–4 observable goals and3–5 answered diagnostics. Preserve original IDs and every supplemental concept. Split dense sessions with links updated; period counts may expand.",
+          "original_title": "An action as a complete mathematical specification",
+          "original_assessment_target": "Identify state variables, terms, coefficients, and domains",
+          "original_concept_ids": [
+            "C19.01"
+          ],
+          "required_source_amendment_ids": [],
+          "source_coverage_requirements": [],
+          "original_entry_prerequisites": [
+            "course-16",
+            "course-17",
+            "course-18"
+          ]
+        },
+        {
+          "lesson_id": "lesson-02",
+          "concept_id": "C19.02",
+          "explanation_id": "C19.02-E1",
+          "bridge_to_teach": "Compute each finite kinetic/potential contribution separately, retain signed terms and reconstruct the total. Distinguish evaluation of an action from solving a variational or dynamical problem.",
+          "worked_example": {
+            "id": "C19.02-W1",
+            "task_and_answer": "Toypath(0,1,3), dt1, k2, vpot2 has increments1,2; kinetic terms1,4, potential terms0,1; signed terms1,3, total4 AU."
+          },
+          "guided_practice": {
+            "id": "C19.02-P1",
+            "task_and_answer": "Path(1,2,2) hasincrements1,0; kinetic1,0, potential1,4; signed terms0,-4, total-4 AU. Retain both zero andnegative components. A modeltotal-3 AU plusresidual-1 AU reconstructs-4."
+          },
+          "diagnostic": {
+            "id": "C19.02-D1",
+            "task_and_answer": "Negative action contributions are not invalid energies. Evaluating two paths supplies neither a transition probability nor a rate without its additional rule and normalization."
+          },
+          "planned_periods": 1,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand into actual senior-facing explanations,2–4 observable goals and3–5 answered diagnostics. Preserve original IDs and every supplemental concept. Split dense sessions with links updated; period counts may expand.",
+          "original_title": "Discrete action accounting",
+          "original_assessment_target": "Evaluate a short synthetic path action with units",
+          "original_concept_ids": [
+            "C19.02"
+          ],
+          "required_source_amendment_ids": [],
+          "source_coverage_requirements": [],
+          "original_entry_prerequisites": [
+            "lesson-01"
+          ]
+        },
+        {
+          "lesson_id": "lesson-03",
+          "concept_id": "C19.03",
+          "explanation_id": "C19.03-E1",
+          "bridge_to_teach": "Use finite loop products to contrast local frame choices and global closure. Read source determinant-lock andtopological charge coordinates under an explicit integer sector contract; do not claim which physical sectors are admitted.",
+          "worked_example": {
+            "id": "C19.03-W1",
+            "task_and_answer": "Three scalar links(i,1, i) giveclosed loop-1; local framechanges as incourse17 preserve it. Being able to choose a local phase at a vertex does not make every loop1."
+          },
+          "guided_practice": {
+            "id": "C19.03-P1",
+            "task_and_answer": "Links(i,-i,1) giveclosed loop1. Under frame phases(-1, i,1), new links(-1,1,-1) still multiply1. Record local maps and the entire loop rather than only one link."
+          },
+          "diagnostic": {
+            "id": "C19.03-D1",
+            "task_and_answer": "The source global condition refers to admitted sectors withdeterminant-line data, not just one scalar loop. The arithmetic charge contract is taught explicitly inlesson06."
+          },
+          "planned_periods": 1,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand into actual senior-facing explanations,2–4 observable goals and3–5 answered diagnostics. Preserve original IDs and every supplemental concept. Split dense sessions with links updated; period counts may expand.",
+          "original_title": "Topology through loops and boundary data",
+          "original_assessment_target": "Distinguish a local coordinate change from a global loop condition",
+          "original_concept_ids": [
+            "C19.03"
+          ],
+          "required_source_amendment_ids": [],
+          "source_coverage_requirements": [],
+          "original_entry_prerequisites": [
+            "lesson-02"
+          ]
+        },
+        {
+          "lesson_id": "lesson-04",
+          "concept_id": "C19.04",
+          "explanation_id": "C19.04-E1",
+          "bridge_to_teach": "Declare a finite scalar phase analogy after choosing a common trivialization. Retain six independently typed factors UV, light, reg, heavy, cap, induced before taking their product; teach complex multiplication without droppingunit factors.",
+          "worked_example": {
+            "id": "C19.04-W1",
+            "task_and_answer": "Ordered factors(i, i,-1,-i, i,1) multiply1. Deleting heavy(-i) yieldsi, so the factor is necessary even though the complete product closes."
+          },
+          "guided_practice": {
+            "id": "C19.04-P1",
+            "task_and_answer": "Factors(-1, i, i,1,-i, i) multiply1. Deleting cap(-i) yieldsi. Retain the heavy unit1 and every phase label; a unit factor still carries provenance."
+          },
+          "diagnostic": {
+            "id": "C19.04-D1",
+            "task_and_answer": "A product1 in one synthetic sector does not establish source closure for every admitted sector or give a global determinant-line trivialization."
+          },
+          "planned_periods": 1,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand into actual senior-facing explanations,2–4 observable goals and3–5 answered diagnostics. Preserve original IDs and every supplemental concept. Split dense sessions with links updated; period counts may expand.",
+          "original_title": "Phase factors and their product",
+          "original_assessment_target": "Compute a composite phase while retaining every factor",
+          "original_concept_ids": [
+            "C19.04"
+          ],
+          "required_source_amendment_ids": [],
+          "source_coverage_requirements": [],
+          "original_entry_prerequisites": [
+            "lesson-03"
+          ]
+        },
+        {
+          "lesson_id": "lesson-05",
+          "concept_id": "C19.05",
+          "explanation_id": "C19.05-E1",
+          "bridge_to_teach": "Teach a one-dimensional complex line with a chosen basis, then tensor six lines and distinguish a section from its scalar coefficient. A trivialization tau:Ltotal->C is extra structure. Use finite basis changes to show why scalar products require this declaration.",
+          "worked_example": {
+            "id": "C19.05-W1",
+            "task_and_answer": "Withtau(eUV tensor...tensor einduced)=1, the worked six coefficients give value1. RebaseeUV prime=i eUV:its coefficienti becomes1, total coefficient becomes-i, whiletau(new tensor basis)=i; the physical scalarvalue remains1."
+          },
+          "guided_practice": {
+            "id": "C19.05-P1",
+            "task_and_answer": "In the practicepacket rebaseecap prime=-ecap. Itscoefficient-i becomes+i, total coefficient becomes-1, whiletau(new tensor basis)=-1; the final scalar remains1. Preserve the basis change andtau, not just a product of revised coefficients."
+          },
+          "diagnostic": {
+            "id": "C19.05-D1",
+            "task_and_answer": "Do not replace the source tensor product by six bare scalars until the trivialization is stated. One finite basis example is not a proof that a global trivialization exists."
+          },
+          "planned_periods": 2,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand into actual senior-facing explanations,2–4 observable goals and3–5 answered diagnostics. Preserve original IDs and every supplemental concept. Split dense sessions with links updated; period counts may expand.",
+          "original_title": "Determinant-line bookkeeping",
+          "original_assessment_target": "Use a finite product analogy before the source construction",
+          "original_concept_ids": [
+            "C19.05"
+          ],
+          "required_source_amendment_ids": [],
+          "source_coverage_requirements": [],
+          "original_entry_prerequisites": [
+            "lesson-04"
+          ]
+        },
+        {
+          "lesson_id": "lesson-06",
+          "concept_id": "C19.06",
+          "explanation_id": "C19.06-E1",
+          "bridge_to_teach": "Teach rational arithmetic for source topology under explicit integers A3, A2, C: n3=A3+C/3, n2=A2+C/4, n1=C/72. The dual contract requiresd3, d2 integers andd3/3+d2/4+d1/72 integer. Add an admitted-sector list and test closure only there.",
+          "worked_example": {
+            "id": "C19.06-W1",
+            "task_and_answer": "d=(1,0,48),(0,1,54),(1,1,30) each givefractional combination1;(1,1,-42) gives0. ForA3=1, A2=0, C=3, n=(2,3/4,1/24); pairing withd=(1,1,30) is4."
+          },
+          "guided_practice": {
+            "id": "C19.06-P1",
+            "task_and_answer": "ForA3=0, A2=1, C=4, n=(4/3,2,1/18); pairing withd=(0,1,54) is5. d=(1,1,0) gives7/12 andfails thedualcontract. If a supplied admitted list has sectorsa, b andphase products1,-1, retain both and report closure fails on b."
+          },
+          "diagnostic": {
+            "id": "C19.06-D1",
+            "task_and_answer": "Arithmetic membership in this lattice is not independent proof of physical admissibility. Testing only a cannot establish every admitted sector; missing factors or sector definitions are marked unavailable, not filled byassumption."
+          },
+          "planned_periods": 2,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand into actual senior-facing explanations,2–4 observable goals and3–5 answered diagnostics. Preserve original IDs and every supplemental concept. Split dense sessions with links updated; period counts may expand.",
+          "original_title": "Closure and admitted sectors",
+          "original_assessment_target": "Check a specified sector without assuming all sectors were checked",
+          "original_concept_ids": [
+            "C19.06"
+          ],
+          "required_source_amendment_ids": [],
+          "source_coverage_requirements": [],
+          "original_entry_prerequisites": [
+            "lesson-05"
+          ]
+        },
+        {
+          "lesson_id": "lesson-07",
+          "concept_id": "C19.07",
+          "explanation_id": "C19.07-E1",
+          "bridge_to_teach": "Build a complete premise ledger separating locked roots, derived finite identities, constitutive rules, domain restrictions andstate coordinates. Include every action/phase factor, boundary choice, source pointer and unresolved replay object.",
+          "worked_example": {
+            "id": "C19.07-W1",
+            "task_and_answer": "Classify sourceM_cell as locked geometricinput, trace conjugation as derived identity, chosen action rule as declared constitutive/modelinput, positive coefficients as domain conditions, and boundary values as state coordinates. Retain the six determinant-line factors andtau."
+          },
+          "guided_practice": {
+            "id": "C19.07-P1",
+            "task_and_answer": "Audit a packet omitting induced and boundary sector list: mark bothmissing. For the complete toy record, restore all sixphase values, all path terms, dt, k, vpot, the trivialization and admitted sector labels. Source operator coefficients, boundary-sectorvalues, time/action normalization remain supplied coordinates."
+          },
+          "diagnostic": {
+            "id": "C19.07-D1",
+            "task_and_answer": "No missing proof body, determinant factor or measured coefficient is invented. Source exact typed architecture andfinite replayed arithmetic are recorded at their own scope."
+          },
+          "planned_periods": 1,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand into actual senior-facing explanations,2–4 observable goals and3–5 answered diagnostics. Preserve original IDs and every supplemental concept. Split dense sessions with links updated; period counts may expand.",
+          "original_title": "A complete premise ledger",
+          "original_assessment_target": "Classify every input as a locked root, theorem, constitutive rule, domain condition, or state coordinate",
+          "original_concept_ids": [
+            "C19.07"
+          ],
+          "required_source_amendment_ids": [],
+          "source_coverage_requirements": [],
+          "original_entry_prerequisites": [
+            "lesson-06"
+          ]
+        }
+      ],
+      "capstone_backward_map": [
+        {
+          "step_id": "C19-CAP-01",
+          "operation": "Specify the finite path action,state,coefficients,units,boundaries and evaluation convention.",
+          "introduction": "lesson-01",
+          "explanation_id": "C19.01-E1",
+          "worked_example_id": "C19.01-W1",
+          "prior_practice_id": "C19.01-P1",
+          "diagnostic_id": "C19.01-D1"
+        },
+        {
+          "step_id": "C19-CAP-02",
+          "operation": "Evaluate every signed practice action term and retain the total residual reconstruction.",
+          "introduction": "lesson-02",
+          "explanation_id": "C19.02-E1",
+          "worked_example_id": "C19.02-W1",
+          "prior_practice_id": "C19.02-P1",
+          "diagnostic_id": "C19.02-D1"
+        },
+        {
+          "step_id": "C19-CAP-03",
+          "operation": "Compare the closed scalar loop before/after a local frame change.",
+          "introduction": "lesson-03",
+          "explanation_id": "C19.03-E1",
+          "worked_example_id": "C19.03-W1",
+          "prior_practice_id": "C19.03-P1",
+          "diagnostic_id": "C19.03-D1"
+        },
+        {
+          "step_id": "C19-CAP-04",
+          "operation": "Multiply all six practice phase factors and test omission ofone factor.",
+          "introduction": "lesson-04",
+          "explanation_id": "C19.04-E1",
+          "worked_example_id": "C19.04-W1",
+          "prior_practice_id": "C19.04-P1",
+          "diagnostic_id": "C19.04-D1"
+        },
+        {
+          "step_id": "C19-CAP-05",
+          "operation": "Perform the taught tensor-line basis change with its trivialization and recover the same scalar.",
+          "introduction": "lesson-05",
+          "explanation_id": "C19.05-E1",
+          "worked_example_id": "C19.05-W1",
+          "prior_practice_id": "C19.05-P1",
+          "diagnostic_id": "C19.05-D1"
+        },
+        {
+          "step_id": "C19-CAP-06",
+          "operation": "Check the practice dual-lattice pairing and a two-sector phase ledger under explicit admissibility assumptions.",
+          "introduction": "lesson-06",
+          "explanation_id": "C19.06-E1",
+          "worked_example_id": "C19.06-W1",
+          "prior_practice_id": "C19.06-P1",
+          "diagnostic_id": "C19.06-D1"
+        },
+        {
+          "step_id": "C19-CAP-07",
+          "operation": "Complete the premise ledger,identify missing factors/domains and retain all source state inputs.",
+          "introduction": "lesson-07",
+          "explanation_id": "C19.07-E1",
+          "worked_example_id": "C19.07-W1",
+          "prior_practice_id": "C19.07-P1",
+          "diagnostic_id": "C19.07-D1"
+        }
+      ],
+      "core_periods": 9,
+      "capstone_periods": 3,
+      "period_minutes": 55,
+      "core_boundary": "Assess the explicit finite operations and exact source-reading cards. No missing certificate replay,full Clifford/physical chirality proof,global determinant-line existence proof,continuum limit,or physical occupation-selection proof is silently assigned.",
+      "prerequisite_status": "Blueprint closure checked; actual produced student-facing explanations,answered practice and capstone require later independent content acceptance."
+    },
+    {
+      "course_id": "course-20",
+      "input_contract_path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-20-family-structure-and-simultaneous-occupation\\input-contract.json",
+      "input_contract_sha256": "86625e4e042e90445c47601ad4c787a898a80bd620be9b31b91eb3876027083c",
+      "application": "Merge additively as teaching_amendment. Replace generic coverage references with exact exercise IDs. Preserve every original concept,source/educational amendment,supplemental exercise and legacy bridge ID. Parent applies; no project edit made.",
+      "applied_source_amendments_read": {
+        "SA-20": {
+          "id": "SA-20",
+          "course": 20,
+          "finding": "source_fidelity",
+          "lessons": [
+            "lesson-05",
+            "lesson-06",
+            "lesson-07"
+          ],
+          "merge_action": "append unique requirements to source_audit_contract; attach to named lesson authoring obligations; preserve existing fields",
+          "requirements": [
+            "Retain the source occupation claim, D10 guard conflict and correction record together. Rank multiplication verifies the projector count; source physical-carrier identification has its own premises and retrieval state.",
+            "Quote VERIFIED_FROZEN/VERIFIED_NOT_LOADED only as source-local statuses. Do not invent a missing occupation-selection proof or automatically downgrade a source merely because its body was not loaded.",
+            "Keep the existing C20.S01 Weyl and C20.S02 Schur rows; E07 rank example supplements them and does not replace them."
+          ],
+          "source_references": [
+            "S02#/proof_nodes/78",
+            "S02#/proof_nodes/81",
+            "S03#/findings/6"
+          ],
+          "status": "applied_to_blueprint_by_parent",
+          "prior_application_status": "prepared_not_applied",
+          "applied_at": "2026-11-05T17:02:05.375955+00:00"
+        },
+        "EA-20-E07-3": {
+          "course": 20,
+          "finding": "E07",
+          "lessons": [
+            "lesson-03",
+            "lesson-04",
+            "lesson-05"
+          ],
+          "required_bridge": "Define column independence and rank by explicit linear equations. Explain carrier dimension, number of product labels, and projector image rank as different counts.",
+          "worked_example": {
+            "id": "C20-RANK-EX1",
+            "P": [
+              [
+                "1/2",
+                "1/2",
+                0
+              ],
+              [
+                "1/2",
+                "1/2",
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ],
+            "input": [
+              2,
+              0,
+              3
+            ],
+            "projected": [
+              1,
+              1,
+              3
+            ],
+            "retained_complement": [
+              1,
+              -1,
+              0
+            ],
+            "checks": "Multiply P^2=P; identify equal first two columns and independent third, rank2 in dimension3; reconstruct input from image+complement. A separate 2-by-3 product label table has six labels and establishes no projector rank."
+          },
+          "practice": "C20-RANK-P1 apply P to (4,2,-1), retain (1,-1,0); C20-RANK-D1 count rank of diag(1,0,0). Actual rank48 source claim must include exact factorization, assumptions, locator, and source-reported versus freshly verified status.",
+          "id": "EA-20-E07-3",
+          "status": "applied_to_blueprint_by_parent",
+          "merge_action": "Attach to named lesson authoring obligations and capstone prerequisites. Actual content links remain an E05 acceptance gate.",
+          "prior_application_status": "prepared_not_applied",
+          "applied_at": "2026-11-05T17:02:05.375955+00:00"
+        }
+      },
+      "original_subject_kernel": {
+        "objects_and_operations": [
+          {
+            "concept_id": "C20.01",
+            "concept": "Residues modulo three",
+            "operation": "Compute the three source-defined lambda classes"
+          },
+          {
+            "concept_id": "C20.02",
+            "concept": "Uniform and zero-sum sectors",
+            "operation": "Decompose a small class into mean and retained detail"
+          },
+          {
+            "concept_id": "C20.03",
+            "concept": "Lifts and Fourier-style channels",
+            "operation": "Check a finite lift map and its normalization"
+          },
+          {
+            "concept_id": "C20.04",
+            "concept": "Tensor products and rank multiplication",
+            "operation": "Count independent labels in a product carrier"
+          },
+          {
+            "concept_id": "C20.05",
+            "concept": "The rank-48 projector",
+            "operation": "Verify the declared rank and uniform family occupancy construction"
+          },
+          {
+            "concept_id": "C20.06",
+            "concept": "Selection, state, and source status",
+            "operation": "Separate the mathematical projector from the premise identifying the occupied carrier"
+          },
+          {
+            "concept_id": "C20.07",
+            "concept": "Family labels and numerical properties",
+            "operation": "State which masses and mixing coordinates are supplied or unresolved"
+          },
+          {
+            "concept_id": "C20.S01",
+            "concept": "Finite Weyl coordinates",
+            "operation": "Introduce shift and phase matrices and trace-coordinate extraction on a small supplied matrix; keep coefficient choice distinct from the basis decomposition."
+          },
+          {
+            "concept_id": "C20.S02",
+            "concept": "Schur elimination and reconstruction",
+            "operation": "Solve a two-block scalar example, reconstruct the eliminated variable, and preserve the E=0 branch instead of applying an inverse there."
+          }
+        ],
+        "source_modules": [
+          "M16"
+        ],
+        "scope": "Build a fully typed family-projector accounting table and trace its occupation conclusion to the actual source premises.",
+        "common_failure_modes": [
+          "Untaught prerequisite",
+          "Unscoped symbol or unit",
+          "An illustrative example presented as real evidence",
+          "A source label promoted beyond its evidence class",
+          "A residual or source branch silently omitted"
+        ]
+      },
+      "original_capstone_specification": {
+        "task": "Build a fully typed family-projector accounting table and trace its occupation conclusion to the actual source premises.",
+        "required_operations": [
+          "Compute the three source-defined lambda classes",
+          "Decompose a small class into mean and retained detail",
+          "Check a finite lift map and its normalization",
+          "Count independent labels in a product carrier",
+          "Verify the declared rank and uniform family occupancy construction",
+          "Separate the mathematical projector from the premise identifying the occupied carrier",
+          "State which masses and mixing coordinates are supplied or unresolved"
+        ],
+        "rule": "Map every capstone operation to a prior introduction and practice; provide full answers, point rubric, source scope, and residual accounting."
+      },
+      "source_coverage_review_rows": [
+        {
+          "course_id": "course-20",
+          "title": "Family Structure and Simultaneous Occupation",
+          "backbone_modules": [
+            "M16"
+          ],
+          "topic_boundary": "Lambda classes modulo three, normalized lifts, Weyl expansion, Schur reconstruction, rank-48 projector and occupation status.",
+          "cognitive_or_fidelity_risk": "New Weyl/Schur practice increases load; split sessions as necessary.",
+          "status": "source_map_review_complete_teaching_decision_pending",
+          "primary_sources": [
+            "S02"
+          ],
+          "source_pointer": "/backbone_sequence/15",
+          "packet_at_review": {
+            "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-20-family-structure-and-simultaneous-occupation\\input-contract.json",
+            "sha256": "27e6903cb6ce4f0013923a080120048bb7120f16080d2fe67f1a2bb3e05a1bab",
+            "lesson_count": 7
+          },
+          "required_amendment_ids": [
+            "SA-20"
+          ],
+          "source_launch_decision": "ready_for_source_scoped_drafting_with_required_gates",
+          "decision_scope": "Source/coverage only; no new teaching acceptance or finished-course validation.",
+          "educational_gate": [
+            "E05",
+            "E07",
+            "independent_teaching_recheck"
+          ]
+        }
+      ],
+      "source_scope": {
+        "primary": "S02#/backbone_sequence/15",
+        "additional": [
+          "S02#/proof_nodes/78",
+          "S02#/proof_nodes/81",
+          "S02#/proof_operations:step_id=D10",
+          "S03#/findings/6",
+          "S03#/findings/8"
+        ],
+        "classes": "Each Cr has9 nodes; indicatoramplitude1/3 givesnorm1; classconstants3 plus3*8 details gives27. Means anddetails retained.",
+        "lift_scope": "Explicit nine-translation classroom model hasorthogonal liftlabels andprefactor1/3. The source liftsetL andPv are not fully defined in the read packet; no source isometry replay is claimed. A27-unitary-label example withsameprefactor yieldsnormfactor3 and diagnoses why exactinputs matter.",
+        "Weyl": "P e_j=e_(j+1mod3),D=diag(1,omega,omega^2),B_ab=D^aP^b,Tr(B_ab dagger B_cd)=3delta_ab,cd. All nine tracecoordinates,includingzeros,are retained. Basis choice doesnot choose numerical Y.",
+        "Schur": "E inverse andSchur inverse each need their own domain. Retain eliminatedw,originalequations andsingularE=0 branches.",
+        "occupation_records": {
+          "M16": "source family_projector rank48 andoccupation(1,1,1)",
+          "F038": "exact_simultaneous_family_occupation; common history projector",
+          "X033": "exact_rank_48_family_projector",
+          "D10_guard": "No physical occupation conclusion.",
+          "AUD007": "Recover selection proof; remove obsolete guard if discharged. If body cannot be loaded,retain VERIFIED_NOT_LOADED without automatic downgrade of VERIFIED_FROZEN.",
+          "this_review": "Conditional rank and finite examples freshly checked; connecting physical-carrier selection proof not loaded or invented. Source claim and conflict both retained."
+        }
+      },
+      "course_map": [
+        {
+          "id": "lesson-01",
+          "title": "Residues modulo three",
+          "entry_prerequisites": [
+            "course-15",
+            "course-18"
+          ],
+          "concept_ids": [
+            "C20.01"
+          ],
+          "worked_example_capability": "Compute the three source-defined lambda classes",
+          "assessment_target": "Compute the three source-defined lambda classes",
+          "later_use": "lesson-02",
+          "core_minutes": 55,
+          "planned_periods": 1,
+          "planned_total_minutes": 55,
+          "explanation_id": "C20.01-E1",
+          "worked_example_id": "C20.01-W1",
+          "prior_practice_id": "C20.01-P1",
+          "diagnostic_id": "C20.01-D1"
+        },
+        {
+          "id": "lesson-02",
+          "title": "Uniform and zero-sum sectors",
+          "entry_prerequisites": [
+            "lesson-01"
+          ],
+          "concept_ids": [
+            "C20.02"
+          ],
+          "worked_example_capability": "Decompose a small class into mean and retained detail",
+          "assessment_target": "Decompose a small class into mean and retained detail",
+          "later_use": "lesson-03",
+          "core_minutes": 55,
+          "planned_periods": 2,
+          "planned_total_minutes": 110,
+          "explanation_id": "C20.02-E1",
+          "worked_example_id": "C20.02-W1",
+          "prior_practice_id": "C20.02-P1",
+          "diagnostic_id": "C20.02-D1"
+        },
+        {
+          "id": "lesson-03",
+          "title": "Lifts and Fourier-style channels",
+          "entry_prerequisites": [
+            "lesson-02"
+          ],
+          "concept_ids": [
+            "C20.03",
+            "C20.S01"
+          ],
+          "worked_example_capability": "Check a finite lift map and its normalization",
+          "assessment_target": "Check a finite lift map and its normalization",
+          "later_use": "lesson-04",
+          "core_minutes": 55,
+          "source_coverage_requirements": [
+            {
+              "concept_id": "C20.S01",
+              "operation": "Introduce shift and phase matrices and trace-coordinate extraction on a small supplied matrix; keep coefficient choice distinct from the basis decomposition.",
+              "source_pointers": [
+                "S02#/backbone_sequence/15/weyl_basis"
+              ]
+            }
+          ],
+          "pacing_rule": "Preserve every existing operation. Split into additional sessions if these bridge/practice requirements exceed the core period; update recovery checkpoints during production.",
+          "required_amendment_ids": [
+            "EA-20-E07-3"
+          ],
+          "planned_periods": 4,
+          "planned_total_minutes": 220,
+          "explanation_id": "C20.03-E1",
+          "worked_example_id": "C20.03-W1",
+          "prior_practice_id": "C20.03-P1",
+          "diagnostic_id": "C20.03-D1"
+        },
+        {
+          "id": "lesson-04",
+          "title": "Tensor products and rank multiplication",
+          "entry_prerequisites": [
+            "lesson-03"
+          ],
+          "concept_ids": [
+            "C20.04"
+          ],
+          "worked_example_capability": "Count independent labels in a product carrier",
+          "assessment_target": "Count independent labels in a product carrier",
+          "later_use": "lesson-05",
+          "core_minutes": 55,
+          "required_amendment_ids": [
+            "EA-20-E07-3"
+          ],
+          "planned_periods": 2,
+          "planned_total_minutes": 110,
+          "explanation_id": "C20.04-E1",
+          "worked_example_id": "C20.04-W1",
+          "prior_practice_id": "C20.04-P1",
+          "diagnostic_id": "C20.04-D1"
+        },
+        {
+          "id": "lesson-05",
+          "title": "The rank-48 projector",
+          "entry_prerequisites": [
+            "lesson-04"
+          ],
+          "concept_ids": [
+            "C20.05"
+          ],
+          "worked_example_capability": "Verify the declared rank and uniform family occupancy construction",
+          "assessment_target": "Verify the declared rank and uniform family occupancy construction",
+          "later_use": "lesson-06",
+          "core_minutes": 55,
+          "required_amendment_ids": [
+            "SA-20",
+            "EA-20-E07-3"
+          ],
+          "planned_periods": 2,
+          "planned_total_minutes": 110,
+          "explanation_id": "C20.05-E1",
+          "worked_example_id": "C20.05-W1",
+          "prior_practice_id": "C20.05-P1",
+          "diagnostic_id": "C20.05-D1"
+        },
+        {
+          "id": "lesson-06",
+          "title": "Selection, state, and source status",
+          "entry_prerequisites": [
+            "lesson-05"
+          ],
+          "concept_ids": [
+            "C20.06"
+          ],
+          "worked_example_capability": "Separate the mathematical projector from the premise identifying the occupied carrier",
+          "assessment_target": "Separate the mathematical projector from the premise identifying the occupied carrier",
+          "later_use": "lesson-07",
+          "core_minutes": 55,
+          "required_amendment_ids": [
+            "SA-20"
+          ],
+          "planned_periods": 1,
+          "planned_total_minutes": 55,
+          "explanation_id": "C20.06-E1",
+          "worked_example_id": "C20.06-W1",
+          "prior_practice_id": "C20.06-P1",
+          "diagnostic_id": "C20.06-D1"
+        },
+        {
+          "id": "lesson-07",
+          "title": "Family labels and numerical properties",
+          "entry_prerequisites": [
+            "lesson-06"
+          ],
+          "concept_ids": [
+            "C20.07",
+            "C20.S02"
+          ],
+          "worked_example_capability": "State which masses and mixing coordinates are supplied or unresolved",
+          "assessment_target": "State which masses and mixing coordinates are supplied or unresolved",
+          "later_use": "capstone",
+          "core_minutes": 55,
+          "source_coverage_requirements": [
+            {
+              "concept_id": "C20.S02",
+              "operation": "Solve a two-block scalar example, reconstruct the eliminated variable, and preserve the E=0 branch instead of applying an inverse there.",
+              "source_pointers": [
+                "S02#/backbone_sequence/15/schur_interface"
+              ]
+            }
+          ],
+          "pacing_rule": "Preserve every existing operation. Split into additional sessions if these bridge/practice requirements exceed the core period; update recovery checkpoints during production.",
+          "required_amendment_ids": [
+            "SA-20"
+          ],
+          "planned_periods": 3,
+          "planned_total_minutes": 165,
+          "explanation_id": "C20.07-E1",
+          "worked_example_id": "C20.07-W1",
+          "prior_practice_id": "C20.07-P1",
+          "diagnostic_id": "C20.07-D1"
+        }
+      ],
+      "lessons": [
+        {
+          "lesson_id": "lesson-01",
+          "concept_id": "C20.01",
+          "explanation_id": "C20.01-E1",
+          "bridge_to_teach": "Review residues modulo 3, including negatives. Define X=F3^3, lambda(x)=sum coordinates modulo 3 and classes C_r. Choose x1, x2 freely and solve x3=r-x1-x2 modulo 3.",
+          "worked_example": {
+            "id": "C20.01-W1",
+            "task_and_answer": "lambda(2,2,2)=0; lambda(0,0,1)=1; lambda(0,0,2)=2. For r=0 and (x1, x2)=(1,2), x3=0. Nine choices of the first two coordinates give nine nodes in each class, total 27."
+          },
+          "guided_practice": {
+            "id": "C20.01-P1",
+            "task_and_answer": "For r=2 and (x1, x2)=(2,1), x3=2. For r=1 and (2,2), x3=0. Enumerate all nine pairs to recover counts 9+9+9, retaining node order."
+          },
+          "diagnostic": {
+            "id": "C20.01-D1",
+            "task_and_answer": "Three finite lambda classes do not by counting alone identify physical family occupation."
+          },
+          "planned_periods": 1,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand into actual senior-facing explanations,2–4 observable goals and3–5 answered diagnostics. Preserve original IDs and every supplemental concept. Split dense sessions with links updated; period counts may expand.",
+          "original_title": "Residues modulo three",
+          "original_assessment_target": "Compute the three source-defined lambda classes",
+          "original_concept_ids": [
+            "C20.01"
+          ],
+          "required_source_amendment_ids": [],
+          "source_coverage_requirements": [],
+          "original_entry_prerequisites": [
+            "course-15",
+            "course-18"
+          ]
+        },
+        {
+          "lesson_id": "lesson-02",
+          "concept_id": "C20.02",
+          "explanation_id": "C20.02-E1",
+          "bridge_to_teach": "Normalize Phi_r=(1/3)sum delta_x over its nine class nodes. Orthogonal entries give norm 1. Teach class mean plus zero-sum detail and retain both; derive three class-constant dimensions and eight detail dimensions per class.",
+          "worked_example": {
+            "id": "C20.02-W1",
+            "task_and_answer": "Values (1,2,3,4,5,6,7,8,9) have mean 5 and details (-4,-3,-2,-1,0,1,2,3,4). The normalized-indicator coefficient is 15, so 15 Phi_r is constant 5 on the class."
+          },
+          "guided_practice": {
+            "id": "C20.02-P1",
+            "task_and_answer": "Values (9,0,0,0,0,0,0,0,0) have mean 1 and details (8,-1,-1,-1,-1,-1,-1,-1,-1). The indicator coefficient is 3. Reconstruct all nine entries; across classes, dimensions are 3+8+8+8=27."
+          },
+          "diagnostic": {
+            "id": "C20.02-D1",
+            "task_and_answer": "Amplitude 1/9 gives indicator norm squared 1/9, not 1. Removing means without retaining their three coefficients loses reconstruction."
+          },
+          "planned_periods": 2,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand into actual senior-facing explanations,2–4 observable goals and3–5 answered diagnostics. Preserve original IDs and every supplemental concept. Split dense sessions with links updated; period counts may expand.",
+          "original_title": "Uniform and zero-sum sectors",
+          "original_assessment_target": "Decompose a small class into mean and retained detail",
+          "original_concept_ids": [
+            "C20.02"
+          ],
+          "required_source_amendment_ids": [],
+          "source_coverage_requirements": [],
+          "original_entry_prerequisites": [
+            "lesson-01"
+          ]
+        },
+        {
+          "lesson_id": "lesson-03",
+          "concept_id": "C20.03",
+          "explanation_id": "C20.03-E1",
+          "bridge_to_teach": "Introduce normalized lift maps and orthogonal label spaces, then finite Fourier channels with complex adjoints. Specify a synthetic nine-translation model, keeping the missing source L/P_v definitions separate. Include the Weyl supplement and rank bridge.",
+          "worked_example": {
+            "id": "C20.03-W1",
+            "task_and_answer": "Synthetic L={(a, b,0):a, b=0,1,2}; P_v delta_x=delta_(x+v). Set V f=(1/3)sum_v P_v f tensor |v>. Orthogonal labels give V dagger V=(1/9)sum P_v dagger P_v=I27. A unit delta input gives nine amplitudes 1/3 and norm 1."
+          },
+          "guided_practice": {
+            "id": "C20.03-P1",
+            "task_and_answer": "Input 2 delta_(1,0,0) gives nine amplitudes 2/3 and norm squared 4; V dagger V restores it. Separately use F_jk=omega^(jk)/sqrt(3): F e0=(1,1,1)/sqrt(3), F e1=(1, omega, omega^2)/sqrt(3), and F dagger reverses both."
+          },
+          "diagnostic": {
+            "id": "C20.03-D1",
+            "task_and_answer": "Using 27 unitary translations with prefactor 1/3 gives norm-squared factor 3, not 1. The source all-lifts claim requires its exact L and operators; AUD-009 records missing objects. This nine-label model is explicitly a classroom analogue."
+          },
+          "planned_periods": 4,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand into actual senior-facing explanations,2–4 observable goals and3–5 answered diagnostics. Preserve original IDs and every supplemental concept. Split dense sessions with links updated; period counts may expand.",
+          "supplemental_exercises": [
+            {
+              "concept_id": "C20.S01",
+              "explanation_id": "C20.S01-E1",
+              "worked_example_id": "C20.S01-W1",
+              "prior_practice_id": "C20.S01-P1",
+              "diagnostic_id": "C20.S01-D1",
+              "explanation": "Define omega=(-1+i sqrt(3))/2, omega^3=1 and 1+omega+omega^2=0. With P e_j=e_(j+1 modulo 3), D=diag(1, omega, omega^2), set B_ab=D^a P^b. Teach trace and Hermitian orthogonality before extracting coefficients.",
+              "worked_task_and_answer": "DP=omega PD and Tr(B_ab dagger B_cd)=3 delta_ac delta_bd. For Y=I+2P-D^2 P, y_ab=Tr(B_ab dagger Y)/3 gives y00=1, y01=2, y21=-1 and all six other coefficients zero. Rebuild Y from all nine coordinates.",
+              "practice_task_and_answer": "For Y=2I+D-P^2, y00=2, y10=1, y02=-1 and all others zero. Direct Y has diagonal (3,2+omega,2+omega^2) and -1 at positions (0,1),(1,2),(2,0). Check each trace coefficient and entrywise reconstruction; retain zeros.",
+              "diagnostic_task_and_answer": "A basis decomposition represents a supplied Y; it does not select physical Y. Swapping D/P order changes phases, so retain the exact basis and trace convention."
+            }
+          ],
+          "original_title": "Lifts and Fourier-style channels",
+          "original_assessment_target": "Check a finite lift map and its normalization",
+          "original_concept_ids": [
+            "C20.03",
+            "C20.S01"
+          ],
+          "required_source_amendment_ids": [
+            "EA-20-E07-3"
+          ],
+          "source_coverage_requirements": [
+            {
+              "concept_id": "C20.S01",
+              "operation": "Introduce shift and phase matrices and trace-coordinate extraction on a small supplied matrix; keep coefficient choice distinct from the basis decomposition.",
+              "source_pointers": [
+                "S02#/backbone_sequence/15/weyl_basis"
+              ]
+            }
+          ],
+          "original_entry_prerequisites": [
+            "lesson-02"
+          ]
+        },
+        {
+          "lesson_id": "lesson-04",
+          "concept_id": "C20.04",
+          "explanation_id": "C20.04-E1",
+          "bridge_to_teach": "Preserve EA-20-E07-3. Teach column independence through linear equations, then distinguish carrier dimension, product-label count and projector image rank. Retain the complement of every projection.",
+          "worked_example": {
+            "id": "C20.04-W1",
+            "task_and_answer": "C20-RANK-EX1: P=[[1/2,1/2,0],[1/2,1/2,0],[0,0,1]]. P^2=P; the first two columns coincide and the third is independent, so rank is 2 in dimension 3. P(2,0,3)=(1,1,3); complement=(1,-1,0)."
+          },
+          "guided_practice": {
+            "id": "C20.04-P1",
+            "task_and_answer": "C20-RANK-P1: P(4,2,-1)=(3,3,-1), complement=(1,-1,0), and their sum restores the input. A 2-by-3 label table has six entries. I2 tensor I3 tensor diag(1,0) acts in dimension 12 with rank 6."
+          },
+          "diagnostic": {
+            "id": "C20.04-D1",
+            "task_and_answer": "C20-RANK-D1: diag(1,0,0) has rank 1, not 3. A label count does not establish projector rank without its independent image basis."
+          },
+          "planned_periods": 2,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand into actual senior-facing explanations,2–4 observable goals and3–5 answered diagnostics. Preserve original IDs and every supplemental concept. Split dense sessions with links updated; period counts may expand.",
+          "legacy_required_ids": [
+            "C20-RANK-EX1",
+            "C20-RANK-P1",
+            "C20-RANK-D1"
+          ],
+          "original_title": "Tensor products and rank multiplication",
+          "original_assessment_target": "Count independent labels in a product carrier",
+          "original_concept_ids": [
+            "C20.04"
+          ],
+          "required_source_amendment_ids": [
+            "EA-20-E07-3"
+          ],
+          "source_coverage_requirements": [],
+          "original_entry_prerequisites": [
+            "lesson-03"
+          ]
+        },
+        {
+          "lesson_id": "lesson-05",
+          "concept_id": "C20.05",
+          "explanation_id": "C20.05-E1",
+          "bridge_to_teach": "State Q_n=I16 tensor I3 tensor q_n with q_n self-adjoint, idempotent and nonzero of rank 1. Build its image basis and restrict to each family label. Separate conditional rank arithmetic from the source physical-occupation claim.",
+          "worked_example": {
+            "id": "C20.05-W1",
+            "task_and_answer": "The image basis has 16 internal choices, 3 family choices and 1 history choice: rank 48. Each family restriction has 16 internal states and one history coordinate. The stated family/history occupation label (1,1,1) is not a measured density."
+          },
+          "guided_practice": {
+            "id": "C20.05-P1",
+            "task_and_answer": "The toy I2 tensor I3 tensor q1 has rank 6, two internal states per family. Finite history q3=0 gives rank 0. A rank-2 history factor would give rank 96 in the 16-by-3 product, showing why rank(q_n)=1 matters."
+          },
+          "diagnostic": {
+            "id": "C20.05-D1",
+            "task_and_answer": "I3 makes this declared projector uniform across labels. It does not by itself prove that physical states occupy its image. Retain the SA-20 claim, guard and correction records."
+          },
+          "planned_periods": 2,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand into actual senior-facing explanations,2–4 observable goals and3–5 answered diagnostics. Preserve original IDs and every supplemental concept. Split dense sessions with links updated; period counts may expand.",
+          "original_title": "The rank-48 projector",
+          "original_assessment_target": "Verify the declared rank and uniform family occupancy construction",
+          "original_concept_ids": [
+            "C20.05"
+          ],
+          "required_source_amendment_ids": [
+            "SA-20",
+            "EA-20-E07-3"
+          ],
+          "source_coverage_requirements": [],
+          "original_entry_prerequisites": [
+            "lesson-04"
+          ]
+        },
+        {
+          "lesson_id": "lesson-06",
+          "concept_id": "C20.06",
+          "explanation_id": "C20.06-E1",
+          "bridge_to_teach": "Read M16, KFM-F038, KFM-X033, D10.guard and S03 AUD-007 together. Separate source-local status from fresh arithmetic and record the retrieval state of the physical-carrier selection proof.",
+          "worked_example": {
+            "id": "C20.06-W1",
+            "task_and_answer": "M16 and F038 claim exact simultaneous occupation; D10.guard states No physical occupation conclusion. AUD-007 requests the occupation-selection proof and removal of the obsolete guard if discharged. Otherwise retain VERIFIED_NOT_LOADED without automatically downgrading VERIFIED_FROZEN."
+          },
+          "guided_practice": {
+            "id": "C20.06-P1",
+            "task_and_answer": "Classify 16*3*1=48 as freshly checked conditional rank; occupation=(1,1,1) as the recorded source claim; D10 as the retained conflicting guard; and the connecting physical-carrier proof as not loaded in this review. Preserve all pointers and records."
+          },
+          "diagnostic": {
+            "id": "C20.06-D1",
+            "task_and_answer": "Rank arithmetic cannot decide which guard is obsolete or establish empirical occupation. VERIFIED_FROZEN and VERIFIED_NOT_LOADED are source-local dispositions, not new certificates issued by this course."
+          },
+          "planned_periods": 1,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand into actual senior-facing explanations,2–4 observable goals and3–5 answered diagnostics. Preserve original IDs and every supplemental concept. Split dense sessions with links updated; period counts may expand.",
+          "original_title": "Selection, state, and source status",
+          "original_assessment_target": "Separate the mathematical projector from the premise identifying the occupied carrier",
+          "original_concept_ids": [
+            "C20.06"
+          ],
+          "required_source_amendment_ids": [
+            "SA-20"
+          ],
+          "source_coverage_requirements": [],
+          "original_entry_prerequisites": [
+            "lesson-05"
+          ]
+        },
+        {
+          "lesson_id": "lesson-07",
+          "concept_id": "C20.07",
+          "explanation_id": "C20.07-E1",
+          "bridge_to_teach": "Separate family labels from numerical masses, mixing and supplied matrix coefficients. Teach block elimination with full reconstruction and an explicit E=0 branch; keep the Weyl basis separate from choosing physical coefficients.",
+          "worked_example": {
+            "id": "C20.07-W1",
+            "task_and_answer": "A three-family carrier does not determine a Yukawa matrix. For synthetic K=[[2,1],[1,3]], s=(5,7), E=3, Schur=5/3, reduced source=8/3, u=8/5 and w=9/5. Both original equations hold; det K=5."
+          },
+          "guided_practice": {
+            "id": "C20.07-P1",
+            "task_and_answer": "K=[[3,1],[2,2]], s=(7,8) gives E=2, Schur=2, reduced source=3, u=3/2, w=5/2 and det K=4. With E=0, use K=[[1,1],[1,0]], s=(3,1): solve the original equations to get u=1, w=2 without dividing by E."
+          },
+          "diagnostic": {
+            "id": "C20.07-D1",
+            "task_and_answer": "Elimination from an intermediate equation does not authorize forgetting w. Preserve all zero Weyl coordinates, singular branches, coefficient inputs and physical-occupation premises."
+          },
+          "planned_periods": 3,
+          "minutes_per_period": 55,
+          "teaching_allocation_per_period": {
+            "retrieval": 5,
+            "explanation_and_worked_example": 20,
+            "guided_practice": 15,
+            "independent_diagnostics_and_repair": 15
+          },
+          "production_requirement": "Expand into actual senior-facing explanations,2–4 observable goals and3–5 answered diagnostics. Preserve original IDs and every supplemental concept. Split dense sessions with links updated; period counts may expand.",
+          "supplemental_exercises": [
+            {
+              "concept_id": "C20.S02",
+              "explanation_id": "C20.S02-E1",
+              "worked_example_id": "C20.S02-W1",
+              "prior_practice_id": "C20.S02-P1",
+              "diagnostic_id": "C20.S02-D1",
+              "explanation": "For A u+B w=sU and C u+E w=sW, invertible E permits w=E^-1(sW-Cu), Schur S=A-BE^-1C and reduced source r=sU-BE^-1sW. Solve S u=r only if its own inverse exists. Keep both original equations.",
+              "worked_task_and_answer": "K=[[2,1],[1,3]], s=(5,7) gives S=5/3, r=8/3, u=8/5, w=9/5. Then 2u+w=5, u+3w=7 and det K=3*(5/3)=5.",
+              "practice_task_and_answer": "K=[[3,1],[2,2]], s=(7,8) gives S=2, r=3, u=3/2, w=5/2. Then 3u+w=7,2u+2w=8 and det K=4. For E=0, K=[[1,1],[1,0]], s=(3,1), directly solve u=1, w=2; K is invertible even though E is not.",
+              "diagnostic_task_and_answer": "Singular E or S falls outside the corresponding inverse formula. Retain compatibility or free coordinates, or solve the full system. Never erase w or treat division by zero as a branch solution."
+            }
+          ],
+          "original_title": "Family labels and numerical properties",
+          "original_assessment_target": "State which masses and mixing coordinates are supplied or unresolved",
+          "original_concept_ids": [
+            "C20.07",
+            "C20.S02"
+          ],
+          "required_source_amendment_ids": [
+            "SA-20"
+          ],
+          "source_coverage_requirements": [
+            {
+              "concept_id": "C20.S02",
+              "operation": "Solve a two-block scalar example, reconstruct the eliminated variable, and preserve the E=0 branch instead of applying an inverse there.",
+              "source_pointers": [
+                "S02#/backbone_sequence/15/schur_interface"
+              ]
+            }
+          ],
+          "original_entry_prerequisites": [
+            "lesson-06"
+          ]
+        }
+      ],
+      "capstone_backward_map": [
+        {
+          "step_id": "C20-CAP-01",
+          "operation": "Enumerate the source-defined lambda classes and verify9+9+9 nodes.",
+          "introduction": "lesson-01",
+          "explanation_id": "C20.01-E1",
+          "worked_example_id": "C20.01-W1",
+          "prior_practice_id": "C20.01-P1",
+          "diagnostic_id": "C20.01-D1"
+        },
+        {
+          "step_id": "C20-CAP-02",
+          "operation": "Normalize classindicators,decompose the practice class into mean+detail and reconstruct.",
+          "introduction": "lesson-02",
+          "explanation_id": "C20.02-E1",
+          "worked_example_id": "C20.02-W1",
+          "prior_practice_id": "C20.02-P1",
+          "diagnostic_id": "C20.02-D1"
+        },
+        {
+          "step_id": "C20-CAP-03",
+          "operation": "Check the explicitly synthetic normalized lift and three-channel Fourier examples,distinguishing missing sourceobjects.",
+          "introduction": "lesson-03",
+          "explanation_id": "C20.03-E1",
+          "worked_example_id": "C20.03-W1",
+          "prior_practice_id": "C20.03-P1",
+          "diagnostic_id": "C20.03-D1"
+        },
+        {
+          "step_id": "C20-CAP-04",
+          "operation": "Verify the practice EA20 projector,image/complement and small tensor rank versusdimension.",
+          "introduction": "lesson-04",
+          "explanation_id": "C20.04-E1",
+          "worked_example_id": "C20.04-W1",
+          "prior_practice_id": "C20.04-P1",
+          "diagnostic_id": "C20.04-D1"
+        },
+        {
+          "step_id": "C20-CAP-05",
+          "operation": "Derive48 from the stated factors andtest a vanishing/rank2 history counterexample.",
+          "introduction": "lesson-05",
+          "explanation_id": "C20.05-E1",
+          "worked_example_id": "C20.05-W1",
+          "prior_practice_id": "C20.05-P1",
+          "diagnostic_id": "C20.05-D1"
+        },
+        {
+          "step_id": "C20-CAP-06",
+          "operation": "Preserve sourceoccupation claim,D10guard,AUD007 correction and retrieval statuses in a comparison table.",
+          "introduction": "lesson-06",
+          "explanation_id": "C20.06-E1",
+          "worked_example_id": "C20.06-W1",
+          "prior_practice_id": "C20.06-P1",
+          "diagnostic_id": "C20.06-D1"
+        },
+        {
+          "step_id": "C20-CAP-07",
+          "operation": "State which masses,mixing andcoefficients remain inputs,and solve the practice two-block system.",
+          "introduction": "lesson-07",
+          "explanation_id": "C20.07-E1",
+          "worked_example_id": "C20.07-W1",
+          "prior_practice_id": "C20.07-P1",
+          "diagnostic_id": "C20.07-D1"
+        },
+        {
+          "step_id": "C20-CAP-08",
+          "operation": "Extract all nine practice Weyl coefficients bytrace and reconstruct the matrix,includingzero coordinates.",
+          "introduction": "lesson-03",
+          "concept_id": "C20.S01",
+          "explanation_id": "C20.S01-E1",
+          "worked_example_id": "C20.S01-W1",
+          "prior_practice_id": "C20.S01-P1",
+          "diagnostic_id": "C20.S01-D1"
+        },
+        {
+          "step_id": "C20-CAP-09",
+          "operation": "Apply Schur elimination,reconstructw and originalequations,and solve the E=0 branch directly.",
+          "introduction": "lesson-07",
+          "concept_id": "C20.S02",
+          "explanation_id": "C20.S02-E1",
+          "worked_example_id": "C20.S02-W1",
+          "prior_practice_id": "C20.S02-P1",
+          "diagnostic_id": "C20.S02-D1"
+        }
+      ],
+      "core_periods": 15,
+      "capstone_periods": 3,
+      "period_minutes": 55,
+      "core_boundary": "Assess the explicit finite operations and exact source-reading cards. No missing certificate replay,full Clifford/physical chirality proof,global determinant-line existence proof,continuum limit,or physical occupation-selection proof is silently assigned.",
+      "prerequisite_status": "Blueprint closure checked; actual produced student-facing explanations,answered practice and capstone require later independent content acceptance."
+    }
+  ],
+  "verification_record": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-teaching-auditor\\outputs\\teaching-verification-17-20.json",
+  "verification_sha256": "95f3b9026083e396970204003ff19e5b6ac06ee4d714f57f5af73f7bbc4026a2",
+  "source_or_project_files_modified": false
+}

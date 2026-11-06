@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-20",
+  "timestamp": "2026-11-05T19:30:00.691632+00:00",
+  "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-20-family-structure-and-simultaneous-occupation",
+  "validator": "passed",
+  "validator_checks": [
+    "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+    "parsed manifest.json",
+    "parsed audit_report.json",
+    "parsed completion_report.json",
+    "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+  ],
+  "validator_errors": [],
+  "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+  "manifest_sha256": "62529e92e7384f40d07cae0643d20f7eefe50b1bd48fbdec5ceb8dc9fff3b2e7",
+  "completion_report_sha256": "470dc1a741be63d3d18422d9f881adda0dd4d1f59a8281a903f6bc762215ab03",
+  "course_sha256": "c9f3d60683c3810559a7a584658610a65d6eb81605f355b675abbd5f136d925d",
+  "status": "accepted",
+  "independent_audit": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\independent-completion\\course-20-independent-audit.json",
+  "independent_report_sha256": "c0c8beb7bf7a63b7c2c6408ecdc1e6d7328bd3d5415da96502ccd0df080e83dd",
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "scope": "Completed topical course accepted after parent review of independent source/content audit and fresh deterministic validation; documented source limitations retained."
+}

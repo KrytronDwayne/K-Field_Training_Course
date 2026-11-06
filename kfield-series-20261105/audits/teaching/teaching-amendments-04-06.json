@@ -1,0 +1,1719 @@
+{
+  "schema_version": "1.0",
+  "created_utc": "2026-11-05T17:05:16.713485+00:00",
+  "scope": "Portable pedagogic blueprint amendments; not completed lessons or a source-clearance certificate.",
+  "synthetic_geometry": {
+    "label": "Classroom analogue, not Cell3 and not measured data",
+    "basis_rows": [
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        -3
+      ]
+    ],
+    "origin": [
+      2,
+      -1,
+      4
+    ],
+    "units": "arbitrary length unit; q,L,h dimensionless",
+    "inverse_rows": [
+      [
+        "1",
+        "-1/2",
+        "0"
+      ],
+      [
+        "0",
+        "1/2",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "-1/3"
+      ]
+    ]
+  },
+  "source_interface": {
+    "read_in_place": "S02 /backbone_sequence/1 and /backbone_sequence/2",
+    "rules": "Use x-O or p-O in affine identities. Source auditor independently clears source constants and corrected branches. Toy constants never replace source values. Ternary bonding is reduction modulo3^d; dyadic counts refer to fixed outer3B."
+  },
+  "courses": [
+    {
+      "course_id": "course-04",
+      "input_contract_path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-04-affine-cells-reciprocal-planes-and-unique-addresses\\input-contract.json",
+      "input_contract_sha256": "fd35c1844a413c9fc099510bf262812ede824f0e5ee53ac3f7469f3aea541178",
+      "application": "Merge as teaching_amendment and replace generic coverage references with IDs below. Keep existing source invariants. Parent project is not edited by this report.",
+      "applied_source_amendments_read": {
+        "SA-04": {
+          "id": "SA-04",
+          "course": 4,
+          "finding": "source_fidelity",
+          "lessons": [
+            "lesson-01",
+            "lesson-03",
+            "lesson-04"
+          ],
+          "merge_action": "append unique requirements to source_audit_contract; attach to named lesson authoring obligations; preserve existing fields",
+          "requirements": [
+            "Use g_h=B^-T h for nonzero integer h and planes g_h dot (x-O_K)=m. Affine origins remain explicit.",
+            "Use canonical S02 /backbone_sequence/1/result or /mature_locked_cell3, not the stale /reciprocal_witness branch. Label superseded values as provenance, not measurement residuals."
+          ],
+          "source_references": [
+            "S02#/backbone_sequence/1",
+            "S03#/findings/4"
+          ],
+          "status": "applied_to_blueprint_by_parent",
+          "prior_application_status": "prepared_not_applied",
+          "applied_at": "2026-11-05T17:02:05.375955+00:00"
+        }
+      },
+      "lesson_required_amendment_ids_read": {
+        "lesson-01": [
+          "SA-04"
+        ],
+        "lesson-02": [],
+        "lesson-03": [
+          "SA-04"
+        ],
+        "lesson-04": [
+          "SA-04"
+        ],
+        "lesson-05": [],
+        "lesson-06": []
+      },
+      "source_amendment_merge_rule": "Preserve every applied source requirement and every lesson attachment. The teaching anchors below add scaffolding; they do not supersede source obligations.",
+      "lessons": [
+        {
+          "lesson_id": "lesson-01",
+          "concept_id": "C04.01",
+          "bridge_to_teach": "Review column multiplication, subtracting an origin, and inverse action; distinguish physical length units from dimensionless addresses.",
+          "worked_example": {
+            "id": "C04.01-W1",
+            "task_and_answer": "Use synthetic B and O. q=(1/2,-1/2,1) gives x=(2,-2,1). Recover q=B^-1(x-O)."
+          },
+          "guided_practice": {
+            "id": "C04.01-P1",
+            "task_and_answer": "q=(1,0,-1) gives x=(3,-1,7); subtract O then invert to recover q."
+          },
+          "diagnostic": {
+            "id": "C04.01-D1",
+            "task_and_answer": "x=O gives q=0, not B^-1 O. Explain why the origin must be subtracted."
+          },
+          "pacing_minutes": {
+            "explain_and_work": 20,
+            "guided_practice": 15,
+            "diagnostics_and_feedback": 15,
+            "transition": 5
+          },
+          "production_rule": "Expand this anchor diagnostic to 3\u20135 diagnostic checks; teach all operations before use. Split the lesson if these activities exceed 55 minutes."
+        },
+        {
+          "lesson_id": "lesson-02",
+          "concept_id": "C04.02",
+          "bridge_to_teach": "Define interval brackets and floor using a number line, including negatives. Cell ownership is a partition operation, not a generic rounding convention.",
+          "worked_example": {
+            "id": "C04.02-W1",
+            "task_and_answer": "For q=(1/2,-1/2,3/2), z=floor(q+1/2)=(1,0,2), u=q-z=(-1/2,-1/2,-1/2)."
+          },
+          "guided_practice": {
+            "id": "C04.02-P1",
+            "task_and_answer": "q=(-3/2,49/100,51/100) gives z=(-1,0,1), u=(-1/2,49/100,-49/100)."
+          },
+          "diagnostic": {
+            "id": "C04.02-D1",
+            "task_and_answer": "q1=499/1000 has owner 0; q1=1/2 has owner 1. Do not round 499/1000 to 1/2 before assigning its owner."
+          },
+          "pacing_minutes": {
+            "explain_and_work": 20,
+            "guided_practice": 15,
+            "diagnostics_and_feedback": 15,
+            "transition": 5
+          },
+          "production_rule": "Expand this anchor diagnostic to 3\u20135 diagnostic checks; teach all operations before use. Split the lesson if these activities exceed 55 minutes."
+        },
+        {
+          "lesson_id": "lesson-03",
+          "concept_id": "C04.03",
+          "bridge_to_teach": "Define reciprocal vectors by their three dot pairings, then introduce B^-T. Teach h as an integer plane label; all affine equations use x-O.",
+          "worked_example": {
+            "id": "C04.03-W1",
+            "task_and_answer": "h=(1,0,0) gives g=(1,-1/2,0) in inverse length units. Pairing with columns a,b,c is (1,0,0)."
+          },
+          "guided_practice": {
+            "id": "C04.03-P1",
+            "task_and_answer": "h=(0,1,0) gives g=(0,1/2,0), pairings (0,1,0). For q=(1/2,-1/2,1), g dot (x-O)=-1/2."
+          },
+          "diagnostic": {
+            "id": "C04.03-D1",
+            "task_and_answer": "h=(1,1,0) gives g=(1,0,0). Verify g dot (x-O)=h dot q=0 for the worked point, whereas g dot x=2."
+          },
+          "pacing_minutes": {
+            "explain_and_work": 20,
+            "guided_practice": 15,
+            "diagnostics_and_feedback": 15,
+            "transition": 5
+          },
+          "production_rule": "Expand this anchor diagnostic to 3\u20135 diagnostic checks; teach all operations before use. Split the lesson if these activities exceed 55 minutes.",
+          "source_reading_check": {
+            "worked_id": "C04.03-W2",
+            "practice_id": "C04.03-P2",
+            "diagnostic_id": "C04.03-D2",
+            "worked": "Read canonical u/v/w spacings and normals from S02 /backbone_sequence/1/result or /mature_locked_cell3. Keep axis order, nm units, full lexemes and source pointer.",
+            "practice": "Compare one canonical spacing with the explicitly superseded /reciprocal_witness field using S03 /findings/4. Record branch identity; do not label a superseded value as a measurement residual.",
+            "diagnostic": "Reject a proposed card mixing a canonical normal and a stale spacing; name the canonical field to use.",
+            "restriction": "h must be nonzero; h=0 has no unit normal or finite plane spacing. This check is source-reading, not hand computation of locked decimals."
+          }
+        },
+        {
+          "lesson_id": "lesson-04",
+          "concept_id": "C04.04",
+          "bridge_to_teach": "Teach magnitude, unit normalization and projection distance explicitly. Explain why increasing the integer plane level by one changes signed distance by 1/|g|.",
+          "worked_example": {
+            "id": "C04.04-W1",
+            "task_and_answer": "For h=(1,0,0), |g|=sqrt(5)/2, unit normal=(2,-1,0)/sqrt(5), spacing=2/sqrt(5) length units."
+          },
+          "guided_practice": {
+            "id": "C04.04-P1",
+            "task_and_answer": "h=(0,1,0) gives normal=(0,1,0), spacing=2. h=(0,0,1) gives normal=(0,0,-1), spacing=3."
+          },
+          "diagnostic": {
+            "id": "C04.04-D1",
+            "task_and_answer": "Replace h by (2,0,0): g doubles, normal stays the same, spacing for consecutive integer levels halves to 1/sqrt(5). Explain the changed plane family."
+          },
+          "pacing_minutes": {
+            "explain_and_work": 20,
+            "guided_practice": 15,
+            "diagnostics_and_feedback": 15,
+            "transition": 5
+          },
+          "production_rule": "Expand this anchor diagnostic to 3\u20135 diagnostic checks; teach all operations before use. Split the lesson if these activities exceed 55 minutes."
+        },
+        {
+          "lesson_id": "lesson-05",
+          "concept_id": "C04.05",
+          "bridge_to_teach": "Use the already taught Gram form to compare address dot products with physical dot products; an inverse cosine is optional, not required.",
+          "worked_example": {
+            "id": "C04.05-W1",
+            "task_and_answer": "Address e1 dot e2=0, but physical a dot b=1 and cos(angle)=1/sqrt(5). The physical directions are not perpendicular."
+          },
+          "guided_practice": {
+            "id": "C04.05-P1",
+            "task_and_answer": "a dot c=0 and b dot c=0. Verify these using both physical components and entries of the Gram matrix."
+          },
+          "diagnostic": {
+            "id": "C04.05-D1",
+            "task_and_answer": "For q=(1,1,0), |Bq|^2=8, not 1+5=6: retain the two cross terms."
+          },
+          "pacing_minutes": {
+            "explain_and_work": 20,
+            "guided_practice": 15,
+            "diagnostics_and_feedback": 15,
+            "transition": 5
+          },
+          "production_rule": "Expand this anchor diagnostic to 3\u20135 diagnostic checks; teach all operations before use. Split the lesson if these activities exceed 55 minutes."
+        },
+        {
+          "lesson_id": "lesson-06",
+          "concept_id": "C04.06",
+          "bridge_to_teach": "Teach a typed reconstruction ledger with separate q,z,u, source values and display values; use exact fractions at boundaries.",
+          "worked_example": {
+            "id": "C04.06-W1",
+            "task_and_answer": "Combine q=(1/2,-1/2,3/2), x=(2,-2,-1/2), z=(1,0,2), u=(-1/2,-1/2,-1/2); verify O+B(z+u)=x."
+          },
+          "guided_practice": {
+            "id": "C04.06-P1",
+            "task_and_answer": "Use q=(-3/2,49/100,51/100): x=(99/100,-1/50,247/100). Reconstruct from z,u and retain all fractions."
+          },
+          "diagnostic": {
+            "id": "C04.06-D1",
+            "task_and_answer": "For q=(499/1000,0,0), displayed q=(1/2,0,0), retain r=(-1/1000,0,0); true owner is zero. Recover the original before cell assignment."
+          },
+          "pacing_minutes": {
+            "explain_and_work": 20,
+            "guided_practice": 15,
+            "diagnostics_and_feedback": 15,
+            "transition": 5
+          },
+          "production_rule": "Expand this anchor diagnostic to 3\u20135 diagnostic checks; teach all operations before use. Split the lesson if these activities exceed 55 minutes."
+        }
+      ],
+      "capstone_backward_map": [
+        {
+          "step_id": "C04-CAP-01",
+          "operation": "Declare synthetic basis, origin and units; convert three specified points in both directions.",
+          "introduction": "lesson-01",
+          "worked_example_id": "C04.01-W1",
+          "prior_practice_id": "C04.01-P1",
+          "diagnostic_id": "C04.01-D1"
+        },
+        {
+          "step_id": "C04-CAP-02",
+          "operation": "Assign owners and local coordinates for exact negative/positive half boundaries and a near-boundary fraction.",
+          "introduction": "lesson-02",
+          "worked_example_id": "C04.02-W1",
+          "prior_practice_id": "C04.02-P1",
+          "diagnostic_id": "C04.02-D1"
+        },
+        {
+          "step_id": "C04-CAP-03",
+          "operation": "Compute reciprocal vectors and verify direct-reciprocal pairings and affine plane levels.",
+          "introduction": "lesson-03",
+          "worked_example_id": "C04.03-W1",
+          "prior_practice_id": "C04.03-P1",
+          "diagnostic_id": "C04.03-D1"
+        },
+        {
+          "step_id": "C04-CAP-04",
+          "operation": "Compute unit normals and consecutive-level spacings for the supplied h labels.",
+          "introduction": "lesson-04",
+          "worked_example_id": "C04.04-W1",
+          "prior_practice_id": "C04.04-P1",
+          "diagnostic_id": "C04.04-D1"
+        },
+        {
+          "step_id": "C04-CAP-05",
+          "operation": "Compare address perpendicularity with physical dot products, retaining cross terms.",
+          "introduction": "lesson-05",
+          "worked_example_id": "C04.05-W1",
+          "prior_practice_id": "C04.05-P1",
+          "diagnostic_id": "C04.05-D1"
+        },
+        {
+          "step_id": "C04-CAP-06",
+          "operation": "Reconstruct all points from z+u and restore displayed coordinates using retained rounding residuals.",
+          "introduction": "lesson-06",
+          "worked_example_id": "C04.06-W1",
+          "prior_practice_id": "C04.06-P1",
+          "diagnostic_id": "C04.06-D1"
+        },
+        {
+          "step_id": "C04-CAP-07",
+          "operation": "Read canonical reciprocal fields and reject stale/canonical branch mixing; declare nonzero h.",
+          "introduction": "lesson-03",
+          "worked_example_id": "C04.03-W2",
+          "prior_practice_id": "C04.03-P2",
+          "diagnostic_id": "C04.03-D2"
+        }
+      ],
+      "capstone_periods": 2,
+      "core_periods": 6,
+      "core_vs_recognition": "Only the finite operations explicitly taught here are assessed. Infinite inverse limits, complex phase exponentials and general abstract quotient proofs are recognition-only in this strand.",
+      "exit_checks": [
+        "C04-CAP-01",
+        "C04-CAP-02",
+        "C04-CAP-03",
+        "C04-CAP-04",
+        "C04-CAP-05",
+        "C04-CAP-06",
+        "C04-CAP-07"
+      ]
+    },
+    {
+      "course_id": "course-05",
+      "input_contract_path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-05-lucas-geometry-27-nodes-polarity-and-sheets\\input-contract.json",
+      "input_contract_sha256": "fc7d00f404ab2a9792218be33f06e91da5f33794f5d76c15b97a18deaeefeab0",
+      "application": "Merge as teaching_amendment and replace generic coverage references with IDs below. Keep existing source invariants. Parent project is not edited by this report.",
+      "applied_source_amendments_read": {
+        "SA-05": {
+          "id": "SA-05",
+          "course": 5,
+          "finding": "source_fidelity",
+          "lessons": [
+            "lesson-02",
+            "lesson-03",
+            "lesson-04"
+          ],
+          "merge_action": "append unique requirements to source_audit_contract; attach to named lesson authoring obligations; preserve existing fields",
+          "requirements": [
+            "Use p(L)=O_K+B L/2 and g_lambda dot (p-O_K)=lambda/2; phase expressions require the same origin convention.",
+            "Keep integer lambda in -3..3, chi=(-1)^lambda, mod-three classes, directed node signs and 13 unoriented pairs separately typed."
+          ],
+          "source_references": [
+            "S02#/backbone_sequence/2"
+          ],
+          "status": "applied_to_blueprint_by_parent",
+          "prior_application_status": "prepared_not_applied",
+          "applied_at": "2026-11-05T17:02:05.375955+00:00"
+        }
+      },
+      "lesson_required_amendment_ids_read": {
+        "lesson-01": [],
+        "lesson-02": [
+          "SA-05"
+        ],
+        "lesson-03": [
+          "SA-05"
+        ],
+        "lesson-04": [
+          "SA-05"
+        ],
+        "lesson-05": [],
+        "lesson-06": []
+      },
+      "source_amendment_merge_rule": "Preserve every applied source requirement and every lesson attachment. The teaching anchors below add scaffolding; they do not supersede source obligations.",
+      "lessons": [
+        {
+          "lesson_id": "lesson-01",
+          "concept_id": "C05.01",
+          "bridge_to_teach": "Teach Cartesian-product enumeration with three nested lists, the product rule for counts, and duplicate checking; code is optional.",
+          "worked_example": {
+            "id": "C05.01-W1",
+            "task_and_answer": "Enumerate L in {-1,0,1}^3 by fixing L1, then L2, then L3. Nine rows per fixed L1 gives 27 unique rows."
+          },
+          "guided_practice": {
+            "id": "C05.01-P1",
+            "task_and_answer": "Enumerate the nine rows with L1=0. Classify full registry by nonzero-coordinate count: 0->1, 1->6, 2->12, 3->8."
+          },
+          "diagnostic": {
+            "id": "C05.01-D1",
+            "task_and_answer": "Explain why 3+3+3 is not the count and verify 1+6+12+8=27."
+          },
+          "pacing_minutes": {
+            "explain_and_work": 20,
+            "guided_practice": 15,
+            "diagnostics_and_feedback": 15,
+            "transition": 5
+          },
+          "production_rule": "Expand this anchor diagnostic to 3\u20135 diagnostic checks; teach all operations before use. Split the lesson if these activities exceed 55 minutes."
+        },
+        {
+          "lesson_id": "lesson-02",
+          "concept_id": "C05.02",
+          "bridge_to_teach": "Distinguish node label L, half-address L/2, physical position, and half-open cell owner. Boundary nodes need not belong to the origin cell.",
+          "worked_example": {
+            "id": "C05.02-W1",
+            "task_and_answer": "L=(1,-1,1), q=L/2=(1/2,-1/2,1/2), p=O+Bq=(2,-2,5/2)."
+          },
+          "guided_practice": {
+            "id": "C05.02-P1",
+            "task_and_answer": "L=(0,1,-1) gives p=(5/2,0,11/2). L=(0,0,0) gives p=O."
+          },
+          "diagnostic": {
+            "id": "C05.02-D1",
+            "task_and_answer": "L=(1,0,0) gives p=(5/2,-1,4), q1=1/2, cell owner z=(1,0,0), although it is a node of the centered window."
+          },
+          "pacing_minutes": {
+            "explain_and_work": 20,
+            "guided_practice": 15,
+            "diagnostics_and_feedback": 15,
+            "transition": 5
+          },
+          "production_rule": "Expand this anchor diagnostic to 3\u20135 diagnostic checks; teach all operations before use. Split the lesson if these activities exceed 55 minutes."
+        },
+        {
+          "lesson_id": "lesson-03",
+          "concept_id": "C05.03",
+          "bridge_to_teach": "Define lambda as an integer sum. Count by explicit rows before mentioning a generating polynomial; the polynomial is recognition-only.",
+          "worked_example": {
+            "id": "C05.03-W1",
+            "task_and_answer": "Count lambda=-3,-2,-1,0,1,2,3 populations as 1,3,6,7,6,3,1. For lambda=0 list center plus six permutations of (1,0,-1)."
+          },
+          "guided_practice": {
+            "id": "C05.03-P1",
+            "task_and_answer": "For lambda=2 list (1,1,0),(1,0,1),(0,1,1). For lambda=1 list three permutations of (1,0,0) and three of (1,1,-1)."
+          },
+          "diagnostic": {
+            "id": "C05.03-D1",
+            "task_and_answer": "Verify total 27 and mirrored populations; show that L and -L have opposite lambda. With g_lambda=(1,0,-1/3), verify g_lambda dot (p-O)=lambda/2 for L=(1,-1,1)."
+          },
+          "pacing_minutes": {
+            "explain_and_work": 20,
+            "guided_practice": 15,
+            "diagnostics_and_feedback": 15,
+            "transition": 5
+          },
+          "production_rule": "Expand this anchor diagnostic to 3\u20135 diagnostic checks; teach all operations before use. Split the lesson if these activities exceed 55 minutes."
+        },
+        {
+          "lesson_id": "lesson-04",
+          "concept_id": "C05.04",
+          "bridge_to_teach": "Define even/odd integers including negative integers and chi=(-1)^lambda. Distinguish a parity label from a directed vector sign; no complex exponential is required.",
+          "worked_example": {
+            "id": "C05.04-W1",
+            "task_and_answer": "L=(1,-1,1) has lambda=1, chi=-1; L=(1,1,0) has lambda=2, chi=+1."
+          },
+          "guided_practice": {
+            "id": "C05.04-P1",
+            "task_and_answer": "L=(-1,-1,-1) has lambda=-3 and chi=-1; center has chi=+1. Count chi=+1 rows=13, chi=-1 rows=14."
+          },
+          "diagnostic": {
+            "id": "C05.04-D1",
+            "task_and_answer": "L and -L have equal chi even though lambda and displacement reverse. Explain why chi does not recover orientation."
+          },
+          "pacing_minutes": {
+            "explain_and_work": 20,
+            "guided_practice": 15,
+            "diagnostics_and_feedback": 15,
+            "transition": 5
+          },
+          "production_rule": "Expand this anchor diagnostic to 3\u20135 diagnostic checks; teach all operations before use. Split the lesson if these activities exceed 55 minutes.",
+          "mod_three_bridge": {
+            "worked_id": "C05.04-W2",
+            "practice_id": "C05.04-P2",
+            "diagnostic_id": "C05.04-D2",
+            "introduce": "Define lambda mod3 as its remainder0,1,2, using lambda=3k+r with integer k and0<=r<3. This is different from even/odd parity.",
+            "worked": "lambda=-2 has mod3 class1 and chi=+1; lambda=1 has the same class1 but chi=-1.",
+            "practice": "lambda=-1 has class2, chi=-1; lambda=2 has class2, chi=+1. Count nine nodes in each mod3 class from the seven sheet counts.",
+            "diagnostic": "The seven sheet populations give three mod3 populations9,9,9 but two chi populations13,14. Neither class label nor chi determines directed L. Retain each field separately."
+          }
+        },
+        {
+          "lesson_id": "lesson-05",
+          "concept_id": "C05.05",
+          "bridge_to_teach": "Define an antipodal pair as an equivalence class and choose a canonical representative whose first nonzero component is positive. Store an orientation sign to invert the quotient.",
+          "worked_example": {
+            "id": "C05.05-W1",
+            "task_and_answer": "For L=(-1,0,1), representative v=(1,0,-1), sign s=-1, L=s*v. The 26 nonzero rows give 13 pairs; center is a separate singleton."
+          },
+          "guided_practice": {
+            "id": "C05.05-P1",
+            "task_and_answer": "L=(0,-1,-1) gives v=(0,1,1), s=-1; its partner has s=+1. Reconstruct both physical points and show their sum is 2O."
+          },
+          "diagnostic": {
+            "id": "C05.05-D1",
+            "task_and_answer": "A pair label alone cannot recover directed L. Keep s and treat the center separately; do not assign it two orientations."
+          },
+          "pacing_minutes": {
+            "explain_and_work": 20,
+            "guided_practice": 15,
+            "diagnostics_and_feedback": 15,
+            "transition": 5
+          },
+          "production_rule": "Expand this anchor diagnostic to 3\u20135 diagnostic checks; teach all operations before use. Split the lesson if these activities exceed 55 minutes."
+        },
+        {
+          "lesson_id": "lesson-06",
+          "concept_id": "C05.06",
+          "bridge_to_teach": "Teach registry column meanings and independent checks; retain all 27 rows rather than only totals or paired summaries.",
+          "worked_example": {
+            "id": "C05.06-W1",
+            "task_and_answer": "Build columns L,q,p,lambda,chi,pair representative,orientation sign. For (1,-1,1): q=(1/2,-1/2,1/2), p=(2,-2,5/2), lambda=1, chi=-1, representative=(1,-1,1), sign=+1."
+          },
+          "guided_practice": {
+            "id": "C05.06-P1",
+            "task_and_answer": "For (-1,1,-1): p=(2,0,11/2), lambda=-1, chi=-1, same representative and sign=-1. Reconstruct each row."
+          },
+          "diagnostic": {
+            "id": "C05.06-D1",
+            "task_and_answer": "Check unique L count 27, sheet counts 1,3,6,7,6,3,1, 13 noncentral pairs plus center, and inverse physical mapping for every row."
+          },
+          "pacing_minutes": {
+            "explain_and_work": 20,
+            "guided_practice": 15,
+            "diagnostics_and_feedback": 15,
+            "transition": 5
+          },
+          "production_rule": "Expand this anchor diagnostic to 3\u20135 diagnostic checks; teach all operations before use. Split the lesson if these activities exceed 55 minutes."
+        }
+      ],
+      "capstone_backward_map": [
+        {
+          "step_id": "C05-CAP-01",
+          "operation": "Enumerate all27 unique signed triples; reconcile vertex/edge/face/center counts.",
+          "introduction": "lesson-01",
+          "worked_example_id": "C05.01-W1",
+          "prior_practice_id": "C05.01-P1",
+          "diagnostic_id": "C05.01-D1"
+        },
+        {
+          "step_id": "C05-CAP-02",
+          "operation": "Map every node to a physical point with L/2 and the declared origin; explain one boundary ownership case.",
+          "introduction": "lesson-02",
+          "worked_example_id": "C05.02-W1",
+          "prior_practice_id": "C05.02-P1",
+          "diagnostic_id": "C05.02-D1"
+        },
+        {
+          "step_id": "C05-CAP-03",
+          "operation": "Tabulate seven lambda populations and verify one affine sheet identity.",
+          "introduction": "lesson-03",
+          "worked_example_id": "C05.03-W1",
+          "prior_practice_id": "C05.03-P1",
+          "diagnostic_id": "C05.03-D1"
+        },
+        {
+          "step_id": "C05-CAP-04",
+          "operation": "Compute every chi label and explain why antipodal orientation and chi differ.",
+          "introduction": "lesson-04",
+          "worked_example_id": "C05.04-W1",
+          "prior_practice_id": "C05.04-P1",
+          "diagnostic_id": "C05.04-D1"
+        },
+        {
+          "step_id": "C05-CAP-05",
+          "operation": "Store13 canonical noncentral pairs, orientation sign per row and the separate center; reconstruct directed labels.",
+          "introduction": "lesson-05",
+          "worked_example_id": "C05.05-W1",
+          "prior_practice_id": "C05.05-P1",
+          "diagnostic_id": "C05.05-D1"
+        },
+        {
+          "step_id": "C05-CAP-06",
+          "operation": "Deliver the complete registry and run counts, pair and inverse-mapping checks without deleting rows.",
+          "introduction": "lesson-06",
+          "worked_example_id": "C05.06-W1",
+          "prior_practice_id": "C05.06-P1",
+          "diagnostic_id": "C05.06-D1"
+        },
+        {
+          "step_id": "C05-CAP-07",
+          "operation": "Add a separate mod3 field to the registry and reconcile its9,9,9 counts with seven sheets and two chi classes.",
+          "introduction": "lesson-04",
+          "worked_example_id": "C05.04-W2",
+          "prior_practice_id": "C05.04-P2",
+          "diagnostic_id": "C05.04-D2"
+        }
+      ],
+      "capstone_periods": 2,
+      "core_periods": 6,
+      "core_vs_recognition": "Only the finite operations explicitly taught here are assessed. Infinite inverse limits, complex phase exponentials and general abstract quotient proofs are recognition-only in this strand.",
+      "exit_checks": [
+        "C05-CAP-01",
+        "C05-CAP-02",
+        "C05-CAP-03",
+        "C05-CAP-04",
+        "C05-CAP-05",
+        "C05-CAP-06",
+        "C05-CAP-07"
+      ]
+    },
+    {
+      "course_id": "course-06",
+      "input_contract_path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-06-recursive-k-field-geometry-and-address-histories\\input-contract.json",
+      "input_contract_sha256": "c1e54c05ad17dc21da99f05358699768046e9793f1447041b370d37d49faf928",
+      "application": "Merge as teaching_amendment and replace generic coverage references with IDs below. Keep existing source invariants. Parent project is not edited by this report.",
+      "applied_source_amendments_read": {
+        "SA-06": {
+          "id": "SA-06",
+          "course": 6,
+          "finding": "source_fidelity",
+          "lessons": [
+            "lesson-01",
+            "lesson-02",
+            "lesson-03"
+          ],
+          "merge_action": "append unique requirements to source_audit_contract; attach to named lesson authoring obligations; preserve existing fields",
+          "requirements": [
+            "Name the 27 half-step nodes, 27 complete Cell3 volumes in a Lucas Group and 729 complete volumes in a 9B Supergroup as distinct objects.",
+            "Include a finite count exercise for 27*8^n versus (3*2^n+1)^3; distinguish the 6859 Supergroup half-step points and 55 integer-lambda sheets from volume counts.",
+            "State the domain of 3^g*2^n+1=10 before checking its nonnegative solution; use separate symbols for dyadic depth and ternary address depth."
+          ],
+          "source_references": [
+            "S02#/backbone_sequence/2/typed_finite_objects",
+            "S02#/backbone_sequence/2/recursions",
+            "S02#/supergroup_uniqueness"
+          ],
+          "status": "applied_to_blueprint_by_parent",
+          "prior_application_status": "prepared_not_applied",
+          "applied_at": "2026-11-05T17:02:05.375955+00:00"
+        }
+      },
+      "lesson_required_amendment_ids_read": {
+        "lesson-01": [
+          "SA-06"
+        ],
+        "lesson-02": [
+          "SA-06"
+        ],
+        "lesson-03": [
+          "SA-06"
+        ],
+        "lesson-04": [],
+        "lesson-05": [],
+        "lesson-06": []
+      },
+      "source_amendment_merge_rule": "Preserve every applied source requirement and every lesson attachment. The teaching anchors below add scaffolding; they do not supersede source obligations.",
+      "lessons": [
+        {
+          "lesson_id": "lesson-01",
+          "concept_id": "C06.01",
+          "bridge_to_teach": "Define root, depth, child and parent by a finite rule; distinguish a cell from its vertices. Teach interval subdivision on a number line before 3D counts.",
+          "worked_example": {
+            "id": "C06.01-W1",
+            "task_and_answer": "Synthetic unit interval [0,1): split into [0,1/2),[1/2,1), then four quarter intervals. Child indices j=0..3 at depth2 have parent floor(j/2)."
+          },
+          "guided_practice": {
+            "id": "C06.01-P1",
+            "task_and_answer": "Depth3 child j=5 is [5/8,6/8), parent j=2 at depth2 and parent j=1 at depth1."
+          },
+          "diagnostic": {
+            "id": "C06.01-D1",
+            "task_and_answer": "At depth2 there are 4 interval cells and 5 distinct boundary vertices, not 8. Endpoint 1 is a geometric vertex even though excluded from the half-open interval."
+          },
+          "pacing_minutes": {
+            "explain_and_work": 20,
+            "guided_practice": 15,
+            "diagnostics_and_feedback": 15,
+            "transition": 5
+          },
+          "production_rule": "Expand this anchor diagnostic to 3\u20135 diagnostic checks; teach all operations before use. Split the lesson if these activities exceed 55 minutes.",
+          "typed_count_bridge": {
+            "worked_id": "C06.01-W2",
+            "practice_id": "C06.01-P2",
+            "diagnostic_id": "C06.01-D2",
+            "worked": "A centered window has3 half-step positions per axis, yielding27 nodes. A Lucas Group has3 complete cells per axis, yielding27 VOLUMES and outer basis3B. Draw a1D row with three cell centers and four boundary corners to distinguish nodes and volumes.",
+            "practice": "A9B Supergroup has9 complete cells per axis, hence729 VOLUMES, equivalently27 Groups of27 cells.",
+            "diagnostic": "Classify the numbers27(nodes),27(volumes),729(volumes) by object and unit; matching cardinalities do not identify their objects."
+          }
+        },
+        {
+          "lesson_id": "lesson-02",
+          "concept_id": "C06.02",
+          "bridge_to_teach": "Type two independent depth counters n2 and d3. Teach remainder modulo a positive integer using congruent examples including negatives. Do not identify a halving refinement with a ternary address.",
+          "worked_example": {
+            "id": "C06.02-W1",
+            "task_and_answer": "For a synthetic group root 3B: dyadic n2=0 gives 27 cells, 64 vertices; n2=1 gives 216 cells,343 vertices. Ternary depth d3=1 has 27 address classes; d3=2 has729."
+          },
+          "guided_practice": {
+            "id": "C06.02-P1",
+            "task_and_answer": "One coordinate of A2 is represented by 0..8. Residue 7 reduces to1 modulo3; (-2) modulo3 also gives1. In 3D (7,5,0) maps to(1,2,0)."
+          },
+          "diagnostic": {
+            "id": "C06.02-D1",
+            "task_and_answer": "Equal counts do not identify objects: 27 geometric volumes at n2=0 are not the same typed object as 27 ternary address classes at d3=1."
+          },
+          "pacing_minutes": {
+            "explain_and_work": 20,
+            "guided_practice": 15,
+            "diagnostics_and_feedback": 15,
+            "transition": 5
+          },
+          "production_rule": "Expand this anchor diagnostic to 3\u20135 diagnostic checks; teach all operations before use. Split the lesson if these activities exceed 55 minutes.",
+          "rung_equation_bridge": {
+            "worked_id": "C06.02-W2",
+            "practice_id": "C06.02-P2",
+            "diagnostic_id": "C06.02-D2",
+            "introduce": "For this source equation only, g_rung and n_rung are nonnegative integers. They are not automatically the independently named dyadic depth n2 or ternary address depth d3.",
+            "worked": "3^g_rung*2^n_rung+1=10 becomes3^g_rung*2^n_rung=9. The right side is odd, so n_rung=0. Then3^g_rung=9, so g_rung=2.",
+            "practice": "Bound g_rung<=2 and n_rung<=3 using monotone nonnegative powers, and check the12 candidate pairs; only(2,0) works.",
+            "diagnostic": "State the domain before claiming uniqueness; identify how the resulting outer9B count729 differs from ternary residue cardinality27^2, despite their equal numbers."
+          }
+        },
+        {
+          "lesson_id": "lesson-03",
+          "concept_id": "C06.03",
+          "bridge_to_teach": "Derive shared-boundary counts from vertices along each axis, and length/area/volume scaling from products. State which root stays fixed.",
+          "worked_example": {
+            "id": "C06.03-W1",
+            "task_and_answer": "For fixed outer 3B, each depth-n2 subcell has basis 2^-n2 B; cells=27*8^n2 and merged corner vertices=(3*2^n2+1)^3. At n2=2:1728 cells,2197 vertices."
+          },
+          "guided_practice": {
+            "id": "C06.03-P1",
+            "task_and_answer": "From n2=1 to2, subcell length halves, face area quarters, volume divides by8; total occupied volume stays27*|det B|=162 synthetic length^3."
+          },
+          "diagnostic": {
+            "id": "C06.03-D1",
+            "task_and_answer": "At n2=1, 216*8=1728 counts cell-vertex incidences, not the343 distinct vertices. Explain shared vertices. Do not confuse B_(p,n)=3^p*2^-n B with the fixed outer group boundary."
+          },
+          "pacing_minutes": {
+            "explain_and_work": 20,
+            "guided_practice": 15,
+            "diagnostics_and_feedback": 15,
+            "transition": 5
+          },
+          "production_rule": "Expand this anchor diagnostic to 3\u20135 diagnostic checks; teach all operations before use. Split the lesson if these activities exceed 55 minutes.",
+          "supergroup_halfstep_bridge": {
+            "worked_id": "C06.03-W2",
+            "practice_id": "C06.03-P2",
+            "diagnostic_id": "C06.03-D2",
+            "introduce": "An inclusive integer range from -m to m contains2m+1 values. Count a one-dimensional grid before taking its3D product. These are geometry half-step samples, not dyadic corner counts.",
+            "worked": "A centered9B span has19 half-step positions per axis, labeled-9..9, giving19^3=6859 points. Integer lambda=i+j+k ranges from-27 to27, giving55 possible sheets. Every intermediate sum is attained: use one coordinate up to9, then a second, then a third; mirror for negative sums.",
+            "practice": "The smaller3B span has labels-3..3, giving7^3=343 half-step points and lambda=-9..9, giving19 sheets; its complete-volume count is27.",
+            "diagnostic": "For9B distinguish729 volumes,1000 ordinary boundary corners,6859 half-step points and55 sheets. State the sampling grid whenever quoting a count.",
+            "pacing": "Use two55-minute periods for lesson-03: first dyadic shared-boundary/scaling counts, second half-step counts and sheet range. Preserve both practice/check sets."
+          },
+          "planned_periods": 2
+        },
+        {
+          "lesson_id": "lesson-04",
+          "concept_id": "C06.04",
+          "bridge_to_teach": "Teach balanced ternary by place values 1,3,9. Store depth and list digits least-significant first to make the parent operation unambiguous.",
+          "worked_example": {
+            "id": "C06.04-W1",
+            "task_and_answer": "Digits (epsilon0,epsilon1,epsilon2)=(-1,0,1) represent8. Modulo27 that is class8; its depth2 reduction is class8 modulo9, represented by balanced digits(-1,0) with integer representative-1."
+          },
+          "guided_practice": {
+            "id": "C06.04-P1",
+            "task_and_answer": "Integer5 has digits(-1,-1,1), since -1-3+9=5. At depth2 its balanced representative is-4, congruent to5 modulo9; at depth1 representative-1 is congruent to2 modulo3."
+          },
+          "diagnostic": {
+            "id": "C06.04-D1",
+            "task_and_answer": "The same residue can have different integer representatives. Recover a finite integer only when digit list and depth are retained; a reduced residue alone loses the high digit."
+          },
+          "pacing_minutes": {
+            "explain_and_work": 20,
+            "guided_practice": 15,
+            "diagnostics_and_feedback": 15,
+            "transition": 5
+          },
+          "production_rule": "Expand this anchor diagnostic to 3\u20135 diagnostic checks; teach all operations before use. Split the lesson if these activities exceed 55 minutes."
+        },
+        {
+          "lesson_id": "lesson-05",
+          "concept_id": "C06.05",
+          "bridge_to_teach": "Teach compatibility as reduction modulo3^d, not removing the low-order digit. Distinguish integer rendering from modular class and retain signed digits.",
+          "worked_example": {
+            "id": "C06.05-W1",
+            "task_and_answer": "Depth3 class8 reduces to depth2 class8 then depth1 class2. Balanced representatives are8,-1,-1. These are compatible because consecutive differences are multiples of9 and3."
+          },
+          "guided_practice": {
+            "id": "C06.05-P1",
+            "task_and_answer": "Depth3 class5 reduces to depth2 class5 then depth1 class2; balanced representatives5,-4,-1. Check differences9 and-3."
+          },
+          "diagnostic": {
+            "id": "C06.05-D1",
+            "task_and_answer": "Dropping epsilon0 from(-1,0,1) and shifting places gives3, not the depth2 parent class8. Keep the low digits and discard only the highest digit when reducing depth."
+          },
+          "pacing_minutes": {
+            "explain_and_work": 20,
+            "guided_practice": 15,
+            "diagnostics_and_feedback": 15,
+            "transition": 5
+          },
+          "production_rule": "Expand this anchor diagnostic to 3\u20135 diagnostic checks; teach all operations before use. Split the lesson if these activities exceed 55 minutes."
+        },
+        {
+          "lesson_id": "lesson-06",
+          "concept_id": "C06.06",
+          "bridge_to_teach": "Teach a lossless record as coarse coordinate plus retained detail and reconstruction rule; no infinite limits or calculus are assessed here.",
+          "worked_example": {
+            "id": "C06.06-W1",
+            "task_and_answer": "For dyadic depth3 j=5 retain parent k=2 and child bit b=1; recover j=2k+b. For ternary integer8 retain low-depth representative-1 and high digit+1; recover8=-1+9."
+          },
+          "guided_practice": {
+            "id": "C06.06-P1",
+            "task_and_answer": "For dyadic j=6 retain k=3,b=0. For ternary integer5 retain low-depth representative-4 and high digit+1; recover5=-4+9."
+          },
+          "diagnostic": {
+            "id": "C06.06-D1",
+            "task_and_answer": "Coarse fields alone are non-invertible. Reconstruct all original digits/indices, depth and rule type; retain zero details as data. Never apply a binary child rule to ternary residue history."
+          },
+          "pacing_minutes": {
+            "explain_and_work": 20,
+            "guided_practice": 15,
+            "diagnostics_and_feedback": 15,
+            "transition": 5
+          },
+          "production_rule": "Expand this anchor diagnostic to 3\u20135 diagnostic checks; teach all operations before use. Split the lesson if these activities exceed 55 minutes."
+        }
+      ],
+      "capstone_backward_map": [
+        {
+          "step_id": "C06-CAP-01",
+          "operation": "Draw a binary interval tree through depth3, with half-open intervals, indices and parents.",
+          "introduction": "lesson-01",
+          "worked_example_id": "C06.01-W1",
+          "prior_practice_id": "C06.01-P1",
+          "diagnostic_id": "C06.01-D1"
+        },
+        {
+          "step_id": "C06-CAP-02",
+          "operation": "Build a ternary residue tree through depth2 for one coordinate and state the 3D product counts; label depth types.",
+          "introduction": "lesson-02",
+          "worked_example_id": "C06.02-W1",
+          "prior_practice_id": "C06.02-P1",
+          "diagnostic_id": "C06.02-D1"
+        },
+        {
+          "step_id": "C06-CAP-03",
+          "operation": "Compute group cell/vertex counts through dyadic depth2 and length/area/volume scale factors.",
+          "introduction": "lesson-03",
+          "worked_example_id": "C06.03-W1",
+          "prior_practice_id": "C06.03-P1",
+          "diagnostic_id": "C06.03-D1"
+        },
+        {
+          "step_id": "C06-CAP-04",
+          "operation": "Encode supplied integers5 and8 in three balanced digits, retaining depth and low-to-high digit order.",
+          "introduction": "lesson-04",
+          "worked_example_id": "C06.04-W1",
+          "prior_practice_id": "C06.04-P1",
+          "diagnostic_id": "C06.04-D1"
+        },
+        {
+          "step_id": "C06-CAP-05",
+          "operation": "Verify modular compatibility of their depth3,2,1 histories and contrast it with binary parent mapping.",
+          "introduction": "lesson-05",
+          "worked_example_id": "C06.05-W1",
+          "prior_practice_id": "C06.05-P1",
+          "diagnostic_id": "C06.05-D1"
+        },
+        {
+          "step_id": "C06-CAP-06",
+          "operation": "Recover each original index/word from coarse record plus retained bit/digit; explain lost information if detail is omitted.",
+          "introduction": "lesson-06",
+          "worked_example_id": "C06.06-W1",
+          "prior_practice_id": "C06.06-P1",
+          "diagnostic_id": "C06.06-D1"
+        },
+        {
+          "step_id": "C06-CAP-07",
+          "operation": "Distinguish27 window nodes,27 Group volumes and729 Supergroup volumes.",
+          "introduction": "lesson-01",
+          "worked_example_id": "C06.01-W2",
+          "prior_practice_id": "C06.01-P2",
+          "diagnostic_id": "C06.01-D2"
+        },
+        {
+          "step_id": "C06-CAP-08",
+          "operation": "State nonnegative integer domain and verify the unique rung pair(2,0).",
+          "introduction": "lesson-02",
+          "worked_example_id": "C06.02-W2",
+          "prior_practice_id": "C06.02-P2",
+          "diagnostic_id": "C06.02-D2"
+        },
+        {
+          "step_id": "C06-CAP-09",
+          "operation": "Derive6859 half-step points and55 reachable lambda sheets without conflating volumes or boundary vertices.",
+          "introduction": "lesson-03",
+          "worked_example_id": "C06.03-W2",
+          "prior_practice_id": "C06.03-P2",
+          "diagnostic_id": "C06.03-D2"
+        }
+      ],
+      "capstone_periods": 2,
+      "core_periods": 7,
+      "core_vs_recognition": "Only the finite operations explicitly taught here are assessed. Infinite inverse limits, complex phase exponentials and general abstract quotient proofs are recognition-only in this strand.",
+      "exit_checks": [
+        "C06-CAP-01",
+        "C06-CAP-02",
+        "C06-CAP-03",
+        "C06-CAP-04",
+        "C06-CAP-05",
+        "C06-CAP-06",
+        "C06-CAP-07",
+        "C06-CAP-08",
+        "C06-CAP-09"
+      ]
+    }
+  ],
+  "independent_verification": {
+    "runtime": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+    "method": "Fresh exact Fraction calculations, explicit enumeration and exhaustive low-depth roundtrips; not copied answer outputs.",
+    "checks": [
+      {
+        "id": "04-affine-W",
+        "actual": "(Fraction(2, 1), Fraction(-2, 1), Fraction(1, 1))",
+        "expected": "(2, -2, 1)",
+        "passed": true
+      },
+      {
+        "id": "04-affine-P",
+        "actual": "(Fraction(3, 1), Fraction(-1, 1), Fraction(7, 1))",
+        "expected": "(3, -1, 7)",
+        "passed": true
+      },
+      {
+        "id": "04-owner-W",
+        "actual": "((1, 0, 2), (Fraction(-1, 2), Fraction(-1, 2), Fraction(-1, 2)))",
+        "expected": "((1, 0, 2), (Fraction(-1, 2), Fraction(-1, 2), Fraction(-1, 2)))",
+        "passed": true
+      },
+      {
+        "id": "04-owner-P",
+        "actual": "((-1, 0, 1), (Fraction(-1, 2), Fraction(49, 100), Fraction(-49, 100)))",
+        "expected": "((-1, 0, 1), (Fraction(-1, 2), Fraction(49, 100), Fraction(-49, 100)))",
+        "passed": true
+      },
+      {
+        "id": "04-reconstruction-P",
+        "actual": "(Fraction(99, 100), Fraction(-1, 50), Fraction(247, 100))",
+        "expected": "(Fraction(99, 100), Fraction(-1, 50), Fraction(247, 100))",
+        "passed": true
+      },
+      {
+        "id": "04-boundary",
+        "actual": "[0, 1]",
+        "expected": "[0, 1]",
+        "passed": true
+      },
+      {
+        "id": "04-reciprocal-pairings",
+        "actual": "[[Fraction(1, 1), Fraction(0, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(1, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(0, 1), Fraction(1, 1)]]",
+        "expected": "[[1, 0, 0], [0, 1, 0], [0, 0, 1]]",
+        "passed": true
+      },
+      {
+        "id": "04-g-norm-squared",
+        "actual": "5/4",
+        "expected": "5/4",
+        "passed": true
+      },
+      {
+        "id": "04-cross-terms",
+        "actual": "8",
+        "expected": "8",
+        "passed": true
+      },
+      {
+        "id": "04-reconstruction-W",
+        "actual": "(Fraction(2, 1), Fraction(-2, 1), Fraction(-1, 2))",
+        "expected": "(2, -2, Fraction(-1, 2))",
+        "passed": true
+      },
+      {
+        "id": "05-nodes",
+        "actual": "27",
+        "expected": "27",
+        "passed": true
+      },
+      {
+        "id": "05-node-types",
+        "actual": "[1, 6, 12, 8]",
+        "expected": "[1, 6, 12, 8]",
+        "passed": true
+      },
+      {
+        "id": "05-sheets",
+        "actual": "[1, 3, 6, 7, 6, 3, 1]",
+        "expected": "[1, 3, 6, 7, 6, 3, 1]",
+        "passed": true
+      },
+      {
+        "id": "05-parity",
+        "actual": "[13, 14]",
+        "expected": "[13, 14]",
+        "passed": true
+      },
+      {
+        "id": "05-mod3-classes",
+        "actual": "[9, 9, 9]",
+        "expected": "[9, 9, 9]",
+        "passed": true
+      },
+      {
+        "id": "05-point-W",
+        "actual": "(Fraction(2, 1), Fraction(-2, 1), Fraction(5, 2))",
+        "expected": "(2, -2, Fraction(5, 2))",
+        "passed": true
+      },
+      {
+        "id": "05-point-P",
+        "actual": "(Fraction(5, 2), Fraction(0, 1), Fraction(11, 2))",
+        "expected": "(Fraction(5, 2), 0, Fraction(11, 2))",
+        "passed": true
+      },
+      {
+        "id": "05-antipode",
+        "actual": "(Fraction(2, 1), Fraction(0, 1), Fraction(11, 2))",
+        "expected": "(2, 0, Fraction(11, 2))",
+        "passed": true
+      },
+      {
+        "id": "05-roundtrip-(-1, -1, -1)",
+        "actual": "(-1, -1, -1)",
+        "expected": "(-1, -1, -1)",
+        "passed": true
+      },
+      {
+        "id": "05-affine-lambda-(-1, -1, -1)",
+        "actual": "-3/2",
+        "expected": "-3/2",
+        "passed": true
+      },
+      {
+        "id": "05-roundtrip-(-1, -1, 0)",
+        "actual": "(-1, -1, 0)",
+        "expected": "(-1, -1, 0)",
+        "passed": true
+      },
+      {
+        "id": "05-affine-lambda-(-1, -1, 0)",
+        "actual": "-1",
+        "expected": "-1",
+        "passed": true
+      },
+      {
+        "id": "05-roundtrip-(-1, -1, 1)",
+        "actual": "(-1, -1, 1)",
+        "expected": "(-1, -1, 1)",
+        "passed": true
+      },
+      {
+        "id": "05-affine-lambda-(-1, -1, 1)",
+        "actual": "-1/2",
+        "expected": "-1/2",
+        "passed": true
+      },
+      {
+        "id": "05-roundtrip-(-1, 0, -1)",
+        "actual": "(-1, 0, -1)",
+        "expected": "(-1, 0, -1)",
+        "passed": true
+      },
+      {
+        "id": "05-affine-lambda-(-1, 0, -1)",
+        "actual": "-1",
+        "expected": "-1",
+        "passed": true
+      },
+      {
+        "id": "05-roundtrip-(-1, 0, 0)",
+        "actual": "(-1, 0, 0)",
+        "expected": "(-1, 0, 0)",
+        "passed": true
+      },
+      {
+        "id": "05-affine-lambda-(-1, 0, 0)",
+        "actual": "-1/2",
+        "expected": "-1/2",
+        "passed": true
+      },
+      {
+        "id": "05-roundtrip-(-1, 0, 1)",
+        "actual": "(-1, 0, 1)",
+        "expected": "(-1, 0, 1)",
+        "passed": true
+      },
+      {
+        "id": "05-affine-lambda-(-1, 0, 1)",
+        "actual": "0",
+        "expected": "0",
+        "passed": true
+      },
+      {
+        "id": "05-roundtrip-(-1, 1, -1)",
+        "actual": "(-1, 1, -1)",
+        "expected": "(-1, 1, -1)",
+        "passed": true
+      },
+      {
+        "id": "05-affine-lambda-(-1, 1, -1)",
+        "actual": "-1/2",
+        "expected": "-1/2",
+        "passed": true
+      },
+      {
+        "id": "05-roundtrip-(-1, 1, 0)",
+        "actual": "(-1, 1, 0)",
+        "expected": "(-1, 1, 0)",
+        "passed": true
+      },
+      {
+        "id": "05-affine-lambda-(-1, 1, 0)",
+        "actual": "0",
+        "expected": "0",
+        "passed": true
+      },
+      {
+        "id": "05-roundtrip-(-1, 1, 1)",
+        "actual": "(-1, 1, 1)",
+        "expected": "(-1, 1, 1)",
+        "passed": true
+      },
+      {
+        "id": "05-affine-lambda-(-1, 1, 1)",
+        "actual": "1/2",
+        "expected": "1/2",
+        "passed": true
+      },
+      {
+        "id": "05-roundtrip-(0, -1, -1)",
+        "actual": "(0, -1, -1)",
+        "expected": "(0, -1, -1)",
+        "passed": true
+      },
+      {
+        "id": "05-affine-lambda-(0, -1, -1)",
+        "actual": "-1",
+        "expected": "-1",
+        "passed": true
+      },
+      {
+        "id": "05-roundtrip-(0, -1, 0)",
+        "actual": "(0, -1, 0)",
+        "expected": "(0, -1, 0)",
+        "passed": true
+      },
+      {
+        "id": "05-affine-lambda-(0, -1, 0)",
+        "actual": "-1/2",
+        "expected": "-1/2",
+        "passed": true
+      },
+      {
+        "id": "05-roundtrip-(0, -1, 1)",
+        "actual": "(0, -1, 1)",
+        "expected": "(0, -1, 1)",
+        "passed": true
+      },
+      {
+        "id": "05-affine-lambda-(0, -1, 1)",
+        "actual": "0",
+        "expected": "0",
+        "passed": true
+      },
+      {
+        "id": "05-roundtrip-(0, 0, -1)",
+        "actual": "(0, 0, -1)",
+        "expected": "(0, 0, -1)",
+        "passed": true
+      },
+      {
+        "id": "05-affine-lambda-(0, 0, -1)",
+        "actual": "-1/2",
+        "expected": "-1/2",
+        "passed": true
+      },
+      {
+        "id": "05-roundtrip-(0, 0, 1)",
+        "actual": "(0, 0, 1)",
+        "expected": "(0, 0, 1)",
+        "passed": true
+      },
+      {
+        "id": "05-affine-lambda-(0, 0, 1)",
+        "actual": "1/2",
+        "expected": "1/2",
+        "passed": true
+      },
+      {
+        "id": "05-roundtrip-(0, 1, -1)",
+        "actual": "(0, 1, -1)",
+        "expected": "(0, 1, -1)",
+        "passed": true
+      },
+      {
+        "id": "05-affine-lambda-(0, 1, -1)",
+        "actual": "0",
+        "expected": "0",
+        "passed": true
+      },
+      {
+        "id": "05-roundtrip-(0, 1, 0)",
+        "actual": "(0, 1, 0)",
+        "expected": "(0, 1, 0)",
+        "passed": true
+      },
+      {
+        "id": "05-affine-lambda-(0, 1, 0)",
+        "actual": "1/2",
+        "expected": "1/2",
+        "passed": true
+      },
+      {
+        "id": "05-roundtrip-(0, 1, 1)",
+        "actual": "(0, 1, 1)",
+        "expected": "(0, 1, 1)",
+        "passed": true
+      },
+      {
+        "id": "05-affine-lambda-(0, 1, 1)",
+        "actual": "1",
+        "expected": "1",
+        "passed": true
+      },
+      {
+        "id": "05-roundtrip-(1, -1, -1)",
+        "actual": "(1, -1, -1)",
+        "expected": "(1, -1, -1)",
+        "passed": true
+      },
+      {
+        "id": "05-affine-lambda-(1, -1, -1)",
+        "actual": "-1/2",
+        "expected": "-1/2",
+        "passed": true
+      },
+      {
+        "id": "05-roundtrip-(1, -1, 0)",
+        "actual": "(1, -1, 0)",
+        "expected": "(1, -1, 0)",
+        "passed": true
+      },
+      {
+        "id": "05-affine-lambda-(1, -1, 0)",
+        "actual": "0",
+        "expected": "0",
+        "passed": true
+      },
+      {
+        "id": "05-roundtrip-(1, -1, 1)",
+        "actual": "(1, -1, 1)",
+        "expected": "(1, -1, 1)",
+        "passed": true
+      },
+      {
+        "id": "05-affine-lambda-(1, -1, 1)",
+        "actual": "1/2",
+        "expected": "1/2",
+        "passed": true
+      },
+      {
+        "id": "05-roundtrip-(1, 0, -1)",
+        "actual": "(1, 0, -1)",
+        "expected": "(1, 0, -1)",
+        "passed": true
+      },
+      {
+        "id": "05-affine-lambda-(1, 0, -1)",
+        "actual": "0",
+        "expected": "0",
+        "passed": true
+      },
+      {
+        "id": "05-roundtrip-(1, 0, 0)",
+        "actual": "(1, 0, 0)",
+        "expected": "(1, 0, 0)",
+        "passed": true
+      },
+      {
+        "id": "05-affine-lambda-(1, 0, 0)",
+        "actual": "1/2",
+        "expected": "1/2",
+        "passed": true
+      },
+      {
+        "id": "05-roundtrip-(1, 0, 1)",
+        "actual": "(1, 0, 1)",
+        "expected": "(1, 0, 1)",
+        "passed": true
+      },
+      {
+        "id": "05-affine-lambda-(1, 0, 1)",
+        "actual": "1",
+        "expected": "1",
+        "passed": true
+      },
+      {
+        "id": "05-roundtrip-(1, 1, -1)",
+        "actual": "(1, 1, -1)",
+        "expected": "(1, 1, -1)",
+        "passed": true
+      },
+      {
+        "id": "05-affine-lambda-(1, 1, -1)",
+        "actual": "1/2",
+        "expected": "1/2",
+        "passed": true
+      },
+      {
+        "id": "05-roundtrip-(1, 1, 0)",
+        "actual": "(1, 1, 0)",
+        "expected": "(1, 1, 0)",
+        "passed": true
+      },
+      {
+        "id": "05-affine-lambda-(1, 1, 0)",
+        "actual": "1",
+        "expected": "1",
+        "passed": true
+      },
+      {
+        "id": "05-roundtrip-(1, 1, 1)",
+        "actual": "(1, 1, 1)",
+        "expected": "(1, 1, 1)",
+        "passed": true
+      },
+      {
+        "id": "05-affine-lambda-(1, 1, 1)",
+        "actual": "3/2",
+        "expected": "3/2",
+        "passed": true
+      },
+      {
+        "id": "05-pairs",
+        "actual": "13",
+        "expected": "13",
+        "passed": true
+      },
+      {
+        "id": "06-dyadic-counts",
+        "actual": "[(27, 64), (216, 343), (1728, 2197)]",
+        "expected": "[(27, 64), (216, 343), (1728, 2197)]",
+        "passed": true
+      },
+      {
+        "id": "06-ternary-counts",
+        "actual": "[27, 729]",
+        "expected": "[27, 729]",
+        "passed": true
+      },
+      {
+        "id": "06-volume",
+        "actual": "162",
+        "expected": "162",
+        "passed": true
+      },
+      {
+        "id": "06-place-value",
+        "actual": "[8, 5]",
+        "expected": "[8, 5]",
+        "passed": true
+      },
+      {
+        "id": "06-parent",
+        "actual": "[(8, 8, 2), (5, 5, 2)]",
+        "expected": "[(8, 8, 2), (5, 5, 2)]",
+        "passed": true
+      },
+      {
+        "id": "06-binary-roundtrip",
+        "actual": "[0, 1, 2, 3, 4, 5, 6, 7]",
+        "expected": "[0, 1, 2, 3, 4, 5, 6, 7]",
+        "passed": true
+      },
+      {
+        "id": "06-rung-solution",
+        "actual": "[(2, 0)]",
+        "expected": "[(2, 0)]",
+        "passed": true
+      },
+      {
+        "id": "06-typed-supergroup-counts",
+        "actual": "(729, 1000, 6859, 55)",
+        "expected": "(729, 1000, 6859, 55)",
+        "passed": true
+      },
+      {
+        "id": "06-sheet-reachability",
+        "actual": "[-27, -26, -25, -24, -23, -22, -21, -20, -19, -18, -17, -16, -15, -14, -13, -12, -11, -10, -9, -8, -7, -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27]",
+        "expected": "[-27, -26, -25, -24, -23, -22, -21, -20, -19, -18, -17, -16, -15, -14, -13, -12, -11, -10, -9, -8, -7, -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27]",
+        "passed": true
+      },
+      {
+        "id": "06-smaller-halfstep",
+        "actual": "(343, 19)",
+        "expected": "(343, 19)",
+        "passed": true
+      },
+      {
+        "id": "06-ternary-roundtrip-(-1, -1, -1)",
+        "actual": "-13",
+        "expected": "-13",
+        "passed": true
+      },
+      {
+        "id": "06-reduction-(-1, -1, -1)",
+        "actual": "5",
+        "expected": "5",
+        "passed": true
+      },
+      {
+        "id": "06-ternary-roundtrip-(-1, -1, 0)",
+        "actual": "-4",
+        "expected": "-4",
+        "passed": true
+      },
+      {
+        "id": "06-reduction-(-1, -1, 0)",
+        "actual": "5",
+        "expected": "5",
+        "passed": true
+      },
+      {
+        "id": "06-ternary-roundtrip-(-1, -1, 1)",
+        "actual": "5",
+        "expected": "5",
+        "passed": true
+      },
+      {
+        "id": "06-reduction-(-1, -1, 1)",
+        "actual": "5",
+        "expected": "5",
+        "passed": true
+      },
+      {
+        "id": "06-ternary-roundtrip-(-1, 0, -1)",
+        "actual": "-10",
+        "expected": "-10",
+        "passed": true
+      },
+      {
+        "id": "06-reduction-(-1, 0, -1)",
+        "actual": "8",
+        "expected": "8",
+        "passed": true
+      },
+      {
+        "id": "06-ternary-roundtrip-(-1, 0, 0)",
+        "actual": "-1",
+        "expected": "-1",
+        "passed": true
+      },
+      {
+        "id": "06-reduction-(-1, 0, 0)",
+        "actual": "8",
+        "expected": "8",
+        "passed": true
+      },
+      {
+        "id": "06-ternary-roundtrip-(-1, 0, 1)",
+        "actual": "8",
+        "expected": "8",
+        "passed": true
+      },
+      {
+        "id": "06-reduction-(-1, 0, 1)",
+        "actual": "8",
+        "expected": "8",
+        "passed": true
+      },
+      {
+        "id": "06-ternary-roundtrip-(-1, 1, -1)",
+        "actual": "-7",
+        "expected": "-7",
+        "passed": true
+      },
+      {
+        "id": "06-reduction-(-1, 1, -1)",
+        "actual": "2",
+        "expected": "2",
+        "passed": true
+      },
+      {
+        "id": "06-ternary-roundtrip-(-1, 1, 0)",
+        "actual": "2",
+        "expected": "2",
+        "passed": true
+      },
+      {
+        "id": "06-reduction-(-1, 1, 0)",
+        "actual": "2",
+        "expected": "2",
+        "passed": true
+      },
+      {
+        "id": "06-ternary-roundtrip-(-1, 1, 1)",
+        "actual": "11",
+        "expected": "11",
+        "passed": true
+      },
+      {
+        "id": "06-reduction-(-1, 1, 1)",
+        "actual": "2",
+        "expected": "2",
+        "passed": true
+      },
+      {
+        "id": "06-ternary-roundtrip-(0, -1, -1)",
+        "actual": "-12",
+        "expected": "-12",
+        "passed": true
+      },
+      {
+        "id": "06-reduction-(0, -1, -1)",
+        "actual": "6",
+        "expected": "6",
+        "passed": true
+      },
+      {
+        "id": "06-ternary-roundtrip-(0, -1, 0)",
+        "actual": "-3",
+        "expected": "-3",
+        "passed": true
+      },
+      {
+        "id": "06-reduction-(0, -1, 0)",
+        "actual": "6",
+        "expected": "6",
+        "passed": true
+      },
+      {
+        "id": "06-ternary-roundtrip-(0, -1, 1)",
+        "actual": "6",
+        "expected": "6",
+        "passed": true
+      },
+      {
+        "id": "06-reduction-(0, -1, 1)",
+        "actual": "6",
+        "expected": "6",
+        "passed": true
+      },
+      {
+        "id": "06-ternary-roundtrip-(0, 0, -1)",
+        "actual": "-9",
+        "expected": "-9",
+        "passed": true
+      },
+      {
+        "id": "06-reduction-(0, 0, -1)",
+        "actual": "0",
+        "expected": "0",
+        "passed": true
+      },
+      {
+        "id": "06-ternary-roundtrip-(0, 0, 0)",
+        "actual": "0",
+        "expected": "0",
+        "passed": true
+      },
+      {
+        "id": "06-reduction-(0, 0, 0)",
+        "actual": "0",
+        "expected": "0",
+        "passed": true
+      },
+      {
+        "id": "06-ternary-roundtrip-(0, 0, 1)",
+        "actual": "9",
+        "expected": "9",
+        "passed": true
+      },
+      {
+        "id": "06-reduction-(0, 0, 1)",
+        "actual": "0",
+        "expected": "0",
+        "passed": true
+      },
+      {
+        "id": "06-ternary-roundtrip-(0, 1, -1)",
+        "actual": "-6",
+        "expected": "-6",
+        "passed": true
+      },
+      {
+        "id": "06-reduction-(0, 1, -1)",
+        "actual": "3",
+        "expected": "3",
+        "passed": true
+      },
+      {
+        "id": "06-ternary-roundtrip-(0, 1, 0)",
+        "actual": "3",
+        "expected": "3",
+        "passed": true
+      },
+      {
+        "id": "06-reduction-(0, 1, 0)",
+        "actual": "3",
+        "expected": "3",
+        "passed": true
+      },
+      {
+        "id": "06-ternary-roundtrip-(0, 1, 1)",
+        "actual": "12",
+        "expected": "12",
+        "passed": true
+      },
+      {
+        "id": "06-reduction-(0, 1, 1)",
+        "actual": "3",
+        "expected": "3",
+        "passed": true
+      },
+      {
+        "id": "06-ternary-roundtrip-(1, -1, -1)",
+        "actual": "-11",
+        "expected": "-11",
+        "passed": true
+      },
+      {
+        "id": "06-reduction-(1, -1, -1)",
+        "actual": "7",
+        "expected": "7",
+        "passed": true
+      },
+      {
+        "id": "06-ternary-roundtrip-(1, -1, 0)",
+        "actual": "-2",
+        "expected": "-2",
+        "passed": true
+      },
+      {
+        "id": "06-reduction-(1, -1, 0)",
+        "actual": "7",
+        "expected": "7",
+        "passed": true
+      },
+      {
+        "id": "06-ternary-roundtrip-(1, -1, 1)",
+        "actual": "7",
+        "expected": "7",
+        "passed": true
+      },
+      {
+        "id": "06-reduction-(1, -1, 1)",
+        "actual": "7",
+        "expected": "7",
+        "passed": true
+      },
+      {
+        "id": "06-ternary-roundtrip-(1, 0, -1)",
+        "actual": "-8",
+        "expected": "-8",
+        "passed": true
+      },
+      {
+        "id": "06-reduction-(1, 0, -1)",
+        "actual": "1",
+        "expected": "1",
+        "passed": true
+      },
+      {
+        "id": "06-ternary-roundtrip-(1, 0, 0)",
+        "actual": "1",
+        "expected": "1",
+        "passed": true
+      },
+      {
+        "id": "06-reduction-(1, 0, 0)",
+        "actual": "1",
+        "expected": "1",
+        "passed": true
+      },
+      {
+        "id": "06-ternary-roundtrip-(1, 0, 1)",
+        "actual": "10",
+        "expected": "10",
+        "passed": true
+      },
+      {
+        "id": "06-reduction-(1, 0, 1)",
+        "actual": "1",
+        "expected": "1",
+        "passed": true
+      },
+      {
+        "id": "06-ternary-roundtrip-(1, 1, -1)",
+        "actual": "-5",
+        "expected": "-5",
+        "passed": true
+      },
+      {
+        "id": "06-reduction-(1, 1, -1)",
+        "actual": "4",
+        "expected": "4",
+        "passed": true
+      },
+      {
+        "id": "06-ternary-roundtrip-(1, 1, 0)",
+        "actual": "4",
+        "expected": "4",
+        "passed": true
+      },
+      {
+        "id": "06-reduction-(1, 1, 0)",
+        "actual": "4",
+        "expected": "4",
+        "passed": true
+      },
+      {
+        "id": "06-ternary-roundtrip-(1, 1, 1)",
+        "actual": "13",
+        "expected": "13",
+        "passed": true
+      },
+      {
+        "id": "06-reduction-(1, 1, 1)",
+        "actual": "4",
+        "expected": "4",
+        "passed": true
+      }
+    ],
+    "all_passed": true
+  }
+}

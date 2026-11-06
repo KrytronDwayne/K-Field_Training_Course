@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0",
+  "status": "complete",
+  "topic": "Action, Topology, and Phase Closure",
+  "audience": "High-school seniors; first-principles teaching, with concrete prerequisite capabilities and taught bridges.",
+  "assumptions": [
+    "A topical short course, not a semester per topic. Pacing is 55-minute core lessons plus capstone periods; split dense lessons if actual learner load requires it.",
+    "No prior calculus, abstract algebra, university linear algebra, or quantum mechanics unless explicitly taught earlier.",
+    "Required core assessments must be solvable with taught finite examples. Clearly label deeper recognition-only extensions.",
+    "Markdown is the delivery format; no PDF or Word generation is required.",
+    "All finite numerical packets, AU/TU units and two-sector domains are synthetic teaching declarations.",
+    "Source missing replay objects remain source-reported gaps; full source action and global closure are not assigned computations.",
+    "User authorized the project output directory instead of Desktop; seven lessons retain nine core periods plus three capstone periods."
+  ],
+  "outputs": [
+    "course-map.md",
+    "lesson-01.md",
+    "lesson-02.md",
+    "lesson-03.md",
+    "lesson-04.md",
+    "lesson-05.md",
+    "lesson-06.md",
+    "lesson-07.md",
+    "terminology.md",
+    "teacher-guide.md",
+    "capstone.md",
+    "sources.md",
+    "input-contract.json",
+    "launch-prompt.md",
+    "verify_examples.py",
+    "worked-example-verification.json",
+    "build_course.py",
+    "finalize_course.py",
+    "independent-audit.json",
+    "course.md",
+    "audit_report.json",
+    "completion_report.json"
+  ],
+  "audit_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "hashes": {
+    "course-map.md": "8d15a629bf0eb3bfecf2ebd6317ae7479350110d115dd08d8de2422d879fb6ba",
+    "lesson-01.md": "7f18b94bc7908f21cd0caba22d8320b7ed7d112c083f698036bcada4144455c5",
+    "lesson-02.md": "8d735be36ba455de49f78673f7228aac0ce8d994462f3e1dc65443082d4928a6",
+    "lesson-03.md": "c7e1834cec493ab55688a423f73789b386f3c9f82936df6ac57ed128482fdea3",
+    "lesson-04.md": "90f7fadef75dc59502967c975b5e296354093c58d77b3639c8042802d3762220",
+    "lesson-05.md": "43987acd0e25f47d70c3eb306aee205f868863e23cdf1ac8b5f6e8fdc899c027",
+    "lesson-06.md": "8b7a21a36055109eb290cbbcbfbfcf3443ae76bd74d20a0ea58c2219cdaf7aa2",
+    "lesson-07.md": "da87beb80d4bba9d0e985936f8ba3c1d0c3eaed908f5580cdeb316664135906e",
+    "terminology.md": "8f408361b5aa72c0beb4bd7df3628a52e22390d863a1c97bc3431c55fb07f5e6",
+    "teacher-guide.md": "718208995b49f217de979df76374662cc23c59cd52f2140ce3f125fe2ac5b54f",
+    "capstone.md": "ae656960c7a09662463efa78e1f844729f849b866b145c19512c0e42722da7c2",
+    "sources.md": "aa54961cb225bd30c1d81d532a6d5a12e929f81a2df8554a63b341b794d2b655",
+    "input-contract.json": "f8262bf1261fd455b7bb88f920a8ba1ba4953f10f70fc5cae481ade28017f351",
+    "launch-prompt.md": "c7a5bd52930537776467f22df47399dadcf3b6437e15583b4b01f2c626fe22d9",
+    "verify_examples.py": "53d7ea18313262875811cc39a663c137099390359946ac9a8b26c35c935044f6",
+    "worked-example-verification.json": "6226d92abd29497c272c35266756785128325d712f231b94bd9068b4197baeb1",
+    "build_course.py": "fa65d35c9d28f3a7da640fcfa5d8f8c83ebcd0de764c22b094564d04067fafe9",
+    "finalize_course.py": "8d6870247da7fe0ab122b27f0d8b49f1eb9d24de60a9e9269162e0ce07775c7d",
+    "independent-audit.json": "bf3180873ce8faef0fde331f009864ff3689a66f4dc0810919141d15500e50e8",
+    "course.md": "a81e6bfa96181f6cbce06a115d71767458317e9e02be9f8f6f142a3c709f184c",
+    "audit_report.json": "fdfcf4472fe23e82807bd02801722667eafe7741f1a64f870e673b64a1cfa10c",
+    "manifest.json": "acb9d98e720bcf42728ad02faee13e9a045d85026118ccf82d86f762b92a6a42"
+  },
+  "lesson_count": 7,
+  "core_periods": 9,
+  "capstone_periods": 3,
+  "source_gaps": [
+    "Full source topology carriers and determinant-line replay objects; typed operator/coefficient and boundary-sector values; time/action normalization. These do not block the declared finite core."
+  ],
+  "validator": {
+    "status": "passed",
+    "exit_code": 0,
+    "validator_path": "C:\\Users\\info\\.codex\\skills\\build-high-school-course\\scripts\\validate_course.py",
+    "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+    "adapter": "Z:\\Kfield-doc-training\\.work\\validate_project_course.py",
+    "checks": [
+      "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+      "parsed manifest.json",
+      "parsed audit_report.json",
+      "parsed completion_report.json",
+      "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+    ],
+    "validation_context": "After C19-IND-001 glossary repair; external reapproval pending"
+  },
+  "post_completion_repairs": [
+    {
+      "finding_id": "C19-IND-001",
+      "status": "corrected_by_course_manager",
+      "external_follow_up": "pending; no external reapproval claimed",
+      "changed_content": "terminology.md only",
+      "preserved_hashes": {
+        "lesson-01.md": "7f18b94bc7908f21cd0caba22d8320b7ed7d112c083f698036bcada4144455c5",
+        "lesson-02.md": "8d735be36ba455de49f78673f7228aac0ce8d994462f3e1dc65443082d4928a6",
+        "lesson-03.md": "c7e1834cec493ab55688a423f73789b386f3c9f82936df6ac57ed128482fdea3",
+        "lesson-04.md": "90f7fadef75dc59502967c975b5e296354093c58d77b3639c8042802d3762220",
+        "lesson-05.md": "43987acd0e25f47d70c3eb306aee205f868863e23cdf1ac8b5f6e8fdc899c027",
+        "lesson-06.md": "8b7a21a36055109eb290cbbcbfbfcf3443ae76bd74d20a0ea58c2219cdaf7aa2",
+        "lesson-07.md": "da87beb80d4bba9d0e985936f8ba3c1d0c3eaed908f5580cdeb316664135906e",
+        "independent-audit.json": "bf3180873ce8faef0fde331f009864ff3689a66f4dc0810919141d15500e50e8",
+        "capstone.md": "ae656960c7a09662463efa78e1f844729f849b866b145c19512c0e42722da7c2",
+        "course.md": "a81e6bfa96181f6cbce06a115d71767458317e9e02be9f8f6f142a3c709f184c"
+      }
+    }
+  ]
+}

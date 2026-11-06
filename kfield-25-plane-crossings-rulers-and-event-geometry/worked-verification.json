@@ -1,0 +1,823 @@
+{
+  "status": "passed",
+  "method": "Independent exact fractions and substitution; no floating tolerances or real data",
+  "check_count": 133,
+  "independent_report": "independent-audit.json",
+  "independent_script": "independent-audit-check.py",
+  "reviewed_sha256": {
+    "lesson-01.md": "401d78f3bc21833d7565e73c261679154aaee703ed67798e4c61212a67020d29",
+    "lesson-02.md": "30d66fd35bf84d1ff0dd5a8e380cfad88120f94fdbead4daf0491db2324422ea",
+    "lesson-03.md": "38d7b155ad747397849b0a16d49d13c391f25d0a2ab3b538ce87a400987a365d",
+    "lesson-04.md": "afe9c7432c79b13db171c053e3d2cbade599813d5b32833bc6f10899bc237ef8",
+    "lesson-05.md": "8810203287485904e3df62963a1a35c405694f4c98d59e41559be73c050e3303",
+    "lesson-06.md": "cc9fc8a8918f9af36689887d2865e16a793279618c5a66a89ae30da2cf1e9349",
+    "lesson-07.md": "b7dcbd1ad64b7a644e9252f74600ad074a14feb397657b3643733959322c03d6",
+    "capstone.md": "e596527d721b3945119be5aae98d76c14c3666c0264cf1c7d0d4dafd4598704a"
+  },
+  "numeric_and_anchor_checks": [
+    {
+      "check": "unit normal squared length",
+      "actual": "1",
+      "expected": "1",
+      "status": "passed"
+    },
+    {
+      "check": "L1 projected distance at quarter second",
+      "actual": "3/10",
+      "expected": "3/10",
+      "status": "passed"
+    },
+    {
+      "check": "L1 q at quarter second",
+      "actual": "1/2",
+      "expected": "1/2",
+      "status": "passed"
+    },
+    {
+      "check": "L1 reversed origin q shift",
+      "actual": "-1",
+      "expected": "-1",
+      "status": "passed"
+    },
+    {
+      "check": "L2 projected rate",
+      "actual": "2",
+      "expected": "2",
+      "status": "passed"
+    },
+    {
+      "check": "L2 zero rate",
+      "actual": "0",
+      "expected": "0",
+      "status": "passed"
+    },
+    {
+      "check": "L2 reversed y rate",
+      "actual": "-3",
+      "expected": "-3",
+      "status": "passed"
+    },
+    {
+      "check": "L2 moving origin",
+      "actual": "1",
+      "expected": "1",
+      "status": "passed"
+    },
+    {
+      "check": "L2 changing spacing delta q",
+      "actual": "-1",
+      "expected": "-1",
+      "status": "passed"
+    },
+    {
+      "check": "L3 period",
+      "actual": "1/2",
+      "expected": "1/2",
+      "status": "passed"
+    },
+    {
+      "check": "L3 revised period",
+      "actual": "1",
+      "expected": "1",
+      "status": "passed"
+    },
+    {
+      "check": "L3 wait from initial phase quarter",
+      "actual": "3/8",
+      "expected": "3/8",
+      "status": "passed"
+    },
+    {
+      "check": "L3 piecewise event times",
+      "actual": "[Fraction(0, 1), Fraction(1, 1), Fraction(4, 3), Fraction(5, 3), Fraction(2, 1)]",
+      "expected": "[Fraction(0, 1), Fraction(1, 1), Fraction(4, 3), Fraction(5, 3), Fraction(2, 1)]",
+      "status": "passed"
+    },
+    {
+      "check": "L4 oscillator",
+      "actual": "4",
+      "expected": "4",
+      "status": "passed"
+    },
+    {
+      "check": "L4 propagation wavelength",
+      "actual": "3/4",
+      "expected": "3/4",
+      "status": "passed"
+    },
+    {
+      "check": "L4 grid rates",
+      "actual": "[Fraction(4, 1), Fraction(8, 1)]",
+      "expected": "[Fraction(4, 1), Fraction(8, 1)]",
+      "status": "passed"
+    },
+    {
+      "check": "L4 worked difference",
+      "actual": "2",
+      "expected": "2",
+      "status": "passed"
+    },
+    {
+      "check": "capstone difference",
+      "actual": "0",
+      "expected": "0",
+      "status": "passed"
+    },
+    {
+      "check": "L5 worked interpolation",
+      "actual": "1/2",
+      "expected": "1/2",
+      "status": "passed"
+    },
+    {
+      "check": "L5 practice interpolation",
+      "actual": "3/2",
+      "expected": "3/2",
+      "status": "passed"
+    },
+    {
+      "check": "L5 two roots evaluations",
+      "actual": "[Fraction(2, 1), Fraction(3, 4), Fraction(0, 1), Fraction(-1, 4), Fraction(0, 1), Fraction(3, 4), Fraction(2, 1)]",
+      "expected": "[Fraction(2, 1), Fraction(3, 4), Fraction(0, 1), Fraction(-1, 4), Fraction(0, 1), Fraction(3, 4), Fraction(2, 1)]",
+      "status": "passed"
+    },
+    {
+      "check": "L5 tangent values",
+      "actual": "[Fraction(1, 1), Fraction(1, 4), Fraction(0, 1), Fraction(1, 4), Fraction(1, 1)]",
+      "expected": "[Fraction(1, 1), Fraction(1, 4), Fraction(0, 1), Fraction(1, 4), Fraction(1, 1)]",
+      "status": "passed"
+    },
+    {
+      "check": "L5 bisection values",
+      "actual": "[Fraction(-1, 1), Fraction(2, 1), Fraction(1, 4), Fraction(-7, 16)]",
+      "expected": "[Fraction(-1, 1), Fraction(2, 1), Fraction(1, 4), Fraction(-7, 16)]",
+      "status": "passed"
+    },
+    {
+      "check": "L5 supplied bound",
+      "actual": "[Fraction(-7, 100), Fraction(3, 100)]",
+      "expected": "[Fraction(-7, 100), Fraction(3, 100)]",
+      "status": "passed"
+    },
+    {
+      "check": "L6 Star R angle/pi at event times",
+      "actual": "[Fraction(-1, 1), Fraction(-1, 2), Fraction(0, 1), Fraction(1, 2), Fraction(1, 1)]",
+      "expected": "[Fraction(-1, 1), Fraction(-1, 2), Fraction(0, 1), Fraction(1, 2), Fraction(1, 1)]",
+      "status": "passed"
+    },
+    {
+      "check": "L6 sheet event",
+      "actual": "1/2",
+      "expected": "1/2",
+      "status": "passed"
+    },
+    {
+      "check": "L6 unwrapped increment",
+      "actual": "1/5",
+      "expected": "1/5",
+      "status": "passed"
+    },
+    {
+      "check": "REV A0 endpoint distances",
+      "actual": "(Fraction(0, 1), Fraction(-3, 5))",
+      "expected": "(0, Fraction(-3, 5))",
+      "status": "passed"
+    },
+    {
+      "check": "REV A0 root substitution",
+      "actual": "0",
+      "expected": "0",
+      "status": "passed"
+    },
+    {
+      "check": "REV A-1 endpoint distances",
+      "actual": "(Fraction(3, 5), Fraction(-3, 5))",
+      "expected": "(Fraction(3, 5), Fraction(-3, 5))",
+      "status": "passed"
+    },
+    {
+      "check": "REV A-1 root substitution",
+      "actual": "0",
+      "expected": "0",
+      "status": "passed"
+    },
+    {
+      "check": "REV A-2 endpoint distances",
+      "actual": "(Fraction(3, 5), Fraction(-3, 5))",
+      "expected": "(Fraction(3, 5), Fraction(-3, 5))",
+      "status": "passed"
+    },
+    {
+      "check": "REV A-2 root substitution",
+      "actual": "0",
+      "expected": "0",
+      "status": "passed"
+    },
+    {
+      "check": "REV A-3 endpoint distances",
+      "actual": "(Fraction(3, 5), Fraction(0, 1))",
+      "expected": "(Fraction(3, 5), 0)",
+      "status": "passed"
+    },
+    {
+      "check": "REV A-3 root substitution",
+      "actual": "0",
+      "expected": "0",
+      "status": "passed"
+    },
+    {
+      "check": "REV B0 endpoint distances",
+      "actual": "(Fraction(0, 1), Fraction(-2, 1))",
+      "expected": "(0, -2)",
+      "status": "passed"
+    },
+    {
+      "check": "REV B0 root substitution",
+      "actual": "0",
+      "expected": "0",
+      "status": "passed"
+    },
+    {
+      "check": "REV B-1 endpoint distances",
+      "actual": "(Fraction(1, 1), Fraction(-1, 1))",
+      "expected": "(1, -1)",
+      "status": "passed"
+    },
+    {
+      "check": "REV B-1 root substitution",
+      "actual": "0",
+      "expected": "0",
+      "status": "passed"
+    },
+    {
+      "check": "L7 signed residuals",
+      "actual": "[Fraction(0, 1), Fraction(1, 10), Fraction(-1, 10)]",
+      "expected": "[Fraction(0, 1), Fraction(1, 10), Fraction(-1, 10)]",
+      "status": "passed"
+    },
+    {
+      "check": "L7 reconstruction",
+      "actual": "[Fraction(0, 1), Fraction(11, 10), Fraction(19, 10)]",
+      "expected": "[Fraction(0, 1), Fraction(11, 10), Fraction(19, 10)]",
+      "status": "passed"
+    },
+    {
+      "check": "L7 supplied bound",
+      "actual": "[Fraction(37, 20), Fraction(39, 20)]",
+      "expected": "[Fraction(37, 20), Fraction(39, 20)]",
+      "status": "passed"
+    },
+    {
+      "check": "actual anchor C25.01-E1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "actual anchor C25.01-W1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "actual anchor C25.01-P1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "actual anchor C25.01-D1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 1 diagnostic count in range",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 1 contract Essential question",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 1 contract Goals",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 1 contract Prerequisite bridge",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 1 contract Claim scope",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 1 contract Next dependency",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 1 contract Worked answer",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "actual anchor C25.02-E1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "actual anchor C25.02-W1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "actual anchor C25.02-P1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "actual anchor C25.02-D1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 2 diagnostic count in range",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 2 contract Essential question",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 2 contract Goals",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 2 contract Prerequisite bridge",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 2 contract Claim scope",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 2 contract Next dependency",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 2 contract Worked answer",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "actual anchor C25.03-E1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "actual anchor C25.03-W1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "actual anchor C25.03-P1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "actual anchor C25.03-D1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 3 diagnostic count in range",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 3 contract Essential question",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 3 contract Goals",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 3 contract Prerequisite bridge",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 3 contract Claim scope",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 3 contract Next dependency",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 3 contract Worked answer",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "actual anchor C25.04-E1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "actual anchor C25.04-W1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "actual anchor C25.04-P1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "actual anchor C25.04-D1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 4 diagnostic count in range",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 4 contract Essential question",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 4 contract Goals",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 4 contract Prerequisite bridge",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 4 contract Claim scope",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 4 contract Next dependency",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 4 contract Worked answer",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "actual anchor C25.05-E1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "actual anchor C25.05-W1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "actual anchor C25.05-P1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "actual anchor C25.05-D1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 5 diagnostic count in range",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 5 contract Essential question",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 5 contract Goals",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 5 contract Prerequisite bridge",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 5 contract Claim scope",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 5 contract Next dependency",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 5 contract Worked answer",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "actual anchor C25.06-E1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "actual anchor C25.06-W1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "actual anchor C25.06-P1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "actual anchor C25.06-D1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 6 diagnostic count in range",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 6 contract Essential question",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 6 contract Goals",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 6 contract Prerequisite bridge",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 6 contract Claim scope",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 6 contract Next dependency",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 6 contract Worked answer",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "actual anchor C25.07-E1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "actual anchor C25.07-W1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "actual anchor C25.07-P1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "actual anchor C25.07-D1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 7 diagnostic count in range",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 7 contract Essential question",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 7 contract Goals",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 7 contract Prerequisite bridge",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 7 contract Claim scope",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 7 contract Next dependency",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "lesson 7 contract Worked answer",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "capstone operation 1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "capstone practice map 1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "capstone operation 2",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "capstone practice map 2",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "capstone operation 3",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "capstone practice map 3",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "capstone operation 4",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "capstone practice map 4",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "capstone operation 5",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "capstone practice map 5",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "capstone operation 6",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "capstone practice map 6",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "capstone operation 7",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "check": "capstone practice map 7",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    }
+  ],
+  "source_hash_checks": {
+    "S01": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+    "S02": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+    "S03": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+    "S04": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "reviewer": "independent subagent course28_audit",
+  "scope": "All eight lessons, nine capstone operations, input teaching anchors/backward map, glossary, teacher guide, exact S05 records and source notes. Assembly/hash validation excluded from reviewer scope.",
+  "result": "No critical or major findings. Finite arithmetic and required coverage agreed with the answer keys.",
+  "recomputed": ["Clear ratios and signed rounding closure", "reflection and half-turn components", "DFT and inverses", "event windows and masks", "means and details", "interval products and exposure timing", "source ladder arithmetic"],
+  "suggestions": [
+    {"location": "lesson-07 P1", "finding": "Synthetic zero described once as measured", "repair": "Changed to supplied synthetic C=0", "status": "repaired by author"},
+    {"location": "teacher-guide weak-channel extension", "finding": "Lesson 4 vector ambiguous among multiple examples", "repair": "Named x=(1,2,4,3) explicitly", "status": "repaired by author"},
+    {"location": "lesson-07 P1", "finding": "Add both interval-product endpoints explicitly to match capstone practice mapping", "repair": "Added task and full answer [1.71,2.31] with box assumption", "status": "repaired by author"}
+  ],
+  "unresolved_counts": {"critical": 0, "major": 0, "minor": 0},
+  "author_disposition": "All three localized suggestions applied; exact checks rerun after edits. Reviewer initially reported the two wording minors and practice reinforcement; this record distinguishes author repairs from initial reviewer findings."
+}

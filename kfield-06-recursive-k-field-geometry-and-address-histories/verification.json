@@ -1,0 +1,158 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "id": "runtime",
+      "status": "passed",
+      "method_result": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe"
+    },
+    {
+      "id": "binary-0",
+      "status": "passed",
+      "method_result": "1 adjacent half-open intervals, total width1; 2 distinct boundaries"
+    },
+    {
+      "id": "binary-1",
+      "status": "passed",
+      "method_result": "2 adjacent half-open intervals, total width1; 3 distinct boundaries"
+    },
+    {
+      "id": "binary-parents-1",
+      "status": "passed",
+      "method_result": "all 2 parent/bit reconstructions exact"
+    },
+    {
+      "id": "binary-2",
+      "status": "passed",
+      "method_result": "4 adjacent half-open intervals, total width1; 5 distinct boundaries"
+    },
+    {
+      "id": "binary-parents-2",
+      "status": "passed",
+      "method_result": "all 4 parent/bit reconstructions exact"
+    },
+    {
+      "id": "binary-3",
+      "status": "passed",
+      "method_result": "8 adjacent half-open intervals, total width1; 9 distinct boundaries"
+    },
+    {
+      "id": "binary-parents-3",
+      "status": "passed",
+      "method_result": "all 8 parent/bit reconstructions exact"
+    },
+    {
+      "id": "group-0",
+      "status": "passed",
+      "method_result": "enumerated 27 cells,64 corners; total toy volume162"
+    },
+    {
+      "id": "group-1",
+      "status": "passed",
+      "method_result": "enumerated 216 cells,343 corners; total toy volume162"
+    },
+    {
+      "id": "group-2",
+      "status": "passed",
+      "method_result": "enumerated 1728 cells,2197 corners; total toy volume162"
+    },
+    {
+      "id": "half-step-1",
+      "status": "passed",
+      "method_result": "27 points; 7 attained integer sheets"
+    },
+    {
+      "id": "half-step-3",
+      "status": "passed",
+      "method_result": "343 points; 19 attained integer sheets"
+    },
+    {
+      "id": "half-step-9",
+      "status": "passed",
+      "method_result": "6859 points; 55 attained integer sheets"
+    },
+    {
+      "id": "rung",
+      "status": "passed",
+      "method_result": "bounded exhaustive12 pairs; unique(2,0); positivity excludes larger powers"
+    },
+    {
+      "id": "balanced-range",
+      "status": "passed",
+      "method_result": "all27 signed words bijectively enumerate\u221213..13"
+    },
+    {
+      "id": "all-balanced-roundtrips",
+      "status": "passed",
+      "method_result": "all27 words pass two modular parent checks and exact coarse/detail reconstruction"
+    },
+    {
+      "id": "word5",
+      "status": "passed",
+      "method_result": "enumerated word gives5; parents\u22124,\u22121"
+    },
+    {
+      "id": "word8",
+      "status": "passed",
+      "method_result": "enumerated word gives8; parents\u22121,\u22121"
+    },
+    {
+      "id": "ternary-1",
+      "status": "passed",
+      "method_result": "3D Cartesian count27"
+    },
+    {
+      "id": "ternary-2",
+      "status": "passed",
+      "method_result": "3D Cartesian count729"
+    },
+    {
+      "id": "tree-children",
+      "status": "passed",
+      "method_result": "all9 one-coordinate children assigned exactly once"
+    },
+    {
+      "id": "negative-remainders",
+      "status": "passed",
+      "method_result": "standard nonnegative remainder convention verified"
+    },
+    {
+      "id": "teaching-ids",
+      "status": "passed",
+      "method_result": "all approved required W/P/D IDs occur in their actual lesson"
+    },
+    {
+      "id": "backward-map-ids",
+      "status": "passed",
+      "method_result": "all9 capstone steps resolve to earlier authored example, answered practice and diagnostic IDs; substantive alignment independently reviewed"
+    },
+    {
+      "id": "source-hash-S01",
+      "status": "passed",
+      "method_result": "in-place SHA256 matches input contract"
+    },
+    {
+      "id": "source-hash-S02",
+      "status": "passed",
+      "method_result": "in-place SHA256 matches input contract"
+    },
+    {
+      "id": "source-hash-S03",
+      "status": "passed",
+      "method_result": "in-place SHA256 matches input contract"
+    },
+    {
+      "id": "source-hash-S04",
+      "status": "passed",
+      "method_result": "in-place SHA256 matches input contract"
+    },
+    {
+      "id": "source-hash-S05",
+      "status": "passed",
+      "method_result": "in-place SHA256 matches input contract"
+    }
+  ],
+  "check_count": 30,
+  "method": "Independent enumeration and exact Fraction arithmetic; no numpy or third-party packages; no source data copies.",
+  "script_sha256": "5a4a4032d9931ff94d4711d97b038bd090fab11848eb67decd4391a7ae706d52"
+}

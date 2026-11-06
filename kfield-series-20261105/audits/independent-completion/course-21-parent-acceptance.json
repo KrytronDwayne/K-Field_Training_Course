@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-21",
+  "timestamp": "2026-11-05T19:55:38.515929+00:00",
+  "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems",
+  "validator": "passed",
+  "validator_checks": [
+    "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+    "parsed manifest.json",
+    "parsed audit_report.json",
+    "parsed completion_report.json",
+    "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+  ],
+  "validator_errors": [],
+  "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+  "manifest_sha256": "ae145d12b568fc9445b7addfb0a5ed46997351c5c07151fb82192eb4f14360a1",
+  "completion_report_sha256": "ece3f639df7d097d9bb0467380658709f4f1ace33ebd9b7e0a80c773488951e9",
+  "course_sha256": "d32abb627e86b0d078ed6131767e1f60911219f1f22cb2410606bd26c3099814",
+  "status": "accepted",
+  "independent_audit": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\independent-completion\\course-21-independent-audit.json",
+  "independent_report_sha256": "7571bead4eb8aee6731b9e1f3628cb9bbcdac7f1e829fa2d7a0faa03df75ab69",
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "scope": "Completed topical course accepted after parent review of independent source/content audit and fresh deterministic validation; documented source limitations retained."
+}

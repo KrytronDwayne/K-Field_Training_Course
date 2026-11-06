@@ -1,0 +1,29 @@
+{
+  "status": "applied_and_references_verified",
+  "courses": [
+    {
+      "course": 21,
+      "lesson_anchors": 8,
+      "capstone_steps": 11,
+      "retained_source_amendments": [
+        "SA-21",
+        "EA-21-E07-4",
+        "EA-21-E08-5"
+      ]
+    },
+    {
+      "course": 22,
+      "lesson_anchors": 7,
+      "capstone_steps": 7,
+      "retained_source_amendments": [
+        "EA-22-E09-6"
+      ]
+    },
+    {
+      "course": 23,
+      "lesson_anchors": 7,
+      "capstone_steps": 7,
+      "retained_source_amendments": []
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0",
+  "status": "passed",
+  "findings": [
+    {
+      "id": "PA27-02",
+      "level": "final",
+      "category": "evidence_scope",
+      "file": "lesson-07.md; sources.md",
+      "section": "C27.07-W1 T35 paragraph; pinned application reads T35 summary",
+      "severity": "major",
+      "defect": "Wording called three distinct plane-family cost levels independent, which could imply statistical independence from distinct values alone.",
+      "correction": "Changed both authored passages to three distinct plane-family cost levels and explicitly stated that distinct values do not establish statistical independence. Reassembled lesson text and refreshed recovery hashes.",
+      "verification": "Read both corrected paragraphs: all fourteen signed rows, immutable references, source-reported status, calibration and transfer limitations remain intact; no numerical content changed. Final project validator checks updated assembly identity and hashes.",
+      "disposition": "corrected",
+      "affected_checkpoints": ["lesson-07", "sources", "course"]
+    },
+    {
+      "id": "IA27-01",
+      "level": "final",
+      "category": "assessment_alignment",
+      "file": "capstone.md",
+      "section": "C27-CAP-02, C27-CAP-03, C27-CAP-05 and backward map",
+      "severity": "major",
+      "defect": "Three assessed suboperations had worked explanations but lacked explicit independently answered prior practice: ruler matrix construction, forward pullback entries and general finite bound proof.",
+      "correction": "Added answered P1a in lessons 02, 03, 05; cited exact substeps in capstone backward map and allocated second-session practice time in teacher guide.",
+      "verification": "Author checked all four ruler and pullback entries and finite mixed-term cancellation; independent recheck accepted the repaired content with zero unresolved findings, recorded in independent-audit.md.",
+      "disposition": "corrected",
+      "affected_checkpoints": ["lesson-02", "lesson-03", "lesson-05", "capstone", "teacher-guide"]
+    },
+    {
+      "id": "IA27-02",
+      "level": "local",
+      "category": "visualization",
+      "file": "lesson-01.md",
+      "section": "C27.01-W1",
+      "severity": "minor",
+      "defect": "Exact plotting anchors were supplied but no authored worked plot was shown.",
+      "correction": "Added ellipse.png with equal axes, eight anchors and labeled principal semiaxes, embedded in lesson-01.",
+      "verification": "Exact anchor substitutions checked with Fraction arithmetic; author viewed the 960x960 PNG and confirmed labels, ellipse orientation and legibility.",
+      "disposition": "corrected",
+      "affected_checkpoints": ["lesson-01", "ellipse"]
+    },
+    {
+      "id": "PA27-01",
+      "level": "final",
+      "category": "glossary_navigation",
+      "file": "terminology.md",
+      "section": "First-taught column for v/u-dot and delta/summation",
+      "severity": "minor",
+      "defect": "Grouped entries pointed to later lessons rather than each symbol's first introduction.",
+      "correction": "Split entries: v first taught lesson 1; u-dot lesson 3; delta-t and delta-x lesson 2; summation lesson 4.",
+      "verification": "Checked exact definitions in lesson-01 E1, lesson-02 E1, lesson-03 bridge/E1 and lesson-04 E1; rows now match the parent independent-reading correction.",
+      "disposition": "corrected",
+      "affected_checkpoints": ["terminology"]
+    }
+  ],
+  "unresolved_counts": {"critical": 0, "major": 0, "minor": 0},
+  "local_checks": {
+    "lessons": ["lesson-01", "lesson-02", "lesson-03", "lesson-04", "lesson-05", "lesson-06", "lesson-07"],
+    "contract": "Each lesson has one essential question, three observable goals, prerequisite bridge, explanation, worked example, answered practice, four answered diagnostic checks, scope and next dependency.",
+    "arithmetic": "74 standard-library exact arithmetic, structure and original-source hash checks passed in verification.json. Independent reviewer separately recomputed principal examples.",
+    "definitions_units": "Unit directions, displacement and velocity inputs distinguished; ruler G differs from classroom G; source trajectory units m^2/s separated from classroom tau^-1. Matrix order, off-diagonal terms, factor 1/4 and inverse are explicit.",
+    "evidence": "T20 overview not promoted to numeric certificate; S02 exact source claim and S03 missing-object correction remain separate; no source data copied or source values invented. Full stored residual preserved.",
+    "audience": "Dot products, transpose, matrix product, diagonal inverse, summation and bounds taught locally. Continuum and linear-interpolation integral are recognition-only. Core assessments are finite."
+  },
+  "cumulative_checks": [
+    {"boundary": "lesson-03", "result": "Metric and notation distinctions checked across lessons 1-3; signed coordinate maps reconstruct and preserve units."},
+    {"boundary": "lesson-05", "result": "Path examples retain durations/order/endpoints; deviation decomposition matches direct total; changed-time and obstacle claims remain scoped."},
+    {"boundary": "lesson-07", "result": "Every capstone operation traced to explanation and answered practice, including repaired P1a suboperations; source, synthetic and coupling layers remain distinct."}
+  ],
+  "final_checks": {
+    "coverage": "All seven original concepts and concrete capstone operations have teaching, practice, diagnostics and later use.",
+    "source_fidelity": "Four archival original digests matched; exact S02/S03 pointers read; T20/T35/TS pinned bytes retrieved; source generation supplied but not re-attested by capabilities.",
+    "dependency_order": "Sequential seven-lesson map teaches each required operation before use; no advanced recognition-only extension assessed.",
+    "correctness": "Exact arithmetic and proof expansion checked; general unequal-duration finite decomposition independently exercised.",
+    "terminology": "Glossary matches actual local notation; local D/r reuse explicitly typed; no Cell3 or source metric redefinition.",
+    "examples": "Worked examples, independent practices, diagnostics and rubric agree, with full residual and reconstruction accounting.",
+    "evidence_layers": "Source facts, derived synthetic mathematics, interpretations, proposed coupling and missing inputs identified separately.",
+    "load": "13 core periods and 3 capstone periods; teaching/practice/check minutes allocated; recovery guidance provided.",
+    "assessment": "28-point full key and concrete input-output backward map; independent audit identified and repaired practice gaps.",
+    "recovery_assembly": "Final machine checks are performed by validate_project_course.py after final assembly and hash refresh; result retained in validator-result.json.",
+    "rendering": "Markdown delivery; no paginated format requested. Authored ellipse PNG visually inspected with equal axes and readable labels.",
+    "storage": "All authored course, audit, verification and recovery files reside in the designated project course directory; original sources read in place.",
+    "minimality": "Seven topical lessons preserve all required concepts; source-reading gap is an explicit assessed operation, not invented numeric replay."
+  },
+  "source_gaps": ["Full named source route certificate and locked G_phase/C/W_qpc precision bridge remain unretrieved. Approved source-scoped teaching and audit tasks do not require invented replacement values."],
+  "independent_review": "See independent-audit.md for original findings and independent recheck dispositions."
+}

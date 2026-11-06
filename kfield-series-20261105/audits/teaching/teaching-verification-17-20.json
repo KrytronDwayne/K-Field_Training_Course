@@ -1,0 +1,7029 @@
+{
+  "schema_version": "1.0",
+  "created_utc": "2026-11-05T18:44:36.579330+00:00",
+  "status": "passed",
+  "runtime": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+  "script_sha256": "85c53d79d30e237dab48277ef47b3a286504b6c450798ef825d1a7240f42d6f2",
+  "method": "Independent exact rational/complex/radical SymPy algebra,explicit finite matrices andbounded enumeration. No parent checker imported or executed,no packages changed,no source-data copies.",
+  "input_contracts": [
+    {
+      "course_id": "course-17",
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-17-finite-gauge-transport-and-conservative-dynamics\\input-contract.json",
+      "sha256": "f48ee46040414a6355434cec1a8fb54a820d6a35e15182e197bc688230cce30c"
+    },
+    {
+      "course_id": "course-18",
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-18-history-orientation-and-chirality\\input-contract.json",
+      "sha256": "f7ab24bebf450438429e81a83c365ee2a3dafd3d086c9552f3e520d0af31035d"
+    },
+    {
+      "course_id": "course-19",
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure\\input-contract.json",
+      "sha256": "7260b6868a9b51dee46e8aaf5e84b32491decddb85b00e82c90e829f5feb8531"
+    },
+    {
+      "course_id": "course-20",
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-20-family-structure-and-simultaneous-occupation\\input-contract.json",
+      "sha256": "86625e4e042e90445c47601ad4c787a898a80bd620be9b31b91eb3876027083c"
+    }
+  ],
+  "source_hashes": [
+    {
+      "id": "S01",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "role": "archival source; reported status is distinct from fresh verification"
+    },
+    {
+      "id": "S02",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "role": "archival source; reported status is distinct from fresh verification"
+    },
+    {
+      "id": "S03",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "role": "archival source; reported status is distinct from fresh verification"
+    },
+    {
+      "id": "S04",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+      "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "role": "archival source; reported status is distinct from fresh verification"
+    },
+    {
+      "id": "S05",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+      "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+      "role": "archival source; reported status is distinct from fresh verification"
+    }
+  ],
+  "source_audit_sha256": "eef89a28971ef7e5380977c31b62ed6d64f2831759e679ee967b6c253a33c04a",
+  "parent_support_index_sha256": "55fe70b9b689d7eedea71af2d2b39006ea9f4baa61d9694e32f9835e12e553fc",
+  "check_count": 542,
+  "failed_count": 0,
+  "checks": [
+    {
+      "id": "source hash S01",
+      "actual": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "expected": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "passed": true
+    },
+    {
+      "id": "source hash S02",
+      "actual": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "expected": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "passed": true
+    },
+    {
+      "id": "source hash S03",
+      "actual": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "expected": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "passed": true
+    },
+    {
+      "id": "source hash S04",
+      "actual": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "expected": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "passed": true
+    },
+    {
+      "id": "source hash S05",
+      "actual": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+      "expected": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+      "passed": true
+    },
+    {
+      "id": "support hash educational-example-verification.json",
+      "actual": "4a78076d0946868a654bbf957ef034b40262c808cc967b5294b21b79ff469faf",
+      "expected": "4a78076d0946868a654bbf957ef034b40262c808cc967b5294b21b79ff469faf",
+      "passed": true
+    },
+    {
+      "id": "support hash dynamics-history-bridge-verification.json",
+      "actual": "297675cf51bdbe3c15f78b098e2b0afb9b021298a3d2156a498e55c759370969",
+      "expected": "297675cf51bdbe3c15f78b098e2b0afb9b021298a3d2156a498e55c759370969",
+      "passed": true
+    },
+    {
+      "id": "covariance 1",
+      "actual": "2 + I",
+      "expected": "2 + I",
+      "passed": true
+    },
+    {
+      "id": "covariance 2",
+      "actual": "-1 - I",
+      "expected": "-1 - I",
+      "passed": true
+    },
+    {
+      "id": "loop order",
+      "actual": [
+        [
+          "0",
+          "-1"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "0",
+          "-1"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "reverse order",
+      "actual": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "-1",
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "-1",
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "loop conjugation",
+      "actual": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "-1",
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "-1",
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "trace invariant",
+      "actual": "2",
+      "expected": "2",
+      "passed": true
+    },
+    {
+      "id": "loop positive action beta3",
+      "actual": "6",
+      "expected": 6,
+      "passed": true
+    },
+    {
+      "id": "scalar loop practice",
+      "actual": "-1",
+      "expected": -1,
+      "passed": true
+    },
+    {
+      "id": "scalar framed loop",
+      "actual": "-1",
+      "expected": -1,
+      "passed": true
+    },
+    {
+      "id": "Cayley unitary 1",
+      "actual": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "expected": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "Cayley norm 1",
+      "actual": "5",
+      "expected": "5",
+      "passed": true
+    },
+    {
+      "id": "Cayley reverse 1",
+      "actual": [
+        [
+          "1"
+        ],
+        [
+          "2"
+        ]
+      ],
+      "expected": [
+        [
+          "1"
+        ],
+        [
+          "2"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "Cayley L expectation 1",
+      "actual": "9",
+      "expected": "9",
+      "passed": true
+    },
+    {
+      "id": "Cayley unitary 1/2",
+      "actual": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "expected": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "Cayley norm 1/2",
+      "actual": "6",
+      "expected": "6",
+      "passed": true
+    },
+    {
+      "id": "Cayley reverse 1/2",
+      "actual": [
+        [
+          "1 + I"
+        ],
+        [
+          "2"
+        ]
+      ],
+      "expected": [
+        [
+          "1 + I"
+        ],
+        [
+          "2"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "Cayley L expectation 1/2",
+      "actual": "8",
+      "expected": "8",
+      "passed": true
+    },
+    {
+      "id": "nonselfadjoint counterexample",
+      "actual": "3",
+      "expected": 3,
+      "passed": true
+    },
+    {
+      "id": "electric det Matrix([[1, 0, 0], [0, 4, 0], [0, 0, 16]])",
+      "actual": "1",
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "id": "magnetic det Matrix([[1, 0, 0], [0, 4, 0], [0, 0, 16]])",
+      "actual": "1",
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "id": "Hodge duality Matrix([[1, 0, 0], [0, 4, 0], [0, 0, 16]])",
+      "actual": [
+        [
+          "1/4",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "4"
+        ]
+      ],
+      "expected": [
+        [
+          "1/4",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "4"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "Hodge scale Matrix([[1, 0, 0], [0, 4, 0], [0, 0, 16]])",
+      "actual": [
+        [
+          "4",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1/4"
+        ]
+      ],
+      "expected": [
+        [
+          "4",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1/4"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "electric det Matrix([[4, 0, 0], [0, 1, 0], [0, 0, 16]])",
+      "actual": "1",
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "id": "magnetic det Matrix([[4, 0, 0], [0, 1, 0], [0, 0, 16]])",
+      "actual": "1",
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "id": "Hodge duality Matrix([[4, 0, 0], [0, 1, 0], [0, 0, 16]])",
+      "actual": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1/4",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "4"
+        ]
+      ],
+      "expected": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1/4",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "4"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "Hodge scale Matrix([[4, 0, 0], [0, 1, 0], [0, 0, 16]])",
+      "actual": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "4",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1/4"
+        ]
+      ],
+      "expected": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "4",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1/4"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "historical electric determinant",
+      "actual": "64",
+      "expected": 64,
+      "passed": true
+    },
+    {
+      "id": "historical magnetic determinant",
+      "actual": "4096",
+      "expected": 4096,
+      "passed": true
+    },
+    {
+      "id": "shift input defect",
+      "actual": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "shift output defect",
+      "actual": [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "expected": [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "finite index",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "rectangular isometry",
+      "actual": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "expected": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "rectangular root defect",
+      "actual": [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "expected": [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "history projection 0",
+      "actual": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "history rank 0",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "id": "history projection 1",
+      "actual": [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "history rank 1",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "id": "history projection 2",
+      "actual": [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "expected": [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "history rank 2",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "id": "history projection 3",
+      "actual": [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "history rank 3",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "history orthogonality 01",
+      "actual": [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "history orthogonality 02",
+      "actual": [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "history orthogonality 12",
+      "actual": [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "correlated projector",
+      "actual": [
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "expected": [
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "independent factor commutation",
+      "actual": [
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "grading anti commute",
+      "actual": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "grading square",
+      "actual": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "expected": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "complex commutator",
+      "actual": [
+        [
+          "2*I",
+          "0"
+        ],
+        [
+          "0",
+          "-2*I"
+        ]
+      ],
+      "expected": [
+        [
+          "2*I",
+          "0"
+        ],
+        [
+          "0",
+          "-2*I"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "commuting real carries",
+      "actual": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "complex practice commutator",
+      "actual": [
+        [
+          "0",
+          "2 + 2*I"
+        ],
+        [
+          "-2 + 2*I",
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "0",
+          "2 + 2*I"
+        ],
+        [
+          "-2 + 2*I",
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "source CP witness determinant",
+      "actual": "1",
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "id": "diagonal witness commutator",
+      "actual": [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "angular cutoff 2",
+      "actual": 9,
+      "expected": 9,
+      "passed": true
+    },
+    {
+      "id": "spin label count 2",
+      "actual": 18,
+      "expected": 18,
+      "passed": true
+    },
+    {
+      "id": "angular cutoff 3",
+      "actual": 16,
+      "expected": 16,
+      "passed": true
+    },
+    {
+      "id": "spin label count 3",
+      "actual": 32,
+      "expected": 32,
+      "passed": true
+    },
+    {
+      "id": "path action [0, 1, 3]",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "path action [1, 2, 2]",
+      "actual": -4,
+      "expected": -4,
+      "passed": true
+    },
+    {
+      "id": "six factors [I, I, -1, -I, I, 1]",
+      "actual": "1",
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "id": "six factors [-1, I, I, 1, -I, I]",
+      "actual": "1",
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "id": "deleted heavy",
+      "actual": "I",
+      "expected": "I",
+      "passed": true
+    },
+    {
+      "id": "deleted cap",
+      "actual": "I",
+      "expected": "I",
+      "passed": true
+    },
+    {
+      "id": "dual pairing (1, 0, 48)",
+      "actual": "1",
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "id": "dual pairing (0, 1, 54)",
+      "actual": "1",
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "id": "dual pairing (1, 1, 30)",
+      "actual": "1",
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "id": "dual pairing (1, 1, -42)",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "dual pairing (1, 1, 0)",
+      "actual": "7/12",
+      "expected": "7/12",
+      "passed": true
+    },
+    {
+      "id": "topology sample W",
+      "actual": "4",
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "topology sample P",
+      "actual": "5",
+      "expected": 5,
+      "passed": true
+    },
+    {
+      "id": "class counts",
+      "actual": [
+        9,
+        9,
+        9
+      ],
+      "expected": [
+        9,
+        9,
+        9
+      ],
+      "passed": true
+    },
+    {
+      "id": "indicator norms",
+      "actual": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "expected": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "class projector rank",
+      "actual": 3,
+      "expected": 3,
+      "passed": true
+    },
+    {
+      "id": "total dimensions",
+      "actual": 27,
+      "expected": 27,
+      "passed": true
+    },
+    {
+      "id": "class detail sum [1, 2, 3, 4, 5, 6, 7, 8, 9]",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "class recovery [1, 2, 3, 4, 5, 6, 7, 8, 9]",
+      "actual": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "expected": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "passed": true
+    },
+    {
+      "id": "class detail sum [9, 0, 0, 0, 0, 0, 0, 0, 0]",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "class recovery [9, 0, 0, 0, 0, 0, 0, 0, 0]",
+      "actual": [
+        "9",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "expected": [
+        9,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "id": "synthetic nine lift isometry",
+      "actual": [
+        [
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "expected": [
+        [
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "three channel Fourier unitary",
+      "actual": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "expected": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "Weyl commutation",
+      "actual": [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((0, 0), (0, 0))",
+      "actual": "3",
+      "expected": 3,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((0, 0), (0, 1))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((0, 0), (0, 2))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((0, 0), (1, 0))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((0, 0), (1, 1))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((0, 0), (1, 2))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((0, 0), (2, 0))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((0, 0), (2, 1))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((0, 0), (2, 2))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((0, 1), (0, 0))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((0, 1), (0, 1))",
+      "actual": "3",
+      "expected": 3,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((0, 1), (0, 2))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((0, 1), (1, 0))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((0, 1), (1, 1))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((0, 1), (1, 2))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((0, 1), (2, 0))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((0, 1), (2, 1))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((0, 1), (2, 2))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((0, 2), (0, 0))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((0, 2), (0, 1))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((0, 2), (0, 2))",
+      "actual": "3",
+      "expected": 3,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((0, 2), (1, 0))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((0, 2), (1, 1))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((0, 2), (1, 2))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((0, 2), (2, 0))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((0, 2), (2, 1))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((0, 2), (2, 2))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((1, 0), (0, 0))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((1, 0), (0, 1))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((1, 0), (0, 2))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((1, 0), (1, 0))",
+      "actual": "3",
+      "expected": 3,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((1, 0), (1, 1))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((1, 0), (1, 2))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((1, 0), (2, 0))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((1, 0), (2, 1))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((1, 0), (2, 2))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((1, 1), (0, 0))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((1, 1), (0, 1))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((1, 1), (0, 2))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((1, 1), (1, 0))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((1, 1), (1, 1))",
+      "actual": "3",
+      "expected": 3,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((1, 1), (1, 2))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((1, 1), (2, 0))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((1, 1), (2, 1))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((1, 1), (2, 2))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((1, 2), (0, 0))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((1, 2), (0, 1))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((1, 2), (0, 2))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((1, 2), (1, 0))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((1, 2), (1, 1))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((1, 2), (1, 2))",
+      "actual": "3",
+      "expected": 3,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((1, 2), (2, 0))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((1, 2), (2, 1))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((1, 2), (2, 2))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((2, 0), (0, 0))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((2, 0), (0, 1))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((2, 0), (0, 2))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((2, 0), (1, 0))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((2, 0), (1, 1))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((2, 0), (1, 2))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((2, 0), (2, 0))",
+      "actual": "3",
+      "expected": 3,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((2, 0), (2, 1))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((2, 0), (2, 2))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((2, 1), (0, 0))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((2, 1), (0, 1))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((2, 1), (0, 2))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((2, 1), (1, 0))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((2, 1), (1, 1))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((2, 1), (1, 2))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((2, 1), (2, 0))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((2, 1), (2, 1))",
+      "actual": "3",
+      "expected": 3,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((2, 1), (2, 2))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((2, 2), (0, 0))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((2, 2), (0, 1))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((2, 2), (0, 2))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((2, 2), (1, 0))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((2, 2), (1, 1))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((2, 2), (1, 2))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((2, 2), (2, 0))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((2, 2), (2, 1))",
+      "actual": "0",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Weyl trace ((2, 2), (2, 2))",
+      "actual": "3",
+      "expected": 3,
+      "passed": true
+    },
+    {
+      "id": "all Weyl coordinates worked",
+      "actual": {
+        "(0, 0)": "1",
+        "(0, 1)": "2",
+        "(0, 2)": "0",
+        "(1, 0)": "0",
+        "(1, 1)": "0",
+        "(1, 2)": "0",
+        "(2, 0)": "0",
+        "(2, 1)": "-1",
+        "(2, 2)": "0"
+      },
+      "expected": {
+        "(0, 0)": 1,
+        "(0, 1)": 2,
+        "(0, 2)": 0,
+        "(1, 0)": 0,
+        "(1, 1)": 0,
+        "(1, 2)": 0,
+        "(2, 0)": 0,
+        "(2, 1)": -1,
+        "(2, 2)": 0
+      },
+      "passed": true
+    },
+    {
+      "id": "Weyl decode worked",
+      "actual": [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "all Weyl coordinates practice",
+      "actual": {
+        "(0, 0)": "2",
+        "(0, 1)": "0",
+        "(0, 2)": "-1",
+        "(1, 0)": "1",
+        "(1, 1)": "0",
+        "(1, 2)": "0",
+        "(2, 0)": "0",
+        "(2, 1)": "0",
+        "(2, 2)": "0"
+      },
+      "expected": {
+        "(0, 0)": 2,
+        "(0, 1)": 0,
+        "(0, 2)": -1,
+        "(1, 0)": 1,
+        "(1, 1)": 0,
+        "(1, 2)": 0,
+        "(2, 0)": 0,
+        "(2, 1)": 0,
+        "(2, 2)": 0
+      },
+      "passed": true
+    },
+    {
+      "id": "Weyl decode practice",
+      "actual": [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "EA20 projector",
+      "actual": [
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "expected": [
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "EA20 rank",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "EA20 image [2, 0, 3]",
+      "actual": [
+        [
+          "1"
+        ],
+        [
+          "1"
+        ],
+        [
+          "3"
+        ]
+      ],
+      "expected": [
+        [
+          "1"
+        ],
+        [
+          "1"
+        ],
+        [
+          "3"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "EA20 complement [2, 0, 3]",
+      "actual": [
+        [
+          "1"
+        ],
+        [
+          "-1"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "1"
+        ],
+        [
+          "-1"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "EA20 image [4, 2, -1]",
+      "actual": [
+        [
+          "3"
+        ],
+        [
+          "3"
+        ],
+        [
+          "-1"
+        ]
+      ],
+      "expected": [
+        [
+          "3"
+        ],
+        [
+          "3"
+        ],
+        [
+          "-1"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "EA20 complement [4, 2, -1]",
+      "actual": [
+        [
+          "1"
+        ],
+        [
+          "-1"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "expected": [
+        [
+          "1"
+        ],
+        [
+          "-1"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "small tensor rank",
+      "actual": 6,
+      "expected": 6,
+      "passed": true
+    },
+    {
+      "id": "conditional48",
+      "actual": 48,
+      "expected": 48,
+      "passed": true
+    },
+    {
+      "id": "terminal truncation counterexample",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "Schur reconstruction Matrix([[2, 1], [1, 3]])",
+      "actual": [
+        [
+          "8/5"
+        ],
+        [
+          "9/5"
+        ]
+      ],
+      "expected": [
+        [
+          "8/5"
+        ],
+        [
+          "9/5"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "Schur full equations Matrix([[2, 1], [1, 3]])",
+      "actual": [
+        [
+          "5"
+        ],
+        [
+          "7"
+        ]
+      ],
+      "expected": [
+        [
+          "5"
+        ],
+        [
+          "7"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "Schur determinant Matrix([[2, 1], [1, 3]])",
+      "actual": "5",
+      "expected": "5",
+      "passed": true
+    },
+    {
+      "id": "Schur reconstruction Matrix([[3, 1], [2, 2]])",
+      "actual": [
+        [
+          "3/2"
+        ],
+        [
+          "5/2"
+        ]
+      ],
+      "expected": [
+        [
+          "3/2"
+        ],
+        [
+          "5/2"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "Schur full equations Matrix([[3, 1], [2, 2]])",
+      "actual": [
+        [
+          "7"
+        ],
+        [
+          "8"
+        ]
+      ],
+      "expected": [
+        [
+          "7"
+        ],
+        [
+          "8"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "Schur determinant Matrix([[3, 1], [2, 2]])",
+      "actual": "4",
+      "expected": "4",
+      "passed": true
+    },
+    {
+      "id": "E0 direct branch",
+      "actual": [
+        [
+          "3"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "expected": [
+        [
+          "3"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "scalar loop closure practice",
+      "actual": "1",
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "id": "scalar loop frames practice",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "id": "thermal finite terms",
+      "actual": [
+        "1/16",
+        "1/32",
+        "1/1024"
+      ],
+      "expected": [
+        "1/16",
+        "1/32",
+        "1/1024"
+      ],
+      "passed": true
+    },
+    {
+      "id": "synthetic recursive minimum",
+      "actual": "1/10",
+      "expected": "1/10",
+      "passed": true
+    },
+    {
+      "id": "orientation worked",
+      "actual": "-6",
+      "expected": -6,
+      "passed": true
+    },
+    {
+      "id": "orientation practice",
+      "actual": "-8",
+      "expected": -8,
+      "passed": true
+    },
+    {
+      "id": "orientation positive scale",
+      "actual": "-64",
+      "expected": -64,
+      "passed": true
+    },
+    {
+      "id": "history supplement recovery",
+      "actual": [
+        [
+          "1"
+        ],
+        [
+          "-2"
+        ],
+        [
+          "5"
+        ]
+      ],
+      "expected": [
+        [
+          "1"
+        ],
+        [
+          "-2"
+        ],
+        [
+          "5"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "correlation practice",
+      "actual": [
+        [
+          "2"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ],
+        [
+          "3"
+        ]
+      ],
+      "expected": [
+        [
+          "2"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ],
+        [
+          "3"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "rebase UV value",
+      "actual": "1",
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "id": "rebase cap value",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "id": "source mature exponents",
+      "actual": [
+        "H_E=delta^(1/3)R",
+        "H_B=delta^(2/3) wedge^2 R"
+      ],
+      "expected": [
+        "H_E=delta^(1/3)R",
+        "H_B=delta^(2/3) wedge^2 R"
+      ],
+      "passed": true
+    },
+    {
+      "id": "no SA18 fabricated",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "source occupation guard",
+      "actual": [
+        "No physical occupation conclusion."
+      ],
+      "expected": [
+        "No physical occupation conclusion."
+      ],
+      "passed": true
+    },
+    {
+      "id": "source correction identity",
+      "actual": "AUD-007",
+      "expected": "AUD-007",
+      "passed": true
+    },
+    {
+      "id": "lesson count 17",
+      "actual": 8,
+      "expected": 8,
+      "passed": true
+    },
+    {
+      "id": "lesson ID 17lesson-01",
+      "actual": "lesson-01",
+      "expected": "lesson-01",
+      "passed": true
+    },
+    {
+      "id": "lesson ID 17lesson-02",
+      "actual": "lesson-02",
+      "expected": "lesson-02",
+      "passed": true
+    },
+    {
+      "id": "lesson ID 17lesson-03",
+      "actual": "lesson-03",
+      "expected": "lesson-03",
+      "passed": true
+    },
+    {
+      "id": "lesson ID 17lesson-04",
+      "actual": "lesson-04",
+      "expected": "lesson-04",
+      "passed": true
+    },
+    {
+      "id": "lesson ID 17lesson-05",
+      "actual": "lesson-05",
+      "expected": "lesson-05",
+      "passed": true
+    },
+    {
+      "id": "lesson ID 17lesson-06",
+      "actual": "lesson-06",
+      "expected": "lesson-06",
+      "passed": true
+    },
+    {
+      "id": "lesson ID 17lesson-07",
+      "actual": "lesson-07",
+      "expected": "lesson-07",
+      "passed": true
+    },
+    {
+      "id": "lesson ID 17lesson-08",
+      "actual": "lesson-08",
+      "expected": "lesson-08",
+      "passed": true
+    },
+    {
+      "id": "lesson count 18",
+      "actual": 7,
+      "expected": 7,
+      "passed": true
+    },
+    {
+      "id": "lesson ID 18lesson-01",
+      "actual": "lesson-01",
+      "expected": "lesson-01",
+      "passed": true
+    },
+    {
+      "id": "lesson ID 18lesson-02",
+      "actual": "lesson-02",
+      "expected": "lesson-02",
+      "passed": true
+    },
+    {
+      "id": "lesson ID 18lesson-03",
+      "actual": "lesson-03",
+      "expected": "lesson-03",
+      "passed": true
+    },
+    {
+      "id": "lesson ID 18lesson-04",
+      "actual": "lesson-04",
+      "expected": "lesson-04",
+      "passed": true
+    },
+    {
+      "id": "lesson ID 18lesson-05",
+      "actual": "lesson-05",
+      "expected": "lesson-05",
+      "passed": true
+    },
+    {
+      "id": "lesson ID 18lesson-06",
+      "actual": "lesson-06",
+      "expected": "lesson-06",
+      "passed": true
+    },
+    {
+      "id": "lesson ID 18lesson-07",
+      "actual": "lesson-07",
+      "expected": "lesson-07",
+      "passed": true
+    },
+    {
+      "id": "lesson count 19",
+      "actual": 7,
+      "expected": 7,
+      "passed": true
+    },
+    {
+      "id": "lesson ID 19lesson-01",
+      "actual": "lesson-01",
+      "expected": "lesson-01",
+      "passed": true
+    },
+    {
+      "id": "lesson ID 19lesson-02",
+      "actual": "lesson-02",
+      "expected": "lesson-02",
+      "passed": true
+    },
+    {
+      "id": "lesson ID 19lesson-03",
+      "actual": "lesson-03",
+      "expected": "lesson-03",
+      "passed": true
+    },
+    {
+      "id": "lesson ID 19lesson-04",
+      "actual": "lesson-04",
+      "expected": "lesson-04",
+      "passed": true
+    },
+    {
+      "id": "lesson ID 19lesson-05",
+      "actual": "lesson-05",
+      "expected": "lesson-05",
+      "passed": true
+    },
+    {
+      "id": "lesson ID 19lesson-06",
+      "actual": "lesson-06",
+      "expected": "lesson-06",
+      "passed": true
+    },
+    {
+      "id": "lesson ID 19lesson-07",
+      "actual": "lesson-07",
+      "expected": "lesson-07",
+      "passed": true
+    },
+    {
+      "id": "lesson count 20",
+      "actual": 7,
+      "expected": 7,
+      "passed": true
+    },
+    {
+      "id": "lesson ID 20lesson-01",
+      "actual": "lesson-01",
+      "expected": "lesson-01",
+      "passed": true
+    },
+    {
+      "id": "lesson ID 20lesson-02",
+      "actual": "lesson-02",
+      "expected": "lesson-02",
+      "passed": true
+    },
+    {
+      "id": "lesson ID 20lesson-03",
+      "actual": "lesson-03",
+      "expected": "lesson-03",
+      "passed": true
+    },
+    {
+      "id": "lesson ID 20lesson-04",
+      "actual": "lesson-04",
+      "expected": "lesson-04",
+      "passed": true
+    },
+    {
+      "id": "lesson ID 20lesson-05",
+      "actual": "lesson-05",
+      "expected": "lesson-05",
+      "passed": true
+    },
+    {
+      "id": "lesson ID 20lesson-06",
+      "actual": "lesson-06",
+      "expected": "lesson-06",
+      "passed": true
+    },
+    {
+      "id": "lesson ID 20lesson-07",
+      "actual": "lesson-07",
+      "expected": "lesson-07",
+      "passed": true
+    },
+    {
+      "id": "answered C17.01-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C17.01-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C17.01-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "pacing C17.01",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "answered C17.02-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C17.02-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C17.02-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "pacing C17.02",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "answered C17.03-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C17.03-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C17.03-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "pacing C17.03",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "answered C17.04-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C17.04-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C17.04-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "pacing C17.04",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "answered C17.05-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C17.05-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C17.05-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "pacing C17.05",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "answered C17.06-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C17.06-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C17.06-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "pacing C17.06",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "answered C17.07-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C17.07-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C17.07-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "pacing C17.07",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "answered C17.08-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C17.08-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C17.08-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "pacing C17.08",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "resolved C17-CAP-01 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C17-CAP-01 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C17-CAP-01 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C17-CAP-01 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C17-CAP-02 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C17-CAP-02 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C17-CAP-02 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C17-CAP-02 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C17-CAP-03 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C17-CAP-03 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C17-CAP-03 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C17-CAP-03 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C17-CAP-04 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C17-CAP-04 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C17-CAP-04 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C17-CAP-04 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C17-CAP-05 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C17-CAP-05 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C17-CAP-05 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C17-CAP-05 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C17-CAP-06 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C17-CAP-06 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C17-CAP-06 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C17-CAP-06 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C17-CAP-07 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C17-CAP-07 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C17-CAP-07 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C17-CAP-07 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C17-CAP-08 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C17-CAP-08 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C17-CAP-08 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C17-CAP-08 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C17.01",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C17.02",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C17.03",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C17.04",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C17.05",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C17.06",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C17.07",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C17.08",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "stable contract course-17",
+      "actual": "f48ee46040414a6355434cec1a8fb54a820d6a35e15182e197bc688230cce30c",
+      "expected": "f48ee46040414a6355434cec1a8fb54a820d6a35e15182e197bc688230cce30c",
+      "passed": true
+    },
+    {
+      "id": "answered C18.01-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C18.01-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C18.01-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "pacing C18.01",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "answered C18.02-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C18.02-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C18.02-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "supplement answered C18.S01 worked_task_and_answer",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "supplement answered C18.S01 practice_task_and_answer",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "supplement answered C18.S01 diagnostic_task_and_answer",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "pacing C18.02",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "answered C18.03-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C18.03-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C18.03-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "pacing C18.03",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "answered C18.04-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C18.04-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C18.04-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "pacing C18.04",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "answered C18.05-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C18.05-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C18.05-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "pacing C18.05",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "answered C18.06-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C18.06-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C18.06-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "supplement answered C18.S02 worked_task_and_answer",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "supplement answered C18.S02 practice_task_and_answer",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "supplement answered C18.S02 diagnostic_task_and_answer",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "pacing C18.06",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "answered C18.07-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C18.07-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C18.07-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "supplement answered C18.S03 worked_task_and_answer",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "supplement answered C18.S03 practice_task_and_answer",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "supplement answered C18.S03 diagnostic_task_and_answer",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "pacing C18.07",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "resolved C18-CAP-01 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C18-CAP-01 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C18-CAP-01 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C18-CAP-01 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C18-CAP-02 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C18-CAP-02 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C18-CAP-02 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C18-CAP-02 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C18-CAP-03 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C18-CAP-03 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C18-CAP-03 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C18-CAP-03 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C18-CAP-04 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C18-CAP-04 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C18-CAP-04 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C18-CAP-04 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C18-CAP-05 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C18-CAP-05 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C18-CAP-05 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C18-CAP-05 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C18-CAP-06 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C18-CAP-06 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C18-CAP-06 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C18-CAP-06 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C18-CAP-07 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C18-CAP-07 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C18-CAP-07 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C18-CAP-07 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C18-CAP-08 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C18-CAP-08 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C18-CAP-08 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C18-CAP-08 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C18-CAP-09 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C18-CAP-09 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C18-CAP-09 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C18-CAP-09 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C18-CAP-10 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C18-CAP-10 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C18-CAP-10 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C18-CAP-10 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C18.01",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C18.02",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C18.03",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C18.04",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C18.05",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C18.06",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C18.07",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C18.S01",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C18.S02",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C18.S03",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "stable contract course-18",
+      "actual": "f7ab24bebf450438429e81a83c365ee2a3dafd3d086c9552f3e520d0af31035d",
+      "expected": "f7ab24bebf450438429e81a83c365ee2a3dafd3d086c9552f3e520d0af31035d",
+      "passed": true
+    },
+    {
+      "id": "answered C19.01-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C19.01-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C19.01-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "pacing C19.01",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "answered C19.02-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C19.02-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C19.02-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "pacing C19.02",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "answered C19.03-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C19.03-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C19.03-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "pacing C19.03",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "answered C19.04-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C19.04-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C19.04-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "pacing C19.04",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "answered C19.05-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C19.05-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C19.05-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "pacing C19.05",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "answered C19.06-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C19.06-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C19.06-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "pacing C19.06",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "answered C19.07-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C19.07-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C19.07-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "pacing C19.07",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "resolved C19-CAP-01 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C19-CAP-01 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C19-CAP-01 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C19-CAP-01 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C19-CAP-02 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C19-CAP-02 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C19-CAP-02 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C19-CAP-02 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C19-CAP-03 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C19-CAP-03 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C19-CAP-03 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C19-CAP-03 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C19-CAP-04 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C19-CAP-04 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C19-CAP-04 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C19-CAP-04 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C19-CAP-05 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C19-CAP-05 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C19-CAP-05 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C19-CAP-05 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C19-CAP-06 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C19-CAP-06 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C19-CAP-06 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C19-CAP-06 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C19-CAP-07 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C19-CAP-07 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C19-CAP-07 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C19-CAP-07 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C19.01",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C19.02",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C19.03",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C19.04",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C19.05",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C19.06",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C19.07",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "stable contract course-19",
+      "actual": "7260b6868a9b51dee46e8aaf5e84b32491decddb85b00e82c90e829f5feb8531",
+      "expected": "7260b6868a9b51dee46e8aaf5e84b32491decddb85b00e82c90e829f5feb8531",
+      "passed": true
+    },
+    {
+      "id": "answered C20.01-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C20.01-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C20.01-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "pacing C20.01",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "answered C20.02-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C20.02-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C20.02-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "pacing C20.02",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "answered C20.03-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C20.03-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C20.03-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "supplement answered C20.S01 worked_task_and_answer",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "supplement answered C20.S01 practice_task_and_answer",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "supplement answered C20.S01 diagnostic_task_and_answer",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "pacing C20.03",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "answered C20.04-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C20.04-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C20.04-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "pacing C20.04",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "answered C20.05-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C20.05-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C20.05-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "pacing C20.05",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "answered C20.06-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C20.06-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C20.06-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "pacing C20.06",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "answered C20.07-W1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C20.07-P1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "answered C20.07-D1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "supplement answered C20.S02 worked_task_and_answer",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "supplement answered C20.S02 practice_task_and_answer",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "supplement answered C20.S02 diagnostic_task_and_answer",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "pacing C20.07",
+      "actual": 55,
+      "expected": 55,
+      "passed": true
+    },
+    {
+      "id": "resolved C20-CAP-01 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C20-CAP-01 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C20-CAP-01 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C20-CAP-01 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C20-CAP-02 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C20-CAP-02 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C20-CAP-02 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C20-CAP-02 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C20-CAP-03 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C20-CAP-03 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C20-CAP-03 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C20-CAP-03 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C20-CAP-04 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C20-CAP-04 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C20-CAP-04 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C20-CAP-04 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C20-CAP-05 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C20-CAP-05 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C20-CAP-05 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C20-CAP-05 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C20-CAP-06 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C20-CAP-06 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C20-CAP-06 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C20-CAP-06 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C20-CAP-07 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C20-CAP-07 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C20-CAP-07 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C20-CAP-07 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C20-CAP-08 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C20-CAP-08 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C20-CAP-08 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C20-CAP-08 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C20-CAP-09 explanation_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C20-CAP-09 worked_example_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C20-CAP-09 prior_practice_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "resolved C20-CAP-09 diagnostic_id",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C20.01",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C20.02",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C20.03",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C20.04",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C20.05",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C20.06",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C20.07",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C20.S01",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "original concept preserved C20.S02",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "stable contract course-20",
+      "actual": "86625e4e042e90445c47601ad4c787a898a80bd620be9b31b91eb3876027083c",
+      "expected": "86625e4e042e90445c47601ad4c787a898a80bd620be9b31b91eb3876027083c",
+      "passed": true
+    }
+  ],
+  "course17": {
+    "link_ledgers": [
+      {
+        "px": 1,
+        "py": 2,
+        "U": "I",
+        "Gx": "I",
+        "Gy": -1,
+        "difference": "1 - 2*I",
+        "transformed_link": "1",
+        "transformed_difference": "2 + I"
+      },
+      {
+        "px": 2,
+        "py": "1 + I",
+        "U": "-I",
+        "Gx": -1,
+        "Gy": "I",
+        "difference": "1 + I",
+        "transformed_link": "1",
+        "transformed_difference": "-1 - I"
+      }
+    ],
+    "Cayley_ledgers": [
+      {
+        "L": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "2"
+          ]
+        ],
+        "tau": "1",
+        "input": [
+          [
+            "1"
+          ],
+          [
+            "2"
+          ]
+        ],
+        "C": [
+          [
+            "-I",
+            "0"
+          ],
+          [
+            "0",
+            "(1 - 2*I)**2/5"
+          ]
+        ],
+        "output": [
+          [
+            "-I"
+          ],
+          [
+            "-6/5 - 8*I/5"
+          ]
+        ],
+        "norm_squared": "5",
+        "L_expectation": "9"
+      },
+      {
+        "L": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "2"
+          ]
+        ],
+        "tau": "1/2",
+        "input": [
+          [
+            "1 + I"
+          ],
+          [
+            "2"
+          ]
+        ],
+        "C": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "-I"
+          ]
+        ],
+        "output": [
+          [
+            "1 + I"
+          ],
+          [
+            "-2*I"
+          ]
+        ],
+        "norm_squared": "6",
+        "L_expectation": "8"
+      }
+    ],
+    "Hodge_ledgers": [
+      {
+        "M": [
+          [
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "4",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "16"
+          ]
+        ],
+        "R": [
+          [
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1/4",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1/16"
+          ]
+        ],
+        "delta": "64",
+        "wedge2_R": [
+          [
+            "1/4",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1/16",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1/64"
+          ]
+        ],
+        "HE": [
+          [
+            "4",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1/4"
+          ]
+        ],
+        "HB": [
+          [
+            "4",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1/4"
+          ]
+        ],
+        "J": [
+          [
+            "0",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "-1",
+            "0"
+          ],
+          [
+            "1",
+            "0",
+            "0"
+          ]
+        ],
+        "bivector_order": [
+          "12",
+          "13",
+          "23"
+        ]
+      },
+      {
+        "M": [
+          [
+            "4",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "16"
+          ]
+        ],
+        "R": [
+          [
+            "1/4",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1/16"
+          ]
+        ],
+        "delta": "64",
+        "wedge2_R": [
+          [
+            "1/4",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1/64",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1/16"
+          ]
+        ],
+        "HE": [
+          [
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "4",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1/4"
+          ]
+        ],
+        "HB": [
+          [
+            "4",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1/4",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "J": [
+          [
+            "0",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "-1",
+            "0"
+          ],
+          [
+            "1",
+            "0",
+            "0"
+          ]
+        ],
+        "bivector_order": [
+          "12",
+          "13",
+          "23"
+        ]
+      }
+    ],
+    "certificate_replay": "not assigned; source-scoped reading only"
+  },
+  "course18": {
+    "square_shift": [
+      [
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0"
+      ]
+    ],
+    "input_defect": [
+      [
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "output_defect": [
+      [
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0"
+      ]
+    ],
+    "finite_index": 0,
+    "rectangular_isometry": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "1"
+      ]
+    ],
+    "q0_through_q3": [
+      [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ]
+    ],
+    "correlation_projector": [
+      [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "CP_witness": {
+      "S": [
+        [
+          "2",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1/2"
+        ]
+      ],
+      "Yd": [
+        [
+          "1/2",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "(1 - sqrt(3)*I)**2/4",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "-1 + sqrt(3)*I"
+        ]
+      ],
+      "product_determinant": 1,
+      "diagonal_example_commutator": [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ]
+    }
+  },
+  "course19": {
+    "action_ledgers": [
+      {
+        "path": [
+          0,
+          1,
+          3
+        ],
+        "dt": 1,
+        "k": 2,
+        "potential_coefficient": 2,
+        "signed_terms": [
+          1,
+          3
+        ],
+        "total_action": 4
+      },
+      {
+        "path": [
+          1,
+          2,
+          2
+        ],
+        "dt": 1,
+        "k": 2,
+        "potential_coefficient": 2,
+        "signed_terms": [
+          0,
+          -4
+        ],
+        "total_action": -4
+      }
+    ],
+    "six_phase_ledgers": [
+      {
+        "order": [
+          "UV",
+          "light",
+          "reg",
+          "heavy",
+          "cap",
+          "induced"
+        ],
+        "values": [
+          "I",
+          "I",
+          -1,
+          "-I",
+          "I",
+          1
+        ],
+        "total": "1"
+      },
+      {
+        "order": [
+          "UV",
+          "light",
+          "reg",
+          "heavy",
+          "cap",
+          "induced"
+        ],
+        "values": [
+          -1,
+          "I",
+          "I",
+          1,
+          "-I",
+          "I"
+        ],
+        "total": "1"
+      }
+    ],
+    "dual_lattice_checks": [
+      {
+        "d": [
+          1,
+          0,
+          48
+        ],
+        "pairing": "1",
+        "integer": true
+      },
+      {
+        "d": [
+          0,
+          1,
+          54
+        ],
+        "pairing": "1",
+        "integer": true
+      },
+      {
+        "d": [
+          1,
+          1,
+          30
+        ],
+        "pairing": "1",
+        "integer": true
+      },
+      {
+        "d": [
+          1,
+          1,
+          -42
+        ],
+        "pairing": "0",
+        "integer": true
+      },
+      {
+        "d": [
+          1,
+          1,
+          0
+        ],
+        "pairing": "7/12",
+        "integer": false
+      }
+    ]
+  },
+  "course20": {
+    "class_counts": [
+      9,
+      9,
+      9
+    ],
+    "indicator_amplitude": "1/3",
+    "dimensions": [
+      3,
+      8,
+      8,
+      8
+    ],
+    "nine_translation_isometry": true,
+    "Weyl_ledgers": [
+      {
+        "label": "worked",
+        "Y": [
+          [
+            "1",
+            "0",
+            "1"
+          ],
+          [
+            "5/2 + sqrt(3)*I/2",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "5/2 - sqrt(3)*I/2",
+            "1"
+          ]
+        ],
+        "all_nine_coefficients": {
+          "(0, 0)": "1",
+          "(0, 1)": "2",
+          "(0, 2)": "0",
+          "(1, 0)": "0",
+          "(1, 1)": "0",
+          "(1, 2)": "0",
+          "(2, 0)": "0",
+          "(2, 1)": "-1",
+          "(2, 2)": "0"
+        },
+        "reconstruction_difference": [
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ]
+        ]
+      },
+      {
+        "label": "practice",
+        "Y": [
+          [
+            "3",
+            "-1",
+            "0"
+          ],
+          [
+            "0",
+            "3/2 + sqrt(3)*I/2",
+            "-1"
+          ],
+          [
+            "-1",
+            "0",
+            "3/2 - sqrt(3)*I/2"
+          ]
+        ],
+        "all_nine_coefficients": {
+          "(0, 0)": "2",
+          "(0, 1)": "0",
+          "(0, 2)": "-1",
+          "(1, 0)": "1",
+          "(1, 1)": "0",
+          "(1, 2)": "0",
+          "(2, 0)": "0",
+          "(2, 1)": "0",
+          "(2, 2)": "0"
+        },
+        "reconstruction_difference": [
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ]
+        ]
+      }
+    ],
+    "Schur_ledgers": [
+      {
+        "K": [
+          [
+            "2",
+            "1"
+          ],
+          [
+            "1",
+            "3"
+          ]
+        ],
+        "source": [
+          [
+            "5"
+          ],
+          [
+            "7"
+          ]
+        ],
+        "E": "3",
+        "Schur": "5/3",
+        "reduced_source": "8/3",
+        "u": "8/5",
+        "w": "9/5",
+        "determinant": "5"
+      },
+      {
+        "K": [
+          [
+            "3",
+            "1"
+          ],
+          [
+            "2",
+            "2"
+          ]
+        ],
+        "source": [
+          [
+            "7"
+          ],
+          [
+            "8"
+          ]
+        ],
+        "E": "2",
+        "Schur": "2",
+        "reduced_source": "3",
+        "u": "3/2",
+        "w": "5/2",
+        "determinant": "4"
+      }
+    ],
+    "conditional_rank48": true,
+    "occupation_selection_replay": false
+  },
+  "source_or_project_files_modified": false,
+  "large_arrays_saved": false
+}

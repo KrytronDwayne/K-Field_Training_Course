@@ -1,0 +1,438 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Plane Crossings, Rulers, and Event Geometry · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/25">Course 25</a><span>/</span><span>course</span></div><a class="original" href="../../../kfield-25-plane-crossings-rulers-and-event-geometry/course.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#plane-crossings-rulers-and-event-geometry">Plane Crossings, Rulers, and Event Geometry</a><a href="#lesson-1-signed-distance-to-a-plane">Lesson 1 — Signed distance to a plane</a><a href="#c2501-e1-build-the-coordinate">C25.01-E1 — Build the coordinate</a><a href="#c2501-w1-worked-synthetic-path">C25.01-W1 — Worked synthetic path</a><a href="#c2501-p1-practice-and-worked-answer">C25.01-P1 — Practice and worked answer</a><a href="#diagnostics">Diagnostics</a><a href="#lesson-2-crossing-rates-from-velocity">Lesson 2 — Crossing rates from velocity</a><a href="#c2502-e1-derive-before-naming">C25.02-E1 — Derive before naming</a><a href="#c2502-w1-worked-projection-and-reversal">C25.02-W1 — Worked projection and reversal</a><a href="#c2502-p1-practice-and-worked-answer">C25.02-P1 — Practice and worked answer</a><a href="#moving-geometry-finite-replay-first">Moving geometry — finite replay first</a><a href="#diagnostics_1">Diagnostics</a><a href="#lesson-3-spatial-spacing-and-a-temporal-signal">Lesson 3 — Spatial spacing and a temporal signal</a><a href="#c2503-e1-period-and-phase">C25.03-E1 — Period and phase</a><a href="#c2503-w1-worked-event-sequence">C25.03-W1 — Worked event sequence</a><a href="#c2503-p1-practice-and-worked-answer">C25.03-P1 — Practice and worked answer</a><a href="#changing-rate-bridge-without-calculus">Changing-rate bridge without calculus</a><a href="#diagnostics_2">Diagnostics</a><a href="#lesson-4-optical-oscillator-and-crystal-rulers">Lesson 4 — Optical, oscillator, and crystal rulers</a><a href="#c2504-e1-attach-a-meaning-to-each-number">C25.04-E1 — Attach a meaning to each number</a><a href="#c2504-w1-worked-synthetic-comparison">C25.04-W1 — Worked synthetic comparison</a><a href="#c2504-p1-practice-and-worked-answer">C25.04-P1 — Practice and worked answer</a><a href="#diagnostics_3">Diagnostics</a><a href="#lesson-5-events-and-interpolation">Lesson 5 — Events and interpolation</a><a href="#c2505-e1-continuity-is-part-of-the-input">C25.05-E1 — Continuity is part of the input</a><a href="#c2505-w1-worked-brackets-and-hidden-roots">C25.05-W1 — Worked brackets and hidden roots</a><a href="#c2505-p1-three-practice-cases">C25.05-P1 — Three practice cases</a><a href="#refinement-uncertainty-and-unresolved-intervals">Refinement, uncertainty and unresolved intervals</a><a href="#diagnostics_4">Diagnostics</a><a href="#lesson-6-meridian-events-versus-spatial-sheet-passages">Lesson 6 — Meridian events versus spatial-sheet passages</a><a href="#c2506-e1-state-the-equation-first">C25.06-E1 — State the equation first</a><a href="#c2506-w1-worked-synthetic-clocks">C25.06-W1 — Worked synthetic clocks</a><a href="#c2506-p1-practice-and-worked-answer">C25.06-P1 — Practice and worked answer</a><a href="#unwrapping-preserves-the-turn-count">Unwrapping preserves the turn count</a><a href="#diagnostics_5">Diagnostics</a><a href="#lesson-7-a-signed-crossing-ledger">Lesson 7 — A signed crossing ledger</a><a href="#c2507-e1-a-record-not-just-a-time">C25.07-E1 — A record, not just a time</a><a href="#c2507-w1-worked-two-family-ledger">C25.07-W1 — Worked two-family ledger</a><a href="#c2507-p1-practice-and-worked-answer">C25.07-P1 — Practice and worked answer</a><a href="#residual-reconstruction-and-uncertainty">Residual reconstruction and uncertainty</a><a href="#diagnostics_6">Diagnostics</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 1 — Signed distance to a plane</a><a  href="lesson-02.html">Lesson 2 — Crossing rates from velocity</a><a  href="lesson-03.html">Lesson 3 — Spatial spacing and a temporal signal</a><a  href="lesson-04.html">Lesson 4 — Optical, oscillator, and crystal rulers</a><a  href="lesson-05.html">Lesson 5 — Events and interpolation</a><a  href="lesson-06.html">Lesson 6 — Meridian events versus spatial-sheet passages</a><a  href="lesson-07.html">Lesson 7 — A signed crossing ledger</a></details></aside><div class="reading-column"><article class="prose"><h1 id="plane-crossings-rulers-and-event-geometry" tabindex="-1">Plane Crossings, Rulers, and Event Geometry</h1>
+<p>Student course — seven lessons, eleven core periods. See <a href="course-map.html">course map</a>, <a href="terminology.html">glossary</a>, <a href="capstone.html">capstone and key</a>, <a href="teacher-guide.html">teacher guide</a> and <a href="source-notes.html">source notes</a>. All teaching below is reproduced verbatim from the audited lesson files.</p>
+
+<h1 id="lesson-1-signed-distance-to-a-plane" tabindex="-1">Lesson 1 — Signed distance to a plane</h1>
+<p><strong>Essential question:</strong> How can one number tell us which side of a sheet a sensor occupies?</p>
+<p><strong>Goals:</strong> Compute a dot product; distinguish signed distance from sheet count; retain the origin, orientation and full path needed for replay.</p>
+<p><strong>Time:</strong> 55 minutes: retrieval 5, teaching/example 20, practice 15, diagnostics/repair 15.</p>
+<p><strong>Prerequisite bridge:</strong> You can add signed fractions and substitute time into a linear equation. A position is an ordered list of three coordinates. Earlier courses supply coordinate frames; here we review every operation needed. All three coordinates below use perpendicular axes with the same length unit. An oblique cell-coordinate tuple cannot be substituted as if it were a Cartesian position.</p>
+<h2 id="c2501-e1-build-the-coordinate" tabindex="-1">C25.01-E1 — Build the coordinate</h2>
+<p>Imagine parallel, equally spaced sheets extending in all directions within each sheet. A normal is an arrow perpendicular to a sheet. Orienting the arrow chooses the positive side. A <strong>unit normal</strong> has length one and carries direction, not metres. For n=(n_x,n_y,n_z), squared length is n_x²+n_y²+n_z². To normalize a nonzero arrow, divide each component by the square root of that sum. A zero arrow cannot define a normal.</p>
+<p>Choose a fixed origin o, positive spacing d and position x. Subtract positions component by component, then take the <strong>dot product</strong>:</p>
+<p><code>n·(x−o)=n_x(x_x−o_x)+n_y(x_y−o_y)+n_z(x_z−o_z)</code>.</p>
+<p>This adds displacement components weighted by how much the normal points along each axis. For a unit normal the result is signed perpendicular distance to the sheet through o. Moving within that sheet contributes zero. Negative distance means the opposite side of the chosen normal; ordinary nonnegative distance is its absolute value.</p>
+<p>Number sheets by integers k: …,−2,−1,0,1,2,… . Sheet k obeys n·(x−o)=kd. Define:</p>
+<ul>
+<li><code>s_k=n·(x−o)−kd</code>: signed distance to sheet k, in metres here.</li>
+<li><code>q=n·(x−o)/d</code>: dimensionless sheet coordinate, also called phase in cycles.</li>
+<li><code>s_k=d(q−k)</code>: reconstruction from q and sheet index.</li>
+</ul>
+<p>An event on sheet k requires q=k. At q=1/2 the sensor is halfway between sheets 0 and 1. No rounding is required. Cell3 half-open cell ownership is a separate operation, not an event definition.</p>
+<h2 id="c2501-w1-worked-synthetic-path" tabindex="-1">C25.01-W1 — Worked synthetic path</h2>
+<p>Use n=(3/5,4/5,0), o=(0,0,0) m, d=3/5 m. Let t be elapsed seconds from a synthetic start and x(t)=((2 m/s)t,0,0). Writing x=(2t,0,0) m is shorthand only when t denotes its numerical value in seconds.</p>
+<p>The squared normal length is 9/25+16/25=1. Projection is (3/5)(2 m/s)t=(6/5 m/s)t. Dividing by 3/5 m gives q=(2/s)t. At t=1/4 s, s_0=3/10 m and q=1/2. Distance to sheet 1 is 3/10−3/5=−3/10 m. Solve 2t=1, with t in seconds, to get the sheet-1 event t=1/2 s; substitution gives s_1=0.</p>
+<blockquote>
+<p><strong>Claim scope:</strong> This is synthetic Cartesian geometry, not the mature Cell3 basis or measured motion. T10 supplies ruler vocabulary; arithmetic follows from our declarations. Source ICRS columns and handedness remain unchanged. Scalar q cannot reconstruct a whole position, so keep all components of x(t).</p>
+</blockquote>
+<h2 id="c2501-p1-practice-and-worked-answer" tabindex="-1">C25.01-P1 — Practice and worked answer</h2>
+<p>Keep n,o,d but use x(t)=((−2 m/s)t,0,0). Find q and s_(−1) at 1/2 s. In a separately labeled geometry revision, set o=(1,0,0) m; find the shift in q.</p>
+<p><strong>Answer:</strong> Projection at 1/2 s is −3/5 m. Thus q=−1 and s_(−1)=−3/5−(−1)(3/5)=0 m. The new origin subtracts 3/5 m from the projection, shifting q by −1: q_new=−2t−1 for t in seconds. Keep both geometry IDs. This particular full-spacing shift reindexes the same sheet set but changes the sheet called zero.</p>
+<h2 id="diagnostics" tabindex="-1">Diagnostics</h2>
+<ol>
+<li><strong>C25.01-D1:</strong> Is q=−2 invalid? What if d=0?</li>
+<li><strong>C25.01-D2:</strong> Normalize (3,4,0). Why is its original dot product not distance?</li>
+<li><strong>C25.01-D3:</strong> For q=3/2 and d=2 m, find s_1 and s_2.</li>
+<li><strong>C25.01-D4:</strong> Can q reveal motion along a sheet?</li>
+</ol>
+<p><strong>Worked answers:</strong> (1) Negative q preserves side and index. Zero d makes division undefined; retain a geometry-failure status. (2) Length √25=5 gives (3/5,4/5,0); the original projection is five times distance. (3) 2(3/2−1)=1 m and 2(3/2−2)=−1 m. (4) No: many positions share a projection. Keep x(t), o, n, d and unprojected components.</p>
+<p><strong>Next dependency:</strong> <a href="lesson-02.html">Lesson 2</a> compares signed coordinates at two times.</p>
+
+
+<h1 id="lesson-2-crossing-rates-from-velocity" tabindex="-1">Lesson 2 — Crossing rates from velocity</h1>
+<p><strong>Essential question:</strong> Which part of velocity changes the sheet coordinate?</p>
+<p><strong>Goals:</strong> Derive a fixed-family rate from two positions; preserve sign and dimensions; identify extra inputs when geometry moves.</p>
+<p><strong>Time:</strong> Two 55-minute periods, each retrieval 5, teaching/example 20, practice 15, checks/repair 15. Period 1 covers fixed geometry and P1; period 2 covers changing geometry, P2 and D3–D4.</p>
+<p><strong>Prerequisite bridge:</strong> Lesson 1 gives q=n·(x−o)/d. Velocity is displacement divided by elapsed time, separately for each coordinate. A delta Δ means final minus initial: Δx=x(t_2)−x(t_1), Δt=t_2−t_1&gt;0.</p>
+<h2 id="c2502-e1-derive-before-naming" tabindex="-1">C25.02-E1 — Derive before naming</h2>
+<p>Hold n,o,d fixed. Subtract q values; the origin terms cancel, leaving Δq=n·Δx/d. Divide by Δt. For constant velocity v=Δx/Δt:</p>
+<p><code>signed rate r=Δq/Δt=n·v/d</code>.</p>
+<p>The <strong>projected velocity</strong> n·v has units m/s. Dividing by spacing in metres gives s⁻¹. Positive r increases sheet index; negative r decreases it. Absolute value |r| is unsigned; save r alongside it. A rate of 2 s⁻¹ means two spacings per second, not necessarily two recorded events in every short window. Starting phase and endpoint inclusion matter.</p>
+<p>The dot notation q̇ means instantaneous rate. For linear motion it equals r. When motion changes, a finite ratio is an average; q̇ describes the rate approached over shorter intervals at one instant. No limit calculations are required here.</p>
+<h2 id="c2502-w1-worked-projection-and-reversal" tabindex="-1">C25.02-W1 — Worked projection and reversal</h2>
+<p>For n=(3/5,4/5,0), d=3/5 m, v=(2,0,0) m/s, n·v=6/5 m/s. Therefore r=(6/5)/(3/5)=2 s⁻¹. Independent check: in half a second x advances 1 m; its projection advances 3/5 m, exactly one spacing, giving 1/(1/2 s)=2 s⁻¹.</p>
+<p>Reverse v to (−2,0,0) m/s. Projection becomes −6/5 m/s and r=−2 s⁻¹. Both magnitudes are 2 Hz if one cycle denotes a sheet interval, but sheet orders are opposite. Taking absolute value alone loses direction.</p>
+<h2 id="c2502-p1-practice-and-worked-answer" tabindex="-1">C25.02-P1 — Practice and worked answer</h2>
+<p>Let n=(0,1,0), d=1 m. Find r for v=(2,0,0) and v=(0,−3,0) m/s. How long does the nonzero constant rate take to traverse one interval?</p>
+<p><strong>Answer:</strong> First dot product is zero; r=0 and motion is parallel to sheets. There is no finite traversal period. A path already on a sheet may remain on it. Second dot product is −3 m/s; r=−3 s⁻¹. Three spacings per second gives a positive interval of 1/3 s, with direction still negative.</p>
+<h2 id="moving-geometry-finite-replay-first" tabindex="-1">Moving geometry — finite replay first</h2>
+<p>Take n=(1,0,0), d=1 m, x(t)=((2 m/s)t,0,0), but o(t)=((1 m/s)t,0,0). At 0 s, q=0. At 1 s, x−o=(1,0,0) m, so q=1. The rate is 1 s⁻¹. Using sensor velocity alone gives a wrong result because the sheets move too.</p>
+<p>If normal or spacing changes, evaluate their values at both endpoints. For stationary x=(2,0,0) m, o=0, n=(1,0,0), let d rise from 1 m to 2 m over one second. Then q changes from 2 to 1: average rate −1 s⁻¹ despite zero sensor velocity.</p>
+<p><strong>C25.02-P2:</strong> Sensor and origin both move at (2,0,0) m/s. Initially x−o=(3,0,0) m; n=(1,0,0), d=1 m. Find q at 0 and 2 s. <strong>Answer:</strong> Relative position stays 3 m, so both values are 3 and rate is zero. Record persistent occupancy of sheet 3, not an isolated passage.</p>
+<p><strong>Recognition-only full derivative:</strong> For differentiable inputs,</p>
+<p><code>q̇=[ṅ·(x−o)+n·(v−ȯ)]/d − q ḋ/d</code>.</p>
+<p>Here ṅ is normal rate, ȯ origin velocity, ḋ spacing rate. The terms describe turning sheets, relative translation and changing scale; each has units s⁻¹. This is a product/quotient derivative rule. Its calculus derivation is outside the assessed core; endpoint replay is required and taught above. Fixed-family rate cannot be applied to changing geometry without checking the extra terms.</p>
+<blockquote>
+<p><strong>Claim scope:</strong> These are synthetic kinematics. T10 distinguishes directional crossing rate and magnitude-based beat frequency under its own contract. A geometric rate alone does not establish detector response. T45 preserves separate display scales and specified motion inputs; camera movement does not supply missing physical velocities.</p>
+</blockquote>
+<h2 id="diagnostics_1" tabindex="-1">Diagnostics</h2>
+<ol>
+<li><strong>C25.02-D1:</strong> Why is zero rate not a zero-second period?</li>
+<li><strong>C25.02-D2:</strong> Projected velocity is −4 m/s and d=2 m. Give signed/unsigned rates.</li>
+<li><strong>C25.02-D3:</strong> Which input changes in the moving-origin example, and what rate results?</li>
+<li><strong>C25.02-D4:</strong> Can n·v/d alone capture changing spacing for a stationary point?</li>
+</ol>
+<p><strong>Worked answers:</strong> (1) Traversal time requires dividing by a nonzero rate; zero has no finite traversal period. (2) −2 s⁻¹ and 2 s⁻¹, decreasing sheet index. (3) Origin moves at 1 m/s and sensor at 2 m/s; relative projection gives 1 s⁻¹. (4) No: q changed from 2 to 1 while v=0. Use the full definition and spacing history.</p>
+<p><strong>Next dependency:</strong> <a href="lesson-03.html">Lesson 3</a> converts constant rates into time scales.</p>
+
+
+<h1 id="lesson-3-spatial-spacing-and-a-temporal-signal" tabindex="-1">Lesson 3 — Spatial spacing and a temporal signal</h1>
+<p><strong>Essential question:</strong> When does equally spaced geometry give equally spaced event times?</p>
+<p><strong>Goals:</strong> Compute a traversal period; convert cycles to radians; preserve a changing-rate path instead of replacing it with one average.</p>
+<p><strong>Time:</strong> 55 minutes: retrieval 5, teaching/example 20, practice 15, diagnostics/repair 15.</p>
+<p><strong>Prerequisite bridge:</strong> Lesson 2 gives r=n·v/d. Time to travel a distance at constant speed is distance divided by speed. Here use perpendicular spacing and |n·v|, not full speed along the path.</p>
+<h2 id="c2503-e1-period-and-phase" tabindex="-1">C25.03-E1 — Period and phase</h2>
+<p>For a fixed family and constant nonzero projected velocity,</p>
+<p><code>T=d/|n·v|=1/|r|</code>.</p>
+<p>Metres divided by metres per second gives seconds. T separates successive passage times; initial q determines the wait to the first event. Unsigned frequency f=1/T is measured in hertz (Hz), cycles per second. Spatial frequency 1/d instead counts intervals per metre.</p>
+<p>One full turn is 2π radians; π is the circle constant and radians measure angle. A half turn is π, a quarter turn π/2. When one sheet interval is one cycle, <strong>unwrapped phase</strong> is φ=2πq radians. Unwrapped means retaining accumulated turns, including negative values, instead of resetting after each turn. For q=rt+q_0, φ=2πrt+2πq_0; signed angular rate is 2πr rad/s.</p>
+<h2 id="c2503-w1-worked-event-sequence" tabindex="-1">C25.03-W1 — Worked event sequence</h2>
+<p>With d=3/5 m and projected velocity 6/5 m/s, T=(3/5)/(6/5)=1/2 s. Start q(0)=0. Then q=2t for t in seconds. Solving q=k gives:</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Sheet k</th>
+<th style="text-align: right;">Time (s)</th>
+<th style="text-align: right;">Phase (rad)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>1</td>
+<td style="text-align: right;">1/2</td>
+<td style="text-align: right;">2π</td>
+</tr>
+<tr>
+<td>2</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">4π</td>
+</tr>
+<tr>
+<td>3</td>
+<td style="text-align: right;">3/2</td>
+<td style="text-align: right;">6π</td>
+</tr>
+</tbody>
+</table></div>
+<p>Reversing the path gives q=−2t. Times remain 0,1/2,1,3/2 s, indices become 0,−1,−2,−3 and phase becomes 0,−2π,−4π,−6π. A positive period cannot replace the signed sequence. The endpoint at 0 is classified as a passage using the declared linear extension around 0, not two observations inside this interval.</p>
+<h2 id="c2503-p1-practice-and-worked-answer" tabindex="-1">C25.03-P1 — Practice and worked answer</h2>
+<p>Keep projected velocity 6/5 m/s but declare a separate family with d=6/5 m. Find T,f. For the original q=2t, find φ and its value at 1/4 s.</p>
+<p><strong>Answer:</strong> T=(6/5)/(6/5)=1 s, f=1 Hz. Doubling spacing halves rate. Keep a new family ID, preserving the original ledger. Original φ=4πt rad for t in seconds; φ(1/4)=π rad.</p>
+<h2 id="changing-rate-bridge-without-calculus" tabindex="-1">Changing-rate bridge without calculus</h2>
+<p>For piecewise constant rates, accumulate each signed change Δq=rΔt. Start q=0. Let r=1 s⁻¹ on [0,1] s and 3 s⁻¹ on [1,2] s, maintaining continuity. Then q(1)=1 and q(2)=1+3=4. Events k=0,1,2,3,4 occur at 0,1,4/3,5/3,2 s. Average rate is 4/2=2 s⁻¹, but a constant-rate replacement puts k=1 at 1/2 s, wrongly moving the event.</p>
+<p><strong>C25.03-P2:</strong> Start q=0 with r=2 s⁻¹ for one second then −2 s⁻¹ for one second. Find q at 0,1,2 s. <strong>Answer:</strong> 0,2,0. Average is zero because signed changes cancel; motion and sheet encounters still occurred. Keep both segments and the reversal. Accumulating rates over arbitrarily short intervals is called integration; no integral calculation is required here.</p>
+<blockquote>
+<p><strong>Claim scope:</strong> Tables are synthetic derived geometry. A periodic phase can be an input to a response model. A measured signal additionally needs a response law and observations. Preserve any observed response as model plus residual, with original values recoverable.</p>
+</blockquote>
+<h2 id="diagnostics_2" tabindex="-1">Diagnostics</h2>
+<ol>
+<li><strong>C25.03-D1:</strong> Give units of 1/d, r and angular rate. Does zero instantaneous rate rule out a contact?</li>
+<li><strong>C25.03-D2:</strong> If q(0)=1/4 and r=2 s⁻¹, when is sheet 1 reached?</li>
+<li><strong>C25.03-D3:</strong> Convert q=−3/4 to radians.</li>
+<li><strong>C25.03-D4:</strong> Why does an average rate fail to place every variable-rate event?</li>
+</ol>
+<p><strong>Worked answers:</strong> (1) m⁻¹, s⁻¹, rad/s. No; a path can touch and reverse, as Lesson 5 shows. (2) 1/4+2t=1 gives 3/8 s. (3) −3π/2 rad. (4) It retains total signed change but loses its timing; the worked example's event at 1 s would move to 1/2 s.</p>
+<p><strong>Next dependency:</strong> <a href="lesson-04.html">Lesson 4</a> examines each ruler's physical meaning.</p>
+
+
+<h1 id="lesson-4-optical-oscillator-and-crystal-rulers" tabindex="-1">Lesson 4 — Optical, oscillator, and crystal rulers</h1>
+<p><strong>Essential question:</strong> When can we compare two rates without treating their physical sources as identical?</p>
+<p><strong>Goals:</strong> Classify length and time rulers; calculate a comparison with supplied speed; separate a numerical difference from an observed detector beat.</p>
+<p><strong>Time:</strong> 55 minutes: retrieval 5, teaching/example 20, practice 15, diagnostics/repair 15.</p>
+<p><strong>Prerequisite bridge:</strong> Lesson 3 converts a length spacing and projected velocity into a passage frequency. A ruler's unit is necessary information, but it does not completely describe what is being counted.</p>
+<h2 id="c2504-e1-attach-a-meaning-to-each-number" tabindex="-1">C25.04-E1 — Attach a meaning to each number</h2>
+<p>T10 names three ruler semantics: optical wavelength, oscillator period and matter crystal spacing. A wavelength is the distance between repeating wave phases at a specified time and in a specified medium/frame. An oscillator period is the time for a repeating process to complete a cycle. Crystal spacing is a distance between declared material planes. The word “ruler” allows a calculation to use one of these spacings; it does not make the physical objects interchangeable.</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Input</th>
+<th>Unit</th>
+<th>Meaning</th>
+<th>Additional input for a rate or length</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Optical wavelength λ</td>
+<td>m</td>
+<td>Repeating optical phase spacing</td>
+<td>Relative phase motion and geometry for actual encounters</td>
+</tr>
+<tr>
+<td>Oscillator period P</td>
+<td>s</td>
+<td>Time per cycle</td>
+<td>f_osc=1/P; length also needs a declared speed</td>
+</tr>
+<tr>
+<td>Crystal spacing d_crystal</td>
+<td>m</td>
+<td>Material plane separation</td>
+<td>Sensor/material relative projected velocity</td>
+</tr>
+</tbody>
+</table></div>
+<p>If a wave propagates at speed u and has period P, it travels uP in one cycle. Thus its wavelength is λ=uP under that wave's propagation model. Sensor velocity is not automatically u. If a ruler is deliberately treated as a fixed reference grid, r=n·v/d applies; if its actual phase sheets move, Lesson 2 requires their motion too.</p>
+<p>To compare two nonnegative frequencies on one time convention, we may define a <strong>difference frequency</strong> f_diff=|f_1−f_2|. Subtract first, then take absolute value. This arithmetic does not supply the interaction or detection law needed for a physical beat. A baseband signal is a lower-frequency detector output; an exposure average alone specifies no frequency-conversion mechanism. THz means 10¹² Hz, a unit scale, not a detector transfer rule.</p>
+<h2 id="c2504-w1-worked-synthetic-comparison" tabindex="-1">C25.04-W1 — Worked synthetic comparison</h2>
+<p>Declare a fixed reference-grid model with projected velocity +2 m/s. An illustrative optical-length ruler λ=0.5 m gives r_opt=2/0.5=+4 s⁻¹. A separate crystal-spacing ruler d_crystal=0.25 m gives r_crystal=2/0.25=+8 s⁻¹. These are intentionally large teaching spacings, not claims about a real optical or crystal experiment. An independent oscillator with P=0.5 s has f_osc=2 Hz.</p>
+<p>Under the declared comparison f_diff=||r_opt|−f_osc|, the difference is |4−2|=2 Hz. It is a derived comparison index, not an established optical detector beat. The rate 4 used the reference-grid assumption, not an unstated light propagation speed.</p>
+<h2 id="c2504-p1-practice-and-worked-answer" tabindex="-1">C25.04-P1 — Practice and worked answer</h2>
+<p>An oscillator period is 1/4 s. A separate hypothetical propagation model expressly supplies u=3 m/s. Compute frequency and wavelength. Reverse the sensor in W1; report what reverses and what remains positive.</p>
+<p><strong>Answer:</strong> f_osc=1/(1/4)=4 Hz. λ=uP=3×1/4=3/4 m. The speed belongs to this hypothetical propagation model, not to ordinary light or to the sensor. W1 passage rates become −4 and −8 s⁻¹; their magnitudes stay 4 and 8. The P=1/4 s oscillator frequency remains +4 Hz. The W1 oscillator with P=1/2 s is a different input and remains +2 Hz. Keep the two oscillator IDs.</p>
+<blockquote>
+<p><strong>Claim scope:</strong> T10's ruler categories and its directional/magnitude distinction are source facts. All numbers above are synthetic. T10 reports a physical Earth/CMB speed of 369812.50200040644 m/s in ICRS; that source value is not used as a propagation speed, phase-transformed velocity or universal speed in these exercises. A proposed detector mechanism must declare its own transfer inputs.</p>
+</blockquote>
+<h2 id="diagnostics_3" tabindex="-1">Diagnostics</h2>
+<ol>
+<li><strong>C25.04-D1:</strong> Two rates are both 4 Hz. Does this identify their mechanisms?</li>
+<li><strong>C25.04-D2:</strong> A period of 2 s is given without speed. Can you assign a wavelength?</li>
+<li><strong>C25.04-D3:</strong> Compare rates 7 Hz and 3 Hz under the defined difference rule.</li>
+<li><strong>C25.04-D4:</strong> Why is “average a THz input, therefore obtain this baseband beat” incomplete?</li>
+</ol>
+<p><strong>Worked answers:</strong> (1) No: equal values and units do not identify their physical roles. Retain labels, speeds and clocks. (2) Frequency is 1/2 Hz; wavelength is unresolved without speed/propagation model. (3) |7−3|=4 Hz, retaining both original rates. (4) It omits the detector response, interaction and exposure-transfer model. Preserve that missing-input status rather than inventing a conversion.</p>
+<p><strong>Next dependency:</strong> <a href="lesson-05.html">Lesson 5</a> locates events from a declared signed path and tests what endpoint samples can establish.</p>
+
+
+<h1 id="lesson-5-events-and-interpolation" tabindex="-1">Lesson 5 — Events and interpolation</h1>
+<p><strong>Essential question:</strong> What does a pair of signed samples actually tell us about the events between them?</p>
+<p><strong>Goals:</strong> Locate a zero on a linear segment; distinguish transverse passage, contact and discontinuity; preserve brackets, multiple roots and gaps.</p>
+<p><strong>Time:</strong> Three 55-minute periods, each retrieval 5, teaching/example 20, practice 15, checks/repair 15. Period 1: linear interpolation and P1a. Period 2: multiple roots and contacts, P1b and P2. Period 3: discontinuities, gaps, uncertainty, P1c and diagnostics.</p>
+<p><strong>Prerequisite bridge:</strong> From Lesson 1, an event on sheet k satisfies s_k=0. We now call the selected sheet's signed distance s(t) to keep notation short. A <strong>root</strong> is a time where that value equals zero. A <strong>bracket</strong> [a,b] records both endpoint times, values and the rule trusted between them.</p>
+<h2 id="c2505-e1-continuity-is-part-of-the-input" tabindex="-1">C25.05-E1 — Continuity is part of the input</h2>
+<p>A continuous path changes without a jump. If s(a)&lt;0 and s(b)&gt;0, continuity guarantees at least one root between a and b: the value cannot get from negative to positive while skipping zero. This statement guarantees existence, not uniqueness. It needs continuity on the whole interval. A straight line with nonzero slope is a special case that crosses zero exactly once.</p>
+<p>For a declared linear segment, change per second is (s_b−s_a)/(b−a). At time t the distance is s_a+(s_b−s_a)(t−a)/(b−a). Set that expression to zero and solve:</p>
+<p><code>t*=a − s_a(b−a)/(s_b−s_a)</code>.</p>
+<p>The numerator has units m·s and denominator m, giving seconds. If endpoint values are equal, this division fails: equal nonzero values define a constant nonzero linear segment with no root; two zero values define continuous occupancy under the linear rule. Neither case is an isolated crossing.</p>
+<h2 id="c2505-w1-worked-brackets-and-hidden-roots" tabindex="-1">C25.05-W1 — Worked brackets and hidden roots</h2>
+<p>Let a=0 s, b=2 s, s_a=−2/5 m, s_b=6/5 m, and explicitly assume a linear segment. Difference is 8/5 m. Thus t*=0−(−2/5)(2)/(8/5)=1/2 s. Recheck using slope (8/5)/2=4/5 m/s: −2/5+(4/5)(1/2)=0 m. Save the original [0,2] s bracket and both endpoints alongside the exact model root.</p>
+<p>Now use a different path s(t)=(1 m)(τ−1)(τ−2), where τ=t/(1 s) is numerical time in seconds. Multiplication gives zero whenever either factor is zero, so roots are 1 and 2 s. At 0 and 3 s, s=2 m in both cases. Equal endpoint signs did not imply absence. At 1/2 s s=3/4 m; at 3/2 s s=−1/4 m; at 5/2 s s=3/4 m. Hence the first passage is positive-to-negative and the second negative-to-positive.</p>
+<h2 id="c2505-p1-three-practice-cases" tabindex="-1">C25.05-P1 — Three practice cases</h2>
+<p><strong>a.</strong> A linear path has s(1 s)=−1 m and s(3 s)=3 m. Locate the root and verify it.</p>
+<p><strong>b.</strong> For s(t)=(1 m)(τ−1)², classify the zero at 1 s using nearby values.</p>
+<p><strong>c.</strong> Let s=−1 m for t&lt;1 s and +1 m for t≥1 s. Do opposite signs at 0 and 2 s guarantee a zero?</p>
+<p><strong>Worked answers:</strong> (a) t*=1−(−1)(2)/4=3/2 s. Slope is 2 m/s; s(3/2)=−1+2(1/2)=0 m. (b) Squaring gives nonnegative values, with s=0 only at 1 s. Both 1/2 and 3/2 s give 1/4 m. This is a tangent contact: it touches and returns to the same side. Its instantaneous rate is zero; no calculus is needed to classify the equal-side pattern. (c) No: the path jumps and never takes the value zero. Save a discontinuity row, not an interpolated passage.</p>
+<h2 id="refinement-uncertainty-and-unresolved-intervals" tabindex="-1">Refinement, uncertainty and unresolved intervals</h2>
+<p>When a continuous path is known but not linear, halve a sign-changing bracket and evaluate the midpoint. Keep a smaller sign-changing bracket while preserving all earlier evaluations. This procedure is called bisection. A midpoint zero is an exact evaluated root; otherwise a finite bracket locates a root without pretending to know the exact time. It does not prove no other roots exist.</p>
+<p><strong>C25.05-P2:</strong> Let s(t)=(1 m)(τ²−2). Starting with [1,2] s, evaluate 1.5 s, then 1.25 s. <strong>Answer:</strong> Endpoint values are −1 and +2 m. At 1.5 s the value is +0.25 m, giving [1,1.5] s. At 1.25 s it is −0.4375 m, giving [1.25,1.5] s. All five values remain available. This is localization, not a claim of a measured timing uncertainty. A continuous increasing positive-time square has just one root here, but the generic sign-change rule alone does not give uniqueness.</p>
+<p>If values inside (1,2) s are unavailable, retain a gap row with all known endpoints and any independent continuity information. Without a path model, do not draw a line through the missing interval and report its root as exact. If continuity is independently assured and opposite endpoints are known, existence is justified but root count and times remain unresolved. If continuity is unknown, even existence is unresolved. A failed midpoint evaluation leaves the previous bracket valid under its previous assumptions; store the failed attempt.</p>
+<p>For measurement uncertainty, retain original values and their supplied bounds separately. A bound spanning zero cannot certify the sample's sign. For example a reported −0.02 m with bound ±0.05 m permits [−0.07,0.03] m. Do not choose the preferred sign. If no bounds were supplied, write “not supplied”; synthetic exact arithmetic is not evidence of zero instrument uncertainty.</p>
+<blockquote>
+<p><strong>Claim scope:</strong> Existence follows mathematically from continuity and signs. Linear interpolation is exact within a stated linear model; for samples of an unspecified curve it is only a model estimate. Contacts, failed refinements, endpoint roots, jumps and gaps are information, not disposable exceptions.</p>
+</blockquote>
+<h2 id="diagnostics_4" tabindex="-1">Diagnostics</h2>
+<ol>
+<li><strong>C25.05-D1:</strong> Known endpoint values straddle an unknown gap. What must the ledger retain?</li>
+<li><strong>C25.05-D2:</strong> Does a continuous sign change prove exactly one root?</li>
+<li><strong>C25.05-D3:</strong> A root lies at a shared endpoint of two adjacent brackets. Count it once or twice?</li>
+<li><strong>C25.05-D4:</strong> Is a tangent contact a negative-to-positive passage?</li>
+<li><strong>C25.05-D5:</strong> What is lost by replacing the original bracket with only its refined midpoint?</li>
+</ol>
+<p><strong>Worked answers:</strong> (1) Both values/times, gap, geometry, continuity status and unresolved timing/count; existence only if continuity is known. (2) No; there may be multiple roots. (3) One event ID for that same family/sheet/time, retaining both supporting brackets. Different families retain distinct rows even at the same time. (4) No; the square example is positive on both sides, with zero at contact. (5) Original sample evidence, sign checks and localization bounds. Retain every refinement and failure with provenance.</p>
+<p><strong>Next dependency:</strong> <a href="lesson-06.html">Lesson 6</a> applies event equations to angles and separates celestial meridians from spatial sheets.</p>
+
+
+<h1 id="lesson-6-meridian-events-versus-spatial-sheet-passages" tabindex="-1">Lesson 6 — Meridian events versus spatial-sheet passages</h1>
+<p><strong>Essential question:</strong> How can two events share a time but answer different geometric questions?</p>
+<p><strong>Goals:</strong> Solve simple meridian and quadrature equations; unwrap an angular coordinate; label celestial-direction and spatial events separately.</p>
+<p><strong>Time:</strong> 55 minutes: retrieval 5, teaching/example 20, practice 15, diagnostics/repair 15.</p>
+<p><strong>Prerequisite bridge:</strong> Lesson 3 taught full turn 2π, half turn π and quarter turn π/2. Lesson 5 taught that an event needs a declared equation. We now use angular equations as well as s_k=0. No actual sky ephemeris calculation is required.</p>
+<h2 id="c2506-e1-state-the-equation-first" tabindex="-1">C25.06-E1 — State the equation first</h2>
+<p>The local meridian is the sky's north–south reference great circle through the observer's zenith and celestial poles. Right ascension RA labels a celestial direction around the equatorial coordinate system. Local sidereal time LST labels the right ascension on the upper meridian. For this course's convention, the <strong>hour angle</strong> is H=LST−RA, increasing toward the west. Express both inputs in the same angular unit before subtraction.</p>
+<p>Angles differing by a whole number of turns describe the same wrapped direction. The notation “mod 2π” means “up to adding whole turns.” With integer j:</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Event type</th>
+<th>Equation for unwrapped H</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Upper meridian passage</td>
+<td>H=2πj</td>
+</tr>
+<tr>
+<td>Lower meridian passage</td>
+<td>H=(2j+1)π</td>
+</tr>
+<tr>
+<td>Positive quadrature</td>
+<td>H=π/2+2πj</td>
+</tr>
+<tr>
+<td>Negative quadrature</td>
+<td>H=−π/2+2πj</td>
+</tr>
+</tbody>
+</table></div>
+<p>Here quadrature means hour-angle quadrature relative to the meridian; it does not assert an object's angular separation from the Sun. Upper/lower labels distinguish two halves of the meridian circle, not necessarily visible versus hidden objects.</p>
+<p>A spatial sheet passage instead satisfies q(t)=k using position, origin, normal and spacing. A celestial <strong>direction-plane event</strong> may be defined by n·u(t)=0, where u is the dimensionless unit sightline and the plane passes through the direction-space origin. This asks whether a sightline lies in a plane, not whether the sensor occupies a physical sheet. An offset sheet, a direction-plane crossing and a meridian passage have different inputs. Record the event type even if their times coincide.</p>
+<h2 id="c2506-w1-worked-synthetic-clocks" tabindex="-1">C25.06-W1 — Worked synthetic clocks</h2>
+<p>On 0≤t≤2 h, let H(t)=(π/2 rad/h)t for a fictional object Star S. It reaches H=0 at 0 h (upper), π/2 at 1 h (positive quadrature), and π at 2 h (lower). A separate spatial path q(t)=(t/(1 h))−1/2 reaches sheet k=0 at 1/2 h. At that time H=π/4, none of the tabulated meridian/quadrature values. Thus the sheet event does not imply a meridian event.</p>
+<p>The spatial q can be realized by n=(1,0,0), o=0, d=1 m, x=((t/(1 h)−1/2) m,0,0). This complete input card prevents confusing angular and spatial coordinates.</p>
+<h2 id="c2506-p1-practice-and-worked-answer" tabindex="-1">C25.06-P1 — Practice and worked answer</h2>
+<p>Use fictional Star R, H(t)=π(t/(1 h)−1) rad on [0,2] h. A separate spatial path has q(t)=2t/(1 h), realized by n=(1,0,0), o=0, d=1 m, x=((2 m/h)t,0,0). Find upper/lower passages and the k=1 sheet event. Add both quadratures.</p>
+<p><strong>Answer:</strong> Upper: H=0 gives t=1 h. Lower: H=−π at 0 h and +π at 2 h; they are distinct endpoint events with different unwrapped branches. Negative quadrature is at 1/2 h; positive quadrature at 3/2 h. The sheet k=1 also occurs at 1/2 h. Keep two rows at that time: Star R negative quadrature and spatial-family k=1. Coincidence does not identify their equations.</p>
+<h2 id="unwrapping-preserves-the-turn-count" tabindex="-1">Unwrapping preserves the turn count</h2>
+<p>RA and LST are often expressed in angular hours, where 24 angular hours equal 2π radians; these are not elapsed civil hours. A displayed angle changing from 23.9 angular hours to 0.1 may be a small forward step through the display boundary. If continuous forward motion less than half a turn is independently known, unwrap the second value as 24.1, giving change +0.2 rather than −23.8. Save the displayed pair and the added turn count +1. Across a long gap the number of turns may be ambiguous; record that ambiguity instead of assuming the shortest change. Compute event equations on the unwrapped H track. A display wrap alone is not a physical transit.</p>
+<blockquote>
+<p><strong>Claim scope:</strong> These are definitions and synthetic clocks, not an actual UTC event prediction. T45's source-reported 97-state sidereal display has its own specified replay; our examples do not reproduce it. Source display chambers have independent scales, and the Galactic Center is a visual gauge. No Solar or Galactic short-window time law is supplied by these examples.</p>
+</blockquote>
+<h2 id="diagnostics_5" tabindex="-1">Diagnostics</h2>
+<ol>
+<li><strong>C25.06-D1:</strong> Does a jump from 24 to 0 angular hours by itself demonstrate a physical transit?</li>
+<li><strong>C25.06-D2:</strong> Is H=3π upper or lower meridian?</li>
+<li><strong>C25.06-D3:</strong> In P1, what two events occur at 1/2 h?</li>
+<li><strong>C25.06-D4:</strong> Can n·u=0 substitute for n·(x−o)=kd?</li>
+</ol>
+<p><strong>Worked answers:</strong> (1) No; preserve unwrapping, time convention and event equation. (2) Lower: 3π=(2×1+1)π. (3) Negative quadrature of Star R and k=1 spatial-sheet passage. (4) No: u is a unit direction; x−o is a length displacement. They answer different questions and require separate fields.</p>
+<p><strong>Next dependency:</strong> <a href="lesson-07.html">Lesson 7</a> combines typed event rows while keeping every sign, bracket and unresolved branch.</p>
+
+
+<h1 id="lesson-7-a-signed-crossing-ledger" tabindex="-1">Lesson 7 — A signed crossing ledger</h1>
+<p><strong>Essential question:</strong> What must an event record retain so another person can reproduce it without guessing?</p>
+<p><strong>Goals:</strong> Assemble multiple-family event rows; distinguish orientation, direction and polarity; reconstruct endpoint distances while preserving residuals and unresolved intervals.</p>
+<p><strong>Time:</strong> Two 55-minute periods, each retrieval 5, teaching/example 20, practice 15, diagnostics/repair 15. Period 1 builds W1 and the reversed-family practice. Period 2 reconstructs brackets and adds contact, gap and residual rows.</p>
+<p><strong>Prerequisite bridge:</strong> Lessons 1–3 connect a full path to q, signed rate and period. Lesson 4 keeps ruler roles distinct. Lessons 5–6 distinguish event types and their existence conditions. A <strong>ledger</strong> is a collection of records that preserve these inputs with each derived event.</p>
+<h2 id="c2507-e1-a-record-not-just-a-time" tabindex="-1">C25.07-E1 — A record, not just a time</h2>
+<p>Use an immutable input card to avoid repeating a long path in every row. A card ID refers to the exact path, geometry, clock and evidence class. Changing any input creates a new card. Every event row needs:</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Field</th>
+<th>What it retains</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Event ID and type</td>
+<td>Stable identity; sheet passage, contact, angular event, occupancy, gap or failure</td>
+</tr>
+<tr>
+<td>Family, sheet k and input-card ID</td>
+<td>Normal, origin, positive spacing, full path and units by reference</td>
+</tr>
+<tr>
+<td>Time and epoch/clock</td>
+<td>Numerical time plus the named start or absolute time convention</td>
+</tr>
+<tr>
+<td>Bracket and signed endpoint values</td>
+<td>Support before refinement; both adjacent brackets if applicable</td>
+</tr>
+<tr>
+<td>Continuity/model rule</td>
+<td>Linear, specified nonlinear, discontinuous or unknown</td>
+</tr>
+<tr>
+<td>Direction</td>
+<td>+ for increasing q through the sheet, − for decreasing; contact/unknown separately</td>
+</tr>
+<tr>
+<td>Orientation and polarity</td>
+<td>Actual oriented normal and a separately declared polarity convention</td>
+</tr>
+<tr>
+<td>Uncertainty and gaps</td>
+<td>Model localization interval, supplied measurement bounds, unresolved inputs</td>
+</tr>
+<tr>
+<td>Provenance and residual information</td>
+<td>Source/card pointer, retained components and reconstruction rule</td>
+</tr>
+</tbody>
+</table></div>
+<p>For this course only, each family is assigned a <strong>polarity label</strong> p of +1 or −1 independently of its travel direction. It is a declared tag, not detector parity, chirality or an inferred physical charge. Never infer it from time order. If the normal reverses while origin and spacing remain fixed, q and k must both change sign to describe the same physical sheet; its direction reverses in the new coordinate convention. Retain both orientations, not an unsigned normal alone.</p>
+<h2 id="c2507-w1-worked-two-family-ledger" tabindex="-1">C25.07-W1 — Worked two-family ledger</h2>
+<p><strong>Input card SYN-FWD:</strong> Fixed perpendicular Cartesian axes; synthetic elapsed seconds from epoch E0 (not an actual UTC date); x(t)=((2 m/s)t,0,0), defined linearly beyond both ends of reporting interval [0,3/2] s. Family A has n=(3/5,4/5,0), o=0 m, d=3/5 m, p=+1. Family B has n=(1,0,0), o=0 m, d=2 m, p=−1. The family name B here is a label, not the Cell3 basis matrix B. Both paths are exact synthetic models; measurement bounds are not applicable, not measured zero.</p>
+<p>Projection gives q_A=2t and q_B=t for numerical seconds. Retain both families at coincident times. All rows below have direction + and transverse passage under the declared extension. The bracket column uses evaluated model points, not fabricated observations. Distances refer to that row's sheet.</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Family:k</th>
+<th style="text-align: right;">Time s</th>
+<th>Bracket s</th>
+<th>Endpoint s_k values m</th>
+<th style="text-align: right;">p</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>F-A0</td>
+<td>A:0</td>
+<td style="text-align: right;">0</td>
+<td>[0,1/2]</td>
+<td>[0,3/5]</td>
+<td style="text-align: right;">+1</td>
+</tr>
+<tr>
+<td>F-A1</td>
+<td>A:1</td>
+<td style="text-align: right;">1/2</td>
+<td>[0,1]</td>
+<td>[−3/5,3/5]</td>
+<td style="text-align: right;">+1</td>
+</tr>
+<tr>
+<td>F-A2</td>
+<td>A:2</td>
+<td style="text-align: right;">1</td>
+<td>[1/2,3/2]</td>
+<td>[−3/5,3/5]</td>
+<td style="text-align: right;">+1</td>
+</tr>
+<tr>
+<td>F-A3</td>
+<td>A:3</td>
+<td style="text-align: right;">3/2</td>
+<td>[1,3/2]</td>
+<td>[−3/5,0]</td>
+<td style="text-align: right;">+1</td>
+</tr>
+<tr>
+<td>F-B0</td>
+<td>B:0</td>
+<td style="text-align: right;">0</td>
+<td>[0,1]</td>
+<td>[0,2]</td>
+<td style="text-align: right;">−1</td>
+</tr>
+<tr>
+<td>F-B1</td>
+<td>B:1</td>
+<td style="text-align: right;">1</td>
+<td>[1/2,3/2]</td>
+<td>[−1,1]</td>
+<td style="text-align: right;">−1</td>
+</tr>
+</tbody>
+</table></div>
+<p>Time roots are exact within SYN-FWD, so localization intervals are singleton sets {t}; retain the broader supporting brackets anyway. Boundary rows explicitly rely on the model extension for two-sided passage. Without that extension label them endpoint occupancy with only one-sided evidence. F-A2 and F-B1 both occur at 1 s, but belong to different sheet families. They are neither duplicate entries nor two independent observations: they are derived events on one synthetic trajectory.</p>
+<p>Reconstruct F-A2 at its endpoints: s_2=(3/5)(2t−2). At 1/2 s this is −3/5 m; at 3/2 s it is +3/5 m. Reconstruct F-B1 using s_1=2(t−1), obtaining −1 and +1 m. Replaying q does not recover movement parallel to sheets; SYN-FWD preserves all original path components.</p>
+<h2 id="c2507-p1-practice-and-worked-answer" tabindex="-1">C25.07-P1 — Practice and worked answer</h2>
+<p>Create SYN-REV by replacing x with ((−2 m/s)t,0,0), preserving geometry, polarity and extension. Report every A event on [0,3/2] s and all B events. Add separate input cards for Lesson 5's tangent s=(1 m)(t/(1 s)−1)² and a gap with known s(1 s)=−1 m, s(2 s)=+1 m, no values inside and unknown continuity. Use n=(1,0,0), o=0, d=1 m, k=0 and x=(s,0,0) for both separate cases; declare p=+1. The tangent is defined on [0,2] s. The gap card supplies no interpolating path.</p>
+<p><strong>Worked answer:</strong> q_A=−2t, q_B=−t. A indices are 0,−1,−2,−3 at 0,1/2,1,3/2 s, all direction −. B indices 0,−1 occur at 0,1 s, also direction −. Their polarities remain A:+1, B:−1. Use the same brackets as W1; the endpoint-distance pairs are the negatives of W1's corresponding pairs, because both q and k negate. For example A:−2 gives s_(−2)=(3/5)(−2t+2), hence +3/5 and −3/5 m on [1/2,3/2]. B:−1 gives s=2(−t+1), hence +1 and −1 m there.</p>
+<p>Add T-0: tangent contact at 1 s, bracket [0,2] s with distances [1,1] m, direction “contact; no sign reversal,” localization {1 s}, exact quadratic model, p=+1. Add G-0: unresolved interval (1,2) s with endpoints [−1,+1] m, unknown continuity, time/count/direction unknown, p=+1. The gap is a row, not evidence of absence or a fabricated t=1.5 s passage.</p>
+<h2 id="residual-reconstruction-and-uncertainty" tabindex="-1">Residual reconstruction and uncertainty</h2>
+<p>If an observed signed coordinate y and model m are available, define residual e=y−m and preserve y=m+e. For a small synthetic illustration at times [0,1,2] s, let y=[0,11/10,19/10] m and m=[0,1,2] m. Then e=[0,1/10,−1/10] m. Addition reconstructs every y, including the negative residual. Averaging e to zero would lose its ordered structure. These are illustrative sample values, not source data or instrument evidence.</p>
+<p><strong>C25.07-P2:</strong> Reconstruct y at 2 s; then suppose its supplied bound is ±1/20 m. What is retained? <strong>Answer:</strong> 2+(−1/10)=19/10 m. Keep y, m, e, timestamp and bound; the allowed y interval is [37/20,39/20] m. The residual describes a difference; the bound describes supplied uncertainty. Neither substitutes for the other. For a real archive, reference original records in place rather than duplicating raw data.</p>
+<blockquote>
+<p><strong>Claim scope:</strong> A signed ledger preserves derived structure and its provenance. It supplies no force or measured energy claim. Mechanisms remain separate hypotheses. Source-reported empirical rows must keep their own identifiers, uncertainties and dependencies; a new teaching ledger is not a replacement for them.</p>
+</blockquote>
+<h2 id="diagnostics_6" tabindex="-1">Diagnostics</h2>
+<ol>
+<li><strong>C25.07-D1:</strong> Can polarity be recovered by sorting event times?</li>
+<li><strong>C25.07-D2:</strong> Should F-A2 and F-B1 be merged because their times match?</li>
+<li><strong>C25.07-D3:</strong> What does an unknown gap permit you to say about its event time?</li>
+<li><strong>C25.07-D4:</strong> For y=9/10 m and model m=1 m, give the residual and reconstruction.</li>
+<li><strong>C25.07-D5:</strong> What changes when the normal is reversed but the same physical sheet is described?</li>
+</ol>
+<p><strong>Worked answers:</strong> (1) No: p is a separately declared convention. (2) No: retain both family IDs and shared-trajectory dependence. (3) Timing and count remain unresolved without sufficient path/continuity information. (4) e=−1/10 m and 1−1/10=9/10 m. (5) n,q,k and coordinate direction negate; d stays positive. Keep the orientation revision and separately specified polarity; do not silently identify the two signed ledgers.</p>
+<p><strong>Next dependency:</strong> <a href="capstone.html">Capstone</a> assembles and audits a complete synthetic ledger using these same operations.</p>
+</article><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/25">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

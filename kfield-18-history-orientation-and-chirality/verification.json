@@ -1,0 +1,984 @@
+{
+  "status": "passed",
+  "runtime": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+  "method": "Independent matrix/vector operations, exact Fraction cubic-phase arithmetic, source hashes/pointers and explicit teaching-anchor checks; no external packages",
+  "check_count": 183,
+  "checks": [
+    {
+      "id": "runtime",
+      "status": "passed",
+      "result": "c:\\users\\info\\.conda\\envs\\tf_gpu_env\\python.exe"
+    },
+    {
+      "id": "C18.01-W1",
+      "status": "passed",
+      "result": "['', 'a', 'b', 'aa', 'ab', 'ba', 'bb']"
+    },
+    {
+      "id": "C18.01-P1",
+      "status": "passed",
+      "result": "['b', 'ba', 'bb']"
+    },
+    {
+      "id": "C18.01-diagnostic-2",
+      "status": "passed",
+      "result": "8"
+    },
+    {
+      "id": "C18.02-W1-input",
+      "status": "passed",
+      "result": "[[(1+0j), 0j, 0j], [0j, (1+0j), 0j], [0j, 0j, 0j]]"
+    },
+    {
+      "id": "C18.02-W1-output",
+      "status": "passed",
+      "result": "[[0j, 0j, 0j], [0j, (1+0j), 0j], [0j, 0j, (1+0j)]]"
+    },
+    {
+      "id": "C18.S01-W1-terminal",
+      "status": "passed",
+      "result": "[[0j, 0j, 0j], [0j, 0j, 0j], [0j, 0j, (1+0j)]]"
+    },
+    {
+      "id": "C18.S01-W1-root",
+      "status": "passed",
+      "result": "[[(1+0j), 0j, 0j], [0j, 0j, 0j], [0j, 0j, 0j]]"
+    },
+    {
+      "id": "C18.02-P1-shift",
+      "status": "passed",
+      "result": "[0, 2, 3]"
+    },
+    {
+      "id": "C18.02-P1-reconstruct",
+      "status": "passed",
+      "result": "[(2+0j), (3+0j), (4+0j)]"
+    },
+    {
+      "id": "C18.02-P1-norm",
+      "status": "passed",
+      "result": "29"
+    },
+    {
+      "id": "C18.S01-P1/CAP-02-shift",
+      "status": "passed",
+      "result": "[0, 1, -2]"
+    },
+    {
+      "id": "C18.S01-P1/CAP-02-reconstruct",
+      "status": "passed",
+      "result": "[(1+0j), (-2+0j), (5+0j)]"
+    },
+    {
+      "id": "C18.S01-P1/CAP-02-norm",
+      "status": "passed",
+      "result": "30"
+    },
+    {
+      "id": "rectangular-input",
+      "status": "passed",
+      "result": "[[(1+0j), 0j], [0j, (1+0j)]]"
+    },
+    {
+      "id": "rectangular-output",
+      "status": "passed",
+      "result": "[[0j, 0j, 0j], [0j, (1+0j), 0j], [0j, 0j, (1+0j)]]"
+    },
+    {
+      "id": "C18.03-reconstruction-[5, 2, 3]",
+      "status": "passed",
+      "result": "[(5+0j), (2+0j), (3+0j)]"
+    },
+    {
+      "id": "C18.03-norm-[5, 2, 3]",
+      "status": "passed",
+      "result": "38.0"
+    },
+    {
+      "id": "C18.03-reconstruction-[-2, 0, 6]",
+      "status": "passed",
+      "result": "[(-2+0j), 0j, (6+0j)]"
+    },
+    {
+      "id": "C18.03-norm-[-2, 0, 6]",
+      "status": "passed",
+      "result": "40.0"
+    },
+    {
+      "id": "C18.03-counterexample",
+      "status": "passed",
+      "result": "[0, 0, 0]"
+    },
+    {
+      "id": "q-0",
+      "status": "passed",
+      "result": "[[(1+0j), 0j, 0j], [0j, 0j, 0j], [0j, 0j, 0j]]"
+    },
+    {
+      "id": "q-idempotent-0",
+      "status": "passed",
+      "result": "[[(1+0j), 0j, 0j], [0j, 0j, 0j], [0j, 0j, 0j]]"
+    },
+    {
+      "id": "q-adjoint-0",
+      "status": "passed",
+      "result": "[[(1-0j), -0j, -0j], [-0j, -0j, -0j], [-0j, -0j, -0j]]"
+    },
+    {
+      "id": "q-1",
+      "status": "passed",
+      "result": "[[0j, 0j, 0j], [0j, (1+0j), 0j], [0j, 0j, 0j]]"
+    },
+    {
+      "id": "q-idempotent-1",
+      "status": "passed",
+      "result": "[[0j, 0j, 0j], [0j, (1+0j), 0j], [0j, 0j, 0j]]"
+    },
+    {
+      "id": "q-adjoint-1",
+      "status": "passed",
+      "result": "[[-0j, -0j, -0j], [-0j, (1-0j), -0j], [-0j, -0j, -0j]]"
+    },
+    {
+      "id": "q-2",
+      "status": "passed",
+      "result": "[[0j, 0j, 0j], [0j, 0j, 0j], [0j, 0j, (1+0j)]]"
+    },
+    {
+      "id": "q-idempotent-2",
+      "status": "passed",
+      "result": "[[0j, 0j, 0j], [0j, 0j, 0j], [0j, 0j, (1+0j)]]"
+    },
+    {
+      "id": "q-adjoint-2",
+      "status": "passed",
+      "result": "[[-0j, -0j, -0j], [-0j, -0j, -0j], [-0j, -0j, (1-0j)]]"
+    },
+    {
+      "id": "q-3",
+      "status": "passed",
+      "result": "[[0j, 0j, 0j], [0j, 0j, 0j], [0j, 0j, 0j]]"
+    },
+    {
+      "id": "q-idempotent-3",
+      "status": "passed",
+      "result": "[[0j, 0j, 0j], [0j, 0j, 0j], [0j, 0j, 0j]]"
+    },
+    {
+      "id": "q-adjoint-3",
+      "status": "passed",
+      "result": "[[-0j, -0j, -0j], [-0j, -0j, -0j], [-0j, -0j, -0j]]"
+    },
+    {
+      "id": "q-orthogonal-10",
+      "status": "passed",
+      "result": "[[0j, 0j, 0j], [0j, 0j, 0j], [0j, 0j, 0j]]"
+    },
+    {
+      "id": "q-orthogonal-20",
+      "status": "passed",
+      "result": "[[0j, 0j, 0j], [0j, 0j, 0j], [0j, 0j, 0j]]"
+    },
+    {
+      "id": "q-orthogonal-21",
+      "status": "passed",
+      "result": "[[0j, 0j, 0j], [0j, 0j, 0j], [0j, 0j, 0j]]"
+    },
+    {
+      "id": "q-orthogonal-30",
+      "status": "passed",
+      "result": "[[0j, 0j, 0j], [0j, 0j, 0j], [0j, 0j, 0j]]"
+    },
+    {
+      "id": "q-orthogonal-31",
+      "status": "passed",
+      "result": "[[0j, 0j, 0j], [0j, 0j, 0j], [0j, 0j, 0j]]"
+    },
+    {
+      "id": "q-orthogonal-32",
+      "status": "passed",
+      "result": "[[0j, 0j, 0j], [0j, 0j, 0j], [0j, 0j, 0j]]"
+    },
+    {
+      "id": "C18.04-reconstruction-[1, 2, 3]",
+      "status": "passed",
+      "result": "[(1+0j), (2+0j), (3+0j)]"
+    },
+    {
+      "id": "C18.04-reconstruction-[-1, 4, 0]",
+      "status": "passed",
+      "result": "[(-1+0j), (4+0j), 0j]"
+    },
+    {
+      "id": "C18.04-reconstruction-[2, -1, 7]",
+      "status": "passed",
+      "result": "[(2+0j), (-1+0j), (7+0j)]"
+    },
+    {
+      "id": "C18.05-W1",
+      "status": "passed",
+      "result": "-6"
+    },
+    {
+      "id": "C18.05-P1",
+      "status": "passed",
+      "result": "[-8, -64, 64]"
+    },
+    {
+      "id": "C18.05-scale-three",
+      "status": "passed",
+      "result": "-162"
+    },
+    {
+      "id": "C18.06-anticommutator",
+      "status": "passed",
+      "result": "[[0, 0], [0, 0]]"
+    },
+    {
+      "id": "Pi-idempotence",
+      "status": "passed",
+      "result": "[[1, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 1]]"
+    },
+    {
+      "id": "C18.06-reconstruction-[1, 2, 3, 4]",
+      "status": "passed",
+      "result": "[1, 2, 3, 4]"
+    },
+    {
+      "id": "C18.06-norm-[1, 2, 3, 4]",
+      "status": "passed",
+      "result": "30"
+    },
+    {
+      "id": "C18.06-reconstruction-[2, -1, 0, 3]",
+      "status": "passed",
+      "result": "[2, -1, 0, 3]"
+    },
+    {
+      "id": "C18.06-norm-[2, -1, 0, 3]",
+      "status": "passed",
+      "result": "14"
+    },
+    {
+      "id": "C18.06-reconstruction-[0, 5, -2, 0]",
+      "status": "passed",
+      "result": "[0, 5, -2, 0]"
+    },
+    {
+      "id": "C18.06-norm-[0, 5, -2, 0]",
+      "status": "passed",
+      "result": "29"
+    },
+    {
+      "id": "angular-1",
+      "status": "passed",
+      "result": "4"
+    },
+    {
+      "id": "spin-1",
+      "status": "passed",
+      "result": "8"
+    },
+    {
+      "id": "angular-2",
+      "status": "passed",
+      "result": "9"
+    },
+    {
+      "id": "spin-2",
+      "status": "passed",
+      "result": "18"
+    },
+    {
+      "id": "angular-3",
+      "status": "passed",
+      "result": "16"
+    },
+    {
+      "id": "spin-3",
+      "status": "passed",
+      "result": "32"
+    },
+    {
+      "id": "C2-values",
+      "status": "passed",
+      "result": "[0, 2, 6, 12]"
+    },
+    {
+      "id": "spin-split-ell2",
+      "status": "passed",
+      "result": "[Fraction(6, 1), Fraction(4, 1)]"
+    },
+    {
+      "id": "C18.S03-W1-commutator",
+      "status": "passed",
+      "result": "[[2j, 0j], [0j, -2j]]"
+    },
+    {
+      "id": "C18.S03-P1-commutator",
+      "status": "passed",
+      "result": "[[0j, (2+2j)], [(-2+2j), 0j]]"
+    },
+    {
+      "id": "real-noncommuting",
+      "status": "passed",
+      "result": "[[0, 2], [-2, 0]]"
+    },
+    {
+      "id": "pointwise-commutator",
+      "status": "passed",
+      "result": "[[0, 0], [0, 0]]"
+    },
+    {
+      "id": "omega-cube",
+      "status": "passed",
+      "result": "(Fraction(1, 1), Fraction(0, 1))"
+    },
+    {
+      "id": "CP-S-square",
+      "status": "passed",
+      "result": "[Fraction(4, 1), Fraction(1, 1), Fraction(1, 4)]"
+    },
+    {
+      "id": "CP-product",
+      "status": "passed",
+      "result": "[(Fraction(1, 1), Fraction(0, 1)), (Fraction(-1, 1), Fraction(-1, 1)), (Fraction(0, 1), Fraction(1, 1))]"
+    },
+    {
+      "id": "CP-determinant",
+      "status": "passed",
+      "result": "(Fraction(1, 1), Fraction(0, 1))"
+    },
+    {
+      "id": "CP-diagonal-commuting",
+      "status": "passed",
+      "result": "[(Fraction(1, 1), Fraction(0, 1)), (Fraction(-1, 1), Fraction(-1, 1)), (Fraction(0, 1), Fraction(1, 1))]"
+    },
+    {
+      "id": "source-hash-S01",
+      "status": "passed",
+      "result": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180"
+    },
+    {
+      "id": "source-hash-S02",
+      "status": "passed",
+      "result": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3"
+    },
+    {
+      "id": "S02/backbone_sequence/13",
+      "status": "passed",
+      "result": "Exact JSON pointer resolves; body read separately for source audit"
+    },
+    {
+      "id": "S02/backbone_sequence/2",
+      "status": "passed",
+      "result": "Exact JSON pointer resolves; body read separately for source audit"
+    },
+    {
+      "id": "S02/backbone_sequence/10",
+      "status": "passed",
+      "result": "Exact JSON pointer resolves; body read separately for source audit"
+    },
+    {
+      "id": "S02/branch_proofs/5",
+      "status": "passed",
+      "result": "Exact JSON pointer resolves; body read separately for source audit"
+    },
+    {
+      "id": "S02/proof_nodes/4",
+      "status": "passed",
+      "result": "Exact JSON pointer resolves; body read separately for source audit"
+    },
+    {
+      "id": "S02/proof_nodes/18",
+      "status": "passed",
+      "result": "Exact JSON pointer resolves; body read separately for source audit"
+    },
+    {
+      "id": "S02/proof_nodes/25",
+      "status": "passed",
+      "result": "Exact JSON pointer resolves; body read separately for source audit"
+    },
+    {
+      "id": "S02/branch_proofs/10",
+      "status": "passed",
+      "result": "Exact JSON pointer resolves; body read separately for source audit"
+    },
+    {
+      "id": "S02/proof_nodes/9",
+      "status": "passed",
+      "result": "Exact JSON pointer resolves; body read separately for source audit"
+    },
+    {
+      "id": "S02/proof_nodes/76",
+      "status": "passed",
+      "result": "Exact JSON pointer resolves; body read separately for source audit"
+    },
+    {
+      "id": "source-hash-S03",
+      "status": "passed",
+      "result": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e"
+    },
+    {
+      "id": "S03/findings/8",
+      "status": "passed",
+      "result": "Exact JSON pointer resolves; body read separately for source audit"
+    },
+    {
+      "id": "source-hash-S04",
+      "status": "passed",
+      "result": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2"
+    },
+    {
+      "id": "source-hash-S05",
+      "status": "passed",
+      "result": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7"
+    },
+    {
+      "id": "teaching-anchor-C18.01-E1",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "teaching-anchor-C18.01-W1",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "teaching-anchor-C18.01-P1",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "teaching-anchor-C18.01-D1",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "lesson-diagnostic-count-lesson-01",
+      "status": "passed",
+      "result": "4"
+    },
+    {
+      "id": "teaching-anchor-C18.02-E1",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "teaching-anchor-C18.02-W1",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "teaching-anchor-C18.02-P1",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "teaching-anchor-C18.02-D1",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "teaching-anchor-C18.S01-E1",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "teaching-anchor-C18.S01-W1",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "teaching-anchor-C18.S01-P1",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "teaching-anchor-C18.S01-D1",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "lesson-diagnostic-count-lesson-02",
+      "status": "passed",
+      "result": "4"
+    },
+    {
+      "id": "teaching-anchor-C18.03-E1",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "teaching-anchor-C18.03-W1",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "teaching-anchor-C18.03-P1",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "teaching-anchor-C18.03-D1",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "lesson-diagnostic-count-lesson-03",
+      "status": "passed",
+      "result": "4"
+    },
+    {
+      "id": "teaching-anchor-C18.04-E1",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "teaching-anchor-C18.04-W1",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "teaching-anchor-C18.04-P1",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "teaching-anchor-C18.04-D1",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "lesson-diagnostic-count-lesson-04",
+      "status": "passed",
+      "result": "4"
+    },
+    {
+      "id": "teaching-anchor-C18.05-E1",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "teaching-anchor-C18.05-W1",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "teaching-anchor-C18.05-P1",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "teaching-anchor-C18.05-D1",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "lesson-diagnostic-count-lesson-05",
+      "status": "passed",
+      "result": "4"
+    },
+    {
+      "id": "teaching-anchor-C18.06-E1",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "teaching-anchor-C18.06-W1",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "teaching-anchor-C18.06-P1",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "teaching-anchor-C18.06-D1",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "teaching-anchor-C18.S02-E1",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "teaching-anchor-C18.S02-W1",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "teaching-anchor-C18.S02-P1",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "teaching-anchor-C18.S02-D1",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "lesson-diagnostic-count-lesson-06",
+      "status": "passed",
+      "result": "4"
+    },
+    {
+      "id": "teaching-anchor-C18.07-E1",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "teaching-anchor-C18.07-W1",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "teaching-anchor-C18.07-P1",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "teaching-anchor-C18.07-D1",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "teaching-anchor-C18.S03-E1",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "teaching-anchor-C18.S03-W1",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "teaching-anchor-C18.S03-P1",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "teaching-anchor-C18.S03-D1",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "lesson-diagnostic-count-lesson-07",
+      "status": "passed",
+      "result": "4"
+    },
+    {
+      "id": "capstone-step-C18-CAP-01",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "C18-CAP-01-explanation_id",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "C18-CAP-01-worked_example_id",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "C18-CAP-01-prior_practice_id",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "C18-CAP-01-diagnostic_id",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "capstone-step-C18-CAP-02",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "C18-CAP-02-explanation_id",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "C18-CAP-02-worked_example_id",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "C18-CAP-02-prior_practice_id",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "C18-CAP-02-diagnostic_id",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "capstone-step-C18-CAP-03",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "C18-CAP-03-explanation_id",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "C18-CAP-03-worked_example_id",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "C18-CAP-03-prior_practice_id",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "C18-CAP-03-diagnostic_id",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "capstone-step-C18-CAP-04",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "C18-CAP-04-explanation_id",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "C18-CAP-04-worked_example_id",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "C18-CAP-04-prior_practice_id",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "C18-CAP-04-diagnostic_id",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "capstone-step-C18-CAP-05",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "C18-CAP-05-explanation_id",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "C18-CAP-05-worked_example_id",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "C18-CAP-05-prior_practice_id",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "C18-CAP-05-diagnostic_id",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "capstone-step-C18-CAP-06",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "C18-CAP-06-explanation_id",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "C18-CAP-06-worked_example_id",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "C18-CAP-06-prior_practice_id",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "C18-CAP-06-diagnostic_id",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "capstone-step-C18-CAP-07",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "C18-CAP-07-explanation_id",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "C18-CAP-07-worked_example_id",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "C18-CAP-07-prior_practice_id",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "C18-CAP-07-diagnostic_id",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "capstone-step-C18-CAP-08",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "C18-CAP-08-explanation_id",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "C18-CAP-08-worked_example_id",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "C18-CAP-08-prior_practice_id",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "C18-CAP-08-diagnostic_id",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "capstone-step-C18-CAP-09",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "C18-CAP-09-explanation_id",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "C18-CAP-09-worked_example_id",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "C18-CAP-09-prior_practice_id",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "C18-CAP-09-diagnostic_id",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "capstone-step-C18-CAP-10",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "C18-CAP-10-explanation_id",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "C18-CAP-10-worked_example_id",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "C18-CAP-10-prior_practice_id",
+      "status": "passed",
+      "result": "True"
+    },
+    {
+      "id": "C18-CAP-10-diagnostic_id",
+      "status": "passed",
+      "result": "True"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "actual_sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "hash_verified": true,
+      "used_pointers": []
+    },
+    {
+      "id": "S02",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "actual_sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "hash_verified": true,
+      "used_pointers": [
+        "/backbone_sequence/13",
+        "/backbone_sequence/2",
+        "/backbone_sequence/10",
+        "/branch_proofs/5",
+        "/proof_nodes/4",
+        "/proof_nodes/18",
+        "/proof_nodes/25",
+        "/branch_proofs/10",
+        "/proof_nodes/9",
+        "/proof_nodes/76"
+      ]
+    },
+    {
+      "id": "S03",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "actual_sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "hash_verified": true,
+      "used_pointers": [
+        "/findings/8"
+      ]
+    },
+    {
+      "id": "S04",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+      "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "actual_sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "hash_verified": true,
+      "used_pointers": []
+    },
+    {
+      "id": "S05",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+      "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "actual_sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+      "hash_verified": true,
+      "used_pointers": []
+    }
+  ],
+  "scope": "Finite arithmetic and identifier validation, supplemented by independent human-style agent teaching/source audit; not a replay of source missing bodies"
+}

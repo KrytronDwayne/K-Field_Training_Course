@@ -1,0 +1,25 @@
+{
+  "course_id": "course-25",
+  "timestamp": "2026-11-05T19:58:59.284327+00:00",
+  "status": "all_seven_draft_lessons_read_support_and_final_hashes_pending",
+  "read_hashes": {
+    "lesson-01.md": "401d78f3bc21833d7565e73c261679154aaee703ed67798e4c61212a67020d29",
+    "lesson-02.md": "30d66fd35bf84d1ff0dd5a8e380cfad88120f94fdbead4daf0491db2324422ea",
+    "lesson-03.md": "38d7b155ad747397849b0a16d49d13c391f25d0a2ab3b538ce87a400987a365d",
+    "lesson-04.md": "afe9c7432c79b13db171c053e3d2cbade599813d5b32833bc6f10899bc237ef8",
+    "lesson-05.md": "8810203287485904e3df62963a1a35c405694f4c98d59e41559be73c050e3303",
+    "lesson-06.md": "cc9fc8a8918f9af36689887d2865e16a793279618c5a66a89ae30da2cf1e9349",
+    "lesson-07.md": "b7dcbd1ad64b7a644e9252f74600ad074a14feb397657b3643733959322c03d6"
+  },
+  "lesson_review_notes": [
+    "Unit normal and Cartesian metric declared. Signed sheet distance, dimensionless coordinate, origin revision and index convention taught with reconstruction. Full path retained; no claim scalar projection recovers tangential motion.",
+    "Fixed-family rate derived from endpoint subtraction with dimensions and sign. Moving-origin, changing-spacing and comoving examples supply finite replay. Full derivative including turning normal and changing scale is recognition-only, not a hidden calculus assessment.",
+    "Period requires nonzero constant projection and fixed family. Radians and unwrapped phase locally taught. Piecewise-rate and reversal practice retain timing and signed histories; average rate does not replace events. Endpoint passage classification names the linear extension.",
+    "Optical length, oscillator period and material spacing remain distinct. Synthetic reference-grid arithmetic explicitly differs from propagation and detector response. Missing speed leaves wavelength unresolved; arithmetic difference is not an observed beat.",
+    "Continuity, existence versus uniqueness, exact linear interpolation, hidden two-root example, tangent, discontinuous jump, bisection, failed evaluation and gap statuses all taught with answered practice. Source samples and bounds remain distinct from synthetic exact roots.",
+    "Hour-angle meridian and quadrature equations declared with angular units and unwrapped branches. Spatial sheet and sightline-direction plane remain distinct. Coincident typed events retained. Unwrapping requires motion information; long-gap turn ambiguity remains unresolved.",
+    "Full immutable input cards, six forward/reversed family event rows, endpoint brackets, contact and unresolved gap cards, orientation/index changes and independent polarity labels are explicit. Synthetic residuals reconstruct each sample; uncertainty bounds preserved separately."
+  ],
+  "finding_count": 0,
+  "limitation": "Not acceptance. Capstone, guide, glossary, source notes and final author audit/validator remain to review."
+}

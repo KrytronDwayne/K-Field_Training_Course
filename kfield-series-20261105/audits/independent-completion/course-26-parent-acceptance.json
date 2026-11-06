@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-26",
+  "timestamp": "2026-11-05T20:25:37.823875+00:00",
+  "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure",
+  "validator": "passed",
+  "validator_checks": [
+    "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+    "parsed manifest.json",
+    "parsed audit_report.json",
+    "parsed completion_report.json",
+    "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+  ],
+  "validator_errors": [],
+  "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+  "manifest_sha256": "2f37c34dc0b4e2982a91d9484938184c865c00e58d6661d1cf4735332ce2acf3",
+  "completion_report_sha256": "55514a04621c5de81532a002537cbedb961e3f1ee9c250c5e656ea2bf33929ba",
+  "course_sha256": "d9bf1424c6ce970544d88e30376817f85904f2cc9895034bd3b89058e81bfea8",
+  "status": "accepted",
+  "independent_audit": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\independent-completion\\course-26-independent-audit.json",
+  "independent_report_sha256": "b59646ac54d877857db7cccd4c72805d1e60f769c49fb4c5dc0b6cdc1b2f0ae4",
+  "unresolved_counts": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "scope": "Completed topical course accepted after parent review of independent source/content audit and fresh deterministic validation; documented source limitations retained."
+}

@@ -1,0 +1,294 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-11-05T16:44:15.707198+00:00",
+  "control_state": "RUNNING",
+  "restart_authorization_required": false,
+  "user_instruction": "Bring this to a controlled restart/stop point. I do not want to sit here approving every chat.",
+  "parent_thread_id": "01a1ac55-1ad4-7d12-8840-5c0b087e69d7",
+  "automation": {
+    "id": "k-field-curriculum-five-minute-progress",
+    "status": "ACTIVE",
+    "pause_verified": true
+  },
+  "launch_new_tasks": true,
+  "resume_existing_tasks": true,
+  "canonical_output_root": "Z:\\Kfield-doc-training\\K-Field_Training_Course",
+  "workers": [
+    {
+      "thread_id": "01a1ac63-d898-7390-b8c1-2ab99a6af1b8",
+      "role": "source_coverage_auditor",
+      "workspace": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-series-source-auditor",
+      "host_id": "local",
+      "checkpoint_paths": [
+        "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-series-source-auditor\\outputs\\restart-checkpoint.json"
+      ],
+      "status": "idle",
+      "observed_app_status": {
+        "type": "idle"
+      },
+      "last_turn": {
+        "id": "01a1ac6e-f776-7c41-b2b7-58fcce6a33a4",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1793894315,
+        "completedAt": 1793896994,
+        "durationMs": 2678382
+      },
+      "project_checkpoint_copy": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\controlled-stop\\source_coverage_auditor.json"
+    },
+    {
+      "thread_id": "01a1ac79-6385-73f2-ad6a-790ce3c6e659",
+      "role": "teaching_auditor",
+      "workspace": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-teaching-auditor",
+      "read_only": true,
+      "host_id": "local",
+      "checkpoint_paths": [],
+      "status": "idle",
+      "observed_app_status": {
+        "type": "idle"
+      },
+      "last_turn": {
+        "id": "01a1ac90-02df-71e1-8cf6-98aa182ea0c7",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1793896481,
+        "completedAt": 1793896499,
+        "durationMs": 17622
+      },
+      "project_checkpoint_copy": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\controlled-stop\\teaching_auditor.json"
+    },
+    {
+      "thread_id": "01a1ac7f-1a17-70f2-a8aa-36f2deaa8b8f",
+      "role": "course_01_builder",
+      "workspace": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-course-01",
+      "output_directory": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-course-01\\outputs\\K-Field_Training_Course\\kfield-01-reading-the-k-field-evidence-models-and-information",
+      "host_id": "local",
+      "checkpoint_paths": [
+        "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-course-01\\outputs\\K-Field_Training_Course\\kfield-01-reading-the-k-field-evidence-models-and-information\\restart-checkpoint.json"
+      ],
+      "status": "idle",
+      "observed_app_status": {
+        "type": "idle"
+      },
+      "last_turn": {
+        "id": "01a1ac7f-4f7e-7273-a90d-31f545fd76d1",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1793895387,
+        "completedAt": 1793896990,
+        "durationMs": 1603265
+      },
+      "project_checkpoint_copy": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\controlled-stop\\course_01_builder.json",
+      "lesson_drafts": [
+        {
+          "path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-course-01\\outputs\\K-Field_Training_Course\\kfield-01-reading-the-k-field-evidence-models-and-information\\lesson-01.md",
+          "bytes": 5402,
+          "sha256": "8a8941d07819332129e834eea1171aaa35c15d79d07c13057d162b17a9753a7f"
+        },
+        {
+          "path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-course-01\\outputs\\K-Field_Training_Course\\kfield-01-reading-the-k-field-evidence-models-and-information\\lesson-02.md",
+          "bytes": 5790,
+          "sha256": "cd1f0af363982ad7fa9fbc6d17998bd66937cfd45815584c7ef67f2d50d3272f"
+        },
+        {
+          "path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-course-01\\outputs\\K-Field_Training_Course\\kfield-01-reading-the-k-field-evidence-models-and-information\\lesson-03.md",
+          "bytes": 4008,
+          "sha256": "bbd3169e9fa0a89f62c577c31714edbb34b3d8dae1cf5573b752add9fe6eb598"
+        },
+        {
+          "path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-course-01\\outputs\\K-Field_Training_Course\\kfield-01-reading-the-k-field-evidence-models-and-information\\lesson-04.md",
+          "bytes": 4791,
+          "sha256": "8fa145121906b3a91a13c7624ac16b6abd40a8fe9e7ec2f0622a7702cb097a72"
+        },
+        {
+          "path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-course-01\\outputs\\K-Field_Training_Course\\kfield-01-reading-the-k-field-evidence-models-and-information\\lesson-05.md",
+          "bytes": 6018,
+          "sha256": "b3a1124e311d0e730ad74a69f8b12814cdd3152f0f6a9b0b51616a58fbf6b5f9"
+        }
+      ]
+    },
+    {
+      "thread_id": "01a1ac7f-7508-7f33-85de-90b36bcdb18c",
+      "role": "course_02_builder",
+      "workspace": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-course-02",
+      "output_directory": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-course-02\\K-Field_Training_Course\\kfield-02-mathematical-tools-units-vectors-and-coordinates",
+      "host_id": "local",
+      "checkpoint_paths": [
+        "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-course-02\\K-Field_Training_Course\\kfield-02-mathematical-tools-units-vectors-and-coordinates\\restart-checkpoint.json"
+      ],
+      "status": "idle",
+      "observed_app_status": {
+        "type": "idle"
+      },
+      "last_turn": {
+        "id": "01a1ac7f-ac37-7d73-b37e-aa1243d58c14",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1793895410,
+        "completedAt": 1793896987,
+        "durationMs": 1576816
+      },
+      "project_checkpoint_copy": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\controlled-stop\\course_02_builder.json",
+      "lesson_drafts": [
+        {
+          "path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-course-02\\K-Field_Training_Course\\kfield-02-mathematical-tools-units-vectors-and-coordinates\\lesson-01.md",
+          "bytes": 4276,
+          "sha256": "d601414e3f5b344e74c8196e59a843cc4d0d2bb804e6a8c4f54625db09e9977f"
+        },
+        {
+          "path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-course-02\\K-Field_Training_Course\\kfield-02-mathematical-tools-units-vectors-and-coordinates\\lesson-02.md",
+          "bytes": 3963,
+          "sha256": "6f9485d101a40c487a7739ebafa1a2a47013b7ae1fa9ac8d713ef7af70792803"
+        },
+        {
+          "path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-course-02\\K-Field_Training_Course\\kfield-02-mathematical-tools-units-vectors-and-coordinates\\lesson-03.md",
+          "bytes": 4579,
+          "sha256": "68c3f742d3b89183a491793c0f63fc95dec4d39c7c5e8805c15ad2731e3dfb74"
+        },
+        {
+          "path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-course-02\\K-Field_Training_Course\\kfield-02-mathematical-tools-units-vectors-and-coordinates\\lesson-04.md",
+          "bytes": 5420,
+          "sha256": "3984879e5f3aaf92dea3cca99684822734aa6f179f588efc86f630ef6e6231f6"
+        },
+        {
+          "path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-course-02\\K-Field_Training_Course\\kfield-02-mathematical-tools-units-vectors-and-coordinates\\lesson-05.md",
+          "bytes": 4492,
+          "sha256": "c71a96c3c3f68400c2b74de2d62bde55d97f1fffdc6f997e7ad201e4213f8026"
+        },
+        {
+          "path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-course-02\\K-Field_Training_Course\\kfield-02-mathematical-tools-units-vectors-and-coordinates\\lesson-06.md",
+          "bytes": 5577,
+          "sha256": "b9d056b704d4c4634d5ca624d3b4a49e2af2e8409804d77b3b2588586e3d8197"
+        },
+        {
+          "path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-course-02\\K-Field_Training_Course\\kfield-02-mathematical-tools-units-vectors-and-coordinates\\lesson-07.md",
+          "bytes": 5790,
+          "sha256": "56ebbe79027f654c3de29965ff211a93c7786b690cbe94fc75cdcc4a7aae4bbd"
+        }
+      ]
+    },
+    {
+      "thread_id": "01a1ac7f-d0f0-7892-87f6-12a8b6c9ad01",
+      "role": "course_03_builder",
+      "workspace": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-course-03",
+      "output_directory": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-course-03\\K-Field_Training_Course\\kfield-03-the-authoritative-cell3-basis-metric-and-scale",
+      "host_id": "local",
+      "checkpoint_paths": [
+        "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-course-03\\K-Field_Training_Course\\kfield-03-the-authoritative-cell3-basis-metric-and-scale\\restart-checkpoint.json"
+      ],
+      "status": "idle",
+      "observed_app_status": {
+        "type": "idle"
+      },
+      "last_turn": {
+        "id": "01a1ac80-07eb-77e3-aa5a-a2c1496ddef3",
+        "status": "completed",
+        "error": null,
+        "startedAt": 1793895434,
+        "completedAt": 1793896985,
+        "durationMs": 1551148
+      },
+      "project_checkpoint_copy": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\controlled-stop\\course_03_builder.json",
+      "lesson_drafts": [
+        {
+          "path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-course-03\\K-Field_Training_Course\\kfield-03-the-authoritative-cell3-basis-metric-and-scale\\lesson-01.md",
+          "bytes": 4758,
+          "sha256": "de89d8f162ec7d02ed33cc9f7c704e60a84417161ed749824410976f4a2c540c"
+        },
+        {
+          "path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-course-03\\K-Field_Training_Course\\kfield-03-the-authoritative-cell3-basis-metric-and-scale\\lesson-02.md",
+          "bytes": 4657,
+          "sha256": "ea57b83e3a1146243133858bf6ac86f3879a2686fe69c79a70d092d00e207ee7"
+        },
+        {
+          "path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-course-03\\K-Field_Training_Course\\kfield-03-the-authoritative-cell3-basis-metric-and-scale\\lesson-03.md",
+          "bytes": 4474,
+          "sha256": "da4ab0961108bac3d544b9e37b71f0777f9d479cdf9b5d12703faf442ce1bd58"
+        },
+        {
+          "path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-course-03\\K-Field_Training_Course\\kfield-03-the-authoritative-cell3-basis-metric-and-scale\\lesson-04.md",
+          "bytes": 4633,
+          "sha256": "d4f30ac9f9d34cc666afbef8e4707b94ecd3b3a4834d81b43acaccd042d585b2"
+        },
+        {
+          "path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-course-03\\K-Field_Training_Course\\kfield-03-the-authoritative-cell3-basis-metric-and-scale\\lesson-05.md",
+          "bytes": 5302,
+          "sha256": "b43d026b7c0ed540f099adbd9fe8a5d75dc7194d6c33bd695d017c6ad22725c4"
+        },
+        {
+          "path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-course-03\\K-Field_Training_Course\\kfield-03-the-authoritative-cell3-basis-metric-and-scale\\lesson-06.md",
+          "bytes": 6681,
+          "sha256": "8c1b32730b62d8de3d2cd27bb128ad911b30bb8d9484aedbf742131239537587"
+        }
+      ]
+    }
+  ],
+  "progress": {
+    "topics": 30,
+    "completed_courses_accepted": 0,
+    "builders_started": 3,
+    "not_launched": 27,
+    "auditor_tasks": 2,
+    "blueprint_clearance": "Courses01–03 cleared for production; no finished course independently accepted.",
+    "saved_lesson_drafts": 18
+  },
+  "storage_fix": {
+    "cause": "Skill fixed Desktop outputs were outside child writable workspaces; prose authorization did not change sandbox permissions.",
+    "implemented": "Parent planning files now in project; current builders use their own writable workspace; future builders target saved local project directly.",
+    "project_id": "1d8392dd-1ab7-4e91-9f43-a9fe27c5039f",
+    "environment": "local",
+    "global_security_settings_changed": false,
+    "original_desktop_files": "Retained for recovery; no further writes required.",
+    "course_source_data_copied": false
+  },
+  "restart_steps": [
+    "Resume authorized by user; preserve workspace output override and existing task IDs.",
+    "Read this checkpoint, worker checkpoints, series-ledger.json, and saved audits. Verify all recorded paths and hashes before trusting checkpoint statuses.",
+    "Resume the existing course01–03 task IDs; never duplicate them. Their local course directories are authoritative for in-progress content. Do not rerun series_admin.py init or relocate_series.py.",
+    "Finish source auditor portable amendments and course29 E11 pinning; parent educational-amendments.json is drafted but not independently accepted. Apply source/educational repairs only to project contracts, then ask existing teaching auditor to recheck.",
+    "Audit actual completed lesson content, numeric examples, source fidelity, prerequisite closure, and capstone practice mapping; blueprint approval is not course completion.",
+    "Run .work/validate_project_course.py through tf_gpu_env with each current output directory and its parent as --output-root. It changes only the installed validator canonical location constant; no fixture mode or waived substantive checks.",
+    "Consolidate finished generated outputs into canonical project course directories; update changed path metadata and affected hashes through the responsible task, then revalidate. Do not copy source archives.",
+    "Launch courses04–30 only after relevant blueprint clearance, directly in saved project with local environment and GPT-6 Astra. Maximum three builders plus one auditor active. Never recreate stopped tasks.",
+    "Resume the existing five-minute heartbeat only after the user explicitly restarts the work. No task, automation, or goal completion is claimed by this stop checkpoint."
+  ],
+  "pending_technical_items": [
+    "All five tasks confirmed idle. No pending task cancellation or approval remains. Explicit user restart is required.",
+    "Portable source auditor amendments and final source report",
+    "Educational E05–E11 recheck",
+    "Course content/supporting artifacts/validation and independent audits",
+    "Future project task launch not yet exercised"
+  ],
+  "key_files": {
+    "ledger": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\series-ledger.json",
+    "series_map": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\series-map.md",
+    "source_registry": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\source-registry.json",
+    "educational_amendments": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\educational-amendments.json",
+    "coordinator_script": "Z:\\Kfield-doc-training\\.work\\series_admin.py",
+    "validator_adapter": "Z:\\Kfield-doc-training\\.work\\validate_project_course.py"
+  },
+  "runtime": {
+    "model": "gpt-6-astra",
+    "python_command": "& 'C:\\ProgramData\\anaconda3\\Scripts\\conda.exe' run -n tf_gpu_env python",
+    "package_changes_authorized": false
+  },
+  "stop_verification": {
+    "checkpoints_saved": 4,
+    "all_five_tasks_confirmed_idle": true,
+    "idle_count": 5,
+    "verification_source": "Fresh individual wait_threads snapshots after final checkpoint messages",
+    "approval_prompts_remaining": 0,
+    "automation_paused": true,
+    "new_launch_guard_enabled": true
+  },
+  "goal_pause_audit": {
+    "condition": null,
+    "consecutive_goal_turns": 0,
+    "reset_reason": "User explicitly requested resume with writable-workspace output override."
+  },
+  "resumed_at": "2026-11-05T16:46:49.163849+00:00",
+  "resume_authority": "User: Are you able to resume, over-riding the write location for the child chats, so that I do not have to approve every write?",
+  "current_status_authority": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\series-ledger.json",
+  "historical_fields_note": "Workers and stop verification below are historical checkpoint observations. The user subsequently authorized resumption. Read the current ledger for all existing task IDs, progress and active work; never recreate an existing task.",
+  "metadata_clarified_at": "2026-11-05T17:42:32.116754+00:00"
+}

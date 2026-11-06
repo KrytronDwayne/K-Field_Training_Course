@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0",
+  "status": "passed",
+  "findings": [
+    {
+      "id": "AUD-24-001",
+      "level": "local",
+      "category": "assumption clarity",
+      "file": "lesson-01.md",
+      "section": "C24.01-W1",
+      "severity": "minor",
+      "defect": "Worked velocity paragraph explicitly fixed the origin but did not restate fixed R, though preceding explanation gave that condition.",
+      "correction": "Explicitly state both R and o constant throughout the velocity interval.",
+      "verification": "Independent auditor identified wording; manager inspected corrected sentence and retained all recomputed outputs.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "lesson-01",
+        "assembly"
+      ]
+    },
+    {
+      "id": "C24-IND-001",
+      "level": "final",
+      "category": "authoring_recovery_regression",
+      "severity": "minor",
+      "file": "author_course.py",
+      "section": "lesson(1), C24.01-W1 authored body",
+      "defect": "Authoring body retained the old origin-only sentence and would remove the existing fixed-R/fixed-o clarification on regeneration.",
+      "correction": "Propagated the exact repaired sentence from current lesson-01.md into the authoring literal; no student or mathematical content changed.",
+      "verification": "AST extraction confirmed all seven literal authored bodies match their current lesson text. Existing checkpoint and completion hashes verified before updating recovery records. Independent auditor report remains unchanged; external recheck pending.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "lesson-01",
+        "assembly",
+        "audit",
+        "authoring-recovery"
+      ]
+    }
+  ],
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "checks": [
+    {
+      "level": "local",
+      "scope": "lessons 01–07",
+      "method": "Manager and independent auditor read all lesson anchors, prerequisite bridges, definitions, notation, units, diagnostic questions/answers and evidence boxes.",
+      "result": "No critical/major defects; one minor fixed-origin/rotation clarification repaired."
+    },
+    {
+      "level": "cumulative",
+      "scope": "boundaries after lessons 02,04,07",
+      "method": "Trace component transform to triad, triad to chain, derivative bridge to moving frames, fixed/carried distinction to display and final contract.",
+      "result": "No prerequisite inversion; all seven concepts introduced, practiced and assessed. Radius r and residual r have explicit separate scopes."
+    },
+    {
+      "level": "final",
+      "scope": "capstone and teacher materials",
+      "method": "Independent auditor reread all seven tasks and keys against approved backward map and prior answered practice; recomputed all answers and 28-point total.",
+      "result": "Zero critical/major/minor findings; 11 core plus 3 capstone periods consistent."
+    },
+    {
+      "level": "final",
+      "scope": "source fidelity",
+      "method": "Manager retrieved full bounded T10/T40/T45/T50 bytes with matching hashes; local physical authority hash and vector inspected. Independent auditor separately checked physical authority and norm.",
+      "result": "Exact numerical/source boundaries retained. Remote report of formal result not promoted to fresh compilation. Missing epoch and generation freshness disclosed."
+    },
+    {
+      "level": "final",
+      "scope": "numerical and dimensional correctness",
+      "method": "verify_examples.py: 28 standard-library checks, including independent finite-difference derivative check, inverse reconstruction, signed sums, spherical norm and physical source norm.",
+      "result": "All passed in tf_gpu_env; no source arrays copied."
+    },
+    {
+      "level": "final",
+      "scope": "coverage, fidelity, dependency, terminology, evidence, audience, assessment, recovery, assembly, minimality",
+      "method": "Read final lessons/support; checked named E/W/P/D anchors and seven capstone links, concise prerequisite bridges, explicit limits, and identical assembly marker extraction.",
+      "result": "All required topical operations present; no new instruction in assembly. Markdown only, no paginated rendering required. Deterministic validator executed separately after hashes were finalized."
+    }
+  ],
+  "independent_audit": "course_audit subagent completed separate lesson and capstone/support reads; no compiler execution claimed"
+}

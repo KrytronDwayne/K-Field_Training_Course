@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "status": "passed",
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "findings": [
+    {
+      "id": "A17-001",
+      "level": "local",
+      "category": "notation",
+      "file": "lesson-08.md",
+      "section": "C17.08-E1 and capstone 08",
+      "severity": "major",
+      "defect": "Blueprint loosely called unnormalized values 9 and 8 expectations; without normalization students could equate them to normalized expectation.",
+      "correction": "Teach Q_L=psi-adjoint Lhat psi and Q_L/N separately; preserve original finite quadratic checks and add normalized values 9/5 and 4/3.",
+      "verification": "Exact arithmetic independently recomputed in independent-lesson-check.py; auditor confirmed distinction and capstone uses both quantities.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "lesson-08",
+        "capstone",
+        "terminology",
+        "assembly"
+      ]
+    },
+    {
+      "id": "ICA-001",
+      "level": "final",
+      "category": "source_scope",
+      "file": "capstone.md",
+      "section": "Full worked answer key and point rubric, 07",
+      "severity": "minor",
+      "defect": "The domain-hypothesis rubric says site-indexed group links but omits compact, which is part of the S02 M13 domain. Lesson 07 correctly teaches compact-group links, so the student-facing prerequisite is intact.",
+      "correction": "Change site-indexed group links to site-indexed compact-group links in the step 07 answer key.",
+      "verification": "Re-read final capstone key step 07: site-indexed compact-group links is present, matching S02 M13 requires. Correction verified.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "capstone"
+      ]
+    }
+  ],
+  "local_review": "independent-lesson-audit.json pins all eight lesson hashes and reports actual content and exact arithmetic checks.",
+  "cumulative_checks": [
+    {
+      "boundary": "lesson-04",
+      "result": "passed",
+      "checks": "Shared link direction, rightmost-first path, conjugation and trace/action dependency checked across lessons 01-04."
+    },
+    {
+      "boundary": "lesson-06",
+      "result": "passed",
+      "checks": "Complex division and adjoints taught before Cayley; metric-weighted comparison precedes area factors. Units and mature/historical exponents kept separate."
+    },
+    {
+      "boundary": "lesson-08",
+      "result": "passed",
+      "checks": "Certificate reading and synthetic minimum precede capstone; norm versus quadratic versus normalized expectation distinguished. Thermal comparison stays recognition-only."
+    }
+  ],
+  "final_review": "Independent capstone audit plus manager final scope/coverage/identity review; deterministic validator is run after records are refreshed.",
+  "rendering": "Markdown only, no paginated artifact requested; tables/headings/code blocks inspected as text. No PDF visual rendering claimed.",
+  "source_gaps": [
+    "Full fixed-rung compiler matrices, coefficients, interval method/precision and pinned certificate replay object unavailable in read packet.",
+    "Archival J basis convention not loaded; teaching J explicitly synthetic."
+  ],
+  "final_content_review": "independent-capstone-audit.json; current file hashes checked before acceptance"
+}

@@ -1,0 +1,452 @@
+{
+  "status": "passed",
+  "python_executable": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+  "method": "Independent standard-library Fraction/Decimal arithmetic plus anchor and original-source digest checks; unit and proof logic additionally reviewed by author and independent auditor.",
+  "checks": [
+    {
+      "id": "quadratic-(1, 2)",
+      "actual": "14",
+      "expected": "14",
+      "status": "passed"
+    },
+    {
+      "id": "quadratic-(1, -1)",
+      "actual": "2",
+      "expected": "2",
+      "status": "passed"
+    },
+    {
+      "id": "quadratic-(1, 1)",
+      "actual": "6",
+      "expected": "6",
+      "status": "passed"
+    },
+    {
+      "id": "quadratic-(2, -1)",
+      "actual": "6",
+      "expected": "6",
+      "status": "passed"
+    },
+    {
+      "id": "quadratic-(-1, -2)",
+      "actual": "14",
+      "expected": "14",
+      "status": "passed"
+    },
+    {
+      "id": "quadratic-(-1, 1)",
+      "actual": "2",
+      "expected": "2",
+      "status": "passed"
+    },
+    {
+      "id": "quadratic-(1, 0)",
+      "actual": "2",
+      "expected": "2",
+      "status": "passed"
+    },
+    {
+      "id": "unit-plus-direction",
+      "actual": "3",
+      "expected": "3",
+      "status": "passed"
+    },
+    {
+      "id": "unit-minus-direction",
+      "actual": "1",
+      "expected": "1",
+      "status": "passed"
+    },
+    {
+      "id": "ellipse-short",
+      "actual": "1",
+      "expected": "1",
+      "status": "passed"
+    },
+    {
+      "id": "ellipse-long",
+      "actual": "1",
+      "expected": "1",
+      "status": "passed"
+    },
+    {
+      "id": "ellipse-axis",
+      "actual": "1",
+      "expected": "1",
+      "status": "passed"
+    },
+    {
+      "id": "full-pullback",
+      "actual": "[[Fraction(2, 1), Fraction(1, 2)], [Fraction(1, 2), Fraction(1, 2)]]",
+      "expected": "[[Fraction(2, 1), Fraction(1, 2)], [Fraction(1, 2), Fraction(1, 2)]]",
+      "status": "passed"
+    },
+    {
+      "id": "reverse-congruence",
+      "actual": "[[Fraction(2, 1), Fraction(1, 1)], [Fraction(1, 1), Fraction(2, 1)]]",
+      "expected": "[[Fraction(2, 1), Fraction(1, 1)], [Fraction(1, 1), Fraction(2, 1)]]",
+      "status": "passed"
+    },
+    {
+      "id": "coordinate-cost-(1, 2)",
+      "actual": "6",
+      "expected": "6",
+      "status": "passed"
+    },
+    {
+      "id": "coordinate-cost-(2, -2)",
+      "actual": "6",
+      "expected": "6",
+      "status": "passed"
+    },
+    {
+      "id": "ruler-matrix",
+      "actual": "[[Fraction(1, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(1, 4)]]",
+      "expected": "[[Fraction(1, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(1, 4)]]",
+      "status": "passed"
+    },
+    {
+      "id": "ruler-rate",
+      "actual": "2",
+      "expected": "2",
+      "status": "passed"
+    },
+    {
+      "id": "ruler-third-segment-count",
+      "actual": "(-1, 1)",
+      "expected": "(-1, 1)",
+      "status": "passed"
+    },
+    {
+      "id": "straight-ledger",
+      "actual": "[((Fraction(1, 1), Fraction(0, 1)), Fraction(2, 1)), ((Fraction(2, 1), Fraction(0, 1)), Fraction(4, 1))]",
+      "expected": "[((Fraction(1, 1), Fraction(0, 1)), Fraction(2, 1)), ((Fraction(2, 1), Fraction(0, 1)), Fraction(4, 1))]",
+      "status": "passed"
+    },
+    {
+      "id": "dogleg-ledger",
+      "actual": "[((Fraction(1, 1), Fraction(1, 1)), Fraction(6, 1)), ((Fraction(2, 1), Fraction(0, 1)), Fraction(8, 1))]",
+      "expected": "[((Fraction(1, 1), Fraction(1, 1)), Fraction(6, 1)), ((Fraction(2, 1), Fraction(0, 1)), Fraction(8, 1))]",
+      "status": "passed"
+    },
+    {
+      "id": "reverse-ledger",
+      "actual": "[((Fraction(1, 1), Fraction(-1, 1)), Fraction(2, 1)), ((Fraction(2, 1), Fraction(0, 1)), Fraction(8, 1))]",
+      "expected": "[((Fraction(1, 1), Fraction(-1, 1)), Fraction(2, 1)), ((Fraction(2, 1), Fraction(0, 1)), Fraction(8, 1))]",
+      "status": "passed"
+    },
+    {
+      "id": "subdivision-total",
+      "actual": "((Fraction(2, 1), Fraction(0, 1)), Fraction(4, 1))",
+      "expected": "((Fraction(2, 1), Fraction(0, 1)), Fraction(4, 1))",
+      "status": "passed"
+    },
+    {
+      "id": "deviation-excess",
+      "actual": "4",
+      "expected": "4",
+      "status": "passed"
+    },
+    {
+      "id": "changed-time",
+      "actual": "2",
+      "expected": "2",
+      "status": "passed"
+    },
+    {
+      "id": "weighted-deviation-zero",
+      "actual": "[Fraction(0, 1), Fraction(0, 1)]",
+      "expected": "[Fraction(0, 1), Fraction(0, 1)]",
+      "status": "passed"
+    },
+    {
+      "id": "general-decomposition",
+      "actual": "28",
+      "expected": "28",
+      "status": "passed"
+    },
+    {
+      "id": "precision-residual",
+      "actual": "1/30000",
+      "expected": "1/30000",
+      "status": "passed"
+    },
+    {
+      "id": "precision-reconstruction",
+      "actual": "1/3",
+      "expected": "1/3",
+      "status": "passed"
+    },
+    {
+      "id": "precision-interval",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "id": "bound-gap",
+      "actual": "1/5",
+      "expected": "1/5",
+      "status": "passed"
+    },
+    {
+      "id": "source-residual-nonzero",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "id": "factor-pairs",
+      "actual": "(6, 6)",
+      "expected": "(6, 6)",
+      "status": "passed"
+    },
+    {
+      "id": "frozen-calibration",
+      "actual": "2",
+      "expected": "2",
+      "status": "passed"
+    },
+    {
+      "id": "signed-response-residuals",
+      "actual": "(1, -1)",
+      "expected": "(1, -1)",
+      "status": "passed"
+    },
+    {
+      "id": "anchor-1-E1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "id": "anchor-1-W1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "id": "anchor-1-P1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "id": "anchor-1-D1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "id": "lesson-contract-1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "id": "anchor-2-E1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "id": "anchor-2-W1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "id": "anchor-2-P1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "id": "anchor-2-D1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "id": "lesson-contract-2",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "id": "anchor-3-E1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "id": "anchor-3-W1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "id": "anchor-3-P1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "id": "anchor-3-D1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "id": "lesson-contract-3",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "id": "anchor-4-E1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "id": "anchor-4-W1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "id": "anchor-4-P1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "id": "anchor-4-D1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "id": "lesson-contract-4",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "id": "anchor-5-E1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "id": "anchor-5-W1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "id": "anchor-5-P1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "id": "anchor-5-D1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "id": "lesson-contract-5",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "id": "anchor-6-E1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "id": "anchor-6-W1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "id": "anchor-6-P1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "id": "anchor-6-D1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "id": "lesson-contract-6",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "id": "anchor-7-E1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "id": "anchor-7-W1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "id": "anchor-7-P1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "id": "anchor-7-D1",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "id": "lesson-contract-7",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "id": "hash-S01",
+      "actual": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "expected": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "status": "passed"
+    },
+    {
+      "id": "hash-S02",
+      "actual": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "expected": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "status": "passed"
+    },
+    {
+      "id": "hash-S03",
+      "actual": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "expected": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "status": "passed"
+    },
+    {
+      "id": "hash-S04",
+      "actual": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "expected": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "status": "passed"
+    }
+  ],
+  "count": 74
+}

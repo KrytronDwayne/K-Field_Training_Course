@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="710.64pt" height="333.853688pt" viewBox="0 0 710.64 333.853688" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-05T18:53:33.850823</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.7, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 333.853688 
+L 710.64 333.853688 
+L 710.64 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="PathCollection_1">
+    <defs>
+     <path id="m938cf1e3b4" d="M 0 11.18034 
+C 2.965061 11.18034 5.80908 10.002309 7.905694 7.905694 
+C 10.002309 5.80908 11.18034 2.965061 11.18034 0 
+C 11.18034 -2.965061 10.002309 -5.80908 7.905694 -7.905694 
+C 5.80908 -10.002309 2.965061 -11.18034 0 -11.18034 
+C -2.965061 -11.18034 -5.80908 -10.002309 -7.905694 -7.905694 
+C -10.002309 -5.80908 -11.18034 -2.965061 -11.18034 0 
+C -11.18034 2.965061 -10.002309 5.80908 -7.905694 7.905694 
+C -5.80908 10.002309 -2.965061 11.18034 0 11.18034 
+z
+" style="stroke: #193444"/>
+    </defs>
+    <g clip-path="url(#pebebc38756)">
+     <use xlink:href="#m938cf1e3b4" x="178.29" y="76.695563" style="fill: #193444; stroke: #193444"/>
+    </g>
+   </g>
+   <g id="PathCollection_2">
+    <g clip-path="url(#pebebc38756)">
+     <use xlink:href="#m938cf1e3b4" x="71.35875" y="258.478688" style="fill: #193444; stroke: #193444"/>
+    </g>
+   </g>
+   <g id="PathCollection_3">
+    <g clip-path="url(#pebebc38756)">
+     <use xlink:href="#m938cf1e3b4" x="285.22125" y="258.478688" style="fill: #193444; stroke: #193444"/>
+    </g>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="178.29" y="80.28275" transform="rotate(-0 178.29 80.28275)">0</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="71.35875" y="262.065875" transform="rotate(-0 71.35875 262.065875)">2</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="285.22125" y="262.065875" transform="rotate(-0 285.22125 262.065875)">1</text>
+   </g>
+   <g id="patch_2">
+    <path d="M 169.16423 92.209372 
+Q 124.824482 167.586943 81.618466 241.037171 
+" style="fill: none; stroke: #006c75; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 85.74561 238.360104 
+L 81.618466 241.037171 
+L 81.953099 236.129216 
+z
+" style="fill: #006c75; stroke: #006c75; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="text_4">
+    <g id="patch_3">
+     <path d="M 102.701484 179.181344 
+L 146.947266 179.181344 
+L 146.947266 160.615406 
+L 102.701484 160.615406 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #193444" x="124.824375" y="172.933688" transform="rotate(-0 124.824375 172.933688)">U₂₀ = I</text>
+   </g>
+   <g id="patch_4">
+    <path d="M 89.355755 258.478688 
+Q 178.288122 258.478688 264.984421 258.478688 
+" style="fill: none; stroke: #006c75; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 260.584421 256.278688 
+L 264.984421 258.478688 
+L 260.584421 260.678688 
+z
+" style="fill: #006c75; stroke: #006c75; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="text_5">
+    <g id="patch_5">
+     <path d="M 154.022109 291.459156 
+L 202.557891 291.459156 
+L 202.557891 272.893219 
+L 154.022109 272.893219 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #193444" x="178.29" y="285.2115" transform="rotate(-0 178.29 285.2115)">U₁₂ = Z</text>
+   </g>
+   <g id="patch_6">
+    <path d="M 276.09548 242.964878 
+Q 231.755732 167.587307 188.549716 94.137079 
+" style="fill: none; stroke: #006c75; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 188.884349 99.045034 
+L 188.549716 94.137079 
+L 192.67686 96.814146 
+z
+" style="fill: #006c75; stroke: #006c75; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="text_6">
+    <g id="patch_7">
+     <path d="M 207.487734 179.181344 
+L 256.023516 179.181344 
+L 256.023516 160.615406 
+L 207.487734 160.615406 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #193444" x="231.755625" y="172.933688" transform="rotate(-0 231.755625 172.933688)">U₀₁ = X</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 13.2px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #193444" x="178.29" y="17.229938" transform="rotate(-0 178.29 17.229938)">Travel: 0 → 2 → 1 → 0</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #193444" x="378.369" y="68.404088" transform="rotate(-0 378.369 68.404088)">Rightmost map acts first</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #193444" transform="translate(378.369 108.4875)">U_loop = XZ = [[0,−1],[1,0]]</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #193444" transform="translate(378.369 126.817688)">Reversed assignments: ZX = −XZ</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #193444" transform="translate(378.369 197.85135)">F = I − XZ = [[1,1],[−1,1]]</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #193444" transform="translate(378.369 215.975288)">Tr(F) = 2;  β=3 AU gives S=6 AU</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #193444" transform="translate(378.369 287.233409)">Conjugation by Z changes the signs,</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #193444" transform="translate(378.369 302.058488)">but not Tr(F). Retain the full matrices.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pebebc38756">
+   <rect x="7.2" y="23.229938" width="342.18" height="299.4075"/>
+  </clipPath>
+ </defs>
+</svg>

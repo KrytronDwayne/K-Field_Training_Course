@@ -1,0 +1,88 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>7. A reproducible trajectory contract · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/24">Course 24</a><span>/</span><span>lesson 07</span></div><a class="original" href="../../../kfield-24-moving-reference-frames-and-laboratory-motion/lesson-07.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#7-a-reproducible-trajectory-contract">7. A reproducible trajectory contract</a><a href="#c2407-e1-reproducibility-is-part-of-the-result">C24.07-E1 — Reproducibility is part of the result</a><a href="#c2407-w1-a-fully-specified-toy-packet">C24.07-W1 — A fully specified toy packet</a><a href="#c2407-p1-reverse-and-audit">C24.07-P1 — Reverse and audit</a><a href="#c2407-d1-diagnostics">C24.07-D1 — Diagnostics</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">1. Frames, origins, and epochs</a><a  href="lesson-02.html">2. ICRS directions and local orientation</a><a  href="lesson-03.html">3. The nested laboratory motion chain</a><a  href="lesson-04.html">4. Adding vectors without mixing frames</a><a  href="lesson-05.html">5. Sidereal rotation and sensor motion</a><a  href="lesson-06.html">6. Physical motion versus visual gauge</a><a aria-current=page href="lesson-07.html">7. A reproducible trajectory contract</a></details></aside><div class="reading-column"><article class="prose"><h1 id="7-a-reproducible-trajectory-contract" tabindex="-1">7. A reproducible trajectory contract</h1>
+<p>Essential question: Could another person reconstruct your trajectory?</p>
+<p>Goals</p>
+<ul>
+<li>Write a complete synthetic trajectory input contract.</li>
+<li>Reconstruct an initial point from decomposed displacements.</li>
+<li>Identify missing real-source inputs without inventing them.</li>
+</ul>
+<p>Prerequisite bridge: Begin with <a href="lesson-06.html">Lesson 6</a>. Combine all six earlier lessons into a reproducible input record.</p>
+<h2 id="c2407-e1-reproducibility-is-part-of-the-result" tabindex="-1">C24.07-E1 — Reproducibility is part of the result</h2>
+<p>A trajectory is a rule assigning positions to times. To repeat it, a reader needs more than its speed. A contract records what each input means, where it came from, and how to use it. UTC labels civil epochs; an elapsed second is a duration. UTC can contain leap seconds, so a real calculation must state its time conversion. TAI is an atomic time scale, TT a terrestrial time scale and TDB a barycentric dynamical time scale used in ephemeris work. These labels are not interchangeable; this course supplies no conversion constants. A real conversion must name its tables, method and version.</p>
+<p>An ephemeris supplies celestial positions or motions as functions of time. Earth orientation parameters (EOP) describe Earth's orientation for converting terrestrial and celestial axes. A site record names latitude, longitude, height and their datum, the reference surface/convention. A geometry digest identifies exact bytes of a geometry definition; SHA-256 is the fingerprint used in our source ledger. A digest identifies a file, not a proof of its physical claims.</p>
+<p>Record origin, axes, units, epoch/time scale, site, ephemeris/EOP versions, geometry and rotation conventions, every component velocity, update or interpolation rule, and residual/reconstruction rules. Interpolation means a declared rule for values between supplied times. “Not applicable: synthetic” differs from “unknown: required for a real calculation.”</p>
+<h2 id="c2407-w1-a-fully-specified-toy-packet" tabindex="-1">C24.07-W1 — A fully specified toy packet</h2>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Evidence class</td>
+<td>Synthetic definition and derived arithmetic</td>
+</tr>
+<tr>
+<td>Epoch</td>
+<td>2026-11-05T00:00:00Z</td>
+</tr>
+<tr>
+<td>Duration convention</td>
+<td>Elapsed SI seconds, 0≤t≤2s; no leap crossing in this stipulated exercise</td>
+</tr>
+<tr>
+<td>Frame</td>
+<td>F, fixed right-handed orthonormal axes and fixed origin O; no real celestial origin asserted</td>
+</tr>
+<tr>
+<td>Position and velocity units</td>
+<td>m and m/s</td>
+</tr>
+<tr>
+<td>Initial point</td>
+<td>(1,2,3)m</td>
+</tr>
+<tr>
+<td>Four terms in chain order</td>
+<td>(10,0,0);(0,2,0);(-1,0,0);(0,0,1)m/s</td>
+</tr>
+<tr>
+<td>Rule</td>
+<td>Each term constant; x(t)=x0+t(9,2,1)</td>
+</tr>
+<tr>
+<td>Site; ephemeris; EOP; time conversion</td>
+<td>Not applicable: synthetic fixed-frame definition</td>
+</tr>
+<tr>
+<td>Geometry</td>
+<td>The stated F axes; identity orientation; no Cell3 numerical geometry used</td>
+</tr>
+<tr>
+<td>Residual</td>
+<td>No measured comparison supplied; not a claim of zero physical residual</td>
+</tr>
+<tr>
+<td>Reconstruction</td>
+<td>Subtract all four signed displacements from endpoint</td>
+</tr>
+</tbody>
+</table></div>
+<p>At t=2s this gives (19,6,5)m. The synthetic chain labels demonstrate bookkeeping; they do not turn F into a measured astronomical trajectory.</p>
+<h2 id="c2407-p1-reverse-and-audit" tabindex="-1">C24.07-P1 — Reverse and audit</h2>
+<p>Reverse the endpoint: (19,6,5)-(20,0,0)-(0,4,0)-(-2,0,0)-(0,0,2)=(1,2,3)m. Subtracting the negative Earth/EMB displacement adds 2m in x.</p>
+<p>Now prepare a real-source card from Lesson 3. Preserve ICRS, m/s, the full three-component physical vector, source SHA-256 4651a532fe43e8091748ef4f7e28bb899e1a2ea798d689ba1724e99530cd55ab and pointer <code>/derived_results/earth_cmb/V_E_icrs_m_s</code>. Mark vector epoch “not specified in inspected authority.” Site, propagation ephemeris/EOP and the complete transformation chain are not supplied for a new real propagation. Keep that operation pending rather than filling fields from publication time. The source speed remains readable; a new time-resolved laboratory path is not thereby specified.</p>
+<blockquote>
+<p>Scope: This is a complete synthetic trajectory and an intentionally incomplete real propagation request. A mechanism explaining an observed residual would be a separate proposed mechanism. Our input and residual records remain available whether or not such a mechanism is offered. Source facts, derived calculations, interpretations and unresolved inputs retain distinct labels.</p>
+</blockquote>
+<h2 id="c2407-d1-diagnostics" tabindex="-1">C24.07-D1 — Diagnostics</h2>
+<ol>
+<li>Why does total speed fail to reproduce a trajectory?</li>
+<li>What must accompany a normalized direction?</li>
+<li>How do you reconstruct a comparison vector from a model and residual?</li>
+<li>Is an absent ephemeris the same in the toy packet and a real propagation request?</li>
+</ol>
+<p>Answers: 1. Speed lacks direction, initial position, time and frame. 2. Original magnitude, units and orientation/frame metadata; multiply back to recover the vector. 3. comparison=model+residual, retaining every signed component. 4. No: it is explicitly unnecessary for the synthetic definition but a missing required input for the specified real calculation. Do not relabel missing data as zero.</p>
+<p>Next dependency: <a href="capstone.html">capstone</a>. Carry your signed component ledger forward.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><a class="button secondary" href="lesson-06.html">← Previous lesson</a><a class="button" href="capstone.html">Course capstone →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/24">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

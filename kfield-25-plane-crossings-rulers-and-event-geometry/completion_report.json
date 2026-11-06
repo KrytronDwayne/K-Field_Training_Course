@@ -1,0 +1,93 @@
+{
+  "status": "complete",
+  "topic": "Plane Crossings, Rulers, and Event Geometry",
+  "audience": "High-school seniors; first-principles teaching, with concrete prerequisite capabilities and taught bridges.",
+  "assumptions": [
+    "A topical short course, not a semester per topic. Pacing is 55-minute core lessons plus capstone periods; split dense lessons if actual learner load requires it.",
+    "No prior calculus, abstract algebra, university linear algebra, or quantum mechanics unless explicitly taught earlier.",
+    "Required core assessments must be solvable with taught finite examples. Clearly label deeper recognition-only extensions.",
+    "Markdown is the delivery format; no PDF or Word generation is required."
+  ],
+  "outputs": [
+    "course-map.md",
+    "lesson-01.md",
+    "lesson-02.md",
+    "lesson-03.md",
+    "lesson-04.md",
+    "lesson-05.md",
+    "lesson-06.md",
+    "lesson-07.md",
+    "terminology.md",
+    "teacher-guide.md",
+    "capstone.md",
+    "sources.json",
+    "source-notes.md",
+    "worked-verification.json",
+    "audit_report.json",
+    "course.md",
+    "independent-audit.json",
+    "independent-audit-check.py",
+    "manage_course.py",
+    "input-contract.json",
+    "launch-prompt.md",
+    "sources.md",
+    "completion_report.json"
+  ],
+  "audit_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "hashes": {
+    "course-map.md": "ee65490e1a90513f5ec06306d46936de15db93e3d10829e153ab835dd3ad7873",
+    "lesson-01.md": "401d78f3bc21833d7565e73c261679154aaee703ed67798e4c61212a67020d29",
+    "lesson-02.md": "30d66fd35bf84d1ff0dd5a8e380cfad88120f94fdbead4daf0491db2324422ea",
+    "lesson-03.md": "38d7b155ad747397849b0a16d49d13c391f25d0a2ab3b538ce87a400987a365d",
+    "lesson-04.md": "afe9c7432c79b13db171c053e3d2cbade599813d5b32833bc6f10899bc237ef8",
+    "lesson-05.md": "8810203287485904e3df62963a1a35c405694f4c98d59e41559be73c050e3303",
+    "lesson-06.md": "cc9fc8a8918f9af36689887d2865e16a793279618c5a66a89ae30da2cf1e9349",
+    "lesson-07.md": "b7dcbd1ad64b7a644e9252f74600ad074a14feb397657b3643733959322c03d6",
+    "terminology.md": "e46869d35a97acf1d0e6535070ef34517970ed4ad01d5bc8f6fd90fb7ec28935",
+    "teacher-guide.md": "82e8cfa1c726a370d97cf21a83f6a52e3df62e0a6c6e978e3c8de430fb462f20",
+    "capstone.md": "e596527d721b3945119be5aae98d76c14c3666c0264cf1c7d0d4dafd4598704a",
+    "sources.json": "a63ea9e2619806b4464bc387433ac72125fc1a0a4f5b2c932ed7ad9e41ceeb81",
+    "source-notes.md": "028bc05dcd5f9f20e3a280efcdb15f351f7e5dac07988768d533e14305f702c6",
+    "worked-verification.json": "94c29364c715e15e366d4e5c8606c165134b06ec006ea66366448365e442c747",
+    "audit_report.json": "d30216323a9f3b01c97975ca6ebf2846d9a684b4318f8d97e726037ff84ea9e4",
+    "course.md": "0ee0543e7553a01b7e23526f8d8f54aae3c40cfb17b9cc9233dc523531e98c87",
+    "independent-audit.json": "cf4d085d00aa3dd661852be082c8885b42ccdecbd8d505c6ce3b32acafeb0930",
+    "independent-audit-check.py": "a97b20219c4cf9139f9a10b4ac382a383650f19bcc7c5d4ee87d95c9498c9251",
+    "manage_course.py": "143f4c63cbb6545c5497eafbc0f9e39f1660543cb15a288ffd4006615033cd34",
+    "input-contract.json": "7ae16e3aff357260b0950ffa031a7a60b03b37c01abb081b65f0d65a128a1d56",
+    "launch-prompt.md": "27f7ce0d0c3c8f8f14fcc003657ab8cd54365147010db9c52b731e57853cf6be",
+    "sources.md": "fb3e5245bf442d3973105a78322e28d3bf30651ec555b6d74862e9639be00656",
+    "manifest.json": "aa96a1562e01130ea5a6d58089ce9813d3b50a04c147102e1942acc7be606ffe"
+  },
+  "lesson_count": 7,
+  "core_periods": 11,
+  "capstone_periods": 3,
+  "source_gaps": [
+    "Underlying frame contracts and Agda bodies named by T45 were not exposed as pinned bodies in the bounded retrieval routes used. No fresh engine/compiler replay is claimed; core tasks use fully supplied synthetic contracts.",
+    "T10 is a source description, not a full detector transfer specification. No detector beat, force or energy inference is assessed."
+  ],
+  "validator": {
+    "status": "passed",
+    "exit_code": 0,
+    "command": [
+      "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+      "Z:\\Kfield-doc-training\\.work\\validate_project_course.py",
+      "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-25-plane-crossings-rulers-and-event-geometry",
+      "--json"
+    ],
+    "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+    "checks": [
+      "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+      "parsed manifest.json",
+      "parsed audit_report.json",
+      "parsed completion_report.json",
+      "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+    ],
+    "errors": []
+  },
+  "independent_check_count": 133
+}

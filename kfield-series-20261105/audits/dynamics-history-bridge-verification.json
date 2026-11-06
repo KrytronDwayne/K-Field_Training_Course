@@ -1,0 +1,591 @@
+{
+  "schema_version": "1.0",
+  "status": "passed",
+  "created_at": "2026-11-05T18:10:59.304050+00:00",
+  "source_path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+  "source_sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+  "source_pointers": [
+    "/backbone_sequence/12",
+    "/backbone_sequence/13",
+    "/backbone_sequence/14",
+    "/backbone_sequence/15"
+  ],
+  "scope": "Parent authored finite teaching checks, to be independently reviewed before course use. Not completed-course acceptance, a new measured result, or full proof-body replay.",
+  "checks": [
+    {
+      "id": "C17-HODGE",
+      "passed": true,
+      "M": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "4",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "16"
+        ]
+      ],
+      "R": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1/4",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1/16"
+        ]
+      ],
+      "delta": 64,
+      "electric": [
+        [
+          "4",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1/4"
+        ]
+      ],
+      "magnetic": [
+        [
+          "4",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1/4"
+        ]
+      ],
+      "ordered_bivectors": [
+        "12",
+        "13",
+        "23"
+      ],
+      "J": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "normalizations": "HE=delta^(1/3)R; HB=delta^(2/3)wedge^2(R); here64^(1/3)=4 and64^(2/3)=16.",
+      "units": "M carries LU^2, delta LU^6, R LU^-2; normalized Hodge blocks dimensionless.",
+      "scope": "Synthetic diagonal geometry and declared bivector identification; not replacement Cell3 geometry."
+    },
+    {
+      "id": "C17-CAYLEY",
+      "passed": true,
+      "self_adjoint_L_diagonal": [
+        1,
+        2
+      ],
+      "real_tau": 1,
+      "C_diagonal_real_imag": [
+        [
+          "0",
+          "-1"
+        ],
+        [
+          "-3/5",
+          "-4/5"
+        ]
+      ],
+      "counterexample": "If scalar L=i/2 and tau=1, the same formula gives C=3 and norm squared9; self-adjointness cannot be omitted."
+    },
+    {
+      "id": "C18-FINITE-ENDPOINTS",
+      "passed": true,
+      "shift": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "SdaggerS": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "SSdagger": [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "scope": "Finite3-state truncation has both endpoint defects. Do not state SdaggerS=I for this square matrix or identify its finite index0 with the infinite unilateral-shift index-1."
+    },
+    {
+      "id": "C18-FINITE-HISTORY-PROJECTORS",
+      "passed": true,
+      "q_0_through_3": [
+        [
+          [
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ]
+        ]
+      ],
+      "scope": "First three ranks1, terminal fourth rank0. Infinite history requires its separate domain/space; do not infer its properties from a truncated matrix."
+    },
+    {
+      "id": "C18-CORRELATED-PROJECTOR",
+      "passed": true,
+      "first_factor_labels": [
+        "L",
+        "R"
+      ],
+      "second_factor_labels": [
+        "even",
+        "odd"
+      ],
+      "projector": [
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "scope": "Two distinct toy factors and an explicit correlation projector. Not a complete spacetime Clifford representation or a physical chirality derivation."
+    },
+    {
+      "id": "C19-SIX-PHASE-FACTORS",
+      "passed": true,
+      "ordered_factors": [
+        "UV:i",
+        "light:i",
+        "reg:-1",
+        "heavy:-i",
+        "cap:i",
+        "induced:1"
+      ],
+      "total": "1",
+      "deleting_heavy_gives": "i",
+      "scope": "Finite scalar analogy for the full source determinant-line ledger after a declared trivialization; all six factors retain distinct roles."
+    },
+    {
+      "id": "C19-DUAL-LATTICE",
+      "passed": true,
+      "tuples_and_pairing": [
+        [
+          1,
+          0,
+          48,
+          "1"
+        ],
+        [
+          0,
+          1,
+          54,
+          "1"
+        ],
+        [
+          1,
+          1,
+          30,
+          "1"
+        ],
+        [
+          1,
+          1,
+          -42,
+          "0"
+        ]
+      ],
+      "rejected_example": [
+        1,
+        1,
+        0
+      ],
+      "rejected_pairing": "7/12",
+      "scope": "Arithmetic under the source determinant-lock charge contract. These tuples do not independently prove which topological sectors a physical system admits."
+    },
+    {
+      "id": "C20-CLASS-SPLIT",
+      "passed": true,
+      "counts": {
+        "0": 9,
+        "1": 9,
+        "2": 9
+      },
+      "normalized_indicator_amplitude": "1/3",
+      "indicator_norm_squared": "1",
+      "dimensions": {
+        "class_constant_space": 3,
+        "zero_sum_each_class": 8,
+        "full_space": 27
+      },
+      "scope": "Finite F3^3 class spaces; a matching dimension does not independently identify physical family labels."
+    },
+    {
+      "id": "C20-SCHUR",
+      "passed": true,
+      "K": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "source": [
+        5,
+        7
+      ],
+      "Schur": "5/3",
+      "reduced_source": "8/3",
+      "u": "8/5",
+      "w": "9/5",
+      "detK": 5,
+      "scope": "Retain w and the eliminated equation for full reconstruction; invertibility of E=3 and S=5/3 are checked, not assumed generically."
+    },
+    {
+      "id": "C20-WEYL-ORTHOGONALITY",
+      "passed": true,
+      "basis_order": "(a,b) in{0,1,2}^2, B_ab=D^aP^b",
+      "D": [
+        [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "-1",
+            "-1"
+          ]
+        ]
+      ],
+      "P": [
+        [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ]
+      ],
+      "inner_product": "Tr(B_ab dagger B_cd)=3 delta_(a,c) delta_(b,d)",
+      "scope": "Nine finite3x3 basis matrices; no source Yukawa data or missing archive coefficients are invented."
+    },
+    {
+      "id": "C20-WEYL-DECODER",
+      "passed": true,
+      "synthetic_Y": [
+        [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "3",
+            "1"
+          ],
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "2",
+            "-1"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ]
+      ],
+      "coefficient_rule": "Tr(B_ab dagger Y)/3",
+      "all_coefficients": {
+        "(0, 0)": [
+          "1",
+          "0"
+        ],
+        "(0, 1)": [
+          "2",
+          "0"
+        ],
+        "(0, 2)": [
+          "0",
+          "0"
+        ],
+        "(1, 0)": [
+          "0",
+          "0"
+        ],
+        "(1, 1)": [
+          "0",
+          "0"
+        ],
+        "(1, 2)": [
+          "0",
+          "0"
+        ],
+        "(2, 0)": [
+          "0",
+          "0"
+        ],
+        "(2, 1)": [
+          "-1",
+          "0"
+        ],
+        "(2, 2)": [
+          "0",
+          "0"
+        ]
+      },
+      "scope": "Exact selected coefficient reconstruction, with all nine coordinates including zeros retained."
+    },
+    {
+      "id": "C20-TENSOR-RANK",
+      "passed": true,
+      "dimensions": [
+        16,
+        3,
+        1
+      ],
+      "formal_rank": 48,
+      "scope": "Rank arithmetic only under the explicitly supplied I16 tensor I3 tensor rank-one-history projector. Preserve SA-20 source occupation-guard conflict and correction dispositions; this arithmetic does not resolve them or establish measured family occupation."
+    }
+  ]
+}

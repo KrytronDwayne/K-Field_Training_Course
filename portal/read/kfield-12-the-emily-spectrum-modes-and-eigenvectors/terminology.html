@@ -1,0 +1,214 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Terminology and notation · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/12">Course 12</a><span>/</span><span>terminology</span></div><a class="original" href="../../../kfield-12-the-emily-spectrum-modes-and-eigenvectors/terminology.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#terminology-and-notation">Terminology and notation</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 01 · A matrix acting on a pattern</a><a  href="lesson-02.html">Lesson 02 · Eigenvectors as unchanged pattern directions</a><a  href="lesson-03.html">Lesson 03 · The three-node path spectrum</a><a  href="lesson-04.html">Lesson 04 · Combining three path directions</a><a  href="lesson-05.html">Lesson 05 · Counting Emily multiplicities</a><a  href="lesson-06.html">Lesson 06 · Reading a state through modes</a><a  href="lesson-07.html">Lesson 07 · Spectral resemblance and typed identity</a></details></aside><div class="reading-column"><article class="prose"><h1 id="terminology-and-notation" tabindex="-1">Terminology and notation</h1>
+<p>All exercise patterns and adjacency eigenvalues are dimensionless. A physical application must separately declare measurement units and its operator. Horizontal tuples are treated as columns when a matrix acts.</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Term/symbol</th>
+<th>Exact course meaning</th>
+<th>Introduced</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Node / edge / open path P3</td>
+<td>Address / connection / three addresses −1—0—1 with no endpoint wrap</td>
+<td>01</td>
+</tr>
+<tr>
+<td>Pattern or state f</td>
+<td>Ordered values at nodes; not an edge flow</td>
+<td>01</td>
+</tr>
+<tr>
+<td>Matrix row action</td>
+<td>Sum of each row entry times the corresponding input entry</td>
+<td>01</td>
+</tr>
+<tr>
+<td>A</td>
+<td>P3 adjacency; A(a,b,c)=(b,a+c,b), node order (−1,0,1)</td>
+<td>01</td>
+</tr>
+<tr>
+<td>D</td>
+<td>Incidence: edge flows to signed node divergence; not A</td>
+<td>01</td>
+</tr>
+<tr>
+<td>Degree</td>
+<td>Number of neighbors</td>
+<td>01</td>
+</tr>
+<tr>
+<td>Graph Laplacian</td>
+<td>Degree times own value minus neighbor sum; contrast only</td>
+<td>01</td>
+</tr>
+<tr>
+<td>Eigenpair (λ,v)</td>
+<td>Nonzero v with Av=λv component by component</td>
+<td>02</td>
+</tr>
+<tr>
+<td>S</td>
+<td>Two-node adjacency S(a,b)=(b,a)</td>
+<td>02</td>
+</tr>
+<tr>
+<td>√q</td>
+<td>Positive square root for q&gt;0; √2 squared is 2</td>
+<td>02</td>
+</tr>
+<tr>
+<td>Linearity</td>
+<td>A(tv)=tAv and A(v+w)=Av+Aw</td>
+<td>02</td>
+</tr>
+<tr>
+<td>Spectrum / multiplicity</td>
+<td>Eigenvalues / number of independent modes at an eigenvalue</td>
+<td>03, 05</td>
+</tr>
+<tr>
+<td>x·y; norm</td>
+<td>Sum of matching-entry products; √(x·x)</td>
+<td>03</td>
+</tr>
+<tr>
+<td>Normalize</td>
+<td>Divide a nonzero vector by its norm</td>
+<td>03</td>
+</tr>
+<tr>
+<td>Orthogonal / orthonormal</td>
+<td>Zero mutual dot product / also unit lengths</td>
+<td>03</td>
+</tr>
+<tr>
+<td>r</td>
+<td>Temporary shorthand √2, never a discarded residual</td>
+<td>03, 06</td>
+</tr>
+<tr>
+<td>v+,v0,v−</td>
+<td>Unnormalized path patterns (1,√2,1),(1,0,−1),(1,−√2,1)</td>
+<td>03</td>
+</tr>
+<tr>
+<td>u+,u0,u−</td>
+<td>Those patterns divided by 2,√2,2; fixed order (+,0,−)</td>
+<td>03</td>
+</tr>
+<tr>
+<td>L=(i,j,k); lexicographic</td>
+<td>Triple address; i slowest, k fastest</td>
+<td>04</td>
+</tr>
+<tr>
+<td>G_L; A_L</td>
+<td>Open Cartesian product P3×P3×P3; its neighbor-sum adjacency</td>
+<td>04</td>
+</tr>
+<tr>
+<td>Product mode U</td>
+<td>U(i,j,k)=a(i)b(j)c(k) for three chosen path modes</td>
+<td>04</td>
+</tr>
+<tr>
+<td>α,β,γ</td>
+<td>Local factor eigenvalues, unrelated to source physical constants</td>
+<td>04</td>
+</tr>
+<tr>
+<td>m</td>
+<td>Integer coefficient of √2 in an Emily eigenvalue</td>
+<td>05</td>
+</tr>
+<tr>
+<td>λ_sheet</td>
+<td>Source-local sheet label i+j+k; separated from eigenvalue λ</td>
+<td>05</td>
+</tr>
+<tr>
+<td>χ(L)</td>
+<td>Node label (−1)^(i+j+k); not function reflection parity</td>
+<td>05</td>
+</tr>
+<tr>
+<td>R; antipodal</td>
+<td>Reflection (Rf)(L)=f(−L); paired opposite addresses</td>
+<td>05</td>
+</tr>
+<tr>
+<td>e,o</td>
+<td>Even (f+Rf)/2 and odd (f−Rf)/2 parts</td>
+<td>05</td>
+</tr>
+<tr>
+<td>Independent coordinate / dimension</td>
+<td>A freely chosen scalar value / number of such choices</td>
+<td>05</td>
+</tr>
+<tr>
+<td>c_j</td>
+<td>Mode coefficient u_j·f, with j a mode label</td>
+<td>06</td>
+</tr>
+<tr>
+<td>Basis</td>
+<td>Independent patterns giving unique reconstruction of every state</td>
+<td>06</td>
+</tr>
+<tr>
+<td>Residual</td>
+<td>Full signed difference f minus the retained modeled pattern</td>
+<td>06</td>
+</tr>
+<tr>
+<td>μ; d; <strong>1</strong></td>
+<td>Mean; centered detail f−μ<strong>1</strong>; all-ones pattern</td>
+<td>06 (ones in 01)</td>
+</tr>
+<tr>
+<td>Invariant</td>
+<td>An operation sends every pattern in a set back into that set</td>
+<td>06</td>
+</tr>
+<tr>
+<td>Quotient by constants</td>
+<td>Regard states differing by a constant as equivalent; open adjacency does not descend to this quotient</td>
+<td>06</td>
+</tr>
+<tr>
+<td>X,Y; domain/codomain</td>
+<td>Declared input/output state spaces</td>
+<td>07</td>
+</tr>
+<tr>
+<td>Carrier</td>
+<td>Kind of object and its labeling, not just a count</td>
+<td>07</td>
+</tr>
+<tr>
+<td>A_X,B_Y,T,I</td>
+<td>Two local operators, proposed map, identity map</td>
+<td>07</td>
+</tr>
+<tr>
+<td>diag(a,b)</td>
+<td>Matrix with a,b on its diagonal, zeros elsewhere</td>
+<td>07</td>
+</tr>
+<tr>
+<td>Invertible / intertwiner</td>
+<td>Has a recovery map / satisfies B_Y T=T A_X</td>
+<td>07</td>
+</tr>
+<tr>
+<td>Decoder channel / syndrome</td>
+<td>Source M17 input / retained residual coordinate; recognition-only</td>
+<td>05, 07</td>
+</tr>
+</tbody>
+</table></div>
+<p>Reserved source notation is kept separate: B is the source-locked ordered Cell3 basis, M_cell=BᵀB its Gram metric, R_cell its inverse, G_phase a distinct phase metric, and O_K a declared physical origin. None is needed in core computations. No source geometric basis is renamed to the classroom operator B_Y. No parity here is identified with detector parity, A1 carry parity, projective signs, chirality, or family labels.</p></article><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/12">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

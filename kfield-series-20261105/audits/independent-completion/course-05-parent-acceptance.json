@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-05",
+  "timestamp": "2026-11-05T17:37:49.433171+00:00",
+  "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-05-lucas-geometry-27-nodes-polarity-and-sheets",
+  "validator": "passed",
+  "validator_checks": [
+    "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+    "parsed manifest.json",
+    "parsed audit_report.json",
+    "parsed completion_report.json",
+    "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+  ],
+  "validator_errors": [],
+  "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+  "manifest_sha256": "777dc43c6db5de48b9b0587d02cb1c14a9cbb1d62b222983983306ebebd7a75b",
+  "completion_report_sha256": "e92b00e652ff57e281a356dfa6e08912130252d380e000d34ed302fb64852716",
+  "course_sha256": "5003a215bd45c2a1cdae700268b426f3d8cc4a75cbb643b4072a631c7c16edce",
+  "status": "accepted",
+  "independent_audit": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\independent-completion\\course-05-independent-audit.json",
+  "independent_report_sha256": "800bd6eb3e6dae084b733b9b5d963129b01216e9cb3379673adc18d647248de7",
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "scope": "Completed topical course accepted after parent review of independent source/content audit and fresh deterministic validation; documented source limitations retained."
+}

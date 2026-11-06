@@ -1,0 +1,380 @@
+{
+  "schema_version": "1.0",
+  "topic": "Gravity, Inertia, and Exceptional Branches",
+  "audience": "High-school seniors; first-principles teaching, with concrete prerequisite capabilities and taught bridges.",
+  "assumptions": [
+    "A topical short course, not a semester per topic. Pacing is 55-minute core lessons plus capstone periods; split dense lessons if actual learner load requires it.",
+    "No prior calculus, abstract algebra, university linear algebra, or quantum mechanics unless explicitly taught earlier.",
+    "Required core assessments must be solvable with taught finite examples. Clearly label deeper recognition-only extensions.",
+    "Markdown is the delivery format; no PDF or Word generation is required."
+  ],
+  "ordered_deliverables": [
+    "course-map.md",
+    "lesson-01.md",
+    "lesson-02.md",
+    "lesson-03.md",
+    "lesson-04.md",
+    "lesson-05.md",
+    "lesson-06.md",
+    "lesson-07.md",
+    "terminology.md",
+    "teacher-guide.md",
+    "capstone.md",
+    "sources.md",
+    "sources.json",
+    "verify_examples.py",
+    "verification.json",
+    "independent-audit.json",
+    "course.md",
+    "audit_report.json",
+    "completion_report.json"
+  ],
+  "checkpoints": [
+    {
+      "id": "course-map",
+      "kind": "course-map",
+      "path": "course-map.md",
+      "dependencies": [],
+      "status": "passed",
+      "sha256": "af35f113e8da2169f92b66d0be9a143a562ac91a9a031b10b04d4037be3c933b",
+      "summary": "course-map: saved complete artifact; verified and accepted"
+    },
+    {
+      "id": "lesson-01",
+      "kind": "lesson",
+      "path": "lesson-01.md",
+      "dependencies": [
+        "course-map"
+      ],
+      "status": "passed",
+      "sha256": "8fcf50d6a489ee436946b163a6f26c3dfad6ed54c886f112c44d40933b0ccf72",
+      "summary": "lesson-01: saved complete artifact; verified and accepted"
+    },
+    {
+      "id": "lesson-02",
+      "kind": "lesson",
+      "path": "lesson-02.md",
+      "dependencies": [
+        "lesson-01"
+      ],
+      "status": "passed",
+      "sha256": "a738cb3830ee1a1dd6bb47cf382ad09904ea6224bc31029f3c6891329f26dd6c",
+      "summary": "lesson-02: saved complete artifact; verified and accepted"
+    },
+    {
+      "id": "lesson-03",
+      "kind": "lesson",
+      "path": "lesson-03.md",
+      "dependencies": [
+        "lesson-02"
+      ],
+      "status": "passed",
+      "sha256": "3cd3897f8e06fbb4ebd51ff18efa380150ed0a5ff77373373ae85e56bf660f29",
+      "summary": "lesson-03: saved complete artifact; verified and accepted"
+    },
+    {
+      "id": "lesson-04",
+      "kind": "lesson",
+      "path": "lesson-04.md",
+      "dependencies": [
+        "lesson-03"
+      ],
+      "status": "passed",
+      "sha256": "88b8b8dccd4548f2f17182b9707920bf86e7daddae4c5e5882da56ada9100e94",
+      "summary": "lesson-04: saved complete artifact; verified and accepted"
+    },
+    {
+      "id": "lesson-05",
+      "kind": "lesson",
+      "path": "lesson-05.md",
+      "dependencies": [
+        "lesson-04"
+      ],
+      "status": "passed",
+      "sha256": "27048c7ce0dceb3a0edcd9a9959be829efe49f302553cc8a8d647d2c9f94f696",
+      "summary": "lesson-05: saved complete artifact; verified and accepted"
+    },
+    {
+      "id": "lesson-06",
+      "kind": "lesson",
+      "path": "lesson-06.md",
+      "dependencies": [
+        "lesson-05"
+      ],
+      "status": "passed",
+      "sha256": "1640b9a6e8a754dce849bc144c487754712e053ca2f0eea4ef74de07ff4b5821",
+      "summary": "lesson-06: saved complete artifact; verified and accepted"
+    },
+    {
+      "id": "lesson-07",
+      "kind": "lesson",
+      "path": "lesson-07.md",
+      "dependencies": [
+        "lesson-06"
+      ],
+      "status": "passed",
+      "sha256": "3eb6d4f9d739ffc9375f05590a8ac206b59a3a5e5850ac6e72591d7d7e4e3a54",
+      "summary": "lesson-07: saved complete artifact; verified and accepted"
+    },
+    {
+      "id": "terminology",
+      "kind": "terminology",
+      "path": "terminology.md",
+      "dependencies": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05",
+        "lesson-06",
+        "lesson-07"
+      ],
+      "status": "passed",
+      "sha256": "97c7fea39148f76c8f5ea6b4c0ae96f0b22562d6024c9d9decac342accf0ddea",
+      "summary": "terminology: saved complete artifact; verified and accepted"
+    },
+    {
+      "id": "teacher-guide",
+      "kind": "teacher-guide",
+      "path": "teacher-guide.md",
+      "dependencies": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05",
+        "lesson-06",
+        "lesson-07"
+      ],
+      "status": "passed",
+      "sha256": "2c02dcf6ffbe2abdee3f7e27f319459c4a694155b5291bc957f8b5990c5cc641",
+      "summary": "teacher-guide: saved complete artifact; verified and accepted"
+    },
+    {
+      "id": "capstone",
+      "kind": "capstone",
+      "path": "capstone.md",
+      "dependencies": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05",
+        "lesson-06",
+        "lesson-07"
+      ],
+      "status": "passed",
+      "sha256": "e9782e9edf7f4cf70c6f55313fe388212853e13540d3175d0caffdc95284fcbd",
+      "summary": "capstone: saved complete artifact; verified and accepted"
+    },
+    {
+      "id": "sources",
+      "kind": "supplement",
+      "path": "sources.md",
+      "dependencies": [],
+      "status": "passed",
+      "sha256": "e0f4aa5bd674f835ebcc17a7781238a07e556114bcedf6d4f7d8781fd221109d",
+      "summary": "sources: saved complete artifact; verified and accepted"
+    },
+    {
+      "id": "source-hashes",
+      "kind": "supplement",
+      "path": "sources.json",
+      "dependencies": [],
+      "status": "passed",
+      "sha256": "eeac5ebbabf08041f22d70945a202442d90f5e09e4fbebf087022443188fa3c8",
+      "summary": "source-hashes: saved complete artifact; verified and accepted"
+    },
+    {
+      "id": "verification-code",
+      "kind": "supplement",
+      "path": "verify_examples.py",
+      "dependencies": [],
+      "status": "passed",
+      "sha256": "bb7e1dbe30124814ce1e0c32d08d3f5f886cae8ee7a9029e6a2f63e005e6e3d5",
+      "summary": "verification-code: saved complete artifact; verified and accepted"
+    },
+    {
+      "id": "verification",
+      "kind": "supplement",
+      "path": "verification.json",
+      "dependencies": [
+        "verification-code",
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05",
+        "lesson-06",
+        "lesson-07"
+      ],
+      "status": "passed",
+      "sha256": "63f7d9c6ebf33ef8d93467b7166601295a9ccb6aab22a9d3a1bebf6228cf7db7",
+      "summary": "verification: saved complete artifact; verified and accepted"
+    },
+    {
+      "id": "independent-audit",
+      "kind": "supplement",
+      "path": "independent-audit.json",
+      "dependencies": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05",
+        "lesson-06",
+        "lesson-07",
+        "capstone"
+      ],
+      "status": "passed",
+      "sha256": "00d9084ff5df7b2c556eda7418f21701befbcb5319756279605040f98bfce1b5",
+      "summary": "independent-audit: saved complete artifact; verified and accepted"
+    },
+    {
+      "id": "assembly",
+      "kind": "assembly",
+      "path": "course.md",
+      "dependencies": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05",
+        "lesson-06",
+        "lesson-07"
+      ],
+      "status": "passed",
+      "sha256": "8deb8a579cf0b7fc89f55e9978ec1b0c2482de59ad0a307b26d3f9c1c9a6e09b",
+      "summary": "assembly: saved complete artifact; verified and accepted"
+    },
+    {
+      "id": "audit",
+      "kind": "audit",
+      "path": "audit_report.json",
+      "dependencies": [
+        "independent-audit",
+        "verification",
+        "assembly"
+      ],
+      "status": "passed",
+      "sha256": "e0a26cbcac10e45ce2984995f389be74fc4b195d50659a31278b36a612dafb39",
+      "summary": "audit: saved complete artifact; verified and accepted"
+    }
+  ],
+  "dependencies": {
+    "course-map": [],
+    "lesson-01": [
+      "course-map"
+    ],
+    "lesson-02": [
+      "lesson-01"
+    ],
+    "lesson-03": [
+      "lesson-02"
+    ],
+    "lesson-04": [
+      "lesson-03"
+    ],
+    "lesson-05": [
+      "lesson-04"
+    ],
+    "lesson-06": [
+      "lesson-05"
+    ],
+    "lesson-07": [
+      "lesson-06"
+    ],
+    "terminology": [
+      "lesson-01",
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05",
+      "lesson-06",
+      "lesson-07"
+    ],
+    "teacher-guide": [
+      "lesson-01",
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05",
+      "lesson-06",
+      "lesson-07"
+    ],
+    "capstone": [
+      "lesson-01",
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05",
+      "lesson-06",
+      "lesson-07"
+    ],
+    "sources": [],
+    "source-hashes": [],
+    "verification-code": [],
+    "verification": [
+      "verification-code",
+      "lesson-01",
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05",
+      "lesson-06",
+      "lesson-07"
+    ],
+    "independent-audit": [
+      "lesson-01",
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05",
+      "lesson-06",
+      "lesson-07",
+      "capstone"
+    ],
+    "assembly": [
+      "lesson-01",
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05",
+      "lesson-06",
+      "lesson-07"
+    ],
+    "audit": [
+      "independent-audit",
+      "verification",
+      "assembly"
+    ]
+  },
+  "course_order": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03",
+    "lesson-04",
+    "lesson-05",
+    "lesson-06",
+    "lesson-07"
+  ],
+  "assembly": {
+    "path": "course.md",
+    "section_ids": [
+      "lesson-01",
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05",
+      "lesson-06",
+      "lesson-07"
+    ]
+  },
+  "audit_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "blockers": [],
+  "next_action": "none"
+}

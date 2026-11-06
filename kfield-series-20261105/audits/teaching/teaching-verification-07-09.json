@@ -1,0 +1,2269 @@
+{
+  "schema_version": "1.0",
+  "created_utc": "2026-11-05T17:28:59.617960+00:00",
+  "runtime": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+  "method": "Fresh exact Fraction arithmetic, explicit arrays, exact-source-lexeme replay and bounded enumeration. Decimal60 ROUND_HALF_EVEN is used only to display exact rational locked evaluations; exact signed rational differences remain authoritative for those checks.",
+  "source_hashes": [
+    {
+      "id": "S01",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "read_only": true
+    },
+    {
+      "id": "S02",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "read_only": true
+    },
+    {
+      "id": "S03",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "read_only": true
+    }
+  ],
+  "checks": [
+    {
+      "id": "source-hash-S01",
+      "actual": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "expected": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "passed": true
+    },
+    {
+      "id": "source-hash-S02",
+      "actual": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "expected": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "passed": true
+    },
+    {
+      "id": "source-hash-S03",
+      "actual": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "expected": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "passed": true
+    },
+    {
+      "id": "source-generation-scale",
+      "actual": "K_g=27^g",
+      "expected": "K_g=27^g",
+      "passed": true
+    },
+    {
+      "id": "source-constitutive-roles",
+      "actual": [
+        "premise_not_derived_theorem",
+        "premise_not_derived_theorem",
+        "premise_not_derived_theorem",
+        "premise_not_derived_theorem",
+        "premise_not_derived_theorem",
+        "premise_not_derived_theorem"
+      ],
+      "expected": [
+        "premise_not_derived_theorem",
+        "premise_not_derived_theorem",
+        "premise_not_derived_theorem",
+        "premise_not_derived_theorem",
+        "premise_not_derived_theorem",
+        "premise_not_derived_theorem"
+      ],
+      "passed": true
+    },
+    {
+      "id": "07-differences",
+      "actual": [
+        3,
+        -1,
+        5
+      ],
+      "expected": [
+        3,
+        -1,
+        5
+      ],
+      "passed": true
+    },
+    {
+      "id": "07-anchor-reconstruction",
+      "actual": [
+        2,
+        5,
+        4,
+        9
+      ],
+      "expected": [
+        2,
+        5,
+        4,
+        9
+      ],
+      "passed": true
+    },
+    {
+      "id": "07-practice-differences",
+      "actual": [
+        4,
+        -1,
+        4
+      ],
+      "expected": [
+        4,
+        -1,
+        4
+      ],
+      "passed": true
+    },
+    {
+      "id": "07-product-terms-worked",
+      "actual": [
+        4,
+        12,
+        6
+      ],
+      "expected": [
+        4,
+        12,
+        6
+      ],
+      "passed": true
+    },
+    {
+      "id": "07-product-total-worked",
+      "actual": 22,
+      "expected": 22,
+      "passed": true
+    },
+    {
+      "id": "07-product-value-worked",
+      "actual": 22,
+      "expected": 22,
+      "passed": true
+    },
+    {
+      "id": "07-product-terms-practice",
+      "actual": [
+        9,
+        -4,
+        -6
+      ],
+      "expected": [
+        9,
+        -4,
+        -6
+      ],
+      "passed": true
+    },
+    {
+      "id": "07-product-total-practice",
+      "actual": -1,
+      "expected": -1,
+      "passed": true
+    },
+    {
+      "id": "07-product-value-practice",
+      "actual": -1,
+      "expected": -1,
+      "passed": true
+    },
+    {
+      "id": "07-mean",
+      "actual": [
+        "7/2",
+        "7/2",
+        "13/2",
+        "13/2"
+      ],
+      "expected": [
+        "7/2",
+        "7/2",
+        "13/2",
+        "13/2"
+      ],
+      "passed": true
+    },
+    {
+      "id": "07-detail",
+      "actual": [
+        "-3/2",
+        "3/2",
+        "-5/2",
+        "5/2"
+      ],
+      "expected": [
+        "-3/2",
+        "3/2",
+        "-5/2",
+        "5/2"
+      ],
+      "passed": true
+    },
+    {
+      "id": "07-Q-product-worked",
+      "actual": [
+        "-5",
+        "5",
+        "-9",
+        "9"
+      ],
+      "expected": [
+        -5,
+        5,
+        -9,
+        9
+      ],
+      "passed": true
+    },
+    {
+      "id": "07-expectation-RHS-worked",
+      "actual": [
+        "-5",
+        "5",
+        "-9",
+        "9"
+      ],
+      "expected": [
+        -5,
+        5,
+        -9,
+        9
+      ],
+      "passed": true
+    },
+    {
+      "id": "07-idempotence-worked",
+      "actual": [
+        "3",
+        "3",
+        "3",
+        "3"
+      ],
+      "expected": [
+        "3",
+        "3",
+        "3",
+        "3"
+      ],
+      "passed": true
+    },
+    {
+      "id": "07-bimodule-worked",
+      "actual": [
+        "6",
+        "6",
+        "-3",
+        "-3"
+      ],
+      "expected": [
+        "6",
+        "6",
+        "-3",
+        "-3"
+      ],
+      "passed": true
+    },
+    {
+      "id": "07-linearity-worked",
+      "actual": [
+        "0",
+        "0",
+        "-3",
+        "-3"
+      ],
+      "expected": [
+        "0",
+        "0",
+        "-3",
+        "-3"
+      ],
+      "passed": true
+    },
+    {
+      "id": "07-Q-product-practice",
+      "actual": [
+        "-1",
+        "1",
+        "-4",
+        "4"
+      ],
+      "expected": [
+        -1,
+        1,
+        -4,
+        4
+      ],
+      "passed": true
+    },
+    {
+      "id": "07-expectation-RHS-practice",
+      "actual": [
+        "-1",
+        "1",
+        "-4",
+        "4"
+      ],
+      "expected": [
+        -1,
+        1,
+        -4,
+        4
+      ],
+      "passed": true
+    },
+    {
+      "id": "07-idempotence-practice",
+      "actual": [
+        "1",
+        "1",
+        "3",
+        "3"
+      ],
+      "expected": [
+        "1",
+        "1",
+        "3",
+        "3"
+      ],
+      "passed": true
+    },
+    {
+      "id": "07-bimodule-practice",
+      "actual": [
+        "2",
+        "2",
+        "-3",
+        "-3"
+      ],
+      "expected": [
+        "2",
+        "2",
+        "-3",
+        "-3"
+      ],
+      "passed": true
+    },
+    {
+      "id": "07-linearity-practice",
+      "actual": [
+        "-1",
+        "-1",
+        "3",
+        "3"
+      ],
+      "expected": [
+        "-1",
+        "-1",
+        "3",
+        "3"
+      ],
+      "passed": true
+    },
+    {
+      "id": "07-star-idempotent",
+      "actual": [
+        2,
+        2,
+        10
+      ],
+      "expected": [
+        2,
+        2,
+        10
+      ],
+      "passed": true
+    },
+    {
+      "id": "07-star-bimodule-left",
+      "actual": [
+        0,
+        0,
+        1
+      ],
+      "expected": [
+        0,
+        0,
+        1
+      ],
+      "passed": true
+    },
+    {
+      "id": "07-star-bimodule-right",
+      "actual": [
+        0,
+        0,
+        0
+      ],
+      "expected": [
+        0,
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "id": "07-star-Qfg",
+      "actual": [
+        0,
+        1,
+        -1
+      ],
+      "expected": [
+        0,
+        1,
+        -1
+      ],
+      "passed": true
+    },
+    {
+      "id": "07-star-failed-RHS",
+      "actual": [
+        0,
+        1,
+        -3
+      ],
+      "expected": [
+        0,
+        1,
+        -3
+      ],
+      "passed": true
+    },
+    {
+      "id": "07-three-stage-worked",
+      "actual": [
+        "2",
+        "5",
+        "4",
+        "9"
+      ],
+      "expected": [
+        2,
+        5,
+        4,
+        9
+      ],
+      "passed": true
+    },
+    {
+      "id": "07-retained-layer-worked",
+      "actual": [
+        "1",
+        "4",
+        "3",
+        "8"
+      ],
+      "expected": [
+        1,
+        4,
+        3,
+        8
+      ],
+      "passed": true
+    },
+    {
+      "id": "07-three-stage-practice",
+      "actual": [
+        3,
+        7,
+        6,
+        10
+      ],
+      "expected": [
+        3,
+        7,
+        6,
+        10
+      ],
+      "passed": true
+    },
+    {
+      "id": "07-retained-layer-practice",
+      "actual": [
+        "1",
+        "5",
+        "4",
+        "8"
+      ],
+      "expected": [
+        1,
+        5,
+        4,
+        8
+      ],
+      "passed": true
+    },
+    {
+      "id": "07-kernel",
+      "actual": [
+        0,
+        0
+      ],
+      "expected": [
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "id": "07-free-parameter",
+      "actual": [
+        2,
+        4
+      ],
+      "expected": [
+        2,
+        4
+      ],
+      "passed": true
+    },
+    {
+      "id": "07-incompatibility",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "id": "07-incompatible-output-retained",
+      "actual": [
+        6,
+        13
+      ],
+      "expected": [
+        6,
+        13
+      ],
+      "passed": true
+    },
+    {
+      "id": "07-capstone-singular-free-state",
+      "actual": [
+        5,
+        3
+      ],
+      "expected": [
+        5,
+        3
+      ],
+      "passed": true
+    },
+    {
+      "id": "07-capstone-singular-forward",
+      "actual": [
+        8,
+        16
+      ],
+      "expected": [
+        8,
+        16
+      ],
+      "passed": true
+    },
+    {
+      "id": "07-capstone-incompatibility",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "id": "07-capstone-incompatible-reconstruction",
+      "actual": [
+        8,
+        17
+      ],
+      "expected": [
+        8,
+        17
+      ],
+      "passed": true
+    },
+    {
+      "id": "08-baseline",
+      "actual": {
+        "ray": [
+          "1",
+          "2/3",
+          "1/2"
+        ],
+        "eta": "2000",
+        "alpha_inverse": "150",
+        "alpha": "1/150",
+        "eta_alpha": "40/3"
+      },
+      "expected": {
+        "ray": [
+          "1",
+          "2/3",
+          "1/2"
+        ],
+        "eta": 2000,
+        "alpha_inverse": 150,
+        "alpha": "1/150",
+        "eta_alpha": "40/3"
+      },
+      "passed": true
+    },
+    {
+      "id": "08-practice",
+      "actual": {
+        "ray": [
+          "1",
+          "2/3",
+          "1/3"
+        ],
+        "eta": "3000",
+        "alpha_inverse": "150",
+        "alpha": "1/150",
+        "eta_alpha": "20"
+      },
+      "expected": {
+        "ray": [
+          "1",
+          "2/3",
+          "1/3"
+        ],
+        "eta": 3000,
+        "alpha_inverse": 150,
+        "alpha": "1/150",
+        "eta_alpha": 20
+      },
+      "passed": true
+    },
+    {
+      "id": "08-scale-invariance-2",
+      "actual": {
+        "ray": [
+          "1",
+          "2/3",
+          "1/2"
+        ],
+        "eta": "2000",
+        "alpha_inverse": "150",
+        "alpha": "1/150",
+        "eta_alpha": "40/3"
+      },
+      "expected": {
+        "ray": [
+          "1",
+          "2/3",
+          "1/2"
+        ],
+        "eta": "2000",
+        "alpha_inverse": "150",
+        "alpha": "1/150",
+        "eta_alpha": "40/3"
+      },
+      "passed": true
+    },
+    {
+      "id": "08-scale-invariance-1/2",
+      "actual": {
+        "ray": [
+          "1",
+          "2/3",
+          "1/2"
+        ],
+        "eta": "2000",
+        "alpha_inverse": "150",
+        "alpha": "1/150",
+        "eta_alpha": "40/3"
+      },
+      "expected": {
+        "ray": [
+          "1",
+          "2/3",
+          "1/2"
+        ],
+        "eta": "2000",
+        "alpha_inverse": "150",
+        "alpha": "1/150",
+        "eta_alpha": "40/3"
+      },
+      "passed": true
+    },
+    {
+      "id": "08-scale-invariance-3",
+      "actual": {
+        "ray": [
+          "1",
+          "2/3",
+          "1/2"
+        ],
+        "eta": "2000",
+        "alpha_inverse": "150",
+        "alpha": "1/150",
+        "eta_alpha": "40/3"
+      },
+      "expected": {
+        "ray": [
+          "1",
+          "2/3",
+          "1/2"
+        ],
+        "eta": "2000",
+        "alpha_inverse": "150",
+        "alpha": "1/150",
+        "eta_alpha": "40/3"
+      },
+      "passed": true
+    },
+    {
+      "id": "08-sensitivity-ab",
+      "actual": {
+        "ray": [
+          "0",
+          "0",
+          "1/120"
+        ],
+        "eta": "-2000/61",
+        "alpha_inverse": "0",
+        "alpha": "0",
+        "eta_alpha": "-40/183"
+      },
+      "expected": {
+        "ray": [
+          0,
+          0,
+          "1/120"
+        ],
+        "eta": "-2000/61",
+        "alpha_inverse": 0,
+        "alpha": 0,
+        "eta_alpha": "-40/183"
+      },
+      "passed": true
+    },
+    {
+      "id": "08-identity-ab",
+      "actual": "800/61",
+      "expected": "800/61",
+      "passed": true
+    },
+    {
+      "id": "08-sensitivity-ac",
+      "actual": {
+        "ray": [
+          "0",
+          "1/120",
+          "0"
+        ],
+        "eta": "0",
+        "alpha_inverse": "-50/27",
+        "alpha": "1/12000",
+        "eta_alpha": "1/6"
+      },
+      "expected": {
+        "ray": [
+          0,
+          "1/120",
+          0
+        ],
+        "eta": 0,
+        "alpha_inverse": "-50/27",
+        "alpha": "1/12000",
+        "eta_alpha": "1/6"
+      },
+      "passed": true
+    },
+    {
+      "id": "08-identity-ac",
+      "actual": "27/2",
+      "expected": "27/2",
+      "passed": true
+    },
+    {
+      "id": "08-optional-linear-remainder",
+      "actual": "100/183",
+      "expected": "100/183",
+      "passed": true
+    },
+    {
+      "id": "08-optional-finite-identity",
+      "actual": "60/61",
+      "expected": "60/61",
+      "passed": true
+    },
+    {
+      "id": "08-locked-reconstruction-eta",
+      "actual": "35780953912856150000/19486916546048413",
+      "expected": "35780953912856150000/19486916546048413",
+      "passed": true
+    },
+    {
+      "id": "08-locked-reconstruction-alpha_inverse",
+      "actual": "357809539128561500/2611062357902053",
+      "expected": "357809539128561500/2611062357902053",
+      "passed": true
+    },
+    {
+      "id": "08-locked-reconstruction-alpha",
+      "actual": "2611062357902053/357809539128561500",
+      "expected": "2611062357902053/357809539128561500",
+      "passed": true
+    },
+    {
+      "id": "08-locked-reconstruction-eta_alpha",
+      "actual": "23736930526382300/1771537867822583",
+      "expected": "23736930526382300/1771537867822583",
+      "passed": true
+    },
+    {
+      "id": "08-branch-reconstruction-master_geometry",
+      "actual": [
+        "1",
+        "228042267635357/312500000000000",
+        "5446170214888189/10000000000000000"
+      ],
+      "expected": [
+        "1",
+        "228042267635357/312500000000000",
+        "5446170214888189/10000000000000000"
+      ],
+      "passed": true
+    },
+    {
+      "id": "08-branch-reconstruction-locked_mass_bridge",
+      "actual": [
+        "1",
+        "228042267635357/312500000000000",
+        "5446170214888189/10000000000000000"
+      ],
+      "expected": [
+        "1",
+        "228042267635357/312500000000000",
+        "5446170214888189/10000000000000000"
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-half-ties",
+      "actual": [
+        [
+          0,
+          "-1/2"
+        ],
+        [
+          -1,
+          "-1/2"
+        ],
+        [
+          1,
+          "-1/2"
+        ],
+        [
+          -2,
+          "-1/2"
+        ]
+      ],
+      "expected": [
+        [
+          0,
+          "-1/2"
+        ],
+        [
+          -1,
+          "-1/2"
+        ],
+        [
+          1,
+          "-1/2"
+        ],
+        [
+          -2,
+          "-1/2"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-translation-1/2",
+      "actual": 3,
+      "expected": 3,
+      "passed": true
+    },
+    {
+      "id": "09-translation--1/2",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "09-translation-49/100",
+      "actual": 3,
+      "expected": 3,
+      "passed": true
+    },
+    {
+      "id": "09-translation-51/100",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "09-owner-distinction",
+      "actual": [
+        1,
+        0
+      ],
+      "expected": [
+        1,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-Q-worked",
+      "actual": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          27,
+          18,
+          13
+        ],
+        [
+          729,
+          486,
+          364
+        ]
+      ],
+      "expected": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          27,
+          18,
+          13
+        ],
+        [
+          729,
+          486,
+          364
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-epsilon-worked",
+      "actual": [
+        [
+          "0",
+          "1/3",
+          "-1/2"
+        ],
+        [
+          "0",
+          "0",
+          "-1/2"
+        ],
+        [
+          "0",
+          "0",
+          "-1/2"
+        ]
+      ],
+      "expected": [
+        [
+          0,
+          "1/3",
+          "-1/2"
+        ],
+        [
+          0,
+          0,
+          "-1/2"
+        ],
+        [
+          0,
+          0,
+          "-1/2"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-carries-worked",
+      "actual": [
+        null,
+        [
+          0,
+          -9,
+          13
+        ],
+        [
+          0,
+          0,
+          13
+        ]
+      ],
+      "expected": [
+        null,
+        [
+          0,
+          -9,
+          13
+        ],
+        [
+          0,
+          0,
+          13
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-reconstruct-worked-0",
+      "actual": [
+        "1",
+        "2/3",
+        "1/2"
+      ],
+      "expected": [
+        "1",
+        "2/3",
+        "1/2"
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-interval-worked-0",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "09-reconstruct-worked-1",
+      "actual": [
+        "1",
+        "2/3",
+        "1/2"
+      ],
+      "expected": [
+        "1",
+        "2/3",
+        "1/2"
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-interval-worked-1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "09-carry-from-epsilon-worked-1",
+      "actual": [
+        0,
+        -9,
+        13
+      ],
+      "expected": [
+        0,
+        -9,
+        13
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-epsilon-recurrence-worked-1",
+      "actual": [
+        "0",
+        "0",
+        "-1/2"
+      ],
+      "expected": [
+        "0",
+        "0",
+        "-1/2"
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-side-halves-worked-1",
+      "actual": [
+        "-9",
+        "13"
+      ],
+      "expected": [
+        -9,
+        13
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-side-parity-worked-1",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "09-reconstruct-worked-2",
+      "actual": [
+        "1",
+        "2/3",
+        "1/2"
+      ],
+      "expected": [
+        "1",
+        "2/3",
+        "1/2"
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-interval-worked-2",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "09-carry-from-epsilon-worked-2",
+      "actual": [
+        0,
+        0,
+        13
+      ],
+      "expected": [
+        0,
+        0,
+        13
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-epsilon-recurrence-worked-2",
+      "actual": [
+        "0",
+        "0",
+        "-1/2"
+      ],
+      "expected": [
+        "0",
+        "0",
+        "-1/2"
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-side-halves-worked-2",
+      "actual": [
+        "0",
+        "13"
+      ],
+      "expected": [
+        0,
+        13
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-side-parity-worked-2",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "09-finite-carry-sum-worked",
+      "actual": [
+        729,
+        486,
+        364
+      ],
+      "expected": [
+        729,
+        486,
+        364
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-finite-terminal-decode-worked",
+      "actual": [
+        "1",
+        "2/3",
+        "1/2"
+      ],
+      "expected": [
+        "1",
+        "2/3",
+        "1/2"
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-Q-practice",
+      "actual": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          27,
+          9,
+          7
+        ],
+        [
+          729,
+          243,
+          182
+        ]
+      ],
+      "expected": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          27,
+          9,
+          7
+        ],
+        [
+          729,
+          243,
+          182
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-epsilon-practice",
+      "actual": [
+        [
+          "0",
+          "-1/3",
+          "-1/4"
+        ],
+        [
+          "0",
+          "0",
+          "1/4"
+        ],
+        [
+          "0",
+          "0",
+          "-1/4"
+        ]
+      ],
+      "expected": [
+        [
+          0,
+          "-1/3",
+          "-1/4"
+        ],
+        [
+          0,
+          0,
+          "1/4"
+        ],
+        [
+          0,
+          0,
+          "-1/4"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-carries-practice",
+      "actual": [
+        null,
+        [
+          0,
+          9,
+          7
+        ],
+        [
+          0,
+          0,
+          -7
+        ]
+      ],
+      "expected": [
+        null,
+        [
+          0,
+          9,
+          7
+        ],
+        [
+          0,
+          0,
+          -7
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-reconstruct-practice-0",
+      "actual": [
+        "1",
+        "1/3",
+        "1/4"
+      ],
+      "expected": [
+        "1",
+        "1/3",
+        "1/4"
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-interval-practice-0",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "09-reconstruct-practice-1",
+      "actual": [
+        "1",
+        "1/3",
+        "1/4"
+      ],
+      "expected": [
+        "1",
+        "1/3",
+        "1/4"
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-interval-practice-1",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "09-carry-from-epsilon-practice-1",
+      "actual": [
+        0,
+        9,
+        7
+      ],
+      "expected": [
+        0,
+        9,
+        7
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-epsilon-recurrence-practice-1",
+      "actual": [
+        "0",
+        "0",
+        "1/4"
+      ],
+      "expected": [
+        "0",
+        "0",
+        "1/4"
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-side-halves-practice-1",
+      "actual": [
+        "9",
+        "7"
+      ],
+      "expected": [
+        9,
+        7
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-side-parity-practice-1",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "09-reconstruct-practice-2",
+      "actual": [
+        "1",
+        "1/3",
+        "1/4"
+      ],
+      "expected": [
+        "1",
+        "1/3",
+        "1/4"
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-interval-practice-2",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "09-carry-from-epsilon-practice-2",
+      "actual": [
+        0,
+        0,
+        -7
+      ],
+      "expected": [
+        0,
+        0,
+        -7
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-epsilon-recurrence-practice-2",
+      "actual": [
+        "0",
+        "0",
+        "-1/4"
+      ],
+      "expected": [
+        "0",
+        "0",
+        "-1/4"
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-side-halves-practice-2",
+      "actual": [
+        "0",
+        "-7"
+      ],
+      "expected": [
+        0,
+        -7
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-side-parity-practice-2",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "id": "09-finite-carry-sum-practice",
+      "actual": [
+        729,
+        243,
+        182
+      ],
+      "expected": [
+        729,
+        243,
+        182
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-finite-terminal-decode-practice",
+      "actual": [
+        "1",
+        "1/3",
+        "1/4"
+      ],
+      "expected": [
+        "1",
+        "1/3",
+        "1/4"
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-invalid-mode-halves",
+      "actual": [
+        "1/2",
+        "1/2"
+      ],
+      "expected": [
+        "1/2",
+        "1/2"
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-source-side-witness",
+      "actual": [
+        0,
+        -2
+      ],
+      "expected": [
+        0,
+        -2
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-first-difference-worked",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "09-first-difference-practice",
+      "actual": 3,
+      "expected": 3,
+      "passed": true
+    },
+    {
+      "id": "09-active-source-Q-g0",
+      "actual": [
+        1,
+        1,
+        1
+      ],
+      "expected": [
+        1,
+        1,
+        1
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-active-source-C-g0",
+      "actual": null,
+      "expected": null,
+      "passed": true
+    },
+    {
+      "id": "09-active-source-Q-g1",
+      "actual": [
+        27,
+        20,
+        15
+      ],
+      "expected": [
+        27,
+        20,
+        15
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-active-source-C-g1",
+      "actual": [
+        0,
+        -7,
+        -12
+      ],
+      "expected": [
+        0,
+        -7,
+        -12
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-active-source-Q-g2",
+      "actual": [
+        729,
+        532,
+        397
+      ],
+      "expected": [
+        729,
+        532,
+        397
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-active-source-C-g2",
+      "actual": [
+        0,
+        -8,
+        -8
+      ],
+      "expected": [
+        0,
+        -8,
+        -8
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-active-source-Q-g3",
+      "actual": [
+        19683,
+        14363,
+        10720
+      ],
+      "expected": [
+        19683,
+        14363,
+        10720
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-active-source-C-g3",
+      "actual": [
+        0,
+        -1,
+        1
+      ],
+      "expected": [
+        0,
+        -1,
+        1
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-active-source-Q-g4",
+      "actual": [
+        531441,
+        387811,
+        289432
+      ],
+      "expected": [
+        531441,
+        387811,
+        289432
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-active-source-C-g4",
+      "actual": [
+        0,
+        10,
+        -8
+      ],
+      "expected": [
+        0,
+        10,
+        -8
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-active-source-Q-g5",
+      "actual": [
+        14348907,
+        10470903,
+        7814659
+      ],
+      "expected": [
+        14348907,
+        10470903,
+        7814659
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-active-source-C-g5",
+      "actual": [
+        0,
+        6,
+        -5
+      ],
+      "expected": [
+        0,
+        6,
+        -5
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-active-source-Q-g6",
+      "actual": [
+        387420489,
+        282714390,
+        210995793
+      ],
+      "expected": [
+        387420489,
+        282714390,
+        210995793
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-active-source-C-g6",
+      "actual": [
+        0,
+        9,
+        0
+      ],
+      "expected": [
+        0,
+        9,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-active-source-Q-g7",
+      "actual": [
+        10460353203,
+        7633288527,
+        5696886405
+      ],
+      "expected": [
+        10460353203,
+        7633288527,
+        5696886405
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-active-source-C-g7",
+      "actual": [
+        0,
+        -3,
+        -6
+      ],
+      "expected": [
+        0,
+        -3,
+        -6
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-active-source-Q-g8",
+      "actual": [
+        282429536481,
+        206098790228,
+        153815932939
+      ],
+      "expected": [
+        282429536481,
+        206098790228,
+        153815932939
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-active-source-C-g8",
+      "actual": [
+        0,
+        -1,
+        4
+      ],
+      "expected": [
+        0,
+        -1,
+        4
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-historical-through7",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "09-historical-g8",
+      "actual": [
+        0,
+        8,
+        7
+      ],
+      "expected": [
+        0,
+        8,
+        7
+      ],
+      "passed": true
+    },
+    {
+      "id": "09-grid-201-values-three-translations",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    }
+  ],
+  "check_count": 129,
+  "failed_count": 0,
+  "worked_ledgers_course09": [
+    {
+      "label": "worked",
+      "synthetic_ray": [
+        "1",
+        "2/3",
+        "1/2"
+      ],
+      "rows": [
+        {
+          "g": 0,
+          "K": 1,
+          "Q": [
+            1,
+            1,
+            0
+          ],
+          "epsilon": [
+            "0",
+            "1/3",
+            "-1/2"
+          ],
+          "carry": null
+        },
+        {
+          "g": 1,
+          "K": 27,
+          "Q": [
+            27,
+            18,
+            13
+          ],
+          "epsilon": [
+            "0",
+            "0",
+            "-1/2"
+          ],
+          "carry": [
+            0,
+            -9,
+            13
+          ]
+        },
+        {
+          "g": 2,
+          "K": 729,
+          "Q": [
+            729,
+            486,
+            364
+          ],
+          "epsilon": [
+            "0",
+            "0",
+            "-1/2"
+          ],
+          "carry": [
+            0,
+            0,
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "label": "practice",
+      "synthetic_ray": [
+        "1",
+        "1/3",
+        "1/4"
+      ],
+      "rows": [
+        {
+          "g": 0,
+          "K": 1,
+          "Q": [
+            1,
+            0,
+            0
+          ],
+          "epsilon": [
+            "0",
+            "-1/3",
+            "-1/4"
+          ],
+          "carry": null
+        },
+        {
+          "g": 1,
+          "K": 27,
+          "Q": [
+            27,
+            9,
+            7
+          ],
+          "epsilon": [
+            "0",
+            "0",
+            "1/4"
+          ],
+          "carry": [
+            0,
+            9,
+            7
+          ]
+        },
+        {
+          "g": 2,
+          "K": 729,
+          "Q": [
+            729,
+            243,
+            182
+          ],
+          "epsilon": [
+            "0",
+            "0",
+            "-1/4"
+          ],
+          "carry": [
+            0,
+            0,
+            -7
+          ]
+        }
+      ]
+    }
+  ],
+  "finite_ray_comparisons": [
+    {
+      "label": "worked",
+      "ray": [
+        "1",
+        "2/3",
+        "1/2"
+      ],
+      "perturbed_ray": [
+        "1",
+        "2003/3000",
+        "1/2"
+      ],
+      "rows_original": [
+        {
+          "g": 0,
+          "K": 1,
+          "Q": [
+            1,
+            1,
+            0
+          ],
+          "epsilon": [
+            "0",
+            "1/3",
+            "-1/2"
+          ],
+          "carry": null
+        },
+        {
+          "g": 1,
+          "K": 27,
+          "Q": [
+            27,
+            18,
+            13
+          ],
+          "epsilon": [
+            "0",
+            "0",
+            "-1/2"
+          ],
+          "carry": [
+            0,
+            -9,
+            13
+          ]
+        },
+        {
+          "g": 2,
+          "K": 729,
+          "Q": [
+            729,
+            486,
+            364
+          ],
+          "epsilon": [
+            "0",
+            "0",
+            "-1/2"
+          ],
+          "carry": [
+            0,
+            0,
+            13
+          ]
+        }
+      ],
+      "rows_perturbed": [
+        {
+          "g": 0,
+          "K": 1,
+          "Q": [
+            1,
+            1,
+            0
+          ],
+          "epsilon": [
+            "0",
+            "997/3000",
+            "-1/2"
+          ],
+          "carry": null
+        },
+        {
+          "g": 1,
+          "K": 27,
+          "Q": [
+            27,
+            18,
+            13
+          ],
+          "epsilon": [
+            "0",
+            "-27/1000",
+            "-1/2"
+          ],
+          "carry": [
+            0,
+            -9,
+            13
+          ]
+        },
+        {
+          "g": 2,
+          "K": 729,
+          "Q": [
+            729,
+            487,
+            364
+          ],
+          "epsilon": [
+            "0",
+            "271/1000",
+            "-1/2"
+          ],
+          "carry": [
+            0,
+            1,
+            13
+          ]
+        }
+      ],
+      "first_different_generation": 2,
+      "Q_differences": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "label": "practice",
+      "ray": [
+        "1",
+        "1/3",
+        "1/4"
+      ],
+      "perturbed_ray": [
+        "1",
+        "10003/30000",
+        "1/4"
+      ],
+      "rows_original": [
+        {
+          "g": 0,
+          "K": 1,
+          "Q": [
+            1,
+            0,
+            0
+          ],
+          "epsilon": [
+            "0",
+            "-1/3",
+            "-1/4"
+          ],
+          "carry": null
+        },
+        {
+          "g": 1,
+          "K": 27,
+          "Q": [
+            27,
+            9,
+            7
+          ],
+          "epsilon": [
+            "0",
+            "0",
+            "1/4"
+          ],
+          "carry": [
+            0,
+            9,
+            7
+          ]
+        },
+        {
+          "g": 2,
+          "K": 729,
+          "Q": [
+            729,
+            243,
+            182
+          ],
+          "epsilon": [
+            "0",
+            "0",
+            "-1/4"
+          ],
+          "carry": [
+            0,
+            0,
+            -7
+          ]
+        },
+        {
+          "g": 3,
+          "K": 19683,
+          "Q": [
+            19683,
+            6561,
+            4921
+          ],
+          "epsilon": [
+            "0",
+            "0",
+            "1/4"
+          ],
+          "carry": [
+            0,
+            0,
+            7
+          ]
+        }
+      ],
+      "rows_perturbed": [
+        {
+          "g": 0,
+          "K": 1,
+          "Q": [
+            1,
+            0,
+            0
+          ],
+          "epsilon": [
+            "0",
+            "-10003/30000",
+            "-1/4"
+          ],
+          "carry": null
+        },
+        {
+          "g": 1,
+          "K": 27,
+          "Q": [
+            27,
+            9,
+            7
+          ],
+          "epsilon": [
+            "0",
+            "-27/10000",
+            "1/4"
+          ],
+          "carry": [
+            0,
+            9,
+            7
+          ]
+        },
+        {
+          "g": 2,
+          "K": 729,
+          "Q": [
+            729,
+            243,
+            182
+          ],
+          "epsilon": [
+            "0",
+            "-729/10000",
+            "-1/4"
+          ],
+          "carry": [
+            0,
+            0,
+            -7
+          ]
+        },
+        {
+          "g": 3,
+          "K": 19683,
+          "Q": [
+            19683,
+            6563,
+            4921
+          ],
+          "epsilon": [
+            "0",
+            "317/10000",
+            "1/4"
+          ],
+          "carry": [
+            0,
+            2,
+            7
+          ]
+        }
+      ],
+      "first_different_generation": 3,
+      "Q_differences": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0
+        ]
+      ]
+    }
+  ],
+  "historical_replay_summary": {
+    "source": "S01#/backbone_sequence/5/locked_master_boundary",
+    "agreement_through_generation": 7,
+    "generation8_master_Q": [
+      282429536481,
+      206098790236,
+      153815932946
+    ],
+    "generation8_locked_Q": [
+      282429536481,
+      206098790228,
+      153815932939
+    ],
+    "master_minus_locked": [
+      0,
+      8,
+      7
+    ],
+    "all_inputs_read_in_place": true
+  },
+  "source_data_copies": false,
+  "large_arrays_created": false
+}

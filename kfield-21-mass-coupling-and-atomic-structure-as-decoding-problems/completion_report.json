@@ -1,0 +1,79 @@
+{
+  "status": "complete",
+  "topic": "Mass, Coupling, and Atomic Structure as Decoding Problems",
+  "audience": "High-school seniors; first-principles teaching, with concrete prerequisite capabilities and taught bridges.",
+  "assumptions": [
+    "A topical short course, not a semester per topic. Pacing is 55-minute core lessons plus capstone periods; split dense lessons if actual learner load requires it.",
+    "No prior calculus, abstract algebra, university linear algebra, or quantum mechanics unless explicitly taught earlier.",
+    "Required core assessments must be solvable with taught finite examples. Clearly label deeper recognition-only extensions.",
+    "Markdown is the delivery format; no PDF or Word generation is required."
+  ],
+  "outputs": [
+    "course-map.md",
+    "lesson-01.md",
+    "lesson-02.md",
+    "lesson-03.md",
+    "lesson-04.md",
+    "lesson-05.md",
+    "lesson-06.md",
+    "lesson-07.md",
+    "lesson-08.md",
+    "terminology.md",
+    "teacher-guide.md",
+    "capstone.md",
+    "sources.md",
+    "verification.json",
+    "verify_examples.py",
+    "build_course.py",
+    "finalize_course.py",
+    "input-contract.json",
+    "independent-audit.md",
+    "course.md",
+    "audit_report.json",
+    "completion_report.json"
+  ],
+  "audit_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "hashes": {
+    "course-map.md": "98b00413037ab25d8300dc8665b8123b7adac5ab440607f0344649ba0f1fc636",
+    "lesson-01.md": "02c3ed9d88e77df2d195fdf663dbdbf7e4c50594730420fd8df72c655b78ccbe",
+    "lesson-02.md": "f55fbd52a72b1527497ed92ba4720d2a7491a9cc908fc07244a7bb8cc195cd70",
+    "lesson-03.md": "01cd0d9c7775a915e618c8293d966fe811290e9606bd62794354277eaa760c04",
+    "lesson-04.md": "205c5dd7054ccccff120b4afd0e0c11c2cd1e8007355160e73cdd60dc9ef3704",
+    "lesson-05.md": "f4045c764fba72eadbfe1b588cac31048f937479635861615bc4286c098fb31c",
+    "lesson-06.md": "7eb14c3a892f31bcb72ca8f60edcef387789f3e7811ada25babd22e4a2474da4",
+    "lesson-07.md": "f2819117acddc512a1af138113cd7243d43069ad640dcb79f636b0fb88a0c1df",
+    "lesson-08.md": "0a2d69497e881d4ddc398e5a5907cc46e0ad43ba77a9f2a71cf4fbfd01d3118b",
+    "terminology.md": "ea86e4213db5a94102697a0c583252200d905c2bd6832c078b029355f75cc04a",
+    "teacher-guide.md": "3ecf832b60c7bfafb80d6cf127bf7659e331ed3d540a95d41220f6ceadf6ee6e",
+    "capstone.md": "8e2a6ee0d98362d94f1870dbc86f01a4ca9a6ba7279957ffe78fda0116d73c21",
+    "sources.md": "611175f7464629e0467a2413a864bfd0b78b9e5644702e9afcbecaaf11023290",
+    "verification.json": "8538c524661177b3093762cc14f9b12784f9dc7577ee88b3d7aa9e8625244fdd",
+    "verify_examples.py": "1ff815449cd47a223ffe6ad653a479695fd060ee11490002c59c070e73e86a0c",
+    "build_course.py": "64ecca046858a04a0ab64ab3e6871b31dcf8bf273d5254e66b656b6053d9e87b",
+    "finalize_course.py": "404d161cc2a0ca38811852f14bbfe87c2893e9aeb157c528265af9b7649be08f",
+    "input-contract.json": "075a855dd2873c00c7f0adb35dd1bd069aedbaeeaffdefca59212a47a81d9d08",
+    "independent-audit.md": "e3e364fe61ab355239016fcca88247e55ac1d2fed3e7b4535ea441b411cc559a",
+    "course.md": "d32abb627e86b0d078ed6131767e1f60911219f1f22cb2410606bd26c3099814",
+    "audit_report.json": "83211608a17d886dd7b952808ba8e9048c6f873575774b9284550960e2e63382",
+    "manifest.json": "ae145d12b568fc9445b7addfb0a5ed46997351c5c07151fb82192eb4f14360a1"
+  },
+  "lesson_count": 8,
+  "core_periods": 17,
+  "capstone_periods": 3,
+  "source_gaps": [
+    "source L/W7 with action/order conventions",
+    "physical occupied-state selection and a_e definition inputs",
+    "physical reference mass and isotope endpoint constants",
+    "R032 canonical connecting map"
+  ],
+  "validator": "PASSED, exit 0 after C21-IND-001/002 repairs; real project adapter, no fixture mode. Receipt: validator-result.json",
+  "external_auditor_reapproval": "Pending parent-requested external recheck; local repairs and narrow independent check do not constitute external reapproval.",
+  "repaired_external_findings": [
+    "C21-IND-001",
+    "C21-IND-002"
+  ]
+}
