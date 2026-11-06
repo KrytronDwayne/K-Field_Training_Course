@@ -1,0 +1,80 @@
+{
+  "status": "complete",
+  "topic": "Face-Area Ratios and the K-Field Mass Bridge",
+  "audience": "High-school seniors; first-principles teaching, with concrete prerequisite capabilities and taught bridges.",
+  "assumptions": [
+    "A topical short course, not a semester per topic. Pacing is 55-minute core lessons plus capstone periods; split dense lessons if actual learner load requires it.",
+    "No prior calculus, abstract algebra, university linear algebra, or quantum mechanics unless explicitly taught earlier.",
+    "Required core assessments must be solvable with taught finite examples. Clearly label deeper recognition-only extensions.",
+    "Markdown is the delivery format; no PDF or Word generation is required."
+  ],
+  "outputs": [
+    "course-map.md",
+    "sources.md",
+    "verification.json",
+    "lesson-01.md",
+    "lesson-02.md",
+    "lesson-03.md",
+    "lesson-04.md",
+    "lesson-05.md",
+    "lesson-06.md",
+    "terminology.md",
+    "teacher-guide.md",
+    "capstone.md",
+    "course.md",
+    "author-audit.json",
+    "audit_report.json",
+    "independent-audit.json",
+    "replay_checks.py",
+    "independent_audit_checks.py",
+    "input-contract.json",
+    "completion_report.json"
+  ],
+  "audit_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "hashes": {
+    "course-map.md": "b1c5af482ba140935165de4c7c58eab5c50d94b6ddbcc87c4b1a91d19db8cbf6",
+    "sources.md": "d63c72d8fb90537cf223da0aa8bf844ae483d3e8e74f6cac48cde2cbac342d57",
+    "verification.json": "37669b3bd709d3c7c6d824ac384bb15db24e42623106ea2e3048bea10b0a0359",
+    "lesson-01.md": "d87d9d812db83abc691cc5cb3f036c609b25aa1551ec5701aa53ca2bf5826f55",
+    "lesson-02.md": "306a360b098df8a46ac5e582d1eac4e81dbbbda0dfbc7c1b7735c184fc8613c1",
+    "lesson-03.md": "a8b9b23a57475ef7ea519277e6441b8d066b1dac477e592647254a7ff1c9e047",
+    "lesson-04.md": "bb4faf8014b96a9b562181beeba41d80acc329075f48878c28df5f39b10e1f73",
+    "lesson-05.md": "3abae1ecdbe80eeb4096e0d2908cd1f601b9d03fcaf534b4503930c11855ef6f",
+    "lesson-06.md": "e73568bc43fe75c5a84a0c3ffa558b7eaece5213c9bc589563930a575234787a",
+    "terminology.md": "b2605728ffd1927f6426e1df2966ac24dd42104a9bb8e0b5cadbf476aad1a685",
+    "teacher-guide.md": "647ebdec6be39fb1fb63c9c184b8a9141d4cc2623b57ae328386fd3664170e57",
+    "capstone.md": "a5fa8812165622baed218d630e9d42d3ce7a83e5044a0dbf60376dea0a36e1f2",
+    "course.md": "98a8dee354f2f032ef6df4810fb9b531426d899902766e1e58f850bfde44afcb",
+    "author-audit.json": "104722dce2175a37f3a2c34bc004005d482d8fd1e87a5f0b693f436eafef7c37",
+    "audit_report.json": "fc6c5d4994366a3c1d3e636ee65027a5bd56f1119f76b00acc190cf661705f27",
+    "independent-audit.json": "d81d46799f8222f51995d7b0dbc65f2edc5eecadc6d5bd5cbad1151eaecbadb4",
+    "replay_checks.py": "01c9f88a56c19837b0a16361d3254ba9bbeefd8d3189da057a6baae4afca1397",
+    "independent_audit_checks.py": "e25c7228725bf8a3513494808fcb3e982570d051e2259a98fd786a25ca1fb22d",
+    "input-contract.json": "584fcf127dbcbf7a989a33b3d2640ee90c1f738e8990bc3306de64d9858237c9",
+    "manifest.json": "b6a74e9fd6942b1c092cc1a48cc71258235341138b862ddf4cc5a194d37200c5"
+  },
+  "lesson_count": 6,
+  "source_gaps": "MCP search did not locate exact source artifact and did not expose snapshot generation; local exact-hash files used. Full archive proof certification is outside this finite course.",
+  "validator": {
+    "exit_code": 0,
+    "canonical_output_root": "Z:\\Kfield-doc-training\\K-Field_Training_Course",
+    "checks": [
+      "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+      "parsed manifest.json",
+      "parsed audit_report.json",
+      "parsed completion_report.json",
+      "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+    ],
+    "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-08-face-area-ratios-and-the-k-field-mass-bridge",
+    "errors": [],
+    "schema_version": "1.0",
+    "status": "passed",
+    "storage_authority": "User explicitly authorized project-folder outputs, 2026-11-05",
+    "validator_path": "C:\\Users\\info\\.codex\\skills\\build-high-school-course\\scripts\\validate_course.py",
+    "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9"
+  }
+}

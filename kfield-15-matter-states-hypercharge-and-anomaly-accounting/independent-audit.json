@@ -1,0 +1,144 @@
+{
+  "scope": "Final independent content audit of seven lessons, capstone, supports, provenance and assembly",
+  "status": "passed",
+  "unresolved_critical": 0,
+  "unresolved_major": 0,
+  "unresolved_minor": 0,
+  "findings": [
+    {
+      "severity": "minor",
+      "category": "assembly serialization",
+      "correction": "Manager changed build_support.py to UTF-8 write_bytes and rebuilt.",
+      "audit_level": "final",
+      "defect": "Assembly originally converted LF to CRLF, preserving normalized text but changing literal bytes.",
+      "affected_checkpoint_ids": [
+        "assembly",
+        "support-script"
+      ],
+      "id": "IA15-001",
+      "disposition": "corrected",
+      "file": "course.md",
+      "verification": "Every ordered section exactly equals one LF followed by original lesson text, including original LF line endings; no content changes.",
+      "section": "seven lesson blocks"
+    }
+  ],
+  "lesson_checks": [
+    {
+      "file": "lesson-01.md",
+      "sha256": "4749fa7acd1d1a2c48875140d5244716120b4aaa911bc11cf1bd70d05c2228b3",
+      "result": "pass"
+    },
+    {
+      "file": "lesson-02.md",
+      "sha256": "3abfd2143acca996f96e5d0790dd8f6600c465c75da5b375374cf4aee85f8178",
+      "result": "pass"
+    },
+    {
+      "file": "lesson-03.md",
+      "sha256": "cf0ffd6544ca18eb5bff3ea097fef6105ac4ea81157fc47393cdfe90b7bef208",
+      "result": "pass"
+    },
+    {
+      "file": "lesson-04.md",
+      "sha256": "a93adfe3e0a57bdd6169a62aa5f48872ca0b9cc0a021746a528c94e1f203fe52",
+      "result": "pass"
+    },
+    {
+      "file": "lesson-05.md",
+      "sha256": "1dd8fae089e8bddc0ea756d4eefb41ccf7d6f69a7d8c785ad689cd0772bb491c",
+      "result": "pass"
+    },
+    {
+      "file": "lesson-06.md",
+      "sha256": "e142721a47cd94da0b8b535de80b62a71d8ec03947ae6ab262bce65770eb9922",
+      "result": "pass"
+    },
+    {
+      "file": "lesson-07.md",
+      "sha256": "01fa24fbf6c58f4e105f436e5f090387a43fe57e851aa639c27c2b31ba38da4d",
+      "result": "pass"
+    }
+  ],
+  "verification": {
+    "runtime": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+    "source_hash_verified": true,
+    "source_pointer": "S02 /backbone_sequence/10; /proof_nodes/67..75/formula; /proof_nodes/79/formula; /proof_nodes/82..83/formula",
+    "finite_checks": [
+      "All 16 even subsets and source bidegrees/multiplicities/charges",
+      "All descent residues",
+      "121 integer weight pairs: linear, cubic factorization, both mixed sums and exact completed square",
+      "All 32 complement charges and double-complement signs",
+      "Manual diagonal inverse action and Witten 3+1=4"
+    ],
+    "manual_checks": [
+      "Full reading of seven lessons and input teaching anchors",
+      "All 28 E/W/P/D anchors concrete and answered",
+      "Each lesson has 3 goals, 4 answered diagnostics, bridge, scope, next link and pacing",
+      "Source interpretation distinguished from fresh finite verification",
+      "Failed synthetic trials and component ledgers retained",
+      "14 periods appropriate for declared bounded operations"
+    ]
+  },
+  "pending": [],
+  "capstone_check": {
+    "file": "capstone.md",
+    "sha256": "d2025bcc60fe047bbdcaef9691a76a021eb8e45ac988a385a01c3aaa995c6db1",
+    "checks": [
+      "Read all seven tasks and complete key",
+      "Every operation maps to prior explanation and answered practice",
+      "Sixteen component table independently checked",
+      "Both five-test ledgers and Y conversion correct",
+      "Complement signs and dual action correct",
+      "Rubric totals 100",
+      "Source and physical/global scope preserved"
+    ],
+    "result": "pass"
+  },
+  "support_checks": [
+    {
+      "result": "pass",
+      "file": "course-map.md",
+      "sha256": "62cce6ac6cc2de8f0b16aec9d93401f52da355c42619854e5fab384a942977a9"
+    },
+    {
+      "result": "pass",
+      "file": "terminology.md",
+      "sha256": "5a426895af13829074d48bf5ebd982ff5982cc23087e51a7e051125282781f96"
+    },
+    {
+      "result": "pass",
+      "file": "teacher-guide.md",
+      "sha256": "1eed5276026ba1e6bd6726e67db0d991eb6d2d73b77321639931fd0f846d086a"
+    },
+    {
+      "result": "pass",
+      "file": "sources.md",
+      "sha256": "0b4a725620d641754c8c28f5f585b20802d6d169f5875c81facbf36e133a735d"
+    },
+    {
+      "result": "pass",
+      "file": "worked-example-verification.json",
+      "sha256": "a9561bfc397d4de3ea4432be2b8c364fb164076d22ebf7bd5671ba3f34410284"
+    },
+    {
+      "result": "pass",
+      "file": "verify_examples.py",
+      "sha256": "0ce305d20193acf1f4e4d9ba945784503a6012103235ed4cead4f271fe4706f8"
+    },
+    {
+      "result": "pass",
+      "file": "course.md",
+      "sha256": "ca39f39cdf28bd83b0c78d5858e75779e593f1623a978e87611846fb0841b3fa"
+    }
+  ],
+  "final_content_checks": [
+    "All five local source SHA-256 hashes independently match packet",
+    "Actual E05 anchors and prior practice manually checked",
+    "Pacing 770 core + 165 capstone = 935 minutes",
+    "Glossary and teacher instructions agree with teaching",
+    "Integration provenance agrees with packet; no independent remote retrieval by this auditor",
+    "Verification script inspected; JSON matches independent arithmetic",
+    "All seven assembled lesson payloads exactly match originals with one leading separator LF; unique ordered sections."
+  ],
+  "completion_boundary": "Content accepted with zero unresolved findings; manager must finalize recovery hashes/statuses and run deterministic validator."
+}

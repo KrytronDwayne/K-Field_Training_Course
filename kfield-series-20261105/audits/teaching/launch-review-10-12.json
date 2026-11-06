@@ -1,0 +1,143 @@
+{
+  "schema_version": "1.0",
+  "created_utc": "2026-11-05T17:59:06.968923+00:00",
+  "audit_level": "pedagogic_blueprint",
+  "amendment_path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-teaching-auditor\\outputs\\teaching-amendments-10-12.json",
+  "amendment_sha256": "4c49b9653c5fbfbbe7b0afac029b2552904b409ba49b5b329e97cd95437813db",
+  "verification_path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-teaching-auditor\\outputs\\teaching-verification-10-12.json",
+  "verification_sha256": "070e7e0fab6385a25b2e7a8ab39bf2d7a41069b9fad037f966deb84d9bafaca9",
+  "input_contracts": [
+    {
+      "course_id": "course-10",
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-10-shape-and-scale-devon-reduction-and-the-jack-jacobian\\input-contract.json",
+      "sha256": "2c0a47538fd3abc4c756ee91bf07a790202a9090ada4fb0cce943491befc10cc"
+    },
+    {
+      "course_id": "course-11",
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-11-lucas-graphs-edges-cycles-and-memory\\input-contract.json",
+      "sha256": "a1389bcfecd82cd5e83626b27438fd38fb2e5192d809cc46484ab9d8a535b5b2"
+    },
+    {
+      "course_id": "course-12",
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-12-the-emily-spectrum-modes-and-eigenvectors\\input-contract.json",
+      "sha256": "86873b4ac6c39e4789626188f691d7c82ed7c0aac8af8842cbd976bdce72ae8e"
+    }
+  ],
+  "findings": [
+    {
+      "id": "E05-course-10",
+      "severity": "major",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-10-shape-and-scale-devon-reduction-and-the-jack-jacobian\\input-contract.json",
+      "section": "coverage_matrix; course_map; capstone_specification",
+      "defect": "Generic practice references do not specify concrete answered operations or backward assessment coverage.",
+      "minimal_repair": "Merge the supplied lesson anchors and operation-by-operation capstone map while preserving original concepts and source amendments.",
+      "disposition": "corrected_in_portable_amendment",
+      "project_edit_performed": false
+    },
+    {
+      "id": "E05-course-11",
+      "severity": "major",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-11-lucas-graphs-edges-cycles-and-memory\\input-contract.json",
+      "section": "coverage_matrix; course_map; capstone_specification",
+      "defect": "Generic practice references do not specify concrete answered operations or backward assessment coverage.",
+      "minimal_repair": "Merge the supplied lesson anchors and operation-by-operation capstone map while preserving original concepts and source amendments.",
+      "disposition": "corrected_in_portable_amendment",
+      "project_edit_performed": false
+    },
+    {
+      "id": "E05-course-12",
+      "severity": "major",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-12-the-emily-spectrum-modes-and-eigenvectors\\input-contract.json",
+      "section": "coverage_matrix; course_map; capstone_specification",
+      "defect": "Generic practice references do not specify concrete answered operations or backward assessment coverage.",
+      "minimal_repair": "Merge the supplied lesson anchors and operation-by-operation capstone map while preserving original concepts and source amendments.",
+      "disposition": "corrected_in_portable_amendment",
+      "project_edit_performed": false
+    },
+    {
+      "id": "C10-SCOPE",
+      "severity": "major",
+      "section": "lesson-02 through lesson-06",
+      "defect": "A generic shape/Jacobian outline can omit reference area, recoverable scale or fixed-angle/local domain.",
+      "minimal_repair": "Use declared common A0, explicit dot-projection decoder, two-variable sensitivity bridge, retained finite remainder and typed source-scalar scope.",
+      "disposition": "corrected_in_portable_amendment"
+    },
+    {
+      "id": "C11-COORDINATES",
+      "severity": "major",
+      "section": "lesson-04 through lesson-06",
+      "defect": "Counts alone do not specify a circulation memory state or periodic decoder.",
+      "minimal_repair": "Use the supplied tree/chord basis, oriented wrap winding sums and eight-details-plus-dependent-ninth decoder per axis. Retain noncycle remainder for general flows.",
+      "disposition": "corrected_in_portable_amendment"
+    },
+    {
+      "id": "C12-UNIFORM",
+      "severity": "major",
+      "section": "lesson-05 through lesson-07; SA-12 interpretation",
+      "defect": "Removing a uniform function coordinate could be misread as removal of one Emily eigenmode or an induced adjacency quotient.",
+      "minimal_repair": "Teach A1=degree vector, retain the removed mean, and distinguish13+13 centered coordinates from spectral modes. No projected operator in the core.",
+      "disposition": "corrected_in_portable_amendment"
+    }
+  ],
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "courses": [
+    {
+      "course_id": "course-10",
+      "decision": "teaching_blueprint_pass_with_amendment",
+      "unresolved_critical": 0,
+      "unresolved_major": 0,
+      "unresolved_minor": 0,
+      "core_periods": 10,
+      "capstone_periods": 2,
+      "period_minutes": 55,
+      "launch_condition": "Parent merges the complete portable amendment and source obligations into the builder contract; actual lessons, answers and capstone require subsequent independent content audit.",
+      "completed_course_approved": false
+    },
+    {
+      "course_id": "course-11",
+      "decision": "teaching_blueprint_pass_with_amendment",
+      "unresolved_critical": 0,
+      "unresolved_major": 0,
+      "unresolved_minor": 0,
+      "core_periods": 9,
+      "capstone_periods": 2,
+      "period_minutes": 55,
+      "launch_condition": "Parent merges the complete portable amendment and source obligations into the builder contract; actual lessons, answers and capstone require subsequent independent content audit.",
+      "completed_course_approved": false
+    },
+    {
+      "course_id": "course-12",
+      "decision": "teaching_blueprint_pass_with_amendment",
+      "unresolved_critical": 0,
+      "unresolved_major": 0,
+      "unresolved_minor": 0,
+      "core_periods": 11,
+      "capstone_periods": 2,
+      "period_minutes": 55,
+      "launch_condition": "Parent merges the complete portable amendment and source obligations into the builder contract; actual lessons, answers and capstone require subsequent independent content audit.",
+      "completed_course_approved": false
+    }
+  ],
+  "verification_summary": {
+    "checks_passed": 312,
+    "checks_failed": 0,
+    "lesson_anchors": 19,
+    "supplemental_anchor_sets": 1,
+    "capstone_steps": 19,
+    "all_references_resolve": true
+  },
+  "limitations": [
+    "This closes blueprint gaps only after the portable amendment is applied; no completed course was built or accepted.",
+    "Timing is an instructional allocation, not classroom-tested mastery data; extra periods remain allowed.",
+    "Source proof statements retain source-reported status; this review freshly verifies the listed finite algebra and graph/spectrum calculations, not the entire archive or physical laws.",
+    "Exact local archival hashes establish the read source versions; no corpus-generation freshness claim is made."
+  ],
+  "source_report_sha256": "eef89a28971ef7e5380977c31b62ed6d64f2831759e679ee967b6c253a33c04a",
+  "ledger_sha256_at_report": "663ce10d7352fa268cae7022e3c12df5af064a8c50bd3b4f8235c8c15b6fb45a",
+  "finished_course_pass": false,
+  "source_or_project_files_modified": false
+}

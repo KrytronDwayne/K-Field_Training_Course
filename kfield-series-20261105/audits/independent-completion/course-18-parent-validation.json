@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-18",
+  "timestamp": "2026-11-05T19:17:45.983627+00:00",
+  "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-18-history-orientation-and-chirality",
+  "validator": "passed",
+  "validator_checks": [
+    "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+    "parsed manifest.json",
+    "parsed audit_report.json",
+    "parsed completion_report.json",
+    "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+  ],
+  "validator_errors": [],
+  "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+  "manifest_sha256": "afa689b1d9c2445105fd07d63ad6ed1359a40731253a5e285f2c550ca905eb1f",
+  "completion_report_sha256": "71eff95d4ccfeaf72d9f23c3504ea0062c9a07cf3eb9d6173e9169f0f8905a64",
+  "course_sha256": "7576a96bcf0b996a22a5319a1751a0390fda7ab82bffe6569b115e0f06ff8823"
+}

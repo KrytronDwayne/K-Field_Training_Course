@@ -1,0 +1,1500 @@
+Role: You are the autonomous author, verifier, and recovery steward for a complete high-school course. Teach the stated audience from first principles with precise, age-appropriate language.
+
+# Outcome
+
+Build the complete course described by the runtime subject packet. Work continuously through all lessons, supporting materials, final assembly, hostile audit, repair, and deterministic validation. Do not stop after an outline, sample unit, or partial course.
+
+Write every persistent course artifact directly into the absolute `course_output_directory` in the runtime packet. That directory is the sole recovery and delivery location for this course.
+
+# Success criteria
+
+- Every required concept is introduced, practiced, assessed, and connected to later use.
+- Every lesson satisfies the lesson contract and has zero unresolved critical or major local findings.
+- Definitions, terms, symbols, units, source claims, examples, and answers are correct and consistent.
+- The capstone is solvable from the actual course.
+- The assembled course contains every passed lesson verbatim and in approved order.
+- Recovery state is current, hashes validate, and the final hostile audit has zero unresolved critical and major findings.
+- All requested artifacts exist and the deterministic validator exits successfully.
+
+# Constraints
+
+Preserve the supplied subject kernel, invariants, evidence rules, audience, and course map. Separate observations or source facts, derived implications, interpretations, proposed mechanisms, established reference theory, and unresolved questions when those layers apply. Never fabricate concrete facts, sources, data, quotations, or real-world evidence; use symbolic or clearly synthetic examples if grounding is unavailable. Use authoritative retrieval when the runtime packet requires current or exact facts.
+
+Make reasonable assumptions and record them. Do not ask for intermediate approval. Ask for user attention only if a missing fact or authority would materially change the course and cannot be safely represented as an explicit assumption or placeholder.
+
+Keep progress updates concise and write substantive work to files. Do not expose private reasoning traces; audit records contain only findings, corrections, verification, and dispositions.
+
+Do not save a persistent course artifact in the generated task workspace or any directory outside `course_output_directory`. If that destination is unavailable, preserve any already-written state there and report the storage blocker; do not silently substitute another location.
+
+# Recovery protocol
+
+Inside `course_output_directory`, initialize `manifest.json`, `course-map.md`, `terminology.md`, `audit_report.json`, and `completion_report.json`, plus one file per lesson. Treat that manifest as the recovery authority, but verify every existing checkpoint file and SHA-256 before trusting its status. Save a complete section before marking it passed. Resume from the first missing or failed dependency. Do not regenerate passed work without a concrete dependent defect.
+
+Use stable checkpoint IDs, dependency lists, statuses (`pending`, `drafted`, `passed`, `failed`), relative paths, summaries, and SHA-256 hashes. Update blockers and the next action after each checkpoint.
+
+# Lesson and audit contract
+
+Each lesson needs one essential question, two to four observable goals, a bridge from taught material, a first-principles explanation, at least one fully worked verifiable example, a claim-scope box when needed, three to five diagnostic checks, concise worked answers, and a link to the next dependency.
+
+Recompute examples and answers independently. At every lesson run local prerequisite, audience, definition, notation, unit, logical, mathematical, evidence, and source checks. At unit boundaries run cumulative terminology, dependency, complexity, coverage, and capstone checks. Classify findings as critical, major, or minor; patch the earliest source and rerun affected checks. Stop revising for style once correctness and learning are no longer improved.
+
+# Deliverables and assembly
+
+Create student lessons, terminology/glossary, teacher guide, capstone and full answer key/rubric, final assembled course, manifest, audit report, and completion report. Add no new substantive teaching during assembly. Insert each lesson verbatim between `<!-- BEGIN: CHECKPOINT_ID -->` and `<!-- END: CHECKPOINT_ID -->` markers in course order.
+
+If a requested output is paginated or visual, use its applicable artifact skill to render, inspect, and repair it. Run the final hostile audit across coverage, fidelity, dependency order, correctness, terminology, examples, evidence layers, audience load, assessment alignment, recovery integrity, assembly identity, rendering, and minimality.
+
+# Stop and report rules
+
+Success requires zero unresolved critical findings, zero unresolved major findings, every checkpoint passed, current hashes, correct assembly order/identity, complete outputs, and a successful deterministic validator run. On failure, repair and rerun affected checks. On a genuine blocker, preserve the recovery files and report only the smallest action needed. On success, report artifact paths, assumptions, audit counts, hashes, validator result, and any harmless unresolved minor findings.
+
+# Manager execution contract
+
+This is the one course-production task created by the parent through build-high-school-course. You are its curriculum manager and author. Execute that skill's production, audit, recovery, and validator requirements in this task; do not recursively create a second course task or any other task. The user authorized all 30 course-manager tasks and independent auditors. The parent coordinates them.
+
+The user's exact standing authorization is: 'do not stop for user approval. You are approved to proceed with all required tasks, proceed'
+
+Read the build-high-school-course SKILL.md, methodology, audit rubric, and validator implementation; the complete approved subject packet follows here. Read the residual-information-paradigm skill at the beginning. Use krytronx-knowledge-graph and relevant domain skills for exact source grounding. Source retrieval is read-only. Preserve source-local definitions and record exact paths, SHA-256, pointers/pages and evidence classes. Never bulk-copy source data into the course. Small clearly labeled teaching examples and their verification records are allowed.
+
+Use GPT-6 Astra as the user explicitly selected. Preserve the configured reasoning setting. The user explicitly overrides the skill's Desktop-only/projectless defaults: write course outputs within the saved project Z:/Kfield-doc-training and move them later. This task is running directly in that project. The runtime course_output_directory is authoritative and already exists. Use ordinary workspace writes; do not request Desktop access. The parent has approved proceeding and no further content approval is required. Validate with Z:/Kfield-doc-training/.work/validate_project_course.py COURSE_DIRECTORY --json. This adapter runs the installed validator unchanged except that its canonical-root constant is the user-selected project folder, preserving containment, content, hash, assembly, and audit checks.
+
+Python must run through & 'C:/ProgramData/anaconda3/Scripts/conda.exe' run -n tf_gpu_env python. Do not install or change packages. Avoid long or GPU work; hand-checkable mathematics and lightweight standard-library checks suffice. Do not create raw source snapshots or large npz files.
+
+The course is a complete topical course for seniors, not an outline. Write connected, clear explanations and fully worked examples; use only the necessary mathematical formalism and explicitly teach every new operation. Keep all core tasks solvable from taught material. Add diagrams/tables when they improve learning; Markdown and Mermaid are sufficient. Refine lesson boundaries if necessary for prerequisite closure, recording the rationale and updating coverage and capstone maps. Do not reduce coverage to finish faster or pad the course with boilerplate. Core lessons each require one essential question, two to four observable goals, an explicit prerequisite bridge, first-principles instruction, a fully worked independently recomputed example, an appropriate evidence-scope box, three to five diagnostic questions, worked answers, and a next-dependency link.
+
+Initialize recovery authorities before substantive generation. The input-contract.json is already present. Do not mark complete until the actual validator exits zero and all critical/major findings are corrected. Read the validator schema instead of guessing it. Include all student and teacher artifacts, a capstone with full answers and rubric, precise source notes, and the exact assembly marker protocol. Audit records must describe actual checks and actual corrections, never invented passes. The parent and independent auditor will reread and recompute your output.
+
+On completion report the exact course title, output directory, lesson count, validator result, unresolved counts, and any source gaps in your final reply. The parent polls your progress and final response. Do not call messaging tools to send parent status or completion; these can trigger separate app approvals. Then await possible audit repair requests. No messages to external people and no publishing are authorized.
+
+# Runtime subject packet
+
+```json
+{
+  "schema_version": "1.0",
+  "course_output_root": "Z:\\Kfield-doc-training\\K-Field_Training_Course",
+  "course_output_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-27-quadratic-phase-cost-and-route-geometry",
+  "topic": "Quadratic Phase Cost and Route Geometry",
+  "series_course_id": "course-27",
+  "audience": "High-school seniors; first-principles teaching, with concrete prerequisite capabilities and taught bridges.",
+  "prerequisites": [
+    "Signed arithmetic, fractions, ratios, powers, linear equations, and coordinate graphs",
+    "Capabilities taught in course-10",
+    "Capabilities taught in course-17",
+    "Capabilities taught in course-25",
+    "Capabilities taught in course-26"
+  ],
+  "learning_outcomes": [
+    "Evaluate and visualize a small positive form",
+    "Derive the cost under the source ruler and time conventions",
+    "Verify a small matrix congruence without claiming new dynamics",
+    "Compute a discrete cumulative path cost with units",
+    "Compare admissible paths under one fixed specification",
+    "Read a route bound and retain nonzero numerical closure coordinates",
+    "Identify the additional observations needed to connect modeled cost to measured response"
+  ],
+  "requested_deliverables": [
+    "student lessons",
+    "course-map.md",
+    "terminology.md",
+    "teacher-guide.md",
+    "capstone.md with full answers and rubric",
+    "course.md",
+    "manifest.json",
+    "audit_report.json",
+    "completion_report.json",
+    "compact sources and worked-example verification"
+  ],
+  "assumptions": [
+    "A topical short course, not a semester per topic. Pacing is 55-minute core lessons plus capstone periods; split dense lessons if actual learner load requires it.",
+    "No prior calculus, abstract algebra, university linear algebra, or quantum mechanics unless explicitly taught earlier.",
+    "Required core assessments must be solvable with taught finite examples. Clearly label deeper recognition-only extensions.",
+    "Markdown is the delivery format; no PDF or Word generation is required."
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "role": "archival source; reported status is distinct from fresh verification"
+    },
+    {
+      "id": "S02",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "role": "archival source; reported status is distinct from fresh verification"
+    },
+    {
+      "id": "S03",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "role": "archival source; reported status is distinct from fresh verification"
+    },
+    {
+      "id": "S04",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+      "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "role": "archival source; reported status is distinct from fresh verification"
+    },
+    {
+      "logical_path": "applications/kfield_lucas_lab/rag_corpus/35_spectral_energy_phase.md",
+      "object_id": "03dc7e11045b3912f1e8cc0d69a4789b6ad300ac78b4549ea86c45e51228c7bc",
+      "sha256": "03dc7e11045b3912f1e8cc0d69a4789b6ad300ac78b4549ea86c45e51228c7bc",
+      "role": "Pinned testbench source; retrieve bounded bytes through krytronx_get and follow its exact underlying contract."
+    },
+    {
+      "logical_path": "applications/kfield_lucas_lab/rag_corpus/20_phase_route.md",
+      "object_id": "c9335e2df74344bff5665df5a5e0b9094fef22147c76458f1a54efe49cefce62",
+      "sha256": "c9335e2df74344bff5665df5a5e0b9094fef22147c76458f1a54efe49cefce62",
+      "role": "Pinned testbench source; retrieve bounded bytes through krytronx_get and follow its exact underlying contract."
+    }
+  ],
+  "source_routing": {
+    "primary_skill": "C:/Users/info/.codex/skills/krytronx-knowledge-graph/SKILL.md",
+    "graph_root": "repository:KrytronDwayne/K-Field_Private",
+    "testbench_root": "application:kfield-lucas-lab",
+    "snapshot_generation": "sha256:5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+    "manifest_sha256": "5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+    "rag_rerank": false,
+    "backbone_source_pointer": "/backbone_sequence",
+    "required_modules": [],
+    "guidance": "Retrieve exact topic sources and source-local pointers; use the provided archival files read-only and verify their hashes. Do not rely only on titles or summaries. For experimental topics search the testbench topic and local relevant domain skills.",
+    "retrieval_notes": [
+      "RAG reranking is disabled by server policy; use rerank:false.",
+      "Original source JSON digests are not all addressable through krytronx_get; the mature and corrected mathematical-essence files were found locally and their hashes verified.",
+      "Root traversal is truncated at depth one; it is a discovery route, not an exhaustive coverage certificate.",
+      "Stable keys named in testbench prose did not resolve in graph traversal; retrieve pinned exact artifacts and contracts rather than treating a display label as a graph ID."
+    ]
+  },
+  "evidence_rules": [
+    "Preserve empirical observations, derived implications, inferred structure, mechanisms, reference theory, and unresolved questions as distinct layers.",
+    "Read-only sources: no source-data copies, database exports, reindexing, or large arrays. Persist only authored course artifacts, compact provenance, audits, and small clearly synthetic examples.",
+    "Cell3 uses ICRS columns [a b c], an intentional negative determinant, and half-open cells [-1/2,1/2)^3. Use x-O_K in affine reciprocal identities.",
+    "Use the mature locked geometry and exact source provenance. Historical and corrected numerical branches remain separately labeled; do not silently mix their constants.",
+    "Use M_cell=B^T B and R_cell=M_cell^-1; distinguish G_phase, G_eff, reciprocal bases, distance Q, Q_g, and Q_nu.",
+    "Gauge-carrier tuples use color-first C_3 direct-sum W_2. A weak-first view needs an explicit permutation.",
+    "Do not merge detector parity, A1 carry parity, projective signs, chirality, family labels, primitive lifts, or distinct dyadic and ternary recursions.",
+    "Declare nearest-integer half-ties and the corresponding residual interval consistently; the half-open cell ownership rule is a separate operation.",
+    "The detail-product identity needs explicit hypotheses on E beyond Q=I-E; retain the product of finite differences.",
+    "M19 contains mixed extension branches and is not a premise of M20 core closure. Reconstruct prerequisites from module requires, with the documented audit corrections.",
+    "Preserve mature-source claims and accepted integration dispositions separately. In the integration only compiler M03, M07, M08 have direct authority; these compiler labels are not automatically the mathematical-backbone module labels. Preserve the admitted global-form family Z1,Z2,Z3,Z6 and source-local uniqueness claims with explicit contracts.",
+    "Treat matching dimensions or graph labels as neither an intertwiner nor a proof. A missing proof body remains a source-reported status with a retrieval gap.",
+    "Physical CMB velocity is distinct from phase-transformed vectors; the testbench admitted speed is 369812.50200040644 m/s. The Galactic Center is a visual gauge; do not invent Solar or Galactic short-window dynamics.",
+    "A photon-equivalent model energy is not measured transferred energy, and phase is not force. Preserve signed events and the three independent plane-cost levels in the fourteen-row 2026-08-26 bundle.",
+    "Cell3 and galaxy-derived cells have separately typed units, metrics, handedness, scales, and normals. Recurrence is an explanatory target, not permission to merge definitions.",
+    "Every residual remains a primary coordinate. Transformations are reversible or accompanied by all removed components and reconstruction rules; no outlier deletion or significance-based erasure.",
+    "Use tf_gpu_env through C:/ProgramData/anaconda3/Scripts/conda.exe run -n tf_gpu_env python. No package changes without approval."
+  ],
+  "subject_kernel": {
+    "objects_and_operations": [
+      {
+        "concept_id": "C27.01",
+        "concept": "A quadratic form as a directional cost",
+        "operation": "Evaluate and visualize a small positive form"
+      },
+      {
+        "concept_id": "C27.02",
+        "concept": "From plane counts to phase cost",
+        "operation": "Derive the cost under the source ruler and time conventions"
+      },
+      {
+        "concept_id": "C27.03",
+        "concept": "Pullbacks and coordinate changes",
+        "operation": "Verify a small matrix congruence without claiming new dynamics"
+      },
+      {
+        "concept_id": "C27.04",
+        "concept": "Integrating cost along a path",
+        "operation": "Compute a discrete cumulative path cost with units"
+      },
+      {
+        "concept_id": "C27.05",
+        "concept": "Route comparison and constraints",
+        "operation": "Compare admissible paths under one fixed specification"
+      },
+      {
+        "concept_id": "C27.06",
+        "concept": "Certificates and precision residuals",
+        "operation": "Read a route bound and retain nonzero numerical closure coordinates"
+      },
+      {
+        "concept_id": "C27.07",
+        "concept": "Phase cost and physical coupling",
+        "operation": "Identify the additional observations needed to connect modeled cost to measured response"
+      }
+    ],
+    "source_modules": [],
+    "scope": "Compare two synthetic trajectories with a common phase-cost contract, then audit a pinned route certificate and its precision scope.",
+    "common_failure_modes": [
+      "Untaught prerequisite",
+      "Unscoped symbol or unit",
+      "An illustrative example presented as real evidence",
+      "A source label promoted beyond its evidence class",
+      "A residual or source branch silently omitted"
+    ]
+  },
+  "invariants": [
+    "Preserve empirical observations, derived implications, inferred structure, mechanisms, reference theory, and unresolved questions as distinct layers.",
+    "Read-only sources: no source-data copies, database exports, reindexing, or large arrays. Persist only authored course artifacts, compact provenance, audits, and small clearly synthetic examples.",
+    "Cell3 uses ICRS columns [a b c], an intentional negative determinant, and half-open cells [-1/2,1/2)^3. Use x-O_K in affine reciprocal identities.",
+    "Use the mature locked geometry and exact source provenance. Historical and corrected numerical branches remain separately labeled; do not silently mix their constants.",
+    "Use M_cell=B^T B and R_cell=M_cell^-1; distinguish G_phase, G_eff, reciprocal bases, distance Q, Q_g, and Q_nu.",
+    "Gauge-carrier tuples use color-first C_3 direct-sum W_2. A weak-first view needs an explicit permutation.",
+    "Do not merge detector parity, A1 carry parity, projective signs, chirality, family labels, primitive lifts, or distinct dyadic and ternary recursions.",
+    "Declare nearest-integer half-ties and the corresponding residual interval consistently; the half-open cell ownership rule is a separate operation.",
+    "The detail-product identity needs explicit hypotheses on E beyond Q=I-E; retain the product of finite differences.",
+    "M19 contains mixed extension branches and is not a premise of M20 core closure. Reconstruct prerequisites from module requires, with the documented audit corrections.",
+    "Preserve mature-source claims and accepted integration dispositions separately. In the integration only compiler M03, M07, M08 have direct authority; these compiler labels are not automatically the mathematical-backbone module labels. Preserve the admitted global-form family Z1,Z2,Z3,Z6 and source-local uniqueness claims with explicit contracts.",
+    "Treat matching dimensions or graph labels as neither an intertwiner nor a proof. A missing proof body remains a source-reported status with a retrieval gap.",
+    "Physical CMB velocity is distinct from phase-transformed vectors; the testbench admitted speed is 369812.50200040644 m/s. The Galactic Center is a visual gauge; do not invent Solar or Galactic short-window dynamics.",
+    "A photon-equivalent model energy is not measured transferred energy, and phase is not force. Preserve signed events and the three independent plane-cost levels in the fourteen-row 2026-08-26 bundle.",
+    "Cell3 and galaxy-derived cells have separately typed units, metrics, handedness, scales, and normals. Recurrence is an explanatory target, not permission to merge definitions.",
+    "Every residual remains a primary coordinate. Transformations are reversible or accompanied by all removed components and reconstruction rules; no outlier deletion or significance-based erasure.",
+    "Use tf_gpu_env through C:/ProgramData/anaconda3/Scripts/conda.exe run -n tf_gpu_env python. No package changes without approval."
+  ],
+  "notation_registry": {
+    "M_cell": "Cell3 Gram metric",
+    "R_cell": "inverse Cell3 Gram metric",
+    "G_phase": "distinct phase metric",
+    "O_K": "declared physical origin",
+    "B": "source-locked ordered basis; source-local row/column distinctions must be explicit"
+  },
+  "coverage_matrix": [
+    {
+      "concept_id": "C27.01",
+      "concept": "A quadratic form as a directional cost",
+      "introduction": "lesson-01",
+      "practice": "C27.01-P1",
+      "assessment": "C27.01-D1",
+      "later_use": "lesson-02",
+      "worked_example": "C27.01-W1",
+      "all_required_teaching_item_ids": [
+        "C27.01-E1",
+        "C27.01-W1",
+        "C27.01-P1",
+        "C27.01-D1"
+      ]
+    },
+    {
+      "concept_id": "C27.02",
+      "concept": "From plane counts to phase cost",
+      "introduction": "lesson-02",
+      "practice": "C27.02-P1",
+      "assessment": "C27.02-D1",
+      "later_use": "lesson-03",
+      "worked_example": "C27.02-W1",
+      "all_required_teaching_item_ids": [
+        "C27.02-E1",
+        "C27.02-W1",
+        "C27.02-P1",
+        "C27.02-D1"
+      ]
+    },
+    {
+      "concept_id": "C27.03",
+      "concept": "Pullbacks and coordinate changes",
+      "introduction": "lesson-03",
+      "practice": "C27.03-P1",
+      "assessment": "C27.03-D1",
+      "later_use": "lesson-04",
+      "worked_example": "C27.03-W1",
+      "all_required_teaching_item_ids": [
+        "C27.03-E1",
+        "C27.03-W1",
+        "C27.03-P1",
+        "C27.03-D1"
+      ]
+    },
+    {
+      "concept_id": "C27.04",
+      "concept": "Integrating cost along a path",
+      "introduction": "lesson-04",
+      "practice": "C27.04-P1",
+      "assessment": "C27.04-D1",
+      "later_use": "lesson-05",
+      "worked_example": "C27.04-W1",
+      "all_required_teaching_item_ids": [
+        "C27.04-E1",
+        "C27.04-W1",
+        "C27.04-P1",
+        "C27.04-D1"
+      ]
+    },
+    {
+      "concept_id": "C27.05",
+      "concept": "Route comparison and constraints",
+      "introduction": "lesson-05",
+      "practice": "C27.05-P1",
+      "assessment": "C27.05-D1",
+      "later_use": "lesson-06",
+      "worked_example": "C27.05-W1",
+      "all_required_teaching_item_ids": [
+        "C27.05-E1",
+        "C27.05-W1",
+        "C27.05-P1",
+        "C27.05-D1"
+      ]
+    },
+    {
+      "concept_id": "C27.06",
+      "concept": "Certificates and precision residuals",
+      "introduction": "lesson-06",
+      "practice": "C27.06-P1",
+      "assessment": "C27.06-D1",
+      "later_use": "lesson-07",
+      "worked_example": "C27.06-W1",
+      "all_required_teaching_item_ids": [
+        "C27.06-E1",
+        "C27.06-W1",
+        "C27.06-P1",
+        "C27.06-D1"
+      ]
+    },
+    {
+      "concept_id": "C27.07",
+      "concept": "Phase cost and physical coupling",
+      "introduction": "lesson-07",
+      "practice": "C27.07-P1",
+      "assessment": "C27.07-D1",
+      "later_use": "capstone",
+      "worked_example": "C27.07-W1",
+      "all_required_teaching_item_ids": [
+        "C27.07-E1",
+        "C27.07-W1",
+        "C27.07-P1",
+        "C27.07-D1"
+      ]
+    }
+  ],
+  "course_map": [
+    {
+      "id": "lesson-01",
+      "title": "A quadratic form as a directional cost",
+      "entry_prerequisites": [
+        "course-10",
+        "course-17",
+        "course-25",
+        "course-26"
+      ],
+      "concept_ids": [
+        "C27.01"
+      ],
+      "worked_example_capability": "Evaluate and visualize a small positive form",
+      "assessment_target": "Evaluate and visualize a small positive form",
+      "later_use": "lesson-02",
+      "core_minutes": 110,
+      "teaching_anchor": {
+        "lesson_id": "lesson-01",
+        "concept_id": "C27.01",
+        "explanation_id": "C27.01-E1",
+        "bridge_to_teach": "A positive quadratic form is q(v)=v^T G v with symmetric G; write its cross term and units. Use G=[[2,1],[1,2]] in inverse-length-squared units as an explicitly synthetic example. For displacement it yields dimensionless cost; for velocity it yields rate-squared cost. Positivity follows q= (vx+vy)^2+vx^2+vy^2.",
+        "worked_example": {
+          "id": "C27.01-W1",
+          "task_and_answer": "For unit direction e1, q=2; for n=(1,1)/sqrt(2), q=3; for n=(1,-1)/sqrt(2),q=1. Thus the q=1 contour is an ellipse with principal semiaxes1 and1/sqrt(3) length units along the two diagonal directions. Plot these anchors when producing the lesson."
+        },
+        "guided_practice": {
+          "id": "C27.01-P1",
+          "task_and_answer": "v=(1,2) gives q=2+4+8=14 in the corresponding units; v=(1,-1) gives2. Reversing v preserves q, while the underlying signed vector is retained. A matrix diag(1,-1) is not positive because q(0,1)=-1."
+        },
+        "diagnostic": {
+          "id": "C27.01-D1",
+          "task_and_answer": "A positive form is not a force law or automatically energy. Do not omit the2 G12 vx vy term. Source G_phase and the geometric Gram metric have different definitions even if both are symmetric."
+        },
+        "planned_periods": 2,
+        "minutes_per_period": 55,
+        "teaching_allocation_per_period": {
+          "retrieval": 5,
+          "explanation_and_worked_example": 20,
+          "guided_practice": 15,
+          "independent_diagnostics_and_repair": 15
+        },
+        "production_requirement": "Develop these anchors into senior-facing explanations, 2–4 observable goals and 3–5 answered diagnostics. Supply all matrices, source cards and constants locally. Keep source data in place with immutable references. Additional recovery periods are allowed; no capstone operation may first appear in the assessment.",
+        "original_title": "A quadratic form as a directional cost",
+        "original_assessment_target": "Evaluate and visualize a small positive form",
+        "original_concept_ids": [
+          "C27.01"
+        ],
+        "required_source_amendment_ids": [],
+        "source_coverage_requirements": [],
+        "original_entry_prerequisites": [
+          "course-10",
+          "course-17",
+          "course-25",
+          "course-26"
+        ],
+        "session_sequence": [
+          {
+            "session": 1,
+            "focus": "Positive form and full cross term",
+            "minutes": 55,
+            "recovery_checkpoint": "Reproduce the worked operation, complete the named answered practice and explain the diagnostic before advancing. If needed, add a recovery session and update the dependent lesson links."
+          },
+          {
+            "session": 2,
+            "focus": "Directional ellipse and units",
+            "minutes": 55,
+            "recovery_checkpoint": "Reproduce the worked operation, complete the named answered practice and explain the diagnostic before advancing. If needed, add a recovery session and update the dependent lesson links."
+          }
+        ]
+      }
+    },
+    {
+      "id": "lesson-02",
+      "title": "From plane counts to phase cost",
+      "entry_prerequisites": [
+        "lesson-01"
+      ],
+      "concept_ids": [
+        "C27.02"
+      ],
+      "worked_example_capability": "Derive the cost under the source ruler and time conventions",
+      "assessment_target": "Derive the cost under the source ruler and time conventions",
+      "later_use": "lesson-03",
+      "core_minutes": 110,
+      "teaching_anchor": {
+        "lesson_id": "lesson-02",
+        "concept_id": "C27.02",
+        "explanation_id": "C27.02-E1",
+        "bridge_to_teach": "Start from dimensionless plane counts q_j=n_j dot(x-o)/d_j with fixed normals, spacings and origin. If a phase-coordinate metric H is declared, rate cost qdot^T H qdot has units1/time^2 for dimensionless H. Derive a physical-coordinate pullback from the exact ruler map, not from unexplained symbol reuse.",
+        "worked_example": {
+          "id": "C27.02-W1",
+          "task_and_answer": "Synthetic rulers n1=e1,d1=1L,n2=e2,d2=2L, H=I. Then qdot=(vx,vy/2) in1/T and rate cost=vx^2+vy^2/4 with the implied inverse-length factors. For v=(1,2)L/T this is2/T^2; integrating for3T gives6/T."
+        },
+        "guided_practice": {
+          "id": "C27.02-P1",
+          "task_and_answer": "For v=(-1,2)L/T, qdot=(-1,1)/T and rate cost2/T^2, same as the prior example while count direction differs. Two1T segments give cumulative costs2/T and4/T. Keep signed phase counts alongside their positive cost."
+        },
+        "diagnostic": {
+          "id": "C27.02-D1",
+          "task_and_answer": "A cost integrated over time is not the square of net count: opposite rates can sum to zero net count and still accumulate positive cost. Source ruler/time normalizations must be supplied before claiming the source value."
+        },
+        "planned_periods": 2,
+        "minutes_per_period": 55,
+        "teaching_allocation_per_period": {
+          "retrieval": 5,
+          "explanation_and_worked_example": 20,
+          "guided_practice": 15,
+          "independent_diagnostics_and_repair": 15
+        },
+        "production_requirement": "Develop these anchors into senior-facing explanations, 2–4 observable goals and 3–5 answered diagnostics. Supply all matrices, source cards and constants locally. Keep source data in place with immutable references. Additional recovery periods are allowed; no capstone operation may first appear in the assessment.",
+        "original_title": "From plane counts to phase cost",
+        "original_assessment_target": "Derive the cost under the source ruler and time conventions",
+        "original_concept_ids": [
+          "C27.02"
+        ],
+        "required_source_amendment_ids": [],
+        "source_coverage_requirements": [],
+        "original_entry_prerequisites": [
+          "lesson-01"
+        ],
+        "session_sequence": [
+          {
+            "session": 1,
+            "focus": "Plane-coordinate rate cost",
+            "minutes": 55,
+            "recovery_checkpoint": "Reproduce the worked operation, complete the named answered practice and explain the diagnostic before advancing. If needed, add a recovery session and update the dependent lesson links."
+          },
+          {
+            "session": 2,
+            "focus": "Ruler normalization and signed counts",
+            "minutes": 55,
+            "recovery_checkpoint": "Reproduce the worked operation, complete the named answered practice and explain the diagnostic before advancing. If needed, add a recovery session and update the dependent lesson links."
+          }
+        ]
+      }
+    },
+    {
+      "id": "lesson-03",
+      "title": "Pullbacks and coordinate changes",
+      "entry_prerequisites": [
+        "lesson-02"
+      ],
+      "concept_ids": [
+        "C27.03"
+      ],
+      "worked_example_capability": "Verify a small matrix congruence without claiming new dynamics",
+      "assessment_target": "Verify a small matrix congruence without claiming new dynamics",
+      "later_use": "lesson-04",
+      "core_minutes": 110,
+      "required_amendment_ids": [
+        "SA-27"
+      ],
+      "teaching_anchor": {
+        "lesson_id": "lesson-03",
+        "concept_id": "C27.03",
+        "explanation_id": "C27.03-E1",
+        "bridge_to_teach": "Teach the full congruence W_qpc=B^T G_phase B/4 from x=B u/2. B maps dimensionless coordinates to length; G_phase has inverse-length-squared units under this classroom typing; W is dimensionless. For coordinate velocities, u_dot^T W u_dot has units1/time^2. Preserve matrix order, basis and precision.",
+        "worked_example": {
+          "id": "C27.03-W1",
+          "task_and_answer": "Synthetic B=diag(2,1)L and G=[[2,1],[1,2]]L^-2 give W=[[2,1/2],[1/2,1/2]]. With u_dot=(1,2)/T, v=B u_dot/2=(1,1)L/T and both forms equal6/T^2. Calculate all off-diagonal entries, not just the diagonal."
+        },
+        "guided_practice": {
+          "id": "C27.03-P1",
+          "task_and_answer": "With u_dot=(2,-2)/T, v=(2,-1)L/T; both costs equal6/T^2. Recover u_dot=2 B^-1 v. Omitting the factor1/4 would multiply both intended pullback costs by4."
+        },
+        "diagnostic": {
+          "id": "C27.03-D1",
+          "task_and_answer": "The spectral JSON supplies a decimal G_phase for that analysis; it is not automatically the full locked G_phase,C,W_qpc and route certificate requested by SA27. The symbols, coordinate conventions and precision must be linked by source before substitution. No missing source C or W is invented."
+        },
+        "planned_periods": 2,
+        "minutes_per_period": 55,
+        "teaching_allocation_per_period": {
+          "retrieval": 5,
+          "explanation_and_worked_example": 20,
+          "guided_practice": 15,
+          "independent_diagnostics_and_repair": 15
+        },
+        "production_requirement": "Develop these anchors into senior-facing explanations, 2–4 observable goals and 3–5 answered diagnostics. Supply all matrices, source cards and constants locally. Keep source data in place with immutable references. Additional recovery periods are allowed; no capstone operation may first appear in the assessment.",
+        "original_title": "Pullbacks and coordinate changes",
+        "original_assessment_target": "Verify a small matrix congruence without claiming new dynamics",
+        "original_concept_ids": [
+          "C27.03"
+        ],
+        "required_source_amendment_ids": [
+          "SA-27"
+        ],
+        "source_coverage_requirements": [],
+        "original_entry_prerequisites": [
+          "lesson-02"
+        ],
+        "session_sequence": [
+          {
+            "session": 1,
+            "focus": "Typed pullback derivation",
+            "minutes": 55,
+            "recovery_checkpoint": "Reproduce the worked operation, complete the named answered practice and explain the diagnostic before advancing. If needed, add a recovery session and update the dependent lesson links."
+          },
+          {
+            "session": 2,
+            "focus": "Full congruence and source replay gap",
+            "minutes": 55,
+            "recovery_checkpoint": "Reproduce the worked operation, complete the named answered practice and explain the diagnostic before advancing. If needed, add a recovery session and update the dependent lesson links."
+          }
+        ]
+      }
+    },
+    {
+      "id": "lesson-04",
+      "title": "Integrating cost along a path",
+      "entry_prerequisites": [
+        "lesson-03"
+      ],
+      "concept_ids": [
+        "C27.04"
+      ],
+      "worked_example_capability": "Compute a discrete cumulative path cost with units",
+      "assessment_target": "Compute a discrete cumulative path cost with units",
+      "later_use": "lesson-05",
+      "core_minutes": 110,
+      "teaching_anchor": {
+        "lesson_id": "lesson-04",
+        "concept_id": "C27.04",
+        "explanation_id": "C27.04-E1",
+        "bridge_to_teach": "For a piecewise-constant velocity path, cost J=sum dt_i v_i^T G v_i. Specify each positive duration, total time, endpoints, metric units and admissible interpolation. Retain the segment ledger and cumulative values, not just the total.",
+        "worked_example": {
+          "id": "C27.04-W1",
+          "task_and_answer": "Synthetic G=[[2,1],[1,2]]L^-2, start(0,0)L, two1T segments. Straight velocities(1,0),(1,0)L/T have costs2/T and2/T, cumulative(2,4)/T and endpoint(2,0)L. Dogleg velocities(1,1),(1,-1) have segment costs6/T and2/T, cumulative(6,8)/T and the same endpoint."
+        },
+        "guided_practice": {
+          "id": "C27.04-P1",
+          "task_and_answer": "Reverse the dogleg segment order: velocities(1,-1),(1,1), cumulative(2,8)/T, same total8/T and endpoint. Subdividing each straight1T segment into two half-T segments leaves total4/T; keep the new sampling map and original durations."
+        },
+        "diagnostic": {
+          "id": "C27.04-D1",
+          "task_and_answer": "Summing costs without durations changes units and sampling dependence. Same endpoints alone do not ensure a fair comparison if total time, metric or obstacles differ. Retain quadrature/interpolation error for a nonconstant sampled path."
+        },
+        "planned_periods": 2,
+        "minutes_per_period": 55,
+        "teaching_allocation_per_period": {
+          "retrieval": 5,
+          "explanation_and_worked_example": 20,
+          "guided_practice": 15,
+          "independent_diagnostics_and_repair": 15
+        },
+        "production_requirement": "Develop these anchors into senior-facing explanations, 2–4 observable goals and 3–5 answered diagnostics. Supply all matrices, source cards and constants locally. Keep source data in place with immutable references. Additional recovery periods are allowed; no capstone operation may first appear in the assessment.",
+        "original_title": "Integrating cost along a path",
+        "original_assessment_target": "Compute a discrete cumulative path cost with units",
+        "original_concept_ids": [
+          "C27.04"
+        ],
+        "required_source_amendment_ids": [],
+        "source_coverage_requirements": [],
+        "original_entry_prerequisites": [
+          "lesson-03"
+        ],
+        "session_sequence": [
+          {
+            "session": 1,
+            "focus": "Segment/cumulative cost ledger",
+            "minutes": 55,
+            "recovery_checkpoint": "Reproduce the worked operation, complete the named answered practice and explain the diagnostic before advancing. If needed, add a recovery session and update the dependent lesson links."
+          },
+          {
+            "session": 2,
+            "focus": "Subdivision, duration and reconstruction",
+            "minutes": 55,
+            "recovery_checkpoint": "Reproduce the worked operation, complete the named answered practice and explain the diagnostic before advancing. If needed, add a recovery session and update the dependent lesson links."
+          }
+        ]
+      }
+    },
+    {
+      "id": "lesson-05",
+      "title": "Route comparison and constraints",
+      "entry_prerequisites": [
+        "lesson-04"
+      ],
+      "concept_ids": [
+        "C27.05"
+      ],
+      "worked_example_capability": "Compare admissible paths under one fixed specification",
+      "assessment_target": "Compare admissible paths under one fixed specification",
+      "later_use": "lesson-06",
+      "core_minutes": 110,
+      "teaching_anchor": {
+        "lesson_id": "lesson-05",
+        "concept_id": "C27.05",
+        "explanation_id": "C27.05-E1",
+        "bridge_to_teach": "Prove a synthetic minimum under fixed start/end, fixed T>0, constant positive G and unrestricted absolutely continuous paths with square-integrable velocity. Write v=vbar+delta, vbar=displacement/T and integral delta=0. Then J=T vbar^T G vbar+integral delta^T G delta. This supplies a lower bound reached by constant velocity if that path is admissible.",
+        "worked_example": {
+          "id": "C27.05-W1",
+          "task_and_answer": "For displacement(2,0)L,T=2T_units and the same G, vbar=(1,0)L/T and lower bound4/T. Straight path attains4/T; dogleg has8/T. For two equal-duration segments vbar+delta and vbar-delta, excess=2 delta^T G delta>=0. Thus this declared problem has lower=upper=4/T,gap0."
+        },
+        "guided_practice": {
+          "id": "C27.05-P1",
+          "task_and_answer": "For delta=(0,1)L/T, excess4/T reproduces the dogleg. If duration is changed to4T with the same displacement, straight speed halves and cost becomes2/T; it is a different optimization problem. If an obstacle excludes the straight path,4/T remains a lower bound but attainment is not established."
+        },
+        "diagnostic": {
+          "id": "C27.05-D1",
+          "task_and_answer": "Comparing only two routes does not prove a global minimum; the decomposition proves it under the stated class. Do not substitute a different historical maximum-residual objective or these toy bounds for the named source least-cost certificate."
+        },
+        "planned_periods": 2,
+        "minutes_per_period": 55,
+        "teaching_allocation_per_period": {
+          "retrieval": 5,
+          "explanation_and_worked_example": 20,
+          "guided_practice": 15,
+          "independent_diagnostics_and_repair": 15
+        },
+        "production_requirement": "Develop these anchors into senior-facing explanations, 2–4 observable goals and 3–5 answered diagnostics. Supply all matrices, source cards and constants locally. Keep source data in place with immutable references. Additional recovery periods are allowed; no capstone operation may first appear in the assessment.",
+        "original_title": "Route comparison and constraints",
+        "original_assessment_target": "Compare admissible paths under one fixed specification",
+        "original_concept_ids": [
+          "C27.05"
+        ],
+        "required_source_amendment_ids": [],
+        "source_coverage_requirements": [],
+        "original_entry_prerequisites": [
+          "lesson-04"
+        ],
+        "session_sequence": [
+          {
+            "session": 1,
+            "focus": "Fixed-time minimum proof",
+            "minutes": 55,
+            "recovery_checkpoint": "Reproduce the worked operation, complete the named answered practice and explain the diagnostic before advancing. If needed, add a recovery session and update the dependent lesson links."
+          },
+          {
+            "session": 2,
+            "focus": "Changed duration and inadmissible straight path",
+            "minutes": 55,
+            "recovery_checkpoint": "Reproduce the worked operation, complete the named answered practice and explain the diagnostic before advancing. If needed, add a recovery session and update the dependent lesson links."
+          }
+        ]
+      }
+    },
+    {
+      "id": "lesson-06",
+      "title": "Certificates and precision residuals",
+      "entry_prerequisites": [
+        "lesson-05"
+      ],
+      "concept_ids": [
+        "C27.06"
+      ],
+      "worked_example_capability": "Read a route bound and retain nonzero numerical closure coordinates",
+      "assessment_target": "Read a route bound and retain nonzero numerical closure coordinates",
+      "later_use": "lesson-07",
+      "core_minutes": 110,
+      "required_amendment_ids": [
+        "SA-27"
+      ],
+      "teaching_anchor": {
+        "lesson_id": "lesson-06",
+        "concept_id": "C27.06",
+        "explanation_id": "C27.06-E1",
+        "bridge_to_teach": "A certificate needs objective, admissible class, metric/ruler data, time/endpoints, path, lower/upper bounds, gap, precision/interval rules, source hashes and replay procedure. Read T20 as an overview only. Carry the S03 AUD008 nonzero closure coordinate as stored evidence requiring a precision contract.",
+        "worked_example": {
+          "id": "C27.06-W1",
+          "task_and_answer": "The synthetic lesson05 certificate is lower4/T,upper4/T,gap0 with an exact algebraic proof. T20 merely names certificate fields and supplies no numeric path/bounds/gap. The parent retrieval status and this audit search both leave the full named source certificate unavailable. S03 records4.58938078934712923077736690075e-12, which is not literal zero."
+        },
+        "guided_practice": {
+          "id": "C27.06-P1",
+          "task_and_answer": "Synthetic rounding example: exact1/3 versus decimal0.3333 leaves difference1/30000. Declaring truncation to four decimal places gives interval[0.3333,0.3334), which contains1/3. This is a supplied toy precision rule, not a rule inferred for the source closure. A candidate interval lower3.9,upper4.1 has gap0.2 in common cost units, not gap0."
+        },
+        "diagnostic": {
+          "id": "C27.06-D1",
+          "task_and_answer": "Do not certify the source by rounding its residual to zero or borrowing the toy interval. Missing G_phase,C,complete W,bounds,path,gap or precision keeps a source numeric replay gated. Preserve source exact claims and VERIFIED_NOT_LOADED for absent bodies separately."
+        },
+        "planned_periods": 2,
+        "minutes_per_period": 55,
+        "teaching_allocation_per_period": {
+          "retrieval": 5,
+          "explanation_and_worked_example": 20,
+          "guided_practice": 15,
+          "independent_diagnostics_and_repair": 15
+        },
+        "production_requirement": "Develop these anchors into senior-facing explanations, 2–4 observable goals and 3–5 answered diagnostics. Supply all matrices, source cards and constants locally. Keep source data in place with immutable references. Additional recovery periods are allowed; no capstone operation may first appear in the assessment.",
+        "original_title": "Certificates and precision residuals",
+        "original_assessment_target": "Read a route bound and retain nonzero numerical closure coordinates",
+        "original_concept_ids": [
+          "C27.06"
+        ],
+        "required_source_amendment_ids": [
+          "SA-27"
+        ],
+        "source_coverage_requirements": [],
+        "original_entry_prerequisites": [
+          "lesson-05"
+        ],
+        "session_sequence": [
+          {
+            "session": 1,
+            "focus": "Synthetic certificate and source missing fields",
+            "minutes": 55,
+            "recovery_checkpoint": "Reproduce the worked operation, complete the named answered practice and explain the diagnostic before advancing. If needed, add a recovery session and update the dependent lesson links."
+          },
+          {
+            "session": 2,
+            "focus": "Precision residual and interval counterexample",
+            "minutes": 55,
+            "recovery_checkpoint": "Reproduce the worked operation, complete the named answered practice and explain the diagnostic before advancing. If needed, add a recovery session and update the dependent lesson links."
+          }
+        ]
+      }
+    },
+    {
+      "id": "lesson-07",
+      "title": "Phase cost and physical coupling",
+      "entry_prerequisites": [
+        "lesson-06"
+      ],
+      "concept_ids": [
+        "C27.07"
+      ],
+      "worked_example_capability": "Identify the additional observations needed to connect modeled cost to measured response",
+      "assessment_target": "Identify the additional observations needed to connect modeled cost to measured response",
+      "later_use": "capstone",
+      "core_minutes": 55,
+      "required_amendment_ids": [
+        "SA-27"
+      ],
+      "teaching_anchor": {
+        "lesson_id": "lesson-07",
+        "concept_id": "C27.07",
+        "explanation_id": "C27.07-E1",
+        "bridge_to_teach": "A coordinate cost predicts a modeled quantity under its definitions. Connecting it to detector response requires an explicit transfer/coupling model, calibration, timing, orientation, exposure, source state and retained response residual. Teach nonidentifiability with a scalar product before proposing a discriminating observation.",
+        "worked_example": {
+          "id": "C27.07-W1",
+          "task_and_answer": "Synthetic response y=k*r with known cost label q does not identify k and r if only y=6 is supplied: pairs(2,3) and(1,6) both fit. A source-reported input-equivalent energy is likewise distinct from transferred energy. Keep both candidate factorizations and the missing calibration."
+        },
+        "guided_practice": {
+          "id": "C27.07-P1",
+          "task_and_answer": "If an independently specified calibration provides r=3 in the appropriate units, the model gives k=2. For a second synthetic measurement y=7 with the same fixed r, predicted6 leaves residual1 in detector units. Retain it and state whether the coupling or additional state is being tested; do not refit every row silently."
+        },
+        "diagnostic": {
+          "id": "C27.07-D1",
+          "task_and_answer": "A route minimizer, phase response and positive scalar cost do not identify force, extraction or an apparatus transfer law. The capstone must separately report its synthetic route proof and the exact missing-source retrieval checklist."
+        },
+        "planned_periods": 1,
+        "minutes_per_period": 55,
+        "teaching_allocation_per_period": {
+          "retrieval": 5,
+          "explanation_and_worked_example": 20,
+          "guided_practice": 15,
+          "independent_diagnostics_and_repair": 15
+        },
+        "production_requirement": "Develop these anchors into senior-facing explanations, 2–4 observable goals and 3–5 answered diagnostics. Supply all matrices, source cards and constants locally. Keep source data in place with immutable references. Additional recovery periods are allowed; no capstone operation may first appear in the assessment.",
+        "original_title": "Phase cost and physical coupling",
+        "original_assessment_target": "Identify the additional observations needed to connect modeled cost to measured response",
+        "original_concept_ids": [
+          "C27.07"
+        ],
+        "required_source_amendment_ids": [
+          "SA-27"
+        ],
+        "source_coverage_requirements": [],
+        "original_entry_prerequisites": [
+          "lesson-06"
+        ],
+        "session_sequence": [
+          {
+            "session": 1,
+            "focus": "Coupling inputs and equal-output ambiguity",
+            "minutes": 55,
+            "recovery_checkpoint": "Reproduce the worked operation, complete the named answered practice and explain the diagnostic before advancing. If needed, add a recovery session and update the dependent lesson links."
+          }
+        ]
+      }
+    }
+  ],
+  "capstone_specification": {
+    "task": "Compare two synthetic trajectories with a common phase-cost contract, then audit a pinned route certificate and its precision scope.",
+    "required_operations": [
+      "Evaluate and visualize a small positive form",
+      "Derive the cost under the source ruler and time conventions",
+      "Verify a small matrix congruence without claiming new dynamics",
+      "Compute a discrete cumulative path cost with units",
+      "Compare admissible paths under one fixed specification",
+      "Read a route bound and retain nonzero numerical closure coordinates",
+      "Identify the additional observations needed to connect modeled cost to measured response"
+    ],
+    "rule": "Map every capstone operation to a prior introduction and practice; provide full answers, point rubric, source scope, and residual accounting.",
+    "backward_map": [
+      {
+        "step_id": "C27-CAP-01",
+        "operation": "Evaluate and visualize a small positive form",
+        "introduction": "lesson-01",
+        "explanation_id": "C27.01-E1",
+        "worked_example_id": "C27.01-W1",
+        "prior_practice_id": "C27.01-P1",
+        "diagnostic_id": "C27.01-D1",
+        "assessment_task": "Complete the taught practice packet with explicit source/synthetic scope, units and all retained information.",
+        "answer_key": "v=(1,2) gives q=2+4+8=14 in the corresponding units; v=(1,-1) gives2. Reversing v preserves q, while the underlying signed vector is retained. A matrix diag(1,-1) is not positive because q(0,1)=-1.",
+        "points": 4,
+        "rubric": {
+          "typed_inputs_and_domain": 1,
+          "correct_operation": 1,
+          "reconstruction_or_source_classification": 1,
+          "retained_information_and_boundary": 1
+        }
+      },
+      {
+        "step_id": "C27-CAP-02",
+        "operation": "Derive the cost under the source ruler and time conventions",
+        "introduction": "lesson-02",
+        "explanation_id": "C27.02-E1",
+        "worked_example_id": "C27.02-W1",
+        "prior_practice_id": "C27.02-P1",
+        "diagnostic_id": "C27.02-D1",
+        "assessment_task": "Complete the taught practice packet with explicit source/synthetic scope, units and all retained information.",
+        "answer_key": "For v=(-1,2)L/T, qdot=(-1,1)/T and rate cost2/T^2, same as the prior example while count direction differs. Two1T segments give cumulative costs2/T and4/T. Keep signed phase counts alongside their positive cost.",
+        "points": 4,
+        "rubric": {
+          "typed_inputs_and_domain": 1,
+          "correct_operation": 1,
+          "reconstruction_or_source_classification": 1,
+          "retained_information_and_boundary": 1
+        }
+      },
+      {
+        "step_id": "C27-CAP-03",
+        "operation": "Verify a small matrix congruence without claiming new dynamics",
+        "introduction": "lesson-03",
+        "explanation_id": "C27.03-E1",
+        "worked_example_id": "C27.03-W1",
+        "prior_practice_id": "C27.03-P1",
+        "diagnostic_id": "C27.03-D1",
+        "assessment_task": "Complete the taught practice packet with explicit source/synthetic scope, units and all retained information.",
+        "answer_key": "With u_dot=(2,-2)/T, v=(2,-1)L/T; both costs equal6/T^2. Recover u_dot=2 B^-1 v. Omitting the factor1/4 would multiply both intended pullback costs by4.",
+        "points": 4,
+        "rubric": {
+          "typed_inputs_and_domain": 1,
+          "correct_operation": 1,
+          "reconstruction_or_source_classification": 1,
+          "retained_information_and_boundary": 1
+        }
+      },
+      {
+        "step_id": "C27-CAP-04",
+        "operation": "Compute a discrete cumulative path cost with units",
+        "introduction": "lesson-04",
+        "explanation_id": "C27.04-E1",
+        "worked_example_id": "C27.04-W1",
+        "prior_practice_id": "C27.04-P1",
+        "diagnostic_id": "C27.04-D1",
+        "assessment_task": "Complete the taught practice packet with explicit source/synthetic scope, units and all retained information.",
+        "answer_key": "Reverse the dogleg segment order: velocities(1,-1),(1,1), cumulative(2,8)/T, same total8/T and endpoint. Subdividing each straight1T segment into two half-T segments leaves total4/T; keep the new sampling map and original durations.",
+        "points": 4,
+        "rubric": {
+          "typed_inputs_and_domain": 1,
+          "correct_operation": 1,
+          "reconstruction_or_source_classification": 1,
+          "retained_information_and_boundary": 1
+        }
+      },
+      {
+        "step_id": "C27-CAP-05",
+        "operation": "Compare admissible paths under one fixed specification",
+        "introduction": "lesson-05",
+        "explanation_id": "C27.05-E1",
+        "worked_example_id": "C27.05-W1",
+        "prior_practice_id": "C27.05-P1",
+        "diagnostic_id": "C27.05-D1",
+        "assessment_task": "Complete the taught practice packet with explicit source/synthetic scope, units and all retained information.",
+        "answer_key": "For delta=(0,1)L/T, excess4/T reproduces the dogleg. If duration is changed to4T with the same displacement, straight speed halves and cost becomes2/T; it is a different optimization problem. If an obstacle excludes the straight path,4/T remains a lower bound but attainment is not established.",
+        "points": 4,
+        "rubric": {
+          "typed_inputs_and_domain": 1,
+          "correct_operation": 1,
+          "reconstruction_or_source_classification": 1,
+          "retained_information_and_boundary": 1
+        }
+      },
+      {
+        "step_id": "C27-CAP-06",
+        "operation": "Read a route bound and retain nonzero numerical closure coordinates",
+        "introduction": "lesson-06",
+        "explanation_id": "C27.06-E1",
+        "worked_example_id": "C27.06-W1",
+        "prior_practice_id": "C27.06-P1",
+        "diagnostic_id": "C27.06-D1",
+        "assessment_task": "Complete the taught practice packet with explicit source/synthetic scope, units and all retained information.",
+        "answer_key": "Synthetic rounding example: exact1/3 versus decimal0.3333 leaves difference1/30000. Declaring truncation to four decimal places gives interval[0.3333,0.3334), which contains1/3. This is a supplied toy precision rule, not a rule inferred for the source closure. A candidate interval lower3.9,upper4.1 has gap0.2 in common cost units, not gap0.",
+        "points": 4,
+        "rubric": {
+          "typed_inputs_and_domain": 1,
+          "correct_operation": 1,
+          "reconstruction_or_source_classification": 1,
+          "retained_information_and_boundary": 1
+        }
+      },
+      {
+        "step_id": "C27-CAP-07",
+        "operation": "Identify the additional observations needed to connect modeled cost to measured response",
+        "introduction": "lesson-07",
+        "explanation_id": "C27.07-E1",
+        "worked_example_id": "C27.07-W1",
+        "prior_practice_id": "C27.07-P1",
+        "diagnostic_id": "C27.07-D1",
+        "assessment_task": "Complete the taught practice packet with explicit source/synthetic scope, units and all retained information.",
+        "answer_key": "If an independently specified calibration provides r=3 in the appropriate units, the model gives k=2. For a second synthetic measurement y=7 with the same fixed r, predicted6 leaves residual1 in detector units. Retain it and state whether the coupling or additional state is being tested; do not refit every row silently.",
+        "points": 4,
+        "rubric": {
+          "typed_inputs_and_domain": 1,
+          "correct_operation": 1,
+          "reconstruction_or_source_classification": 1,
+          "retained_information_and_boundary": 1
+        }
+      }
+    ]
+  },
+  "blueprint_audit": {
+    "status": "approved_source_and_prerequisite_blueprint",
+    "unresolved_critical": 0,
+    "unresolved_major": 0,
+    "source_review": {
+      "status": "ready_for_source_scoped_drafting",
+      "basis": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\source-coverage\\source-coverage-audit.json",
+      "source_report_sha256": "eef89a28971ef7e5380977c31b62ed6d64f2831759e679ee967b6c253a33c04a",
+      "portable_requirements_applied": true,
+      "educational_acceptance": "Independent teaching review and actual E05 content gate remain required.",
+      "applied_at": "2026-11-05T17:02:05.375955+00:00"
+    },
+    "teaching_review_path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\teaching\\launch-review-24-27.json",
+    "teaching_amendment_sha256": "d5c160b344f6e3230757148c5f8469bdaac175dc00fc5c30451b28e6dace421c",
+    "review_scope": "Blueprint clearance only. Actual lesson content and E05 links require independent final acceptance.",
+    "applied_at": "2026-11-05T19:25:46.018916+00:00"
+  },
+  "validator": {
+    "skill_relative_path": "scripts/validate_course.py",
+    "required_command": "& 'C:\\ProgramData\\anaconda3\\Scripts\\conda.exe' run -n tf_gpu_env python 'C:\\Users\\info\\.codex\\skills\\build-high-school-course\\scripts\\validate_course.py' 'Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-27-quadratic-phase-cost-and-route-geometry' --json"
+  },
+  "storage_override": {
+    "authority": "User: write outputs to the project folder and move them later",
+    "original_root": "C:\\Users\\info\\Desktop\\K-Field_Training_Course",
+    "canonical_project_root": "Z:\\Kfield-doc-training\\K-Field_Training_Course"
+  },
+  "production_requirements": {
+    "E05": [
+      "Replace generic coverage placeholders with actual explanation, worked-example, practice, diagnostic, and capstone step IDs. A row passes only when the referenced content exists and the operation is taught before use.",
+      "For each capstone break the requested product into concrete operations with named inputs/outputs, link each operation to an earlier explanation AND an independently answered practice item; do not merely repeat outcome text.",
+      "Use source-exact finite examples where available and separately labeled synthetic analogues otherwise. Recognition-only extensions cannot be required computations.",
+      "Record teaching/practice/check minutes per lesson; split overloaded lessons and update every lesson/coverage/capstone link. Shared advanced notation is author guidance until introduced locally."
+    ]
+  },
+  "applied_audit_amendments": {
+    "SA-27": {
+      "id": "SA-27",
+      "course": 27,
+      "finding": "source_fidelity",
+      "lessons": [
+        "lesson-03",
+        "lesson-06",
+        "lesson-07"
+      ],
+      "merge_action": "append unique requirements to source_audit_contract; attach to named lesson authoring obligations; preserve existing fields",
+      "requirements": [
+        "Use W_qpc=B^T G_phase B/4 with declared matrix order, units and precision; G_phase is distinct from the geometric Gram metric.",
+        "Before exact source replay, pin G_phase, C, W_qpc and route bounds/certificate. A nonzero reconstruction difference needs a precision/interval contract and remains a retained coordinate.",
+        "The compact T20 overview is a discovery route, not the full route certificate; a synthetic path exercise cannot be presented as that certificate."
+      ],
+      "source_references": [
+        "S03#/findings/7",
+        "S03#/findings/8",
+        "S02#/branch_proofs/12",
+        "T20"
+      ],
+      "status": "applied_to_blueprint_by_parent",
+      "prior_application_status": "prepared_not_applied",
+      "applied_at": "2026-11-05T17:02:05.375955+00:00"
+    }
+  },
+  "source_audit_readiness": {
+    "status": "ready_for_source_scoped_drafting",
+    "basis": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\source-coverage\\source-coverage-audit.json",
+    "source_report_sha256": "eef89a28971ef7e5380977c31b62ed6d64f2831759e679ee967b6c253a33c04a",
+    "portable_requirements_applied": true,
+    "educational_acceptance": "Independent teaching review and actual E05 content gate remain required.",
+    "applied_at": "2026-11-05T17:02:05.375955+00:00"
+  },
+  "teaching_blueprint_contract": {
+    "schema_version": "1.0",
+    "created_utc": "2026-11-05T19:22:47.846756+00:00",
+    "scope": "Portable teaching BLUEPRINT amendments only; no completed-course acceptance.",
+    "source_basis": [
+      {
+        "id": "S01",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+        "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+        "role": "archival source; reported status is distinct from fresh verification",
+        "hash_check": "verified locally; original source left in place",
+        "evidence_class": "source"
+      },
+      {
+        "id": "S02",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+        "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+        "role": "archival source; reported status is distinct from fresh verification",
+        "hash_check": "verified locally; original source left in place",
+        "evidence_class": "source"
+      },
+      {
+        "id": "S03",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+        "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+        "role": "archival source; reported status is distinct from fresh verification",
+        "hash_check": "verified locally; original source left in place",
+        "evidence_class": "source"
+      },
+      {
+        "id": "S04",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+        "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+        "role": "archival source; reported status is distinct from fresh verification",
+        "hash_check": "verified locally; original source left in place",
+        "evidence_class": "source"
+      },
+      {
+        "id": "S05",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+        "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+        "role": "archival source; reported status is distinct from fresh verification",
+        "hash_check": "verified locally; original source left in place",
+        "evidence_class": "source"
+      }
+    ],
+    "source_registry_path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\source-registry.json",
+    "source_registry_sha256": "208a8ed59a10d72a74e1aa084b86d1f6809bb8f43168c7a98edc68598db5e78b",
+    "pinned_application_reads": [
+      {
+        "id": "T50",
+        "logical_path": "applications/kfield_lucas_lab/rag_corpus/50_physical_closure.md",
+        "sha256": "c2a25a583af904601968adc1d3efde825f76218c92a2f52d829afc093f52c02a",
+        "byte_range": [
+          0,
+          1761
+        ],
+        "read_status": "Full bounded bytes read through krytronx_get; returned range digest matched registry."
+      },
+      {
+        "id": "T35",
+        "logical_path": "applications/kfield_lucas_lab/rag_corpus/35_spectral_energy_phase.md",
+        "sha256": "03dc7e11045b3912f1e8cc0d69a4789b6ad300ac78b4549ea86c45e51228c7bc",
+        "byte_range": [
+          0,
+          3018
+        ],
+        "read_status": "Full bounded bytes read through krytronx_get; returned range digest matched registry."
+      },
+      {
+        "id": "T45",
+        "logical_path": "applications/kfield_lucas_lab/rag_corpus/45_moving_reference_frames.md",
+        "sha256": "c8485397ee3cd5560624885a3bfcf20c9f6190e26129320e37037810b984e1aa",
+        "byte_range": [
+          0,
+          2651
+        ],
+        "read_status": "Full bounded bytes read through krytronx_get; returned range digest matched registry."
+      },
+      {
+        "id": "T40",
+        "logical_path": "applications/kfield_lucas_lab/rag_corpus/40_cmb_quarantine.md",
+        "sha256": "1dfff4443f99ebb949ca6f080a01452bdb6c58075a694c4b74055e64b4d4ecfb",
+        "byte_range": [
+          0,
+          426
+        ],
+        "read_status": "Full bounded bytes read through krytronx_get; returned range digest matched registry."
+      },
+      {
+        "id": "T20",
+        "logical_path": "applications/kfield_lucas_lab/rag_corpus/20_phase_route.md",
+        "sha256": "c9335e2df74344bff5665df5a5e0b9094fef22147c76458f1a54efe49cefce62",
+        "byte_range": [
+          0,
+          470
+        ],
+        "read_status": "Full bounded bytes read through krytronx_get; returned range digest matched registry."
+      },
+      {
+        "id": "T10",
+        "logical_path": "applications/kfield_lucas_lab/rag_corpus/10_geometry_trajectory.md",
+        "sha256": "ce1abe83011a43bfbcd8aaf98f7fb9fdfabd31acbfdbc1208e45176596602ccb",
+        "byte_range": [
+          0,
+          545
+        ],
+        "read_status": "Full bounded bytes read through krytronx_get; returned range digest matched registry."
+      },
+      {
+        "id": "spectral_bundle",
+        "sha256": "04044230f3b2536d22654b294760106eca301f212e4eb4157989b330ff611f17",
+        "byte_range": [
+          0,
+          6438
+        ]
+      },
+      {
+        "id": "spectral_work",
+        "sha256": "d4105a6d6802e6bb2a2ba8e76a1d23a27973fca3d3335fd8335690a41ab72dfa",
+        "byte_range": [
+          0,
+          48364
+        ]
+      },
+      {
+        "id": "energy_work",
+        "sha256": "9120f80210b235b8612d6479fe25272eb3824f31c5a1394e7e9d12718e57e70f",
+        "byte_range": [
+          0,
+          22424
+        ]
+      }
+    ],
+    "verification_record": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-teaching-auditor\\outputs\\teaching-verification-24-27.json",
+    "verification_sha256": "4e96da088122d472476f9ab06fe6c3d8fbbad2252315d304843a6c5e64ab0e04",
+    "source_or_project_files_modified": false,
+    "course_amendment": {
+      "course_id": "course-27",
+      "input_contract_path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-27-quadratic-phase-cost-and-route-geometry\\input-contract.json",
+      "input_contract_sha256": "4f9cdeff609a39dbbc7c38175b49b108c6dbe61a113874290e8a05f44e398be7",
+      "application": "Merge additively as teaching_amendment; preserve every original concept, SA/EA amendment and supplemental operation. Use exact exercise anchors and legacy aliases. Parent applies; no project edit performed.",
+      "applied_source_amendments_read": {
+        "SA-27": {
+          "id": "SA-27",
+          "course": 27,
+          "finding": "source_fidelity",
+          "lessons": [
+            "lesson-03",
+            "lesson-06",
+            "lesson-07"
+          ],
+          "merge_action": "append unique requirements to source_audit_contract; attach to named lesson authoring obligations; preserve existing fields",
+          "requirements": [
+            "Use W_qpc=B^T G_phase B/4 with declared matrix order, units and precision; G_phase is distinct from the geometric Gram metric.",
+            "Before exact source replay, pin G_phase, C, W_qpc and route bounds/certificate. A nonzero reconstruction difference needs a precision/interval contract and remains a retained coordinate.",
+            "The compact T20 overview is a discovery route, not the full route certificate; a synthetic path exercise cannot be presented as that certificate."
+          ],
+          "source_references": [
+            "S03#/findings/7",
+            "S03#/findings/8",
+            "S02#/branch_proofs/12",
+            "T20"
+          ],
+          "status": "applied_to_blueprint_by_parent",
+          "prior_application_status": "prepared_not_applied",
+          "applied_at": "2026-11-05T17:02:05.375955+00:00"
+        }
+      },
+      "original_subject_kernel": {
+        "objects_and_operations": [
+          {
+            "concept_id": "C27.01",
+            "concept": "A quadratic form as a directional cost",
+            "operation": "Evaluate and visualize a small positive form"
+          },
+          {
+            "concept_id": "C27.02",
+            "concept": "From plane counts to phase cost",
+            "operation": "Derive the cost under the source ruler and time conventions"
+          },
+          {
+            "concept_id": "C27.03",
+            "concept": "Pullbacks and coordinate changes",
+            "operation": "Verify a small matrix congruence without claiming new dynamics"
+          },
+          {
+            "concept_id": "C27.04",
+            "concept": "Integrating cost along a path",
+            "operation": "Compute a discrete cumulative path cost with units"
+          },
+          {
+            "concept_id": "C27.05",
+            "concept": "Route comparison and constraints",
+            "operation": "Compare admissible paths under one fixed specification"
+          },
+          {
+            "concept_id": "C27.06",
+            "concept": "Certificates and precision residuals",
+            "operation": "Read a route bound and retain nonzero numerical closure coordinates"
+          },
+          {
+            "concept_id": "C27.07",
+            "concept": "Phase cost and physical coupling",
+            "operation": "Identify the additional observations needed to connect modeled cost to measured response"
+          }
+        ],
+        "source_modules": [],
+        "scope": "Compare two synthetic trajectories with a common phase-cost contract, then audit a pinned route certificate and its precision scope.",
+        "common_failure_modes": [
+          "Untaught prerequisite",
+          "Unscoped symbol or unit",
+          "An illustrative example presented as real evidence",
+          "A source label promoted beyond its evidence class",
+          "A residual or source branch silently omitted"
+        ]
+      },
+      "original_capstone_specification": {
+        "task": "Compare two synthetic trajectories with a common phase-cost contract, then audit a pinned route certificate and its precision scope.",
+        "required_operations": [
+          "Evaluate and visualize a small positive form",
+          "Derive the cost under the source ruler and time conventions",
+          "Verify a small matrix congruence without claiming new dynamics",
+          "Compute a discrete cumulative path cost with units",
+          "Compare admissible paths under one fixed specification",
+          "Read a route bound and retain nonzero numerical closure coordinates",
+          "Identify the additional observations needed to connect modeled cost to measured response"
+        ],
+        "rule": "Map every capstone operation to a prior introduction and practice; provide full answers, point rubric, source scope, and residual accounting."
+      },
+      "source_coverage_review_rows": [
+        {
+          "course_id": "course-27",
+          "title": "Quadratic Phase Cost and Route Geometry",
+          "backbone_modules": [],
+          "topic_boundary": "Positive quadratic phase form, typed pullbacks, cumulative cost and route bounds with explicit precision residuals.",
+          "cognitive_or_fidelity_risk": "Source packet lacks full replay matrices; retrieve them before exact-replay claims.",
+          "status": "source_map_review_complete_teaching_decision_pending",
+          "primary_sources": [
+            "series/source-registry.json"
+          ],
+          "source_pointer": null,
+          "packet_at_review": {
+            "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-27-quadratic-phase-cost-and-route-geometry\\input-contract.json",
+            "sha256": "9e4ab37c8031af121b657ee6abf8a7311bbae7e9cffbc0156bd87dfdf93ff381",
+            "lesson_count": 7
+          },
+          "required_amendment_ids": [
+            "SA-27"
+          ],
+          "source_launch_decision": "ready_for_source_scoped_drafting_with_required_gates",
+          "decision_scope": "Source/coverage only; no new teaching acceptance or finished-course validation.",
+          "educational_gate": [
+            "E05",
+            "independent_teaching_recheck"
+          ]
+        }
+      ],
+      "source_scope": {
+        "primary": [
+          "T20",
+          "T35",
+          "S02#/branch_proofs/12",
+          "S03#/findings/7",
+          "S03#/findings/8"
+        ],
+        "pullback": "W_qpc=B^T G_phase B/4 in declared column order, coordinate types, units and precision. Geometric Gram metric is not G_phase. The full off-diagonal congruence is taught and independently checked on synthetic matrices.",
+        "source_matrix_state": "Spectral-work /quadratic_phase_cost/G_phase is present as a decimal analysis matrix. Full locked route G_phase,C,W_qpc and a provenance/precision bridge from this spectral instance are not retrieved; no source-exact route replay follows.",
+        "route_retrieval": {
+          "parent_record": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\route-source-retrieval-status.json",
+          "sha256": "2db00c1da129984fe9231b9e6cf3140f9beb9b7f155db912c2a1a872e1404960",
+          "overview_read_bytes": 470,
+          "auditor_search": "Exact least-cost-certificate search returned0; T20 supplies names but no path/bounds/gap. Historical routes with different objectives were not substituted.",
+          "status": "full named numeric certificate not retrieved"
+        },
+        "source_closure": "AUD008 stores nonzero4.58938078934712923077736690075e-12. Retain it and request its exact interval/precision rule; do not impose a toy tolerance. Missing bodies retain VERIFIED_NOT_LOADED without silently downgrading attributed source exact claims.",
+        "synthetic_certificate": "Explicit fixed endpoints(0,0)->(2,0),T=2,constant positive G,admissible absolutely continuous square-integrable-velocity paths. Decomposition gives lower=upper4/T_units and gap0. Fixed time and admissibility are essential; changing either changes the conclusion.",
+        "physical_boundary": "Modeled cost, route optimum, scalar phase and transferred energy are distinct. An explicit calibrated transfer and source observations are required to identify a coupling; full residuals and equal-output candidates remain retained."
+      },
+      "course_map": [
+        {
+          "id": "lesson-01",
+          "title": "A quadratic form as a directional cost",
+          "entry_prerequisites": [
+            "course-10",
+            "course-17",
+            "course-25",
+            "course-26"
+          ],
+          "concept_ids": [
+            "C27.01"
+          ],
+          "worked_example_capability": "Evaluate and visualize a small positive form",
+          "assessment_target": "Evaluate and visualize a small positive form",
+          "later_use": "lesson-02",
+          "core_minutes": 55,
+          "planned_periods": 2,
+          "planned_total_minutes": 110,
+          "explanation_id": "C27.01-E1",
+          "worked_example_id": "C27.01-W1",
+          "prior_practice_id": "C27.01-P1",
+          "diagnostic_id": "C27.01-D1"
+        },
+        {
+          "id": "lesson-02",
+          "title": "From plane counts to phase cost",
+          "entry_prerequisites": [
+            "lesson-01"
+          ],
+          "concept_ids": [
+            "C27.02"
+          ],
+          "worked_example_capability": "Derive the cost under the source ruler and time conventions",
+          "assessment_target": "Derive the cost under the source ruler and time conventions",
+          "later_use": "lesson-03",
+          "core_minutes": 55,
+          "planned_periods": 2,
+          "planned_total_minutes": 110,
+          "explanation_id": "C27.02-E1",
+          "worked_example_id": "C27.02-W1",
+          "prior_practice_id": "C27.02-P1",
+          "diagnostic_id": "C27.02-D1"
+        },
+        {
+          "id": "lesson-03",
+          "title": "Pullbacks and coordinate changes",
+          "entry_prerequisites": [
+            "lesson-02"
+          ],
+          "concept_ids": [
+            "C27.03"
+          ],
+          "worked_example_capability": "Verify a small matrix congruence without claiming new dynamics",
+          "assessment_target": "Verify a small matrix congruence without claiming new dynamics",
+          "later_use": "lesson-04",
+          "core_minutes": 55,
+          "required_amendment_ids": [
+            "SA-27"
+          ],
+          "planned_periods": 2,
+          "planned_total_minutes": 110,
+          "explanation_id": "C27.03-E1",
+          "worked_example_id": "C27.03-W1",
+          "prior_practice_id": "C27.03-P1",
+          "diagnostic_id": "C27.03-D1"
+        },
+        {
+          "id": "lesson-04",
+          "title": "Integrating cost along a path",
+          "entry_prerequisites": [
+            "lesson-03"
+          ],
+          "concept_ids": [
+            "C27.04"
+          ],
+          "worked_example_capability": "Compute a discrete cumulative path cost with units",
+          "assessment_target": "Compute a discrete cumulative path cost with units",
+          "later_use": "lesson-05",
+          "core_minutes": 55,
+          "planned_periods": 2,
+          "planned_total_minutes": 110,
+          "explanation_id": "C27.04-E1",
+          "worked_example_id": "C27.04-W1",
+          "prior_practice_id": "C27.04-P1",
+          "diagnostic_id": "C27.04-D1"
+        },
+        {
+          "id": "lesson-05",
+          "title": "Route comparison and constraints",
+          "entry_prerequisites": [
+            "lesson-04"
+          ],
+          "concept_ids": [
+            "C27.05"
+          ],
+          "worked_example_capability": "Compare admissible paths under one fixed specification",
+          "assessment_target": "Compare admissible paths under one fixed specification",
+          "later_use": "lesson-06",
+          "core_minutes": 55,
+          "planned_periods": 2,
+          "planned_total_minutes": 110,
+          "explanation_id": "C27.05-E1",
+          "worked_example_id": "C27.05-W1",
+          "prior_practice_id": "C27.05-P1",
+          "diagnostic_id": "C27.05-D1"
+        },
+        {
+          "id": "lesson-06",
+          "title": "Certificates and precision residuals",
+          "entry_prerequisites": [
+            "lesson-05"
+          ],
+          "concept_ids": [
+            "C27.06"
+          ],
+          "worked_example_capability": "Read a route bound and retain nonzero numerical closure coordinates",
+          "assessment_target": "Read a route bound and retain nonzero numerical closure coordinates",
+          "later_use": "lesson-07",
+          "core_minutes": 55,
+          "required_amendment_ids": [
+            "SA-27"
+          ],
+          "planned_periods": 2,
+          "planned_total_minutes": 110,
+          "explanation_id": "C27.06-E1",
+          "worked_example_id": "C27.06-W1",
+          "prior_practice_id": "C27.06-P1",
+          "diagnostic_id": "C27.06-D1"
+        },
+        {
+          "id": "lesson-07",
+          "title": "Phase cost and physical coupling",
+          "entry_prerequisites": [
+            "lesson-06"
+          ],
+          "concept_ids": [
+            "C27.07"
+          ],
+          "worked_example_capability": "Identify the additional observations needed to connect modeled cost to measured response",
+          "assessment_target": "Identify the additional observations needed to connect modeled cost to measured response",
+          "later_use": "capstone",
+          "core_minutes": 55,
+          "required_amendment_ids": [
+            "SA-27"
+          ],
+          "planned_periods": 1,
+          "planned_total_minutes": 55,
+          "explanation_id": "C27.07-E1",
+          "worked_example_id": "C27.07-W1",
+          "prior_practice_id": "C27.07-P1",
+          "diagnostic_id": "C27.07-D1"
+        }
+      ],
+      "legacy_bridge_aliases": [],
+      "core_periods": 13,
+      "capstone_periods": 3,
+      "period_minutes": 55,
+      "capstone_total_points": 28,
+      "capstone_sessions": [
+        "55 minutes: assemble the typed input/source ledger and first calculation.",
+        "55 minutes: complete every mapped operation and retain signed components and domain failures.",
+        "55 minutes: reconstruct, classify evidence and audit all source boundaries; repair with the point rubric."
+      ],
+      "core_boundary": "Finite computations use fully declared synthetic inputs. Source-event reading preserves every row by immutable reference. The course27 certificate operation audits supplied claims and missing fields; a source numeric replay is gated until complete certificate inputs are pinned. No absent source value is invented.",
+      "prerequisite_status": "Blueprint closure reviewed; produced senior-facing lessons, diagnostics, answered practice and capstone still require independent completed-course acceptance.",
+      "inline_content_location": "Complete lesson anchors are in course_map[*].teaching_anchor; complete capstone mapping is in capstone_specification.backward_map below."
+    },
+    "completed_course_acceptance": false
+  }
+}
+```

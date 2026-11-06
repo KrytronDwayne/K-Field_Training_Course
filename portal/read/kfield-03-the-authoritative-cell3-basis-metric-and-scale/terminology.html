@@ -1,0 +1,188 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Terminology and notation · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/3">Course 03</a><span>/</span><span>terminology</span></div><a class="original" href="../../../kfield-03-the-authoritative-cell3-basis-metric-and-scale/terminology.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#terminology-and-notation">Terminology and notation</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 1 — An ordered cell in three dimensions</a><a  href="lesson-02.html">Lesson 2 — Lengths and angles from a Gram matrix</a><a  href="lesson-03.html">Lesson 3 — Face areas and signed volume</a><a  href="lesson-04.html">Lesson 4 — Direct and inverse metrics</a><a  href="lesson-05.html">Lesson 5 — Scale classes and the area anchor</a><a  href="lesson-06.html">Lesson 6 — A reproducible Cell3 specification</a></details></aside><div class="reading-column"><article class="prose"><h1 id="terminology-and-notation" tabindex="-1">Terminology and notation</h1>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Term/symbol</th>
+<th>Meaning and domain</th>
+<th>Units / first use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ICRS</td>
+<td>International Celestial Reference System; fixed external axes for locked Cell3</td>
+<td>L1</td>
+</tr>
+<tr>
+<td>x, O_K, d=x−O_K</td>
+<td>External point, declared origin, displacement</td>
+<td>length; L1</td>
+</tr>
+<tr>
+<td>q=(q_1,q_2,q_3)</td>
+<td>Counts of the three direct basis columns</td>
+<td>dimensionless; L1</td>
+</tr>
+<tr>
+<td>a,b,c; B=[a b c]</td>
+<td>Labeled direct edges and column basis; locked B uses ICRS</td>
+<td>nm for Cell3; L1</td>
+</tr>
+<tr>
+<td>B_ex, L</td>
+<td>Classroom analogue basis; arbitrary length unit</td>
+<td>L; L1–2</td>
+</tr>
+<tr>
+<td>Half-open cell</td>
+<td>Each coordinate includes −1/2 and excludes +1/2</td>
+<td>dimensionless coordinates; L1</td>
+</tr>
+<tr>
+<td>||v||</td>
+<td>Magnitude sqrt(v_x²+v_y²+v_z²)</td>
+<td>units of v; L2</td>
+</tr>
+<tr>
+<td>u·v</td>
+<td>Dot product, sum of componentwise products</td>
+<td>product units; L2</td>
+</tr>
+<tr>
+<td>theta_ij</td>
+<td>Included edge angle, 0–180 degrees</td>
+<td>degrees; L2</td>
+</tr>
+<tr>
+<td>cos, arccos, sin</td>
+<td>Projection factor; angle with that cosine; height factor</td>
+<td>dimensionless factors; L2–3</td>
+</tr>
+<tr>
+<td>B^T</td>
+<td>Transpose: rows and columns exchanged for calculation</td>
+<td>units of B; L2</td>
+</tr>
+<tr>
+<td>M_cell=B^T B</td>
+<td>Cell3 Gram metric; source-local G in M01</td>
+<td>nm²; L2</td>
+</tr>
+<tr>
+<td>M_ex</td>
+<td>Gram metric of classroom analogue only</td>
+<td>L²; L2</td>
+</tr>
+<tr>
+<td>Symmetric</td>
+<td>Entry ij equals entry ji in the mathematical object</td>
+<td>L2; finite stored discrepancies preserved in L6</td>
+</tr>
+<tr>
+<td>Positive definite</td>
+<td>q^T M q&gt;0 for every nonzero coordinate triple</td>
+<td>invertible Euclidean basis; L2</td>
+</tr>
+<tr>
+<td>u×v, c_ab/c_ac/c_bc</td>
+<td>Oriented area vector; labeled face crosses</td>
+<td>length²; L3</td>
+</tr>
+<tr>
+<td>A_ab,A_ac,A_bc</td>
+<td>Magnitudes of corresponding face crosses</td>
+<td>length²; L3</td>
+</tr>
+<tr>
+<td>Normal / unit normal</td>
+<td>Perpendicular vector / its magnitude-one direction</td>
+<td>length² for a face cross; dimensionless when normalized; L3</td>
+</tr>
+<tr>
+<td>det(B), V</td>
+<td>Signed triple product a·(b×c); unsigned absolute determinant</td>
+<td>length³; L3</td>
+</tr>
+<tr>
+<td>I</td>
+<td>Identity matrix, leaves triples unchanged</td>
+<td>dimensionless; L4</td>
+</tr>
+<tr>
+<td>T^−1</td>
+<td>Inverse linear map where it exists</td>
+<td>reciprocal units; L4</td>
+</tr>
+<tr>
+<td>R_cell, R_ex</td>
+<td>Inverse of the corresponding Gram metric</td>
+<td>nm^−2 or L^−2; L4</td>
+</tr>
+<tr>
+<td>D=B R_cell=B^−T</td>
+<td>Reciprocal basis columns; D^T d recovers q</td>
+<td>nm^−1; L4</td>
+</tr>
+<tr>
+<td>G_phase, G_eff</td>
+<td>Separately typed metrics in later work; not M_cell by naming</td>
+<td>no calculation with them here; L2/4</td>
+</tr>
+<tr>
+<td>Q,Q_g,Q_nu</td>
+<td>Reserved distinct later distance quantities, not inverse metrics or basis maps</td>
+<td>recognition only; L4</td>
+</tr>
+<tr>
+<td>s / t</td>
+<td>Positive dimensionless rescale / length coordinate on a positive ray</td>
+<td>1 / length; L5</td>
+</tr>
+<tr>
+<td>l_a,l_b,l_c</td>
+<td>Positive edge lengths</td>
+<td>length; L5</td>
+</tr>
+<tr>
+<td>eta, alpha, alpha^−1</td>
+<td>Supplied dimensionless ratio inputs; alpha^−1 means 1/alpha</td>
+<td>L5</td>
+</tr>
+<tr>
+<td>k_b,k_c</td>
+<td>Supplied-angle expressions fixing l_b/l_a, l_c/l_a</td>
+<td>dimensionless; L5</td>
+</tr>
+<tr>
+<td>A_*</td>
+<td>Chosen positive labeled area anchor</td>
+<td>length²; L5</td>
+</tr>
+<tr>
+<td>Positive ray</td>
+<td>All positive multiples of one fixed ratio triple</td>
+<td>L5</td>
+</tr>
+<tr>
+<td>Lexeme / pointer / SHA-256</td>
+<td>Number string / exact JSON location / file fingerprint</td>
+<td>L6</td>
+</tr>
+<tr>
+<td>E,F</td>
+<td>Local residual matrices MR−I and B^T B−M in L6; no relation to later projection operators</td>
+<td>dimensionless / length²</td>
+</tr>
+<tr>
+<td>ROUND_HALF_EVEN</td>
+<td>Decimal half-tie arithmetic rule: retain even last digit</td>
+<td>separate from cell ownership; L6</td>
+</tr>
+<tr>
+<td>Source-reported / recomputed</td>
+<td>Archived claim / declared fresh numerical calculation</td>
+<td>L6</td>
+</tr>
+</tbody>
+</table></div>
+<p>Notation scope: early lessons use B for a generic basis and explicitly label the classroom analogue; the locked card always means actual Cell3. Bare G from the source is translated to M_cell here. The course does not equate orientation with detector parity, chirality, or a projective sign identification.</p></article><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/3">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

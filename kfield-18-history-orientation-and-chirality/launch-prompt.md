@@ -1,0 +1,1416 @@
+Role: You are the autonomous author, verifier, and recovery steward for a complete high-school course. Teach the stated audience from first principles with precise, age-appropriate language.
+
+# Outcome
+
+Build the complete course described by the runtime subject packet. Work continuously through all lessons, supporting materials, final assembly, hostile audit, repair, and deterministic validation. Do not stop after an outline, sample unit, or partial course.
+
+Write every persistent course artifact directly into the absolute `course_output_directory` in the runtime packet. That directory is the sole recovery and delivery location for this course.
+
+# Success criteria
+
+- Every required concept is introduced, practiced, assessed, and connected to later use.
+- Every lesson satisfies the lesson contract and has zero unresolved critical or major local findings.
+- Definitions, terms, symbols, units, source claims, examples, and answers are correct and consistent.
+- The capstone is solvable from the actual course.
+- The assembled course contains every passed lesson verbatim and in approved order.
+- Recovery state is current, hashes validate, and the final hostile audit has zero unresolved critical and major findings.
+- All requested artifacts exist and the deterministic validator exits successfully.
+
+# Constraints
+
+Preserve the supplied subject kernel, invariants, evidence rules, audience, and course map. Separate observations or source facts, derived implications, interpretations, proposed mechanisms, established reference theory, and unresolved questions when those layers apply. Never fabricate concrete facts, sources, data, quotations, or real-world evidence; use symbolic or clearly synthetic examples if grounding is unavailable. Use authoritative retrieval when the runtime packet requires current or exact facts.
+
+Make reasonable assumptions and record them. Do not ask for intermediate approval. Ask for user attention only if a missing fact or authority would materially change the course and cannot be safely represented as an explicit assumption or placeholder.
+
+Keep progress updates concise and write substantive work to files. Do not expose private reasoning traces; audit records contain only findings, corrections, verification, and dispositions.
+
+Do not save a persistent course artifact in the generated task workspace or any directory outside `course_output_directory`. If that destination is unavailable, preserve any already-written state there and report the storage blocker; do not silently substitute another location.
+
+# Recovery protocol
+
+Inside `course_output_directory`, initialize `manifest.json`, `course-map.md`, `terminology.md`, `audit_report.json`, and `completion_report.json`, plus one file per lesson. Treat that manifest as the recovery authority, but verify every existing checkpoint file and SHA-256 before trusting its status. Save a complete section before marking it passed. Resume from the first missing or failed dependency. Do not regenerate passed work without a concrete dependent defect.
+
+Use stable checkpoint IDs, dependency lists, statuses (`pending`, `drafted`, `passed`, `failed`), relative paths, summaries, and SHA-256 hashes. Update blockers and the next action after each checkpoint.
+
+# Lesson and audit contract
+
+Each lesson needs one essential question, two to four observable goals, a bridge from taught material, a first-principles explanation, at least one fully worked verifiable example, a claim-scope box when needed, three to five diagnostic checks, concise worked answers, and a link to the next dependency.
+
+Recompute examples and answers independently. At every lesson run local prerequisite, audience, definition, notation, unit, logical, mathematical, evidence, and source checks. At unit boundaries run cumulative terminology, dependency, complexity, coverage, and capstone checks. Classify findings as critical, major, or minor; patch the earliest source and rerun affected checks. Stop revising for style once correctness and learning are no longer improved.
+
+# Deliverables and assembly
+
+Create student lessons, terminology/glossary, teacher guide, capstone and full answer key/rubric, final assembled course, manifest, audit report, and completion report. Add no new substantive teaching during assembly. Insert each lesson verbatim between `<!-- BEGIN: CHECKPOINT_ID -->` and `<!-- END: CHECKPOINT_ID -->` markers in course order.
+
+If a requested output is paginated or visual, use its applicable artifact skill to render, inspect, and repair it. Run the final hostile audit across coverage, fidelity, dependency order, correctness, terminology, examples, evidence layers, audience load, assessment alignment, recovery integrity, assembly identity, rendering, and minimality.
+
+# Stop and report rules
+
+Success requires zero unresolved critical findings, zero unresolved major findings, every checkpoint passed, current hashes, correct assembly order/identity, complete outputs, and a successful deterministic validator run. On failure, repair and rerun affected checks. On a genuine blocker, preserve the recovery files and report only the smallest action needed. On success, report artifact paths, assumptions, audit counts, hashes, validator result, and any harmless unresolved minor findings.
+
+# Manager execution contract
+
+This is the one course-production task created by the parent through build-high-school-course. You are its curriculum manager and author. Execute that skill's production, audit, recovery, and validator requirements in this task; do not recursively create a second course task or any other task. The user authorized all 30 course-manager tasks and independent auditors. The parent coordinates them.
+
+The user's exact standing authorization is: 'do not stop for user approval. You are approved to proceed with all required tasks, proceed'
+
+Read the build-high-school-course SKILL.md, methodology, audit rubric, and validator implementation; the complete approved subject packet follows here. Read the residual-information-paradigm skill at the beginning. Use krytronx-knowledge-graph and relevant domain skills for exact source grounding. Source retrieval is read-only. Preserve source-local definitions and record exact paths, SHA-256, pointers/pages and evidence classes. Never bulk-copy source data into the course. Small clearly labeled teaching examples and their verification records are allowed.
+
+Use GPT-6 Astra as the user explicitly selected. Preserve the configured reasoning setting. The user explicitly overrides the skill's Desktop-only/projectless defaults: write course outputs within the saved project Z:/Kfield-doc-training and move them later. This task is running directly in that project. The runtime course_output_directory is authoritative and already exists. Use ordinary workspace writes; do not request Desktop access. The parent has approved proceeding and no further content approval is required. Validate with Z:/Kfield-doc-training/.work/validate_project_course.py COURSE_DIRECTORY --json. This adapter runs the installed validator unchanged except that its canonical-root constant is the user-selected project folder, preserving containment, content, hash, assembly, and audit checks.
+
+Python must run through & 'C:/ProgramData/anaconda3/Scripts/conda.exe' run -n tf_gpu_env python. Do not install or change packages. Avoid long or GPU work; hand-checkable mathematics and lightweight standard-library checks suffice. Do not create raw source snapshots or large npz files.
+
+The course is a complete topical course for seniors, not an outline. Write connected, clear explanations and fully worked examples; use only the necessary mathematical formalism and explicitly teach every new operation. Keep all core tasks solvable from taught material. Add diagrams/tables when they improve learning; Markdown and Mermaid are sufficient. Refine lesson boundaries if necessary for prerequisite closure, recording the rationale and updating coverage and capstone maps. Do not reduce coverage to finish faster or pad the course with boilerplate. Core lessons each require one essential question, two to four observable goals, an explicit prerequisite bridge, first-principles instruction, a fully worked independently recomputed example, an appropriate evidence-scope box, three to five diagnostic questions, worked answers, and a next-dependency link.
+
+Initialize recovery authorities before substantive generation. The input-contract.json is already present. Do not mark complete until the actual validator exits zero and all critical/major findings are corrected. Read the validator schema instead of guessing it. Include all student and teacher artifacts, a capstone with full answers and rubric, precise source notes, and the exact assembly marker protocol. Audit records must describe actual checks and actual corrections, never invented passes. The parent and independent auditor will reread and recompute your output.
+
+On completion report the exact course title, output directory, lesson count, validator result, unresolved counts, and any source gaps in your final reply. The parent polls your progress and final response. Do not call messaging tools to send parent status or completion; these can trigger separate app approvals. Then await possible audit repair requests. No messages to external people and no publishing are authorized.
+
+# Runtime subject packet
+
+```json
+{
+  "schema_version": "1.0",
+  "course_output_root": "Z:\\Kfield-doc-training\\K-Field_Training_Course",
+  "course_output_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-18-history-orientation-and-chirality",
+  "topic": "History, Orientation, and Chirality",
+  "series_course_id": "course-18",
+  "audience": "High-school seniors; first-principles teaching, with concrete prerequisite capabilities and taught bridges.",
+  "prerequisites": [
+    "Signed arithmetic, fractions, ratios, powers, linear equations, and coordinate graphs",
+    "Capabilities taught in course-06",
+    "Capabilities taught in course-15",
+    "Capabilities taught in course-17"
+  ],
+  "learning_outcomes": [
+    "Generate a finite prefix tree and retain the empty word",
+    "Verify prefixing and its partial inverse on a small tree",
+    "Distinguish norm preservation from surjectivity",
+    "Check idempotence and orthogonality of finite projectors",
+    "Track orientation without silent reflections",
+    "Use small matrix models to explain a declared grading",
+    "Trace the carrier, coframe, and history assumptions behind the archived statement"
+  ],
+  "requested_deliverables": [
+    "student lessons",
+    "course-map.md",
+    "terminology.md",
+    "teacher-guide.md",
+    "capstone.md with full answers and rubric",
+    "course.md",
+    "manifest.json",
+    "audit_report.json",
+    "completion_report.json",
+    "compact sources and worked-example verification"
+  ],
+  "assumptions": [
+    "A topical short course, not a semester per topic. Pacing is 55-minute core lessons plus capstone periods; split dense lessons if actual learner load requires it.",
+    "No prior calculus, abstract algebra, university linear algebra, or quantum mechanics unless explicitly taught earlier.",
+    "Required core assessments must be solvable with taught finite examples. Clearly label deeper recognition-only extensions.",
+    "Markdown is the delivery format; no PDF or Word generation is required."
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "role": "archival source; reported status is distinct from fresh verification"
+    },
+    {
+      "id": "S02",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "role": "archival source; reported status is distinct from fresh verification"
+    },
+    {
+      "id": "S03",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "role": "archival source; reported status is distinct from fresh verification"
+    },
+    {
+      "id": "S04",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+      "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "role": "archival source; reported status is distinct from fresh verification"
+    },
+    {
+      "id": "S05",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+      "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+      "role": "archival source; reported status is distinct from fresh verification"
+    }
+  ],
+  "source_routing": {
+    "primary_skill": "C:/Users/info/.codex/skills/krytronx-knowledge-graph/SKILL.md",
+    "graph_root": "repository:KrytronDwayne/K-Field_Private",
+    "testbench_root": "application:kfield-lucas-lab",
+    "snapshot_generation": "sha256:5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+    "manifest_sha256": "5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+    "rag_rerank": false,
+    "backbone_source_pointer": "/backbone_sequence",
+    "required_modules": [
+      "M14"
+    ],
+    "guidance": "Retrieve exact topic sources and source-local pointers; use the provided archival files read-only and verify their hashes. Do not rely only on titles or summaries. For experimental topics search the testbench topic and local relevant domain skills."
+  },
+  "evidence_rules": [
+    "Preserve empirical observations, derived implications, inferred structure, mechanisms, reference theory, and unresolved questions as distinct layers.",
+    "Read-only sources: no source-data copies, database exports, reindexing, or large arrays. Persist only authored course artifacts, compact provenance, audits, and small clearly synthetic examples.",
+    "Cell3 uses ICRS columns [a b c], an intentional negative determinant, and half-open cells [-1/2,1/2)^3. Use x-O_K in affine reciprocal identities.",
+    "Use the mature locked geometry and exact source provenance. Historical and corrected numerical branches remain separately labeled; do not silently mix their constants.",
+    "Use M_cell=B^T B and R_cell=M_cell^-1; distinguish G_phase, G_eff, reciprocal bases, distance Q, Q_g, and Q_nu.",
+    "Gauge-carrier tuples use color-first C_3 direct-sum W_2. A weak-first view needs an explicit permutation.",
+    "Do not merge detector parity, A1 carry parity, projective signs, chirality, family labels, primitive lifts, or distinct dyadic and ternary recursions.",
+    "Declare nearest-integer half-ties and the corresponding residual interval consistently; the half-open cell ownership rule is a separate operation.",
+    "The detail-product identity needs explicit hypotheses on E beyond Q=I-E; retain the product of finite differences.",
+    "M19 contains mixed extension branches and is not a premise of M20 core closure. Reconstruct prerequisites from module requires, with the documented audit corrections.",
+    "Preserve mature-source claims and accepted integration dispositions separately. In the integration only compiler M03, M07, M08 have direct authority; these compiler labels are not automatically the mathematical-backbone module labels. Preserve the admitted global-form family Z1,Z2,Z3,Z6 and source-local uniqueness claims with explicit contracts.",
+    "Treat matching dimensions or graph labels as neither an intertwiner nor a proof. A missing proof body remains a source-reported status with a retrieval gap.",
+    "Physical CMB velocity is distinct from phase-transformed vectors; the testbench admitted speed is 369812.50200040644 m/s. The Galactic Center is a visual gauge; do not invent Solar or Galactic short-window dynamics.",
+    "A photon-equivalent model energy is not measured transferred energy, and phase is not force. Preserve signed events and the three independent plane-cost levels in the fourteen-row 2026-08-26 bundle.",
+    "Cell3 and galaxy-derived cells have separately typed units, metrics, handedness, scales, and normals. Recurrence is an explanatory target, not permission to merge definitions.",
+    "Every residual remains a primary coordinate. Transformations are reversible or accompanied by all removed components and reconstruction rules; no outlier deletion or significance-based erasure.",
+    "Use tf_gpu_env through C:/ProgramData/anaconda3/Scripts/conda.exe run -n tf_gpu_env python. No package changes without approval."
+  ],
+  "subject_kernel": {
+    "objects_and_operations": [
+      {
+        "concept_id": "C18.01",
+        "concept": "Address histories as words",
+        "operation": "Generate a finite prefix tree and retain the empty word"
+      },
+      {
+        "concept_id": "C18.02",
+        "concept": "Shift operators and root defects",
+        "operation": "Verify prefixing and its partial inverse on a small tree"
+      },
+      {
+        "concept_id": "C18.03",
+        "concept": "Isometry versus reversible evolution",
+        "operation": "Distinguish norm preservation from surjectivity"
+      },
+      {
+        "concept_id": "C18.04",
+        "concept": "History projectors",
+        "operation": "Check idempotence and orthogonality of finite projectors"
+      },
+      {
+        "concept_id": "C18.05",
+        "concept": "Spatial handedness and a time direction",
+        "operation": "Track orientation without silent reflections"
+      },
+      {
+        "concept_id": "C18.06",
+        "concept": "Chirality as a graded construction",
+        "operation": "Use small matrix models to explain a declared grading"
+      },
+      {
+        "concept_id": "C18.07",
+        "concept": "The source K4 construction",
+        "operation": "Trace the carrier, coframe, and history assumptions behind the archived statement"
+      },
+      {
+        "concept_id": "C18.S01",
+        "concept": "Finite shift endpoint defects",
+        "operation": "Compute root and terminal defects on a finite truncation; compare with a rectangular isometry and state the infinite-carrier scope."
+      },
+      {
+        "concept_id": "C18.S02",
+        "concept": "Angular and spin branch scope",
+        "operation": "Sum 1+3+5 at a small cutoff, count paired spin labels, and explain why the abstract representation does not identify a physical angular Hamiltonian or occupation."
+      },
+      {
+        "concept_id": "C18.S03",
+        "concept": "CP capability and real carry obstruction",
+        "operation": "Compute a small commutator, contrast a commuting real example with supplied complex operators, and classify existence of a witness separately from prediction of a physical CP phase."
+      }
+    ],
+    "source_modules": [
+      "M14"
+    ],
+    "scope": "Build a finite history model and an orientation ledger, then explain exactly which source objects support the chirality construction.",
+    "common_failure_modes": [
+      "Untaught prerequisite",
+      "Unscoped symbol or unit",
+      "An illustrative example presented as real evidence",
+      "A source label promoted beyond its evidence class",
+      "A residual or source branch silently omitted"
+    ]
+  },
+  "invariants": [
+    "Preserve empirical observations, derived implications, inferred structure, mechanisms, reference theory, and unresolved questions as distinct layers.",
+    "Read-only sources: no source-data copies, database exports, reindexing, or large arrays. Persist only authored course artifacts, compact provenance, audits, and small clearly synthetic examples.",
+    "Cell3 uses ICRS columns [a b c], an intentional negative determinant, and half-open cells [-1/2,1/2)^3. Use x-O_K in affine reciprocal identities.",
+    "Use the mature locked geometry and exact source provenance. Historical and corrected numerical branches remain separately labeled; do not silently mix their constants.",
+    "Use M_cell=B^T B and R_cell=M_cell^-1; distinguish G_phase, G_eff, reciprocal bases, distance Q, Q_g, and Q_nu.",
+    "Gauge-carrier tuples use color-first C_3 direct-sum W_2. A weak-first view needs an explicit permutation.",
+    "Do not merge detector parity, A1 carry parity, projective signs, chirality, family labels, primitive lifts, or distinct dyadic and ternary recursions.",
+    "Declare nearest-integer half-ties and the corresponding residual interval consistently; the half-open cell ownership rule is a separate operation.",
+    "The detail-product identity needs explicit hypotheses on E beyond Q=I-E; retain the product of finite differences.",
+    "M19 contains mixed extension branches and is not a premise of M20 core closure. Reconstruct prerequisites from module requires, with the documented audit corrections.",
+    "Preserve mature-source claims and accepted integration dispositions separately. In the integration only compiler M03, M07, M08 have direct authority; these compiler labels are not automatically the mathematical-backbone module labels. Preserve the admitted global-form family Z1,Z2,Z3,Z6 and source-local uniqueness claims with explicit contracts.",
+    "Treat matching dimensions or graph labels as neither an intertwiner nor a proof. A missing proof body remains a source-reported status with a retrieval gap.",
+    "Physical CMB velocity is distinct from phase-transformed vectors; the testbench admitted speed is 369812.50200040644 m/s. The Galactic Center is a visual gauge; do not invent Solar or Galactic short-window dynamics.",
+    "A photon-equivalent model energy is not measured transferred energy, and phase is not force. Preserve signed events and the three independent plane-cost levels in the fourteen-row 2026-08-26 bundle.",
+    "Cell3 and galaxy-derived cells have separately typed units, metrics, handedness, scales, and normals. Recurrence is an explanatory target, not permission to merge definitions.",
+    "Every residual remains a primary coordinate. Transformations are reversible or accompanied by all removed components and reconstruction rules; no outlier deletion or significance-based erasure.",
+    "Use tf_gpu_env through C:/ProgramData/anaconda3/Scripts/conda.exe run -n tf_gpu_env python. No package changes without approval."
+  ],
+  "notation_registry": {
+    "M_cell": "Cell3 Gram metric",
+    "R_cell": "inverse Cell3 Gram metric",
+    "G_phase": "distinct phase metric",
+    "O_K": "declared physical origin",
+    "B": "source-locked ordered basis; source-local row/column distinctions must be explicit"
+  },
+  "coverage_matrix": [
+    {
+      "concept_id": "C18.01",
+      "concept": "Address histories as words",
+      "introduction": "lesson-01",
+      "practice": "C18.01-P1",
+      "assessment": "C18.01-D1",
+      "later_use": "lesson-02",
+      "worked_example": "C18.01-W1",
+      "all_required_teaching_item_ids": [
+        "C18.01-E1",
+        "C18.01-W1",
+        "C18.01-P1",
+        "C18.01-D1"
+      ]
+    },
+    {
+      "concept_id": "C18.02",
+      "concept": "Shift operators and root defects",
+      "introduction": "lesson-02",
+      "practice": "C18.02-P1",
+      "assessment": "C18.02-D1",
+      "later_use": "lesson-03",
+      "worked_example": "C18.02-W1",
+      "all_required_teaching_item_ids": [
+        "C18.02-E1",
+        "C18.02-W1",
+        "C18.02-P1",
+        "C18.02-D1",
+        "C18.S01-E1",
+        "C18.S01-W1",
+        "C18.S01-P1",
+        "C18.S01-D1"
+      ]
+    },
+    {
+      "concept_id": "C18.03",
+      "concept": "Isometry versus reversible evolution",
+      "introduction": "lesson-03",
+      "practice": "C18.03-P1",
+      "assessment": "C18.03-D1",
+      "later_use": "lesson-04",
+      "worked_example": "C18.03-W1",
+      "all_required_teaching_item_ids": [
+        "C18.03-E1",
+        "C18.03-W1",
+        "C18.03-P1",
+        "C18.03-D1"
+      ]
+    },
+    {
+      "concept_id": "C18.04",
+      "concept": "History projectors",
+      "introduction": "lesson-04",
+      "practice": "C18.04-P1",
+      "assessment": "C18.04-D1",
+      "later_use": "lesson-05",
+      "worked_example": "C18.04-W1",
+      "all_required_teaching_item_ids": [
+        "C18.04-E1",
+        "C18.04-W1",
+        "C18.04-P1",
+        "C18.04-D1"
+      ]
+    },
+    {
+      "concept_id": "C18.05",
+      "concept": "Spatial handedness and a time direction",
+      "introduction": "lesson-05",
+      "practice": "C18.05-P1",
+      "assessment": "C18.05-D1",
+      "later_use": "lesson-06",
+      "worked_example": "C18.05-W1",
+      "all_required_teaching_item_ids": [
+        "C18.05-E1",
+        "C18.05-W1",
+        "C18.05-P1",
+        "C18.05-D1"
+      ]
+    },
+    {
+      "concept_id": "C18.06",
+      "concept": "Chirality as a graded construction",
+      "introduction": "lesson-06",
+      "practice": "C18.06-P1",
+      "assessment": "C18.06-D1",
+      "later_use": "lesson-07",
+      "worked_example": "C18.06-W1",
+      "all_required_teaching_item_ids": [
+        "C18.06-E1",
+        "C18.06-W1",
+        "C18.06-P1",
+        "C18.06-D1",
+        "C18.S02-E1",
+        "C18.S02-W1",
+        "C18.S02-P1",
+        "C18.S02-D1"
+      ]
+    },
+    {
+      "concept_id": "C18.07",
+      "concept": "The source K4 construction",
+      "introduction": "lesson-07",
+      "practice": "C18.07-P1",
+      "assessment": "C18.07-D1",
+      "later_use": "capstone",
+      "worked_example": "C18.07-W1",
+      "all_required_teaching_item_ids": [
+        "C18.07-E1",
+        "C18.07-W1",
+        "C18.07-P1",
+        "C18.07-D1",
+        "C18.S03-E1",
+        "C18.S03-W1",
+        "C18.S03-P1",
+        "C18.S03-D1"
+      ]
+    },
+    {
+      "concept_id": "C18.S01",
+      "concept": "Finite shift endpoint defects",
+      "introduction": "lesson-02",
+      "practice": "lesson-02: worked example and guided practice",
+      "assessment": "lesson-03: diagnostic checks",
+      "later_use": "capstone",
+      "source_pointers": [
+        "S02#/backbone_sequence/13/definitions"
+      ]
+    },
+    {
+      "concept_id": "C18.S02",
+      "concept": "Angular and spin branch scope",
+      "introduction": "lesson-06",
+      "practice": "lesson-06: worked example and guided practice",
+      "assessment": "lesson-07: diagnostic checks",
+      "later_use": "course-20",
+      "source_pointers": [
+        "S02#/branch_proofs/5",
+        "S02#/proof_nodes/4",
+        "S02#/proof_nodes/18",
+        "S02#/proof_nodes/25"
+      ]
+    },
+    {
+      "concept_id": "C18.S03",
+      "concept": "CP capability and real carry obstruction",
+      "introduction": "lesson-07",
+      "practice": "lesson-07: worked example and guided practice",
+      "assessment": "lesson-07: diagnostic checks",
+      "later_use": "capstone",
+      "source_pointers": [
+        "S02#/branch_proofs/10",
+        "S02#/proof_nodes/9",
+        "S02#/proof_nodes/76"
+      ]
+    }
+  ],
+  "course_map": [
+    {
+      "id": "lesson-01",
+      "title": "Address histories as words",
+      "entry_prerequisites": [
+        "course-06",
+        "course-15",
+        "course-17"
+      ],
+      "concept_ids": [
+        "C18.01"
+      ],
+      "worked_example_capability": "Generate a finite prefix tree and retain the empty word",
+      "assessment_target": "Generate a finite prefix tree and retain the empty word",
+      "later_use": "lesson-02",
+      "core_minutes": 55,
+      "teaching_anchor": {
+        "lesson_id": "lesson-01",
+        "concept_id": "C18.01",
+        "explanation_id": "C18.01-E1",
+        "bridge_to_teach": "Define a word, empty word Omega, prefix and truncation depth before history-space notation. Use a labeled binary classroom alphabet{a, b}; keep the source eight-letter alphabetB8 distinct and do not invent its missing physical labeling.",
+        "worked_example": {
+          "id": "C18.01-W1",
+          "task_and_answer": "Depth<=2 binary words areOmega, a, b, aa, ab, ba, bb:7 orthogonal labels. Prefixa sends Omega->a, b->ab; removing a first a is the partial inverse, while removing a from ba gives zero in the linear operator model."
+        },
+        "guided_practice": {
+          "id": "C18.01-P1",
+          "task_and_answer": "At depth<=1 keep Omega, a, b. Prefix b sends Omega->b; at depth 2 it sends a->ba, b->bb. The empty word is a state label, not zero amplitude. An amplitude ledger retains every word and signed/complex coefficient."
+        },
+        "diagnostic": {
+          "id": "C18.01-D1",
+          "task_and_answer": "A finite cutoff must state how terminal words are handled. The sourceF_hist=l²(B8*) includes all finite words and an empty-word root; it is not this 7-state matrix."
+        },
+        "planned_periods": 1,
+        "minutes_per_period": 55,
+        "teaching_allocation_per_period": {
+          "retrieval": 5,
+          "explanation_and_worked_example": 20,
+          "guided_practice": 15,
+          "independent_diagnostics_and_repair": 15
+        },
+        "production_requirement": "Expand into actual senior-facing explanations,2–4 observable goals and3–5 answered diagnostics. Preserve original IDs and every supplemental concept. Split dense sessions with links updated; period counts may expand.",
+        "original_title": "Address histories as words",
+        "original_assessment_target": "Generate a finite prefix tree and retain the empty word",
+        "original_concept_ids": [
+          "C18.01"
+        ],
+        "required_source_amendment_ids": [],
+        "source_coverage_requirements": [],
+        "original_entry_prerequisites": [
+          "course-06",
+          "course-15",
+          "course-17"
+        ]
+      }
+    },
+    {
+      "id": "lesson-02",
+      "title": "Shift operators and root defects",
+      "entry_prerequisites": [
+        "lesson-01"
+      ],
+      "concept_ids": [
+        "C18.02",
+        "C18.S01"
+      ],
+      "worked_example_capability": "Verify prefixing and its partial inverse on a small tree",
+      "assessment_target": "Verify prefixing and its partial inverse on a small tree",
+      "later_use": "lesson-03",
+      "core_minutes": 110,
+      "source_coverage_requirements": [
+        {
+          "concept_id": "C18.S01",
+          "operation": "Compute root and terminal defects on a finite truncation; compare with a rectangular isometry and state the infinite-carrier scope.",
+          "source_pointers": [
+            "S02#/backbone_sequence/13/definitions"
+          ]
+        }
+      ],
+      "pacing_rule": "Preserve every existing operation. Split into additional sessions if these bridge/practice requirements exceed the core period; update recovery checkpoints during production.",
+      "teaching_anchor": {
+        "lesson_id": "lesson-02",
+        "concept_id": "C18.02",
+        "explanation_id": "C18.02-E1",
+        "bridge_to_teach": "Teach a three-state radial truncationS e0=e1, S e1=e2, S e2=0 and its transpose partial inverse. Compute both endpoint defects, then contrast a rectangular embedding. Keep square finite index and infinite unilateral-shift index separate.",
+        "worked_example": {
+          "id": "C18.02-W1",
+          "task_and_answer": "S=[[0,0,0],[1,0,0],[0,1,0]]. S†S=diag(1,1,0), SS†=diag(0,1,1); terminal and root defects each rank 1. kerS andkerS† each dimension 1, so finite index 0."
+        },
+        "guided_practice": {
+          "id": "C18.02-P1",
+          "task_and_answer": "Forf=(2,3,4), Sf=(0,2,3), S†Sf=(2,3,0). Retain terminal4e2 to restoref. RectangularT:C²->C³, T(a, b)=(0, a, b) satisfiesT†T=I2 andTT†=diag(0,1,1); input(2,3) has norm squared 13 preserved."
+        },
+        "diagnostic": {
+          "id": "C18.02-D1",
+          "task_and_answer": "The infinite unilateral shift onl²(N0) has no terminal defect, kerS=0, cokernel span e0 and index-1. Its isometry and index statements use that separate space/domain; they cannot be assigned to the3x3 truncation."
+        },
+        "planned_periods": 2,
+        "minutes_per_period": 55,
+        "teaching_allocation_per_period": {
+          "retrieval": 5,
+          "explanation_and_worked_example": 20,
+          "guided_practice": 15,
+          "independent_diagnostics_and_repair": 15
+        },
+        "production_requirement": "Expand into actual senior-facing explanations,2–4 observable goals and3–5 answered diagnostics. Preserve original IDs and every supplemental concept. Split dense sessions with links updated; period counts may expand.",
+        "supplemental_exercises": [
+          {
+            "concept_id": "C18.S01",
+            "explanation_id": "C18.S01-E1",
+            "worked_example_id": "C18.S01-W1",
+            "prior_practice_id": "C18.S01-P1",
+            "diagnostic_id": "C18.S01-D1",
+            "explanation": "Compare square truncation and rectangular isometry with explicit domains and endpoint ledgers.",
+            "worked_task_and_answer": "The3x3 shift hasI-S†S=diag(0,0,1), I-SS†=diag(1,0,0), bothrank 1, index 0.",
+            "practice_task_and_answer": "Forf=(1,-2,5), Sf=(0,1,-2), S†Sf=(1,-2,0); addingretained(0,0,5) restoresf. ForT:C²->C³, T(1,-2)=(0,1,-2), norm squared 5 is preserved; T†T=I2.",
+            "diagnostic_task_and_answer": "A finite square matrix has equal kernel/cokernel dimensions; the infinite l²(N0) unilateral shift haskernel0, cokernel1 and index-1. Do not infer the latter from truncation."
+          }
+        ],
+        "original_title": "Shift operators and root defects",
+        "original_assessment_target": "Verify prefixing and its partial inverse on a small tree",
+        "original_concept_ids": [
+          "C18.02",
+          "C18.S01"
+        ],
+        "required_source_amendment_ids": [],
+        "source_coverage_requirements": [
+          {
+            "concept_id": "C18.S01",
+            "operation": "Compute root and terminal defects on a finite truncation; compare with a rectangular isometry and state the infinite-carrier scope.",
+            "source_pointers": [
+              "S02#/backbone_sequence/13/definitions"
+            ]
+          }
+        ],
+        "original_entry_prerequisites": [
+          "lesson-01"
+        ]
+      }
+    },
+    {
+      "id": "lesson-03",
+      "title": "Isometry versus reversible evolution",
+      "entry_prerequisites": [
+        "lesson-02"
+      ],
+      "concept_ids": [
+        "C18.03"
+      ],
+      "worked_example_capability": "Distinguish norm preservation from surjectivity",
+      "assessment_target": "Distinguish norm preservation from surjectivity",
+      "later_use": "lesson-04",
+      "core_minutes": 55,
+      "teaching_anchor": {
+        "lesson_id": "lesson-03",
+        "concept_id": "C18.03",
+        "explanation_id": "C18.03-E1",
+        "bridge_to_teach": "Separate norm-preserving injection, surjectivity and two-sided inverse. Show partial inverse works on the image of a rectangular isometry and preserve the missing range component for general vectors.",
+        "worked_example": {
+          "id": "C18.03-W1",
+          "task_and_answer": "T(a, b)=(0, a, b) preservesnorm. T†(0,2,3)=(2,3), but no input reaches(1,0,0). ThusT†T=I2 whileTT† is a projection, notI3."
+        },
+        "guided_practice": {
+          "id": "C18.03-P1",
+          "task_and_answer": "For output-space vector(5,2,3), T† gives(2,3); T T† gives(0,2,3), retained complement(5,0,0) restores the vector. Compare3x3 shift input(0,0,1), which maps0 and loses norm unless terminal coefficient is retained."
+        },
+        "diagnostic": {
+          "id": "C18.03-D1",
+          "task_and_answer": "A one-sided inverse does not make a map reversible on its entire codomain. Specify the image and complement; do not claim time evolution from an isometry alone."
+        },
+        "planned_periods": 1,
+        "minutes_per_period": 55,
+        "teaching_allocation_per_period": {
+          "retrieval": 5,
+          "explanation_and_worked_example": 20,
+          "guided_practice": 15,
+          "independent_diagnostics_and_repair": 15
+        },
+        "production_requirement": "Expand into actual senior-facing explanations,2–4 observable goals and3–5 answered diagnostics. Preserve original IDs and every supplemental concept. Split dense sessions with links updated; period counts may expand.",
+        "original_title": "Isometry versus reversible evolution",
+        "original_assessment_target": "Distinguish norm preservation from surjectivity",
+        "original_concept_ids": [
+          "C18.03"
+        ],
+        "required_source_amendment_ids": [],
+        "source_coverage_requirements": [],
+        "original_entry_prerequisites": [
+          "lesson-02"
+        ]
+      }
+    },
+    {
+      "id": "lesson-04",
+      "title": "History projectors",
+      "entry_prerequisites": [
+        "lesson-03"
+      ],
+      "concept_ids": [
+        "C18.04"
+      ],
+      "worked_example_capability": "Check idempotence and orthogonality of finite projectors",
+      "assessment_target": "Check idempotence and orthogonality of finite projectors",
+      "later_use": "lesson-05",
+      "core_minutes": 55,
+      "teaching_anchor": {
+        "lesson_id": "lesson-04",
+        "concept_id": "C18.04",
+        "explanation_id": "C18.04-E1",
+        "bridge_to_teach": "Teach q_n=S^n P0(S†)^n using the explicit finite shift and root projector. Check self-adjointness, idempotence, orthogonality and ranks, including the first vanishing projector after the cutoff.",
+        "worked_example": {
+          "id": "C18.04-W1",
+          "task_and_answer": "q0=diag(1,0,0), q1=diag(0,1,0), q2=diag(0,0,1), q3=0. The first three sumI3, all pairwise products vanish. On(1,2,3) they retain(1,0,0),(0,2,0),(0,0,3)."
+        },
+        "guided_practice": {
+          "id": "C18.04-P1",
+          "task_and_answer": "On(-1,4,0), q0 gives(-1,0,0), q1(0,4,0), q2(0,0,0); retain the zero third coordinate and reconstruct. Eachq0..2 has rank 1, whileq3 rank 0; verifyq1²=q1 andq1q2=0."
+        },
+        "diagnostic": {
+          "id": "C18.04-D1",
+          "task_and_answer": "The source wandering projection must lie in the defect space for the asserted orthogonality. A genericP cannot be inserted into the formula without checking this hypothesis."
+        },
+        "planned_periods": 1,
+        "minutes_per_period": 55,
+        "teaching_allocation_per_period": {
+          "retrieval": 5,
+          "explanation_and_worked_example": 20,
+          "guided_practice": 15,
+          "independent_diagnostics_and_repair": 15
+        },
+        "production_requirement": "Expand into actual senior-facing explanations,2–4 observable goals and3–5 answered diagnostics. Preserve original IDs and every supplemental concept. Split dense sessions with links updated; period counts may expand.",
+        "original_title": "History projectors",
+        "original_assessment_target": "Check idempotence and orthogonality of finite projectors",
+        "original_concept_ids": [
+          "C18.04"
+        ],
+        "required_source_amendment_ids": [],
+        "source_coverage_requirements": [],
+        "original_entry_prerequisites": [
+          "lesson-03"
+        ]
+      }
+    },
+    {
+      "id": "lesson-05",
+      "title": "Spatial handedness and a time direction",
+      "entry_prerequisites": [
+        "lesson-04"
+      ],
+      "concept_ids": [
+        "C18.05"
+      ],
+      "worked_example_capability": "Track orientation without silent reflections",
+      "assessment_target": "Track orientation without silent reflections",
+      "later_use": "lesson-06",
+      "core_minutes": 55,
+      "teaching_anchor": {
+        "lesson_id": "lesson-05",
+        "concept_id": "C18.05",
+        "explanation_id": "C18.05-E1",
+        "bridge_to_teach": "Record spatial basis order, determinant sign, time direction and coframe order independently. Use a toy diagonal spatial basis to teach sign changes; do not reflect the authoritative left-handed Cell3 basis to make it right-handed.",
+        "worked_example": {
+          "id": "C18.05-W1",
+          "task_and_answer": "SyntheticB=diag(1,2,-3) has det-6. Swapping the first two columns givesdet+6; reversing the time covector changes the four-dimensional orientation sign once more. Preserve both operations in the ledger."
+        },
+        "guided_practice": {
+          "id": "C18.05-P1",
+          "task_and_answer": "B=diag(2,1,-4) has det-8. Multiplying all spatial lengths bypositive 2 yields det-64 and preserves handedness. Reversing only the third axis flips the sign; label it as a changed orientation, not the same source basis."
+        },
+        "diagnostic": {
+          "id": "C18.05-D1",
+          "task_and_answer": "A forward history choice is an additional temporal/coframe premise. Its sign is not inferred from a determinant magnitude or an internal exterior parity label."
+        },
+        "planned_periods": 1,
+        "minutes_per_period": 55,
+        "teaching_allocation_per_period": {
+          "retrieval": 5,
+          "explanation_and_worked_example": 20,
+          "guided_practice": 15,
+          "independent_diagnostics_and_repair": 15
+        },
+        "production_requirement": "Expand into actual senior-facing explanations,2–4 observable goals and3–5 answered diagnostics. Preserve original IDs and every supplemental concept. Split dense sessions with links updated; period counts may expand.",
+        "original_title": "Spatial handedness and a time direction",
+        "original_assessment_target": "Track orientation without silent reflections",
+        "original_concept_ids": [
+          "C18.05"
+        ],
+        "required_source_amendment_ids": [],
+        "source_coverage_requirements": [],
+        "original_entry_prerequisites": [
+          "lesson-04"
+        ]
+      }
+    },
+    {
+      "id": "lesson-06",
+      "title": "Chirality as a graded construction",
+      "entry_prerequisites": [
+        "lesson-05"
+      ],
+      "concept_ids": [
+        "C18.06",
+        "C18.S02"
+      ],
+      "worked_example_capability": "Use small matrix models to explain a declared grading",
+      "assessment_target": "Use small matrix models to explain a declared grading",
+      "later_use": "lesson-07",
+      "core_minutes": 165,
+      "source_coverage_requirements": [
+        {
+          "concept_id": "C18.S02",
+          "operation": "Sum 1+3+5 at a small cutoff, count paired spin labels, and explain why the abstract representation does not identify a physical angular Hamiltonian or occupation.",
+          "source_pointers": [
+            "S02#/branch_proofs/5",
+            "S02#/proof_nodes/4",
+            "S02#/proof_nodes/18",
+            "S02#/proof_nodes/25"
+          ]
+        }
+      ],
+      "pacing_rule": "Preserve every existing operation. Split into additional sessions if these bridge/practice requirements exceed the core period; update recovery checkpoints during production.",
+      "teaching_anchor": {
+        "lesson_id": "lesson-06",
+        "concept_id": "C18.06",
+        "explanation_id": "C18.06-E1",
+        "bridge_to_teach": "Teach a gradingG²=I withG=diag(1,-1), andPminus=(I-G)/2, Pplus=(I+G)/2. Use distinct two-state factors labeled(L, R) and(even, odd); form their correlation projector before discussing source chirality. Include the angular/spin supplement.",
+        "worked_example": {
+          "id": "C18.06-W1",
+          "task_and_answer": "Pminus=diag(0,1), Pplus=diag(1,0) are orthogonal idempotents. On the independently ordered tensor labels(L, even),(L, odd),(R, even),(R, odd), Pi=diag(1,0,0,1). Pi(1,2,3,4)=(1,0,0,4), complement(0,2,3,0) is retained."
+        },
+        "guided_practice": {
+          "id": "C18.06-P1",
+          "task_and_answer": "Pi(2,-1,0,3)=(2,0,0,3), complement(0,-1,0,0); reconstruct. Factor projectors commute because they act on separate factors. ForG=diag(1,-1) andXswap, GX+XG=0; verify bothP²=P andPminus Pplus=0."
+        },
+        "diagnostic": {
+          "id": "C18.06-D1",
+          "task_and_answer": "The toy grading is not a complete spacetime Clifford representation. Correlating two labels does not equate them: spacetime chirality and exterior parity remain different factors."
+        },
+        "planned_periods": 3,
+        "minutes_per_period": 55,
+        "teaching_allocation_per_period": {
+          "retrieval": 5,
+          "explanation_and_worked_example": 20,
+          "guided_practice": 15,
+          "independent_diagnostics_and_repair": 15
+        },
+        "production_requirement": "Expand into actual senior-facing explanations,2–4 observable goals and3–5 answered diagnostics. Preserve original IDs and every supplemental concept. Split dense sessions with links updated; period counts may expand.",
+        "supplemental_exercises": [
+          {
+            "concept_id": "C18.S02",
+            "explanation_id": "C18.S02-E1",
+            "worked_example_id": "C18.S02-W1",
+            "prior_practice_id": "C18.S02-P1",
+            "diagnostic_id": "C18.S02-D1",
+            "explanation": "Teach2ell+1 as a supplied angular representation dimension, then sum and attach two independent spin labels. The Clebsch-Gordan split is source-read; minus term absent atell0.",
+            "worked_task_and_answer": "At cutoff m=2, dimensions1+3+5=9; paired spin labels give18. Supplied C2 eigenvalues ell(ell+1) are0,2,6. For ell1, spin-half split dimensions4+2=6 matches2*3.",
+            "practice_task_and_answer": "At m=3 add 7 to obtain 16, spin labels 32; ell3 has C2=12. For ell2, spin-half termsj=5/2 and3/2 have dimensions 6+4=10=2*5. At ell0 keep only j=1/2 dimension2, not a negative-j term.",
+            "diagnostic_task_and_answer": "These counts do not define a physical Cell3 angular Hamiltonian, energy spacing or occupation. Retain the representation/carrier and source scope separately."
+          }
+        ],
+        "original_title": "Chirality as a graded construction",
+        "original_assessment_target": "Use small matrix models to explain a declared grading",
+        "original_concept_ids": [
+          "C18.06",
+          "C18.S02"
+        ],
+        "required_source_amendment_ids": [],
+        "source_coverage_requirements": [
+          {
+            "concept_id": "C18.S02",
+            "operation": "Sum 1+3+5 at a small cutoff, count paired spin labels, and explain why the abstract representation does not identify a physical angular Hamiltonian or occupation.",
+            "source_pointers": [
+              "S02#/branch_proofs/5",
+              "S02#/proof_nodes/4",
+              "S02#/proof_nodes/18",
+              "S02#/proof_nodes/25"
+            ]
+          }
+        ],
+        "original_entry_prerequisites": [
+          "lesson-05"
+        ]
+      }
+    },
+    {
+      "id": "lesson-07",
+      "title": "The source K4 construction",
+      "entry_prerequisites": [
+        "lesson-06"
+      ],
+      "concept_ids": [
+        "C18.07",
+        "C18.S03"
+      ],
+      "worked_example_capability": "Trace the carrier, coframe, and history assumptions behind the archived statement",
+      "assessment_target": "Trace the carrier, coframe, and history assumptions behind the archived statement",
+      "later_use": "capstone",
+      "core_minutes": 165,
+      "source_coverage_requirements": [
+        {
+          "concept_id": "C18.S03",
+          "operation": "Compute a small commutator, contrast a commuting real example with supplied complex operators, and classify existence of a witness separately from prediction of a physical CP phase.",
+          "source_pointers": [
+            "S02#/branch_proofs/10",
+            "S02#/proof_nodes/9",
+            "S02#/proof_nodes/76"
+          ]
+        }
+      ],
+      "pacing_rule": "Preserve every existing operation. Split into additional sessions if these bridge/practice requirements exceed the core period; update recovery checkpoints during production.",
+      "teaching_anchor": {
+        "lesson_id": "lesson-07",
+        "concept_id": "C18.07",
+        "explanation_id": "C18.07-E1",
+        "bridge_to_teach": "Read source K4 construction as a dependency ledger: history carrier/defect, spatial coframe, forward time covector, metric-signature/Clifford convention, gamma5 and correlated projector. State which finite identities were checked and which source bodies are not loaded. Include the CP supplement.",
+        "worked_example": {
+          "id": "C18.07-W1",
+          "task_and_answer": "SourceM14 definesgamma5=i gamma0 gamma1 gamma2 gamma3 andPL/PR; its Clifford relations imply the projector identities within its convention. Toy matrices checked the grading algebra only. Source radialT0 index-1 requires its specified infinite radial space; AUD-009 listsT0 and B8 definitions as missing replay objects."
+        },
+        "guided_practice": {
+          "id": "C18.07-P1",
+          "task_and_answer": "Classify: three-state shift index 0=fresh finite check; infinite radial index-1=source statement with separate space/domain; Pi_phys=PL tensorPeven+PR tensorPodd=source correlation with distinct factors; left-handed coframe+forward history=declared orientation inputs. Preserve source pointers and missing-object fields."
+        },
+        "diagnostic": {
+          "id": "C18.07-D1",
+          "task_and_answer": "No finite matrix example supplies a missing physical chirality-selection proof or source operator definition. CP existence arithmetic and angular representation counts remain separate from predicted physical phases or occupations."
+        },
+        "planned_periods": 3,
+        "minutes_per_period": 55,
+        "teaching_allocation_per_period": {
+          "retrieval": 5,
+          "explanation_and_worked_example": 20,
+          "guided_practice": 15,
+          "independent_diagnostics_and_repair": 15
+        },
+        "production_requirement": "Expand into actual senior-facing explanations,2–4 observable goals and3–5 answered diagnostics. Preserve original IDs and every supplemental concept. Split dense sessions with links updated; period counts may expand.",
+        "supplemental_exercises": [
+          {
+            "concept_id": "C18.S03",
+            "explanation_id": "C18.S03-E1",
+            "worked_example_id": "C18.S03-W1",
+            "prior_practice_id": "C18.S03-P1",
+            "diagnostic_id": "C18.S03-D1",
+            "explanation": "Define commutator[A, B]=AB-BA; distinguish pointwise real diagonal carry operators from general real matrices and supplied complex matrices. Teach a finite determinant existence witness without identifying a physical CP phase.",
+            "worked_task_and_answer": "diag(1,2) anddiag(3,4) commute. X=[[0,1],[1,0]], Y=[[0,-i],[i,0]] give[X, Y]=2i diag(1,-1), nonzero. This proves noncommutativity, not a measuredCP invariant.",
+            "practice_task_and_answer": "A=diag(1,-1), B=[[0,1+i],[1-i,0]] give[A, B]=[[0,2+2i],[-2+2i,0]]. Separately choose source-style positiveA0=diag(4,1,1/4), S=diag(2,1,1/2), D=diag(1, omega, omega²):Yu=S, Yd=D S^-1 D givesdet(YuYd)=1. Here both matrices are diagonal and commute, so determinant1 alone does not establish nonzeroCP.",
+            "diagnostic_task_and_answer": "The source real-carry obstruction assumes a commutative pointwise algebra; real matrices in general need not commute. A supplied positiveA and phase k are inputs; an existence witness does not predict CKM/PMNS values."
+          }
+        ],
+        "original_title": "The source K4 construction",
+        "original_assessment_target": "Trace the carrier, coframe, and history assumptions behind the archived statement",
+        "original_concept_ids": [
+          "C18.07",
+          "C18.S03"
+        ],
+        "required_source_amendment_ids": [],
+        "source_coverage_requirements": [
+          {
+            "concept_id": "C18.S03",
+            "operation": "Compute a small commutator, contrast a commuting real example with supplied complex operators, and classify existence of a witness separately from prediction of a physical CP phase.",
+            "source_pointers": [
+              "S02#/branch_proofs/10",
+              "S02#/proof_nodes/9",
+              "S02#/proof_nodes/76"
+            ]
+          }
+        ],
+        "original_entry_prerequisites": [
+          "lesson-06"
+        ]
+      }
+    }
+  ],
+  "capstone_specification": {
+    "task": "Build a finite history model and an orientation ledger, then explain exactly which source objects support the chirality construction.",
+    "required_operations": [
+      "Enumerate the finite binary word tree and retain the empty-word label and amplitudes.",
+      "Apply the square shift and reconstruct from shifted input plus terminal component.",
+      "Apply the rectangular isometry,its partial inverse and retained codomain complement.",
+      "Compute q0 throughq3,check their ranks/products and reconstruct the practice vector includingzeros.",
+      "Build the orientation ledger under a positive rescale and a single reflection.",
+      "Compute the two-factor correlation projector and reconstruct image+complement without identifying the labels.",
+      "Classify sourceK4/history/coframe premises and unloaded objects using supplied source cards.",
+      "Compute both finite endpoint defects andindex0; contrast the rectangular isometry and separate infinite-space index-1.",
+      "Compute the angular/spin practice counts andsource-scoped representation limits.",
+      "Compute the practice commutator anddeterminant witness; distinguish existence from a predicted physicalCP phase."
+    ],
+    "rule": "Map every capstone operation to a prior introduction and practice; provide full answers, point rubric, source scope, and residual accounting.",
+    "backward_map": [
+      {
+        "step_id": "C18-CAP-01",
+        "operation": "Enumerate the finite binary word tree and retain the empty-word label and amplitudes.",
+        "introduction": "lesson-01",
+        "explanation_id": "C18.01-E1",
+        "worked_example_id": "C18.01-W1",
+        "prior_practice_id": "C18.01-P1",
+        "diagnostic_id": "C18.01-D1"
+      },
+      {
+        "step_id": "C18-CAP-02",
+        "operation": "Apply the square shift and reconstruct from shifted input plus terminal component.",
+        "introduction": "lesson-02",
+        "explanation_id": "C18.02-E1",
+        "worked_example_id": "C18.02-W1",
+        "prior_practice_id": "C18.02-P1",
+        "diagnostic_id": "C18.02-D1"
+      },
+      {
+        "step_id": "C18-CAP-03",
+        "operation": "Apply the rectangular isometry,its partial inverse and retained codomain complement.",
+        "introduction": "lesson-03",
+        "explanation_id": "C18.03-E1",
+        "worked_example_id": "C18.03-W1",
+        "prior_practice_id": "C18.03-P1",
+        "diagnostic_id": "C18.03-D1"
+      },
+      {
+        "step_id": "C18-CAP-04",
+        "operation": "Compute q0 throughq3,check their ranks/products and reconstruct the practice vector includingzeros.",
+        "introduction": "lesson-04",
+        "explanation_id": "C18.04-E1",
+        "worked_example_id": "C18.04-W1",
+        "prior_practice_id": "C18.04-P1",
+        "diagnostic_id": "C18.04-D1"
+      },
+      {
+        "step_id": "C18-CAP-05",
+        "operation": "Build the orientation ledger under a positive rescale and a single reflection.",
+        "introduction": "lesson-05",
+        "explanation_id": "C18.05-E1",
+        "worked_example_id": "C18.05-W1",
+        "prior_practice_id": "C18.05-P1",
+        "diagnostic_id": "C18.05-D1"
+      },
+      {
+        "step_id": "C18-CAP-06",
+        "operation": "Compute the two-factor correlation projector and reconstruct image+complement without identifying the labels.",
+        "introduction": "lesson-06",
+        "explanation_id": "C18.06-E1",
+        "worked_example_id": "C18.06-W1",
+        "prior_practice_id": "C18.06-P1",
+        "diagnostic_id": "C18.06-D1"
+      },
+      {
+        "step_id": "C18-CAP-07",
+        "operation": "Classify sourceK4/history/coframe premises and unloaded objects using supplied source cards.",
+        "introduction": "lesson-07",
+        "explanation_id": "C18.07-E1",
+        "worked_example_id": "C18.07-W1",
+        "prior_practice_id": "C18.07-P1",
+        "diagnostic_id": "C18.07-D1"
+      },
+      {
+        "step_id": "C18-CAP-08",
+        "operation": "Compute both finite endpoint defects andindex0; contrast the rectangular isometry and separate infinite-space index-1.",
+        "introduction": "lesson-02",
+        "concept_id": "C18.S01",
+        "explanation_id": "C18.S01-E1",
+        "worked_example_id": "C18.S01-W1",
+        "prior_practice_id": "C18.S01-P1",
+        "diagnostic_id": "C18.S01-D1"
+      },
+      {
+        "step_id": "C18-CAP-09",
+        "operation": "Compute the angular/spin practice counts andsource-scoped representation limits.",
+        "introduction": "lesson-06",
+        "concept_id": "C18.S02",
+        "explanation_id": "C18.S02-E1",
+        "worked_example_id": "C18.S02-W1",
+        "prior_practice_id": "C18.S02-P1",
+        "diagnostic_id": "C18.S02-D1"
+      },
+      {
+        "step_id": "C18-CAP-10",
+        "operation": "Compute the practice commutator anddeterminant witness; distinguish existence from a predicted physicalCP phase.",
+        "introduction": "lesson-07",
+        "concept_id": "C18.S03",
+        "explanation_id": "C18.S03-E1",
+        "worked_example_id": "C18.S03-W1",
+        "prior_practice_id": "C18.S03-P1",
+        "diagnostic_id": "C18.S03-D1"
+      }
+    ]
+  },
+  "blueprint_audit": {
+    "status": "approved_source_and_prerequisite_blueprint",
+    "unresolved_critical": 0,
+    "unresolved_major": 0,
+    "source_review": {
+      "status": "ready_for_source_scoped_drafting",
+      "basis": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\source-coverage\\source-coverage-audit.json",
+      "source_report_sha256": "eef89a28971ef7e5380977c31b62ed6d64f2831759e679ee967b6c253a33c04a",
+      "portable_requirements_applied": true,
+      "educational_acceptance": "Independent teaching review and actual E05 content gate remain required.",
+      "applied_at": "2026-11-05T17:02:05.375955+00:00"
+    },
+    "teaching_review_path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\teaching\\launch-review-17-20.json",
+    "teaching_amendment_sha256": "20586b6d3d025073cdf48f90007d8f4141cadcd8a8627af48ec93419f8a10352",
+    "review_scope": "Blueprint clearance only. Actual lesson content and E05 links require independent final acceptance.",
+    "applied_at": "2026-11-05T18:49:31.663838+00:00"
+  },
+  "validator": {
+    "skill_relative_path": "scripts/validate_course.py",
+    "required_command": "& 'C:\\ProgramData\\anaconda3\\Scripts\\conda.exe' run -n tf_gpu_env python 'C:\\Users\\info\\.codex\\skills\\build-high-school-course\\scripts\\validate_course.py' 'Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-18-history-orientation-and-chirality' --json"
+  },
+  "source_coverage_review": {
+    "status": "required_source_additions_recorded",
+    "report": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-series-20261105/audits/source-coverage/source-coverage-audit.json",
+    "approval_boundary": "Source additions are blueprint requirements. Educational recheck and worked lesson verification remain pending."
+  },
+  "storage_override": {
+    "authority": "User: write outputs to the project folder and move them later",
+    "original_root": "C:\\Users\\info\\Desktop\\K-Field_Training_Course",
+    "canonical_project_root": "Z:\\Kfield-doc-training\\K-Field_Training_Course"
+  },
+  "production_requirements": {
+    "E05": [
+      "Replace generic coverage placeholders with actual explanation, worked-example, practice, diagnostic, and capstone step IDs. A row passes only when the referenced content exists and the operation is taught before use.",
+      "For each capstone break the requested product into concrete operations with named inputs/outputs, link each operation to an earlier explanation AND an independently answered practice item; do not merely repeat outcome text.",
+      "Use source-exact finite examples where available and separately labeled synthetic analogues otherwise. Recognition-only extensions cannot be required computations.",
+      "Record teaching/practice/check minutes per lesson; split overloaded lessons and update every lesson/coverage/capstone link. Shared advanced notation is author guidance until introduced locally."
+    ]
+  },
+  "applied_audit_amendments": {},
+  "source_audit_readiness": {
+    "status": "ready_for_source_scoped_drafting",
+    "basis": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\source-coverage\\source-coverage-audit.json",
+    "source_report_sha256": "eef89a28971ef7e5380977c31b62ed6d64f2831759e679ee967b6c253a33c04a",
+    "portable_requirements_applied": true,
+    "educational_acceptance": "Independent teaching review and actual E05 content gate remain required.",
+    "applied_at": "2026-11-05T17:02:05.375955+00:00"
+  },
+  "teaching_blueprint_contract": {
+    "schema_version": "1.0",
+    "created_utc": "2026-11-05T18:44:36.579330+00:00",
+    "scope": "Portable teaching BLUEPRINT amendments only; no completed-course acceptance.",
+    "source_basis": [
+      {
+        "id": "S01",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+        "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+        "role": "archival source; reported status is distinct from fresh verification"
+      },
+      {
+        "id": "S02",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+        "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+        "role": "archival source; reported status is distinct from fresh verification"
+      },
+      {
+        "id": "S03",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+        "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+        "role": "archival source; reported status is distinct from fresh verification"
+      },
+      {
+        "id": "S04",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+        "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+        "role": "archival source; reported status is distinct from fresh verification"
+      },
+      {
+        "id": "S05",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+        "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+        "role": "archival source; reported status is distinct from fresh verification"
+      }
+    ],
+    "verification_record": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-teaching-auditor\\outputs\\teaching-verification-17-20.json",
+    "verification_sha256": "95f3b9026083e396970204003ff19e5b6ac06ee4d714f57f5af73f7bbc4026a2",
+    "source_or_project_files_modified": false,
+    "course_amendment": {
+      "course_id": "course-18",
+      "input_contract_path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-18-history-orientation-and-chirality\\input-contract.json",
+      "input_contract_sha256": "f7ab24bebf450438429e81a83c365ee2a3dafd3d086c9552f3e520d0af31035d",
+      "application": "Merge additively as teaching_amendment. Replace generic coverage references with exact exercise IDs. Preserve every original concept,source/educational amendment,supplemental exercise and legacy bridge ID. Parent applies; no project edit made.",
+      "applied_source_amendments_read": {},
+      "original_subject_kernel": {
+        "objects_and_operations": [
+          {
+            "concept_id": "C18.01",
+            "concept": "Address histories as words",
+            "operation": "Generate a finite prefix tree and retain the empty word"
+          },
+          {
+            "concept_id": "C18.02",
+            "concept": "Shift operators and root defects",
+            "operation": "Verify prefixing and its partial inverse on a small tree"
+          },
+          {
+            "concept_id": "C18.03",
+            "concept": "Isometry versus reversible evolution",
+            "operation": "Distinguish norm preservation from surjectivity"
+          },
+          {
+            "concept_id": "C18.04",
+            "concept": "History projectors",
+            "operation": "Check idempotence and orthogonality of finite projectors"
+          },
+          {
+            "concept_id": "C18.05",
+            "concept": "Spatial handedness and a time direction",
+            "operation": "Track orientation without silent reflections"
+          },
+          {
+            "concept_id": "C18.06",
+            "concept": "Chirality as a graded construction",
+            "operation": "Use small matrix models to explain a declared grading"
+          },
+          {
+            "concept_id": "C18.07",
+            "concept": "The source K4 construction",
+            "operation": "Trace the carrier, coframe, and history assumptions behind the archived statement"
+          },
+          {
+            "concept_id": "C18.S01",
+            "concept": "Finite shift endpoint defects",
+            "operation": "Compute root and terminal defects on a finite truncation; compare with a rectangular isometry and state the infinite-carrier scope."
+          },
+          {
+            "concept_id": "C18.S02",
+            "concept": "Angular and spin branch scope",
+            "operation": "Sum 1+3+5 at a small cutoff, count paired spin labels, and explain why the abstract representation does not identify a physical angular Hamiltonian or occupation."
+          },
+          {
+            "concept_id": "C18.S03",
+            "concept": "CP capability and real carry obstruction",
+            "operation": "Compute a small commutator, contrast a commuting real example with supplied complex operators, and classify existence of a witness separately from prediction of a physical CP phase."
+          }
+        ],
+        "source_modules": [
+          "M14"
+        ],
+        "scope": "Build a finite history model and an orientation ledger, then explain exactly which source objects support the chirality construction.",
+        "common_failure_modes": [
+          "Untaught prerequisite",
+          "Unscoped symbol or unit",
+          "An illustrative example presented as real evidence",
+          "A source label promoted beyond its evidence class",
+          "A residual or source branch silently omitted"
+        ]
+      },
+      "original_capstone_specification": {
+        "task": "Build a finite history model and an orientation ledger, then explain exactly which source objects support the chirality construction.",
+        "required_operations": [
+          "Generate a finite prefix tree and retain the empty word",
+          "Verify prefixing and its partial inverse on a small tree",
+          "Distinguish norm preservation from surjectivity",
+          "Check idempotence and orthogonality of finite projectors",
+          "Track orientation without silent reflections",
+          "Use small matrix models to explain a declared grading",
+          "Trace the carrier, coframe, and history assumptions behind the archived statement"
+        ],
+        "rule": "Map every capstone operation to a prior introduction and practice; provide full answers, point rubric, source scope, and residual accounting."
+      },
+      "source_coverage_review_rows": [
+        {
+          "course_id": "course-18",
+          "title": "History, Orientation, and Chirality",
+          "backbone_modules": [
+            "M14"
+          ],
+          "topic_boundary": "History shifts, finite endpoint defects, chirality, and bounded angular/spin and CP branch comparisons.",
+          "cognitive_or_fidelity_risk": "A finite square shift cannot satisfy both infinite-shift isometry identities.",
+          "status": "source_map_review_complete_teaching_decision_pending",
+          "primary_sources": [
+            "S02"
+          ],
+          "source_pointer": "/backbone_sequence/13",
+          "packet_at_review": {
+            "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-18-history-orientation-and-chirality\\input-contract.json",
+            "sha256": "3262e03582892ed17113f4819a3863dd3421a4ca0c1ac9aa7f8c70dbb90ab3b7",
+            "lesson_count": 7
+          },
+          "required_amendment_ids": [],
+          "source_launch_decision": "ready_for_source_scoped_drafting_with_required_gates",
+          "decision_scope": "Source/coverage only; no new teaching acceptance or finished-course validation.",
+          "educational_gate": [
+            "E05",
+            "independent_teaching_recheck"
+          ]
+        }
+      ],
+      "source_scope": {
+        "primary": "S02#/backbone_sequence/13",
+        "additional": [
+          "S02#/branch_proofs/5",
+          "S02#/proof_nodes/4",
+          "S02#/proof_nodes/18",
+          "S02#/proof_nodes/25",
+          "S02#/branch_proofs/10",
+          "S02#/proof_nodes/9",
+          "S02#/proof_nodes/76",
+          "S03#/findings/8"
+        ],
+        "amendment_state": "Current contract has no named SA-18; preserve C18.S01/S02/S03 and all associated lesson requirements instead of inventing an amendment.",
+        "history_spaces": "Finite square3x3 shift has root and terminal defects,index0. RectangularC2->C3 isometry is not onto. Infinite unilateral shift onl2(N0) has no terminal cutoff,ker0,cokernel1,index-1. Full sourcewordspace l2(B8*) and radialT0 require their separate definitions; the binary toy is not sourceB8.",
+        "chirality": "Spacetime coframe/Clifford construction and internal exterior parity act on distinct factors. Toygrading/correlation identities do not supply the physical chirality-selection proof.",
+        "angular_spin": "Keep angular count(m+1)^2,spin-paired2(m+1)^2 and supplied C2=ell(ell+1); ell0 has no negative-spin summand. Representation counts do not select a physical angular Hamiltonian or occupation.",
+        "CP": "The real carry obstruction is scoped to commutative pointwise operators. Noncommuting complex toy matrices show noncommutativity only. Source Yu=S,Yd=D S^-1 D with supplied positive A andphasek verifies a determinant existence identity,not a numerical physical CP prediction."
+      },
+      "course_map": [
+        {
+          "id": "lesson-01",
+          "title": "Address histories as words",
+          "entry_prerequisites": [
+            "course-06",
+            "course-15",
+            "course-17"
+          ],
+          "concept_ids": [
+            "C18.01"
+          ],
+          "worked_example_capability": "Generate a finite prefix tree and retain the empty word",
+          "assessment_target": "Generate a finite prefix tree and retain the empty word",
+          "later_use": "lesson-02",
+          "core_minutes": 55,
+          "planned_periods": 1,
+          "planned_total_minutes": 55,
+          "explanation_id": "C18.01-E1",
+          "worked_example_id": "C18.01-W1",
+          "prior_practice_id": "C18.01-P1",
+          "diagnostic_id": "C18.01-D1"
+        },
+        {
+          "id": "lesson-02",
+          "title": "Shift operators and root defects",
+          "entry_prerequisites": [
+            "lesson-01"
+          ],
+          "concept_ids": [
+            "C18.02",
+            "C18.S01"
+          ],
+          "worked_example_capability": "Verify prefixing and its partial inverse on a small tree",
+          "assessment_target": "Verify prefixing and its partial inverse on a small tree",
+          "later_use": "lesson-03",
+          "core_minutes": 55,
+          "source_coverage_requirements": [
+            {
+              "concept_id": "C18.S01",
+              "operation": "Compute root and terminal defects on a finite truncation; compare with a rectangular isometry and state the infinite-carrier scope.",
+              "source_pointers": [
+                "S02#/backbone_sequence/13/definitions"
+              ]
+            }
+          ],
+          "pacing_rule": "Preserve every existing operation. Split into additional sessions if these bridge/practice requirements exceed the core period; update recovery checkpoints during production.",
+          "planned_periods": 2,
+          "planned_total_minutes": 110,
+          "explanation_id": "C18.02-E1",
+          "worked_example_id": "C18.02-W1",
+          "prior_practice_id": "C18.02-P1",
+          "diagnostic_id": "C18.02-D1"
+        },
+        {
+          "id": "lesson-03",
+          "title": "Isometry versus reversible evolution",
+          "entry_prerequisites": [
+            "lesson-02"
+          ],
+          "concept_ids": [
+            "C18.03"
+          ],
+          "worked_example_capability": "Distinguish norm preservation from surjectivity",
+          "assessment_target": "Distinguish norm preservation from surjectivity",
+          "later_use": "lesson-04",
+          "core_minutes": 55,
+          "planned_periods": 1,
+          "planned_total_minutes": 55,
+          "explanation_id": "C18.03-E1",
+          "worked_example_id": "C18.03-W1",
+          "prior_practice_id": "C18.03-P1",
+          "diagnostic_id": "C18.03-D1"
+        },
+        {
+          "id": "lesson-04",
+          "title": "History projectors",
+          "entry_prerequisites": [
+            "lesson-03"
+          ],
+          "concept_ids": [
+            "C18.04"
+          ],
+          "worked_example_capability": "Check idempotence and orthogonality of finite projectors",
+          "assessment_target": "Check idempotence and orthogonality of finite projectors",
+          "later_use": "lesson-05",
+          "core_minutes": 55,
+          "planned_periods": 1,
+          "planned_total_minutes": 55,
+          "explanation_id": "C18.04-E1",
+          "worked_example_id": "C18.04-W1",
+          "prior_practice_id": "C18.04-P1",
+          "diagnostic_id": "C18.04-D1"
+        },
+        {
+          "id": "lesson-05",
+          "title": "Spatial handedness and a time direction",
+          "entry_prerequisites": [
+            "lesson-04"
+          ],
+          "concept_ids": [
+            "C18.05"
+          ],
+          "worked_example_capability": "Track orientation without silent reflections",
+          "assessment_target": "Track orientation without silent reflections",
+          "later_use": "lesson-06",
+          "core_minutes": 55,
+          "planned_periods": 1,
+          "planned_total_minutes": 55,
+          "explanation_id": "C18.05-E1",
+          "worked_example_id": "C18.05-W1",
+          "prior_practice_id": "C18.05-P1",
+          "diagnostic_id": "C18.05-D1"
+        },
+        {
+          "id": "lesson-06",
+          "title": "Chirality as a graded construction",
+          "entry_prerequisites": [
+            "lesson-05"
+          ],
+          "concept_ids": [
+            "C18.06",
+            "C18.S02"
+          ],
+          "worked_example_capability": "Use small matrix models to explain a declared grading",
+          "assessment_target": "Use small matrix models to explain a declared grading",
+          "later_use": "lesson-07",
+          "core_minutes": 55,
+          "source_coverage_requirements": [
+            {
+              "concept_id": "C18.S02",
+              "operation": "Sum 1+3+5 at a small cutoff, count paired spin labels, and explain why the abstract representation does not identify a physical angular Hamiltonian or occupation.",
+              "source_pointers": [
+                "S02#/branch_proofs/5",
+                "S02#/proof_nodes/4",
+                "S02#/proof_nodes/18",
+                "S02#/proof_nodes/25"
+              ]
+            }
+          ],
+          "pacing_rule": "Preserve every existing operation. Split into additional sessions if these bridge/practice requirements exceed the core period; update recovery checkpoints during production.",
+          "planned_periods": 3,
+          "planned_total_minutes": 165,
+          "explanation_id": "C18.06-E1",
+          "worked_example_id": "C18.06-W1",
+          "prior_practice_id": "C18.06-P1",
+          "diagnostic_id": "C18.06-D1"
+        },
+        {
+          "id": "lesson-07",
+          "title": "The source K4 construction",
+          "entry_prerequisites": [
+            "lesson-06"
+          ],
+          "concept_ids": [
+            "C18.07",
+            "C18.S03"
+          ],
+          "worked_example_capability": "Trace the carrier, coframe, and history assumptions behind the archived statement",
+          "assessment_target": "Trace the carrier, coframe, and history assumptions behind the archived statement",
+          "later_use": "capstone",
+          "core_minutes": 55,
+          "source_coverage_requirements": [
+            {
+              "concept_id": "C18.S03",
+              "operation": "Compute a small commutator, contrast a commuting real example with supplied complex operators, and classify existence of a witness separately from prediction of a physical CP phase.",
+              "source_pointers": [
+                "S02#/branch_proofs/10",
+                "S02#/proof_nodes/9",
+                "S02#/proof_nodes/76"
+              ]
+            }
+          ],
+          "pacing_rule": "Preserve every existing operation. Split into additional sessions if these bridge/practice requirements exceed the core period; update recovery checkpoints during production.",
+          "planned_periods": 3,
+          "planned_total_minutes": 165,
+          "explanation_id": "C18.07-E1",
+          "worked_example_id": "C18.07-W1",
+          "prior_practice_id": "C18.07-P1",
+          "diagnostic_id": "C18.07-D1"
+        }
+      ],
+      "core_periods": 12,
+      "capstone_periods": 3,
+      "period_minutes": 55,
+      "core_boundary": "Assess the explicit finite operations and exact source-reading cards. No missing certificate replay,full Clifford/physical chirality proof,global determinant-line existence proof,continuum limit,or physical occupation-selection proof is silently assigned.",
+      "prerequisite_status": "Blueprint closure checked; actual produced student-facing explanations,answered practice and capstone require later independent content acceptance.",
+      "inline_content_location": "Complete lesson anchors are in course_map[*].teaching_anchor; complete capstone mapping is in capstone_specification.backward_map below."
+    },
+    "completed_course_acceptance": false
+  }
+}
+```

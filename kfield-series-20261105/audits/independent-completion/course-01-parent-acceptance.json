@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-01",
+  "status": "accepted",
+  "timestamp": "2026-11-05T17:16:03.621459+00:00",
+  "independent_audit": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\independent-completion\\course-01-independent-audit.json",
+  "independent_report_sha256": "93fa5f454f172917df5c8cff1ad529784bf1c5ff351b3369ea71ad1d622718c5",
+  "original_independent_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 1
+  },
+  "minor_corrections": [
+    {
+      "id": "C01-IND-01",
+      "verification": "A new actual destination validation generated this receipt; root, path and containment check all identify the project folder. Historical receipt retained outside course; final hashes revalidated below."
+    }
+  ],
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "validator": "passed",
+  "validator_checks": [
+    "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+    "parsed manifest.json",
+    "parsed audit_report.json",
+    "parsed completion_report.json",
+    "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+  ],
+  "validator_errors": [],
+  "manifest_sha256": "c040bf03de6ffa6682bcbc0a1d08c7421ac7c96fa25f25947e540fc2e761f882",
+  "completion_report_sha256": "b425305edffeaae5cfc8ddd28dabf1daa0ed5d993f688691436039bf84e77f5d",
+  "course_sha256": "01554f80bdf2695cc8cd599667c916673539d39cc83dac236fdba48ba8b4aa35",
+  "scope": "Complete topical course accepted after independent content audit, targeted minor repairs and fresh deterministic verification. Source limitations remain explicitly documented."
+}

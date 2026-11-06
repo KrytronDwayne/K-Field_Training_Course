@@ -1,0 +1,111 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Lesson 5 — Preregistering a complete protocol · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/30">Course 30</a><span>/</span><span>lesson 05</span></div><a class="original" href="../../../kfield-30-integrated-k-field-research-from-backbone-to-test/lesson-05.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#lesson-5-preregistering-a-complete-protocol">Lesson 5 — Preregistering a complete protocol</a><a href="#c3005-e1-freeze-the-whole-path">C30.05-E1 — Freeze the whole path</a><a href="#c3005-w1-fully-specified-synthetic-rehearsal-v1">C30.05-W1 — Fully specified synthetic rehearsal v1</a><a href="#c3005-p1-draft-a-planned-real-protocol">C30.05-P1 — Draft a planned real protocol</a><a href="#c3005-d1-diagnostics-and-worked-answers">C30.05-D1 — Diagnostics and worked answers</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 1 — Rebuilding the complete dependency chain</a><a  href="lesson-02.html">Lesson 2 — Formal witnesses and empirical witnesses</a><a  href="lesson-03.html">Lesson 3 — Interferometers and identifiable coupling</a><a  href="lesson-04.html">Lesson 4 — Choosing discriminating experiments</a><a aria-current=page href="lesson-05.html">Lesson 5 — Preregistering a complete protocol</a><a  href="lesson-06.html">Lesson 6 — Independent replication and negative outcomes</a><a  href="lesson-07.html">Lesson 7 — Professional scientific communication</a><a  href="lesson-08.html">Lesson 8 — The integrated research defense</a></details></aside><div class="reading-column"><article class="prose"><h1 id="lesson-5-preregistering-a-complete-protocol" tabindex="-1">Lesson 5 — Preregistering a complete protocol</h1>
+<p>Essential question: What must be fixed before an experiment so that every outcome remains interpretable?</p>
+<p>Goals: Write a prospective protocol with named fields; preserve all result branches; distinguish missing metadata from zero readings; define a reversible transform and stopping rule.</p>
+<p>Prerequisite bridge: Lesson 4 froze competing predictions. A <strong>protocol</strong> is an executable instruction set for collecting and interpreting outputs. <strong>Preregistration</strong> means fixing a version before seeing the check outcomes. It prevents the original question from vanishing when an unexpected result motivates a new one.</p>
+<h2 id="c3005-e1-freeze-the-whole-path" tabindex="-1">C30.05-E1 — Freeze the whole path</h2>
+<p>A usable protocol records the question, candidates and parameter values; source paths/hashes and domains; geometry/frame, site and orientation; device/channel identities; timing and exposure; calibration reference, version, units and uncertainty; training versus independent check roles; transformations and reconstructions; comparison branches; raw-data destination and metadata; stopping/interruption rules; and responsible operator and reviewer.</p>
+<p>UTC is a common time standard. A midpoint timestamp identifies the middle of an exposure, not necessarily its start. Exposure duration states the interval over which the instrument collects a value. A blinded operator label conceals the candidate interpretation while preserving a separate recoverable label mapping. Training data may set parameters; check data evaluates the frozen version. A new version needs a new check allocation.</p>
+<p>Non-destructive transformation means retaining enough to reconstruct the input. If a known offset b is subtracted, y_corrected=y_raw−b, retain b so y_raw=y_corrected+b. If invalid acquisition is independently identified, retain the affected raw row and its fault reason in parallel. A missing value cannot be converted to the numeric value zero.</p>
+<h2 id="c3005-w1-fully-specified-synthetic-rehearsal-v1" tabindex="-1">C30.05-W1 — Fully specified synthetic rehearsal v1</h2>
+<p>This is an arithmetic rehearsal, not an instrument run. The model fixes thetaA=(2,1), and two ordered operators: sum then difference. Prediction p=(3,1). Input rows are labeled S,D; all values are dimensionless. Transformation is identity; residual is r=y−p; reconstruction is y=p+r. Stop after both rows are supplied, or record interruption with whichever rows are present. Never impute an unprovided row. Candidate B stays (1,2), prediction (3,−1). Compare exact synthetic equality to each vector, retaining mismatch-to-both and absent/invalid cases.</p>
+<p>The authored rehearsal inputs, revealed for the next lesson, are (3,0). This makes the exercise repeatable while preserving the original frozen prediction. A genuine future run must first replace every missing apparatus field below with verified information and freeze the new version. No device readings have been supplied here.</p>
+<h2 id="c3005-p1-draft-a-planned-real-protocol" tabindex="-1">C30.05-P1 — Draft a planned real protocol</h2>
+<p>Copy and complete this table. Its answer illustrates honest completion of a plan when instrument access is unavailable; a missing field is a gate on execution, not a fabricated value.</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Planned value or unresolved entry</th>
+<th>Owner / return address</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Question and model</td>
+<td>A versus B from Lesson 4; sum/difference predictions frozen</td>
+<td>analyst / this lesson W1</td>
+</tr>
+<tr>
+<td>Source version</td>
+<td>S02 mature geometry; S03 corrections; T30 capability boundary</td>
+<td>analyst / sources.md</td>
+</tr>
+<tr>
+<td>Raw destination</td>
+<td>remain in instrument's original acquisition store; actual absolute location missing</td>
+<td>operator / protocol field <code>raw_destination</code></td>
+</tr>
+<tr>
+<td>Instrument and channel IDs</td>
+<td>missing; must demonstrate physical sum and difference response</td>
+<td>operator / <code>device_channels</code></td>
+</tr>
+<tr>
+<td>Geometry/site/orientation</td>
+<td>frozen convention needed; ICRS columns [a b c], intentional handedness; actual site/orientation missing</td>
+<td>operator / <code>geometry_site_orientation</code></td>
+</tr>
+<tr>
+<td>Time and exposure</td>
+<td>UTC midpoint convention selected; actual epoch and duration missing</td>
+<td>operator / <code>timing</code></td>
+</tr>
+<tr>
+<td>Transfer/calibration</td>
+<td>reference identity, version, operating range and units missing</td>
+<td>calibration lead / <code>calibration</code></td>
+</tr>
+<tr>
+<td>Uncertainty</td>
+<td>instrument-specific bounds and dependencies missing; toy 1/4 bound not adopted</td>
+<td>calibration lead / <code>uncertainty</code></td>
+</tr>
+<tr>
+<td>Blinding</td>
+<td>labels S,D hidden by custodian's retained mapping; real mapping not yet assigned</td>
+<td>custodian / <code>label_map</code></td>
+</tr>
+<tr>
+<td>Training/check allocation</td>
+<td>calibration/training records separate; future acquisition is check only</td>
+<td>analyst / <code>roles</code></td>
+</tr>
+<tr>
+<td>Transform and outputs</td>
+<td>preserve raw row, any offset/gain, transformed value, prediction, signed residual, reconstruction</td>
+<td>analyst / <code>transform_v1</code></td>
+</tr>
+<tr>
+<td>Stop and exceptions</td>
+<td>stop after two valid planned operator records, or log interruption; retain all attempted/faulted rows</td>
+<td>operator / <code>stop_rule</code></td>
+</tr>
+<tr>
+<td>Comparison</td>
+<td>A-compatible, B-compatible, unresolved overlap, mismatch to both, invalid/incomplete; retain raw values in every branch</td>
+<td>analyst / <code>comparison</code></td>
+</tr>
+<tr>
+<td>Independent review</td>
+<td>reviewer identity missing; must independently replay versioned analysis</td>
+<td>research lead / <code>reviewer</code></td>
+</tr>
+<tr>
+<td>Execution state</td>
+<td>planned; not ready for acquisition until required metadata and transfer are pinned</td>
+<td>research lead / <code>execution</code></td>
+</tr>
+</tbody>
+</table></div>
+<p>Answer: The table is a complete field inventory and an explicitly gated draft. It is not an executed experiment or a ready-to-run instrument contract. Recording the actual raw destination in place means pointing to the acquisition store rather than copying source data into this course. A calibration change creates a new version and retains the previous one.</p>
+<blockquote>
+<p>Claim scope: This course can finish the research portfolio while the empirical protocol remains planned. Detection, extraction and induction branches require different evidence (T30). Signed source events are kept by immutable reference, not reinterpreted as fourteen independent plane costs: the supplied bundle has three distinct plane-family cost levels.</p>
+</blockquote>
+<h2 id="c3005-d1-diagnostics-and-worked-answers" tabindex="-1">C30.05-D1 — Diagnostics and worked answers</h2>
+<ol>
+<li>A difference row never arrives. Is its residual −1? <strong>Answer:</strong> No; its value and residual are undefined/missing. −1 would follow from an actual numeric zero reading, a different case.</li>
+<li>Subtract offset 2 from raw value 7. What is retained? <strong>Answer:</strong> Corrected value 5, offset 2, row identity and raw pointer; 5+2 reconstructs 7.</li>
+<li>Can the toy uncertainty bound become an instrument bound? <strong>Answer:</strong> Only with a relevant calibration witness; an authored teaching number supplies none.</li>
+<li>What happens after calibration changes mid-run? <strong>Answer:</strong> Record timing, old/new versions and all rows; mark the departure, preserve the frozen comparison, and define a new protocol/check scope.</li>
+</ol>
+<p>Next dependency: <a href="lesson-06.html">Lesson 6</a> interprets completed, discrepant and interrupted outcomes without erasure.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><a class="button secondary" href="lesson-04.html">← Previous lesson</a><a class="button" href="lesson-06.html">Next lesson →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/30">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

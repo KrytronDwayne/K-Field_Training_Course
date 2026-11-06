@@ -1,0 +1,87 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Lesson 3 — Patterns and retained information · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/1">Course 01</a><span>/</span><span>lesson 03</span></div><a class="original" href="../../../kfield-01-reading-the-k-field-evidence-models-and-information/lesson-03.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#lesson-3-patterns-and-retained-information">Lesson 3 — Patterns and retained information</a><a href="#keep-the-model-and-remaining-information">Keep the model and remaining information</a><a href="#worked-example-two-retained-layers">Worked example: two retained layers</a><a href="#guided-practice-reverse-a-changed-view">Guided practice: reverse a changed view</a><a href="#diagnostic-checks">Diagnostic checks</a><a href="#worked-answers">Worked answers</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 1 — A model as a chain of questions</a><a  href="lesson-02.html">Lesson 2 — Following a claim to its source</a><a aria-current=page href="lesson-03.html">Lesson 3 — Patterns and retained information</a><a  href="lesson-04.html">Lesson 4 — Assumptions and falsifiable predictions</a><a  href="lesson-05.html">Lesson 5 — The K-Field research map</a></details></aside><div class="reading-column"><article class="prose"><h1 id="lesson-3-patterns-and-retained-information" tabindex="-1">Lesson 3 — Patterns and retained information</h1>
+<p><strong>Essential question:</strong> How can a model simplify a record without losing it?</p>
+<p><strong>Goals:</strong> Calculate every signed residual; reconstruct original readings; preserve a second residual layer and replay metadata.</p>
+<p><strong>Prerequisite bridge:</strong> Lesson 2 showed why metadata and source status cannot substitute for raw readings. Here a fully specified synthetic record makes every arithmetic step checkable.</p>
+<h2 id="keep-the-model-and-remaining-information" tabindex="-1">Keep the model and remaining information</h2>
+<p>Let x mean a reading and M the model value at the same row. Define residual r = x − M. Rearranging gives x = M + r. This exact bookkeeping identity does not depend on the model being physically correct. The residual carries what the model does not encode. Its sign locates x above or below M. Its unit matches x and M because subtraction requires compatible units.</p>
+<p>A summary cannot generally replace the sequence. Residual lists (1, −1) and (−1, 1) both sum to zero but encode different orderings. Reconstruction needs each signed value, index, channel, time, orientation when supplied, and the model rule. Disagreement identifies where to seek a missing coordinate or mechanism.</p>
+<h2 id="worked-example-two-retained-layers" tabindex="-1">Worked example: two retained layers</h2>
+<p>The whole table is invented. Let t be elapsed time in seconds. Channel A readings use display units, DU: a synthetic unit with no energy calibration. Set M0 = 10 DU + (2 DU/s)t. A rate times seconds gives DU, making the addition valid.</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Row</th>
+<th style="text-align: right;">t (s)</th>
+<th>Channel</th>
+<th style="text-align: right;">x (DU)</th>
+<th style="text-align: right;">M0 (DU)</th>
+<th style="text-align: right;">r0 = x − M0 (DU)</th>
+<th style="text-align: right;">M1 (DU)</th>
+<th style="text-align: right;">r1 = r0 − M1 (DU)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td style="text-align: right;">0</td>
+<td>A</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>2</td>
+<td style="text-align: right;">1</td>
+<td>A</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">−1</td>
+<td style="text-align: right;">−1</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>3</td>
+<td style="text-align: right;">2</td>
+<td>A</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>4</td>
+<td style="text-align: right;">3</td>
+<td>A</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">−1</td>
+<td style="text-align: right;">−1</td>
+<td style="text-align: right;">0</td>
+</tr>
+</tbody>
+</table></div>
+<p>M1 is the proposed alternating sequence (1, −1, 1, −1) DU in this row order. At row 3, M0 = 10 + 2×2 = 14 DU; r0 = 16−14 = 2 DU; r1 = 2−1 = 1 DU. Reconstruct x = M0 + M1 + r1 = 14+1+1 = 16 DU. Row 4 gives 16+(−1)+0 = 15 DU. All reconstructed readings are (11, 11, 16, 15), exactly the input.</p>
+<p>The layered equations are x = M0 + r0 and r0 = M1 + r1. Substitution yields x = M0 + M1 + r1. Preserve both residual layers and their rules. A repeated component has been decoded in an invented table; no physical cause has been identified. Row 3's remaining 1 DU is a primary coordinate for the next inquiry.</p>
+<blockquote>
+<p><strong>Claim scope:</strong> This is exact arithmetic on synthetic data. S06 supplies metadata and a response narrative, not indexed readings and an aligned model. Its raw residual cannot be reconstructed here. Never fill that gap with this table or zeros.</p>
+</blockquote>
+<h2 id="guided-practice-reverse-a-changed-view" tabindex="-1">Guided practice: reverse a changed view</h2>
+<p>Subtract 10 DU from every reading: y = (1, 1, 6, 5) DU. Store that baseline and recover x = y + 10 DU at each row. If only the average y were saved, (1+1+6+5)/4 = 13/4 DU, many sequences could share that average. Row-by-row reconstruction would fail. Preserve the original or all removed details and their reconstruction rule when averaging, smoothing, or changing coordinates.</p>
+<h2 id="diagnostic-checks" tabindex="-1">Diagnostic checks</h2>
+<ol>
+<li>Calculate all values of M0+r0. What does equality with x establish?</li>
+<li>Replace the second residual −1 with +1. What false reading is reconstructed?</li>
+<li>For a new synthetic row, x = 21 DU, M0 = 18 DU, M1 = 2 DU. Find r0 and r1 and reconstruct x.</li>
+<li>What is missing for S06 residual reconstruction? Can its clock rate replace those values?</li>
+</ol>
+<h2 id="worked-answers" tabindex="-1">Worked answers</h2>
+<ol>
+<li>(10+1, 12−1, 14+2, 16−1) = (11,11,16,15) DU. This verifies lossless bookkeeping for the rows; it does not select a cause.</li>
+<li>12+1 = 13 DU instead of 11 DU. Losing the sign changes reconstruction by 2 DU.</li>
+<li>r0 = 21−18 = 3 DU; r1 = 3−2 = 1 DU; 18+2+1 = 21 DU.</li>
+<li>Indexed readings with channel, time, orientation and calibration conventions, plus aligned model values or replayable parameters are needed. Angular rate does not specify the amplitude sequence or residual.</li>
+</ol>
+<p><strong>Next dependency:</strong> <a href="lesson-04.html">Lesson 4</a> uses retained differences to separate candidate predictions.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><a class="button secondary" href="lesson-02.html">← Previous lesson</a><a class="button" href="lesson-04.html">Next lesson →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/1">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

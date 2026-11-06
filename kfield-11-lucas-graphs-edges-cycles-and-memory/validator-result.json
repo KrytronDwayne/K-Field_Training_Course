@@ -1,0 +1,9 @@
+{
+  "schema_version": "1.0",
+  "status": "passed",
+  "exit_code": 0,
+  "errors": [],
+  "checks": ["course directory is contained by canonical output root", "parsed manifest.json", "parsed audit_report.json", "parsed completion_report.json", "all checkpoints passed; hashes, assembly, audit, and completion are valid"],
+  "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+  "note": "Actual project validator exited zero. Conda emitted an unrelated missing OpenCL temp.txt startup diagnostic; computation and validator completed successfully."
+}

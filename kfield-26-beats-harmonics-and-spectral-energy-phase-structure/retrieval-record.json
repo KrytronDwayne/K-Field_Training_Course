@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0",
+  "corpus_generation": "sha256:5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+  "manifest_sha256": "5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+  "generation_witness": "Fresh project_rag_search response; capabilities called once but did not supply corpus identity. Rerank false. Search yielded no matching chunks; exact sources obtained through pinned get.",
+  "sources": [
+    {
+      "id": "T35",
+      "logical_path": "applications/kfield_lucas_lab/rag_corpus/35_spectral_energy_phase.md",
+      "sha256": "03dc7e11045b3912f1e8cc0d69a4789b6ad300ac78b4549ea86c45e51228c7bc",
+      "byte_range": {
+        "end_exclusive": 3018,
+        "start": 0
+      },
+      "range_sha256": "03dc7e11045b3912f1e8cc0d69a4789b6ad300ac78b4549ea86c45e51228c7bc",
+      "retrieval": "Complete bounded bytes read through krytronx_get; range digest matches pin",
+      "pointers": [
+        "whole document"
+      ]
+    },
+    {
+      "id": "T50",
+      "logical_path": "applications/kfield_lucas_lab/rag_corpus/50_physical_closure.md",
+      "sha256": "c2a25a583af904601968adc1d3efde825f76218c92a2f52d829afc093f52c02a",
+      "byte_range": {
+        "end_exclusive": 1761,
+        "start": 0
+      },
+      "range_sha256": "c2a25a583af904601968adc1d3efde825f76218c92a2f52d829afc093f52c02a",
+      "retrieval": "Complete bounded bytes read through krytronx_get; range digest matches pin",
+      "pointers": [
+        "whole document"
+      ]
+    },
+    {
+      "id": "spectral_bundle",
+      "logical_path": "applications/kfield_lucas_lab/contracts/spectrophotometer_evidence_bundle_v1.json",
+      "sha256": "04044230f3b2536d22654b294760106eca301f212e4eb4157989b330ff611f17",
+      "byte_range": {
+        "end_exclusive": 6438,
+        "start": 0
+      },
+      "range_sha256": "04044230f3b2536d22654b294760106eca301f212e4eb4157989b330ff611f17",
+      "retrieval": "Complete bounded bytes read through krytronx_get; range digest matches pin",
+      "pointers": [
+        "/cross_document_integrity",
+        "/works",
+        "/interpretation_boundaries",
+        "/to_be_filled"
+      ]
+    },
+    {
+      "id": "spectral_work",
+      "logical_path": "applications/kfield_lucas_lab/sources/K-Field_spectrophotometer_quadratic_phase_cost_analysis_1787748698.json",
+      "sha256": "d4105a6d6802e6bb2a2ba8e76a1d23a27973fca3d3335fd8335690a41ab72dfa",
+      "byte_range": {
+        "end_exclusive": 48364,
+        "start": 0
+      },
+      "range_sha256": "d4105a6d6802e6bb2a2ba8e76a1d23a27973fca3d3335fd8335690a41ab72dfa",
+      "retrieval": "Complete bounded bytes read through krytronx_get; range digest matches pin",
+      "pointers": [
+        "/formulas",
+        "/events/0..13",
+        "/quadratic_phase_cost",
+        "/dataset"
+      ]
+    },
+    {
+      "id": "energy_work",
+      "logical_path": "applications/kfield_lucas_lab/sources/K-Field_spectrophotometer_energy_per_200ms_reading_1787713812.json",
+      "sha256": "9120f80210b235b8612d6479fe25272eb3824f31c5a1394e7e9d12718e57e70f",
+      "byte_range": {
+        "end_exclusive": 22424,
+        "start": 0
+      },
+      "range_sha256": "9120f80210b235b8612d6479fe25272eb3824f31c5a1394e7e9d12718e57e70f",
+      "retrieval": "Complete bounded bytes read through krytronx_get; range digest matches pin",
+      "pointers": [
+        "/estimators",
+        "/all_event_channel_modulations/0..13",
+        "/energy_equivalent_results",
+        "/constants"
+      ]
+    }
+  ]
+}

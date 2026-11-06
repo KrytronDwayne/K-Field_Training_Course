@@ -1,0 +1,1175 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-07",
+  "title": "Independent completed-course audit: Information-Complete Finite Calculus",
+  "reviewed_utc": "2026-11-05T17:57:05.373797+00:00",
+  "scope": {
+    "kind": "Bounded independent completed-course content, source-scope, mathematics, assessment and integrity audit",
+    "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-07-information-complete-finite-calculus",
+    "read": "All seven actual lessons and exact assembled course; full capstone tasks, answer key and rubric; teacher guide, terminology, course map and source notes; input contract including SA-07 and embedded 07–09 teaching amendment; manifest, audit, completion and verification records.",
+    "source_scope": "Directly inspected pinned S01/S02 M04, S02 six constitutive records, and S03 findings 5 and 11; independently rehashed all five listed sources. S04/S05 hashes corroborate the supplied inventory, not a new comprehensive review of their contents.",
+    "independence": "New auditor-authored Fraction verifier does not import or execute the builder's mathematical verifier. Existing successful audit/verification statements are attributed records, not substitutes for semantic review and recomputation.",
+    "writes": "Only this auditor's workspace script and output report. No course, parent-series, source-archive or database modifications.",
+    "decision_authority": "Eligible for parent acceptance is a bounded audit recommendation, not a mutation of parent acceptance state."
+  },
+  "manifest_sha256": "1fcd7ac7a602b453cab9bd8b258e57992b7cc791a26d890905a307da694ce886",
+  "audited_files": {
+    "course-map.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-07-information-complete-finite-calculus\\course-map.md",
+      "sha256": "1b51cf0935b4606e1966174bff3d95b0d2b3aed2bf6a98755c89fabb97f818c5"
+    },
+    "lesson-01.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-07-information-complete-finite-calculus\\lesson-01.md",
+      "sha256": "60389c656496c32f573d809c47d3768d2fe42c0be2234fe4954439b7db5f4a87"
+    },
+    "lesson-02.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-07-information-complete-finite-calculus\\lesson-02.md",
+      "sha256": "5874ede2ccf3d0601427a074e9d5fb857665b76e14114cb0a3dee32da5af38c5"
+    },
+    "lesson-03.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-07-information-complete-finite-calculus\\lesson-03.md",
+      "sha256": "22a86c95b4bf876408d31c74fee9715cb2c99e29d5fe1ff1e8ae37d10a943dd0"
+    },
+    "lesson-04.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-07-information-complete-finite-calculus\\lesson-04.md",
+      "sha256": "21a3fe3ea0816a4f2e4d65648df4ac7057fa29c17546b72a153fabf8d3e6e530"
+    },
+    "lesson-05.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-07-information-complete-finite-calculus\\lesson-05.md",
+      "sha256": "e1704e26b751be6b3cc8cdbd35a82343dc1bf8211a57db6dc674effafaea57ef"
+    },
+    "lesson-06.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-07-information-complete-finite-calculus\\lesson-06.md",
+      "sha256": "2374c00a012b7d10af89f41a201675c2386a2d97e6866d757d0501d9796a9b38"
+    },
+    "lesson-07.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-07-information-complete-finite-calculus\\lesson-07.md",
+      "sha256": "5c19e9d100c480edabf0c606128fe9ab890b19d1a6894e7af6f1f129aa959688"
+    },
+    "terminology.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-07-information-complete-finite-calculus\\terminology.md",
+      "sha256": "84f56642aee364abe822a9e280b8d7c7136b6b992d3cab3a977b0da7ad621a64"
+    },
+    "teacher-guide.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-07-information-complete-finite-calculus\\teacher-guide.md",
+      "sha256": "45fac959833c38e7095c78394f6a483a6d9dfed67e37780efbc0bbf09881aa1e"
+    },
+    "capstone.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-07-information-complete-finite-calculus\\capstone.md",
+      "sha256": "54220f819d2f9dd28333d74da486292da1081e2424d2c0efa55d6b7480d7af34"
+    },
+    "sources.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-07-information-complete-finite-calculus\\sources.md",
+      "sha256": "1551bf598dd38cf128bbf3af21322f554d43ebd3e8bb36b075864358a7169c48"
+    },
+    "sources.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-07-information-complete-finite-calculus\\sources.json",
+      "sha256": "a7859725831fdbe0ecb8c3ea4ebca9c052051c5dcab1a85fd9f86a57060f6a58"
+    },
+    "course.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-07-information-complete-finite-calculus\\course.md",
+      "sha256": "279721651b5235938b278e8f581707473b7e2b08a49e023b3cb30f086c800f22"
+    },
+    "audit_report.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-07-information-complete-finite-calculus\\audit_report.json",
+      "sha256": "56381b427a03f2d51f95eaec44f67351d06feef997cf505a923bd93fe3d1f6fb"
+    },
+    "worked-example-verification.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-07-information-complete-finite-calculus\\worked-example-verification.json",
+      "sha256": "7ef821586e016a383de1ff2a81c1e764b4d1c15b8c96ca7e9edf71cdb0e22eb7"
+    },
+    "verify_examples.py": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-07-information-complete-finite-calculus\\verify_examples.py",
+      "sha256": "e0c3f07d83b7aeac268e5a8da9958a1e57f405737d2553bcd20b5dc261b9d631"
+    },
+    "independent-audit.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-07-information-complete-finite-calculus\\independent-audit.json",
+      "sha256": "2d8c37b31e9c108b75a736e38413f4324ab698ea285954b35c575eab60b8c0f4"
+    },
+    "completion_report.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-07-information-complete-finite-calculus\\completion_report.json",
+      "sha256": "de626c92ea7181a659495fc498640652e2db19efb931a64254b3f9244370377c"
+    },
+    "manifest.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-07-information-complete-finite-calculus\\manifest.json",
+      "sha256": "1fcd7ac7a602b453cab9bd8b258e57992b7cc791a26d890905a307da694ce886"
+    },
+    "input-contract.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-07-information-complete-finite-calculus\\input-contract.json",
+      "sha256": "deb77cef531932d11162d447b9e0db787bc7a3c3f6d84127a412bdca17ac1bac"
+    },
+    "validator-result.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-07-information-complete-finite-calculus\\validator-result.json",
+      "sha256": "9e3c93c4a559917db93e6ed8a878dc7df29c749ce21dacbe3997e160de852562"
+    }
+  },
+  "source_hashes": [
+    {
+      "id": "S01",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180"
+    },
+    {
+      "id": "S02",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3"
+    },
+    {
+      "id": "S03",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e"
+    },
+    {
+      "id": "S04",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+      "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2"
+    },
+    {
+      "id": "S05",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+      "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7"
+    }
+  ],
+  "status": "passed",
+  "findings": [],
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "lesson_reviews": [
+    {
+      "lesson_id": "lesson-01",
+      "conclusion": "passed",
+      "actual_teaching": "Defines functions as ordered sample tables and finite edges before subtraction. Separates difference SU from rate SU/s; explains why an absolute anchor, signs, IDs, times and channel are retained. All six named constitutive premise cards preserve premise_not_derived_theorem.",
+      "recomputed": [
+        "C07.01-W1",
+        "C07.01-P1",
+        "C07.01-D1",
+        "C07.01-D2"
+      ],
+      "accessibility": "Signed arithmetic bridge and successive-addition decoder are explicit. Physical premise commitments are not presented as consequences of the geometric basis.",
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-07-information-complete-finite-calculus\\lesson-01.md",
+      "sha256": "60389c656496c32f573d809c47d3768d2fe42c0be2234fe4954439b7db5f4a87"
+    },
+    {
+      "lesson_id": "lesson-02",
+      "conclusion": "passed",
+      "actual_teaching": "Derives the finite product rule by distributivity, retaining df*dg and the correct endpoint in f_s*dg+df*g_t. Worked and practice examples include negative interactions; SU^2 is distinguished from SU.",
+      "recomputed": [
+        "C07.02-W1",
+        "C07.02-P1",
+        "C07.02-D1",
+        "C07.02-D2"
+      ],
+      "accessibility": "Uses multiplication of scalars and expansion of two sums, not untaught differential calculus. Distinguishes the algebraic equality from EG-A4's constitutive role.",
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-07-information-complete-finite-calculus\\lesson-02.md",
+      "sha256": "5874ede2ccf3d0601427a074e9d5fb857665b76e14114cb0a3dee32da5af38c5"
+    },
+    {
+      "lesson_id": "lesson-03",
+      "conclusion": "passed",
+      "actual_teaching": "Derives the mean/signed-half-difference inverse and defines E and Q on fixed pair blocks. Keeps expanded residuals as well as compact coordinates and distinguishes detail half-difference from the finite edge difference.",
+      "recomputed": [
+        "C07.03-W1",
+        "C07.03-P1",
+        "C07.03-D1",
+        "C07.03-D2",
+        "C07.03-D3"
+      ],
+      "accessibility": "The competing states with identical means explain why means alone cannot decode; negative details and original pair order are explicitly handled.",
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-07-information-complete-finite-calculus\\lesson-03.md",
+      "sha256": "22a86c95b4bf876408d31c74fee9715cb2c99e29d5fe1ff1e8ae37d10a943dd0"
+    },
+    {
+      "lesson_id": "lesson-04",
+      "conclusion": "passed",
+      "actual_teaching": "Supplies generic pair proofs of linearity, idempotence, unit preservation, multiplication-closed range and the two-sided block-factor rule. Derives the full Q product identity term by term. E_star counterexample satisfies the other stated properties but fails the factor rule and identity.",
+      "recomputed": [
+        "period-1 factor practice",
+        "C07.04-W1",
+        "C07.04-P1",
+        "C07.04-D1",
+        "C07.04-D2",
+        "C07.04-D3"
+      ],
+      "accessibility": "Two explicit 55-minute periods separate operator properties from the product proof and counterexample. Subalgebra and conditional expectation are defined through concrete finite arrays; no probability theory is assumed.",
+      "scope": "B_coarse is distinguished from geometric B. Positivity is true for this model but not invoked as a necessary step in the displayed algebra. The general archival E definition/proof remains an explicit retrieval gap.",
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-07-information-complete-finite-calculus\\lesson-04.md",
+      "sha256": "21a3fe3ea0816a4f2e4d65648df4ac7057fa29c17546b72a153fabf8d3e6e530"
+    },
+    {
+      "lesson_id": "lesson-05",
+      "conclusion": "passed",
+      "actual_teaching": "Teaches declared models M0 and M1=E(r0), two separately named signed residual layers and entrywise reconstruction. Explains that cancellation in a scalar summary does not replace residual coordinates.",
+      "recomputed": [
+        "C07.05-W1 including all four actual table rows",
+        "C07.05-P1",
+        "C07.05-D2"
+      ],
+      "accessibility": "Stage indices are distinguished from sample IDs. A model is not silently promoted to a physical cause or optimal fit; zero residual entries remain recorded.",
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-07-information-complete-finite-calculus\\lesson-05.md",
+      "sha256": "e1704e26b751be6b3cc8cdbd35a82343dc1bf8211a57db6dc674effafaea57ef"
+    },
+    {
+      "lesson_id": "lesson-06",
+      "conclusion": "passed",
+      "actual_teaching": "Uses row recipes and substitution before kernel/cokernel terminology. Proves compatibility j2-2*j1=0 and solution family (j1-t,t); separates free input coordinates from incompatible output coordinates. Declares the first-equation-matching view and retains rho rather than pretending an inconsistent system is solved.",
+      "recomputed": [
+        "C07.06-W1",
+        "C07.06-P1",
+        "C07.06-D1",
+        "C07.06-D2",
+        "C07.06-D3",
+        "invertible L contrast"
+      ],
+      "accessibility": "No abstract quotient-space calculation is required. The unique inverse (j1,j2/2) belongs only to L=diag(1,2), not the singular K.",
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-07-information-complete-finite-calculus\\lesson-06.md",
+      "sha256": "2374c00a012b7d10af89f41a201675c2386a2d97e6866d757d0501d9796a9b38"
+    },
+    {
+      "lesson_id": "lesson-07",
+      "conclusion": "passed",
+      "actual_teaching": "Composes subtract-model, pair-split and encode-means stages and reverses them in the opposite order. Retains model rules, anchors, signed detail, support, source scope and reconstruction-error entries. Additional P2 practice maps all six premises.",
+      "recomputed": [
+        "C07.07-W1",
+        "C07.07-P1",
+        "C07.07-D3"
+      ],
+      "accessibility": "Ledger uses only previously taught operations. EG-A4 is correctly linked to the separate finite-product calculation, not falsely claimed to be an operation in the three-stage chain.",
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-07-information-complete-finite-calculus\\lesson-07.md",
+      "sha256": "5c19e9d100c480edabf0c606128fe9ab890b19d1a6894e7af6f1f129aa959688"
+    }
+  ],
+  "actual_capstone_practice_links": [
+    {
+      "step_id": "C07-CAP-01",
+      "lesson": "lesson-01.md",
+      "locations": {
+        "worked_id": {
+          "id": "C07.01-W1",
+          "line": 17
+        },
+        "prior_practice_id": {
+          "id": "C07.01-P1",
+          "line": 38
+        },
+        "diagnostic_id": {
+          "id": "C07.01-D1",
+          "line": 46
+        }
+      },
+      "content_review": "Actual P1 computes h differences (4,-1,4), retains anchor 3 and reverses the first edge. W1 models complete recovery; D1 distinguishes a rate from an unanchored change. CAP01 introduces no untaught operation.",
+      "adequate": true
+    },
+    {
+      "step_id": "C07-CAP-02",
+      "lesson": "lesson-02.md",
+      "locations": {
+        "worked_id": {
+          "id": "C07.02-W1",
+          "line": 22
+        },
+        "prior_practice_id": {
+          "id": "C07.02-P1",
+          "line": 28
+        },
+        "diagnostic_id": {
+          "id": "C07.02-D1",
+          "line": 36
+        }
+      },
+      "content_review": "Actual P1 uses the capstone endpoints f:3->1 and g:2->5, computes 9,-4,-6 and -1, following W1's distributive derivation. D1 tests the genuinely zero interaction case.",
+      "adequate": true
+    },
+    {
+      "step_id": "C07-CAP-03",
+      "lesson": "lesson-03.md",
+      "locations": {
+        "worked_id": {
+          "id": "C07.03-W1",
+          "line": 22
+        },
+        "prior_practice_id": {
+          "id": "C07.03-P1",
+          "line": 28
+        },
+        "diagnostic_id": {
+          "id": "C07.03-D1",
+          "line": 36
+        }
+      },
+      "content_review": "Actual P1 computes h means (5,8), signed details (2,2), expanded E/Q and the inverse on original support. Diagnostics show missing detail/order ambiguity.",
+      "adequate": true
+    },
+    {
+      "step_id": "C07-CAP-04",
+      "lesson": "lesson-04.md",
+      "locations": {
+        "worked_id": {
+          "id": "C07.04-W1",
+          "line": 43
+        },
+        "prior_practice_id": {
+          "id": "C07.04-P1",
+          "line": 51
+        },
+        "diagnostic_id": {
+          "id": "C07.04-D1",
+          "line": 59
+        }
+      },
+      "content_review": "Actual E1 provides generic proofs and period-1 factor practice; E2 derives the identity. P1 asks for all RHS terms and reproduction of the zero-average proof steps. D1 explicitly asks and answers the E_star counterexample. CAP04's generic proof and counterexample are therefore taught and attempted, not merely represented by metadata IDs.",
+      "adequate": true
+    },
+    {
+      "step_id": "C07-CAP-05",
+      "lesson": "lesson-05.md",
+      "locations": {
+        "worked_id": {
+          "id": "C07.05-W1",
+          "line": 19
+        },
+        "prior_practice_id": {
+          "id": "C07.05-P1",
+          "line": 34
+        },
+        "diagnostic_id": {
+          "id": "C07.05-D1",
+          "line": 42
+        }
+      },
+      "content_review": "Actual P1 computes both residual layers for h and M0=(2,2,2,2) and verifies every entry. D1 prevents replacing the nonzero signed residual array by its zero sum.",
+      "adequate": true
+    },
+    {
+      "step_id": "C07-CAP-06",
+      "lesson": "lesson-06.md",
+      "locations": {
+        "worked_id": {
+          "id": "C07.06-W1",
+          "line": 19
+        },
+        "prior_practice_id": {
+          "id": "C07.06-P1",
+          "line": 27
+        },
+        "diagnostic_id": {
+          "id": "C07.06-D1",
+          "line": 35
+        }
+      },
+      "content_review": "Actual P1 treats incompatible (6,13); D1 treats compatible (8,16) with t=3, and D2 treats incompatible (8,17). W1 and the E1 row recipe supply the general family; the invertible L comparison is also present. These actual examples cover both branches assessed in CAP06.",
+      "adequate": true
+    },
+    {
+      "step_id": "C07-CAP-07",
+      "lesson": "lesson-07.md",
+      "locations": {
+        "worked_id": {
+          "id": "C07.07-W1",
+          "line": 15
+        },
+        "prior_practice_id": {
+          "id": "C07.07-P1",
+          "line": 33
+        },
+        "diagnostic_id": {
+          "id": "C07.07-D1",
+          "line": 47
+        },
+        "additional_prior_practice_id": {
+          "id": "C07.07-P2",
+          "line": 39
+        },
+        "additional_diagnostic_id": {
+          "id": "C07.07-D2",
+          "line": 48
+        }
+      },
+      "content_review": "Actual P1 performs the complete capstone three-stage ledger, reverse order and full error list. P2 supplies explicit all-six premise matching, including EG-A4's product side calculation; D2 corrects derivation-from-B claims. D1 tests loss of anchors, detail signs or singular parameters.",
+      "adequate": true
+    }
+  ],
+  "source_fidelity": {
+    "SA_07": "Satisfied in actual content: EG-A1–A6 remain constitutive premises; the Q identity is proved under sufficient declared E hypotheses, not arbitrary projection; singular input freedom and output compatibility are preserved, with inverses restricted to their domain.",
+    "premise_names": [
+      "EG-A1 complete-state principle",
+      "EG-A2 decoder principle",
+      "EG-A3 finite-transition principle",
+      "EG-A4 finite-product principle",
+      "EG-A5 residual-information principle",
+      "EG-A6 typed-renderer principle"
+    ],
+    "logical_role": "premise_not_derived_theorem",
+    "premise_application": "All six are read in lesson-01 and explicitly matched in lesson-07 P2 and capstone answer 7. Finite algebra and decoder identities are derived from definitions; constitutive physical premises are not derived from B or a determinant.",
+    "AUD_006": "The sufficient block theorem addresses the teaching obligation without upgrading an unspecified general archival E or claiming its full proof was retrieved.",
+    "AUD_012": "All six IDs, including EG-A6, remain represented; the earlier five-of-six integrity omission is not propagated.",
+    "generation_scope": "The course records a prior graph-generation snapshot. This audit checks pinned local artifacts and does not claim a fresh graph query or broader archival proof certification.",
+    "teaching_amendment": "Embedded course07 fields and source amendment align with actual lessons. L04 is two periods. Historical input-contract hash inside the amendment is an antecedent record, not the current contract hash; current audited_files carries the latter."
+  },
+  "independent_recomputation": {
+    "runtime": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+    "arithmetic": "Python standard-library fractions.Fraction and exact integer arithmetic",
+    "verifier_path": "C:/Users/info/Documents/Codex/2026-11-05/kfield-series-source-auditor/work/audit_course07.py",
+    "verifier_sha256": "417a598cf1a7bdc8e1d2f79a247d019d5a059a2447c2752df4b226e6c264ea10",
+    "exit_code": 0,
+    "check_count": 448,
+    "checks_by_group": {
+      "integrity": 110,
+      "sources": 36,
+      "contract": 6,
+      "links": 30,
+      "structure": 42,
+      "differences": 7,
+      "finite-product": 12,
+      "pair-decoder": 11,
+      "operator-proof": 79,
+      "Q-product": 16,
+      "counterexample": 26,
+      "auditor-only-extension": 3,
+      "residual-ledger": 21,
+      "actual-table": 4,
+      "singular": 41,
+      "rubric": 4
+    },
+    "failures": [],
+    "count_interpretation": "448 assertions include 224 mathematical/table/rubric assertions and 224 provenance, integrity, contract, link-presence and structure assertions. Counts do not substitute for semantic review.",
+    "results": {
+      "W1-differences": {
+        "anchor": 2,
+        "changes": [
+          3,
+          -1,
+          5
+        ],
+        "decoded": [
+          2,
+          5,
+          4,
+          9
+        ]
+      },
+      "P1-CAP01-differences": {
+        "anchor": 3,
+        "changes": [
+          4,
+          -1,
+          4
+        ],
+        "decoded": [
+          3,
+          7,
+          6,
+          10
+        ]
+      },
+      "W1-product": {
+        "terms": [
+          4,
+          12,
+          6
+        ],
+        "direct": 22,
+        "product_units": "SU^2"
+      },
+      "P1-CAP02-product": {
+        "terms": [
+          9,
+          -4,
+          -6
+        ],
+        "direct": -1,
+        "product_units": "SU^2"
+      },
+      "D1-product": {
+        "terms": [
+          2,
+          0,
+          0
+        ],
+        "direct": 2,
+        "product_units": "SU^2"
+      },
+      "D2-product": {
+        "terms": [
+          1,
+          9,
+          -3
+        ],
+        "direct": 7,
+        "product_units": "SU^2"
+      },
+      "W1-pairs": {
+        "means": [
+          "7/2",
+          "13/2"
+        ],
+        "details": [
+          "3/2",
+          "5/2"
+        ],
+        "coarse": [
+          "7/2",
+          "7/2",
+          "13/2",
+          "13/2"
+        ],
+        "detail": [
+          "-3/2",
+          "3/2",
+          "-5/2",
+          "5/2"
+        ],
+        "decoded": [
+          "2",
+          "5",
+          "4",
+          "9"
+        ]
+      },
+      "P1-CAP03-pairs": {
+        "means": [
+          "5",
+          "8"
+        ],
+        "details": [
+          "2",
+          "2"
+        ],
+        "coarse": [
+          "5",
+          "5",
+          "8",
+          "8"
+        ],
+        "detail": [
+          "-2",
+          "2",
+          "-2",
+          "2"
+        ],
+        "decoded": [
+          "3",
+          "7",
+          "6",
+          "10"
+        ]
+      },
+      "D2-pairs": {
+        "means": [
+          "5"
+        ],
+        "details": [
+          "-2"
+        ],
+        "coarse": [
+          "5",
+          "5"
+        ],
+        "detail": [
+          "2",
+          "-2"
+        ],
+        "decoded": [
+          "7",
+          "3"
+        ]
+      },
+      "W1-Q-product": {
+        "Ef": [
+          "3",
+          "3",
+          "3",
+          "3"
+        ],
+        "Eg": [
+          "2",
+          "2",
+          "3",
+          "3"
+        ],
+        "qf": [
+          "-1",
+          "1",
+          "-2",
+          "2"
+        ],
+        "qg": [
+          "-1",
+          "1",
+          "-1",
+          "1"
+        ],
+        "product": [
+          "2",
+          "12",
+          "2",
+          "20"
+        ],
+        "coarse_product": [
+          "7",
+          "7",
+          "11",
+          "11"
+        ],
+        "direct": [
+          "-5",
+          "5",
+          "-9",
+          "9"
+        ],
+        "mixed_first": [
+          "-3",
+          "3",
+          "-3",
+          "3"
+        ],
+        "mixed_second": [
+          "-2",
+          "2",
+          "-6",
+          "6"
+        ],
+        "joint": [
+          "1",
+          "1",
+          "2",
+          "2"
+        ],
+        "coarse_joint": [
+          "1",
+          "1",
+          "2",
+          "2"
+        ],
+        "Q_joint": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "rhs": [
+          "-5",
+          "5",
+          "-9",
+          "9"
+        ]
+      },
+      "P1-CAP04-Q-product": {
+        "Ef": [
+          "1",
+          "1",
+          "3",
+          "3"
+        ],
+        "Eg": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "qf": [
+          "-1",
+          "1",
+          "-1",
+          "1"
+        ],
+        "qg": [
+          "0",
+          "0",
+          "-1",
+          "1"
+        ],
+        "product": [
+          "0",
+          "2",
+          "0",
+          "8"
+        ],
+        "coarse_product": [
+          "1",
+          "1",
+          "4",
+          "4"
+        ],
+        "direct": [
+          "-1",
+          "1",
+          "-4",
+          "4"
+        ],
+        "mixed_first": [
+          "0",
+          "0",
+          "-3",
+          "3"
+        ],
+        "mixed_second": [
+          "-1",
+          "1",
+          "-1",
+          "1"
+        ],
+        "joint": [
+          "0",
+          "0",
+          "1",
+          "1"
+        ],
+        "coarse_joint": [
+          "0",
+          "0",
+          "1",
+          "1"
+        ],
+        "Q_joint": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "rhs": [
+          "-1",
+          "1",
+          "-4",
+          "4"
+        ]
+      },
+      "CAP04-counterexample": {
+        "Ef": [
+          "0",
+          "0",
+          "1"
+        ],
+        "Eg": [
+          "0",
+          "0",
+          "1"
+        ],
+        "qf": [
+          "0",
+          "1",
+          "-1"
+        ],
+        "qg": [
+          "0",
+          "1",
+          "-1"
+        ],
+        "product": [
+          "0",
+          "1",
+          "0"
+        ],
+        "coarse_product": [
+          "0",
+          "0",
+          "1"
+        ],
+        "direct": [
+          "0",
+          "1",
+          "-1"
+        ],
+        "mixed_first": [
+          "0",
+          "0",
+          "-1"
+        ],
+        "mixed_second": [
+          "0",
+          "0",
+          "-1"
+        ],
+        "joint": [
+          "0",
+          "1",
+          "1"
+        ],
+        "coarse_joint": [
+          "0",
+          "0",
+          "2"
+        ],
+        "Q_joint": [
+          "0",
+          "1",
+          "-1"
+        ],
+        "rhs": [
+          "0",
+          "1",
+          "-3"
+        ],
+        "signed_mismatch": [
+          "0",
+          "0",
+          "-2"
+        ],
+        "factor_left": [
+          "0",
+          "0",
+          "1"
+        ],
+        "factor_right": [
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      "auditor-only-three-entry-block": {
+        "Ef": [
+          "1",
+          "1",
+          "1"
+        ],
+        "Eg": [
+          "5/3",
+          "5/3",
+          "5/3"
+        ],
+        "qf": [
+          "-1",
+          "0",
+          "1"
+        ],
+        "qg": [
+          "-5/3",
+          "-2/3",
+          "7/3"
+        ],
+        "product": [
+          "0",
+          "1",
+          "8"
+        ],
+        "coarse_product": [
+          "3",
+          "3",
+          "3"
+        ],
+        "direct": [
+          "-3",
+          "-2",
+          "5"
+        ],
+        "mixed_first": [
+          "-5/3",
+          "-2/3",
+          "7/3"
+        ],
+        "mixed_second": [
+          "-5/3",
+          "0",
+          "5/3"
+        ],
+        "joint": [
+          "5/3",
+          "0",
+          "7/3"
+        ],
+        "coarse_joint": [
+          "4/3",
+          "4/3",
+          "4/3"
+        ],
+        "Q_joint": [
+          "1/3",
+          "-4/3",
+          "1"
+        ],
+        "rhs": [
+          "-3",
+          "-2",
+          "5"
+        ]
+      },
+      "W1-ledger": {
+        "M0": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "r0": [
+          "1",
+          "4",
+          "3",
+          "8"
+        ],
+        "M1": [
+          "5/2",
+          "5/2",
+          "11/2",
+          "11/2"
+        ],
+        "r1": [
+          "-3/2",
+          "3/2",
+          "-5/2",
+          "5/2"
+        ],
+        "means": [
+          "5/2",
+          "11/2"
+        ],
+        "details": [
+          "3/2",
+          "5/2"
+        ],
+        "anchor": "5/2",
+        "increments": [
+          "3"
+        ],
+        "decoded_means": [
+          "5/2",
+          "11/2"
+        ],
+        "decoded_residual": [
+          "1",
+          "4",
+          "3",
+          "8"
+        ],
+        "decoded_values": [
+          "2",
+          "5",
+          "4",
+          "9"
+        ],
+        "errors": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      "P1-CAP05-07-ledger": {
+        "M0": [
+          "2",
+          "2",
+          "2",
+          "2"
+        ],
+        "r0": [
+          "1",
+          "5",
+          "4",
+          "8"
+        ],
+        "M1": [
+          "3",
+          "3",
+          "6",
+          "6"
+        ],
+        "r1": [
+          "-2",
+          "2",
+          "-2",
+          "2"
+        ],
+        "means": [
+          "3",
+          "6"
+        ],
+        "details": [
+          "2",
+          "2"
+        ],
+        "anchor": "3",
+        "increments": [
+          "3"
+        ],
+        "decoded_means": [
+          "3",
+          "6"
+        ],
+        "decoded_residual": [
+          "1",
+          "5",
+          "4",
+          "8"
+        ],
+        "decoded_values": [
+          "3",
+          "7",
+          "6",
+          "10"
+        ],
+        "errors": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      "D2-ledger": {
+        "M0": [
+          "1",
+          "2"
+        ],
+        "r0": [
+          "3",
+          "2"
+        ],
+        "M1": [
+          "5/2",
+          "5/2"
+        ],
+        "r1": [
+          "1/2",
+          "-1/2"
+        ],
+        "means": [
+          "5/2"
+        ],
+        "details": [
+          "-1/2"
+        ],
+        "anchor": "5/2",
+        "increments": [],
+        "decoded_means": [
+          "5/2"
+        ],
+        "decoded_residual": [
+          "3",
+          "2"
+        ],
+        "decoded_values": [
+          "4",
+          "4"
+        ],
+        "errors": [
+          "0",
+          "0"
+        ]
+      },
+      "singular-output-(6, 13)": {
+        "output": [
+          6,
+          13
+        ],
+        "compatibility": 1,
+        "fitted": [
+          6,
+          12
+        ],
+        "residual": [
+          0,
+          1
+        ],
+        "exact_solution_exists": false
+      },
+      "singular-output-(8, 17)": {
+        "output": [
+          8,
+          17
+        ],
+        "compatibility": 1,
+        "fitted": [
+          8,
+          16
+        ],
+        "residual": [
+          0,
+          1
+        ],
+        "exact_solution_exists": false
+      },
+      "CAP06-family": {
+        "family": "(8-t,t), t any real number",
+        "retained_t": 3,
+        "retained_input": [
+          5,
+          3
+        ],
+        "kernel_direction": [
+          -1,
+          1
+        ],
+        "compatible_output": [
+          8,
+          16
+        ],
+        "L_inverse": "(j1,j2/2)"
+      }
+    },
+    "general_proof_review": {
+      "finite_product": "Distribute (f_s+df)(g_s+dg), subtract f_s*g_s, and retain f_s*dg+g_s*df+df*dg. Equivalently f_s*dg+df*g_t. No limiting assumption removes the interaction.",
+      "block_operator": "For arbitrary pair entries and real weights, distribution through (u+v)/2 proves linearity. Averaging (m,m) proves E^2=E; averaging ones proves unitality. Every block-constant output is fixed and block-constant arrays form a unital subalgebra. Constant factors c,d pull out of each finite average, proving the bimodule rule.",
+      "product_identity": "Set qf=f-Ef and qg=g-Eg. Linearity/idempotence imply E(qf)=E(qg)=0. Expand fg=Ef*Eg+Ef*qg+qf*Eg+qf*qg. Range closure fixes Ef*Eg under E; the factor rule kills the two mixed coarse terms. Hence E(fg)=Ef*Eg+E(qf*qg) and Q(fg)=Ef*qg+qf*Eg+Q(qf*qg). The mixed terms remain in Q, and the coarse part of qf*qg remains in E(fg).",
+      "finite_basis_checks": "The verifier checks E^2=E on all four basis vectors; the full bilinear product identity on all 16 ordered pairs of input basis vectors; and the trilinear bimodule identity on all 2x4x2 combinations of coarse/input/coarse basis vectors. Together with the explicit linearity and pointwise-bilinearity formulas, these exhaust the stated finite-array identities rather than relying only on sampled data.",
+      "counterexample": "E_star(x,y,z)=(x,x,z+y-x) is linear, unital, idempotent and has multiplicatively closed range (a,a,b). Missing bimodule property yields factor sides (0,0,1) versus (0,0,0), and proposed Q RHS minus direct equals (0,0,-2). This is an intentionally preserved counterexample, not a failed course computation.",
+      "singular": "K(u,v)=(u+v,2(u+v)); necessity of j2=2*j1 follows directly. When compatible, setting v=t and u=j1-t proves sufficiency and parametrizes every solution. When incompatible, rho=(0,j2-2*j1) preserves the obstruction relative to the declared first-equation-matching view. The finite parameter checks illustrate this symbolic argument, not prove the real-parameter claim by sampling.",
+      "ledger": "Pair means and signed details invert by (m-d,m+d). Anchored cumulative addition reverses differences. Composition reverses in order 3,2,1 and retains all four signed reconstruction errors, including zeros."
+    },
+    "auditor_only_extension": "A three-entry single mean block with f=(0,1,2), g=(0,1,4) gives Q(qf*qg)=(1/3,-4/3,1), not zero, and Q(fg)=(-3,-2,5). This checks that the general formula retains the term even though its Q part vanishes in every taught equal-pair example. It is not an additional course requirement or student assessment.",
+    "metadata_review": "Source channel, original IDs/times, SU or explicitly dimensionless scope, fixed pair supports, model rule, anchors, signed details and decoder order are kept. No measured source data were copied."
+  },
+  "assessment_and_accessibility": {
+    "capstone_steps": 7,
+    "rubric_total": 100,
+    "rubric_weights": [
+      10,
+      10,
+      10,
+      25,
+      10,
+      15,
+      20
+    ],
+    "alignment": "All required capstone operations have actual prior explanation, examples, practice and diagnostic work. No major or minor teaching gap identified.",
+    "senior_accessibility": "Arithmetic, fraction operations, pointwise list operations and substitution are taught or bridged locally. Abstract vocabulary receives concrete finite definitions; matrix action is taught as row recipes. Gauge transport and infinite-resolution extensions remain recognition-only and unassessed.",
+    "pacing": {
+      "lesson_minutes": [
+        55,
+        55,
+        55,
+        110,
+        55,
+        55,
+        55
+      ],
+      "core_periods": 8,
+      "core_minutes": 440,
+      "capstone_periods": 2,
+      "capstone_minutes": 110,
+      "total_planned_minutes": 550
+    },
+    "pacing_judgment": "L04's two periods and teacher repair gates are consistent with the extra proof load; extra repair time is allowed. This is a content-based feasibility judgment, not observed classroom timing.",
+    "repair_requirements": "Rubric awards method-based partial credit but requires repair of missing exact reconstruction, any of six premise IDs, or the E hypotheses regardless of aggregate score."
+  },
+  "fresh_project_validation": {
+    "canonical_output_root": "Z:\\Kfield-doc-training\\K-Field_Training_Course",
+    "checks": [
+      "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+      "parsed manifest.json",
+      "parsed audit_report.json",
+      "parsed completion_report.json",
+      "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+    ],
+    "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-07-information-complete-finite-calculus",
+    "errors": [],
+    "schema_version": "1.0",
+    "status": "passed",
+    "storage_authority": "User explicitly authorized project-folder outputs, 2026-11-05",
+    "validator_path": "C:\\Users\\info\\.codex\\skills\\build-high-school-course\\scripts\\validate_course.py",
+    "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+    "exit_code": 0,
+    "execution": "Fresh read-only project-root adapter with fixture_mode=False; only CANONICAL_OUTPUT_ROOT is overridden. Installed validator hash verified independently.",
+    "runtime_note": "Conda emitted an OpenCL vendors/temp.txt cleanup warning; both numerical audit and validator exited zero. No package or environment modifications were made."
+  },
+  "limitations": [
+    "Review covers Course07's finite teaching model and pinned sources; it does not certify an unspecified general archival E, all M04 extensions, physical mechanisms, gauge theory or infinite resolutions.",
+    "Reported source verification statuses remain attributed archival statuses, distinct from this audit's exact finite recomputations.",
+    "General proofs were inspected algebraically and supplemented by exact finite-basis checks; no external formal proof assistant was run.",
+    "No classroom learner trial or empirical timing study was performed.",
+    "Markdown-only contract: textual tables, assembly and links reviewed; no PDF/Word rendering was required or performed.",
+    "Decision applies to the recorded manifest and file hashes; changes to course content require renewed review."
+  ],
+  "eligible_for_parent_acceptance": true,
+  "source_files_copied": false,
+  "course_or_parent_files_modified": false
+}

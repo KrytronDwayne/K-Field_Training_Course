@@ -1,0 +1,352 @@
+[
+  {
+    "source_path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-series-source-auditor\\outputs\\restart-checkpoint.json",
+    "sha256": "e006c2df0f340890ec6377791a4163bb68b85521890ca9b8cada849d50f8ec44",
+    "checkpoint": {
+      "schema": "kfield.source-auditor.restart.v1",
+      "status": "in_progress",
+      "run_state": "stopped_by_explicit_parent_instruction",
+      "date": "2026-11-05",
+      "resume_authority": "Do not resume without an explicit parent instruction following new user approval to restart.",
+      "workspace": "C:/Users/info/Documents/Codex/2026-11-05/kfield-series-source-auditor",
+      "output_directory": "C:/Users/info/Documents/Codex/2026-11-05/kfield-series-source-auditor/outputs",
+      "parent_thread_id": "01a1ac55-1ad4-7d12-8840-5c0b087e69d7",
+      "snapshot": {
+        "database_object_id": "ab46c19405bfb7bdc08d506e2f5656e6c1ca13842eee75ed08de1508a839573d",
+        "generation": "sha256:5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+        "manifest_sha256": "5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7"
+      },
+      "storage_contract": "Current user override permits workspace/project outputs. No further Desktop writes. Source archives remain in place; no source-data copies. Parent consolidates generated artifacts under Z:/Kfield-doc-training/K-Field_Training_Course.",
+      "existing_outputs": [
+        {
+          "path": "C:/Users/info/Documents/Codex/2026-11-05/kfield-series-source-auditor/outputs/restart-checkpoint.json",
+          "status": "restart checkpoint"
+        },
+        {
+          "path": "C:/Users/info/Documents/Codex/2026-11-05/kfield-series-source-auditor/outputs/storage-check.txt",
+          "status": "ordinary-permission write/read verified"
+        },
+        {
+          "path": "C:/Users/info/Desktop/K-Field_Training_Course/kfield-series-20261105/audits/source-coverage/first-three-review.json",
+          "status": "completed early blueprint review"
+        },
+        {
+          "path": "C:/Users/info/Desktop/K-Field_Training_Course/kfield-series-20261105/audits/source-coverage/later-findings.json",
+          "status": "recorded before repair; dispositions still stale/unresolved and must be reconciled with verified saved amendments"
+        }
+      ],
+      "completed": [
+        "Read residual-information-paradigm, krytronx-knowledge-graph, krytronx-standard-model-integration, build-high-school-course methodology and rubric; also PDF skill for bounded source reading.",
+        "Called Krytronx capabilities once. It omitted generation; root traversal and RAG confirmed the paired pinned generation/manifest. RAG rerank was false.",
+        "Read series map and ledger, all thirty packet structures and lesson operations; independently counted 30 courses and 205 core lessons with concept coverage links. No exhaustive proof-body or finished-lesson audit.",
+        "Verified SHA256 of S01 corrected, S02 mature, S03 authoritative correction, S04 mature audit, and S05 periodic-table archive files in place.",
+        "Read all M01-M20 mature backbone modules, constitutive principles, exact logical extent, all 13 correction findings, branch summaries and selected exact proof nodes.",
+        "Courses01-03 approved for blueprint production after source and prerequisite repairs. Teaching auditor subsequently cleared them; parent launched builders. Finished courses are not approved by this audit.",
+        "SC003-SC008 repaired at blueprint-requirement level in saved Desktop packets18,20,21,26,28; JSON parsed after edits. Parent reports these repairs already present in project contracts.",
+        "Retrieved exact compact testbench artifacts for physical closure, spectral energy/phase, moving frames, CMB quarantine, geometry/rulers, routes and interferometer boundaries.",
+        "Retrieved integration project_record.json and RAG adjudication evidence. Only compiler M03/M07/M08 have direct authority; retained Z1/Z2/Z3/Z6 family and unperformed experiment portfolios. Formal replay was not rerun.",
+        "Located and hash-verified actual galaxy sources and read bounded relevant sections, resolving the source-discovery part of E11.",
+        "Read parent educational-amendments.json covering E05-E10. Its merger and independent recheck remain unfinished."
+      ],
+      "edited_packet_paths": [
+        {
+          "course": 1,
+          "path": "C:\\Users\\info\\Desktop\\K-Field_Training_Course\\kfield-01-reading-the-k-field-evidence-models-and-information\\input-contract.json",
+          "status": "blueprint_source_prerequisite_cleared"
+        },
+        {
+          "course": 2,
+          "path": "C:\\Users\\info\\Desktop\\K-Field_Training_Course\\kfield-02-mathematical-tools-units-vectors-and-coordinates\\input-contract.json",
+          "status": "blueprint_source_prerequisite_cleared"
+        },
+        {
+          "course": 3,
+          "path": "C:\\Users\\info\\Desktop\\K-Field_Training_Course\\kfield-03-the-authoritative-cell3-basis-metric-and-scale\\input-contract.json",
+          "status": "blueprint_source_prerequisite_cleared"
+        },
+        {
+          "course": 18,
+          "path": "C:\\Users\\info\\Desktop\\K-Field_Training_Course\\kfield-18-history-orientation-and-chirality\\input-contract.json",
+          "status": "source_additions_saved; educational_recheck_pending"
+        },
+        {
+          "course": 20,
+          "path": "C:\\Users\\info\\Desktop\\K-Field_Training_Course\\kfield-20-family-structure-and-simultaneous-occupation\\input-contract.json",
+          "status": "source_additions_saved; educational_recheck_pending"
+        },
+        {
+          "course": 21,
+          "path": "C:\\Users\\info\\Desktop\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\input-contract.json",
+          "status": "source_additions_saved; educational_recheck_pending"
+        },
+        {
+          "course": 26,
+          "path": "C:\\Users\\info\\Desktop\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\input-contract.json",
+          "status": "source_additions_saved; educational_recheck_pending"
+        },
+        {
+          "course": 28,
+          "path": "C:\\Users\\info\\Desktop\\K-Field_Training_Course\\kfield-28-photometer-experiments-and-information-preserving-analysis\\input-contract.json",
+          "status": "source_additions_saved; educational_recheck_pending"
+        }
+      ],
+      "findings": [
+        {
+          "id": "SC-001",
+          "severity": "major",
+          "disposition": "corrected",
+          "course": [
+            "course-01:lesson-02",
+            "course-01:capstone"
+          ],
+          "defect": "The required source-reported measurement has no pinned measurement record in the supplied sources or source_routing; the selected numerical Cell3 witnesses are computations."
+        },
+        {
+          "id": "SC-002",
+          "severity": "major",
+          "disposition": "corrected",
+          "course": [
+            "course-03:lesson-01",
+            "course-03:lesson-02",
+            "course-03:lesson-03",
+            "course-03:lesson-04"
+          ],
+          "defect": "Course 02 supplies a two-dimensional basis and determinant, while course 03 first uses three-dimensional handedness, Gram products, cross products and inverse-metric identities without an explicit introductory bridge or practice sequence."
+        },
+        {
+          "id": "SC-003",
+          "severity": "major",
+          "disposition": "corrected_in_saved_blueprint_requirements",
+          "location": "C:\\Users\\info\\Desktop\\K-Field_Training_Course\\kfield-20-family-structure-and-simultaneous-occupation\\input-contract.json#/course_map/2; /coverage_matrix",
+          "defect": "M16 source coverage stops at lifts, tensor ranks and occupation; the explicit Weyl expansion and Schur reconstruction interfaces are absent from the required learning operations.",
+          "source_locations": [
+            "S02#/backbone_sequence/15/weyl_basis",
+            "S02#/backbone_sequence/15/schur_interface",
+            "S03#/findings/6"
+          ],
+          "verification": "Added explicit concept rows, lesson requirements and subject-kernel operations; saved JSON parse passed. Original later-findings.json dispositions have not yet been refreshed."
+        },
+        {
+          "id": "SC-004",
+          "severity": "major",
+          "disposition": "corrected_in_saved_blueprint_requirements",
+          "location": "C:\\Users\\info\\Desktop\\K-Field_Training_Course\\kfield-18-history-orientation-and-chirality\\input-contract.json#/coverage_matrix; series coverage of BR-05 and BR-10",
+          "defect": "The angular/spin representation tower and CP-capability/real-carry obstruction have no explicit introduction, practice or assessment row anywhere in the 30-course map.",
+          "source_locations": [
+            "S02#/branch_proofs/5",
+            "S02#/proof_nodes/4",
+            "S02#/proof_nodes/18",
+            "S02#/proof_nodes/25",
+            "S02#/branch_proofs/10",
+            "S02#/proof_nodes/9",
+            "S02#/proof_nodes/76"
+          ],
+          "verification": "Added explicit concept rows, lesson requirements and subject-kernel operations; saved JSON parse passed. Original later-findings.json dispositions have not yet been refreshed."
+        },
+        {
+          "id": "SC-005",
+          "severity": "major",
+          "disposition": "corrected_in_saved_blueprint_requirements",
+          "location": "C:\\Users\\info\\Desktop\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\input-contract.json#/course_map/2; /coverage_matrix",
+          "defect": "The seven-coordinate syndrome is covered, but the separate Walsh/S3 compatibility branch BR-11 is not assigned. Equal dimension can therefore be mistaken for a canonical physical map.",
+          "source_locations": [
+            "S02#/branch_proofs/11",
+            "S02#/proof_nodes/10",
+            "S02#/proof_nodes/11",
+            "S02#/proof_nodes/23",
+            "S03#/findings/8"
+          ],
+          "verification": "Added explicit concept rows, lesson requirements and subject-kernel operations; saved JSON parse passed. Original later-findings.json dispositions have not yet been refreshed."
+        },
+        {
+          "id": "SC-006",
+          "severity": "major",
+          "disposition": "corrected_in_saved_blueprint_requirements",
+          "location": "C:\\Users\\info\\Desktop\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\input-contract.json#/capstone_specification/task; /course_map/4; /course_map/5",
+          "defect": "The capstone explicitly requires reaction-energy bookkeeping, but no preceding course-21 operation teaches or practices that calculation; atomic inventory and binding interpretation alone do not close it.",
+          "source_locations": [
+            "S05#/records/28",
+            "S05#/records/29",
+            "S05#/records/30"
+          ],
+          "verification": "Added explicit concept rows, lesson requirements and subject-kernel operations; saved JSON parse passed. Original later-findings.json dispositions have not yet been refreshed."
+        },
+        {
+          "id": "SC-007",
+          "severity": "major",
+          "disposition": "corrected_in_saved_blueprint_requirements",
+          "location": "C:\\Users\\info\\Desktop\\K-Field_Training_Course\\kfield-28-photometer-experiments-and-information-preserving-analysis\\input-contract.json#/course_map/3; /course_map/5",
+          "defect": "The signal strand asks for symmetry and harmonic comparisons, but does not explicitly cover the S05 finding that an antipodally symmetric synthetic comparator has zero odd harmonics and cannot test observed odd channels or the odd {1,3,9,27} scale ladder.",
+          "source_locations": [
+            "S05#/records/15",
+            "S05#/records/16",
+            "S05#/records/20",
+            "S05#/records/25",
+            "S05#/records/26",
+            "S05#/records/27"
+          ],
+          "verification": "Added explicit concept rows, lesson requirements and subject-kernel operations; saved JSON parse passed. Original later-findings.json dispositions have not yet been refreshed."
+        },
+        {
+          "id": "SC-008",
+          "severity": "major",
+          "disposition": "corrected_in_saved_blueprint_requirements",
+          "location": "C:\\Users\\info\\Desktop\\K-Field_Training_Course\\kfield-18-history-orientation-and-chirality\\input-contract.json#/course_map/1; /course_map/2; /capstone_specification",
+          "defect": "The finite history model is not explicitly guarded against asserting both W*W=I and WW*!=I on the same finite square carrier. Those source identities describe an infinite shift; a truncated square shift has an endpoint defect.",
+          "source_locations": [
+            "S02#/backbone_sequence/13/definitions"
+          ],
+          "verification": "Added explicit concept rows, lesson requirements and subject-kernel operations; saved JSON parse passed. Original later-findings.json dispositions have not yet been refreshed."
+        }
+      ],
+      "pending_findings": {
+        "source_findings_SC001_SC008": {
+          "critical_unresolved": 0,
+          "major_unresolved": 0,
+          "scope": "Blueprint repairs only; later report reconciliation pending."
+        },
+        "educational": "E05 remains a mandatory content-level production gate for actual example/practice/check/capstone links. E06-E10 portable bridges read but not merged or independently rechecked. E11 source material located; course29 amendment not yet authored/applied.",
+        "launch_decisions": "01-03 cleared for production. No new launch approval issued for04-30. Courses12,14,18,20,21,22,24,26,28,29 and global E05 require amendment/recheck as applicable."
+      },
+      "portable_merge_input": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-series-20261105/educational-amendments.json",
+      "pending_deliverables": [
+        {
+          "path": "C:/Users/info/Documents/Codex/2026-11-05/kfield-series-source-auditor/outputs/source-coverage-audit.json",
+          "status": "not_written"
+        },
+        {
+          "path": "C:/Users/info/Documents/Codex/2026-11-05/kfield-series-source-auditor/outputs/source-coverage-audit.md",
+          "status": "not_written"
+        },
+        {
+          "path": "C:/Users/info/Documents/Codex/2026-11-05/kfield-series-source-auditor/outputs/blueprint-amendments.json",
+          "status": "not_written"
+        }
+      ],
+      "restart_steps": [
+        "Resume only on explicit parent restart instruction; preserve the controlled stop meanwhile.",
+        "Read this checkpoint and the current project input contracts; parent owns consolidated artifacts. Do not reapply existing C18.S01-S03, C20.S01-S02, C21.S01-S03, C26.S01, C28.S01 rows.",
+        "Reconcile SC003-SC008 dispositions in the new local final audit; preserve the earlier finding record as pre-repair history.",
+        "Merge the parent's educational-amendments.json into a portable local amendment artifact, maintaining synthetic labels and exact source boundaries.",
+        "Author E11 course29 amendment with G01-G04 pointers below, distinct sky-position/axis roles, physical versus phase origin, positive synthetic metric exercise and every residual domain.",
+        "Finish the 30-topic source/coverage report with exact M01-M20 corrected stable IDs 00000000000000747820 through 00000000000000747839, corresponding /backbone_sequence/0 through /19, each mapped to the already-existing course map.",
+        "Record actual pending educational/replay gates; do not mark later blueprints passed merely because module titles or source statuses exist.",
+        "Return portable reports/amendments to parent for project application and targeted teaching recheck. No course building or new tasks."
+      ],
+      "source_fidelity_watchlist": [
+        "Source S03 reports VERIFIED_FROZEN mature M01-M18 and VERIFIED_NOT_LOADED for missing proof bodies; these are attributed source statuses, not new auditor verification.",
+        "S02 M02 has stale /backbone_sequence/1/reciprocal_witness beside canonical /result. Use canonical_locked_values and mature_locked_cell3.",
+        "S02 M02/M03 proof prose omits the affine origin in some pairings; teach g dot (x-O_K) and g_lambda dot (p-O_K).",
+        "Color-first typed convention conflicts with weak-first M10 prose; require explicit permutation.",
+        "Use mature H_E=delta^(1/3) R and H_B=delta^(2/3) wedge^2 R. S01 contains older exponents.",
+        "S02 /proof_nodes/78 has occupation claim and shared D10 guard 'No physical occupation conclusion.' Preserve both source locations plus S03 finding6 and retrieval status.",
+        "For epsilon=Q-Kr in [-1/2,1/2), a tie-down convention is required; half-open cell ownership is a different floor(q+1/2) operation.",
+        "S02 /proof_nodes/10 exact-sequence rank argument is sufficient over a field; an integral-lattice equality needs a saturation/index witness. Do not silently infer Z-lattice equality from dimensions.",
+        "M19 is a mixed extension, excluded from the M20 mathematical premise set even if course23 is an educational prerequisite for30.",
+        "BR05 angular/spin, BR10 CP capability/commuting obstruction and BR11 noncanonical syndrome/Walsh compatibility are now assigned to source supplement rows.",
+        "Finite square shift truncations retain terminal defects; do not assert W*W=I and WW*!=I on one finite square carrier.",
+        "S05 odd comparator nullspace and proposed 25-27-to-2 triad are distinct source branches; retain odd channels and all unresolved coordinates.",
+        "Testbench T35 observations retain reported_exploratory_to_be_verified; fourteen rows share three cost values; input-equivalent energy lacks the calibrated transfer arrow.",
+        "Capabilities and source metadata do not imply physical establishment. Integration authority is a separate namespace from the mathematical backbone."
+      ],
+      "galaxy_sources": [
+        {
+          "id": "G01",
+          "path": "Z:/Archive_20260911/Pre_Aug14/galaxy_cell_hidden_holonomy_summary_1783791371.json",
+          "sha256": "bd6ff0e335f3c405000cd1f8adfa3ae947dc9362dfeb772764cf98ef62ae6f63",
+          "pointers": [
+            "/ordered_direct_basis_A",
+            "/reciprocal_basis_Q",
+            "/joint_phase_origin",
+            "/galaxy_cell_geometry",
+            "/holonomy",
+            "/observed_27_node_occupancy",
+            "/pure_holonomy_coordinate_tests",
+            "/comparison_to_authoritative_K_field"
+          ],
+          "scope": "Exact small record read; 114381-direction sky-position cell; phase origin is a reciprocal phase coordinate."
+        },
+        {
+          "id": "G02",
+          "path": "Z:/Archive_20260911/Pre_Aug14/K-field_cell3_vs_galaxy_derived_cell_analogue_1783794540.pdf",
+          "sha256": "69dcaace292365d22b9b48c43edc0ac4936b148ec68a5b265abc72aaff4f4447",
+          "pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "locators": "p3 distinct axis versus sky-position pathways; p4 column basis, ICRS, positive galaxy determinant and unit-sphere reconstruction lengths; p8 frozen geometry; p17-20 occupancy, mixed coordinates and comparison boundaries.",
+          "scope": "No radial physical calibration. Historical Cell3 carrier values p7 do not replace S02 mature lock."
+        },
+        {
+          "id": "G03",
+          "path": "Z:/Archive_20260911/Pre_Aug14/K-field_spherical_gravity_response_graph_audited_1783692220.json",
+          "sha256": "aa7f4236b7f956c652690934d6444f597ea38b6e485cc77a22be884b567d1cea",
+          "pointers": [
+            "/status",
+            "/precision_contract",
+            "/coordinate_frame",
+            "/analytic_spherical_response",
+            "/reconstruction_sequence"
+          ],
+          "scope": "Historical Cell3-derived spherical response, not the galaxy cell. Domain excludes n dot N=0; G_star=D/F has transfer singularities; absolute scalar calibration undefined. Large graph arrays were not exported."
+        },
+        {
+          "id": "G04",
+          "path": "Z:/Archive_20260911/Pre_Aug14/K-field_galaxy_sky_position_volumetric_quantization_1783789746.pdf",
+          "sha256": "856777f0fae0d6b50e8d235435068b7ea3c25a83068cfbfb197b62835cbb8fbd",
+          "pages_read": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "locators": "p3 unit-sphere direction, discovery57076/holdout57305 and antipodal discovery versus directed assignments; p4 q_j dot x=k_j+phi_j, R rows=q_j^T, A=R^-1, center=A(k+phi), closest-vector assignment and retained vector/angular/radial residuals.",
+          "scope": "Phase origin phi and physical reconstruction center A phi have different types; closest-center assignment is not independent coordinate rounding in a skew metric."
+        }
+      ],
+      "suggested_course29_exercise": {
+        "status": "drafted_not_applied",
+        "label": "Synthetic two-dimensional metric exercise, not galaxy data",
+        "metric": [
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "inverse": "(1/3)[[2,-1],[-1,2]]",
+        "displacement": [
+          1,
+          -1
+        ],
+        "squared_distance": 2,
+        "checks": "Positive leading minor2 and determinant3; compute q^T M q=2 and retain units. Use source matrix/origin only for source-reading and separately declared calculations."
+      },
+      "validator": {
+        "course_validator": "Not run by source auditor; no courses built here.",
+        "storage_issue": "The stock course validator hardcodes Desktop-root containment and is incompatible with the user's project-storage override. Parent will supply a location-only adapter; no validator outcome is asserted.",
+        "performed_checks": "JSON parse after first-three and later source edits; source hashes; 30 IDs/205 lesson count/coverage references; independent arithmetic for course03 analogue.",
+        "final_reports": "Not yet written or validated."
+      },
+      "pending_command": null,
+      "pending_approvals": [],
+      "tools_and_runtime": "No packages installed. tf_gpu_env executable was verified; pypdf/fitz absent there. Read-only PDF text extraction used bundled Node pdfjs-dist through work/read_galaxy.mjs, without source copies. Script is retained only as a restart helper.",
+      "read_helper": "C:/Users/info/Documents/Codex/2026-11-05/kfield-series-source-auditor/work/read_galaxy.mjs"
+    }
+  }
+]

@@ -1,0 +1,144 @@
+{
+  "status": "passed",
+  "findings": [
+    {
+      "id": "IA-01",
+      "level": "final",
+      "category": "rendering",
+      "file": "terminology.md",
+      "section": "Magnitude, unit normal, spacing table rows",
+      "severity": "minor",
+      "defect": "Unescaped vertical bars in |v|, g_h/|g_h| and 1/|g_h| split the Markdown table into extra cells.",
+      "correction": "Escape all magnitude delimiter pipes inside table cells, or use magnitude(v) notation.",
+      "verification": "Inspect table row delimiter counts after correction. Magnitude delimiters are escaped or replaced by magnitude(...) notation; all table rows now have four cells by unescaped-delimiter check.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "terms"
+      ]
+    },
+    {
+      "id": "IA-02",
+      "level": "cumulative",
+      "category": "assessment_alignment",
+      "file": "lesson-05.md and course-map.md",
+      "section": "C04.05-P1 and C04-CAP-05 mapping",
+      "severity": "major",
+      "defect": "CAP-05 requires a computed physical cosine, but the only prior answered practice C04.05-P1 computes zero dot products and a squared length. The cosine formula is explained and worked in W1, yet no learner practice item asks for a cosine calculation. E05 requires prior independently answered practice for each concrete operation.",
+      "correction": "Add a short answered practice asking learners to compute a nonzero physical cosine from two address displacements using their physical images; map that practice explicitly in CAP-05. For example e1 and (1,1,0) map to (1,0,0) and (2,2,0), giving cosine 1/sqrt(2).",
+      "verification": "Inspect new practice prompt and worked answer; independently recompute dot 2 and magnitudes 1,sqrt(8), then confirm capstone backward map cites it. Re-read updated C04.05-P1, new C04.05-P2 and CAP-05 E05 row. P1 now practices zero cosines; P2 explicitly prompts physical images, dot product, magnitudes and nonzero cosine, with correct worked answer. Independently recomputed dot=2, squared magnitudes=1,8, hence cosine=1/sqrt(2). CAP-05 explicitly links P2. Finding closed.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "lesson-05",
+        "map",
+        "capstone"
+      ]
+    },
+    {
+      "id": "LOCAL-01",
+      "level": "local",
+      "category": "verification_arithmetic",
+      "file": "verify_examples.py",
+      "section": "squared spacing for doubled label",
+      "severity": "major",
+      "defect": "Initial exact checker used integer norm-squared constants, allowing Python division to introduce floating values and causing 0.20000000000000004 != 0.2.",
+      "correction": "Represent every squared norm as Fraction before division, including 1 and 5.",
+      "verification": "Reran the complete exact checker successfully; doubled-label squared spacing equals Fraction(1,5).",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "verification"
+      ]
+    }
+  ],
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "checks": [
+    {
+      "level": "local",
+      "scope": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05",
+        "lesson-06"
+      ],
+      "method": "Full text review plus exact component recomputation; bridge, definitions, units, logic, evidence scope, four diagnostic answers and next dependencies inspected.",
+      "result": "passed"
+    },
+    {
+      "level": "cumulative",
+      "scope": [
+        "lesson-01",
+        "lesson-02"
+      ],
+      "method": "q -> x -> q and q=z+u checks; negative floor and exact endpoint rules verified.",
+      "result": "passed"
+    },
+    {
+      "level": "cumulative",
+      "scope": [
+        "lesson-03",
+        "lesson-04"
+      ],
+      "method": "Three dot pairings for each g; affine plane origin; nonzero h; orientation and doubled-level family checked. Canonical and stale source branches inspected in place.",
+      "result": "passed"
+    },
+    {
+      "level": "cumulative",
+      "scope": [
+        "lesson-05",
+        "lesson-06",
+        "capstone"
+      ],
+      "method": "Physical and address dots, both cross-term signs, cosine practice, exact reconstruction and retained display residuals; E05 input/output/practice links inspected.",
+      "result": "passed"
+    },
+    {
+      "level": "final",
+      "scope": [
+        "coverage",
+        "fidelity",
+        "dependency",
+        "correctness",
+        "terminology",
+        "examples",
+        "evidence",
+        "audience",
+        "assessment",
+        "minimality"
+      ],
+      "method": "Independent reviewer read all six lessons and supporting materials; findings corrected at earliest teaching source. Independent verification and manager exact checks retained separately.",
+      "result": "passed"
+    },
+    {
+      "level": "final",
+      "scope": [
+        "rendering"
+      ],
+      "method": "Markdown delivery reviewed for table delimiters, equation legibility and local links. No paginated outputs requested, so PDF render gate is not applicable.",
+      "result": "passed"
+    },
+    {
+      "level": "final",
+      "scope": [
+        "recovery",
+        "assembly",
+        "containment"
+      ],
+      "method": "Executed required project-root validator: exit 0, zero errors; containment, all checkpoint hashes, assembly identity/order, audit and completion validated.",
+      "result": "passed"
+    }
+  ],
+  "independent_report": "independent-audit.json",
+  "verification_reports": [
+    "verification.json",
+    "independent-verification.json"
+  ],
+  "limitations": [
+    "Pacing has not been tested with a live class.",
+    "Capabilities response did not expose corpus-generation digest; direct archival source hashes are verified."
+  ]
+}

@@ -1,0 +1,319 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Capstone — A reproducible sixteen-state census · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/15">Course 15</a><span>/</span><span>capstone</span></div><a class="original" href="../../../kfield-15-matter-states-hypercharge-and-anomaly-accounting/capstone.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#capstone-a-reproducible-sixteen-state-census">Capstone — A reproducible sixteen-state census</a><a href="#student-task">Student task</a><a href="#full-worked-answer-key">Full worked answer key</a><a href="#step-1">Step 1</a><a href="#step-2">Step 2</a><a href="#step-3">Step 3</a><a href="#step-4">Step 4</a><a href="#step-5">Step 5</a><a href="#step-6">Step 6</a><a href="#step-7">Step 7</a><a href="#rubric-and-repair">Rubric and repair</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 1 — Choosing states with combinations</a><a  href="lesson-02.html">Lesson 2 — The sixteen even exterior states</a><a  href="lesson-03.html">Lesson 3 — Charge as an additive rule</a><a  href="lesson-04.html">Lesson 4 — Why anomaly sums are bookkeeping constraints</a><a  href="lesson-05.html">Lesson 5 — The primitive hypercharge line</a><a  href="lesson-06.html">Lesson 6 — Parity and representation checks</a><a  href="lesson-07.html">Lesson 7 — From a finite census to a source claim</a></details></aside><div class="reading-column"><article class="prose"><h1 id="capstone-a-reproducible-sixteen-state-census" tabindex="-1">Capstone — A reproducible sixteen-state census</h1>
+<p>Allow three 55-minute periods: 10 minutes planning, 100 construction/calculation, 35 independent cross-checking, 20 explanation and repair. Work from the declared rules; the answer key follows the tasks. No new theory is required. All charges are dimensionless and all anomaly ledgers use q=6Y unless explicitly converted.</p>
+<h2 id="student-task" tabindex="-1">Student task</h2>
+<p>Use the ordered basis (c1,c2,c3,w1,w2), the even exterior carrier, the source left-Weyl inventory and the index rules taught in Lesson 4.</p>
+<ol>
+<li><strong>C15-CAP-01 (10 points):</strong> Sort w1∧c1 and c3∧c1∧c2, evaluate c1∧w1∧c1, and derive the even-state count. Inputs: three products and five labels. Output: signed canonical products and degree counts. Preparation: C15.01-E1, W1, P1, D1 in Lesson 1.</li>
+<li><strong>C15-CAP-02 (15 points):</strong> Enumerate all allowed bidegrees with multiplicities. List the five degree-four products and give the sign from exchanging each product's color and weak blocks. Inputs: r bounds 0–3 and s bounds 0–2. Output: exhaustive six-row census plus five explicit products. Preparation: C15.02-E1, W1, P1, D1.</li>
+<li><strong>C15-CAP-03 (15 points):</strong> For every one of the sixteen basis products, give q,Y and the residue of q+2t+3p modulo 6 at a=−2,b=3. Give the six-row grouped table too. Inputs: products from steps 1–2. Output: sixteen assignments with multiplicity cross-check. Preparation: C15.03-E1, W1, P1, D1.</li>
+<li><strong>C15-CAP-04 (20 points):</strong> Produce sector contributions and totals for the five named local tests. Replay (a,b)=(1,0), retaining all nonzero contributions. Explain conversion from q to Y normalization. Inputs: census and declared quadratic/cubic indices. Output: two ledgers and their residual vectors in a named order. Preparation: C15.04-E1, W1, P1, D1.</li>
+<li><strong>C15-CAP-05 (15 points):</strong> Expand and factor the general cubic; complete its quadratic factor's square; solve the primitive integer line and state the sign and determinant contracts. Inputs: general six charges ar+bs. Output: verified polynomial identity and primitive pair. Preparation: C15.05-E1, W1, P1, D1, with cube expansion taught in Lesson 4.</li>
+<li><strong>C15-CAP-06 (15 points):</strong> Find the signed complement of c1∧w1, check its charge and double complement; verify the dual-color multiplier of c1∧c3 under diag(i,−i,1); list the six representation labels and count Witten doublets. Inputs: ordered top form and full census. Output: signed examples, inverse-action comparison and parity count with its scope. Preparation: C15.06-E1, W1, P1, D1.</li>
+<li><strong>C15-CAP-07 (10 points):</strong> Write an assumption/evidence table and a source-scoped conclusion. Retain the failing trial and distinguish finite results, source interpretation, compiler authority and global-form scope. Inputs: prior six outputs and sources.md. Output: reproducible report with boundaries. Preparation: C15.07-E1, W1, P1, D1.</li>
+</ol>
+<h2 id="full-worked-answer-key" tabindex="-1">Full worked answer key</h2>
+<h3 id="step-1" tabindex="-1">Step 1</h3>
+<p>w1∧c1=−c1∧w1 (one swap). c3∧c1∧c2=+c1∧c2∧c3 (two swaps). c1∧w1∧c1=0 (repetition). The even counts are binom(5,0)=1, binom(5,2)=5×4/2=10, binom(5,4)=5; sum 16. The full exterior count is 32, so choosing the even carrier is an explicit selection.</p>
+<h3 id="step-2" tabindex="-1">Step 2</h3>
+<p>The allowed pairs and m=binom(3,r)binom(2,s) are (0,0):1; (0,2):1; (1,1):6; (2,0):3; (2,2):3; (3,1):2. These sum to 16 and exhaust r,s with r+s even. Degree-four products are c2∧c3∧w1∧w2, c1∧c3∧w1∧w2, c1∧c2∧w1∧w2, c1∧c2∧c3∧w2, c1∧c2∧c3∧w1. The first three exchange blocks with sign (−1)^4=+1; the last two with sign (−1)^3=−1.</p>
+<h3 id="step-3" tabindex="-1">Step 3</h3>
+<p>Each row below is one basis product; coefficient signs from reordering are retained separately and do not change its charge.</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Basis product</th>
+<th>Sector</th>
+<th style="text-align: right;">q</th>
+<th>Y</th>
+<th style="text-align: right;">descent integer</th>
+<th style="text-align: right;">residue mod 6</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>nu^c</td>
+<td style="text-align: right;">0</td>
+<td>0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>w1∧w2</td>
+<td>e^c</td>
+<td style="text-align: right;">6</td>
+<td>1</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>c1∧w1</td>
+<td>Q</td>
+<td style="text-align: right;">1</td>
+<td>1/6</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>c1∧w2</td>
+<td>Q</td>
+<td style="text-align: right;">1</td>
+<td>1/6</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>c2∧w1</td>
+<td>Q</td>
+<td style="text-align: right;">1</td>
+<td>1/6</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>c2∧w2</td>
+<td>Q</td>
+<td style="text-align: right;">1</td>
+<td>1/6</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>c3∧w1</td>
+<td>Q</td>
+<td style="text-align: right;">1</td>
+<td>1/6</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>c3∧w2</td>
+<td>Q</td>
+<td style="text-align: right;">1</td>
+<td>1/6</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>c1∧c2</td>
+<td>u^c</td>
+<td style="text-align: right;">−4</td>
+<td>−2/3</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>c1∧c3</td>
+<td>u^c</td>
+<td style="text-align: right;">−4</td>
+<td>−2/3</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>c2∧c3</td>
+<td>u^c</td>
+<td style="text-align: right;">−4</td>
+<td>−2/3</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>c1∧c2∧w1∧w2</td>
+<td>d^c</td>
+<td style="text-align: right;">2</td>
+<td>1/3</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>c1∧c3∧w1∧w2</td>
+<td>d^c</td>
+<td style="text-align: right;">2</td>
+<td>1/3</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>c2∧c3∧w1∧w2</td>
+<td>d^c</td>
+<td style="text-align: right;">2</td>
+<td>1/3</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>c1∧c2∧c3∧w1</td>
+<td>L</td>
+<td style="text-align: right;">−3</td>
+<td>−1/2</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>c1∧c2∧c3∧w2</td>
+<td>L</td>
+<td style="text-align: right;">−3</td>
+<td>−1/2</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+</tbody>
+</table></div>
+<p>The grouped table, in order nu^c,e^c,Q,u^c,d^c,L, has bidegrees (0,0),(0,2),(1,1),(2,0),(2,2),(3,1), multiplicities (1,1,6,3,3,2), charges (0,6,1,−4,2,−3), trialities (0,0,1,2,2,0) and weak parities (0,0,1,0,0,1). Divide each charge by 6 to obtain the listed Y. Substitution gives descent integers (0,6,6,0,6,0), all with zero remainder.</p>
+<h3 id="step-4" tabindex="-1">Step 4</h3>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Sector</th>
+<th style="text-align: right;">linear mq</th>
+<th style="text-align: right;">cubic mq³</th>
+<th style="text-align: right;">color mixed</th>
+<th style="text-align: right;">weak mixed</th>
+<th style="text-align: right;">pure color</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>nu^c</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>e^c</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">216</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>Q</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">3/2</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr>
+<td>u^c</td>
+<td style="text-align: right;">−12</td>
+<td style="text-align: right;">−192</td>
+<td style="text-align: right;">−2</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">−1</td>
+</tr>
+<tr>
+<td>d^c</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">−1</td>
+</tr>
+<tr>
+<td>L</td>
+<td style="text-align: right;">−6</td>
+<td style="text-align: right;">−54</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">−3/2</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>Total</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+</tbody>
+</table></div>
+<p>Names in column order: gravity²–U1, U1³, SU3²–U1, SU2²–U1, SU3³. T(3)=T(bar3)=T(2)=1/2, with spectator copies only; pure-color coefficients +1 for 3 and −1 for bar3. For example Q's mixed contributions are 2(1)(1/2)=1 and 3(1)(1/2)=3/2.</p>
+<p>At (1,0), the charge list is (0,0,1,2,2,3):</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Sector</th>
+<th style="text-align: right;">mq</th>
+<th style="text-align: right;">mq³</th>
+<th style="text-align: right;">color mixed</th>
+<th style="text-align: right;">weak mixed</th>
+<th style="text-align: right;">pure color</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>nu^c</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>e^c</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>Q</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">3/2</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr>
+<td>u^c</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">−1</td>
+</tr>
+<tr>
+<td>d^c</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">−1</td>
+</tr>
+<tr>
+<td>L</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">54</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">3/2</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>Total</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">108</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">0</td>
+</tr>
+</tbody>
+</table></div>
+<p>The residual vectors from the all-zero target are (0,0,0,0,0) and (24,108,3,3,0), with full rows retained. In Y normalization divide linear/mixed by 6 and cubic by 216: the second vector becomes (4,1/2,1/2,1/2,0). Changing normalization does not erase the failures.</p>
+<h3 id="step-5" tabindex="-1">Step 5</h3>
+<p>General charges are 0,2b,a+b,2a,2a+2b,3a+b. The weighted cubic is 8b³+30(a+b)³+24a³+2(3a+b)³, whose expansion is 108a³+144a²b+108ab²+40b³. Multiplying (3a+2b)(36a²+24ab+20b²) gives a²b coefficient 72+72 and ab² coefficient 60+48, reproducing the expansion. The quadratic is 36(a+b/3)²+16b², positive for nonzero real (a,b), so cancellation forces 3a+2b=0. Both mixed sums equal that linear factor; the linear anomaly is eight times it.</p>
+<p>Integer solutions are (a,b)=(−2k,3k). Nonzero primitive solutions have |k|=1. Color negative and weak positive selects (−2,3); the opposite pair is the other convention. The zero pair is not a primitive generator. The determinant lock preserves Ω for every central phase parameter: its exponent is (3a+2b)θ. This is a stated top-form preservation contract, not a claim about every possible carrier.</p>
+<h3 id="step-6" tabindex="-1">Step 6</h3>
+<p>C(c1∧w1)=c2∧c3∧w2: two swaps give positive orientation. Bidegree becomes (2,1), odd degree 3, and charge is −4+3=−1. C twice gives the original because exchanging blocks of lengths 2 and 3 produces six swaps. Under diag(i,−i,1), c1∧c3 multiplies by i; the inverse c2 multiplier is 1/(−i)=i. The oriented dual vector −c1∧c3 retains its initial minus coefficient. This checks the diagonal dual action, not merely a dimension match.</p>
+<p>Representation labels in census order are (1,1),(1,1),(3,2),(bar3,1),(bar3,1),(1,2). Weak doublets count as three Q copies plus one L copy, N=4, residue zero mod 2. This is separate from exterior parity, physical Lorentz chirality, detector parity and carry parity. It does not settle every global quotient-bundle anomaly.</p>
+<h3 id="step-7" tabindex="-1">Step 7</h3>
+<p>A full-credit table identifies the input carrier/order, antisymmetry, even-sector selection, common weights, left-Weyl inventory, T normalization, determinant contract and primitive sign convention. Derived rows identify explicit subset counts, charges/descent, five ledgers, complement sign, diagonal action and four-doublet parity. A source row cites S02 /backbone_sequence/10 and /branch_proofs/6 with its hash in sources.md. An integration row retains Z1,Z2,Z3,Z6 and the unresolved physical member; another distinguishes compiler M03,M07,M08 authority from backbone M11. No fresh compiler execution or empirical observation is claimed. Retain the full (1,0) trial rather than deleting its nonzero residuals.</p>
+<p>A suitable conclusion: “The supplied carrier and conventions yield the sixteen internal components and source one-family charge labels. The displayed finite local sums and parity/descent tests pass. The mature source's wider theorem status remains source-scoped; physical chirality selection and the integration's global-form/global-bundle questions are not replaced by this census.”</p>
+<h2 id="rubric-and-repair" tabindex="-1">Rubric and repair</h2>
+<p>Award step 1: signs/repetition 6, count 4. Step 2: bidegrees/multiplicities 8, explicit degree-four list 5, block signs 2. Step 3: charges/Y 8, residues 4, all sixteen components and grouping 3. Step 4: correct weights 5, primitive ledger 5, retained trial ledger 7, normalization 3. Step 5: expansion/factor 5, square/positivity 4, integers/sign 4, determinant hypothesis 2. Step 6: complement/orientation 5, dual action 4, representations/count 4, boundaries 2. Step 7: assumptions/provenance 4, evidence distinctions 4, residual retention 2. Total 100.</p>
+<p>Give method credit when one arithmetic slip propagates consistently, but require correction before declaring the construction verified. Any omitted sector, doubled index weight, discarded sign, or physical/global claim unsupported by the contract requires targeted repair regardless of total score. Repair using the mapped lesson practice, then recompute the affected capstone rows; do not change the original trial inputs to force a pass.</p></article><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/15">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

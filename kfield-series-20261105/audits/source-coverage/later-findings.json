@@ -1,0 +1,136 @@
+{
+  "schema": "kfield.source-coverage.findings.v1",
+  "status": "recorded_before_blueprint_repairs",
+  "findings": [
+    {
+      "id": "SC-003",
+      "audit_level": "cumulative",
+      "category": "subject coverage",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-20-family-structure-and-simultaneous-occupation\\input-contract.json",
+      "section": "/course_map/2; /coverage_matrix",
+      "severity": "major",
+      "defect": "M16 source coverage stops at lifts, tensor ranks and occupation; the explicit Weyl expansion and Schur reconstruction interfaces are absent from the required learning operations.",
+      "correction": "Add finite Weyl-coordinate and Schur-elimination coverage with a nonsingular block and retained singular branch; identify the physical occupation-selection premise separately.",
+      "source_locations": [
+        "S02#/backbone_sequence/15/weyl_basis",
+        "S02#/backbone_sequence/15/schur_interface",
+        "S03#/findings/6"
+      ],
+      "affected_checkpoint_ids": [
+        "course-20:lesson-03",
+        "course-20:lesson-07"
+      ],
+      "disposition": "unresolved"
+    },
+    {
+      "id": "SC-004",
+      "audit_level": "cumulative",
+      "category": "subject coverage",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-18-history-orientation-and-chirality\\input-contract.json",
+      "section": "/coverage_matrix; series coverage of BR-05 and BR-10",
+      "severity": "major",
+      "defect": "The angular/spin representation tower and CP-capability/real-carry obstruction have no explicit introduction, practice or assessment row anywhere in the 30-course map.",
+      "correction": "Add bounded source-reading and small arithmetic/matrix cases in course-18, after complex carriers and gauge transport. Keep full representation classification as a named extension and preserve each branch boundary.",
+      "source_locations": [
+        "S02#/branch_proofs/5",
+        "S02#/proof_nodes/4",
+        "S02#/proof_nodes/18",
+        "S02#/proof_nodes/25",
+        "S02#/branch_proofs/10",
+        "S02#/proof_nodes/9",
+        "S02#/proof_nodes/76"
+      ],
+      "affected_checkpoint_ids": [
+        "course-18:lesson-06",
+        "course-18:lesson-07"
+      ],
+      "disposition": "unresolved"
+    },
+    {
+      "id": "SC-005",
+      "audit_level": "cumulative",
+      "category": "subject coverage",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\input-contract.json",
+      "section": "/course_map/2; /coverage_matrix",
+      "severity": "major",
+      "defect": "The seven-coordinate syndrome is covered, but the separate Walsh/S3 compatibility branch BR-11 is not assigned. Equal dimension can therefore be mistaken for a canonical physical map.",
+      "correction": "Add a character-table scope exercise with the source's noncanonical compatibility guard; require an explicit operator/intertwiner and pinned A,L,W7 for full replay.",
+      "source_locations": [
+        "S02#/branch_proofs/11",
+        "S02#/proof_nodes/10",
+        "S02#/proof_nodes/11",
+        "S02#/proof_nodes/23",
+        "S03#/findings/8"
+      ],
+      "affected_checkpoint_ids": [
+        "course-21:lesson-03",
+        "course-21:lesson-04"
+      ],
+      "disposition": "unresolved"
+    },
+    {
+      "id": "SC-006",
+      "audit_level": "local",
+      "category": "assessment prerequisite",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\input-contract.json",
+      "section": "/capstone_specification/task; /course_map/4; /course_map/5",
+      "severity": "major",
+      "defect": "The capstone explicitly requires reaction-energy bookkeeping, but no preceding course-21 operation teaches or practices that calculation; atomic inventory and binding interpretation alone do not close it.",
+      "correction": "Teach a small explicitly supplied mass-to-energy conversion with units and endpoint conventions before assessment, retaining every mass/binding difference and avoiding any inference of rate or extractable power.",
+      "source_locations": [
+        "S05#/records/28",
+        "S05#/records/29",
+        "S05#/records/30"
+      ],
+      "affected_checkpoint_ids": [
+        "course-21:lesson-05",
+        "course-21:lesson-06",
+        "course-21:capstone"
+      ],
+      "disposition": "unresolved"
+    },
+    {
+      "id": "SC-007",
+      "audit_level": "cumulative",
+      "category": "source fidelity",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-28-photometer-experiments-and-information-preserving-analysis\\input-contract.json",
+      "section": "/course_map/3; /course_map/5",
+      "severity": "major",
+      "defect": "The signal strand asks for symmetry and harmonic comparisons, but does not explicitly cover the S05 finding that an antipodally symmetric synthetic comparator has zero odd harmonics and cannot test observed odd channels or the odd {1,3,9,27} scale ladder.",
+      "correction": "Add a hand-checkable parity-nullspace diagnostic in courses26/28; retain odd measured modes and the proposed 25-27-to-2 triad as separate source-reported branches.",
+      "source_locations": [
+        "S05#/records/15",
+        "S05#/records/16",
+        "S05#/records/20",
+        "S05#/records/25",
+        "S05#/records/26",
+        "S05#/records/27"
+      ],
+      "affected_checkpoint_ids": [
+        "course-26:lesson-05",
+        "course-28:lesson-04",
+        "course-28:lesson-06"
+      ],
+      "disposition": "unresolved"
+    },
+    {
+      "id": "SC-008",
+      "audit_level": "local",
+      "category": "mathematical domain",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-18-history-orientation-and-chirality\\input-contract.json",
+      "section": "/course_map/1; /course_map/2; /capstone_specification",
+      "severity": "major",
+      "defect": "The finite history model is not explicitly guarded against asserting both W*W=I and WW*!=I on the same finite square carrier. Those source identities describe an infinite shift; a truncated square shift has an endpoint defect.",
+      "correction": "Use rectangular prefix maps or preserve both root and truncation-boundary defects in finite examples; scope the one-sided infinite isometry separately.",
+      "source_locations": [
+        "S02#/backbone_sequence/13/definitions"
+      ],
+      "affected_checkpoint_ids": [
+        "course-18:lesson-02",
+        "course-18:lesson-03",
+        "course-18:capstone"
+      ],
+      "disposition": "unresolved"
+    }
+  ]
+}

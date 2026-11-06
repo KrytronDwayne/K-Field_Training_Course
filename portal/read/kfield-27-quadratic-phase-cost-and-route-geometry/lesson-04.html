@@ -1,0 +1,80 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Lesson 4 — Integrating cost along a path · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/27">Course 27</a><span>/</span><span>lesson 04</span></div><a class="original" href="../../../kfield-27-quadratic-phase-cost-and-route-geometry/lesson-04.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#lesson-4-integrating-cost-along-a-path">Lesson 4 — Integrating cost along a path</a><a href="#c2704-e1-a-path-is-more-than-its-endpoints">C27.04-E1 — A path is more than its endpoints</a><a href="#c2704-w1-straight-path-and-dogleg">C27.04-W1 — Straight path and dogleg</a><a href="#c2704-p1-practice-and-worked-answers">C27.04-P1 — Practice and worked answers</a><a href="#c2704-d1-diagnostic-checks">C27.04-D1 — Diagnostic checks</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 1 — A quadratic form as a directional cost</a><a  href="lesson-02.html">Lesson 2 — From plane counts to phase cost</a><a  href="lesson-03.html">Lesson 3 — Pullbacks and coordinate changes</a><a aria-current=page href="lesson-04.html">Lesson 4 — Integrating cost along a path</a><a  href="lesson-05.html">Lesson 5 — Route comparison and constraints</a><a  href="lesson-06.html">Lesson 6 — Certificates and precision residuals</a><a  href="lesson-07.html">Lesson 7 — Phase cost and physical coupling</a></details></aside><div class="reading-column"><article class="prose"><h1 id="lesson-4-integrating-cost-along-a-path" tabindex="-1">Lesson 4 — Integrating cost along a path</h1>
+<p><strong>Essential question:</strong> What information is needed to turn instantaneous cost into a path total?</p>
+<p><strong>Goals:</strong> Construct a signed segment ledger; compute cumulative cost and endpoint; verify subdivision without losing the original path.</p>
+<p><strong>Bridge:</strong> We can evaluate a quadratic rate in either coordinate system. Now multiply each rate by the time for which it acts. “Integrating” here means adding those contributions; our piecewise-constant velocities make the calculation exact using multiplication and addition alone. Piecewise means that each declared segment follows its own rule.</p>
+<p>Two 55-minute sessions: the first builds the ledger, the second checks subdivision and reconstruction. Each uses 5 retrieval, 20 teaching/example, 15 practice and 15 diagnostics/repair minutes.</p>
+<h2 id="c2704-e1-a-path-is-more-than-its-endpoints" tabindex="-1">C27.04-E1 — A path is more than its endpoints</h2>
+<p>Specify a fixed coordinate frame and origin, start position, strictly positive durations Δt_i, and velocities v_i. Index i labels time-ordered segments. During a segment the velocity is constant, so Δx_i=v_iΔt_i. Add displacements successively to recover positions. Reject missing durations, decreasing times and incompatible coordinate units; do not silently reorder them.</p>
+<p>With one constant positive metric G, define</p>
+<p>J = Σ_i Δt_i v_iᵀGv_i.</p>
+<p>The symbol Σ means “add the following expression for every listed index.” Under G's L⁻² classroom typing, each rate has units τ⁻² and J has units τ⁻¹. The cumulative cost after segment k is the sum only through k. Keep the segment values, signs, durations and ordering even when two paths have the same final J.</p>
+<p>This is exact for the declared piecewise-constant path. If a real instrument only samples velocities at endpoints, a constant segment between samples is a modeling choice. A linear interpolation would mean velocity changes evenly between endpoints and generally gives a different quadratic integral. For example, velocities (0,0) then (2,0)L/τ over τ have constant-mean-velocity cost 2/τ under our G; a genuinely linearly increasing velocity has cost 8/(3τ). The latter is a recognition-only extension, not a required calculus exercise. State interpolation and retain unresolved between-sample structure; cadence alone is not an accuracy guarantee. Our core problems supply the entire segment rule, so this ambiguity is absent.</p>
+<h2 id="c2704-w1-straight-path-and-dogleg" tabindex="-1">C27.04-W1 — Straight path and dogleg</h2>
+<p>Use G=[[2,1],[1,2]]L⁻², start (0,0)L, two segments of duration τ, and no obstacles. Let path A have velocities (1,0),(1,0)L/τ. Path B has velocities (1,1),(1,−1)L/τ. Evaluate the cross term with its sign on each segment.</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Path/segment</th>
+<th style="text-align: right;">Δt/τ</th>
+<th>v in L/τ</th>
+<th>End position in L</th>
+<th style="text-align: right;">Rate in τ⁻²</th>
+<th style="text-align: right;">Segment J in τ⁻¹</th>
+<th style="text-align: right;">Cumulative J in τ⁻¹</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A1</td>
+<td style="text-align: right;">1</td>
+<td>(1,0)</td>
+<td>(1,0)</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr>
+<td>A2</td>
+<td style="text-align: right;">1</td>
+<td>(1,0)</td>
+<td>(2,0)</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">4</td>
+</tr>
+<tr>
+<td>B1</td>
+<td style="text-align: right;">1</td>
+<td>(1,1)</td>
+<td>(1,1)</td>
+<td style="text-align: right;">2+2+2=6</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">6</td>
+</tr>
+<tr>
+<td>B2</td>
+<td style="text-align: right;">1</td>
+<td>(1,−1)</td>
+<td>(2,0)</td>
+<td style="text-align: right;">2−2+2=2</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">8</td>
+</tr>
+</tbody>
+</table></div>
+<p>Draw A through (0,0),(1,0),(2,0). Draw B through (0,0),(1,1),(2,0). Both end at (2,0)L after 2τ. The dogleg costs 8/τ versus 4/τ for A. The scalar total does not show that B's expensive segment came first; the ledger does.</p>
+<h2 id="c2704-p1-practice-and-worked-answers" tabindex="-1">C27.04-P1 — Practice and worked answers</h2>
+<p>Reverse B's segment order. Then split each A segment into two equal half-τ segments without changing velocity. Show endpoint and cumulative cost in each case, keeping a map to the old segments.</p>
+<p><strong>Answer:</strong> Reversed B has endpoint sequence (1,−1),(2,0)L, rates 2,6 per τ², contributions 2,6 per τ and cumulative costs 2,8 per τ. Total and endpoint match B, but intermediate position differs. For A, four half-τ segments each have rate 2/τ² and cost 1/τ. Cumulative costs are 1,2,3,4 per τ and positions (1/2,0),(1,0),(3/2,0),(2,0)L. New segments 1–2 reconstruct old A1 and 3–4 reconstruct A2 by adding their durations and increments. No original velocity is discarded.</p>
+<blockquote>
+<p><strong>Claim scope:</strong> These are explicitly synthetic complete paths. They are not a numerical replay of the named source route certificate. A coordinate cost gives a model total, not a detector energy measurement. No mean or scalar replaces the signed segment ledger.</p>
+</blockquote>
+<h2 id="c2704-d1-diagnostic-checks" tabindex="-1">C27.04-D1 — Diagnostic checks</h2>
+<ol>
+<li>What is wrong with adding rates while omitting durations?</li>
+<li>If each dogleg duration doubles with the same velocities, what endpoint and cost result?</li>
+<li>Does the reversed dogleg have the same cumulative history?</li>
+<li>Which conditions are needed before treating sampled data as our exact segment model?</li>
+</ol>
+<p><strong>Answers:</strong> (1) The result retains τ⁻² units and changes under arbitrary resampling; it is not J. (2) Endpoint (4,0)L and J=16/τ after 4τ, a different path specification. (3) No; first cumulative values are 2/τ versus 6/τ, though both finish at 8/τ. (4) Explicit durations, frame, metric and interpolation, plus the assumption of constant velocity within each segment. Physical variation not supplied by the samples remains unresolved, not deleted.</p>
+<p><strong>Next dependency:</strong> <a href="lesson-05.html">Lesson 5</a> asks whether the straight route minimizes cost among all allowed paths.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><a class="button secondary" href="lesson-03.html">← Previous lesson</a><a class="button" href="lesson-05.html">Next lesson →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/27">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

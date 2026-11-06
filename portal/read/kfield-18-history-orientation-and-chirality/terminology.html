@@ -1,0 +1,284 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Terminology and notation · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/18">Course 18</a><span>/</span><span>terminology</span></div><a class="original" href="../../../kfield-18-history-orientation-and-chirality/terminology.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#terminology-and-notation">Terminology and notation</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 01 — Address histories as words</a><a  href="lesson-02.html">Lesson 02 — Shift operators and endpoint defects</a><a  href="lesson-03.html">Lesson 03 — Isometry versus reversible evolution</a><a  href="lesson-04.html">Lesson 04 — History projectors</a><a  href="lesson-05.html">Lesson 05 — Spatial handedness and a time direction</a><a  href="lesson-06.html">Lesson 06 — Chirality as a graded construction</a><a  href="lesson-07.html">Lesson 07 — The source K4 construction</a></details></aside><div class="reading-column"><article class="prose"><h1 id="terminology-and-notation" tabindex="-1">Terminology and notation</h1>
+<p>All finite teaching vectors and matrix entries are dimensionless. Source objects retain their source-local types. Similar notation is not permission to merge objects.</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Term/symbol</th>
+<th>Meaning in this course</th>
+<th>First taught</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>word, prefix</td>
+<td>Ordered finite letters; prefix adds on the left</td>
+<td>01</td>
+</tr>
+<tr>
+<td>Ω</td>
+<td>Empty-word label, distinct from zero vector</td>
+<td>01</td>
+</tr>
+<tr>
+<td>e_w, e_j</td>
+<td>Unit coordinate vector at a word or numbered chain slot</td>
+<td>01–02</td>
+</tr>
+<tr>
+<td>amplitude/coefficient ledger</td>
+<td>Complete ordered list of signed/complex entries, including zeros</td>
+<td>01</td>
+</tr>
+<tr>
+<td>orthogonal vectors</td>
+<td>Dot product zero; complex version uses conjugates</td>
+<td>01, 07</td>
+</tr>
+<tr>
+<td>linear map</td>
+<td>Apply to unit coordinates, multiply by coefficients and add</td>
+<td>02</td>
+</tr>
+<tr>
+<td>S (history)</td>
+<td>Three-state square shift, S(x,y,z)=(0,x,y)</td>
+<td>02</td>
+</tr>
+<tr>
+<td>T</td>
+<td>Rectangular isometry T(a,b)=(0,a,b)</td>
+<td>02</td>
+</tr>
+<tr>
+<td>U</td>
+<td>Explicit infinite unilateral shift on l²(N_0)</td>
+<td>02</td>
+</tr>
+<tr>
+<td>L_a, L_b</td>
+<td>Full binary toy prefix operators; not source B_8 labels</td>
+<td>02</td>
+</tr>
+<tr>
+<td>†</td>
+<td>Adjoint: transpose for real matrices; conjugate transpose for complex matrices</td>
+<td>02, 07</td>
+</tr>
+<tr>
+<td>I_n, diag</td>
+<td>Identity on n slots; matrix with given diagonal and zero elsewhere</td>
+<td>02</td>
+</tr>
+<tr>
+<td>rank</td>
+<td>Number of independent output directions</td>
+<td>02</td>
+</tr>
+<tr>
+<td>kernel</td>
+<td>Inputs mapped to zero</td>
+<td>02</td>
+</tr>
+<tr>
+<td>cokernel dimension</td>
+<td>Number of missing output directions; equals dim ker of adjoint in these examples</td>
+<td>02</td>
+</tr>
+<tr>
+<td>index</td>
+<td>dim kernel minus dim cokernel</td>
+<td>02</td>
+</tr>
+<tr>
+<td>input/terminal defect</td>
+<td>I−S†S for finite S; retains destroyed terminal input</td>
+<td>02</td>
+</tr>
+<tr>
+<td>output/root defect</td>
+<td>I−SS† for finite S; selects unreachable root output</td>
+<td>02</td>
+</tr>
+<tr>
+<td>||v||²</td>
+<td>Sum of squared entries (squared magnitudes if complex)</td>
+<td>03</td>
+</tr>
+<tr>
+<td>isometry</td>
+<td>Linear map preserving every input norm</td>
+<td>03</td>
+</tr>
+<tr>
+<td>injective, surjective, bijective</td>
+<td>Distinct inputs stay distinct; onto codomain; both properties</td>
+<td>03</td>
+</tr>
+<tr>
+<td>image, complement</td>
+<td>Reached subspace; retained perpendicular part in our orthogonal decompositions</td>
+<td>03</td>
+</tr>
+<tr>
+<td>projector, idempotent</td>
+<td>P²=P; an orthogonal projector also satisfies P†=P</td>
+<td>04</td>
+</tr>
+<tr>
+<td>P_0, q_n</td>
+<td>Root selection and shifted selections in finite chain</td>
+<td>04</td>
+</tr>
+<tr>
+<td>B (spatial)</td>
+<td>Ordered basis columns; diagonal examples are synthetic</td>
+<td>05</td>
+</tr>
+<tr>
+<td>determinant</td>
+<td>Signed volume scaling; diagonal determinant is entry product</td>
+<td>05</td>
+</tr>
+<tr>
+<td>coframe, covector</td>
+<td>Ordered coordinate readers; a reader is a linear scalar-valued map</td>
+<td>05</td>
+</tr>
+<tr>
+<td>τ, θ¹,θ²,θ³</td>
+<td>Declared time reader and ordered spatial readers</td>
+<td>05</td>
+</tr>
+<tr>
+<td>handedness</td>
+<td>Sign of spatial basis orientation relative to fixed reference</td>
+<td>05</td>
+</tr>
+<tr>
+<td>grading G</td>
+<td>G²=I; generic two-state toy diag(1,−1)</td>
+<td>06</td>
+</tr>
+<tr>
+<td>P_plus, P_minus</td>
+<td>(I±G)/2; generic grade selectors</td>
+<td>06</td>
+</tr>
+<tr>
+<td>P_L, P_R</td>
+<td>L/R factor selectors; source convention uses ∓γ_5</td>
+<td>06–07</td>
+</tr>
+<tr>
+<td>exterior parity</td>
+<td>Even/odd number of basis labels in an exterior product; separate internal factor</td>
+<td>07</td>
+</tr>
+<tr>
+<td>⊗</td>
+<td>Pair independent factor labels and act on each factor</td>
+<td>06</td>
+</tr>
+<tr>
+<td>Π</td>
+<td>Toy correlation selector diag(1,0,0,1)</td>
+<td>06</td>
+</tr>
+<tr>
+<td>Π_phys</td>
+<td>Source M14 correlation; not identified with toy's physical realization</td>
+<td>07</td>
+</tr>
+<tr>
+<td>anticommutator</td>
+<td>AB+BA; vanishes for G and swap X</td>
+<td>06</td>
+</tr>
+<tr>
+<td>ell, m, j</td>
+<td>Angular block label, cutoff, spin-regrouped label</td>
+<td>06</td>
+</tr>
+<tr>
+<td>H_ell, direct sum</td>
+<td>Angular carrier; blocks placed beside each other so dimensions add</td>
+<td>06</td>
+</tr>
+<tr>
+<td>C₂</td>
+<td>Source-supplied angular invariant with eigenvalue ell(ell+1)</td>
+<td>06</td>
+</tr>
+<tr>
+<td>Hamiltonian</td>
+<td>Operator specifying energy; not determined by a dimension count</td>
+<td>06</td>
+</tr>
+<tr>
+<td>F_hist, B_8*</td>
+<td>Source l² word carrier and all finite words over source alphabet</td>
+<td>01, 07</td>
+</tr>
+<tr>
+<td>l², N_0</td>
+<td>Square-summable coefficient lists; indices 0,1,2,…</td>
+<td>01–02</td>
+</tr>
+<tr>
+<td>W, P_Π, T_0</td>
+<td>Source M14 isometry, defect projection and radial operator; retain source scope</td>
+<td>04, 07</td>
+</tr>
+<tr>
+<td>γ_μ, γ_5</td>
+<td>Source Clifford matrices and oriented product grading</td>
+<td>07</td>
+</tr>
+<tr>
+<td>signature</td>
+<td>Pattern of positive/negative metric directions</td>
+<td>07</td>
+</tr>
+<tr>
+<td>intertwiner</td>
+<td>Map preserving the relevant actions between carriers; not supplied by equal dimensions</td>
+<td>07</td>
+</tr>
+<tr>
+<td>i, conjugate</td>
+<td>i²=−1; conjugate of a+bi is a−bi</td>
+<td>07</td>
+</tr>
+<tr>
+<td>[A,B]</td>
+<td>AB−BA, the commutator</td>
+<td>07</td>
+</tr>
+<tr>
+<td>pointwise algebra</td>
+<td>Maps multiply each slot separately; a common diagonal representation</td>
+<td>07</td>
+</tr>
+<tr>
+<td>CP</td>
+<td>Source charge-conjugation/parity branch; algebraic scope kept explicit</td>
+<td>07</td>
+</tr>
+<tr>
+<td>A_0, S (CP witness)</td>
+<td>Positive diagonal input and its square root, distinct from history S</td>
+<td>07</td>
+</tr>
+<tr>
+<td>ω, D, Y_u, Y_d</td>
+<td>Cubic phase, diagonal phase map and supplied witness matrices</td>
+<td>07</td>
+</tr>
+<tr>
+<td>VERIFIED_NOT_LOADED</td>
+<td>Source missing-replay-body disposition; not fresh proof by this course</td>
+<td>07</td>
+</tr>
+</tbody>
+</table></div>
+<p>Reserved series notation: M_cell=BᵀB, R_cell=M_cell^−1, G_phase (phase metric), G_eff (effective metric) and O_K (physical origin) keep distinct meanings. The generic grade G is not any of those metrics. Source reciprocal/affine formulas require x−O_K; no affine identity is computed here. Source color-first C_3 direct-sum W_2 is an internal carrier convention, not a swap of spacetime labels. Detector parity, A1 carry parity, projective sign, family labels, primitive lifts, chirality and dyadic/ternary recursion labels remain separately typed.</p></article><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/18">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

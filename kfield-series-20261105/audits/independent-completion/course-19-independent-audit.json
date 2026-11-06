@@ -1,0 +1,820 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-19",
+  "title": "Independent completed-course audit: Action, Topology, and Phase Closure",
+  "reviewed_utc": "2026-11-05T19:35:15.985440+00:00",
+  "status": "passed",
+  "manifest_sha256": "acb9d98e720bcf42728ad02faee13e9a045d85026118ccf82d86f762b92a6a42",
+  "scope": {
+    "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure",
+    "read": "All seven actual student lessons and worked answers/diagnostics; complete capstone/key/rubric; teacher guide, glossary, map, source/provenance notes, input and teaching contracts, applicable source correction, builder audit/recovery/verification records. Course assembly compared to all seven read lesson texts. Build scripts inspected, not executed.",
+    "source_scope": "Direct pinned S02 M15 and M10/M13/M14 dependencies plus S03 AUD-009. All five archival inputs rehashed; relevant bodies read in place. No copied source dataset.",
+    "independent_work": "New auditor-owned Fraction arithmetic and exact complex-pair operations; no import or execution of builder or parent calculation functions.",
+    "writes": "Only local auditor intermediate verifier and the requested two outputs. No source, course, parent, Desktop, skill or settings edits."
+  },
+  "audited_files": {
+    "audit_report.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure\\audit_report.json",
+      "sha256": "fdfcf4472fe23e82807bd02801722667eafe7741f1a64f870e673b64a1cfa10c"
+    },
+    "build_course.py": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure\\build_course.py",
+      "sha256": "fa65d35c9d28f3a7da640fcfa5d8f8c83ebcd0de764c22b094564d04067fafe9"
+    },
+    "capstone.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure\\capstone.md",
+      "sha256": "ae656960c7a09662463efa78e1f844729f849b866b145c19512c0e42722da7c2"
+    },
+    "completion_report.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure\\completion_report.json",
+      "sha256": "7292d15fd67252c9ca4c37328f10d3cf6a552f0169ff6e85ddfefd110d5000c9"
+    },
+    "course-map.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure\\course-map.md",
+      "sha256": "8d15a629bf0eb3bfecf2ebd6317ae7479350110d115dd08d8de2422d879fb6ba"
+    },
+    "course.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure\\course.md",
+      "sha256": "a81e6bfa96181f6cbce06a115d71767458317e9e02be9f8f6f142a3c709f184c"
+    },
+    "finalize_course.py": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure\\finalize_course.py",
+      "sha256": "8d6870247da7fe0ab122b27f0d8b49f1eb9d24de60a9e9269162e0ce07775c7d"
+    },
+    "independent-audit.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure\\independent-audit.json",
+      "sha256": "bf3180873ce8faef0fde331f009864ff3689a66f4dc0810919141d15500e50e8"
+    },
+    "input-contract.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure\\input-contract.json",
+      "sha256": "f8262bf1261fd455b7bb88f920a8ba1ba4953f10f70fc5cae481ade28017f351"
+    },
+    "launch-prompt.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure\\launch-prompt.md",
+      "sha256": "c7a5bd52930537776467f22df47399dadcf3b6437e15583b4b01f2c626fe22d9"
+    },
+    "lesson-01.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure\\lesson-01.md",
+      "sha256": "7f18b94bc7908f21cd0caba22d8320b7ed7d112c083f698036bcada4144455c5"
+    },
+    "lesson-02.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure\\lesson-02.md",
+      "sha256": "8d735be36ba455de49f78673f7228aac0ce8d994462f3e1dc65443082d4928a6"
+    },
+    "lesson-03.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure\\lesson-03.md",
+      "sha256": "c7e1834cec493ab55688a423f73789b386f3c9f82936df6ac57ed128482fdea3"
+    },
+    "lesson-04.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure\\lesson-04.md",
+      "sha256": "90f7fadef75dc59502967c975b5e296354093c58d77b3639c8042802d3762220"
+    },
+    "lesson-05.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure\\lesson-05.md",
+      "sha256": "43987acd0e25f47d70c3eb306aee205f868863e23cdf1ac8b5f6e8fdc899c027"
+    },
+    "lesson-06.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure\\lesson-06.md",
+      "sha256": "8b7a21a36055109eb290cbbcbfbfcf3443ae76bd74d20a0ea58c2219cdaf7aa2"
+    },
+    "lesson-07.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure\\lesson-07.md",
+      "sha256": "da87beb80d4bba9d0e985936f8ba3c1d0c3eaed908f5580cdeb316664135906e"
+    },
+    "manifest.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure\\manifest.json",
+      "sha256": "acb9d98e720bcf42728ad02faee13e9a045d85026118ccf82d86f762b92a6a42"
+    },
+    "sources.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure\\sources.md",
+      "sha256": "aa54961cb225bd30c1d81d532a6d5a12e929f81a2df8554a63b341b794d2b655"
+    },
+    "teacher-guide.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure\\teacher-guide.md",
+      "sha256": "718208995b49f217de979df76374662cc23c59cd52f2140ce3f125fe2ac5b54f"
+    },
+    "terminology.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure\\terminology.md",
+      "sha256": "8f408361b5aa72c0beb4bd7df3628a52e22390d863a1c97bc3431c55fb07f5e6"
+    },
+    "verify_examples.py": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure\\verify_examples.py",
+      "sha256": "53d7ea18313262875811cc39a663c137099390359946ac9a8b26c35c935044f6"
+    },
+    "worked-example-verification.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure\\worked-example-verification.json",
+      "sha256": "6226d92abd29497c272c35266756785128325d712f231b94bd9068b4197baeb1"
+    }
+  },
+  "source_hashes": [
+    {
+      "id": "S01",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180"
+    },
+    {
+      "id": "S02",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3"
+    },
+    {
+      "id": "S03",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e"
+    },
+    {
+      "id": "S04",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+      "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2"
+    },
+    {
+      "id": "S05",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+      "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7"
+    }
+  ],
+  "integration_provenance": {
+    "retrieval": "Fresh read-only capabilities and sparse project RAG search, prefix kfield_standard_model/, rerank=false. Bounded excerpts only; no complete archive or compiler execution.",
+    "corpus_generation": "sha256:5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+    "manifest_sha256": "5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+    "rag_index_sha256": "aca56e6b5b2b717459cea9790e6142ea9e8058f74d135710906926e9065ad54a",
+    "sources": [
+      {
+        "logical_path": "kfield_standard_model/evidence/p12_standard_model_compiler_adjudication_report.json",
+        "sha256": "a3dfca0e55e525c6522c3088b95e5bcc048c141fce340bfe980fcfc14123220a",
+        "locator": {
+          "end_line_inclusive": 101,
+          "kind": "lines",
+          "start_line": 1
+        },
+        "object_id": "ragobj:8539daf4cdda9c1c7d0666326b9ab394057e802a8dde351c45e283a7ad70ad09",
+        "chunk_id": "ragchunk:43bdac5e9a571cbb34cf44f9e74a42a0ec9d32dbc72d3e521427d3fac382e4f6"
+      },
+      {
+        "logical_path": "kfield_standard_model/project_record.json",
+        "sha256": "3800c854da827a64e72507722904bcafab07a31e88f2bc73920a8e7f62f62c1c",
+        "locator": {
+          "end_line_inclusive": 142,
+          "kind": "lines",
+          "start_line": 1
+        },
+        "object_id": "ragobj:66f227dde0830ee67ec6225f58676e0a9720e8c496c56496f10651bfcb3c7572",
+        "chunk_id": "ragchunk:652038a03809b0c0a74e1cdd51fe8fbe4564d05dbf3916ca1e0dfeb9f2a8573e"
+      },
+      {
+        "logical_path": "kfield_standard_model/formal/KField/StandardModelCompilerAdjudication.agda",
+        "sha256": "01c849f3d184f367e0c53e1e00f521fa2fad98c1682d0aaa03e7de30667840ad",
+        "locator": {
+          "end_line_inclusive": 199,
+          "kind": "lines",
+          "start_line": 1
+        },
+        "object_id": "ragobj:37975e0e7221988187224110120ce25bfe97f5367d647a0452b466a1ce1e79a1",
+        "chunk_id": "ragchunk:56f34a7b7214de44399a2077554beb691dcef8e2af1e82fb4bc9c1a6d625c8a8"
+      }
+    ],
+    "digest_scope": "Remote source identities are supplied by the retrieval service. Local archival S01-S05 digests are independently recomputed from bytes.",
+    "disposition": "Compiler direct authority is limited to M03/M07/M08 in the retrieved adjudication. The retrieved compiler source labels compiler M15 externalBlocked/empiricalSocket; compiler and mathematical-backbone M15 are not automatically the same object.",
+    "global_form": "The accepted integration retains Z1,Z2,Z3,Z6 without selecting one. The mathematical M10/M15 Z6 descent architecture is kept source-local rather than silently promoted to an integration-wide unique global-form conclusion.",
+    "fresh_compiler_execution": false
+  },
+  "findings": [
+    {
+      "id": "C19-IND-001",
+      "level": "cumulative",
+      "category": "terminology_navigation",
+      "severity": "minor",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure\\terminology.md",
+      "section": "First lesson column, rows for tau and Tr/T/G^-1",
+      "lines": [
+        18,
+        30
+      ],
+      "defect": "The column says First lesson, but tau is declared as the trivialization in lesson04 line11 while the glossary gives05. Trace and transpose are already explained in lesson01 line31, while their grouped row gives07. Later detailed teaching is correctly located, but these are not accurate first-introduction pointers.",
+      "correction": "Author changed tau to04 (rebasing in05) and split Tr,T first01 from G^-1 first07.",
+      "verification": "Independently verified corrected tau first location04, separate trace/transpose first01, and inverse/trace-conjugation07. Only glossary/audit/manifest/completion changed; source and lesson bytes unchanged.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "terminology"
+      ],
+      "blocks_acceptance": false,
+      "resolved_utc": "2026-11-05T19:35:15.985440+00:00"
+    }
+  ],
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "verified_repairs": [
+    {
+      "id": "IA-01",
+      "reported_severity": "minor",
+      "status": "verified_corrected",
+      "evidence": "Lesson05 line19 includes tau(s+t)=tau(s)+tau(t) and tau(zE)=z tau(E), completing the definition of linearity without changing the valid rebase calculation."
+    },
+    {
+      "id": "IA-02",
+      "reported_severity": "major",
+      "status": "verified_corrected",
+      "evidence": "Actual source-term practice and answer are in lesson01 line43; actual five-role practice and answer are in lesson07 line41. Both occur in the mapped P1 sections and cover the capstone's formerly missing suboperations.",
+      "locations": {
+        "lesson-01.md": [
+          {
+            "fragment": "**Source-reading practice:**",
+            "lines": [
+              43
+            ]
+          },
+          {
+            "fragment": "They are the rate-quadratic term",
+            "lines": [
+              43
+            ]
+          }
+        ],
+        "lesson-05.md": [
+          {
+            "fragment": "τ(s+t)=τ(s)+τ(t)",
+            "lines": [
+              19
+            ]
+          },
+          {
+            "fragment": "τ(zE)=z τ(E)",
+            "lines": [
+              19
+            ]
+          }
+        ],
+        "lesson-07.md": [
+          {
+            "fragment": "**Role-classification practice:**",
+            "lines": [
+              41
+            ]
+          },
+          {
+            "fragment": "M_cell is a locked root in this ledger",
+            "lines": [
+              41
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "lesson_reviews": [
+    {
+      "lesson": "lesson-01",
+      "status": "passed",
+      "capstone": "C19-CAP-01",
+      "evidence": "E1 teaches state/time/index/domain/left-endpoint conventions and dimensional roles. W1 gives the complete worked unit ledger. The source card identifies and explains all four source terms. P1 answers the practice path ledger, and its repaired source-reading question/answer at line43 explicitly practices all four term names and missing inputs.",
+      "result": "Three states, two intervals, q dimensionless, rates TU^-1, k AU*TU, vpot AU/TU and action AU are consistent. W1 and P1 have different endpoints; the course explicitly does not compare them as paths of one boundary problem."
+    },
+    {
+      "lesson": "lesson-02",
+      "status": "passed",
+      "capstone": "C19-CAP-02",
+      "evidence": "E1 defines K,V,a and component residual reconstruction. W1 evaluates all rows, checks by grouped totals, and recalculates changed dt. P1 preserves the zero and negative terms with an independently answered residual vector. Diagnostics include a zero-total path and unavailable probabilities.",
+      "result": "W1 has a=(1,3),S=4 AU; dt=2 gives a=(1/2,0),S=1/2 AU. P1/capstone has K=(1,0),V=(1,4),a=(0,-4),m=(1,-4),r=(-1,0),S=-4 AU. Signed action is not measured energy or a transition-rate prediction."
+    },
+    {
+      "lesson": "lesson-03",
+      "status": "passed",
+      "capstone": "C19-CAP-03",
+      "evidence": "Quarter-turn multiplication and inverses are explicitly taught. E1 substitutes the whole-loop frame transformation and cancels adjacent factors. W1 shows a nonclosing loop remains -1; P1 works all transformed links for a closing loop and gives inverse reconstruction. Open endpoints are separately diagnosed.",
+      "result": "Worked links become (-1,i,-i), P=-1 and residual -2. Practice links become (-1,1,-1), P=1. All 64 quarter-phase frame triples preserve each of the two products and recover their original link lists in the auditor's finite sweep."
+    },
+    {
+      "lesson": "lesson-04",
+      "status": "passed",
+      "capstone": "C19-CAP-04",
+      "evidence": "All six named source factors remain in ordered tables. E1 explicitly declares tau(E)=1 before scalar multiplication; W1 and P1 contain full running products and omitted-factor tests. Diagnostics distinguish unavailable, known unit, and algebraically required but unobserved factors.",
+      "result": "Both complete packets multiply to1. Deleting heavy=-i in W1 or cap=-i in P1 gives i with retained residual -1+i. Omitting induced=1 can preserve a numeric total but loses a required contribution record."
+    },
+    {
+      "lesson": "lesson-05",
+      "status": "passed",
+      "capstone": "C19-CAP-05",
+      "evidence": "One-dimensional line/basis/coefficient rules, tensor multiplication and the fixed map tau are introduced before rebasing. The corrected linearity definition includes both additivity and scalar multiplication. W1 UV and P1 cap transformations show new coefficients, composite basis, tau value, scalar and reverse recovery.",
+      "result": "UV rebase by i yields Z'=-i,tau(E')=i,Phi'=1. Cap rebase by -1 yields z'_cap=i,Z'=-1,tau(E')=-1,Phi'=1. Forgetting tau's basis value produces the explicitly incorrect control -i or -1, not a global construction."
+    },
+    {
+      "lesson": "lesson-06",
+      "status": "passed",
+      "capstone": "C19-CAP-06",
+      "evidence": "E1 reads determinant-lock architecture but separately declares integer coordinates and proves the integral-pairing implication. W1 supplies four passing dual examples and two-route pairing. P1 answers the new lattice vector/pairing, fails an invalid candidate, and audits both complete admitted-sector rows.",
+      "result": "h values are1,1,1,0; worked n=(2,3/4,1/24),pair=4; practice n=(4/3,2,1/18),pair=5. Candidate(1,1,0) fails h=7/12 despite passing one n. Complete sector-b phase=-1,residual=-2 is retained; missing factors imply undetermined, not inferred closure."
+    },
+    {
+      "lesson": "lesson-07",
+      "status": "passed",
+      "capstone": "C19-CAP-07",
+      "evidence": "E1 defines all five premise roles and a separate evidence column, and derives the finite trace-conjugation identity with square/invertible hypotheses. W1 classifies explicit rows. P1 inventories damaged inputs and restores only declared toy records; the repaired line41 question/answer practices all five roles before assessment.",
+      "result": "Positivity/admitted membership are domain conditions, boundary values state coordinates, toy action a constitutive rule, locked geometry a fixed root, and trace conjugation a conditional finite theorem. Source missing bodies, physical admission and global trivialization are not filled by toy values."
+    }
+  ],
+  "actual_capstone_practice_links": [
+    {
+      "step_id": "C19-CAP-01",
+      "lesson": "lesson-01.md",
+      "locations": {
+        "explanation_id": {
+          "id": "C19.01-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C19.01-W1",
+          "line": 21
+        },
+        "prior_practice_id": {
+          "id": "C19.01-P1",
+          "line": 37
+        },
+        "diagnostic_id": {
+          "id": "C19.01-D1",
+          "line": 47
+        }
+      }
+    },
+    {
+      "step_id": "C19-CAP-02",
+      "lesson": "lesson-02.md",
+      "locations": {
+        "explanation_id": {
+          "id": "C19.02-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C19.02-W1",
+          "line": 15
+        },
+        "prior_practice_id": {
+          "id": "C19.02-P1",
+          "line": 30
+        },
+        "diagnostic_id": {
+          "id": "C19.02-D1",
+          "line": 38
+        }
+      }
+    },
+    {
+      "step_id": "C19-CAP-03",
+      "lesson": "lesson-03.md",
+      "locations": {
+        "explanation_id": {
+          "id": "C19.03-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C19.03-W1",
+          "line": 21
+        },
+        "prior_practice_id": {
+          "id": "C19.03-P1",
+          "line": 25
+        },
+        "diagnostic_id": {
+          "id": "C19.03-D1",
+          "line": 35
+        }
+      }
+    },
+    {
+      "step_id": "C19-CAP-04",
+      "lesson": "lesson-04.md",
+      "locations": {
+        "explanation_id": {
+          "id": "C19.04-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C19.04-W1",
+          "line": 15
+        },
+        "prior_practice_id": {
+          "id": "C19.04-P1",
+          "line": 32
+        },
+        "diagnostic_id": {
+          "id": "C19.04-D1",
+          "line": 42
+        }
+      }
+    },
+    {
+      "step_id": "C19-CAP-05",
+      "lesson": "lesson-05.md",
+      "locations": {
+        "explanation_id": {
+          "id": "C19.05-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C19.05-W1",
+          "line": 23
+        },
+        "prior_practice_id": {
+          "id": "C19.05-P1",
+          "line": 29
+        },
+        "diagnostic_id": {
+          "id": "C19.05-D1",
+          "line": 39
+        }
+      }
+    },
+    {
+      "step_id": "C19-CAP-06",
+      "lesson": "lesson-06.md",
+      "locations": {
+        "explanation_id": {
+          "id": "C19.06-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C19.06-W1",
+          "line": 25
+        },
+        "prior_practice_id": {
+          "id": "C19.06-P1",
+          "line": 33
+        },
+        "diagnostic_id": {
+          "id": "C19.06-D1",
+          "line": 43
+        }
+      }
+    },
+    {
+      "step_id": "C19-CAP-07",
+      "lesson": "lesson-07.md",
+      "locations": {
+        "explanation_id": {
+          "id": "C19.07-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C19.07-W1",
+          "line": 17
+        },
+        "prior_practice_id": {
+          "id": "C19.07-P1",
+          "line": 35
+        },
+        "diagnostic_id": {
+          "id": "C19.07-D1",
+          "line": 47
+        }
+      }
+    }
+  ],
+  "capstone_semantic_review": {
+    "status": "passed",
+    "steps": [
+      {
+        "step": "C19-CAP-01",
+        "points": 12,
+        "practice": "C19.01-P1",
+        "judgment": "Specification and source-term recognition both have actual answered practice, including the repaired source-card subquestion; original source values remain unavailable."
+      },
+      {
+        "step": "C19-CAP-02",
+        "points": 15,
+        "practice": "C19.02-P1",
+        "judgment": "Every row, model remainder, total reconstruction and sign interpretation is explained and practiced, rather than merely appearing in the key."
+      },
+      {
+        "step": "C19-CAP-03",
+        "points": 12,
+        "practice": "C19.03-P1",
+        "judgment": "Local links, products and inverse formula are practiced. The general scalar cancellation explanation is taught in E1 and illustrated by nonclosing W1."
+      },
+      {
+        "step": "C19-CAP-04",
+        "points": 12,
+        "practice": "C19.04-P1",
+        "judgment": "Six running products, deletion of cap, complex residual and retention of unit heavy are all practiced with the same declared reading rule."
+      },
+      {
+        "step": "C19-CAP-05",
+        "points": 14,
+        "practice": "C19.05-P1",
+        "judgment": "Cap coefficient, Z', tau(E'), invariant scalar and reverse coefficient are explicitly answered prior work; no global existence proof is required."
+      },
+      {
+        "step": "C19-CAP-06",
+        "points": 20,
+        "practice": "C19.06-P1",
+        "judgment": "Both pairing routes and the candidate failure are practiced. Capstone changes sector row values but introduces no operation; its b row ends -i rather than lesson06's -1, and was independently recalculated."
+      },
+      {
+        "step": "C19-CAP-07",
+        "points": 15,
+        "practice": "C19.07-P1",
+        "judgment": "Five-role classification and missing-input repair both have actual answered practice. Restored induced values are sector-specific (i for a,-i for b), not inferred from a closure demand."
+      }
+    ],
+    "total_points": 100,
+    "answer_key": "All finite answers independently recomputed, including the distinct capstone sector-b row, fixed tau under rebasing, signed component reconstruction and both dual-pairing routes.",
+    "mastery": "Teacher/rubric require correction of missing-factor, trivialization, unit or scope errors regardless of aggregate score."
+  },
+  "amendment_review": {
+    "applied_source_amendments": {},
+    "teaching_contract": "/teaching_blueprint_contract/course_amendment in the hashed input-contract.json",
+    "teaching_receipt": {
+      "path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-teaching-auditor\\outputs\\teaching-verification-17-20.json",
+      "sha256": "95f3b9026083e396970204003ff19e5b6ac06ee4d714f57f5af73f7bbc4026a2"
+    },
+    "judgment": "All original seven concepts and E1/W1/P1/D1 bridges remain present. Lesson05 and lesson06 retain two periods each. The six factors, scalar-reading scope, integer-sector assumptions and unresolved source-action inputs are explicitly preserved. Historical blueprint hashes are provenance snapshots, not current-artifact hashes or completed-course acceptance."
+  },
+  "independent_recomputation": {
+    "status": "passed",
+    "check_count": 807,
+    "checks_by_group": {
+      "integrity": 64,
+      "assembly": 9,
+      "sources": 15,
+      "actual-links": 35,
+      "practice-repairs": 6,
+      "markdown-tables": 132,
+      "action": 20,
+      "residual": 3,
+      "actual-table-values": 2,
+      "loops": 6,
+      "finite-frame-sweep": 256,
+      "phases": 14,
+      "rebasing": 9,
+      "sectors": 4,
+      "dual": 5,
+      "pairing": 6,
+      "signed-lattice-sweep": 216,
+      "dual-negative-control": 2,
+      "rubric": 2,
+      "pacing": 1
+    },
+    "failures": [],
+    "runtime": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+    "verifier_path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-series-source-auditor\\work\\audit_course19.py",
+    "verifier_sha256": "9de080a48e3be9a577fc029083297ca446f539e6373992f1e098b45d81997137",
+    "arithmetic": "Exact Fraction action/lattice coordinates and (real,imaginary) pairs with rational multiplication/inversion. No floating-point tolerance or discarded component.",
+    "verification_file": "course-19-independent-verification.json",
+    "scope": "807 heterogeneous integrity, source, table, content and exact arithmetic assertions; semantic review carried forward only for unchanged artifacts."
+  },
+  "assessment_and_accessibility": {
+    "lesson_periods": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      1
+    ],
+    "core_periods": 9,
+    "capstone_periods": 3,
+    "minutes_per_period": 55,
+    "total_minutes": 660,
+    "prior_skills": "Signed arithmetic, fractions and elementary substitutions; phase-cycle, local frames, one-line/tensor coefficients and integral pairing are explicitly taught locally.",
+    "scope": "No assigned calculus, determinant calculation, global bundle/trivialization construction, physical-admission proof, continuous winding-number recovery or unperformed compiler execution.",
+    "markdown_tables": {
+      "status": "passed",
+      "width_assertions": 132,
+      "tables": [
+        {
+          "file": "course-map.md",
+          "header_line": 7,
+          "columns": 8
+        },
+        {
+          "file": "course-map.md",
+          "header_line": 19,
+          "columns": 3
+        },
+        {
+          "file": "terminology.md",
+          "header_line": 5,
+          "columns": 3
+        },
+        {
+          "file": "lesson-02.md",
+          "header_line": 19,
+          "columns": 5
+        },
+        {
+          "file": "lesson-04.md",
+          "header_line": 19,
+          "columns": 3
+        },
+        {
+          "file": "lesson-07.md",
+          "header_line": 19,
+          "columns": 3
+        },
+        {
+          "file": "capstone.md",
+          "header_line": 45,
+          "columns": 2
+        },
+        {
+          "file": "teacher-guide.md",
+          "header_line": 13,
+          "columns": 3
+        },
+        {
+          "file": "sources.md",
+          "header_line": 5,
+          "columns": 3
+        },
+        {
+          "file": "sources.md",
+          "header_line": 15,
+          "columns": 3
+        },
+        {
+          "file": "course.md",
+          "header_line": 81,
+          "columns": 5
+        },
+        {
+          "file": "course.md",
+          "header_line": 174,
+          "columns": 3
+        },
+        {
+          "file": "course.md",
+          "header_line": 329,
+          "columns": 3
+        }
+      ],
+      "actual_numeric_tables": "Action and six-factor running-product rows separately compared with recomputation."
+    },
+    "assembly": "Seven lesson bodies occur verbatim under the declared markers and in the approved order; fresh validator also passes.",
+    "delivery": "Markdown only. Structural tables inspected; no PDF/Word or browser render claimed. Glossary-navigation issue independently verified corrected."
+  },
+  "source_and_authority_boundaries": {
+    "addresses": [
+      {
+        "source": "S02",
+        "pointer": "/backbone_sequence/14",
+        "role": "Exact M15 action/topology/determinant-line architecture; requires mathematical M10,M13,M14."
+      },
+      {
+        "source": "S02",
+        "pointer": "/backbone_sequence/14/action",
+        "role": "Four source integrand contributions, not the synthetic two-term action."
+      },
+      {
+        "source": "S02",
+        "pointer": "/backbone_sequence/14/topology",
+        "role": "Determinant lock, opposite first classes, rational n coordinates and integer dual contract."
+      },
+      {
+        "source": "S02",
+        "pointer": "/backbone_sequence/14/determinant_line",
+        "role": "All six sections, trivialization and closure for every admitted sector."
+      },
+      {
+        "source": "S02",
+        "pointer": "/backbone_sequence/14/state_coordinates",
+        "role": "Operator coefficients, boundary-sector values and time/action normalization remain supplied inputs."
+      },
+      {
+        "source": "S02",
+        "pointer": "/backbone_sequence/9",
+        "role": "M10 source-local weak-first carrier ordering and Z6 quotient; no unannounced color/weak permutation or numerical carrier calculation is introduced."
+      },
+      {
+        "source": "S02",
+        "pointer": "/backbone_sequence/12/proof/0",
+        "role": "M13 closed-link conjugation source claim, separated from the course's derived scalar cancellation."
+      },
+      {
+        "source": "S02",
+        "pointer": "/backbone_sequence/13",
+        "role": "M14 history/chirality dependency recognized, not re-proved here."
+      },
+      {
+        "source": "S03",
+        "pointer": "/findings/8",
+        "finding": "AUD-009",
+        "role": "MISSING_REPLAY_OBJECTS and the source-reported VERIFIED_NOT_LOADED gate."
+      },
+      {
+        "source": "S03",
+        "pointer": "/findings/8/evidence/missing_or_undefined/8",
+        "role": "Explicitly identifies M15 topology carriers and determinant-line factors as missing replay objects."
+      }
+    ],
+    "six_factor_order": [
+      "UV",
+      "light",
+      "reg",
+      "heavy",
+      "cap",
+      "induced"
+    ],
+    "source_vs_toy_action": "Source uses a rate quadratic, negative trace contraction, negative potential, and positive linear source term. Toy S has separately supplied k,vpot,dt, scalar states and a left-endpoint convention; it is not numerical source replay.",
+    "scalar_trivialization": "Six coefficients give a scalar only with the chosen combined basis and tau. For fixed tau and e'_j=a e_j, z'_j=z_j/a, E'=aE and tau(E')=a tau(E), so Phi'=Z' tau(E')=Phi. A local nonzero basis does not establish global line triviality.",
+    "topology_and_admission": "Arithmetic integral pairing under the explicit integer contract is distinct from constructing source topology carriers, determining physical sector membership, and proving phase closure in every admitted sector.",
+    "loop_and_winding": "The assigned examples are quarter-turn phases and finite scalar holonomy, not a reconstructed continuous winding number. Values are modulo four quarter-turns; endpoint phase or product 1 alone does not specify an unwrapped path, winding integer, or global topological classification.",
+    "gap_disposition": "Retain missing carrier/factor bodies and source parameter values as unresolved full-source inputs. VERIFIED_NOT_LOADED is the archival gate label, not this auditor's verification. No substitutes, source certificates, measurements or global proof are invented.",
+    "premise_roles": "Locked roots, conditional derived theorems, constitutive rules, domain conditions and state coordinates are classified separately from evidence status. Domain membership is not inferred from closure success.",
+    "residuals": "Retain all K,V,a,m,r entries, original/transformed links, original/mutated phase lists, basis multipliers, tau readings, sector labels and signed complex residuals. A zero total does not erase components; sector b remains admitted when its residual is -2."
+  },
+  "fresh_project_validation": {
+    "canonical_output_root": "Z:\\Kfield-doc-training\\K-Field_Training_Course",
+    "checks": [
+      "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+      "parsed manifest.json",
+      "parsed audit_report.json",
+      "parsed completion_report.json",
+      "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+    ],
+    "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure",
+    "errors": [],
+    "schema_version": "1.0",
+    "status": "passed",
+    "storage_authority": "User explicitly authorized project-folder outputs, 2026-11-05",
+    "validator_path": "C:\\Users\\info\\.codex\\skills\\build-high-school-course\\scripts\\validate_course.py",
+    "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+    "exit_code": 0,
+    "adapter": {
+      "path": "Z:/Kfield-doc-training/.work/validate_project_course.py",
+      "sha256": "3fdba74f7ac1430208a4e652200026dc98988f607f60fc928bda65d5857cc745"
+    },
+    "fixture_mode": false,
+    "override": "Existing adapter changes only CANONICAL_OUTPUT_ROOT to the user-authorized project root; all installed validator checks remain active."
+  },
+  "limitations": [
+    "Acceptance applies to the declared finite teaching contract and the listed exact artifact hashes, not all M15 physical/topological closure claims.",
+    "Full source topology carriers, individual determinant-line sections, operator coefficients, boundary-sector values and time/action normalization remain unresolved replay inputs.",
+    "No fresh Safe Agda/compiler execution, source-global construction, continuum/variational dynamics or empirical measurement.",
+    "Finite phase products retain only phase values; no unwrapped winding number or continuous interpolation was reconstructed or asserted.",
+    "No classroom trial. Source replay limitations are unchanged by this glossary-only repair."
+  ],
+  "eligible_for_parent_acceptance": true,
+  "acceptance_condition": "Parent acceptance requires zero unresolved critical, major and minor findings; all three counts are now zero.",
+  "source_files_copied": false,
+  "course_or_parent_files_modified": false,
+  "repair_recheck": {
+    "kind": "C19-IND-001 independent repair recheck",
+    "reviewed_utc": "2026-11-05T19:35:15.985440+00:00",
+    "prior_reviewed_utc": "2026-11-05T19:27:00.732913+00:00",
+    "prior_manifest_sha256": "1b7cee5a5f547d02dd4fc0d5795355293daadde172b73a52e58841e25ef4145f",
+    "prior_audit_sha256": "25e33901030eb3c3866f61c70be9f3a32d6be562ebd32930731e019747626396",
+    "prior_verification_sha256": "b04c3d636c3fa4d1245a1a8f0108a70ace182feb5afc911041962654315610f1",
+    "prior_unresolved_counts": {
+      "critical": 0,
+      "major": 0,
+      "minor": 1
+    },
+    "changed_artifacts": [
+      {
+        "name": "audit_report.json",
+        "prior_sha256": "e49f345e647b211248370b1d39fa2fcf0cce37fc71fa0be8f9fd67dc040770d7",
+        "current_sha256": "fdfcf4472fe23e82807bd02801722667eafe7741f1a64f870e673b64a1cfa10c"
+      },
+      {
+        "name": "completion_report.json",
+        "prior_sha256": "6c8801041ddfb495b5e44502f72907569800675794e19079e02bf2b25b24ff2b",
+        "current_sha256": "7292d15fd67252c9ca4c37328f10d3cf6a552f0169ff6e85ddfefd110d5000c9"
+      },
+      {
+        "name": "manifest.json",
+        "prior_sha256": "1b7cee5a5f547d02dd4fc0d5795355293daadde172b73a52e58841e25ef4145f",
+        "current_sha256": "acb9d98e720bcf42728ad02faee13e9a045d85026118ccf82d86f762b92a6a42"
+      },
+      {
+        "name": "terminology.md",
+        "prior_sha256": "de2d74bd59703ceaa471bd2f6c2d27f52ffaf966328711050344a68bec3c3b8a",
+        "current_sha256": "8f408361b5aa72c0beb4bd7df3628a52e22390d863a1c97bc3431c55fb07f5e6"
+      }
+    ],
+    "unchanged_artifacts": [
+      "build_course.py",
+      "capstone.md",
+      "course-map.md",
+      "course.md",
+      "finalize_course.py",
+      "independent-audit.json",
+      "input-contract.json",
+      "launch-prompt.md",
+      "lesson-01.md",
+      "lesson-02.md",
+      "lesson-03.md",
+      "lesson-04.md",
+      "lesson-05.md",
+      "lesson-06.md",
+      "lesson-07.md",
+      "sources.md",
+      "teacher-guide.md",
+      "verify_examples.py",
+      "worked-example-verification.json"
+    ],
+    "verification": "Reread glossary tau row18, trace/transpose row30, inverse row31 against lesson04 line11, lesson01 line31 and lesson07 trace identity. Author repair record correctly cites the original independent report and does not pretend external reapproval. All seven lessons, capstone, teacher guide and assembled course are byte-identical. Fresh exact verifier passes807 assertions (one added glossary row); fresh real validator passes.",
+    "status": "passed"
+  }
+}

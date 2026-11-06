@@ -1,0 +1,146 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>lesson-06: Binding and periodic organization · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/21">Course 21</a><span>/</span><span>lesson 06</span></div><a class="original" href="../../../kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems/lesson-06.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#lesson-06-binding-and-periodic-organization">lesson-06: Binding and periodic organization</a><a href="#prerequisite-bridge">Prerequisite bridge</a><a href="#explanation-c2106-e1">Explanation — C21.06-E1</a><a href="#energy-rate-and-power-have-different-input-requirements">Energy, rate and power have different input requirements</a><a href="#worked-example-c2106-w1">Worked example — C21.06-W1</a><a href="#guided-practice-c2106-p1">Guided practice — C21.06-P1</a><a href="#supplemental-explanation-c21s03-e1">Supplemental explanation — C21.S03-E1</a><a href="#worked-example-c21s03-w1">Worked example — C21.S03-W1</a><a href="#practice-with-answer-c21s03-p1">Practice with answer — C21.S03-P1</a><a href="#diagnostic-boundary-c21s03-d1">Diagnostic boundary — C21.S03-D1</a><a href="#diagnostic-checks-c2106-d1">Diagnostic checks — C21.06-D1</a><a href="#worked-answers">Worked answers</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">lesson-01: Measurements as linear channels</a><a  href="lesson-02.html">lesson-02: Rank and retained syndromes</a><a  href="lesson-03.html">lesson-03: The thirteen-channel decoder</a><a  href="lesson-04.html">lesson-04: Reconstruction and dimensional meaning</a><a  href="lesson-05.html">lesson-05: Atomic and isotope inventories</a><a aria-current=page href="lesson-06.html">lesson-06: Binding and periodic organization</a><a  href="lesson-07.html">lesson-07: Solver convergence and unresolved information</a><a  href="lesson-08.html">lesson-08: A reproducible decoding report</a></details></aside><div class="reading-column"><article class="prose"><h1 id="lesson-06-binding-and-periodic-organization" tabindex="-1">lesson-06: Binding and periodic organization</h1>
+<p>2 sessions of 55 minutes.</p>
+<p><strong>Essential question:</strong> How can an atomic application be source-traced while its missing coordinates remain explicit?</p>
+<p><strong>Goals</strong></p>
+<ul>
+<li>Classify each source card as synthesis, mechanism or unresolved record.</li>
+<li>Build a periodic-coordinate ledger without inventing values.</li>
+<li>Compute an energy difference and distinguish it from a rate or power.</li>
+</ul>
+<h2 id="prerequisite-bridge" tabindex="-1">Prerequisite bridge</h2>
+<p>Lesson 5 separated formula, isotope, charge, arrangement and binding state. Lesson 3 showed why equal dimensions do not specify an action-preserving map. We now use both ideas to read an archival application without filling its gaps by analogy.</p>
+<p><a id="C21.06-E1" tabindex="-1"></a></p>
+<h2 id="explanation-c2106-e1" tabindex="-1">Explanation — C21.06-E1</h2>
+<p>A source-traced report records what a document actually supplies and which operation was freshly checked. The source cards below are bounded readings of S05. The exact file path and digest appear in sources.md; record numbers use one-based labels but JSON pointers use zero-based array positions.</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Card</th>
+<th>Pointer</th>
+<th>Stored class</th>
+<th>What the course can carry forward</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>R029</td>
+<td>/records/28</td>
+<td>synthesis</td>
+<td>A proposed periodic coordinate package: base Cell3 address plus nested coordinate fibers.</td>
+</tr>
+<tr>
+<td>R030</td>
+<td>/records/29</td>
+<td>synthesis; type mechanism</td>
+<td>Nuclear, chemical and orientational relations as distinct types of edges.</td>
+</tr>
+<tr>
+<td>R031</td>
+<td>/records/30</td>
+<td>archive_stated; type unresolved</td>
+<td>Formula and nominal label leave isomers unresolved; preserve graph and binding information.</td>
+</tr>
+<tr>
+<td>R032</td>
+<td>/records/31</td>
+<td>synthesis; type architecture</td>
+<td>Three rank-three structures recur, while a canonical connecting map remains absent.</td>
+</tr>
+</tbody>
+</table></div>
+<p>A graph is a collection of vertices and edges: objects and their declared connections. An adjacency table records which vertex pairs connect; graph identity includes the labeled vertices and full edge list. A Laplacian is the degree table minus the adjacency table (degree counts the incident edges). Its spectrum is a list of eigenvalues, using the scaling-direction idea from lesson 3. These terms are recognition-only here: no unprovided molecular graph is assigned. A spectrum compresses a graph and need not uniquely identify it, so preserve graph identity alongside any spectral summary. An edge labeled chemical rearrangement is not the same operation as a nuclear change or an orientational coupling.</p>
+<p>For a source-traced worked row, start with the synthetic composition (4,4,0,1). We know the counts and derived nominal V=68. R029 requests many more coordinates. A correct report looks like this:</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Field requested by R029</th>
+<th>Present value/status in this classroom packet</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Composition counts, nominal label</td>
+<td>(4,4,0,1), V=68; synthetic and freshly computed</td>
+</tr>
+<tr>
+<td>Base Cell3 address</td>
+<td>Not supplied</td>
+</tr>
+<tr>
+<td>Scale/face sector and isospin lambda</td>
+<td>Not supplied; source-local labels</td>
+</tr>
+<tr>
+<td>Three composition-null coordinates</td>
+<td>No basis and origin for this point supplied; invariant moves checked separately</td>
+</tr>
+<tr>
+<td>Exact isotope mass</td>
+<td>Not supplied; nominal weights do not replace it</td>
+</tr>
+<tr>
+<td>Graph identity and spectrum</td>
+<td>Not supplied; formula alone is insufficient</td>
+</tr>
+<tr>
+<td>Charge/parity</td>
+<td>Not supplied for this composition row; do not borrow synthetic A/B charge</td>
+</tr>
+<tr>
+<td>Binding residual</td>
+<td>Not supplied; retain as a required coordinate</td>
+</tr>
+<tr>
+<td>QPC phase tensor</td>
+<td>Not supplied; source-local phase-cost object, recognition only</td>
+</tr>
+<tr>
+<td>Occupied coefficient selection</td>
+<td>Not supplied; R030 edge classes do not select c</td>
+</tr>
+</tbody>
+</table></div>
+<p>The repeated rank three in R032 is an explanatory target: composition-null directions, a geometric isofacial tangent fiber and the EG three-channel phase transform. We have constructed only the composition arithmetic. A meaningful map would need typed domains, units, bases, actions and a rule taking one object to the other. The rank count alone is insufficient. No Cell3 metric, physical coordinate or phase tensor is introduced numerically in this course; their source-local meanings are not merged with our decoder Gram matrix.</p>
+<h3 id="energy-rate-and-power-have-different-input-requirements" tabindex="-1">Energy, rate and power have different input requirements</h3>
+<p>Retain the complete neutral-object convention of lesson 5 and its synthetic conversion. For AB=4.8u, delta m=2+3-4.8=0.2u, and Q_release=2 E_unit. This is an endpoint difference. It supplies no duration, transition frequency or usable-energy fraction. A rate counts events per time; average power is energy delivered divided by duration. If a separate premise says this 2 E_unit release is delivered over 4 time units and half is recovered, recovered energy is 1 E_unit and mean recovered power is 1/4 E_unit per time unit. The duration and fraction must remain in the ledger.</p>
+<p>The reference relation delta E=delta m c_light² concerns differences of rest energies of specified complete objects. It does not turn phase into force or a model energy into measured transferred energy. Our numerical conversion is stipulated, so every constant needed for the calculation is supplied locally; no external mass table is required.</p>
+<blockquote>
+<p>Claim scope: R029 and R030 are archival synthesis and proposed mechanism. The ledger’s missing fields are unresolved inputs, not zero values. The energy arithmetic is a synthetic application of a declared reference relation. No physical periodic address, nuclear reaction rate, binding force or occupied-state selection is claimed by these exercises.</p>
+</blockquote>
+<p><a id="C21.06-W1" tabindex="-1"></a></p>
+<h2 id="worked-example-c2106-w1" tabindex="-1">Worked example — C21.06-W1</h2>
+<p>Build a source-traced row: S05#/records/28 (R029) requests address, scale/face sector, lambda, composition-null coordinates, isotope mass, graph spectrum, charge/parity, binding residual and QPC phase tensor. For the synthetic composition from lesson05, only counts and nominal V are supplied; mark all other values not supplied. R030 describes edge classes rather than choosing coefficients.</p>
+<p><a id="C21.06-P1" tabindex="-1"></a></p>
+<h2 id="guided-practice-c2106-p1" tabindex="-1">Guided practice — C21.06-P1</h2>
+<p>Try the operation before reading the solution. S05#/records/30 (R031) says formula/nominal volume leave isomers unresolved; retain adjacency or Laplacian data and binding residual. S05#/records/31 (R032) compares three rank-three fibers but supplies no canonical isomorphism. Complete a row with those exact source statuses. Repeat A+B -&gt; AB with final 4.8u: Q=2 E_unit.</p>
+<p><a id="C21.S03-E1" tabindex="-1"></a></p>
+<h2 id="supplemental-explanation-c21s03-e1" tabindex="-1">Supplemental explanation — C21.S03-E1</h2>
+<p>Repeat the declared Q_release=(m_initial-m_final)c^2 relation with balanced constituents/charge, complete-object masses, reference state and conversion. Binding differences remain coordinates. Energy difference, transition rate and recoverable power require different inputs.</p>
+<p><a id="C21.S03-W1" tabindex="-1"></a></p>
+<h3 id="worked-example-c21s03-w1" tabindex="-1">Worked example — C21.S03-W1</h3>
+<p>Use synthetic neutral complete objects A=2u, B=3u, AB=4.8u with conserved A/B labels and 1u c^2=10 E_unit. Delta m=0.2u and Q=2 E_unit. No duration or efficiency was supplied, so power is not determined.</p>
+<p><a id="C21.S03-P1" tabindex="-1"></a></p>
+<h3 id="practice-with-answer-c21s03-p1" tabindex="-1">Practice with answer — C21.S03-P1</h3>
+<p>Repeat final AB=5.05u under the same balanced convention: Q=-0.5 E_unit. If, in a separate stipulated release example, 2 E_unit is delivered over 4 time units with efficiency 1/2, recovered mean power is (1/2)*2/4=1/4 E_unit per time unit. Those extra premises must be recorded.</p>
+<p><a id="C21.S03-D1" tabindex="-1"></a></p>
+<h3 id="diagnostic-boundary-c21s03-d1" tabindex="-1">Diagnostic boundary — C21.S03-D1</h3>
+<p>A positive Q does not supply a rate. An ion endpoint missing the removed electron fails bookkeeping. Preserve mass difference and supplied binding state rather than normalizing the discrepancy away.</p>
+<p><a id="C21.06-D1" tabindex="-1"></a></p>
+<h2 id="diagnostic-checks-c2106-d1" tabindex="-1">Diagnostic checks — C21.06-D1</h2>
+<ol>
+<li>Which R029 fields are actually known for the composition (4,4,0,1)?</li>
+<li>What are the different roles of R030 and R031?</li>
+<li>Why does R032 not furnish a canonical map?</li>
+<li>Compute Q for AB=4.8u, then compute recovered mean power with fraction 1/2 and duration 4.</li>
+<li>Does positive Q alone determine a transition rate?</li>
+</ol>
+<h2 id="worked-answers" tabindex="-1">Worked answers</h2>
+<ol>
+<li>Only the supplied counts and V=68; none of the other required coordinate values follows just from those counts.</li>
+<li>R030 proposes typed binding/transition edges; R031 records unresolved isomer distinction and calls for graph and binding coordinates.</li>
+<li>Three spaces of equal rank can have different bases, units and actions. The source explicitly does not supply a canonical connecting map.</li>
+<li>Delta m=0.2u, Q=2 E_unit; recovered energy=(1/2)2=1 E_unit; divide by 4 time units for 1/4 E_unit per time unit.</li>
+<li>No. A rate requires an additional time-dependent process or supplied event count and duration.</li>
+</ol>
+<p><strong>Boundary to carry forward:</strong> A shared rank of three does not furnish a canonical map. A graph spectrum may also be shared by distinct graphs, so retain graph identity as well. Source mechanism synthesis, supplied coordinates and freshly checked arithmetic must occupy separate fields.</p>
+<p><strong>Next dependency:</strong> <a href="lesson-07.html">lesson-07</a>. Use this lesson’s reconstruction and scope checks there.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><a class="button secondary" href="lesson-05.html">← Previous lesson</a><a class="button" href="lesson-07.html">Next lesson →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/21">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

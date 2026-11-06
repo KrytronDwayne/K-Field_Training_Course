@@ -1,0 +1,45 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Lesson 4 — The Jack map and its inverse · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/10">Course 10</a><span>/</span><span>lesson 04</span></div><a class="original" href="../../../kfield-10-shape-and-scale-devon-reduction-and-the-jack-jacobian/lesson-04.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#lesson-4-the-jack-map-and-its-inverse">Lesson 4 — The Jack map and its inverse</a><a href="#c1004-e1-source-card-and-derivation">C10.04-E1 — Source card and derivation</a><a href="#c1004-w1-worked-source-matrix-synthetic-input">C10.04-W1 — Worked source-matrix, synthetic input</a><a href="#c1004-p1-practice">C10.04-P1 — Practice</a><a href="#diagnostic-checks-c1004-d1">Diagnostic checks — C10.04-D1</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 1 — Logarithms as ratio coordinates</a><a  href="lesson-02.html">Lesson 2 — One scale coordinate and two shape coordinates</a><a  href="lesson-03.html">Lesson 3 — Linear response and small changes</a><a aria-current=page href="lesson-04.html">Lesson 4 — The Jack map and its inverse</a><a  href="lesson-05.html">Lesson 5 — The typed Devon object</a><a  href="lesson-06.html">Lesson 6 — Limits and reconstruction tests</a></details></aside><div class="reading-column"><article class="prose"><h1 id="lesson-4-the-jack-map-and-its-inverse" tabindex="-1">Lesson 4 — The Jack map and its inverse</h1>
+<p>Essential question: Which three output changes recover three coherent edge-scale changes?</p>
+<p>Goals: derive the rows of the fixed-angle map; apply its inverse; check its determinant and ordered units; distinguish scalar coordinates from dynamics.</p>
+<p>Bridge: Lesson 3 taught row-by-column multiplication and inversion by equations. Now each entry has a specific source meaning. Use positive edge lengths l_a=|a|, l_b=|b|, l_c=|c| and fixed included angles. Vertical bars mean length here. 'Coherent' means the same three edge changes generate all three face changes.</p>
+<h2 id="c1004-e1-source-card-and-derivation" tabindex="-1">C10.04-E1 — Source card and derivation</h2>
+<p>For two edges, area is base times perpendicular height: A_ab=l_a l_b sin(theta_ab). The sine factor is height divided by the second edge length; it equals 1 for perpendicular edges. This course supplies each angle factor rather than requiring trigonometric calculation. Nondegenerate faces have positive sine factors. The same area rule holds for ac and bc.</p>
+<p>With angles fixed, the exact log-area change is the sum of the two exact log-length changes. Its tangent form is</p>
+<pre aria-label="Scrollable literal code or matrix" role="region" tabindex="0"><code>dln A_ab=x_a+x_b, dln A_ac=x_a+x_c, dln A_bc=x_b+x_c,
+x=(x_a,x_b,x_c)=(dln l_a,dln l_b,dln l_c).
+</code></pre>
+<p>Finite log changes are logs of ratios to the starting quantity; the d symbols here denote their tangents. Both are dimensionless. S02 M05 defines eta=1000 A_bc/A_ab and alpha_inverse=100 A_bc/A_ac. Here alpha_inverse=1/alpha, so alpha=A_ac/(100 A_bc). Constants vanish from changes of logs. Therefore</p>
+<pre aria-label="Scrollable literal code or matrix" role="region" tabindex="0"><code>dE=dln eta=dln A_bc-dln A_ab=-x_a+x_c,
+dA=dln alpha=dln A_ac-dln A_bc=x_a-x_b.
+</code></pre>
+<p>Important local notation: dA is the output dln alpha, NOT an area change. The third output dG=dln Gamma2 is the source-named scalar coordinate. The explicitly identified M19 gravity_scalar_lift branch supplies</p>
+<pre aria-label="Scrollable literal code or matrix" role="region" tabindex="0"><code>dG=9 dln A_ab+8 dln A_ac-11 dln A_bc
+  =9(x_a+x_b)+8(x_a+x_c)-11(x_b+x_c)
+  =17x_a-2x_b-3x_c.
+</code></pre>
+<p>Thus the Jack matrix is</p>
+<pre aria-label="Scrollable literal code or matrix" role="region" tabindex="0"><code>J = [ -1   0   1 ]       output order [dE,dA,dG]
+    [  1  -1   0 ]       input order  [x_a,x_b,x_c]
+    [ 17  -2  -3 ],      output = J input.
+</code></pre>
+<p>Every coefficient is dimensionless. Read one row at a time; do not swap eta and alpha. The M19 branch supplies this scalar relation only. Its name does not supply an equation of motion or a measured force.</p>
+<p>Solve rather than memorize. First x_c=dE+x_a and x_b=x_a-dA. Substitute in the third equation: dG=17x_a-2(x_a-dA)-3(dE+x_a)=12x_a+2dA-3dE. Hence</p>
+<pre aria-label="Scrollable literal code or matrix" role="region" tabindex="0"><code>x_a=(dG-2dA+3dE)/12,
+x_b=(dG-14dA+3dE)/12,
+x_c=(dG-2dA+15dE)/12.
+</code></pre>
+<p>The nonzero coefficient 12 allows division and makes the solution unique. For a 3 by 3 matrix with rows (a,b,c),(d,e,f),(g,h,i), its determinant is a(ei-fh)-b(di-fg)+c(dh-eg). This scalar tests whether a square coefficient map has an inverse. Here it gives (-1)(3)-0+1(-2+17)=-3+15=12, not zero. This is the number twelve, not twelve factorial. Direct substitution of the inverse into each original equation verifies both directions; the determinant is an additional check.</p>
+<h2 id="c1004-w1-worked-source-matrix-synthetic-input" tabindex="-1">C10.04-W1 — Worked source-matrix, synthetic input</h2>
+<p>Let x=(1,2,3)t, a tangent vector with dimensionless parameter t. Jx gives (-1+3,1-2,17-4-9)t=(2,-1,4)t. Invert using (dE,dA,dG)=(2,-1,4)t: x_a=(4+2+6)t/12=t; x_b=(4+14+6)t/12=2t; x_c=(4+2+30)t/12=3t. The inverse residual, recovered minus supplied input, is (0,0,0).</p>
+<h2 id="c1004-p1-practice" tabindex="-1">C10.04-P1 — Practice</h2>
+<p>Apply J to (2,-1,1)t. Recover the input from the output. Independently form the three area tangent changes and use 9,8,-11 to check the scalar output. Recompute the determinant using the displayed rule.</p>
+<p>Answer: outputs are (-2+1,2+1,34+2-3)t=(-1,3,33)t. Inverse numerators are 33-6-3=24; 33-42-3=-12; 33-6-15=12. Dividing by 12 recovers (2,-1,1)t. Areas give (1,3,0)t, and 9(1)+8(3)-11(0)=33. Determinant: -3+15=12.</p>
+<blockquote>
+<p>Claim scope: S02#/backbone_sequence/6 gives J and its inverse; /backbone_sequence/4 defines eta and alpha; /backbone_sequence/18/branches/gravity_scalar_lift gives the scalar row. These are source formulas with fresh finite algebra checks. J reconstructs coherent fixed-angle tangent edge changes. If an angle varies, dln sin(theta) adds another term to the corresponding area change. J alone then cannot reconstruct arbitrary shear. No general finite Gamma2 response or force law is being asserted.</p>
+</blockquote>
+<h2 id="diagnostic-checks-c1004-d1" tabindex="-1">Diagnostic checks — C10.04-D1</h2>
+<ol>
+<li>What does dA mean, and what would dln alpha_inverse equal? 2. Why can the equations be uniquely inverted? 3. What is missing if theta_ab changes? 4. Does a scalar named Gamma2 establish a force?</li>
+</ol>
+<p>Worked answers: (1) dln alpha; dln alpha_inverse=-dA. (2) Elimination leaves 12x_a, and 12 is nonzero; x_b,x_c then follow. (3) dln sin(theta_ab), which must be retained as additional information. (4) No; the supplied relation defines scalar response, without force dynamics.</p>
+<p>Next: <a href="lesson-05.html">Lesson 5</a> places these outputs in a typed record. Two periods: source rows, then inverse and scope; each 5 retrieval + 20 teaching + 15 practice + 15 checks.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><a class="button secondary" href="lesson-03.html">← Previous lesson</a><a class="button" href="lesson-05.html">Next lesson →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/10">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

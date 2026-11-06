@@ -1,0 +1,223 @@
+{
+  "schema_version": "1.0",
+  "status": "passed",
+  "findings": [
+    {
+      "id": "C14-A01",
+      "level": "local",
+      "category": "prerequisite closure",
+      "file": "lesson-01.md",
+      "section": "C14.01-P1; lesson-05 root bridge",
+      "severity": "major",
+      "defect": "Initial draft omitted the approved exact zeta unit-phase practice in Lesson 1.",
+      "correction": "Added exact conjugate-times-zeta calculation in Lesson 1 and exact zeta squared/cubed/sixth powers in Lesson 5.",
+      "verification": "Independent auditor re-read both additions; verify_examples.py checks Q(sqrt(-3)) products exactly, including six distinct roots.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "lesson-01",
+        "lesson-05",
+        "capstone",
+        "assembly"
+      ]
+    },
+    {
+      "id": "C14-A02",
+      "level": "final",
+      "category": "Markdown rendering",
+      "file": "terminology.md",
+      "section": "modulus and norm rows",
+      "severity": "minor",
+      "defect": "Unescaped modulus/norm pipes created extra Markdown table columns.",
+      "correction": "Escape internal pipe characters when writing every glossary table cell.",
+      "verification": "Finalizer checks every glossary table row has exactly three cells using unescaped delimiter parsing; content inspected.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "terms"
+      ]
+    }
+  ],
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "independent_review": {
+    "agent": "/root/audit_course14",
+    "scope": "Seven lessons, input teaching anchors, capstone, teacher guide, course map, terminology, source notes, actual S02/S03 excerpts and all five local source hashes",
+    "result": "One major bridge omission corrected and confirmed; one minor table issue corrected by manager; no other critical or major findings",
+    "math": "Auditor independently ran tf_gpu_env arithmetic checks for rotations, V dagger-product, six kernel rows and toy maps; manually checked capstone and 100-point rubric"
+  },
+  "local_checks": [
+    {
+      "checkpoint": "lesson-01",
+      "result": "passed",
+      "checked": [
+        "prerequisites",
+        "senior language and load",
+        "definitions",
+        "notation",
+        "dimensionless units",
+        "logic",
+        "worked mathematics and answers",
+        "evidence scope",
+        "source fidelity",
+        "four diagnostics and next dependency"
+      ]
+    },
+    {
+      "checkpoint": "lesson-02",
+      "result": "passed",
+      "checked": [
+        "prerequisites",
+        "senior language and load",
+        "definitions",
+        "notation",
+        "dimensionless units",
+        "logic",
+        "worked mathematics and answers",
+        "evidence scope",
+        "source fidelity",
+        "four diagnostics and next dependency"
+      ]
+    },
+    {
+      "checkpoint": "lesson-03",
+      "result": "passed",
+      "checked": [
+        "prerequisites",
+        "senior language and load",
+        "definitions",
+        "notation",
+        "dimensionless units",
+        "logic",
+        "worked mathematics and answers",
+        "evidence scope",
+        "source fidelity",
+        "four diagnostics and next dependency"
+      ]
+    },
+    {
+      "checkpoint": "lesson-04",
+      "result": "passed",
+      "checked": [
+        "prerequisites",
+        "senior language and load",
+        "definitions",
+        "notation",
+        "dimensionless units",
+        "logic",
+        "worked mathematics and answers",
+        "evidence scope",
+        "source fidelity",
+        "four diagnostics and next dependency"
+      ]
+    },
+    {
+      "checkpoint": "lesson-05",
+      "result": "passed",
+      "checked": [
+        "prerequisites",
+        "senior language and load",
+        "definitions",
+        "notation",
+        "dimensionless units",
+        "logic",
+        "worked mathematics and answers",
+        "evidence scope",
+        "source fidelity",
+        "four diagnostics and next dependency"
+      ]
+    },
+    {
+      "checkpoint": "lesson-06",
+      "result": "passed",
+      "checked": [
+        "prerequisites",
+        "senior language and load",
+        "definitions",
+        "notation",
+        "dimensionless units",
+        "logic",
+        "worked mathematics and answers",
+        "evidence scope",
+        "source fidelity",
+        "four diagnostics and next dependency"
+      ]
+    },
+    {
+      "checkpoint": "lesson-07",
+      "result": "passed",
+      "checked": [
+        "prerequisites",
+        "senior language and load",
+        "definitions",
+        "notation",
+        "dimensionless units",
+        "logic",
+        "worked mathematics and answers",
+        "evidence scope",
+        "source fidelity",
+        "four diagnostics and next dependency"
+      ]
+    }
+  ],
+  "cumulative_checks": [
+    {
+      "boundary": "lesson-03",
+      "result": "passed",
+      "evidence": "Complex arithmetic precedes matrix operations; matrices precede typed projectors and explicit P. Both projections retained."
+    },
+    {
+      "boundary": "lesson-05",
+      "result": "passed",
+      "evidence": "Determinants and weights precede map domain, toy composition, kernel equations and exact six-row enumeration. Source/local order maintained."
+    },
+    {
+      "boundary": "lesson-07",
+      "result": "passed",
+      "evidence": "All seven capstone operations map to prior answered practice; source scope and module namespaces remain distinct."
+    }
+  ],
+  "final_checks": [
+    {
+      "category": "coverage",
+      "result": "passed",
+      "evidence": "All seven C14 concepts have E1,W1,P1,D1 anchors plus named capstone later use."
+    },
+    {
+      "category": "subject fidelity",
+      "result": "passed",
+      "evidence": "S02 M10, typed conventions and S03 AUD-004 read directly; fresh local hashes match; integration source excerpts retrieved."
+    },
+    {
+      "category": "correctness",
+      "result": "passed",
+      "evidence": "42 exact arithmetic, structural and source-hash checks passed, plus independent review."
+    },
+    {
+      "category": "audience and assessment",
+      "result": "passed",
+      "evidence": "Twelve core periods and three capstone periods; new operations taught; recognition-only extensions excluded from grading."
+    },
+    {
+      "category": "evidence and residual accounting",
+      "result": "passed",
+      "evidence": "Synthetic examples identified; phase, projections and kernel labels retained; mature and integration scopes both recorded."
+    },
+    {
+      "category": "assembly and recovery",
+      "result": "passed",
+      "evidence": "Verbatim markers produced directly from lesson files; SHA-256s generated from saved bytes. Installed validator checks final identity and containment."
+    },
+    {
+      "category": "format and minimality",
+      "result": "passed",
+      "evidence": "Markdown only; glossary delimiters corrected; four diagnostics per lesson, no new teaching during assembly. Paginated rendering not applicable."
+    }
+  ],
+  "source_gaps": [
+    "No fresh full proof-body verification for wider branch status or connected-group classification.",
+    "Integration records freshly retrieved as source-attributed excerpts; no fresh local-byte hash or Agda typecheck.",
+    "Unique physical global form remains unresolved in the integration."
+  ]
+}

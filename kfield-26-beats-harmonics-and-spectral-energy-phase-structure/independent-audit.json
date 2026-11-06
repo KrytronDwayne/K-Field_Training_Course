@@ -1,0 +1,287 @@
+{
+  "schema_version": "1.0",
+  "audit_scope": "Independent lesson and completed capstone/support content audit; no final assembly or validator certification. Source claims compared with input-contract teaching anchors, source-replay and source notes; auditor did not independently retrieve pinned source objects.",
+  "runtime": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+  "files_sha256": {
+    "lesson-01.md": "4deacf50daf314cde7f9a83ef65e5a6ba70051c082617c2e22485df4de78c470",
+    "lesson-02.md": "7156ee85d1941b1b9015232fab1e4003c68b8d22f04d4f336cb7c6aabccd1b25",
+    "lesson-03.md": "fa44d420f7b232c27fc47ebc0b0ec1d8388c000780ba41f6950ed45966a1b3de",
+    "lesson-04.md": "c92f02f1ec22c6adb3cd016bebed1bdc98f9a33008c0c8d661974c17703ba1f9",
+    "lesson-05.md": "438519d58aab6615bdb43a59b829daad40885f379cddd1217cb85821714ddd31",
+    "lesson-06.md": "59063171120af78e0059674ae5d750744dffb6c781afd932d8ac05ff8978e391",
+    "lesson-07.md": "b7ba26e42b1ad0ac00dead37ffc84a932f9dbc0c072177c9f7927e15babc577c",
+    "lesson-08.md": "d4d64843c8ac7f8db1bc8122cbcbd3ece0e62a2acd852f51055b29f9b99fed32"
+  },
+  "checks": [
+    {
+      "location": "lesson-01.md",
+      "check": "required teaching anchors and lesson components present",
+      "anchors": [
+        "C26.01-E1",
+        "C26.01-W1",
+        "C26.01-P1",
+        "C26.01-D1"
+      ]
+    },
+    {
+      "location": "lesson-02.md",
+      "check": "required teaching anchors and lesson components present",
+      "anchors": [
+        "C26.02-E1",
+        "C26.02-W1",
+        "C26.02-P1",
+        "C26.02-D1"
+      ]
+    },
+    {
+      "location": "lesson-03.md",
+      "check": "required teaching anchors and lesson components present",
+      "anchors": [
+        "C26.03-E1",
+        "C26.03-W1",
+        "C26.03-P1",
+        "C26.03-D1"
+      ]
+    },
+    {
+      "location": "lesson-04.md",
+      "check": "required teaching anchors and lesson components present",
+      "anchors": [
+        "C26.04-E1",
+        "C26.04-W1",
+        "C26.04-P1",
+        "C26.04-D1"
+      ]
+    },
+    {
+      "location": "lesson-05.md",
+      "check": "required teaching anchors and lesson components present",
+      "anchors": [
+        "C26.05-E1",
+        "C26.05-W1",
+        "C26.05-P1",
+        "C26.05-D1",
+        "C26.S01-E1",
+        "C26.S01-W1",
+        "C26.S01-P1",
+        "C26.S01-D1"
+      ]
+    },
+    {
+      "location": "lesson-06.md",
+      "check": "required teaching anchors and lesson components present",
+      "anchors": [
+        "C26.06-E1",
+        "C26.06-W1",
+        "C26.06-P1",
+        "C26.06-D1"
+      ]
+    },
+    {
+      "location": "lesson-07.md",
+      "check": "required teaching anchors and lesson components present",
+      "anchors": [
+        "C26.07-E1",
+        "C26.07-W1",
+        "C26.07-P1",
+        "C26.07-D1"
+      ]
+    },
+    {
+      "location": "lesson-08.md",
+      "check": "required teaching anchors and lesson components present",
+      "anchors": [
+        "C26.08-E1",
+        "C26.08-W1",
+        "C26.08-P1",
+        "C26.08-D1"
+      ]
+    },
+    {
+      "location": "lesson-04.md; lesson-05.md; lesson-08.md",
+      "check": "Eight finite spectra independently recomputed with powers of i; each inverse reconstructs exactly. Integer components are exactly representable in binary64.",
+      "result": "passed"
+    },
+    {
+      "location": "lesson-05.md C26.S01-W1/P1; lesson-08.md W1/P1",
+      "check": "Even/odd reconstruction, orthogonality and spectral support verified for both sequences",
+      "result": "passed"
+    },
+    {
+      "location": "lesson-06.md W1/P1",
+      "check": "Exact rational energy, photon and reversed signed interval arithmetic verified",
+      "result": "passed"
+    },
+    {
+      "location": "lesson-07.md C26.07-P1",
+      "check": "Printed source-card counts independently recomputed; means, gain, P and all signed reconstruction residuals match",
+      "signed_reconstruction_residual": [
+        0.0,
+        2.2737367544323206e-13,
+        2.2737367544323206e-13,
+        0.0
+      ]
+    },
+    {
+      "location": "lesson-01.md; lesson-02.md; lesson-03.md",
+      "check": "Manually recomputed circle samples, 4/6 and 5/7 Hz beat factorization, all three frequency conventions, projected rates and reversal quadrature",
+      "result": "passed"
+    },
+    {
+      "location": "lesson-05.md",
+      "check": "Manually verified all synthetic four-count transforms, complex ratios and Q/rho/sine domain failures; positive and negative gains retained",
+      "result": "passed"
+    },
+    {
+      "location": "lesson-07.md",
+      "check": "Counted ledger: fourteen rows, eight positive, six negative, family counts 4/4/6 and five selected energy fields; agrees with supplied input contract and authored source-replay ledger",
+      "result": "passed"
+    },
+    {
+      "location": "lesson-01.md through lesson-08.md",
+      "check": "Read all lesson prose and diagnostics; checked prerequisite instruction in radians, addition rules, dot product, complex operations, DFT, ratios, units, matrix quadratic cost and residual decomposition. Source and synthetic evidence boundaries maintained.",
+      "result": "passed"
+    },
+    {
+      "location": "capstone.md Student tasks and full worked answer key",
+      "check": "Read every task and answer; all nine operations map to prior explanations, worked examples, answered practice and diagnostics. All numerical capstone inputs reuse independently checked lesson cases. Manually checked signs, beat rates, complex delays, count reconstruction, negative energy interval endpoints, source ratios, residual spectra and parity proof against those prior checks.",
+      "result": "passed",
+      "backward_coverage": [
+        {
+          "capstone": "C26-CAP-01",
+          "concept": "C26.01",
+          "prior_lesson": "lesson-01.md",
+          "prior_anchors": [
+            "C26.01-E1",
+            "C26.01-W1",
+            "C26.01-P1",
+            "C26.01-D1"
+          ]
+        },
+        {
+          "capstone": "C26-CAP-02",
+          "concept": "C26.02",
+          "prior_lesson": "lesson-02.md",
+          "prior_anchors": [
+            "C26.02-E1",
+            "C26.02-W1",
+            "C26.02-P1",
+            "C26.02-D1"
+          ]
+        },
+        {
+          "capstone": "C26-CAP-03",
+          "concept": "C26.03",
+          "prior_lesson": "lesson-03.md",
+          "prior_anchors": [
+            "C26.03-E1",
+            "C26.03-W1",
+            "C26.03-P1",
+            "C26.03-D1"
+          ]
+        },
+        {
+          "capstone": "C26-CAP-04",
+          "concept": "C26.04",
+          "prior_lesson": "lesson-04.md",
+          "prior_anchors": [
+            "C26.04-E1",
+            "C26.04-W1",
+            "C26.04-P1",
+            "C26.04-D1"
+          ]
+        },
+        {
+          "capstone": "C26-CAP-05",
+          "concept": "C26.05",
+          "prior_lesson": "lesson-05.md",
+          "prior_anchors": [
+            "C26.05-E1",
+            "C26.05-W1",
+            "C26.05-P1",
+            "C26.05-D1"
+          ]
+        },
+        {
+          "capstone": "C26-CAP-06",
+          "concept": "C26.06",
+          "prior_lesson": "lesson-06.md",
+          "prior_anchors": [
+            "C26.06-E1",
+            "C26.06-W1",
+            "C26.06-P1",
+            "C26.06-D1"
+          ]
+        },
+        {
+          "capstone": "C26-CAP-07",
+          "concept": "C26.07",
+          "prior_lesson": "lesson-07.md",
+          "prior_anchors": [
+            "C26.07-E1",
+            "C26.07-W1",
+            "C26.07-P1",
+            "C26.07-D1"
+          ]
+        },
+        {
+          "capstone": "C26-CAP-08",
+          "concept": "C26.08",
+          "prior_lesson": "lesson-08.md",
+          "prior_anchors": [
+            "C26.08-E1",
+            "C26.08-W1",
+            "C26.08-P1",
+            "C26.08-D1"
+          ]
+        },
+        {
+          "capstone": "C26-CAP-09",
+          "concept": "C26.S01",
+          "prior_lesson": "lesson-05.md",
+          "prior_anchors": [
+            "C26.S01-E1",
+            "C26.S01-W1",
+            "C26.S01-P1",
+            "C26.S01-D1"
+          ]
+        }
+      ]
+    },
+    {
+      "location": "capstone.md Rubric",
+      "check": "Nine four-point tasks equal 36 points; nine rubric rows each allocate four separate points. Correct answers and source-boundary criteria align with prompts, and honest source-card rounding is permitted without claiming exact closure.",
+      "result": "passed"
+    },
+    {
+      "location": "capstone.md steps 6-9 and source scopes",
+      "check": "Toy constants and signed extension explicitly separate from measured photons; source card remains reported_exploratory_to_be_verified, null fields are not zero, three costs retain fourteen responses, revision gaps remain open, odd components and denominator failure rows are retained.",
+      "result": "passed"
+    },
+    {
+      "location": "terminology.md; teacher-guide.md; sources.md",
+      "check": "Read all three files. Terminology matches lesson-local meanings including Q, G, O, phase metric and energy; teacher pacing totals 17 core plus 3 capstone periods and retains prerequisite repair. Source notes preserve two works versus six representations, exact object/pointer provenance, 8/6 gain signs, 5 selected energy rows, lambda alias, rounding boundaries and unresolved transfer obligations. Source retrieval claims remain author-reported for this independent audit.",
+      "result": "passed"
+    },
+    {
+      "location": "lesson-01.md through lesson-08.md",
+      "check": "Verified all eight lesson SHA-256 hashes unchanged since first independent audit.",
+      "result": "passed"
+    }
+  ],
+  "findings": [],
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "pending_outside_scope": [
+    "Pinned source-byte retrieval verification, final assembly, manifest and deterministic validator remain parent responsibilities."
+  ],
+  "support_files_sha256": {
+    "capstone.md": "d284dce16e4a6bb3817359361fb8b16038520cb2940e9989dfa1d283e0d08ecf",
+    "terminology.md": "6af9756156057f42f7d1d2c6948e8a8ccd40027e703bd9274b389f69fc2a20a1",
+    "teacher-guide.md": "d3be97331372769287ef2b7e9dc840c5c7d7532da91c4a8cda6728d6ca43a2d3",
+    "sources.md": "46fdf98bee412f28e091042d73d5b39ce5b1b9c15717a6fc09dd8f7679347cd0"
+  }
+}

@@ -1,0 +1,90 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Lesson 2 — Lengths and angles from a Gram matrix · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/3">Course 03</a><span>/</span><span>lesson 02</span></div><a class="original" href="../../../kfield-03-the-authoritative-cell3-basis-metric-and-scale/lesson-02.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#lesson-2-lengths-and-angles-from-a-gram-matrix">Lesson 2 — Lengths and angles from a Gram matrix</a><a href="#bridge">Bridge</a><a href="#dot-products-and-matrix-products">Dot products and matrix products</a><a href="#worked-example-classroom-analogue-not-cell3">Worked example — Classroom analogue, not Cell3</a><a href="#guided-practice-and-diagnostic-checks">Guided practice and diagnostic checks</a><a href="#worked-answers">Worked answers</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 1 — An ordered cell in three dimensions</a><a aria-current=page href="lesson-02.html">Lesson 2 — Lengths and angles from a Gram matrix</a><a  href="lesson-03.html">Lesson 3 — Face areas and signed volume</a><a  href="lesson-04.html">Lesson 4 — Direct and inverse metrics</a><a  href="lesson-05.html">Lesson 5 — Scale classes and the area anchor</a><a  href="lesson-06.html">Lesson 6 — A reproducible Cell3 specification</a></details></aside><div class="reading-column"><article class="prose"><h1 id="lesson-2-lengths-and-angles-from-a-gram-matrix" tabindex="-1">Lesson 2 — Lengths and angles from a Gram matrix</h1>
+<p><strong>Essential question:</strong> How does one table retain both edge lengths and their interactions?</p>
+<p><strong>Goals.</strong> Compute all nine Gram entries; use transpose and row-column multiplication; calculate a squared length with cross terms; infer whether two edges are perpendicular.</p>
+<h2 id="bridge" tabindex="-1">Bridge</h2>
+<p>Lesson 1 supplied Bq as a sum of columns. We now measure that sum. The magnitude (length) of v=(v_x,v_y,v_z) is ||v||=sqrt(v_x²+v_y²+v_z²). A square root means the nonnegative number whose square is the stated value. These are the three-dimensional Pythagorean rules for the fixed perpendicular external axes.</p>
+<h2 id="dot-products-and-matrix-products" tabindex="-1">Dot products and matrix products</h2>
+<p>The <strong>dot product</strong> u·v=u_x v_x+u_y v_y+u_z v_z is a scalar. Dotting a vector with itself gives its squared length. For nonzero vectors, u·v=||u||||v||cos(theta), where theta is their included angle between 0 and 180 degrees. Cosine is the adjacent/hypotenuse ratio for an acute right-triangle angle and extends to signed projections for larger angles. Zero dot product means a 90-degree angle; a positive dot product means an acute angle. A calculator's arccos (inverse cosine) returns the angle with a specified cosine; use degree mode here. We will not require a trigonometry proof.</p>
+<p>The <strong>transpose</strong> B^T swaps rows and columns, without moving the geometric vectors. The entry in row i, column j of a product UV is the dot product of row i of U with column j of V. For example, [1,0,0] dotted with [1,2,0] gives 1. Transposing a table for calculation is different from declaring that its old rows were the physical edges.</p>
+<p>The Gram metric is M_cell=B^T B for actual Cell3. For our classroom analogue write M_ex=B_ex^T B_ex. Entry ij is edge i·edge j. The table is symmetric because u·v=v·u. Diagonal entries give squared edge lengths. Off-diagonal entries store the non-perpendicular interactions. A metric here is a rule for calculating squared length from coordinates; it is not a force or a phase field.</p>
+<h2 id="worked-example-classroom-analogue-not-cell3" tabindex="-1">Worked example — Classroom analogue, not Cell3</h2>
+<p>Suppress L only while multiplying the numbers. From a=(1,0,0), b=(1,2,0), c=(0,0,−3):</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Dot product</th>
+<th>Calculation</th>
+<th style="text-align: right;">Result in L²</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>a·a</td>
+<td>1²+0²+0²</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>a·b</td>
+<td>1·1+0·2+0·0</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>a·c</td>
+<td>1·0+0·0+0·(−3)</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>b·a</td>
+<td>1·1+2·0+0·0</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>b·b</td>
+<td>1²+2²+0²</td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr>
+<td>b·c</td>
+<td>1·0+2·0+0·(−3)</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>c·a</td>
+<td>0·1+0·0+(−3)·0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>c·b</td>
+<td>0·1+0·2+(−3)·0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>c·c</td>
+<td>0²+0²+(−3)²</td>
+<td style="text-align: right;">9</td>
+</tr>
+</tbody>
+</table></div>
+<p>Therefore M_ex/L²=[[1,1,0],[1,5,0],[0,0,9]]. The edge lengths are L, sqrt(5)L, 3L. For a and b, cos(theta_ab)=1/sqrt(5), so the angle is approximately 63.435 degrees. The decimal angle is a calculator illustration, not a source constant. Both other angles are 90 degrees.</p>
+<p>For q=(1,1,0), first compute M_ex q=(2,6,0)L²; then q^T M_ex q=(1,1,0)·(2,6,0)L²=8L². Independently B_ex q=a+b=(2,2,0)L has squared length 4+4=8L². Ignoring off-diagonal terms would give 1+5=6L², a different answer.</p>
+<p>More generally, for symmetric M,</p>
+<p>q^T M q=M_11 q_1²+M_22 q_2²+M_33 q_3²+2M_12 q_1 q_2+2M_13 q_1 q_3+2M_23 q_2 q_3.</p>
+<p>The factor 2 collects both ij and ji entries. Negative cross terms in a particular displacement do not imply negative squared length. For an independent basis, every nonzero q gives positive squared length: this is what <strong>positive definite</strong> means. In source-local notation a letter x may denote the coordinate argument in x^T M_cell x; in this course q is that argument, while x denotes an external point.</p>
+<blockquote>
+<p><strong>Claim scope.</strong> These are Euclidean geometry identities applied to the supplied basis. The source sometimes writes G for this Gram matrix; this course writes M_cell to avoid confusing it with G_phase or G_eff. Neither distinct metric is substituted here. See S02 <code>/backbone_sequence/0</code> and <code>/typed_conventions</code>.</p>
+</blockquote>
+<h2 id="guided-practice-and-diagnostic-checks" tabindex="-1">Guided practice and diagnostic checks</h2>
+<ol>
+<li>Transpose [[1,1,0],[0,2,0],[0,0,−3]].</li>
+<li>Find squared length for q=(1,−1,0) both ways. Identify the cross contribution.</li>
+<li>What are M_ex,23 and the angle between b and c?</li>
+<li>Does a negative determinant force a negative Gram diagonal? Explain using the example.</li>
+</ol>
+<h2 id="worked-answers" tabindex="-1">Worked answers</h2>
+<ol>
+<li>[[1,0,0],[1,2,0],[0,0,−3]].</li>
+<li>B_ex q=(0,−2,0)L gives 4L². The metric gives 1+5+2(1)(1)(−1)=4L². Cross contribution: −2L².</li>
+<li>b·c=0L²; both edges are nonzero, so their angle is 90 degrees.</li>
+<li>No. The diagonal is 1,5,9 times L². Orientation and squared length carry different information.</li>
+</ol>
+<p><strong>Next dependency:</strong> <a href="lesson-03.html">Lesson 3</a> uses these lengths to distinguish oriented face vectors from positive face areas.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><a class="button secondary" href="lesson-01.html">← Previous lesson</a><a class="button" href="lesson-03.html">Next lesson →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/3">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

@@ -1,0 +1,1030 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-26",
+  "title": "Independent audit: Beats, Harmonics, and Spectral Energy/Phase Structure",
+  "reviewed_utc": "2026-11-05T20:18:58.942526+00:00",
+  "status": "passed",
+  "manifest_sha256": "2f37c34dc0b4e2982a91d9484938184c865c00e58d6661d1cf4735332ce2acf3",
+  "scope": "Read-only independent audit of all eight completed lessons, assembled course, nine-operation capstone/key/rubric, teacher guide, terminology, course map, sources, contracts, provenance, source replay and completion metadata. Course24 repair recheck was saved first.",
+  "audited_files": {
+    "audit_report.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\audit_report.json",
+      "sha256": "c9a8df6f0144b1fb347eddeb16d7d8d6dd8090563fcb35e28b4bdba728a2816d"
+    },
+    "capstone.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\capstone.md",
+      "sha256": "d284dce16e4a6bb3817359361fb8b16038520cb2940e9989dfa1d283e0d08ecf"
+    },
+    "completion_report.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\completion_report.json",
+      "sha256": "55514a04621c5de81532a002537cbedb961e3f1ee9c250c5e656ea2bf33929ba"
+    },
+    "course-map.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\course-map.md",
+      "sha256": "98c04653a5d3364674f97949df8b2172398333bd69e51add3e17be1546995d61"
+    },
+    "course.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\course.md",
+      "sha256": "d9bf1424c6ce970544d88e30376817f85904f2cc9895034bd3b89058e81bfea8"
+    },
+    "finalize.py": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\finalize.py",
+      "sha256": "7bba5574a13a8ce8afd463f6a4344b97201e363b26862cd2770dbd9f2367af67"
+    },
+    "independent-audit.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\independent-audit.json",
+      "sha256": "44e650da9ce979f66b76dd914e69f4b8304977709ac925ab8d0e8410a6b5c02d"
+    },
+    "input-contract.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\input-contract.json",
+      "sha256": "b17f75814d4f0eb3fcfbd95a778c75ef4a1b4e30f6471e08d846da208a59b7d4"
+    },
+    "launch-prompt.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\launch-prompt.md",
+      "sha256": "c88ef848ea01986f57fcc17c2a347b1c8ec26c572db18f67b04cf5394337a764"
+    },
+    "lesson-01.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\lesson-01.md",
+      "sha256": "4deacf50daf314cde7f9a83ef65e5a6ba70051c082617c2e22485df4de78c470"
+    },
+    "lesson-02.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\lesson-02.md",
+      "sha256": "7156ee85d1941b1b9015232fab1e4003c68b8d22f04d4f336cb7c6aabccd1b25"
+    },
+    "lesson-03.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\lesson-03.md",
+      "sha256": "fa44d420f7b232c27fc47ebc0b0ec1d8388c000780ba41f6950ed45966a1b3de"
+    },
+    "lesson-04.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\lesson-04.md",
+      "sha256": "c92f02f1ec22c6adb3cd016bebed1bdc98f9a33008c0c8d661974c17703ba1f9"
+    },
+    "lesson-05.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\lesson-05.md",
+      "sha256": "438519d58aab6615bdb43a59b829daad40885f379cddd1217cb85821714ddd31"
+    },
+    "lesson-06.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\lesson-06.md",
+      "sha256": "59063171120af78e0059674ae5d750744dffb6c781afd932d8ac05ff8978e391"
+    },
+    "lesson-07.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\lesson-07.md",
+      "sha256": "b7ba26e42b1ad0ac00dead37ffc84a932f9dbc0c072177c9f7927e15babc577c"
+    },
+    "lesson-08.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\lesson-08.md",
+      "sha256": "d4d64843c8ac7f8db1bc8122cbcbd3ece0e62a2acd852f51055b29f9b99fed32"
+    },
+    "manage.py": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\manage.py",
+      "sha256": "8a777688d8a46e4a7a0ae2b05721dfbe17e3dfa110e258ce8675d96942192e28"
+    },
+    "manifest.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\manifest.json",
+      "sha256": "2f37c34dc0b4e2982a91d9484938184c865c00e58d6661d1cf4735332ce2acf3"
+    },
+    "retrieval-record.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\retrieval-record.json",
+      "sha256": "af5cf6f8cd3652d4845a514904cfe1edfad9cb53c34dc985399b6ba7243927c2"
+    },
+    "source-replay.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\source-replay.json",
+      "sha256": "474bdbcea570f4a995d8a9ece91b9d467ae6accfc084e26e5657fd4a6309da29"
+    },
+    "sources.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\sources.md",
+      "sha256": "46fdf98bee412f28e091042d73d5b39ce5b1b9c15717a6fc09dd8f7679347cd0"
+    },
+    "teacher-guide.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\teacher-guide.md",
+      "sha256": "d3be97331372769287ef2b7e9dc840c5c7d7532da91c4a8cda6728d6ca43a2d3"
+    },
+    "terminology.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\terminology.md",
+      "sha256": "6af9756156057f42f7d1d2c6948e8a8ccd40027e703bd9274b389f69fc2a20a1"
+    },
+    "verification.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\verification.json",
+      "sha256": "a26cf05df30b4e61d0a80fb6dae0072ead43ece6849e0657f0def9083fbd462b"
+    },
+    "verify_examples.py": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\verify_examples.py",
+      "sha256": "5815eba165f87d697eae1d43ba3eb431b04e1241c4b610b9ef3af1a6a505dfd7"
+    }
+  },
+  "source_hashes": [
+    {
+      "id": "S01",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180"
+    },
+    {
+      "id": "S02",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3"
+    },
+    {
+      "id": "S03",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e"
+    },
+    {
+      "id": "S04",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+      "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2"
+    },
+    {
+      "id": "S05",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+      "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7"
+    },
+    {
+      "id": "spectral-local-byte-revision",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_spectrophotometer_quadratic_phase_cost_analysis_1787748698.json",
+      "sha256": "2b4a2e39df7b165ed243e2dbd9399e8455c22436c244574122a9b5ebc05b401a"
+    },
+    {
+      "id": "energy-local-byte-revision",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_spectrophotometer_energy_per_200ms_reading_1787713812.json",
+      "sha256": "f98cfec9980986adda0eb44cc91ab26f524dec9e5e3bae3d153cb947f13d324a"
+    }
+  ],
+  "pinned_application_reads": {
+    "corpus_generation": "sha256:5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+    "manifest_sha256": "5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+    "retrieval_scope": "Fresh generation identity plus exact complete primary file reads. Search returned zero matching chunks and is not an exhaustiveness certificate.",
+    "objects": [
+      {
+        "id": "T35",
+        "logical_path": "applications/kfield_lucas_lab/rag_corpus/35_spectral_energy_phase.md",
+        "sha256": "03dc7e11045b3912f1e8cc0d69a4789b6ad300ac78b4549ea86c45e51228c7bc",
+        "bytes": 3018,
+        "byte_range": [
+          0,
+          3018
+        ],
+        "returned_range_sha256": "03dc7e11045b3912f1e8cc0d69a4789b6ad300ac78b4549ea86c45e51228c7bc",
+        "independent_hash": "SHA-256 of the complete decoded bytes, computed in memory; abc known-answer self-test passed."
+      },
+      {
+        "id": "T50",
+        "logical_path": "applications/kfield_lucas_lab/rag_corpus/50_physical_closure.md",
+        "sha256": "c2a25a583af904601968adc1d3efde825f76218c92a2f52d829afc093f52c02a",
+        "bytes": 1761,
+        "byte_range": [
+          0,
+          1761
+        ],
+        "returned_range_sha256": "c2a25a583af904601968adc1d3efde825f76218c92a2f52d829afc093f52c02a",
+        "independent_hash": "SHA-256 of the complete decoded bytes, computed in memory; abc known-answer self-test passed."
+      },
+      {
+        "id": "bundle",
+        "logical_path": "applications/kfield_lucas_lab/contracts/spectrophotometer_evidence_bundle_v1.json",
+        "sha256": "04044230f3b2536d22654b294760106eca301f212e4eb4157989b330ff611f17",
+        "bytes": 6438,
+        "byte_range": [
+          0,
+          6438
+        ],
+        "returned_range_sha256": "04044230f3b2536d22654b294760106eca301f212e4eb4157989b330ff611f17",
+        "independent_hash": "SHA-256 of the complete decoded bytes, computed in memory; abc known-answer self-test passed."
+      },
+      {
+        "id": "spectral",
+        "logical_path": "applications/kfield_lucas_lab/sources/K-Field_spectrophotometer_quadratic_phase_cost_analysis_1787748698.json",
+        "sha256": "d4105a6d6802e6bb2a2ba8e76a1d23a27973fca3d3335fd8335690a41ab72dfa",
+        "bytes": 48364,
+        "byte_range": [
+          0,
+          48364
+        ],
+        "returned_range_sha256": "d4105a6d6802e6bb2a2ba8e76a1d23a27973fca3d3335fd8335690a41ab72dfa",
+        "independent_hash": "SHA-256 of the complete decoded bytes, computed in memory; abc known-answer self-test passed."
+      },
+      {
+        "id": "energy",
+        "logical_path": "applications/kfield_lucas_lab/sources/K-Field_spectrophotometer_energy_per_200ms_reading_1787713812.json",
+        "sha256": "9120f80210b235b8612d6479fe25272eb3824f31c5a1394e7e9d12718e57e70f",
+        "bytes": 22424,
+        "byte_range": [
+          0,
+          22424
+        ],
+        "returned_range_sha256": "9120f80210b235b8612d6479fe25272eb3824f31c5a1394e7e9d12718e57e70f",
+        "independent_hash": "SHA-256 of the complete decoded bytes, computed in memory; abc known-answer self-test passed."
+      }
+    ]
+  },
+  "findings": [],
+  "unresolved_counts": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0
+  },
+  "lesson_reviews": [
+    {
+      "lesson": 1,
+      "file": "lesson-01.md",
+      "status": "passed",
+      "operations": [
+        "C26.01"
+      ],
+      "review": "Radians, period/frequency, angular frequency, baseline and signed AC are locally introduced; worked and practiced phase shifts and capstone samples agree.",
+      "evidence": [
+        {
+          "step_id": "C26-CAP-01",
+          "lesson": "lesson-01.md",
+          "points": 4,
+          "locations": {
+            "explanation_id": {
+              "id": "C26.01-E1",
+              "line": 9
+            },
+            "worked_example_id": {
+              "id": "C26.01-W1",
+              "line": 26
+            },
+            "prior_practice_id": {
+              "id": "C26.01-P1",
+              "line": 39
+            },
+            "diagnostic_id": {
+              "id": "C26.01-D1",
+              "line": 43
+            }
+          }
+        }
+      ]
+    },
+    {
+      "lesson": 2,
+      "file": "lesson-02.md",
+      "status": "passed",
+      "operations": [
+        "C26.02"
+      ],
+      "review": "Addition identities derived from rotated basis; carrier, signed envelope factor and absolute-envelope maxima frequencies distinguished. The 4/6, 5/7 and 10/14 cases and negative signed-factor practice close.",
+      "evidence": [
+        {
+          "step_id": "C26-CAP-02",
+          "lesson": "lesson-02.md",
+          "points": 4,
+          "locations": {
+            "explanation_id": {
+              "id": "C26.02-E1",
+              "line": 9
+            },
+            "worked_example_id": {
+              "id": "C26.02-W1",
+              "line": 29
+            },
+            "prior_practice_id": {
+              "id": "C26.02-P1",
+              "line": 35
+            },
+            "diagnostic_id": {
+              "id": "C26.02-D1",
+              "line": 39
+            }
+          }
+        }
+      ]
+    },
+    {
+      "lesson": 3,
+      "file": "lesson-03.md",
+      "status": "passed",
+      "operations": [
+        "C26.03"
+      ],
+      "review": "Unit normal, origin, spacing and units are explicit. Signed projection, harmonic index, reversal and tangential zero-rate cases are exercised without discarding trajectory information.",
+      "evidence": [
+        {
+          "step_id": "C26-CAP-03",
+          "lesson": "lesson-03.md",
+          "points": 4,
+          "locations": {
+            "explanation_id": {
+              "id": "C26.03-E1",
+              "line": 9
+            },
+            "worked_example_id": {
+              "id": "C26.03-W1",
+              "line": 19
+            },
+            "prior_practice_id": {
+              "id": "C26.03-P1",
+              "line": 25
+            },
+            "diagnostic_id": {
+              "id": "C26.03-D1",
+              "line": 29
+            }
+          }
+        }
+      ]
+    },
+    {
+      "lesson": 4,
+      "file": "lesson-04.md",
+      "status": "passed",
+      "operations": [
+        "C26.04"
+      ],
+      "review": "Complex arithmetic and roots table precede the four-bin transform. Forward minus/inverse plus signs, 1/4 normalization, all complex bins, inverse numerators, delays and aliasing are taught and practiced.",
+      "evidence": [
+        {
+          "step_id": "C26-CAP-04",
+          "lesson": "lesson-04.md",
+          "points": 4,
+          "locations": {
+            "explanation_id": {
+              "id": "C26.04-E1",
+              "line": 9
+            },
+            "worked_example_id": {
+              "id": "C26.04-W1",
+              "line": 36
+            },
+            "prior_practice_id": {
+              "id": "C26.04-P1",
+              "line": 58
+            },
+            "diagnostic_id": {
+              "id": "C26.04-D1",
+              "line": 64
+            }
+          }
+        }
+      ]
+    },
+    {
+      "lesson": 5,
+      "file": "lesson-05.md",
+      "status": "passed",
+      "operations": [
+        "C26.05",
+        "C26.S01"
+      ],
+      "review": "Invertible M,Q,D0,D90 coordinates and same-origin complex reference ratios preserve signs. Q=0, rho=0 and sin(theta)=0 remain undefined with inputs retained. S01 includes projector identities, comparator nullspace, even/odd Fourier support and 25/27 aliasing.",
+      "evidence": [
+        {
+          "step_id": "C26-CAP-05",
+          "lesson": "lesson-05.md",
+          "points": 4,
+          "locations": {
+            "explanation_id": {
+              "id": "C26.05-E1",
+              "line": 9
+            },
+            "worked_example_id": {
+              "id": "C26.05-W1",
+              "line": 24
+            },
+            "prior_practice_id": {
+              "id": "C26.05-P1",
+              "line": 28
+            },
+            "diagnostic_id": {
+              "id": "C26.05-D1",
+              "line": 50
+            }
+          }
+        },
+        {
+          "step_id": "C26-CAP-09",
+          "lesson": "lesson-05.md",
+          "points": 4,
+          "locations": {
+            "explanation_id": {
+              "id": "C26.S01-E1",
+              "line": 34
+            },
+            "worked_example_id": {
+              "id": "C26.S01-W1",
+              "line": 40
+            },
+            "prior_practice_id": {
+              "id": "C26.S01-P1",
+              "line": 44
+            },
+            "diagnostic_id": {
+              "id": "C26.S01-D1",
+              "line": 50
+            }
+          }
+        }
+      ]
+    },
+    {
+      "lesson": 6,
+      "file": "lesson-06.md",
+      "status": "passed",
+      "operations": [
+        "C26.06"
+      ],
+      "review": "Units, wavelength conversion, interval endpoints and negative-gain endpoint reordering are explicit. Toy calculations and five source energy records replay correctly; conversion does not establish measured transfer.",
+      "evidence": [
+        {
+          "step_id": "C26-CAP-06",
+          "lesson": "lesson-06.md",
+          "points": 4,
+          "locations": {
+            "explanation_id": {
+              "id": "C26.06-E1",
+              "line": 9
+            },
+            "worked_example_id": {
+              "id": "C26.06-W1",
+              "line": 15
+            },
+            "prior_practice_id": {
+              "id": "C26.06-P1",
+              "line": 21
+            },
+            "diagnostic_id": {
+              "id": "C26.06-D1",
+              "line": 35
+            }
+          }
+        }
+      ]
+    },
+    {
+      "lesson": 7,
+      "file": "lesson-07.md",
+      "status": "passed",
+      "operations": [
+        "C26.07"
+      ],
+      "review": "All 14 rows, 8 positive/6 negative, 4w/4v/6lambda, selected five energy entries and positive null cases are explicit. Source identity, row reconstruction, same-wavelength ratios, precision and source gaps are retained.",
+      "evidence": [
+        {
+          "step_id": "C26-CAP-07",
+          "lesson": "lesson-07.md",
+          "points": 4,
+          "locations": {
+            "explanation_id": {
+              "id": "C26.07-E1",
+              "line": 9
+            },
+            "worked_example_id": {
+              "id": "C26.07-W1",
+              "line": 42
+            },
+            "prior_practice_id": {
+              "id": "C26.07-P1",
+              "line": 46
+            },
+            "diagnostic_id": {
+              "id": "C26.07-D1",
+              "line": 54
+            }
+          }
+        }
+      ]
+    },
+    {
+      "lesson": 8,
+      "file": "lesson-08.md",
+      "status": "passed",
+      "operations": [
+        "C26.08"
+      ],
+      "review": "x=m+r and spectral closure retain DC and every signed/complex component. Worked/practice parity reconstructions and next-step timing/reference requirements avoid reducing residual information to a score.",
+      "evidence": [
+        {
+          "step_id": "C26-CAP-08",
+          "lesson": "lesson-08.md",
+          "points": 4,
+          "locations": {
+            "explanation_id": {
+              "id": "C26.08-E1",
+              "line": 9
+            },
+            "worked_example_id": {
+              "id": "C26.08-W1",
+              "line": 17
+            },
+            "prior_practice_id": {
+              "id": "C26.08-P1",
+              "line": 29
+            },
+            "diagnostic_id": {
+              "id": "C26.08-D1",
+              "line": 43
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "actual_capstone_practice_links": [
+    {
+      "step_id": "C26-CAP-01",
+      "lesson": "lesson-01.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C26.01-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C26.01-W1",
+          "line": 26
+        },
+        "prior_practice_id": {
+          "id": "C26.01-P1",
+          "line": 39
+        },
+        "diagnostic_id": {
+          "id": "C26.01-D1",
+          "line": 43
+        }
+      }
+    },
+    {
+      "step_id": "C26-CAP-02",
+      "lesson": "lesson-02.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C26.02-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C26.02-W1",
+          "line": 29
+        },
+        "prior_practice_id": {
+          "id": "C26.02-P1",
+          "line": 35
+        },
+        "diagnostic_id": {
+          "id": "C26.02-D1",
+          "line": 39
+        }
+      }
+    },
+    {
+      "step_id": "C26-CAP-03",
+      "lesson": "lesson-03.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C26.03-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C26.03-W1",
+          "line": 19
+        },
+        "prior_practice_id": {
+          "id": "C26.03-P1",
+          "line": 25
+        },
+        "diagnostic_id": {
+          "id": "C26.03-D1",
+          "line": 29
+        }
+      }
+    },
+    {
+      "step_id": "C26-CAP-04",
+      "lesson": "lesson-04.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C26.04-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C26.04-W1",
+          "line": 36
+        },
+        "prior_practice_id": {
+          "id": "C26.04-P1",
+          "line": 58
+        },
+        "diagnostic_id": {
+          "id": "C26.04-D1",
+          "line": 64
+        }
+      }
+    },
+    {
+      "step_id": "C26-CAP-05",
+      "lesson": "lesson-05.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C26.05-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C26.05-W1",
+          "line": 24
+        },
+        "prior_practice_id": {
+          "id": "C26.05-P1",
+          "line": 28
+        },
+        "diagnostic_id": {
+          "id": "C26.05-D1",
+          "line": 50
+        }
+      }
+    },
+    {
+      "step_id": "C26-CAP-06",
+      "lesson": "lesson-06.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C26.06-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C26.06-W1",
+          "line": 15
+        },
+        "prior_practice_id": {
+          "id": "C26.06-P1",
+          "line": 21
+        },
+        "diagnostic_id": {
+          "id": "C26.06-D1",
+          "line": 35
+        }
+      }
+    },
+    {
+      "step_id": "C26-CAP-07",
+      "lesson": "lesson-07.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C26.07-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C26.07-W1",
+          "line": 42
+        },
+        "prior_practice_id": {
+          "id": "C26.07-P1",
+          "line": 46
+        },
+        "diagnostic_id": {
+          "id": "C26.07-D1",
+          "line": 54
+        }
+      }
+    },
+    {
+      "step_id": "C26-CAP-08",
+      "lesson": "lesson-08.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C26.08-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C26.08-W1",
+          "line": 17
+        },
+        "prior_practice_id": {
+          "id": "C26.08-P1",
+          "line": 29
+        },
+        "diagnostic_id": {
+          "id": "C26.08-D1",
+          "line": 43
+        }
+      }
+    },
+    {
+      "step_id": "C26-CAP-09",
+      "lesson": "lesson-05.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C26.S01-E1",
+          "line": 34
+        },
+        "worked_example_id": {
+          "id": "C26.S01-W1",
+          "line": 40
+        },
+        "prior_practice_id": {
+          "id": "C26.S01-P1",
+          "line": 44
+        },
+        "diagnostic_id": {
+          "id": "C26.S01-D1",
+          "line": 50
+        }
+      }
+    }
+  ],
+  "capstone_semantic_review": {
+    "status": "passed",
+    "steps": 9,
+    "total_points": 36,
+    "points_each": 4,
+    "operation_review": "CAP01–08 correspond to C26.01–08; CAP09 corresponds to C26.S01 parity. Each operation has actual explanation, worked example, prior practice and diagnostic text, not merely map labels.",
+    "unrehearsed_operations": [],
+    "answer_key": "All finite numerical keys independently replayed; source-row operations checked against all 14 events and selected five energy records.",
+    "identity_note": {
+      "C26.S01": "Parity and comparator nullspaces, located in lesson05 and CAP09.",
+      "C26.06": "Energy/photon-equivalent conversion, located in lesson06 and CAP06.",
+      "note": "Delegation called S01 energy conversion; inspected authoritative contract assigns S01 to parity. Both operations fully audited without relabeling."
+    }
+  },
+  "amendment_review": {
+    "status": "passed",
+    "teaching_receipt": {
+      "path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-teaching-auditor\\outputs\\teaching-verification-24-27.json",
+      "sha256": "4e96da088122d472476f9ab06fe6c3d8fbbad2252315d304843a6c5e64ab0e04"
+    },
+    "source_cards": [
+      {
+        "pointer": "/records/15",
+        "id": "R016",
+        "type": "observation",
+        "provenance_class": "archive_stated"
+      },
+      {
+        "pointer": "/records/16",
+        "id": "R017",
+        "type": "equation",
+        "provenance_class": "archive_stated"
+      },
+      {
+        "pointer": "/records/20",
+        "id": "R021",
+        "type": "discovery",
+        "provenance_class": "synthesis"
+      },
+      {
+        "pointer": "/records/25",
+        "id": "R026",
+        "type": "discovery",
+        "provenance_class": "synthesis"
+      },
+      {
+        "pointer": "/records/26",
+        "id": "R027",
+        "type": "discovery",
+        "provenance_class": "synthesis"
+      },
+      {
+        "pointer": "/records/27",
+        "id": "R028",
+        "type": "evaluation",
+        "provenance_class": "synthesis"
+      }
+    ],
+    "subject_and_source_kernels": "Local prerequisites, typed source vocabulary, residual preservation, domain guards, source classes and unresolved obligations are preserved. S01 parity and C26.06 energy were both audited under their actual identifiers."
+  },
+  "independent_recomputation": {
+    "status": "passed",
+    "checks": 954,
+    "checks_by_group": {
+      "runtime": 1,
+      "integrity": 100,
+      "syntax-only": 3,
+      "source-integrity": 8,
+      "source-contract": 7,
+      "assembly": 18,
+      "actual-links": 49,
+      "pedagogy-structure": 40,
+      "pacing": 10,
+      "rubric": 1,
+      "markdown-tables": 158,
+      "local-links": 42,
+      "oscillation": 6,
+      "beats": 16,
+      "harmonics": 5,
+      "DFT-orthogonality": 16,
+      "DFT": 76,
+      "aliasing": 6,
+      "parity": 26,
+      "four-angle": 18,
+      "complex-reference": 2,
+      "toy-energy": 6,
+      "source-accounting": 10,
+      "source-join": 70,
+      "source-arithmetic": 98,
+      "saved-replay": 84,
+      "energy-join": 10,
+      "source-energy": 35,
+      "source-inference": 33
+    },
+    "failures": [],
+    "runtime": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+    "verifier_path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-series-source-auditor\\work\\audit_course26.py",
+    "verifier_sha256": "9b58ce1439743c782a218044aba2458e17bba1effcf1faa5842753df74c56fb7",
+    "verification_file": "course-26-independent-verification.json",
+    "scope": "Auditor-authored arithmetic; builder scripts parsed/read only. Full row-specific results and signed differences in companion verification."
+  },
+  "assessment_and_accessibility": {
+    "status": "passed",
+    "core_periods": [
+      2,
+      2,
+      1,
+      3,
+      3,
+      2,
+      2,
+      2
+    ],
+    "core_total": 17,
+    "capstone_periods": 3,
+    "minutes_per_period": 55,
+    "total_minutes": 1100,
+    "math_scaffolding": "Complex numbers, circle/radian geometry, trig addition, dot products and matrix actions introduced locally; no assumed calculus.",
+    "source_access": "All data needed for assigned student work are included in the course; private source access is not an assessment prerequisite.",
+    "artifacts": "Eight lesson bodies match assembled course. Markdown tables, local links, 9x4 rubric and required lesson structures pass."
+  },
+  "source_and_authority_boundaries": {
+    "observed_or_archive_stated": "The course preserves all 14 signed source event/channel rows, timestamps, channel and family identities, four-angle decomposition and acquisition diagnostics. Source observations remain source-reported; no raw acquisition replay is claimed.",
+    "derived_transforms": "Independent finite DFT, parity, ratio, phase-cost, projected-velocity and input-equivalent energy calculations preserve signed differences and explicit undefined branches.",
+    "inferred_structure": "Only three distinct plane-family phase-cost levels occur among 14 response rows. Family residuals and source-selected model residuals remain separate arrays; no significance threshold or fit score closes a mechanism.",
+    "proposed_mechanisms": "Baseband transfer/down-conversion and identifiable coupling remain unresolved. T50 product ambiguity is explicitly taught and rechecked; matched products do not identify separate gain and responsivity.",
+    "established_reference_relations": "Frequency/period, trigonometric addition, finite Fourier inversion and E_photon=hc/lambda are kept distinct from source-specific response/energy assumptions.",
+    "representation_independence": "The six files are two works in three representations each, not six independent studies.",
+    "source_G_collision": "T35 uses G for count contrast; spectral JSON uses G for fractional gain. Course and independent recomputation distinguish contrast_counts from g.",
+    "energy_scope": "Five source-selected positive rows have energy-equivalent values, not all eight positive rows; six negative rows and three positive energy-null rows remain retained. Input-equivalent energy and photon equivalents are not transferred energy or detected photon counts.",
+    "energy_selected_spectral_indices": [
+      1,
+      2,
+      5,
+      8,
+      13
+    ],
+    "positive_energy_null_spectral_indices": [
+      0,
+      9,
+      11
+    ],
+    "source_revision_obligation": {
+      "quadratic_work_declares_energy_json_sha256": "f98cfec9980986adda0eb44cc91ab26f524dec9e5e3bae3d153cb947f13d324a",
+      "packaged_energy_json_sha256": "9120f80210b235b8612d6479fe25272eb3824f31c5a1394e7e9d12718e57e70f",
+      "status": "to_be_verified_revision_mismatch",
+      "obligation": "Resolve which energy-work revision the quadratic analysis consumed and bind the relationship with a signed content-addressed manifest."
+    },
+    "representation_integrity": [
+      {
+        "id": "quadratic-phase-cost-analysis-1787748698",
+        "representations": [
+          {
+            "role": "human_readable_pdf",
+            "path": "sources/K-Field_spectrophotometer_quadratic_phase_cost_analysis_1787748698.pdf",
+            "sha256": "35b3af799854f5dd9070c660a7e9cbcd0c27c20087a011a612cdfdfda545a052",
+            "bytes": 530068,
+            "declared_sha256": "989c5fe7d230e5bddc3727420710c232bb550ba8305e9b6f6baa6dba42ec2e6d",
+            "declared_bytes": 509185,
+            "integrity_status": "quarantined_declared_digest_mismatch",
+            "to_be_verified": "Identify and content-address the declared 509185-byte rendering or explicitly issue and sign this 530068-byte rendering as a new revision."
+          }
+        ]
+      },
+      {
+        "id": "energy-per-200ms-reading-1787713812",
+        "representations": [
+          {
+            "role": "human_readable_pdf",
+            "path": "sources/K-Field_spectrophotometer_energy_per_200ms_reading_1787713812.pdf",
+            "sha256": "4f7b8bffb8205484ad65822504afa63ad86bd3fab41e0a8b8f351ed4aefee9c4",
+            "bytes": 76253,
+            "integrity_status": "packaged_unsealed_rendering",
+            "to_be_verified": "Issue a source-authenticated manifest that binds this rendering to the machine-readable work."
+          }
+        ]
+      }
+    ],
+    "open_obligations": [
+      {
+        "id": "raw-spectrophotometer-bytes",
+        "artifact": "pic_id21A.csv",
+        "expected_sha256": "14ec86bc963a4ee041c33e3d4e9a16e70d82ceb5832a04cfdbaa81ea3739c031"
+      },
+      {
+        "id": "led-datasheet",
+        "artifact": "EAHC2835WD6- LED Datasheet.PDF",
+        "expected_sha256": "5cd36ee08b064e8bd8da2fcfd587b440628584ad60f770b44cfb3a4b47c692eb"
+      },
+      {
+        "id": "detector-radiometric-calibration",
+        "artifact": null
+      },
+      {
+        "id": "blank-reference-ledger",
+        "artifact": null
+      },
+      {
+        "id": "measurement-uncertainty-model",
+        "artifact": null
+      },
+      {
+        "id": "angular-interpolation-and-mechanical-uncertainty",
+        "artifact": null
+      },
+      {
+        "id": "exposure-transfer-function",
+        "artifact": null
+      },
+      {
+        "id": "preregistered-independent-replay",
+        "artifact": null
+      }
+    ],
+    "other_boundaries": [
+      "Equivalent input-referred LED energy is not transferred or extracted energy.",
+      "Equivalent photon count is not a detected photon count.",
+      "Fourteen event rows contain only three distinct plane-family cost levels; event-row regression is not fourteen independent phase-cost observations.",
+      "Sub-degree interpolated plane match is not a sub-degree measurement-resolution claim; the acquisition grid is four degrees.",
+      "A terahertz carrier averaged over 200 ms requires an explicit down-conversion or transfer witness before a baseband coupling claim is admissible.",
+      "Negative gains are signed observations and must not be discarded from exploratory visualization or future inference."
+    ],
+    "forbidden_promotions": [
+      "sensor_detected",
+      "net_energy_extracted",
+      "thrust_induced",
+      "coupling_constant_identified",
+      "physical_CMB_authority_replaced_by_experiment_local_vector"
+    ],
+    "velocity_authority": {
+      "physical_earth_cmb_authority_m_s": 369812.50200040644,
+      "quarantined_band_m_s": [
+        900000,
+        1000000
+      ],
+      "note": "Source-local experiment vector, full and rounded precision records, are not a replacement for physical CMB authority or a fresh locked Cell3 certification."
+    },
+    "parity_archive_scope": "R016 and R017 are archive_stated; R021/R026/R027/R028 are synthesis/evaluation. Finite four-sample identities were replayed independently; larger archive FFT arrays, reported channel odd-AC fractions and ranking were not freshly reproduced.",
+    "acquisition_scope": "4-degree acquisition grid remains separate from sub-degree interpolated matches. Source-reported 65880 processed = 65845 healthy + 35 diagnostic records retains diagnostic masks/reasons; not a raw-data validation claim.",
+    "source_local_byte_revisions": [
+      {
+        "id": "spectral",
+        "canonical_remote_sha256": "d4105a6d6802e6bb2a2ba8e76a1d23a27973fca3d3335fd8335690a41ab72dfa",
+        "local_sha256": "2b4a2e39df7b165ed243e2dbd9399e8455c22436c244574122a9b5ebc05b401a",
+        "parsed_value_differences": [],
+        "comparison": "Full recursive parsed JSON comparison in memory, including array ordering, keys, strings, nulls and IEEE-754 binary64 numbers; zero differences. Bytes differ; no claim of signed revision equivalence or lexical/numeric-token identity.",
+        "source_copies_created": false
+      },
+      {
+        "id": "energy",
+        "canonical_remote_sha256": "9120f80210b235b8612d6479fe25272eb3824f31c5a1394e7e9d12718e57e70f",
+        "local_sha256": "f98cfec9980986adda0eb44cc91ab26f524dec9e5e3bae3d153cb947f13d324a",
+        "parsed_value_differences": [],
+        "comparison": "Full recursive parsed JSON comparison in memory, including array ordering, keys, strings, nulls and IEEE-754 binary64 numbers; zero differences. Bytes differ; no claim of signed revision equivalence or lexical/numeric-token identity.",
+        "source_copies_created": false
+      }
+    ]
+  },
+  "fresh_project_validation": {
+    "canonical_output_root": "Z:\\Kfield-doc-training\\K-Field_Training_Course",
+    "checks": [
+      "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+      "parsed manifest.json",
+      "parsed audit_report.json",
+      "parsed completion_report.json",
+      "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+    ],
+    "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure",
+    "errors": [],
+    "schema_version": "1.0",
+    "status": "passed",
+    "storage_authority": "User explicitly authorized project-folder outputs, 2026-11-05",
+    "validator_path": "C:\\Users\\info\\.codex\\skills\\build-high-school-course\\scripts\\validate_course.py",
+    "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+    "exit_code": 0,
+    "adapter": {
+      "path": "Z:/Kfield-doc-training/.work/validate_project_course.py",
+      "sha256": "3fdba74f7ac1430208a4e652200026dc98988f607f60fc928bda65d5857cc745"
+    },
+    "fixture_mode": false,
+    "override": "Existing adapter changes only the canonical output root; installed validator remains active.",
+    "limitation": "Structural validation supplements, rather than replaces, independent mathematical and pedagogical review.",
+    "runtime_note": "Conda emitted missing OpenCL vendors/temp.txt cleanup messages; Python completed and validator exited zero."
+  },
+  "limitations": [
+    "No course, source, builder or parent artifact was modified; no builder mathematics was executed or imported.",
+    "No raw pic_id21A acquisition, radiometric calibration, detector transfer, archived large FFT arrays, compiler proofs or hardware validation was performed.",
+    "PDF conflicts are reported from the pinned bundle metadata; PDF bytes and visual renderings were not independently examined.",
+    "Parsed-value equality of local and remote JSON does not authenticate revision relationships, signatures or PDF renderings.",
+    "Arithmetic agreement and course acceptance do not close the source bundle's explicit physical, calibration, transfer or provenance obligations.",
+    "Machine checks use exact Fraction arithmetic for finite examples and documented binary64 tolerances for source decimal calculations; all computed signed differences are retained.",
+    "Pedagogical review is desk review of the completed artifacts, not a live classroom pacing trial."
+  ],
+  "eligible_for_parent_acceptance": true,
+  "acceptance_condition": "Current manifest and audited file hashes only; source obligations remain explicitly open and are not course defects because they are accurately taught.",
+  "source_files_copied": false,
+  "course_or_parent_files_modified": false
+}

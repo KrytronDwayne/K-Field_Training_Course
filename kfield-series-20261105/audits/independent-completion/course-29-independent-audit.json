@@ -1,0 +1,431 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-29",
+  "created_utc": "2026-11-05T20:30:23.339638+00:00",
+  "audit_level": "completed_course_independent_semantic_and_numeric",
+  "status": "passed",
+  "eligible_for_parent_acceptance": true,
+  "manifest_sha256": "206b584066826720da45c06c304fd0749ce01a1b81c9b601056f5f825376ca3c",
+  "audited_files": [
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\input-contract.json",
+      "sha256": "bd9eea7c5ee445c50a873a26ea6ed6c4314c6502655496d46ec477fa2b69052f",
+      "bytes": 162724
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\launch-prompt.md",
+      "sha256": "707049b95723ed25729dc7e90991e764e46b47aa8d551f3e039d228efaaa8d33",
+      "bytes": 134241
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\build_course.py",
+      "sha256": "00d64b8cf443510a614b59a2475ff4e2235b1f69d82f403eb1948f9b633f366d",
+      "bytes": 15831
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\lesson-01.md",
+      "sha256": "e558f8d9cc013f7c5278ac2978f559396c27a118ba9b8867d8e99e7b9368ac80",
+      "bytes": 4686
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\lesson-02.md",
+      "sha256": "1b98ff0270bc1e667c410349eb7f47186c576f633d56358bf6aeaf9c6d724347",
+      "bytes": 5603
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\lesson-03.md",
+      "sha256": "a88cdf9c0aaea685eb84f0b20f7ad56519be27a920ecb74280107ebc0858ec4e",
+      "bytes": 5603
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\lesson-04.md",
+      "sha256": "e1c53b59d5545f27532623fbd42bb03f582462bb66512385b5bbc667bd784258",
+      "bytes": 5584
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\lesson-05.md",
+      "sha256": "a88d81a5d386677b57e68c9fab36ad0bd6dea50a9b63b5063bac0a6553337917",
+      "bytes": 5402
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\lesson-06.md",
+      "sha256": "92a5cf9f3cb0d8ae4c2bca37d7a68bbe82b05e3f6cbd971d12a82bce6be1dc15",
+      "bytes": 5256
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\lesson-07.md",
+      "sha256": "318213841922685e5f683c83c8877af8550b5810e52ff04e2666236638e7f0a3",
+      "bytes": 5643
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\lesson-08.md",
+      "sha256": "c95dbc49739dc5a9fbb4651a19ba532dabe31b42895ad144232e57bf3e61b9ef",
+      "bytes": 6406
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\course-map.md",
+      "sha256": "d67c550a8c724475c615fe466b1223f416c16bfd28fdf47a8a84a73f69ef9375",
+      "bytes": 3682
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\terminology.md",
+      "sha256": "db4d3c0c2a666677fa2ae6801546e81efe0c50cc5585b32af35236fca1175480",
+      "bytes": 5420
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\manifest.json",
+      "sha256": "206b584066826720da45c06c304fd0749ce01a1b81c9b601056f5f825376ca3c",
+      "bytes": 12668
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\audit_report.json",
+      "sha256": "1b8d3e1988b1546f29efe3112ac62e6f23fc49e25d35b0d4725c446d43af85be",
+      "bytes": 8307
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\completion_report.json",
+      "sha256": "86869779a13157b4ac1e8ad08cf74f03babf9076e63f029aa2e2ebf37feaa004",
+      "bytes": 4620
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\verify_examples.py",
+      "sha256": "e288b294b27fe7e3e859f976058a66dc117c797b9f3a8d2cc70724ceebc91bdc",
+      "bytes": 6733
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\source-comparison.md",
+      "sha256": "28e9581e60ee63fef745e152333f96e52a3b13ae66a97aa75b04105f953ce04a",
+      "bytes": 2155
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\worked-example-verification.json",
+      "sha256": "1b5ceb06cae0672634124d4eaff0a15c9ea5892c53c2164188ee7b6b060a0c5c",
+      "bytes": 11482
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\sources.md",
+      "sha256": "afb8150cf916436d362127648cc4d008eb42e0669576aa08c6e11b72ec55d676",
+      "bytes": 5864
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\capstone.md",
+      "sha256": "d0e63179c6b9db722832af2cea188bf7cf01e685d1af2a47a3262db67e9bc921",
+      "bytes": 10379
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\teacher-guide.md",
+      "sha256": "4586b0713db828510738b60eade3bb1d4c0600685f2c7d6d7622553729d6391b",
+      "bytes": 7049
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\course.md",
+      "sha256": "85b0e67e2b6127813695c2d3744e5ccfd90871e36b34fb1cf796c7a3f707fc79",
+      "bytes": 45192
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\independent-audit.md",
+      "sha256": "ad7de161a3c096c321339df670f8e00c78679be9660015bc8140750ad8086143",
+      "bytes": 1905
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry\\validator-result.json",
+      "sha256": "d8b3938cdc5fc581a5b976faf36d1363658a3cd1fa934b923abb1e22c5307f4c",
+      "bytes": 916
+    }
+  ],
+  "verification_path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-teaching-auditor\\outputs\\course-29-independent-verification.json",
+  "verification_sha256": "914c42080e45b21e2be7e66431102c726eec169a5c66ef717cced00bb0deb30e",
+  "lesson_specific_semantic_reviews": [
+    {
+      "lesson_id": "lesson-01",
+      "concept_id": "C29.01",
+      "semantic_review": "L01 teaches vectors, special sine/cosine values, dot products and arccos before comparing directed and axial angles. Worked antipodes, practiced e_y and answered e_z diagnostics establish both views. Original directions and missing radii remain explicit.",
+      "status": "passed",
+      "capstone_operation": "C29-CAP-01",
+      "capstone_review": "CAP-01 reuses W1/P1 and D1; no new operation.",
+      "explanation": "C29.01-E1",
+      "worked": "C29.01-W1",
+      "practice": "C29.01-P1",
+      "diagnostic": "C29.01-D1",
+      "planned_periods": 1
+    },
+    {
+      "lesson_id": "lesson-02",
+      "concept_id": "C29.02",
+      "semantic_review": "L02 supplies the complete response card, cycle/radian distinction and separate reciprocal address. Closure-consistent phases give zero F and positive D; undefined division has explicit flags. Antipodal q parity is derived by two sign changes. The historical response is not promoted to a galaxy force law.",
+      "status": "passed",
+      "capstone_operation": "C29-CAP-02",
+      "capstone_review": "CAP-02 repeats practiced A/B/C domains and worked plane address; closure is checked in the answer key.",
+      "explanation": "C29.02-E1",
+      "worked": "C29.02-W1",
+      "practice": "C29.02-P1",
+      "diagnostic": "C29.02-D1",
+      "planned_periods": 2
+    },
+    {
+      "lesson_id": "lesson-03",
+      "concept_id": "C29.03",
+      "semantic_review": "L03 teaches columns, transpose, inverse and Gram units with fully answered center reconstruction. Phi, A phi and physical origin differ; ownership half-ties and signed residuals are explicit. Source determinant signs use mature S02 separately from historical G02.",
+      "status": "passed",
+      "capstone_operation": "C29-CAP-03",
+      "capstone_review": "CAP-03 reuses diagonal practice and source card; inverse metric and basis inverse are distinct.",
+      "explanation": "C29.03-E1",
+      "worked": "C29.03-W1",
+      "practice": "C29.03-P1",
+      "diagnostic": "C29.03-D1",
+      "planned_periods": 2
+    },
+    {
+      "lesson_id": "lesson-04",
+      "concept_id": "C29.04",
+      "semantic_review": "L04 derives cancellation, inverse-transpose normal, primitive normal/slip decomposition and half-step label conversion. Two diagonal bases supply concrete normal and metric counterexamples. All vectors and physical-unit boundaries are available locally.",
+      "status": "passed",
+      "capstone_operation": "C29-CAP-04",
+      "capstone_review": "CAP-04 repeats practiced roots and compares the worked basis; supplied normals follow prior examples.",
+      "explanation": "C29.04-E1",
+      "worked": "C29.04-W1",
+      "practice": "C29.04-P1",
+      "diagnostic": "C29.04-D1",
+      "planned_periods": 2
+    },
+    {
+      "lesson_id": "lesson-05",
+      "concept_id": "C29.05",
+      "semantic_review": "L05 derives the quadratic cross term, positive square decomposition, inverse multiplication, skew counterexample and reversible ellipse coordinates. Three periods fit the three mathematical stages. Signed residuals and limited nearest-center conclusion are correct.",
+      "status": "passed",
+      "capstone_operation": "C29-CAP-05",
+      "capstone_review": "CAP-05 combines both practiced exercises and a diagnosed indefinite metric; no global nearest claim.",
+      "explanation": "C29.05-E1",
+      "worked": "C29.05-W1",
+      "practice": "C29.05-P1",
+      "diagnostic": "C29.05-D1",
+      "planned_periods": 3
+    },
+    {
+      "lesson_id": "lesson-06",
+      "concept_id": "C29.06",
+      "semantic_review": "L06 enumerates every sheet and node type, then provides explicit toy membership hierarchy and reconstruction. Empirical availability is separate from observed occupancy. Vector/angular/radial residuals and zero-center failure are taught with answers.",
+      "status": "passed",
+      "capstone_operation": "C29-CAP-06",
+      "capstone_review": "CAP-06 reuses worked hierarchy, practiced residuals and zero-center diagnostic; full IDs and zero bins required.",
+      "explanation": "C29.06-E1",
+      "worked": "C29.06-W1",
+      "practice": "C29.06-P1",
+      "diagnostic": "C29.06-D1",
+      "planned_periods": 2
+    },
+    {
+      "lesson_id": "lesson-07",
+      "concept_id": "C29.07",
+      "semantic_review": "L07 reads every signed seven-sheet difference, attributes full-state correlation to source, and calculates both frozen/refitted toy residuals. PDF p8 verifies three control families and counts. Old branches survive; no fresh discovery scan is claimed.",
+      "status": "passed",
+      "capstone_operation": "C29-CAP-07",
+      "capstone_review": "CAP-07 uses the previously read source ledger and practiced phase shift; answer signs independently recomputed.",
+      "explanation": "C29.07-E1",
+      "worked": "C29.07-W1",
+      "practice": "C29.07-P1",
+      "diagnostic": "C29.07-D1",
+      "planned_periods": 2
+    },
+    {
+      "lesson_id": "lesson-08",
+      "concept_id": "C29.08",
+      "semantic_review": "L08 derives positive-scale normalization and its inverse, distinguishes proper rotations/reflections, defines root tensor action, and supplies a concrete four-state prediction/contradiction. Prospective 27-state mapping, selection and distance obligations remain explicit.",
+      "status": "passed",
+      "capstone_operation": "C29-CAP-08",
+      "capstone_review": "CAP-08 reuses worked scale invariance and practiced signed contrasts; no unprovided eigenvector calculation is required.",
+      "explanation": "C29.08-E1",
+      "worked": "C29.08-W1",
+      "practice": "C29.08-P1",
+      "diagnostic": "C29.08-D1",
+      "planned_periods": 2
+    }
+  ],
+  "findings": [],
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "counts_scope": "Defects in the completed instructional package, not closure of explicitly retained scientific/source obligations.",
+  "confirmed_repairs": [
+    {
+      "id": "C29-A01",
+      "result": "Equal-phase blueprint error corrected in lesson02, verbatim course assembly, capstone full key and teacher guide. Oriented closure and F=0,D=9/2 freshly checked; archived input remains preserved as provenance."
+    },
+    {
+      "id": "C29-A02",
+      "result": "Half-step versus full-step labels explicitly reconciled between lessons04 and06; lambda relation and primitive lifts are consistent."
+    }
+  ],
+  "source_amendment_review": "SA-29-E11 and all eight blueprint lesson/capstone mappings reviewed against actual bodies; legacy aliases map to completed local operations. Original response/address target is implemented as a comparison of maps, never an unauthorized physical identification.",
+  "capstone_review": {
+    "tasks": 8,
+    "points": 32,
+    "full_key_reviewed": true,
+    "rubric_rows_reviewed": 8,
+    "backward_map_complete": true,
+    "untaught_operations_found": 0
+  },
+  "supporting_material_review": {
+    "course_assembly": "All eight lesson bodies match exactly and in order.",
+    "teacher_guide": "Entry arithmetic answers checked; 16 core and3 capstone periods with explicit recovery; accessible written/oral/sketch options retain required calculations.",
+    "glossary": "Types and collisions for q,u,R,phi,origin,half-step labels,metric,K and parity are reconciled.",
+    "pacing": {
+      "core_periods": 16,
+      "capstone_periods": 3,
+      "period_minutes": 55,
+      "total_minutes": 1045
+    },
+    "recovery": "Both scripts read-only. Initial resume hashes checked by helper; finalize generates receipts only after review by documented precondition. Fresh independent checks supersede reliance on labels.",
+    "manifest_audit_completion": "Current checkpoint and completion hashes verified; previous independent-audit receipt read as historical evidence, not this audit."
+  },
+  "validator_receipt": {
+    "canonical_output_root": "Z:\\Kfield-doc-training\\K-Field_Training_Course",
+    "checks": [
+      "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+      "parsed manifest.json",
+      "parsed audit_report.json",
+      "parsed completion_report.json",
+      "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+    ],
+    "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry",
+    "errors": [],
+    "schema_version": "1.0",
+    "status": "passed",
+    "storage_authority": "User explicitly authorized project-folder outputs, 2026-11-05",
+    "validator_path": "C:\\Users\\info\\.codex\\skills\\build-high-school-course\\scripts\\validate_course.py",
+    "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+    "command": [
+      "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+      "-B",
+      "Z:\\Kfield-doc-training\\.work\\validate_project_course.py",
+      "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry",
+      "--json"
+    ],
+    "exit_code": 0,
+    "fixture_mode": false,
+    "wrapper_path": "Z:\\Kfield-doc-training\\.work\\validate_project_course.py",
+    "wrapper_sha256": "3fdba74f7ac1430208a4e652200026dc98988f607f60fc928bda65d5857cc745",
+    "stderr": "",
+    "execution_utc": "2026-11-05T20:30:23.336621+00:00",
+    "validation_weakened": false,
+    "override_scope": "Existing wrapper changes only canonical output root to user-authorized project root; all installed content/hash/assembly/audit checks retained."
+  },
+  "source_hashes": [
+    {
+      "id": "S01",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "hash_verified": true
+    },
+    {
+      "id": "S02",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "hash_verified": true
+    },
+    {
+      "id": "S03",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "hash_verified": true
+    },
+    {
+      "id": "S04",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+      "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "hash_verified": true
+    },
+    {
+      "id": "G01",
+      "path": "Z:\\Archive_20260911\\Pre_Aug14\\galaxy_cell_hidden_holonomy_summary_1783791371.json",
+      "sha256": "bd6ff0e335f3c405000cd1f8adfa3ae947dc9362dfeb772764cf98ef62ae6f63",
+      "hash_verified": true
+    },
+    {
+      "id": "G02",
+      "path": "Z:\\Archive_20260911\\Pre_Aug14\\K-field_cell3_vs_galaxy_derived_cell_analogue_1783794540.pdf",
+      "sha256": "69dcaace292365d22b9b48c43edc0ac4936b148ec68a5b265abc72aaff4f4447",
+      "hash_verified": true
+    },
+    {
+      "id": "G03",
+      "path": "Z:\\Archive_20260911\\Pre_Aug14\\K-field_spherical_gravity_response_graph_audited_1783692220.json",
+      "sha256": "aa7f4236b7f956c652690934d6444f597ea38b6e485cc77a22be884b567d1cea",
+      "hash_verified": true
+    },
+    {
+      "id": "G04",
+      "path": "Z:\\Archive_20260911\\Pre_Aug14\\K-field_galaxy_sky_position_volumetric_quantization_1783789746.pdf",
+      "sha256": "856777f0fae0d6b50e8d235435068b7ea3c25a83068cfbfb197b62835cbb8fbd",
+      "hash_verified": true
+    }
+  ],
+  "source_read_scopes": {
+    "S01": {
+      "scope": "Hash only; historical provenance, no numerical premise imported."
+    },
+    "S02": {
+      "pointers": [
+        "/proof_contract",
+        "/mature_locked_cell3",
+        "/typed_conventions",
+        "/backbone_sequence"
+      ],
+      "scope": "Geometry/conventions and M01-M03 reviewed; no compiler/proof replay."
+    },
+    "S03": {
+      "scope": "Hash only in this completed-course review; provenance only."
+    },
+    "S04": {
+      "scope": "Hash only in this completed-course review; provenance only."
+    },
+    "G01": {
+      "scope": "Entire compact JSON read; no full catalog or 27-state observed arrays supplied."
+    },
+    "G02": {
+      "text_pages": [
+        3,
+        4,
+        5,
+        7,
+        8,
+        17,
+        18,
+        19,
+        20
+      ],
+      "scope": "Original PDF extracted with existing pdfjs, no copied PDF. Prior page4 visual inspection; current review is textual."
+    },
+    "G03": {
+      "pointers": [
+        "/status",
+        "/precision_contract",
+        "/coordinate_frame",
+        "/analytic_spherical_response",
+        "/reconstruction_sequence"
+      ],
+      "scope": "Named contracts read; large graph arrays not replayed or exported."
+    },
+    "G04": {
+      "text_pages": [
+        1,
+        3,
+        4
+      ],
+      "scope": "Original PDF read using pdfjs; formulas crosschecked with exact synthetic arithmetic."
+    }
+  },
+  "limitations": [
+    "No classroom trial or measured learner pacing; accessibility is editorial assessment of concrete prerequisites, explanations, answered exercises and recovery plan.",
+    "No replay of raw galaxy catalog, normal/phase discovery, control distributions, full observed 27-state vectors or their correlation. Those remain explicitly source-reported.",
+    "Source decimals checked as exact stored lexemes, not asserted exact physical constants or certified intervals; all compact matrix/occupancy residuals retained.",
+    "G03 graph arrays and its frozen physical geometry were not replayed. The repaired zero-transfer phases are an algebraic domain card only.",
+    "No live graph generation or capability-history validation in this pass; course candidly identifies graph metadata as unconfirmed. Hash-pinned local originals ground the review.",
+    "Optional physical-distance decoders and extension graph bodies were not retrieved; no Mpc calibration is claimed or needed for assessed finite operations.",
+    "Recovery scripts read as text only, not imported or executed. They write course files and must follow actual review; generated passed labels alone are not independent acceptance. Existing validator executed read-only with bytecode disabled."
+  ],
+  "acceptance_scope": "Completed authored course is eligible for parent acceptance at these exact hashes. This is not empirical certification, source scan replay, classroom outcome testing, or permission to alter sources.",
+  "source_or_project_files_modified": false
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-10",
+  "timestamp": "2026-11-05T18:25:38.168261+00:00",
+  "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-10-shape-and-scale-devon-reduction-and-the-jack-jacobian",
+  "validator": "passed",
+  "validator_checks": [
+    "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+    "parsed manifest.json",
+    "parsed audit_report.json",
+    "parsed completion_report.json",
+    "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+  ],
+  "validator_errors": [],
+  "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+  "manifest_sha256": "fc374b6b2d12a4c432f16bbca874a0e5f41686318a4424d6fb66be8c6f5d1b10",
+  "completion_report_sha256": "1b72ec2af6ba6b8975f90ad0ab94fc632b61654c00e1d3572b9312f8ba270571",
+  "course_sha256": "7635d29c0ce7b99981dc194dece148acafdd513729a1ed5e3c9f4e73c2dfe73f"
+}

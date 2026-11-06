@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0",
+  "status": "complete",
+  "topic": "Complex Carriers and Gauge Symmetry",
+  "audience": "High-school seniors; first-principles teaching, with concrete prerequisite capabilities and taught bridges.",
+  "assumptions": [
+    "A topical short course, not a semester per topic. Pacing is 55-minute core lessons plus capstone periods; split dense lessons if actual learner load requires it.",
+    "No prior calculus, abstract algebra, university linear algebra, or quantum mechanics unless explicitly taught earlier.",
+    "Required core assessments must be solvable with taught finite examples. Clearly label deeper recognition-only extensions.",
+    "Markdown is the delivery format; no PDF or Word generation is required."
+  ],
+  "outputs": [
+    "course-map.md",
+    "lesson-01.md",
+    "lesson-02.md",
+    "lesson-03.md",
+    "lesson-04.md",
+    "lesson-05.md",
+    "lesson-06.md",
+    "lesson-07.md",
+    "terminology.md",
+    "teacher-guide.md",
+    "capstone.md",
+    "sources.md",
+    "verification.json",
+    "course.md",
+    "audit_report.json",
+    "input-contract.json",
+    "manage.py",
+    "build_support.py",
+    "verify_examples.py",
+    "finalize.py",
+    "completion_report.json"
+  ],
+  "audit_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "hashes": {
+    "course-map.md": "ed29865a8c49062bdde060e208b3f5a59c52f3bfa5731153bcac8555e3b2e3b7",
+    "lesson-01.md": "1d9b94c58b823f52191fcc51db03d068a711aa8803c538bc9cae55bf2805de25",
+    "lesson-02.md": "699e720bf93b6176cb63a35ff11888b2a3bd7ea6c5c7007213b5f701191d2fd5",
+    "lesson-03.md": "ef1972737de333712ef2f7925db3e8374df5582b3053a2fdee73c5d3712133cd",
+    "lesson-04.md": "a21749980db93d114fe18da7eaa9563c1e453cbe89fc9cca5fd2e3fe5bbfede0",
+    "lesson-05.md": "1d2107599e9638c7589b5967168a6ae42529ed200a6b14bee11a365eee88e1c5",
+    "lesson-06.md": "626c5f16593589ec5813b84ff4e3f0f9d53d601f123443f3c846a3c10ebdba47",
+    "lesson-07.md": "7120ac55e0af97c0910dacffa14112116fe0693b925b71b3daae7b862d6ac774",
+    "terminology.md": "43c4e9835999da77f47526661679f681c407a9ecaf7150684c8c1c1cc4e93724",
+    "teacher-guide.md": "387190185dfb0b2e9d7a204dd7daaf39ed97e84abca57fdfdf5c9763e11074d6",
+    "capstone.md": "3281a1a1d5cf1613914089b87469dbbcfbedb4abca333ad3e431fb034d360c82",
+    "sources.md": "661c55f2f10fcb45a3df6ec7b38dfb1b5afb39cb68a24e10cfdbe7f7e752e5f6",
+    "verification.json": "68b81f6b86ad4118dc208c1ccec7095895549f52bcd56fc916c6bb19bb3e72e0",
+    "course.md": "b4d77ad76287b02456e6b330a59c5a242e9257c1691e2ecf427fc57c1f8d168a",
+    "audit_report.json": "8f67af75d949858f731e46a85f82a22b94320ad1def839347e21c588b4d5cc15",
+    "input-contract.json": "47dc0d1083528f0e4e2d0e4e5e2d152609c586578cc3d5658c600325224140fe",
+    "manage.py": "f262d5d0fd67a9601db01e3d0d4739bd6fdf25bffd767371374c3f8066d0337e",
+    "build_support.py": "15bbeb099b3ffa17617117ad7cfac5b7353a2d8ea0d5ddfa5db7c1964f0cdad2",
+    "verify_examples.py": "984e171e4fdc8c908fd4b5a71e74a385b98c6fd8d8a7ba166e2d8d30ce1573b5",
+    "finalize.py": "e9a908100d0dab9170bb105d584bfeeb718450f992d4107e1eaa5092886e2d15",
+    "manifest.json": "09a85008b96cf2dccb9fe7d7efb42736994d3a161eb4b0bcc2cf317a35d767a7"
+  },
+  "lesson_count": 7,
+  "core_periods": 12,
+  "capstone_periods": 3,
+  "source_gaps": [
+    "No fresh full proof-body verification for wider branch status or connected-group classification.",
+    "Integration records freshly retrieved as source-attributed excerpts; no fresh local-byte hash or Agda typecheck.",
+    "Unique physical global form remains unresolved in the integration."
+  ],
+  "validator": {
+    "status": "passed",
+    "exit_code": 0,
+    "command": [
+      "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+      "Z:\\Kfield-doc-training\\.work\\validate_project_course.py",
+      "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-14-complex-carriers-and-gauge-symmetry",
+      "--json"
+    ],
+    "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+    "checks": [
+      "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+      "parsed manifest.json",
+      "parsed audit_report.json",
+      "parsed completion_report.json",
+      "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+    ]
+  }
+}

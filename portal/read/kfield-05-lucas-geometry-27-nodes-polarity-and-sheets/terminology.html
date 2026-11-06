@@ -1,0 +1,168 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Terminology and notation · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/5">Course 05</a><span>/</span><span>terminology</span></div><a class="original" href="../../../kfield-05-lucas-geometry-27-nodes-polarity-and-sheets/terminology.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#terminology-and-notation">Terminology and notation</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 1 — Enumerating the balanced node window</a><a  href="lesson-02.html">Lesson 2 — Node addresses versus physical positions</a><a  href="lesson-03.html">Lesson 3 — Lambda sheets and population counts</a><a  href="lesson-04.html">Lesson 4 — Parity and directed signs</a><a  href="lesson-05.html">Lesson 5 — Antipodal pairs and observation rules</a><a  href="lesson-06.html">Lesson 6 — A complete finite registry</a></details></aside><div class="reading-column"><article class="prose"><h1 id="terminology-and-notation" tabindex="-1">Terminology and notation</h1>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Term or symbol</th>
+<th>Meaning, type and units</th>
+<th>Introduced</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>L=(L₁,L₂,L₃)</td>
+<td>Dimensionless signed address, entries −1,0,1; subscript indicates entry</td>
+<td>Lesson 1</td>
+</tr>
+<tr>
+<td>Cartesian product</td>
+<td>All ordered combinations from coordinate menus</td>
+<td>Lesson 1</td>
+</tr>
+<tr>
+<td>Window</td>
+<td>27 half-step nodes; distinct from 27 complete cell volumes</td>
+<td>Lessons 1–2</td>
+</tr>
+<tr>
+<td>Vertex / edge center / face center / center</td>
+<td>Three / two / one / zero nonzero entries in L</td>
+<td>Lesson 1</td>
+</tr>
+<tr>
+<td>Vector</td>
+<td>Ordered components describing displacement; entrywise addition and scaling</td>
+<td>Lesson 2</td>
+</tr>
+<tr>
+<td>B=[a b c]</td>
+<td>Ordered basis columns, units of length; classroom rows are printed explicitly</td>
+<td>Lesson 2</td>
+</tr>
+<tr>
+<td>O_K; classroom O</td>
+<td>Declared origin position; O abbreviates O_K only in the analogue</td>
+<td>Lesson 2</td>
+</tr>
+<tr>
+<td>q=L/2</td>
+<td>Dimensionless half-address</td>
+<td>Lesson 2</td>
+</tr>
+<tr>
+<td>p</td>
+<td>Position O+Bq, unit U in the analogue</td>
+<td>Lesson 2</td>
+</tr>
+<tr>
+<td>d=p−O</td>
+<td>Displacement from origin, unit U</td>
+<td>Lesson 2</td>
+</tr>
+<tr>
+<td>U</td>
+<td>Arbitrary classroom length unit; never nm or a Cell3 numerical constant</td>
+<td>Lesson 2</td>
+</tr>
+<tr>
+<td>z</td>
+<td>Dimensionless integer cell-owner triple, floor(q+1/2)</td>
+<td>Lesson 2</td>
+</tr>
+<tr>
+<td>floor(t)</td>
+<td>Greatest integer ≤t; evaluated entrywise for triples</td>
+<td>Lesson 2</td>
+</tr>
+<tr>
+<td>u=q−z</td>
+<td>Dimensionless retained within-cell coordinate in [−1/2,1/2)³</td>
+<td>Lesson 2</td>
+</tr>
+<tr>
+<td>Half-open</td>
+<td>Left boundary included, right boundary excluded</td>
+<td>Lesson 2</td>
+</tr>
+<tr>
+<td>λ</td>
+<td>Integer sheet label L₁+L₂+L₃, from −3 through 3</td>
+<td>Lesson 3</td>
+</tr>
+<tr>
+<td>Permutation</td>
+<td>Rearrangement; identical entries do not create different rows</td>
+<td>Lesson 3</td>
+</tr>
+<tr>
+<td>Dot product g·d</td>
+<td>Sum of three corresponding component products</td>
+<td>Lesson 3</td>
+</tr>
+<tr>
+<td>g_λ</td>
+<td>Reciprocal sheet vector whose dot product with each basis column is 1; unit inverse length</td>
+<td>Lesson 3</td>
+</tr>
+<tr>
+<td>B⁻ᵀ</td>
+<td>Recognition notation for inverse-transpose; not a required computation</td>
+<td>Lesson 3</td>
+</tr>
+<tr>
+<td>χ</td>
+<td>Node polarity (−1)^λ: +1 even, −1 odd; dimensionless</td>
+<td>Lesson 4</td>
+</tr>
+<tr>
+<td>r₃</td>
+<td>λ mod 3: unique remainder 0,1,2 in λ=3k+r₃; dimensionless</td>
+<td>Lesson 4</td>
+</tr>
+<tr>
+<td>k</td>
+<td>An integer used locally to express parity or division remainder; not a node address</td>
+<td>Lesson 4</td>
+</tr>
+<tr>
+<td>Antipodal</td>
+<td>L and −L, with physical points reflected about O</td>
+<td>Lesson 5</td>
+</tr>
+<tr>
+<td>Equivalence class / quotient</td>
+<td>Grouped members / collection of groups under a declared relation</td>
+<td>Lesson 5</td>
+</tr>
+<tr>
+<td>v</td>
+<td>Canonical pair representative, first nonzero entry positive; center v=0</td>
+<td>Lesson 5</td>
+</tr>
+<tr>
+<td>s</td>
+<td>Member orientation ±1 with L=s v for noncentral rows; N/A at center</td>
+<td>Lesson 5</td>
+</tr>
+<tr>
+<td>Even / odd function under negation</td>
+<td>Value preserved / sign reversed by L→−L</td>
+<td>Lesson 5</td>
+</tr>
+<tr>
+<td>Singleton</td>
+<td>One-member center class</td>
+<td>Lesson 5</td>
+</tr>
+<tr>
+<td>Registry</td>
+<td>All typed per-node records plus checks; not just aggregates</td>
+<td>Lesson 6</td>
+</tr>
+<tr>
+<td>R_L</td>
+<td>L_recovered−L, dimensionless inverse closure discrepancy; retained per row</td>
+<td>Lesson 6</td>
+</tr>
+</tbody>
+</table></div>
+<p>Reserved source notation stays outside the core calculations: M_cell=BᵀB is the Cell3 Gram metric, R_cell its inverse; G_phase is a distinct phase metric. None is being replaced by the classroom B or by a reciprocal normal. Detector parity, A1 carry parity, chirality and family labels are not alternate names for χ. Source compiler M03 and mathematical backbone M03 are different naming systems. The present source references mean the mathematical backbone module.</p></article><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/5">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

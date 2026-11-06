@@ -1,0 +1,140 @@
+{
+  "rows": [
+    {
+      "concept_id": "C10.01",
+      "lesson": "lesson-01",
+      "explanation": "C10.01-E1",
+      "worked_example": "C10.01-W1",
+      "practice": "C10.01-P1",
+      "diagnostic": "C10.01-D1",
+      "capstone": "C10-CAP-01",
+      "later_use": "lesson-02"
+    },
+    {
+      "concept_id": "C10.02",
+      "lesson": "lesson-02",
+      "explanation": "C10.02-E1",
+      "worked_example": "C10.02-W1",
+      "practice": "C10.02-P1",
+      "diagnostic": "C10.02-D1",
+      "capstone": "C10-CAP-02",
+      "later_use": "lesson-03"
+    },
+    {
+      "concept_id": "C10.03",
+      "lesson": "lesson-03",
+      "explanation": "C10.03-E1",
+      "worked_example": "C10.03-W1",
+      "practice": "C10.03-P1",
+      "diagnostic": "C10.03-D1",
+      "capstone": "C10-CAP-03",
+      "later_use": "lesson-04"
+    },
+    {
+      "concept_id": "C10.04",
+      "lesson": "lesson-04",
+      "explanation": "C10.04-E1",
+      "worked_example": "C10.04-W1",
+      "practice": "C10.04-P1",
+      "diagnostic": "C10.04-D1",
+      "capstone": "C10-CAP-04",
+      "later_use": "lesson-05"
+    },
+    {
+      "concept_id": "C10.05",
+      "lesson": "lesson-05",
+      "explanation": "C10.05-E1",
+      "worked_example": "C10.05-W1",
+      "practice": "C10.05-P1",
+      "diagnostic": "C10.05-D1",
+      "capstone": "C10-CAP-05",
+      "later_use": "lesson-06"
+    },
+    {
+      "concept_id": "C10.06",
+      "lesson": "lesson-06",
+      "explanation": "C10.06-E1",
+      "worked_example": "C10.06-W1",
+      "practice": "C10.06-P1",
+      "diagnostic": "C10.06-D1",
+      "capstone": "C10-CAP-06",
+      "later_use": "capstone"
+    },
+    {
+      "concept_id": "C10.05-anchor",
+      "lesson": "lesson-05",
+      "explanation": "C10.05-E2",
+      "worked_example": "C10.05-W2",
+      "practice": "C10.05-P2",
+      "diagnostic": "C10.05-D2",
+      "capstone": "C10-CAP-05",
+      "later_use": "lesson-06"
+    }
+  ],
+  "capstone_backward_map": [
+    {
+      "step_id": "C10-CAP-01",
+      "operation": "Declare positive areas and common A0; convert supplied area ratios(2,4,16) to logs and invert after a common scale change.",
+      "introduction": "lesson-01",
+      "explanation_id": "C10.01-E1",
+      "worked_example_id": "C10.01-W1",
+      "prior_practice_id": "C10.01-P1",
+      "diagnostic_id": "C10.01-D1"
+    },
+    {
+      "step_id": "C10-CAP-02",
+      "operation": "Project into s,u,v and into mean+zero-sum shape; reconstruct all log areas, areas and the retained scale.",
+      "introduction": "lesson-02",
+      "explanation_id": "C10.02-E1",
+      "worked_example_id": "C10.02-W1",
+      "prior_practice_id": "C10.02-P1",
+      "diagnostic_id": "C10.02-D1"
+    },
+    {
+      "step_id": "C10-CAP-03",
+      "operation": "Apply and invert H to(1,-2)t; compare exact square output at t=1/10 with its linear term and retain signed remainder .01.",
+      "introduction": "lesson-03",
+      "explanation_id": "C10.03-E1",
+      "worked_example_id": "C10.03-W1",
+      "prior_practice_id": "C10.03-P1",
+      "diagnostic_id": "C10.03-D1"
+    },
+    {
+      "step_id": "C10-CAP-04",
+      "operation": "Apply J to(2,-1,1)t and reverse(-1,3,33)t; state orders, units, determinant and fixed-angle domain.",
+      "introduction": "lesson-04",
+      "explanation_id": "C10.04-E1",
+      "worked_example_id": "C10.04-W1",
+      "prior_practice_id": "C10.04-P1",
+      "diagnostic_id": "C10.04-D1"
+    },
+    {
+      "step_id": "C10-CAP-05",
+      "operation": "Build typed metric/cofactor/reciprocal/scale/shape/scalar/branch entries; decode taught branch pair and recover positive scale from an area anchor using supplied fixed angles.",
+      "introduction": "lesson-05",
+      "explanation_id": "C10.05-E1",
+      "worked_example_id": "C10.05-W1",
+      "prior_practice_id": "C10.05-P1",
+      "diagnostic_id": "C10.05-D1",
+      "additional_explanation_id": "C10.05-E2",
+      "additional_worked_example_id": "C10.05-W2",
+      "additional_prior_practice_id": "C10.05-P2",
+      "additional_diagnostic_id": "C10.05-D2"
+    },
+    {
+      "step_id": "C10-CAP-06",
+      "operation": "Audit zero linear inverse residual versus nonzero finite approximation remainder; verify full area reconstruction and preserve domain, branch, reference area and source metadata.",
+      "introduction": "lesson-06",
+      "explanation_id": "C10.06-E1",
+      "worked_example_id": "C10.06-W1",
+      "prior_practice_id": "C10.06-P1",
+      "diagnostic_id": "C10.06-D1"
+    }
+  ],
+  "pacing": {
+    "core_periods": 11,
+    "capstone_periods": 2,
+    "period_minutes": 55
+  },
+  "revision": "Lesson 5 increased from two to three periods to teach geometry, branch and anchor bridges separately."
+}

@@ -1,0 +1,91 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Lesson 02 — Dyadic geometry and triadic addresses · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/6">Course 06</a><span>/</span><span>lesson 02</span></div><a class="original" href="../../../kfield-06-recursive-k-field-geometry-and-address-histories/lesson-02.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#lesson-02-dyadic-geometry-and-triadic-addresses">Lesson 02 — Dyadic geometry and triadic addresses</a><a href="#c0602-e1-remainders-as-addresses">C06.02-E1 — Remainders as addresses</a><a href="#c0602-w1-two-counters">C06.02-W1 — Two counters</a><a href="#c0602-e2-and-c0602-w2-a-finite-rung-equation">C06.02-E2 and C06.02-W2 — A finite rung equation</a><a href="#guided-practice">Guided practice</a><a href="#diagnostic-checks">Diagnostic checks</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 01 — One subdivision at a time</a><a aria-current=page href="lesson-02.html">Lesson 02 — Dyadic geometry and triadic addresses</a><a  href="lesson-03.html">Lesson 03 — Scaling length, area, and node counts</a><a  href="lesson-04.html">Lesson 04 — Balanced ternary as an address language</a><a  href="lesson-05.html">Lesson 05 — Parent maps and compatible histories</a><a  href="lesson-06.html">Lesson 06 — What a finite resolution retains</a></details></aside><div class="reading-column"><article class="prose"><h1 id="lesson-02-dyadic-geometry-and-triadic-addresses" tabindex="-1">Lesson 02 — Dyadic geometry and triadic addresses</h1>
+<p><strong>Essential question:</strong> How can two recursions have matching counts but different rules?</p>
+<p><strong>Goals:</strong> Reduce integers modulo a positive integer; build a residue tree; distinguish depths and solve the source rung equation.</p>
+<p><strong>Bridge:</strong> Lesson 01 taught roots, children and cell counts. This lesson groups integers by remainders. <strong>Pacing:</strong> explanation/examples 20, practice 15, diagnostics/feedback 15, transition 5 minutes.</p>
+<h2 id="c0602-e1-remainders-as-addresses" tabindex="-1">C06.02-E1 — Remainders as addresses</h2>
+<p>For positive integer m, write a=mq+r with integer q and 0≤r&lt;m. The remainder r is the standard representative modulo m. Integers are congruent modulo m when their difference is divisible by m. Thus 7=3×2+1 and −2=3×(−1)+1 both have remainder 1. This does not make −2 and 1 equal integers.</p>
+<p>A residue class groups integers with the same remainder. At ternary depth d3=1, modulus 3 gives classes 0,1,2. At depth 2, modulus 9 gives classes 0 through 8. Reducing modulo 3 returns each depth-2 class to its parent:</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Depth 0 (mod 1)</th>
+<th>Depth 1 (mod 3)</th>
+<th>Depth 2 children (mod 9)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>0,3,6</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>1,4,7</td>
+</tr>
+<tr>
+<td>0</td>
+<td>2</td>
+<td>2,5,8</td>
+</tr>
+</tbody>
+</table></div>
+<p>A three-coordinate address independently chooses one class on each axis, so it has (3^d3)^3=27^d3 possibilities. The source notation A_d=(Z/3^d Z)^3 means this set of triples; Z denotes integers and the slash denotes residue classes, not ordinary division. We call its depth d3 to distinguish dyadic depth n2.</p>
+<h2 id="c0602-w1-two-counters" tabindex="-1">C06.02-W1 — Two counters</h2>
+<p>Fix an outer geometric Group 3B. At n2=0 there are 3 cells and 4 boundary corners per axis: 27 cells and 64 distinct vertices. At n2=1 there are 6 cells and 7 corners per axis: 216 cells and 343 vertices. Lesson 03 derives the general formula. Separately A_1 has 3^3=27 classes and A_2 has 9^3=729. Increasing n2 halves geometric edges; increasing d3 triples the residue modulus. Equal counts do not equate regions and classes.</p>
+<h2 id="c0602-e2-and-c0602-w2-a-finite-rung-equation" tabindex="-1">C06.02-E2 and C06.02-W2 — A finite rung equation</h2>
+<p>The source equation is 3^g_rung×2^n_rung+1=10, with both exponents nonnegative integers. These local rung variables are not automatically n2 or d3. Subtract 1 to obtain a product of 9. If n_rung≥1 the product is even, whereas 9 is odd. Therefore n_rung=0. Then 3^g_rung=9, giving g_rung=2. Powers of 3 strictly increase, so there is only one solution in this domain. This use of odd/even arithmetic is separate from detector parity or carry-sign conventions.</p>
+<p>For an exhaustive finite check, g_rung≤2 because 3^3&gt;9; n_rung≤3 because 2^4&gt;9. All 12 products before adding 1 are:</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>g_rung / n_rung</th>
+<th>0</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>2</td>
+<td>4</td>
+<td>8</td>
+</tr>
+<tr>
+<td>1</td>
+<td>3</td>
+<td>6</td>
+<td>12</td>
+<td>24</td>
+</tr>
+<tr>
+<td>2</td>
+<td>9</td>
+<td>18</td>
+<td>36</td>
+<td>72</td>
+</tr>
+</tbody>
+</table></div>
+<p>Only (2,0) gives the required 9. The source's outer 9B Supergroup has 729 complete volumes. A_2 also has 729 elements, but those are modular triples.</p>
+<blockquote>
+<p><strong>Scope:</strong> S02 /backbone_sequence/2/recursions and /supergroup_uniqueness specify these systems and the rung domain. The finite calculations are verified here. Infinite inverse limits are recognition-only: histories may extend to further depths; no infinite calculation is assessed.</p>
+</blockquote>
+<h2 id="guided-practice" tabindex="-1">Guided practice</h2>
+<p><strong>C06.02-P1:</strong> Reduce 7 and −2 modulo 3, then reduce (7,5,0) from depth 2 to depth 1. Rebuild the one-coordinate tree and state the three-coordinate counts at depths 0,1,2.</p>
+<p><strong>Answer:</strong> Both first remainders are 1; the triple becomes (1,2,0). The children of r are r,r+3,r+6 for r=0,1,2, exhausting 0 through 8. The three-coordinate counts are 1^3=1,3^3=27,9^3=729 at depths 0,1,2.</p>
+<p><strong>C06.02-P2:</strong> Reproduce the exponent bounds and table. Why is no outside pair needed?</p>
+<p><strong>Answer:</strong> Each factor is at least 1. Exponents g≥3 or n≥4 therefore exceed product 9. In the table only (2,0) works.</p>
+<h2 id="diagnostic-checks" tabindex="-1">Diagnostic checks</h2>
+<ol>
+<li><strong>C06.02-D1:</strong> Are 27 Group volumes and 27 ternary classes the same typed object?</li>
+<li><strong>C06.02-D2:</strong> State the rung domain and the two meanings of 729.</li>
+<li>Compute −4 modulo 3 using a division equality.</li>
+<li>Is the parent of depth-2 residue 7 floor(7/2)?</li>
+</ol>
+<p><strong>Worked answers:</strong> (1) No: regions versus classes. (2) Nonnegative integer exponents; 729 volumes in a Supergroup versus 729 triples in A_2. (3) −4=3(−2)+2, so remainder 2. (4) No: 7 mod 3=1. The floor rule belongs to binary interval indices.</p>
+<p><strong>Next:</strong> <a href="lesson-03.html">Lesson 03</a> derives scaling and shared-boundary counts.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><a class="button secondary" href="lesson-01.html">← Previous lesson</a><a class="button" href="lesson-03.html">Next lesson →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/6">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

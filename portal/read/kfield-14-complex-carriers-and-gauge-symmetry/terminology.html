@@ -1,0 +1,175 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Terminology and notation · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/14">Course 14</a><span>/</span><span>terminology</span></div><a class="original" href="../../../kfield-14-complex-carriers-and-gauge-symmetry/terminology.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#terminology-and-notation">Terminology and notation</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 1 — Complex numbers and phase</a><a  href="lesson-02.html">Lesson 2 — Inner products and unitary changes</a><a  href="lesson-03.html">Lesson 3 — The ordered three-plus-two carrier</a><a  href="lesson-04.html">Lesson 4 — Determinants and the top-form lock</a><a  href="lesson-05.html">Lesson 5 — Cover maps and quotient kernels</a><a  href="lesson-06.html">Lesson 6 — Local symmetry and physical role</a><a  href="lesson-07.html">Lesson 7 — Reconciling source branches</a></details></aside><div class="reading-column"><article class="prose"><h1 id="terminology-and-notation" tabindex="-1">Terminology and notation</h1>
+<p>All numerical examples are dimensionless. Source coordinates and physical units are not inferred from these symbols.</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Symbol or term</th>
+<th>Meaning and guard</th>
+<th>First use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>i</td>
+<td>Imaginary unit; i²=−1.</td>
+<td>1</td>
+</tr>
+<tr>
+<td>z=a+bi</td>
+<td>Complex number with real components a,b.</td>
+<td>1</td>
+</tr>
+<tr>
+<td>z̄</td>
+<td>Conjugate a−bi; reverses a unit phase.</td>
+<td>1</td>
+</tr>
+<tr>
+<td>|z|², |z|</td>
+<td>a²+b² and its nonnegative square root.</td>
+<td>1</td>
+</tr>
+<tr>
+<td>phase, θ</td>
+<td>Unit-circle direction; a full turn is 2π radians. e^(iθ) denotes cos θ+i sin θ here.</td>
+<td>1</td>
+</tr>
+<tr>
+<td>ζ</td>
+<td>(1+i√3)/2; primitive sixth root used in the finite kernel.</td>
+<td>1,5</td>
+</tr>
+<tr>
+<td>T, †</td>
+<td>Transpose; conjugate transpose. Do not interchange them on complex matrices.</td>
+<td>2</td>
+</tr>
+<tr>
+<td>I_n, diag</td>
+<td>n×n identity; diagonal or block-diagonal matrix as specified.</td>
+<td>2–4</td>
+</tr>
+<tr>
+<td>⟨v,w⟩, ||v||²</td>
+<td>v†w, conjugate-linear in first argument; squared norm v†v.</td>
+<td>2</td>
+</tr>
+<tr>
+<td>unitary</td>
+<td>Square U satisfying U†U=I, inverse U†.</td>
+<td>2</td>
+</tr>
+<tr>
+<td>carrier H</td>
+<td>Space acted on; here C₃⊕W₂ in color-first order.</td>
+<td>3</td>
+</tr>
+<tr>
+<td>⊕, C₃, W₂</td>
+<td>Direct sum of separately typed complex color and weak blocks of dimensions 3 and 2.</td>
+<td>3</td>
+</tr>
+<tr>
+<td>P_c,P_w</td>
+<td>Complementary projectors retaining both components for reconstruction.</td>
+<td>3</td>
+</tr>
+<tr>
+<td>P</td>
+<td>Specified 5×5 weak-first-to-color-first permutation; inverse Pᵀ.</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Q_charge</td>
+<td>Dimensionless integer phase-weight operator diag(−2,−2,−2,3,3); not a distance Q.</td>
+<td>3</td>
+</tr>
+<tr>
+<td>det</td>
+<td>Determinant; ad−bc for 2×2, product for diagonal entries or block determinants.</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Ω, top form</td>
+<td>Ordered alternating volume coefficient transforming by det A.</td>
+<td>4</td>
+</tr>
+<tr>
+<td>a,b (weights)</td>
+<td>Integers multiplying phase exponents in color and weak blocks, respectively; local meanings differ from Lesson 1 components.</td>
+<td>4</td>
+</tr>
+<tr>
+<td>U(n),SU(n)</td>
+<td>Unitary matrices; unitary matrices with determinant one.</td>
+<td>4</td>
+</tr>
+<tr>
+<td>S(U(3)×U(2))</td>
+<td>Color-first unitary block pairs with determinant product one.</td>
+<td>4</td>
+</tr>
+<tr>
+<td>group</td>
+<td>Set with closed associative composition, identity and inverses.</td>
+<td>5</td>
+</tr>
+<tr>
+<td>×</td>
+<td>Cartesian product of group choices; componentwise composition.</td>
+<td>5</td>
+</tr>
+<tr>
+<td>mod n</td>
+<td>Remainder representative in 0,…,n−1; addition understood modulo n.</td>
+<td>5</td>
+</tr>
+<tr>
+<td>kernel</td>
+<td>Inputs a composition-preserving map sends to target identity.</td>
+<td>5</td>
+</tr>
+<tr>
+<td>quotient</td>
+<td>Classes of labels indistinguishable under the stated map or subgroup identification.</td>
+<td>5</td>
+</tr>
+<tr>
+<td>central</td>
+<td>Commuting with all elements in the group; scalar matrices here.</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Φ</td>
+<td>Source cover map (g₃,g₂,z)↦(z⁻²g₃,z³g₂).</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Zn or ℤ_n</td>
+<td>Cyclic group/subgroup of order n; Z1 trivial. Physical candidate usage is source-scoped.</td>
+<td>5,7</td>
+</tr>
+<tr>
+<td>ρ, action</td>
+<td>Specified map from group choices to transformations of a carrier.</td>
+<td>6</td>
+</tr>
+<tr>
+<td>local/global</td>
+<td>Independent phase per node / one phase shared by nodes in the toy model.</td>
+<td>6</td>
+</tr>
+<tr>
+<td>SHA-256, JSON pointer</td>
+<td>Byte digest; address to a field or array entry, using zero-based array indices.</td>
+<td>7</td>
+</tr>
+<tr>
+<td>namespace</td>
+<td>Collection defining a label; compiler M03 is not automatically backbone M03.</td>
+<td>7</td>
+</tr>
+</tbody>
+</table></div>
+<p>Reserved series notation: M_cell is the Cell3 Gram metric, R_cell its inverse, G_phase a distinct phase metric, O_K the declared physical origin, and B a source-local ordered basis. None is silently reused for a gauge matrix here. Any future link to geometry must restore its source units, ordering and origin contract.</p>
+<p>Evidence vocabulary: source fact (what is recorded); derived implication (explicit consequence); interpretation (assigned meaning); proposed mechanism (candidate process); reference theory (comparison definitions); unresolved question (information still required). No empirical dataset is generated in this course.</p></article><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/14">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

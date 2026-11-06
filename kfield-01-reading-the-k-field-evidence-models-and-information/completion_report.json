@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0",
+  "status": "complete",
+  "topic": "Reading the K-Field: Evidence, Models, and Information",
+  "audience": "High-school seniors; first-principles teaching, with concrete prerequisite capabilities and taught bridges.",
+  "assumptions": [
+    "A topical short course, not a semester per topic. Pacing is 55-minute core lessons plus capstone periods; split dense lessons if actual learner load requires it.",
+    "No prior calculus, abstract algebra, university linear algebra, or quantum mechanics unless explicitly taught earlier.",
+    "Required core assessments must be solvable with taught finite examples. Clearly label deeper recognition-only extensions.",
+    "Markdown is the delivery format; no PDF or Word generation is required."
+  ],
+  "outputs": [
+    "input-contract.json",
+    "course-map.md",
+    "sources.md",
+    "source-verification.json",
+    "lesson-01.md",
+    "lesson-02.md",
+    "lesson-03.md",
+    "lesson-04.md",
+    "lesson-05.md",
+    "terminology.md",
+    "teacher-guide.md",
+    "capstone.md",
+    "verify_examples.py",
+    "verification.json",
+    "recovery-verification.json",
+    "restart-checkpoint.json",
+    "storage-check.txt",
+    "course.md",
+    "audit_report.json",
+    "validator-result.json",
+    "completion_report.json"
+  ],
+  "course_output_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-01-reading-the-k-field-evidence-models-and-information",
+  "lesson_count": 5,
+  "audit_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "corrected_findings": {
+    "critical": 1,
+    "major": 1,
+    "minor": 0
+  },
+  "hashes": {
+    "audit_report.json": "4cd08ba5035eccf01e9928ec8c24aac2f7bb46a0be49f3b7751ccd899d80fcb2",
+    "capstone.md": "a1f0a0feffc2d26db49aa36176cbfd74347b530534a10a960f1d971a4dbca9dd",
+    "course-map.md": "fd80c7c841b0395ad8bf60649c3fa293766402a893efda570eb0ddcf1c2904c2",
+    "course.md": "01554f80bdf2695cc8cd599667c916673539d39cc83dac236fdba48ba8b4aa35",
+    "input-contract.json": "0c07282b34454bb2ee8a10de2e7e06def4b3828d06f2aa6fe68d0fb5b94f8807",
+    "lesson-01.md": "8a8941d07819332129e834eea1171aaa35c15d79d07c13057d162b17a9753a7f",
+    "lesson-02.md": "aeb162254893946627b1b200e7e8f6fc317183eaace261385235f9c7982a8679",
+    "lesson-03.md": "bbd3169e9fa0a89f62c577c31714edbb34b3d8dae1cf5573b752add9fe6eb598",
+    "lesson-04.md": "8fa145121906b3a91a13c7624ac16b6abd40a8fe9e7ec2f0622a7702cb097a72",
+    "lesson-05.md": "b3a1124e311d0e730ad74a69f8b12814cdd3152f0f6a9b0b51616a58fbf6b5f9",
+    "manifest.json": "c040bf03de6ffa6682bcbc0a1d08c7421ac7c96fa25f25947e540fc2e761f882",
+    "recovery-verification.json": "9c2031528c543ef63b457935ae6dcff1ed00400f783f81d46db7854d03245dcb",
+    "restart-checkpoint.json": "df03163f79048da6a9d1fc4fdf80d6f1cfb8339618289c9562de60725fae5a2f",
+    "source-verification.json": "3a9d2ccfcfcdbc81343b89d454ed6824c6bb4e7e5a7a904498ebc43bfb62a2b9",
+    "sources.md": "6edd147cd42f8175dd3f7ac779834c50dc97dd205c031d4dda3e69258f19e4fe",
+    "storage-check.txt": "abe59c5e82259ca8957dc58fc61b9e0d7c7cf9d4b18817853af3c678160a7554",
+    "teacher-guide.md": "6dd165851eb2e3722760ba8ca0c96c726a4b511d65fb5b55ca27730e6dba2abb",
+    "terminology.md": "ca2d04fb6bf186ed38a2b147ba6ce8e9f344bde4983ea8d5eb4bbce69c60ccf0",
+    "validator-result.json": "09df5d6cbe0a706622cbb780da8ffd82552653174eb47ac90c8935969627b41c",
+    "verification.json": "3ef774c0dc98fa82221e1eda6a151081523d1cc0cc2e54fb26cdc81ec50c66fe",
+    "verify_examples.py": "1a33bb58dac15699eded67c56932e6f1bb168af87970e834dd7d8fe15571bea5"
+  },
+  "validator": {
+    "status": "passed",
+    "receipt": "validator-result.json",
+    "substantive_validator": "installed validate_course.py",
+    "location_override_only": true,
+    "fixture_mode": false
+  },
+  "source_gaps": [
+    "S06 raw samples, acquisition schema and aligned residuals unavailable; gap explicitly assessed rather than fabricated.",
+    "S06 formal replay and S02 locked numerical/proof status remain source-reported, not fresh full verification."
+  ],
+  "harmless_unresolved_minor_findings": []
+}

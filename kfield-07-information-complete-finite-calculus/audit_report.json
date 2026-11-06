@@ -1,0 +1,145 @@
+{
+  "schema_version": "1.0",
+  "status": "passed",
+  "findings": [],
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "local_checks": [
+    {
+      "checkpoint": "lesson-01",
+      "result": "passed",
+      "checks": [
+        "one essential question, 2–4 observable goals, explicit prerequisite bridge, first-principles explanation, worked example, source-scope box, three diagnostics and worked answers, next dependency present",
+        "SU and SU² scoped in scalar lessons; dimensionless declared for operator and matrix lessons",
+        "every required anchor ID located; numerical examples independently replayed with exact fractions"
+      ],
+      "substantive_check": "Oriented differences distinguish sample values, rates and anchors; six premise cards retain roles."
+    },
+    {
+      "checkpoint": "lesson-02",
+      "result": "passed",
+      "checks": [
+        "one essential question, 2–4 observable goals, explicit prerequisite bridge, first-principles explanation, worked example, source-scope box, three diagnostics and worked answers, next dependency present",
+        "SU and SU² scoped in scalar lessons; dimensionless declared for operator and matrix lessons",
+        "every required anchor ID located; numerical examples independently replayed with exact fractions"
+      ],
+      "substantive_check": "Distributive expansion retains signed df dg and equivalent endpoint formula."
+    },
+    {
+      "checkpoint": "lesson-03",
+      "result": "passed",
+      "checks": [
+        "one essential question, 2–4 observable goals, explicit prerequisite bridge, first-principles explanation, worked example, source-scope box, three diagnostics and worked answers, next dependency present",
+        "SU and SU² scoped in scalar lessons; dimensionless declared for operator and matrix lessons",
+        "every required anchor ID located; numerical examples independently replayed with exact fractions"
+      ],
+      "substantive_check": "Mean/half-difference decoder proved; original blocks and signed details preserved."
+    },
+    {
+      "checkpoint": "lesson-04",
+      "result": "passed",
+      "checks": [
+        "one essential question, 2–4 observable goals, explicit prerequisite bridge, first-principles explanation, worked example, source-scope box, three diagnostics and worked answers, next dependency present",
+        "SU and SU² scoped in scalar lessons; dimensionless declared for operator and matrix lessons",
+        "every required anchor ID located; numerical examples independently replayed with exact fractions"
+      ],
+      "substantive_check": "Linearity, idempotence, range closure, unit and two-sided factor rule proved; cross terms justified; E_star failure computed."
+    },
+    {
+      "checkpoint": "lesson-05",
+      "result": "passed",
+      "checks": [
+        "one essential question, 2–4 observable goals, explicit prerequisite bridge, first-principles explanation, worked example, source-scope box, three diagnostics and worked answers, next dependency present",
+        "SU and SU² scoped in scalar lessons; dimensionless declared for operator and matrix lessons",
+        "every required anchor ID located; numerical examples independently replayed with exact fractions"
+      ],
+      "substantive_check": "Both residual layers and models retained with each sample reconstruction."
+    },
+    {
+      "checkpoint": "lesson-06",
+      "result": "passed",
+      "checks": [
+        "one essential question, 2–4 observable goals, explicit prerequisite bridge, first-principles explanation, worked example, source-scope box, three diagnostics and worked answers, next dependency present",
+        "SU and SU² scoped in scalar lessons; dimensionless declared for operator and matrix lessons",
+        "every required anchor ID located; numerical examples independently replayed with exact fractions"
+      ],
+      "substantive_check": "Row recipes precede matrix notation; singular input freedom and output obstruction differ; inverse restricted to L."
+    },
+    {
+      "checkpoint": "lesson-07",
+      "result": "passed",
+      "checks": [
+        "one essential question, 2–4 observable goals, explicit prerequisite bridge, first-principles explanation, worked example, source-scope box, three diagnostics and worked answers, next dependency present",
+        "SU and SU² scoped in scalar lessons; dimensionless declared for operator and matrix lessons",
+        "every required anchor ID located; numerical examples independently replayed with exact fractions"
+      ],
+      "substantive_check": "Three stages reversed in opposite order; support and units retained; six premises mapped with product side calculation."
+    }
+  ],
+  "cumulative_checks": [
+    {
+      "boundary": "lessons 01–03",
+      "result": "passed",
+      "evidence": "Finite edge d versus pair half-difference d explicitly distinguished; change/addition and distribution precede reversible pair algebra."
+    },
+    {
+      "boundary": "lesson 04",
+      "result": "passed",
+      "evidence": "Two periods separate hypotheses from application; generic pair proofs precede Q-product proof; arbitrary idempotence explicitly refuted."
+    },
+    {
+      "boundary": "lessons 05–07",
+      "result": "passed",
+      "evidence": "Residual layers precede singular freedom; ledger consumes only previously taught transforms; every capstone row has actual explanation/practice/diagnostic IDs."
+    }
+  ],
+  "final_hostile_checks": [
+    {
+      "category": "coverage and assessment alignment",
+      "result": "passed",
+      "evidence": "All C07.01–C07.07 anchor IDs exist. Seven capstone operations map to named earlier explanations and answered attempts, including six premise cards and E_star."
+    },
+    {
+      "category": "source fidelity and evidence layers",
+      "result": "passed",
+      "evidence": "Five exact supplied SHA-256 values match; S02 M04 and constitutive pointers plus S03 AUD-006/AUD-012 read directly. Synthetic calculations, model choices and source premises separated. General archival E remains an explicit scoped retrieval gap."
+    },
+    {
+      "category": "mathematics and units",
+      "result": "passed",
+      "evidence": "verify_examples.py passed 65 records, including a 6561-case exact rational block identity stress test; generic proofs inspected separately."
+    },
+    {
+      "category": "audience and prerequisite load",
+      "result": "passed",
+      "evidence": "Signed arithmetic, fractions, substitution and row recipes are taught locally; conditional expectation is defined by finite block averaging; lesson 04 takes 110 minutes; gauge and infinite resolution remain recognition-only."
+    },
+    {
+      "category": "terminology and minimality",
+      "result": "passed",
+      "evidence": "Glossary distinguishes Q from geometry, B_coarse from B, stage labels from sample IDs, t as endpoint versus parameter, kernel from compatibility. Seven coherent full lessons with no untaught substantive assembly additions."
+    },
+    {
+      "category": "independent review",
+      "result": "passed",
+      "evidence": "See independent-audit.json for reviewer scope, recomputation and findings."
+    },
+    {
+      "category": "rendering scope",
+      "result": "passed",
+      "evidence": "Markdown-only contract; tables, code equations and relative next-dependency links inspected. No PDF/Word or paginated render required."
+    },
+    {
+      "category": "recovery, containment and assembly",
+      "result": "passed",
+      "evidence": "Required project adapter ran the installed validator and exited zero: containment, every checkpoint hash, exact assembly identity/order and completion records passed. Final result in validator-result.json."
+    }
+  ],
+  "source_gaps": [
+    "Compressed archival M04 does not supply a complete general E definition/proof body; finite block proof is supplied explicitly, without certifying that general body."
+  ],
+  "independent_report": "independent-audit.json"
+}

@@ -1,0 +1,42 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>3. Normalization with an inverse account · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/28">Course 28</a><span>/</span><span>lesson 03</span></div><a class="original" href="../../../kfield-28-photometer-experiments-and-information-preserving-analysis/lesson-03.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#3-normalization-with-an-inverse-account">3. Normalization with an inverse account</a><a href="#prerequisite-bridge">Prerequisite bridge</a><a href="#c2803-e1-first-principles">C28.03-E1 — first principles</a><a href="#c2803-w1-worked-example">C28.03-W1 — worked example</a><a href="#c2803-p1-guided-practice">C28.03-P1 — guided practice</a><a href="#worked-answer">Worked answer</a><a href="#c2803-d1-diagnostic-checks">C28.03-D1 — diagnostic checks</a><a href="#worked-answers">Worked answers</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">1. From light to channel readings</a><a  href="lesson-02.html">2. Acquisition identity and raw-value preservation</a><a aria-current=page href="lesson-03.html">3. Normalization with an inverse account</a><a  href="lesson-04.html">4. Symmetry, palindromes, and signed comparisons</a><a  href="lesson-05.html">5. Sidereal combs and event windows</a><a  href="lesson-06.html">6. Scale and channel comparisons</a><a  href="lesson-07.html">7. Uncertainty as a structured record</a><a  href="lesson-08.html">8. A prospective measurement protocol</a></details></aside><div class="reading-column"><article class="prose"><h1 id="3-normalization-with-an-inverse-account" tabindex="-1">3. Normalization with an inverse account</h1>
+<p>Essential question: What must a normalization retain to be reversible?</p>
+<p>Goals:</p>
+<ul>
+<li>Compute valid Clear ratios and flag failures</li>
+<li>Reconstruct inputs including rounding closure</li>
+<li>State the transformation domain</li>
+</ul>
+<h2 id="prerequisite-bridge" tabindex="-1">Prerequisite bridge</h2>
+<p>Use <a href="lesson-02.html">Acquisition identity and raw-value preservation</a>: its retained records and operations are the inputs to this lesson.</p>
+<p>Pacing: 2 period(s) of 55 minutes. Clear ratio and zero denominator / Exact reconstruction and decimal residual.</p>
+<h2 id="c2803-e1-first-principles" tabindex="-1">C28.03-E1 — first principles</h2>
+<p>A ratio answers “how much A per unit of Clear in this paired reading?” It does not answer how much absolute light arrived. Let C mean the Clear count in the same acquisition row, and define r=A/C when both inputs are present and finite and C is nonzero. This is the mathematical domain. A stricter instrument implementation may require positive C; record that policy separately. The installed Clear-Normalize tool uses the stricter nonpositive-C invalid branch. Our toy valid denominators are all positive, so the policies agree here.</p>
+<p>The units count/count cancel, so r is dimensionless. Do not divide times, sequence numbers or orientations by C. Where C is valid, Clear/C=1. Do not clip a ratio greater than 1: A=12,C=10 gives 1.2 and remains a ratio. A negative spectral input stays signed with its instrument status. Undefined is a status, not a large number or zero.</p>
+<p>An inverse account explains how to recover inputs. If r is exact, A=rC. The pair (r,C) preserves amplitude; r alone does not, because (2,10) and (4,20) both give 1/5. For an invalid ratio retain the raw A and C directly. They are still available for other analyses.</p>
+<p>Displayed decimals may be rounded. Ten significant digits count from the first nonzero digit. Keep exact fractions when possible. If r_display is rounded, define the signed ratio closure delta=r_exact-r_display. Then A=(r_display+delta)C. For 1/3, 0.3333333333 equals 3333333333/10000000000. Subtracting from 1/3 gives (10000000000-9999999999)/30000000000=1/30000000000. Multiplying the display alone by 3 gives 0.9999999999; adding the retained closure recovers 1 exactly.</p>
+<p>For the common acquisition, row 0 gives 2/10=1/5 and returns (1/5)10=2; row 2 gives 8/20=2/5 and returns 8; row 3 gives 1/10 and returns 1; row 4 gives 3/10 and returns 3. Row 1 has A=5,C=0, so no division is performed. Keep its pair (5,0), the undefined-ratio flag and all original metadata.</p>
+<blockquote>
+<p>Claim scope: Ratios and inverse identities are derived arithmetic. They do not calibrate optical response. Missing and zero denominators remain distinct statuses.</p>
+</blockquote>
+<h2 id="c2803-w1-worked-example" tabindex="-1">C28.03-W1 — worked example</h2>
+<p>For the five-row toy, ratios are (1/5,undefined,2/5,1/10,3/10). Reconstruct defined rows by multiplication and row 1 from retained raw A=5. The zero-Clear branch is a preserved row, not r=0 or infinity.</p>
+<h2 id="c2803-p1-guided-practice" tabindex="-1">C28.03-P1 — guided practice</h2>
+<p><strong>Student task.</strong> For the separate pair A=1,C=3, compute the exact ratio, its ten-significant-digit display 0.3333333333, the signed closure exact minus display, and reconstructed A. Then classify A=0,C=5 and A=0,C=0. List the inputs and rules that must survive.</p>
+<h3 id="worked-answer" tabindex="-1">Worked answer</h3>
+<p>For raw A=1, Clear=3, exact r=1/3. A 10-significant-digit display 0.3333333333 differs by 1/(3*10^10); retain that ratio closure and the original integers. For A=0, Clear=5 the ratio is valid 0, contrasting with invalid 0/0.</p>
+<p>Here delta=1/30000000000 and (0.3333333333+delta)*3=1 exactly. Retain A=1,C=3, exact r, displayed r, delta and the ten-significant-digit rounding rule. For 0/0 record undefined rather than valid zero.</p>
+<h2 id="c2803-d1-diagnostic-checks" tabindex="-1">C28.03-D1 — diagnostic checks</h2>
+<ol>
+<li>Compute A=0,C=5 and A=0,C=0.</li>
+<li>Can r=1/5 alone recover A?</li>
+<li>What is the missing numerator when r=2/5,C=20?</li>
+<li>How is 1/3 reconstructed from its ten-digit display?</li>
+</ol>
+<h2 id="worked-answers" tabindex="-1">Worked answers</h2>
+<ol>
+<li>First ratio is valid 0; second is undefined and retains both raw zeros.</li>
+<li>No: A=2,C=10 and A=4,C=20 both work. Retain C.</li>
+<li>A=(2/5)*20=8 counts.</li>
+<li>Add delta=1/30000000000 to 0.3333333333, then multiply by C=3 to return 1.</li>
+</ol>
+<p>Next dependency: <a href="lesson-04.html">lesson-04</a> uses these operations. Reconstruct the worked input and explain the diagnostic answers before proceeding. Source boundaries: <a href="sources.html">sources</a>.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><a class="button secondary" href="lesson-02.html">← Previous lesson</a><a class="button" href="lesson-04.html">Next lesson →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/28">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

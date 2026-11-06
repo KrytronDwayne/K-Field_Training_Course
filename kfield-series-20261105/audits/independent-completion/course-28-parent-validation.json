@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-28",
+  "timestamp": "2026-11-05T20:30:55.844678+00:00",
+  "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-28-photometer-experiments-and-information-preserving-analysis",
+  "validator": "passed",
+  "validator_checks": [
+    "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+    "parsed manifest.json",
+    "parsed audit_report.json",
+    "parsed completion_report.json",
+    "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+  ],
+  "validator_errors": [],
+  "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+  "manifest_sha256": "38e0106a373d2e4471759892c066447aa317dcd770c5d3c12d18d8b4c822c8b0",
+  "completion_report_sha256": "5b25a95e68fceb46ae5006fd49f8f687c441b7948768728251b900a31db001bb",
+  "course_sha256": "676b97af8f622d1314a627b7c042f329d5a939ac07c7a8bf0d941c60564f7fc8"
+}

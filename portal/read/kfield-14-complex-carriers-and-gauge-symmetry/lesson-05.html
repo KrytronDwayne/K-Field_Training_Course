@@ -1,0 +1,102 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Lesson 5 — Cover maps and quotient kernels · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/14">Course 14</a><span>/</span><span>lesson 05</span></div><a class="original" href="../../../kfield-14-complex-carriers-and-gauge-symmetry/lesson-05.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#lesson-5-cover-maps-and-quotient-kernels">Lesson 5 — Cover maps and quotient kernels</a><a href="#c1405-e1-composition-identity-and-a-map">C14.05-E1 — Composition, identity, and a map</a><a href="#from-a-toy-map-to-the-source-cover">From a toy map to the source cover</a><a href="#c1405-w1-worked-example">C14.05-W1 — Worked example</a><a href="#c1405-p1-answered-practice">C14.05-P1 — Answered practice</a><a href="#diagnostics-c1405-d1">Diagnostics — C14.05-D1</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 1 — Complex numbers and phase</a><a  href="lesson-02.html">Lesson 2 — Inner products and unitary changes</a><a  href="lesson-03.html">Lesson 3 — The ordered three-plus-two carrier</a><a  href="lesson-04.html">Lesson 4 — Determinants and the top-form lock</a><a aria-current=page href="lesson-05.html">Lesson 5 — Cover maps and quotient kernels</a><a  href="lesson-06.html">Lesson 6 — Local symmetry and physical role</a><a  href="lesson-07.html">Lesson 7 — Reconciling source branches</a></details></aside><div class="reading-column"><article class="prose"><h1 id="lesson-5-cover-maps-and-quotient-kernels" tabindex="-1">Lesson 5 — Cover maps and quotient kernels</h1>
+<p>Essential question: How can different transformation labels produce exactly the same action?</p>
+<p>Goals: Enumerate a finite map kernel; verify six source-kernel elements and exhaustiveness; retain enough labels to recover a preimage.</p>
+<p>Prerequisite bridge: We know multiplication, inverses, unit phases, determinant products, and the color-first order. Three periods cover a finite additive map, the source cover, then its full kernel and information accounting.</p>
+<h2 id="c1405-e1-composition-identity-and-a-map" tabindex="-1">C14.05-E1 — Composition, identity, and a map</h2>
+<p>A group is a set with a composition rule that stays in the set, is associative, has an identity, and gives each element an inverse. Associative means brackets may change without changing the result, as (ab)c=a(bc). It does not mean ab=ba. Reversible transformations form examples under composition. U(1) is the unit phases under multiplication; identity is 1 and inverse is conjugation. SU(3) and SU(2) have the definitions from Lesson 4 and use matrix multiplication.</p>
+<p>First use a small additive group. In addition modulo 6, keep the remainder after division by 6: 4+5 becomes 3. Representatives are 0,1,2,3,4,5. Identity is 0; for example 2's inverse is 4. A map f(k)=k mod 3 sends these inputs to 0,1,2,0,1,2. It preserves composition: removing any multiple of 6 also removes a multiple of 3, so f(a+b mod 6)=f(a)+f(b) mod 3. For instance 4+5 mod 6=3 maps to 0, while f(4)+f(5)=1+2 mod 3=0.</p>
+<p>The kernel of a composition-preserving map consists of inputs sent to the target identity. Here ker f={0,3}. Inputs differing by a kernel element have the same output: pairs {0,3},{1,4},{2,5}. A quotient groups such indistinguishable labels into classes. To recover k from remainder r=k mod 3, retain an extra label t=0 or 1 with k=r+3t. The remainder alone cannot reconstruct the input. A kernel is not a list of discarded errors; it identifies a precise ambiguity in the map.</p>
+<h2 id="from-a-toy-map-to-the-source-cover" tabindex="-1">From a toy map to the source cover</h2>
+<p>For the source map use a triple (g₃,g₂,z) in SU(3)×SU(2)×U(1). The × means all combinations of one element from each factor, with componentwise multiplication. Define</p>
+<p>Φ(g₃,g₂,z)=(z⁻²g₃,z³g₂).</p>
+<p>The output is a color-first pair of blocks acting on H=C₃⊕W₂. Both blocks are unitary. Their determinants are z⁻⁶ and z⁶ because det g₃=det g₂=1. Their product is 1, placing the output in S(U(3)×U(2)). Scalar matrices commute with every matrix of the same size, so Φ preserves multiplication: (zz′)⁻²g₃g₃′=(z⁻²g₃)(z′⁻²g₃′), and similarly for the weak block. Such commuting elements are called central. The source calls this a cover and identifies its image with the full determinant-locked group. General surjectivity and topology are recognition-only here; the finite kernel is core work.</p>
+<p>To get the identity output, solve z⁻²g₃=I₃ and z³g₂=I₂. These force g₃=z²I₃ and g₂=z⁻³I₂. The SU(3) determinant condition forces z⁶=1. The SU(2) condition gives z⁻⁶=1, the same restriction. Conversely, any unit phase with z⁶=1 and those scalar matrices satisfies every condition. This proves necessity and sufficiency, leaving no additional matrix choices hidden in the kernel.</p>
+<p>Write ζ=cos(π/3)+i sin(π/3)=1/2+i√3/2. It is a turn of 60°. Six repeats give one full turn: ζ⁶=1; ζ³=−1. The six solutions of z⁶=1 are ζ^k for k=0,…,5. To see exhaustiveness on the unit circle, six times the angle must be an integer number of full turns. Within one turn the possible angles are exactly 0°,60°,120°,180°,240°,300°. Reduce exponents modulo 6; negative powers reverse the turn. Thus the kernel triples are (ζ^(2k)I₃,ζ^(−3k)I₂,ζ^k).</p>
+<p>We can verify the key powers without a trigonometric table: ζ²=(1+2i√3−3)/4=−1/2+i√3/2. Then ζ³=[(−1+i√3)(1+i√3)]/4=(−1−3)/4=−1, with imaginary terms cancelling. Squaring ζ³ gives ζ⁶=1. The six successive powers have coordinates (1,0), (1/2,√3/2), (−1/2,√3/2), (−1,0), (−1/2,−√3/2), (1/2,−√3/2), confirming their distinctness exactly.</p>
+<h2 id="c1405-w1-worked-example" tabindex="-1">C14.05-W1 — Worked example</h2>
+<p>The toy map above has output list (0,1,2,0,1,2) and kernel {0,3}. It is an analogy, not the source quotient. For the source choose k=1: z=ζ, g₃=ζ²I₃, g₂=−I₂. Their determinants are (ζ²)³=ζ⁶=1 and (−1)²=1. The color output scalar is ζ⁻²ζ²=1. The weak output scalar is ζ³(−1)=(−1)(−1)=1. This nonidentity input triple acts as identity on H.</p>
+<h2 id="c1405-p1-answered-practice" tabindex="-1">C14.05-P1 — Answered practice</h2>
+<p>For k=2, z=ζ², g₃=ζ⁴I₃ and g₂=I₂. Color action ζ⁻⁴ζ⁴=1 and weak action ζ⁶=1; determinants are ζ¹²=1 and 1. For k=3, z=−1, g₃=I₃,g₂=−I₂; again both actions and determinants equal 1. Complete the table before uncovering its entries:</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>k</th>
+<th>z</th>
+<th>scalar in g₃</th>
+<th>scalar in g₂</th>
+<th>det g₃</th>
+<th>det g₂</th>
+<th>two output scalars</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1,1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>ζ</td>
+<td>ζ²</td>
+<td>ζ³</td>
+<td>1</td>
+<td>1</td>
+<td>1,1</td>
+</tr>
+<tr>
+<td>2</td>
+<td>ζ²</td>
+<td>ζ⁴</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1,1</td>
+</tr>
+<tr>
+<td>3</td>
+<td>ζ³</td>
+<td>1</td>
+<td>ζ³</td>
+<td>1</td>
+<td>1</td>
+<td>1,1</td>
+</tr>
+<tr>
+<td>4</td>
+<td>ζ⁴</td>
+<td>ζ²</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1,1</td>
+</tr>
+<tr>
+<td>5</td>
+<td>ζ⁵</td>
+<td>ζ⁴</td>
+<td>ζ³</td>
+<td>1</td>
+<td>1</td>
+<td>1,1</td>
+</tr>
+</tbody>
+</table></div>
+<p>Each g₃ exponent triples to a multiple of 6; each g₂ exponent doubles to a multiple of 6. Adding the output exponents (−2k+2k) and (3k−3k) gives zero. All six triples are distinct because z differs. Repeating the k=1 triple generates all six, returning after six products; hence this kernel is cyclic of order six, denoted Z6 or ℤ₆. Retain k to distinguish these six inputs when output is identity. For a general output, retain a chosen representative preimage plus which kernel element multiplies it; quotient output alone forgets that label.</p>
+<p>Additional answered toy practice, C14-KER-D1 bridge: k mod 2 maps 0,…,5 to (0,1,0,1,0,1); its kernel is {0,2,4}. For recovery store r∈{0,1} and t∈{0,1,2}, then k=r+2t.</p>
+<blockquote>
+<p>Claim scope: S02 /backbone_sequence/9 states the quotient (SU(3)×SU(2)×U(1))/Z6 under the preserved-block/top-form contract. We have verified the displayed map's exact kernel. This is not a selection of a unique physical global form; Lesson 7 preserves the integration's wider family. No source data or residual component has been discarded.</p>
+</blockquote>
+<h2 id="diagnostics-c1405-d1" tabindex="-1">Diagnostics — C14.05-D1</h2>
+<ol>
+<li>Independently list the kernel of k mod 2 on addition modulo 6 (C14-KER-D1).</li>
+<li>For k=5 verify the two source output scalars using reduced exponents.</li>
+<li>Why can there be no seventh kernel element of the displayed Φ?</li>
+<li>What labels must accompany quotient outputs for reconstruction? Explain separately for the mod-3 toy and the source kernel.</li>
+</ol>
+<p>Worked answers: (1) Inputs 0,2,4 map to identity 0. (2) z=ζ⁵,g₃=ζ⁴I₃,g₂=ζ³I₂: color exponent −10+4=−6 and weak exponent 15+3=18 both yield 1. (3) Identity output fixes both matrices in terms of z, and det g₃=1 forces one of the six unit-circle roots. (4) For the toy keep r and t, k=r+3t; for the source keep a representative preimage and a kernel label k modulo 6. Neither image determines its original input alone.</p>
+<p>Next dependency: <a href="lesson-06.html">Lesson 6</a> distinguishes these transformation labels from a supplied action and its possible physical role.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><a class="button secondary" href="lesson-04.html">← Previous lesson</a><a class="button" href="lesson-06.html">Next lesson →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/14">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

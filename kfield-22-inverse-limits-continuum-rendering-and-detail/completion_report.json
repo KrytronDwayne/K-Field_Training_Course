@@ -1,0 +1,91 @@
+{
+  "status": "complete",
+  "topic": "Inverse Limits, Continuum Rendering, and Detail",
+  "audience": "High-school seniors; first-principles teaching, with concrete prerequisite capabilities and taught bridges.",
+  "assumptions": [
+    "A topical short course, not a semester per topic. Pacing is 55-minute core lessons plus capstone periods; split dense lessons if actual learner load requires it.",
+    "No prior calculus, abstract algebra, university linear algebra, or quantum mechanics unless explicitly taught earlier.",
+    "Required core assessments must be solvable with taught finite examples. Clearly label deeper recognition-only extensions.",
+    "Markdown is the delivery format; no PDF or Word generation is required.",
+    "All example numeric inputs are synthetic and dimensionless unless explicitly LU; no empirical data are required.",
+    "Unprovided infinite history-operator and filtration contracts are taught as source boundaries; core operations use fully specified finite models.",
+    "Approved project storage overrides the skill Desktop default; 12 core and3 capstone periods at55 minutes each."
+  ],
+  "outputs": [
+    "input-contract.json",
+    "course-map.md",
+    "lesson-01.md",
+    "lesson-02.md",
+    "lesson-03.md",
+    "lesson-04.md",
+    "lesson-05.md",
+    "lesson-06.md",
+    "lesson-07.md",
+    "terminology.md",
+    "teacher-guide.md",
+    "capstone.md",
+    "sources.md",
+    "source-verification.json",
+    "worked-example-verification.json",
+    "independent-audit.json",
+    "course.md",
+    "audit_report.json",
+    "build_course.py",
+    "support_course.py",
+    "repair_inner_product.py",
+    "repair_presentation.py",
+    "verify_examples.py",
+    "independent_check.py",
+    "finalize_course.py",
+    "completion_report.json"
+  ],
+  "audit_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "lesson_count": 7,
+  "periods": {
+    "core": 12,
+    "capstone": 3,
+    "minutes_each": 55
+  },
+  "hashes": {
+    "input-contract.json": "e6e6b8ccd1f97495de969239695d73bc7a12cf8b16d7b83dd4c8e9df69bf069c",
+    "course-map.md": "9e1665f4340c460f798ebd6835c294864a76bd59e11f5046a2e48f0d578def29",
+    "lesson-01.md": "00d0e646a2a67bfd2b61a03ad70700dee9cf4b42523bece5e2c5ddfd250f3cff",
+    "lesson-02.md": "9ef84a0b91cdba2e09d3280dc22452a17055eca69bf286d437c7f81f5c73f007",
+    "lesson-03.md": "29265764d982bf97a45bccb964858fb39ca1a05a0da18d6f6ee995cb993cccd9",
+    "lesson-04.md": "74c5abb6b868a63d19c0646793d775c4524874ae77fe2a000054f412cb8b8d46",
+    "lesson-05.md": "93022a839828975dd667e6bda38e87c7390955e3699a764d1de10e5f363ff184",
+    "lesson-06.md": "a18efd942ad3ff88613e33df009f914856f457cf427db4c2763facfe836c81a9",
+    "lesson-07.md": "2e6557c5d3607273983b87d98a2549d522a7eb8871d94b08ef4bf4ed13f2f9b8",
+    "terminology.md": "25aad1e4714c0e019bc2068784400f602940cb56c96b337bb313e591abb9acc0",
+    "teacher-guide.md": "c8e6bd73764009cc179275d0a1daeb16b6ee717862cef52ebffb7fd54d9840db",
+    "capstone.md": "c5337b060aa1b278e89077cec8389679d9c669ce63cbb6ceebf5467b26bbc3d2",
+    "sources.md": "290c79ba69d6f4664d64a1a6c4df8362c27a40c566da85a694b4b73b315cecb4",
+    "source-verification.json": "604461e22851050d434f03ab78bedf0eca153cfe18c4141848fc1f0aef6c9b53",
+    "worked-example-verification.json": "752698bb16d9c4d3edeaf43d9078cedbe418e4a3c53afb379263153f3cd71dd2",
+    "independent-audit.json": "af726f34e0be91a174cf4be3af8c9307114962fc76d0827d618026fb8a77193b",
+    "course.md": "8c6d51faa81ab0a434d370e26772c47c1d48a402b518eef9e4750416f5122dd3",
+    "audit_report.json": "5ed773491d0741ec1c7887d4034d16315f386cac8e8870a89fd50fb93c16a941",
+    "build_course.py": "456e8dae2eb4c73ee311031fe8a7774a0c98ef0c019ccaf8a57262b53bbe4284",
+    "support_course.py": "fb634ee6f9b458b22debc66992978d25191a67ec18232eb2e04804636aa8375a",
+    "repair_inner_product.py": "17a893dfb78d257252801a264528e373ff753d055ecfe8c14f9d9295d69ae414",
+    "repair_presentation.py": "70f33a551316eb4e875bc458feb34cadbdcc0885de0a2a4e86c2066df56dfac8",
+    "verify_examples.py": "d29411535d60947f94f35bbb3d1f76e1c0617f3a8ba1152024daa74db33f983c",
+    "independent_check.py": "17c8d3c464a4ef5097c78b0e43781377c7519ec21beb5c5a94d07e3743ce0b51",
+    "finalize_course.py": "b4d5f26959b14727e672da7188e94dec2073604e4a716c552628d9723c6898ef",
+    "manifest.json": "79689a859e6273bf15607fa11fa123775392ee64cd75638d13a11176a5bad1cd"
+  },
+  "source_gaps": [
+    "No specific infinite history-operator domain/action or complete infinite filtration convergence contract in loaded M18 passage; finite core is complete."
+  ],
+  "validator": {
+    "status": "passed",
+    "command": "& 'C:/ProgramData/anaconda3/Scripts/conda.exe' run -n tf_gpu_env python 'Z:/Kfield-doc-training/.work/validate_project_course.py' 'Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-22-inverse-limits-continuum-rendering-and-detail' --json",
+    "exit_code": 0,
+    "errors": [],
+    "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9"
+  }
+}

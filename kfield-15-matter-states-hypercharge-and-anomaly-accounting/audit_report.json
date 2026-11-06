@@ -1,0 +1,158 @@
+{
+  "schema_version": "1.0",
+  "status": "passed",
+  "findings": [
+    {
+      "id": "A15-001",
+      "level": "final",
+      "category": "assembly serialization",
+      "file": "course.md",
+      "section": "lesson marker contents",
+      "severity": "minor",
+      "defect": "Windows text writer converted LF lesson lines to CRLF in assembly; normalized identity passed but literal bytes differed.",
+      "correction": "Changed support writer to UTF-8 write_bytes and rebuilt the assembly.",
+      "verification": "Independent auditor rechecks literal extraction; finalizer also checks normalized text and ordered marker pairs.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "assembly",
+        "support-script"
+      ]
+    }
+  ],
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "local_audits": [
+    {
+      "checkpoint": "lesson-01",
+      "result": "passed",
+      "checks": [
+        "prerequisite bridge and taught operations",
+        "senior vocabulary and paced session boundaries",
+        "definitions, notation and dimensionless units",
+        "worked examples and four diagnostic answers",
+        "source/evidence scope",
+        "actual E05 explanation/practice/assessment links"
+      ],
+      "verification": "Full lesson reading plus verify_examples.py and independent-audit.json"
+    },
+    {
+      "checkpoint": "lesson-02",
+      "result": "passed",
+      "checks": [
+        "prerequisite bridge and taught operations",
+        "senior vocabulary and paced session boundaries",
+        "definitions, notation and dimensionless units",
+        "worked examples and four diagnostic answers",
+        "source/evidence scope",
+        "actual E05 explanation/practice/assessment links"
+      ],
+      "verification": "Full lesson reading plus verify_examples.py and independent-audit.json"
+    },
+    {
+      "checkpoint": "lesson-03",
+      "result": "passed",
+      "checks": [
+        "prerequisite bridge and taught operations",
+        "senior vocabulary and paced session boundaries",
+        "definitions, notation and dimensionless units",
+        "worked examples and four diagnostic answers",
+        "source/evidence scope",
+        "actual E05 explanation/practice/assessment links"
+      ],
+      "verification": "Full lesson reading plus verify_examples.py and independent-audit.json"
+    },
+    {
+      "checkpoint": "lesson-04",
+      "result": "passed",
+      "checks": [
+        "prerequisite bridge and taught operations",
+        "senior vocabulary and paced session boundaries",
+        "definitions, notation and dimensionless units",
+        "worked examples and four diagnostic answers",
+        "source/evidence scope",
+        "actual E05 explanation/practice/assessment links"
+      ],
+      "verification": "Full lesson reading plus verify_examples.py and independent-audit.json"
+    },
+    {
+      "checkpoint": "lesson-05",
+      "result": "passed",
+      "checks": [
+        "prerequisite bridge and taught operations",
+        "senior vocabulary and paced session boundaries",
+        "definitions, notation and dimensionless units",
+        "worked examples and four diagnostic answers",
+        "source/evidence scope",
+        "actual E05 explanation/practice/assessment links"
+      ],
+      "verification": "Full lesson reading plus verify_examples.py and independent-audit.json"
+    },
+    {
+      "checkpoint": "lesson-06",
+      "result": "passed",
+      "checks": [
+        "prerequisite bridge and taught operations",
+        "senior vocabulary and paced session boundaries",
+        "definitions, notation and dimensionless units",
+        "worked examples and four diagnostic answers",
+        "source/evidence scope",
+        "actual E05 explanation/practice/assessment links"
+      ],
+      "verification": "Full lesson reading plus verify_examples.py and independent-audit.json"
+    },
+    {
+      "checkpoint": "lesson-07",
+      "result": "passed",
+      "checks": [
+        "prerequisite bridge and taught operations",
+        "senior vocabulary and paced session boundaries",
+        "definitions, notation and dimensionless units",
+        "worked examples and four diagnostic answers",
+        "source/evidence scope",
+        "actual E05 explanation/practice/assessment links"
+      ],
+      "verification": "Full lesson reading plus verify_examples.py and independent-audit.json"
+    }
+  ],
+  "cumulative_audits": [
+    {
+      "boundary": "lesson-03",
+      "result": "passed",
+      "checks": "All 16 components accounted for; six bidegrees and charge/descent assignments consistent."
+    },
+    {
+      "boundary": "lesson-05",
+      "result": "passed",
+      "checks": "Five named tests, normalization, full trial contributions, factorization and primitive solution agree."
+    },
+    {
+      "boundary": "lesson-07",
+      "result": "passed",
+      "checks": "Complement, representations, parity and evidence classes remain distinct; capstone backward map closes."
+    }
+  ],
+  "final_hostile_audit": {
+    "result": "passed",
+    "content_evidence": "independent-audit.json and coverage-verification.json",
+    "checks": [
+      "coverage and source fidelity",
+      "dependency order and explicit bridges",
+      "finite math and units",
+      "consistent notation and answers",
+      "source/derived/interpretation separation",
+      "audience load and 14-period pacing",
+      "capstone solvability and rubric",
+      "recovery hashes checked before promotion",
+      "verbatim assembly identity and order",
+      "all deliverables contained in authorized course directory",
+      "Markdown delivery; pagination not requested",
+      "no omission hidden by concision and no new assembly teaching"
+    ],
+    "deterministic_validator": "External adapter execution result is recorded in completion_report.json."
+  },
+  "corrections": [],
+  "source_limitations": "Remote integration digests are source-attributed excerpts, not fresh local bytes. No fresh upstream whole-branch verification, compiler execution or empirical physical/global closure is claimed."
+}

@@ -1,0 +1,203 @@
+{
+  "course": "kfield-19-action-topology-and-phase-closure",
+  "figures": [
+    {
+      "title": "Zero and negative contributions retain their components",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure\\publication-figures\\action-residual.png",
+      "sha256": "d65e6d99c1ed3261d7b7c85d00c007e2697075b48ffff87ae0e4b0858304fb31",
+      "lessons": [
+        1,
+        2,
+        7
+      ],
+      "kind": "deterministic synthetic teaching illustration",
+      "source_lessons": [
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure\\lesson-01.md",
+          "sha256": "7f18b94bc7908f21cd0caba22d8320b7ed7d112c083f698036bcada4144455c5"
+        },
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure\\lesson-02.md",
+          "sha256": "8d735be36ba455de49f78673f7228aac0ce8d994462f3e1dc65443082d4928a6"
+        },
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure\\lesson-07.md",
+          "sha256": "da87beb80d4bba9d0e985936f8ba3c1d0c3eaed908f5580cdeb316664135906e"
+        }
+      ],
+      "source_ledger": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure\\sources.md",
+        "sha256": "aa54961cb225bd30c1d81d532a6d5a12e929f81a2df8554a63b341b794d2b655"
+      },
+      "evidence_sources": [
+        {
+          "id": "S01",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+          "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S02",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+          "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S03",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+          "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S04",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+          "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S05",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+          "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        }
+      ],
+      "evidence_scope": "Authored synthetic teaching figure; lesson identities locate the exact numerical and mathematical inputs. Archival identities resolve source IDs but do not assert replay of archived claims.",
+      "vector_companion": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure\\publication-figures\\action-residual.svg",
+        "sha256": "9b5616d32629b62156003447f8af621c136d71e841eec6b96c2239f316c193f2"
+      }
+    },
+    {
+      "title": "A unit factor is known, not missing",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure\\publication-figures\\six-phase-ledger.png",
+      "sha256": "74ae352b73fbc9dcea6973003e543120ec25ded6f5f45c1e3c4ac785750114b2",
+      "lessons": [
+        3,
+        4,
+        6
+      ],
+      "kind": "deterministic synthetic teaching illustration",
+      "source_lessons": [
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure\\lesson-03.md",
+          "sha256": "c7e1834cec493ab55688a423f73789b386f3c9f82936df6ac57ed128482fdea3"
+        },
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure\\lesson-04.md",
+          "sha256": "90f7fadef75dc59502967c975b5e296354093c58d77b3639c8042802d3762220"
+        },
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure\\lesson-06.md",
+          "sha256": "8b7a21a36055109eb290cbbcbfbfcf3443ae76bd74d20a0ea58c2219cdaf7aa2"
+        }
+      ],
+      "source_ledger": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure\\sources.md",
+        "sha256": "aa54961cb225bd30c1d81d532a6d5a12e929f81a2df8554a63b341b794d2b655"
+      },
+      "evidence_sources": [
+        {
+          "id": "S01",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+          "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S02",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+          "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S03",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+          "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S04",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+          "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S05",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+          "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        }
+      ],
+      "evidence_scope": "Authored synthetic teaching figure; lesson identities locate the exact numerical and mathematical inputs. Archival identities resolve source IDs but do not assert replay of archived claims.",
+      "vector_companion": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure\\publication-figures\\six-phase-ledger.svg",
+        "sha256": "66bef17e9166f8413632c9f108ae186c6611a148060fcca53f253a27feef7e52"
+      }
+    },
+    {
+      "title": "Rebasing transports the reading rule as well as coefficients",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure\\publication-figures\\line-rebasing.png",
+      "sha256": "8c9fda120144881a1d9e23fbc9276b6a4c122792c172e2d811012fbfe9cf41c3",
+      "lessons": [
+        4,
+        5,
+        7
+      ],
+      "kind": "deterministic synthetic teaching illustration",
+      "source_lessons": [
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure\\lesson-04.md",
+          "sha256": "90f7fadef75dc59502967c975b5e296354093c58d77b3639c8042802d3762220"
+        },
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure\\lesson-05.md",
+          "sha256": "43987acd0e25f47d70c3eb306aee205f868863e23cdf1ac8b5f6e8fdc899c027"
+        },
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure\\lesson-07.md",
+          "sha256": "da87beb80d4bba9d0e985936f8ba3c1d0c3eaed908f5580cdeb316664135906e"
+        }
+      ],
+      "source_ledger": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure\\sources.md",
+        "sha256": "aa54961cb225bd30c1d81d532a6d5a12e929f81a2df8554a63b341b794d2b655"
+      },
+      "evidence_sources": [
+        {
+          "id": "S01",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+          "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S02",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+          "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S03",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+          "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S04",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+          "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S05",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+          "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        }
+      ],
+      "evidence_scope": "Authored synthetic teaching figure; lesson identities locate the exact numerical and mathematical inputs. Archival identities resolve source IDs but do not assert replay of archived claims.",
+      "vector_companion": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure\\publication-figures\\line-rebasing.svg",
+        "sha256": "b5cd35a2142230db7d7a65380416f637b7951ef1c32a0a7977bacf69ec444a0c"
+      }
+    }
+  ]
+}

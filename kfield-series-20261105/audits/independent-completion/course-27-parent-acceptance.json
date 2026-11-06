@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-27",
+  "timestamp": "2026-11-05T20:53:41.041881+00:00",
+  "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-27-quadratic-phase-cost-and-route-geometry",
+  "validator": "passed",
+  "validator_checks": [
+    "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+    "parsed manifest.json",
+    "parsed audit_report.json",
+    "parsed completion_report.json",
+    "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+  ],
+  "validator_errors": [],
+  "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+  "manifest_sha256": "d0ec26cb59f9779db784023c4d37f156e43b9ebf355dd89f94e3fab3841b8bed",
+  "completion_report_sha256": "d04cc35f5871f9778d6e9e857f00e37f4f3b49249d097d6b0249dc5f69d89f5d",
+  "course_sha256": "c42b6dbf673905cbd9d220396d667b1f8249197cde119dc4212c0cb5a9058a66",
+  "status": "accepted",
+  "independent_audit": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\independent-completion\\course-27-independent-audit.json",
+  "independent_report_sha256": "f7b991cbf46623fdd34f3c3dc8bbf8533994de8e7a71eddd9584004939f4ee6d",
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "scope": "Completed topical course accepted after parent review of independent source/content audit and fresh deterministic validation; documented source limitations retained."
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-19",
+  "timestamp": "2026-11-05T19:37:12.473692+00:00",
+  "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure",
+  "validator": "passed",
+  "validator_checks": [
+    "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+    "parsed manifest.json",
+    "parsed audit_report.json",
+    "parsed completion_report.json",
+    "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+  ],
+  "validator_errors": [],
+  "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+  "manifest_sha256": "acb9d98e720bcf42728ad02faee13e9a045d85026118ccf82d86f762b92a6a42",
+  "completion_report_sha256": "7292d15fd67252c9ca4c37328f10d3cf6a552f0169ff6e85ddfefd110d5000c9",
+  "course_sha256": "a81e6bfa96181f6cbce06a115d71767458317e9e02be9f8f6f142a3c709f184c",
+  "status": "accepted",
+  "independent_audit": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\independent-completion\\course-19-independent-audit.json",
+  "independent_report_sha256": "08b7d9eab7faba2bb1f8e13cda289944847219b60d3f6fe07c150dafbe27eab5",
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "scope": "Completed topical course accepted after parent review of independent source/content audit and fresh deterministic validation; documented source limitations retained."
+}

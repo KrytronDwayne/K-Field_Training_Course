@@ -1,0 +1,139 @@
+{
+  "schema_version": "1.0",
+  "audit_scope": "Independent final hostile CONTENT review of lessons, capstone, teacher guide, course map, terminology, compact sources, provenance and assembled course. Excludes final manifest/completion acceptance and final validator execution.",
+  "checked_utc": "2026-11-05T19:06:06.7762967Z",
+  "unresolved_critical": 0,
+  "unresolved_major": 0,
+  "unresolved_minor": 0,
+  "findings": [
+    {
+      "id": "ICA-001",
+      "audit_level": "final",
+      "category": "source_scope",
+      "file": "capstone.md",
+      "section": "Full worked answer key and point rubric, 07",
+      "severity": "minor",
+      "defect": "The domain-hypothesis rubric says site-indexed group links but omits compact, which is part of the S02 M13 domain. Lesson 07 correctly teaches compact-group links, so the student-facing prerequisite is intact.",
+      "correction": "Change site-indexed group links to site-indexed compact-group links in the step 07 answer key.",
+      "verification": "Re-read final capstone key step 07: site-indexed compact-group links is present, matching S02 M13 requires. Correction verified.",
+      "disposition": "corrected",
+      "affected_checkpoint_ids": [
+        "capstone"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "category": "arithmetic",
+      "result": "passed",
+      "detail": "All capstone inputs match previously independently recomputed practice cases. Rechecked scalar transport/covariance, ZX and XZ order/conjugation, matrix and scalar 4 AU actions, Cayley diag(1,-i), norm 6, metric pair factors and J duality, historical determinants 64/4096, synthetic min E0/10, Q_L=8 and Q_L/N=4/3, inverse steps and remainder (0,-2-2i)."
+    },
+    {
+      "category": "rubric",
+      "result": "passed",
+      "detail": "Step totals 8+12+10+10+15+20+15+10=100. Each internal point breakdown sums to its step total. Key supplies full results and evidence-scope criteria."
+    },
+    {
+      "category": "E05",
+      "result": "passed",
+      "detail": "Eight concrete CAP steps name inputs and outputs and map to eight prior E/W/P/D groups. Required operations are taught and answered before use; historical branch calculation is answered in lesson 06 diagnostic. No spectrum computation, unavailable certificate replay or convergence proof is assigned."
+    },
+    {
+      "category": "pacing",
+      "result": "passed",
+      "detail": "Core periods 1+1+2+1+2+3+2+1=13; capstone 3; 16*55=880 minutes. Per-period 5+20+15+15=55. Guide permits adding bridge time without deleting content."
+    },
+    {
+      "category": "notation_evidence",
+      "result": "passed",
+      "detail": "Norm, unnormalized quadratic value and normalized expectation remain distinct. Synthetic objects, source-reported bounds, unavailable replay fields, and continuum comparisons are separated. Full matrices, states and remainders are required."
+    },
+    {
+      "category": "final_coverage_dependencies",
+      "result": "passed",
+      "detail": "Course map contains all eight concept rows and actual E/W/P/D/CAP IDs. Earlier full lesson audit remains applicable; current source text matches reviewed assembly. Entry operations are rebuilt locally and no mandatory advanced recognition-only calculation is assigned."
+    },
+    {
+      "category": "final_fidelity_provenance",
+      "result": "passed",
+      "detail": "Sources and provenance list all five exact paths/hashes matching independent SHA-256 checks; claim pointers match the source fields previously read. Mature/historical Hodge branches and J retrieval scope remain separate. Graph retrieval metadata is manager-reported provenance consistent with the runtime pin; this reviewer independently verified local bytes, not that earlier RAG response."
+    },
+    {
+      "category": "final_terminology_evidence",
+      "result": "passed",
+      "detail": "Glossary scopes transpose T versus thermal tail T, time/action/length units, source versus toy matrices, and Q_L versus normalized expectation. Synthetic arithmetic, source claims, residual coordinates and unresolved replay fields are distinguished across artifacts."
+    },
+    {
+      "category": "final_load_minimality",
+      "result": "passed",
+      "detail": "13 core periods with additional time for matrices, Cayley proof, Hodge factors and certificate reading; teacher bridge guidance preserves coverage. Course is a concise topical finite-operations course, not an outline. No unnecessary physical constants or unavailable proofs are introduced into assessment."
+    },
+    {
+      "category": "assembly_markdown",
+      "result": "passed",
+      "detail": "Eight BEGIN/END sections occur in order. Every extracted section matches the corresponding lesson after CRLF/LF normalization and outer whitespace trimming. Surrounding assembly adds only title/navigation, no substantive teaching. Markdown headings, tables, four-item diagnostics, indented calculations and relative next links inspected; no paginated render required."
+    }
+  ],
+  "files": [
+    {
+      "path": "course-map.md",
+      "sha256": "bf98889ed35021fa6f74317922a6b29b7e9c333069f7efa48b0c80e11a7585fb"
+    },
+    {
+      "path": "terminology.md",
+      "sha256": "0f7480cab427ab603135ec3d697beb28646f51940ee3cd842df8960cc04fd1b2"
+    },
+    {
+      "path": "sources.md",
+      "sha256": "6c46f9fa1d77ba0780f75a17a9ba9e5e9c3dbaa3474d172f5ab7850b30f34038"
+    },
+    {
+      "path": "source-provenance.json",
+      "sha256": "4abb1717bbccf658129988db30195535108eda7716cb54fe9839a7b9112e8db8"
+    },
+    {
+      "path": "teacher-guide.md",
+      "sha256": "489d512f509ac8d9ca520e0103c9f55fd5c1059358bb77a42660ee39b2f12af8"
+    },
+    {
+      "path": "capstone.md",
+      "sha256": "072700cebbe9c6f8e913769f9407dc313a0ef411d5d5bd8cdd2e94d1234d9056"
+    },
+    {
+      "path": "course.md",
+      "sha256": "de1fa6c859c2c01451fe72418e93011d75153cada347b806abc3de186b8cb115"
+    },
+    {
+      "path": "lesson-01.md",
+      "sha256": "c19f147ba167f1d252d2936d14c46a70a75e39836de6474539b6c771676db03f"
+    },
+    {
+      "path": "lesson-02.md",
+      "sha256": "f25acfbbe065c1a4640a591f8c96bc901dadde2c4e2e8e0ed2ccbbb49bb255c0"
+    },
+    {
+      "path": "lesson-03.md",
+      "sha256": "d93bc941b1e4600198c4e1034a8ab76342f56b2612101359cc368ecbf1e832b8"
+    },
+    {
+      "path": "lesson-04.md",
+      "sha256": "f9be4364f0fb7b790b17af615c819ac25d59466613feee30a88ae46623b5d61f"
+    },
+    {
+      "path": "lesson-05.md",
+      "sha256": "aa9b6edc4b6bcfad690fdadf71ce234575a6ed4e094bc3ddf34ec836137f3240"
+    },
+    {
+      "path": "lesson-06.md",
+      "sha256": "725d08e1e467c4048890eec6c91845f09a928d1cd57f18a7d30923fc8e06dd70"
+    },
+    {
+      "path": "lesson-07.md",
+      "sha256": "ad6f33655f99977b6f2c4aada5575c7f44f63327109663b7c79489ae800192f3"
+    },
+    {
+      "path": "lesson-08.md",
+      "sha256": "49cba659e4f1a1b478dcbfc098a46011898f34686de948fd88586be1d2df8cfe"
+    }
+  ]
+}

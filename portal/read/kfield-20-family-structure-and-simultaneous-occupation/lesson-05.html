@@ -1,0 +1,63 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Lesson 5 — The rank-48 projector · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/20">Course 20</a><span>/</span><span>lesson 05</span></div><a class="original" href="../../../kfield-20-family-structure-and-simultaneous-occupation/lesson-05.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#lesson-5-the-rank-48-projector">Lesson 5 — The rank-48 projector</a><a href="#c2005-e1-the-declared-factors">C20.05-E1 — The declared factors</a><a href="#c2005-w1-the-image-basis-and-uniform-restriction">C20.05-W1 — The image basis and uniform restriction</a><a href="#c2005-p1-practice-and-worked-answers">C20.05-P1 — Practice and worked answers</a><a href="#diagnostic-checks">Diagnostic checks</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 1 — Residues modulo three</a><a  href="lesson-02.html">Lesson 2 — Uniform and zero-sum sectors</a><a  href="lesson-03.html">Lesson 3 — Lifts and Fourier-style channels</a><a  href="lesson-04.html">Lesson 4 — Tensor products and rank multiplication</a><a aria-current=page href="lesson-05.html">Lesson 5 — The rank-48 projector</a><a  href="lesson-06.html">Lesson 6 — Selection, state, and source status</a><a  href="lesson-07.html">Lesson 7 — Family labels and numerical properties</a></details></aside><div class="reading-column"><article class="prose"><h1 id="lesson-5-the-rank-48-projector" tabindex="-1">Lesson 5 — The rank-48 projector</h1>
+<p>Essential question: What precisely is counted by the source's number 48?</p>
+<p>Goals: Derive rank 48 from an independent image basis; describe the equal restriction to each family; test zero and higher-rank history alternatives.</p>
+<p>Prerequisite bridge: Lesson 4 distinguished carrier dimension and image rank and proved finite rank multiplication for product maps. We now apply that proof to source-typed factors, not to a numerical coincidence. Use two periods: factor accounting and history alternatives.</p>
+<h2 id="c2005-e1-the-declared-factors" tabindex="-1">C20.05-E1 — The declared factors</h2>
+<p>S02#/backbone_sequence/15/family_projector states Qₙ=I₁₆⊗I₃⊗qₙ. Read the factors in order: internal carrier, family-label carrier, history carrier. The identity I₁₆ preserves 16 independent internal coordinates; I₃ preserves all three family coordinates. The history projector qₙ selects one independent history direction. The subscript n labels which history projection is used; it is not a family label.</p>
+<p>For the rank calculation assume qₙ is nonzero, self-adjoint (qₙ†=qₙ), idempotent (qₙ²=qₙ), and rank one. Choose a normalized history vector hₙ spanning its image. Then qₙhₙ=hₙ. No total history dimension has been supplied in this calculation. If that dimension is a finite H, the full carrier dimension is 16×3×H; its selected image still has rank 48. If the history space is infinite, the image count below remains finite under the rank-one assumption. No infinite-dimensional calculation is required of students.</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Factor</th>
+<th>Type and basis addresses</th>
+<th style="text-align: right;">Ambient dimension</th>
+<th style="text-align: right;">Image rank</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>I₁₆</td>
+<td>internal eᵢ, i=1,…,16</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">16</td>
+</tr>
+<tr>
+<td>I₃</td>
+<td>family fᵣ, r=0,1,2</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr>
+<td>qₙ</td>
+<td>history, image spanned by hₙ</td>
+<td style="text-align: right;">H if finite; not fixed here</td>
+<td style="text-align: right;">1, assumed nonzero</td>
+</tr>
+<tr>
+<td>Qₙ</td>
+<td>ordered product (i,r,history)</td>
+<td style="text-align: right;">48H if finite</td>
+<td style="text-align: right;">48</td>
+</tr>
+</tbody>
+</table></div>
+<p>These are dimensionless counts, not masses or physical volumes. S02#/proof_nodes/81 names the internal identity I_(Lambda_even). This course takes its declared dimension 16 as a source premise; it does not silently infer that dimension from the 27 lambda nodes. The internal carrier and the lambda function are separately typed objects.</p>
+<h2 id="c2005-w1-the-image-basis-and-uniform-restriction" tabindex="-1">C20.05-W1 — The image basis and uniform restriction</h2>
+<p>Every image output is a sum of vectors eᵢ⊗fᵣ⊗hₙ. There are 16×3×1=48. They are independent: projecting onto any internal-family address reads exactly its coefficient of hₙ, so a zero sum forces each coefficient to vanish. This proves rank 48 under the declared assumptions. Qₙ²=I₁₆²⊗I₃²⊗qₙ²=Qₙ and Qₙ†=Qₙ follow factor by factor.</p>
+<p>Fix a family r. The restriction still permits 16 internal choices and one history direction. Its rank is 16, while its history occupancy count is one. Across families those history counts form (1,1,1). It would be incorrect to call each entire family restriction rank one, or to call (1,1,1) a measured density. The same history projector acts for every r because the middle factor is I₃.</p>
+<p>The source also states QₙQₘ=0 for n≠m and common history transport. Orthogonality between different n additionally requires qₙqₘ=0; rank one alone does not imply it. For example two identical rank-one q factors would have nonzero product. We preserve the source's assertion and its necessary condition without claiming a fresh replay of the transported history construction.</p>
+<h2 id="c2005-p1-practice-and-worked-answers" tabindex="-1">C20.05-P1 — Practice and worked answers</h2>
+<p>For an explicitly finite teaching history carrier with addresses h₀,h₁,h₂, set q₀=diag(1,0,0), q₁=diag(0,1,0), q₂=diag(0,0,1). For this teaching example only, set q₃=0: there is no fourth history address. Find the rank of I₂⊗I₃⊗q₁, then I₂⊗I₃⊗q₃. What would a rank-two history projector do in the source-sized product?</p>
+<p>Answers: The first has dimension 2×3×3=18 and rank 2×3×1=6. Its image basis is (i,r,h₁), so each family has two internal image states and one history direction. The second is the zero map with rank 0; it does not satisfy the nonzero rank-one premise. A rank-two history factor yields 16×3×2=96, provided the history space has at least two independent directions. These alternatives show why the assumptions are essential. They do not modify the source's qₙ definition.</p>
+<blockquote>
+<p>Claim scope: The factorization and occupation wording come from S02#/backbone_sequence/15, S02#/proof_nodes/78 (F038), and S02#/proof_nodes/81 (X033). Conditional rank arithmetic is freshly derived here. F038 reports exact simultaneous occupation for a common history projector; its D10 shared guard says “No physical occupation conclusion.” S03#/findings/6 (AUD-007) directs recovery of the selection proof and conditional removal of the obsolete guard. Keep all these records together. The mathematical image construction and its identification as the physical occupied carrier have distinct premises; lesson 6 addresses the latter.</p>
+</blockquote>
+<h2 id="diagnostic-checks" tabindex="-1">Diagnostic checks</h2>
+<ol>
+<li><strong>C20.05-D1:</strong> Which factor gives uniform treatment of the family labels, and what further identification is needed for a physical occupation conclusion?</li>
+<li>Does “rank one” by itself imply orthogonality of qₙ and qₘ?</li>
+<li>If H=4, what are the source-sized product's ambient dimension and selected rank?</li>
+<li>What data must be retained when applying Qₙ to an arbitrary finite input x?</li>
+</ol>
+<p>Worked answers: (1) I₃; one must connect the actual physical-state carrier to the declared image with the required selection premises. (2) No: equal rank-one projectors are a counterexample; qₙqₘ=0 must be supplied or proved. (3) Ambient dimension 192; rank 48. (4) Keep Qₙx and (I−Qₙ)x, with their address convention and reconstruction x=Qₙx+(I−Qₙ)x. Uniform rank is not permission to discard the complement.</p>
+<p>Next dependency: <a href="lesson-06.html">Lesson 6</a> traces the source's occupation conclusion and its correction record.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><a class="button secondary" href="lesson-04.html">← Previous lesson</a><a class="button" href="lesson-06.html">Next lesson →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/20">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

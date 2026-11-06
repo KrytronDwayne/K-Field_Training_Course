@@ -1,0 +1,948 @@
+{
+  "schema": "kfield.course-independent-audit.v1",
+  "timestamp": "2026-11-05T17:05:32.555Z",
+  "course_id": "course-01",
+  "status": "scoped_content_pass_with_minor_metadata_repair",
+  "scope": "Independent reading of all five actual lesson files, capstone and key, source ledger, glossary, teacher guide and course map; bounded exact source verification; independent selected-answer recomputation and file integrity checks. No edits to parent artifacts.",
+  "course_directory": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-01-reading-the-k-field-evidence-models-and-information",
+  "manifest_sha256": "8fc5d01bc0b7670ee9a3ed731f88db4cbeb12f9737ad05f7ea5d8bee9be0b9b2",
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 1
+  },
+  "acceptance": {
+    "source_fidelity": "pass",
+    "mathematical_and_unit_scope": "pass",
+    "senior_accessibility": "pass_for_declared_prerequisites",
+    "capstone_prior_practice": "pass_actual_content",
+    "synthetic_vs_measured": "pass",
+    "student_content": "scoped_clean_pass",
+    "package_provenance": "minor_receipt_repair_required",
+    "full_series_teaching_approval": false
+  },
+  "findings": [
+    {
+      "id": "C01-IND-01",
+      "level": "final",
+      "category": "validator receipt provenance",
+      "severity": "minor",
+      "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-01-reading-the-k-field-evidence-models-and-information/validator-result.json",
+      "section": "/canonical_output_root; /checks/0; /course_directory",
+      "line": 2,
+      "related_lines": [
+        4,
+        10
+      ],
+      "defect": "The consolidated receipt names the Z: destination course but still gives the builder's C: output directory as canonical_output_root and states containment under that old root. The receipt is internally inconsistent about the location actually validated.",
+      "evidence": {
+        "declared_root": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-course-01\\outputs\\K-Field_Training_Course",
+        "declared_course": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-01-reading-the-k-field-evidence-models-and-information",
+        "contradictory_check": "course directory is contained by canonical output root: C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-course-01\\outputs\\K-Field_Training_Course",
+        "separate_destination_validation": {
+          "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-series-20261105/audits/consolidation/course-01-consolidation.json",
+          "sha256": "61bfc3076128cad0e0aa107630a4340e9a7dbee3a6810e271908989e811773d8",
+          "destination_validator_passed": true,
+          "destination_checks": [
+            "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+            "parsed manifest.json",
+            "parsed audit_report.json",
+            "parsed completion_report.json",
+            "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+          ]
+        }
+      },
+      "severity_rationale": "A separate consolidation report explicitly records successful validation against the correct Z: root, and this independent audit confirms current file hashes and lesson assembly. No student answer or substantive validator failure is evidenced. The defect is confined to the portable provenance receipt.",
+      "correction": "Preserve the original builder-location receipt as historical evidence, and generate or store a correctly scoped destination validator receipt with the Z: root and current destination path. Do not merely relabel an old execution as a new one. Refresh dependent manifest/completion hashes and run the ordinary destination validation after the metadata repair.",
+      "verification": {
+        "result": "unresolved_minor",
+        "method": "Compared actual receipt fields with actual destination and parent consolidation record; separately rehashed all manifest checkpoints and completion hash entries."
+      },
+      "disposition": "unresolved",
+      "affected_checkpoints": [
+        "validator",
+        "completion"
+      ]
+    }
+  ],
+  "source_checks": {
+    "S02": {
+      "result": "pass",
+      "local_rehash": {
+        "id": "S02",
+        "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+        "result": "fresh independent rehash matches"
+      },
+      "locators": [
+        "/backbone_sequence/0/invariants",
+        "/backbone_sequence/0/definitions",
+        "/proof_contract",
+        "/mature_locked_cell3/direct_reciprocal_closure_max_abs"
+      ],
+      "verified_scope": "Exact source definitions G=B^T B, R=G^-1 and B R B^T=I, mature precision/orientation contract and reported discrepancy match the course. All are source-stated, not claimed fresh full proof verification."
+    },
+    "S06": {
+      "sha256": "c2a25a583af904601968adc1d3efde825f76218c92a2f52d829afc093f52c02a",
+      "bytes": 1761,
+      "path": "applications/kfield_lucas_lab/rag_corpus/50_physical_closure.md",
+      "range": {
+        "end_exclusive": 1761,
+        "start": 0
+      },
+      "result": "pass_exact_bytes_and_independent_digest",
+      "evidence_class": "source",
+      "verification": "Retrieved complete 1761-byte immutable object, decoded in memory and independently hashed. Items2–4 support the reported metadata, 97 replay-state distinction, conditional EarthOnlyAttribution premise and unresolved detector-transfer identification.",
+      "source_scope": "180000 samples, 2000 rotations, ten channels and 15.0407096514 degrees/hour remain attributed reported metadata; no acquisition-count convention is invented."
+    },
+    "context_archives": [
+      {
+        "id": "S01",
+        "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+        "result": "fresh independent rehash matches"
+      },
+      {
+        "id": "S02",
+        "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+        "result": "fresh independent rehash matches"
+      },
+      {
+        "id": "S03",
+        "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+        "result": "fresh independent rehash matches"
+      },
+      {
+        "id": "S04",
+        "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+        "result": "fresh independent rehash matches"
+      },
+      {
+        "id": "S05",
+        "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+        "result": "fresh independent rehash matches"
+      }
+    ],
+    "source_gaps_preserved": [
+      "S06 raw channel/time readings and acquisition schema are unavailable in the supplied narrative.",
+      "A residual requires aligned model values or replayable parameters in addition to raw readings.",
+      "No fresh Agda/Lean compilation or full non-diagonal locked-basis recomputation is asserted.",
+      "Synthetic constants, DU tables and diagonal geometry are never substituted for empirical readings or mature Cell3 constants."
+    ],
+    "interpretation": "Byte identity and source support are checked separately from the truth of source-local formal and empirical status claims."
+  },
+  "lesson_reviews": [
+    {
+      "id": "lesson-01",
+      "result": "pass",
+      "observations": "Observation, definition, implication, inferred structure, proposed mechanism, reference theory and open question are differentiated; 12/15 and 4/9 examples are explicitly synthetic. Practice requests a discriminating question without inventing data."
+    },
+    {
+      "id": "lesson-02",
+      "result": "pass",
+      "observations": "Path/locator/hash/class/access limits are taught before assessment. Basis, determinant, metric, spectral response, co-rotation and conditionality have plain-language recognition bridges. Full matrix proof is not an untaught required calculation."
+    },
+    {
+      "id": "lesson-03",
+      "result": "pass",
+      "observations": "Every signed residual and second layer is retained. Table cells themselves were parsed and recomputed. Reconstruction, unit matching, order dependence and information lost by averaging are demonstrated."
+    },
+    {
+      "id": "lesson-04",
+      "result": "pass",
+      "observations": "Exact rules and their assumptions are distinguished. Equal output at u=1 and separating inputs are worked and practiced; both model residuals and failed assumptions remain in the record. No actual experiment is claimed."
+    },
+    {
+      "id": "lesson-05",
+      "result": "pass",
+      "observations": "Coordinate triple, origin, scale, transpose, inverse and diagonal composition are introduced before finite use. Nonzero scale and intentional third sign are explicit. Geometry, initial state, dynamics and instrument rules remain distinct; mm and DU are not equated."
+    }
+  ],
+  "senior_accessibility": {
+    "baseline": "Signed arithmetic, fractions, ratios, powers, linear equations and coordinate graphs.",
+    "required_bridges": "Source notation is recognition-only in Lesson2; Lesson5 supplies entrywise coordinate operations before capstone arithmetic. General linear algebra, abstract algebra, quantum mechanics and calculus are not required.",
+    "pacing": "Five 55-minute lessons and two 55-minute capstone periods are planning assumptions; teacher guide offers an extra25-minute coordinate practice period and does not claim classroom-tested pacing.",
+    "teacher_support": "Actual reteaching suggestions diagnose evidence promotion, lost signs/order, model revisions after outcomes, origin omission and unit collisions. Full guided answers and capstone key are present."
+  },
+  "actual_capstone_practice_links": [
+    {
+      "capstone_item": 1,
+      "operation": "Complete addresses and classify identity, discrepancy, metadata, replay, attribution, definition, mechanism and open question.",
+      "assessment": {
+        "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-01-reading-the-k-field-evidence-models-and-information/capstone.md",
+        "section": "Student assignment, item 1",
+        "line": 13
+      },
+      "explanation": [
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-01-reading-the-k-field-evidence-models-and-information/lesson-01.md",
+          "section": "Build the chain from first principles",
+          "line": 9
+        },
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-01-reading-the-k-field-evidence-models-and-information/lesson-02.md",
+          "section": "Build a complete source address",
+          "line": 9
+        }
+      ],
+      "practice": [
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-01-reading-the-k-field-evidence-models-and-information/lesson-01.md",
+          "section": "Guided practice",
+          "line": 37
+        },
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-01-reading-the-k-field-evidence-models-and-information/lesson-02.md",
+          "section": "Guided practice",
+          "line": 37
+        },
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-01-reading-the-k-field-evidence-models-and-information/lesson-02.md",
+          "section": "Diagnostic checks 3–4",
+          "line": 41
+        }
+      ],
+      "answers": [
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-01-reading-the-k-field-evidence-models-and-information/lesson-01.md",
+          "section": "Worked answers",
+          "line": 48
+        },
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-01-reading-the-k-field-evidence-models-and-information/lesson-02.md",
+          "section": "Worked answers",
+          "line": 48
+        }
+      ],
+      "result": "pass_actual_content_read"
+    },
+    {
+      "capstone_item": 2,
+      "operation": "Forward/reverse affine coordinates and diagonal return factors with units, origin and sign.",
+      "assessment": {
+        "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-01-reading-the-k-field-evidence-models-and-information/capstone.md",
+        "section": "Student assignment, item 2",
+        "line": 14
+      },
+      "explanation": [
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-01-reading-the-k-field-evidence-models-and-information/lesson-05.md",
+          "section": "Four links / coordinate triple",
+          "line": 9
+        },
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-01-reading-the-k-field-evidence-models-and-information/lesson-05.md",
+          "section": "Worked geometry and source bridge",
+          "line": 22
+        }
+      ],
+      "practice": [
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-01-reading-the-k-field-evidence-models-and-information/lesson-05.md",
+          "section": "Guided practice, forward and reverse",
+          "line": 38
+        },
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-01-reading-the-k-field-evidence-models-and-information/lesson-05.md",
+          "section": "Diagnostic checks 1–2",
+          "line": 42
+        }
+      ],
+      "answers": [
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-01-reading-the-k-field-evidence-models-and-information/lesson-05.md",
+          "section": "Worked answers",
+          "line": 49
+        }
+      ],
+      "result": "pass_actual_content_read"
+    },
+    {
+      "capstone_item": 3,
+      "operation": "Calculate signed residual layers, reconstruct each row, identify unavailable real residual inputs.",
+      "assessment": {
+        "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-01-reading-the-k-field-evidence-models-and-information/capstone.md",
+        "section": "Student assignment, item 3",
+        "line": 15
+      },
+      "explanation": [
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-01-reading-the-k-field-evidence-models-and-information/lesson-03.md",
+          "section": "Keep the model and remaining information",
+          "line": 9
+        },
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-01-reading-the-k-field-evidence-models-and-information/lesson-03.md",
+          "section": "Worked example: two retained layers",
+          "line": 15
+        }
+      ],
+      "practice": [
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-01-reading-the-k-field-evidence-models-and-information/lesson-03.md",
+          "section": "Guided practice: reverse a changed view",
+          "line": 32
+        },
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-01-reading-the-k-field-evidence-models-and-information/lesson-03.md",
+          "section": "Diagnostic checks 1–4",
+          "line": 36
+        }
+      ],
+      "answers": [
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-01-reading-the-k-field-evidence-models-and-information/lesson-03.md",
+          "section": "Worked answers",
+          "line": 43
+        }
+      ],
+      "result": "pass_actual_content_read"
+    },
+    {
+      "capstone_item": 4,
+      "operation": "Compare two rules, select separating input, preserve both residuals and state assumptions.",
+      "assessment": {
+        "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-01-reading-the-k-field-evidence-models-and-information/capstone.md",
+        "section": "Student assignment, item 4",
+        "line": 16
+      },
+      "explanation": [
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-01-reading-the-k-field-evidence-models-and-information/lesson-04.md",
+          "section": "Give each assumption a visible job",
+          "line": 9
+        },
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-01-reading-the-k-field-evidence-models-and-information/lesson-04.md",
+          "section": "Worked example: agreement and separation",
+          "line": 15
+        }
+      ],
+      "practice": [
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-01-reading-the-k-field-evidence-models-and-information/lesson-04.md",
+          "section": "Guided practice, C/D comparison",
+          "line": 31
+        },
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-01-reading-the-k-field-evidence-models-and-information/lesson-04.md",
+          "section": "Diagnostic checks",
+          "line": 35
+        }
+      ],
+      "answers": [
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-01-reading-the-k-field-evidence-models-and-information/lesson-04.md",
+          "section": "Worked answers",
+          "line": 42
+        }
+      ],
+      "result": "pass_actual_content_read"
+    },
+    {
+      "capstone_item": 5,
+      "operation": "Trace geometry, initial state, update, instrument rule, unit-separated prediction and source-link gaps.",
+      "assessment": {
+        "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-01-reading-the-k-field-evidence-models-and-information/capstone.md",
+        "section": "Student assignment, item 5",
+        "line": 17
+      },
+      "explanation": [
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-01-reading-the-k-field-evidence-models-and-information/lesson-05.md",
+          "section": "Four links answer different questions",
+          "line": 9
+        },
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-01-reading-the-k-field-evidence-models-and-information/lesson-05.md",
+          "section": "Worked complete chain",
+          "line": 30
+        }
+      ],
+      "practice": [
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-01-reading-the-k-field-evidence-models-and-information/lesson-05.md",
+          "section": "Guided practice, changed initial state",
+          "line": 38
+        },
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-01-reading-the-k-field-evidence-models-and-information/lesson-05.md",
+          "section": "Diagnostic checks 3–4",
+          "line": 42
+        }
+      ],
+      "answers": [
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-01-reading-the-k-field-evidence-models-and-information/lesson-05.md",
+          "section": "Worked answers",
+          "line": 49
+        }
+      ],
+      "result": "pass_actual_content_read"
+    }
+  ],
+  "independent_recomputation": {
+    "method": "New Node standard-library audit script, independent of the course author's verifier. Actual lesson3 and capstone residual table cells were parsed; remaining selected numerical answers were independently recalculated from stated inputs and compared to the read answer key. All values are small synthetic arithmetic.",
+    "check_count": 45,
+    "result": "45_of_45_pass",
+    "checks": [
+      {
+        "name": "L3 row 1 model",
+        "actual": 10,
+        "expected": 10,
+        "result": "pass"
+      },
+      {
+        "name": "L3 row 1 residual",
+        "actual": 1,
+        "expected": 1,
+        "result": "pass"
+      },
+      {
+        "name": "L3 row 1 next residual",
+        "actual": 0,
+        "expected": 0,
+        "result": "pass"
+      },
+      {
+        "name": "L3 row 1 reconstruction",
+        "actual": 11,
+        "expected": 11,
+        "result": "pass"
+      },
+      {
+        "name": "L3 row 2 model",
+        "actual": 12,
+        "expected": 12,
+        "result": "pass"
+      },
+      {
+        "name": "L3 row 2 residual",
+        "actual": -1,
+        "expected": -1,
+        "result": "pass"
+      },
+      {
+        "name": "L3 row 2 next residual",
+        "actual": 0,
+        "expected": 0,
+        "result": "pass"
+      },
+      {
+        "name": "L3 row 2 reconstruction",
+        "actual": 11,
+        "expected": 11,
+        "result": "pass"
+      },
+      {
+        "name": "L3 row 3 model",
+        "actual": 14,
+        "expected": 14,
+        "result": "pass"
+      },
+      {
+        "name": "L3 row 3 residual",
+        "actual": 2,
+        "expected": 2,
+        "result": "pass"
+      },
+      {
+        "name": "L3 row 3 next residual",
+        "actual": 1,
+        "expected": 1,
+        "result": "pass"
+      },
+      {
+        "name": "L3 row 3 reconstruction",
+        "actual": 16,
+        "expected": 16,
+        "result": "pass"
+      },
+      {
+        "name": "L3 row 4 model",
+        "actual": 16,
+        "expected": 16,
+        "result": "pass"
+      },
+      {
+        "name": "L3 row 4 residual",
+        "actual": -1,
+        "expected": -1,
+        "result": "pass"
+      },
+      {
+        "name": "L3 row 4 next residual",
+        "actual": 0,
+        "expected": 0,
+        "result": "pass"
+      },
+      {
+        "name": "L3 row 4 reconstruction",
+        "actual": 15,
+        "expected": 15,
+        "result": "pass"
+      },
+      {
+        "name": "capstone t0 model",
+        "actual": 10,
+        "expected": 10,
+        "result": "pass"
+      },
+      {
+        "name": "capstone t0 residual",
+        "actual": -1,
+        "expected": -1,
+        "result": "pass"
+      },
+      {
+        "name": "capstone t0 next residual",
+        "actual": 0,
+        "expected": 0,
+        "result": "pass"
+      },
+      {
+        "name": "capstone t0 reconstruction",
+        "actual": [
+          9,
+          9,
+          9
+        ],
+        "expected": [
+          9,
+          9,
+          9
+        ],
+        "result": "pass"
+      },
+      {
+        "name": "capstone t1 model",
+        "actual": 12,
+        "expected": 12,
+        "result": "pass"
+      },
+      {
+        "name": "capstone t1 residual",
+        "actual": 1,
+        "expected": 1,
+        "result": "pass"
+      },
+      {
+        "name": "capstone t1 next residual",
+        "actual": 0,
+        "expected": 0,
+        "result": "pass"
+      },
+      {
+        "name": "capstone t1 reconstruction",
+        "actual": [
+          13,
+          13,
+          13
+        ],
+        "expected": [
+          13,
+          13,
+          13
+        ],
+        "result": "pass"
+      },
+      {
+        "name": "capstone t2 model",
+        "actual": 14,
+        "expected": 14,
+        "result": "pass"
+      },
+      {
+        "name": "capstone t2 residual",
+        "actual": -1,
+        "expected": -1,
+        "result": "pass"
+      },
+      {
+        "name": "capstone t2 next residual",
+        "actual": 0,
+        "expected": 0,
+        "result": "pass"
+      },
+      {
+        "name": "capstone t2 reconstruction",
+        "actual": [
+          13,
+          13,
+          13
+        ],
+        "expected": [
+          13,
+          13,
+          13
+        ],
+        "result": "pass"
+      },
+      {
+        "name": "L5 forward",
+        "actual": [
+          7,
+          -3,
+          -8
+        ],
+        "expected": [
+          7,
+          -3,
+          -8
+        ],
+        "result": "pass"
+      },
+      {
+        "name": "L5 reverse",
+        "actual": [
+          1,
+          -1,
+          2
+        ],
+        "expected": [
+          1,
+          -1,
+          2
+        ],
+        "result": "pass"
+      },
+      {
+        "name": "L5 practice",
+        "actual": [
+          3,
+          6,
+          0
+        ],
+        "expected": [
+          3,
+          6,
+          0
+        ],
+        "result": "pass"
+      },
+      {
+        "name": "L5 practice inverse",
+        "actual": [
+          -1,
+          2,
+          0
+        ],
+        "expected": [
+          -1,
+          2,
+          0
+        ],
+        "result": "pass"
+      },
+      {
+        "name": "capstone forward",
+        "actual": [
+          9,
+          -3,
+          -4
+        ],
+        "expected": [
+          9,
+          -3,
+          -4
+        ],
+        "result": "pass"
+      },
+      {
+        "name": "capstone inverse",
+        "actual": [
+          2,
+          -1,
+          1
+        ],
+        "expected": [
+          2,
+          -1,
+          1
+        ],
+        "result": "pass"
+      },
+      {
+        "name": "return factors",
+        "actual": [
+          1,
+          1,
+          1
+        ],
+        "expected": [
+          1,
+          1,
+          1
+        ],
+        "result": "pass"
+      },
+      {
+        "name": "L3 mean retained view",
+        "actual": 3.25,
+        "expected": 3.25,
+        "result": "pass"
+      },
+      {
+        "name": "L3 sign-loss error",
+        "actual": 13,
+        "expected": 13,
+        "result": "pass"
+      },
+      {
+        "name": "L3 new-row residual layers",
+        "actual": [
+          3,
+          1
+        ],
+        "expected": [
+          3,
+          1
+        ],
+        "result": "pass"
+      },
+      {
+        "name": "L4 predictions",
+        "actual": [
+          2,
+          2,
+          6,
+          4
+        ],
+        "expected": [
+          2,
+          2,
+          6,
+          4
+        ],
+        "result": "pass"
+      },
+      {
+        "name": "L4 residuals",
+        "actual": [
+          -1,
+          1
+        ],
+        "expected": [
+          -1,
+          1
+        ],
+        "result": "pass"
+      },
+      {
+        "name": "L4 practice",
+        "actual": [
+          4,
+          4,
+          6,
+          8
+        ],
+        "expected": [
+          4,
+          4,
+          6,
+          8
+        ],
+        "result": "pass"
+      },
+      {
+        "name": "capstone predictions",
+        "actual": [
+          2,
+          2,
+          8,
+          5
+        ],
+        "expected": [
+          2,
+          2,
+          8,
+          5
+        ],
+        "result": "pass"
+      },
+      {
+        "name": "capstone residuals",
+        "actual": [
+          -1,
+          2
+        ],
+        "expected": [
+          -1,
+          2
+        ],
+        "result": "pass"
+      },
+      {
+        "name": "chain state, position, reading, residual",
+        "actual": [
+          3,
+          11,
+          11,
+          1
+        ],
+        "expected": [
+          3,
+          11,
+          11,
+          1
+        ],
+        "result": "pass"
+      },
+      {
+        "name": "rubric total",
+        "actual": 40,
+        "expected": 40,
+        "result": "pass"
+      }
+    ],
+    "highlights": "Capstone q=(2,-1,1) maps to(9,-3,-4)mm and reverses; capstone r0=(-1,1,-1), r1=(0,0,0); A/B at u=4 yield8 and5DU, with residuals-1 and+2DU for7DU. Return factors are all1, rubric totals40."
+  },
+  "integrity": {
+    "result": "pass",
+    "manifest_checkpoints": [
+      {
+        "id": "input",
+        "path": "input-contract.json",
+        "sha256": "0c07282b34454bb2ee8a10de2e7e06def4b3828d06f2aa6fe68d0fb5b94f8807",
+        "result": "pass"
+      },
+      {
+        "id": "map",
+        "path": "course-map.md",
+        "sha256": "fd80c7c841b0395ad8bf60649c3fa293766402a893efda570eb0ddcf1c2904c2",
+        "result": "pass"
+      },
+      {
+        "id": "sources",
+        "path": "sources.md",
+        "sha256": "6edd147cd42f8175dd3f7ac779834c50dc97dd205c031d4dda3e69258f19e4fe",
+        "result": "pass"
+      },
+      {
+        "id": "source-check",
+        "path": "source-verification.json",
+        "sha256": "3a9d2ccfcfcdbc81343b89d454ed6824c6bb4e7e5a7a904498ebc43bfb62a2b9",
+        "result": "pass"
+      },
+      {
+        "id": "lesson-01",
+        "path": "lesson-01.md",
+        "sha256": "8a8941d07819332129e834eea1171aaa35c15d79d07c13057d162b17a9753a7f",
+        "result": "pass"
+      },
+      {
+        "id": "lesson-02",
+        "path": "lesson-02.md",
+        "sha256": "aeb162254893946627b1b200e7e8f6fc317183eaace261385235f9c7982a8679",
+        "result": "pass"
+      },
+      {
+        "id": "lesson-03",
+        "path": "lesson-03.md",
+        "sha256": "bbd3169e9fa0a89f62c577c31714edbb34b3d8dae1cf5573b752add9fe6eb598",
+        "result": "pass"
+      },
+      {
+        "id": "lesson-04",
+        "path": "lesson-04.md",
+        "sha256": "8fa145121906b3a91a13c7624ac16b6abd40a8fe9e7ec2f0622a7702cb097a72",
+        "result": "pass"
+      },
+      {
+        "id": "lesson-05",
+        "path": "lesson-05.md",
+        "sha256": "b3a1124e311d0e730ad74a69f8b12814cdd3152f0f6a9b0b51616a58fbf6b5f9",
+        "result": "pass"
+      },
+      {
+        "id": "terms",
+        "path": "terminology.md",
+        "sha256": "ca2d04fb6bf186ed38a2b147ba6ce8e9f344bde4983ea8d5eb4bbce69c60ccf0",
+        "result": "pass"
+      },
+      {
+        "id": "teacher",
+        "path": "teacher-guide.md",
+        "sha256": "6dd165851eb2e3722760ba8ca0c96c726a4b511d65fb5b55ca27730e6dba2abb",
+        "result": "pass"
+      },
+      {
+        "id": "capstone",
+        "path": "capstone.md",
+        "sha256": "a1f0a0feffc2d26db49aa36176cbfd74347b530534a10a960f1d971a4dbca9dd",
+        "result": "pass"
+      },
+      {
+        "id": "verify-script",
+        "path": "verify_examples.py",
+        "sha256": "1a33bb58dac15699eded67c56932e6f1bb168af87970e834dd7d8fe15571bea5",
+        "result": "pass"
+      },
+      {
+        "id": "verification",
+        "path": "verification.json",
+        "sha256": "3ef774c0dc98fa82221e1eda6a151081523d1cc0cc2e54fb26cdc81ec50c66fe",
+        "result": "pass"
+      },
+      {
+        "id": "recovery",
+        "path": "recovery-verification.json",
+        "sha256": "9c2031528c543ef63b457935ae6dcff1ed00400f783f81d46db7854d03245dcb",
+        "result": "pass"
+      },
+      {
+        "id": "restart",
+        "path": "restart-checkpoint.json",
+        "sha256": "df03163f79048da6a9d1fc4fdf80d6f1cfb8339618289c9562de60725fae5a2f",
+        "result": "pass"
+      },
+      {
+        "id": "storage",
+        "path": "storage-check.txt",
+        "sha256": "abe59c5e82259ca8957dc58fc61b9e0d7c7cf9d4b18817853af3c678160a7554",
+        "result": "pass"
+      },
+      {
+        "id": "assembly",
+        "path": "course.md",
+        "sha256": "01554f80bdf2695cc8cd599667c916673539d39cc83dac236fdba48ba8b4aa35",
+        "result": "pass"
+      },
+      {
+        "id": "audit",
+        "path": "audit_report.json",
+        "sha256": "392238aa70656c7ea3f9ed9e270ca9f9c264b4cab1a16520614f19b5aed8572e",
+        "result": "pass"
+      },
+      {
+        "id": "validator",
+        "path": "validator-result.json",
+        "sha256": "c5cd670ddddb34688579373a133c2ec39a0ca05e6b0e55572304858d5a973f25",
+        "result": "pass"
+      }
+    ],
+    "completion_hashes_verified": 21,
+    "assembly": "All five BEGIN/END lesson sections match normalized source lesson bodies exactly and occur once in declared order.",
+    "installed_validator_rerun_by_this_auditor": false,
+    "parent_destination_validator_record": {
+      "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-series-20261105/audits/consolidation/course-01-consolidation.json",
+      "sha256": "61bfc3076128cad0e0aa107630a4340e9a7dbee3a6810e271908989e811773d8",
+      "destination_validator_passed": true,
+      "destination_checks": [
+        "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+        "parsed manifest.json",
+        "parsed audit_report.json",
+        "parsed completion_report.json",
+        "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+      ]
+    },
+    "scope": "The separate parent validator record is attributed evidence; independent hashes and assembly are fresh checks, not a claim to have rerun the installed validator."
+  },
+  "minimum_repairs": [
+    "Repair C01-IND-01 receipt provenance only; no lesson, capstone or numerical-answer change is required by this scoped audit."
+  ],
+  "limitations": [
+    "No classroom trial or measured student learning outcome.",
+    "No broad corpus audit, raw instrument analysis or unrelated proof replay.",
+    "No approval status or project file was modified."
+  ],
+  "ownership": "Parent owns the minor receipt repair and final course release decision. This audit does not grant teaching acceptance to later courses."
+}

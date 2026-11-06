@@ -1,0 +1,1339 @@
+{
+  "schema": "kfield.course-independent-audit.v1",
+  "course_id": "course-05",
+  "timestamp": "2026-11-05T17:32:54.521120+00:00",
+  "status": "passed_completed_course_scoped_audit",
+  "eligible_for_parent_acceptance": true,
+  "acceptance_scope": "Eligible for parent acceptance of the completed six-lesson Course05 finite Lucas-window/registry contract, including all seven capstone operations. No acceptance of unrelated courses or general signal-processing extensions.",
+  "scope": "Independent reading of all six actual lessons, capstone/key/rubric, both complete registry formats, source notes and provenance, teacher guide, terminology, course map, course-specific contract and amendments, manifest and existing audit/completion records. Fresh exact-rational recomputation, source-hash checks, assembly/integrity checks and project-root validator run. No course or source file edits.",
+  "course_directory": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-05-lucas-geometry-27-nodes-polarity-and-sheets",
+  "manifest_sha256": "777dc43c6db5de48b9b0587d02cb1c14a9cbb1d62b222983983306ebebd7a75b",
+  "audited_files": {
+    "input-contract.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-05-lucas-geometry-27-nodes-polarity-and-sheets\\input-contract.json",
+      "sha256": "508363856a193fa45f229728ec2855f22fbc850e72fff2443359a16a4e8f4d09"
+    },
+    "course-map.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-05-lucas-geometry-27-nodes-polarity-and-sheets\\course-map.md",
+      "sha256": "83513113782a1958e982e38e0eb0f57e965924d32a1476956d6f1eee4b1453f2"
+    },
+    "sources.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-05-lucas-geometry-27-nodes-polarity-and-sheets\\sources.md",
+      "sha256": "125ba6bbbfdea3e0649931ee4de24b4bb7d735c6755c787b33f39fb221a48d7a"
+    },
+    "sources.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-05-lucas-geometry-27-nodes-polarity-and-sheets\\sources.json",
+      "sha256": "33ef0f7e6cb7d93d56b249cc2a2f3f6cb373ed0e31c25ab8ed5f913d8f185fee"
+    },
+    "lesson-01.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-05-lucas-geometry-27-nodes-polarity-and-sheets\\lesson-01.md",
+      "sha256": "1fb30d04a434ed58be390bdbcd3402ea8428b840c1b1f1e50a0e2515206c3e9d"
+    },
+    "lesson-02.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-05-lucas-geometry-27-nodes-polarity-and-sheets\\lesson-02.md",
+      "sha256": "43457e73175ecc427947a0cd89f2651cbd0f451a49fe1e5937d0e19b2b9577e5"
+    },
+    "lesson-03.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-05-lucas-geometry-27-nodes-polarity-and-sheets\\lesson-03.md",
+      "sha256": "0c3bb60f55c0fe3bf61d01d642217d7870f6d0889922b9406a718fc6241d4802"
+    },
+    "lesson-04.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-05-lucas-geometry-27-nodes-polarity-and-sheets\\lesson-04.md",
+      "sha256": "c6bc6851abfa6d2401718c464e35ef0049f9fc47ba73f321d95d1e0bc32173fb"
+    },
+    "lesson-05.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-05-lucas-geometry-27-nodes-polarity-and-sheets\\lesson-05.md",
+      "sha256": "62a98e20546063b90362082fb037eb7368919ff9c4cfbaa901e1b8882c0513cd"
+    },
+    "lesson-06.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-05-lucas-geometry-27-nodes-polarity-and-sheets\\lesson-06.md",
+      "sha256": "d81fe6e2f6857a43c1bf7148287d5ae0fd6f4cca85e6d3f6a370e95230b76651"
+    },
+    "capstone.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-05-lucas-geometry-27-nodes-polarity-and-sheets\\capstone.md",
+      "sha256": "aba0cf3de5a57b419dc824d18ba42214d3323e107680671137d09e621094324f"
+    },
+    "registry.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-05-lucas-geometry-27-nodes-polarity-and-sheets\\registry.md",
+      "sha256": "fdc2976f5a75acf1de056d06ae82877513a76b11faf2cbb44b1f588079141774"
+    },
+    "registry.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-05-lucas-geometry-27-nodes-polarity-and-sheets\\registry.json",
+      "sha256": "6d0cddc1284765e6ad3d69147f5441f07c1b4fdd6a8619c1b17deca52c5346ff"
+    },
+    "teacher-guide.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-05-lucas-geometry-27-nodes-polarity-and-sheets\\teacher-guide.md",
+      "sha256": "b3f51d88fe1827fb6b21b9272ca66a263df7a839d0d1a5db8dff9b844eb1af89"
+    },
+    "terminology.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-05-lucas-geometry-27-nodes-polarity-and-sheets\\terminology.md",
+      "sha256": "652ac7bb5b3fe57bb42490ae2c60b055cfe8bd93b74ee99b29d977619f1073aa"
+    },
+    "manifest.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-05-lucas-geometry-27-nodes-polarity-and-sheets\\manifest.json",
+      "sha256": "777dc43c6db5de48b9b0587d02cb1c14a9cbb1d62b222983983306ebebd7a75b"
+    },
+    "audit_report.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-05-lucas-geometry-27-nodes-polarity-and-sheets\\audit_report.json",
+      "sha256": "4daba0eb9da3bdb2f470aa6a5f01ef2cbaf2b23d05456e5390de1a67d8f19756"
+    },
+    "independent-audit.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-05-lucas-geometry-27-nodes-polarity-and-sheets\\independent-audit.json",
+      "sha256": "85464aacdcd77cc0a5f6e95d79611dd41d7f208471aeaec672b641d4f7f508da"
+    },
+    "completion_report.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-05-lucas-geometry-27-nodes-polarity-and-sheets\\completion_report.json",
+      "sha256": "e92b00e652ff57e281a356dfa6e08912130252d380e000d34ed302fb64852716"
+    },
+    "verification.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-05-lucas-geometry-27-nodes-polarity-and-sheets\\verification.json",
+      "sha256": "ed30e392ed231085ad66adf202e852213176803e2d0e292322f2b5fecaf8534c"
+    },
+    "course.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-05-lucas-geometry-27-nodes-polarity-and-sheets\\course.md",
+      "sha256": "5003a215bd45c2a1cdae700268b426f3d8cc4a75cbb643b4072a631c7c16edce"
+    }
+  },
+  "read_inventory": {
+    "full_semantic_read": [
+      "lesson-01.md",
+      "lesson-02.md",
+      "lesson-03.md",
+      "lesson-04.md",
+      "lesson-05.md",
+      "lesson-06.md",
+      "capstone.md",
+      "registry.md",
+      "teacher-guide.md",
+      "terminology.md",
+      "course-map.md",
+      "sources.md",
+      "sources.json",
+      "audit_report.json",
+      "independent-audit.json",
+      "completion_report.json"
+    ],
+    "structured_contract_review": "Read actual learning outcomes, subject kernel, coverage matrix, course map/teaching anchors, capstone backward map, SA-05, E05 production requirements, teaching-blueprint geometry, scope/invariants, prerequisites and storage override; duplicate embedded anchor records agree with active six-lesson map.",
+    "structured_full_readback": [
+      "registry.json: every field of all27 rows checked independently",
+      "manifest.json: every checkpoint digest/status/dependency agreement, input-contract digest, declared output existence and lesson assembly order checked",
+      "verification.json: read builder verification scope/example IDs/results as attributed records, not used as independent calculation authority"
+    ],
+    "assembly": "Read front matter; all six assembled lesson bodies compared against the fully read source lessons and found identical under newline/outer-whitespace normalization.",
+    "bounded_original_sources": [
+      "S02 /backbone_sequence/1 (M02)",
+      "S02 /backbone_sequence/2 (M03)",
+      "S03 /authority_contract",
+      "S03 /authoritative_status/mature_core",
+      "S03 /canonical_locked_values/orientation, /boundary and /det_B_nm3",
+      "S03 /findings/4 (AUD-005)"
+    ],
+    "not_semantically_audited": "Authoring/rebuild scripts were hash-checked as manifest artifacts but not reviewed as general-purpose code. The prior builder audit is not treated as this auditor's verification."
+  },
+  "findings": [],
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "minimum_repairs": [],
+  "source_scope": {
+    "status": "pass",
+    "fresh_source_hashes": [
+      {
+        "id": "S01",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+        "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180"
+      },
+      {
+        "id": "S02",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+        "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3"
+      },
+      {
+        "id": "S03",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+        "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e"
+      },
+      {
+        "id": "S04",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+        "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2"
+      },
+      {
+        "id": "S05",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+        "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7"
+      }
+    ],
+    "active_source": "S02 mathematical backbone M03 definitions and typed finite objects, using M02 affine cell ownership. Mathematical module labels are not promoted to compiler-module authority.",
+    "checked_claims": [
+      "p(L)=O_K+B L/2, L in {-1,0,1}^3; lambda is the integer coordinate sum; chi=(-1)^lambda.",
+      "S02 explicitly distinguishes27 half-step window nodes from a Lucas Group of27 complete Cell3 volumes; geometric classification8/12/6/1 agrees with direct enumeration.",
+      "Half-open ownership is z=floor(q+1/2), u=q-z in[-1/2,1/2)^3; positive boundary belongs to positive neighbor while negative boundary remains in current cell.",
+      "Seven reported sheet populations match fresh enumeration exactly.",
+      "S02's printed origin-free proof expression was inspected, not silently normalized. SA-05 restores g_lambda·(p-O_K)=lambda/2 and its actual use is consistent in lessons, capstone and registry.",
+      "S03 reports VERIFIED_FROZEN for M01–M18; course correctly attributes this source status rather than claiming a fresh whole-corpus proof run.",
+      "S03 AUD-005 flags older reciprocal witness values. Course numerical exercises use no superseded or source-locked reciprocal decimals."
+    ],
+    "synthetic_vs_source": "O=(2,-1,4)U and B rows(1,1,0),(0,2,0),(0,0,-3) are explicitly authorized classroom geometry, not measured data and not replacement Cell3 constants. U is an arbitrary length unit, q/L/z/u and class labels are dimensionless, g_lambda has inverse-length units.",
+    "new_observations": "None claimed. Source definitions and reported statuses, finite derived results, authored representative convention, and the deliberate synthetic corrupted row remain distinct evidence roles.",
+    "replay_limit": "No fresh Agda/Lean compilation, full mature proof replay, physical detector inference or raw instrument analysis."
+  },
+  "lesson_reviews": [
+    {
+      "lesson_id": "lesson-01",
+      "result": "pass",
+      "locations": [
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-05-lucas-geometry-27-nodes-polarity-and-sheets/lesson-01.md",
+          "section": "C05.01-E1/W1/P1",
+          "line": 9
+        }
+      ],
+      "prerequisites": "Ordered triples and three choices taught before counting; subscript notation is explained.",
+      "mathematics": "All27 addresses explicitly listed without duplicates. Independent choices multiply to27, and nonzero-coordinate categories count1/6/12/8. Nine-row slice answer and geometric classifications are correct.",
+      "source_scope": "Node window is not confused with27 complete cell volumes.",
+      "assessment": "Four answered diagnostic checks and actual nine-row practice prepare CAP-01."
+    },
+    {
+      "lesson_id": "lesson-02",
+      "result": "pass",
+      "locations": [
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-05-lucas-geometry-27-nodes-polarity-and-sheets/lesson-02.md",
+          "section": "C05.02-E1",
+          "line": 9
+        },
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-05-lucas-geometry-27-nodes-polarity-and-sheets/lesson-02.md",
+          "section": "C05.02-E2",
+          "line": 33
+        }
+      ],
+      "prerequisites": "Vector addition, scalar multiplication and column-basis combination are explained entrywise. Inverse uses taught linear equations rather than assumed matrix inversion.",
+      "mathematics": "Half-address, affine origin and reversible skew mapping verified for every registry row. The negative third scale and arbitrary unit are preserved. Half-open ownership has explicit floor definition and tested endpoints.",
+      "assessment": "P1 and D1/D3/D5 supply answered forward/inverse/ownership practice before CAP-02."
+    },
+    {
+      "lesson_id": "lesson-03",
+      "result": "pass",
+      "locations": [
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-05-lucas-geometry-27-nodes-polarity-and-sheets/lesson-03.md",
+          "section": "C05.03-W1",
+          "line": 15
+        },
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-05-lucas-geometry-27-nodes-polarity-and-sheets/lesson-03.md",
+          "section": "C05.03-E2",
+          "line": 29
+        }
+      ],
+      "prerequisites": "Integer sum, permutations and sign reversal precede counting. Dot product is defined before plane evaluation; inverse-transpose is recognition-only.",
+      "mathematics": "Populations1/3/6/7/6/3/1 verified from all27 rows. g=(1,0,-1/3)/U pairs to1 with each column. Correct affine check is1/2 for(1,-1,1); unshifted value7/6 differs by2/3.",
+      "assessment": "P1 answers full lambda=1,2 lists and another plane identity; total and origin reasoning appear in answered diagnostics."
+    },
+    {
+      "lesson_id": "lesson-04",
+      "result": "pass",
+      "locations": [
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-05-lucas-geometry-27-nodes-polarity-and-sheets/lesson-04.md",
+          "section": "C05.04-E1",
+          "line": 9
+        },
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-05-lucas-geometry-27-nodes-polarity-and-sheets/lesson-04.md",
+          "section": "C05.04-E2",
+          "line": 23
+        }
+      ],
+      "prerequisites": "Negative even/odd integers and powers are explained; nonnegative remainder convention is defined through lambda=3k+r3.",
+      "mathematics": "chi counts13 positive/14 negative, modulo3 counts9/9/9, and each field checked for all27 nodes. Antipodal chi preservation is not used as orientation recovery.",
+      "assessment": "Separate W1/P1/D1 and W2/P2/D2 links have actual answered content, including negative remainders. No complex-exponential computation is assessed."
+    },
+    {
+      "lesson_id": "lesson-05",
+      "result": "pass",
+      "locations": [
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-05-lucas-geometry-27-nodes-polarity-and-sheets/lesson-05.md",
+          "section": "C05.05-E1/W1",
+          "line": 9
+        },
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-05-lucas-geometry-27-nodes-polarity-and-sheets/lesson-05.md",
+          "section": "C05.05-E2",
+          "line": 23
+        },
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-05-lucas-geometry-27-nodes-polarity-and-sheets/lesson-05.md",
+          "section": "C05.05-P1/P2",
+          "line": 29
+        }
+      ],
+      "prerequisites": "Equivalence class, quotient, representative and orientation are explicitly introduced. Canonical convention is first nonzero component positive.",
+      "mathematics": "26 noncentral nodes form13 pairs; center is one separate singleton; inclusive quotient has14 classes. Every pair reconstructs both labels and positions; chi and lambda-squared are antipodally even, lambda is generally directed.",
+      "preservation": "Retain v with s, declared O and B, and original observations; never replace signed measured readings by an unqualified pair-only value.",
+      "assessment": "Answered P1 checks both pair positions and midpoint; answered P2 enumerates all13 representatives. General scalar observation mean/detail is not an introduced exercise; see explicit coverage boundary."
+    },
+    {
+      "lesson_id": "lesson-06",
+      "result": "pass",
+      "locations": [
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-05-lucas-geometry-27-nodes-polarity-and-sheets/lesson-06.md",
+          "section": "C05.06-E1/E2",
+          "line": 9
+        },
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-05-lucas-geometry-27-nodes-polarity-and-sheets/lesson-06.md",
+          "section": "C05.06-P1/P2",
+          "line": 39
+        }
+      ],
+      "prerequisites": "Combines previously taught operations; full27-row production is assigned to capstone, not silently compressed into this lesson.",
+      "mathematics": "All row fields, inverse mapping, ownership reconstruction and pair tests checked. Deliberate p_z=3 instead of5/2 yields exact R_L=(0,0,-1/3), as answered.",
+      "preservation": "Within-cell coordinate u is distinguished from closure residual R_L; both are retained per row, including exact zeros and the hypothetical failed comparison before correction.",
+      "assessment": "P1 completes the antipodal row; P2 supplies an answered nonzero-discrepancy repair before CAP-06. Four diagnostic answers cover distinct checks and loss of s."
+    }
+  ],
+  "actual_capstone_practice_links": [
+    {
+      "step_id": "C05-CAP-01",
+      "operation": "Enumerate all27 unique signed triples; reconcile vertex/edge/face/center counts.",
+      "introduction": "lesson-01",
+      "worked_example_id": "C05.01-W1",
+      "prior_practice_id": "C05.01-P1",
+      "diagnostic_id": "C05.01-D1",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-05-lucas-geometry-27-nodes-polarity-and-sheets\\lesson-01.md",
+      "actual_locations": {
+        "worked_example_id": {
+          "id": "C05.01-W1",
+          "line": 17
+        },
+        "prior_practice_id": {
+          "id": "C05.01-P1",
+          "line": 37
+        },
+        "diagnostic_id": {
+          "id": "C05.01-D1",
+          "line": 45
+        }
+      },
+      "explanation_locations": [
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-05-lucas-geometry-27-nodes-polarity-and-sheets/lesson-01.md",
+          "section": "C05.01-E1",
+          "line": 9
+        }
+      ],
+      "content_read_assessment": "P1 lists and classifies all nine L1=0 rows with answers, and W1 supplies all 27 addresses. The geometric counting argument distinguishes 1 center,6 faces,12 edges,8 vertices.",
+      "supplemental_practice": [],
+      "answer_status": "Answers present in the cited lesson practice sections and final worked-answers paragraph; mathematically reviewed, not inferred from identifier presence.",
+      "result": "pass_actual_explanation_and_answered_practice"
+    },
+    {
+      "step_id": "C05-CAP-02",
+      "operation": "Map every node to a physical point with L/2 and the declared origin; explain one boundary ownership case.",
+      "introduction": "lesson-02",
+      "worked_example_id": "C05.02-W1",
+      "prior_practice_id": "C05.02-P1",
+      "diagnostic_id": "C05.02-D1",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-05-lucas-geometry-27-nodes-polarity-and-sheets\\lesson-02.md",
+      "actual_locations": {
+        "worked_example_id": {
+          "id": "C05.02-W1",
+          "line": 29
+        },
+        "prior_practice_id": {
+          "id": "C05.02-P1",
+          "line": 39
+        },
+        "diagnostic_id": {
+          "id": "C05.02-D1",
+          "line": 47
+        }
+      },
+      "explanation_locations": [
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-05-lucas-geometry-27-nodes-polarity-and-sheets/lesson-02.md",
+          "section": "C05.02-E1",
+          "line": 9
+        },
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-05-lucas-geometry-27-nodes-polarity-and-sheets/lesson-02.md",
+          "section": "C05.02-E2",
+          "line": 33
+        }
+      ],
+      "content_read_assessment": "P1 explicitly maps, reverses and assigns ownership to (0,1,-1), including z and u, and handles the center. D1/D5 answer both boundary ownership and retained centered-window membership.",
+      "supplemental_practice": [],
+      "answer_status": "Answers present in the cited lesson practice sections and final worked-answers paragraph; mathematically reviewed, not inferred from identifier presence.",
+      "result": "pass_actual_explanation_and_answered_practice"
+    },
+    {
+      "step_id": "C05-CAP-03",
+      "operation": "Tabulate seven lambda populations and verify one affine sheet identity.",
+      "introduction": "lesson-03",
+      "worked_example_id": "C05.03-W1",
+      "prior_practice_id": "C05.03-P1",
+      "diagnostic_id": "C05.03-D1",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-05-lucas-geometry-27-nodes-polarity-and-sheets\\lesson-03.md",
+      "actual_locations": {
+        "worked_example_id": {
+          "id": "C05.03-W1",
+          "line": 15
+        },
+        "prior_practice_id": {
+          "id": "C05.03-P1",
+          "line": 39
+        },
+        "diagnostic_id": {
+          "id": "C05.03-D1",
+          "line": 47
+        }
+      },
+      "explanation_locations": [
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-05-lucas-geometry-27-nodes-polarity-and-sheets/lesson-03.md",
+          "section": "C05.03-E1",
+          "line": 9
+        },
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-05-lucas-geometry-27-nodes-polarity-and-sheets/lesson-03.md",
+          "section": "C05.03-E2",
+          "line": 29
+        }
+      ],
+      "content_read_assessment": "P1 lists all lambda=2 and lambda=1 nodes and calculates the affine dot product for (0,1,-1). W1 gives the complete seven-sheet population table and the zero sheet.",
+      "supplemental_practice": [],
+      "answer_status": "Answers present in the cited lesson practice sections and final worked-answers paragraph; mathematically reviewed, not inferred from identifier presence.",
+      "result": "pass_actual_explanation_and_answered_practice"
+    },
+    {
+      "step_id": "C05-CAP-04",
+      "operation": "Compute every chi label and explain why antipodal orientation and chi differ.",
+      "introduction": "lesson-04",
+      "worked_example_id": "C05.04-W1",
+      "prior_practice_id": "C05.04-P1",
+      "diagnostic_id": "C05.04-D1",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-05-lucas-geometry-27-nodes-polarity-and-sheets\\lesson-04.md",
+      "actual_locations": {
+        "worked_example_id": {
+          "id": "C05.04-W1",
+          "line": 15
+        },
+        "prior_practice_id": {
+          "id": "C05.04-P1",
+          "line": 19
+        },
+        "diagnostic_id": {
+          "id": "C05.04-D1",
+          "line": 47
+        }
+      },
+      "explanation_locations": [
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-05-lucas-geometry-27-nodes-polarity-and-sheets/lesson-04.md",
+          "section": "C05.04-E1",
+          "line": 9
+        }
+      ],
+      "content_read_assessment": "P1 answers both negative-sheet polarity and center polarity, then sums 13 even-sheet and14 odd-sheet nodes. D1 explains why antipodes retain chi but reverse displacement.",
+      "supplemental_practice": [],
+      "answer_status": "Answers present in the cited lesson practice sections and final worked-answers paragraph; mathematically reviewed, not inferred from identifier presence.",
+      "result": "pass_actual_explanation_and_answered_practice"
+    },
+    {
+      "step_id": "C05-CAP-05",
+      "operation": "Store13 canonical noncentral pairs, orientation sign per row and the separate center; reconstruct directed labels.",
+      "introduction": "lesson-05",
+      "worked_example_id": "C05.05-W1",
+      "prior_practice_id": "C05.05-P1",
+      "diagnostic_id": "C05.05-D1",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-05-lucas-geometry-27-nodes-polarity-and-sheets\\lesson-05.md",
+      "actual_locations": {
+        "worked_example_id": {
+          "id": "C05.05-W1",
+          "line": 17
+        },
+        "prior_practice_id": {
+          "id": "C05.05-P1",
+          "line": 29
+        },
+        "diagnostic_id": {
+          "id": "C05.05-D1",
+          "line": 41
+        }
+      },
+      "explanation_locations": [
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-05-lucas-geometry-27-nodes-polarity-and-sheets/lesson-05.md",
+          "section": "C05.05-E1",
+          "line": 9
+        },
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-05-lucas-geometry-27-nodes-polarity-and-sheets/lesson-05.md",
+          "section": "C05.05-E2",
+          "line": 23
+        }
+      ],
+      "content_read_assessment": "P1 reconstructs two signed addresses and physical points and checks midpoint O. P2 lists all13 representatives with9+3+1 counting. D3/D4/D5 distinguish signs, even quantities and center.",
+      "supplemental_practice": [
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-05-lucas-geometry-27-nodes-polarity-and-sheets/lesson-05.md",
+          "section": "C05.05-P2",
+          "line": 33
+        }
+      ],
+      "answer_status": "Answers present in the cited lesson practice sections and final worked-answers paragraph; mathematically reviewed, not inferred from identifier presence.",
+      "result": "pass_actual_explanation_and_answered_practice"
+    },
+    {
+      "step_id": "C05-CAP-06",
+      "operation": "Deliver the complete registry and run counts, pair and inverse-mapping checks without deleting rows.",
+      "introduction": "lesson-06",
+      "worked_example_id": "C05.06-W1",
+      "prior_practice_id": "C05.06-P1",
+      "diagnostic_id": "C05.06-D1",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-05-lucas-geometry-27-nodes-polarity-and-sheets\\lesson-06.md",
+      "actual_locations": {
+        "worked_example_id": {
+          "id": "C05.06-W1",
+          "line": 35
+        },
+        "prior_practice_id": {
+          "id": "C05.06-P1",
+          "line": 39
+        },
+        "diagnostic_id": {
+          "id": "C05.06-D1",
+          "line": 51
+        }
+      },
+      "explanation_locations": [
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-05-lucas-geometry-27-nodes-polarity-and-sheets/lesson-06.md",
+          "section": "C05.06-E1",
+          "line": 9
+        },
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-05-lucas-geometry-27-nodes-polarity-and-sheets/lesson-06.md",
+          "section": "C05.06-E2",
+          "line": 29
+        }
+      ],
+      "content_read_assessment": "P1 builds all row fields and checks reversal, owner decomposition and opposite-point sum. P2 computes nonzero closure (0,0,-1/3) for a corrupted position, preserves the original and discrepancy, then states the corrected value.",
+      "supplemental_practice": [
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-05-lucas-geometry-27-nodes-polarity-and-sheets/lesson-06.md",
+          "section": "C05.06-P2",
+          "line": 43
+        }
+      ],
+      "answer_status": "Answers present in the cited lesson practice sections and final worked-answers paragraph; mathematically reviewed, not inferred from identifier presence.",
+      "result": "pass_actual_explanation_and_answered_practice"
+    },
+    {
+      "step_id": "C05-CAP-07",
+      "operation": "Add a separate mod3 field to the registry and reconcile its9,9,9 counts with seven sheets and two chi classes.",
+      "introduction": "lesson-04",
+      "worked_example_id": "C05.04-W2",
+      "prior_practice_id": "C05.04-P2",
+      "diagnostic_id": "C05.04-D2",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-05-lucas-geometry-27-nodes-polarity-and-sheets\\lesson-04.md",
+      "actual_locations": {
+        "worked_example_id": {
+          "id": "C05.04-W2",
+          "line": 27
+        },
+        "prior_practice_id": {
+          "id": "C05.04-P2",
+          "line": 31
+        },
+        "diagnostic_id": {
+          "id": "C05.04-D2",
+          "line": 48
+        }
+      },
+      "explanation_locations": [
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-05-lucas-geometry-27-nodes-polarity-and-sheets/lesson-04.md",
+          "section": "C05.04-E2",
+          "line": 23
+        }
+      ],
+      "content_read_assessment": "P2 calculates negative remainder examples and all three nine-node populations. D2 contrasts mod3 with13/14 polarity counts; neither class replaces the signed address.",
+      "supplemental_practice": [],
+      "answer_status": "Answers present in the cited lesson practice sections and final worked-answers paragraph; mathematically reviewed, not inferred from identifier presence.",
+      "result": "pass_actual_explanation_and_answered_practice"
+    }
+  ],
+  "capstone_and_rubric": {
+    "status": "pass",
+    "steps": "All seven required operations have earlier explanation, worked example, answered practice and diagnostic content; assessment does not introduce new mandatory arithmetic.",
+    "complete_answer_key": "Read all seven prose solutions plus both27-row registry tables. All54 Markdown data rows and every JSON field agree with independent generated values.",
+    "rubric_total": 100,
+    "scoring": "15+20+15+10+15+15+10=100; row-error deductions are bounded, non-row partial credit is described, propagated errors are not double-penalized, conceptual losses require repair regardless of score.",
+    "information_preservation": "All27 original rows required; no deletion to repair counts. Correction note preserves old/new fields, reason and before/after closure. No corrections is an explicit possible result with per-row zeros retained."
+  },
+  "senior_accessibility_and_pacing": {
+    "status": "plausible_for_declared_prerequisites_and_supports",
+    "prerequisites": "Signed arithmetic, fractions, ordered coordinate triples and simple linear equations. Local bridges cover every core operation; no calculus, abstract algebra theorem or general matrix inversion is required.",
+    "lesson_design": "Each lesson has one essential question, three goals, a prerequisite bridge, actual explanation/worked/answered practice, source scope and four answered diagnostic checks.",
+    "planned_minutes": {
+      "core_lessons": 6,
+      "minutes_per_core": 55,
+      "capstone_periods": 2,
+      "minutes_per_capstone": 55,
+      "total": 440
+    },
+    "load_judgment": "Six finite progressively dependent lessons are reasonable; Lesson2 is the densest bridge. The110-minute full registry task is repetitive but substantial. The teacher explicitly permits a blank27-row table and paired arithmetic while requiring individual reconstruction, boundary reasoning and chi-versus-s explanation. Those supports make the stated estimate plausible, not guaranteed.",
+    "pacing_limit": "No classroom trial was performed. Do not treat823 machine checks or a55-minute sum as observed teaching-time evidence. Preserve the split/extra-practice rule if actual learners exceed the estimate."
+  },
+  "antipodal_mean_detail_coverage": {
+    "requested_focus": "Check antipodal mean/detail reconstruction and preservation.",
+    "present_in_actual_course": "Lesson5 W1 states p(sv)=O+sBv/2 and shows pair midpoint O; P1 computes both members and their midpoint. Therefore the geometric position pair has retained mean O and oriented half-displacement Bv/2, with s selecting direction.",
+    "fresh_verification": "For all13 noncentral representative pairs, independently computed mean=(p_plus+p_minus)/2 and detail=(p_plus-p_minus)/2 using exact fractions. Mean=O and detail=Bv/2, and mean±detail recover both original positions.",
+    "not_claimed_as_taught": "The course does not explicitly teach generic signal formulas f_even=(f(L)+f(-L))/2 and f_odd=(f(L)-f(-L))/2, nor provide an answered arbitrary scalar-observation mean/detail exercise. No such operation appears in the approved course-specific learning outcomes or seven-step capstone contract.",
+    "disposition": "Scope boundary, not an invented contract defect. This acceptance certifies the actual geometric reconstruction and preservation course, not general antipodal signal decomposition.",
+    "if_parent_intends_additional_outcome": "Add a defined scalar mean/detail transform, one fully worked example, independently answered prior practice and a linked assessment before claiming that broader skill. Preserve original paired readings, orientation, both components and reconstruction rules; update pacing and affected hashes."
+  },
+  "independent_recomputation": {
+    "status": "passed",
+    "runtime": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+    "method": "New auditor-authored Python standard-library script using fractions.Fraction through explicit conda run -n tf_gpu_env. No imports from builder scripts and no package changes. Enumerated the Cartesian product independently, calculated exact expected fields, and compared against actual JSON and actual Markdown tables.",
+    "script_path": "C:/Users/info/Documents/Codex/2026-11-05/kfield-series-source-auditor/work/audit_course05.py",
+    "check_count": 823,
+    "check_groups": {
+      "source_hashes": 5,
+      "source_definition_scope": 10,
+      "registry_structure": 4,
+      "registry_json_fields": 324,
+      "row_identities": 134,
+      "registry_markdown": 55,
+      "population_counts": 5,
+      "antipodal_pairs": 93,
+      "selected_answers": 5,
+      "integrity": 136,
+      "assembly": 24,
+      "teaching_anchor_presence": 28
+    },
+    "failure_count": 0,
+    "population_summary": {
+      "geometric": {
+        "0": 1,
+        "1": 6,
+        "2": 12,
+        "3": 8
+      },
+      "lambda": {
+        "0": 7,
+        "1": 6,
+        "2": 3,
+        "3": 1,
+        "-3": 1,
+        "-2": 3,
+        "-1": 6
+      },
+      "chi": {
+        "1": 13,
+        "-1": 14
+      },
+      "mod3": {
+        "0": 9,
+        "1": 9,
+        "2": 9
+      }
+    },
+    "rows_checked": 27,
+    "markdown_rows_checked": 54,
+    "noncentral_pairs_checked": 13,
+    "row_results": [
+      {
+        "id": "N01",
+        "L": [
+          -1,
+          -1,
+          -1
+        ],
+        "inverse_residual": [
+          "0",
+          "0",
+          "0"
+        ],
+        "affine_sheet_residual": "0",
+        "result": "pass"
+      },
+      {
+        "id": "N02",
+        "L": [
+          -1,
+          -1,
+          0
+        ],
+        "inverse_residual": [
+          "0",
+          "0",
+          "0"
+        ],
+        "affine_sheet_residual": "0",
+        "result": "pass"
+      },
+      {
+        "id": "N03",
+        "L": [
+          -1,
+          -1,
+          1
+        ],
+        "inverse_residual": [
+          "0",
+          "0",
+          "0"
+        ],
+        "affine_sheet_residual": "0",
+        "result": "pass"
+      },
+      {
+        "id": "N04",
+        "L": [
+          -1,
+          0,
+          -1
+        ],
+        "inverse_residual": [
+          "0",
+          "0",
+          "0"
+        ],
+        "affine_sheet_residual": "0",
+        "result": "pass"
+      },
+      {
+        "id": "N05",
+        "L": [
+          -1,
+          0,
+          0
+        ],
+        "inverse_residual": [
+          "0",
+          "0",
+          "0"
+        ],
+        "affine_sheet_residual": "0",
+        "result": "pass"
+      },
+      {
+        "id": "N06",
+        "L": [
+          -1,
+          0,
+          1
+        ],
+        "inverse_residual": [
+          "0",
+          "0",
+          "0"
+        ],
+        "affine_sheet_residual": "0",
+        "result": "pass"
+      },
+      {
+        "id": "N07",
+        "L": [
+          -1,
+          1,
+          -1
+        ],
+        "inverse_residual": [
+          "0",
+          "0",
+          "0"
+        ],
+        "affine_sheet_residual": "0",
+        "result": "pass"
+      },
+      {
+        "id": "N08",
+        "L": [
+          -1,
+          1,
+          0
+        ],
+        "inverse_residual": [
+          "0",
+          "0",
+          "0"
+        ],
+        "affine_sheet_residual": "0",
+        "result": "pass"
+      },
+      {
+        "id": "N09",
+        "L": [
+          -1,
+          1,
+          1
+        ],
+        "inverse_residual": [
+          "0",
+          "0",
+          "0"
+        ],
+        "affine_sheet_residual": "0",
+        "result": "pass"
+      },
+      {
+        "id": "N10",
+        "L": [
+          0,
+          -1,
+          -1
+        ],
+        "inverse_residual": [
+          "0",
+          "0",
+          "0"
+        ],
+        "affine_sheet_residual": "0",
+        "result": "pass"
+      },
+      {
+        "id": "N11",
+        "L": [
+          0,
+          -1,
+          0
+        ],
+        "inverse_residual": [
+          "0",
+          "0",
+          "0"
+        ],
+        "affine_sheet_residual": "0",
+        "result": "pass"
+      },
+      {
+        "id": "N12",
+        "L": [
+          0,
+          -1,
+          1
+        ],
+        "inverse_residual": [
+          "0",
+          "0",
+          "0"
+        ],
+        "affine_sheet_residual": "0",
+        "result": "pass"
+      },
+      {
+        "id": "N13",
+        "L": [
+          0,
+          0,
+          -1
+        ],
+        "inverse_residual": [
+          "0",
+          "0",
+          "0"
+        ],
+        "affine_sheet_residual": "0",
+        "result": "pass"
+      },
+      {
+        "id": "N14",
+        "L": [
+          0,
+          0,
+          0
+        ],
+        "inverse_residual": [
+          "0",
+          "0",
+          "0"
+        ],
+        "affine_sheet_residual": "0",
+        "result": "pass"
+      },
+      {
+        "id": "N15",
+        "L": [
+          0,
+          0,
+          1
+        ],
+        "inverse_residual": [
+          "0",
+          "0",
+          "0"
+        ],
+        "affine_sheet_residual": "0",
+        "result": "pass"
+      },
+      {
+        "id": "N16",
+        "L": [
+          0,
+          1,
+          -1
+        ],
+        "inverse_residual": [
+          "0",
+          "0",
+          "0"
+        ],
+        "affine_sheet_residual": "0",
+        "result": "pass"
+      },
+      {
+        "id": "N17",
+        "L": [
+          0,
+          1,
+          0
+        ],
+        "inverse_residual": [
+          "0",
+          "0",
+          "0"
+        ],
+        "affine_sheet_residual": "0",
+        "result": "pass"
+      },
+      {
+        "id": "N18",
+        "L": [
+          0,
+          1,
+          1
+        ],
+        "inverse_residual": [
+          "0",
+          "0",
+          "0"
+        ],
+        "affine_sheet_residual": "0",
+        "result": "pass"
+      },
+      {
+        "id": "N19",
+        "L": [
+          1,
+          -1,
+          -1
+        ],
+        "inverse_residual": [
+          "0",
+          "0",
+          "0"
+        ],
+        "affine_sheet_residual": "0",
+        "result": "pass"
+      },
+      {
+        "id": "N20",
+        "L": [
+          1,
+          -1,
+          0
+        ],
+        "inverse_residual": [
+          "0",
+          "0",
+          "0"
+        ],
+        "affine_sheet_residual": "0",
+        "result": "pass"
+      },
+      {
+        "id": "N21",
+        "L": [
+          1,
+          -1,
+          1
+        ],
+        "inverse_residual": [
+          "0",
+          "0",
+          "0"
+        ],
+        "affine_sheet_residual": "0",
+        "result": "pass"
+      },
+      {
+        "id": "N22",
+        "L": [
+          1,
+          0,
+          -1
+        ],
+        "inverse_residual": [
+          "0",
+          "0",
+          "0"
+        ],
+        "affine_sheet_residual": "0",
+        "result": "pass"
+      },
+      {
+        "id": "N23",
+        "L": [
+          1,
+          0,
+          0
+        ],
+        "inverse_residual": [
+          "0",
+          "0",
+          "0"
+        ],
+        "affine_sheet_residual": "0",
+        "result": "pass"
+      },
+      {
+        "id": "N24",
+        "L": [
+          1,
+          0,
+          1
+        ],
+        "inverse_residual": [
+          "0",
+          "0",
+          "0"
+        ],
+        "affine_sheet_residual": "0",
+        "result": "pass"
+      },
+      {
+        "id": "N25",
+        "L": [
+          1,
+          1,
+          -1
+        ],
+        "inverse_residual": [
+          "0",
+          "0",
+          "0"
+        ],
+        "affine_sheet_residual": "0",
+        "result": "pass"
+      },
+      {
+        "id": "N26",
+        "L": [
+          1,
+          1,
+          0
+        ],
+        "inverse_residual": [
+          "0",
+          "0",
+          "0"
+        ],
+        "affine_sheet_residual": "0",
+        "result": "pass"
+      },
+      {
+        "id": "N27",
+        "L": [
+          1,
+          1,
+          1
+        ],
+        "inverse_residual": [
+          "0",
+          "0",
+          "0"
+        ],
+        "affine_sheet_residual": "0",
+        "result": "pass"
+      }
+    ],
+    "geometric_mean_detail_pair_results": [
+      {
+        "v": [
+          1,
+          1,
+          1
+        ],
+        "mean": [
+          "2",
+          "-1",
+          "4"
+        ],
+        "detail": [
+          "1",
+          "1",
+          "-3/2"
+        ],
+        "result": "exact_reconstruction_pass"
+      },
+      {
+        "v": [
+          1,
+          1,
+          0
+        ],
+        "mean": [
+          "2",
+          "-1",
+          "4"
+        ],
+        "detail": [
+          "1",
+          "1",
+          "0"
+        ],
+        "result": "exact_reconstruction_pass"
+      },
+      {
+        "v": [
+          1,
+          1,
+          -1
+        ],
+        "mean": [
+          "2",
+          "-1",
+          "4"
+        ],
+        "detail": [
+          "1",
+          "1",
+          "3/2"
+        ],
+        "result": "exact_reconstruction_pass"
+      },
+      {
+        "v": [
+          1,
+          0,
+          1
+        ],
+        "mean": [
+          "2",
+          "-1",
+          "4"
+        ],
+        "detail": [
+          "1/2",
+          "0",
+          "-3/2"
+        ],
+        "result": "exact_reconstruction_pass"
+      },
+      {
+        "v": [
+          1,
+          0,
+          0
+        ],
+        "mean": [
+          "2",
+          "-1",
+          "4"
+        ],
+        "detail": [
+          "1/2",
+          "0",
+          "0"
+        ],
+        "result": "exact_reconstruction_pass"
+      },
+      {
+        "v": [
+          1,
+          0,
+          -1
+        ],
+        "mean": [
+          "2",
+          "-1",
+          "4"
+        ],
+        "detail": [
+          "1/2",
+          "0",
+          "3/2"
+        ],
+        "result": "exact_reconstruction_pass"
+      },
+      {
+        "v": [
+          1,
+          -1,
+          1
+        ],
+        "mean": [
+          "2",
+          "-1",
+          "4"
+        ],
+        "detail": [
+          "0",
+          "-1",
+          "-3/2"
+        ],
+        "result": "exact_reconstruction_pass"
+      },
+      {
+        "v": [
+          1,
+          -1,
+          0
+        ],
+        "mean": [
+          "2",
+          "-1",
+          "4"
+        ],
+        "detail": [
+          "0",
+          "-1",
+          "0"
+        ],
+        "result": "exact_reconstruction_pass"
+      },
+      {
+        "v": [
+          1,
+          -1,
+          -1
+        ],
+        "mean": [
+          "2",
+          "-1",
+          "4"
+        ],
+        "detail": [
+          "0",
+          "-1",
+          "3/2"
+        ],
+        "result": "exact_reconstruction_pass"
+      },
+      {
+        "v": [
+          0,
+          1,
+          1
+        ],
+        "mean": [
+          "2",
+          "-1",
+          "4"
+        ],
+        "detail": [
+          "1/2",
+          "1",
+          "-3/2"
+        ],
+        "result": "exact_reconstruction_pass"
+      },
+      {
+        "v": [
+          0,
+          1,
+          0
+        ],
+        "mean": [
+          "2",
+          "-1",
+          "4"
+        ],
+        "detail": [
+          "1/2",
+          "1",
+          "0"
+        ],
+        "result": "exact_reconstruction_pass"
+      },
+      {
+        "v": [
+          0,
+          1,
+          -1
+        ],
+        "mean": [
+          "2",
+          "-1",
+          "4"
+        ],
+        "detail": [
+          "1/2",
+          "1",
+          "3/2"
+        ],
+        "result": "exact_reconstruction_pass"
+      },
+      {
+        "v": [
+          0,
+          0,
+          1
+        ],
+        "mean": [
+          "2",
+          "-1",
+          "4"
+        ],
+        "detail": [
+          "0",
+          "0",
+          "-3/2"
+        ],
+        "result": "exact_reconstruction_pass"
+      }
+    ],
+    "selected_retained_error": [
+      "0",
+      "0",
+      "-1/3"
+    ],
+    "interpretation": "823 counts individual assertions across arithmetic, source/hash, structural, link-presence and integrity groups. It is not823 independent pedagogical judgments; the semantic reviews above are separate."
+  },
+  "integrity_and_validator": {
+    "status": "passed",
+    "manifest_sha256": "777dc43c6db5de48b9b0587d02cb1c14a9cbb1d62b222983983306ebebd7a75b",
+    "assembly": "All six marked lesson bodies appear once in declared order and match normalized source files.",
+    "manifest_and_completion": "All current manifest checkpoint hashes/statuses/dependency-array agreement, input-contract hash and completion hashes match; all declared outputs exist within the current course directory.",
+    "fresh_installed_validator_run": {
+      "canonical_output_root": "Z:\\Kfield-doc-training\\K-Field_Training_Course",
+      "checks": [
+        "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+        "parsed manifest.json",
+        "parsed audit_report.json",
+        "parsed completion_report.json",
+        "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+      ],
+      "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-05-lucas-geometry-27-nodes-polarity-and-sheets",
+      "errors": [],
+      "schema_version": "1.0",
+      "status": "passed",
+      "storage_authority": "User explicitly authorized project-folder outputs, 2026-11-05",
+      "validator_path": "C:\\Users\\info\\.codex\\skills\\build-high-school-course\\scripts\\validate_course.py",
+      "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+      "exit_code": 0,
+      "execution": "Explicit tf_gpu_env Python -B with parent project-root adapter; adapter inspected and only CANONICAL_OUTPUT_ROOT is overridden; fixture_mode=False."
+    },
+    "scope": "This is a fresh auditor-run validator, not solely the earlier builder/parent assertion. No project-side output receipt was written."
+  },
+  "limitations": [
+    "No classroom trial or empirical measurement analysis.",
+    "No broad archive retrieval, fresh proof compiler run, mature numerical Cell3 rederivation or unrelated recursion proof.",
+    "Generic scalar antipodal mean/detail teaching is not certified; the geometric mean/detail reconstruction actually implied by Lesson5 was independently checked.",
+    "Existing audit records are read as attributed records; this verdict rests on actual content and fresh checks.",
+    "Conda activation emitted an OpenCL vendors/temp.txt cleanup warning. sys.executable resolved to the required tf_gpu_env runtime; both exact audit and fresh validator exited0. No GPU or external packages were used.",
+    "Read-only parent/source access; only this auditor workspace receives the new report/script."
+  ],
+  "final_disposition": "Zero unresolved critical, major or minor findings against the approved completed Course05 contract. Eligible for parent acceptance at the audited hashes. No course/source edits or new tasks."
+}

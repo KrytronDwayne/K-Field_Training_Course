@@ -1,0 +1,1069 @@
+{
+  "schema": "kfield.course-independent-audit.v1",
+  "course_id": "course-06",
+  "timestamp": "2026-11-05T17:41:13.520444+00:00",
+  "status": "passed_completed_course_scoped_audit",
+  "eligible_for_parent_acceptance": true,
+  "course_directory": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-06-recursive-k-field-geometry-and-address-histories",
+  "manifest_sha256": "b50318fbedde8e54567b698871480746bc449650b00a87e21b0c0f9b12af5aae",
+  "audited_files": {
+    "input-contract.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-06-recursive-k-field-geometry-and-address-histories\\input-contract.json",
+      "sha256": "b857c593bb2bd25b1ee97e09c7619eee14dc5dcbf8019afe60c36a447a9a7a6a"
+    },
+    "course-map.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-06-recursive-k-field-geometry-and-address-histories\\course-map.md",
+      "sha256": "a91a89f110a79c2cdb45afd4b17f06f24809f88ea2bda7d8f0e829c74ae769b9"
+    },
+    "sources.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-06-recursive-k-field-geometry-and-address-histories\\sources.md",
+      "sha256": "8d41d656ab41af78215d82a0f31e48439b31a08def794924a73a67217859bc94"
+    },
+    "source-provenance.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-06-recursive-k-field-geometry-and-address-histories\\source-provenance.json",
+      "sha256": "c973d05cebd948762b2302ff0ee6f37ef1d9ef85f2ca6bdd9a7b02447caedca0"
+    },
+    "lesson-01.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-06-recursive-k-field-geometry-and-address-histories\\lesson-01.md",
+      "sha256": "fbde96fb5b20225686212292966e5ffe499a66cc88c570129e1985c32c657a79"
+    },
+    "lesson-02.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-06-recursive-k-field-geometry-and-address-histories\\lesson-02.md",
+      "sha256": "611a9953db659e51dee48bf4ac191efc3fcabcf4e6fc8aa6338981777193cccd"
+    },
+    "lesson-03.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-06-recursive-k-field-geometry-and-address-histories\\lesson-03.md",
+      "sha256": "398b9993b01c334e1b9be5e1e5944c3cd15b41cbdedd2725202e6adf0601b9d1"
+    },
+    "lesson-04.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-06-recursive-k-field-geometry-and-address-histories\\lesson-04.md",
+      "sha256": "a228c0887ba0398e32515b3447bcee554b6ca8ac94791f21a6506631186d3dc3"
+    },
+    "lesson-05.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-06-recursive-k-field-geometry-and-address-histories\\lesson-05.md",
+      "sha256": "3508775e83af5adf592925d4228bb2e47de3deaeb234cd8a3464a131ef058785"
+    },
+    "lesson-06.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-06-recursive-k-field-geometry-and-address-histories\\lesson-06.md",
+      "sha256": "5979b5238c3c837352e9bc6f0ecd87b421939ecc78aac4e8b1f54a5c1257e1ee"
+    },
+    "capstone.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-06-recursive-k-field-geometry-and-address-histories\\capstone.md",
+      "sha256": "c4b0cf79d8e412e9bf2f3c36eaaafd551757c3d41d00aeb403813afa40586af6"
+    },
+    "teacher-guide.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-06-recursive-k-field-geometry-and-address-histories\\teacher-guide.md",
+      "sha256": "5dc0bc4a51f17263b5770522d37fffc72b719952ef2df564efcec05028ef6dff"
+    },
+    "terminology.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-06-recursive-k-field-geometry-and-address-histories\\terminology.md",
+      "sha256": "94ed8788ba33561bc4b850a84d8d13e345085d97fe8ba606c98ba0fe02eb9391"
+    },
+    "manifest.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-06-recursive-k-field-geometry-and-address-histories\\manifest.json",
+      "sha256": "b50318fbedde8e54567b698871480746bc449650b00a87e21b0c0f9b12af5aae"
+    },
+    "audit_report.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-06-recursive-k-field-geometry-and-address-histories\\audit_report.json",
+      "sha256": "f7dcfc10db06e98eafc7a4d5eb8a387e26d11b24b844c50a3998ab27396b13d7"
+    },
+    "independent-audit.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-06-recursive-k-field-geometry-and-address-histories\\independent-audit.json",
+      "sha256": "08e7294e224f5772068994bec890239816514d29fa7e428274dabbcbf19039f1"
+    },
+    "completion_report.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-06-recursive-k-field-geometry-and-address-histories\\completion_report.json",
+      "sha256": "9a3c2eee45d7c21738fafaec4ae14f4254603a88819968aff842dc0295ace2e6"
+    },
+    "verification.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-06-recursive-k-field-geometry-and-address-histories\\verification.json",
+      "sha256": "523109864acd70628ee0d2e6ad5958de91e59149c8ed7ffde1f22597afb8ed47"
+    },
+    "validator-report.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-06-recursive-k-field-geometry-and-address-histories\\validator-report.json",
+      "sha256": "d19f90501d11c1d66168dfb7d369ba62a57208362477f10f0e8957bb823e5c58"
+    },
+    "course.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-06-recursive-k-field-geometry-and-address-histories\\course.md",
+      "sha256": "74b9dfffcdd2e169f62f147e17995a9a47fca29150e4c2a5099f33fc8e8ae906"
+    }
+  },
+  "scope": "Bounded independent completed-course audit of all six actual Course06 lessons, full capstone answers/rubric, teacher guide, terminology, source notes/provenance, course map, contract and SA-06/teaching anchors, manifest, prior audit and completion records. Fresh exact integer/Fraction verification and installed-validator run. No parent or source-file edits.",
+  "acceptance_scope": "Eligible for parent acceptance of the finite six-lesson course over seven core periods plus two capstone periods, at the recorded hashes. Infinite histories remain recognition-only.",
+  "findings": [],
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "minimum_repairs": [],
+  "read_inventory": {
+    "full_semantic_read": [
+      "lesson-01.md",
+      "lesson-02.md",
+      "lesson-03.md",
+      "lesson-04.md",
+      "lesson-05.md",
+      "lesson-06.md",
+      "capstone.md",
+      "course-map.md",
+      "teacher-guide.md",
+      "terminology.md",
+      "sources.md",
+      "source-provenance.json",
+      "audit_report.json",
+      "independent-audit.json",
+      "completion_report.json",
+      "validator-report.json",
+      "verification.json"
+    ],
+    "contract_review": "Read actual prerequisites, outcomes, assumptions, coverage IDs, all six course-map teaching anchors, nine capstone operations/backward links, SA-06 requirements and lesson attachments, teaching source interface,110-minute Lesson03 allocation, finite-core scope and project storage override.",
+    "manifest_review": "Read declared checkpoints, statuses, dependencies, lesson order, assembly and audit/completion state; independently checked every checkpoint hash, dependency-array agreement, completion hash and declared file existence.",
+    "assembly_review": "All six full source lessons were read semantically; every assembled block matches its corresponding lesson under newline/outer-whitespace normalization and appears once in order. No new teaching is introduced by assembly.",
+    "bounded_source_read": [
+      "S02 /backbone_sequence/2/typed_finite_objects",
+      "S02 /backbone_sequence/2/recursions",
+      "S02 /backbone_sequence/2/type_guard",
+      "S02 /backbone_sequence/2/requires",
+      "S02 /supergroup_uniqueness and matching module-local copy",
+      "S02 M02 ownership contract retained from direct preceding source inspection; exact file freshly rehashed"
+    ],
+    "source03_boundary": "Authority and superseded-witness correction were directly inspected in the preceding bounded source audit; this continuation freshly rehashes the same pinned S03 bytes, without claiming a fresh whole-source replay.",
+    "not_claimed": "Builder scripts are hash-checked artifacts, not independently audited general-purpose software. Prior builder/independent-audit assertions do not substitute for this review."
+  },
+  "verified_prior_repairs": [
+    {
+      "id": "C06-RECHECK-COUNT",
+      "prior_finding_ids": [
+        "F01",
+        "IA-01"
+      ],
+      "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-06-recursive-k-field-geometry-and-address-histories/lesson-03.md",
+      "section": "C06.03-P1",
+      "line": 41,
+      "status": "corrected_verified",
+      "verification": "Read the actual new request to derive cell and corner counts and its answered12^3=1728,13^3=2197 calculation; independently enumerated cell/corner coordinate products. CAP-03 now has answered prerequisite count practice."
+    },
+    {
+      "id": "C06-RECHECK-RESIDUES",
+      "prior_finding_ids": [
+        "F04",
+        "IA-02"
+      ],
+      "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-06-recursive-k-field-geometry-and-address-histories/lesson-02.md",
+      "section": "C06.02-P1",
+      "line": 45,
+      "status": "corrected_verified",
+      "verification": "Read the actual new request for depths0,1,2 three-coordinate counts and its1,27,729 answer; independently enumerated each Cartesian product. CAP-02 no longer rests on a worked example alone."
+    },
+    {
+      "id": "C06-RECHECK-MINORS",
+      "prior_finding_ids": [
+        "F02",
+        "F03",
+        "IA-03",
+        "IA-04"
+      ],
+      "status": "corrected_verified",
+      "verification": "Lesson03 scaling paragraph has no stray leading plus; sources.md uses full S02 /backbone_sequence/1/boundary_rule, which resolves in the pinned source."
+    }
+  ],
+  "source_scope": {
+    "status": "pass",
+    "fresh_hashes": [
+      {
+        "id": "S01",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+        "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180"
+      },
+      {
+        "id": "S02",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+        "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3"
+      },
+      {
+        "id": "S03",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+        "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e"
+      },
+      {
+        "id": "S04",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+        "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2"
+      },
+      {
+        "id": "S05",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+        "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7"
+      }
+    ],
+    "active_authority": "S02 mathematical backbone M03, with M02 ownership prerequisite and SA-06 source-fidelity requirements. This does not imply authority of an integration compiler also named M03.",
+    "SA06_actual_application": [
+      "27 half-step window nodes,27 complete Group volumes and729 complete9B Supergroup volumes are separately defined and assessed.",
+      "Actual L03 teaching/practice compares27*8^n2 complete subcells with(3*2^n2+1)^3 distinct geometric corner vertices for fixed outer3B.",
+      "6859 half-step samples and55 reachable integer-lambda sheets are explained and assessed separately from729 complete cells and1000 ordinary corners.",
+      "Rung equation has explicit nonnegative integer domain and separate g_rung,n_rung symbols; neither is silently equated to n2 or d3."
+    ],
+    "exact_pointers_verified": [
+      "/backbone_sequence/2/typed_finite_objects",
+      "/backbone_sequence/2/recursions/group_dyadic",
+      "/backbone_sequence/2/recursions/ternary_address",
+      "/supergroup_uniqueness"
+    ],
+    "root_rung_locator": "The root /supergroup_uniqueness really exists and equals the module-local copy; the cited source path is not a guessed abbreviation.",
+    "synthetic_vs_measured": "[0,1) binary intervals and the skew basis a=(1,0,0), b=(1,2,0), c=(0,0,-3) in arbitrary length units are explicitly classroom constructions, not measured Cell3 values. Base area2 and height3 give positive volume6 and signed determinant-6; only volume magnitude enters162.",
+    "invariants": "Fixed containing region, basis order, half-open ownership versus closed boundary sampling, named sampling grids, distinct recursion counters and residual detail retention are preserved.",
+    "epistemic_layers": "Definitions and source statuses are attributed; finite counts and arithmetic are freshly derived; balanced digit encoding is explicitly a course representation of modular classes; no experimental observation, physical force or mechanism is inferred."
+  },
+  "lesson_reviews": [
+    {
+      "lesson_id": "lesson-01",
+      "result": "pass",
+      "locations": [
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-06-recursive-k-field-geometry-and-address-histories/lesson-01.md",
+          "section": "C06.01-E1/W1",
+          "line": 9
+        },
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-06-recursive-k-field-geometry-and-address-histories/lesson-01.md",
+          "section": "C06.01-E2/W2",
+          "line": 25
+        }
+      ],
+      "prerequisites": "Fractions, floor, recursion, root/child/parent and half-open notation are introduced before use.",
+      "mathematics": "Binary cells and distinct boundaries differ; depth2 has4 cells/5 vertices, endpoint1 remains a vertex but is excluded from ownership. Full depth3 parent chain and j=5 interval are correct.",
+      "typing": "Window points, Group cells and Supergroup cells have distinct meanings despite repeated count27.",
+      "assessment": "P1/P2 and four answered diagnostics prepare CAP-01 and CAP-07."
+    },
+    {
+      "lesson_id": "lesson-02",
+      "result": "pass",
+      "locations": [
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-06-recursive-k-field-geometry-and-address-histories/lesson-02.md",
+          "section": "C06.02-E1",
+          "line": 9
+        },
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-06-recursive-k-field-geometry-and-address-histories/lesson-02.md",
+          "section": "C06.02-E2/W2",
+          "line": 27
+        }
+      ],
+      "prerequisites": "Congruence, standard remainder, negative division examples and integer-residue notation are explained locally.",
+      "mathematics": "Children of0,1,2 mod3 are0/3/6,1/4/7,2/5/8 mod9. 3D counts1,27,729 are now explicitly practiced. Rung proof correctly uses oddness and nonnegative powers;12 bounded candidates give only(2,0).",
+      "typing": "Geometric n2, residue d3 and rung variables remain separate; equal729 counts do not identify volumes with modular triples.",
+      "assessment": "Actual repaired P1 and answered P2 close CAP-02/CAP-08 prerequisites."
+    },
+    {
+      "lesson_id": "lesson-03",
+      "result": "pass",
+      "locations": [
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-06-recursive-k-field-geometry-and-address-histories/lesson-03.md",
+          "section": "C06.03-E1/W1",
+          "line": 9
+        },
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-06-recursive-k-field-geometry-and-address-histories/lesson-03.md",
+          "section": "C06.03-E2/W2",
+          "line": 29
+        }
+      ],
+      "prerequisites": "Product counts and inclusive integer ranges are explained before3D use; area/volume scaling follows products with unchanged angles. Toy volume does not assume determinant computation.",
+      "mathematics": "At n2=0,1,2 cells27,216,1728 and corners64,343,2197 are correct; volume162 stays fixed. 9B has729 volumes,1000 ordinary corners,6859 half-step points and55 sheets;3B has27/64/343/19 respectively. Constructive filling proves every sheet is reached.",
+      "assessment": "P1 now explicitly derives cells/corners; P2 answers smaller-grid counts and±8 examples. All capstone scale/grid operations have prior worked and answered practice.",
+      "pacing": "Explicit110 minutes/two55-minute periods consistently appears in lesson, contract, map and teacher schedule."
+    },
+    {
+      "lesson_id": "lesson-04",
+      "result": "pass",
+      "locations": [
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-06-recursive-k-field-geometry-and-address-histories/lesson-04.md",
+          "section": "C06.04-E1/W1",
+          "line": 9
+        },
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-06-recursive-k-field-geometry-and-address-histories/lesson-04.md",
+          "section": "C06.04-P1",
+          "line": 27
+        }
+      ],
+      "prerequisites": "Place values and low-to-high signed-digit order are taught; remainder2 selects digit-1 through congruence, not an unexplained convention.",
+      "mathematics": "5=(-1,-1,1),8=(-1,0,1),-2=(1,-1),-8=(1,0,-1). All27 three-digit words independently map bijectively to-13..13. Quotient recurrence works on negative inputs;14 requires retained nonzero quotient beyond depth3.",
+      "preservation": "Depth and high zero digits remain part of the record. Balanced negative representatives are not equated to distinct standard integers."
+    },
+    {
+      "lesson_id": "lesson-05",
+      "result": "pass",
+      "locations": [
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-06-recursive-k-field-geometry-and-address-histories/lesson-05.md",
+          "section": "C06.05-E1/W1",
+          "line": 9
+        },
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-06-recursive-k-field-geometry-and-address-histories/lesson-05.md",
+          "section": "C06.05-P1",
+          "line": 31
+        }
+      ],
+      "mathematics": "Modular parent removes the high digit, not the low digit.5 histories5,-4,-1 and8 histories8,-1,-1 satisfy differences divisible by9 and3; standard renderings are compatible too.",
+      "negative_tests": "8→7 mod9 and5,-4,+1 histories correctly fail. Dropping low digit from(-1,0,1) gives3, not the required mod9 parent.",
+      "typing": "Binary floor(j/2) is not used for a ternary residue parent.",
+      "assessment": "Answered compatible and incompatible practice prepares CAP-05 rather than relying on the source label bonding map."
+    },
+    {
+      "lesson_id": "lesson-06",
+      "result": "pass",
+      "locations": [
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-06-recursive-k-field-geometry-and-address-histories/lesson-06.md",
+          "section": "C06.06-E1/W1",
+          "line": 9
+        },
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-06-recursive-k-field-geometry-and-address-histories/lesson-06.md",
+          "section": "C06.06-P1",
+          "line": 27
+        }
+      ],
+      "mathematics": "Binary j=2k+b and balanced t=r+3^(d3-1)e recover the original fine index/word only with their respective conventions. Full binary root-outward chain for5 and ternary low-to-high words preserve different order conventions.",
+      "preservation": "Rule type, original depth, coordinate order, coarse fields, every removed bit/digit including zero and reconstruction rule are explicitly required. Alternatives demonstrate non-invertibility when details are omitted.",
+      "assessment": "P1 reconstructs6 and5 and another reduction step; examples and diagnostics expose mixed standard/balanced reconstruction17 versus8. Infinite tails are never manufactured."
+    }
+  ],
+  "actual_capstone_practice_links": [
+    {
+      "step_id": "C06-CAP-01",
+      "operation": "Draw a binary interval tree through depth3, with half-open intervals, indices and parents.",
+      "introduction": "lesson-01",
+      "worked_example_id": "C06.01-W1",
+      "prior_practice_id": "C06.01-P1",
+      "diagnostic_id": "C06.01-D1",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-06-recursive-k-field-geometry-and-address-histories\\lesson-01.md",
+      "actual_locations": {
+        "worked_example_id": {
+          "id": "C06.01-W1",
+          "line": 15
+        },
+        "prior_practice_id": {
+          "id": "C06.01-P1",
+          "line": 35
+        },
+        "diagnostic_id": {
+          "id": "C06.01-D1",
+          "line": 45
+        }
+      },
+      "explanation_locations": [
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-06-recursive-k-field-geometry-and-address-histories/lesson-01.md",
+          "section": "C06.01-E1",
+          "line": 9
+        }
+      ],
+      "actual_content_review": "P1 extends the tree to depth3, lists all eight child/parent indices and traces j=5 through its interval and ancestors. Earlier W1 supplies full interval examples; answered D1 and endpoint questions distinguish vertices from ownership.",
+      "result": "pass_substantive_explanation_and_answered_prior_practice",
+      "answer_key_location": {
+        "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-06-recursive-k-field-geometry-and-address-histories/capstone.md",
+        "section": "01 full worked answer",
+        "line": 19
+      }
+    },
+    {
+      "step_id": "C06-CAP-02",
+      "operation": "Build a ternary residue tree through depth2 for one coordinate and state the 3D product counts; label depth types.",
+      "introduction": "lesson-02",
+      "worked_example_id": "C06.02-W1",
+      "prior_practice_id": "C06.02-P1",
+      "diagnostic_id": "C06.02-D1",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-06-recursive-k-field-geometry-and-address-histories\\lesson-02.md",
+      "actual_locations": {
+        "worked_example_id": {
+          "id": "C06.02-W1",
+          "line": 23
+        },
+        "prior_practice_id": {
+          "id": "C06.02-P1",
+          "line": 45
+        },
+        "diagnostic_id": {
+          "id": "C06.02-D1",
+          "line": 55
+        }
+      },
+      "explanation_locations": [
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-06-recursive-k-field-geometry-and-address-histories/lesson-02.md",
+          "section": "C06.02-E1",
+          "line": 9
+        }
+      ],
+      "actual_content_review": "Actual repaired P1 requests the one-coordinate tree, triple reduction and three-coordinate counts at depths0,1,2. Its answer explicitly gives1^3=1,3^3=27,9^3=729, so product counting is practiced before CAP-02.",
+      "result": "pass_substantive_explanation_and_answered_prior_practice",
+      "answer_key_location": {
+        "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-06-recursive-k-field-geometry-and-address-histories/capstone.md",
+        "section": "02 full worked answer",
+        "line": 36
+      }
+    },
+    {
+      "step_id": "C06-CAP-03",
+      "operation": "Compute group cell/vertex counts through dyadic depth2 and length/area/volume scale factors.",
+      "introduction": "lesson-03",
+      "worked_example_id": "C06.03-W1",
+      "prior_practice_id": "C06.03-P1",
+      "diagnostic_id": "C06.03-D1",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-06-recursive-k-field-geometry-and-address-histories\\lesson-03.md",
+      "actual_locations": {
+        "worked_example_id": {
+          "id": "C06.03-W1",
+          "line": 15
+        },
+        "prior_practice_id": {
+          "id": "C06.03-P1",
+          "line": 41
+        },
+        "diagnostic_id": {
+          "id": "C06.03-D1",
+          "line": 51
+        }
+      },
+      "explanation_locations": [
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-06-recursive-k-field-geometry-and-address-histories/lesson-03.md",
+          "section": "C06.03-E1",
+          "line": 9
+        }
+      ],
+      "actual_content_review": "Actual repaired P1 explicitly requests and answers depth2 cell and distinct-corner counts:12 per axis,1728 cells,2197 corners. It also gives scale factors and both depth1/2 volume checks162. This is substantive count practice, not just an identifier.",
+      "result": "pass_substantive_explanation_and_answered_prior_practice",
+      "answer_key_location": {
+        "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-06-recursive-k-field-geometry-and-address-histories/capstone.md",
+        "section": "03 full worked answer",
+        "line": 40
+      }
+    },
+    {
+      "step_id": "C06-CAP-04",
+      "operation": "Encode supplied integers5 and8 in three balanced digits, retaining depth and low-to-high digit order.",
+      "introduction": "lesson-04",
+      "worked_example_id": "C06.04-W1",
+      "prior_practice_id": "C06.04-P1",
+      "diagnostic_id": "C06.04-D1",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-06-recursive-k-field-geometry-and-address-histories\\lesson-04.md",
+      "actual_locations": {
+        "worked_example_id": {
+          "id": "C06.04-W1",
+          "line": 17
+        },
+        "prior_practice_id": {
+          "id": "C06.04-P1",
+          "line": 27
+        },
+        "diagnostic_id": {
+          "id": "C06.04-D1",
+          "line": 35
+        }
+      },
+      "explanation_locations": [
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-06-recursive-k-field-geometry-and-address-histories/lesson-04.md",
+          "section": "C06.04-E1",
+          "line": 9
+        }
+      ],
+      "actual_content_review": "P1 encodes5 via repeated signed remainders and quotients, decodes it, then distinguishes low-depth balanced integers from standard representatives. The answered additional -2 example practices a negative input; W1 supplies8.",
+      "result": "pass_substantive_explanation_and_answered_prior_practice",
+      "answer_key_location": {
+        "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-06-recursive-k-field-geometry-and-address-histories/capstone.md",
+        "section": "04 full worked answer",
+        "line": 44
+      }
+    },
+    {
+      "step_id": "C06-CAP-05",
+      "operation": "Verify modular compatibility of their depth3,2,1 histories and contrast it with binary parent mapping.",
+      "introduction": "lesson-05",
+      "worked_example_id": "C06.05-W1",
+      "prior_practice_id": "C06.05-P1",
+      "diagnostic_id": "C06.05-D1",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-06-recursive-k-field-geometry-and-address-histories\\lesson-05.md",
+      "actual_locations": {
+        "worked_example_id": {
+          "id": "C06.05-W1",
+          "line": 15
+        },
+        "prior_practice_id": {
+          "id": "C06.05-P1",
+          "line": 31
+        },
+        "diagnostic_id": {
+          "id": "C06.05-D1",
+          "line": 39
+        }
+      },
+      "explanation_locations": [
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-06-recursive-k-field-geometry-and-address-histories/lesson-05.md",
+          "section": "C06.05-E1",
+          "line": 9
+        }
+      ],
+      "actual_content_review": "P1 supplies5's standard5,5,2 and balanced5,-4,-1 histories and both divisibility tests. W1 supplies8. The incompatible-parent practice and answered D1 reject deleting the low digit.",
+      "result": "pass_substantive_explanation_and_answered_prior_practice",
+      "answer_key_location": {
+        "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-06-recursive-k-field-geometry-and-address-histories/capstone.md",
+        "section": "05 full worked answer",
+        "line": 48
+      }
+    },
+    {
+      "step_id": "C06-CAP-06",
+      "operation": "Recover each original index/word from coarse record plus retained bit/digit; explain lost information if detail is omitted.",
+      "introduction": "lesson-06",
+      "worked_example_id": "C06.06-W1",
+      "prior_practice_id": "C06.06-P1",
+      "diagnostic_id": "C06.06-D1",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-06-recursive-k-field-geometry-and-address-histories\\lesson-06.md",
+      "actual_locations": {
+        "worked_example_id": {
+          "id": "C06.06-W1",
+          "line": 17
+        },
+        "prior_practice_id": {
+          "id": "C06.06-P1",
+          "line": 27
+        },
+        "diagnostic_id": {
+          "id": "C06.06-D1",
+          "line": 35
+        }
+      },
+      "explanation_locations": [
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-06-recursive-k-field-geometry-and-address-histories/lesson-06.md",
+          "section": "C06.06-E1",
+          "line": 9
+        }
+      ],
+      "actual_content_review": "P1 reconstructs binary6 from(3,0) and ternary5 from balanced coarse-4 and high+1, then recovers the further reduction while retaining detail. W1 reconstructs5/8 and preserves a zero; answered additional practice exhibits nonunique children.",
+      "result": "pass_substantive_explanation_and_answered_prior_practice",
+      "answer_key_location": {
+        "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-06-recursive-k-field-geometry-and-address-histories/capstone.md",
+        "section": "06 full worked answer",
+        "line": 52
+      }
+    },
+    {
+      "step_id": "C06-CAP-07",
+      "operation": "Distinguish27 window nodes,27 Group volumes and729 Supergroup volumes.",
+      "introduction": "lesson-01",
+      "worked_example_id": "C06.01-W2",
+      "prior_practice_id": "C06.01-P2",
+      "diagnostic_id": "C06.01-D2",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-06-recursive-k-field-geometry-and-address-histories\\lesson-01.md",
+      "actual_locations": {
+        "worked_example_id": {
+          "id": "C06.01-W2",
+          "line": 25
+        },
+        "prior_practice_id": {
+          "id": "C06.01-P2",
+          "line": 39
+        },
+        "diagnostic_id": {
+          "id": "C06.01-D2",
+          "line": 46
+        }
+      },
+      "explanation_locations": [
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-06-recursive-k-field-geometry-and-address-histories/lesson-01.md",
+          "section": "C06.01-E2/W2",
+          "line": 25
+        }
+      ],
+      "actual_content_review": "P2 derives729 by9^3 and27 Groups×27 cells; answered D2 distinguishes27 window points from27 Group volumes and729 Supergroup volumes. Earlier E2 explicitly teaches the window's product count.",
+      "result": "pass_substantive_explanation_and_answered_prior_practice",
+      "answer_key_location": {
+        "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-06-recursive-k-field-geometry-and-address-histories/capstone.md",
+        "section": "07 full worked answer",
+        "line": 56
+      }
+    },
+    {
+      "step_id": "C06-CAP-08",
+      "operation": "State nonnegative integer domain and verify the unique rung pair(2,0).",
+      "introduction": "lesson-02",
+      "worked_example_id": "C06.02-W2",
+      "prior_practice_id": "C06.02-P2",
+      "diagnostic_id": "C06.02-D2",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-06-recursive-k-field-geometry-and-address-histories\\lesson-02.md",
+      "actual_locations": {
+        "worked_example_id": {
+          "id": "C06.02-W2",
+          "line": 27
+        },
+        "prior_practice_id": {
+          "id": "C06.02-P2",
+          "line": 49
+        },
+        "diagnostic_id": {
+          "id": "C06.02-D2",
+          "line": 56
+        }
+      },
+      "explanation_locations": [
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-06-recursive-k-field-geometry-and-address-histories/lesson-02.md",
+          "section": "C06.02-E2/W2",
+          "line": 27
+        }
+      ],
+      "actual_content_review": "P2 explicitly asks for exponent bounds and the12-pair table, with an answer excluding all outside nonnegative pairs. W2 gives the parity proof and unique(2,0); D2 asks for domain and the separate729 object types.",
+      "result": "pass_substantive_explanation_and_answered_prior_practice",
+      "answer_key_location": {
+        "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-06-recursive-k-field-geometry-and-address-histories/capstone.md",
+        "section": "08 full worked answer",
+        "line": 60
+      }
+    },
+    {
+      "step_id": "C06-CAP-09",
+      "operation": "Derive6859 half-step points and55 reachable lambda sheets without conflating volumes or boundary vertices.",
+      "introduction": "lesson-03",
+      "worked_example_id": "C06.03-W2",
+      "prior_practice_id": "C06.03-P2",
+      "diagnostic_id": "C06.03-D2",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-06-recursive-k-field-geometry-and-address-histories\\lesson-03.md",
+      "actual_locations": {
+        "worked_example_id": {
+          "id": "C06.03-W2",
+          "line": 29
+        },
+        "prior_practice_id": {
+          "id": "C06.03-P2",
+          "line": 45
+        },
+        "diagnostic_id": {
+          "id": "C06.03-D2",
+          "line": 52
+        }
+      },
+      "explanation_locations": [
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-06-recursive-k-field-geometry-and-address-histories/lesson-03.md",
+          "section": "C06.03-E2/W2",
+          "line": 29
+        }
+      ],
+      "actual_content_review": "P2 applies inclusive-grid and sheet reasoning to centered3B, answers343 points/19 sheets/27 volumes/64 corners, realizes±8 and invokes the taught constructive filling rule. W2 proves reachability for9B; D4 asks for23 and why endpoints alone are insufficient.",
+      "result": "pass_substantive_explanation_and_answered_prior_practice",
+      "answer_key_location": {
+        "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-06-recursive-k-field-geometry-and-address-histories/capstone.md",
+        "section": "09 full worked answer",
+        "line": 64
+      }
+    }
+  ],
+  "capstone_and_rubric": {
+    "status": "pass",
+    "operations": 9,
+    "answers": "All nine full worked keys read. Depth3 binary table entries, both ternary histories, scale table, rung proof, reachability construction and recovery conventions independently checked.",
+    "rubric": "12+10+16+10+10+14+8+8+12=100. Each key allocates its points to concrete output components. Missing depth/type/order loses recovery completeness even when a scalar is correct.",
+    "prerequisite_closure": "No mandatory operation first appears in the capstone; the two formerly missing count practices now exist with answers.",
+    "finite_boundary": "No infinite limit calculation, abstract quotient proof, physical-mechanism derivation or general matrix inversion is assessed."
+  },
+  "senior_accessibility_and_pacing": {
+    "status": "plausible_for_declared_senior_prerequisites",
+    "entry_capabilities": "Signed fractions, powers, coordinate reading and simple linear equations; teacher checks5/8,3^2,2^3 and3q+1=-2, with support routes.",
+    "core_minutes": [
+      55,
+      55,
+      110,
+      55,
+      55,
+      55
+    ],
+    "core_periods": 7,
+    "capstone_periods": 2,
+    "period_minutes": 55,
+    "total_minutes": 495,
+    "L03_split": "PeriodA covers fixed-region scaling/corners with P1,D1,D3; PeriodB covers half-step grids/reachability with P2,D2,D4. Both retain20/15/15/5-minute teaching/practice/check/transition allocations.",
+    "load_judgment": "Finite examples and representative counts are small enough for hand work; lessons02 and04 introduce the densest new notation but provide concrete negative examples and diagnostic feedback. The separate geometry period addresses the largest load risk. Two capstone periods are plausible with taught methods and calculator access.",
+    "limitation": "Timing is a design judgment, not measured classroom performance. Actual learner difficulty may require additional repair/practice without dropping distinctions or residual detail."
+  },
+  "recomputation": {
+    "status": "passed",
+    "runtime": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+    "method": "New auditor-authored standard-library Python script run explicitly through conda tf_gpu_env, with Fraction arithmetic and independent finite Cartesian/word enumeration; no builder-script imports or packages.",
+    "script_path": "C:/Users/info/Documents/Codex/2026-11-05/kfield-series-source-auditor/work/audit_course06.py",
+    "check_count": 686,
+    "check_groups": {
+      "source_hashes": 5,
+      "source_scope": 11,
+      "binary_geometry": 15,
+      "binary_recovery": 28,
+      "actual_tables": 21,
+      "scale_counts": 9,
+      "half_step_grids": 5,
+      "sheet_reachability": 148,
+      "rung": 7,
+      "ternary_classes": 7,
+      "balanced_words": 55,
+      "balanced_history": 135,
+      "selected_answers": 18,
+      "pacing_and_fixes": 4,
+      "teaching_anchor_presence": 36,
+      "integrity": 158,
+      "assembly": 24
+    },
+    "failure_count": 0,
+    "binary_interval_counts": [
+      {
+        "depth": 0,
+        "cells": 1,
+        "vertices": 2
+      },
+      {
+        "depth": 1,
+        "cells": 2,
+        "vertices": 3
+      },
+      {
+        "depth": 2,
+        "cells": 4,
+        "vertices": 5
+      },
+      {
+        "depth": 3,
+        "cells": 8,
+        "vertices": 9
+      }
+    ],
+    "fixed_group_counts_and_scales": [
+      {
+        "depth": 0,
+        "cells_per_axis": 3,
+        "cells": 27,
+        "corners": 64,
+        "length_area_volume_factors": [
+          "1",
+          "1",
+          "1"
+        ],
+        "total_toy_volume": "162"
+      },
+      {
+        "depth": 1,
+        "cells_per_axis": 6,
+        "cells": 216,
+        "corners": 343,
+        "length_area_volume_factors": [
+          "1/2",
+          "1/4",
+          "1/8"
+        ],
+        "total_toy_volume": "162"
+      },
+      {
+        "depth": 2,
+        "cells_per_axis": 12,
+        "cells": 1728,
+        "corners": 2197,
+        "length_area_volume_factors": [
+          "1/4",
+          "1/16",
+          "1/64"
+        ],
+        "total_toy_volume": "162"
+      }
+    ],
+    "half_step_grids": [
+      {
+        "outer_span": "3B",
+        "volumes": 27,
+        "ordinary_corners": 64,
+        "half_step_points": 343,
+        "sheets": 19,
+        "sheet_range": [
+          -9,
+          9
+        ]
+      },
+      {
+        "outer_span": "9B",
+        "volumes": 729,
+        "ordinary_corners": 1000,
+        "half_step_points": 6859,
+        "sheets": 55,
+        "sheet_range": [
+          -27,
+          27
+        ]
+      }
+    ],
+    "rung": {
+      "bounds": {
+        "g_max": 2,
+        "n_max": 3
+      },
+      "products": [
+        [
+          1,
+          2,
+          4,
+          8
+        ],
+        [
+          3,
+          6,
+          12,
+          24
+        ],
+        [
+          9,
+          18,
+          36,
+          72
+        ]
+      ],
+      "solutions": [
+        [
+          2,
+          0
+        ]
+      ]
+    },
+    "three_coordinate_residue_counts": [
+      1,
+      27,
+      729
+    ],
+    "selected_ternary_histories": [
+      {
+        "integer": 5,
+        "depth": 3,
+        "word": [
+          -1,
+          -1,
+          1
+        ],
+        "division_trace": [
+          {
+            "input": 5,
+            "digit": -1,
+            "quotient": 2
+          },
+          {
+            "input": 2,
+            "digit": -1,
+            "quotient": 1
+          },
+          {
+            "input": 1,
+            "digit": 1,
+            "quotient": 0
+          }
+        ],
+        "balanced_history": [
+          5,
+          -4,
+          -1
+        ],
+        "standard_history": [
+          5,
+          5,
+          2
+        ]
+      },
+      {
+        "integer": 8,
+        "depth": 3,
+        "word": [
+          -1,
+          0,
+          1
+        ],
+        "division_trace": [
+          {
+            "input": 8,
+            "digit": -1,
+            "quotient": 3
+          },
+          {
+            "input": 3,
+            "digit": 0,
+            "quotient": 1
+          },
+          {
+            "input": 1,
+            "digit": 1,
+            "quotient": 0
+          }
+        ],
+        "balanced_history": [
+          8,
+          -1,
+          -1
+        ],
+        "standard_history": [
+          8,
+          8,
+          2
+        ]
+      },
+      {
+        "integer": -2,
+        "depth": 2,
+        "word": [
+          1,
+          -1
+        ],
+        "division_trace": [
+          {
+            "input": -2,
+            "digit": 1,
+            "quotient": -1
+          },
+          {
+            "input": -1,
+            "digit": -1,
+            "quotient": 0
+          }
+        ],
+        "balanced_history": [
+          -2,
+          1
+        ],
+        "standard_history": [
+          7,
+          1
+        ]
+      },
+      {
+        "integer": -8,
+        "depth": 3,
+        "word": [
+          1,
+          0,
+          -1
+        ],
+        "division_trace": [
+          {
+            "input": -8,
+            "digit": 1,
+            "quotient": -3
+          },
+          {
+            "input": -3,
+            "digit": 0,
+            "quotient": -1
+          },
+          {
+            "input": -1,
+            "digit": -1,
+            "quotient": 0
+          }
+        ],
+        "balanced_history": [
+          -8,
+          1,
+          1
+        ],
+        "standard_history": [
+          19,
+          1,
+          1
+        ]
+      },
+      {
+        "integer": -4,
+        "depth": 3,
+        "word": [
+          -1,
+          -1,
+          0
+        ],
+        "division_trace": [
+          {
+            "input": -4,
+            "digit": -1,
+            "quotient": -1
+          },
+          {
+            "input": -1,
+            "digit": -1,
+            "quotient": 0
+          },
+          {
+            "input": 0,
+            "digit": 0,
+            "quotient": 0
+          }
+        ],
+        "balanced_history": [
+          -4,
+          -4,
+          -1
+        ],
+        "standard_history": [
+          23,
+          5,
+          2
+        ]
+      }
+    ],
+    "overflow14": {
+      "word": [
+        -1,
+        -1,
+        -1
+      ],
+      "retained_quotient": 1
+    },
+    "exhaustive_scope": "All binary indices through depth3; all27 three-digit balanced words and both reductions; all6859 nine-span half-step triples and343 three-span triples; all55/19 constructive target sums; all12 rung candidates; exact scale/cell/corner enumeration through dyadic depth2.",
+    "actual_file_readback": "Parsed actual capstone eight-row interval table and L03 three-row scale table, plus the printed rung table, and compared each entry with independently calculated values. Other displayed answers were read semantically and checked against independent computations.",
+    "count_interpretation": "686 is the total of individual source, arithmetic, table, teaching-ID/pacing and integrity assertions. It is not686 separate educational judgments; those are recorded in lesson and capstone reviews."
+  },
+  "integrity_and_validator": {
+    "status": "passed",
+    "fresh_validator": {
+      "canonical_output_root": "Z:\\Kfield-doc-training\\K-Field_Training_Course",
+      "checks": [
+        "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+        "parsed manifest.json",
+        "parsed audit_report.json",
+        "parsed completion_report.json",
+        "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+      ],
+      "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-06-recursive-k-field-geometry-and-address-histories",
+      "errors": [],
+      "schema_version": "1.0",
+      "status": "passed",
+      "storage_authority": "User explicitly authorized project-folder outputs, 2026-11-05",
+      "validator_path": "C:\\Users\\info\\.codex\\skills\\build-high-school-course\\scripts\\validate_course.py",
+      "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+      "exit_code": 0,
+      "execution": "Explicit tf_gpu_env Python -B, parent-approved project-root adapter, fixture_mode=False; only canonical output root is overridden."
+    },
+    "manifest_sha256": "b50318fbedde8e54567b698871480746bc449650b00a87e21b0c0f9b12af5aae",
+    "fresh_integrity_checks": "All current manifest checkpoint hashes/statuses/declared dependencies and completion hashes match; required files exist within the course directory. The input contract is a hashed manifest checkpoint.",
+    "assembly": "Six source lesson texts match six unique marked blocks in required order; no stale pre-repair text remains.",
+    "storage": "User project-output override honored; no Desktop-only false failure and no course/source writes.",
+    "record_boundary": "Existing completed-course assertions are attributed records. This fresh validator and exact recomputation are separate from the builder's pass."
+  },
+  "limitations": [
+    "No classroom trial or empirical learning-outcome measurement.",
+    "No fresh full-corpus proof compiler or infinite inverse-limit theorem replay; recognition-only boundary is explicit and respected.",
+    "Source data were hashed/read in place, not copied. No large data snapshots or arrays were saved.",
+    "Authoring scripts were not reviewed as general-purpose code; their registered hashes were verified.",
+    "Conda activation emitted an OpenCL vendors/temp.txt cleanup warning. Required sys.executable was verified and both audit and validator exited0; no GPU calculation or package operation was required.",
+    "Eligibility applies only to the recorded Course06 files and finite contract; parent retains the acceptance/release decision."
+  ],
+  "final_disposition": "Zero unresolved critical, major or minor findings. Both requested practice-gap repairs are verified in actual authored teaching. Course06 is eligible for parent acceptance at the audited hashes. No parent/source files were edited."
+}

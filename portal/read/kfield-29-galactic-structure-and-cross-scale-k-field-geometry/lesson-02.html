@@ -1,0 +1,84 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Spherical response and phase addresses · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/29">Course 29</a><span>/</span><span>lesson 02</span></div><a class="original" href="../../../kfield-29-galactic-structure-and-cross-scale-k-field-geometry/lesson-02.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#spherical-response-and-phase-addresses">Spherical response and phase addresses</a><a href="#c2902-e1-follow-the-contract-of-each-map">C29.02-E1 — Follow the contract of each map</a><a href="#c2902-w1-worked-example">C29.02-W1 — Worked example</a><a href="#c2902-p1-domain-practice-and-answers">C29.02-P1 — Domain practice and answers</a><a href="#antipodal-parity">Antipodal parity</a><a href="#diagnostics-c2902-d1">Diagnostics — C29.02-D1</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Sky positions and projective axes</a><a aria-current=page href="lesson-02.html">Spherical response and phase addresses</a><a  href="lesson-03.html">The galaxy-derived cell</a><a  href="lesson-04.html">Shared grammar and distinct metrics</a><a  href="lesson-05.html">Distance metrics and ellipsoids</a><a  href="lesson-06.html">Recursive occupancy and retained residuals</a><a  href="lesson-07.html">Discovery and held-out comparisons</a><a  href="lesson-08.html">A cross-domain explanatory map</a></details></aside><div class="reading-column"><article class="prose"><h1 id="spherical-response-and-phase-addresses" tabindex="-1">Spherical response and phase addresses</h1>
+<p>Essential question: How can similar-looking formulas describe different operations?</p>
+<p>Goals: Evaluate a finite response card; flag undefined branches before division; compute a reciprocal address without treating phase as force.</p>
+<p>Prerequisite bridge. Lesson 01 taught unit vectors, dot products and radians. A normal is a vector perpendicular to a plane. The dot product with a unit normal measures the signed component along it. A zero dot product means the vectors are perpendicular. This lesson takes two periods: response and address first, domain and parity second.</p>
+<h2 id="c2902-e1-follow-the-contract-of-each-map" tabindex="-1">C29.02-E1 — Follow the contract of each map</h2>
+<p>An input-output rule needs a domain, units and a source. G03 is a historical Cell3 spherical-response construction. It is not the galaxy cell of G04. Here is the complete response card needed for our finite exercises:</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Symbol</th>
+<th>Meaning and rule</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>n, N</td>
+<td>unit direction and unit sheet normal</td>
+</tr>
+<tr>
+<td>h</td>
+<td>positive half-step sheet spacing, units L</td>
+</tr>
+<tr>
+<td>nu</td>
+<td>odd lock order, nu=2r+1 for integer r</td>
+</tr>
+<tr>
+<td>u</td>
+<td>n·N, dimensionless</td>
+</tr>
+<tr>
+<td>kappa</td>
+<td>nu π/(h u), units 1/L, defined only if u≠0</td>
+</tr>
+<tr>
+<td>q_resp</td>
+<td>kappa n, reciprocal-length vector</td>
+</tr>
+<tr>
+<td>s_ab,s_ac,s_bc</td>
+<td>loop displacement vectors in L, with s_ac=s_ab+s_bc</td>
+</tr>
+<tr>
+<td>psi_ij</td>
+<td>q_resp·s_ij, a dimensionless radian phase</td>
+</tr>
+<tr>
+<td>F</td>
+<td>sqrt(3+2cos(psi_ab)+2cos(psi_ac)+2cos(psi_bc))/3</td>
+</tr>
+<tr>
+<td>D</td>
+<td>sum over ab,ac,bc of w_ij[1-cos(psi_ij)], w_ij=abs(R_local,ij)</td>
+</tr>
+<tr>
+<td>G_star</td>
+<td>D/F, defined only when F≠0 and previous fields exist</td>
+</tr>
+</tbody>
+</table></div>
+<p><code>sum</code> instructs you to add the three terms. The weights are nonnegative and inherit their units from the historical local reciprocal metric. F is dimensionless, so G_star has D's units. The source calls G_star an unscaled relative response; an absolute gravity calibration is undefined. Synthetic weights in this course use a declared relative response unit U_D, not a measured force unit.</p>
+<p>The phases must respect loop closure: psi_ac=psi_ab+psi_bc before reduction by full turns. A cosine repeats after 2π. A supplied triple cannot be treated as geometrically realized merely because its three cosines can be evaluated. For a negative square-root argument, flag an inconsistent card or precision issue; do not silently replace it with zero.</p>
+<p>G04 p4 has a different map. Its reciprocal vector q_j=n_j/Delta_j has length inverse to its plane spacing Delta_j. Points on plane k_j satisfy <code>q_j·x=k_j+phi_j</code>, where k_j is an integer and phi_j is the phase offset measured in <strong>cycles</strong>, not radians. Multiply cycles by 2π to express a radian phase. At a general point, q_j·x-phi_j need not be an integer. That difference is a continuous address, with its fractional component retained. We use q_resp and q_j to avoid a collision between the two source-local uses of q.</p>
+<h2 id="c2902-w1-worked-example" tabindex="-1">C29.02-W1 — Worked example</h2>
+<p>Synthetic response: n=N=e_z, h=1L, nu=1. Then u=1, kappa=π/L and q_resp=(0,0,π/L). Choose loop displacements perpendicular to e_z and obeying closure, so all loop phases are zero. Since cos(0)=1, F=sqrt(3+2+2+2)/3=1. Each term in D is w(1-1)=0, hence D=0 and G_star=0 U_D.</p>
+<p>Separately, a synthetic reciprocal row q₁=(1,0)/L acting on x=(5/4,0)L gives q₁·x=5/4 cycles. With phi₁=1/4, the plane label is k₁=1. The L units cancel. This is an address calculation, not a response or a force.</p>
+<h2 id="c2902-p1-domain-practice-and-answers" tabindex="-1">C29.02-P1 — Domain practice and answers</h2>
+<p>Case A: n=e_x and N=e_z. Their dot product is zero, so kappa and q_resp are undefined. Save the input vectors and a <code>u_zero</code> flag with null response fields.</p>
+<p>Case B: consider closure-consistent loop phases (psi_ab,psi_ac,psi_bc)=(2π/3,4π/3,2π/3). Their cosines are all -1/2, giving F=sqrt(3-1-1-1)/3=0. With all three weights 1 U_D, D=3(1+1/2)=9/2 U_D. G_star is undefined, with a <code>transfer_zero</code> flag. Even if a different card gave D=0 too, 0/0 would remain undefined. The blueprint's all-2π/3 triple is repaired here because it violates loop closure; this is an algebraic domain demonstration, not a replay of G03's frozen geometry.</p>
+<p>Case C: a separately stipulated regular transfer has D=2 U_D and F=1/2. G_star=2/(1/2)=4 U_D. Keep its synthetic label.</p>
+<blockquote>
+<p>Scope and precision. G03#/precision_contract specifies IEEE-754 binary64 arithmetic, phase reduction to [-π,π), null undefined values and separate flags. These classroom calculations use exact symbolic angles; a numerical residual near zero is retained separately from an exact domain statement. No historical G03 coefficient replaces the mature S02 lock.</p>
+</blockquote>
+<h2 id="antipodal-parity" tabindex="-1">Antipodal parity</h2>
+<p>Reverse n while keeping N fixed. Then u changes sign and kappa changes sign. Their product q_resp=kappa n keeps its value: two sign changes cancel. Thus loop phases, F, D and G_star are even under this antipodal operation where defined. “Odd” means sign-reversing; “even” means unchanged. This response parity does not identify antipodal sky positions or any other kind of parity.</p>
+<h2 id="diagnostics-c2902-d1" tabindex="-1">Diagnostics — C29.02-D1</h2>
+<ol>
+<li>A reciprocal row is (0,2)/L and x=(0,3/4)L. With phi=1/2, what is k?</li>
+<li>Which fields fail first when u=0?</li>
+<li>Does antipodal reversal change q_resp? Show the signs.</li>
+<li>What is wrong with reporting G_star in newtons from this card?</li>
+</ol>
+<p>Worked answers. 1. The dot product is 3/2; subtract 1/2 to obtain k=1. 2. Division by u makes kappa undefined, so downstream q_resp and phases are unavailable; retain all inputs. 3. (-kappa)(-n)=kappa n, unchanged. 4. No force calibration or force unit has been supplied; relative response and phase do not establish a force law.</p>
+<p>Next: <a href="lesson-03.html">lesson 03</a> combines reciprocal rows into one reconstructible address system.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><a class="button secondary" href="lesson-01.html">← Previous lesson</a><a class="button" href="lesson-03.html">Next lesson →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/29">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

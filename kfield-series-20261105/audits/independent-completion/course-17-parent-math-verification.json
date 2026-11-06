@@ -1,0 +1,151 @@
+{
+  "course_id": "course-17",
+  "status": "passed_finite_math_not_course_acceptance",
+  "timestamp": "2026-11-05T19:08:59.453152+00:00",
+  "method": "Independent exact Fraction/Gaussian rational and matrix arithmetic authored by parent, without importing builder programs. Worked examples and full capstone read before computations.",
+  "passed_checks": 79,
+  "checks": [
+    "complex_controls",
+    "transport_worked",
+    "transport_practice",
+    "matrix_transport_worked",
+    "matrix_transport_practice",
+    "covariance_worked",
+    "covariance_practice",
+    "ordered_loop",
+    "basepoint_conjugation",
+    "trace_cyclic_([[(1)+(0)i, (0)+(0)i], [(0)+(0)i, (1)+(0)i]], [[(1)+(0)i, (0)+(0)i], [(0)+(0)i, (1)+(0)i]])",
+    "trace_cyclic_([[(1)+(0)i, (0)+(0)i], [(0)+(0)i, (1)+(0)i]], [[(0)+(0)i, (1)+(0)i], [(1)+(0)i, (0)+(0)i]])",
+    "trace_cyclic_([[(1)+(0)i, (0)+(0)i], [(0)+(0)i, (1)+(0)i]], [[(1)+(0)i, (0)+(0)i], [(0)+(0)i, (-1)+(0)i]])",
+    "trace_cyclic_([[(1)+(0)i, (0)+(0)i], [(0)+(0)i, (1)+(0)i]], [[(0)+(0)i, (-1)+(0)i], [(1)+(0)i, (0)+(0)i]])",
+    "trace_cyclic_([[(1)+(0)i, (0)+(0)i], [(0)+(0)i, (1)+(0)i]], [[(0)+(0)i, (1)+(0)i], [(-1)+(0)i, (0)+(0)i]])",
+    "trace_cyclic_([[(0)+(0)i, (1)+(0)i], [(1)+(0)i, (0)+(0)i]], [[(1)+(0)i, (0)+(0)i], [(0)+(0)i, (1)+(0)i]])",
+    "trace_cyclic_([[(0)+(0)i, (1)+(0)i], [(1)+(0)i, (0)+(0)i]], [[(0)+(0)i, (1)+(0)i], [(1)+(0)i, (0)+(0)i]])",
+    "trace_cyclic_([[(0)+(0)i, (1)+(0)i], [(1)+(0)i, (0)+(0)i]], [[(1)+(0)i, (0)+(0)i], [(0)+(0)i, (-1)+(0)i]])",
+    "trace_cyclic_([[(0)+(0)i, (1)+(0)i], [(1)+(0)i, (0)+(0)i]], [[(0)+(0)i, (-1)+(0)i], [(1)+(0)i, (0)+(0)i]])",
+    "trace_cyclic_([[(0)+(0)i, (1)+(0)i], [(1)+(0)i, (0)+(0)i]], [[(0)+(0)i, (1)+(0)i], [(-1)+(0)i, (0)+(0)i]])",
+    "trace_cyclic_([[(1)+(0)i, (0)+(0)i], [(0)+(0)i, (-1)+(0)i]], [[(1)+(0)i, (0)+(0)i], [(0)+(0)i, (1)+(0)i]])",
+    "trace_cyclic_([[(1)+(0)i, (0)+(0)i], [(0)+(0)i, (-1)+(0)i]], [[(0)+(0)i, (1)+(0)i], [(1)+(0)i, (0)+(0)i]])",
+    "trace_cyclic_([[(1)+(0)i, (0)+(0)i], [(0)+(0)i, (-1)+(0)i]], [[(1)+(0)i, (0)+(0)i], [(0)+(0)i, (-1)+(0)i]])",
+    "trace_cyclic_([[(1)+(0)i, (0)+(0)i], [(0)+(0)i, (-1)+(0)i]], [[(0)+(0)i, (-1)+(0)i], [(1)+(0)i, (0)+(0)i]])",
+    "trace_cyclic_([[(1)+(0)i, (0)+(0)i], [(0)+(0)i, (-1)+(0)i]], [[(0)+(0)i, (1)+(0)i], [(-1)+(0)i, (0)+(0)i]])",
+    "trace_cyclic_([[(0)+(0)i, (-1)+(0)i], [(1)+(0)i, (0)+(0)i]], [[(1)+(0)i, (0)+(0)i], [(0)+(0)i, (1)+(0)i]])",
+    "trace_cyclic_([[(0)+(0)i, (-1)+(0)i], [(1)+(0)i, (0)+(0)i]], [[(0)+(0)i, (1)+(0)i], [(1)+(0)i, (0)+(0)i]])",
+    "trace_cyclic_([[(0)+(0)i, (-1)+(0)i], [(1)+(0)i, (0)+(0)i]], [[(1)+(0)i, (0)+(0)i], [(0)+(0)i, (-1)+(0)i]])",
+    "trace_cyclic_([[(0)+(0)i, (-1)+(0)i], [(1)+(0)i, (0)+(0)i]], [[(0)+(0)i, (-1)+(0)i], [(1)+(0)i, (0)+(0)i]])",
+    "trace_cyclic_([[(0)+(0)i, (-1)+(0)i], [(1)+(0)i, (0)+(0)i]], [[(0)+(0)i, (1)+(0)i], [(-1)+(0)i, (0)+(0)i]])",
+    "trace_cyclic_([[(0)+(0)i, (1)+(0)i], [(-1)+(0)i, (0)+(0)i]], [[(1)+(0)i, (0)+(0)i], [(0)+(0)i, (1)+(0)i]])",
+    "trace_cyclic_([[(0)+(0)i, (1)+(0)i], [(-1)+(0)i, (0)+(0)i]], [[(0)+(0)i, (1)+(0)i], [(1)+(0)i, (0)+(0)i]])",
+    "trace_cyclic_([[(0)+(0)i, (1)+(0)i], [(-1)+(0)i, (0)+(0)i]], [[(1)+(0)i, (0)+(0)i], [(0)+(0)i, (-1)+(0)i]])",
+    "trace_cyclic_([[(0)+(0)i, (1)+(0)i], [(-1)+(0)i, (0)+(0)i]], [[(0)+(0)i, (-1)+(0)i], [(1)+(0)i, (0)+(0)i]])",
+    "trace_cyclic_([[(0)+(0)i, (1)+(0)i], [(-1)+(0)i, (0)+(0)i]], [[(0)+(0)i, (1)+(0)i], [(-1)+(0)i, (0)+(0)i]])",
+    "matrix_action_3",
+    "matrix_action_2",
+    "scalar_links_action",
+    "matrix_covariance_([[(0)+(0)i, (1)+(0)i], [(1)+(0)i, (0)+(0)i]], [[(1)+(0)i, (0)+(0)i], [(0)+(0)i, (1)+(0)i]], [[(0)+(0)i, (1)+(0)i], [(1)+(0)i, (0)+(0)i]])",
+    "matrix_covariance_([[(0)+(0)i, (1)+(0)i], [(1)+(0)i, (0)+(0)i]], [[(1)+(0)i, (0)+(0)i], [(0)+(0)i, (1)+(0)i]], [[(1)+(0)i, (0)+(0)i], [(0)+(0)i, (-1)+(0)i]])",
+    "matrix_covariance_([[(0)+(0)i, (1)+(0)i], [(1)+(0)i, (0)+(0)i]], [[(0)+(0)i, (1)+(0)i], [(1)+(0)i, (0)+(0)i]], [[(0)+(0)i, (1)+(0)i], [(1)+(0)i, (0)+(0)i]])",
+    "matrix_covariance_([[(0)+(0)i, (1)+(0)i], [(1)+(0)i, (0)+(0)i]], [[(0)+(0)i, (1)+(0)i], [(1)+(0)i, (0)+(0)i]], [[(1)+(0)i, (0)+(0)i], [(0)+(0)i, (-1)+(0)i]])",
+    "matrix_covariance_([[(0)+(0)i, (1)+(0)i], [(1)+(0)i, (0)+(0)i]], [[(1)+(0)i, (0)+(0)i], [(0)+(0)i, (-1)+(0)i]], [[(0)+(0)i, (1)+(0)i], [(1)+(0)i, (0)+(0)i]])",
+    "matrix_covariance_([[(0)+(0)i, (1)+(0)i], [(1)+(0)i, (0)+(0)i]], [[(1)+(0)i, (0)+(0)i], [(0)+(0)i, (-1)+(0)i]], [[(1)+(0)i, (0)+(0)i], [(0)+(0)i, (-1)+(0)i]])",
+    "matrix_covariance_([[(1)+(0)i, (0)+(0)i], [(0)+(0)i, (-1)+(0)i]], [[(1)+(0)i, (0)+(0)i], [(0)+(0)i, (1)+(0)i]], [[(0)+(0)i, (1)+(0)i], [(1)+(0)i, (0)+(0)i]])",
+    "matrix_covariance_([[(1)+(0)i, (0)+(0)i], [(0)+(0)i, (-1)+(0)i]], [[(1)+(0)i, (0)+(0)i], [(0)+(0)i, (1)+(0)i]], [[(1)+(0)i, (0)+(0)i], [(0)+(0)i, (-1)+(0)i]])",
+    "matrix_covariance_([[(1)+(0)i, (0)+(0)i], [(0)+(0)i, (-1)+(0)i]], [[(0)+(0)i, (1)+(0)i], [(1)+(0)i, (0)+(0)i]], [[(0)+(0)i, (1)+(0)i], [(1)+(0)i, (0)+(0)i]])",
+    "matrix_covariance_([[(1)+(0)i, (0)+(0)i], [(0)+(0)i, (-1)+(0)i]], [[(0)+(0)i, (1)+(0)i], [(1)+(0)i, (0)+(0)i]], [[(1)+(0)i, (0)+(0)i], [(0)+(0)i, (-1)+(0)i]])",
+    "matrix_covariance_([[(1)+(0)i, (0)+(0)i], [(0)+(0)i, (-1)+(0)i]], [[(1)+(0)i, (0)+(0)i], [(0)+(0)i, (-1)+(0)i]], [[(0)+(0)i, (1)+(0)i], [(1)+(0)i, (0)+(0)i]])",
+    "matrix_covariance_([[(1)+(0)i, (0)+(0)i], [(0)+(0)i, (-1)+(0)i]], [[(1)+(0)i, (0)+(0)i], [(0)+(0)i, (-1)+(0)i]], [[(1)+(0)i, (0)+(0)i], [(0)+(0)i, (-1)+(0)i]])",
+    "Cayley_hypotheses_worked",
+    "Cayley_values_worked",
+    "Cayley_unitarity_worked",
+    "conservation_worked",
+    "retained_remainder_worked",
+    "worked_expectation",
+    "Cayley_hypotheses_practice",
+    "Cayley_values_practice",
+    "Cayley_unitarity_practice",
+    "conservation_practice",
+    "retained_remainder_practice",
+    "practice_expectation",
+    "Cayley_hypotheses_non_diagonal_supplement",
+    "Cayley_unitarity_non_diagonal_supplement",
+    "conservation_non_diagonal_supplement",
+    "retained_remainder_non_diagonal_supplement",
+    "nonselfadjoint_counterexample",
+    "pairing_inverse",
+    "Hodge_blocks_[1, 4, 16]",
+    "Hodge_duality_[1, 4, 16]",
+    "Hodge_scaling_[1, 4, 16]",
+    "Hodge_blocks_[4, 1, 16]",
+    "Hodge_duality_[4, 1, 16]",
+    "Hodge_scaling_[4, 1, 16]",
+    "historical_determinants",
+    "dimensional_exponents",
+    "weighted_warmups",
+    "synthetic_gap_units",
+    "thermal_partial_sum",
+    "rubric_periods"
+  ],
+  "cayley_results": [
+    {
+      "case": "worked",
+      "C": [
+        [
+          "(0)+(-1)i",
+          "(0)+(0)i"
+        ],
+        [
+          "(0)+(0)i",
+          "(-3/5)+(-4/5)i"
+        ]
+      ],
+      "N": "5",
+      "Q_L": "(9)+(0)i",
+      "expectation": "(9/5)+(0)i"
+    },
+    {
+      "case": "practice",
+      "C": [
+        [
+          "(1)+(0)i",
+          "(0)+(0)i"
+        ],
+        [
+          "(0)+(0)i",
+          "(0)+(-1)i"
+        ]
+      ],
+      "N": "6",
+      "Q_L": "(8)+(0)i",
+      "expectation": "(4/3)+(0)i"
+    },
+    {
+      "case": "non_diagonal_supplement",
+      "C": [
+        [
+          "(1/2)+(-1/2)i",
+          "(-1/2)+(-1/2)i"
+        ],
+        [
+          "(-1/2)+(-1/2)i",
+          "(1/2)+(-1/2)i"
+        ]
+      ],
+      "N": "5",
+      "Q_L": "(9)+(0)i",
+      "expectation": "(9/5)+(0)i"
+    }
+  ],
+  "thermal_terms": [
+    "1/16",
+    "1/32",
+    "1/1024"
+  ],
+  "thermal_partial_sum": "97/1024",
+  "script": "Z:\\Kfield-doc-training\\.work\\verify_course17_parent_math.py",
+  "script_sha256": "04d4871af9981c9cf91c6a0c0bf557967c1092109842d01ad9e0bb58485bdf90",
+  "limits": [
+    "Does not replay the archival fixed-rung certificate or establish a continuum limit.",
+    "Non-diagonal supplemental Cayley and frame cases corroborate the general proof; they are not additional required student tasks.",
+    "Final content hashes, supporting documents and deterministic validator still require completed-course review."
+  ]
+}

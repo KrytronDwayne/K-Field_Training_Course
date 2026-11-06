@@ -1,0 +1,84 @@
+{
+  "SA-12": {
+    "id": "SA-12",
+    "course": 12,
+    "finding": "source_fidelity",
+    "lessons": [
+      "lesson-05",
+      "lesson-06",
+      "lesson-07"
+    ],
+    "merge_action": "append unique requirements to source_audit_contract; attach to named lesson authoring obligations; preserve existing fields",
+    "requirements": [
+      "Assign the antipodal node-function split explicitly:14 even and13 odd; removing the uniform even coordinate leaves13+13 observable coordinates.",
+      "Keep Emily adjacency modes, seven lambda-sheet populations, 13 antipodal pairs, 13 decoder channels and seven residual-syndrome dimensions as different carriers even where counts match."
+    ],
+    "source_references": [
+      "S02#/backbone_sequence/7/proof"
+    ],
+    "status": "applied_to_blueprint_by_parent",
+    "prior_application_status": "prepared_not_applied",
+    "applied_at": "2026-11-05T17:02:05.375955+00:00"
+  },
+  "EA-12-E06-1": {
+    "course": 12,
+    "finding": "E06",
+    "lessons": [
+      "lesson-03"
+    ],
+    "required_bridge": "Teach a square root as a number whose square is specified; define Av=lambda v component by component before eigenpair verification. General spectral proofs are recognition-only unless explicitly taught.",
+    "worked_example": {
+      "id": "C12-EIG-EX1",
+      "A": [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "eigenpairs": [
+        {
+          "lambda": "sqrt(2)",
+          "v": [
+            "1",
+            "sqrt(2)",
+            "1"
+          ]
+        },
+        {
+          "lambda": "0",
+          "v": [
+            "1",
+            "0",
+            "-1"
+          ]
+        },
+        {
+          "lambda": "-sqrt(2)",
+          "v": [
+            "1",
+            "-sqrt(2)",
+            "1"
+          ]
+        }
+      ],
+      "checks": "Multiply every row for all three pairs. Nonzero modes have length2, zero mode length sqrt(2); normalize explicitly and verify pairwise dot products zero."
+    },
+    "practice": "C12-EIG-P1: verify A(2,0,-2)=0 and explain scaling of an eigenvector; C12-EIG-D1 test whether (1,1,1) is an eigenvector. Connect to source Emily system only after source-specific operator and ordering are pinned.",
+    "id": "EA-12-E06-1",
+    "status": "applied_to_blueprint_by_parent",
+    "merge_action": "Attach to named lesson authoring obligations and capstone prerequisites. Actual content links remain an E05 acceptance gate.",
+    "prior_application_status": "prepared_not_applied",
+    "applied_at": "2026-11-05T17:02:05.375955+00:00"
+  }
+}

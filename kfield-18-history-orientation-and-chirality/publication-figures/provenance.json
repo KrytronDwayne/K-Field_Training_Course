@@ -1,0 +1,198 @@
+{
+  "course": "kfield-18-history-orientation-and-chirality",
+  "figures": [
+    {
+      "title": "An empty word is an address, not a zero value",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-18-history-orientation-and-chirality\\publication-figures\\prefix-tree.png",
+      "sha256": "678ebefded0cadb1038dd378b904aa101d11a1f676ef22e2859780fb159d75be",
+      "lessons": [
+        1,
+        2
+      ],
+      "kind": "deterministic synthetic teaching illustration",
+      "source_lessons": [
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-18-history-orientation-and-chirality\\lesson-01.md",
+          "sha256": "368c786fc3b55fefaa4ef2399c03e4afebf2eb3546de852dce0463298c04ba54"
+        },
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-18-history-orientation-and-chirality\\lesson-02.md",
+          "sha256": "839c532bd997703987d3842df835f30ab46c9292f3ebb67f61dc3b4d6ba21dab"
+        }
+      ],
+      "source_ledger": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-18-history-orientation-and-chirality\\sources.md",
+        "sha256": "877350d02e5298cb385df1828f23427ad645a2475380da5f5a483b2509d9e317"
+      },
+      "evidence_sources": [
+        {
+          "id": "S01",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+          "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S02",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+          "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S03",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+          "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S04",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+          "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S05",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+          "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        }
+      ],
+      "evidence_scope": "Authored synthetic teaching figure; lesson identities locate the exact numerical and mathematical inputs. Archival identities resolve source IDs but do not assert replay of archived claims.",
+      "vector_companion": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-18-history-orientation-and-chirality\\publication-figures\\prefix-tree.svg",
+        "sha256": "66d39824a486425b549a8871cd18f2822cf8088b160956685a3ad1f964465591"
+      }
+    },
+    {
+      "title": "Both endpoint defects belong in the record",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-18-history-orientation-and-chirality\\publication-figures\\endpoint-defects.png",
+      "sha256": "b45f312c8ebc8e9eac0f39c3c8f72499646f405d590ea0e18bd7579033b8f90d",
+      "lessons": [
+        2,
+        3,
+        4
+      ],
+      "kind": "deterministic synthetic teaching illustration",
+      "source_lessons": [
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-18-history-orientation-and-chirality\\lesson-02.md",
+          "sha256": "839c532bd997703987d3842df835f30ab46c9292f3ebb67f61dc3b4d6ba21dab"
+        },
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-18-history-orientation-and-chirality\\lesson-03.md",
+          "sha256": "16fc5b5439ccdc9b43f109a2ff79c69d6b1adc48fdd13e0276cb9b1fc508a362"
+        },
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-18-history-orientation-and-chirality\\lesson-04.md",
+          "sha256": "16d3710e218f183cc5a68c341a5549fe87f9df9d11038defd459776d89147634"
+        }
+      ],
+      "source_ledger": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-18-history-orientation-and-chirality\\sources.md",
+        "sha256": "877350d02e5298cb385df1828f23427ad645a2475380da5f5a483b2509d9e317"
+      },
+      "evidence_sources": [
+        {
+          "id": "S01",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+          "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S02",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+          "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S03",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+          "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S04",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+          "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S05",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+          "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        }
+      ],
+      "evidence_scope": "Authored synthetic teaching figure; lesson identities locate the exact numerical and mathematical inputs. Archival identities resolve source IDs but do not assert replay of archived claims.",
+      "vector_companion": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-18-history-orientation-and-chirality\\publication-figures\\endpoint-defects.svg",
+        "sha256": "e6108a88c3afcc06c1fc7de5f5ab9597960ab882cd525eaaf160603827bac407"
+      }
+    },
+    {
+      "title": "Correlating two labels does not identify them",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-18-history-orientation-and-chirality\\publication-figures\\paired-projector.png",
+      "sha256": "f26117fdd5a85d1c27399814bc3bf6fd171813fc5e14551a4597d8301c1f839e",
+      "lessons": [
+        5,
+        6,
+        7
+      ],
+      "kind": "deterministic synthetic teaching illustration",
+      "source_lessons": [
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-18-history-orientation-and-chirality\\lesson-05.md",
+          "sha256": "0f04af9b52333d58ce45677d875563a979c2d4c0270f8d5c04a9b539cf1fd2c1"
+        },
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-18-history-orientation-and-chirality\\lesson-06.md",
+          "sha256": "a6120bc92c1c16183f5e91df5e4d3b38e4af6337933a51f35fe1e26809a71882"
+        },
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-18-history-orientation-and-chirality\\lesson-07.md",
+          "sha256": "4014cd4e6d5af6f4f02bc7edfc2210ea0ea7470d717d32a3624b6476673d0cf9"
+        }
+      ],
+      "source_ledger": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-18-history-orientation-and-chirality\\sources.md",
+        "sha256": "877350d02e5298cb385df1828f23427ad645a2475380da5f5a483b2509d9e317"
+      },
+      "evidence_sources": [
+        {
+          "id": "S01",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+          "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S02",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+          "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S03",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+          "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S04",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+          "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S05",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+          "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        }
+      ],
+      "evidence_scope": "Authored synthetic teaching figure; lesson identities locate the exact numerical and mathematical inputs. Archival identities resolve source IDs but do not assert replay of archived claims.",
+      "vector_companion": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-18-history-orientation-and-chirality\\publication-figures\\paired-projector.svg",
+        "sha256": "0650336a84a8b2ae594a694d8f643f12b8d15dc73cf94d6ba9bcf3c1b69c233a"
+      }
+    }
+  ]
+}

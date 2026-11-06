@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-08",
+  "timestamp": "2026-11-05T17:55:51.413893+00:00",
+  "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-08-face-area-ratios-and-the-k-field-mass-bridge",
+  "validator": "passed",
+  "validator_checks": [
+    "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+    "parsed manifest.json",
+    "parsed audit_report.json",
+    "parsed completion_report.json",
+    "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+  ],
+  "validator_errors": [],
+  "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+  "manifest_sha256": "b6a74e9fd6942b1c092cc1a48cc71258235341138b862ddf4cc5a194d37200c5",
+  "completion_report_sha256": "f7545ad50caa4e9d40eb061e8e00ef84ae32365e70f63bef1d243887a57140d4",
+  "course_sha256": "98a8dee354f2f032ef6df4810fb9b531426d899902766e1e58f850bfde44afcb",
+  "status": "accepted",
+  "independent_audit": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\independent-completion\\course-08-independent-audit.json",
+  "independent_report_sha256": "571d7da40b28aa053dc8af9a4033e12814bbb759d0e3589875f6a89067e9be62",
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "scope": "Completed topical course accepted after parent review of independent source/content audit and fresh deterministic validation; documented source limitations retained."
+}

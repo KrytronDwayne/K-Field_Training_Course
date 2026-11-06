@@ -1,0 +1,88 @@
+{
+  "sources": [
+    {
+      "id": "S01",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "verified_sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "read_scope": "Hash verified; no source-specific theorem body is used in this course. Backbone invariants retained from input contract."
+    },
+    {
+      "id": "S02",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "verified_sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "read_scope": "Hash verified; no source-specific theorem body is used in this course. Backbone invariants retained from input contract."
+    },
+    {
+      "id": "S03",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "verified_sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "read_scope": "Hash verified; no source-specific theorem body is used in this course. Backbone invariants retained from input contract."
+    },
+    {
+      "id": "S04",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+      "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "verified_sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "read_scope": "Hash verified; no source-specific theorem body is used in this course. Backbone invariants retained from input contract."
+    },
+    {
+      "id": "S05",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+      "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "hash_check": "verified locally; original source left in place",
+      "evidence_class": "source",
+      "read_scope": "Fresh local records 16,18,20,25,26,27 read; zero-based JSON pointers.",
+      "pointers": [
+        "/records/16",
+        "/records/18",
+        "/records/20",
+        "/records/25",
+        "/records/26",
+        "/records/27"
+      ]
+    },
+    {
+      "logical_path": "applications/kfield_lucas_lab/rag_corpus/35_spectral_energy_phase.md",
+      "object_id": "03dc7e11045b3912f1e8cc0d69a4789b6ad300ac78b4549ea86c45e51228c7bc",
+      "sha256": "03dc7e11045b3912f1e8cc0d69a4789b6ad300ac78b4549ea86c45e51228c7bc",
+      "role": "Pinned testbench source; retrieve bounded bytes through krytronx_get and follow its exact underlying contract.",
+      "id": "T35",
+      "read_scope": "Full bounded krytronx_get bytes read; range digest equals pinned SHA-256.",
+      "byte_range": [
+        0,
+        3018
+      ],
+      "evidence_class": "source"
+    },
+    {
+      "logical_path": "applications/kfield_lucas_lab/rag_corpus/50_physical_closure.md",
+      "object_id": "c2a25a583af904601968adc1d3efde825f76218c92a2f52d829afc093f52c02a",
+      "sha256": "c2a25a583af904601968adc1d3efde825f76218c92a2f52d829afc093f52c02a",
+      "role": "Pinned testbench source; retrieve bounded bytes through krytronx_get and follow its exact underlying contract.",
+      "id": "T50",
+      "read_scope": "Full bounded krytronx_get bytes read; range digest equals pinned SHA-256.",
+      "byte_range": [
+        0,
+        1761
+      ],
+      "evidence_class": "source"
+    }
+  ],
+  "generation": "sha256:5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+  "manifest_sha256": "5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+  "freshness": "Capabilities called; snapshot identity absent there, confirmed by subsequent rerank:false RAG response. Search was discovery only; exact claims grounded in bounded pinned sources/local records.",
+  "source_copies_created": false,
+  "gaps": [
+    "Native AS7341 arrays and their original calculation contracts not replayed.",
+    "No physical run, radiometric calibration or exposure transfer supplied.",
+    "No fresh Agda/compiler or backbone proof verification; source status stays reported."
+  ]
+}

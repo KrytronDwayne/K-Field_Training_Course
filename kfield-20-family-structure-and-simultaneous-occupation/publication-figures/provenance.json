@@ -1,0 +1,254 @@
+{
+  "course": "kfield-20-family-structure-and-simultaneous-occupation",
+  "figures": [
+    {
+      "title": "All twenty-seven labels remain visible",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-20-family-structure-and-simultaneous-occupation\\publication-figures\\lambda-slices.png",
+      "sha256": "5557ec02b8431850541f64e032b6f28f020f5ba2c4e22e75f0d396009a73c503",
+      "lessons": [
+        1,
+        2
+      ],
+      "kind": "deterministic synthetic teaching illustration",
+      "source_lessons": [
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-20-family-structure-and-simultaneous-occupation\\lesson-01.md",
+          "sha256": "ebcf88fce3a1b5231d1a844f51152f2690f6f935c4ed522282dfa6d824a3eb37"
+        },
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-20-family-structure-and-simultaneous-occupation\\lesson-02.md",
+          "sha256": "403cc3516c2eb3e2bf7c2a7d3171c48d8646631ec78bf090809f2e6821d99f63"
+        }
+      ],
+      "source_ledger": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-20-family-structure-and-simultaneous-occupation\\sources.md",
+        "sha256": "d147b1568de2c92e232b0c52720806bba4185377a82ec406d7b0eeee444153d9"
+      },
+      "evidence_sources": [
+        {
+          "id": "S01",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+          "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S02",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+          "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S03",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+          "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S04",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+          "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S05",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+          "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        }
+      ],
+      "evidence_scope": "Authored synthetic teaching figure; lesson identities locate the exact numerical and mathematical inputs. Archival identities resolve source IDs but do not assert replay of archived claims.",
+      "vector_companion": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-20-family-structure-and-simultaneous-occupation\\publication-figures\\lambda-slices.svg",
+        "sha256": "0f937cf18db6b98727764a58bc70e185960ba2332e10c2e7805737dcb76fda45"
+      }
+    },
+    {
+      "title": "The normalized coefficient is not the mean",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-20-family-structure-and-simultaneous-occupation\\publication-figures\\mean-detail.png",
+      "sha256": "740adc89ad9c0a42b8508e5bef50d6344f0c3e8f8748eef28e59535d4e83a5a5",
+      "lessons": [
+        2,
+        3
+      ],
+      "kind": "deterministic synthetic teaching illustration",
+      "source_lessons": [
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-20-family-structure-and-simultaneous-occupation\\lesson-02.md",
+          "sha256": "403cc3516c2eb3e2bf7c2a7d3171c48d8646631ec78bf090809f2e6821d99f63"
+        },
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-20-family-structure-and-simultaneous-occupation\\lesson-03.md",
+          "sha256": "56a278a399922de7e75b7788836c4a0d4b5ec65c701aed82610a30798355ab43"
+        }
+      ],
+      "source_ledger": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-20-family-structure-and-simultaneous-occupation\\sources.md",
+        "sha256": "d147b1568de2c92e232b0c52720806bba4185377a82ec406d7b0eeee444153d9"
+      },
+      "evidence_sources": [
+        {
+          "id": "S01",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+          "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S02",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+          "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S03",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+          "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S04",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+          "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S05",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+          "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        }
+      ],
+      "evidence_scope": "Authored synthetic teaching figure; lesson identities locate the exact numerical and mathematical inputs. Archival identities resolve source IDs but do not assert replay of archived claims.",
+      "vector_companion": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-20-family-structure-and-simultaneous-occupation\\publication-figures\\mean-detail.svg",
+        "sha256": "3499f2f82eec78db2d93aa02f9073a6ab6822b9d7fb11e593f87f11da8d89507"
+      }
+    },
+    {
+      "title": "Forty-eight counts a specified image basis",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-20-family-structure-and-simultaneous-occupation\\publication-figures\\rank48.png",
+      "sha256": "4f4ba8257d1423cbe6a5a708b93a7a20c1b01768a0f59152e0b9af8e4c2166ba",
+      "lessons": [
+        4,
+        5,
+        6
+      ],
+      "kind": "deterministic synthetic teaching illustration",
+      "source_lessons": [
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-20-family-structure-and-simultaneous-occupation\\lesson-04.md",
+          "sha256": "f40c3ab70dc355fad268ef9815c91f957fa3f9017fe1e64263e6d54bd76bf900"
+        },
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-20-family-structure-and-simultaneous-occupation\\lesson-05.md",
+          "sha256": "51ee238d2faa15cffaa590ce8d35d7b9630b5b57fb3f8a98fb825e22cf1d016f"
+        },
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-20-family-structure-and-simultaneous-occupation\\lesson-06.md",
+          "sha256": "2825223a76bcc7d4c8d859b99d7050788e6cd3331fbbc29d06c65a1e899e47c6"
+        }
+      ],
+      "source_ledger": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-20-family-structure-and-simultaneous-occupation\\sources.md",
+        "sha256": "d147b1568de2c92e232b0c52720806bba4185377a82ec406d7b0eeee444153d9"
+      },
+      "evidence_sources": [
+        {
+          "id": "S01",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+          "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S02",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+          "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S03",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+          "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S04",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+          "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S05",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+          "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        }
+      ],
+      "evidence_scope": "Authored synthetic teaching figure; lesson identities locate the exact numerical and mathematical inputs. Archival identities resolve source IDs but do not assert replay of archived claims.",
+      "vector_companion": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-20-family-structure-and-simultaneous-occupation\\publication-figures\\rank48.svg",
+        "sha256": "b89b6bda06cc1529f7b5c15173c31a2314bca71dabdba6cd61eb2009f8aee709"
+      }
+    },
+    {
+      "title": "A complete basis represents an input; it does not select it",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-20-family-structure-and-simultaneous-occupation\\publication-figures\\weyl-ledger.png",
+      "sha256": "dab093bbea4b2e1b1cf851389696b95ce86efb6c904abb25423e1b36ff0b9249",
+      "lessons": [
+        3,
+        7
+      ],
+      "kind": "deterministic synthetic teaching illustration",
+      "source_lessons": [
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-20-family-structure-and-simultaneous-occupation\\lesson-03.md",
+          "sha256": "56a278a399922de7e75b7788836c4a0d4b5ec65c701aed82610a30798355ab43"
+        },
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-20-family-structure-and-simultaneous-occupation\\lesson-07.md",
+          "sha256": "acc4c091042f2704543eb95d3b761f36e0a812c8d73a0341b3c8b806b7d9680f"
+        }
+      ],
+      "source_ledger": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-20-family-structure-and-simultaneous-occupation\\sources.md",
+        "sha256": "d147b1568de2c92e232b0c52720806bba4185377a82ec406d7b0eeee444153d9"
+      },
+      "evidence_sources": [
+        {
+          "id": "S01",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+          "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S02",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+          "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S03",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+          "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S04",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+          "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S05",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+          "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        }
+      ],
+      "evidence_scope": "Authored synthetic teaching figure; lesson identities locate the exact numerical and mathematical inputs. Archival identities resolve source IDs but do not assert replay of archived claims.",
+      "vector_companion": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-20-family-structure-and-simultaneous-occupation\\publication-figures\\weyl-ledger.svg",
+        "sha256": "7f6932b3a0c2a7a55bdfa4ee0d80f7032bfd9709eb84a514d51405864c54d462"
+      }
+    }
+  ]
+}

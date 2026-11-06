@@ -1,0 +1,80 @@
+{
+  "status": "complete",
+  "topic": "Shape and Scale: Devon Reduction and the Jack Jacobian",
+  "audience": "High-school seniors; first-principles teaching, with concrete prerequisite capabilities and taught bridges.",
+  "assumptions": [
+    "A topical short course, not a semester per topic. Pacing is 55-minute core lessons plus capstone periods; split dense lessons if actual learner load requires it.",
+    "No prior calculus, abstract algebra, university linear algebra, or quantum mechanics unless explicitly taught earlier.",
+    "Required core assessments must be solvable with taught finite examples. Clearly label deeper recognition-only extensions.",
+    "Markdown is the delivery format; no PDF or Word generation is required.",
+    "Lesson 5 uses three periods; total 11 core and 2 capstone periods.",
+    "Synthetic records are separate examples; no empirical measurements are supplied.",
+    "Source-reported global DAG gap remains scoped outside finite course verification."
+  ],
+  "outputs": [
+    "input-contract.json",
+    "course-map.md",
+    "lesson-01.md",
+    "lesson-02.md",
+    "lesson-03.md",
+    "lesson-04.md",
+    "lesson-05.md",
+    "lesson-06.md",
+    "terminology.md",
+    "teacher-guide.md",
+    "capstone.md",
+    "sources.md",
+    "sources.json",
+    "coverage.json",
+    "verify_examples.py",
+    "verification.json",
+    "independent-audit.json",
+    "audit_report.json",
+    "course.md",
+    "finalize_course.py",
+    "completion_report.json"
+  ],
+  "audit_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "hashes": {
+    "input-contract.json": "98537e1ee1dcad68ac0d5dccfdd71cf9f8f4e0d248104c8c28f69ab384215341",
+    "course-map.md": "8f7f118cf1b9ca94a7261ef9dfcb2b20034c4fbefc9a49c762c2f4d647a6b5f1",
+    "lesson-01.md": "042e873c049e62f49c9f587d065eae9ca1a653138ef9c333a18ed04d8fa33561",
+    "lesson-02.md": "6dadc99b99c4ba5d31c2c0a5a68bd7166140fdc25cd8c48a3a40943cd412c3ec",
+    "lesson-03.md": "281a51315031676aa8d61aeeb2061a38c9722f883975c2579d7234f5ea092d60",
+    "lesson-04.md": "fb8ac5542ba49b5b370ab841b895e834124a7519c6a639c87ad68c1c213e91ff",
+    "lesson-05.md": "78eea44b105f8397ce9e5f10b4fbab142113d004795cfc28159409eaa1869cf1",
+    "lesson-06.md": "b2491923d1a6c83d4840991fbcf00d5bd800029212f85e0d488eb471414a4670",
+    "terminology.md": "248d5eb0abc8664e1053677ff5dac22b0cfd5303437e59f469723633884aa775",
+    "teacher-guide.md": "f72b575ea3415f000d0d8ce9851f471b7e5b34c3032d6f8f4070222b9beebc64",
+    "capstone.md": "7351fbf24aa7ebae2912be82e45885dd8b1b237839760052597967074129d87a",
+    "sources.md": "fa2f8c2b773d0bcfde20b42c3f9da14e67894a9c35f5b00bacc4afad36f149da",
+    "sources.json": "570f3e71ac304792b26e845bae92504d09a0caf634916f88f50715e88074427a",
+    "coverage.json": "8e1edff22be5fa86091cf653547fb54d0af4f4d044f96156024ad4574fbdc679",
+    "verify_examples.py": "86ad96fd115911c0e83002dfdc1661f87a5f7ac25a9493b395cc78c71b5299d7",
+    "verification.json": "0c713116c081dbc0011f08da3e8bbfda7db82b5ea9d65bb4007378582824ba39",
+    "independent-audit.json": "a9d18bdf0d88034db20c0d6ab2a64557fa0033d85df73728f3d15e57960dd144",
+    "audit_report.json": "1d96a12bc2830e20391830722cb51400a9e19457935e54112486a803c1189e76",
+    "course.md": "7635d29c0ce7b99981dc194dece148acafdd513729a1ed5e3c9f4e73c2dfe73f",
+    "finalize_course.py": "188dc2d5ca992bff4585a0abf980001e500e0d33402ffbfeecba21e6360fedeb",
+    "manifest.json": "fc374b6b2d12a4c432f16bbca874a0e5f41686318a4424d6fb66be8c6f5d1b10"
+  },
+  "lesson_count": 6,
+  "core_periods": 11,
+  "capstone_periods": 2,
+  "source_gaps": [
+    "S03 AUD-002 global serialization/DAG repair not certified; local explicit M07 formulas retrieved and checked.",
+    "No physical dynamics or finite Gamma2 response derived from J alone."
+  ],
+  "validator": {
+    "status": "passed",
+    "exit_code": 0,
+    "result_file": "validator-result.json",
+    "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+    "command": "& 'C:/ProgramData/anaconda3/Scripts/conda.exe' run -n tf_gpu_env python 'Z:/Kfield-doc-training/.work/validate_project_course.py' COURSE_DIRECTORY --json"
+  },
+  "harmless_unresolved_minor_findings": []
+}

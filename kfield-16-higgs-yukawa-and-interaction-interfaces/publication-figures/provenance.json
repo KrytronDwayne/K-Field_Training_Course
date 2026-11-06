@@ -1,0 +1,198 @@
+{
+  "course": "kfield-16-higgs-yukawa-and-interaction-interfaces",
+  "figures": [
+    {
+      "title": "Slot order determines the interface sign",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\publication-figures\\wedge-contraction.png",
+      "sha256": "999c4728674e8ef8f33719a8cb683948c62b8ea876a708039506d1c465904862",
+      "lessons": [
+        1,
+        2,
+        3
+      ],
+      "kind": "deterministic synthetic teaching illustration",
+      "source_lessons": [
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\lesson-01.md",
+          "sha256": "78095acc1aca02a31702eb2bfa5b01f0e63bbea8c1d026971a0dc0b9fc0d5d44"
+        },
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\lesson-02.md",
+          "sha256": "c532d9bc768ba4c271282b4b0b0f8e36d0bfb67205e93c7ba157c87c0fcdd79a"
+        },
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\lesson-03.md",
+          "sha256": "62172f865b541af0bc34671192ac9cdbc75ee85910f696b2a87820867c99831a"
+        }
+      ],
+      "source_ledger": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\sources.md",
+        "sha256": "fd8e3a83e4adc66a48fd4761e529d1ac6bc7d7b5ffdb372eaff796fa45149db0"
+      },
+      "evidence_sources": [
+        {
+          "id": "S01",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+          "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S02",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+          "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S03",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+          "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S04",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+          "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S05",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+          "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        }
+      ],
+      "evidence_scope": "Authored synthetic teaching figure; lesson identities locate the exact numerical and mathematical inputs. Archival identities resolve source IDs but do not assert replay of archived claims.",
+      "vector_companion": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\publication-figures\\wedge-contraction.svg",
+        "sha256": "7c9eafb941a65e73c72853d096a050ff361af933690740b8dbcf137c7b8cb7f9"
+      }
+    },
+    {
+      "title": "Neutrality does not select the mass scale",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\publication-figures\\mass-scale.png",
+      "sha256": "9ddea56d87ae8eecf1a51d3828bcbed48e5f0c2fe7571ce716477dd64576c600",
+      "lessons": [
+        3,
+        4,
+        5
+      ],
+      "kind": "deterministic synthetic teaching illustration",
+      "source_lessons": [
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\lesson-03.md",
+          "sha256": "62172f865b541af0bc34671192ac9cdbc75ee85910f696b2a87820867c99831a"
+        },
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\lesson-04.md",
+          "sha256": "63f665ce46013775f89a30ddb8fbcd912901b22385ab80ea5803c1422fecf931"
+        },
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\lesson-05.md",
+          "sha256": "66885930686e47eee4803f82332278e9ad03d082e39ed4187bcdf03bf61dcc6f"
+        }
+      ],
+      "source_ledger": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\sources.md",
+        "sha256": "fd8e3a83e4adc66a48fd4761e529d1ac6bc7d7b5ffdb372eaff796fa45149db0"
+      },
+      "evidence_sources": [
+        {
+          "id": "S01",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+          "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S02",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+          "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S03",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+          "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S04",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+          "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S05",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+          "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        }
+      ],
+      "evidence_scope": "Authored synthetic teaching figure; lesson identities locate the exact numerical and mathematical inputs. Archival identities resolve source IDs but do not assert replay of archived claims.",
+      "vector_companion": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\publication-figures\\mass-scale.svg",
+        "sha256": "61db2a2c1afe05930dbcebd8bc432b433e41c05582c08c71ecf72ab49b7588f6"
+      }
+    },
+    {
+      "title": "Retain endpoints, signed changes, and the remainder",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\publication-figures\\energy-ledger.png",
+      "sha256": "c0e5bab302c9a788315e75c96c9ade9bdddeb395f747a8717d803b95caf659a8",
+      "lessons": [
+        6,
+        7
+      ],
+      "kind": "deterministic synthetic teaching illustration",
+      "source_lessons": [
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\lesson-06.md",
+          "sha256": "63910c03631a6ff274b0fb2dcef969c085dd28c9498f56f19f85f1d72a5c116f"
+        },
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\lesson-07.md",
+          "sha256": "78c9724c72354d8674f710d84354474d93dfec017d83678a7d9ec623514c1df5"
+        }
+      ],
+      "source_ledger": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\sources.md",
+        "sha256": "fd8e3a83e4adc66a48fd4761e529d1ac6bc7d7b5ffdb372eaff796fa45149db0"
+      },
+      "evidence_sources": [
+        {
+          "id": "S01",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+          "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S02",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+          "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S03",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+          "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S04",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+          "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S05",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+          "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        }
+      ],
+      "evidence_scope": "Authored synthetic teaching figure; lesson identities locate the exact numerical and mathematical inputs. Archival identities resolve source IDs but do not assert replay of archived claims.",
+      "vector_companion": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\publication-figures\\energy-ledger.svg",
+        "sha256": "eada65d97d6680393ad2a706cb2a8b5d43bfab2fafa8dd056749326c1132ec1e"
+      }
+    }
+  ]
+}

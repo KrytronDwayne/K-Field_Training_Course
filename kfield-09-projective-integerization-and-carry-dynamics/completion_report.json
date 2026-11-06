@@ -1,0 +1,76 @@
+{
+  "status": "complete",
+  "topic": "Projective Integerization and Carry Dynamics",
+  "audience": "High-school seniors; first-principles teaching, with concrete prerequisite capabilities and taught bridges.",
+  "assumptions": [
+    "A topical short course, not a semester per topic. Pacing is 55-minute core lessons plus capstone periods; split dense lessons if actual learner load requires it.",
+    "No prior calculus, abstract algebra, university linear algebra, or quantum mechanics unless explicitly taught earlier.",
+    "Required core assessments must be solvable with taught finite examples. Clearly label deeper recognition-only extensions.",
+    "Markdown is the delivery format; no PDF or Word generation is required.",
+    "Finite decimal source tokens are replayed as exact rationals of the supplied tokens; no unsupplied digits are inferred.",
+    "The explicit lower-half-tie rule is a course repair under SA-09."
+  ],
+  "outputs": [
+    "course-map.md",
+    "terminology.md",
+    "sources.md",
+    "verify_examples.py",
+    "worked-example-verification.json",
+    "lesson-01.md",
+    "lesson-02.md",
+    "lesson-03.md",
+    "lesson-04.md",
+    "lesson-05.md",
+    "lesson-06.md",
+    "teacher-guide.md",
+    "capstone.md",
+    "course.md",
+    "independent-audit.json",
+    "audit_report.json",
+    "assemble.py",
+    "finalize_audit.py",
+    "input-contract.json",
+    "completion_report.json"
+  ],
+  "audit_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "hashes": {
+    "course-map.md": "67b8b39e98b294cff7436ec59b4244582c414d8922b4004088106e80bdffdc04",
+    "terminology.md": "4e27a663e412257d1716082a3659c3aa5133bf35a69ffc72c027de021723df14",
+    "sources.md": "4829146772a3d10dd187fb3d535bef41e757dd7db9f59fd922cbb7b8c494a3d2",
+    "verify_examples.py": "68f9805b5da59e4d3c4ba9d50d2e94f58b0f1a2a25470f0228bee23893978271",
+    "worked-example-verification.json": "b23dba2ecffdb776b41d337c6e93e7a6e5e36207696b9a47ba5f89a212dc920d",
+    "lesson-01.md": "133da1e1105bb479482b5ef4ee554624103d2f43f147b64fe64ddae5987c12d4",
+    "lesson-02.md": "4354880801bcb37bcbc23de5a2137c0ce99e7b7876be6a87d9775cf2d5c487b4",
+    "lesson-03.md": "c9d91d97db683317c7f38107ffba60522b384ce6e9911d2b9558556bb236892b",
+    "lesson-04.md": "7ec4d11bffc85fab1ff45782c53b6fb4a8fb8556cfda732f2a7303a9ebcae5f6",
+    "lesson-05.md": "7b8023c6c7f6e14aeac75e72ea178cffdc3cef850dc05e4724675232d44264ea",
+    "lesson-06.md": "65cd9e99a31242a5327fbcdbf5f5cfce04fe5b2fddeb20685595eda821247ee1",
+    "teacher-guide.md": "33560eca42356475f14f873bfd2df6dd99639ab8be3b9dbfe3a71797334824ef",
+    "capstone.md": "91704fd6563a9a880b499a6aafa5dbba6e51e039f9d8d0cfb5a6c540ca9ac791",
+    "course.md": "b5c5bd3cad2a06673a1eba3834c4df6314ed24b69477da51e3e74f1bc95198ce",
+    "independent-audit.json": "4789adbf3c08c52d67632accf732effc328945ff8084d910cd63a36973888e1a",
+    "audit_report.json": "9d95f9560c59888162f7c100877a1c24e9bec07256d6cb41cade7b91bc6a9eb7",
+    "assemble.py": "96a7a0d0e5a7e3dbe3fe69eac32bb45515acb5e8d81a82485de153e164bf6f53",
+    "finalize_audit.py": "2a84e3a6e727e051d6c64e6c385cb1df5732e78d559b31922b04a94b07ecab38",
+    "input-contract.json": "f05af33063d361221fdd93ea68a2097d29e69297299634cffa1de83d0c30b711",
+    "manifest.json": "0a273f91710b68f7749f772f7c320830fe39cd045847493778fba6f82100a390"
+  },
+  "source_gaps": [
+    "Graph generation not returned by capabilities; source grounding uses fully verified local hashes."
+  ],
+  "lesson_count": 6,
+  "core_periods": 7,
+  "capstone_periods": 2,
+  "validator": {
+    "status": "passed",
+    "exit_code": 0,
+    "command": "conda run -n tf_gpu_env python Z:/Kfield-doc-training/.work/validate_project_course.py COURSE_DIRECTORY --json",
+    "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+    "errors": [],
+    "verified": "All checkpoints passed; hashes, assembly, audit, and completion are valid"
+  }
+}

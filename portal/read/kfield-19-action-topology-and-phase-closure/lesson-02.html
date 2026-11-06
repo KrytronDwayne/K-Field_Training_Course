@@ -1,0 +1,53 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Lesson 02 — Discrete action accounting · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/19">Course 19</a><span>/</span><span>lesson 02</span></div><a class="original" href="../../../kfield-19-action-topology-and-phase-closure/lesson-02.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#lesson-02-discrete-action-accounting">Lesson 02 — Discrete action accounting</a><a href="#c1902-e1-compute-before-compressing">C19.02-E1 — Compute before compressing</a><a href="#c1902-w1-worked-path-013">C19.02-W1 — Worked path (0,1,3)</a><a href="#c1902-p1-guided-practice-and-reconstruction">C19.02-P1 — Guided practice and reconstruction</a><a href="#diagnostics">Diagnostics</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 01 — An action as a complete mathematical specification</a><a aria-current=page href="lesson-02.html">Lesson 02 — Discrete action accounting</a><a  href="lesson-03.html">Lesson 03 — Topology through loops and boundary data</a><a  href="lesson-04.html">Lesson 04 — Phase factors and their product</a><a  href="lesson-05.html">Lesson 05 — Determinant-line bookkeeping</a><a  href="lesson-06.html">Lesson 06 — Closure and admitted sectors</a><a  href="lesson-07.html">Lesson 07 — A complete premise ledger</a></details></aside><div class="reading-column"><article class="prose"><h1 id="lesson-02-discrete-action-accounting" tabindex="-1">Lesson 02 — Discrete action accounting</h1>
+<p><strong>Essential question:</strong> How can one total retain the information in its signed parts?</p>
+<p><strong>Goals:</strong> Evaluate both interval contributions; reconstruct a total from a model and residual; distinguish action evaluation from a dynamical prediction.</p>
+<p><strong>Prerequisite bridge.</strong> Lesson 01 fixed the state, units, coefficients and left-endpoint convention. We now substitute values. Keep a row per interval: a total alone cannot tell you which interval contributed which sign.</p>
+<h2 id="c1902-e1-compute-before-compressing" tabindex="-1">C19.02-E1 — Compute before compressing</h2>
+<p>Define K_j=Δt(k/2)v_j² and V_j=Δt(vpot/2)q_j², both in AU. The signed contribution is a_j=K_j−V_j. K and V are names for two model terms; their difference is not a measured transferred energy. For Δt=1 TU and numerical coefficients k=2 and vpot=2 in their declared units, the numerical shortcut is a_j=(q_(j+1)−q_j)²−q_j². This shortcut depends on those inputs and cannot be reused after changing Δt.</p>
+<p>A residual records the difference from a declared model: r=S−S_model, so S=S_model+r. A single total residual preserves the total, but cannot recover the interval series. To preserve a path-level decomposition, retain each a_j, each model component m_j, and each r_j=a_j−m_j, so a_j=m_j+r_j. Zero and negative entries remain in the ledger.</p>
+<h2 id="c1902-w1-worked-path-013" tabindex="-1">C19.02-W1 — Worked path (0,1,3)</h2>
+<p>The increments are 1−0=1 and 3−1=2. With Δt=1, the rates have numerical values 1 and 2 per TU. Squaring gives 1 and 4.</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>j</th>
+<th>q_j → q_(j+1)</th>
+<th style="text-align: right;">K_j (AU)</th>
+<th style="text-align: right;">V_j (AU)</th>
+<th style="text-align: right;">a_j (AU)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>0 → 1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1 → 3</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">3</td>
+</tr>
+</tbody>
+</table></div>
+<p>Therefore S=1+3=4 AU. Independently group the totals: ΣK=5 AU and ΣV=1 AU; 5−1=4 AU. This second route checks the bookkeeping without dropping the row values.</p>
+<p>If Δt becomes 2 TU with the same three states and the same physical coefficients, rates become 1/2 and 1 per TU. K becomes (1/2,2) AU and V becomes (0,2) AU. The signed terms are (1/2,0) AU, total 1/2 AU. Slower traversal changed both kinetic accumulation and potential accumulation. Merely doubling 4 would be wrong.</p>
+<blockquote>
+<p><strong>Claim scope.</strong> These are exact finite consequences of the synthetic rule. No data were fitted. Evaluating a path is not minimizing over paths, solving an equation of motion, assigning a transition probability, or finding a transition rate. Each of those operations needs its own rule and normalization.</p>
+</blockquote>
+<h2 id="c1902-p1-guided-practice-and-reconstruction" tabindex="-1">C19.02-P1 — Guided practice and reconstruction</h2>
+<p>Evaluate (1,2,2) using the original Δt=1. Retain the two signed contributions. A declared component model is m=(1,−4) AU; calculate the residual vector and reconstruct the total.</p>
+<p><strong>Worked answer:</strong> Increments (1,0) give K=(1,0) AU; left endpoints (1,2) give V=(1,4) AU. Thus a=(0,−4) AU and S=−4 AU. The model total is 1−4=−3 AU. Residuals r=(0−1,−4−(−4))=(−1,0) AU have total −1 AU. Reconstruct row by row: (1,−4)+(−1,0)=(0,−4), and reconstruct the total: −3+(−1)=−4 AU. The zero first contribution does not authorize erasing its kinetic and potential parts, which are both 1 AU.</p>
+<h2 id="diagnostics" tabindex="-1">Diagnostics</h2>
+<ol>
+<li><strong>C19.02-D1:</strong> Does S=−4 AU make the calculation invalid or imply negative measured energy?</li>
+<li>For path (0,1,1), find K,V,a and S with original parameters.</li>
+<li>If only S=−4 and S_model=−3 survive, can you recover the two residual entries?</li>
+<li>Can S=4 and S=−4 determine which path is more probable?</li>
+</ol>
+<p><strong>Worked answers:</strong> (1) No. S is a signed action sum in this toy model; it is not a measured energy. (2) K=(1,0), V=(0,1), a=(1,−1) AU, giving S=0 AU. (3) No: their sum is −1, but many pairs share it; preserve the component ledger. (4) No probability rule or scale converting action to a probability has been supplied, and W1/P1 also have different endpoints.</p>
+<p><strong>Next dependency:</strong> <a href="lesson-03.html">Lesson 03</a> preserves link information while testing a whole loop.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><a class="button secondary" href="lesson-01.html">← Previous lesson</a><a class="button" href="lesson-03.html">Next lesson →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/19">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

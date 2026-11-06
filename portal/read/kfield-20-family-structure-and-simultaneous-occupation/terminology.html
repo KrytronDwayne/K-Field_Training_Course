@@ -1,0 +1,173 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Terminology and notation · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/20">Course 20</a><span>/</span><span>terminology</span></div><a class="original" href="../../../kfield-20-family-structure-and-simultaneous-occupation/terminology.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#terminology-and-notation">Terminology and notation</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 1 — Residues modulo three</a><a  href="lesson-02.html">Lesson 2 — Uniform and zero-sum sectors</a><a  href="lesson-03.html">Lesson 3 — Lifts and Fourier-style channels</a><a  href="lesson-04.html">Lesson 4 — Tensor products and rank multiplication</a><a  href="lesson-05.html">Lesson 5 — The rank-48 projector</a><a  href="lesson-06.html">Lesson 6 — Selection, state, and source status</a><a  href="lesson-07.html">Lesson 7 — Family labels and numerical properties</a></details></aside><div class="reading-column"><article class="prose"><h1 id="terminology-and-notation" tabindex="-1">Terminology and notation</h1>
+<p>All finite examples are dimensionless. Indices identify addresses, not units. Local meanings are declared before use.</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Term</th>
+<th>Meaning and scope</th>
+<th>Lesson</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>F₃, X</td>
+<td>Residues {0,1,2}; X is their ordered triple set, with 27 nodes.</td>
+<td>1</td>
+</tr>
+<tr>
+<td>λ, Cᵣ</td>
+<td>Coordinate-sum residue; its nine-node class. r is a class/family label.</td>
+<td>1</td>
+</tr>
+<tr>
+<td>δₓ, eⱼ</td>
+<td>Address vectors; one at the named coordinate, zero elsewhere.</td>
+<td>2–3</td>
+</tr>
+<tr>
+<td>δ_ac</td>
+<td>Equality indicator, 1 if a=c and 0 otherwise; not an address vector.</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Φᵣ</td>
+<td>Normalized class indicator, amplitude 1/3 on Cᵣ.</td>
+<td>2</td>
+</tr>
+<tr>
+<td>m, d</td>
+<td>Class mean and ordered zero-sum detail; f=m+d entrywise.</td>
+<td>2</td>
+</tr>
+<tr>
+<td>U_λ, Wᵣ</td>
+<td>Three-dimensional class-constant space and eight-dimensional class-detail spaces. W₂ here is not a weak gauge carrier.</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Inner product, norm</td>
+<td>Conjugate-first product sum; norm squared is sum of absolute squares.</td>
+<td>2–3</td>
+</tr>
+<tr>
+<td>Dimension</td>
+<td>Number of independent coordinates in a space.</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Matrix, I, transpose</td>
+<td>Linear array rule; identity leaves inputs unchanged; transpose swaps rows and columns.</td>
+<td>3</td>
+</tr>
+<tr>
+<td>†, unitary, isometry</td>
+<td>Adjoint = conjugate transpose. Square unitary: U†U=UU†=I. Rectangular isometry: V†V=I, reversible on its image, which need not fill the output space.</td>
+<td>3</td>
+</tr>
+<tr>
+<td>L, Pᵥ, V</td>
+<td>Explicit synthetic translation set, translation map and normalized labelled lift. Exact source objects remain unloaded.</td>
+<td>3</td>
+</tr>
+<tr>
+<td>i, ω</td>
+<td>i²=−1; ω=(−1+i√3)/2, ω³=1, 1+ω+ω²=0.</td>
+<td>3</td>
+</tr>
+<tr>
+<td>F</td>
+<td>Three-channel Fourier matrix Fⱼₖ=ω^(jk)/√3.</td>
+<td>3</td>
+</tr>
+<tr>
+<td>P, D, B_ab</td>
+<td>Shift, phase and Weyl matrix basis DᵃPᵇ. B_ab is not Cell3 B.</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Y, y_ab, Tr</td>
+<td>Supplied matrix, its Weyl coefficients, and diagonal sum.</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Basis, independence</td>
+<td>Building blocks with unique coordinates; only all-zero coefficients give a zero combination.</td>
+<td>3–4</td>
+</tr>
+<tr>
+<td>Image, ran, rank</td>
+<td>Possible outputs of a map; ran is another name for image; rank is image dimension.</td>
+<td>3–4</td>
+</tr>
+<tr>
+<td>R</td>
+<td>Teaching rank-2 orthogonal projector (called P in the packet); not the Cell3 inverse metric R_cell.</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Complement</td>
+<td>(I−R)x; kept with Rx to restore x.</td>
+<td>4</td>
+</tr>
+<tr>
+<td>⊗, carrier</td>
+<td>Tensor/product coordinates indexed by pairs or triples of basis addresses; carrier is the space where a rule acts.</td>
+<td>3–5</td>
+</tr>
+<tr>
+<td>qₙ, Qₙ, hₙ</td>
+<td>Rank-one history projection, full product projection, normalized history image vector. n is not a family label.</td>
+<td>5</td>
+</tr>
+<tr>
+<td>H</td>
+<td>Finite history dimension when explicitly assumed; not specified by the rank-48 claim.</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Occupation (1,1,1)</td>
+<td>Source uniform family/history count under its common projector; not a measured density.</td>
+<td>5–6</td>
+</tr>
+<tr>
+<td>State, selection</td>
+<td>A coordinate assignment; premises connecting physical states to a specified image.</td>
+<td>6</td>
+</tr>
+<tr>
+<td>VERIFIED_FROZEN / VERIFIED_NOT_LOADED</td>
+<td>Source-local statuses; not fresh course certificates.</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Yukawa, mixing</td>
+<td>Reference coupling-matrix term; components across family coordinates. No physical numerical inputs selected here.</td>
+<td>7</td>
+</tr>
+<tr>
+<td>K, A,B,C,E</td>
+<td>Two-equation block matrix and locally scoped entries; not geometry basis, lambda class or mean map.</td>
+<td>7</td>
+</tr>
+<tr>
+<td>u,w,s_U,s_W</td>
+<td>Unknown retained coordinates and supplied right-hand sides.</td>
+<td>7</td>
+</tr>
+<tr>
+<td>S,r</td>
+<td>Schur coefficient A−BC/E and reduced source s_U−Bs_W/E in scalar examples.</td>
+<td>7</td>
+</tr>
+<tr>
+<td>det, singular</td>
+<td>det K=AE−BC; singular means no inverse. Each inverse has its own domain condition.</td>
+<td>7</td>
+</tr>
+<tr>
+<td>M_cell,R_cell,G_phase,O_K,B</td>
+<td>Reserved packet geometry notation: Gram metric, inverse, distinct phase metric, physical origin and ordered Cell3 basis. Not used as numerical inputs here.</td>
+<td>Boundary</td>
+</tr>
+</tbody>
+</table></div></article><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/20">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

@@ -1,0 +1,407 @@
+{
+  "schema_version": "1.0",
+  "topic": "Family Structure and Simultaneous Occupation",
+  "audience": "High-school seniors; first-principles teaching, with concrete prerequisite capabilities and taught bridges.",
+  "assumptions": [
+    "A topical short course, not a semester per topic. Pacing is 55-minute core lessons plus capstone periods; split dense lessons if actual learner load requires it.",
+    "No prior calculus, abstract algebra, university linear algebra, or quantum mechanics unless explicitly taught earlier.",
+    "Required core assessments must be solvable with taught finite examples. Clearly label deeper recognition-only extensions.",
+    "Markdown is the delivery format; no PDF or Word generation is required."
+  ],
+  "ordered_deliverables": [
+    "course-map.md",
+    "lesson-01.md",
+    "lesson-02.md",
+    "lesson-03.md",
+    "lesson-04.md",
+    "lesson-05.md",
+    "lesson-06.md",
+    "lesson-07.md",
+    "terminology.md",
+    "teacher-guide.md",
+    "capstone.md",
+    "sources.md",
+    "source-provenance.json",
+    "independent-verification.py",
+    "verify_examples.py",
+    "verification.json",
+    "independent-audit.json",
+    "course.md",
+    "audit_report.json",
+    "completion_report.json"
+  ],
+  "checkpoints": [
+    {
+      "id": "course-map",
+      "kind": "course-map",
+      "path": "course-map.md",
+      "dependencies": [],
+      "status": "passed",
+      "sha256": "2006055b6a2d9e400ff8e1133e18c906d3ce54dd295a2c587ac5de1a6ffa4ddd",
+      "summary": "Exact introduction, practice, diagnostic and capstone map checked."
+    },
+    {
+      "id": "lesson-01",
+      "kind": "lesson",
+      "path": "lesson-01.md",
+      "dependencies": [
+        "course-map"
+      ],
+      "status": "passed",
+      "sha256": "ebcf88fce3a1b5231d1a844f51152f2690f6f935c4ed522282dfa6d824a3eb37",
+      "summary": "Lesson contract, source scope and finite examples reviewed; no unresolved findings."
+    },
+    {
+      "id": "lesson-02",
+      "kind": "lesson",
+      "path": "lesson-02.md",
+      "dependencies": [
+        "lesson-01"
+      ],
+      "status": "passed",
+      "sha256": "403cc3516c2eb3e2bf7c2a7d3171c48d8646631ec78bf090809f2e6821d99f63",
+      "summary": "Lesson contract, source scope and finite examples reviewed; no unresolved findings."
+    },
+    {
+      "id": "lesson-03",
+      "kind": "lesson",
+      "path": "lesson-03.md",
+      "dependencies": [
+        "lesson-02"
+      ],
+      "status": "passed",
+      "sha256": "56a278a399922de7e75b7788836c4a0d4b5ec65c701aed82610a30798355ab43",
+      "summary": "Lesson contract, source scope and finite examples reviewed; no unresolved findings."
+    },
+    {
+      "id": "lesson-04",
+      "kind": "lesson",
+      "path": "lesson-04.md",
+      "dependencies": [
+        "lesson-03"
+      ],
+      "status": "passed",
+      "sha256": "f40c3ab70dc355fad268ef9815c91f957fa3f9017fe1e64263e6d54bd76bf900",
+      "summary": "Lesson contract, source scope and finite examples reviewed; no unresolved findings."
+    },
+    {
+      "id": "lesson-05",
+      "kind": "lesson",
+      "path": "lesson-05.md",
+      "dependencies": [
+        "lesson-04"
+      ],
+      "status": "passed",
+      "sha256": "51ee238d2faa15cffaa590ce8d35d7b9630b5b57fb3f8a98fb825e22cf1d016f",
+      "summary": "Lesson contract, source scope and finite examples reviewed; no unresolved findings."
+    },
+    {
+      "id": "lesson-06",
+      "kind": "lesson",
+      "path": "lesson-06.md",
+      "dependencies": [
+        "lesson-05"
+      ],
+      "status": "passed",
+      "sha256": "2825223a76bcc7d4c8d859b99d7050788e6cd3331fbbc29d06c65a1e899e47c6",
+      "summary": "Lesson contract, source scope and finite examples reviewed; no unresolved findings."
+    },
+    {
+      "id": "lesson-07",
+      "kind": "lesson",
+      "path": "lesson-07.md",
+      "dependencies": [
+        "lesson-06"
+      ],
+      "status": "passed",
+      "sha256": "acc4c091042f2704543eb95d3b761f36e0a812c8d73a0341b3c8b806b7d9680f",
+      "summary": "Lesson contract, source scope and finite examples reviewed; no unresolved findings."
+    },
+    {
+      "id": "terminology",
+      "kind": "terminology",
+      "path": "terminology.md",
+      "dependencies": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05",
+        "lesson-06",
+        "lesson-07"
+      ],
+      "status": "passed",
+      "sha256": "5b4bf907366f6a03e8d389008e4d79aa4b1d33834556aaf9fd1c52d958c74ae3",
+      "summary": "Notation collisions and unitary/isometry distinction reviewed."
+    },
+    {
+      "id": "teacher-guide",
+      "kind": "teacher-guide",
+      "path": "teacher-guide.md",
+      "dependencies": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05",
+        "lesson-06",
+        "lesson-07"
+      ],
+      "status": "passed",
+      "sha256": "92dd130bf6cfe06ca59625c5f01971a13bfadb1bf6194424084be7d57f83f4c4",
+      "summary": "Pacing, repair and assessment guidance checked."
+    },
+    {
+      "id": "capstone",
+      "kind": "capstone",
+      "path": "capstone.md",
+      "dependencies": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05",
+        "lesson-06",
+        "lesson-07"
+      ],
+      "status": "passed",
+      "sha256": "42e15adad851ea91787d05390c65fa55e669518523220199aa524224146c3fc7",
+      "summary": "Nine taught operations, full worked key and 100-point rubric checked."
+    },
+    {
+      "id": "sources",
+      "kind": "supplement",
+      "path": "sources.md",
+      "dependencies": [],
+      "status": "passed",
+      "sha256": "d147b1568de2c92e232b0c52720806bba4185377a82ec406d7b0eeee444153d9",
+      "summary": "Exact source claims, pointers and scope checked."
+    },
+    {
+      "id": "provenance",
+      "kind": "supplement",
+      "path": "source-provenance.json",
+      "dependencies": [
+        "sources"
+      ],
+      "status": "passed",
+      "sha256": "61e79720d456b7fb2e2610dc4c83c0533180942443e3cacf22ec4e5d9461d1d3",
+      "summary": "All five archival hashes matched; source retrieval classes retained."
+    },
+    {
+      "id": "independent-verification-script",
+      "kind": "supplement",
+      "path": "independent-verification.py",
+      "dependencies": [],
+      "status": "passed",
+      "sha256": "83c50f5cdb3258776b6af71cd4da0869abda5f68680be6b957a526d6efdc1287",
+      "summary": "Independent standard-library finite-check replay."
+    },
+    {
+      "id": "verification-script",
+      "kind": "supplement",
+      "path": "verify_examples.py",
+      "dependencies": [],
+      "status": "passed",
+      "sha256": "c2482af5195396133ba509c2dd7e113eb64dc19e57ebfff5315cc3b233c4957a",
+      "summary": "Structural content-ID and secondary exact-arithmetic checks."
+    },
+    {
+      "id": "verification",
+      "kind": "supplement",
+      "path": "verification.json",
+      "dependencies": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05",
+        "lesson-06",
+        "lesson-07",
+        "verification-script",
+        "independent-verification-script"
+      ],
+      "status": "passed",
+      "sha256": "f340872bccb7665ce9ac65c31536cfecced8ca11ea1ee680813665989fc95279",
+      "summary": "146 manager checks and 20 independent mathematical checks passed."
+    },
+    {
+      "id": "independent-audit",
+      "kind": "supplement",
+      "path": "independent-audit.json",
+      "dependencies": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05",
+        "lesson-06",
+        "lesson-07",
+        "capstone",
+        "teacher-guide",
+        "terminology",
+        "sources",
+        "provenance"
+      ],
+      "status": "passed",
+      "sha256": "f68b1db79ce8b0773059cb7a6c8412b5b444f31170c29311c0d562e91fe8e588",
+      "summary": "Independent source, curriculum and mathematical review; corrected findings closed."
+    },
+    {
+      "id": "assembly",
+      "kind": "assembly",
+      "path": "course.md",
+      "dependencies": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05",
+        "lesson-06",
+        "lesson-07"
+      ],
+      "status": "passed",
+      "sha256": "c9f3d60683c3810559a7a584658610a65d6eb81605f355b675abbd5f136d925d",
+      "summary": "Verbatim lesson assembly in declared order."
+    },
+    {
+      "id": "audit",
+      "kind": "audit",
+      "path": "audit_report.json",
+      "dependencies": [
+        "verification",
+        "independent-audit",
+        "assembly"
+      ],
+      "status": "passed",
+      "sha256": "bbc66aa60984521b4d0b16836b0daabae2256ba200c296a3e6876649bf750ca0",
+      "summary": "Local, cumulative and final audit passed; three minor findings corrected."
+    }
+  ],
+  "dependencies": {
+    "course-map": [],
+    "lesson-01": [
+      "course-map"
+    ],
+    "lesson-02": [
+      "lesson-01"
+    ],
+    "lesson-03": [
+      "lesson-02"
+    ],
+    "lesson-04": [
+      "lesson-03"
+    ],
+    "lesson-05": [
+      "lesson-04"
+    ],
+    "lesson-06": [
+      "lesson-05"
+    ],
+    "lesson-07": [
+      "lesson-06"
+    ],
+    "terminology": [
+      "lesson-01",
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05",
+      "lesson-06",
+      "lesson-07"
+    ],
+    "teacher-guide": [
+      "lesson-01",
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05",
+      "lesson-06",
+      "lesson-07"
+    ],
+    "capstone": [
+      "lesson-01",
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05",
+      "lesson-06",
+      "lesson-07"
+    ],
+    "sources": [],
+    "provenance": [
+      "sources"
+    ],
+    "independent-verification-script": [],
+    "verification-script": [],
+    "verification": [
+      "lesson-01",
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05",
+      "lesson-06",
+      "lesson-07",
+      "verification-script",
+      "independent-verification-script"
+    ],
+    "independent-audit": [
+      "lesson-01",
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05",
+      "lesson-06",
+      "lesson-07",
+      "capstone",
+      "teacher-guide",
+      "terminology",
+      "sources",
+      "provenance"
+    ],
+    "assembly": [
+      "lesson-01",
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05",
+      "lesson-06",
+      "lesson-07"
+    ],
+    "audit": [
+      "verification",
+      "independent-audit",
+      "assembly"
+    ]
+  },
+  "course_order": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03",
+    "lesson-04",
+    "lesson-05",
+    "lesson-06",
+    "lesson-07"
+  ],
+  "assembly": {
+    "path": "course.md",
+    "section_ids": [
+      "lesson-01",
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05",
+      "lesson-06",
+      "lesson-07"
+    ]
+  },
+  "audit_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "blockers": [],
+  "next_action": "none",
+  "course_output_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-20-family-structure-and-simultaneous-occupation",
+  "recovery_note": "Before resuming, check each checkpoint SHA-256 and then its dependencies. Passed content changes only for a concrete defect."
+}

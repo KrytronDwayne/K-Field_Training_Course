@@ -1,0 +1,357 @@
+{
+  "status": "passed",
+  "method": "Independent standard-library rational arithmetic, elimination, graph enumeration and exact assertions.",
+  "evidence_class": "Fresh verification of finite mathematical/synthetic teaching examples; no empirical or global source-closure certification.",
+  "runtime": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+  "check_count": 21,
+  "checks": [
+    {
+      "id": "open_2x2",
+      "status": "passed",
+      "result": {
+        "vertices": 4,
+        "edges": 4,
+        "rank": 3,
+        "cycle_dimension": 1
+      }
+    },
+    {
+      "id": "cycle_basis_2x2",
+      "status": "passed",
+      "result": "First-nonzero-decrement tree; all cycles close; chord restriction is identity."
+    },
+    {
+      "id": "open_3x2",
+      "status": "passed",
+      "result": {
+        "vertices": 6,
+        "edges": 7,
+        "rank": 5,
+        "cycle_dimension": 2
+      }
+    },
+    {
+      "id": "cycle_basis_3x2",
+      "status": "passed",
+      "result": "First-nonzero-decrement tree; all cycles close; chord restriction is identity."
+    },
+    {
+      "id": "open_3x3",
+      "status": "passed",
+      "result": {
+        "vertices": 9,
+        "edges": 12,
+        "rank": 8,
+        "cycle_dimension": 4
+      }
+    },
+    {
+      "id": "cycle_basis_3x3",
+      "status": "passed",
+      "result": "First-nonzero-decrement tree; all cycles close; chord restriction is identity."
+    },
+    {
+      "id": "open_3x3x3",
+      "status": "passed",
+      "result": {
+        "vertices": 27,
+        "edges": 54,
+        "rank": 26,
+        "cycle_dimension": 28
+      }
+    },
+    {
+      "id": "cycle_basis_3x3x3",
+      "status": "passed",
+      "result": "First-nonzero-decrement tree; all cycles close; chord restriction is identity."
+    },
+    {
+      "id": "degree_classes",
+      "status": "passed",
+      "result": [
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "ordered_ring_3",
+      "status": "passed",
+      "result": {
+        "incidence": [
+          [
+            -1,
+            0,
+            1
+          ],
+          [
+            1,
+            -1,
+            0
+          ],
+          [
+            0,
+            1,
+            -1
+          ]
+        ],
+        "flow": [
+          2,
+          3,
+          4
+        ],
+        "divergence": [
+          2,
+          -1,
+          -1
+        ],
+        "gradient": [
+          3,
+          2,
+          -5
+        ],
+        "cycle": [
+          1,
+          1,
+          1
+        ],
+        "chord_coefficient": 4,
+        "retained_tree_remainder": [
+          -2,
+          -1,
+          0
+        ]
+      }
+    },
+    {
+      "id": "orientation_invariance_3",
+      "status": "passed",
+      "result": "Column and flow sign reversed together."
+    },
+    {
+      "id": "ordered_ring_4",
+      "status": "passed",
+      "result": {
+        "incidence": [
+          [
+            -1,
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            -1,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            -1
+          ]
+        ],
+        "flow": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "divergence": [
+          3,
+          -1,
+          -1,
+          -1
+        ],
+        "gradient": [
+          1,
+          2,
+          -1,
+          -2
+        ],
+        "cycle": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "chord_coefficient": 5,
+        "retained_tree_remainder": [
+          -3,
+          -2,
+          -1,
+          0
+        ]
+      }
+    },
+    {
+      "id": "orientation_invariance_4",
+      "status": "passed",
+      "result": "Column and flow sign reversed together."
+    },
+    {
+      "id": "periodic_counts",
+      "status": "passed",
+      "result": {
+        "vertices": 27,
+        "open_edges": 54,
+        "wrap_edges": 27,
+        "edges": 81,
+        "rank": 26,
+        "cycle_dimension": 55
+      }
+    },
+    {
+      "id": "periodic_basis",
+      "status": "passed",
+      "result": "55 exact closed fundamental cycles with identity chord restriction."
+    },
+    {
+      "id": "wrap_worked",
+      "status": "passed",
+      "result": {
+        "w": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "W": 45,
+        "mean": "5",
+        "eight_free_details": [
+          "-4",
+          "-3",
+          "-2",
+          "-1",
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "ninth_detail": "4",
+        "reconstructed": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9"
+        ]
+      }
+    },
+    {
+      "id": "wrap_practice",
+      "status": "passed",
+      "result": {
+        "w": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          9
+        ],
+        "W": 9,
+        "mean": "1",
+        "eight_free_details": [
+          "-1",
+          "-1",
+          "-1",
+          "-1",
+          "-1",
+          "-1",
+          "-1",
+          "-1"
+        ],
+        "ninth_detail": "8",
+        "reconstructed": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "9"
+        ]
+      }
+    },
+    {
+      "id": "wrap_integer_guard",
+      "status": "passed",
+      "result": {
+        "w": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "W": 1,
+        "mean": "1/9",
+        "eight_free_details": [
+          "8/9",
+          "-1/9",
+          "-1/9",
+          "-1/9",
+          "-1/9",
+          "-1/9",
+          "-1/9",
+          "-1/9"
+        ],
+        "ninth_detail": "-1/9",
+        "reconstructed": [
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    },
+    {
+      "id": "full_periodic_reconstruction",
+      "status": "passed",
+      "result": "28 zero open coefficients; first axis wraps (0,...,0,9); other axes zero; full 81-edge circulation reconstructed."
+    },
+    {
+      "id": "general_periodic_remainder",
+      "status": "passed",
+      "result": "Signed synthetic 81-edge field reconstructs exactly from 55 chord coefficients and 26 tree entries; divergence retained."
+    },
+    {
+      "id": "coordinate_partition",
+      "status": "passed",
+      "result": "52 zero-winding coordinates plus 3 windings; these finite counts assert no dynamics or group action."
+    }
+  ],
+  "script_sha256": "7a262ca516064079ab2bff872ba71b3be95effd8bc692e592408d62024b722c2"
+}

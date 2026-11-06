@@ -1,0 +1,128 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Teacher guide · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/3">Course 03</a><span>/</span><span>teacher guide</span></div><a class="original" href="../../../kfield-03-the-authoritative-cell3-basis-metric-and-scale/teacher-guide.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#teacher-guide">Teacher guide</a><a href="#entry-check-and-preparation">Entry check and preparation</a><a href="#pacing-and-instructional-decisions">Pacing and instructional decisions</a><a href="#diagnose-and-repair">Diagnose and repair</a><a href="#capstone-administration">Capstone administration</a><a href="#verification-and-recovery">Verification and recovery</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 1 — An ordered cell in three dimensions</a><a  href="lesson-02.html">Lesson 2 — Lengths and angles from a Gram matrix</a><a  href="lesson-03.html">Lesson 3 — Face areas and signed volume</a><a  href="lesson-04.html">Lesson 4 — Direct and inverse metrics</a><a  href="lesson-05.html">Lesson 5 — Scale classes and the area anchor</a><a  href="lesson-06.html">Lesson 6 — A reproducible Cell3 specification</a></details></aside><div class="reading-column"><article class="prose"><h1 id="teacher-guide" tabindex="-1">Teacher guide</h1>
+<p>This course teaches six linked operations, not a survey of later K-Field mechanisms. Keep two sheets visible throughout: the integer <strong>Classroom analogue, not Cell3</strong>, and the separately labeled locked geometry card. Students calculate with the analogue and read the actual record with provenance. The required output is a checked pair of cards, supported by calculations and a residual record.</p>
+<h2 id="entry-check-and-preparation" tabindex="-1">Entry check and preparation</h2>
+<p>Before Lesson 1, ask students to calculate −2+5, 3/4−1/4, solve 2v=6, and plot (1,−2). Answers are 3, 1/2, v=3, and one unit right/two down. Then ask them to add (1,0)+(1,2)=(2,2) and distinguish a point from a displacement. If the last two capabilities are unfamiliar, use the Lesson 1 bridge with arrows before introducing the third component. Signed arithmetic and simple equations are the only assumed calculation tools. Matrix multiplication, cross products and inversion are taught here.</p>
+<p>Print or display the six lessons, geometry-card.md, and terminology.md. A calculator in degree mode is useful for the optional decimal angle; students may leave cos(theta)=1/sqrt(5) exactly. No coding or archive access is required for core assessment. The teacher may replay verify_examples.py through the specified tf_gpu_env runtime; verification.json already contains the declared arithmetic and all residual entries. Do not install packages. Do not rerun initialize.py: it is a historical production script that resets drafts.</p>
+<h2 id="pacing-and-instructional-decisions" tabindex="-1">Pacing and instructional decisions</h2>
+<p>Each row totals 55 minutes. The two units end after Lessons 3 and 6. Allocate two additional 55-minute capstone periods, for 440 minutes overall. These are planning allocations, not measured classroom timings.</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Lesson</th>
+<th style="text-align: right;">Bridge/read</th>
+<th style="text-align: right;">Explanation/model</th>
+<th style="text-align: right;">Guided practice</th>
+<th style="text-align: right;">Independent diagnostics</th>
+<th style="text-align: right;">Discuss/exit</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1: ordered columns</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">8</td>
+</tr>
+<tr>
+<td>2: Gram matrix</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">6</td>
+</tr>
+<tr>
+<td>3: faces/volume</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">6</td>
+</tr>
+<tr>
+<td>4: inverse</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr>
+<td>5: scale</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr>
+<td>6: reproducibility</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">6</td>
+</tr>
+</tbody>
+</table></div>
+<p>In Lesson 1, color the columns before doing arithmetic. Ask students to say “copies of edges” when describing q and “external components” when describing Bq. Use the negative third edge to discuss intentional handedness without changing axes. In Lesson 2, have pairs compute opposite off-diagonal entries separately, then compare them. Require both the Cartesian and Gram calculation for q=(1,−1,0). Their agreement exposes the omitted-cross-term error directly.</p>
+<p>In Lesson 3, label ab/ac/bc before any cross product. Test perpendicularity with a dot product, then distinguish a signed triple product from positive volume. At the unit boundary, ask students to recover q=(1,−1,2) from (0,−2,−6)L and explain why the Gram entries do not encode handedness alone. The earlier lessons supply both operations. Correct the earliest misunderstood column or sign before proceeding.</p>
+<p>Lesson 4 is the densest lesson. Keep the same block matrix on the board; do not add a general inverse formula or determinant expansion. Solve u+v=s and u+5v=t slowly, then read the coefficients into the inverse. The reciprocal-basis section provides reconstruction meaning; students need not memorize a separate inversion algorithm. Pair students to check the two products entry by entry. If the prerequisite check reveals fraction or block-inverse difficulty, add a guided-practice period before Lesson 5. Recheck the two-equation solution and one inverse-product entry before dependent work or independent assessment. Keep the six conceptual lesson IDs; the total number of teaching periods is flexible.</p>
+<p>In Lesson 5, first scale the analogue; then introduce the source's conditional theorem. Stress the fixed angular frame, positive ratios and positive anchor. The separate right-angle ray is explicitly a different synthetic example. Students are not asked to derive eta, alpha, an astronomical frame, or a mass interpretation. At the second unit boundary, ask each student to identify one input, one derived quantity, and one retained residual from the card/verification materials.</p>
+<p>Lesson 6 is a reading-and-reconstruction lesson. Display the two unequal stored reciprocal entries side by side. Ask what averaging them would change. For all decimal checks, keep the originals, operation, signed difference, and reconstruction equation together. The full matrices in verification.json are teacher replay support; students interpret one entry and its units, not a new software API.</p>
+<h2 id="diagnose-and-repair" tabindex="-1">Diagnose and repair</h2>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Observable error</th>
+<th>Targeted repair</th>
+<th>Recheck</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Reads a row as an edge</td>
+<td>Trace one column across x/y/z labels</td>
+<td>L1 check 1</td>
+</tr>
+<tr>
+<td>Omits cross terms</td>
+<td>Expand both ij and ji terms</td>
+<td>L2 check 2</td>
+</tr>
+<tr>
+<td>Treats negative volume as negative size</td>
+<td>Compare determinant with its absolute value</td>
+<td>L3 check 3</td>
+</tr>
+<tr>
+<td>Uses R as direct position-to-coordinate map</td>
+<td>Contrast R units with reciprocal basis D; subtract O_K</td>
+<td>L4 check 3</td>
+</tr>
+<tr>
+<td>Claims ratios determine absolute size</td>
+<td>Compare s=1 and s=2 with same area ratios</td>
+<td>L5 check 3</td>
+</tr>
+<tr>
+<td>Erases a small residual</td>
+<td>Reconstruct computed value as reference plus residual</td>
+<td>L6 check 3</td>
+</tr>
+<tr>
+<td>Blends historical and mature values</td>
+<td>Require source ID and pointer on each card field</td>
+<td>Capstone B</td>
+</tr>
+</tbody>
+</table></div>
+<p>All diagnostic keys are in their lessons. Award method credit when a single arithmetic slip propagates consistently, but require correction of conceptual mistakes before regarding the associated capability as secure. Do not use a total score to hide an unresolved column convention, inverse-domain error, or fabricated source claim.</p>
+<h2 id="capstone-administration" tabindex="-1">Capstone administration</h2>
+<p>Period 1: 10 minutes retrieval/review, 35 minutes Part A, 10 minutes paired arithmetic checking with corrections visibly retained. Period 2: 25 minutes Part B, 15 minutes Part C, 15 minutes explanation and revision. Supply the locked card, sources.md and the printed residual component requested in Part C. Students submit their own final explanations. The 100-point analytic rubric and complete key are in capstone.md. No task requires numerical inversion of the long-decimal locked matrix.</p>
+<p>For extensions only, students may compare additional stored closure components or verify D^T D=R symbolically. These are not hidden prerequisites or required core assessments. The course's boundary is geometric specification and conditional scale uniqueness. It makes no new empirical or mechanism claim.</p>
+<h2 id="verification-and-recovery" tabindex="-1">Verification and recovery</h2>
+<p>The manifest identifies the active files, dependencies and SHA-256 hashes. course.md contains the lessons verbatim in order. Full residuals are retained alongside reconstruction formulas, and the source files remain at their recorded paths. A source-reported closure scalar is not presented as the fresh Decimal calculation. The source's underlying arithmetic for that scalar remains unspecified; the fresh calculation has a complete declared recipe.</p>
+<p>The location adapter changes only the validator's containment root, as authorized by the user. It does not waive lesson, hash, audit, assembly or completion checks. Use completion_report.json and the <a href="../../../kfield-series-20261105/audits/consolidation/course-03-consolidation.json">destination validation record</a>; its destination_validator_passed field records the project-folder validation. Subsequent audit repairs and final validation are recorded in <a href="../../../kfield-series-20261105/audits/independent-completion/course-03-parent-acceptance.json">parent acceptance</a>.</p></article><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/3">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

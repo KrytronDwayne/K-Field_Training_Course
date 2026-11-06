@@ -1,0 +1,390 @@
+{
+  "schema_version": "1.0",
+  "topic": "The Authoritative Cell3: Basis, Metric, and Scale",
+  "audience": "High-school seniors; first-principles teaching, with concrete prerequisite capabilities and taught bridges.",
+  "assumptions": [
+    "A topical short course, not a semester per topic. Pacing is 55-minute core lessons plus capstone periods; split dense lessons if actual learner load requires it.",
+    "No prior calculus, abstract algebra, university linear algebra, or quantum mechanics unless explicitly taught earlier.",
+    "Required core assessments must be solvable with taught finite examples. Clearly label deeper recognition-only extensions.",
+    "Markdown is the delivery format; no PDF or Word generation is required."
+  ],
+  "course_output_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-03-the-authoritative-cell3-basis-metric-and-scale",
+  "course_output_root": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-course-03\\K-Field_Training_Course",
+  "storage_authority": "User authorized generated course artifacts in the writable project/task folder, 2026-11-05; parent will consolidate into Z:/Kfield-doc-training/K-Field_Training_Course. Archival sources remain in place.",
+  "ordered_deliverables": [
+    "input-contract.json",
+    "course-map.md",
+    "lesson-01.md",
+    "lesson-02.md",
+    "lesson-03.md",
+    "lesson-04.md",
+    "lesson-05.md",
+    "lesson-06.md",
+    "terminology.md",
+    "teacher-guide.md",
+    "sources.md",
+    "geometry-card.md",
+    "verify_examples.py",
+    "verification.json",
+    "capstone.md",
+    "audit-checks.json",
+    "course.md",
+    "audit_report.json",
+    "completion_report.json"
+  ],
+  "checkpoints": [
+    {
+      "id": "input",
+      "kind": "supplement",
+      "path": "input-contract.json",
+      "dependencies": [],
+      "status": "passed",
+      "summary": "Completed and reviewed; evidence in audit_report.json and audit-checks.json",
+      "sha256": "22866deff98af0e9b1868311a6ec02a9953dce12f940784236e8d84c73a9a089"
+    },
+    {
+      "id": "map",
+      "kind": "course-map",
+      "path": "course-map.md",
+      "dependencies": [
+        "input"
+      ],
+      "status": "passed",
+      "summary": "Completed and reviewed; evidence in audit_report.json and audit-checks.json",
+      "sha256": "d5e07b8918473606eafd00454684706871da7d9d6c691fb790300937d0cfc4c6"
+    },
+    {
+      "id": "lesson-01",
+      "kind": "lesson",
+      "path": "lesson-01.md",
+      "dependencies": [
+        "map"
+      ],
+      "status": "passed",
+      "summary": "Completed and reviewed; evidence in audit_report.json and audit-checks.json",
+      "sha256": "de89d8f162ec7d02ed33cc9f7c704e60a84417161ed749824410976f4a2c540c"
+    },
+    {
+      "id": "lesson-02",
+      "kind": "lesson",
+      "path": "lesson-02.md",
+      "dependencies": [
+        "lesson-01"
+      ],
+      "status": "passed",
+      "summary": "Completed and reviewed; evidence in audit_report.json and audit-checks.json",
+      "sha256": "ea57b83e3a1146243133858bf6ac86f3879a2686fe69c79a70d092d00e207ee7"
+    },
+    {
+      "id": "lesson-03",
+      "kind": "lesson",
+      "path": "lesson-03.md",
+      "dependencies": [
+        "lesson-02"
+      ],
+      "status": "passed",
+      "summary": "Completed and reviewed; evidence in audit_report.json and audit-checks.json",
+      "sha256": "da4ab0961108bac3d544b9e37b71f0777f9d479cdf9b5d12703faf442ce1bd58"
+    },
+    {
+      "id": "lesson-04",
+      "kind": "lesson",
+      "path": "lesson-04.md",
+      "dependencies": [
+        "lesson-03"
+      ],
+      "status": "passed",
+      "summary": "Completed and reviewed; evidence in audit_report.json and audit-checks.json",
+      "sha256": "d4f30ac9f9d34cc666afbef8e4707b94ecd3b3a4834d81b43acaccd042d585b2"
+    },
+    {
+      "id": "lesson-05",
+      "kind": "lesson",
+      "path": "lesson-05.md",
+      "dependencies": [
+        "lesson-04"
+      ],
+      "status": "passed",
+      "summary": "Completed and reviewed; evidence in audit_report.json and audit-checks.json",
+      "sha256": "b43d026b7c0ed540f099adbd9fe8a5d75dc7194d6c33bd695d017c6ad22725c4"
+    },
+    {
+      "id": "lesson-06",
+      "kind": "lesson",
+      "path": "lesson-06.md",
+      "dependencies": [
+        "lesson-05"
+      ],
+      "status": "passed",
+      "summary": "Completed and reviewed; evidence in audit_report.json and audit-checks.json",
+      "sha256": "8c1b32730b62d8de3d2cd27bb128ad911b30bb8d9484aedbf742131239537587"
+    },
+    {
+      "id": "terms",
+      "kind": "terminology",
+      "path": "terminology.md",
+      "dependencies": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05",
+        "lesson-06"
+      ],
+      "status": "passed",
+      "summary": "Completed and reviewed; evidence in audit_report.json and audit-checks.json",
+      "sha256": "a09fb2ac594da5696f9829395eb7d25d58f4187630c81def25375c96c46c2f1b"
+    },
+    {
+      "id": "teacher",
+      "kind": "teacher-guide",
+      "path": "teacher-guide.md",
+      "dependencies": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05",
+        "lesson-06"
+      ],
+      "status": "passed",
+      "summary": "Completed and reviewed; evidence in audit_report.json and audit-checks.json",
+      "sha256": "727ddd8e1f3d1dd38bfe62ca61c45ff2cffbcd0c39c90368dedbcc423b008787"
+    },
+    {
+      "id": "sources",
+      "kind": "supplement",
+      "path": "sources.md",
+      "dependencies": [
+        "input"
+      ],
+      "status": "passed",
+      "summary": "Completed and reviewed; evidence in audit_report.json and audit-checks.json",
+      "sha256": "860962a6db827cae9ce56f44d11a3693f54f5cd6e52ac62bacdc804e3fe22d22"
+    },
+    {
+      "id": "card",
+      "kind": "supplement",
+      "path": "geometry-card.md",
+      "dependencies": [
+        "sources"
+      ],
+      "status": "passed",
+      "summary": "Completed and reviewed; evidence in audit_report.json and audit-checks.json",
+      "sha256": "3a4a0fc545647416e256dd041ab32f26e3f1065ceac3bf9a2a60b29fc8242042"
+    },
+    {
+      "id": "verify-script",
+      "kind": "supplement",
+      "path": "verify_examples.py",
+      "dependencies": [
+        "input"
+      ],
+      "status": "passed",
+      "summary": "Completed and reviewed; evidence in audit_report.json and audit-checks.json",
+      "sha256": "9de11874642dd22911dcac7b3e8b3c48d5d97ec29450bc42e1beb6f45a8161db"
+    },
+    {
+      "id": "verification",
+      "kind": "supplement",
+      "path": "verification.json",
+      "dependencies": [
+        "verify-script"
+      ],
+      "status": "passed",
+      "summary": "Completed and reviewed; evidence in audit_report.json and audit-checks.json",
+      "sha256": "4099a1d5f2155ee592f2342f373ee44b8320edc372fc1650f35d8afa14ae471f"
+    },
+    {
+      "id": "capstone",
+      "kind": "capstone",
+      "path": "capstone.md",
+      "dependencies": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05",
+        "lesson-06",
+        "card"
+      ],
+      "status": "passed",
+      "summary": "Completed and reviewed; evidence in audit_report.json and audit-checks.json",
+      "sha256": "85e7c73e56c843884243681e1a5ffa19ba77afcfd7ef634b172c3eff4e74dbc5"
+    },
+    {
+      "id": "audit-checks",
+      "kind": "supplement",
+      "path": "audit-checks.json",
+      "dependencies": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05",
+        "lesson-06",
+        "card",
+        "capstone",
+        "verification"
+      ],
+      "status": "passed",
+      "summary": "Completed and reviewed; evidence in audit_report.json and audit-checks.json",
+      "sha256": "14adfacbea7442f1a4ecac803a5a056bee62f3813ce25ed037ea45125b54b61a"
+    },
+    {
+      "id": "assembly",
+      "kind": "assembly",
+      "path": "course.md",
+      "dependencies": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05",
+        "lesson-06"
+      ],
+      "status": "passed",
+      "summary": "Completed and reviewed; evidence in audit_report.json and audit-checks.json",
+      "sha256": "66b124a7e2e605b788520be81f061e3f0af030ff391782aa0e79b347d5b7194b"
+    },
+    {
+      "id": "audit",
+      "kind": "audit",
+      "path": "audit_report.json",
+      "dependencies": [
+        "assembly",
+        "audit-checks",
+        "teacher",
+        "terms"
+      ],
+      "status": "passed",
+      "summary": "Completed and reviewed; evidence in audit_report.json and audit-checks.json",
+      "sha256": "ed356d7be10d31ce577e6b1e9f82a7c8189c575ab16b5163b02f5bc2206dad7a"
+    }
+  ],
+  "dependencies": {
+    "input": [],
+    "map": [
+      "input"
+    ],
+    "lesson-01": [
+      "map"
+    ],
+    "lesson-02": [
+      "lesson-01"
+    ],
+    "lesson-03": [
+      "lesson-02"
+    ],
+    "lesson-04": [
+      "lesson-03"
+    ],
+    "lesson-05": [
+      "lesson-04"
+    ],
+    "lesson-06": [
+      "lesson-05"
+    ],
+    "terms": [
+      "lesson-01",
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05",
+      "lesson-06"
+    ],
+    "teacher": [
+      "lesson-01",
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05",
+      "lesson-06"
+    ],
+    "sources": [
+      "input"
+    ],
+    "card": [
+      "sources"
+    ],
+    "verify-script": [
+      "input"
+    ],
+    "verification": [
+      "verify-script"
+    ],
+    "capstone": [
+      "lesson-01",
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05",
+      "lesson-06",
+      "card"
+    ],
+    "audit-checks": [
+      "lesson-01",
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05",
+      "lesson-06",
+      "card",
+      "capstone",
+      "verification"
+    ],
+    "assembly": [
+      "lesson-01",
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05",
+      "lesson-06"
+    ],
+    "audit": [
+      "assembly",
+      "audit-checks",
+      "teacher",
+      "terms"
+    ]
+  },
+  "course_order": [
+    "lesson-01",
+    "lesson-02",
+    "lesson-03",
+    "lesson-04",
+    "lesson-05",
+    "lesson-06"
+  ],
+  "assembly": {
+    "path": "course.md",
+    "section_ids": [
+      "lesson-01",
+      "lesson-02",
+      "lesson-03",
+      "lesson-04",
+      "lesson-05",
+      "lesson-06"
+    ]
+  },
+  "audit_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "blockers": [],
+  "next_action": "none",
+  "operational_records": [
+    "restart-checkpoint.json",
+    "validation-result.json",
+    "finalize_course.py"
+  ],
+  "historical_production_files": [
+    "initialize.py",
+    "author_part1.py",
+    "author_part2.py",
+    "build_support.py",
+    "launch-prompt.md",
+    "storage-check.txt"
+  ]
+}

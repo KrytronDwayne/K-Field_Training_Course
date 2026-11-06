@@ -1,0 +1,508 @@
+{
+  "schema_version": "1.0",
+  "status": "passed",
+  "created_at": "2026-11-05T17:46:36.771781+00:00",
+  "source_path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+  "source_sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+  "source_pointers": [
+    "/backbone_sequence/8",
+    "/backbone_sequence/9",
+    "/backbone_sequence/10",
+    "/backbone_sequence/11"
+  ],
+  "scope": "Finite teaching support for future independent blueprint audit. No completed course accepted by these calculations.",
+  "source_guards": [
+    "Use color-first [C3,W2]; source M10 writes W then C, requiring an explicit permutation.",
+    "Source determinant-lock Z6 conclusion has its stated contract; preserve the accepted integration global-form family and its separate authority.",
+    "Compiler module IDs and backbone module IDs are separate namespaces.",
+    "Do not infer representation identity from matching dimensions or spectra."
+  ],
+  "checks": [
+    {
+      "id": "C13-A2",
+      "passed": true,
+      "centered_weights": [
+        [
+          "2/3",
+          "-1/3",
+          "-1/3"
+        ],
+        [
+          "-1/3",
+          "2/3",
+          "-1/3"
+        ],
+        [
+          "-1/3",
+          "-1/3",
+          "2/3"
+        ]
+      ],
+      "six_roots": [
+        [
+          "1",
+          "-1",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "-1"
+        ],
+        [
+          "-1",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "-1"
+        ],
+        [
+          "-1",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "-1",
+          "1"
+        ]
+      ],
+      "Cartan": [
+        [
+          2,
+          -1
+        ],
+        [
+          -1,
+          2
+        ]
+      ]
+    },
+    {
+      "id": "C13-Z3-CLASS",
+      "passed": true,
+      "scope": "3u1 is an integral zero-sum root vector; u1 and2u1 are not integral. Differences of the three weights are root vectors; this finite check does not replace the full lattice classification proof."
+    },
+    {
+      "id": "C13-A1-(2, 1)",
+      "passed": true,
+      "input": [
+        2,
+        1
+      ],
+      "sum": 3,
+      "difference": 1,
+      "after_transfer": [
+        3,
+        0
+      ],
+      "scope": "Carry difference changes by2; separate from detector parity."
+    },
+    {
+      "id": "C13-A1-(-1, 3)",
+      "passed": true,
+      "input": [
+        -1,
+        3
+      ],
+      "sum": 2,
+      "difference": -4,
+      "after_transfer": [
+        0,
+        2
+      ],
+      "scope": "Carry difference changes by2; separate from detector parity."
+    },
+    {
+      "id": "C13-A1-(0, 0)",
+      "passed": true,
+      "input": [
+        0,
+        0
+      ],
+      "sum": 0,
+      "difference": 0,
+      "after_transfer": [
+        1,
+        -1
+      ],
+      "scope": "Carry difference changes by2; separate from detector parity."
+    },
+    {
+      "id": "C14-SIX-PHASES",
+      "passed": true,
+      "coordinate_rule": "a+b*zeta, zeta=(1+i*sqrt(3))/2; multiplication uses zeta^2=zeta-1",
+      "phases": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          -1
+        ]
+      ]
+    },
+    {
+      "id": "C14-KERNEL-0",
+      "passed": true,
+      "k": 0,
+      "z": [
+        1,
+        0
+      ],
+      "g3_scalar": [
+        1,
+        0
+      ],
+      "g2_scalar": [
+        1,
+        0
+      ],
+      "det_g3": [
+        1,
+        0
+      ],
+      "det_g2": [
+        1,
+        0
+      ],
+      "color_action": [
+        1,
+        0
+      ],
+      "weak_action": [
+        1,
+        0
+      ]
+    },
+    {
+      "id": "C14-KERNEL-1",
+      "passed": true,
+      "k": 1,
+      "z": [
+        0,
+        1
+      ],
+      "g3_scalar": [
+        -1,
+        1
+      ],
+      "g2_scalar": [
+        -1,
+        0
+      ],
+      "det_g3": [
+        1,
+        0
+      ],
+      "det_g2": [
+        1,
+        0
+      ],
+      "color_action": [
+        1,
+        0
+      ],
+      "weak_action": [
+        1,
+        0
+      ]
+    },
+    {
+      "id": "C14-KERNEL-2",
+      "passed": true,
+      "k": 2,
+      "z": [
+        -1,
+        1
+      ],
+      "g3_scalar": [
+        0,
+        -1
+      ],
+      "g2_scalar": [
+        1,
+        0
+      ],
+      "det_g3": [
+        1,
+        0
+      ],
+      "det_g2": [
+        1,
+        0
+      ],
+      "color_action": [
+        1,
+        0
+      ],
+      "weak_action": [
+        1,
+        0
+      ]
+    },
+    {
+      "id": "C14-KERNEL-3",
+      "passed": true,
+      "k": 3,
+      "z": [
+        -1,
+        0
+      ],
+      "g3_scalar": [
+        1,
+        0
+      ],
+      "g2_scalar": [
+        -1,
+        0
+      ],
+      "det_g3": [
+        1,
+        0
+      ],
+      "det_g2": [
+        1,
+        0
+      ],
+      "color_action": [
+        1,
+        0
+      ],
+      "weak_action": [
+        1,
+        0
+      ]
+    },
+    {
+      "id": "C14-KERNEL-4",
+      "passed": true,
+      "k": 4,
+      "z": [
+        0,
+        -1
+      ],
+      "g3_scalar": [
+        -1,
+        1
+      ],
+      "g2_scalar": [
+        1,
+        0
+      ],
+      "det_g3": [
+        1,
+        0
+      ],
+      "det_g2": [
+        1,
+        0
+      ],
+      "color_action": [
+        1,
+        0
+      ],
+      "weak_action": [
+        1,
+        0
+      ]
+    },
+    {
+      "id": "C14-KERNEL-5",
+      "passed": true,
+      "k": 5,
+      "z": [
+        1,
+        -1
+      ],
+      "g3_scalar": [
+        0,
+        -1
+      ],
+      "g2_scalar": [
+        -1,
+        0
+      ],
+      "det_g3": [
+        1,
+        0
+      ],
+      "det_g2": [
+        1,
+        0
+      ],
+      "color_action": [
+        1,
+        0
+      ],
+      "weak_action": [
+        1,
+        0
+      ]
+    },
+    {
+      "id": "C15-CENSUS",
+      "passed": true,
+      "rows": [
+        {
+          "sector": "nu^c",
+          "r_color": 0,
+          "s_weak": 0,
+          "multiplicity": 1,
+          "q": 0,
+          "Y": "0",
+          "descent_mod6": 0
+        },
+        {
+          "sector": "e^c",
+          "r_color": 0,
+          "s_weak": 2,
+          "multiplicity": 1,
+          "q": 6,
+          "Y": "1",
+          "descent_mod6": 0
+        },
+        {
+          "sector": "Q",
+          "r_color": 1,
+          "s_weak": 1,
+          "multiplicity": 6,
+          "q": 1,
+          "Y": "1/6",
+          "descent_mod6": 0
+        },
+        {
+          "sector": "u^c",
+          "r_color": 2,
+          "s_weak": 0,
+          "multiplicity": 3,
+          "q": -4,
+          "Y": "-2/3",
+          "descent_mod6": 0
+        },
+        {
+          "sector": "d^c",
+          "r_color": 2,
+          "s_weak": 2,
+          "multiplicity": 3,
+          "q": 2,
+          "Y": "1/3",
+          "descent_mod6": 0
+        },
+        {
+          "sector": "L",
+          "r_color": 3,
+          "s_weak": 1,
+          "multiplicity": 2,
+          "q": -3,
+          "Y": "-1/2",
+          "descent_mod6": 0
+        }
+      ]
+    },
+    {
+      "id": "C15-CHARGE-SUMS",
+      "passed": true,
+      "weighted_linear_sum": 0,
+      "weighted_cubic_sum": 0,
+      "scope": "Two explicitly specified finite charge sums. This alone is not a new proof of every anomaly or a replacement for a carrier/representation derivation."
+    },
+    {
+      "id": "C15-CUBIC-FACTORIZATION",
+      "passed": true,
+      "coefficient_order": [
+        "a^3",
+        "a^2 b",
+        "a b^2",
+        "b^3"
+      ],
+      "coefficients": [
+        108,
+        144,
+        108,
+        40
+      ],
+      "factorization": "(3a+2b)(36a^2+24ab+20b^2)",
+      "positive_factor_bridge": "36(a+b/3)^2+16b^2; zero only at a=b=0. This avoids assuming a matrix-positivity theorem."
+    },
+    {
+      "id": "C16-INTERACTION-CHARGES",
+      "passed": true,
+      "q_terms": {
+        "up": [
+          -4,
+          1,
+          3
+        ],
+        "neutrino": [
+          0,
+          -3,
+          3
+        ],
+        "down": [
+          2,
+          1,
+          -3
+        ],
+        "electron": [
+          6,
+          -3,
+          -3
+        ]
+      },
+      "bidegree_after_contraction": {
+        "up": [
+          3,
+          2
+        ],
+        "neutrino": [
+          3,
+          2
+        ],
+        "down": [
+          3,
+          2
+        ],
+        "electron": [
+          3,
+          2
+        ]
+      },
+      "scope": "Supplied source contractions must still be taught explicitly; charge cancellation alone is insufficient to establish all invariance."
+    },
+    {
+      "id": "C16-MASS-IDENTITY",
+      "passed": true,
+      "synthetic_parameters": {
+        "g2": "3",
+        "gY": "4",
+        "v": "2"
+      },
+      "mW_squared": "9",
+      "mZ_squared": "25",
+      "cos_theta_squared": "9/25",
+      "rho": "1",
+      "scope": "Pure classroom substitution in the source compiler identity. v carries declared mass units; couplings are dimensionless. Not measured masses or an empirical coupling determination."
+    }
+  ]
+}

@@ -1,0 +1,713 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-27",
+  "timestamp": "2026-11-05T20:13:00.463243+00:00",
+  "status": "passed",
+  "passed_checks": 140,
+  "checks": [
+    {
+      "name": "quadratic (1, 0)",
+      "actual": "2",
+      "expected": "2"
+    },
+    {
+      "name": "reversal (1, 0)",
+      "actual": "2",
+      "expected": "2"
+    },
+    {
+      "name": "quadratic (1, 2)",
+      "actual": "14",
+      "expected": "14"
+    },
+    {
+      "name": "reversal (1, 2)",
+      "actual": "14",
+      "expected": "14"
+    },
+    {
+      "name": "quadratic (1, -1)",
+      "actual": "2",
+      "expected": "2"
+    },
+    {
+      "name": "reversal (1, -1)",
+      "actual": "2",
+      "expected": "2"
+    },
+    {
+      "name": "quadratic (1, 1)",
+      "actual": "6",
+      "expected": "6"
+    },
+    {
+      "name": "reversal (1, 1)",
+      "actual": "6",
+      "expected": "6"
+    },
+    {
+      "name": "quadratic (2, -1)",
+      "actual": "6",
+      "expected": "6"
+    },
+    {
+      "name": "reversal (2, -1)",
+      "actual": "6",
+      "expected": "6"
+    },
+    {
+      "name": "quadratic (0, 0)",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "reversal (0, 0)",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "square decomposition -2,-2",
+      "actual": "24",
+      "expected": "24"
+    },
+    {
+      "name": "positive iff nonzero -2,-2",
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "name": "square decomposition -2,-1",
+      "actual": "14",
+      "expected": "14"
+    },
+    {
+      "name": "positive iff nonzero -2,-1",
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "name": "square decomposition -2,0",
+      "actual": "8",
+      "expected": "8"
+    },
+    {
+      "name": "positive iff nonzero -2,0",
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "name": "square decomposition -2,1",
+      "actual": "6",
+      "expected": "6"
+    },
+    {
+      "name": "positive iff nonzero -2,1",
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "name": "square decomposition -2,2",
+      "actual": "8",
+      "expected": "8"
+    },
+    {
+      "name": "positive iff nonzero -2,2",
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "name": "square decomposition -1,-2",
+      "actual": "14",
+      "expected": "14"
+    },
+    {
+      "name": "positive iff nonzero -1,-2",
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "name": "square decomposition -1,-1",
+      "actual": "6",
+      "expected": "6"
+    },
+    {
+      "name": "positive iff nonzero -1,-1",
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "name": "square decomposition -1,0",
+      "actual": "2",
+      "expected": "2"
+    },
+    {
+      "name": "positive iff nonzero -1,0",
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "name": "square decomposition -1,1",
+      "actual": "2",
+      "expected": "2"
+    },
+    {
+      "name": "positive iff nonzero -1,1",
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "name": "square decomposition -1,2",
+      "actual": "6",
+      "expected": "6"
+    },
+    {
+      "name": "positive iff nonzero -1,2",
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "name": "square decomposition 0,-2",
+      "actual": "8",
+      "expected": "8"
+    },
+    {
+      "name": "positive iff nonzero 0,-2",
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "name": "square decomposition 0,-1",
+      "actual": "2",
+      "expected": "2"
+    },
+    {
+      "name": "positive iff nonzero 0,-1",
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "name": "square decomposition 0,0",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "positive iff nonzero 0,0",
+      "actual": "False",
+      "expected": "False"
+    },
+    {
+      "name": "square decomposition 0,1",
+      "actual": "2",
+      "expected": "2"
+    },
+    {
+      "name": "positive iff nonzero 0,1",
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "name": "square decomposition 0,2",
+      "actual": "8",
+      "expected": "8"
+    },
+    {
+      "name": "positive iff nonzero 0,2",
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "name": "square decomposition 1,-2",
+      "actual": "6",
+      "expected": "6"
+    },
+    {
+      "name": "positive iff nonzero 1,-2",
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "name": "square decomposition 1,-1",
+      "actual": "2",
+      "expected": "2"
+    },
+    {
+      "name": "positive iff nonzero 1,-1",
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "name": "square decomposition 1,0",
+      "actual": "2",
+      "expected": "2"
+    },
+    {
+      "name": "positive iff nonzero 1,0",
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "name": "square decomposition 1,1",
+      "actual": "6",
+      "expected": "6"
+    },
+    {
+      "name": "positive iff nonzero 1,1",
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "name": "square decomposition 1,2",
+      "actual": "14",
+      "expected": "14"
+    },
+    {
+      "name": "positive iff nonzero 1,2",
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "name": "square decomposition 2,-2",
+      "actual": "8",
+      "expected": "8"
+    },
+    {
+      "name": "positive iff nonzero 2,-2",
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "name": "square decomposition 2,-1",
+      "actual": "6",
+      "expected": "6"
+    },
+    {
+      "name": "positive iff nonzero 2,-1",
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "name": "square decomposition 2,0",
+      "actual": "8",
+      "expected": "8"
+    },
+    {
+      "name": "positive iff nonzero 2,0",
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "name": "square decomposition 2,1",
+      "actual": "14",
+      "expected": "14"
+    },
+    {
+      "name": "positive iff nonzero 2,1",
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "name": "square decomposition 2,2",
+      "actual": "24",
+      "expected": "24"
+    },
+    {
+      "name": "positive iff nonzero 2,2",
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "name": "positive form counterexample",
+      "actual": "-1",
+      "expected": "-1"
+    },
+    {
+      "name": "rotated orthonormal form",
+      "actual": "[[Fraction(3, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(1, 1)]]",
+      "expected": "[[3, 0], [0, 1]]"
+    },
+    {
+      "name": "short semiaxis squared",
+      "actual": "1/3",
+      "expected": "1/3"
+    },
+    {
+      "name": "long semiaxis squared",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "name": "ellipse anchor 1",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "name": "ellipse anchor 2",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "name": "ellipse anchor 3",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "name": "ellipse anchor 4",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "name": "ellipse anchor 5",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "name": "ellipse anchor 6",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "name": "ellipse anchor 7",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "name": "ellipse anchor 8",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "name": "ruler matrix",
+      "actual": "[[Fraction(1, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(1, 4)]]",
+      "expected": "[[1, 0], [0, Fraction(1, 4)]]"
+    },
+    {
+      "name": "positive ruler rates",
+      "actual": "[Fraction(1, 1), Fraction(1, 1)]",
+      "expected": "[1, 1]"
+    },
+    {
+      "name": "signed ruler rates",
+      "actual": "[Fraction(-1, 1), Fraction(1, 1)]",
+      "expected": "[-1, 1]"
+    },
+    {
+      "name": "ruler rate cost",
+      "actual": "2",
+      "expected": "2"
+    },
+    {
+      "name": "ruler cumulative count 1",
+      "actual": "[Fraction(-1, 1), Fraction(1, 1)]",
+      "expected": "[-1, 1]"
+    },
+    {
+      "name": "ruler cumulative cost 1",
+      "actual": "2",
+      "expected": "2"
+    },
+    {
+      "name": "ruler cumulative count 2",
+      "actual": "[Fraction(-2, 1), Fraction(2, 1)]",
+      "expected": "[-2, 2]"
+    },
+    {
+      "name": "ruler cumulative cost 2",
+      "actual": "4",
+      "expected": "4"
+    },
+    {
+      "name": "ruler cumulative count 3",
+      "actual": "[Fraction(-1, 1), Fraction(1, 1)]",
+      "expected": "[-1, 1]"
+    },
+    {
+      "name": "ruler cumulative cost 3",
+      "actual": "6",
+      "expected": "6"
+    },
+    {
+      "name": "net count squared separate",
+      "actual": "18",
+      "expected": "18"
+    },
+    {
+      "name": "opposite rates net",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "opposite rates squared accumulation",
+      "actual": "2",
+      "expected": "2"
+    },
+    {
+      "name": "double spacing rate-square factor",
+      "actual": "1/4",
+      "expected": "1/4"
+    },
+    {
+      "name": "GB",
+      "actual": "[[Fraction(4, 1), Fraction(1, 1)], [Fraction(2, 1), Fraction(2, 1)]]",
+      "expected": "[[4, 1], [2, 2]]"
+    },
+    {
+      "name": "BtGB",
+      "actual": "[[Fraction(8, 1), Fraction(2, 1)], [Fraction(2, 1), Fraction(2, 1)]]",
+      "expected": "[[8, 2], [2, 2]]"
+    },
+    {
+      "name": "full W",
+      "actual": "[[Fraction(2, 1), Fraction(1, 2)], [Fraction(1, 2), Fraction(1, 2)]]",
+      "expected": "[[2, Fraction(1, 2)], [Fraction(1, 2), Fraction(1, 2)]]"
+    },
+    {
+      "name": "W TB",
+      "actual": "[[Fraction(2, 1), Fraction(1, 1)], [Fraction(1, 2), Fraction(1, 1)]]",
+      "expected": "[[2, 1], [Fraction(1, 2), 1]]"
+    },
+    {
+      "name": "reverse congruence",
+      "actual": "[[Fraction(2, 1), Fraction(1, 1)], [Fraction(1, 1), Fraction(2, 1)]]",
+      "expected": "[[Fraction(2, 1), Fraction(1, 1)], [Fraction(1, 1), Fraction(2, 1)]]"
+    },
+    {
+      "name": "mapped velocity [1, 2]",
+      "actual": "[Fraction(1, 1), Fraction(1, 1)]",
+      "expected": "[1, 1]"
+    },
+    {
+      "name": "velocity recovery [1, 2]",
+      "actual": "[Fraction(1, 1), Fraction(2, 1)]",
+      "expected": "[1, 2]"
+    },
+    {
+      "name": "physical cost [1, 2]",
+      "actual": "6",
+      "expected": "6"
+    },
+    {
+      "name": "coordinate cost [1, 2]",
+      "actual": "6",
+      "expected": "6"
+    },
+    {
+      "name": "missing quarter cost [1, 2]",
+      "actual": "24",
+      "expected": "24"
+    },
+    {
+      "name": "mapped velocity [2, -2]",
+      "actual": "[Fraction(2, 1), Fraction(-1, 1)]",
+      "expected": "[2, -1]"
+    },
+    {
+      "name": "velocity recovery [2, -2]",
+      "actual": "[Fraction(2, 1), Fraction(-2, 1)]",
+      "expected": "[2, -2]"
+    },
+    {
+      "name": "physical cost [2, -2]",
+      "actual": "6",
+      "expected": "6"
+    },
+    {
+      "name": "coordinate cost [2, -2]",
+      "actual": "6",
+      "expected": "6"
+    },
+    {
+      "name": "missing quarter cost [2, -2]",
+      "actual": "24",
+      "expected": "24"
+    },
+    {
+      "name": "missing cross term",
+      "actual": "4",
+      "expected": "4"
+    },
+    {
+      "name": "noncommuting transpose first",
+      "actual": "[[Fraction(2, 1), Fraction(3, 1)], [Fraction(3, 1), Fraction(6, 1)]]",
+      "expected": "[[2, 3], [3, 6]]"
+    },
+    {
+      "name": "noncommuting other order",
+      "actual": "[[Fraction(6, 1), Fraction(3, 1)], [Fraction(3, 1), Fraction(2, 1)]]",
+      "expected": "[[6, 3], [3, 2]]"
+    },
+    {
+      "name": "straight ledger",
+      "actual": "[([Fraction(1, 1), Fraction(0, 1)], Fraction(2, 1), Fraction(2, 1), Fraction(2, 1)), ([Fraction(2, 1), Fraction(0, 1)], Fraction(2, 1), Fraction(2, 1), Fraction(4, 1))]",
+      "expected": "[([1, 0], 2, 2, 2), ([2, 0], 2, 2, 4)]"
+    },
+    {
+      "name": "dogleg ledger",
+      "actual": "[([Fraction(1, 1), Fraction(1, 1)], Fraction(6, 1), Fraction(6, 1), Fraction(6, 1)), ([Fraction(2, 1), Fraction(0, 1)], Fraction(2, 1), Fraction(2, 1), Fraction(8, 1))]",
+      "expected": "[([1, 1], 6, 6, 6), ([2, 0], 2, 2, 8)]"
+    },
+    {
+      "name": "reversed dogleg",
+      "actual": "[([Fraction(1, 1), Fraction(-1, 1)], Fraction(2, 1), Fraction(2, 1), Fraction(2, 1)), ([Fraction(2, 1), Fraction(0, 1)], Fraction(6, 1), Fraction(6, 1), Fraction(8, 1))]",
+      "expected": "[([1, -1], 2, 2, 2), ([2, 0], 6, 6, 8)]"
+    },
+    {
+      "name": "subdivision row 1",
+      "actual": "([Fraction(1, 2), Fraction(0, 1)], Fraction(2, 1), Fraction(1, 1), Fraction(1, 1))",
+      "expected": "([Fraction(1, 2), 0], 2, 1, 1)"
+    },
+    {
+      "name": "subdivision row 2",
+      "actual": "([Fraction(1, 1), Fraction(0, 1)], Fraction(2, 1), Fraction(1, 1), Fraction(2, 1))",
+      "expected": "([Fraction(1, 1), 0], 2, 1, 2)"
+    },
+    {
+      "name": "subdivision row 3",
+      "actual": "([Fraction(3, 2), Fraction(0, 1)], Fraction(2, 1), Fraction(1, 1), Fraction(3, 1))",
+      "expected": "([Fraction(3, 2), 0], 2, 1, 3)"
+    },
+    {
+      "name": "subdivision row 4",
+      "actual": "([Fraction(2, 1), Fraction(0, 1)], Fraction(2, 1), Fraction(1, 1), Fraction(4, 1))",
+      "expected": "([Fraction(2, 1), 0], 2, 1, 4)"
+    },
+    {
+      "name": "doubled duration path",
+      "actual": "([Fraction(4, 1), Fraction(0, 1)], Fraction(2, 1), Fraction(4, 1), Fraction(16, 1))",
+      "expected": "([4, 0], 2, 4, 16)"
+    },
+    {
+      "name": "dogleg zero weighted deviations",
+      "actual": "[0, 0]",
+      "expected": "[0, 0]"
+    },
+    {
+      "name": "bound",
+      "actual": "4",
+      "expected": "4"
+    },
+    {
+      "name": "dogleg excess",
+      "actual": "4",
+      "expected": "4"
+    },
+    {
+      "name": "bound plus excess",
+      "actual": "8",
+      "expected": "8"
+    },
+    {
+      "name": "changed-time minimum",
+      "actual": "2",
+      "expected": "2"
+    },
+    {
+      "name": "unequal-duration displacement",
+      "actual": "[Fraction(2, 1), Fraction(3, 1)]",
+      "expected": "[2, 3]"
+    },
+    {
+      "name": "unequal-duration average",
+      "actual": "[Fraction(2, 3), Fraction(1, 1)]",
+      "expected": "[Fraction(2, 3), 1]"
+    },
+    {
+      "name": "weighted deviation closure",
+      "actual": "[Fraction(0, 1), Fraction(0, 1)]",
+      "expected": "[0, 0]"
+    },
+    {
+      "name": "unequal direct cost",
+      "actual": "22",
+      "expected": "22"
+    },
+    {
+      "name": "unequal bound",
+      "actual": "38/3",
+      "expected": "38/3"
+    },
+    {
+      "name": "unequal excess",
+      "actual": "28/3",
+      "expected": "28/3"
+    },
+    {
+      "name": "weighted decomposition",
+      "actual": "22",
+      "expected": "22"
+    },
+    {
+      "name": "linear velocity integral",
+      "actual": "8/3",
+      "expected": "8/3"
+    },
+    {
+      "name": "constant mean velocity cost",
+      "actual": "2",
+      "expected": "2"
+    },
+    {
+      "name": "truncation residual",
+      "actual": "1/30000",
+      "expected": "1/30000"
+    },
+    {
+      "name": "truncation reconstruction",
+      "actual": "1/3",
+      "expected": "1/3"
+    },
+    {
+      "name": "truncation interval",
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "name": "bound gap",
+      "actual": "1/5",
+      "expected": "1/5"
+    },
+    {
+      "name": "factor ambiguity (2, 3)",
+      "actual": "6",
+      "expected": "6"
+    },
+    {
+      "name": "factor ambiguity (1, 6)",
+      "actual": "6",
+      "expected": "6"
+    },
+    {
+      "name": "calibrated sensitivity",
+      "actual": "2",
+      "expected": "2"
+    },
+    {
+      "name": "frozen prediction",
+      "actual": "6",
+      "expected": "6"
+    },
+    {
+      "name": "signed response residual 7",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "name": "response reconstruction 7",
+      "actual": "7",
+      "expected": "7"
+    },
+    {
+      "name": "signed response residual 5",
+      "actual": "-1",
+      "expected": "-1"
+    },
+    {
+      "name": "response reconstruction 5",
+      "actual": "5",
+      "expected": "5"
+    }
+  ],
+  "runtime": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+  "script": "Z:\\Kfield-doc-training\\.work\\verify_course27_parent_math.py",
+  "script_sha256": "35ab875f24cf32f0909547d365a7a823ee1bc7513419275ec75132549e7c5b35",
+  "scope": "Independent exact finite quadratic, ruler, pullback, signed segment, weighted minimum proof, precision and response arithmetic. Includes an unequal-duration challenge and noncommuting-basis counterexample. Exact ellipse anchors checked algebraically; figure separately viewed. No locked source matrices, route certificate, detector calibration or observations replayed."
+}

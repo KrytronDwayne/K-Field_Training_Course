@@ -1,0 +1,210 @@
+{
+  "schema_version": "1.0",
+  "status": "passed",
+  "findings": [
+    {
+      "id": "C29-A01",
+      "level": "local",
+      "category": "mathematical-domain",
+      "file": "lesson-02.md",
+      "section": "C29.02-P1",
+      "severity": "major",
+      "defect": "Supplied teaching anchor used three equal 2pi/3 loop phases, incompatible with psi_ac=psi_ab+psi_bc modulo full turns.",
+      "correction": "Use (2pi/3,4pi/3,2pi/3), explicitly labeled symbolic domain card, and propagate to capstone/teacher guide.",
+      "verification": "Closure and zero F checked exactly with Fraction in verify_examples.py; independent lesson audit checked response domain.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "lesson-02",
+        "capstone",
+        "teacher-guide"
+      ]
+    },
+    {
+      "id": "C29-A02",
+      "level": "cumulative",
+      "category": "notation",
+      "file": "lesson-04.md",
+      "section": "C29.04-E1",
+      "severity": "minor",
+      "defect": "Independent auditor found full-step address labels and half-step state labels insufficiently distinguished.",
+      "correction": "Explicit half-step/full-step conversion and sheet-index relation added before primitive lifts.",
+      "verification": "Source formula A(i,j,k)/2 agrees with lesson-06; independent recheck requested and completed in final review.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "lesson-04",
+        "lesson-06"
+      ]
+    }
+  ],
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "corrected_counts": {
+    "critical": 0,
+    "major": 1,
+    "minor": 1
+  },
+  "local_checks": [
+    {
+      "checkpoint": "lesson-01",
+      "contract_sections": "all present",
+      "anchors": [
+        "C29.01-E1",
+        "C29.01-W1",
+        "C29.01-P1",
+        "C29.01-D1"
+      ],
+      "local_review": "Prerequisite, audience, notation, units, logic, source scope and diagnostic alignment reviewed against authored content; arithmetic separately checked in worked-example-verification.json.",
+      "status": "passed"
+    },
+    {
+      "checkpoint": "lesson-02",
+      "contract_sections": "all present",
+      "anchors": [
+        "C29.02-E1",
+        "C29.02-W1",
+        "C29.02-P1",
+        "C29.02-D1"
+      ],
+      "local_review": "Prerequisite, audience, notation, units, logic, source scope and diagnostic alignment reviewed against authored content; arithmetic separately checked in worked-example-verification.json.",
+      "status": "passed"
+    },
+    {
+      "checkpoint": "lesson-03",
+      "contract_sections": "all present",
+      "anchors": [
+        "C29.03-E1",
+        "C29.03-W1",
+        "C29.03-P1",
+        "C29.03-D1"
+      ],
+      "local_review": "Prerequisite, audience, notation, units, logic, source scope and diagnostic alignment reviewed against authored content; arithmetic separately checked in worked-example-verification.json.",
+      "status": "passed"
+    },
+    {
+      "checkpoint": "lesson-04",
+      "contract_sections": "all present",
+      "anchors": [
+        "C29.04-E1",
+        "C29.04-W1",
+        "C29.04-P1",
+        "C29.04-D1"
+      ],
+      "local_review": "Prerequisite, audience, notation, units, logic, source scope and diagnostic alignment reviewed against authored content; arithmetic separately checked in worked-example-verification.json.",
+      "status": "passed"
+    },
+    {
+      "checkpoint": "lesson-05",
+      "contract_sections": "all present",
+      "anchors": [
+        "C29.05-E1",
+        "C29.05-W1",
+        "C29.05-P1",
+        "C29.05-D1"
+      ],
+      "local_review": "Prerequisite, audience, notation, units, logic, source scope and diagnostic alignment reviewed against authored content; arithmetic separately checked in worked-example-verification.json.",
+      "status": "passed"
+    },
+    {
+      "checkpoint": "lesson-06",
+      "contract_sections": "all present",
+      "anchors": [
+        "C29.06-E1",
+        "C29.06-W1",
+        "C29.06-P1",
+        "C29.06-D1"
+      ],
+      "local_review": "Prerequisite, audience, notation, units, logic, source scope and diagnostic alignment reviewed against authored content; arithmetic separately checked in worked-example-verification.json.",
+      "status": "passed"
+    },
+    {
+      "checkpoint": "lesson-07",
+      "contract_sections": "all present",
+      "anchors": [
+        "C29.07-E1",
+        "C29.07-W1",
+        "C29.07-P1",
+        "C29.07-D1"
+      ],
+      "local_review": "Prerequisite, audience, notation, units, logic, source scope and diagnostic alignment reviewed against authored content; arithmetic separately checked in worked-example-verification.json.",
+      "status": "passed"
+    },
+    {
+      "checkpoint": "lesson-08",
+      "contract_sections": "all present",
+      "anchors": [
+        "C29.08-E1",
+        "C29.08-W1",
+        "C29.08-P1",
+        "C29.08-D1"
+      ],
+      "local_review": "Prerequisite, audience, notation, units, logic, source scope and diagnostic alignment reviewed against authored content; arithmetic separately checked in worked-example-verification.json.",
+      "status": "passed"
+    }
+  ],
+  "cumulative_checks": [
+    {
+      "unit": "I lessons 01–02",
+      "result": "Directed observation, projective axis and response parity kept distinct; phase units and domain flags taught."
+    },
+    {
+      "unit": "II lessons 03–05",
+      "result": "Basis/inverse/metric prerequisites close; half-step clarification applied; skew assignment and positive metric practiced before capstone."
+    },
+    {
+      "unit": "III lessons 06–08",
+      "result": "All state labels and residual types retained; old/new phase branches and independent prediction practiced."
+    }
+  ],
+  "independent_audit": {
+    "auditor": "independent_course_audit",
+    "scope": "Eight lessons, then supporting curriculum and capstone; original G01/G03 checked, PDF claims bounded to contract anchors by auditor. Author separately read original G02/G04 pages.",
+    "initial_result": "0 critical, 0 major, 1 minor; minor corrected.",
+    "final_result": "See final independent-audit.md receipt."
+  },
+  "final_hostile_checks": [
+    {
+      "category": "coverage/fidelity",
+      "result": "Eight concept rows mapped to E/W/P/D anchors and eight capstone tasks; exact source boundaries and synthetic inputs retained."
+    },
+    {
+      "category": "prerequisites/audience",
+      "result": "Vector, trigonometric special values, inverse, determinant, quadratic positivity, eigen-directions and normalization taught locally; sixteen periods preserved."
+    },
+    {
+      "category": "correctness/units",
+      "result": "50 successful exact/binary64 assertions and independent hand checks; no fresh experimental replay claimed."
+    },
+    {
+      "category": "evidence",
+      "result": "Source facts, derived identities, hypotheses and unresolved calibration/selection gaps separated; original full records retained by reference."
+    },
+    {
+      "category": "assessment",
+      "result": "32-point eight-task key aligns with prior practice; no new core operation in capstone."
+    },
+    {
+      "category": "terminology",
+      "result": "Source-specific q,R,phase,origin,metric and half-step distinctions reconciled."
+    },
+    {
+      "category": "minimality",
+      "result": "Optional graph distance decoders and advanced proof branches excluded from core premises; necessary bridges expanded."
+    },
+    {
+      "category": "links/Markdown",
+      "result": "25 local Markdown links resolved; tables inspected as text; no paginated output requested."
+    },
+    {
+      "category": "recovery/assembly/containment",
+      "result": "All files inside authoritative course directory; deterministic validator run after final hash refresh; result saved separately."
+    }
+  ],
+  "limitations": [
+    "No classroom trial is claimed.",
+    "No full raw-catalog or source control-family replay; source correlation remains reported.",
+    "Graph generation unavailable in capability response; pinned local file hashes verified."
+  ]
+}

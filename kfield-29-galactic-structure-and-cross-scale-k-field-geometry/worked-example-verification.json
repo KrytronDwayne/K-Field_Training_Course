@@ -1,0 +1,404 @@
+{
+  "status": "passed",
+  "method": "Exact Fraction synthetic checks; Decimal subtraction of source lexemes; binary64 matrix replay with signed residuals retained. Assertions independently implement the taught operations.",
+  "checks": [
+    {
+      "id": "sha256-S01",
+      "actual": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "expected": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "status": "passed"
+    },
+    {
+      "id": "sha256-S02",
+      "actual": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "expected": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "status": "passed"
+    },
+    {
+      "id": "sha256-S03",
+      "actual": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "expected": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "status": "passed"
+    },
+    {
+      "id": "sha256-S04",
+      "actual": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "expected": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "status": "passed"
+    },
+    {
+      "id": "sha256-G01",
+      "actual": "bd6ff0e335f3c405000cd1f8adfa3ae947dc9362dfeb772764cf98ef62ae6f63",
+      "expected": "bd6ff0e335f3c405000cd1f8adfa3ae947dc9362dfeb772764cf98ef62ae6f63",
+      "status": "passed"
+    },
+    {
+      "id": "sha256-G02",
+      "actual": "69dcaace292365d22b9b48c43edc0ac4936b148ec68a5b265abc72aaff4f4447",
+      "expected": "69dcaace292365d22b9b48c43edc0ac4936b148ec68a5b265abc72aaff4f4447",
+      "status": "passed"
+    },
+    {
+      "id": "sha256-G03",
+      "actual": "aa7f4236b7f956c652690934d6444f597ea38b6e485cc77a22be884b567d1cea",
+      "expected": "aa7f4236b7f956c652690934d6444f597ea38b6e485cc77a22be884b567d1cea",
+      "status": "passed"
+    },
+    {
+      "id": "sha256-G04",
+      "actual": "856777f0fae0d6b50e8d235435068b7ea3c25a83068cfbfb197b62835cbb8fbd",
+      "expected": "856777f0fae0d6b50e8d235435068b7ea3c25a83068cfbfb197b62835cbb8fbd",
+      "status": "passed"
+    },
+    {
+      "id": "galaxy-determinant-positive",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "id": "galaxy-reciprocal-closure-within-1e-12",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "id": "mature-determinant-negative",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "id": "mature-Gram-within-1e-12",
+      "actual": "True",
+      "expected": "True",
+      "status": "passed"
+    },
+    {
+      "id": "L01-directed-antipodal-dot",
+      "actual": "-1",
+      "expected": "-1",
+      "status": "passed"
+    },
+    {
+      "id": "L01-perpendicular-dot",
+      "actual": "0",
+      "expected": "0",
+      "status": "passed"
+    },
+    {
+      "id": "L02-u-domain",
+      "actual": "0",
+      "expected": "0",
+      "status": "passed"
+    },
+    {
+      "id": "L02-phase-closure-in-pi-units",
+      "actual": "4/3",
+      "expected": "4/3",
+      "status": "passed"
+    },
+    {
+      "id": "L02-F-square",
+      "actual": "0",
+      "expected": "0",
+      "status": "passed"
+    },
+    {
+      "id": "L02-D-relative",
+      "actual": "9/2",
+      "expected": "9/2",
+      "status": "passed"
+    },
+    {
+      "id": "L02-regular-transfer",
+      "actual": "4",
+      "expected": "4",
+      "status": "passed"
+    },
+    {
+      "id": "L02-address",
+      "actual": "1",
+      "expected": "1",
+      "status": "passed"
+    },
+    {
+      "id": "L03-identity-center",
+      "actual": "[Fraction(5, 4), Fraction(-1, 2)]",
+      "expected": "[Fraction(5, 4), Fraction(-1, 2)]",
+      "status": "passed"
+    },
+    {
+      "id": "L03-scaled-center",
+      "actual": "[Fraction(5, 2), Fraction(-3, 2)]",
+      "expected": "[Fraction(5, 2), Fraction(-3, 2)]",
+      "status": "passed"
+    },
+    {
+      "id": "L03-owner-1/2",
+      "actual": "1",
+      "expected": "1",
+      "status": "passed"
+    },
+    {
+      "id": "L03-reconstruction-1/2",
+      "actual": "1/2",
+      "expected": "1/2",
+      "status": "passed"
+    },
+    {
+      "id": "L03-owner--1/2",
+      "actual": "0",
+      "expected": "0",
+      "status": "passed"
+    },
+    {
+      "id": "L03-reconstruction--1/2",
+      "actual": "-1/2",
+      "expected": "-1/2",
+      "status": "passed"
+    },
+    {
+      "id": "L03-owner--3/2",
+      "actual": "-1",
+      "expected": "-1",
+      "status": "passed"
+    },
+    {
+      "id": "L03-reconstruction--3/2",
+      "actual": "-3/2",
+      "expected": "-3/2",
+      "status": "passed"
+    },
+    {
+      "id": "L04-root-closure-[1, 2, 3]",
+      "actual": "[Fraction(1, 2), Fraction(0, 1), Fraction(-3, 2)]",
+      "expected": "[Fraction(1, 2), Fraction(0, 1), Fraction(-3, 2)]",
+      "status": "passed"
+    },
+    {
+      "id": "L04-root-normal-[1, 2, 3]",
+      "actual": "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+      "expected": "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+      "status": "passed"
+    },
+    {
+      "id": "L04-root-closure-[2, 1, 4]",
+      "actual": "[Fraction(1, 1), Fraction(0, 1), Fraction(-2, 1)]",
+      "expected": "[Fraction(1, 1), Fraction(0, 1), Fraction(-2, 1)]",
+      "status": "passed"
+    },
+    {
+      "id": "L04-root-normal-[2, 1, 4]",
+      "actual": "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+      "expected": "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+      "status": "passed"
+    },
+    {
+      "id": "L05-inverse",
+      "actual": "[[Fraction(1, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(1, 1)]]",
+      "expected": "[[1, 0], [0, 1]]",
+      "status": "passed"
+    },
+    {
+      "id": "L05-metric-[1, -1]",
+      "actual": "2",
+      "expected": "2",
+      "status": "passed"
+    },
+    {
+      "id": "L05-metric-[1, 1]",
+      "actual": "6",
+      "expected": "6",
+      "status": "passed"
+    },
+    {
+      "id": "L05-metric-[2, 0]",
+      "actual": "8",
+      "expected": "8",
+      "status": "passed"
+    },
+    {
+      "id": "L05-skew-zero",
+      "actual": "434581/500000",
+      "expected": "434581/500000",
+      "status": "passed"
+    },
+    {
+      "id": "L05-skew-b",
+      "actual": "1781/500000",
+      "expected": "1781/500000",
+      "status": "passed"
+    },
+    {
+      "id": "L06-all-sheet-counts",
+      "actual": "[1, 3, 6, 7, 6, 3, 1]",
+      "expected": "[1, 3, 6, 7, 6, 3, 1]",
+      "status": "passed"
+    },
+    {
+      "id": "L06-all-nodes",
+      "actual": "27",
+      "expected": "27",
+      "status": "passed"
+    },
+    {
+      "id": "L06-occupancy-differences",
+      "actual": "[-1, 1, 0]",
+      "expected": "[-1, 1, 0]",
+      "status": "passed"
+    },
+    {
+      "id": "L06-residual",
+      "actual": "1/5",
+      "expected": "1/5",
+      "status": "passed"
+    },
+    {
+      "id": "L07-population-sum",
+      "actual": "114381",
+      "expected": "114381",
+      "status": "passed"
+    },
+    {
+      "id": "L07-phase-change",
+      "actual": "1/12",
+      "expected": "1/12",
+      "status": "passed"
+    },
+    {
+      "id": "L07-old-residual",
+      "actual": "1/20",
+      "expected": "1/20",
+      "status": "passed"
+    },
+    {
+      "id": "L07-new-residual",
+      "actual": "-1/30",
+      "expected": "-1/30",
+      "status": "passed"
+    },
+    {
+      "id": "L08-scaling-volume",
+      "actual": "48",
+      "expected": "48",
+      "status": "passed"
+    },
+    {
+      "id": "L08-contrast-[1, 1, 3, 3]",
+      "actual": "-1/4",
+      "expected": "-1/4",
+      "status": "passed"
+    },
+    {
+      "id": "L08-contrast-[3, 3, 1, 1]",
+      "actual": "1/4",
+      "expected": "1/4",
+      "status": "passed"
+    },
+    {
+      "id": "L08-contrast-[2, 2, 2, 2]",
+      "actual": "0",
+      "expected": "0",
+      "status": "passed"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "evidence_class": "archival source",
+      "fresh_hash_match": true
+    },
+    {
+      "id": "S02",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "evidence_class": "archival source",
+      "fresh_hash_match": true
+    },
+    {
+      "id": "S03",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "evidence_class": "archival source",
+      "fresh_hash_match": true
+    },
+    {
+      "id": "S04",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+      "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "evidence_class": "archival source",
+      "fresh_hash_match": true
+    },
+    {
+      "id": "G01",
+      "path": "Z:\\Archive_20260911\\Pre_Aug14\\galaxy_cell_hidden_holonomy_summary_1783791371.json",
+      "sha256": "bd6ff0e335f3c405000cd1f8adfa3ae947dc9362dfeb772764cf98ef62ae6f63",
+      "evidence_class": "archival source",
+      "fresh_hash_match": true
+    },
+    {
+      "id": "G02",
+      "path": "Z:\\Archive_20260911\\Pre_Aug14\\K-field_cell3_vs_galaxy_derived_cell_analogue_1783794540.pdf",
+      "sha256": "69dcaace292365d22b9b48c43edc0ac4936b148ec68a5b265abc72aaff4f4447",
+      "evidence_class": "archival source",
+      "fresh_hash_match": true
+    },
+    {
+      "id": "G03",
+      "path": "Z:\\Archive_20260911\\Pre_Aug14\\K-field_spherical_gravity_response_graph_audited_1783692220.json",
+      "sha256": "aa7f4236b7f956c652690934d6444f597ea38b6e485cc77a22be884b567d1cea",
+      "evidence_class": "archival source",
+      "fresh_hash_match": true
+    },
+    {
+      "id": "G04",
+      "path": "Z:\\Archive_20260911\\Pre_Aug14\\K-field_galaxy_sky_position_volumetric_quantization_1783789746.pdf",
+      "sha256": "856777f0fae0d6b50e8d235435068b7ea3c25a83068cfbfb197b62835cbb8fbd",
+      "evidence_class": "archival source",
+      "fresh_hash_match": true
+    }
+  ],
+  "galaxy_QtA_minus_I": [
+    [
+      0.0,
+      -2.220446049250313e-16,
+      -2.7755575615628914e-17
+    ],
+    [
+      0.0,
+      0.0,
+      1.1102230246251565e-16
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "galaxy_determinant_recomputed": 0.006245061650975665,
+  "mature_determinant_recomputed": -0.11791489191174463,
+  "mature_Gram_minus_stored": [
+    [
+      0.0,
+      0.0,
+      -6.938893903907228e-18
+    ],
+    [
+      0.0,
+      -5.551115123125783e-17,
+      0.0
+    ],
+    [
+      -6.938893903907228e-18,
+      0.0,
+      0.0
+    ]
+  ],
+  "limits": [
+    "No catalog, controls, full 27-state correlation or physical-distance replay.",
+    "G03 symbolic boundary exercises are not a fresh historical geometry replay."
+  ]
+}

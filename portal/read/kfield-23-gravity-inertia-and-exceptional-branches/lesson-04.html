@@ -1,0 +1,85 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Lesson 04 — Cycle counts and exceptional dimensions · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/23">Course 23</a><span>/</span><span>lesson 04</span></div><a class="original" href="../../../kfield-23-gravity-inertia-and-exceptional-branches/lesson-04.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#lesson-04-cycle-counts-and-exceptional-dimensions">Lesson 04 — Cycle counts and exceptional dimensions</a><a href="#c2304-e1-build-the-object-before-counting-it">C23.04-E1 — Build the object before counting it</a><a href="#c2304-w1-recompute-the-three-dimensional-counts">C23.04-W1 — Recompute the three-dimensional counts</a><a href="#source-theorem-cards-recognition-only">Source theorem cards — recognition only</a><a href="#c2304-p1-guided-practice-before-assessment">C23.04-P1 — Guided practice before assessment</a><a href="#c2304-d1-diagnostic-checks">C23.04-D1 — Diagnostic checks</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 01 — Scalar lifts and reconstructed shape</a><a  href="lesson-02.html">Lesson 02 — Reciprocal inversion identities</a><a  href="lesson-03.html">Lesson 03 — Geometry and proposed inertial response</a><a aria-current=page href="lesson-04.html">Lesson 04 — Cycle counts and exceptional dimensions</a><a  href="lesson-05.html">Lesson 05 — An action needs more than a matching dimension</a><a  href="lesson-06.html">Lesson 06 — Comparing mechanism classes</a><a  href="lesson-07.html">Lesson 07 — A map of exact and open branches</a></details></aside><div class="reading-column"><article class="prose"><h1 id="lesson-04-cycle-counts-and-exceptional-dimensions" tabindex="-1">Lesson 04 — Cycle counts and exceptional dimensions</h1>
+<p><strong>Essential question:</strong> What can a finite count establish, and what additional structure is needed to turn that count into an algebraic action?</p>
+<p><strong>Goals.</strong> By the end, you can (1) count vertices and edges under an explicit boundary rule, (2) derive and use the connected-graph cycle formula, and (3) separate a recomputed count from an attributed theorem and an unconstructed extension.</p>
+<p><strong>Prerequisite bridge.</strong> Lesson 03 separated a directional calculation from an added response law. Here the same discipline applies to counting: a number is a result of specified operations, while an action also requires rules for transforming objects. We need only whole-number arithmetic and coordinate triples. Every count below is dimensionless; no laboratory measurement is represented.</p>
+<p><strong>Time:</strong> two 55-minute periods. Each uses 5 minutes of retrieval, 20 of explanation/worked calculation, 15 of practice, and 15 of diagnostics and repair. Period 1 covers graph enumeration; period 2 covers source theorem cards and the boundary of dimension comparisons.</p>
+<h2 id="c2304-e1-build-the-object-before-counting-it" tabindex="-1">C23.04-E1 — Build the object before counting it</h2>
+<p>A <strong>graph</strong> consists of vertices (points) and edges (links). Our edges are undirected: a link from A to B is the same link as one from B to A. A <strong>path</strong> follows edges. A graph is <strong>connected</strong> when every vertex can be reached from any other. A <strong>cycle</strong> is a closed route without repeated vertices except its starting/ending vertex. A picture can contain many cycles even though only a smaller number are independent.</p>
+<p>Begin with three points labeled 0, 1, 2 on a line, linked by 0—1 and 1—2. Call this graph P3. An open three-dimensional grid has vertices (i,j,k), where each coordinate is 0, 1, or 2. An edge changes just one coordinate between 0 and 1 or between 1 and 2, leaving the others fixed. For example, (0,1,2) links to (1,1,2), but not to (1,2,2): that latter change alters two coordinates. “Open” means 0 and 2 are not directly linked along a coordinate line.</p>
+<p>A <strong>spanning tree</strong> connects all vertices without cycles. You can build one by starting at a single vertex and adding an edge to one previously unreached vertex at each step. Each step adds one vertex and one edge. Reaching V vertices therefore uses V−1 edges. Because the tree has no cycles, there is exactly one path within it between any two vertices; two distinct paths would create a cycle.</p>
+<p>Now restore an edge omitted from the tree. Its endpoints already have a tree path, so the new edge closes one cycle. Each omitted edge gives a cycle containing that particular omitted edge and no other omitted edge. Thus none of these cycles can be built from the others. They generate all cycle patterns: remove an arbitrary closed pattern's non-tree edges using these cycles, and no cycle can remain entirely inside a tree. This establishes the <strong>cycle dimension</strong></p>
+<div aria-label="Scrollable mathematical expression" class="equation" data-tex="\text{cycle dimension}=E-(V-1)=E-V+1" role="region" tabindex="0"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>cycle dimension</mtext><mo>=</mo><mi>E</mi><mo>−</mo><mo>(</mo><mi>V</mi><mo>−</mo><mn>1</mn><mo>)</mo><mo>=</mo><mi>E</mi><mo>−</mo><mi>V</mi><mo>+</mo><mn>1</mn></math></div>
+<p>for a finite connected graph with E edges and V vertices. More precisely, we can describe a cycle pattern by marking edges 0 or 1, combining patterns by addition modulo 2: an edge used twice cancels. The dimension counts independent choices in this description, not the number of all distinct closed routes. This elementary convention is sufficient for our finite counts. Other coefficient conventions must be declared when comparing with a source's richer construction.</p>
+<p>For a <strong>periodic</strong> grid, add the wrap edge 2—0 on every coordinate line. We retain one undirected edge per pair on that line. With three points, each line becomes a triangle with three edges. We are not adding separate copies for clockwise and counterclockwise travel. Open and periodic grids are different graphs and must remain separate entries in the record.</p>
+<h2 id="c2304-w1-recompute-the-three-dimensional-counts" tabindex="-1">C23.04-W1 — Recompute the three-dimensional counts</h2>
+<p>There are three choices for each of three coordinates, so V=3×3×3=27. To count open edges in the i direction, choose j and k in 3×3=9 ways; each resulting line has two edges. This gives 18 edges. The j and k directions contribute 18 each, with no overlap because an edge changes only one coordinate. Hence E=54 and cycle dimension 54−27+1=28.</p>
+<p>For the periodic version, each of those nine lines per direction has three edges. Therefore E=3×9×3=81, and cycle dimension 81−27+1=55. Periodic augmentation adds 81−54=27 edges without adding vertices, increasing cycle dimension by 27. Independently check the arithmetic by starting from the cycle dimensions: 55−28=27.</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Graph</th>
+<th style="text-align: right;">V</th>
+<th style="text-align: right;">E</th>
+<th style="text-align: right;">E−V+1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Open P3 × P3 × P3</td>
+<td style="text-align: right;">27</td>
+<td style="text-align: right;">54</td>
+<td style="text-align: right;">28</td>
+</tr>
+<tr>
+<td>Periodic three-coordinate grid</td>
+<td style="text-align: right;">27</td>
+<td style="text-align: right;">81</td>
+<td style="text-align: right;">55</td>
+</tr>
+</tbody>
+</table></div>
+<p>S02's M19 branch records the additional decomposition 27=24+3 and the sector count 55=52+3, describing 52 zero-sum/open-cycle coordinates and 3 global windings. A winding records going around a periodic direction. The arithmetic 52+3=55 checks, but choosing the actual 52-coordinate sector and its relation to the winding coordinates needs a specified map or basis. Our enumeration does not construct that map. Preserve both the directly checked totals and the source's more structured statement.</p>
+<h2 id="source-theorem-cards-recognition-only" tabindex="-1">Source theorem cards — recognition only</h2>
+<p>The following cards are attributed to <strong>S02, <code>/backbone_sequence/18/branches/exceptional_cycle_bridge/exact_counts</code></strong>. Their proof bodies are not supplied in that short source entry and are not reconstructed by this lesson. Students identify their status and perform only the explicitly taught arithmetic.</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Source card</th>
+<th>Meaning sufficient for this course</th>
+<th>Boundary</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>dim H²((Z3)³,Z3)=6, giving 729 classes</td>
+<td>Z3 denotes three labels with arithmetic modulo 3; H² labels a cohomology classification space. Given six independent three-way coordinates, the number of assignments is 3⁶.</td>
+<td>We use the dimension theorem; we do not prove it by grid counting or define physical coupling from it.</td>
+</tr>
+<tr>
+<td>The stabilizer of one octonion unit is SU(3)</td>
+<td>A stabilizer is a collection of transformations preserving the specified object; SU(3) is the source's named symmetry structure.</td>
+<td>The exact octonion-unit convention and theorem hypotheses require the fuller theorem. This is not a claim about any arbitrarily chosen unit.</td>
+</tr>
+<tr>
+<td>The Euclidean Albert algebra supplies compact F4</td>
+<td>The source names an algebraic carrier and a compact symmetry structure.</td>
+<td>This does not furnish an F4 action on the particular 52-cycle sector.</td>
+</tr>
+</tbody>
+</table></div>
+<p>Names F4, E6, and E7 identify exceptional algebraic structures. The often-compared dimension labels 52, 78, and 133 are recognition labels in this course, not a construction of their operators. The supplied M19 entry identifies E6/E7 real-form selection as an extension; it does not provide a 78- or 133-dimensional graph construction to verify here. A <strong>real form</strong> specifies a real-number version of a broader algebraic structure. Selecting one requires a contract beyond naming its dimension.</p>
+<blockquote>
+<p><strong>Claim scope.</strong> The finite grid counts above are fresh deductions from declared graph rules. Cohomology and exceptional-algebra statements remain source/theorem cards. The specific F4 cycle action, E6/E7 real forms, and physical coupling of cohomology classes remain extension obligations. M19 is a mixed branch, not a premise of M20 core closure (S03 <code>/findings/0</code>, AUD-001). A null endpoint cannot cancel a constituent limitation (S03 <code>/findings/9</code>, AUD-010).</p>
+</blockquote>
+<h2 id="c2304-p1-guided-practice-before-assessment" tabindex="-1">C23.04-P1 — Guided practice before assessment</h2>
+<p>Build an open two-dimensional 3×3 grid with vertices (i,j). Count V, horizontal edges, vertical edges, E, and cycle dimension. Then add wrap edges and repeat. Finally, using the supplied six-coordinate cohomology theorem, count the classes. State exactly which part of your answer is conditional on a source theorem.</p>
+<p><strong>Worked practice answer.</strong> V=3×3=9. Three horizontal lines each contain two edges, giving 6, and three vertical lines give another 6. Thus E=12 and cycle dimension 12−9+1=4. Periodic lines each have three edges: E=9+9=18 and cycle dimension 18−9+1=10. The increase is six, equal to the six added wrap edges. For six independent coordinates with three choices each, repeated multiplication gives 3×3×3×3×3×3=729. The multiplication is verified here; the premise that this cohomology space has six independent coordinates is the attributed theorem.</p>
+<h2 id="c2304-d1-diagnostic-checks" tabindex="-1">C23.04-D1 — Diagnostic checks</h2>
+<ol>
+<li>A connected graph has 8 vertices and 11 edges. Find its cycle dimension and explain the subtraction.</li>
+<li>In the open three-dimensional grid, why is E not 27×6?</li>
+<li>A table lists 52 cycle coordinates and dimension 52 for F4. What has the table supplied, and what is still needed?</li>
+<li>Does 3⁶=729 prove the cohomology dimension is six? What record should retain the missing proof?</li>
+</ol>
+<p><strong>Worked answers.</strong> (1) A spanning tree has 8−1=7 edges, leaving 11−7=4 independent cycle choices. (2) Boundary vertices have fewer than six neighbors, and counting every link from each end double-counts it. Counting the coordinate lines gives 54 exactly. (3) It supplies a dimension match. One still needs the cycle sector, field, basis, operators, preserved algebraic relations, and a map connecting the claimed actions; Lesson 05 teaches a small version. (4) No: it computes the consequence of a given dimension. The source card must retain the theorem attribution, pointer, and proof-body retrieval gap rather than replace them with an arithmetic check.</p>
+<p><strong>Next dependency:</strong> <a href="lesson-05.html">Lesson 05 — An action needs more than a matching dimension</a> turns a dimension comparison into a concrete map test.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><a class="button secondary" href="lesson-03.html">← Previous lesson</a><a class="button" href="lesson-05.html">Next lesson →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/23">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

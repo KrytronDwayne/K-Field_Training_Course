@@ -1,0 +1,341 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Recursive K-Field Geometry and Address Histories · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/6">Course 06</a><span>/</span><span>course</span></div><a class="original" href="../../../kfield-06-recursive-k-field-geometry-and-address-histories/course.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#recursive-k-field-geometry-and-address-histories">Recursive K-Field Geometry and Address Histories</a><a href="#lesson-01-one-subdivision-at-a-time">Lesson 01 — One subdivision at a time</a><a href="#c0601-e1-a-repeated-rule">C06.01-E1 — A repeated rule</a><a href="#c0601-w1-worked-tree">C06.01-W1 — Worked tree</a><a href="#c0601-e2-and-c0601-w2-count-the-object-you-named">C06.01-E2 and C06.01-W2 — Count the object you named</a><a href="#guided-practice">Guided practice</a><a href="#diagnostic-checks">Diagnostic checks</a><a href="#lesson-02-dyadic-geometry-and-triadic-addresses">Lesson 02 — Dyadic geometry and triadic addresses</a><a href="#c0602-e1-remainders-as-addresses">C06.02-E1 — Remainders as addresses</a><a href="#c0602-w1-two-counters">C06.02-W1 — Two counters</a><a href="#c0602-e2-and-c0602-w2-a-finite-rung-equation">C06.02-E2 and C06.02-W2 — A finite rung equation</a><a href="#guided-practice_1">Guided practice</a><a href="#diagnostic-checks_1">Diagnostic checks</a><a href="#lesson-03-scaling-length-area-and-node-counts">Lesson 03 — Scaling length, area, and node counts</a><a href="#c0603-e1-hold-the-outer-boundary-fixed">C06.03-E1 — Hold the outer boundary fixed</a><a href="#c0603-w1-a-fixed-group-through-depth-2">C06.03-W1 — A fixed Group through depth 2</a><a href="#c0603-e2-and-c0603-w2-half-step-samples-and-sheets">C06.03-E2 and C06.03-W2 — Half-step samples and sheets</a><a href="#guided-practice_2">Guided practice</a><a href="#diagnostic-checks_2">Diagnostic checks</a><a href="#lesson-04-balanced-ternary-as-an-address-language">Lesson 04 — Balanced ternary as an address language</a><a href="#c0604-e1-place-values-with-signs">C06.04-E1 — Place values with signs</a><a href="#c0604-w1-integer-8">C06.04-W1 — Integer 8</a><a href="#guided-practice_3">Guided practice</a><a href="#diagnostic-checks_3">Diagnostic checks</a><a href="#lesson-05-parent-maps-and-compatible-histories">Lesson 05 — Parent maps and compatible histories</a><a href="#c0605-e1-a-history-is-more-than-a-list">C06.05-E1 — A history is more than a list</a><a href="#c0605-w1-history-of-8">C06.05-W1 — History of 8</a><a href="#guided-practice_4">Guided practice</a><a href="#diagnostic-checks_4">Diagnostic checks</a><a href="#lesson-06-what-a-finite-resolution-retains">Lesson 06 — What a finite resolution retains</a><a href="#c0606-e1-keep-the-removed-coordinate">C06.06-E1 — Keep the removed coordinate</a><a href="#c0606-w1-two-reconstructions">C06.06-W1 — Two reconstructions</a><a href="#guided-practice_5">Guided practice</a><a href="#diagnostic-checks_5">Diagnostic checks</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 01 — One subdivision at a time</a><a  href="lesson-02.html">Lesson 02 — Dyadic geometry and triadic addresses</a><a  href="lesson-03.html">Lesson 03 — Scaling length, area, and node counts</a><a  href="lesson-04.html">Lesson 04 — Balanced ternary as an address language</a><a  href="lesson-05.html">Lesson 05 — Parent maps and compatible histories</a><a  href="lesson-06.html">Lesson 06 — What a finite resolution retains</a></details></aside><div class="reading-column"><article class="prose"><h1 id="recursive-k-field-geometry-and-address-histories" tabindex="-1">Recursive K-Field Geometry and Address Histories</h1>
+<p>Six lessons, seven core periods, two capstone periods.</p>
+<p>Use <a href="course-map.html">course map</a>, <a href="terminology.html">terminology</a>, <a href="teacher-guide.html">teacher guide</a>, <a href="capstone.html">capstone with answers</a>, and <a href="sources.html">sources</a>.</p>
+
+<h1 id="lesson-01-one-subdivision-at-a-time" tabindex="-1">Lesson 01 — One subdivision at a time</h1>
+<p><strong>Essential question:</strong> How can a rule name every piece without confusing pieces with boundaries?</p>
+<p><strong>Goals:</strong> Generate a binary tree; find parents; distinguish nodes, boundary vertices, and volumes.</p>
+<p><strong>Bridge:</strong> You can compare fractions and plot coordinates. Course 05 introduced cells and Lucas windows; the needed definitions are restated here. <strong>Pacing:</strong> explanation/examples 20, practice 15, checks/feedback 15, transition 5 minutes.</p>
+<h2 id="c0601-e1-a-repeated-rule" tabindex="-1">C06.01-E1 — A repeated rule</h2>
+<p>A recursion repeats an operation on its output. The starting object is the root at depth zero. A child results from one application; its parent produced it. Depth counts applications. Start with the synthetic interval [0,1). A square bracket includes an endpoint; a round bracket excludes it. Splitting at the midpoint gives [0,1/2) and [1/2,1). Only the right child owns 1/2. Endpoint 1 remains a geometric boundary vertex even though no interval owns it.</p>
+<p>At dyadic depth n2, each interval has width 1/2^n2. Index intervals left to right by j=0 through 2^n2−1. Interval j is [j/2^n2,(j+1)/2^n2). Parent k produces children 2k and 2k+1. Conversely parent(j)=floor(j/2), where floor means greatest integer at or below the number. Thus floor(5/2)=2. Here indices are nonnegative.</p>
+<h2 id="c0601-w1-worked-tree" tabindex="-1">C06.01-W1 — Worked tree</h2>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Depth n2</th>
+<th>Indices and intervals</th>
+<th>Parent indices</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>0: [0,1)</td>
+<td>none</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0: [0,1/2); 1: [1/2,1)</td>
+<td>0,0</td>
+</tr>
+<tr>
+<td>2</td>
+<td>0: [0,1/4); 1: [1/4,1/2); 2: [1/2,3/4); 3: [3/4,1)</td>
+<td>0,0,1,1</td>
+</tr>
+</tbody>
+</table></div>
+<p>Index 3 is child 2(1)+1 of parent 1. Four widths of 1/4 total 1. Their distinct boundary vertices are 0,1/4,1/2,3/4,1: five, not eight. Eight counts cell–endpoint incidences (pairings), counting shared ends twice.</p>
+<h2 id="c0601-e2-and-c0601-w2-count-the-object-you-named" tabindex="-1">C06.01-E2 and C06.01-W2 — Count the object you named</h2>
+<p>A basis B specifies three independent edge directions and lengths. Outer basis 3B triples each edge. A node is a sampled point; a complete cell volume is a region. In the source Lucas window, each axis has half-step positions −1/2,0,1/2. Independently choosing three coordinates gives 3×3×3=27 nodes. A Lucas Group instead contains three complete Cell3 cells per axis, hence 27 volumes and outer basis 3B.</p>
+<p>Draw a row as <code>|---o---|---o---|---o---|</code>: three cell centers o, four boundary corners |. The drawing is schematic. A 9B Supergroup has nine complete cells per axis: 9×9×9=729 volumes. Equivalently it has 3×3×3=27 Groups, each with 27 cells. Counts are dimensionless; a measured volume would carry cubic length units.</p>
+<blockquote>
+<p><strong>Scope:</strong> S02 /backbone_sequence/2/typed_finite_objects defines the three objects. The interval is synthetic. Finite counting derives totals, not a new physical mechanism. Sampling a boundary point and assigning region ownership are separate operations.</p>
+</blockquote>
+<h2 id="guided-practice" tabindex="-1">Guided practice</h2>
+<p><strong>C06.01-P1:</strong> Extend the tree to depth 3. List child indices and parents, then trace j=5.</p>
+<p><strong>Answer:</strong> Children 0,1,2,3,4,5,6,7 have parents 0,0,1,1,2,2,3,3. Index 5 is [5/8,6/8); its parents are 2 at depth 2, 1 at depth 1, and 0 at depth 0.</p>
+<p><strong>C06.01-P2:</strong> Count 9B Supergroup volumes by axes and by Groups.</p>
+<p><strong>Answer:</strong> 9^3=729 cells; 3^3 Groups times 27 cells per Group also gives 729.</p>
+<h2 id="diagnostic-checks" tabindex="-1">Diagnostic checks</h2>
+<ol>
+<li><strong>C06.01-D1:</strong> At depth 2, are there four cells and eight distinct vertices? What about endpoint 1?</li>
+<li><strong>C06.01-D2:</strong> Classify 27 window nodes, 27 Group volumes, and 729 Supergroup volumes. Do the two 27s identify objects?</li>
+<li>Which depth-2 interval owns 1/2? Which owns 1?</li>
+<li>Give the parent of depth-3 index 6 and its sibling (the other child).</li>
+</ol>
+<p><strong>Worked answers:</strong> (1) Four cells and five distinct vertices; eight counts incidences. Vertex 1 is an excluded ownership endpoint. (2) Points, complete cells, complete cells. Equal cardinality means equal number only. (3) Index 2 owns 1/2; none owns 1. (4) Parent floor(6/2)=3; sibling 7.</p>
+<p><strong>Next:</strong> <a href="lesson-02.html">Lesson 02</a> compares this halving rule with ternary addresses.</p>
+
+
+<h1 id="lesson-02-dyadic-geometry-and-triadic-addresses" tabindex="-1">Lesson 02 — Dyadic geometry and triadic addresses</h1>
+<p><strong>Essential question:</strong> How can two recursions have matching counts but different rules?</p>
+<p><strong>Goals:</strong> Reduce integers modulo a positive integer; build a residue tree; distinguish depths and solve the source rung equation.</p>
+<p><strong>Bridge:</strong> Lesson 01 taught roots, children and cell counts. This lesson groups integers by remainders. <strong>Pacing:</strong> explanation/examples 20, practice 15, diagnostics/feedback 15, transition 5 minutes.</p>
+<h2 id="c0602-e1-remainders-as-addresses" tabindex="-1">C06.02-E1 — Remainders as addresses</h2>
+<p>For positive integer m, write a=mq+r with integer q and 0≤r&lt;m. The remainder r is the standard representative modulo m. Integers are congruent modulo m when their difference is divisible by m. Thus 7=3×2+1 and −2=3×(−1)+1 both have remainder 1. This does not make −2 and 1 equal integers.</p>
+<p>A residue class groups integers with the same remainder. At ternary depth d3=1, modulus 3 gives classes 0,1,2. At depth 2, modulus 9 gives classes 0 through 8. Reducing modulo 3 returns each depth-2 class to its parent:</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Depth 0 (mod 1)</th>
+<th>Depth 1 (mod 3)</th>
+<th>Depth 2 children (mod 9)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>0,3,6</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>1,4,7</td>
+</tr>
+<tr>
+<td>0</td>
+<td>2</td>
+<td>2,5,8</td>
+</tr>
+</tbody>
+</table></div>
+<p>A three-coordinate address independently chooses one class on each axis, so it has (3^d3)^3=27^d3 possibilities. The source notation A_d=(Z/3^d Z)^3 means this set of triples; Z denotes integers and the slash denotes residue classes, not ordinary division. We call its depth d3 to distinguish dyadic depth n2.</p>
+<h2 id="c0602-w1-two-counters" tabindex="-1">C06.02-W1 — Two counters</h2>
+<p>Fix an outer geometric Group 3B. At n2=0 there are 3 cells and 4 boundary corners per axis: 27 cells and 64 distinct vertices. At n2=1 there are 6 cells and 7 corners per axis: 216 cells and 343 vertices. Lesson 03 derives the general formula. Separately A_1 has 3^3=27 classes and A_2 has 9^3=729. Increasing n2 halves geometric edges; increasing d3 triples the residue modulus. Equal counts do not equate regions and classes.</p>
+<h2 id="c0602-e2-and-c0602-w2-a-finite-rung-equation" tabindex="-1">C06.02-E2 and C06.02-W2 — A finite rung equation</h2>
+<p>The source equation is 3^g_rung×2^n_rung+1=10, with both exponents nonnegative integers. These local rung variables are not automatically n2 or d3. Subtract 1 to obtain a product of 9. If n_rung≥1 the product is even, whereas 9 is odd. Therefore n_rung=0. Then 3^g_rung=9, giving g_rung=2. Powers of 3 strictly increase, so there is only one solution in this domain. This use of odd/even arithmetic is separate from detector parity or carry-sign conventions.</p>
+<p>For an exhaustive finite check, g_rung≤2 because 3^3&gt;9; n_rung≤3 because 2^4&gt;9. All 12 products before adding 1 are:</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>g_rung / n_rung</th>
+<th>0</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>2</td>
+<td>4</td>
+<td>8</td>
+</tr>
+<tr>
+<td>1</td>
+<td>3</td>
+<td>6</td>
+<td>12</td>
+<td>24</td>
+</tr>
+<tr>
+<td>2</td>
+<td>9</td>
+<td>18</td>
+<td>36</td>
+<td>72</td>
+</tr>
+</tbody>
+</table></div>
+<p>Only (2,0) gives the required 9. The source's outer 9B Supergroup has 729 complete volumes. A_2 also has 729 elements, but those are modular triples.</p>
+<blockquote>
+<p><strong>Scope:</strong> S02 /backbone_sequence/2/recursions and /supergroup_uniqueness specify these systems and the rung domain. The finite calculations are verified here. Infinite inverse limits are recognition-only: histories may extend to further depths; no infinite calculation is assessed.</p>
+</blockquote>
+<h2 id="guided-practice_1" tabindex="-1">Guided practice</h2>
+<p><strong>C06.02-P1:</strong> Reduce 7 and −2 modulo 3, then reduce (7,5,0) from depth 2 to depth 1. Rebuild the one-coordinate tree and state the three-coordinate counts at depths 0,1,2.</p>
+<p><strong>Answer:</strong> Both first remainders are 1; the triple becomes (1,2,0). The children of r are r,r+3,r+6 for r=0,1,2, exhausting 0 through 8. The three-coordinate counts are 1^3=1,3^3=27,9^3=729 at depths 0,1,2.</p>
+<p><strong>C06.02-P2:</strong> Reproduce the exponent bounds and table. Why is no outside pair needed?</p>
+<p><strong>Answer:</strong> Each factor is at least 1. Exponents g≥3 or n≥4 therefore exceed product 9. In the table only (2,0) works.</p>
+<h2 id="diagnostic-checks_1" tabindex="-1">Diagnostic checks</h2>
+<ol>
+<li><strong>C06.02-D1:</strong> Are 27 Group volumes and 27 ternary classes the same typed object?</li>
+<li><strong>C06.02-D2:</strong> State the rung domain and the two meanings of 729.</li>
+<li>Compute −4 modulo 3 using a division equality.</li>
+<li>Is the parent of depth-2 residue 7 floor(7/2)?</li>
+</ol>
+<p><strong>Worked answers:</strong> (1) No: regions versus classes. (2) Nonnegative integer exponents; 729 volumes in a Supergroup versus 729 triples in A_2. (3) −4=3(−2)+2, so remainder 2. (4) No: 7 mod 3=1. The floor rule belongs to binary interval indices.</p>
+<p><strong>Next:</strong> <a href="lesson-03.html">Lesson 03</a> derives scaling and shared-boundary counts.</p>
+
+
+<h1 id="lesson-03-scaling-length-area-and-node-counts" tabindex="-1">Lesson 03 — Scaling length, area, and node counts</h1>
+<p><strong>Essential question:</strong> Which quantity changes when a fixed region is subdivided?</p>
+<p><strong>Goals:</strong> Derive length/area/volume scale factors; count distinct corners; count half-step samples and reachable sheets.</p>
+<p><strong>Bridge:</strong> Lessons 01–02 distinguished regions, vertices and residue classes. Multiplication counts independent coordinate choices. <strong>Pacing:</strong> two 55-minute periods. Period A covers E1/W1/P1/D1,D3; period B covers E2/W2/P2/D2,D4. In each use 20 minutes explanation/examples, 15 practice, 15 checks/feedback, 5 transition. The extra period prevents the sampling-grid argument being rushed.</p>
+<h2 id="c0603-e1-hold-the-outer-boundary-fixed" tabindex="-1">C06.03-E1 — Hold the outer boundary fixed</h2>
+<p>Take a fixed outer Group with basis 3B. At depth n2 each original cell edge has been halved n2 times, giving subcell basis 2^(−n2)B. A negative exponent means reciprocal: 2^(−2)=1/4. There are m=3×2^n2 subcells along each outer edge. Thus m^3=27×8^n2 cells fill the Group. A row of m adjoining cells has m+1 distinct boundary corners. Choosing a corner on each axis yields (m+1)^3=(3×2^n2+1)^3 distinct vertices, including the geometric outer boundary.</p>
+<p>To scale every edge by factor s, a line length is multiplied by s. An area is multiplied by s×s=s^2 because both spanning lengths change while their angle stays fixed. A volume is multiplied by s^3 because all three spanning lengths change. This remains true for a slanted parallelepiped: scaling does not change its angles. Therefore one halving divides length by 2, area by 4 and volume by 8. Eight children exactly replace a parent's volume.</p>
+<h2 id="c0603-w1-a-fixed-group-through-depth-2" tabindex="-1">C06.03-W1 — A fixed Group through depth 2</h2>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>n2</th>
+<th>Cells per axis</th>
+<th>Complete subcells</th>
+<th>Distinct corner vertices</th>
+<th>Subcell edge factor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>3</td>
+<td>27</td>
+<td>64</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>6</td>
+<td>216</td>
+<td>343</td>
+<td>1/2</td>
+</tr>
+<tr>
+<td>2</td>
+<td>12</td>
+<td>1728</td>
+<td>2197</td>
+<td>1/4</td>
+</tr>
+</tbody>
+</table></div>
+<p>At n2=2, 27×8×8=1728; 13×13×13=2197. Multiplying 216 cells by 8 corners at depth 1 gives 1728 incidences, not 343 distinct vertices. Shared vertices belong geometrically to multiple cell closures, so counting once per incident cell repeats them.</p>
+<p>For numerical volume practice use a <strong>classroom analogue, not Cell3 or measured data</strong>. Its edge columns are a=(1,0,0), b=(1,2,0), c=(0,0,−3) arbitrary length units. In the first two coordinates a and b span base area 1×2=2 square units; c has perpendicular height 3. Its positive volume is 6 cubic units (its signed determinant is −6). The fixed Group occupies 27×6=162 cubic units. We do not replace the locked physical Cell3 basis with these toy values.</p>
+<p>The source family B_(p,n)=3^p×2^(−n)B describes a scaled basis: p,n are its scale labels. Holding p fixed and varying n changes that basis. It does not say the fixed outer 3B boundary shrinks in our cell-count experiment; distinguish the basis of the object you are naming from its containing region.</p>
+<h2 id="c0603-e2-and-c0603-w2-half-step-samples-and-sheets" tabindex="-1">C06.03-E2 and C06.03-W2 — Half-step samples and sheets</h2>
+<p>Now change the sampling grid, not the outer region. A centered 9B span extends from −9/2 to 9/2 along each basis coordinate. Half-step sampling labels coordinates i/2, with integer i=−9 through 9. An inclusive integer list from −m to m has 2m+1 entries: m negatives, zero, m positives. Thus 19 choices per axis yield 19^3=6859 sample points.</p>
+<p>Define lambda=i+j+k for the three integer half-step labels. A sheet is the set of grid points sharing one lambda value. Minimum lambda is −27, maximum 27. All 55 integer values are attained: for target t from 0 to 9 use (t,0,0); for 10 through 18 use (9,t−9,0); for 19 through 27 use (9,9,t−18). Negate coordinates for negative targets. This proves no intermediate sheet is missing. It does not claim equal populations on all sheets.</p>
+<p>An ordinary cell-corner grid on the same 9B span has ten corners per axis, hence 1000 corners. The half-step grid includes those boundary corners plus additional samples. Keep four separate counts: 729 volumes, 1000 ordinary corners, 6859 half-step points, 55 sheets.</p>
+<blockquote>
+<p><strong>Scope:</strong> S02 /backbone_sequence/2/typed_finite_objects and /recursions supply the grid and source counts. These derivations are finite geometry. Sampling includes boundary points even where half-open ownership assigns them to a neighbor. Lambda here uses half-step integer labels; no force or measured signal is inferred.</p>
+</blockquote>
+<h2 id="guided-practice_2" tabindex="-1">Guided practice</h2>
+<p><strong>C06.03-P1:</strong> Derive the cell and distinct corner counts at depth 2 from cells per axis. Then from depth 1 to 2, give subcell length/area/volume factors and verify total volume for the toy Group.</p>
+<p><strong>Answer:</strong> Depth 2 has 3×4=12 cells per axis, so 12^3=1728 cells and 13^3=2197 distinct corners. Factors are 1/2,1/4,1/8. Depth 1: each volume 6/8=3/4, so 216×3/4=162. Depth 2: each volume 6/64=3/32, so 1728×3/32=162. No volume disappeared.</p>
+<p><strong>C06.03-P2:</strong> For a centered 3B span count half-step points, sheet values, volumes and ordinary corners. Produce lambda=8 and −8.</p>
+<p><strong>Answer:</strong> Labels −3 through 3 give 7^3=343 samples; sums −9 through 9 give 19 sheets. There are 3^3=27 volumes and 4^3=64 corners. (3,3,2) and (−3,−3,−2) realize ±8. The same filling argument as W2 realizes every intermediate sum.</p>
+<h2 id="diagnostic-checks_2" tabindex="-1">Diagnostic checks</h2>
+<ol>
+<li><strong>C06.03-D1:</strong> Why is 216×8 not the distinct vertex count at n2=1? Is outer 3B shrinking?</li>
+<li><strong>C06.03-D2:</strong> Label 729,1000,6859,55 for the 9B span, including sampling grids.</li>
+<li><strong>C06.03-D3:</strong> Relative to depth zero, what are the depth-2 length, area and volume factors?</li>
+<li><strong>C06.03-D4:</strong> Exhibit a half-step index triple with lambda=23 and explain why endpoints alone do not prove all sheets exist.</li>
+</ol>
+<p><strong>Worked answers:</strong> (1) It counts incidences with shared corners repeated; outer 3B stays fixed. (2) Complete volumes, ordinary corners, half-step samples, lambda sheets respectively. (3) 1/4,1/16,1/64. (4) (9,9,5); a range could contain gaps, so the constructive filling rule is needed.</p>
+<p><strong>Next:</strong> <a href="lesson-04.html">Lesson 04</a> encodes signed addresses with powers of three.</p>
+
+
+<h1 id="lesson-04-balanced-ternary-as-an-address-language" tabindex="-1">Lesson 04 — Balanced ternary as an address language</h1>
+<p><strong>Essential question:</strong> How can negative digits encode an address exactly?</p>
+<p><strong>Goals:</strong> Decode signed digits; encode finite integers; distinguish an integer representative from its residue class.</p>
+<p><strong>Bridge:</strong> Lesson 02 introduced powers-of-three moduli and congruence. Lesson 03 showed why a label needs its grid and depth. <strong>Pacing:</strong> explanation/examples 20, practice 15, checks/feedback 15, transition 5 minutes.</p>
+<h2 id="c0604-e1-place-values-with-signs" tabindex="-1">C06.04-E1 — Place values with signs</h2>
+<p>In decimal notation, each digit multiplies a place value. Balanced ternary uses place values 1,3,9,27,... and digits −1,0,+1. We always store digits <strong>least significant first</strong>: (epsilon0,epsilon1,epsilon2) means epsilon0×1+epsilon1×3+epsilon2×9. Epsilon is simply the name of a signed digit, not a measured error. Store the depth d3 as the number of retained digits; a zero high digit is still a retained coordinate.</p>
+<p>To encode an integer t, choose its low digit by the remainder modulo 3: remainder 0 gives digit 0; remainder 1 gives +1; remainder 2 gives −1 because −1 is congruent to 2. Subtract that digit and divide by 3. The result is an integer, to be encoded at the next place. Repeat until the requested depth. A nonzero leftover after that depth means the exact integer needs more digits; do not silently discard it.</p>
+<p>Three digits cover integers from −13 to 13: the largest is 1+3+9=13 and the smallest its negative. At depth 2 the balanced range is −4 through 4. Balanced representatives can therefore be negative even when the standard remainder is nonnegative.</p>
+<h2 id="c0604-w1-integer-8" tabindex="-1">C06.04-W1 — Integer 8</h2>
+<p>8 has remainder 2, so choose epsilon0=−1. Then (8−(−1))/3=3. The next remainder is 0, so epsilon1=0 and the next quotient is 1. Choose epsilon2=1 and obtain final quotient 0. The depth-3 word (−1,0,1) decodes to −1+0+9=8.</p>
+<p>As a class modulo 27 it is class 8. Reduce to depth 2, modulo 9: it is still standard class 8. But the low two signed digits (−1,0) decode to −1. These representatives are congruent because 8−(−1)=9. Removing the highest digit changed the integer by 9 while preserving its class modulo 9. It did not turn 8 into −1 as an equality of integers.</p>
+<blockquote>
+<p><strong>Scope:</strong> S02 /backbone_sequence/2/recursions/ternary_address defines finite residue classes and reduction. Balanced signed-digit words are the course's explicit finite representation of those classes. Encoding examples are exact classroom arithmetic, not experimental evidence. No infinite address is reconstructed from a finite word.</p>
+</blockquote>
+<h2 id="guided-practice_3" tabindex="-1">Guided practice</h2>
+<p><strong>C06.04-P1:</strong> Encode integer 5 with three digits. Show the two-digit balanced representative and the one-digit class.</p>
+<p><strong>Worked answer:</strong> Remainder 2 gives −1; (5+1)/3=2. Again remainder 2 gives −1; (2+1)/3=1. The final digit is +1 and quotient 0. Thus (−1,−1,1) gives −1−3+9=5. Two low digits give −4, congruent to 5 modulo 9 because their difference is 9. One low digit gives −1, congruent to standard remainder 2 modulo 3. Depth and order are part of the answer.</p>
+<p><strong>Additional practice:</strong> Encode −2 in two digits. <strong>Answer:</strong> Low digit +1 because −2=3(−1)+1; remaining quotient −1 gives high digit −1. Word (1,−1) gives 1−3=−2.</p>
+<h2 id="diagnostic-checks_3" tabindex="-1">Diagnostic checks</h2>
+<ol>
+<li><strong>C06.04-D1:</strong> Why does depth-2 class 8 not determine the original integer 8 at depth 3?</li>
+<li>Decode (1,0,−1), least significant first, at depth 3.</li>
+<li>Are (1) at depth 1 and (1,0) at depth 2 identical records?</li>
+<li>Can integer 14 be stored exactly in three balanced digits with zero leftover?</li>
+</ol>
+<p><strong>Worked answers:</strong> (1) Integers −1,8 and −10 all reduce to standard class 8 modulo 9. High detail was lost. (2) 1+0−9=−8. (3) Both decode to 1 but have different moduli/depths; the zero is retained. (4) No: largest three-digit sum is 13. The algorithm leaves a nonzero quotient, requiring another digit.</p>
+<p><strong>Next:</strong> <a href="lesson-05.html">Lesson 05</a> checks whether records at successive depths form a compatible history.</p>
+
+
+<h1 id="lesson-05-parent-maps-and-compatible-histories" tabindex="-1">Lesson 05 — Parent maps and compatible histories</h1>
+<p><strong>Essential question:</strong> When do records at different resolutions describe one compatible address history?</p>
+<p><strong>Goals:</strong> Apply the modular parent map; test compatibility using differences; identify which digit reduction removes.</p>
+<p><strong>Bridge:</strong> Lesson 04 taught low-to-high signed digits and congruent representatives. Lesson 01's binary parent uses a different operation. <strong>Pacing:</strong> explanation/examples 20, practice 15, diagnostics/feedback 15, transition 5 minutes.</p>
+<h2 id="c0605-e1-a-history-is-more-than-a-list" tabindex="-1">C06.05-E1 — A history is more than a list</h2>
+<p>A finite history stores one address at each declared depth. It is compatible when every child returns to the recorded parent under the rule for that type. For ternary addresses, the parent from depth d3+1 to d3 is reduction modulo 3^d3, coordinate by coordinate. This is called the bonding map in S02. A standard representative a and proposed parent b pass the test exactly when a−b is divisible by the parent's modulus. Balanced representatives obey the same test, even when their signs differ.</p>
+<p>In a low-to-high digit word, every place above depth d3 has a factor of 3^d3. Such terms have remainder zero modulo 3^d3. Therefore reduction retains the low digits and removes the highest digit. It does not remove the low digit and shift the others. That latter operation divides a suitably adjusted integer by three and answers another question.</p>
+<h2 id="c0605-w1-history-of-8" tabindex="-1">C06.05-W1 — History of 8</h2>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Depth d3</th>
+<th>Modulus</th>
+<th>Standard class representative</th>
+<th>Balanced word</th>
+<th>Balanced integer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3</td>
+<td>27</td>
+<td>8</td>
+<td>(−1,0,1)</td>
+<td>8</td>
+</tr>
+<tr>
+<td>2</td>
+<td>9</td>
+<td>8</td>
+<td>(−1,0)</td>
+<td>−1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>3</td>
+<td>2</td>
+<td>(−1)</td>
+<td>−1</td>
+</tr>
+</tbody>
+</table></div>
+<p>For depth 3 to 2, balanced difference 8−(−1)=9 is divisible by 9. For depth 2 to 1, −1−(−1)=0 is divisible by 3. Using standard representatives instead gives differences 8−8=0 and 8−2=6, also divisible by the required moduli. The two renderings describe the same compatible history. Zero differences are valid information, not missing tests.</p>
+<p>Compare binary index 5 at depth 3: its parent is floor(5/2)=2, then 1. A binary child records which half of its parent it occupies. A ternary residue child records additional high-place modular information. The shared word 'parent' does not license swapping their formulas.</p>
+<blockquote>
+<p><strong>Scope:</strong> S02 /backbone_sequence/2/recursions/ternary_address/bonding_map is the source rule. These finite histories are classroom arithmetic. Compatibility proves consistency under that rule; it does not select a unique higher-depth continuation from a coarse record.</p>
+</blockquote>
+<h2 id="guided-practice_4" tabindex="-1">Guided practice</h2>
+<p><strong>C06.05-P1:</strong> Build the depth 3,2,1 history of integer 5 in standard and balanced representatives. Check both transitions.</p>
+<p><strong>Worked answer:</strong> Standard classes are 5 mod 27, 5 mod 9, 2 mod 3. Balanced words are (−1,−1,1), (−1,−1), (−1), with integers 5,−4,−1. Differences are 5−(−4)=9 and −4−(−1)=−3, divisible by 9 and 3. Standard differences 0 and 3 pass too.</p>
+<p><strong>Additional practice:</strong> Is depth-3 class 8 with depth-2 class 7 compatible? Repair the parent. <strong>Answer:</strong> 8−7=1 is not divisible by 9; the parent must be class 8 mod 9, balanced representative −1.</p>
+<h2 id="diagnostic-checks_4" tabindex="-1">Diagnostic checks</h2>
+<ol>
+<li><strong>C06.05-D1:</strong> Drop epsilon0 from (−1,0,1), then shift the remaining places. What integer results, and is it the parent?</li>
+<li>Does depth-2 class 5 have depth-1 parent 2? Show the test.</li>
+<li>What are the three depth-2 children of depth-1 class 2 in standard representatives?</li>
+<li>A proposed history uses balanced integers 5,−4,+1 at depths 3,2,1. Where does it fail?</li>
+</ol>
+<p><strong>Worked answers:</strong> (1) (0,1) gives 3; that is class 3 mod 9, not class 8. Remove the high digit instead. (2) Yes: 5−2=3 is divisible by 3. (3) 2,5,8. (4) First difference 9 passes; second −4−1=−5 is not divisible by 3. Replace +1 with −1.</p>
+<p><strong>Next:</strong> <a href="lesson-06.html">Lesson 06</a> retains the detail needed to invert these parent maps.</p>
+
+
+<h1 id="lesson-06-what-a-finite-resolution-retains" tabindex="-1">Lesson 06 — What a finite resolution retains</h1>
+<p><strong>Essential question:</strong> What must a coarse record preserve to recover its original fine address?</p>
+<p><strong>Goals:</strong> Construct coarse-plus-detail records; reconstruct binary indices and ternary words; explain exactly what information omission loses.</p>
+<p><strong>Bridge:</strong> Lesson 05 checked parent maps. A parent map can send several children to one parent, so reversing it needs additional coordinates. <strong>Pacing:</strong> explanation/examples 20, practice 15, diagnostics/feedback 15, transition 5 minutes.</p>
+<h2 id="c0606-e1-keep-the-removed-coordinate" tabindex="-1">C06.06-E1 — Keep the removed coordinate</h2>
+<p>A map is invertible on a set of records when each output determines its original input. The binary parent k=floor(j/2) alone is not invertible: both 2k and 2k+1 have parent k. Retain the child bit b=j−2k, either 0 or 1. Then j=2k+b reconstructs the index. The bit is residual information relative to the coarse parent description. Zero is as necessary a recorded value as one.</p>
+<p>For a ternary balanced word with d3 digits, write r for the integer represented by the low d3−1 digits and e for the removed high digit. Then t=r+3^(d3−1)e reconstructs the balanced integer and appending e reconstructs the exact word. Here e is −1,0,+1, not a binary bit. Specify that r is balanced: mixing a standard remainder with a balanced high digit would use the wrong reconstruction convention.</p>
+<p>A complete record includes rule type, original depth, coordinate order, coarse value or word, removed detail, and reconstruction rule. For a coordinate triple, apply the relevant operation to each coordinate and retain all three details. Repeating a coarse operation requires retaining the details at every step. These are exact finite addresses; no infinite tail is inferred.</p>
+<h2 id="c0606-w1-two-reconstructions" tabindex="-1">C06.06-W1 — Two reconstructions</h2>
+<p>For binary depth-3 index j=5, k=floor(5/2)=2 and b=5−4=1. Store (type=binary interval, child depth=3, parent index=2, bit=1). Decode j=2×2+1=5; its interval is [5/8,6/8). If reducing again, parent 2 has parent 1 and bit 0; parent 1 has parent 0 and bit 1. Retaining bits from root outward as (1,0,1) reconstructs 0→1→2→5. This root-outward bit order differs from our low-to-high ternary digit order and must be named.</p>
+<p>For ternary depth-3 word (−1,0,1), retain low-depth word (−1,0), integer r=−1, and high digit e=+1. Restore 8=−1+9×1 and append the high digit to recover (−1,0,1). Reduce r once more: low digit −1 and removed digit 0. Retaining the zero yields r=−1+3×0. The complete detail record recovers every digit, not merely a scalar score.</p>
+<blockquote>
+<p><strong>Scope:</strong> This is finite arithmetic built on S02's separate recursion rules and the course's explicit encoding convention. It demonstrates lossless records, not a proposed force or an empirical measurement. Removed detail remains a primary coordinate; no residual is discarded because its value is small or zero.</p>
+</blockquote>
+<h2 id="guided-practice_5" tabindex="-1">Guided practice</h2>
+<p><strong>C06.06-P1:</strong> Make and invert a record for binary j=6 at depth 3 and ternary integer 5 with three balanced digits. Then reduce each one more step, preserving detail.</p>
+<p><strong>Worked answer:</strong> Binary k=3,b=0 gives 6=2×3+0. Next k=3 has parent 1 and bit 1; from 1 recover 3 then 6 using bits 1,0. Ternary word (−1,−1,1) has r=−4,e=1, so 5=−4+9. The low word reduces to −1 with removed digit −1, so −4=−1+3(−1). Both high details are needed for the full three-digit word.</p>
+<p><strong>Additional practice:</strong> Show two different children of the same coarse record. <strong>Answer:</strong> Binary parent 2 has children 4 and 5. Ternary balanced parent −1 at depth 2 has depth-3 children −10,−1,8, corresponding to high digits −1,0,+1. All reduce to class 8 modulo 9.</p>
+<h2 id="diagnostic-checks_5" tabindex="-1">Diagnostic checks</h2>
+<ol>
+<li><strong>C06.06-D1:</strong> Is storing only the parent enough? List required metadata and detail.</li>
+<li>A binary record has k=3,b=0 at child depth 3. Recover index and interval.</li>
+<li>A ternary record has balanced r=−4,e=0 at child depth 3. Recover integer and word.</li>
+<li>What goes wrong if the record for 8 uses standard remainder r=8 and the same e=1 in t=r+9e?</li>
+</ol>
+<p><strong>Worked answers:</strong> (1) No: keep rule type, original depth, coordinate/digit order, coarse fields, all bits/digits including zeros, and reconstruction rule. (2) j=6, interval [6/8,7/8). (3) t=−4; word (−1,−1,0), with three retained digits. (4) It incorrectly gives 17. The formula used r=−1 as the balanced low representative; changing representation requires changing the associated detail convention.</p>
+<p><strong>Next:</strong> <a href="capstone.html">Capstone</a> combines both trees, counts and complete recovery records.</p>
+</article><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/6">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

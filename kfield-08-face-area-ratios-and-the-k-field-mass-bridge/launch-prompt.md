@@ -1,0 +1,935 @@
+Role: You are the autonomous author, verifier, and recovery steward for a complete high-school course. Teach the stated audience from first principles with precise, age-appropriate language.
+
+# Outcome
+
+Build the complete course described by the runtime subject packet. Work continuously through all lessons, supporting materials, final assembly, hostile audit, repair, and deterministic validation. Do not stop after an outline, sample unit, or partial course.
+
+Write every persistent course artifact directly into the absolute `course_output_directory` in the runtime packet. That directory is the sole recovery and delivery location for this course.
+
+# Success criteria
+
+- Every required concept is introduced, practiced, assessed, and connected to later use.
+- Every lesson satisfies the lesson contract and has zero unresolved critical or major local findings.
+- Definitions, terms, symbols, units, source claims, examples, and answers are correct and consistent.
+- The capstone is solvable from the actual course.
+- The assembled course contains every passed lesson verbatim and in approved order.
+- Recovery state is current, hashes validate, and the final hostile audit has zero unresolved critical and major findings.
+- All requested artifacts exist and the deterministic validator exits successfully.
+
+# Constraints
+
+Preserve the supplied subject kernel, invariants, evidence rules, audience, and course map. Separate observations or source facts, derived implications, interpretations, proposed mechanisms, established reference theory, and unresolved questions when those layers apply. Never fabricate concrete facts, sources, data, quotations, or real-world evidence; use symbolic or clearly synthetic examples if grounding is unavailable. Use authoritative retrieval when the runtime packet requires current or exact facts.
+
+Make reasonable assumptions and record them. Do not ask for intermediate approval. Ask for user attention only if a missing fact or authority would materially change the course and cannot be safely represented as an explicit assumption or placeholder.
+
+Keep progress updates concise and write substantive work to files. Do not expose private reasoning traces; audit records contain only findings, corrections, verification, and dispositions.
+
+Do not save a persistent course artifact in the generated task workspace or any directory outside `course_output_directory`. If that destination is unavailable, preserve any already-written state there and report the storage blocker; do not silently substitute another location.
+
+# Recovery protocol
+
+Inside `course_output_directory`, initialize `manifest.json`, `course-map.md`, `terminology.md`, `audit_report.json`, and `completion_report.json`, plus one file per lesson. Treat that manifest as the recovery authority, but verify every existing checkpoint file and SHA-256 before trusting its status. Save a complete section before marking it passed. Resume from the first missing or failed dependency. Do not regenerate passed work without a concrete dependent defect.
+
+Use stable checkpoint IDs, dependency lists, statuses (`pending`, `drafted`, `passed`, `failed`), relative paths, summaries, and SHA-256 hashes. Update blockers and the next action after each checkpoint.
+
+# Lesson and audit contract
+
+Each lesson needs one essential question, two to four observable goals, a bridge from taught material, a first-principles explanation, at least one fully worked verifiable example, a claim-scope box when needed, three to five diagnostic checks, concise worked answers, and a link to the next dependency.
+
+Recompute examples and answers independently. At every lesson run local prerequisite, audience, definition, notation, unit, logical, mathematical, evidence, and source checks. At unit boundaries run cumulative terminology, dependency, complexity, coverage, and capstone checks. Classify findings as critical, major, or minor; patch the earliest source and rerun affected checks. Stop revising for style once correctness and learning are no longer improved.
+
+# Deliverables and assembly
+
+Create student lessons, terminology/glossary, teacher guide, capstone and full answer key/rubric, final assembled course, manifest, audit report, and completion report. Add no new substantive teaching during assembly. Insert each lesson verbatim between `<!-- BEGIN: CHECKPOINT_ID -->` and `<!-- END: CHECKPOINT_ID -->` markers in course order.
+
+If a requested output is paginated or visual, use its applicable artifact skill to render, inspect, and repair it. Run the final hostile audit across coverage, fidelity, dependency order, correctness, terminology, examples, evidence layers, audience load, assessment alignment, recovery integrity, assembly identity, rendering, and minimality.
+
+# Stop and report rules
+
+Success requires zero unresolved critical findings, zero unresolved major findings, every checkpoint passed, current hashes, correct assembly order/identity, complete outputs, and a successful deterministic validator run. On failure, repair and rerun affected checks. On a genuine blocker, preserve the recovery files and report only the smallest action needed. On success, report artifact paths, assumptions, audit counts, hashes, validator result, and any harmless unresolved minor findings.
+
+# Manager execution contract
+
+This is the one course-production task created by the parent through build-high-school-course. You are its curriculum manager and author. Execute that skill's production, audit, recovery, and validator requirements in this task; do not recursively create a second course task or any other task. The user authorized all 30 course-manager tasks and independent auditors. The parent coordinates them.
+
+The user's exact standing authorization is: 'do not stop for user approval. You are approved to proceed with all required tasks, proceed'
+
+Read the build-high-school-course SKILL.md, methodology, audit rubric, and validator implementation; the complete approved subject packet follows here. Read the residual-information-paradigm skill at the beginning. Use krytronx-knowledge-graph and relevant domain skills for exact source grounding. Source retrieval is read-only. Preserve source-local definitions and record exact paths, SHA-256, pointers/pages and evidence classes. Never bulk-copy source data into the course. Small clearly labeled teaching examples and their verification records are allowed.
+
+Use GPT-6 Astra as the user explicitly selected. Preserve the configured reasoning setting. The user explicitly overrides the skill's Desktop-only/projectless defaults: write course outputs within the saved project Z:/Kfield-doc-training and move them later. This task is running directly in that project. The runtime course_output_directory is authoritative and already exists. Use ordinary workspace writes; do not request Desktop access. The parent has approved proceeding and no further content approval is required. Validate with Z:/Kfield-doc-training/.work/validate_project_course.py COURSE_DIRECTORY --json. This adapter runs the installed validator unchanged except that its canonical-root constant is the user-selected project folder, preserving containment, content, hash, assembly, and audit checks.
+
+Python must run through & 'C:/ProgramData/anaconda3/Scripts/conda.exe' run -n tf_gpu_env python. Do not install or change packages. Avoid long or GPU work; hand-checkable mathematics and lightweight standard-library checks suffice. Do not create raw source snapshots or large npz files.
+
+The course is a complete topical course for seniors, not an outline. Write connected, clear explanations and fully worked examples; use only the necessary mathematical formalism and explicitly teach every new operation. Keep all core tasks solvable from taught material. Add diagrams/tables when they improve learning; Markdown and Mermaid are sufficient. Refine lesson boundaries if necessary for prerequisite closure, recording the rationale and updating coverage and capstone maps. Do not reduce coverage to finish faster or pad the course with boilerplate. Core lessons each require one essential question, two to four observable goals, an explicit prerequisite bridge, first-principles instruction, a fully worked independently recomputed example, an appropriate evidence-scope box, three to five diagnostic questions, worked answers, and a next-dependency link.
+
+Initialize recovery authorities before substantive generation. The input-contract.json is already present. Do not mark complete until the actual validator exits zero and all critical/major findings are corrected. Read the validator schema instead of guessing it. Include all student and teacher artifacts, a capstone with full answers and rubric, precise source notes, and the exact assembly marker protocol. Audit records must describe actual checks and actual corrections, never invented passes. The parent and independent auditor will reread and recompute your output.
+
+On completion report the exact course title, output directory, lesson count, validator result, unresolved counts, and any source gaps in your final reply. The parent polls your progress and final response. Do not call messaging tools to send parent status or completion; these can trigger separate app approvals. Then await possible audit repair requests. No messages to external people and no publishing are authorized.
+
+# Runtime subject packet
+
+```json
+{
+  "schema_version": "1.0",
+  "course_output_root": "Z:\\Kfield-doc-training\\K-Field_Training_Course",
+  "course_output_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-08-face-area-ratios-and-the-k-field-mass-bridge",
+  "topic": "Face-Area Ratios and the K-Field Mass Bridge",
+  "series_course_id": "course-08",
+  "audience": "High-school seniors; first-principles teaching, with concrete prerequisite capabilities and taught bridges.",
+  "prerequisites": [
+    "Signed arithmetic, fractions, ratios, powers, linear equations, and coordinate graphs",
+    "Capabilities taught in course-03",
+    "Capabilities taught in course-07"
+  ],
+  "learning_outcomes": [
+    "Compute the ordered face-area ray",
+    "Prove scale invariance of two independent area ratios",
+    "Evaluate source-defined constants with units and provenance",
+    "Track distinct numerical witnesses without silently merging them",
+    "Separate an algebraic ratio from a proposed physical identification",
+    "Propagate a small input change and report the full closure difference"
+  ],
+  "requested_deliverables": [
+    "student lessons",
+    "course-map.md",
+    "terminology.md",
+    "teacher-guide.md",
+    "capstone.md with full answers and rubric",
+    "course.md",
+    "manifest.json",
+    "audit_report.json",
+    "completion_report.json",
+    "compact sources and worked-example verification"
+  ],
+  "assumptions": [
+    "A topical short course, not a semester per topic. Pacing is 55-minute core lessons plus capstone periods; split dense lessons if actual learner load requires it.",
+    "No prior calculus, abstract algebra, university linear algebra, or quantum mechanics unless explicitly taught earlier.",
+    "Required core assessments must be solvable with taught finite examples. Clearly label deeper recognition-only extensions.",
+    "Markdown is the delivery format; no PDF or Word generation is required."
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "role": "archival source; reported status is distinct from fresh verification"
+    },
+    {
+      "id": "S02",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "role": "archival source; reported status is distinct from fresh verification"
+    },
+    {
+      "id": "S03",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "role": "archival source; reported status is distinct from fresh verification"
+    },
+    {
+      "id": "S04",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+      "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "role": "archival source; reported status is distinct from fresh verification"
+    },
+    {
+      "id": "S05",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+      "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+      "role": "archival source; reported status is distinct from fresh verification"
+    }
+  ],
+  "source_routing": {
+    "primary_skill": "C:/Users/info/.codex/skills/krytronx-knowledge-graph/SKILL.md",
+    "graph_root": "repository:KrytronDwayne/K-Field_Private",
+    "testbench_root": "application:kfield-lucas-lab",
+    "snapshot_generation": "sha256:5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+    "manifest_sha256": "5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+    "rag_rerank": false,
+    "backbone_source_pointer": "/backbone_sequence",
+    "required_modules": [
+      "M05"
+    ],
+    "guidance": "Retrieve exact topic sources and source-local pointers; use the provided archival files read-only and verify their hashes. Do not rely only on titles or summaries. For experimental topics search the testbench topic and local relevant domain skills."
+  },
+  "evidence_rules": [
+    "Preserve empirical observations, derived implications, inferred structure, mechanisms, reference theory, and unresolved questions as distinct layers.",
+    "Read-only sources: no source-data copies, database exports, reindexing, or large arrays. Persist only authored course artifacts, compact provenance, audits, and small clearly synthetic examples.",
+    "Cell3 uses ICRS columns [a b c], an intentional negative determinant, and half-open cells [-1/2,1/2)^3. Use x-O_K in affine reciprocal identities.",
+    "Use the mature locked geometry and exact source provenance. Historical and corrected numerical branches remain separately labeled; do not silently mix their constants.",
+    "Use M_cell=B^T B and R_cell=M_cell^-1; distinguish G_phase, G_eff, reciprocal bases, distance Q, Q_g, and Q_nu.",
+    "Gauge-carrier tuples use color-first C_3 direct-sum W_2. A weak-first view needs an explicit permutation.",
+    "Do not merge detector parity, A1 carry parity, projective signs, chirality, family labels, primitive lifts, or distinct dyadic and ternary recursions.",
+    "Declare nearest-integer half-ties and the corresponding residual interval consistently; the half-open cell ownership rule is a separate operation.",
+    "The detail-product identity needs explicit hypotheses on E beyond Q=I-E; retain the product of finite differences.",
+    "M19 contains mixed extension branches and is not a premise of M20 core closure. Reconstruct prerequisites from module requires, with the documented audit corrections.",
+    "Preserve mature-source claims and accepted integration dispositions separately. In the integration only compiler M03, M07, M08 have direct authority; these compiler labels are not automatically the mathematical-backbone module labels. Preserve the admitted global-form family Z1,Z2,Z3,Z6 and source-local uniqueness claims with explicit contracts.",
+    "Treat matching dimensions or graph labels as neither an intertwiner nor a proof. A missing proof body remains a source-reported status with a retrieval gap.",
+    "Physical CMB velocity is distinct from phase-transformed vectors; the testbench admitted speed is 369812.50200040644 m/s. The Galactic Center is a visual gauge; do not invent Solar or Galactic short-window dynamics.",
+    "A photon-equivalent model energy is not measured transferred energy, and phase is not force. Preserve signed events and the three independent plane-cost levels in the fourteen-row 2026-08-26 bundle.",
+    "Cell3 and galaxy-derived cells have separately typed units, metrics, handedness, scales, and normals. Recurrence is an explanatory target, not permission to merge definitions.",
+    "Every residual remains a primary coordinate. Transformations are reversible or accompanied by all removed components and reconstruction rules; no outlier deletion or significance-based erasure.",
+    "Use tf_gpu_env through C:/ProgramData/anaconda3/Scripts/conda.exe run -n tf_gpu_env python. No package changes without approval."
+  ],
+  "subject_kernel": {
+    "objects_and_operations": [
+      {
+        "concept_id": "C08.01",
+        "concept": "From faces to dimensionless ratios",
+        "operation": "Compute the ordered face-area ray"
+      },
+      {
+        "concept_id": "C08.02",
+        "concept": "What uniform scaling leaves unchanged",
+        "operation": "Prove scale invariance of two independent area ratios"
+      },
+      {
+        "concept_id": "C08.03",
+        "concept": "The eta and alpha constructions",
+        "operation": "Evaluate source-defined constants with units and provenance"
+      },
+      {
+        "concept_id": "C08.04",
+        "concept": "Locked and historical numerical branches",
+        "operation": "Track distinct numerical witnesses without silently merging them"
+      },
+      {
+        "concept_id": "C08.05",
+        "concept": "Geometry, calibration, and interpretation",
+        "operation": "Separate an algebraic ratio from a proposed physical identification"
+      },
+      {
+        "concept_id": "C08.06",
+        "concept": "Sensitivity and retained numerical closure",
+        "operation": "Propagate a small input change and report the full closure difference"
+      }
+    ],
+    "source_modules": [
+      "M05"
+    ],
+    "scope": "Create a ratio-to-claim ledger that reproduces the source constructions and separates exact algebra, decimal witnesses, and physical interpretation.",
+    "common_failure_modes": [
+      "Untaught prerequisite",
+      "Unscoped symbol or unit",
+      "An illustrative example presented as real evidence",
+      "A source label promoted beyond its evidence class",
+      "A residual or source branch silently omitted"
+    ]
+  },
+  "invariants": [
+    "Preserve empirical observations, derived implications, inferred structure, mechanisms, reference theory, and unresolved questions as distinct layers.",
+    "Read-only sources: no source-data copies, database exports, reindexing, or large arrays. Persist only authored course artifacts, compact provenance, audits, and small clearly synthetic examples.",
+    "Cell3 uses ICRS columns [a b c], an intentional negative determinant, and half-open cells [-1/2,1/2)^3. Use x-O_K in affine reciprocal identities.",
+    "Use the mature locked geometry and exact source provenance. Historical and corrected numerical branches remain separately labeled; do not silently mix their constants.",
+    "Use M_cell=B^T B and R_cell=M_cell^-1; distinguish G_phase, G_eff, reciprocal bases, distance Q, Q_g, and Q_nu.",
+    "Gauge-carrier tuples use color-first C_3 direct-sum W_2. A weak-first view needs an explicit permutation.",
+    "Do not merge detector parity, A1 carry parity, projective signs, chirality, family labels, primitive lifts, or distinct dyadic and ternary recursions.",
+    "Declare nearest-integer half-ties and the corresponding residual interval consistently; the half-open cell ownership rule is a separate operation.",
+    "The detail-product identity needs explicit hypotheses on E beyond Q=I-E; retain the product of finite differences.",
+    "M19 contains mixed extension branches and is not a premise of M20 core closure. Reconstruct prerequisites from module requires, with the documented audit corrections.",
+    "Preserve mature-source claims and accepted integration dispositions separately. In the integration only compiler M03, M07, M08 have direct authority; these compiler labels are not automatically the mathematical-backbone module labels. Preserve the admitted global-form family Z1,Z2,Z3,Z6 and source-local uniqueness claims with explicit contracts.",
+    "Treat matching dimensions or graph labels as neither an intertwiner nor a proof. A missing proof body remains a source-reported status with a retrieval gap.",
+    "Physical CMB velocity is distinct from phase-transformed vectors; the testbench admitted speed is 369812.50200040644 m/s. The Galactic Center is a visual gauge; do not invent Solar or Galactic short-window dynamics.",
+    "A photon-equivalent model energy is not measured transferred energy, and phase is not force. Preserve signed events and the three independent plane-cost levels in the fourteen-row 2026-08-26 bundle.",
+    "Cell3 and galaxy-derived cells have separately typed units, metrics, handedness, scales, and normals. Recurrence is an explanatory target, not permission to merge definitions.",
+    "Every residual remains a primary coordinate. Transformations are reversible or accompanied by all removed components and reconstruction rules; no outlier deletion or significance-based erasure.",
+    "Use tf_gpu_env through C:/ProgramData/anaconda3/Scripts/conda.exe run -n tf_gpu_env python. No package changes without approval."
+  ],
+  "notation_registry": {
+    "M_cell": "Cell3 Gram metric",
+    "R_cell": "inverse Cell3 Gram metric",
+    "G_phase": "distinct phase metric",
+    "O_K": "declared physical origin",
+    "B": "source-locked ordered basis; source-local row/column distinctions must be explicit"
+  },
+  "coverage_matrix": [
+    {
+      "concept_id": "C08.01",
+      "concept": "From faces to dimensionless ratios",
+      "introduction": "lesson-01",
+      "practice": "C08.01-P1",
+      "assessment": "C08.01-D1",
+      "later_use": "lesson-02",
+      "worked_example": "C08.01-W1",
+      "all_required_teaching_item_ids": [
+        "C08.01-W1",
+        "C08.01-P1",
+        "C08.01-D1"
+      ]
+    },
+    {
+      "concept_id": "C08.02",
+      "concept": "What uniform scaling leaves unchanged",
+      "introduction": "lesson-02",
+      "practice": "C08.02-P1",
+      "assessment": "C08.02-D1",
+      "later_use": "lesson-03",
+      "worked_example": "C08.02-W1",
+      "all_required_teaching_item_ids": [
+        "C08.02-W1",
+        "C08.02-P1",
+        "C08.02-D1"
+      ]
+    },
+    {
+      "concept_id": "C08.03",
+      "concept": "The eta and alpha constructions",
+      "introduction": "lesson-03",
+      "practice": "C08.03-P1",
+      "assessment": "C08.03-D1",
+      "later_use": "lesson-04",
+      "worked_example": "C08.03-W1",
+      "all_required_teaching_item_ids": [
+        "C08.03-W1",
+        "C08.03-P1",
+        "C08.03-D1"
+      ]
+    },
+    {
+      "concept_id": "C08.04",
+      "concept": "Locked and historical numerical branches",
+      "introduction": "lesson-04",
+      "practice": "C08.04-P1",
+      "assessment": "C08.04-D1",
+      "later_use": "lesson-05",
+      "worked_example": "C08.04-W1",
+      "all_required_teaching_item_ids": [
+        "C08.04-W1",
+        "C08.04-P1",
+        "C08.04-D1"
+      ]
+    },
+    {
+      "concept_id": "C08.05",
+      "concept": "Geometry, calibration, and interpretation",
+      "introduction": "lesson-05",
+      "practice": "C08.05-P1",
+      "assessment": "C08.05-D1",
+      "later_use": "lesson-06",
+      "worked_example": "C08.05-W1",
+      "all_required_teaching_item_ids": [
+        "C08.05-W1",
+        "C08.05-P1",
+        "C08.05-D1"
+      ]
+    },
+    {
+      "concept_id": "C08.06",
+      "concept": "Sensitivity and retained numerical closure",
+      "introduction": "lesson-06",
+      "practice": "C08.06-P1",
+      "assessment": "C08.06-D1",
+      "later_use": "capstone",
+      "worked_example": "C08.06-W1",
+      "all_required_teaching_item_ids": [
+        "C08.06-W1",
+        "C08.06-P1",
+        "C08.06-D1"
+      ]
+    }
+  ],
+  "course_map": [
+    {
+      "id": "lesson-01",
+      "title": "From faces to dimensionless ratios",
+      "entry_prerequisites": [
+        "course-03",
+        "course-07"
+      ],
+      "concept_ids": [
+        "C08.01"
+      ],
+      "worked_example_capability": "Compute the ordered face-area ray",
+      "assessment_target": "Compute the ordered face-area ray",
+      "later_use": "lesson-02",
+      "core_minutes": 55,
+      "teaching_anchor": {
+        "lesson_id": "lesson-01",
+        "concept_id": "C08.01",
+        "bridge_to_teach": "Recall labeled face areas and common units. Explain a ray as all positive common multiples; normalizing discards scale unless the divisor is retained. Distinguish an area ray from edge directions or a complete Gram metric.",
+        "worked_example": {
+          "id": "C08.01-W1",
+          "task_and_answer": "Synthetic positive areas in bc/ac/ab order are(12,8,6) U^2. Divide by A_bc=12 U^2 to get r=(1,2/3,1/2); retain12 U^2 and the labels to reconstruct all three areas."
+        },
+        "guided_practice": {
+          "id": "C08.01-P1",
+          "task_and_answer": "Areas(18,12,9) U^2 give the same ray. Reconstruct with retained A_bc=18 U^2 and distinguish its absolute scale from the worked input."
+        },
+        "diagnostic": {
+          "id": "C08.01-D1",
+          "task_and_answer": "Swapping ac and ab gives(1,1/2,2/3), a different ordered ray. Two independent quotients determine the projective AREA triple, not all angles or a unique spatial basis."
+        },
+        "planned_periods": 1,
+        "minutes_per_period": 55,
+        "teaching_allocation_per_period": {
+          "retrieval": 5,
+          "explanation_and_worked_example": 20,
+          "guided_practice": 15,
+          "independent_diagnostics_and_repair": 15
+        },
+        "production_requirement": "These are blueprint anchors, not full lessons. Expand to2–4 observable goals and3–5 diagnostics, with worked answers. A failed prerequisite check triggers extra practice before dependent work; periods may expand.",
+        "original_title": "From faces to dimensionless ratios",
+        "original_assessment_target": "Compute the ordered face-area ray",
+        "required_source_amendment_ids": []
+      }
+    },
+    {
+      "id": "lesson-02",
+      "title": "What uniform scaling leaves unchanged",
+      "entry_prerequisites": [
+        "lesson-01"
+      ],
+      "concept_ids": [
+        "C08.02"
+      ],
+      "worked_example_capability": "Prove scale invariance of two independent area ratios",
+      "assessment_target": "Prove scale invariance of two independent area ratios",
+      "later_use": "lesson-03",
+      "core_minutes": 55,
+      "teaching_anchor": {
+        "lesson_id": "lesson-02",
+        "concept_id": "C08.02",
+        "bridge_to_teach": "Recall B->sB with s>0 sends each face area to s^2 times itself. Cancel the same nonzero factor in each quotient; area units cancel.",
+        "worked_example": {
+          "id": "C08.02-W1",
+          "task_and_answer": "Length rescale s=2 sends(12,8,6) to(48,32,24) U^2. Ratios remain2/3 and1/2 because(4*A_ac)/(4*A_bc)=A_ac/A_bc and likewise for ab."
+        },
+        "guided_practice": {
+          "id": "C08.02-P1",
+          "task_and_answer": "s=1/2 gives areas(3,2,3/2) U^2 with the same ray. Restore original size only if s or a labeled dimensional anchor is retained."
+        },
+        "diagnostic": {
+          "id": "C08.02-D1",
+          "task_and_answer": "Scaling only A_ac from8 to9 while keeping the other supplied areas fixed changes the ray to(1,3/4,1/2). This is a ratio perturbation example, not uniform geometric scaling."
+        },
+        "planned_periods": 1,
+        "minutes_per_period": 55,
+        "teaching_allocation_per_period": {
+          "retrieval": 5,
+          "explanation_and_worked_example": 20,
+          "guided_practice": 15,
+          "independent_diagnostics_and_repair": 15
+        },
+        "production_requirement": "These are blueprint anchors, not full lessons. Expand to2–4 observable goals and3–5 diagnostics, with worked answers. A failed prerequisite check triggers extra practice before dependent work; periods may expand.",
+        "original_title": "What uniform scaling leaves unchanged",
+        "original_assessment_target": "Prove scale invariance of two independent area ratios",
+        "required_source_amendment_ids": []
+      }
+    },
+    {
+      "id": "lesson-03",
+      "title": "The eta and alpha constructions",
+      "entry_prerequisites": [
+        "lesson-02"
+      ],
+      "concept_ids": [
+        "C08.03"
+      ],
+      "worked_example_capability": "Evaluate source-defined constants with units and provenance",
+      "assessment_target": "Evaluate source-defined constants with units and provenance",
+      "later_use": "lesson-04",
+      "core_minutes": 55,
+      "teaching_anchor": {
+        "lesson_id": "lesson-03",
+        "concept_id": "C08.03",
+        "bridge_to_teach": "Teach reciprocal notation alpha^-1=1/alpha, explicit parentheses and units. Use source definitions exactly; read the active S02 stored fields separately from a newly recomputed ratio of stored area strings.",
+        "worked_example": {
+          "id": "C08.03-W1",
+          "task_and_answer": "For synthetic(12,8,6), eta=1000*A_bc/A_ab=2000; alpha_inverse=100*A_bc/A_ac=150; alpha=1/150; eta*alpha=40/3=10*A_ac/A_ab. All are dimensionless. These are illustrative values, not locked constants or observations."
+        },
+        "guided_practice": {
+          "id": "C08.03-P1",
+          "task_and_answer": "For synthetic(15,10,5), r=(1,2/3,1/3), eta=3000, alpha_inverse=150, alpha=1/150 and eta*alpha=20. Verify both paths."
+        },
+        "diagnostic": {
+          "id": "C08.03-D1",
+          "task_and_answer": "The error alpha=100*A_bc/A_ac confuses alpha with alpha_inverse. Correct it. For active source evaluation use the attached locked-evaluation recipe and record the full signed new-minus-stored difference for eta,alpha_inverse,alpha,eta_alpha."
+        },
+        "planned_periods": 1,
+        "minutes_per_period": 55,
+        "teaching_allocation_per_period": {
+          "retrieval": 5,
+          "explanation_and_worked_example": 20,
+          "guided_practice": 15,
+          "independent_diagnostics_and_repair": 15
+        },
+        "production_requirement": "These are blueprint anchors, not full lessons. Expand to2–4 observable goals and3–5 diagnostics, with worked answers. A failed prerequisite check triggers extra practice before dependent work; periods may expand.",
+        "original_title": "The eta and alpha constructions",
+        "original_assessment_target": "Evaluate source-defined constants with units and provenance",
+        "required_source_amendment_ids": []
+      }
+    },
+    {
+      "id": "lesson-04",
+      "title": "Locked and historical numerical branches",
+      "entry_prerequisites": [
+        "lesson-03"
+      ],
+      "concept_ids": [
+        "C08.04"
+      ],
+      "worked_example_capability": "Track distinct numerical witnesses without silently merging them",
+      "assessment_target": "Track distinct numerical witnesses without silently merging them",
+      "later_use": "lesson-05",
+      "core_minutes": 55,
+      "teaching_anchor": {
+        "lesson_id": "lesson-04",
+        "concept_id": "C08.04",
+        "bridge_to_teach": "Teach a branch ledger with source ID, hash, exact pointer, original decimal lexeme, order and role. A historical difference is provenance, not an experimental residual.",
+        "worked_example": {
+          "id": "C08.04-W1",
+          "task_and_answer": "Active row: S02 /backbone_sequence/4/projective_ray and /mature_locked_cell3 use the mature ray. Historical rows: S01 /backbone_sequence/4/projective_rays/master_geometry and /locked_mass_bridge are separately retained longer-string records. Do not promote the historical locked-named row over S02 merely because it has more digits."
+        },
+        "guided_practice": {
+          "id": "C08.04-P1",
+          "task_and_answer": "Use the compact branch comparison supplied with this amendment: subtract each historical component from the corresponding active component in the declared direction, retaining both source records and signs. Read S01 /mass_bridge_calibration/face_areas_nm2 as its own historical input set."
+        },
+        "diagnostic": {
+          "id": "C08.04-D1",
+          "task_and_answer": "A proposed ledger combines historical A_ab with mature A_bc and calls the ratio the active eta. Reject the mixed-input label; name the two branches and either recompute a fully labeled mixed diagnostic or use the complete active input set."
+        },
+        "planned_periods": 1,
+        "minutes_per_period": 55,
+        "teaching_allocation_per_period": {
+          "retrieval": 5,
+          "explanation_and_worked_example": 20,
+          "guided_practice": 15,
+          "independent_diagnostics_and_repair": 15
+        },
+        "production_requirement": "These are blueprint anchors, not full lessons. Expand to2–4 observable goals and3–5 diagnostics, with worked answers. A failed prerequisite check triggers extra practice before dependent work; periods may expand.",
+        "original_title": "Locked and historical numerical branches",
+        "original_assessment_target": "Track distinct numerical witnesses without silently merging them",
+        "required_source_amendment_ids": []
+      }
+    },
+    {
+      "id": "lesson-05",
+      "title": "Geometry, calibration, and interpretation",
+      "entry_prerequisites": [
+        "lesson-04"
+      ],
+      "concept_ids": [
+        "C08.05"
+      ],
+      "worked_example_capability": "Separate an algebraic ratio from a proposed physical identification",
+      "assessment_target": "Separate an algebraic ratio from a proposed physical identification",
+      "later_use": "lesson-06",
+      "core_minutes": 55,
+      "teaching_anchor": {
+        "lesson_id": "lesson-05",
+        "concept_id": "C08.05",
+        "bridge_to_teach": "Separate supplied/calibrated inputs, derived algebraic quotients, recorded reference values, inferred identification and proposed mechanism. No new measured mass dataset is supplied here.",
+        "worked_example": {
+          "id": "C08.05-W1",
+          "task_and_answer": "Given synthetic r=(1,2/3,1/2) and supplied A_bc=12 U^2, reconstruct areas. Explain that choosing this dimensional anchor is an additional input; the quotient algebra neither chooses it nor measures a mass."
+        },
+        "guided_practice": {
+          "id": "C08.05-P1",
+          "task_and_answer": "A fictional calibration sets A_bc=18 U^2 with the same ray. Areas become(18,12,9), eta and alpha are unchanged. Tag the anchor as supplied calibration, area reconstruction as derived, and an asserted mass interpretation as an additional physical identification."
+        },
+        "diagnostic": {
+          "id": "C08.05-D1",
+          "task_and_answer": "Classify the claim that calculating eta from areas independently measured a particle mass. Correct it to a source-defined dimensionless construction plus separately stated physical identification and required measurement provenance. Treat the source interpretation constructively without inventing evidence."
+        },
+        "planned_periods": 1,
+        "minutes_per_period": 55,
+        "teaching_allocation_per_period": {
+          "retrieval": 5,
+          "explanation_and_worked_example": 20,
+          "guided_practice": 15,
+          "independent_diagnostics_and_repair": 15
+        },
+        "production_requirement": "These are blueprint anchors, not full lessons. Expand to2–4 observable goals and3–5 diagnostics, with worked answers. A failed prerequisite check triggers extra practice before dependent work; periods may expand.",
+        "original_title": "Geometry, calibration, and interpretation",
+        "original_assessment_target": "Separate an algebraic ratio from a proposed physical identification",
+        "required_source_amendment_ids": []
+      }
+    },
+    {
+      "id": "lesson-06",
+      "title": "Sensitivity and retained numerical closure",
+      "entry_prerequisites": [
+        "lesson-05"
+      ],
+      "concept_ids": [
+        "C08.06"
+      ],
+      "worked_example_capability": "Propagate a small input change and report the full closure difference",
+      "assessment_target": "Propagate a small input change and report the full closure difference",
+      "later_use": "capstone",
+      "core_minutes": 55,
+      "teaching_anchor": {
+        "lesson_id": "lesson-06",
+        "concept_id": "C08.06",
+        "bridge_to_teach": "Use exact finite reevaluation rather than derivatives. Record the changed input, unchanged inputs, complete output differences and reconstruction rules. Separate arithmetic closure from a proposed input-sensitivity experiment.",
+        "worked_example": {
+          "id": "C08.06-W1",
+          "task_and_answer": "Starting(12,8,6), change only A_ab by+1/10 to61/10. New ray=(1,2/3,61/120); eta=120000/61, alpha_inverse=150, alpha=1/150, eta_alpha=800/61. Differences new-old: r=(0,0,1/120), eta=-2000/61, alpha_inverse=0,alpha=0,eta_alpha=-40/183. Add each difference to the old value to recover the new one."
+        },
+        "guided_practice": {
+          "id": "C08.06-P1",
+          "task_and_answer": "Instead change only A_ac to81/10. New ray=(1,27/40,1/2), eta=2000,alpha_inverse=4000/27,alpha=27/4000,eta_alpha=27/2. Differences: ray(0,1/120,0),eta0,alpha_inverse=-50/27,alpha=1/12000,eta_alpha=1/6."
+        },
+        "diagnostic": {
+          "id": "C08.06-D1",
+          "task_and_answer": "Core check: preserve the exact finite output change and show both eta*alpha and10*A_ac/A_ab agree for the same inputs. Optional recognition only: the supplied approximation eta_lin=2000-100/3=5900/3 leaves exact remainder100/183 because120000/61-5900/3=100/183. A teacher choosing this extension must first expand(1+h)(1-h)=1-h^2 to derive1/(1+h)=1-h+h^2/(1+h), with h=1/60; no derivative is assumed or assessed."
+        },
+        "planned_periods": 1,
+        "minutes_per_period": 55,
+        "teaching_allocation_per_period": {
+          "retrieval": 5,
+          "explanation_and_worked_example": 20,
+          "guided_practice": 15,
+          "independent_diagnostics_and_repair": 15
+        },
+        "production_requirement": "These are blueprint anchors, not full lessons. Expand to2–4 observable goals and3–5 diagnostics, with worked answers. A failed prerequisite check triggers extra practice before dependent work; periods may expand.",
+        "original_title": "Sensitivity and retained numerical closure",
+        "original_assessment_target": "Propagate a small input change and report the full closure difference",
+        "required_source_amendment_ids": []
+      }
+    }
+  ],
+  "capstone_specification": {
+    "task": "Create a ratio-to-claim ledger that reproduces the source constructions and separates exact algebra, decimal witnesses, and physical interpretation.",
+    "required_operations": [
+      "Normalize labeled synthetic areas(15,10,5), retain divisor and reconstruct.",
+      "Prove common-scale cancellation and test s=2 and s=1/2.",
+      "Evaluate eta,alpha_inverse,alpha and eta_alpha by both paths; read active definitions and supplied locked-evaluation rows.",
+      "Build separate active/historical provenance rows; retain signed branch differences without mixing inputs.",
+      "Tag dimensional anchor, derived quotients and proposed physical identification; list required measurement provenance without inventing it.",
+      "For the supplied worked baseline(12,8,6), apply either taught +1/10 perturbation, retain all output changes, and verify exact reconstruction and algebraic closure."
+    ],
+    "rule": "Map every capstone operation to a prior introduction and practice; provide full answers, point rubric, source scope, and residual accounting.",
+    "backward_map": [
+      {
+        "step_id": "C08-CAP-01",
+        "operation": "Normalize labeled synthetic areas(15,10,5), retain divisor and reconstruct.",
+        "introduction": "lesson-01",
+        "worked_id": "C08.01-W1",
+        "prior_practice_id": "C08.01-P1",
+        "diagnostic_id": "C08.01-D1",
+        "worked_example_id": "C08.01-W1"
+      },
+      {
+        "step_id": "C08-CAP-02",
+        "operation": "Prove common-scale cancellation and test s=2 and s=1/2.",
+        "introduction": "lesson-02",
+        "worked_id": "C08.02-W1",
+        "prior_practice_id": "C08.02-P1",
+        "diagnostic_id": "C08.02-D1",
+        "worked_example_id": "C08.02-W1"
+      },
+      {
+        "step_id": "C08-CAP-03",
+        "operation": "Evaluate eta,alpha_inverse,alpha and eta_alpha by both paths; read active definitions and supplied locked-evaluation rows.",
+        "introduction": "lesson-03",
+        "worked_id": "C08.03-W1",
+        "prior_practice_id": "C08.03-P1",
+        "diagnostic_id": "C08.03-D1",
+        "worked_example_id": "C08.03-W1"
+      },
+      {
+        "step_id": "C08-CAP-04",
+        "operation": "Build separate active/historical provenance rows; retain signed branch differences without mixing inputs.",
+        "introduction": "lesson-04",
+        "worked_id": "C08.04-W1",
+        "prior_practice_id": "C08.04-P1",
+        "diagnostic_id": "C08.04-D1",
+        "worked_example_id": "C08.04-W1"
+      },
+      {
+        "step_id": "C08-CAP-05",
+        "operation": "Tag dimensional anchor, derived quotients and proposed physical identification; list required measurement provenance without inventing it.",
+        "introduction": "lesson-05",
+        "worked_id": "C08.05-W1",
+        "prior_practice_id": "C08.05-P1",
+        "diagnostic_id": "C08.05-D1",
+        "worked_example_id": "C08.05-W1"
+      },
+      {
+        "step_id": "C08-CAP-06",
+        "operation": "For the supplied worked baseline(12,8,6), apply either taught +1/10 perturbation, retain all output changes, and verify exact reconstruction and algebraic closure.",
+        "introduction": "lesson-06",
+        "worked_id": "C08.06-W1",
+        "prior_practice_id": "C08.06-P1",
+        "diagnostic_id": "C08.06-D1",
+        "worked_example_id": "C08.06-W1"
+      }
+    ]
+  },
+  "blueprint_audit": {
+    "status": "approved_source_and_prerequisite_blueprint",
+    "unresolved_critical": 0,
+    "unresolved_major": 0,
+    "source_review": {
+      "status": "ready_for_source_scoped_drafting",
+      "basis": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\source-coverage\\source-coverage-audit.json",
+      "source_report_sha256": "eef89a28971ef7e5380977c31b62ed6d64f2831759e679ee967b6c253a33c04a",
+      "portable_requirements_applied": true,
+      "educational_acceptance": "Independent teaching review and actual E05 content gate remain required.",
+      "applied_at": "2026-11-05T17:02:05.375955+00:00"
+    },
+    "teaching_review_path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\teaching\\launch-review-07-09.json",
+    "teaching_amendment_sha256": "c63a488d9a0423c1d7d361d3bb08af87373e44e84d57618845d3f4e62c8da6ab",
+    "review_scope": "Blueprint clearance only. Actual lesson content and E05 links require independent final acceptance.",
+    "applied_at": "2026-11-05T17:30:04.347366+00:00"
+  },
+  "validator": {
+    "skill_relative_path": "scripts/validate_course.py",
+    "required_command": "& 'C:\\ProgramData\\anaconda3\\Scripts\\conda.exe' run -n tf_gpu_env python 'C:\\Users\\info\\.codex\\skills\\build-high-school-course\\scripts\\validate_course.py' 'Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-08-face-area-ratios-and-the-k-field-mass-bridge' --json"
+  },
+  "storage_override": {
+    "authority": "User: write outputs to the project folder and move them later",
+    "original_root": "C:\\Users\\info\\Desktop\\K-Field_Training_Course",
+    "canonical_project_root": "Z:\\Kfield-doc-training\\K-Field_Training_Course"
+  },
+  "production_requirements": {
+    "E05": [
+      "Replace generic coverage placeholders with actual explanation, worked-example, practice, diagnostic, and capstone step IDs. A row passes only when the referenced content exists and the operation is taught before use.",
+      "For each capstone break the requested product into concrete operations with named inputs/outputs, link each operation to an earlier explanation AND an independently answered practice item; do not merely repeat outcome text.",
+      "Use source-exact finite examples where available and separately labeled synthetic analogues otherwise. Recognition-only extensions cannot be required computations.",
+      "Record teaching/practice/check minutes per lesson; split overloaded lessons and update every lesson/coverage/capstone link. Shared advanced notation is author guidance until introduced locally."
+    ]
+  },
+  "applied_audit_amendments": {},
+  "source_audit_readiness": {
+    "status": "ready_for_source_scoped_drafting",
+    "basis": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\source-coverage\\source-coverage-audit.json",
+    "source_report_sha256": "eef89a28971ef7e5380977c31b62ed6d64f2831759e679ee967b6c253a33c04a",
+    "portable_requirements_applied": true,
+    "educational_acceptance": "Independent teaching review and actual E05 content gate remain required.",
+    "applied_at": "2026-11-05T17:02:05.375955+00:00"
+  },
+  "teaching_blueprint_contract": {
+    "schema_version": "1.0",
+    "created_utc": "2026-11-05T17:28:59.617960+00:00",
+    "scope": "Pedagogic BLUEPRINT amendments only; no completed-course approval.",
+    "source_basis": [
+      {
+        "id": "S01",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+        "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+        "read_only": true
+      },
+      {
+        "id": "S02",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+        "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+        "read_only": true
+      },
+      {
+        "id": "S03",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+        "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+        "read_only": true
+      }
+    ],
+    "course08_exact_source_definitions": {
+      "source": "S02#/backbone_sequence/4/definitions",
+      "definitions": [
+        "r=(1,A_ac/A_bc,A_ab/A_bc) in [bc,ac,ab] order",
+        "eta=1000 A_bc/A_ab",
+        "alpha^{-1}=100 A_bc/A_ac",
+        "eta alpha=10 A_ac/A_ab"
+      ],
+      "active_inputs": "S02#/mature_locked_cell3/face_areas_nm2",
+      "active_ray": "S02#/backbone_sequence/4/projective_ray",
+      "calibration_history": "S01#/mass_bridge_calibration is historical, including its own face-area inputs and reported constants; do not mix them into active S02 recomputation.",
+      "synthetic_geometry_note": "Areas(12,8,6) are physically realizable as an orthogonal classroom box with edge lengths a=2,b=3,c=4 arbitrary length units; this is not Cell3. Perturbation inputs are supplied area triples for finite sensitivity, not claims of a measured trajectory."
+    },
+    "course08_locked_evaluation": {
+      "eta": {
+        "source_stored_lexeme": "1836.1526734259999",
+        "exact_recomputed_rational": "35780953912856150000/19486916546048413",
+        "decimal_display_60_digits": "1836.15267342600012490562174422486717691600676624378485519819",
+        "signed_recomputed_minus_stored_exact": "43827170816668413/194869165460484130000000000000",
+        "signed_difference_decimal_display": "2.24905621744224867176916006766243784855198190863325581051921E-13",
+        "reconstruction": "recomputed = source_stored + retained_signed_difference",
+        "units": "dimensionless"
+      },
+      "alpha_inverse": {
+        "source_stored_lexeme": "137.035999177",
+        "exact_recomputed_rational": "357809539128561500/2611062357902053",
+        "decimal_display_60_digits": "137.035999177000032800974423228522925162541880185496316491469",
+        "signed_recomputed_minus_stored_exact": "85645389619/2611062357902053000000000",
+        "signed_difference_decimal_display": "3.28009744232285229251625418801854963164914687984297424023451E-14",
+        "reconstruction": "recomputed = source_stored + retained_signed_difference",
+        "units": "dimensionless"
+      },
+      "alpha": {
+        "source_stored_lexeme": "0.0072973525643314245",
+        "exact_recomputed_rational": "2611062357902053/357809539128561500",
+        "decimal_display_60_digits": "0.00729735256433142328354948000850238239704090439428677660187785",
+        "signed_recomputed_minus_stored_exact": "-1741030399723427/1431238156514246000000000000000000",
+        "signed_difference_decimal_display": "-1.21645051999149761760295909560571322339812214852690754955574E-18",
+        "reconstruction": "recomputed = source_stored + retained_signed_difference",
+        "units": "dimensionless"
+      },
+      "eta_alpha": {
+        "source_stored_lexeme": "13.399053419929224",
+        "exact_recomputed_rational": "23736930526382300/1771537867822583",
+        "decimal_display_60_digits": "13.3990534199292204238693600987939086271046162513614525238406",
+        "signed_recomputed_minus_stored_exact": "-791906356108199/221442233477822875000000000000",
+        "signed_difference_decimal_display": "-3.57613063990120609137289538374863854747615940049302845179557E-15",
+        "reconstruction": "recomputed = source_stored + retained_signed_difference",
+        "units": "dimensionless"
+      }
+    },
+    "course08_branch_comparison": [
+      {
+        "historical_source_pointer": "S01#/backbone_sequence/4/projective_rays/master_geometry",
+        "historical_lexemes": [
+          "1",
+          "0.72973525645920595244932401459164514764311273208360709830244089259013899526544427",
+          "0.54461702151513304256465588852004665566471160638980820098958492135543133394303553"
+        ],
+        "active_source_pointer": "S02#/backbone_sequence/4/projective_ray",
+        "active_lexemes": [
+          "1.0",
+          "0.7297352564331424",
+          "0.5446170214888189"
+        ],
+        "signed_active_minus_historical_exact": [
+          "0",
+          "-2606355244932401459164514764311273208360709830244089259013899526544427/100000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "-2631414256465588852004665566471160638980820098958492135543133394303553/100000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        ],
+        "difference_kind": "provenance branch comparison; not measurement residual"
+      },
+      {
+        "historical_source_pointer": "S01#/backbone_sequence/4/projective_rays/locked_mass_bridge",
+        "historical_lexemes": [
+          "1",
+          "0.72973525643314250302457952646916832280660213133653604957798803819933561573639928",
+          "0.54461702148881883791248505567449693562745711038305542415906631382184511315519240"
+        ],
+        "active_source_pointer": "S02#/backbone_sequence/4/projective_ray",
+        "active_lexemes": [
+          "1.0",
+          "0.7297352564331424",
+          "0.5446170214888189"
+        ],
+        "signed_active_minus_historical_exact": [
+          "0",
+          "-1287807244080864604035082526641706700619724850477491695196704991/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "155218787360813757660931357224042361439602334215445387217112019/2500000000000000000000000000000000000000000000000000000000000000000000000000000"
+        ],
+        "difference_kind": "provenance branch comparison; not measurement residual"
+      }
+    ],
+    "course08_synthetic_sensitivity": [
+      {
+        "input_change": "ab",
+        "new_values": {
+          "ray": [
+            "1",
+            "2/3",
+            "61/120"
+          ],
+          "eta": "120000/61",
+          "alpha_inverse": "150",
+          "alpha": "1/150",
+          "eta_alpha": "800/61"
+        },
+        "signed_new_minus_old": {
+          "ray": [
+            "0",
+            "0",
+            "1/120"
+          ],
+          "eta": "-2000/61",
+          "alpha_inverse": "0",
+          "alpha": "0",
+          "eta_alpha": "-40/183"
+        }
+      },
+      {
+        "input_change": "ac",
+        "new_values": {
+          "ray": [
+            "1",
+            "27/40",
+            "1/2"
+          ],
+          "eta": "2000",
+          "alpha_inverse": "4000/27",
+          "alpha": "27/4000",
+          "eta_alpha": "27/2"
+        },
+        "signed_new_minus_old": {
+          "ray": [
+            "0",
+            "1/120",
+            "0"
+          ],
+          "eta": "0",
+          "alpha_inverse": "-50/27",
+          "alpha": "1/12000",
+          "eta_alpha": "1/6"
+        }
+      }
+    ],
+    "verification_record": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-teaching-auditor\\outputs\\teaching-verification-07-09.json",
+    "verification_sha256": "49e1efd1ea38ed3884089caaecb9c0009a69af87a48bbf113beefb63f5dd43c6",
+    "source_or_project_files_modified": false,
+    "course_amendment": {
+      "course_id": "course-08",
+      "input_contract_path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-08-face-area-ratios-and-the-k-field-mass-bridge\\input-contract.json",
+      "input_contract_sha256": "65b7ba0a2ba52b364be12305609c29b5dadc9b3a3cc4668539d7388ebbaa2a79",
+      "application": "Add as teaching_amendment and replace generic coverage references with the explicit IDs. Preserve all original subject outcomes, source obligations and lesson required_amendment_ids; this file does not edit the project.",
+      "applied_source_amendments_read": {},
+      "original_subject_kernel": {
+        "objects_and_operations": [
+          {
+            "concept_id": "C08.01",
+            "concept": "From faces to dimensionless ratios",
+            "operation": "Compute the ordered face-area ray"
+          },
+          {
+            "concept_id": "C08.02",
+            "concept": "What uniform scaling leaves unchanged",
+            "operation": "Prove scale invariance of two independent area ratios"
+          },
+          {
+            "concept_id": "C08.03",
+            "concept": "The eta and alpha constructions",
+            "operation": "Evaluate source-defined constants with units and provenance"
+          },
+          {
+            "concept_id": "C08.04",
+            "concept": "Locked and historical numerical branches",
+            "operation": "Track distinct numerical witnesses without silently merging them"
+          },
+          {
+            "concept_id": "C08.05",
+            "concept": "Geometry, calibration, and interpretation",
+            "operation": "Separate an algebraic ratio from a proposed physical identification"
+          },
+          {
+            "concept_id": "C08.06",
+            "concept": "Sensitivity and retained numerical closure",
+            "operation": "Propagate a small input change and report the full closure difference"
+          }
+        ],
+        "source_modules": [
+          "M05"
+        ],
+        "scope": "Create a ratio-to-claim ledger that reproduces the source constructions and separates exact algebra, decimal witnesses, and physical interpretation.",
+        "common_failure_modes": [
+          "Untaught prerequisite",
+          "Unscoped symbol or unit",
+          "An illustrative example presented as real evidence",
+          "A source label promoted beyond its evidence class",
+          "A residual or source branch silently omitted"
+        ]
+      },
+      "core_periods": 6,
+      "capstone_periods": 2,
+      "core_boundary": "Finite hand-checkable examples and supplied source-reading cards are assessed. Full archive proof certification, infinite-series limits, gauge transport and physical mass identification are not silently required.",
+      "prerequisite_status": "Closed for these explicit finite operations with the listed bridges and prior-course arithmetic; final lesson checks remain required.",
+      "inline_content_location": "Complete lesson anchors are in course_map[*].teaching_anchor; complete capstone mapping is in capstone_specification.backward_map below."
+    },
+    "completed_course_acceptance": false
+  }
+}
+```

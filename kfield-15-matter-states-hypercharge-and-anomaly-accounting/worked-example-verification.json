@@ -1,0 +1,521 @@
+{
+  "status": "passed",
+  "method": "Independent exhaustive subset enumeration, rational arithmetic and direct weighted sums; grid tests supplement displayed general algebra, not replace it.",
+  "sources": [
+    {
+      "id": "S01",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "verified_sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "verification": "fresh local byte hash"
+    },
+    {
+      "id": "S02",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "verified_sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "verification": "fresh local byte hash"
+    },
+    {
+      "id": "S03",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "verified_sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "verification": "fresh local byte hash"
+    },
+    {
+      "id": "S04",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+      "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "verified_sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "verification": "fresh local byte hash"
+    },
+    {
+      "id": "S05",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+      "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "verified_sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+      "verification": "fresh local byte hash"
+    }
+  ],
+  "source_pointers": {
+    "KFM-X022": "/proof_nodes/67/formula",
+    "KFM-X023": "/proof_nodes/68/formula",
+    "KFM-X024": "/proof_nodes/69/formula",
+    "KFM-X026": "/proof_nodes/75/formula",
+    "KFM-X027": "/proof_nodes/79/formula",
+    "KFM-F033": "/proof_nodes/74/formula",
+    "KFM-F034": "/proof_nodes/77/formula",
+    "KFM-F035": "/proof_nodes/82/formula",
+    "KFM-F036": "/proof_nodes/83/formula"
+  },
+  "states": [
+    {
+      "basis": [],
+      "r": 0,
+      "s": 0,
+      "sector": "nu^c",
+      "q": 0,
+      "Y": "0",
+      "descent_residue": 0
+    },
+    {
+      "basis": [
+        "c1",
+        "c2"
+      ],
+      "r": 2,
+      "s": 0,
+      "sector": "u^c",
+      "q": -4,
+      "Y": "-2/3",
+      "descent_residue": 0
+    },
+    {
+      "basis": [
+        "c1",
+        "c3"
+      ],
+      "r": 2,
+      "s": 0,
+      "sector": "u^c",
+      "q": -4,
+      "Y": "-2/3",
+      "descent_residue": 0
+    },
+    {
+      "basis": [
+        "c1",
+        "w1"
+      ],
+      "r": 1,
+      "s": 1,
+      "sector": "Q",
+      "q": 1,
+      "Y": "1/6",
+      "descent_residue": 0
+    },
+    {
+      "basis": [
+        "c1",
+        "w2"
+      ],
+      "r": 1,
+      "s": 1,
+      "sector": "Q",
+      "q": 1,
+      "Y": "1/6",
+      "descent_residue": 0
+    },
+    {
+      "basis": [
+        "c2",
+        "c3"
+      ],
+      "r": 2,
+      "s": 0,
+      "sector": "u^c",
+      "q": -4,
+      "Y": "-2/3",
+      "descent_residue": 0
+    },
+    {
+      "basis": [
+        "c2",
+        "w1"
+      ],
+      "r": 1,
+      "s": 1,
+      "sector": "Q",
+      "q": 1,
+      "Y": "1/6",
+      "descent_residue": 0
+    },
+    {
+      "basis": [
+        "c2",
+        "w2"
+      ],
+      "r": 1,
+      "s": 1,
+      "sector": "Q",
+      "q": 1,
+      "Y": "1/6",
+      "descent_residue": 0
+    },
+    {
+      "basis": [
+        "c3",
+        "w1"
+      ],
+      "r": 1,
+      "s": 1,
+      "sector": "Q",
+      "q": 1,
+      "Y": "1/6",
+      "descent_residue": 0
+    },
+    {
+      "basis": [
+        "c3",
+        "w2"
+      ],
+      "r": 1,
+      "s": 1,
+      "sector": "Q",
+      "q": 1,
+      "Y": "1/6",
+      "descent_residue": 0
+    },
+    {
+      "basis": [
+        "w1",
+        "w2"
+      ],
+      "r": 0,
+      "s": 2,
+      "sector": "e^c",
+      "q": 6,
+      "Y": "1",
+      "descent_residue": 0
+    },
+    {
+      "basis": [
+        "c1",
+        "c2",
+        "c3",
+        "w1"
+      ],
+      "r": 3,
+      "s": 1,
+      "sector": "L",
+      "q": -3,
+      "Y": "-1/2",
+      "descent_residue": 0
+    },
+    {
+      "basis": [
+        "c1",
+        "c2",
+        "c3",
+        "w2"
+      ],
+      "r": 3,
+      "s": 1,
+      "sector": "L",
+      "q": -3,
+      "Y": "-1/2",
+      "descent_residue": 0
+    },
+    {
+      "basis": [
+        "c1",
+        "c2",
+        "w1",
+        "w2"
+      ],
+      "r": 2,
+      "s": 2,
+      "sector": "d^c",
+      "q": 2,
+      "Y": "1/3",
+      "descent_residue": 0
+    },
+    {
+      "basis": [
+        "c1",
+        "c3",
+        "w1",
+        "w2"
+      ],
+      "r": 2,
+      "s": 2,
+      "sector": "d^c",
+      "q": 2,
+      "Y": "1/3",
+      "descent_residue": 0
+    },
+    {
+      "basis": [
+        "c2",
+        "c3",
+        "w1",
+        "w2"
+      ],
+      "r": 2,
+      "s": 2,
+      "sector": "d^c",
+      "q": 2,
+      "Y": "1/3",
+      "descent_residue": 0
+    }
+  ],
+  "trial_column_order": [
+    "gravity_squared_U1",
+    "U1_cubic",
+    "SU3_squared_U1",
+    "SU2_squared_U1",
+    "SU3_cubic"
+  ],
+  "trials": {
+    "(-2, 3)": {
+      "q": [
+        0,
+        6,
+        1,
+        -4,
+        2,
+        -3
+      ],
+      "contributions": [
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "6",
+          "216",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "6",
+          "6",
+          "1",
+          "3/2",
+          "2"
+        ],
+        [
+          "-12",
+          "-192",
+          "-2",
+          "0",
+          "-1"
+        ],
+        [
+          "6",
+          "24",
+          "1",
+          "0",
+          "-1"
+        ],
+        [
+          "-6",
+          "-54",
+          "0",
+          "-3/2",
+          "0"
+        ]
+      ],
+      "totals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    "(1, 0)": {
+      "q": [
+        0,
+        0,
+        1,
+        2,
+        2,
+        3
+      ],
+      "contributions": [
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "6",
+          "6",
+          "1",
+          "3/2",
+          "2"
+        ],
+        [
+          "6",
+          "24",
+          "1",
+          "0",
+          "-1"
+        ],
+        [
+          "6",
+          "24",
+          "1",
+          "0",
+          "-1"
+        ],
+        [
+          "6",
+          "54",
+          "0",
+          "3/2",
+          "0"
+        ]
+      ],
+      "totals": [
+        "24",
+        "108",
+        "3",
+        "3",
+        "0"
+      ]
+    },
+    "(0, 1)": {
+      "q": [
+        0,
+        2,
+        1,
+        0,
+        2,
+        1
+      ],
+      "contributions": [
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "2",
+          "8",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "6",
+          "6",
+          "1",
+          "3/2",
+          "2"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "-1"
+        ],
+        [
+          "6",
+          "24",
+          "1",
+          "0",
+          "-1"
+        ],
+        [
+          "2",
+          "2",
+          "0",
+          "1/2",
+          "0"
+        ]
+      ],
+      "totals": [
+        "16",
+        "40",
+        "2",
+        "2",
+        "0"
+      ]
+    },
+    "(1, 1)": {
+      "q": [
+        0,
+        2,
+        2,
+        2,
+        4,
+        4
+      ],
+      "contributions": [
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "2",
+          "8",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "12",
+          "48",
+          "2",
+          "3",
+          "2"
+        ],
+        [
+          "6",
+          "24",
+          "1",
+          "0",
+          "-1"
+        ],
+        [
+          "12",
+          "192",
+          "2",
+          "0",
+          "-1"
+        ],
+        [
+          "8",
+          "128",
+          "0",
+          "2",
+          "0"
+        ]
+      ],
+      "totals": [
+        "40",
+        "400",
+        "5",
+        "5",
+        "0"
+      ]
+    }
+  },
+  "checks": {
+    "all_subsets_complement_involution": 32,
+    "even_component_charge_and_descent": 16,
+    "integer_weight_pairs": 121,
+    "source_census_rows": 6,
+    "quadratic_completed_square": "exact Fraction arithmetic",
+    "witten_doublets": 4,
+    "diagonal_dual_action": "i = inverse(-i)"
+  },
+  "scope": "No fresh compiler/typecheck or empirical inference; no copied source snapshots."
+}

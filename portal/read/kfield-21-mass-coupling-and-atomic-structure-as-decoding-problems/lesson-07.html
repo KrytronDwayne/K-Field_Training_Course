@@ -1,0 +1,108 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>lesson-07: Solver convergence and unresolved information · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/21">Course 21</a><span>/</span><span>lesson 07</span></div><a class="original" href="../../../kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems/lesson-07.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#lesson-07-solver-convergence-and-unresolved-information">lesson-07: Solver convergence and unresolved information</a><a href="#prerequisite-bridge">Prerequisite bridge</a><a href="#explanation-c2107-e1">Explanation — C21.07-E1</a><a href="#worked-example-c2107-w1">Worked example — C21.07-W1</a><a href="#guided-practice-c2107-p1">Guided practice — C21.07-P1</a><a href="#diagnostic-checks-c2107-d1">Diagnostic checks — C21.07-D1</a><a href="#worked-answers">Worked answers</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">lesson-01: Measurements as linear channels</a><a  href="lesson-02.html">lesson-02: Rank and retained syndromes</a><a  href="lesson-03.html">lesson-03: The thirteen-channel decoder</a><a  href="lesson-04.html">lesson-04: Reconstruction and dimensional meaning</a><a  href="lesson-05.html">lesson-05: Atomic and isotope inventories</a><a  href="lesson-06.html">lesson-06: Binding and periodic organization</a><a aria-current=page href="lesson-07.html">lesson-07: Solver convergence and unresolved information</a><a  href="lesson-08.html">lesson-08: A reproducible decoding report</a></details></aside><div class="reading-column"><article class="prose"><h1 id="lesson-07-solver-convergence-and-unresolved-information" tabindex="-1">lesson-07: Solver convergence and unresolved information</h1>
+<p>2 sessions of 55 minutes.</p>
+<p><strong>Essential question:</strong> What can a failed numerical iteration teach us without losing its input?</p>
+<p><strong>Goals</strong></p>
+<ul>
+<li>Perform two explicit solver updates and retain the full history.</li>
+<li>Explain convergence or divergence using two taught error directions.</li>
+<li>Distinguish numerical convergence, channel closure and physical identification.</li>
+</ul>
+<h2 id="prerequisite-bridge" tabindex="-1">Prerequisite bridge</h2>
+<p>Use A_small and synthetic y=(2,3,6) from lesson 1. The exact solution c_star=(7/3,10/3) is already known. A sequence is an ordered list indexed n=0,1,2,...; c_n is simply the coefficient pair after n updates.</p>
+<p><a id="C21.07-E1" tabindex="-1"></a></p>
+<h2 id="explanation-c2107-e1" tabindex="-1">Explanation — C21.07-E1</h2>
+<p>A solver is a rule for producing successive candidates. Declare c_0=(0,0) and a step parameter t. At every stage compute r_n=y-A_small c_n, then the two normal residual sums g_n=A_small^T r_n, then c_(n+1)=c_n+t g_n. Save n, t, c_n, r_n and g_n together. These are different fields: the normal residual is two sums; the channel residual is three entries.</p>
+<p>For t=1/4, the initial normal residual is (8,9). Multiply by 1/4 to get c_1=(2,9/4). Its represented channels are (2,9/4,17/4), so r_1=(0,3/4,7/4). Adding first-plus-third and second-plus-third gives g_1=(7/4,5/2). Multiply that by 1/4 and add to c_1: c_2=(2+7/16,9/4+5/8)=(39/16,23/8). Subtract its channels from y to get (-7/16,1/8,11/16).</p>
+<p>Step t=1/4</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>n</th>
+<th>c_n</th>
+<th>r_n</th>
+<th>A_small^T r_n</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>(0, 0)</td>
+<td>(2, 3, 6)</td>
+<td>(8, 9)</td>
+</tr>
+<tr>
+<td>1</td>
+<td>(2, 9/4)</td>
+<td>(0, 3/4, 7/4)</td>
+<td>(7/4, 5/2)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>(39/16, 23/8)</td>
+<td>(-7/16, 1/8, 11/16)</td>
+<td>(1/4, 13/16)</td>
+</tr>
+</tbody>
+</table></div>
+<p>Step t=1</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>n</th>
+<th>c_n</th>
+<th>r_n</th>
+<th>A_small^T r_n</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>(0, 0)</td>
+<td>(2, 3, 6)</td>
+<td>(8, 9)</td>
+</tr>
+<tr>
+<td>1</td>
+<td>(8, 9)</td>
+<td>(-6, -6, -11)</td>
+<td>(-17, -17)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>(-9, -8)</td>
+<td>(11, 11, 23)</td>
+<td>(34, 34)</td>
+</tr>
+</tbody>
+</table></div>
+<p>The t=1 branch is a useful comparison, not a discarded run. It first gives c_1=(8,9), so r_1=(2-8,3-9,6-17)=(-6,-6,-11). Thus g_1=(-17,-17), and c_2=(-9,-8). Reconstruction still works: (-9,-8,-17)+(11,11,23)=(2,3,6). The solver has moved away from its target while the retained packet remains exact.</p>
+<p>To explain these branches without calculus, define coefficient error e_n=c_n-c_star. Since the exact solution obeys A_small^T y=G c_star with G=[[2,1],[1,2]], subtraction gives e_(n+1)=(I-tG)e_n. The sum direction (1,1) is multiplied by G by 3; the difference direction (1,-1) by 1. Every error (a,b) equals ((a+b)/2)(1,1)+((a-b)/2)(1,-1). Each update multiplies these two parts by 1-3t and 1-t respectively.</p>
+<p>If a multiplier has absolute value less than one, repeated multiplication shrinks that component toward zero. For t=1/4, the multipliers are 1/4 and 3/4, so both shrink. For t=1, they are -2 and 0; the nonzero sum component flips sign and doubles each step. In general both shrink when 0&lt;t&lt;2/3. At the boundary t=2/3, the sum component flips without shrinking; at t=0 it does not move. These conclusions are about this explicit solver and matrix, not about all solvers.</p>
+<p>Even as c_n approaches c_star, the channel residual approaches (-1/3,-1/3,1/3), not zero. Numerical convergence is reaching the decoder’s coefficients. Channel closure is whether r itself vanishes. Physical identification is whether the model coordinates and source selection rule describe the measured system. They are three distinct claims.</p>
+<p>If columns are dependent, the normal matrix may be singular, meaning it has no unique inverse. For example two identical columns produce the same channels for coefficients (1,0) and (0,1). A solver must preserve the free-coordinate ambiguity, use additional declared constraints if supplied, and check compatibility; it must not invent uniqueness.</p>
+<blockquote>
+<p>Scope: These finite iteration histories are synthetic computations. Divergence exposes parameter dependence; it is not a reason to delete inputs, negative residuals or the failed branch. A scalar norm may index a history but cannot replace any saved coordinate.</p>
+</blockquote>
+<p><a id="C21.07-W1" tabindex="-1"></a></p>
+<h2 id="worked-example-c2107-w1" tabindex="-1">Worked example — C21.07-W1</h2>
+<p>For t=1/4, c0=(0,0), r0=(2,3,6); c1=(2,9/4), r1=(0,3/4,7/4); c2=(39/16,23/8), r2=(-7/16,1/8,11/16). Error multipliers 3/4 and 1/4 imply convergence to the previously solved c, whose full r remains nonzero.</p>
+<p><a id="C21.07-P1" tabindex="-1"></a></p>
+<h2 id="guided-practice-c2107-p1" tabindex="-1">Guided practice — C21.07-P1</h2>
+<p>Try the operation before reading the solution. For t=1, c1=(8,9), r1=(-6,-6,-11), c2=(-9,-8), r2=(11,11,23). Error multiplier -2 exposes a divergent branch for these inputs. Preserve this branch and all signed entries. Compare against the exact trace instead of deleting the failed result.</p>
+<p><a id="C21.07-D1" tabindex="-1"></a></p>
+<h2 id="diagnostic-checks-c2107-d1" tabindex="-1">Diagnostic checks — C21.07-D1</h2>
+<ol>
+<li>Recompute c_2 and r_2 for t=1/4.</li>
+<li>Recompute the t=1 branch through its second update.</li>
+<li>At t=2/3, what happens to the sum-direction error?</li>
+<li>If g_n=0, must r_n=0 or c_n represent a physical occupied state?</li>
+</ol>
+<h2 id="worked-answers" tabindex="-1">Worked answers</h2>
+<ol>
+<li>c_2=(39/16,46/16); its third channel is 85/16. Subtract from (32/16,48/16,96/16) to get (-7/16,2/16,11/16).</li>
+<li>c_1=(8,9), r_1=(-6,-6,-11), g_1=(-17,-17), c_2=(-9,-8), r_2=(11,11,23).</li>
+<li>The multiplier 1-3(2/3)=-1 flips the sign without shrinking a nonzero component.</li>
+<li>No. At c_star the two normal sums are zero while r_star=(-1/3,-1/3,1/3). Physical occupied-state selection is a separate, here missing, input.</li>
+</ol>
+<p><strong>Boundary to carry forward:</strong> Convergence of a numerical update is different from channel closure or physical identification. A singular normal matrix requires compatibility/free-coordinate handling; an unstable t does not erase the measurements.</p>
+<p><strong>Next dependency:</strong> <a href="lesson-08.html">lesson-08</a>. Use this lesson’s reconstruction and scope checks there.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><a class="button secondary" href="lesson-06.html">← Previous lesson</a><a class="button" href="lesson-08.html">Next lesson →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/21">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

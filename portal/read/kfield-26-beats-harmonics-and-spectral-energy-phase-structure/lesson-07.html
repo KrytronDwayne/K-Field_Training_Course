@@ -1,0 +1,127 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Signed event evidence · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/26">Course 26</a><span>/</span><span>lesson 07</span></div><a class="original" href="../../../kfield-26-beats-harmonics-and-spectral-energy-phase-structure/lesson-07.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#signed-event-evidence">Signed event evidence</a><a href="#c2607-e1-read-the-source-card-first">C26.07-E1 — Read the source card first</a><a href="#all-row-reference-ledger">All-row reference ledger</a><a href="#c2607-w1-a-negative-row-remains-evidence">C26.07-W1 — A negative row remains evidence</a><a href="#c2607-p1-worked-source-card-practice">C26.07-P1 — Worked source-card practice</a><a href="#c2607-d1-diagnostic-checks-and-answers">C26.07-D1 — Diagnostic checks and answers</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Oscillations, frequency, and phase</a><a  href="lesson-02.html">Superposition and beat envelopes</a><a  href="lesson-03.html">Harmonics and spatial rulers</a><a  href="lesson-04.html">Spectral coefficients retain phase</a><a  href="lesson-05.html">Cross-channel phase and wavelength</a><a  href="lesson-06.html">Photon-equivalent model energy</a><a aria-current=page href="lesson-07.html">Signed event evidence</a><a  href="lesson-08.html">Residual spectra as the next measurement</a></details></aside><div class="reading-column"><article class="prose"><h1 id="signed-event-evidence" tabindex="-1">Signed event evidence</h1>
+<p><strong>Essential question:</strong> How do we keep fourteen responses while recognizing that they use only three cost inputs?</p>
+<p><strong>Goals:</strong> Read a signed event with provenance; distinguish count contrast, fractional response and plane cost; count independent cost levels without deleting response rows.</p>
+<p><strong>Prerequisite bridge.</strong> Lessons 5–6 supplied four-angle reconstruction, g, ρ, P and model energy. We now read reported source records. A JSON pointer such as /events/3 selects the fourth array entry because indices start at zero. A SHA-256 digest identifies file bytes; matching it establishes byte identity, not the truth of a physical claim.</p>
+<h2 id="c2607-e1-read-the-source-card-first" tabindex="-1">C26.07-E1 — Read the source card first</h2>
+<p>The 2026-08-26 bundle contains two works, each represented as JSON, PDF and abstract. These six files are not six independent studies. The computational representations are the two JSON works. T35 assigns the observations the class <strong>reported_exploratory_to_be_verified</strong>. Read <a href="sources.html">sources</a> for whole-object digests and exact paths. The source entries below retain their original order; adjacent paired rows share an event context.</p>
+<p>A matrix is a rectangular table of numbers. Multiplying a matrix by a vector takes a dot product for each row. A superscript T means turn a column into a row. Thus qF=nᵀ G_phase n means first calculate G_phase n, then dot it with n. The source's symmetric phase metric has rows (2.9764106378,1.2431507795,−2.0803600354), (1.2431507795,2.5922286635,−2.3178839937), (−2.0803600354,−2.3178839937,6.7735709133). Its qF values are source phase-cost scalars, not joules or detector counts. Here we read the reported family values rather than claim an independently certified locked-geometry replay.</p>
+<p>For intuition only, take synthetic matrix diag(2,3,4), meaning rows (2,0,0),(0,3,0),(0,0,4), and n=(1,0,0). Matrix multiplication gives (2,0,0); dotting with n gives qF=2. Reversing n gives the same cost because both factors change sign. A signed channel contrast need not stay unchanged. Therefore a projective cost and signed gain have different roles even when their numbers happen to match.</p>
+<p>The source assigns w cost 1.777875828850227, v cost 5.949871981229392 and lambda cost 5.7964545517567245. There are four w rows, four v rows and six lambda rows. Fourteen response rows therefore use three independent plane-cost levels, not fourteen. “Independent levels” here counts distinct inputs; it does not assert statistical independence among families. Keep every response and any shared calibration/covariance information. Covariance records how coordinates vary together; shared inputs do not become new measurements merely by appearing in more rows.</p>
+<h2 id="all-row-reference-ledger" tabindex="-1">All-row reference ledger</h2>
+<p>Each index below references spectral-work /events/index and energy-work /all_event_channel_modulations/index. Full timestamps, signed velocities, gains, uncertainties and context stay in those immutable objects. The compact verification file retains row-by-row reconstruction and response closure. No raw acquisition is copied.</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th style="text-align: right;">Index</th>
+<th>Event ID (pair:channel nm:family)</th>
+<th style="text-align: center;">gain sign</th>
+<th>source energy</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">0</td>
+<td>415-515:415:w</td>
+<td style="text-align: center;">+</td>
+<td>null</td>
+</tr>
+<tr>
+<td style="text-align: right;">1</td>
+<td>415-515:515:w</td>
+<td style="text-align: center;">+</td>
+<td>supplied</td>
+</tr>
+<tr>
+<td style="text-align: right;">2</td>
+<td>445-555:445:v</td>
+<td style="text-align: center;">+</td>
+<td>supplied</td>
+</tr>
+<tr>
+<td style="text-align: right;">3</td>
+<td>445-555:555:v</td>
+<td style="text-align: center;">−</td>
+<td>null</td>
+</tr>
+<tr>
+<td style="text-align: right;">4</td>
+<td>480-630:480:lambda</td>
+<td style="text-align: center;">−</td>
+<td>null</td>
+</tr>
+<tr>
+<td style="text-align: right;">5</td>
+<td>480-630:630:lambda</td>
+<td style="text-align: center;">+</td>
+<td>supplied</td>
+</tr>
+<tr>
+<td style="text-align: right;">6</td>
+<td>515-680:515:lambda</td>
+<td style="text-align: center;">−</td>
+<td>null</td>
+</tr>
+<tr>
+<td style="text-align: right;">7</td>
+<td>515-680:680:lambda</td>
+<td style="text-align: center;">−</td>
+<td>null</td>
+</tr>
+<tr>
+<td style="text-align: right;">8</td>
+<td>630-910:630:w</td>
+<td style="text-align: center;">+</td>
+<td>supplied</td>
+</tr>
+<tr>
+<td style="text-align: right;">9</td>
+<td>630-910:910:w</td>
+<td style="text-align: center;">+</td>
+<td>null</td>
+</tr>
+<tr>
+<td style="text-align: right;">10</td>
+<td>415-590:415:lambda</td>
+<td style="text-align: center;">−</td>
+<td>null</td>
+</tr>
+<tr>
+<td style="text-align: right;">11</td>
+<td>415-590:590:lambda</td>
+<td style="text-align: center;">+</td>
+<td>null</td>
+</tr>
+<tr>
+<td style="text-align: right;">12</td>
+<td>515-590:515:v</td>
+<td style="text-align: center;">−</td>
+<td>null</td>
+</tr>
+<tr>
+<td style="text-align: right;">13</td>
+<td>515-590:590:v</td>
+<td style="text-align: center;">+</td>
+<td>supplied</td>
+</tr>
+</tbody>
+</table></div>
+<p>The energy source names the lambda family “lambda-sheet”; the join above explicitly maps lambda-sheet to lambda. The table contains eight positive and six negative gains. Exactly five rows have energy intervals. Three positive rows have null energy fields, so “positive” and “energy selected” are not synonyms.</p>
+<h2 id="c2607-w1-a-negative-row-remains-evidence" tabindex="-1">C26.07-W1 — A negative row remains evidence</h2>
+<p>Read /events/3, 445-555:555:v. It shares the pair and timestamp 2026-08-25T16:51:46.693615Z with positive /events/2 at 445 nm. Row 3 has g=−0.0003402658026657847 and ρ=0.0006982587209209132. Dividing gives P approximately −0.4873061982197916. Since ρ is positive, the negative sign comes from g and remains in P. Its plane cost is the same v-family cost as its positive partner; its energy field is null. Shared cost does not imply equal or same-sign responses.</p>
+<h2 id="c2607-p1-worked-source-card-practice" tabindex="-1">C26.07-P1 — Worked source-card practice</h2>
+<p>For /events/0, 415-515:415:w, g=0.0005055808785109474 and ρ=0.0000574509228616101. Calculate P and interpret its energy field. <strong>Answer:</strong> P=g/ρ≈8.800222056115778; energy is null, not zero.</p>
+<p>The linked energy-work /all_event_channel_modulations/0 reports four counts in angle order:
+(1485.2562384582884,1483.8843576874326,1483.1281192291442,1483).
+Their means are M≈1484.1921788437162 and Q≈1483.4421788437162, giving contrast 0.75 count. The half-differences are D₀≈1.064059614572102 and D₉₀≈0.4421788437163059. Adding and subtracting these reconstructs the input counts to binary64 rounding. The signed reconstruction residuals input-minus-reconstruction are (0,2.2737367544323206e−13,2.2737367544323206e−13,0) counts in this replay; they are saved, not silently rounded away. Binary64 is finite computer arithmetic and this check is not an exact interval certificate.</p>
+<h2 id="c2607-d1-diagnostic-checks-and-answers" tabindex="-1">C26.07-D1 — Diagnostic checks and answers</h2>
+<ol>
+<li>Count cost levels and rows. <strong>Answer:</strong> Three levels; fourteen response rows. Keep the within-family differences.</li>
+<li>Is a negative gain an invalid observation? <strong>Answer:</strong> Not from its sign. It is a signed contrast relative to the quadrature baseline and stays alongside its partner.</li>
+<li>How many independent studies do the six representations supply? <strong>Answer:</strong> Two works, not six studies. Their representations are linked evidence.</li>
+<li>Does a sub-degree interpolated match establish sub-degree acquisition precision? <strong>Answer:</strong> No. The source acquisition grid is 4 degrees; interpolation and mechanical uncertainty remain separately required.</li>
+<li>What provenance conditions remain? <strong>Answer:</strong> The bundle reports a declared energy revision f98c… versus packaged 9120… and a quadratic PDF digest/size mismatch. Preserve both references and conditions; do not silently merge revisions.</li>
+</ol>
+<blockquote>
+<p><strong>Evidence layers:</strong> Counts and signed rows are source-reported observations; g and P are derived coordinates; qF is a model cost. A proposed beat pathway is a mechanism hypothesis. The source reports 65,880 processed rows, including 65,845 healthy and 35 diagnostic rows; the latter remain with masks and reasons in any production replay. We have replayed the compact reported-event arithmetic, not recovered raw acquisition, calibrated transfer or freshly compiled source proofs. The physical CMB authority 369812.50200040644 m/s is distinct from the experiment-local velocity.</p>
+</blockquote>
+<p><strong>Next dependency:</strong> <a href="lesson-08.html">Lesson 8</a> carries the complete residual into the next comparison.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><a class="button secondary" href="lesson-06.html">← Previous lesson</a><a class="button" href="lesson-08.html">Next lesson →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/26">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

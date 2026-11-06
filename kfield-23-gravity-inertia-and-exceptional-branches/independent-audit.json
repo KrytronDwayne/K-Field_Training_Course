@@ -1,0 +1,178 @@
+{
+  "findings": [
+    {
+      "category": "mathematical_correctness",
+      "affected_checkpoint_ids": [
+        "lesson-01"
+      ],
+      "disposition": "corrected",
+      "defect": "Forward map ordered (F,M,G) determinant is +6, not -6.",
+      "id": "IA-001",
+      "verification_result": "Exact computation gives +6; actual repaired lesson line 25 now states +6.",
+      "correction": "Author replaced -6 with +6 in lesson-01.md C23.01-E1; independent reread confirms correct sign.",
+      "severity": "major",
+      "audit_level": "local",
+      "section": "C23.01-E1 determinant paragraph",
+      "file": "lesson-01.md",
+      "verification_method": "Independent exact determinant calculation."
+    },
+    {
+      "section": "Gamma_B row",
+      "verification_result": "38 table rows each have exactly three delimiters; Gamma_B row now contains ln(abs(sin theta)).",
+      "verification_method": "Independent reread of actual row and delimiter enumeration of all table rows.",
+      "correction": "Author replaced absolute-value bars with abs(sin theta), preserving the formula and two-column structure.",
+      "defect": "Earlier unescaped vertical bars in the absolute-sine expression created extra Markdown table cells.",
+      "affected_checkpoint_ids": [
+        "terminology"
+      ],
+      "disposition": "corrected",
+      "id": "IA-002",
+      "severity": "minor",
+      "file": "terminology.md",
+      "category": "markdown_table_rendering",
+      "audit_level": "final"
+    }
+  ],
+  "checks": [
+    {
+      "result": 6,
+      "operation": "Forward determinant",
+      "method": "Exact six-term sum using tf_gpu_env Python"
+    },
+    {
+      "result": [
+        "13/36",
+        "17/45"
+      ],
+      "operation": "Reciprocal squared lengths",
+      "method": "Python Fraction arithmetic"
+    },
+    {
+      "result": [
+        "(0,2,3) -> (-1,3,-17) -> (0,2,3)",
+        "(1,0,2) -> (-2,1,-13) -> (1,0,2)"
+      ],
+      "operation": "Scalar reconstructions",
+      "method": "Independent hand substitution"
+    },
+    {
+      "result": [
+        "3D open V27 E54 dimension28",
+        "3D periodic V27 E81 dimension55",
+        "2D open V9 E12 dimension4",
+        "2D periodic V9 E18 dimension10"
+      ],
+      "operation": "Graph counts",
+      "method": "Independent line enumeration"
+    },
+    {
+      "result": [
+        "T rho = sigma T = [[0,-1],[1,0]]",
+        "worked identity defect diag(2,-2)",
+        "practice identity defect diag(2,0)"
+      ],
+      "operation": "Intertwiner",
+      "method": "Independent row-column multiplication"
+    },
+    {
+      "result": [
+        "unit normal squared norm 1",
+        "velocity projection 3",
+        "acceleration projection 4",
+        "conditional force 8",
+        "velocity complement (16/5,-12/5,0)",
+        "acceleration complement (-12/5,9/5,0)"
+      ],
+      "operation": "Projection",
+      "method": "Independent hand dot products"
+    },
+    {
+      "result": [
+        "H1: (0,1)",
+        "H2: (-4,-3)"
+      ],
+      "operation": "Frozen response residuals",
+      "method": "Python direct evaluation"
+    }
+  ],
+  "unresolved_critical": 0,
+  "reviewed_files": {
+    "lesson-03.md": "3cd3897f8e06fbb4ebd51ff18efa380150ed0a5ff77373373ae85e56bf660f29",
+    "terminology.md": "97c7fea39148f76c8f5ea6b4c0ae96f0b22562d6024c9d9decac342accf0ddea",
+    "course-map.md": "af35f113e8da2169f92b66d0be9a143a562ac91a9a031b10b04d4037be3c933b",
+    "lesson-05.md": "27048c7ce0dceb3a0edcd9a9959be829efe49f302553cc8a8d647d2c9f94f696",
+    "lesson-04.md": "88b8b8dccd4548f2f17182b9707920bf86e7daddae4c5e5882da56ada9100e94",
+    "capstone.md": "e9782e9edf7f4cf70c6f55313fe388212853e13540d3175d0caffdc95284fcbd",
+    "sources.json": "eeac5ebbabf08041f22d70945a202442d90f5e09e4fbebf087022443188fa3c8",
+    "lesson-01.md": "8fcf50d6a489ee436946b163a6f26c3dfad6ed54c886f112c44d40933b0ccf72",
+    "lesson-07.md": "3eb6d4f9d739ffc9375f05590a8ac206b59a3a5e5850ac6e72591d7d7e4e3a54",
+    "lesson-06.md": "1640b9a6e8a754dce849bc144c487754712e053ca2f0eea4ef74de07ff4b5821",
+    "sources.md": "e0f4aa5bd674f835ebcc17a7781238a07e556114bcedf6d4f7d8781fd221109d",
+    "lesson-02.md": "a738cb3830ee1a1dd6bb47cf382ad09904ea6224bc31029f3c6891329f26dd6c",
+    "teacher-guide.md": "2c02dcf6ffbe2abdee3f7e27f319459c4a694155b5291bc957f8b5990c5cc641"
+  },
+  "unresolved_major": 0,
+  "source_content_inspected": [
+    "S02 /backbone_sequence/18 complete",
+    "S03 /findings/0,8,9,10"
+  ],
+  "reviewed_utc": "2026-11-05T19:44:21.2618871Z",
+  "unresolved_minor": 0,
+  "source_checks": [
+    {
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "matches_contract": true,
+      "id": "S01"
+    },
+    {
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "matches_contract": true,
+      "id": "S02"
+    },
+    {
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "matches_contract": true,
+      "id": "S03"
+    },
+    {
+      "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "matches_contract": true,
+      "id": "S04"
+    },
+    {
+      "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+      "matches_contract": true,
+      "id": "S05"
+    }
+  ],
+  "pedagogy_checks": [
+    "All seven lessons have essential question, three goals, bridge, explanation, worked example, answered practice, 4-5 answered diagnostics, next link.",
+    "All 28 E/W/P/D anchors matched substantive contract operations.",
+    "Thirteen core periods retain explicit allocations.",
+    "Required finite operations introduced locally; general inversion, calculus and exceptional proofs recognition-only.",
+    "Synthetic/source/derived/conditional statuses and complete signed residuals distinguished.",
+    "Lesson 05 resolves ambiguous packet identity-map pair and retains both distinct defects.",
+    "Capstone reviewed in full: seven concrete input/output steps map to earlier explanations and independently answered practice; all requested operations are taught before assessed.",
+    "Capstone answer calculations independently compared to prior exact/hand recomputations: scalar (-2,1,-13), reciprocal 1/16 and 17/45, projections 3/4 and force8, graph dimensions4/10, both distinct matrix defects, H1/H2 residuals all correct.",
+    "Capstone 28-point rubric assigns four explicit criteria to each of seven steps; source-status and residual retention are assessed, and complete branch atlas/model proposal is solvable from lessons.",
+    "Teacher entry arithmetic answers checked: 6,3/5,1,3. Core 13x55=715 and capstone3x55=165 sum to880; allocations65+260+195+195=715 verified.",
+    "Glossary checked for units, origin, reciprocal-versus-action rho, scalar-versus-force F, metric-versus-scalar M, time-versus-map T and source objects; distinctions maintained.",
+    "Source notes/pointers compared to directly inspected S02 M19 and S03 findings0/8/9/10; all five digest declarations agree with independent read-only hash verification. Graph retrieval narrative records author execution; independent audit did not reexecute that remote call.",
+    "Source proof bodies, scalar definitions and exceptional action remain explicit retrieval/construction obligations rather than falsely completed computations."
+  ],
+  "scope": "Independent final content audit of seven lessons, capstone, teacher guide, terminology, course map and source notes. Acceptance covers teaching, E05, mathematical content and source scope; assembly, manifest, validator and final package integrity are separately handled by the course manager.",
+  "content_acceptance": {
+    "status": "accepted",
+    "unresolved_minor": 0,
+    "excluded_from_scope": [
+      "assembly identity",
+      "manifest/checkpoint recovery integrity",
+      "deterministic validator",
+      "remote graph tool execution replay"
+    ],
+    "E05": "passed",
+    "unresolved_major": 0,
+    "independent_teaching_recheck": "passed",
+    "unresolved_critical": 0
+  }
+}

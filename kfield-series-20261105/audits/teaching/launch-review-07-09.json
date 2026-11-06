@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0",
+  "created_utc": "2026-11-05T17:28:59.617960+00:00",
+  "audit_level": "pedagogic_blueprint",
+  "amendment_path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-teaching-auditor\\outputs\\teaching-amendments-07-09.json",
+  "amendment_sha256": "c63a488d9a0423c1d7d361d3bb08af87373e44e84d57618845d3f4e62c8da6ab",
+  "verification_path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-teaching-auditor\\outputs\\teaching-verification-07-09.json",
+  "verification_sha256": "49e1efd1ea38ed3884089caaecb9c0009a69af87a48bbf113beefb63f5dd43c6",
+  "source_clearance": "Separate source auditor; current applied amendments retained. This review does not certify omitted archival proof bodies.",
+  "findings": [
+    {
+      "id": "E05-course-07",
+      "severity": "major",
+      "category": "capstone prerequisite closure",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-07-information-complete-finite-calculus\\input-contract.json",
+      "section": "coverage_matrix[*]; course_map; capstone_specification.required_operations",
+      "defect": "Generic examples/practice/diagnostics did not specify actual finite operations or backward assessment coverage.",
+      "correction": "Add concrete examples, independently checked keys, prerequisite bridges, stable exercise IDs and operation-by-operation capstone map from the portable amendment.",
+      "verification": "All original lesson outcomes retained; exercise IDs resolve; exact checks pass; source amendments remain additive.",
+      "disposition": "corrected_in_portable_amendment",
+      "project_edit_performed": false
+    },
+    {
+      "id": "E05-course-08",
+      "severity": "major",
+      "category": "capstone prerequisite closure",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-08-face-area-ratios-and-the-k-field-mass-bridge\\input-contract.json",
+      "section": "coverage_matrix[*]; course_map; capstone_specification.required_operations",
+      "defect": "Generic examples/practice/diagnostics did not specify actual finite operations or backward assessment coverage.",
+      "correction": "Add concrete examples, independently checked keys, prerequisite bridges, stable exercise IDs and operation-by-operation capstone map from the portable amendment.",
+      "verification": "All original lesson outcomes retained; exercise IDs resolve; exact checks pass; source amendments remain additive.",
+      "disposition": "corrected_in_portable_amendment",
+      "project_edit_performed": false
+    },
+    {
+      "id": "E05-course-09",
+      "severity": "major",
+      "category": "capstone prerequisite closure",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-09-projective-integerization-and-carry-dynamics\\input-contract.json",
+      "section": "coverage_matrix[*]; course_map; capstone_specification.required_operations",
+      "defect": "Generic examples/practice/diagnostics did not specify actual finite operations or backward assessment coverage.",
+      "correction": "Add concrete examples, independently checked keys, prerequisite bridges, stable exercise IDs and operation-by-operation capstone map from the portable amendment.",
+      "verification": "All original lesson outcomes retained; exercise IDs resolve; exact checks pass; source amendments remain additive.",
+      "disposition": "corrected_in_portable_amendment",
+      "project_edit_performed": false
+    }
+  ],
+  "courses": [
+    {
+      "course_id": "course-07",
+      "decision": "teaching_blueprint_pass_with_amendment",
+      "unresolved_critical": 0,
+      "unresolved_major": 0,
+      "launch_condition": "Builder receives this full amendment plus current source-cleared contract; final lessons and capstone still need independent content audit.",
+      "core_periods": 8,
+      "capstone_periods": 2,
+      "period_minutes": 55,
+      "completed_course_approved": false
+    },
+    {
+      "course_id": "course-08",
+      "decision": "teaching_blueprint_pass_with_amendment",
+      "unresolved_critical": 0,
+      "unresolved_major": 0,
+      "launch_condition": "Builder receives this full amendment plus current source-cleared contract; final lessons and capstone still need independent content audit.",
+      "core_periods": 6,
+      "capstone_periods": 2,
+      "period_minutes": 55,
+      "completed_course_approved": false
+    },
+    {
+      "course_id": "course-09",
+      "decision": "teaching_blueprint_pass_with_amendment",
+      "unresolved_critical": 0,
+      "unresolved_major": 0,
+      "launch_condition": "Builder receives this full amendment plus current source-cleared contract; final lessons and capstone still need independent content audit.",
+      "core_periods": 7,
+      "capstone_periods": 2,
+      "period_minutes": 55,
+      "completed_course_approved": false
+    }
+  ],
+  "finished_course_pass": false,
+  "scoped_observations": [
+    "Course07: EG-A1–A6 remain constitutive premises; specified block E has linearity, idempotence and bimodule proof. Counterexample rules out arbitrary-projection generalization. Kernel/free and compatibility coordinates are preserved.",
+    "Course08: exact eta/alpha definitions and branch pointers read. Original stored constants and newly recomputed rational quotients are separate; all signed closure differences are retained.",
+    "Course09: source scale27^g used; signed tie tests, translation equivariance, residual sign, finite terminal remainder and S/A parity are all exercised. Exact historical replay agrees throughg7 and differs by(0,8,7) atg8.",
+    "No calculus, abstract algebra, code authoring or infinite-limit argument is required for the finite core. Source-reading calculations can use a supplied worked card; large decimal arithmetic is teacher replay support."
+  ],
+  "verification_summary": {
+    "checks_passed": 129,
+    "checks_failed": 0,
+    "lesson_anchors": 19,
+    "capstone_steps": 19,
+    "write_scope": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-teaching-auditor\\outputs"
+  },
+  "reference_integrity": "All capstone exercise references resolve to earlier lesson worked/practice/diagnostic IDs."
+}

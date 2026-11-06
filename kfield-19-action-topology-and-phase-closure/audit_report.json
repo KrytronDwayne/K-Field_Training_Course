@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.0",
+  "status": "passed",
+  "findings": [
+    {
+      "id": "IA-01",
+      "level": "local",
+      "category": "definition",
+      "file": "lesson-05.md",
+      "section": "C19.05-E1",
+      "severity": "minor",
+      "defect": "Linearity was described with scalar compatibility alone.",
+      "correction": "Added additivity and explained which rule is used in rebasing.",
+      "verification": "Independent auditor reread correction; finite rebase computations unchanged and passed.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "lesson-05",
+        "assembly"
+      ]
+    },
+    {
+      "id": "IA-02",
+      "level": "final",
+      "category": "assessment_alignment",
+      "file": "lesson-01.md; lesson-07.md",
+      "section": "C19.01-P1; C19.07-P1",
+      "severity": "major",
+      "defect": "Capstone source-term identification and five-role classification were taught but lacked their own mapped answered practice.",
+      "correction": "Added answered source-reading and premise-classification mini-items to the existing P1 sections.",
+      "verification": "Independent auditor verified actual new practice content against CAP-01/CAP-07; IDs preserved.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "lesson-01",
+        "lesson-07",
+        "capstone",
+        "assembly"
+      ]
+    },
+    {
+      "id": "C19-IND-001",
+      "level": "cumulative",
+      "category": "terminology_navigation",
+      "section": "First lesson column, rows for tau and Tr/T/G^-1",
+      "severity": "minor",
+      "defect": "The column says First lesson, but tau is declared as the trivialization in lesson04 line11 while the glossary gives05. Trace and transpose are already explained in lesson01 line31, while their grouped row gives07. Later detailed teaching is correctly located, but these are not accurate first-introduction pointers.",
+      "file": "terminology.md",
+      "correction": "Tau now points to 04 (rebasing in05); trace/transpose first introduction 01 is separated from matrix inverse/trace-conjugation treatment 07.",
+      "verification": "Course manager compared lesson-04 line11, lesson-01 line31 and lesson-07 line15 against the corrected glossary. All lesson/capstone/assembly and independent-audit bytes remain unchanged. External follow-up pending, no reapproval claimed.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "terminology"
+      ],
+      "repair_author": "course-19 course manager",
+      "originating_audit": {
+        "path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-series-source-auditor\\outputs\\course-19-independent-audit.json",
+        "sha256": "25e33901030eb3c3866f61c70be9f3a32d6be562ebd32930731e019747626396",
+        "reviewed_manifest_sha256": "1b7cee5a5f547d02dd4fc0d5795355293daadde172b73a52e58841e25ef4145f",
+        "reviewed_terminology_sha256": "de2d74bd59703ceaa471bd2f6c2d27f52ffaf966328711050344a68bec3c3b8a",
+        "original_disposition": "unresolved",
+        "follow_up_status": "pending_external_auditor"
+      }
+    }
+  ],
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "corrected_counts": {
+    "critical": 0,
+    "major": 1,
+    "minor": 2
+  },
+  "checks": [
+    {
+      "scope": "local",
+      "items": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05",
+        "lesson-06",
+        "lesson-07"
+      ],
+      "result": "Each lesson checked for prerequisites, audience, definitions, notation, units, logic, math, evidence, sources and diagnostic alignment; independent audit records exact checks."
+    },
+    {
+      "scope": "cumulative",
+      "items": [
+        "lesson-02",
+        "lesson-05",
+        "lesson-07"
+      ],
+      "result": "Units 01–02,03–05,06–07 checked for stable notation, dependency order, growing complexity and capstone coverage. Action S versus line S_total, time tau versus map tau, and three C uses remain separated."
+    },
+    {
+      "scope": "final coverage/E05",
+      "result": "All seven concepts have actual E1/W1/P1/D1 content and capstone operations; source-reading and five-role practice gaps repaired."
+    },
+    {
+      "scope": "final fidelity",
+      "result": "S02 M15 and S03 AUD-009 exact text compared. Four source action terms, six factors, tau, charge contract, retained state inputs and missing replay gap preserved. No global theorem or empirical source replay claimed."
+    },
+    {
+      "scope": "final numerical",
+      "result": "93 independent exact computation/content/hash checks passed, including direct/grouped action sums, vector reconstruction, inverse frames, factor deletion, basis compensation and two pairing routes."
+    },
+    {
+      "scope": "final evidence/minimality",
+      "result": "Synthetic examples, source facts, reported claims and unresolved inputs separated; no source snapshots, observations, invented mechanisms, physical probabilities or discarded residuals. Recognition-only notation is not required numerical computation."
+    },
+    {
+      "scope": "final audience/assessment",
+      "result": "Seven lessons over nine core periods plus three capstone periods; actual worked answers and 100-point rubric checked. No calculus or untaught matrix computation required."
+    },
+    {
+      "scope": "final assembly/storage/rendering",
+      "result": "Markdown only; checked heading/table structure. Assembly contains lessons verbatim in declared order. All persistent outputs resolve inside this course directory; no PDF/Word rendering applies."
+    },
+    {
+      "scope": "recovery integrity",
+      "result": "All listed checkpoint hashes generated from written bytes; installed validator via approved root adapter checks integrity, order, complete statuses, audit counts and containment."
+    }
+  ],
+  "independent_audit": "independent-audit.json",
+  "verification": "worked-example-verification.json"
+}

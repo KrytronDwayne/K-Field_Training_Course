@@ -1,0 +1,76 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Capstone — Audit and decode a graph state · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/11">Course 11</a><span>/</span><span>capstone</span></div><a class="original" href="../../../kfield-11-lucas-graphs-edges-cycles-and-memory/capstone.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#capstone-audit-and-decode-a-graph-state">Capstone — Audit and decode a graph state</a><a href="#student-tasks">Student tasks</a><a href="#full-worked-answer-key-and-point-rubric">Full worked answer key and point rubric</a><a href="#backward-teaching-map">Backward teaching map</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 01 — From nodes to a graph</a><a  href="lesson-02.html">Lesson 02 — Walking, connectivity, and incidence</a><a  href="lesson-03.html">Lesson 03 — Cuts and cycles</a><a  href="lesson-04.html">Lesson 04 — The 26 and 28 dimensions</a><a  href="lesson-05.html">Lesson 05 — Adding periodic wrap edges</a><a  href="lesson-06.html">Lesson 06 — Memory needs a specified state</a></details></aside><div class="reading-column"><article class="prose"><h1 id="capstone-audit-and-decode-a-graph-state" tabindex="-1">Capstone — Audit and decode a graph state</h1>
+<p>Allow two 55-minute periods. Period A: 5 minutes conventions, 35 minutes steps 1–4, 15 minutes checking. Period B: 5 minutes retrieval, 30 minutes steps 5–6, 20 minutes reconstruction checks and explanation. Use the lessons and glossary; no programming or advanced theorem is required. All supplied numerical states are synthetic and dimensionless.</p>
+<p>Use square vertices 0 bottom left, 1 bottom right, 2 top right, 3 top left, with edges 01,12,23,30 in that order. Its tree is 01,12,23. Use the Lucas order, root and first-nonzero parent rule from Lesson 04, and the wrap order and cycle basis from Lesson 05. Keep every sign and remainder.</p>
+<h2 id="student-tasks" tabindex="-1">Student tasks</h2>
+<ol>
+<li><strong>C11-CAP-01 — Build and count (12 points).</strong> Draw the open 3×2 rectangle. List the two types of edge and count its vertices and edges. Use the same direction-count argument to audit 27 vertices and 54 edges for open Lucas. Explain why 0→2 is not an open edge. Output: drawing, edge description and justified counts.</li>
+<li><strong>C11-CAP-02 — Encode incidence (18 points).</strong> Build the ordered square incidence matrix. Compute the divergence of f=(2,3,4,5). Show the fourth column depends on the first three and prove those three independent by row equations. Output: table, divergence and rank proof.</li>
+<li><strong>C11-CAP-03 — Verify a cycle (16 points).</strong> Identify the square chord and construct its fundamental cycle with +1 on that chord. Verify balance. For φ=(0,1,3,2), compute the gradient and its dot product with the cycle. Decode 3c and explain the change if the cycle orientation is reversed. Output: signed cycle, gradient, check and decoder.</li>
+<li><strong>C11-CAP-04 — Audit Lucas dimensions (18 points).</strong> Specify the reproducible Lucas tree and give parent(1,2,1). Explain connected rank 26 and cycle dimension 28 using leaf elimination and chords. Explain independence and generation of the 28 cycle columns. Output: construction and proof, not just two numbers.</li>
+<li><strong>C11-CAP-05 — Preserve wrap information (24 points).</strong> Add periodic wraps to Lucas and audit 81 edges and 55 cycle coordinates. Use axis-0 wrap list (0,0,0,0,0,0,0,0,9), with the other axes and all open coefficients zero. Compute W, the mean, eight free details, and the ninth dependent detail. Recover all 55 cycle coefficients and state the resulting circulation as a basis sum. Identify its nonzero edges using the declared tree. Explain what 52+3 means and what it does not establish. Output: counts, reversible coordinate record and reconstructed state.</li>
+<li><strong>C11-CAP-06 — Retain a complete flow (12 points).</strong> For the square, reconstruct a general flow from q=5 and r=(−3,−2,−1,0). Check its divergence and compare it with the divergence of r. State what metadata the decoder needs and why 28, 52 or 55 does not specify a physical memory lifetime. Output: reconstructed flow and a scoped explanation.</li>
+</ol>
+<h2 id="full-worked-answer-key-and-point-rubric" tabindex="-1">Full worked answer key and point rubric</h2>
+<p><strong>1.</strong> The diagram in Lesson 01 has vertices (x,y), x=0,1,2 and y=0,1: six in all. Horizontal edges join (0,y) to (1,y) and (1,y) to (2,y), two per row and four total. Vertical edges join (x,0) to (x,1), three total. Thus E=7. Award 4 points for a correctly labeled drawing and 3 for the edge count with factors. Lucas has 3³=27 vertices; each of three axes contributes 2×3×3=18 edges, so E=54 (4 points). A 0→2 jump skips an allowed step (1 point).</p>
+<p><strong>2.</strong> With rows 0,1,2,3 and columns 01,12,23,30:</p>
+<pre aria-label="Scrollable literal code or matrix" role="region" tabindex="0"><code class="language-text">-1  0  0  1
+ 1 -1  0  0
+ 0  1 -1  0
+ 0  0  1 -1
+</code></pre>
+<p>Award 6 points for signs and ordering. Df=(−2+5,2−3,3−4,4−5)=(3,−1,−1,−1), total zero (4 points). The fourth column is minus the sum of the first three (3 points). If sa+tb+uc=0, rows 0,1,2 give −s=0, s−t=0, t−u=0, hence s=t=u=0. First three independent; rank=3 (5 points).</p>
+<p><strong>3.</strong> Chord 30 closes the path 0→1→2→3, so c=(1,1,1,1) in declared edge order (4 points). Every row of Dc is zero (3 points). Dᵀφ=(1,2,−1,−2) and c·Dᵀφ=1+2−1−2=0 (5 points). The chord entry decodes coefficient 3, giving 3c=(3,3,3,3). In basis −c the coefficient is −3; the state is unchanged (4 points).</p>
+<p><strong>4.</strong> Order vertices lexicographically, edges by axis then tail, with increasing-coordinate arrows. Root is (0,0,0). Parent decrements the first nonzero coordinate, so parent(1,2,1)=(0,2,1). The coordinate sum decreases until zero, proving every vertex reaches the root; 26 distinct parent edges form the tree (5 points). Tree incidence columns are independent by leaf elimination, while all divergence lists sum to zero and hence have at most 26 free entries: rank=26 (5 points). There are 54−26=28 chords. Each has a fundamental cycle with own-chord entry +1 and no other chord. Inspecting chord entries proves independence. Subtracting those coefficients from any circulation leaves a tree circulation, zero by leaf elimination, proving generation and dimension 28 (8 points).</p>
+<p><strong>5.</strong> There are nine wraps per axis and 27 total: 54+27=81 edges. Vertex count and connected rank remain 27 and 26, so 81−26=55 cycles (6 points). For the supplied list W=9, μ=1, d1,…,d8=−1 and d9=8 (6 points). The inverse W/9+d_j recovers eight zeros and 9, with all other-axis coefficients and all 28 open coefficients zero. Thus among the 55 coefficients only w_(0,9)=9 is nonzero, giving f=9h_(0,9) (6 points). This cycle has wrap (2,2,2)→(0,2,2), then tree edges (0,2,2)→(1,2,2) and (1,2,2)→(2,2,2). Those entries are 9, all others zero (3 points). The equality 52+3 means 28 open-cycle coordinates plus 24 independent wrap details, together with 3 winding sums. It supplies no exceptional-group action or dynamics (3 points). Full credit requires keeping the details, even though all nine wrap values can be written compactly here.</p>
+<p><strong>6.</strong> q c=(5,5,5,5); adding r gives f=(2,3,4,5) (4 points). Df=Dr=(3,−1,−1,−1), computed row by row; Dc=0 explains the equality (4 points). The decoder needs the graph, ordered oriented edges, tree, cycle basis, coefficient and remainder. A count says how many scalar values are available, while lifetime requires a physical retained state and evolution/retention evidence (4 points).</p>
+<p>Total: 100 points. Do not award reconstruction points when a nonzero remainder is silently dropped. A consistent alternative orientation is mathematically valid if the student explicitly transforms the requested convention and shows the inverse. Require repair of wrong graph adjacency, wrong matrix signs, discarded details/remainder, or an unsupported dynamics claim regardless of total score. Other partial credit follows the subdivisions above; assess reasoning as well as final numbers.</p>
+<h2 id="backward-teaching-map" tabindex="-1">Backward teaching map</h2>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Step</th>
+<th>Earlier explanation and example</th>
+<th>Independently answered prior practice</th>
+<th>Earlier diagnostic</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>C11-CAP-01</td>
+<td>C11.01-E1, C11.01-W1</td>
+<td>C11.01-P1: draw/count rectangle, square and cube</td>
+<td>C11.01-D1</td>
+</tr>
+<tr>
+<td>C11-CAP-02</td>
+<td>C11.02-E1, C11.02-W1</td>
+<td>C11.02-P1: square D, product and elimination</td>
+<td>C11.02-D1</td>
+</tr>
+<tr>
+<td>C11-CAP-03</td>
+<td>C11.03-E1, C11.03-W1</td>
+<td>C11.03-P1: square cycle, gradient and decoder</td>
+<td>C11.03-D1</td>
+</tr>
+<tr>
+<td>C11-CAP-04</td>
+<td>C11.04-E1, C11.04-W1</td>
+<td>C11.04-P1: tree construction, rank, independence/generation</td>
+<td>C11.04-D1</td>
+</tr>
+<tr>
+<td>C11-CAP-05</td>
+<td>C11.05-E1, C11.05-W1</td>
+<td>C11.05-P1: periodic counts, eight details and full inverse</td>
+<td>C11.05-D1</td>
+</tr>
+<tr>
+<td>C11-CAP-06</td>
+<td>C11.06-E1, C11.06-W1</td>
+<td>C11.06-P1: square remainder, reconstruction and update comparison</td>
+<td>C11.06-D1</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Evidence scope:</strong> Core graph formulas: S02#/backbone_sequence/7. Count versus exceptional-action boundary: S02#/backbone_sequence/18/branches/exceptional_cycle_bridge. Serialization limitation: S03#/findings/1. Numerical flow lists are synthetic classroom inputs. The assessment proves finite calculations and decoder properties; it does not adjudicate the full source formula DAG or physical memory mechanism.</p></article><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/11">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

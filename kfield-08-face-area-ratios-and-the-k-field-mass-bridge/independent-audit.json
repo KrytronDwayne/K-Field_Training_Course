@@ -1,0 +1,63 @@
+{
+  "scope": "Independent content audit; final completion and validator are manager responsibilities",
+  "runtime": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+  "automated_checks": [
+    "All five source files independently hashed against input-contract; exact JSON decimals parsed without binary float.",
+    "All four locked exact recomputations, original stored lexemes, and signed differences checked against source, including reconstruction.",
+    "Both three-component historical-ray comparison vectors independently checked against S01/S02 exact lexemes; subtraction direction and signs retained.",
+    "All nine finite example rows: seven outputs, normalization inversion, and product/direct closure independently recomputed.",
+    "Both perturbations: all seven signed changes and reconstructions checked; optional approximation remainder 100/183 confirmed.",
+    "Assembly was mid-update after lesson repairs; final assembly identity and validator remain manager responsibilities."
+  ],
+  "manual_checks": [
+    "Read all six complete lessons, capstone with key and rubric, teacher guide, course map, terminology, sources and verification.",
+    "Checked source M05 definitions/proof/witness plus S03 authority contract and S04 M05 correction directly.",
+    "All lessons have question, 3 goals, prerequisite bridge, explanation, worked example, answered practice, 4 diagnostic answers, scope box and next dependency.",
+    "Units, positive-denominator contracts, order, square-law cancellation, reciprocal alpha, synthetic/source distinction and retained-difference distinctions are consistent.",
+    "Six 55-minute lessons and two capstone periods are plausible with long exact fractions treated as reading cards rather than hand-division.",
+    "Capstone all numerical answers and 100-point allocations reviewed; no substantive teaching introduced only in capstone."
+  ],
+  "findings": [
+    {
+      "id": "IA-E05-01",
+      "severity": "major",
+      "status": "corrected",
+      "file": "lesson-02.md",
+      "finding": "P1 practices one numerical scaling but not the arbitrary-s cancellation proof assessed in C08-CAP-02.",
+      "required_fix": "Extend P1 with an explicitly asked and independently answered cancellation of both (s\u00b2A_ac)/(s\u00b2A_bc) and (s\u00b2A_ab)/(s\u00b2A_bc), including positive-denominator condition."
+    },
+    {
+      "id": "IA-E05-02",
+      "severity": "major",
+      "status": "corrected",
+      "file": "lesson-04.md",
+      "finding": "P1 practices reconstruction and naming a historical input set but not building the complete provenance row assessed in C08-CAP-04.",
+      "required_fix": "Extend P1 with a complete answered historical or active ledger row including source ID/hash reference, pointer, original lexeme(s), component order, unit and role."
+    }
+  ],
+  "limitations": [
+    "Did not independently verify live graph generation; sources.md explicitly discloses gap, local source hashes provide exact M05 grounding.",
+    "Final manifest/completion/validator checks delegated to manager, which was still finalizing them during this review."
+  ],
+  "reviewed_sha256": {
+    "input-contract.json": "584fcf127dbcbf7a989a33b3d2640ee90c1f738e8990bc3306de64d9858237c9",
+    "sources.md": "d63c72d8fb90537cf223da0aa8bf844ae483d3e8e74f6cac48cde2cbac342d57",
+    "capstone.md": "a5fa8812165622baed218d630e9d42d3ce7a83e5044a0dbf60376dea0a36e1f2",
+    "teacher-guide.md": "647ebdec6be39fb1fb63c9c184b8a9141d4cc2623b57ae328386fd3664170e57",
+    "course-map.md": "b1c5af482ba140935165de4c7c58eab5c50d94b6ddbcc87c4b1a91d19db8cbf6",
+    "terminology.md": "b2605728ffd1927f6426e1df2966ac24dd42104a9bb8e0b5cadbf476aad1a685",
+    "verification.json": "37669b3bd709d3c7c6d824ac384bb15db24e42623106ea2e3048bea10b0a0359",
+    "lesson-01.md": "d87d9d812db83abc691cc5cb3f036c609b25aa1551ec5701aa53ca2bf5826f55",
+    "lesson-02.md": "306a360b098df8a46ac5e582d1eac4e81dbbbda0dfbc7c1b7735c184fc8613c1",
+    "lesson-03.md": "a8b9b23a57475ef7ea519277e6441b8d066b1dac477e592647254a7ff1c9e047",
+    "lesson-04.md": "bb4faf8014b96a9b562181beeba41d80acc329075f48878c28df5f39b10e1f73",
+    "lesson-05.md": "3abae1ecdbe80eeb4096e0d2908cd1f601b9d03fcaf534b4503930c11855ef6f",
+    "lesson-06.md": "e73568bc43fe75c5a84a0c3ffa558b7eaece5213c9bc589563930a575234787a"
+  },
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "repair_verification": "Reread revised lesson-02 P1: both arbitrary-s cancellations answered with conditions. Reread revised lesson-04 P1: full active and historical ledger rows answered. Both E05 gaps corrected."
+}

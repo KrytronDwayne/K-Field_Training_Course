@@ -1,0 +1,1295 @@
+{
+  "schema_version": "1.0",
+  "status": "passed",
+  "runtime": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+  "check_count": 134,
+  "checks": [
+    {
+      "id": "runtime",
+      "status": "passed",
+      "actual": "c:\\users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+      "expected": "c:\\users\\info\\.conda\\envs\\tf_gpu_env\\python.exe"
+    },
+    {
+      "id": "L01.length",
+      "status": "passed",
+      "actual": "9/250",
+      "expected": "9/250"
+    },
+    {
+      "id": "L01.period",
+      "status": "passed",
+      "actual": "1/250",
+      "expected": "1/250"
+    },
+    {
+      "id": "L01.frequency",
+      "status": "passed",
+      "actual": "250",
+      "expected": 250
+    },
+    {
+      "id": "L01.khz",
+      "status": "passed",
+      "actual": "1/4",
+      "expected": "1/4"
+    },
+    {
+      "id": "L01.guided_cm",
+      "status": "passed",
+      "actual": "3/40",
+      "expected": "3/40"
+    },
+    {
+      "id": "L01.minutes",
+      "status": "passed",
+      "actual": 120,
+      "expected": 120
+    },
+    {
+      "id": "L01.D1m",
+      "status": "passed",
+      "actual": "3",
+      "expected": 3
+    },
+    {
+      "id": "L01.D1mm",
+      "status": "passed",
+      "actual": 3000,
+      "expected": 3000
+    },
+    {
+      "id": "L01.D2",
+      "status": "passed",
+      "actual": "18/25",
+      "expected": "18/25"
+    },
+    {
+      "id": "L01.D3",
+      "status": "passed",
+      "actual": "50",
+      "expected": 50
+    },
+    {
+      "id": "L01.D4",
+      "status": "passed",
+      "actual": "1/2",
+      "expected": "1/2"
+    },
+    {
+      "id": "L02.area",
+      "status": "passed",
+      "actual": 54,
+      "expected": 54
+    },
+    {
+      "id": "L02.volume",
+      "status": "passed",
+      "actual": 648,
+      "expected": 648
+    },
+    {
+      "id": "L02.m3",
+      "status": "passed",
+      "actual": "3/125000",
+      "expected": "3/125000"
+    },
+    {
+      "id": "L02.guided_area",
+      "status": "passed",
+      "actual": 25,
+      "expected": "25"
+    },
+    {
+      "id": "L02.guided_cm2",
+      "status": "passed",
+      "actual": "1/4",
+      "expected": "1/4"
+    },
+    {
+      "id": "L02.D1",
+      "status": "passed",
+      "actual": [
+        4,
+        16,
+        64
+      ],
+      "expected": [
+        4,
+        16,
+        64
+      ]
+    },
+    {
+      "id": "L02.D2area",
+      "status": "passed",
+      "actual": "9/10000",
+      "expected": "9/10000"
+    },
+    {
+      "id": "L02.D2volume",
+      "status": "passed",
+      "actual": "9/1000000",
+      "expected": "9/1000000"
+    },
+    {
+      "id": "L02.D3",
+      "status": "passed",
+      "actual": 24,
+      "expected": 24
+    },
+    {
+      "id": "L02.D4",
+      "status": "passed",
+      "actual": "15",
+      "expected": 15
+    },
+    {
+      "id": "L03.position",
+      "status": "passed",
+      "actual": [
+        "3",
+        "4"
+      ],
+      "expected": [
+        "3",
+        "4"
+      ]
+    },
+    {
+      "id": "L03.displacement",
+      "status": "passed",
+      "actual": [
+        "3",
+        "4"
+      ],
+      "expected": [
+        "3",
+        "4"
+      ]
+    },
+    {
+      "id": "L03.reconstructP",
+      "status": "passed",
+      "actual": [
+        "13",
+        "2"
+      ],
+      "expected": [
+        "13",
+        "2"
+      ]
+    },
+    {
+      "id": "L03.reconstructQ",
+      "status": "passed",
+      "actual": [
+        "16",
+        "6"
+      ],
+      "expected": [
+        "16",
+        "6"
+      ]
+    },
+    {
+      "id": "L03.magnitude_squared",
+      "status": "passed",
+      "actual": "25",
+      "expected": 25
+    },
+    {
+      "id": "L03.unit_squared",
+      "status": "passed",
+      "actual": "1",
+      "expected": 1
+    },
+    {
+      "id": "L03.origin_change",
+      "status": "passed",
+      "actual": [
+        "3",
+        "4"
+      ],
+      "expected": [
+        "3",
+        "4"
+      ]
+    },
+    {
+      "id": "L03.double_length_squared",
+      "status": "passed",
+      "actual": "100",
+      "expected": 100
+    },
+    {
+      "id": "L03.guided",
+      "status": "passed",
+      "actual": [
+        "3",
+        "-4"
+      ],
+      "expected": [
+        "3",
+        "-4"
+      ]
+    },
+    {
+      "id": "L03.D1",
+      "status": "passed",
+      "actual": [
+        "-3",
+        "4"
+      ],
+      "expected": [
+        "-3",
+        "4"
+      ]
+    },
+    {
+      "id": "L03.D2",
+      "status": "passed",
+      "actual": [
+        "0",
+        "-1"
+      ],
+      "expected": [
+        "0",
+        "-1"
+      ]
+    },
+    {
+      "id": "L03.D3P",
+      "status": "passed",
+      "actual": [
+        "-4",
+        "3"
+      ],
+      "expected": [
+        "-4",
+        "3"
+      ]
+    },
+    {
+      "id": "L03.D3Q",
+      "status": "passed",
+      "actual": [
+        "-1",
+        "7"
+      ],
+      "expected": [
+        "-1",
+        "7"
+      ]
+    },
+    {
+      "id": "L03.D4",
+      "status": "passed",
+      "actual": [
+        "-6",
+        "-8"
+      ],
+      "expected": [
+        "-6",
+        "-8"
+      ]
+    },
+    {
+      "id": "L04.worked.projection",
+      "status": "passed",
+      "actual": [
+        "4",
+        "0"
+      ],
+      "expected": [
+        "4",
+        "0"
+      ]
+    },
+    {
+      "id": "L04.worked.residual",
+      "status": "passed",
+      "actual": [
+        "0",
+        "3"
+      ],
+      "expected": [
+        "0",
+        "3"
+      ]
+    },
+    {
+      "id": "L04.worked.reconstruction",
+      "status": "passed",
+      "actual": [
+        "4",
+        "3"
+      ],
+      "expected": [
+        "4",
+        "3"
+      ]
+    },
+    {
+      "id": "L04.worked.perpendicular",
+      "status": "passed",
+      "actual": "0",
+      "expected": 0
+    },
+    {
+      "id": "L04.guided.projection",
+      "status": "passed",
+      "actual": [
+        "9/5",
+        "12/5"
+      ],
+      "expected": [
+        "9/5",
+        "12/5"
+      ]
+    },
+    {
+      "id": "L04.guided.residual",
+      "status": "passed",
+      "actual": [
+        "16/5",
+        "-12/5"
+      ],
+      "expected": [
+        "16/5",
+        "-12/5"
+      ]
+    },
+    {
+      "id": "L04.guided.reconstruction",
+      "status": "passed",
+      "actual": [
+        "5",
+        "0"
+      ],
+      "expected": [
+        "5",
+        "0"
+      ]
+    },
+    {
+      "id": "L04.guided.perpendicular",
+      "status": "passed",
+      "actual": "0",
+      "expected": 0
+    },
+    {
+      "id": "L04.D2.projection",
+      "status": "passed",
+      "actual": [
+        "0",
+        "5"
+      ],
+      "expected": [
+        "0",
+        "5"
+      ]
+    },
+    {
+      "id": "L04.D2.residual",
+      "status": "passed",
+      "actual": [
+        "-2",
+        "0"
+      ],
+      "expected": [
+        "-2",
+        "0"
+      ]
+    },
+    {
+      "id": "L04.D2.reconstruction",
+      "status": "passed",
+      "actual": [
+        "-2",
+        "5"
+      ],
+      "expected": [
+        "-2",
+        "5"
+      ]
+    },
+    {
+      "id": "L04.D2.perpendicular",
+      "status": "passed",
+      "actual": "0",
+      "expected": 0
+    },
+    {
+      "id": "L04.D3.projection",
+      "status": "passed",
+      "actual": [
+        "3",
+        "4"
+      ],
+      "expected": [
+        "3",
+        "4"
+      ]
+    },
+    {
+      "id": "L04.D3.residual",
+      "status": "passed",
+      "actual": [
+        "0",
+        "0"
+      ],
+      "expected": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "id": "L04.D3.reconstruction",
+      "status": "passed",
+      "actual": [
+        "3",
+        "4"
+      ],
+      "expected": [
+        "3",
+        "4"
+      ]
+    },
+    {
+      "id": "L04.D3.perpendicular",
+      "status": "passed",
+      "actual": "0",
+      "expected": 0
+    },
+    {
+      "id": "L04.D4.projection",
+      "status": "passed",
+      "actual": [
+        "-4",
+        "0"
+      ],
+      "expected": [
+        "-4",
+        "0"
+      ]
+    },
+    {
+      "id": "L04.D4.residual",
+      "status": "passed",
+      "actual": [
+        "0",
+        "0"
+      ],
+      "expected": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "id": "L04.D4.reconstruction",
+      "status": "passed",
+      "actual": [
+        "-4",
+        "0"
+      ],
+      "expected": [
+        "-4",
+        "0"
+      ]
+    },
+    {
+      "id": "L04.D4.perpendicular",
+      "status": "passed",
+      "actual": "0",
+      "expected": 0
+    },
+    {
+      "id": "Teacher.unit2.projection",
+      "status": "passed",
+      "actual": [
+        "0",
+        "3"
+      ],
+      "expected": [
+        "0",
+        "3"
+      ]
+    },
+    {
+      "id": "Teacher.unit2.residual",
+      "status": "passed",
+      "actual": [
+        "2",
+        "0"
+      ],
+      "expected": [
+        "2",
+        "0"
+      ]
+    },
+    {
+      "id": "Teacher.unit2.reconstruction",
+      "status": "passed",
+      "actual": [
+        "2",
+        "3"
+      ],
+      "expected": [
+        "2",
+        "3"
+      ]
+    },
+    {
+      "id": "Teacher.unit2.perpendicular",
+      "status": "passed",
+      "actual": "0",
+      "expected": 0
+    },
+    {
+      "id": "L04.D1",
+      "status": "passed",
+      "actual": [
+        "8",
+        "6"
+      ],
+      "expected": [
+        "8",
+        "6"
+      ]
+    },
+    {
+      "id": "zero_direction_rejected",
+      "status": "passed",
+      "actual": true,
+      "expected": true
+    },
+    {
+      "id": "L05.worked.forward",
+      "status": "passed",
+      "actual": [
+        "4",
+        "-2"
+      ],
+      "expected": [
+        "4",
+        "-2"
+      ]
+    },
+    {
+      "id": "L05.worked.inverse",
+      "status": "passed",
+      "actual": [
+        "3",
+        "-2"
+      ],
+      "expected": [
+        "3",
+        "-2"
+      ]
+    },
+    {
+      "id": "L05.guided.forward",
+      "status": "passed",
+      "actual": [
+        "1",
+        "3"
+      ],
+      "expected": [
+        "1",
+        "3"
+      ]
+    },
+    {
+      "id": "L05.guided.inverse",
+      "status": "passed",
+      "actual": [
+        "-1",
+        "3"
+      ],
+      "expected": [
+        "-1",
+        "3"
+      ]
+    },
+    {
+      "id": "L05.D1.forward",
+      "status": "passed",
+      "actual": [
+        "5",
+        "1"
+      ],
+      "expected": [
+        "5",
+        "1"
+      ]
+    },
+    {
+      "id": "L05.D1.inverse",
+      "status": "passed",
+      "actual": [
+        "2",
+        "1"
+      ],
+      "expected": [
+        "2",
+        "1"
+      ]
+    },
+    {
+      "id": "L05.D2.forward",
+      "status": "passed",
+      "actual": [
+        "7",
+        "3"
+      ],
+      "expected": [
+        "7",
+        "3"
+      ]
+    },
+    {
+      "id": "L05.D2.inverse",
+      "status": "passed",
+      "actual": [
+        "2",
+        "3"
+      ],
+      "expected": [
+        "2",
+        "3"
+      ]
+    },
+    {
+      "id": "L05.D3.forward",
+      "status": "passed",
+      "actual": [
+        "3",
+        "2"
+      ],
+      "expected": [
+        "3",
+        "2"
+      ]
+    },
+    {
+      "id": "L05.D3.inverse",
+      "status": "passed",
+      "actual": [
+        "1/2",
+        "2"
+      ],
+      "expected": [
+        "1/2",
+        "2"
+      ]
+    },
+    {
+      "id": "L06.worked.forward",
+      "status": "passed",
+      "actual": [
+        "0",
+        "4"
+      ],
+      "expected": [
+        "0",
+        "4"
+      ]
+    },
+    {
+      "id": "L06.worked.inverse",
+      "status": "passed",
+      "actual": [
+        "2",
+        "-1"
+      ],
+      "expected": [
+        "2",
+        "-1"
+      ]
+    },
+    {
+      "id": "L06.D3.forward",
+      "status": "passed",
+      "actual": [
+        "6",
+        "4"
+      ],
+      "expected": [
+        "6",
+        "4"
+      ]
+    },
+    {
+      "id": "L06.D3.inverse",
+      "status": "passed",
+      "actual": [
+        "2",
+        "2"
+      ],
+      "expected": [
+        "2",
+        "2"
+      ]
+    },
+    {
+      "id": "L05.swapped",
+      "status": "passed",
+      "actual": [
+        "4",
+        "-2"
+      ],
+      "expected": [
+        "4",
+        "-2"
+      ]
+    },
+    {
+      "id": "L06.D",
+      "status": "passed",
+      "actual": -4,
+      "expected": -4
+    },
+    {
+      "id": "L06.D1",
+      "status": "passed",
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "id": "L06.D2swapped",
+      "status": "passed",
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "id": "L06.singular.D",
+      "status": "passed",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "id": "L06.singular.collision",
+      "status": "passed",
+      "actual": [
+        "2",
+        "4"
+      ],
+      "expected": [
+        "2",
+        "4"
+      ]
+    },
+    {
+      "id": "L06.singular.rejected",
+      "status": "passed",
+      "actual": true,
+      "expected": true
+    },
+    {
+      "id": "L06.D4.D",
+      "status": "passed",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "id": "L06.D4.collision",
+      "status": "passed",
+      "actual": [
+        "3",
+        "6"
+      ],
+      "expected": [
+        "3",
+        "6"
+      ]
+    },
+    {
+      "id": "L06.D4.rejected",
+      "status": "passed",
+      "actual": true,
+      "expected": true
+    },
+    {
+      "id": "L07.worked_x",
+      "status": "passed",
+      "actual": [
+        "-1/4",
+        "5/2"
+      ],
+      "expected": [
+        "-1/4",
+        "5/2"
+      ]
+    },
+    {
+      "id": "L07.worked_P",
+      "status": "passed",
+      "actual": [
+        "39/4",
+        "3/2"
+      ],
+      "expected": [
+        "39/4",
+        "3/2"
+      ]
+    },
+    {
+      "id": "L07.worked_reverse",
+      "status": "passed",
+      "actual": [
+        "5/4",
+        "-3/4"
+      ],
+      "expected": [
+        "5/4",
+        "-3/4"
+      ]
+    },
+    {
+      "id": "L07.display",
+      "status": "passed",
+      "actual": [
+        "13/10",
+        "-4/5"
+      ],
+      "expected": [
+        "13/10",
+        "-4/5"
+      ]
+    },
+    {
+      "id": "L07.residual",
+      "status": "passed",
+      "actual": [
+        "-1/20",
+        "1/20"
+      ],
+      "expected": [
+        "-1/20",
+        "1/20"
+      ]
+    },
+    {
+      "id": "L07.Be",
+      "status": "passed",
+      "actual": [
+        "1/20",
+        "-1/10"
+      ],
+      "expected": [
+        "1/20",
+        "-1/10"
+      ]
+    },
+    {
+      "id": "L07.restore",
+      "status": "passed",
+      "actual": [
+        "39/4",
+        "3/2"
+      ],
+      "expected": [
+        "39/4",
+        "3/2"
+      ]
+    },
+    {
+      "id": "L07.guided_q",
+      "status": "passed",
+      "actual": [
+        "3/2",
+        "-1/4"
+      ],
+      "expected": [
+        "3/2",
+        "-1/4"
+      ]
+    },
+    {
+      "id": "L07.guided_display",
+      "status": "passed",
+      "actual": [
+        "3/2",
+        "-3/10"
+      ],
+      "expected": [
+        "3/2",
+        "-3/10"
+      ]
+    },
+    {
+      "id": "L07.guided_residual_image",
+      "status": "passed",
+      "actual": [
+        "1/10",
+        "0"
+      ],
+      "expected": [
+        "1/10",
+        "0"
+      ]
+    },
+    {
+      "id": "L07.tie_2.25",
+      "status": "passed",
+      "actual": "23/10",
+      "expected": "23/10"
+    },
+    {
+      "id": "L07.e_2.25",
+      "status": "passed",
+      "actual": "-1/20",
+      "expected": "-1/20"
+    },
+    {
+      "id": "L07.tie_-2.25",
+      "status": "passed",
+      "actual": "-23/10",
+      "expected": "-23/10"
+    },
+    {
+      "id": "L07.e_-2.25",
+      "status": "passed",
+      "actual": "1/20",
+      "expected": "1/20"
+    },
+    {
+      "id": "L07.tie_2.24",
+      "status": "passed",
+      "actual": "11/5",
+      "expected": "11/5"
+    },
+    {
+      "id": "L07.e_2.24",
+      "status": "passed",
+      "actual": "1/25",
+      "expected": "1/25"
+    },
+    {
+      "id": "L07.D3",
+      "status": "passed",
+      "actual": [
+        "2",
+        "0"
+      ],
+      "expected": [
+        "2",
+        "0"
+      ]
+    },
+    {
+      "id": "capstone.origin_m",
+      "status": "passed",
+      "actual": [
+        "1",
+        "-1/5"
+      ],
+      "expected": [
+        "1",
+        "-1/5"
+      ]
+    },
+    {
+      "id": "capstone.period",
+      "status": "passed",
+      "actual": "1/40",
+      "expected": "1/40"
+    },
+    {
+      "id": "capstone.frequency",
+      "status": "passed",
+      "actual": "40",
+      "expected": 40
+    },
+    {
+      "id": "capstone.x",
+      "status": "passed",
+      "actual": [
+        "7/4",
+        "2"
+      ],
+      "expected": [
+        "7/4",
+        "2"
+      ]
+    },
+    {
+      "id": "capstone.mag_squared",
+      "status": "passed",
+      "actual": "113/16",
+      "expected": "113/16"
+    },
+    {
+      "id": "capstone.P",
+      "status": "passed",
+      "actual": [
+        "407/4",
+        "-18"
+      ],
+      "expected": [
+        "407/4",
+        "-18"
+      ]
+    },
+    {
+      "id": "capstone.Pm",
+      "status": "passed",
+      "actual": [
+        "407/400",
+        "-9/50"
+      ],
+      "expected": [
+        "407/400",
+        "-9/50"
+      ]
+    },
+    {
+      "id": "capstone.D",
+      "status": "passed",
+      "actual": -3,
+      "expected": -3
+    },
+    {
+      "id": "capstone.Dm",
+      "status": "passed",
+      "actual": "-3/10000",
+      "expected": "-3/10000"
+    },
+    {
+      "id": "capstone.inverse",
+      "status": "passed",
+      "actual": [
+        [
+          "1/3",
+          "1/3"
+        ],
+        [
+          "1/3",
+          "-2/3"
+        ]
+      ],
+      "expected": [
+        [
+          "1/3",
+          "1/3"
+        ],
+        [
+          "1/3",
+          "-2/3"
+        ]
+      ]
+    },
+    {
+      "id": "capstone.reverse",
+      "status": "passed",
+      "actual": [
+        "5/4",
+        "-3/4"
+      ],
+      "expected": [
+        "5/4",
+        "-3/4"
+      ]
+    },
+    {
+      "id": "capstone.forward_restore",
+      "status": "passed",
+      "actual": [
+        "407/4",
+        "-18"
+      ],
+      "expected": [
+        "407/4",
+        "-18"
+      ]
+    },
+    {
+      "id": "capstone.test2",
+      "status": "passed",
+      "actual": [
+        "1",
+        "1"
+      ],
+      "expected": [
+        "1",
+        "1"
+      ]
+    },
+    {
+      "id": "capstone.projection",
+      "status": "passed",
+      "actual": [
+        "7/4",
+        "0"
+      ],
+      "expected": [
+        "7/4",
+        "0"
+      ]
+    },
+    {
+      "id": "capstone.residual",
+      "status": "passed",
+      "actual": [
+        "0",
+        "2"
+      ],
+      "expected": [
+        "0",
+        "2"
+      ]
+    },
+    {
+      "id": "capstone.project_restore",
+      "status": "passed",
+      "actual": [
+        "7/4",
+        "2"
+      ],
+      "expected": [
+        "7/4",
+        "2"
+      ]
+    },
+    {
+      "id": "capstone.orthogonal",
+      "status": "passed",
+      "actual": "0",
+      "expected": 0
+    },
+    {
+      "id": "capstone.trig_unit",
+      "status": "passed",
+      "actual": "1",
+      "expected": 1
+    },
+    {
+      "id": "capstone.cos_component_squared",
+      "status": "passed",
+      "actual": "49/16",
+      "expected": "49/16"
+    },
+    {
+      "id": "capstone.sin_component_squared",
+      "status": "passed",
+      "actual": "4",
+      "expected": 4
+    },
+    {
+      "id": "capstone.qhat",
+      "status": "passed",
+      "actual": [
+        "13/10",
+        "-4/5"
+      ],
+      "expected": [
+        "13/10",
+        "-4/5"
+      ]
+    },
+    {
+      "id": "capstone.e",
+      "status": "passed",
+      "actual": [
+        "-1/20",
+        "1/20"
+      ],
+      "expected": [
+        "-1/20",
+        "1/20"
+      ]
+    },
+    {
+      "id": "capstone.Be",
+      "status": "passed",
+      "actual": [
+        "-1/20",
+        "-1/10"
+      ],
+      "expected": [
+        "-1/20",
+        "-1/10"
+      ]
+    },
+    {
+      "id": "capstone.Phat",
+      "status": "passed",
+      "actual": [
+        "509/5",
+        "-179/10"
+      ],
+      "expected": [
+        "509/5",
+        "-179/10"
+      ]
+    },
+    {
+      "id": "capstone.restore",
+      "status": "passed",
+      "actual": [
+        "407/4",
+        "-18"
+      ],
+      "expected": [
+        "407/4",
+        "-18"
+      ]
+    },
+    {
+      "id": "capstone.coefficients_restore",
+      "status": "passed",
+      "actual": [
+        "5/4",
+        "-3/4"
+      ],
+      "expected": [
+        "5/4",
+        "-3/4"
+      ]
+    },
+    {
+      "id": "capstone.rubric_total",
+      "status": "passed",
+      "actual": 40,
+      "expected": 40
+    },
+    {
+      "id": "teacher.pacing",
+      "status": "passed",
+      "actual": 495,
+      "expected": 495
+    },
+    {
+      "id": "teacher.unit1area",
+      "status": "passed",
+      "actual": "9/10000",
+      "expected": "9/10000"
+    },
+    {
+      "id": "property_roundtrips_27_both_directions",
+      "status": "passed",
+      "actual": true,
+      "expected": true
+    },
+    {
+      "id": "rounding_201_exact_values_and_endpoints",
+      "status": "passed",
+      "actual": true,
+      "expected": true
+    }
+  ],
+  "checked_artifact_hashes": {
+    "lesson-01.md": "d601414e3f5b344e74c8196e59a843cc4d0d2bb804e6a8c4f54625db09e9977f",
+    "lesson-02.md": "6f9485d101a40c487a7739ebafa1a2a47013b7ae1fa9ac8d713ef7af70792803",
+    "lesson-03.md": "68c3f742d3b89183a491793c0f63fc95dec4d39c7c5e8805c15ad2731e3dfb74",
+    "lesson-04.md": "7ce99ae7170cafbffba12ffe01d3c9f56287f7ac2ea6a6aac4b7791cbf7b8882",
+    "lesson-05.md": "c71a96c3c3f68400c2b74de2d62bde55d97f1fffdc6f997e7ad201e4213f8026",
+    "lesson-06.md": "b9d056b704d4c4634d5ca624d3b4a49e2af2e8409804d77b3b2588586e3d8197",
+    "lesson-07.md": "d04c5eca1d12e7ecebaaddc53ddfcd390b3a1afb3a1099b45aa33c35035ce86d",
+    "capstone.md": "69de897e0951611183138ce2b431b4c5accec2a2210d375713f39de088afe52f",
+    "teacher-guide.md": "d494f71e94bb63aa3442870d0ea45142b5479588592375c092121276a891286b"
+  },
+  "verification_script_sha256": "5eed22d6462a41d1777df0590c15af700cf5666f2b7a6e3a7c4b05c5d7a8f367",
+  "scope": "Small synthetic exact-arithmetic and reconstruction checks plus manual independent audit. No measurement datasets or archival proof validation. Symbolic square-root checks use known positive signs."
+}

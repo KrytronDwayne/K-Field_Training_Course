@@ -1,0 +1,100 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Lesson 05 — Small differences at deeper levels · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/9">Course 09</a><span>/</span><span>lesson 05</span></div><a class="original" href="../../../kfield-09-projective-integerization-and-carry-dynamics/lesson-05.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#lesson-05-small-differences-at-deeper-levels">Lesson 05 — Small differences at deeper levels</a><a href="#c0905-e1-scaling-a-difference">C09.05-E1 — Scaling a difference</a><a href="#c0905-w1-worked-synthetic-comparison">C09.05-W1 — Worked synthetic comparison</a><a href="#c0905-p1-guided-comparison-and-answers">C09.05-P1 — Guided comparison and answers</a><a href="#c0905-e2-historical-source-reading-card">C09.05-E2 — Historical source-reading card</a><a href="#diagnostic-checks">Diagnostic checks</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 01 — Nearest-integer maps need a tie rule</a><a  href="lesson-02.html">Lesson 02 — Projective rays at successive scales</a><a  href="lesson-03.html">Lesson 03 — The retained rounding coordinate</a><a  href="lesson-04.html">Lesson 04 — Carry between generations</a><a aria-current=page href="lesson-05.html">Lesson 05 — Small differences at deeper levels</a><a  href="lesson-06.html">Lesson 06 — A lossless recursive compiler</a></details></aside><div class="reading-column"><article class="prose"><h1 id="lesson-05-small-differences-at-deeper-levels" tabindex="-1">Lesson 05 — Small differences at deeper levels</h1>
+<p>Essential question: When can two different rays have identical integer records, and where is their difference stored?</p>
+<p>Goals: compare two exact inputs over stated generations; identify the first integer difference within that range; preserve earlier residual differences; interpret a historical replay without merging source branches.</p>
+<p>Bridge: An integer and residual recover the ray together. Before proceeding, explain how inputs 0.1 and 0.2 can have the same integer 0 but different residuals. A generation table now lets us follow this distinction across scales.</p>
+<h2 id="c0905-e1-scaling-a-difference" tabindex="-1">C09.05-E1 — Scaling a difference</h2>
+<p>Let two inputs in the same coordinate differ by delta, a signed amount. Their scaled difference at generation g is K_g delta. This does not tell us the rounded difference alone: the positions relative to half-integers also matter. Compare every earlier generation before declaring the first differing generation. “First” always refers to the specified starting level, inputs, and tie rule.</p>
+<p>If Q'_g=Q_g but r'=r+delta, then epsilon'_g=Q_g−K_g(r+delta)=epsilon_g−K_g delta. Thus <strong>epsilon'_g−epsilon_g=−K_g delta</strong> while the integer records agree. There is no loss of the distinction in the complete pair. Once the integers differ, the general relation is epsilon'_g−epsilon_g=(Q'_g−Q_g)−K_g delta.</p>
+<p>For two distinct exact scalar inputs, a sufficiently large scale will separate the integers: inputs that round to one integer lie in an interval of width 1, so a scaled separation greater than 1 cannot fit there. Since repeated multiplication by 27 can exceed any fixed positive bound, nonzero differences eventually separate. This gives a sufficient bound, not a universal predetermined first generation. Our assessments use explicit finite tables.</p>
+<h2 id="c0905-w1-worked-synthetic-comparison" tabindex="-1">C09.05-W1 — Worked synthetic comparison</h2>
+<p>Compare R=(1,2/3,1/2) with R'=(1,2/3+1/1000,1/2). Only b changes; keep a and c exactly as in lesson 03.</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>g</th>
+<th>Scaled b of R'</th>
+<th>Q_b of R / R'</th>
+<th>epsilon_b of R / R'</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>2003/3000</td>
+<td>1 / 1</td>
+<td>1/3 / 997/3000</td>
+</tr>
+<tr>
+<td>1</td>
+<td>18027/1000</td>
+<td>18 / 18</td>
+<td>0 / −27/1000</td>
+</tr>
+<tr>
+<td>2</td>
+<td>486729/1000</td>
+<td>486 / 487</td>
+<td>0 / 271/1000</td>
+</tr>
+</tbody>
+</table></div>
+<p>At g=2 the changed input is 486.729, which rounds to 487. Its residual is 487−486.729=0.271. The first integer difference is g=2; already at g=0 the residual difference is −1/1000. For both rays the other signed residuals at g=0,1,2 are epsilon_a=0 and epsilon_c=−1/2. These statements specify all three residual coordinates, not just the differing coordinate.</p>
+<h2 id="c0905-p1-guided-comparison-and-answers" tabindex="-1">C09.05-P1 — Guided comparison and answers</h2>
+<p>Compare T=(1,1/3,1/4) with T'=(1,1/3+1/10000,1/4) through g=3. Find every b integer and signed residual. Retain the common a,c residuals too.</p>
+<p>Answers:</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>g</th>
+<th style="text-align: right;">K_g</th>
+<th>Q_b of T / T'</th>
+<th>epsilon_b of T / T'</th>
+<th>common (epsilon_a,epsilon_c)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td style="text-align: right;">1</td>
+<td>0 / 0</td>
+<td>−1/3 / −10003/30000</td>
+<td>(0,−1/4)</td>
+</tr>
+<tr>
+<td>1</td>
+<td style="text-align: right;">27</td>
+<td>9 / 9</td>
+<td>0 / −27/10000</td>
+<td>(0,1/4)</td>
+</tr>
+<tr>
+<td>2</td>
+<td style="text-align: right;">729</td>
+<td>243 / 243</td>
+<td>0 / −729/10000</td>
+<td>(0,−1/4)</td>
+</tr>
+<tr>
+<td>3</td>
+<td style="text-align: right;">19683</td>
+<td>6561 / 6563</td>
+<td>0 / 317/10000</td>
+<td>(0,1/4)</td>
+</tr>
+</tbody>
+</table></div>
+<p>At g=3 the perturbed scaled b is 6561+19683/10000=6562.9683. Round to 6563 and subtract to obtain 0.0317. The a coordinates of Q are K_g; the c coordinates are 0,7,182,4921 for both rays. Integers first differ at g=3; residuals differ from g=0. Subtracting signed residuals verifies −K_g/10000 before the split and 2−19683/10000 afterward.</p>
+<h2 id="c0905-e2-historical-source-reading-card" tabindex="-1">C09.05-E2 — Historical source-reading card</h2>
+<p>S01#/backbone_sequence/4/projective_rays preserves two different decimal-string rays, named master_geometry and locked_mass_bridge. S01 M06 reports agreement through g=7 and master-minus-locked=(0,8,7) at g=8. A fresh exact rational replay of those stored strings gives the same result; the complete compact replay and signed residual differences are in worked-example-verification.json. At g=8 the locked Q is (282429536481,206098790228,153815932939); the master Q is (282429536481,206098790236,153815932946). Subtract the triples to check the reported difference yourself.</p>
+<blockquote>
+<p>Scope: This card is a historical finite-input replay, not a replacement for S02's active ray. The fresh check concerns supplied decimal strings, not unreported infinite digits. It neither promotes the source's broader proof status nor identifies a physical mechanism. Source branches remain separate even where their integers agree.</p>
+</blockquote>
+<h2 id="diagnostic-checks" tabindex="-1">Diagnostic checks</h2>
+<ol>
+<li><strong>C09.05-D1:</strong> From the historical card, compute the g=8 difference. Does agreement through g=7 make the source rays identical?</li>
+<li><strong>C09.05-D2:</strong> In W1, calculate epsilon'_b−epsilon_b at g=1 and g=2 using the general relation.</li>
+<li><strong>C09.05-D3:</strong> Does every distinct pair first differ at g=2? Use the two synthetic comparisons.</li>
+<li><strong>C09.05-D4:</strong> Why must a table keep exact input identity and the residual even before its integer split?</li>
+</ol>
+<p>Worked answers: (1) Difference=(0,8,7). No; distinct residuals preserve the differences before integer separation. (2) At g=1 it is 0−27/1000=−27/1000; at g=2 it is 1−729/1000=271/1000. (3) No: W1 splits at 2; P1 splits at 3. (4) Shared integers do not identify a ray; the branch and signed residual identify which input can be recovered.</p>
+<p>Next: <a href="lesson-06.html">lesson 06</a> packages the finite history into a reversible ledger.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><a class="button secondary" href="lesson-04.html">← Previous lesson</a><a class="button" href="lesson-06.html">Next lesson →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/9">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

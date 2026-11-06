@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.0",
+  "status": "complete",
+  "topic": "Galactic Structure and Cross-Scale K-Field Geometry",
+  "audience": "High-school seniors; first-principles teaching, with concrete prerequisite capabilities and taught bridges.",
+  "assumptions": [
+    "A topical short course, not a semester per topic. Pacing is 55-minute core lessons plus capstone periods; split dense lessons if actual learner load requires it.",
+    "No prior calculus, abstract algebra, university linear algebra, or quantum mechanics unless explicitly taught earlier.",
+    "Required core assessments must be solvable with taught finite examples. Clearly label deeper recognition-only extensions.",
+    "Markdown is the delivery format; no PDF or Word generation is required.",
+    "L is a synthetic abstract length; no galaxy physical radial calibration is inferred.",
+    "Source-only full-state results stay source-reported; finite classroom examples and compact source checks are independently recomputed.",
+    "User-selected project output root supersedes Desktop default; no additional task is created."
+  ],
+  "outputs": [
+    "input-contract.json",
+    "sources.md",
+    "verify_examples.py",
+    "worked-example-verification.json",
+    "source-comparison.md",
+    "course-map.md",
+    "lesson-01.md",
+    "lesson-02.md",
+    "lesson-03.md",
+    "lesson-04.md",
+    "lesson-05.md",
+    "lesson-06.md",
+    "lesson-07.md",
+    "lesson-08.md",
+    "terminology.md",
+    "teacher-guide.md",
+    "capstone.md",
+    "independent-audit.md",
+    "course.md",
+    "audit_report.json",
+    "build_course.py",
+    "completion_report.json"
+  ],
+  "audit_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "hashes": {
+    "input-contract.json": "bd9eea7c5ee445c50a873a26ea6ed6c4314c6502655496d46ec477fa2b69052f",
+    "sources.md": "afb8150cf916436d362127648cc4d008eb42e0669576aa08c6e11b72ec55d676",
+    "verify_examples.py": "e288b294b27fe7e3e859f976058a66dc117c797b9f3a8d2cc70724ceebc91bdc",
+    "worked-example-verification.json": "1b5ceb06cae0672634124d4eaff0a15c9ea5892c53c2164188ee7b6b060a0c5c",
+    "source-comparison.md": "28e9581e60ee63fef745e152333f96e52a3b13ae66a97aa75b04105f953ce04a",
+    "course-map.md": "d67c550a8c724475c615fe466b1223f416c16bfd28fdf47a8a84a73f69ef9375",
+    "lesson-01.md": "e558f8d9cc013f7c5278ac2978f559396c27a118ba9b8867d8e99e7b9368ac80",
+    "lesson-02.md": "1b98ff0270bc1e667c410349eb7f47186c576f633d56358bf6aeaf9c6d724347",
+    "lesson-03.md": "a88cdf9c0aaea685eb84f0b20f7ad56519be27a920ecb74280107ebc0858ec4e",
+    "lesson-04.md": "e1c53b59d5545f27532623fbd42bb03f582462bb66512385b5bbc667bd784258",
+    "lesson-05.md": "a88d81a5d386677b57e68c9fab36ad0bd6dea50a9b63b5063bac0a6553337917",
+    "lesson-06.md": "92a5cf9f3cb0d8ae4c2bca37d7a68bbe82b05e3f6cbd971d12a82bce6be1dc15",
+    "lesson-07.md": "318213841922685e5f683c83c8877af8550b5810e52ff04e2666236638e7f0a3",
+    "lesson-08.md": "c95dbc49739dc5a9fbb4651a19ba532dabe31b42895ad144232e57bf3e61b9ef",
+    "terminology.md": "db4d3c0c2a666677fa2ae6801546e81efe0c50cc5585b32af35236fca1175480",
+    "teacher-guide.md": "4586b0713db828510738b60eade3bb1d4c0600685f2c7d6d7622553729d6391b",
+    "capstone.md": "d0e63179c6b9db722832af2cea188bf7cf01e685d1af2a47a3262db67e9bc921",
+    "independent-audit.md": "ad7de161a3c096c321339df670f8e00c78679be9660015bc8140750ad8086143",
+    "course.md": "85b0e67e2b6127813695c2d3744e5ccfd90871e36b34fb1cf796c7a3f707fc79",
+    "audit_report.json": "1b8d3e1988b1546f29efe3112ac62e6f23fc49e25d35b0d4725c446d43af85be",
+    "build_course.py": "00d64b8cf443510a614b59a2475ff4e2235b1f69d82f403eb1948f9b633f366d",
+    "manifest.json": "206b584066826720da45c06c304fd0749ce01a1b81c9b601056f5f825376ca3c"
+  },
+  "lesson_count": 8,
+  "core_periods": 16,
+  "capstone_periods": 3,
+  "source_gaps": [
+    "No full raw-catalog or source control-family replay; source correlation remains reported.",
+    "Graph generation unavailable in capability response; pinned local file hashes verified."
+  ],
+  "validator": "Run .work/validate_project_course.py after writing this record; validator-result.json is the external machine-check receipt, excluded from self-referential hashes.",
+  "validator_result": {
+    "status": "passed",
+    "exit_code": 0,
+    "command": "Z:/Kfield-doc-training/.work/validate_project_course.py COURSE_DIRECTORY --json",
+    "receipt": "validator-result.json",
+    "scope": "Installed validator unchanged except authorized canonical output root; verified actual execution before recording completion."
+  }
+}

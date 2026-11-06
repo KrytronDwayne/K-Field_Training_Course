@@ -1,0 +1,177 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>lesson-03: The thirteen-channel decoder · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/21">Course 21</a><span>/</span><span>lesson 03</span></div><a class="original" href="../../../kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems/lesson-03.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#lesson-03-the-thirteen-channel-decoder">lesson-03: The thirteen-channel decoder</a><a href="#prerequisite-bridge">Prerequisite bridge</a><a href="#explanation-c2103-e1">Explanation — C21.03-E1</a><a href="#a-finite-bridge-to-signed-characters">A finite bridge to signed characters</a><a href="#worked-example-c2103-w1">Worked example — C21.03-W1</a><a href="#guided-practice-c2103-p1">Guided practice — C21.03-P1</a><a href="#supplemental-explanation-c21s01-e1">Supplemental explanation — C21.S01-E1</a><a href="#worked-example-c21s01-w1">Worked example — C21.S01-W1</a><a href="#practice-with-answer-c21s01-p1">Practice with answer — C21.S01-P1</a><a href="#diagnostic-boundary-c21s01-d1">Diagnostic boundary — C21.S01-D1</a><a href="#diagnostic-checks-c2103-d1">Diagnostic checks — C21.03-D1</a><a href="#worked-answers">Worked answers</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">lesson-01: Measurements as linear channels</a><a  href="lesson-02.html">lesson-02: Rank and retained syndromes</a><a aria-current=page href="lesson-03.html">lesson-03: The thirteen-channel decoder</a><a  href="lesson-04.html">lesson-04: Reconstruction and dimensional meaning</a><a  href="lesson-05.html">lesson-05: Atomic and isotope inventories</a><a  href="lesson-06.html">lesson-06: Binding and periodic organization</a><a  href="lesson-07.html">lesson-07: Solver convergence and unresolved information</a><a  href="lesson-08.html">lesson-08: A reproducible decoding report</a></details></aside><div class="reading-column"><article class="prose"><h1 id="lesson-03-the-thirteen-channel-decoder" tabindex="-1">lesson-03: The thirteen-channel decoder</h1>
+<p>3 sessions of 55 minutes.</p>
+<p><strong>Essential question:</strong> How can thirteen readings be retained as six represented and seven residual coordinates?</p>
+<p><strong>Goals</strong></p>
+<ul>
+<li>Use the source matrix in its stated order and verify its rank.</li>
+<li>Reconstruct a full thirteen-channel ledger.</li>
+<li>Distinguish the integer extractor from the missing source syndrome map.</li>
+<li>Check a small character table and a specified intertwiner.</li>
+</ul>
+<h2 id="prerequisite-bridge" tabindex="-1">Prerequisite bridge</h2>
+<p>Lesson 2 taught image, kernel, rank, integer lattices and residual bases. This lesson extends the same operations to a larger rectangular table. Work in three sessions: channel decoding; integer extraction; signed characters. Long tables are for careful checking one row at a time, not memorization.</p>
+<p><a id="C21.03-E1" tabindex="-1"></a></p>
+<h2 id="explanation-c2103-e1" tabindex="-1">Explanation — C21.03-E1</h2>
+<p>S02 /backbone_sequence/16 (M17) supplies the following 13 by 6 matrix A. Row i means channel i; column j multiplies coefficient cj. Keep this ordering. Its columns correspond to the renderer order b=(1,alpha,alpha^2,alpha^3,a_e,eta), which lesson 4 interprets. The classroom calculations use dimensionless channels.</p>
+<pre aria-label="Scrollable literal code or matrix" role="region" tabindex="0"><code class="language-text">0 0 1 0 0 0
+0 1 0 0 0 0
+0 1 1 0 0 1
+0 1 1 0 0 -1
+1 0 0 0 0 0
+1 0 1 0 1 0
+1 0 1 0 -1 0
+1 1 0 1 0 0
+1 1 1 1 1 1
+1 1 1 1 -1 -1
+1 1 0 -1 0 0
+1 1 1 -1 1 -1
+1 1 1 -1 -1 1
+</code></pre>
+<p>For c=e1=(1,0,0,0,0,0), multiplying A by c simply selects column 1: (0,0,0,0,1,1,1,1,1,1,1,1,1). This is the safest first check of the row order.</p>
+<p>The Gram matrix is G=A^T A: its entry (j,k) is the dot product of columns j and k. Column 1 has nine ones, so G11=9; columns 1 and 2 overlap in six ones, so G12=6. Carrying out the remaining dot products gives a top-left block [[9,6,6],[6,9,6],[6,6,9]], bottom-right block diag(6,6,6), and zeros between. This G is only a decoder Gram matrix, not M_cell or G_phase.</p>
+<p>The first block acts on (a,b,d) by 3(a,b,d)+6(a+b+d)(1,1,1). On the constant direction (1,1,1) it multiplies by 21. On directions whose entries sum to zero it multiplies by 3. A direction scaled without changing direction is called an eigenvector, and the scale is its eigenvalue. Every triple is a constant triple plus a sum-zero triple: subtract its mean (a+b+d)/3 from each entry. Thus no nonzero triple is sent to zero. The last three directions multiply by 6. All six coefficients can therefore be recovered uniquely; rank A=6. Thirteen total channel coordinates minus six independent represented directions leaves seven independent residual directions.</p>
+<p>You do not need a general matrix-inverse algorithm to decode this A. First calculate d=A^T y by column dot products. Set S=(d1+d2+d3)/21. Then c1=(d1-6S)/3, c2=(d2-6S)/3, c3=(d3-6S)/3, and cj=dj/6 for j=4,5,6. Why? S=c1+c2+c3 and the first three normal equations read dj=3cj+6S. Summing them gives 21S=d1+d2+d3.</p>
+<p>For y=(1,2,...,13), d=(81,72,65,-9,-3,-1); S=218/21. The equations yield c=(131/21,68/21,19/21,-3/2,-1/2,-1/6). Multiply each row and subtract to obtain this complete ledger:</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>channel i</th>
+<th>y_i</th>
+<th>(Ac)_i</th>
+<th>s_i</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>19/21</td>
+<td>2/21</td>
+</tr>
+<tr>
+<td>2</td>
+<td>2</td>
+<td>68/21</td>
+<td>-26/21</td>
+</tr>
+<tr>
+<td>3</td>
+<td>3</td>
+<td>167/42</td>
+<td>-41/42</td>
+</tr>
+<tr>
+<td>4</td>
+<td>4</td>
+<td>181/42</td>
+<td>-13/42</td>
+</tr>
+<tr>
+<td>5</td>
+<td>5</td>
+<td>131/21</td>
+<td>-26/21</td>
+</tr>
+<tr>
+<td>6</td>
+<td>6</td>
+<td>93/14</td>
+<td>-9/14</td>
+</tr>
+<tr>
+<td>7</td>
+<td>7</td>
+<td>107/14</td>
+<td>-9/14</td>
+</tr>
+<tr>
+<td>8</td>
+<td>8</td>
+<td>335/42</td>
+<td>1/42</td>
+</tr>
+<tr>
+<td>9</td>
+<td>9</td>
+<td>115/14</td>
+<td>11/14</td>
+</tr>
+<tr>
+<td>10</td>
+<td>10</td>
+<td>401/42</td>
+<td>19/42</td>
+</tr>
+<tr>
+<td>11</td>
+<td>11</td>
+<td>461/42</td>
+<td>1/42</td>
+</tr>
+<tr>
+<td>12</td>
+<td>12</td>
+<td>485/42</td>
+<td>19/42</td>
+</tr>
+<tr>
+<td>13</td>
+<td>13</td>
+<td>171/14</td>
+<td>11/14</td>
+</tr>
+</tbody>
+</table></div>
+<p>For example row 3 predicts c2+c3+c6=68/21+19/21-1/6=167/42; adding -41/42 recovers 3. All thirteen rows are retained. The six sums A^T s vanish. The seven-dimensional syndrome is stored here as thirteen entries constrained by those six equations. A specified seven-element basis could compress the entries reversibly; the source’s particular basis is not supplied.</p>
+<p>Compact recognition notation: Aplus=(A^T A)^(-1)A^T names the recipe just derived; inverse means the operation undoing a nonsingular matrix. P=A Aplus extracts represented channels and R=I-P extracts the residual; I leaves every vector unchanged. Since Aplus A=I6, applying P twice gives P again, as does applying R twice. Also A^T R=0. The verification file checks these exact identities. R is a 13 by 13 projector and is not the missing 7 by 13 source L.</p>
+<p>There is a different, integer extractor for vectors already in the image. If z=Ac, then c1=z5, c2=z2, c3=z1, c4=z8-z5-z2, c5=z6-z5-z1, c6=z3-z2-z1. These six recipes define L_int, a 6 by 13 integer matrix, with L_int A=I6. Recognition-only certificate vocabulary: their selected rows (5,2,1,8,6,3) form a triangular 6 by 6 matrix (entries above its main diagonal are zero). For a triangular matrix the determinant is the product of diagonal entries, here 1. A square submatrix with determinant 1 or -1 is called a unit minor. The explicit integer recipes, rather than determinant vocabulary, are the core proof used next. An integer z in the real image consequently has integer c=L_int z, proving saturation for this A. If an integer rank-seven source L with LA=0 is supplied, real image/kernel equality plus this saturation establishes integral equality. The extractor does not identify that L. Applied to arbitrary y outside the image, it is not the Euclidean decoder; rational c remains possible.</p>
+<h3 id="a-finite-bridge-to-signed-characters" tabindex="-1">A finite bridge to signed characters</h3>
+<p>Use two-bit labels 00,01,10,11. Addition of labels is bitwise addition modulo 2 (1+1 becomes 0). For a row label x and column label k, multiply matching bits, add, and set W[x,k]=(-1) raised to that sum. Even sums give +1; odd sums give -1. A character is a sign recipe respecting addition: the sign for x+x-prime is the product of the two signs. The table is</p>
+<pre aria-label="Scrollable literal code or matrix" role="region" tabindex="0"><code class="language-text">       00  01  10  11
+00      1   1   1   1
+01      1  -1   1  -1
+10      1   1  -1  -1
+11      1  -1  -1   1
+</code></pre>
+<p>Each column has squared length 4; two different columns have dot product zero (for columns 01 and 10, the products are 1,-1,-1,1). Hence W^T W=4I and coefficients a=W^T v/4 reconstruct v=Wa. For v=(1,2,3,4), the four sums are 10,-2,-4,0, giving a=(5/2,-1/2,-1,0). The first reconstructed entry is 5/2-1/2-1=1; the others are 2,3,4.</p>
+<p>A representation describes how each group operation acts on coordinates. To compare two actions rho and sigma, an intertwiner T must obey T rho(g)=sigma(g) T for every operation g. In the two-action example below it is enough to check the nonidentity involution (an operation whose square is identity). With rho=diag(1,-1), sigma=diag(-1,1), swapping coordinates by T=[[0,1],[1,0]] gives both products [[0,-1],[1,0]]. T is invertible, and 2T also works, so compatibility does not choose a unique map. In contrast rho has a fixed nonzero vector (1,0), whereas -I has none; an invertible intertwiner to -I cannot preserve that action. Their traces, the sums of diagonal entries, are 0 and -2, another obstruction.</p>
+<blockquote>
+<p>Source boundary: S02 /branch_proofs/11 reports closed exact module compatibility; /proof_nodes/10, /11 and /23 give the active/syndrome and character claims. Conditional arithmetic 3(1,1,1)+2(2,0,-1)=(7,3,1) and 3²+2²=13 is checkable here. The representation-theory interpretation requires the source actions. Source L (7 by 13) and W7 (eight group elements by seven nonconstant characters, ordered source action not loaded) remain VERIFIED_NOT_LOADED under S03 /findings/8. This toy 4 by 4 W and derived L_int do not replace them.</p>
+</blockquote>
+<p><a id="C21.03-W1" tabindex="-1"></a></p>
+<h2 id="worked-example-c2103-w1" tabindex="-1">Worked example — C21.03-W1</h2>
+<p>Rank A=6, left-nullity=7. Set Aplus=(A^T A)^-1 A^T, P=A Aplus and R=I-P. For the supplied worked ledger y=(1,...,13), use every exact c, represented and syndrome entry in the verification record. Check P^2=P, R^2=R, A^T R=0 and y=A c+s. Demonstrate the simpler c=e1 example by reading the first A column.</p>
+<p><a id="C21.03-P1" tabindex="-1"></a></p>
+<h2 id="guided-practice-c2103-p1" tabindex="-1">Guided practice — C21.03-P1</h2>
+<p>Try the operation before reading the solution. Use c0=(1,-1,2,0,1,0) and s=(-2,-2,1,1,0,0,0,0,0,0,0,0,0). Form y=A c0+s. A^T s=0, so decoding returns c0 and this entire s. Compare against the exact practice ledger. The 13 residual entries satisfy six constraints; they are not 13 independent syndrome coordinates.</p>
+<p><a id="C21.S01-E1" tabindex="-1"></a></p>
+<h2 id="supplemental-explanation-c21s01-e1" tabindex="-1">Supplemental explanation — C21.S01-E1</h2>
+<p>Use signed characters on the explicitly synthetic group (Z/2)^2 with rows/columns 00,01,10,11 and W[x,k]=(-1)^(x dot k). This four-character table is not W7. An intertwiner T obeys T rho(g)=sigma(g) T. Matching dimension is weaker than matching action; compatible actions still do not select one canonical T.</p>
+<p><a id="C21.S01-W1" tabindex="-1"></a></p>
+<h3 id="worked-example-c21s01-w1" tabindex="-1">Worked example — C21.S01-W1</h3>
+<p>W=[[1,1,1,1],[1,-1,1,-1],[1,1,-1,-1],[1,-1,-1,1]]. W^T W=4I. For v=(1,2,3,4), a=W^T v/4=(5/2,-1/2,-1,0), and W a=v. Source character arithmetic 3(1,1,1)+2(2,0,-1)=(7,3,1) and 3^2+2^2=13 is conditional on the source representation data.</p>
+<p><a id="C21.S01-P1" tabindex="-1"></a></p>
+<h3 id="practice-with-answer-c21s01-p1" tabindex="-1">Practice with answer — C21.S01-P1</h3>
+<p>For v=(2,0,0,2), a=(1,0,0,1) and W a=v. On a separate two-dimensional involution example, rho=diag(1,-1), sigma=diag(-1,1), T=[[0,1],[1,0]] obeys T rho=sigma T and det T=-1; 2T also intertwines, demonstrating nonuniqueness.</p>
+<p><a id="C21.S01-D1" tabindex="-1"></a></p>
+<h3 id="diagnostic-boundary-c21s01-d1" tabindex="-1">Diagnostic boundary — C21.S01-D1</h3>
+<p>rho=diag(1,-1) and sigma=-I have equal dimension but traces 0 and -2, so no invertible intertwiner exists. The source L, W7 and their action conventions remain missing; the toy table and L_int do not fill that retrieval gate.</p>
+<p><a id="C21.03-D1" tabindex="-1"></a></p>
+<h2 id="diagnostic-checks-c2103-d1" tabindex="-1">Diagnostic checks — C21.03-D1</h2>
+<ol>
+<li>How many independent coefficients and syndrome coordinates occur? Why save thirteen residual entries?</li>
+<li>Decode the c0 and s practice packet below; reconstruct its first four entries.</li>
+<li>What does L_int prove, and why is it not source L?</li>
+<li>For v=(2,0,0,2), compute the four signed coefficients and reconstruct v.</li>
+<li>Why do equal-dimensional actions rho=diag(1,-1) and sigma=-I fail to have an invertible intertwiner?</li>
+</ol>
+<h2 id="worked-answers" tabindex="-1">Worked answers</h2>
+<ol>
+<li>Six and seven. Thirteen entries carry the seven-dimensional residual with six constraints; this representation fixes channel meaning without inventing a basis.</li>
+<li>Ac0=(2,-1,1,1,1,4,2,0,3,1,0,3,1). Adding s gives y=(0,-3,2,2,1,4,2,0,3,1,0,3,1). A^T s=0 so the decoder returns c0 and the full s.</li>
+<li>L_int A=I6 provides integer recovery on the image and saturation. Its shape is 6 by 13 and product is identity, whereas source L is 7 by 13 with product zero.</li>
+<li>W^T v=(4,0,0,4); divide by 4 to get (1,0,0,1). Adding columns 00 and 11 gives (2,0,0,2).</li>
+<li>An invertible action-preserving map would send the nonzero fixed vector of rho to a nonzero fixed vector of -I, which has none. Equal dimension alone is insufficient.</li>
+</ol>
+<p><strong>Boundary to carry forward:</strong> The newly derived L_int is 6x13 and L_int A=I6. It proves saturation of this A via integer coefficient recovery, but it is not the source 7x13 L with L A=0, nor W7. Orthogonal decoding of arbitrary integer y may give rational c. Full source L/W7 replay remains VERIFIED_NOT_LOADED.</p>
+<p><strong>Next dependency:</strong> <a href="lesson-04.html">lesson-04</a>. Use this lesson’s reconstruction and scope checks there.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><a class="button secondary" href="lesson-02.html">← Previous lesson</a><a class="button" href="lesson-04.html">Next lesson →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/21">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

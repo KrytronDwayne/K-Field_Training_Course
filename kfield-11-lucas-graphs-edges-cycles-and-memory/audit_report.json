@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "status": "passed",
+  "findings": [
+    {
+      "id": "IC11-E05-01",
+      "level": "final",
+      "category": "E05 prerequisite/practice closure",
+      "file": "lesson-03.md",
+      "section": "C11.03-P1; capstone C11-CAP-03",
+      "severity": "major",
+      "defect": "Capstone explicitly assesses the coefficient under reversal of cycle-basis orientation. This is explained in W1 and answered in diagnostic 3, but the designated independently answered P1 practice omits this suboperation, contrary to the packet's every-assessed-suboperation practice rule.",
+      "correction": "Add a P1 task expressing the same 3c using basis -c, and independently worked answer -3 with (-3)(-c)=3c.",
+      "verification": "Independently reread lesson-03.md lines 31 and 33 after repair. P1 explicitly asks expression in basis -c; worked answer supplies coefficient -3 and vector reconstruction (3,3,3,3). Exact multiplication verified. E05 suboperation closure now complete.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "lesson-03",
+        "capstone",
+        "assembly"
+      ]
+    }
+  ],
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "checks": [
+    {
+      "level": "local",
+      "checkpoints": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05",
+        "lesson-06"
+      ],
+      "checks": "Four diagnostics, answered independent practice, observable goals, prerequisite bridge, defined notation, dimensionless units, source-scope box and next dependency in every lesson; arithmetic independently recomputed.",
+      "result": "passed"
+    },
+    {
+      "level": "cumulative",
+      "checkpoints": [
+        "lesson-03",
+        "lesson-05"
+      ],
+      "checks": "Incidence and transpose precede gradients; rank/leaf elimination precede dimensions; chord basis precedes wrap inverse; signs, ordering and residuals retained.",
+      "result": "passed"
+    },
+    {
+      "level": "final",
+      "checks": "Coverage E1/W1/P1/D1 and all six capstone steps cross-read; actual operation-level practice closure reviewed independently; answer key totals 100 points; nine-period load retained.",
+      "result": "passed"
+    },
+    {
+      "level": "final",
+      "checks": "Exact source paths and hashes verified; mature M08 source bodies read; source-reported DAG incompleteness and extension boundaries preserved.",
+      "result": "passed"
+    },
+    {
+      "level": "final",
+      "checks": "All persistent artifacts in designated project course directory; normalized verbatim assembly produced in lesson order; deterministic validator required after record refresh.",
+      "result": "passed; actual validator exit 0, rerun after this record refresh"
+    },
+    {
+      "level": "final",
+      "checks": "Markdown-only delivery uses plain text graph/table diagrams; no requested paginated artifact, no PDF rendering gate. Content reviewed for completeness without added assembly teaching.",
+      "result": "passed"
+    }
+  ],
+  "independent_audit": "independent-content-audit.json",
+  "verification": "worked-example-verification.json",
+  "boundaries": "Finite mathematics and machine integrity only; no global source-DAG certification or physical memory claim."
+}

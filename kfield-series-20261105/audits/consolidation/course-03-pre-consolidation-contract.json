@@ -1,0 +1,439 @@
+{
+  "schema_version": "1.0",
+  "course_output_root": "Z:\\Kfield-doc-training\\K-Field_Training_Course",
+  "course_output_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-03-the-authoritative-cell3-basis-metric-and-scale",
+  "topic": "The Authoritative Cell3: Basis, Metric, and Scale",
+  "series_course_id": "course-03",
+  "audience": "High-school seniors; first-principles teaching, with concrete prerequisite capabilities and taught bridges.",
+  "prerequisites": [
+    "Signed arithmetic, fractions, ratios, powers, linear equations, and coordinate graphs",
+    "Capabilities taught in course-02"
+  ],
+  "learning_outcomes": [
+    "Identify the columns and intentional handedness of the locked Cell3 basis",
+    "Compute a small Gram matrix and retain its cross terms",
+    "Relate cross products and determinants to cell geometry",
+    "Verify a small inverse-metric identity and explain its domain",
+    "Separate scale-invariant shape from the supplied dimensional anchor",
+    "Read the locked numerical record with its precision and provenance"
+  ],
+  "requested_deliverables": [
+    "student lessons",
+    "course-map.md",
+    "terminology.md",
+    "teacher-guide.md",
+    "capstone.md with full answers and rubric",
+    "course.md",
+    "manifest.json",
+    "audit_report.json",
+    "completion_report.json",
+    "compact sources and worked-example verification"
+  ],
+  "assumptions": [
+    "A topical short course, not a semester per topic. Pacing is 55-minute core lessons plus capstone periods; split dense lessons if actual learner load requires it.",
+    "No prior calculus, abstract algebra, university linear algebra, or quantum mechanics unless explicitly taught earlier.",
+    "Required core assessments must be solvable with taught finite examples. Clearly label deeper recognition-only extensions.",
+    "Markdown is the delivery format; no PDF or Word generation is required."
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "role": "archival source; reported status is distinct from fresh verification"
+    },
+    {
+      "id": "S02",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "role": "archival source; reported status is distinct from fresh verification"
+    },
+    {
+      "id": "S03",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "role": "archival source; reported status is distinct from fresh verification"
+    },
+    {
+      "id": "S04",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+      "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "role": "archival source; reported status is distinct from fresh verification"
+    },
+    {
+      "id": "S05",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+      "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+      "role": "archival source; reported status is distinct from fresh verification"
+    }
+  ],
+  "source_routing": {
+    "primary_skill": "C:/Users/info/.codex/skills/krytronx-knowledge-graph/SKILL.md",
+    "graph_root": "repository:KrytronDwayne/K-Field_Private",
+    "testbench_root": "application:kfield-lucas-lab",
+    "snapshot_generation": "sha256:5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+    "manifest_sha256": "5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+    "rag_rerank": false,
+    "backbone_source_pointer": "/backbone_sequence",
+    "required_modules": [
+      "M01"
+    ],
+    "guidance": "Retrieve exact topic sources and source-local pointers; use the provided archival files read-only and verify their hashes. Do not rely only on titles or summaries. For experimental topics search the testbench topic and local relevant domain skills."
+  },
+  "evidence_rules": [
+    "Preserve empirical observations, derived implications, inferred structure, mechanisms, reference theory, and unresolved questions as distinct layers.",
+    "Read-only sources: no source-data copies, database exports, reindexing, or large arrays. Persist only authored course artifacts, compact provenance, audits, and small clearly synthetic examples.",
+    "Cell3 uses ICRS columns [a b c], an intentional negative determinant, and half-open cells [-1/2,1/2)^3. Use x-O_K in affine reciprocal identities.",
+    "Use the mature locked geometry and exact source provenance. Historical and corrected numerical branches remain separately labeled; do not silently mix their constants.",
+    "Use M_cell=B^T B and R_cell=M_cell^-1; distinguish G_phase, G_eff, reciprocal bases, distance Q, Q_g, and Q_nu.",
+    "Gauge-carrier tuples use color-first C_3 direct-sum W_2. A weak-first view needs an explicit permutation.",
+    "Do not merge detector parity, A1 carry parity, projective signs, chirality, family labels, primitive lifts, or distinct dyadic and ternary recursions.",
+    "Declare nearest-integer half-ties and the corresponding residual interval consistently; the half-open cell ownership rule is a separate operation.",
+    "The detail-product identity needs explicit hypotheses on E beyond Q=I-E; retain the product of finite differences.",
+    "M19 contains mixed extension branches and is not a premise of M20 core closure. Reconstruct prerequisites from module requires, with the documented audit corrections.",
+    "Preserve mature-source claims and accepted integration dispositions separately. In the integration only compiler M03, M07, M08 have direct authority; these compiler labels are not automatically the mathematical-backbone module labels. Preserve the admitted global-form family Z1,Z2,Z3,Z6 and source-local uniqueness claims with explicit contracts.",
+    "Treat matching dimensions or graph labels as neither an intertwiner nor a proof. A missing proof body remains a source-reported status with a retrieval gap.",
+    "Physical CMB velocity is distinct from phase-transformed vectors; the testbench admitted speed is 369812.50200040644 m/s. The Galactic Center is a visual gauge; do not invent Solar or Galactic short-window dynamics.",
+    "A photon-equivalent model energy is not measured transferred energy, and phase is not force. Preserve signed events and the three independent plane-cost levels in the fourteen-row 2026-08-26 bundle.",
+    "Cell3 and galaxy-derived cells have separately typed units, metrics, handedness, scales, and normals. Recurrence is an explanatory target, not permission to merge definitions.",
+    "Every residual remains a primary coordinate. Transformations are reversible or accompanied by all removed components and reconstruction rules; no outlier deletion or significance-based erasure.",
+    "Use tf_gpu_env through C:/ProgramData/anaconda3/Scripts/conda.exe run -n tf_gpu_env python. No package changes without approval."
+  ],
+  "subject_kernel": {
+    "objects_and_operations": [
+      {
+        "concept_id": "C03.01",
+        "concept": "An ordered cell in three dimensions",
+        "operation": "Identify the columns and intentional handedness of the locked Cell3 basis"
+      },
+      {
+        "concept_id": "C03.02",
+        "concept": "Lengths and angles from a Gram matrix",
+        "operation": "Compute a small Gram matrix and retain its cross terms"
+      },
+      {
+        "concept_id": "C03.03",
+        "concept": "Face areas and signed volume",
+        "operation": "Relate cross products and determinants to cell geometry"
+      },
+      {
+        "concept_id": "C03.04",
+        "concept": "Direct and inverse metrics",
+        "operation": "Verify a small inverse-metric identity and explain its domain"
+      },
+      {
+        "concept_id": "C03.05",
+        "concept": "Scale classes and the area anchor",
+        "operation": "Separate scale-invariant shape from the supplied dimensional anchor"
+      },
+      {
+        "concept_id": "C03.06",
+        "concept": "A reproducible Cell3 specification",
+        "operation": "Read the locked numerical record with its precision and provenance"
+      }
+    ],
+    "source_modules": [
+      "M01"
+    ],
+    "scope": "Create a checked Cell3 geometry card and a hand-computable classroom analogue without confusing their numerical values.",
+    "common_failure_modes": [
+      "Untaught prerequisite",
+      "Unscoped symbol or unit",
+      "An illustrative example presented as real evidence",
+      "A source label promoted beyond its evidence class",
+      "A residual or source branch silently omitted"
+    ]
+  },
+  "invariants": [
+    "Preserve empirical observations, derived implications, inferred structure, mechanisms, reference theory, and unresolved questions as distinct layers.",
+    "Read-only sources: no source-data copies, database exports, reindexing, or large arrays. Persist only authored course artifacts, compact provenance, audits, and small clearly synthetic examples.",
+    "Cell3 uses ICRS columns [a b c], an intentional negative determinant, and half-open cells [-1/2,1/2)^3. Use x-O_K in affine reciprocal identities.",
+    "Use the mature locked geometry and exact source provenance. Historical and corrected numerical branches remain separately labeled; do not silently mix their constants.",
+    "Use M_cell=B^T B and R_cell=M_cell^-1; distinguish G_phase, G_eff, reciprocal bases, distance Q, Q_g, and Q_nu.",
+    "Gauge-carrier tuples use color-first C_3 direct-sum W_2. A weak-first view needs an explicit permutation.",
+    "Do not merge detector parity, A1 carry parity, projective signs, chirality, family labels, primitive lifts, or distinct dyadic and ternary recursions.",
+    "Declare nearest-integer half-ties and the corresponding residual interval consistently; the half-open cell ownership rule is a separate operation.",
+    "The detail-product identity needs explicit hypotheses on E beyond Q=I-E; retain the product of finite differences.",
+    "M19 contains mixed extension branches and is not a premise of M20 core closure. Reconstruct prerequisites from module requires, with the documented audit corrections.",
+    "Preserve mature-source claims and accepted integration dispositions separately. In the integration only compiler M03, M07, M08 have direct authority; these compiler labels are not automatically the mathematical-backbone module labels. Preserve the admitted global-form family Z1,Z2,Z3,Z6 and source-local uniqueness claims with explicit contracts.",
+    "Treat matching dimensions or graph labels as neither an intertwiner nor a proof. A missing proof body remains a source-reported status with a retrieval gap.",
+    "Physical CMB velocity is distinct from phase-transformed vectors; the testbench admitted speed is 369812.50200040644 m/s. The Galactic Center is a visual gauge; do not invent Solar or Galactic short-window dynamics.",
+    "A photon-equivalent model energy is not measured transferred energy, and phase is not force. Preserve signed events and the three independent plane-cost levels in the fourteen-row 2026-08-26 bundle.",
+    "Cell3 and galaxy-derived cells have separately typed units, metrics, handedness, scales, and normals. Recurrence is an explanatory target, not permission to merge definitions.",
+    "Every residual remains a primary coordinate. Transformations are reversible or accompanied by all removed components and reconstruction rules; no outlier deletion or significance-based erasure.",
+    "Use tf_gpu_env through C:/ProgramData/anaconda3/Scripts/conda.exe run -n tf_gpu_env python. No package changes without approval."
+  ],
+  "notation_registry": {
+    "M_cell": "Cell3 Gram metric",
+    "R_cell": "inverse Cell3 Gram metric",
+    "G_phase": "distinct phase metric",
+    "O_K": "declared physical origin",
+    "B": "source-locked ordered basis; source-local row/column distinctions must be explicit"
+  },
+  "coverage_matrix": [
+    {
+      "concept_id": "C03.01",
+      "concept": "An ordered cell in three dimensions",
+      "introduction": "lesson-01",
+      "practice": "lesson-01: worked example and guided practice",
+      "assessment": "lesson-01: diagnostic checks",
+      "later_use": "lesson-02"
+    },
+    {
+      "concept_id": "C03.02",
+      "concept": "Lengths and angles from a Gram matrix",
+      "introduction": "lesson-02",
+      "practice": "lesson-02: worked example and guided practice",
+      "assessment": "lesson-02: diagnostic checks",
+      "later_use": "lesson-03"
+    },
+    {
+      "concept_id": "C03.03",
+      "concept": "Face areas and signed volume",
+      "introduction": "lesson-03",
+      "practice": "lesson-03: worked example and guided practice",
+      "assessment": "lesson-03: diagnostic checks",
+      "later_use": "lesson-04"
+    },
+    {
+      "concept_id": "C03.04",
+      "concept": "Direct and inverse metrics",
+      "introduction": "lesson-04",
+      "practice": "lesson-04: worked example and guided practice",
+      "assessment": "lesson-04: diagnostic checks",
+      "later_use": "lesson-05"
+    },
+    {
+      "concept_id": "C03.05",
+      "concept": "Scale classes and the area anchor",
+      "introduction": "lesson-05",
+      "practice": "lesson-05: worked example and guided practice",
+      "assessment": "lesson-05: diagnostic checks",
+      "later_use": "lesson-06"
+    },
+    {
+      "concept_id": "C03.06",
+      "concept": "A reproducible Cell3 specification",
+      "introduction": "lesson-06",
+      "practice": "lesson-06: worked example and guided practice",
+      "assessment": "lesson-06: diagnostic checks",
+      "later_use": "capstone"
+    }
+  ],
+  "course_map": [
+    {
+      "id": "lesson-01",
+      "title": "An ordered cell in three dimensions",
+      "entry_prerequisites": [
+        "course-02"
+      ],
+      "concept_ids": [
+        "C03.01"
+      ],
+      "worked_example_capability": "Identify the columns and intentional handedness of the locked Cell3 basis",
+      "assessment_target": "Identify the columns and intentional handedness of the locked Cell3 basis",
+      "later_use": "lesson-02",
+      "core_minutes": 55
+    },
+    {
+      "id": "lesson-02",
+      "title": "Lengths and angles from a Gram matrix",
+      "entry_prerequisites": [
+        "lesson-01"
+      ],
+      "concept_ids": [
+        "C03.02"
+      ],
+      "worked_example_capability": "Compute a small Gram matrix and retain its cross terms",
+      "assessment_target": "Compute a small Gram matrix and retain its cross terms",
+      "later_use": "lesson-03",
+      "core_minutes": 55
+    },
+    {
+      "id": "lesson-03",
+      "title": "Face areas and signed volume",
+      "entry_prerequisites": [
+        "lesson-02"
+      ],
+      "concept_ids": [
+        "C03.03"
+      ],
+      "worked_example_capability": "Relate cross products and determinants to cell geometry",
+      "assessment_target": "Relate cross products and determinants to cell geometry",
+      "later_use": "lesson-04",
+      "core_minutes": 55
+    },
+    {
+      "id": "lesson-04",
+      "title": "Direct and inverse metrics",
+      "entry_prerequisites": [
+        "lesson-03"
+      ],
+      "concept_ids": [
+        "C03.04"
+      ],
+      "worked_example_capability": "Verify a small inverse-metric identity and explain its domain",
+      "assessment_target": "Verify a small inverse-metric identity and explain its domain",
+      "later_use": "lesson-05",
+      "core_minutes": 55
+    },
+    {
+      "id": "lesson-05",
+      "title": "Scale classes and the area anchor",
+      "entry_prerequisites": [
+        "lesson-04"
+      ],
+      "concept_ids": [
+        "C03.05"
+      ],
+      "worked_example_capability": "Separate scale-invariant shape from the supplied dimensional anchor",
+      "assessment_target": "Separate scale-invariant shape from the supplied dimensional anchor",
+      "later_use": "lesson-06",
+      "core_minutes": 55
+    },
+    {
+      "id": "lesson-06",
+      "title": "A reproducible Cell3 specification",
+      "entry_prerequisites": [
+        "lesson-05"
+      ],
+      "concept_ids": [
+        "C03.06"
+      ],
+      "worked_example_capability": "Read the locked numerical record with its precision and provenance",
+      "assessment_target": "Read the locked numerical record with its precision and provenance",
+      "later_use": "capstone",
+      "core_minutes": 55
+    }
+  ],
+  "capstone_specification": {
+    "task": "Create a checked Cell3 geometry card and a hand-computable classroom analogue without confusing their numerical values.",
+    "required_operations": [
+      "Identify the columns and intentional handedness of the locked Cell3 basis",
+      "Compute a small Gram matrix and retain its cross terms",
+      "Relate cross products and determinants to cell geometry",
+      "Verify a small inverse-metric identity and explain its domain",
+      "Separate scale-invariant shape from the supplied dimensional anchor",
+      "Read the locked numerical record with its precision and provenance"
+    ],
+    "rule": "Map every capstone operation to a prior introduction and practice; provide full answers, point rubric, source scope, and residual accounting."
+  },
+  "source_audit_contract": {
+    "exact_sources": [
+      {
+        "source_id": "S02",
+        "pointers": [
+          "/mature_locked_cell3",
+          "/scale_uniqueness_theorem",
+          "/backbone_sequence/0",
+          "/typed_conventions"
+        ]
+      },
+      {
+        "source_id": "S03",
+        "pointers": [
+          "/canonical_locked_values",
+          "/findings/4",
+          "/findings/12"
+        ]
+      },
+      {
+        "source_id": "S01",
+        "pointers": [
+          "/backbone_sequence/0"
+        ],
+        "stable_id": "00000000000000747820",
+        "role": "Historical corrected-source occurrence, not the active numerical lock"
+      }
+    ],
+    "required_bridges": [
+      {
+        "lesson_id": "lesson-01",
+        "introduce": "Extend 2D column coordinates to three labeled components; define ICRS as the named external axis convention and explain a negative triple-product sign without changing an axis.",
+        "practice": "Map a short vector through a small synthetic 3D column basis before reading the locked decimal matrix."
+      },
+      {
+        "lesson_id": "lesson-02",
+        "introduce": "Teach transpose, row-column multiplication, symmetry and squared length x^T M_cell x as the sum of all diagonal and cross terms.",
+        "practice": "Compute every entry of a small Gram matrix from dot products; check one nonzero cross-term length."
+      },
+      {
+        "lesson_id": "lesson-03",
+        "introduce": "Define the 3D cross product by oriented area components and the scalar triple product by signed volume; distinguish area norm from orientation.",
+        "practice": "Calculate all three face cofactors and a negative signed volume in the synthetic example."
+      },
+      {
+        "lesson_id": "lesson-04",
+        "introduce": "Teach the identity matrix, inverse multiplication and nonzero determinant condition; use the block structure of the synthetic basis for hand inversion.",
+        "practice": "Verify M_cell R_cell=I and B R_cell B^T=I with units; identify which coordinates each matrix acts on."
+      },
+      {
+        "lesson_id": "lesson-05",
+        "introduce": "Treat the angular frame and eta/alpha ratios as supplied source inputs at this stage. The two ratios fix a positive ray, and a specified positive area anchor fixes its scale.",
+        "practice": "Rescale a synthetic basis and identify unchanged area ratios; postpone the mass-bridge interpretation to course-08."
+      }
+    ],
+    "synthetic_example_contract": {
+      "label": "Classroom analogue, not Cell3",
+      "basis_rows": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          -3
+        ]
+      ],
+      "units": "arbitrary length unit",
+      "expected_gram": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          9
+        ]
+      ],
+      "expected_determinant": -6,
+      "expected_face_areas": [
+        "2",
+        "3",
+        "3*sqrt(5)"
+      ]
+    },
+    "precision_scope": "Read locked source decimal lexemes directly. Recomputed closure differences are numerical verification coordinates with declared arithmetic and precision, not replacement canonical constants. Preserve historical variants under their own provenance.",
+    "assessment_scope": "Core exercises and capstone use the taught small analogue for derivation; the locked Cell3 geometry card is a typed source-reading and numerical-verification task. Split a dense lesson if the stated bridge and practice cannot fit 55 minutes."
+  },
+  "blueprint_audit": {
+    "status": "approved_source_and_prerequisite_blueprint",
+    "unresolved_critical": 0,
+    "unresolved_major": 0,
+    "review_record": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-series-20261105/audits/source-coverage/first-three-review.json",
+    "scope": "Input contract reviewed and required bridges pinned. Course production, worked-example validation and final educational audit remain required."
+  },
+  "validator": {
+    "skill_relative_path": "scripts/validate_course.py",
+    "required_command": "& 'C:\\ProgramData\\anaconda3\\Scripts\\conda.exe' run -n tf_gpu_env python 'C:\\Users\\info\\.codex\\skills\\build-high-school-course\\scripts\\validate_course.py' 'Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-03-the-authoritative-cell3-basis-metric-and-scale' --json"
+  },
+  "storage_override": {
+    "authority": "User: write outputs to the project folder and move them later",
+    "original_root": "C:\\Users\\info\\Desktop\\K-Field_Training_Course",
+    "canonical_project_root": "Z:\\Kfield-doc-training\\K-Field_Training_Course"
+  }
+}

@@ -1,0 +1,1191 @@
+Role: You are the autonomous author, verifier, and recovery steward for a complete high-school course. Teach the stated audience from first principles with precise, age-appropriate language.
+
+# Outcome
+
+Build the complete course described by the runtime subject packet. Work continuously through all lessons, supporting materials, final assembly, hostile audit, repair, and deterministic validation. Do not stop after an outline, sample unit, or partial course.
+
+Write every persistent course artifact directly into the absolute `course_output_directory` in the runtime packet. That directory is the sole recovery and delivery location for this course.
+
+# Success criteria
+
+- Every required concept is introduced, practiced, assessed, and connected to later use.
+- Every lesson satisfies the lesson contract and has zero unresolved critical or major local findings.
+- Definitions, terms, symbols, units, source claims, examples, and answers are correct and consistent.
+- The capstone is solvable from the actual course.
+- The assembled course contains every passed lesson verbatim and in approved order.
+- Recovery state is current, hashes validate, and the final hostile audit has zero unresolved critical and major findings.
+- All requested artifacts exist and the deterministic validator exits successfully.
+
+# Constraints
+
+Preserve the supplied subject kernel, invariants, evidence rules, audience, and course map. Separate observations or source facts, derived implications, interpretations, proposed mechanisms, established reference theory, and unresolved questions when those layers apply. Never fabricate concrete facts, sources, data, quotations, or real-world evidence; use symbolic or clearly synthetic examples if grounding is unavailable. Use authoritative retrieval when the runtime packet requires current or exact facts.
+
+Make reasonable assumptions and record them. Do not ask for intermediate approval. Ask for user attention only if a missing fact or authority would materially change the course and cannot be safely represented as an explicit assumption or placeholder.
+
+Keep progress updates concise and write substantive work to files. Do not expose private reasoning traces; audit records contain only findings, corrections, verification, and dispositions.
+
+Do not save a persistent course artifact in the generated task workspace or any directory outside `course_output_directory`. If that destination is unavailable, preserve any already-written state there and report the storage blocker; do not silently substitute another location.
+
+# Recovery protocol
+
+Inside `course_output_directory`, initialize `manifest.json`, `course-map.md`, `terminology.md`, `audit_report.json`, and `completion_report.json`, plus one file per lesson. Treat that manifest as the recovery authority, but verify every existing checkpoint file and SHA-256 before trusting its status. Save a complete section before marking it passed. Resume from the first missing or failed dependency. Do not regenerate passed work without a concrete dependent defect.
+
+Use stable checkpoint IDs, dependency lists, statuses (`pending`, `drafted`, `passed`, `failed`), relative paths, summaries, and SHA-256 hashes. Update blockers and the next action after each checkpoint.
+
+# Lesson and audit contract
+
+Each lesson needs one essential question, two to four observable goals, a bridge from taught material, a first-principles explanation, at least one fully worked verifiable example, a claim-scope box when needed, three to five diagnostic checks, concise worked answers, and a link to the next dependency.
+
+Recompute examples and answers independently. At every lesson run local prerequisite, audience, definition, notation, unit, logical, mathematical, evidence, and source checks. At unit boundaries run cumulative terminology, dependency, complexity, coverage, and capstone checks. Classify findings as critical, major, or minor; patch the earliest source and rerun affected checks. Stop revising for style once correctness and learning are no longer improved.
+
+# Deliverables and assembly
+
+Create student lessons, terminology/glossary, teacher guide, capstone and full answer key/rubric, final assembled course, manifest, audit report, and completion report. Add no new substantive teaching during assembly. Insert each lesson verbatim between `<!-- BEGIN: CHECKPOINT_ID -->` and `<!-- END: CHECKPOINT_ID -->` markers in course order.
+
+If a requested output is paginated or visual, use its applicable artifact skill to render, inspect, and repair it. Run the final hostile audit across coverage, fidelity, dependency order, correctness, terminology, examples, evidence layers, audience load, assessment alignment, recovery integrity, assembly identity, rendering, and minimality.
+
+# Stop and report rules
+
+Success requires zero unresolved critical findings, zero unresolved major findings, every checkpoint passed, current hashes, correct assembly order/identity, complete outputs, and a successful deterministic validator run. On failure, repair and rerun affected checks. On a genuine blocker, preserve the recovery files and report only the smallest action needed. On success, report artifact paths, assumptions, audit counts, hashes, validator result, and any harmless unresolved minor findings.
+
+# Manager execution contract
+
+This is the one course-production task created by the parent through build-high-school-course. You are its curriculum manager and author. Execute that skill's production, audit, recovery, and validator requirements in this task; do not recursively create a second course task or any other task. The user authorized all 30 course-manager tasks and independent auditors. The parent coordinates them.
+
+The user's exact standing authorization is: 'do not stop for user approval. You are approved to proceed with all required tasks, proceed'
+
+Read the build-high-school-course SKILL.md, methodology, audit rubric, and validator implementation; the complete approved subject packet follows here. Read the residual-information-paradigm skill at the beginning. Use krytronx-knowledge-graph and relevant domain skills for exact source grounding. Source retrieval is read-only. Preserve source-local definitions and record exact paths, SHA-256, pointers/pages and evidence classes. Never bulk-copy source data into the course. Small clearly labeled teaching examples and their verification records are allowed.
+
+Use GPT-6 Astra as the user explicitly selected. Preserve the configured reasoning setting. The user explicitly overrides the skill's Desktop-only/projectless defaults: write course outputs within the saved project Z:/Kfield-doc-training and move them later. This task is running directly in that project. The runtime course_output_directory is authoritative and already exists. Use ordinary workspace writes; do not request Desktop access. The parent has approved proceeding and no further content approval is required. Validate with Z:/Kfield-doc-training/.work/validate_project_course.py COURSE_DIRECTORY --json. This adapter runs the installed validator unchanged except that its canonical-root constant is the user-selected project folder, preserving containment, content, hash, assembly, and audit checks.
+
+Python must run through & 'C:/ProgramData/anaconda3/Scripts/conda.exe' run -n tf_gpu_env python. Do not install or change packages. Avoid long or GPU work; hand-checkable mathematics and lightweight standard-library checks suffice. Do not create raw source snapshots or large npz files.
+
+The course is a complete topical course for seniors, not an outline. Write connected, clear explanations and fully worked examples; use only the necessary mathematical formalism and explicitly teach every new operation. Keep all core tasks solvable from taught material. Add diagrams/tables when they improve learning; Markdown and Mermaid are sufficient. Refine lesson boundaries if necessary for prerequisite closure, recording the rationale and updating coverage and capstone maps. Do not reduce coverage to finish faster or pad the course with boilerplate. Core lessons each require one essential question, two to four observable goals, an explicit prerequisite bridge, first-principles instruction, a fully worked independently recomputed example, an appropriate evidence-scope box, three to five diagnostic questions, worked answers, and a next-dependency link.
+
+Initialize recovery authorities before substantive generation. The input-contract.json is already present. Do not mark complete until the actual validator exits zero and all critical/major findings are corrected. Read the validator schema instead of guessing it. Include all student and teacher artifacts, a capstone with full answers and rubric, precise source notes, and the exact assembly marker protocol. Audit records must describe actual checks and actual corrections, never invented passes. The parent and independent auditor will reread and recompute your output.
+
+On completion report the exact course title, output directory, lesson count, validator result, unresolved counts, and any source gaps in your final reply. The parent polls your progress and final response. Do not call messaging tools to send parent status or completion; these can trigger separate app approvals. Then await possible audit repair requests. No messages to external people and no publishing are authorized.
+
+# Runtime subject packet
+
+```json
+{
+  "schema_version": "1.0",
+  "course_output_root": "Z:\\Kfield-doc-training\\K-Field_Training_Course",
+  "course_output_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces",
+  "topic": "Higgs, Yukawa, and Interaction Interfaces",
+  "series_course_id": "course-16",
+  "audience": "High-school seniors; first-principles teaching, with concrete prerequisite capabilities and taught bridges.",
+  "prerequisites": [
+    "Signed arithmetic, fractions, ratios, powers, linear equations, and coordinate graphs",
+    "Capabilities taught in course-15"
+  ],
+  "learning_outcomes": [
+    "Track the types and charges entering a simple interaction",
+    "Check a small allowed contraction and a forbidden alternative",
+    "Explain the role of the supplied doublet and vacuum coordinate",
+    "Derive a scaffolded charge-preservation and algebraic mass relation",
+    "Separate matrix structure from its numerical coefficients",
+    "Track energy changes without inferring a transition rate",
+    "List the supplied parameters and possible observations that determine them"
+  ],
+  "requested_deliverables": [
+    "student lessons",
+    "course-map.md",
+    "terminology.md",
+    "teacher-guide.md",
+    "capstone.md with full answers and rubric",
+    "course.md",
+    "manifest.json",
+    "audit_report.json",
+    "completion_report.json",
+    "compact sources and worked-example verification"
+  ],
+  "assumptions": [
+    "A topical short course, not a semester per topic. Pacing is 55-minute core lessons plus capstone periods; split dense lessons if actual learner load requires it.",
+    "No prior calculus, abstract algebra, university linear algebra, or quantum mechanics unless explicitly taught earlier.",
+    "Required core assessments must be solvable with taught finite examples. Clearly label deeper recognition-only extensions.",
+    "Markdown is the delivery format; no PDF or Word generation is required."
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "role": "archival source; reported status is distinct from fresh verification"
+    },
+    {
+      "id": "S02",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "role": "archival source; reported status is distinct from fresh verification"
+    },
+    {
+      "id": "S03",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "role": "archival source; reported status is distinct from fresh verification"
+    },
+    {
+      "id": "S04",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+      "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "role": "archival source; reported status is distinct from fresh verification"
+    },
+    {
+      "id": "S05",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+      "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+      "role": "archival source; reported status is distinct from fresh verification"
+    }
+  ],
+  "source_routing": {
+    "primary_skill": "C:/Users/info/.codex/skills/krytronx-knowledge-graph/SKILL.md",
+    "graph_root": "repository:KrytronDwayne/K-Field_Private",
+    "testbench_root": "application:kfield-lucas-lab",
+    "snapshot_generation": "sha256:5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+    "manifest_sha256": "5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+    "rag_rerank": false,
+    "backbone_source_pointer": "/backbone_sequence",
+    "required_modules": [
+      "M12"
+    ],
+    "guidance": "Retrieve exact topic sources and source-local pointers; use the provided archival files read-only and verify their hashes. Do not rely only on titles or summaries. For experimental topics search the testbench topic and local relevant domain skills."
+  },
+  "evidence_rules": [
+    "Preserve empirical observations, derived implications, inferred structure, mechanisms, reference theory, and unresolved questions as distinct layers.",
+    "Read-only sources: no source-data copies, database exports, reindexing, or large arrays. Persist only authored course artifacts, compact provenance, audits, and small clearly synthetic examples.",
+    "Cell3 uses ICRS columns [a b c], an intentional negative determinant, and half-open cells [-1/2,1/2)^3. Use x-O_K in affine reciprocal identities.",
+    "Use the mature locked geometry and exact source provenance. Historical and corrected numerical branches remain separately labeled; do not silently mix their constants.",
+    "Use M_cell=B^T B and R_cell=M_cell^-1; distinguish G_phase, G_eff, reciprocal bases, distance Q, Q_g, and Q_nu.",
+    "Gauge-carrier tuples use color-first C_3 direct-sum W_2. A weak-first view needs an explicit permutation.",
+    "Do not merge detector parity, A1 carry parity, projective signs, chirality, family labels, primitive lifts, or distinct dyadic and ternary recursions.",
+    "Declare nearest-integer half-ties and the corresponding residual interval consistently; the half-open cell ownership rule is a separate operation.",
+    "The detail-product identity needs explicit hypotheses on E beyond Q=I-E; retain the product of finite differences.",
+    "M19 contains mixed extension branches and is not a premise of M20 core closure. Reconstruct prerequisites from module requires, with the documented audit corrections.",
+    "Preserve mature-source claims and accepted integration dispositions separately. In the integration only compiler M03, M07, M08 have direct authority; these compiler labels are not automatically the mathematical-backbone module labels. Preserve the admitted global-form family Z1,Z2,Z3,Z6 and source-local uniqueness claims with explicit contracts.",
+    "Treat matching dimensions or graph labels as neither an intertwiner nor a proof. A missing proof body remains a source-reported status with a retrieval gap.",
+    "Physical CMB velocity is distinct from phase-transformed vectors; the testbench admitted speed is 369812.50200040644 m/s. The Galactic Center is a visual gauge; do not invent Solar or Galactic short-window dynamics.",
+    "A photon-equivalent model energy is not measured transferred energy, and phase is not force. Preserve signed events and the three independent plane-cost levels in the fourteen-row 2026-08-26 bundle.",
+    "Cell3 and galaxy-derived cells have separately typed units, metrics, handedness, scales, and normals. Recurrence is an explanatory target, not permission to merge definitions.",
+    "Every residual remains a primary coordinate. Transformations are reversible or accompanied by all removed components and reconstruction rules; no outlier deletion or significance-based erasure.",
+    "Use tf_gpu_env through C:/ProgramData/anaconda3/Scripts/conda.exe run -n tf_gpu_env python. No package changes without approval."
+  ],
+  "subject_kernel": {
+    "objects_and_operations": [
+      {
+        "concept_id": "C16.01",
+        "concept": "Interactions must match their inputs",
+        "operation": "Track the types and charges entering a simple interaction"
+      },
+      {
+        "concept_id": "C16.02",
+        "concept": "Invariant contractions",
+        "operation": "Check a small allowed contraction and a forbidden alternative"
+      },
+      {
+        "concept_id": "C16.03",
+        "concept": "The Higgs doublet interface",
+        "operation": "Explain the role of the supplied doublet and vacuum coordinate"
+      },
+      {
+        "concept_id": "C16.04",
+        "concept": "Unbroken charge and mass formulas",
+        "operation": "Derive a scaffolded charge-preservation and algebraic mass relation"
+      },
+      {
+        "concept_id": "C16.05",
+        "concept": "Yukawa maps and mixing inputs",
+        "operation": "Separate matrix structure from its numerical coefficients"
+      },
+      {
+        "concept_id": "C16.06",
+        "concept": "Energy and transition accounting",
+        "operation": "Track energy changes without inferring a transition rate"
+      },
+      {
+        "concept_id": "C16.07",
+        "concept": "What a complete interaction specification needs",
+        "operation": "List the supplied parameters and possible observations that determine them"
+      }
+    ],
+    "source_modules": [
+      "M12"
+    ],
+    "scope": "Design a typed interaction ledger with charge checks, an explicit synthetic coefficient example, and a clear list of source-defined inputs.",
+    "common_failure_modes": [
+      "Untaught prerequisite",
+      "Unscoped symbol or unit",
+      "An illustrative example presented as real evidence",
+      "A source label promoted beyond its evidence class",
+      "A residual or source branch silently omitted"
+    ]
+  },
+  "invariants": [
+    "Preserve empirical observations, derived implications, inferred structure, mechanisms, reference theory, and unresolved questions as distinct layers.",
+    "Read-only sources: no source-data copies, database exports, reindexing, or large arrays. Persist only authored course artifacts, compact provenance, audits, and small clearly synthetic examples.",
+    "Cell3 uses ICRS columns [a b c], an intentional negative determinant, and half-open cells [-1/2,1/2)^3. Use x-O_K in affine reciprocal identities.",
+    "Use the mature locked geometry and exact source provenance. Historical and corrected numerical branches remain separately labeled; do not silently mix their constants.",
+    "Use M_cell=B^T B and R_cell=M_cell^-1; distinguish G_phase, G_eff, reciprocal bases, distance Q, Q_g, and Q_nu.",
+    "Gauge-carrier tuples use color-first C_3 direct-sum W_2. A weak-first view needs an explicit permutation.",
+    "Do not merge detector parity, A1 carry parity, projective signs, chirality, family labels, primitive lifts, or distinct dyadic and ternary recursions.",
+    "Declare nearest-integer half-ties and the corresponding residual interval consistently; the half-open cell ownership rule is a separate operation.",
+    "The detail-product identity needs explicit hypotheses on E beyond Q=I-E; retain the product of finite differences.",
+    "M19 contains mixed extension branches and is not a premise of M20 core closure. Reconstruct prerequisites from module requires, with the documented audit corrections.",
+    "Preserve mature-source claims and accepted integration dispositions separately. In the integration only compiler M03, M07, M08 have direct authority; these compiler labels are not automatically the mathematical-backbone module labels. Preserve the admitted global-form family Z1,Z2,Z3,Z6 and source-local uniqueness claims with explicit contracts.",
+    "Treat matching dimensions or graph labels as neither an intertwiner nor a proof. A missing proof body remains a source-reported status with a retrieval gap.",
+    "Physical CMB velocity is distinct from phase-transformed vectors; the testbench admitted speed is 369812.50200040644 m/s. The Galactic Center is a visual gauge; do not invent Solar or Galactic short-window dynamics.",
+    "A photon-equivalent model energy is not measured transferred energy, and phase is not force. Preserve signed events and the three independent plane-cost levels in the fourteen-row 2026-08-26 bundle.",
+    "Cell3 and galaxy-derived cells have separately typed units, metrics, handedness, scales, and normals. Recurrence is an explanatory target, not permission to merge definitions.",
+    "Every residual remains a primary coordinate. Transformations are reversible or accompanied by all removed components and reconstruction rules; no outlier deletion or significance-based erasure.",
+    "Use tf_gpu_env through C:/ProgramData/anaconda3/Scripts/conda.exe run -n tf_gpu_env python. No package changes without approval."
+  ],
+  "notation_registry": {
+    "M_cell": "Cell3 Gram metric",
+    "R_cell": "inverse Cell3 Gram metric",
+    "G_phase": "distinct phase metric",
+    "O_K": "declared physical origin",
+    "B": "source-locked ordered basis; source-local row/column distinctions must be explicit"
+  },
+  "coverage_matrix": [
+    {
+      "concept_id": "C16.01",
+      "concept": "Interactions must match their inputs",
+      "introduction": "lesson-01",
+      "practice": "C16.01-P1",
+      "assessment": "C16.01-D1",
+      "later_use": "lesson-02",
+      "worked_example": "C16.01-W1",
+      "all_required_teaching_item_ids": [
+        "C16.01-E1",
+        "C16.01-W1",
+        "C16.01-P1",
+        "C16.01-D1"
+      ]
+    },
+    {
+      "concept_id": "C16.02",
+      "concept": "Invariant contractions",
+      "introduction": "lesson-02",
+      "practice": "C16.02-P1",
+      "assessment": "C16.02-D1",
+      "later_use": "lesson-03",
+      "worked_example": "C16.02-W1",
+      "all_required_teaching_item_ids": [
+        "C16.02-E1",
+        "C16.02-W1",
+        "C16.02-P1",
+        "C16.02-D1",
+        "C16.02-E2",
+        "C16.02-W2",
+        "C16.02-P2",
+        "C16.02-D2"
+      ]
+    },
+    {
+      "concept_id": "C16.03",
+      "concept": "The Higgs doublet interface",
+      "introduction": "lesson-03",
+      "practice": "C16.03-P1",
+      "assessment": "C16.03-D1",
+      "later_use": "lesson-04",
+      "worked_example": "C16.03-W1",
+      "all_required_teaching_item_ids": [
+        "C16.03-E1",
+        "C16.03-W1",
+        "C16.03-P1",
+        "C16.03-D1"
+      ]
+    },
+    {
+      "concept_id": "C16.04",
+      "concept": "Unbroken charge and mass formulas",
+      "introduction": "lesson-04",
+      "practice": "C16.04-P1",
+      "assessment": "C16.04-D1",
+      "later_use": "lesson-05",
+      "worked_example": "C16.04-W1",
+      "all_required_teaching_item_ids": [
+        "C16.04-E1",
+        "C16.04-W1",
+        "C16.04-P1",
+        "C16.04-D1"
+      ]
+    },
+    {
+      "concept_id": "C16.05",
+      "concept": "Yukawa maps and mixing inputs",
+      "introduction": "lesson-05",
+      "practice": "C16.05-P1",
+      "assessment": "C16.05-D1",
+      "later_use": "lesson-06",
+      "worked_example": "C16.05-W1",
+      "all_required_teaching_item_ids": [
+        "C16.05-E1",
+        "C16.05-W1",
+        "C16.05-P1",
+        "C16.05-D1"
+      ]
+    },
+    {
+      "concept_id": "C16.06",
+      "concept": "Energy and transition accounting",
+      "introduction": "lesson-06",
+      "practice": "C16.06-P1",
+      "assessment": "C16.06-D1",
+      "later_use": "lesson-07",
+      "worked_example": "C16.06-W1",
+      "all_required_teaching_item_ids": [
+        "C16.06-E1",
+        "C16.06-W1",
+        "C16.06-P1",
+        "C16.06-D1"
+      ]
+    },
+    {
+      "concept_id": "C16.07",
+      "concept": "What a complete interaction specification needs",
+      "introduction": "lesson-07",
+      "practice": "C16.07-P1",
+      "assessment": "C16.07-D1",
+      "later_use": "capstone",
+      "worked_example": "C16.07-W1",
+      "all_required_teaching_item_ids": [
+        "C16.07-E1",
+        "C16.07-W1",
+        "C16.07-P1",
+        "C16.07-D1"
+      ]
+    }
+  ],
+  "course_map": [
+    {
+      "id": "lesson-01",
+      "title": "Interactions must match their inputs",
+      "entry_prerequisites": [
+        "course-15"
+      ],
+      "concept_ids": [
+        "C16.01"
+      ],
+      "worked_example_capability": "Track the types and charges entering a simple interaction",
+      "assessment_target": "Track the types and charges entering a simple interaction",
+      "later_use": "lesson-02",
+      "core_minutes": 110,
+      "teaching_anchor": {
+        "lesson_id": "lesson-01",
+        "concept_id": "C16.01",
+        "explanation_id": "C16.01-E1",
+        "bridge_to_teach": "Carry the course15 typed sectors forward. Specify H_phi in W of bidegree(0,1),q=3,Y=1/2 and its Hermitian-dual covector barH with q=-3. Read each of the four source interface formulas before computing its charge.",
+        "worked_example": {
+          "id": "C16.01-W1",
+          "task_and_answer": "Up inputs u^c(2,0),Q(1,1),H(0,1) have q=-4+1+3=0 and total bidegree(3,2). Neutrino inputs nu^c(0,0),L(3,1),H(0,1) have0-3+3=0 and(3,2)."
+        },
+        "guided_practice": {
+          "id": "C16.01-P1",
+          "task_and_answer": "Down inputs d^c(2,2),Q(1,1),barH covector: charges2+1-3=0; contracting one weak slot first leaves d^c at(2,1), then top degree(3,2). Electron e^c(0,2),L(3,1),barH gives6-3-3=0, contraction yields e^c at(0,1), then(3,2)."
+        },
+        "diagnostic": {
+          "id": "C16.01-D1",
+          "task_and_answer": "Replacing barH by H in down gives2+1+3=6 and is not the same interface. Zero charge alone cannot replace the declared color/weak contractions or the top-form check."
+        },
+        "planned_periods": 2,
+        "minutes_per_period": 55,
+        "teaching_allocation_per_period": {
+          "retrieval": 5,
+          "explanation_and_worked_example": 20,
+          "guided_practice": 15,
+          "independent_diagnostics_and_repair": 15
+        },
+        "production_requirement": "Expand these anchors into actual senior-facing teaching with 2–4 goals and 3–5 answered diagnostics. Preserve original IDs and all source/educational amendments. Every assessed operation needs prior independently answered practice. Periods may expand; split dense sessions with all links updated.",
+        "original_title": "Interactions must match their inputs",
+        "original_assessment_target": "Track the types and charges entering a simple interaction",
+        "required_source_amendment_ids": [],
+        "original_entry_prerequisites": [
+          "course-15"
+        ]
+      }
+    },
+    {
+      "id": "lesson-02",
+      "title": "Invariant contractions",
+      "entry_prerequisites": [
+        "lesson-01"
+      ],
+      "concept_ids": [
+        "C16.02"
+      ],
+      "worked_example_capability": "Check a small allowed contraction and a forbidden alternative",
+      "assessment_target": "Check a small allowed contraction and a forbidden alternative",
+      "later_use": "lesson-03",
+      "core_minutes": 165,
+      "teaching_anchor": {
+        "lesson_id": "lesson-02",
+        "concept_id": "C16.02",
+        "explanation_id": "C16.02-E1",
+        "bridge_to_teach": "Teach iota_l(v1 wedge...wedge vk)=sum_j(-1)^(j-1)l(vj) times the remaining wedge. Use ordered basis c1,c2,c3,w1,w2 and Omega their full wedge. Omega^-1 extracts the top-form coefficient. Explain covariance: transform every vector by U and the covector by l U^-1; detU=1 preserves Omega.",
+        "worked_example": {
+          "id": "C16.02-W1",
+          "task_and_answer": "iota_w1*(w1 wedge w2)=w2 and iota_w2*(w1 wedge w2)=-w1. For up use u=c1c2,Q=c3w1,H=w2: product=+Omega. For nu use nu=1,L=c1c2c3w1,H=w2: +Omega."
+        },
+        "guided_practice": {
+          "id": "C16.02-P1",
+          "task_and_answer": "For down use d=c1c2w1w2,Q=c3w1,barH=w1*: contraction givesc1c2w2 and Q wedge that is+Omega. For electron e=w1w2,L=c1c2c3w1,barH=w1*: contractionw2 yields+Omega. Using H=w1 with L endingw1 gives zero because a basis factor repeats; this is a zero component, not a new allowed nonzero scalar."
+        },
+        "diagnostic": {
+          "id": "C16.02-D1",
+          "task_and_answer": "An arbitrary charge-zero product need not be top degree. Check signs, vector/covector type, weak slot removed and final degree(3,2). Under diag(i,-i,1,1,1), the color phases multiply1 and the tested scalars remain unchanged; under a weak phase the covector must transform inversely."
+        },
+        "planned_periods": 3,
+        "minutes_per_period": 55,
+        "teaching_allocation_per_period": {
+          "retrieval": 5,
+          "explanation_and_worked_example": 20,
+          "guided_practice": 15,
+          "independent_diagnostics_and_repair": 15
+        },
+        "production_requirement": "Expand these anchors into actual senior-facing teaching with 2–4 goals and 3–5 answered diagnostics. Preserve original IDs and all source/educational amendments. Every assessed operation needs prior independently answered practice. Periods may expand; split dense sessions with all links updated.",
+        "supplemental_exercises": [
+          {
+            "explanation_id": "C16.02-E2",
+            "worked_example_id": "C16.02-W2",
+            "prior_practice_id": "C16.02-P2",
+            "diagnostic_id": "C16.02-D2",
+            "explanation": "Apply a block-unitary diagonal action to all vector and dual slots. Covectors acquire inverse phases. Verify the evaluated scalar directly before the general covariance statement.",
+            "worked_task_and_answer": "Take weak diag(i,-i) and identity color. For upQ containingw1 gainsi,H=w2 gains-i, so product factor1. For neutrinoL endingw1 gainsi andH=w2 gains-i, again1.",
+            "practice_task_and_answer": "For down,d=c1c2w1w2 has weak phase1,Q=c3w1 gainsi,barH=w1* gains-i, so final factor1. Electron e=w1w2 has1,L endingw1 gainsi,barH gains-i, again1. Separately choose upu=c1c3,Q=c2w1,H=w2: one color swap gives-Omega; nuL=c1c2c3w2,H=w1 gives-Omega. Thus signs may differ while invariant scalar character remains.",
+            "diagnostic_task_and_answer": "If barH is incorrectly transformed as a vector with phasei, the down/electron product acquiresi*i=-1; this falsifies that mistyped action. Retain the failed sign and repair the dual rule."
+          }
+        ],
+        "original_title": "Invariant contractions",
+        "original_assessment_target": "Check a small allowed contraction and a forbidden alternative",
+        "required_source_amendment_ids": [],
+        "original_entry_prerequisites": [
+          "lesson-01"
+        ]
+      }
+    },
+    {
+      "id": "lesson-03",
+      "title": "The Higgs doublet interface",
+      "entry_prerequisites": [
+        "lesson-02"
+      ],
+      "concept_ids": [
+        "C16.03"
+      ],
+      "worked_example_capability": "Explain the role of the supplied doublet and vacuum coordinate",
+      "assessment_target": "Explain the role of the supplied doublet and vacuum coordinate",
+      "later_use": "lesson-04",
+      "core_minutes": 55,
+      "teaching_anchor": {
+        "lesson_id": "lesson-03",
+        "concept_id": "C16.03",
+        "explanation_id": "C16.03-E1",
+        "bridge_to_teach": "Teach the two Higgs components explicitly: H=(H_plus,H_zero), T3=diag(1/2,-1/2),Y=I/2 and Qelectric=T3+Y. Treat v as a supplied nonnegative magnitude with declared mass units in the compiler convention; no numerical vacuum scale is derived here.",
+        "worked_example": {
+          "id": "C16.03-W1",
+          "task_and_answer": "Qelectric=diag(1,0), so upper charge+1 and lower charge0. Supplied vacuum(0,v/sqrt2) is annihilated by Qelectric. At synthetic v=2 mass units, vacuum=(0,sqrt2), norm squared2."
+        },
+        "guided_practice": {
+          "id": "C16.03-P1",
+          "task_and_answer": "At synthetic v=4, vacuum=(0,2sqrt2), norm squared8 and Qelectric times vacuum=(0,0). A test vector(1,0) has Qelectric output(1,0), so placing a vacuum solely there does not preserve this generator."
+        },
+        "diagnostic": {
+          "id": "C16.03-D1",
+          "task_and_answer": "A charge-neutral lower component states which generator leaves that vector fixed; it does not choose v, potential coefficients, vacuum stability or transition rate."
+        },
+        "planned_periods": 1,
+        "minutes_per_period": 55,
+        "teaching_allocation_per_period": {
+          "retrieval": 5,
+          "explanation_and_worked_example": 20,
+          "guided_practice": 15,
+          "independent_diagnostics_and_repair": 15
+        },
+        "production_requirement": "Expand these anchors into actual senior-facing teaching with 2–4 goals and 3–5 answered diagnostics. Preserve original IDs and all source/educational amendments. Every assessed operation needs prior independently answered practice. Periods may expand; split dense sessions with all links updated.",
+        "original_title": "The Higgs doublet interface",
+        "original_assessment_target": "Explain the role of the supplied doublet and vacuum coordinate",
+        "required_source_amendment_ids": [],
+        "original_entry_prerequisites": [
+          "lesson-02"
+        ]
+      }
+    },
+    {
+      "id": "lesson-04",
+      "title": "Unbroken charge and mass formulas",
+      "entry_prerequisites": [
+        "lesson-03"
+      ],
+      "concept_ids": [
+        "C16.04"
+      ],
+      "worked_example_capability": "Derive a scaffolded charge-preservation and algebraic mass relation",
+      "assessment_target": "Derive a scaffolded charge-preservation and algebraic mass relation",
+      "later_use": "lesson-05",
+      "core_minutes": 110,
+      "teaching_anchor": {
+        "lesson_id": "lesson-04",
+        "concept_id": "C16.04",
+        "explanation_id": "C16.04-E1",
+        "bridge_to_teach": "Use the supplied compiler quadratic-form formulas mW^2=g2^2 v^2/4 and mZ^2=(g2^2+gY^2)v^2/4. Define cos²theta=g2²/(g2²+gY²), then cancel factors to derive rho=mW²/(mZ² cos²theta)=1 where the denominator is nonzero.",
+        "worked_example": {
+          "id": "C16.04-W1",
+          "task_and_answer": "Synthetic dimensionless g2=3,gY=4 and v=2 mass units gives mW²=9,mZ²=25,cos²theta=9/25,rho=1. These are algebraic outputs, not measured masses."
+        },
+        "guided_practice": {
+          "id": "C16.04-P1",
+          "task_and_answer": "Synthetic g2=4,gY=3,v=2 gives mW²=16,mZ²=25,cos²theta=16/25,rho=1. Doubling v doubles the positive masses and multiplies squared masses by4; couplings and ratio stay fixed."
+        },
+        "diagnostic": {
+          "id": "C16.04-D1",
+          "task_and_answer": "At v=0 both squared masses vanish but the displayed ratio is0/0; do not claim it is numerically evaluated there. Matching scale and couplings remain recorded inputs. Deriving these substitutions does not derive the physical quadratic form from an untaught field theory."
+        },
+        "planned_periods": 2,
+        "minutes_per_period": 55,
+        "teaching_allocation_per_period": {
+          "retrieval": 5,
+          "explanation_and_worked_example": 20,
+          "guided_practice": 15,
+          "independent_diagnostics_and_repair": 15
+        },
+        "production_requirement": "Expand these anchors into actual senior-facing teaching with 2–4 goals and 3–5 answered diagnostics. Preserve original IDs and all source/educational amendments. Every assessed operation needs prior independently answered practice. Periods may expand; split dense sessions with all links updated.",
+        "original_title": "Unbroken charge and mass formulas",
+        "original_assessment_target": "Derive a scaffolded charge-preservation and algebraic mass relation",
+        "required_source_amendment_ids": [],
+        "original_entry_prerequisites": [
+          "lesson-03"
+        ]
+      }
+    },
+    {
+      "id": "lesson-05",
+      "title": "Yukawa maps and mixing inputs",
+      "entry_prerequisites": [
+        "lesson-04"
+      ],
+      "concept_ids": [
+        "C16.05"
+      ],
+      "worked_example_capability": "Separate matrix structure from its numerical coefficients",
+      "assessment_target": "Separate matrix structure from its numerical coefficients",
+      "later_use": "lesson-06",
+      "core_minutes": 110,
+      "teaching_anchor": {
+        "lesson_id": "lesson-05",
+        "concept_id": "C16.05",
+        "explanation_id": "C16.05-E1",
+        "bridge_to_teach": "Treat Yukawa coefficients as a supplied matrix mapping a specified finite family input to output. Separate carrier-compatible structure from numerical entries, mixing basis and normalization. Use2x2 synthetic action and explicitly retain input/state records.",
+        "worked_example": {
+          "id": "C16.05-W1",
+          "task_and_answer": "Synthetic Y=[[1,2],[0,3]] acting onf=(2,-1) gives(0,-3). Same allowed matrix shape with different entries can give different outputs. In a declared classroom mass convention M=(v/sqrt2)Y, v=sqrt2 makes M=Y."
+        },
+        "guided_practice": {
+          "id": "C16.05-P1",
+          "task_and_answer": "Synthetic Y=[[2,0],[1,1]],f=(1,2) gives(2,3). Relabel both input/output by swap P: Yprime=P Y P^T=[[1,1],[0,2]], fprime=(2,1), outputprime=(3,2)=P(2,3). Retain Y and P; structure alone does not select them."
+        },
+        "diagnostic": {
+          "id": "C16.05-D1",
+          "task_and_answer": "Do not infer mixing angles or Yukawa values from charge cancellation. A basis change must transform vectors and matrices together; a source state-coordinate list is not a table of measured coefficients."
+        },
+        "planned_periods": 2,
+        "minutes_per_period": 55,
+        "teaching_allocation_per_period": {
+          "retrieval": 5,
+          "explanation_and_worked_example": 20,
+          "guided_practice": 15,
+          "independent_diagnostics_and_repair": 15
+        },
+        "production_requirement": "Expand these anchors into actual senior-facing teaching with 2–4 goals and 3–5 answered diagnostics. Preserve original IDs and all source/educational amendments. Every assessed operation needs prior independently answered practice. Periods may expand; split dense sessions with all links updated.",
+        "original_title": "Yukawa maps and mixing inputs",
+        "original_assessment_target": "Separate matrix structure from its numerical coefficients",
+        "required_source_amendment_ids": [],
+        "original_entry_prerequisites": [
+          "lesson-04"
+        ]
+      }
+    },
+    {
+      "id": "lesson-06",
+      "title": "Energy and transition accounting",
+      "entry_prerequisites": [
+        "lesson-05"
+      ],
+      "concept_ids": [
+        "C16.06"
+      ],
+      "worked_example_capability": "Track energy changes without inferring a transition rate",
+      "assessment_target": "Track energy changes without inferring a transition rate",
+      "later_use": "lesson-07",
+      "core_minutes": 55,
+      "teaching_anchor": {
+        "lesson_id": "lesson-06",
+        "concept_id": "C16.06",
+        "explanation_id": "C16.06-E1",
+        "bridge_to_teach": "Keep a typed action/energy ledger. Read the six source action sectors as architecture with supplied coefficients and boundary states; assess only finite additive energy differences and signed residual reconstruction, not an untaught variational derivation.",
+        "worked_example": {
+          "id": "C16.06-W1",
+          "task_and_answer": "Synthetic energy ledger in common units: before(5,2,1),after(4,4,1) gives signed components(-1,+2,0), totals8->9,net+1. If a model predicts+.8, retained residual+.2 restores actual+1. No rate follows without a time/update model."
+        },
+        "guided_practice": {
+          "id": "C16.06-P1",
+          "task_and_answer": "Before(3,1,2),after(2,1,1) gives(-1,0,-1),totals6->4,net-2. Prediction-1.5 plus residual-.5 restores-2. Retain labels, signs, endpoints and any supplied external transfer; an unclosed balance remains a named residual."
+        },
+        "diagnostic": {
+          "id": "C16.06-D1",
+          "task_and_answer": "Source S_native,S_gauge,S_fermion,S_Higgs,S_Yukawa,S_TG label action terms, not automatically separately measured energies. An energy difference has no time dimension and cannot determine a transition rate by itself."
+        },
+        "planned_periods": 1,
+        "minutes_per_period": 55,
+        "teaching_allocation_per_period": {
+          "retrieval": 5,
+          "explanation_and_worked_example": 20,
+          "guided_practice": 15,
+          "independent_diagnostics_and_repair": 15
+        },
+        "production_requirement": "Expand these anchors into actual senior-facing teaching with 2–4 goals and 3–5 answered diagnostics. Preserve original IDs and all source/educational amendments. Every assessed operation needs prior independently answered practice. Periods may expand; split dense sessions with all links updated.",
+        "original_title": "Energy and transition accounting",
+        "original_assessment_target": "Track energy changes without inferring a transition rate",
+        "required_source_amendment_ids": [],
+        "original_entry_prerequisites": [
+          "lesson-05"
+        ]
+      }
+    },
+    {
+      "id": "lesson-07",
+      "title": "What a complete interaction specification needs",
+      "entry_prerequisites": [
+        "lesson-06"
+      ],
+      "concept_ids": [
+        "C16.07"
+      ],
+      "worked_example_capability": "List the supplied parameters and possible observations that determine them",
+      "assessment_target": "List the supplied parameters and possible observations that determine them",
+      "later_use": "capstone",
+      "core_minutes": 55,
+      "teaching_anchor": {
+        "lesson_id": "lesson-07",
+        "concept_id": "C16.07",
+        "explanation_id": "C16.07-E1",
+        "bridge_to_teach": "List the complete interaction contract: ordered sectors, conjugate/dual rules, Omega, coefficient matrices, vacuum magnitude, potential coefficients, mixing basis, couplings, matching scale, units, boundary/initial states and tested observations. Distinguish proposed measurement categories from acquired data.",
+        "worked_example": {
+          "id": "C16.07-W1",
+          "task_and_answer": "For the worked ledger record synthetic g2=3,gY=4,v=2, chosenY and basis, finite contraction examples, mass identities and energy residual. Potential coefficients and matching scale are unspecified inputs; do not fill them from symmetry alone."
+        },
+        "guided_practice": {
+          "id": "C16.07-P1",
+          "task_and_answer": "For the practice ledger recordg2=4,gY=3,v=2,Y=[[2,0],[1,1]],explicit swapP and energy remainder-.5. Mark masses/mixing measurements as possible constraints, rate data as additional transition information, and scale/state assumptions as required metadata; no observation is invented."
+        },
+        "diagnostic": {
+          "id": "C16.07-D1",
+          "task_and_answer": "A complete structural interface may leave numerical coordinates unfilled. Label those open inputs; do not claim unique masses, potential or rates. Preserve source-reported compiler statements separately from this finite classroom replay."
+        },
+        "planned_periods": 1,
+        "minutes_per_period": 55,
+        "teaching_allocation_per_period": {
+          "retrieval": 5,
+          "explanation_and_worked_example": 20,
+          "guided_practice": 15,
+          "independent_diagnostics_and_repair": 15
+        },
+        "production_requirement": "Expand these anchors into actual senior-facing teaching with 2–4 goals and 3–5 answered diagnostics. Preserve original IDs and all source/educational amendments. Every assessed operation needs prior independently answered practice. Periods may expand; split dense sessions with all links updated.",
+        "original_title": "What a complete interaction specification needs",
+        "original_assessment_target": "List the supplied parameters and possible observations that determine them",
+        "required_source_amendment_ids": [],
+        "original_entry_prerequisites": [
+          "lesson-06"
+        ]
+      }
+    }
+  ],
+  "capstone_specification": {
+    "task": "Design a typed interaction ledger with charge checks, an explicit synthetic coefficient example, and a clear list of source-defined inputs.",
+    "required_operations": [
+      "Record types,charges and bidegrees of all four supplied interaction interfaces.",
+      "Calculate the four taught basis contractions with signs and final top degree; test a zero repeated-slot case and state the covariance argument.",
+      "Compute two Higgs component charges and test the neutral vacuum atv=4.",
+      "Substitute syntheticg2=4,gY=3,v=2 into mass-squared formulas and verifyrho with its denominator condition.",
+      "Apply the practice Yukawa matrix and the explicit swap basis change, preserving all coefficients and maps.",
+      "Rebuild the signed practice energy ledger from endpoints,prediction and residual; identify missing rate information.",
+      "Complete the typed interaction contract and list unfilled source state inputs and possible constraining observations without inventing data."
+    ],
+    "rule": "Map every capstone operation to a prior introduction and practice; provide full answers, point rubric, source scope, and residual accounting.",
+    "backward_map": [
+      {
+        "step_id": "C16-CAP-01",
+        "operation": "Record types,charges and bidegrees of all four supplied interaction interfaces.",
+        "introduction": "lesson-01",
+        "explanation_id": "C16.01-E1",
+        "worked_example_id": "C16.01-W1",
+        "prior_practice_id": "C16.01-P1",
+        "diagnostic_id": "C16.01-D1"
+      },
+      {
+        "step_id": "C16-CAP-02",
+        "operation": "Calculate the four taught basis contractions with signs and final top degree; test a zero repeated-slot case and state the covariance argument.",
+        "introduction": "lesson-02",
+        "explanation_id": "C16.02-E1",
+        "worked_example_id": "C16.02-W1",
+        "prior_practice_id": "C16.02-P1",
+        "diagnostic_id": "C16.02-D1",
+        "additional_explanation_id": "C16.02-E2",
+        "additional_worked_example_id": "C16.02-W2",
+        "additional_prior_practice_id": "C16.02-P2",
+        "additional_diagnostic_id": "C16.02-D2"
+      },
+      {
+        "step_id": "C16-CAP-03",
+        "operation": "Compute two Higgs component charges and test the neutral vacuum atv=4.",
+        "introduction": "lesson-03",
+        "explanation_id": "C16.03-E1",
+        "worked_example_id": "C16.03-W1",
+        "prior_practice_id": "C16.03-P1",
+        "diagnostic_id": "C16.03-D1"
+      },
+      {
+        "step_id": "C16-CAP-04",
+        "operation": "Substitute syntheticg2=4,gY=3,v=2 into mass-squared formulas and verifyrho with its denominator condition.",
+        "introduction": "lesson-04",
+        "explanation_id": "C16.04-E1",
+        "worked_example_id": "C16.04-W1",
+        "prior_practice_id": "C16.04-P1",
+        "diagnostic_id": "C16.04-D1"
+      },
+      {
+        "step_id": "C16-CAP-05",
+        "operation": "Apply the practice Yukawa matrix and the explicit swap basis change, preserving all coefficients and maps.",
+        "introduction": "lesson-05",
+        "explanation_id": "C16.05-E1",
+        "worked_example_id": "C16.05-W1",
+        "prior_practice_id": "C16.05-P1",
+        "diagnostic_id": "C16.05-D1"
+      },
+      {
+        "step_id": "C16-CAP-06",
+        "operation": "Rebuild the signed practice energy ledger from endpoints,prediction and residual; identify missing rate information.",
+        "introduction": "lesson-06",
+        "explanation_id": "C16.06-E1",
+        "worked_example_id": "C16.06-W1",
+        "prior_practice_id": "C16.06-P1",
+        "diagnostic_id": "C16.06-D1"
+      },
+      {
+        "step_id": "C16-CAP-07",
+        "operation": "Complete the typed interaction contract and list unfilled source state inputs and possible constraining observations without inventing data.",
+        "introduction": "lesson-07",
+        "explanation_id": "C16.07-E1",
+        "worked_example_id": "C16.07-W1",
+        "prior_practice_id": "C16.07-P1",
+        "diagnostic_id": "C16.07-D1"
+      }
+    ]
+  },
+  "blueprint_audit": {
+    "status": "approved_source_and_prerequisite_blueprint",
+    "unresolved_critical": 0,
+    "unresolved_major": 0,
+    "source_review": {
+      "status": "ready_for_source_scoped_drafting",
+      "basis": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\source-coverage\\source-coverage-audit.json",
+      "source_report_sha256": "eef89a28971ef7e5380977c31b62ed6d64f2831759e679ee967b6c253a33c04a",
+      "portable_requirements_applied": true,
+      "educational_acceptance": "Independent teaching review and actual E05 content gate remain required.",
+      "applied_at": "2026-11-05T17:02:05.375955+00:00"
+    },
+    "teaching_review_path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\teaching\\launch-review-13-16.json",
+    "teaching_amendment_sha256": "fd66f902e1d1a8d76fced446fba7073139021eafb977bdda708f094add509d34",
+    "review_scope": "Blueprint clearance only. Actual lesson content and E05 links require independent final acceptance.",
+    "applied_at": "2026-11-05T18:21:11.257752+00:00"
+  },
+  "validator": {
+    "skill_relative_path": "scripts/validate_course.py",
+    "required_command": "& 'C:\\ProgramData\\anaconda3\\Scripts\\conda.exe' run -n tf_gpu_env python 'C:\\Users\\info\\.codex\\skills\\build-high-school-course\\scripts\\validate_course.py' 'Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces' --json"
+  },
+  "storage_override": {
+    "authority": "User: write outputs to the project folder and move them later",
+    "original_root": "C:\\Users\\info\\Desktop\\K-Field_Training_Course",
+    "canonical_project_root": "Z:\\Kfield-doc-training\\K-Field_Training_Course"
+  },
+  "production_requirements": {
+    "E05": [
+      "Replace generic coverage placeholders with actual explanation, worked-example, practice, diagnostic, and capstone step IDs. A row passes only when the referenced content exists and the operation is taught before use.",
+      "For each capstone break the requested product into concrete operations with named inputs/outputs, link each operation to an earlier explanation AND an independently answered practice item; do not merely repeat outcome text.",
+      "Use source-exact finite examples where available and separately labeled synthetic analogues otherwise. Recognition-only extensions cannot be required computations.",
+      "Record teaching/practice/check minutes per lesson; split overloaded lessons and update every lesson/coverage/capstone link. Shared advanced notation is author guidance until introduced locally."
+    ]
+  },
+  "applied_audit_amendments": {},
+  "source_audit_readiness": {
+    "status": "ready_for_source_scoped_drafting",
+    "basis": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\source-coverage\\source-coverage-audit.json",
+    "source_report_sha256": "eef89a28971ef7e5380977c31b62ed6d64f2831759e679ee967b6c253a33c04a",
+    "portable_requirements_applied": true,
+    "educational_acceptance": "Independent teaching review and actual E05 content gate remain required.",
+    "applied_at": "2026-11-05T17:02:05.375955+00:00"
+  },
+  "teaching_blueprint_contract": {
+    "schema_version": "1.0",
+    "created_utc": "2026-11-05T18:20:13.697555+00:00",
+    "scope": "Portable teaching BLUEPRINT amendments only; no completed-course approval.",
+    "source_basis": [
+      {
+        "id": "S01",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+        "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+        "role": "archival source; reported status is distinct from fresh verification"
+      },
+      {
+        "id": "S02",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+        "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+        "role": "archival source; reported status is distinct from fresh verification"
+      },
+      {
+        "id": "S03",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+        "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+        "role": "archival source; reported status is distinct from fresh verification"
+      },
+      {
+        "id": "S04",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+        "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+        "role": "archival source; reported status is distinct from fresh verification"
+      },
+      {
+        "id": "S05",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+        "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+        "role": "archival source; reported status is distinct from fresh verification"
+      }
+    ],
+    "verification_record": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-teaching-auditor\\outputs\\teaching-verification-13-16.json",
+    "verification_sha256": "eda2840c44c9a47632abf08c053968aae295e8153d693a3a43b7ec1cc6a52db4",
+    "integration_provenance": {
+      "I01": {
+        "logical_path": "applications/kfield_standard_model/collaborator_record/project_record.json",
+        "retrieved_alias": "kfield_standard_model/project_record.json",
+        "sha256": "3800c854da827a64e72507722904bcafab07a31e88f2bc73920a8e7f62f62c1c",
+        "pointers": [
+          "/hazards/3",
+          "/open_obligations/1",
+          "/open_obligations/2"
+        ],
+        "retrieval": "Krytronx RAG source-attributed lines1–142; semantic_entity search returned no match; ragobj byte getter returned object-not-found. Content below is grounded in the returned RAG source excerpts and the matching prior source-audit hash, not a fresh local byte hash.",
+        "global_form_family": [
+          "Z1",
+          "Z2",
+          "Z3",
+          "Z6"
+        ],
+        "status": "integration admits the family; unique physical member remains unresolved"
+      },
+      "I02": {
+        "logical_path": "kfield_standard_model/evidence/p12_standard_model_compiler_adjudication_report.json",
+        "sha256": "a3dfca0e55e525c6522c3088b95e5bcc048c141fce340bfe980fcfc14123220a",
+        "pointers": [
+          "/direct_authority_modules",
+          "/agda/certificate",
+          "/known_science_replay"
+        ],
+        "retrieval": "Krytronx RAG source-attributed lines1–101; exact fields visible in returned source excerpt.",
+        "direct_authority_modules": [
+          "M03",
+          "M07",
+          "M08"
+        ],
+        "namespace": "Standard Model compiler adjudication, not mathematical backbone",
+        "reported_certificate": "KField.StandardModelCompilerAdjudication.p12-standard-model-compiler-adjudication",
+        "fresh_typecheck": false
+      },
+      "retrieval_identity": {
+        "corpus_generation": "sha256:5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+        "manifest_sha256": "5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+        "origin": "paired fields on RAG responses; capabilities alone exposed no corpus pair",
+        "rag_index_sha256": "aca56e6b5b2b717459cea9790e6142ea9e8058f74d135710906926e9065ad54a"
+      },
+      "teaching_use": "Supply this small provenance card with source-local contract and integration status in separate rows. No compiler execution, global physical uniqueness or source-author authentication is claimed."
+    },
+    "source_or_project_files_modified": false,
+    "course_amendment": {
+      "course_id": "course-16",
+      "input_contract_path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\input-contract.json",
+      "input_contract_sha256": "b992442aae2ae774be60ab0e7b55a68fb664d05db12083ea38e49aa2560e6073",
+      "application": "Merge additively as teaching_amendment, replace generic coverage references with explicit exercise IDs, and retain all original concepts, source amendments and educational bridge IDs. Parent applies; no project edit was made.",
+      "applied_source_amendments_read": {},
+      "original_subject_kernel": {
+        "objects_and_operations": [
+          {
+            "concept_id": "C16.01",
+            "concept": "Interactions must match their inputs",
+            "operation": "Track the types and charges entering a simple interaction"
+          },
+          {
+            "concept_id": "C16.02",
+            "concept": "Invariant contractions",
+            "operation": "Check a small allowed contraction and a forbidden alternative"
+          },
+          {
+            "concept_id": "C16.03",
+            "concept": "The Higgs doublet interface",
+            "operation": "Explain the role of the supplied doublet and vacuum coordinate"
+          },
+          {
+            "concept_id": "C16.04",
+            "concept": "Unbroken charge and mass formulas",
+            "operation": "Derive a scaffolded charge-preservation and algebraic mass relation"
+          },
+          {
+            "concept_id": "C16.05",
+            "concept": "Yukawa maps and mixing inputs",
+            "operation": "Separate matrix structure from its numerical coefficients"
+          },
+          {
+            "concept_id": "C16.06",
+            "concept": "Energy and transition accounting",
+            "operation": "Track energy changes without inferring a transition rate"
+          },
+          {
+            "concept_id": "C16.07",
+            "concept": "What a complete interaction specification needs",
+            "operation": "List the supplied parameters and possible observations that determine them"
+          }
+        ],
+        "source_modules": [
+          "M12"
+        ],
+        "scope": "Design a typed interaction ledger with charge checks, an explicit synthetic coefficient example, and a clear list of source-defined inputs.",
+        "common_failure_modes": [
+          "Untaught prerequisite",
+          "Unscoped symbol or unit",
+          "An illustrative example presented as real evidence",
+          "A source label promoted beyond its evidence class",
+          "A residual or source branch silently omitted"
+        ]
+      },
+      "original_capstone_specification": {
+        "task": "Design a typed interaction ledger with charge checks, an explicit synthetic coefficient example, and a clear list of source-defined inputs.",
+        "required_operations": [
+          "Track the types and charges entering a simple interaction",
+          "Check a small allowed contraction and a forbidden alternative",
+          "Explain the role of the supplied doublet and vacuum coordinate",
+          "Derive a scaffolded charge-preservation and algebraic mass relation",
+          "Separate matrix structure from its numerical coefficients",
+          "Track energy changes without inferring a transition rate",
+          "List the supplied parameters and possible observations that determine them"
+        ],
+        "rule": "Map every capstone operation to a prior introduction and practice; provide full answers, point rubric, source scope, and residual accounting."
+      },
+      "source_coverage_review_rows": [
+        {
+          "course_id": "course-16",
+          "title": "Higgs, Yukawa, and Interaction Interfaces",
+          "backbone_modules": [
+            "M12"
+          ],
+          "topic_boundary": "Typed Higgs/Yukawa contractions; supplied vacuum, coefficients, mixing and matching-scale coordinates.",
+          "cognitive_or_fidelity_risk": "General contractions need explicit small examples; coefficients remain inputs.",
+          "status": "source_map_review_complete_teaching_decision_pending",
+          "primary_sources": [
+            "S02"
+          ],
+          "source_pointer": "/backbone_sequence/11",
+          "packet_at_review": {
+            "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\input-contract.json",
+            "sha256": "c8f00b5774ee3abe3c1435ed43d1cf947fdf3000fd298ac26e92c06003d8f891",
+            "lesson_count": 7
+          },
+          "required_amendment_ids": [],
+          "source_launch_decision": "ready_for_source_scoped_drafting_with_required_gates",
+          "decision_scope": "Source/coverage only; no new teaching acceptance or finished-course validation.",
+          "educational_gate": [
+            "E05",
+            "independent_teaching_recheck"
+          ]
+        }
+      ],
+      "source_scope": {
+        "primary": "S02#/backbone_sequence/11",
+        "branches": [
+          "S02#/branch_proofs/7"
+        ],
+        "source_formula_ids": [
+          "KFM-X028",
+          "KFM-X029",
+          "KFM-X030"
+        ],
+        "invariance_bridge": "Exterior functor U acts on each vector; a dual covector acts by l U^-1, preserving evaluation and contraction. Top-form extraction is invariant when detU=1. Explicit small basis checks illustrate this argument; charge0 alone is insufficient.",
+        "occupied_state_inputs": [
+          "vacuum magnitude",
+          "Higgs-potential coefficients",
+          "Yukawa coefficient matrices",
+          "mixing coordinates",
+          "matching scale"
+        ],
+        "additional_ledger_inputs": [
+          "g2",
+          "gY",
+          "ordered basis",
+          "units",
+          "initial/boundary state",
+          "matching-scale metadata",
+          "any dynamical rule needed for rates"
+        ],
+        "compiler_scope": "Mass-squared relations are supplied parameterized compiler formulas; rho identity is checked on its nonzero denominator domain. Numerical masses, coefficient matrices and energy examples are synthetic, not observations."
+      },
+      "course_map": [
+        {
+          "id": "lesson-01",
+          "title": "Interactions must match their inputs",
+          "entry_prerequisites": [
+            "course-15"
+          ],
+          "concept_ids": [
+            "C16.01"
+          ],
+          "worked_example_capability": "Track the types and charges entering a simple interaction",
+          "assessment_target": "Track the types and charges entering a simple interaction",
+          "later_use": "lesson-02",
+          "core_minutes": 55,
+          "planned_periods": 2,
+          "planned_total_minutes": 110,
+          "explanation_id": "C16.01-E1",
+          "worked_example_id": "C16.01-W1",
+          "prior_practice_id": "C16.01-P1",
+          "diagnostic_id": "C16.01-D1"
+        },
+        {
+          "id": "lesson-02",
+          "title": "Invariant contractions",
+          "entry_prerequisites": [
+            "lesson-01"
+          ],
+          "concept_ids": [
+            "C16.02"
+          ],
+          "worked_example_capability": "Check a small allowed contraction and a forbidden alternative",
+          "assessment_target": "Check a small allowed contraction and a forbidden alternative",
+          "later_use": "lesson-03",
+          "core_minutes": 55,
+          "planned_periods": 3,
+          "planned_total_minutes": 165,
+          "explanation_id": "C16.02-E1",
+          "worked_example_id": "C16.02-W1",
+          "prior_practice_id": "C16.02-P1",
+          "diagnostic_id": "C16.02-D1"
+        },
+        {
+          "id": "lesson-03",
+          "title": "The Higgs doublet interface",
+          "entry_prerequisites": [
+            "lesson-02"
+          ],
+          "concept_ids": [
+            "C16.03"
+          ],
+          "worked_example_capability": "Explain the role of the supplied doublet and vacuum coordinate",
+          "assessment_target": "Explain the role of the supplied doublet and vacuum coordinate",
+          "later_use": "lesson-04",
+          "core_minutes": 55,
+          "planned_periods": 1,
+          "planned_total_minutes": 55,
+          "explanation_id": "C16.03-E1",
+          "worked_example_id": "C16.03-W1",
+          "prior_practice_id": "C16.03-P1",
+          "diagnostic_id": "C16.03-D1"
+        },
+        {
+          "id": "lesson-04",
+          "title": "Unbroken charge and mass formulas",
+          "entry_prerequisites": [
+            "lesson-03"
+          ],
+          "concept_ids": [
+            "C16.04"
+          ],
+          "worked_example_capability": "Derive a scaffolded charge-preservation and algebraic mass relation",
+          "assessment_target": "Derive a scaffolded charge-preservation and algebraic mass relation",
+          "later_use": "lesson-05",
+          "core_minutes": 55,
+          "planned_periods": 2,
+          "planned_total_minutes": 110,
+          "explanation_id": "C16.04-E1",
+          "worked_example_id": "C16.04-W1",
+          "prior_practice_id": "C16.04-P1",
+          "diagnostic_id": "C16.04-D1"
+        },
+        {
+          "id": "lesson-05",
+          "title": "Yukawa maps and mixing inputs",
+          "entry_prerequisites": [
+            "lesson-04"
+          ],
+          "concept_ids": [
+            "C16.05"
+          ],
+          "worked_example_capability": "Separate matrix structure from its numerical coefficients",
+          "assessment_target": "Separate matrix structure from its numerical coefficients",
+          "later_use": "lesson-06",
+          "core_minutes": 55,
+          "planned_periods": 2,
+          "planned_total_minutes": 110,
+          "explanation_id": "C16.05-E1",
+          "worked_example_id": "C16.05-W1",
+          "prior_practice_id": "C16.05-P1",
+          "diagnostic_id": "C16.05-D1"
+        },
+        {
+          "id": "lesson-06",
+          "title": "Energy and transition accounting",
+          "entry_prerequisites": [
+            "lesson-05"
+          ],
+          "concept_ids": [
+            "C16.06"
+          ],
+          "worked_example_capability": "Track energy changes without inferring a transition rate",
+          "assessment_target": "Track energy changes without inferring a transition rate",
+          "later_use": "lesson-07",
+          "core_minutes": 55,
+          "planned_periods": 1,
+          "planned_total_minutes": 55,
+          "explanation_id": "C16.06-E1",
+          "worked_example_id": "C16.06-W1",
+          "prior_practice_id": "C16.06-P1",
+          "diagnostic_id": "C16.06-D1"
+        },
+        {
+          "id": "lesson-07",
+          "title": "What a complete interaction specification needs",
+          "entry_prerequisites": [
+            "lesson-06"
+          ],
+          "concept_ids": [
+            "C16.07"
+          ],
+          "worked_example_capability": "List the supplied parameters and possible observations that determine them",
+          "assessment_target": "List the supplied parameters and possible observations that determine them",
+          "later_use": "capstone",
+          "core_minutes": 55,
+          "planned_periods": 1,
+          "planned_total_minutes": 55,
+          "explanation_id": "C16.07-E1",
+          "worked_example_id": "C16.07-W1",
+          "prior_practice_id": "C16.07-P1",
+          "diagnostic_id": "C16.07-D1"
+        }
+      ],
+      "core_periods": 12,
+      "capstone_periods": 3,
+      "period_minutes": 55,
+      "core_boundary": "Finite signed arithmetic,explicit matrices,small exterior basis operations and source-reading cards. General Lie theory,quotient-bundle anomaly proofs,full source compiler execution,empirical physical uniqueness and untaught variational dynamics are not hidden capstone requirements.",
+      "prerequisite_status": "Blueprint closure checked for explicit operations. Final produced explanations,answered practice and assessment must still undergo independent content acceptance.",
+      "inline_content_location": "Complete lesson anchors are in course_map[*].teaching_anchor; complete capstone mapping is in capstone_specification.backward_map below."
+    },
+    "completed_course_acceptance": false
+  }
+}
+```

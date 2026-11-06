@@ -1,0 +1,35 @@
+{
+  "status": "all_seven_lessons_read_supports_and_determinant_repair_pending",
+  "course_id": "course-23",
+  "read_hashes": {
+    "lesson-01.md": "330922aede9ea28d7512c0f947a7b93b44f4116f967fc1c23717b7faad8bd201",
+    "lesson-02.md": "a738cb3830ee1a1dd6bb47cf382ad09904ea6224bc31029f3c6891329f26dd6c",
+    "lesson-03.md": "3cd3897f8e06fbb4ebd51ff18efa380150ed0a5ff77373373ae85e56bf660f29",
+    "lesson-04.md": "88b8b8dccd4548f2f17182b9707920bf86e7daddae4c5e5882da56ada9100e94",
+    "lesson-05.md": "27048c7ce0dceb3a0edcd9a9959be829efe49f302553cc8a8d647d2c9f94f696",
+    "lesson-06.md": "1640b9a6e8a754dce849bc144c487754712e053ca2f0eea4ef74de07ff4b5821",
+    "lesson-07.md": "3eb6d4f9d739ffc9375f05590a8ac206b59a3a5e5850ac6e72591d7d7e4e3a54"
+  },
+  "lesson_review_notes": [
+    "Common positive area reference and dimensionless logs taught; forward F/M/G and inverse substitutions correct. F/M inferred from inverse formulas are not claimed loaded definition bodies. Scale6t and missing Gamma2 constant retained. Parent found determinant sign error: forward matrix determinant is+6, not-6; repair requested.",
+    "Synthetic diagonal basis, origin subtraction, Gram/inverse metric, reciprocal q and oriented normal/spacing taught. Bragg separate packets and nonzero sine branch explicit. Signed residual reconstructs q=(3/5,2/15,0), norm square17/45. Locked negative Cell3 convention unchanged.",
+    "Signed velocity/acceleration projections and retained perpendicular vectors reconstructed. Normal reversal scalar/vector distinction exact. Force8 requires explicit mu2 and constitutive rule; hypothetical9 retains residual+1.",
+    "Open and periodic graphs explicitly enumerated; spanning-tree argument proves cycle dimension with F2 edge convention. Counts27/54/28 and27/81/55, 2D9/12/4 and9/18/10 sound. 52-sector and cohomology/exceptional theorem cards clearly beyond finite count proof.",
+    "Full matrix operations and two-element action taught. Swap intertwines diag(1,-1) anddiag(-1,1); identity failsdiag(2,-2). Practice sigma prime=-I givesdiag(2,0), no invertible map by explicit zero firstcolumn and trace. Full defects retained; bracket example one relation only; real forms and specific exceptional action remain missing.",
+    "Two rules calibrated to same syntheticcase, fixed coefficients with units. Held residualsH1(0,1),H2(-4,-3) preserve every case; orientation predictions(+2,-2,0). Additionalc normal_y term explicitly proposed and separate calibration/held tests required.",
+    "All branch provenance, local finite check and remaining obligation preserved. M19 requiresM07/M08/M10/M13/M18 but is not a premise ofM20 core underAUD001. AUD009/010/011 source boundaries and complete premise contracts retained. Atlas practice reuses earlier answered reconstructions and prospective test."
+  ],
+  "source_objects_read_directly": [
+    "S02#/backbone_sequence/18 (all branches)",
+    "S03#/findings/0 (AUD-001)",
+    "S03#/findings/8 (AUD-009)",
+    "S03#/findings/9 (AUD-010)",
+    "S03#/findings/10 (AUD-011)"
+  ],
+  "independent_mathematics": "course-23-parent-math-verification.json:68 exact checks, including correct determinant+6 and full inverse identities, reciprocal residuals, graph enumeration and representation defects.",
+  "pending": [
+    "Reread determinant correction and final changed lesson bytes",
+    "Read complete capstone/key/rubric, teacher guide, map, glossary, provenance and final audits",
+    "Verify current source/file hashes and real project validator after builder idle"
+  ]
+}

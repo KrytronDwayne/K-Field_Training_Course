@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "id": "S01",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "actual_sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "hash_verified": true,
+      "content_use": "Inventory/hash verification only; no content claim based on this file"
+    },
+    {
+      "id": "S02",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "actual_sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "hash_verified": true,
+      "content_use": "Required conventions read directly"
+    },
+    {
+      "id": "S03",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "actual_sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "hash_verified": true,
+      "content_use": "Inventory/hash verification only; no content claim based on this file"
+    },
+    {
+      "id": "S04",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+      "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "actual_sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "hash_verified": true,
+      "content_use": "Inventory/hash verification only; no content claim based on this file"
+    },
+    {
+      "id": "S05",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+      "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "actual_sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+      "hash_verified": true,
+      "content_use": "Inventory/hash verification only; no content claim based on this file"
+    }
+  ],
+  "claims": [
+    {
+      "source_id": "S02",
+      "pointer": "/typed_conventions/basis",
+      "source_local_value": "Authoritative Cell3 vectors are labeled ICRS columns [a b c] and intentionally left-handed. No reflection, axis permutation, or silent transpose is allowed.",
+      "evidence_class": "source-reported convention, not a fresh physical or formal proof"
+    },
+    {
+      "source_id": "S02",
+      "pointer": "/typed_conventions/metric_symbols",
+      "source_local_value": "M_cell=B^T B; R_cell=M_cell^-1; G_phase is a distinct phase metric; W_qpc=B^T G_phase B/4. Bare G is prohibited where ambiguous.",
+      "evidence_class": "source-reported convention, not a fresh physical or formal proof"
+    },
+    {
+      "source_id": "S02",
+      "pointer": "/typed_conventions/boundary",
+      "source_local_value": "Cells use [-1/2,1/2)^3 and therefore have unique ownership.",
+      "evidence_class": "source-reported convention, not a fresh physical or formal proof"
+    },
+    {
+      "source_id": "S02",
+      "pointer": "/typed_conventions/B_symbol_guard",
+      "source_local_value": "Bind B to the source-local definition. EG normally uses a column basis; some Block 32 prose used a row-form symbol.",
+      "evidence_class": "source-reported convention, not a fresh physical or formal proof"
+    },
+    {
+      "source_id": "S02",
+      "pointer": "/typed_conventions/logic",
+      "source_local_value": "Definitions do not become externally identified quantities; isomorphic abstract groups do not become identical typed physical roles; finite certificates do not imply continuum theorems.",
+      "evidence_class": "source-reported convention, not a fresh physical or formal proof"
+    }
+  ],
+  "packet_snapshot_generation": "sha256:5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+  "packet_generation_verified_against_live_service": false,
+  "capabilities_observation": {
+    "canonical_application_sha256": "88c14424210ac18e902f33f5330a208a1c547a0e1d763a6b941c3e9de7c812ac",
+    "effect": "read",
+    "mutation_capable_operation_count": 0,
+    "limitation": "Capabilities response did not expose the packet corpus-generation digest. Application identity is not corpus identity."
+  },
+  "source_gaps": [
+    "Live frozen corpus generation not confirmed; required local source identity and exact pointers verified."
+  ],
+  "archival_source_copies_created": false
+}

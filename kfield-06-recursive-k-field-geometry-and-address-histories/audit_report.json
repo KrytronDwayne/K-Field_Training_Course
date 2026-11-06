@@ -1,0 +1,232 @@
+{
+  "schema_version": "1.0",
+  "status": "passed",
+  "findings": [
+    {
+      "id": "F01",
+      "level": "cumulative",
+      "category": "assessment_alignment",
+      "file": "lesson-03.md",
+      "section": "C06.03-P1",
+      "severity": "major",
+      "defect": "Practice initially covered scale and volume but did not explicitly ask learner to derive cell and corner counts required by CAP03.",
+      "correction": "Added depth2 count derivation and full answer to P1.",
+      "verification": "Independent auditor reread repaired P1; enumeration confirms1728 cells and2197 corners.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "lesson-03",
+        "capstone",
+        "course-map"
+      ]
+    },
+    {
+      "id": "F02",
+      "level": "local",
+      "category": "formatting",
+      "file": "lesson-03.md",
+      "section": "C06.03-E1",
+      "severity": "minor",
+      "defect": "Stray leading plus character before scaling paragraph.",
+      "correction": "Removed stray character.",
+      "verification": "Independent auditor reread corrected paragraph.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "lesson-03"
+      ]
+    },
+    {
+      "id": "F03",
+      "level": "final",
+      "category": "source_provenance",
+      "file": "sources.md",
+      "section": "Claim routing and corrections",
+      "severity": "minor",
+      "defect": "Boundary rule pointer was abbreviated ambiguously.",
+      "correction": "Expanded to S02 /backbone_sequence/1/boundary_rule.",
+      "verification": "Pointer read in exact source; auditor confirmed repair.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "sources"
+      ]
+    },
+    {
+      "id": "F04",
+      "level": "final",
+      "category": "assessment_alignment",
+      "file": "lesson-02.md",
+      "section": "C06.02-P1",
+      "severity": "major",
+      "defect": "Practice did not explicitly ask for3D residue product counts required by CAP02.",
+      "correction": "Added depths0,1,2 product-count task and answers1,27,729.",
+      "verification": "Repaired practice reread; independent Cartesian enumeration confirms counts.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "lesson-02",
+        "capstone",
+        "course-map"
+      ]
+    }
+  ],
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "local_audits": [
+    {
+      "checkpoint": "lesson-01",
+      "status": "passed",
+      "checks": [
+        "prerequisite bridge and four diagnostics with answers read",
+        "definitions, units and notation scoped in actual lesson",
+        "worked examples and practice answers hand-recomputed and checked against verification.json",
+        "source scope separated from synthetic arithmetic",
+        "next dependency checked"
+      ],
+      "evidence": "independent-audit.json; verification.json; actual lesson text"
+    },
+    {
+      "checkpoint": "lesson-02",
+      "status": "passed",
+      "checks": [
+        "prerequisite bridge and four diagnostics with answers read",
+        "definitions, units and notation scoped in actual lesson",
+        "worked examples and practice answers hand-recomputed and checked against verification.json",
+        "source scope separated from synthetic arithmetic",
+        "next dependency checked"
+      ],
+      "evidence": "independent-audit.json; verification.json; actual lesson text"
+    },
+    {
+      "checkpoint": "lesson-03",
+      "status": "passed",
+      "checks": [
+        "prerequisite bridge and four diagnostics with answers read",
+        "definitions, units and notation scoped in actual lesson",
+        "worked examples and practice answers hand-recomputed and checked against verification.json",
+        "source scope separated from synthetic arithmetic",
+        "next dependency checked"
+      ],
+      "evidence": "independent-audit.json; verification.json; actual lesson text"
+    },
+    {
+      "checkpoint": "lesson-04",
+      "status": "passed",
+      "checks": [
+        "prerequisite bridge and four diagnostics with answers read",
+        "definitions, units and notation scoped in actual lesson",
+        "worked examples and practice answers hand-recomputed and checked against verification.json",
+        "source scope separated from synthetic arithmetic",
+        "next dependency checked"
+      ],
+      "evidence": "independent-audit.json; verification.json; actual lesson text"
+    },
+    {
+      "checkpoint": "lesson-05",
+      "status": "passed",
+      "checks": [
+        "prerequisite bridge and four diagnostics with answers read",
+        "definitions, units and notation scoped in actual lesson",
+        "worked examples and practice answers hand-recomputed and checked against verification.json",
+        "source scope separated from synthetic arithmetic",
+        "next dependency checked"
+      ],
+      "evidence": "independent-audit.json; verification.json; actual lesson text"
+    },
+    {
+      "checkpoint": "lesson-06",
+      "status": "passed",
+      "checks": [
+        "prerequisite bridge and four diagnostics with answers read",
+        "definitions, units and notation scoped in actual lesson",
+        "worked examples and practice answers hand-recomputed and checked against verification.json",
+        "source scope separated from synthetic arithmetic",
+        "next dependency checked"
+      ],
+      "evidence": "independent-audit.json; verification.json; actual lesson text"
+    }
+  ],
+  "cumulative_audits": [
+    {
+      "unit": "01\u201303",
+      "status": "passed",
+      "result": "Typed geometry counts and residue distinction stable; P1 count practice repaired."
+    },
+    {
+      "unit": "04\u201306",
+      "status": "passed",
+      "result": "Digit order, modular compatibility and zero-detail reconstruction consistent."
+    }
+  ],
+  "final_checks": [
+    {
+      "category": "coverage",
+      "status": "passed",
+      "evidence": "All6 kernel concepts and required teaching IDs occur; all9 capstone operations traced to concrete prior explanations and answered practices."
+    },
+    {
+      "category": "fidelity",
+      "status": "passed",
+      "evidence": "S02 M03 definitions read in place; five source hashes match; S03 corrections reviewed; no physical toy substitution."
+    },
+    {
+      "category": "dependencies",
+      "status": "passed",
+      "evidence": "Finite chain01\u219206; fractions and floor precede modular histories; signed encoding precedes reconstruction."
+    },
+    {
+      "category": "correctness",
+      "status": "passed",
+      "evidence": "Thirty verification checks passed, including enumeration of every three-digit word and every Supergroup half-step sample."
+    },
+    {
+      "category": "terminology",
+      "status": "passed",
+      "evidence": "Typed depth counters, rung exponents, lambda grid labels and balanced/standard conventions compared across lessons and glossary."
+    },
+    {
+      "category": "examples",
+      "status": "passed",
+      "evidence": "Capstone full answers and worked examples independently recomputed; two practice gaps repaired."
+    },
+    {
+      "category": "evidence",
+      "status": "passed",
+      "evidence": "Archival reported status, source definitions, finite derivations and synthetic examples remain separate; no experimental or force claims introduced."
+    },
+    {
+      "category": "audience",
+      "status": "passed",
+      "evidence": "Six lessons over7 core periods; dense geometry lesson has2 periods; advanced inverse limits recognition-only."
+    },
+    {
+      "category": "assessment",
+      "status": "passed",
+      "evidence": "All capstone tasks have actual earlier answered practice; rubric totals100 points."
+    },
+    {
+      "category": "recovery",
+      "status": "passed",
+      "evidence": "Finalizer refreshes all file hashes; adapter checks graph, hashes and containment."
+    },
+    {
+      "category": "assembly",
+      "status": "passed",
+      "evidence": "Six lesson blocks assembled verbatim in approved order; independent auditor compared normalized text."
+    },
+    {
+      "category": "rendering",
+      "status": "passed",
+      "evidence": "Markdown delivery; tables and interval notation read directly. No paginated/visual artifact renderer required."
+    },
+    {
+      "category": "minimality",
+      "status": "passed",
+      "evidence": "Finite core only; no new teaching introduced in assembly; support notes explain actual conventions."
+    }
+  ],
+  "independent_audit": "independent-audit.json",
+  "independent_status": "passed_substantive_audit",
+  "validator_scope": "Deterministic adapter additionally validates hashes, containment, dependencies, assembly and status.",
+  "storage_override": "User-authorized Z:/Kfield-doc-training/K-Field_Training_Course"
+}

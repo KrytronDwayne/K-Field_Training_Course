@@ -1,0 +1,398 @@
+{
+  "status": "passed",
+  "runtime": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+  "arithmetic": "fractions.Fraction exact arithmetic",
+  "checks": [
+    {
+      "id": "C07.01-W1-differences",
+      "result": "passed",
+      "actual": "(3, -1, 5)",
+      "expected": "(3, -1, 5)"
+    },
+    {
+      "id": "C07.01-W1-inverse",
+      "result": "passed",
+      "actual": "(2, 5, 4, 9)",
+      "expected": "(2, 5, 4, 9)"
+    },
+    {
+      "id": "C07.01-P1-differences",
+      "result": "passed",
+      "actual": "(4, -1, 4)",
+      "expected": "(4, -1, 4)"
+    },
+    {
+      "id": "C07.01-P1-inverse",
+      "result": "passed",
+      "actual": "(3, 7, 6, 10)",
+      "expected": "(3, 7, 6, 10)"
+    },
+    {
+      "id": "C07.01-D1-rate",
+      "result": "passed",
+      "actual": "2",
+      "expected": "2"
+    },
+    {
+      "id": "C07.01-D2",
+      "result": "passed",
+      "actual": "(-2, 1, 1, 0)",
+      "expected": "(-2, 1, 1, 0)"
+    },
+    {
+      "id": "C07.02-W1-terms",
+      "result": "passed",
+      "actual": "(4, 12, 6)",
+      "expected": "(4, 12, 6)"
+    },
+    {
+      "id": "C07.02-W1-direct",
+      "result": "passed",
+      "actual": "22",
+      "expected": "22"
+    },
+    {
+      "id": "C07.02-W1-endpoint",
+      "result": "passed",
+      "actual": "22",
+      "expected": "22"
+    },
+    {
+      "id": "C07.02-P1-terms",
+      "result": "passed",
+      "actual": "(9, -4, -6)",
+      "expected": "(9, -4, -6)"
+    },
+    {
+      "id": "C07.02-P1-direct",
+      "result": "passed",
+      "actual": "-1",
+      "expected": "-1"
+    },
+    {
+      "id": "C07.02-P1-endpoint",
+      "result": "passed",
+      "actual": "-1",
+      "expected": "-1"
+    },
+    {
+      "id": "C07.02-D1-terms",
+      "result": "passed",
+      "actual": "(2, 0, 0)",
+      "expected": "(2, 0, 0)"
+    },
+    {
+      "id": "C07.02-D1-direct",
+      "result": "passed",
+      "actual": "2",
+      "expected": "2"
+    },
+    {
+      "id": "C07.02-D1-endpoint",
+      "result": "passed",
+      "actual": "2",
+      "expected": "2"
+    },
+    {
+      "id": "C07.02-D2-terms",
+      "result": "passed",
+      "actual": "(1, 9, -3)",
+      "expected": "(1, 9, -3)"
+    },
+    {
+      "id": "C07.02-D2-direct",
+      "result": "passed",
+      "actual": "7",
+      "expected": "7"
+    },
+    {
+      "id": "C07.02-D2-endpoint",
+      "result": "passed",
+      "actual": "7",
+      "expected": "7"
+    },
+    {
+      "id": "C07.03-W1-means",
+      "result": "passed",
+      "actual": "(Fraction(7, 2), Fraction(13, 2))",
+      "expected": "(Fraction(7, 2), Fraction(13, 2))"
+    },
+    {
+      "id": "C07.03-W1-detail",
+      "result": "passed",
+      "actual": "(Fraction(3, 2), Fraction(5, 2))",
+      "expected": "(Fraction(3, 2), Fraction(5, 2))"
+    },
+    {
+      "id": "C07.03-W1-decode",
+      "result": "passed",
+      "actual": "(Fraction(2, 1), Fraction(5, 1), Fraction(4, 1), Fraction(9, 1))",
+      "expected": "(Fraction(2, 1), Fraction(5, 1), Fraction(4, 1), Fraction(9, 1))"
+    },
+    {
+      "id": "C07.03-P1-means",
+      "result": "passed",
+      "actual": "(Fraction(5, 1), Fraction(8, 1))",
+      "expected": "(5, 8)"
+    },
+    {
+      "id": "C07.03-P1-detail",
+      "result": "passed",
+      "actual": "(Fraction(2, 1), Fraction(2, 1))",
+      "expected": "(2, 2)"
+    },
+    {
+      "id": "C07.03-P1-decode",
+      "result": "passed",
+      "actual": "(Fraction(3, 1), Fraction(7, 1), Fraction(6, 1), Fraction(10, 1))",
+      "expected": "(Fraction(3, 1), Fraction(7, 1), Fraction(6, 1), Fraction(10, 1))"
+    },
+    {
+      "id": "C07.03-D2-means",
+      "result": "passed",
+      "actual": "(Fraction(5, 1),)",
+      "expected": "(5,)"
+    },
+    {
+      "id": "C07.03-D2-detail",
+      "result": "passed",
+      "actual": "(Fraction(-2, 1),)",
+      "expected": "(-2,)"
+    },
+    {
+      "id": "C07.03-D2-decode",
+      "result": "passed",
+      "actual": "(Fraction(7, 1), Fraction(3, 1))",
+      "expected": "(Fraction(7, 1), Fraction(3, 1))"
+    },
+    {
+      "id": "C07.04-W1-direct",
+      "result": "passed",
+      "actual": "(Fraction(-5, 1), Fraction(5, 1), Fraction(-9, 1), Fraction(9, 1))",
+      "expected": "(Fraction(-5, 1), Fraction(5, 1), Fraction(-9, 1), Fraction(9, 1))"
+    },
+    {
+      "id": "C07.04-W1-RHS",
+      "result": "passed",
+      "actual": "(Fraction(-5, 1), Fraction(5, 1), Fraction(-9, 1), Fraction(9, 1))",
+      "expected": "(Fraction(-5, 1), Fraction(5, 1), Fraction(-9, 1), Fraction(9, 1))"
+    },
+    {
+      "id": "C07.04-P1-direct",
+      "result": "passed",
+      "actual": "(Fraction(-1, 1), Fraction(1, 1), Fraction(-4, 1), Fraction(4, 1))",
+      "expected": "(Fraction(-1, 1), Fraction(1, 1), Fraction(-4, 1), Fraction(4, 1))"
+    },
+    {
+      "id": "C07.04-P1-RHS",
+      "result": "passed",
+      "actual": "(Fraction(-1, 1), Fraction(1, 1), Fraction(-4, 1), Fraction(4, 1))",
+      "expected": "(Fraction(-1, 1), Fraction(1, 1), Fraction(-4, 1), Fraction(4, 1))"
+    },
+    {
+      "id": "C07.04-P1-factor",
+      "result": "passed",
+      "actual": "(Fraction(2, 1), Fraction(2, 1), Fraction(-3, 1), Fraction(-3, 1))",
+      "expected": "(Fraction(2, 1), Fraction(2, 1), Fraction(-3, 1), Fraction(-3, 1))"
+    },
+    {
+      "id": "C07.04-D1-factor-left",
+      "result": "passed",
+      "actual": "(Fraction(0, 1), Fraction(0, 1), Fraction(1, 1))",
+      "expected": "(Fraction(0, 1), Fraction(0, 1), Fraction(1, 1))"
+    },
+    {
+      "id": "C07.04-D1-factor-right",
+      "result": "passed",
+      "actual": "(Fraction(0, 1), Fraction(0, 1), Fraction(0, 1))",
+      "expected": "(Fraction(0, 1), Fraction(0, 1), Fraction(0, 1))"
+    },
+    {
+      "id": "C07.04-D1-direct",
+      "result": "passed",
+      "actual": "(Fraction(0, 1), Fraction(1, 1), Fraction(-1, 1))",
+      "expected": "(Fraction(0, 1), Fraction(1, 1), Fraction(-1, 1))"
+    },
+    {
+      "id": "C07.04-D1-RHS",
+      "result": "passed",
+      "actual": "(Fraction(0, 1), Fraction(1, 1), Fraction(-3, 1))",
+      "expected": "(Fraction(0, 1), Fraction(1, 1), Fraction(-3, 1))"
+    },
+    {
+      "id": "C07-CAP-04-mismatch",
+      "result": "passed",
+      "actual": "(Fraction(0, 1), Fraction(0, 1), Fraction(-2, 1))",
+      "expected": "(Fraction(0, 1), Fraction(0, 1), Fraction(-2, 1))"
+    },
+    {
+      "id": "block-identity-grid",
+      "result": "passed",
+      "cases": 6561,
+      "scope": "exact rational stress test; generic proof is in lesson-04 E1/E2"
+    },
+    {
+      "id": "C07.05-W1-r0",
+      "result": "passed",
+      "actual": "(Fraction(1, 1), Fraction(4, 1), Fraction(3, 1), Fraction(8, 1))",
+      "expected": "(Fraction(1, 1), Fraction(4, 1), Fraction(3, 1), Fraction(8, 1))"
+    },
+    {
+      "id": "C07.05-W1-r1",
+      "result": "passed",
+      "actual": "(Fraction(-3, 2), Fraction(3, 2), Fraction(-5, 2), Fraction(5, 2))",
+      "expected": "(Fraction(-3, 2), Fraction(3, 2), Fraction(-5, 2), Fraction(5, 2))"
+    },
+    {
+      "id": "C07.05-W1-inverse",
+      "result": "passed",
+      "actual": "(Fraction(2, 1), Fraction(5, 1), Fraction(4, 1), Fraction(9, 1))",
+      "expected": "(Fraction(2, 1), Fraction(5, 1), Fraction(4, 1), Fraction(9, 1))"
+    },
+    {
+      "id": "C07.05-P1-r0",
+      "result": "passed",
+      "actual": "(Fraction(1, 1), Fraction(5, 1), Fraction(4, 1), Fraction(8, 1))",
+      "expected": "(Fraction(1, 1), Fraction(5, 1), Fraction(4, 1), Fraction(8, 1))"
+    },
+    {
+      "id": "C07.05-P1-r1",
+      "result": "passed",
+      "actual": "(Fraction(-2, 1), Fraction(2, 1), Fraction(-2, 1), Fraction(2, 1))",
+      "expected": "(Fraction(-2, 1), Fraction(2, 1), Fraction(-2, 1), Fraction(2, 1))"
+    },
+    {
+      "id": "C07.05-P1-inverse",
+      "result": "passed",
+      "actual": "(Fraction(3, 1), Fraction(7, 1), Fraction(6, 1), Fraction(10, 1))",
+      "expected": "(Fraction(3, 1), Fraction(7, 1), Fraction(6, 1), Fraction(10, 1))"
+    },
+    {
+      "id": "C07.05-D2-r0",
+      "result": "passed",
+      "actual": "(Fraction(3, 1), Fraction(2, 1))",
+      "expected": "(Fraction(3, 1), Fraction(2, 1))"
+    },
+    {
+      "id": "C07.05-D2-r1",
+      "result": "passed",
+      "actual": "(Fraction(1, 2), Fraction(-1, 2))",
+      "expected": "(Fraction(1, 2), Fraction(-1, 2))"
+    },
+    {
+      "id": "C07.05-D2-inverse",
+      "result": "passed",
+      "actual": "(Fraction(4, 1), Fraction(4, 1))",
+      "expected": "(Fraction(4, 1), Fraction(4, 1))"
+    },
+    {
+      "id": "C07.06-W1-input",
+      "result": "passed",
+      "actual": "(2, 4)",
+      "expected": "(2, 4)"
+    },
+    {
+      "id": "C07.06-W1-output",
+      "result": "passed",
+      "actual": "(6, 12)",
+      "expected": "(6, 12)"
+    },
+    {
+      "id": "C07.06-D1-input",
+      "result": "passed",
+      "actual": "(5, 3)",
+      "expected": "(5, 3)"
+    },
+    {
+      "id": "C07.06-D1-output",
+      "result": "passed",
+      "actual": "(8, 16)",
+      "expected": "(8, 16)"
+    },
+    {
+      "id": "C07.06-kernel",
+      "result": "passed",
+      "actual": "(0, 0)",
+      "expected": "(0, 0)"
+    },
+    {
+      "id": "C07.06-P1-compatibility",
+      "result": "passed",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "id": "C07.06-P1-output-recovery",
+      "result": "passed",
+      "actual": "(6, 13)",
+      "expected": "(6, 13)"
+    },
+    {
+      "id": "C07.06-D2-compatibility",
+      "result": "passed",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "id": "C07.06-D2-output-recovery",
+      "result": "passed",
+      "actual": "(8, 17)",
+      "expected": "(8, 17)"
+    },
+    {
+      "id": "C07.06-L-inverse",
+      "result": "passed",
+      "actual": "(3, Fraction(4, 1))",
+      "expected": "(3, 4)"
+    },
+    {
+      "id": "C07.07-W1-delta",
+      "result": "passed",
+      "actual": "3",
+      "expected": "3"
+    },
+    {
+      "id": "C07.07-W1-full-inverse",
+      "result": "passed",
+      "actual": "(Fraction(2, 1), Fraction(5, 1), Fraction(4, 1), Fraction(9, 1))",
+      "expected": "(Fraction(2, 1), Fraction(5, 1), Fraction(4, 1), Fraction(9, 1))"
+    },
+    {
+      "id": "C07.07-W1-error",
+      "result": "passed",
+      "actual": "(Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1))",
+      "expected": "(Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1))"
+    },
+    {
+      "id": "C07.07-P1-delta",
+      "result": "passed",
+      "actual": "3",
+      "expected": "3"
+    },
+    {
+      "id": "C07.07-P1-full-inverse",
+      "result": "passed",
+      "actual": "(Fraction(3, 1), Fraction(7, 1), Fraction(6, 1), Fraction(10, 1))",
+      "expected": "(Fraction(3, 1), Fraction(7, 1), Fraction(6, 1), Fraction(10, 1))"
+    },
+    {
+      "id": "C07.07-P1-error",
+      "result": "passed",
+      "actual": "(Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1))",
+      "expected": "(Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1))"
+    },
+    {
+      "id": "C07.07-D3",
+      "result": "passed",
+      "actual": "(Fraction(5, 1), Fraction(7, 1), Fraction(7, 1), Fraction(3, 1))",
+      "expected": "(Fraction(5, 1), Fraction(7, 1), Fraction(7, 1), Fraction(3, 1))"
+    },
+    {
+      "id": "teaching-contract-and-required-IDs",
+      "result": "passed",
+      "scope": "Presence only; independent teaching audit evaluates substance."
+    }
+  ],
+  "check_count": 65,
+  "source_data_copied": false
+}

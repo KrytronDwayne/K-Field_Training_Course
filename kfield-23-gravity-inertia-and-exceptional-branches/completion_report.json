@@ -1,0 +1,67 @@
+{
+  "status": "complete",
+  "topic": "Gravity, Inertia, and Exceptional Branches",
+  "audience": "High-school seniors; first-principles teaching, with concrete prerequisite capabilities and taught bridges.",
+  "assumptions": [
+    "A topical short course, not a semester per topic. Pacing is 55-minute core lessons plus capstone periods; split dense lessons if actual learner load requires it.",
+    "No prior calculus, abstract algebra, university linear algebra, or quantum mechanics unless explicitly taught earlier.",
+    "Required core assessments must be solvable with taught finite examples. Clearly label deeper recognition-only extensions.",
+    "Markdown is the delivery format; no PDF or Word generation is required."
+  ],
+  "outputs": [
+    "course-map.md",
+    "lesson-01.md",
+    "lesson-02.md",
+    "lesson-03.md",
+    "lesson-04.md",
+    "lesson-05.md",
+    "lesson-06.md",
+    "lesson-07.md",
+    "terminology.md",
+    "teacher-guide.md",
+    "capstone.md",
+    "sources.md",
+    "sources.json",
+    "verify_examples.py",
+    "verification.json",
+    "independent-audit.json",
+    "course.md",
+    "audit_report.json",
+    "completion_report.json"
+  ],
+  "audit_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "hashes": {
+    "course-map.md": "af35f113e8da2169f92b66d0be9a143a562ac91a9a031b10b04d4037be3c933b",
+    "lesson-01.md": "8fcf50d6a489ee436946b163a6f26c3dfad6ed54c886f112c44d40933b0ccf72",
+    "lesson-02.md": "a738cb3830ee1a1dd6bb47cf382ad09904ea6224bc31029f3c6891329f26dd6c",
+    "lesson-03.md": "3cd3897f8e06fbb4ebd51ff18efa380150ed0a5ff77373373ae85e56bf660f29",
+    "lesson-04.md": "88b8b8dccd4548f2f17182b9707920bf86e7daddae4c5e5882da56ada9100e94",
+    "lesson-05.md": "27048c7ce0dceb3a0edcd9a9959be829efe49f302553cc8a8d647d2c9f94f696",
+    "lesson-06.md": "1640b9a6e8a754dce849bc144c487754712e053ca2f0eea4ef74de07ff4b5821",
+    "lesson-07.md": "3eb6d4f9d739ffc9375f05590a8ac206b59a3a5e5850ac6e72591d7d7e4e3a54",
+    "terminology.md": "97c7fea39148f76c8f5ea6b4c0ae96f0b22562d6024c9d9decac342accf0ddea",
+    "teacher-guide.md": "2c02dcf6ffbe2abdee3f7e27f319459c4a694155b5291bc957f8b5990c5cc641",
+    "capstone.md": "e9782e9edf7f4cf70c6f55313fe388212853e13540d3175d0caffdc95284fcbd",
+    "sources.md": "e0f4aa5bd674f835ebcc17a7781238a07e556114bcedf6d4f7d8781fd221109d",
+    "sources.json": "eeac5ebbabf08041f22d70945a202442d90f5e09e4fbebf087022443188fa3c8",
+    "verify_examples.py": "bb7e1dbe30124814ce1e0c32d08d3f5f886cae8ee7a9029e6a2f63e005e6e3d5",
+    "verification.json": "63f7d9c6ebf33ef8d93467b7166601295a9ccb6aab22a9d3a1bebf6228cf7db7",
+    "independent-audit.json": "00d9084ff5df7b2c556eda7418f21701befbcb5319756279605040f98bfce1b5",
+    "course.md": "8deb8a579cf0b7fc89f55e9978ec1b0c2482de59ad0a307b26d3f9c1c9a6e09b",
+    "audit_report.json": "e0a26cbcac10e45ce2984995f389be74fc4b195d50659a31278b36a612dafb39",
+    "manifest.json": "84b7d7d7a22e66b274c27089518e0c1855bb6d0ea25de96064eaf4252194391e"
+  },
+  "source_gaps": [
+    "Archival F/M/Gamma2 definition bodies and integration/reference constants VERIFIED_NOT_LOADED.",
+    "Source cohomology and exceptional carrier theorem bodies not replayed.",
+    "Specific F4 cycle action, E6/E7 real forms and physical coupling remain extensions."
+  ],
+  "validator": "Passed with exit 0 before final metadata refresh; validator-result.json records the receipt. Rerun after any metadata refresh.",
+  "lesson_count": 7,
+  "core_periods": 13,
+  "capstone_periods": 3
+}

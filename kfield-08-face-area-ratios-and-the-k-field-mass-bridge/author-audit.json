@@ -1,0 +1,112 @@
+{
+  "local_checks": [
+    {
+      "checkpoint": "lesson-01",
+      "result": "author review passed",
+      "checks": [
+        "explicit prerequisite bridge",
+        "3 observable goals",
+        "first-principles explanation",
+        "worked example",
+        "answered practice",
+        "4 diagnostics and worked answers",
+        "units and evidence scope",
+        "next dependency"
+      ],
+      "calculation_evidence": "verification.json; symbolic scale cancellation reviewed separately"
+    },
+    {
+      "checkpoint": "lesson-02",
+      "result": "author review passed",
+      "checks": [
+        "explicit prerequisite bridge",
+        "3 observable goals",
+        "first-principles explanation",
+        "worked example",
+        "answered practice",
+        "4 diagnostics and worked answers",
+        "units and evidence scope",
+        "next dependency"
+      ],
+      "calculation_evidence": "verification.json; symbolic scale cancellation reviewed separately"
+    },
+    {
+      "checkpoint": "lesson-03",
+      "result": "author review passed",
+      "checks": [
+        "explicit prerequisite bridge",
+        "3 observable goals",
+        "first-principles explanation",
+        "worked example",
+        "answered practice",
+        "4 diagnostics and worked answers",
+        "units and evidence scope",
+        "next dependency"
+      ],
+      "calculation_evidence": "verification.json; symbolic scale cancellation reviewed separately"
+    },
+    {
+      "checkpoint": "lesson-04",
+      "result": "author review passed",
+      "checks": [
+        "explicit prerequisite bridge",
+        "3 observable goals",
+        "first-principles explanation",
+        "worked example",
+        "answered practice",
+        "4 diagnostics and worked answers",
+        "units and evidence scope",
+        "next dependency"
+      ],
+      "calculation_evidence": "verification.json; symbolic scale cancellation reviewed separately"
+    },
+    {
+      "checkpoint": "lesson-05",
+      "result": "author review passed",
+      "checks": [
+        "explicit prerequisite bridge",
+        "3 observable goals",
+        "first-principles explanation",
+        "worked example",
+        "answered practice",
+        "4 diagnostics and worked answers",
+        "units and evidence scope",
+        "next dependency"
+      ],
+      "calculation_evidence": "verification.json; symbolic scale cancellation reviewed separately"
+    },
+    {
+      "checkpoint": "lesson-06",
+      "result": "author review passed",
+      "checks": [
+        "explicit prerequisite bridge",
+        "3 observable goals",
+        "first-principles explanation",
+        "worked example",
+        "answered practice",
+        "4 diagnostics and worked answers",
+        "units and evidence scope",
+        "next dependency"
+      ],
+      "calculation_evidence": "verification.json; symbolic scale cancellation reviewed separately"
+    }
+  ],
+  "cumulative_checks": [
+    {
+      "boundary": "lesson-03",
+      "result": "all formulas introduced before use; reciprocal taught; ray order and units stable"
+    },
+    {
+      "boundary": "lesson-06",
+      "result": "all six capstone operations map to earlier explanation and answered practice; no new assessed operations"
+    }
+  ],
+  "final_review": {
+    "coverage": "C08.01 through C08.06 present",
+    "source_fidelity": "all five hashes match; M05 exact definitions and active/historical distinction retained",
+    "audience": "short fraction calculations assessed; long integer cards supplied",
+    "residual_accounting": "all four locked differences, six branch components, and seven outputs for each sensitivity state retained",
+    "assembly": "verbatim marker assembly generated from saved lesson files",
+    "rendering": "Markdown only; tables and headings inspected as text; no paginated artifact required"
+  }
+}

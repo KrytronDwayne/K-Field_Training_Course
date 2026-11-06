@@ -1,0 +1,58 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Lesson 03 · The three-node path spectrum · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/12">Course 12</a><span>/</span><span>lesson 03</span></div><a class="original" href="../../../kfield-12-the-emily-spectrum-modes-and-eigenvectors/lesson-03.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#lesson-03-the-three-node-path-spectrum">Lesson 03 · The three-node path spectrum</a><a href="#c1203-e1-solve-the-component-equations">C12.03-E1 · Solve the component equations</a><a href="#c1203-w1-c12-eig-ex1-verify-every-row-and-length">C12.03-W1 / C12-EIG-EX1 · Verify every row and length</a><a href="#c1203-p1-c12-eig-p1-guided-practice-and-answers">C12.03-P1 / C12-EIG-P1 · Guided practice and answers</a><a href="#c1203-d1-c12-eig-d1-diagnostic-checks">C12.03-D1 / C12-EIG-D1 · Diagnostic checks</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 01 · A matrix acting on a pattern</a><a  href="lesson-02.html">Lesson 02 · Eigenvectors as unchanged pattern directions</a><a aria-current=page href="lesson-03.html">Lesson 03 · The three-node path spectrum</a><a  href="lesson-04.html">Lesson 04 · Combining three path directions</a><a  href="lesson-05.html">Lesson 05 · Counting Emily multiplicities</a><a  href="lesson-06.html">Lesson 06 · Reading a state through modes</a><a  href="lesson-07.html">Lesson 07 · Spectral resemblance and typed identity</a></details></aside><div class="reading-column"><article class="prose"><h1 id="lesson-03-the-three-node-path-spectrum" tabindex="-1">Lesson 03 · The three-node path spectrum</h1>
+<p><strong>Essential question:</strong> Can we derive and compare all the modes of the open three-node path?</p>
+<p><strong>Goals:</strong> Derive all three eigenvalues using component equations; verify three eigenpairs; normalize modes and check their pairwise dot products.</p>
+<p><strong>Prerequisite bridge.</strong> Use A(a,b,c)=(b,a+c,b) and Av=λv from Lessons 01–02. Recall that √2 is positive and squares to 2. This lesson takes two periods: first derive and verify, then learn length and orthogonality.</p>
+<h2 id="c1203-e1-solve-the-component-equations" tabindex="-1">C12.03-E1 · Solve the component equations</h2>
+<p>An eigenpair must satisfy b=λa, a+c=λb, and b=λc. If λ=0, the first equation gives b=0 and the second gives c=−a. A nonzero input requires a≠0, giving multiples of (1,0,−1).</p>
+<p>If λ≠0, the first and third equations imply a=c: divide λa=λc by the nonzero λ. Then the middle equation becomes 2a=λb=λ²a. Here a cannot be zero, since a=0 would force b=c=0. Dividing by a gives λ²=2, so λ=√2 or −√2. Taking a=1 produces (1,√2,1) or (1,−√2,1). These cases cover all possibilities, so no other eigenvalue exists. The list of eigenvalues, including how many independent modes share each value, is the <strong>spectrum</strong>.</p>
+<p>To compare sizes, define the dot product x·y as the sum of matching-entry products. Thus (a,b,c)·(d,e,f)=ad+be+cf. The squared length of x is x·x; its length or norm is √(x·x). It is positive for a nonzero vector. Dividing every entry by that length produces a <strong>normalized</strong> vector of length 1. Two vectors are <strong>orthogonal</strong> when their dot product is zero. Here orthogonality is a precise algebraic test, so no spatial drawing is required. A list of mutually orthogonal unit vectors is <strong>orthonormal</strong>.</p>
+<h2 id="c1203-w1-c12-eig-ex1-verify-every-row-and-length" tabindex="-1">C12.03-W1 / C12-EIG-EX1 · Verify every row and length</h2>
+<p>Let r=√2 for this calculation, so r²=2.</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Mode</th>
+<th>Row outputs Av</th>
+<th>λv</th>
+<th>Squared length</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>v+=(1,r,1)</td>
+<td>(r,1+1,r)=(r,2,r)</td>
+<td>r(1,r,1)=(r,2,r)</td>
+<td>1+2+1=4</td>
+</tr>
+<tr>
+<td>v0=(1,0,−1)</td>
+<td>(0,1−1,0)=(0,0,0)</td>
+<td>0(1,0,−1)=(0,0,0)</td>
+<td>1+0+1=2</td>
+</tr>
+<tr>
+<td>v−=(1,−r,1)</td>
+<td>(−r,1+1,−r)=(−r,2,−r)</td>
+<td>−r(1,−r,1)=(−r,2,−r)</td>
+<td>1+2+1=4</td>
+</tr>
+</tbody>
+</table></div>
+<p>The lengths are 2,r,2. Our fixed mode order is (+,0,−), and the normalized modes are</p>
+<p>u+=(1/2,r/2,1/2), u0=(1/r,0,−1/r), u−=(1/2,−r/2,1/2).</p>
+<p>All have squared length 1. Their mutual dot products are u+·u−=(1−2+1)/4=0, u+·u0=(1−1)/(2r)=0, and u0·u−=(1−1)/(2r)=0. Scaling preserved the eigenvalues, so Au+=r u+, Au0=0, Au−=−r u−.</p>
+<h2 id="c1203-p1-c12-eig-p1-guided-practice-and-answers" tabindex="-1">C12.03-P1 / C12-EIG-P1 · Guided practice and answers</h2>
+<p>Verify A(2,0,−2)=0 and explain why the input remains an eigenvector. Its row outputs are (0,2−2,0)=0, and it is twice v0 with nonzero scale 2. Normalize (2,2r,2): its squared length is 4+8+4=16, length 4, and division by 4 gives u+. Check Au− directly: the outputs are (−r/2,1,−r/2)=−r(1/2,−r/2,1/2). Finally compute u+·u−=0 and u0·u−=0 using the fractions above.</p>
+<p>Practice the derivation without looking: separate λ=0 from λ≠0, then explain why dividing by a in the second case is legal. Answer: a=0 would make all entries zero, violating the eigenvector condition. This is why the two-case argument does not miss a solution.</p>
+<blockquote>
+<p><strong>Claim scope.</strong> This direct derivation supplies the finite path proof used in S02 /backbone_sequence/7/proof/2. No general spectral theorem is assumed or assessed. The symbols + and − label our chosen modes; they do not yet describe inversion parity, which is a different operation.</p>
+</blockquote>
+<h2 id="c1203-d1-c12-eig-d1-diagnostic-checks" tabindex="-1">C12.03-D1 / C12-EIG-D1 · Diagnostic checks</h2>
+<ol>
+<li>Reject (1,1,1) as an eigenvector using its three outputs.</li>
+<li>Derive λ²=2 in the nonzero-λ case; state why the division is allowed.</li>
+<li>Find the norm of (1,−√2,1), normalize it, and verify its middle output.</li>
+<li>Calculate all three mutual dot products of u+,u0,u−. What does orthonormal mean?</li>
+</ol>
+<p><strong>Worked answers.</strong> 1. A(1,1,1)=(1,2,1), requiring conflicting multipliers 1 and 2. 2. Endpoints agree, b=λa, so 2a=λ²a; a≠0 as shown above. 3. Norm √4=2; u−=(1/2,−√2/2,1/2), whose middle output is 1=−√2·(−√2/2). 4. The products are (1−2+1)/4=0 and (1−1)/(2√2)=0 twice. Orthonormal means mutual zero dot products and each length 1.</p>
+<p><strong>Next dependency:</strong> <a href="lesson-04.html">Lesson 04</a> combines these three one-dimensional choices into patterns on 27 nodes.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><a class="button secondary" href="lesson-02.html">← Previous lesson</a><a class="button" href="lesson-04.html">Next lesson →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/12">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

@@ -1,0 +1,290 @@
+{
+  "schema_version": "1.0",
+  "authority": "Parent educator amendments responding to independent teaching audit E05-E10; pending independent recheck",
+  "scope": "All numerical classroom examples below are synthetic teaching constructions, not K-Field observations or substitutes for source constants.",
+  "global_production_requirements": {
+    "E05": [
+      "Replace generic coverage placeholders with actual explanation, worked-example, practice, diagnostic, and capstone step IDs. A row passes only when the referenced content exists and the operation is taught before use.",
+      "For each capstone break the requested product into concrete operations with named inputs/outputs, link each operation to an earlier explanation AND an independently answered practice item; do not merely repeat outcome text.",
+      "Use source-exact finite examples where available and separately labeled synthetic analogues otherwise. Recognition-only extensions cannot be required computations.",
+      "Record teaching/practice/check minutes per lesson; split overloaded lessons and update every lesson/coverage/capstone link. Shared advanced notation is author guidance until introduced locally."
+    ]
+  },
+  "course_amendments": [
+    {
+      "course": 12,
+      "finding": "E06",
+      "lessons": [
+        "lesson-03"
+      ],
+      "required_bridge": "Teach a square root as a number whose square is specified; define Av=lambda v component by component before eigenpair verification. General spectral proofs are recognition-only unless explicitly taught.",
+      "worked_example": {
+        "id": "C12-EIG-EX1",
+        "A": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "eigenpairs": [
+          {
+            "lambda": "sqrt(2)",
+            "v": [
+              "1",
+              "sqrt(2)",
+              "1"
+            ]
+          },
+          {
+            "lambda": "0",
+            "v": [
+              "1",
+              "0",
+              "-1"
+            ]
+          },
+          {
+            "lambda": "-sqrt(2)",
+            "v": [
+              "1",
+              "-sqrt(2)",
+              "1"
+            ]
+          }
+        ],
+        "checks": "Multiply every row for all three pairs. Nonzero modes have length2, zero mode length sqrt(2); normalize explicitly and verify pairwise dot products zero."
+      },
+      "practice": "C12-EIG-P1: verify A(2,0,-2)=0 and explain scaling of an eigenvector; C12-EIG-D1 test whether (1,1,1) is an eigenvector. Connect to source Emily system only after source-specific operator and ordering are pinned."
+    },
+    {
+      "course": 14,
+      "finding": "E06",
+      "lessons": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05"
+      ],
+      "required_bridge": "Teach i^2=-1, real/imaginary components, complex conjugation, squared modulus, matrix conjugate transpose, group composition and a finite map kernel through explicit operations.",
+      "worked_example": {
+        "id": "C14-CX-EX1",
+        "z": "1+i",
+        "rotation": "i*z=-1+i",
+        "squared_modulus_before_after": [
+          2,
+          2
+        ],
+        "unitary_example": "U=diag(i,-i), U†=diag(-i,i), U†U=I",
+        "finite_kernel_example": "Add modulo6 and map to addition modulo3 by f(k)=k mod3; enumerate all six inputs, kernel={0,3}. This toy map is not an asserted Standard Model quotient."
+      },
+      "practice": "C14-CX-P1 rotate 2-i by i and compute modulus; C14-KER-D1 compute kernel of k mod2 from addition modulo6, obtaining {0,2,4}. Trace the actual source cover kernel separately; do not infer it from the toy."
+    },
+    {
+      "course": 20,
+      "finding": "E07",
+      "lessons": [
+        "lesson-03",
+        "lesson-04",
+        "lesson-05"
+      ],
+      "required_bridge": "Define column independence and rank by explicit linear equations. Explain carrier dimension, number of product labels, and projector image rank as different counts.",
+      "worked_example": {
+        "id": "C20-RANK-EX1",
+        "P": [
+          [
+            "1/2",
+            "1/2",
+            0
+          ],
+          [
+            "1/2",
+            "1/2",
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "input": [
+          2,
+          0,
+          3
+        ],
+        "projected": [
+          1,
+          1,
+          3
+        ],
+        "retained_complement": [
+          1,
+          -1,
+          0
+        ],
+        "checks": "Multiply P^2=P; identify equal first two columns and independent third, rank2 in dimension3; reconstruct input from image+complement. A separate 2-by-3 product label table has six labels and establishes no projector rank."
+      },
+      "practice": "C20-RANK-P1 apply P to (4,2,-1), retain (1,-1,0); C20-RANK-D1 count rank of diag(1,0,0). Actual rank48 source claim must include exact factorization, assumptions, locator, and source-reported versus freshly verified status."
+    },
+    {
+      "course": 21,
+      "finding": "E07",
+      "lessons": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04"
+      ],
+      "required_bridge": "Teach a declared Euclidean decoder through two normal equations; preserve full residual coordinates as information. This classroom decoder is not automatically the source physical decoder.",
+      "worked_example": {
+        "id": "C21-DEC-EX1",
+        "A": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "y": [
+          2,
+          3,
+          6
+        ],
+        "normal_matrix": [
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "normal_rhs": [
+          8,
+          9
+        ],
+        "coefficients": [
+          "7/3",
+          "10/3"
+        ],
+        "represented": [
+          "7/3",
+          "10/3",
+          "17/3"
+        ],
+        "residual": [
+          "-1/3",
+          "-1/3",
+          "1/3"
+        ],
+        "checks": "Solve by elimination; check A^T r=0 and all three entries y=A*c+r. No residual component may be replaced by a score."
+      },
+      "practice": "C21-DEC-P1 y=(1,2,3) gives c=(1,2), r=0; C21-DEC-D1 y=(1,1,3) gives c=(4/3,4/3), r=(-1/3,-1/3,1/3). Relate represented/syndrome dimensions to pinned source only after local definitions."
+    },
+    {
+      "course": 21,
+      "finding": "E08",
+      "lessons": [
+        "lesson-05"
+      ],
+      "required_bridge": "Add a local reaction bookkeeping bridge BEFORE capstone: balance endpoint constituent/charge counts; specify whole-object mass state and electron convention; subtract final from initial mass; apply a declared mass-energy conversion; interpret positive release versus negative energy requirement.",
+      "worked_example": {
+        "id": "C21-RXN-EX1",
+        "reaction": "Synthetic A+B -> AB; constituents and charge are conserved by stipulated labels, not an empirical nuclear reaction. All masses refer to complete objects in the same stated reference convention.",
+        "masses_in_u": {
+          "A": "2",
+          "B": "3",
+          "AB": "4.9"
+        },
+        "synthetic_conversion": "1 u*c^2 = 10 E_unit",
+        "mass_difference": "0.1 u",
+        "released_energy": "1 E_unit"
+      },
+      "practice": "C21-RXN-P1 use AB mass5.05u with otherwise identical inputs: mass difference -0.05u and released-energy convention -0.5E_unit, requiring input0.5E_unit. C21-RXN-D1 diagnose an inconsistent electron convention before subtracting masses. Actual source examples retain their endpoint conventions and conversion provenance."
+    },
+    {
+      "course": 22,
+      "finding": "E09",
+      "lessons": [
+        "lesson-04"
+      ],
+      "required_bridge": "Derive the finite geometric sum by subtraction, state |r|<1 for the infinite-tail bound, and solve a finite tolerance inequality by checking powers.",
+      "worked_example": {
+        "id": "C22-TAIL-EX1",
+        "terms": "d_j=2^(-j), j>=1",
+        "prefix": "S_N=1-2^(-N)",
+        "remainder_bound": "sum_(j>N) |d_j| = 2^(-N)",
+        "tolerance": "epsilon=0.01 requires N>=7 because 1/128<=0.01 but 1/64>0.01",
+        "information_contract": "A bound does not authorize deleting tail coordinates; retain the exact rule/source and resolution history."
+      },
+      "practice": "C22-TAIL-P1 epsilon=1/32 permits N=5. C22-TAIL-D1 explain why the same finite geometric-tail formula does not certify convergence when r=1. Distinguish absolute bounds from signed sums."
+    },
+    {
+      "course": 24,
+      "finding": "E10",
+      "lessons": [
+        "lesson-01",
+        "lesson-02"
+      ],
+      "required_bridge": "Teach theta/phi or RA/Dec conventions explicitly; in the classroom RA alpha is measured from +x toward +y and declination delta from xy-plane, x=r cos(delta)cos(alpha), y=r cos(delta)sin(alpha), z=r sin(delta). Convert hours to degrees before trigonometry. Then teach discrete constant-velocity updates with fixed origin/frame and seconds.",
+      "worked_example": {
+        "id": "C24-FRAME-EX1",
+        "spherical": "r=2L, alpha=90deg, delta=30deg -> (0,sqrt(3),1)L",
+        "trajectory": "p0=(1,2,3)km, v=(2,-1,0)km/s, dt=2s -> p1=(5,0,3)km, p2=(9,-2,3)km",
+        "scope": "Synthetic fixed-frame constant velocity; not an ephemeris approximation or invented Galactic time law."
+      },
+      "practice": "C24-FRAME-P1 alpha=0deg,delta=0deg,r=3L -> (3,0,0)L; C24-TRAJ-D1 reconstruct p0=p2-2v*dt and verify units. Actual moving-frame chains use pinned source epochs, origins, and vector composition."
+    },
+    {
+      "course": 26,
+      "finding": "E10",
+      "lessons": [
+        "lesson-02",
+        "lesson-03",
+        "lesson-04"
+      ],
+      "required_bridge": "Derive cos(a)+cos(b)=2cos((a-b)/2)cos((a+b)/2) from taught addition rules; identify signed amplitude factor versus its absolute envelope and define frequency convention. Teach a four-sample DFT by enumerating powers of i, with both transform signs and inverse factor specified.",
+      "worked_example": {
+        "id": "C26-DFT-EX1",
+        "samples": [
+          1,
+          0,
+          -1,
+          0
+        ],
+        "forward": "X_k=sum_(n=0..3) x_n exp(-2*pi*i*k*n/4)",
+        "spectrum": [
+          0,
+          2,
+          0,
+          2
+        ],
+        "inverse": "x_n=(1/4)sum_(k=0..3)X_k exp(+2*pi*i*k*n/4)",
+        "shift_check": "y_n=x_(n-1 mod4)=[0,1,0,-1], Y=[0,-2i,0,2i]; same magnitudes but different phase. Reconstruct all four entries."
+      },
+      "practice": "C26-DFT-P1 transform/reconstruct (1,1,1,1) -> (4,0,0,0); C26-DFT-D1 compare full complex spectrum with magnitude-only reconstruction and retain every omitted phase or residual. C26-BEAT-P1 cos(2*pi*5t)+cos(2*pi*7t)=2cos(2*pi*t)cos(2*pi*6t); absolute-envelope peaks recur at2Hz."
+    }
+  ],
+  "E11": "Source auditor supplies the exact galaxy-specific record, convention, and positive-metric exercise; no Cell3 substitution.",
+  "acceptance": "Independent teaching reviewer must examine these bridges, corrected contracts, and eventual full lessons. This file does not claim finished-course acceptance."
+}

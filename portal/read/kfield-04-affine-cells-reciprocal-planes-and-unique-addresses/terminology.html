@@ -1,0 +1,231 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Terminology and notation · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/4">Course 04</a><span>/</span><span>terminology</span></div><a class="original" href="../../../kfield-04-affine-cells-reciprocal-planes-and-unique-addresses/terminology.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#terminology-and-notation">Terminology and notation</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 1 — Address coordinates and physical points</a><a  href="lesson-02.html">Lesson 2 — Why half-open cells have one owner</a><a  href="lesson-03.html">Lesson 3 — Reciprocal vectors as plane counters</a><a  href="lesson-04.html">Lesson 4 — Plane normals and physical spacing</a><a  href="lesson-05.html">Lesson 5 — Metric angles versus address angles</a><a  href="lesson-06.html">Lesson 6 — Reconstruction and boundary checks</a></details></aside><div class="reading-column"><article class="prose"><h1 id="terminology-and-notation" tabindex="-1">Terminology and notation</h1>
+<p>All triples retain their ordered components. The course uses a synthetic analogue in LU; real Cell3 source cards retain nm and ICRS component order. Never mix these geometries.</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Term/symbol</th>
+<th>Operational meaning</th>
+<th>Units and scope</th>
+<th>First teaching</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>LU</td>
+<td>Arbitrary classroom length unit</td>
+<td>Synthetic length only</td>
+<td>Lesson 1</td>
+</tr>
+<tr>
+<td>x</td>
+<td>Physical point coordinate triple</td>
+<td>LU in analogue</td>
+<td>Lesson 1</td>
+</tr>
+<tr>
+<td>O; O_K</td>
+<td>Declared physical origin; O_K denotes the Cell3 origin</td>
+<td>Length</td>
+<td>Lesson 1</td>
+</tr>
+<tr>
+<td>a,b,c</td>
+<td>Ordered direct steps; columns of B</td>
+<td>Length</td>
+<td>Lesson 1</td>
+</tr>
+<tr>
+<td>B</td>
+<td>Maps address displacement to physical displacement by scaling and summing columns</td>
+<td>Length</td>
+<td>Lesson 1</td>
+</tr>
+<tr>
+<td>q</td>
+<td>Full affine address B^-1(x-O)</td>
+<td>Dimensionless</td>
+<td>Lesson 1</td>
+</tr>
+<tr>
+<td>d</td>
+<td>Displacement x-O in lesson 1; do not confuse with subscripted d_h</td>
+<td>Length</td>
+<td>Lesson 1</td>
+</tr>
+<tr>
+<td>Inverse B^-1</td>
+<td>Operation undoing B; not entrywise reciprocal</td>
+<td>Inverse length</td>
+<td>Lesson 1</td>
+</tr>
+<tr>
+<td>Affine</td>
+<td>Linear displacement rule plus a fixed origin</td>
+<td>x=O+Bq</td>
+<td>Lesson 1</td>
+</tr>
+<tr>
+<td>Determinant</td>
+<td>Orientation/volume-scale quantity; nonzero here permits unique inverse</td>
+<td>Length cubed; recognition bridge</td>
+<td>Lesson 1</td>
+</tr>
+<tr>
+<td>[-1/2,1/2)</td>
+<td>Lower endpoint included; upper endpoint excluded</td>
+<td>Address interval</td>
+<td>Lesson 2</td>
+</tr>
+<tr>
+<td>Floor(t)</td>
+<td>Greatest integer no larger than t</td>
+<td>Input's numerical integer part toward negative infinity</td>
+<td>Lesson 2</td>
+</tr>
+<tr>
+<td>z</td>
+<td>Integer cell owner floor(q+1/2), componentwise</td>
+<td>Dimensionless integer triple</td>
+<td>Lesson 2</td>
+</tr>
+<tr>
+<td>u</td>
+<td>Local address q-z, every entry in [-1/2,1/2)</td>
+<td>Dimensionless; retained</td>
+<td>Lesson 2</td>
+</tr>
+<tr>
+<td>Dot product</td>
+<td>Sum of componentwise products</td>
+<td>Product of operand units</td>
+<td>Lesson 3</td>
+</tr>
+<tr>
+<td>h</td>
+<td>Integer plane-family label, nonzero for normal/spacing</td>
+<td>Dimensionless</td>
+<td>Lesson 3</td>
+</tr>
+<tr>
+<td>g_h</td>
+<td>Reciprocal plane counter B^-T h</td>
+<td>Inverse length</td>
+<td>Lesson 3</td>
+</tr>
+<tr>
+<td>T, B^-T</td>
+<td>Transpose; transpose of inverse</td>
+<td>Swaps rows and columns</td>
+<td>Lesson 3</td>
+</tr>
+<tr>
+<td>m</td>
+<td>Integer plane level in g_h dot (x-O)=m</td>
+<td>Dimensionless integer</td>
+<td>Lesson 3</td>
+</tr>
+<tr>
+<td>Source pointer</td>
+<td>Slash-delimited JSON location; array index starts at zero</td>
+<td>Provenance</td>
+<td>Lesson 3</td>
+</tr>
+<tr>
+<td>Lexeme</td>
+<td>Exact written decimal string</td>
+<td>Preserve stored precision</td>
+<td>Lesson 3</td>
+</tr>
+<tr>
+<td>u,v,w on source card</td>
+<td>Names of ordered reciprocal families</td>
+<td>Labels, not the local vector u</td>
+<td>Lesson 3</td>
+</tr>
+<tr>
+<td>nm</td>
+<td>Nanometre, 10^-9 metre</td>
+<td>Locked source length unit</td>
+<td>Lesson 3</td>
+</tr>
+<tr>
+<td>|v|</td>
+<td>Magnitude sqrt(v1²+v2²+v3²)</td>
+<td>Same units as v</td>
+<td>Lesson 4</td>
+</tr>
+<tr>
+<td>n</td>
+<td>Unit normal g_h/magnitude(g_h)</td>
+<td>Dimensionless; oriented</td>
+<td>Lesson 4</td>
+</tr>
+<tr>
+<td>d_h</td>
+<td>Consecutive integer-level spacing 1/magnitude(g_h)</td>
+<td>Positive length</td>
+<td>Lesson 4</td>
+</tr>
+<tr>
+<td>Projection</td>
+<td>Signed component n dot d along unit n</td>
+<td>Length for physical d</td>
+<td>Lesson 4</td>
+</tr>
+<tr>
+<td>e1,e2</td>
+<td>Address triples (1,0,0),(0,1,0)</td>
+<td>Dimensionless</td>
+<td>Lesson 5</td>
+</tr>
+<tr>
+<td>M_cell</td>
+<td>Gram metric B^T B, containing direct-step pairings</td>
+<td>Length squared</td>
+<td>Lesson 5</td>
+</tr>
+<tr>
+<td>R_cell</td>
+<td>Inverse Gram metric M_cell^-1</td>
+<td>Inverse length squared; recognition only</td>
+<td>Lesson 5</td>
+</tr>
+<tr>
+<td>G_phase,G_eff,Q,Q_g,Q_nu</td>
+<td>Separately typed source quantities, not synonyms for M_cell or B^-T</td>
+<td>Reserved; not computed here</td>
+<td>Lesson 5 scope</td>
+</tr>
+<tr>
+<td>Cross terms</td>
+<td>Off-diagonal contributions, e.g. 2q1q2 in this analogue</td>
+<td>Contribute to squared physical length</td>
+<td>Lesson 5</td>
+</tr>
+<tr>
+<td>Cosine</td>
+<td>Normalized physical dot product</td>
+<td>Dimensionless</td>
+<td>Lesson 5</td>
+</tr>
+<tr>
+<td>q_disp</td>
+<td>Shortened displayed address</td>
+<td>Dimensionless</td>
+<td>Lesson 6</td>
+</tr>
+<tr>
+<td>r</td>
+<td>Signed display residual q-q_disp</td>
+<td>Dimensionless; keep each component</td>
+<td>Lesson 6</td>
+</tr>
+<tr>
+<td>Reconstruction difference</td>
+<td>Reconstructed minus original point</td>
+<td>Length; retain zero or nonzero triple</td>
+<td>Lesson 6</td>
+</tr>
+</tbody>
+</table></div>
+<p>The source-card u label, local vector u, physical displacement d and spacing d_h are always distinguished by context or subscript. Source-version displacement is provenance, not the display residual r or an observed measurement channel.</p></article><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/4">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

@@ -1,0 +1,36 @@
+{
+  "course_id": "course-27",
+  "status": "all_lessons_and_support_read_final_glossary_and_hash_gate_pending",
+  "read_hashes": {
+    "lesson-01.md": "d352042a09b7390020e867c1f387dd2db5c1347ec03e3b3042bc807f313d1146",
+    "lesson-02.md": "c42a38a3d7221008e90f2f25911cb1dbffa6ff963850cceaa6d57482e5d2d5d5",
+    "lesson-03.md": "087fada83f6f9794b687a2de56c1161b3d16b74529d5a15b6a91a01906f55a37",
+    "lesson-04.md": "74115b4e5884ae34c961e283320a7a6af7c89f23bdbf747231a684811a64853a",
+    "lesson-05.md": "fe5aea9d15f5cc0c5c67c681b1d43748c07b6321dabd4a0c34a5e4a64874f342",
+    "lesson-06.md": "ec204a50ad810ee6958b8f577116f6fd247e36e263bdc70e28e6806c6fc0c590",
+    "lesson-07.md": "0bae6c30af976e9b11d2b3a1613d68d095fc30fac21f97113463095386ee9436",
+    "capstone.md": "8955466e81da9050112bf85c81b481ff1069e72ad222146eb2500a45c376457e",
+    "teacher-guide.md": "b7b8723f89b8e1b065721e6830b3ef2910fb533f50e9927e718d11939979b1a3",
+    "course-map.md": "c7d8bf5116b0b15fa053cd7663729292b1cb41ec4e876b3196c702eb6c8da239",
+    "sources.md": "d5c4ed739e70ba87846d0a3ed74f75feb27bd940bf46392e06a8abd02b879985"
+  },
+  "lesson_review_notes": [
+    "Matrix multiplication, transpose, positive quadratic form and squared decomposition locally introduced. Equal-length directional costs and exact rotated ellipse axes explicitly derived. Displacement, velocity and unit-direction inputs have separate units; negative vectors retained alongside equal scalar costs.",
+    "Declared fixed ruler origin, positive spacings and normals produce dimensionless plane coordinates and signed rates. Accumulated squared-rate cost differs from net-count squared in both meaning and units. Application skill convention m²/s is explicitly separate from the inverse-length-squared synthetic metric convention; no conversion invented.",
+    "Full pullback and reverse congruence computed entrywise, with factor1/4, off-diagonal contributions and signed coordinate recovery practiced. Diagonal example does not assert commutation for general bases. S02 BR12/F039/X044 and S03 AUD008 source gaps retained; locked matrices are not replaced by the classroom or spectral matrices.",
+    "Complete constant-segment ledgers retain time, signed velocity, endpoints, cost and ordering. Reversal and subdivision practices reconstruct original segments. Linear-velocity integral comparison is correctly recognition-only and separate from supplied constant segments.",
+    "Finite lower-bound proof expands the weighted deviations under constant positive symmetric metric and fixed positive duration. Actual independently answered P1a proves weighted closure, mixed cancellation and attainment. Time changes and obstacle exclusion preserve distinct optimization problems; continuum extension declares absolute continuity and square-integrable velocity.",
+    "Source certificate cards preserve exact reported claim, missing matrices and full nonzero closure lexeme. Bounded search is not exhaustive absence. Truncation interval and signed1/30000 reconstruction are independently practiced, with no imposition of toy precision on source residuals.",
+    "Two factor choices demonstrate nonidentifiability. Independent driver calibration identifies sensitivity within the declared model; frozen prediction retains positive and negative residuals. Proposed transfer observations, modeled cost and measured energy remain distinct. Signed14-source-row/3-cost-level boundary retained by source reference. Final series recheck: full lesson07 and source ledger reread after distinct-cost-level wording repair; statistical-independence boundary explicit, all14 signed rows and source gaps retained. Numerical exercises unchanged."
+  ],
+  "source_reading": [
+    "Parent read S02 typed_conventions and branch_proofs/12, and source formula text for KFM-F039/X044/X045 using local read-only access.",
+    "Parent read S03 findings/7: missing G_phase,C,complete W_qpc and recorded nonzero closure coordinate4.58938078934712923077736690075e-12.",
+    "Parent read installed quadratic-phase-cost SKILL.md as a source for declared trajectory convention only; did not invoke its computation workflow. It specifies integral v^T G_phase v dt with no1/2 and unitsm²/s, distinct from energy/radians/path length."
+  ],
+  "repair_review": "Added P1a ruler construction, forward congruence and finite minimum proof reread in lessons02/03/05. Capstone points to those exact operations; teacher periods allocate practice. Ellipse PNG visually inspected: correct equal scales, eight anchors, tilted axes and readable semiaxis labels.",
+  "parent_math_report": "course-27-parent-math-verification.json",
+  "parent_math_checks": 140,
+  "pending": "Glossary first-location repair requested for v/u-dot and delta-t/delta-x/sigma; final author audit/completion and real validator/current hashes. No acceptance decision yet.",
+  "series_wording_recheck": "Parent read both full changed documents and PA27-02 correction on 2026-11-05. Earlier reading/audit/acceptance preserved under course-27-before-series-wording-repair-*."
+}

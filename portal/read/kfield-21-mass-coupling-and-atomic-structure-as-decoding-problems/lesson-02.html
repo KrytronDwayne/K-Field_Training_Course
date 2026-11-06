@@ -1,0 +1,45 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>lesson-02: Rank and retained syndromes · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/21">Course 21</a><span>/</span><span>lesson 02</span></div><a class="original" href="../../../kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems/lesson-02.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#lesson-02-rank-and-retained-syndromes">lesson-02: Rank and retained syndromes</a><a href="#prerequisite-bridge">Prerequisite bridge</a><a href="#explanation-c2102-e1">Explanation — C21.02-E1</a><a href="#worked-example-c2102-w1">Worked example — C21.02-W1</a><a href="#guided-practice-c2102-p1">Guided practice — C21.02-P1</a><a href="#diagnostic-checks-c2102-d1">Diagnostic checks — C21.02-D1</a><a href="#worked-answers">Worked answers</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">lesson-01: Measurements as linear channels</a><a aria-current=page href="lesson-02.html">lesson-02: Rank and retained syndromes</a><a  href="lesson-03.html">lesson-03: The thirteen-channel decoder</a><a  href="lesson-04.html">lesson-04: Reconstruction and dimensional meaning</a><a  href="lesson-05.html">lesson-05: Atomic and isotope inventories</a><a  href="lesson-06.html">lesson-06: Binding and periodic organization</a><a  href="lesson-07.html">lesson-07: Solver convergence and unresolved information</a><a  href="lesson-08.html">lesson-08: A reproducible decoding report</a></details></aside><div class="reading-column"><article class="prose"><h1 id="lesson-02-rank-and-retained-syndromes" tabindex="-1">lesson-02: Rank and retained syndromes</h1>
+<p>2 sessions of 55 minutes.</p>
+<p><strong>Essential question:</strong> What does an independent residual coordinate preserve?</p>
+<p><strong>Goals</strong></p>
+<ul>
+<li>Count independent column and residual directions.</li>
+<li>Recover a full residual vector from its declared coordinate and basis.</li>
+<li>Distinguish real-space equality from integer-lattice equality.</li>
+</ul>
+<h2 id="prerequisite-bridge" tabindex="-1">Prerequisite bridge</h2>
+<p>Lesson 1 taught row multiplication, dot products and reconstruction. We now ask how many freely chosen numbers each part needs. Keep A_small and its ordered three channels. All computations still use exact fractions.</p>
+<p><a id="C21.02-E1" tabindex="-1"></a></p>
+<h2 id="explanation-c2102-e1" tabindex="-1">Explanation — C21.02-E1</h2>
+<p>A column direction is independent of others if it cannot be made by combining them. For A_small, a times (1,0,1) plus b times (0,1,1) is zero only if a=0 and b=0, because its first two entries are a and b. The rank is therefore two. A vector space allows any real multiples and sums of its directions. The image of a matrix is the set of outputs it can make; its kernel is the set of inputs it sends to zero.</p>
+<p>The residual conditions r1+r3=0 and r2+r3=0 imply r=(-t,-t,t). Choose t=r3 freely and the other entries are fixed. The residual subspace, also called the left-null space of A_small, therefore has one independent coordinate. We may save t together with the basis vector (-1,-1,1), but saving t without that convention is ambiguous. This course saves the full vector as well. Here the word syndrome names retained coordinates outside the represented image, not an error verdict.</p>
+<p>The three numbers (c1,c2,t) reconstruct y=(c1-t,c2-t,c1+c2+t). Conversely y3-y1-y2=3t, so t=(y3-y1-y2)/3, c1=y1+t, and c2=y2+t. This gives an independent route to the previous answers. For (2,3,6), t=(6-2-3)/3=1/3. These formulas demonstrate lossless separation, not merely a count of dimensions.</p>
+<p>Real numbers and integers support different claims. Write Z for the integers. An integer lattice consists of integer combinations of the declared columns. Take A0=(2,0)^T and L0=(0,1). The first maps a number a to (2a,0); the second maps (x,y) to y. Over R, the image of A0 and kernel of L0 are both the entire horizontal line. Over Z, the image contains only even horizontal coordinates, but the kernel contains (1,0). Their ranks agree and L0 A0=0, yet their integer sets differ.</p>
+<p>A lattice is saturated in its real span if every integer point in that span already belongs to the lattice. The even horizontal lattice is not saturated. Replacing A0 by (1,0)^T repairs this example: (n,0)=A0 n for every integer n. In lesson 3 we will prove saturation for the particular source matrix using an integer coefficient extractor. This is stronger evidence than an unsupported appeal to matching rank.</p>
+<blockquote>
+<p>Scope: S02 /proof_nodes/10 reports an integer exact-sequence statement, while its displayed dimension argument alone establishes the real-space part. S03 /findings/8 flags the missing source L. We keep the reported status, the argument’s scope and the missing object separate; the small counterexample is freshly checked teaching mathematics.</p>
+</blockquote>
+<p>At the first unit boundary, explain the distinction aloud: A_small^T r=0 says two sums cancel. It does not say each of the three entries of r vanishes. A full residual can remain even when the decoder equations are solved exactly.</p>
+<p><a id="C21.02-W1" tabindex="-1"></a></p>
+<h2 id="worked-example-c2102-w1" tabindex="-1">Worked example — C21.02-W1</h2>
+<p>Reuse C21-DEC-EX1: t=1/3, so the two represented coordinates plus one syndrome coordinate reconstruct y. Over R, A0=(2,0)^T and L0=(0,1) have ranks one and L0 A0=0; their real image/kernel coincide. Over Z, (1,0) lies in ker L0 but not im A0, so rank alone fails to prove lattice equality.</p>
+<p><a id="C21.02-P1" tabindex="-1"></a></p>
+<h2 id="guided-practice-c2102-p1" tabindex="-1">Guided practice — C21.02-P1</h2>
+<p>Try the operation before reading the solution. For A0=(1,0)^T and L0=(0,1), integer equality does hold: every kernel point is (n,0)=A0 n. For y=(1,1,3), explicitly check (-1/3+1/3,-1/3+1/3)=(0,0) and reconstruct the three entries.</p>
+<p><a id="C21.02-D1" tabindex="-1"></a></p>
+<h2 id="diagnostic-checks-c2102-d1" tabindex="-1">Diagnostic checks — C21.02-D1</h2>
+<ol>
+<li>For y=(1,1,3), find t and reconstruct y.</li>
+<li>Why is A_small^T r=0 compatible with a nonzero r?</li>
+<li>Show integer image/kernel equality for A0=(1,0)^T and L0=(0,1).</li>
+<li>What fails if only rank is supplied for the even-lattice example?</li>
+</ol>
+<h2 id="worked-answers" tabindex="-1">Worked answers</h2>
+<ol>
+<li>t=(3-1-1)/3=1/3; c1=c2=4/3. Reconstruction is (1,1,8/3+1/3)=(1,1,3).</li>
+<li>The constraints concern sums r1+r3 and r2+r3; (-1,-1,1) satisfies them without being zero.</li>
+<li>L0(x,y)=0 forces y=0. Every integer (n,0) is obtained by applying A0 to integer n, and every such output is in the kernel.</li>
+<li>Rank counts real directions, not missing integer points. (1,0) is a specific missing point demonstrating the failure.</li>
+</ol>
+<p><strong>Boundary to carry forward:</strong> A zero normal residual A^T r is not a zero channel residual r. A lattice claim needs saturation or index evidence in addition to field rank. Missing source L cannot be recovered by naming the orthogonal projector L.</p>
+<p><strong>Next dependency:</strong> <a href="lesson-03.html">lesson-03</a>. Use this lesson’s reconstruction and scope checks there.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><a class="button secondary" href="lesson-01.html">← Previous lesson</a><a class="button" href="lesson-03.html">Next lesson →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/21">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

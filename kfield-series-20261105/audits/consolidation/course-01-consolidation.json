@@ -1,0 +1,138 @@
+{
+  "course_id": "course-01",
+  "timestamp": "2026-11-05T16:57:31.351940+00:00",
+  "source": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-course-01\\outputs\\K-Field_Training_Course\\kfield-01-reading-the-k-field-evidence-models-and-information",
+  "destination": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-01-reading-the-k-field-evidence-models-and-information",
+  "source_validator_passed": true,
+  "destination_validator_passed": true,
+  "destination_errors": [],
+  "destination_checks": [
+    "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+    "parsed manifest.json",
+    "parsed audit_report.json",
+    "parsed completion_report.json",
+    "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+  ],
+  "path_metadata_relocated_files": [
+    "completion_report.json",
+    "input-contract.json",
+    "manifest.json",
+    "restart-checkpoint.json",
+    "validator-result.json"
+  ],
+  "copied_generated_files": [
+    {
+      "path": "audit_report.json",
+      "source_sha256": "392238aa70656c7ea3f9ed9e270ca9f9c264b4cab1a16520614f19b5aed8572e",
+      "destination_sha256_before_hash_refresh": "392238aa70656c7ea3f9ed9e270ca9f9c264b4cab1a16520614f19b5aed8572e"
+    },
+    {
+      "path": "capstone.md",
+      "source_sha256": "a1f0a0feffc2d26db49aa36176cbfd74347b530534a10a960f1d971a4dbca9dd",
+      "destination_sha256_before_hash_refresh": "a1f0a0feffc2d26db49aa36176cbfd74347b530534a10a960f1d971a4dbca9dd"
+    },
+    {
+      "path": "completion_report.json",
+      "source_sha256": "12988052b780fb1f084ec2637cb6897db647d3fd8c1855cd98bf082f18edcae6",
+      "destination_sha256_before_hash_refresh": "7423d8e54d06e643da5c1b1b0aab34f604250f910351076e4f5c1792d946b6c8"
+    },
+    {
+      "path": "course-map.md",
+      "source_sha256": "fd80c7c841b0395ad8bf60649c3fa293766402a893efda570eb0ddcf1c2904c2",
+      "destination_sha256_before_hash_refresh": "fd80c7c841b0395ad8bf60649c3fa293766402a893efda570eb0ddcf1c2904c2"
+    },
+    {
+      "path": "course.md",
+      "source_sha256": "01554f80bdf2695cc8cd599667c916673539d39cc83dac236fdba48ba8b4aa35",
+      "destination_sha256_before_hash_refresh": "01554f80bdf2695cc8cd599667c916673539d39cc83dac236fdba48ba8b4aa35"
+    },
+    {
+      "path": "input-contract.json",
+      "source_sha256": "2e16fc58246384c8980876565c80bb9c73e4d181867ed4db63733103dd85f520",
+      "destination_sha256_before_hash_refresh": "0c07282b34454bb2ee8a10de2e7e06def4b3828d06f2aa6fe68d0fb5b94f8807"
+    },
+    {
+      "path": "lesson-01.md",
+      "source_sha256": "8a8941d07819332129e834eea1171aaa35c15d79d07c13057d162b17a9753a7f",
+      "destination_sha256_before_hash_refresh": "8a8941d07819332129e834eea1171aaa35c15d79d07c13057d162b17a9753a7f"
+    },
+    {
+      "path": "lesson-02.md",
+      "source_sha256": "aeb162254893946627b1b200e7e8f6fc317183eaace261385235f9c7982a8679",
+      "destination_sha256_before_hash_refresh": "aeb162254893946627b1b200e7e8f6fc317183eaace261385235f9c7982a8679"
+    },
+    {
+      "path": "lesson-03.md",
+      "source_sha256": "bbd3169e9fa0a89f62c577c31714edbb34b3d8dae1cf5573b752add9fe6eb598",
+      "destination_sha256_before_hash_refresh": "bbd3169e9fa0a89f62c577c31714edbb34b3d8dae1cf5573b752add9fe6eb598"
+    },
+    {
+      "path": "lesson-04.md",
+      "source_sha256": "8fa145121906b3a91a13c7624ac16b6abd40a8fe9e7ec2f0622a7702cb097a72",
+      "destination_sha256_before_hash_refresh": "8fa145121906b3a91a13c7624ac16b6abd40a8fe9e7ec2f0622a7702cb097a72"
+    },
+    {
+      "path": "lesson-05.md",
+      "source_sha256": "b3a1124e311d0e730ad74a69f8b12814cdd3152f0f6a9b0b51616a58fbf6b5f9",
+      "destination_sha256_before_hash_refresh": "b3a1124e311d0e730ad74a69f8b12814cdd3152f0f6a9b0b51616a58fbf6b5f9"
+    },
+    {
+      "path": "manifest.json",
+      "source_sha256": "d54ed698f969f5a32e1017daf901e514a3ca6648b3dbcd32996a50896552078c",
+      "destination_sha256_before_hash_refresh": "d4f4599a0898abaef0d9b0d681d92e6f3ae61b37d2f86c81996b19c735aaf225"
+    },
+    {
+      "path": "recovery-verification.json",
+      "source_sha256": "9c2031528c543ef63b457935ae6dcff1ed00400f783f81d46db7854d03245dcb",
+      "destination_sha256_before_hash_refresh": "9c2031528c543ef63b457935ae6dcff1ed00400f783f81d46db7854d03245dcb"
+    },
+    {
+      "path": "restart-checkpoint.json",
+      "source_sha256": "6e7dfbe2f28e521491b220f5bc852e7efd651cc1e64542adf1a55c0aa51dbc13",
+      "destination_sha256_before_hash_refresh": "df03163f79048da6a9d1fc4fdf80d6f1cfb8339618289c9562de60725fae5a2f"
+    },
+    {
+      "path": "source-verification.json",
+      "source_sha256": "3a9d2ccfcfcdbc81343b89d454ed6824c6bb4e7e5a7a904498ebc43bfb62a2b9",
+      "destination_sha256_before_hash_refresh": "3a9d2ccfcfcdbc81343b89d454ed6824c6bb4e7e5a7a904498ebc43bfb62a2b9"
+    },
+    {
+      "path": "sources.md",
+      "source_sha256": "6edd147cd42f8175dd3f7ac779834c50dc97dd205c031d4dda3e69258f19e4fe",
+      "destination_sha256_before_hash_refresh": "6edd147cd42f8175dd3f7ac779834c50dc97dd205c031d4dda3e69258f19e4fe"
+    },
+    {
+      "path": "storage-check.txt",
+      "source_sha256": "abe59c5e82259ca8957dc58fc61b9e0d7c7cf9d4b18817853af3c678160a7554",
+      "destination_sha256_before_hash_refresh": "abe59c5e82259ca8957dc58fc61b9e0d7c7cf9d4b18817853af3c678160a7554"
+    },
+    {
+      "path": "teacher-guide.md",
+      "source_sha256": "6dd165851eb2e3722760ba8ca0c96c726a4b511d65fb5b55ca27730e6dba2abb",
+      "destination_sha256_before_hash_refresh": "6dd165851eb2e3722760ba8ca0c96c726a4b511d65fb5b55ca27730e6dba2abb"
+    },
+    {
+      "path": "terminology.md",
+      "source_sha256": "ca2d04fb6bf186ed38a2b147ba6ce8e9f344bde4983ea8d5eb4bbce69c60ccf0",
+      "destination_sha256_before_hash_refresh": "ca2d04fb6bf186ed38a2b147ba6ce8e9f344bde4983ea8d5eb4bbce69c60ccf0"
+    },
+    {
+      "path": "validator-result.json",
+      "source_sha256": "4eef40c17f260313620dc0a5c28634365fee8cbef3df8d8fcb7a3394e32caa72",
+      "destination_sha256_before_hash_refresh": "c5cd670ddddb34688579373a133c2ec39a0ca05e6b0e55572304858d5a973f25"
+    },
+    {
+      "path": "verification.json",
+      "source_sha256": "3ef774c0dc98fa82221e1eda6a151081523d1cc0cc2e54fb26cdc81ec50c66fe",
+      "destination_sha256_before_hash_refresh": "3ef774c0dc98fa82221e1eda6a151081523d1cc0cc2e54fb26cdc81ec50c66fe"
+    },
+    {
+      "path": "verify_examples.py",
+      "source_sha256": "1a33bb58dac15699eded67c56932e6f1bb168af87970e834dd7d8fe15571bea5",
+      "destination_sha256_before_hash_refresh": "1a33bb58dac15699eded67c56932e6f1bb168af87970e834dd7d8fe15571bea5"
+    }
+  ],
+  "source_data_copied": false,
+  "source_directory_modified": false,
+  "acceptance": "Pending separate independent content audit; validator passes only machine-checkable completion requirements."
+}

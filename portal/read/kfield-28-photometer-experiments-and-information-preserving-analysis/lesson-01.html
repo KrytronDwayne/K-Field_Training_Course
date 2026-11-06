@@ -1,0 +1,42 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>1. From light to channel readings · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/28">Course 28</a><span>/</span><span>lesson 01</span></div><a class="original" href="../../../kfield-28-photometer-experiments-and-information-preserving-analysis/lesson-01.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#1-from-light-to-channel-readings">1. From light to channel readings</a><a href="#prerequisite-bridge">Prerequisite bridge</a><a href="#c2801-e1-first-principles">C28.01-E1 — first principles</a><a href="#c2801-w1-worked-example">C28.01-W1 — worked example</a><a href="#c2801-p1-guided-practice">C28.01-P1 — guided practice</a><a href="#worked-answer">Worked answer</a><a href="#c2801-d1-diagnostic-checks">C28.01-D1 — diagnostic checks</a><a href="#worked-answers">Worked answers</a></nav></details><details class="course-nav" open><summary>In this course</summary><a aria-current=page href="lesson-01.html">1. From light to channel readings</a><a  href="lesson-02.html">2. Acquisition identity and raw-value preservation</a><a  href="lesson-03.html">3. Normalization with an inverse account</a><a  href="lesson-04.html">4. Symmetry, palindromes, and signed comparisons</a><a  href="lesson-05.html">5. Sidereal combs and event windows</a><a  href="lesson-06.html">6. Scale and channel comparisons</a><a  href="lesson-07.html">7. Uncertainty as a structured record</a><a  href="lesson-08.html">8. A prospective measurement protocol</a></details></aside><div class="reading-column"><article class="prose"><h1 id="1-from-light-to-channel-readings" tabindex="-1">1. From light to channel readings</h1>
+<p>Essential question: What must accompany a number before it becomes an interpretable reading?</p>
+<p>Goals:</p>
+<ul>
+<li>Specify channel and orientation identities</li>
+<li>Compute exposure support</li>
+<li>Separate counts from calibrated quantities</li>
+</ul>
+<h2 id="prerequisite-bridge" tabindex="-1">Prerequisite bridge</h2>
+<p>Use signed arithmetic, fractions, units and coordinate arrows. The named earlier courses are background; all operators required here are taught locally.</p>
+<p>Pacing: 1 period(s) of 55 minutes. Acquisition identities, exposure and calibration.</p>
+<h2 id="c2801-e1-first-principles" tabindex="-1">C28.01-E1 — first principles</h2>
+<p>A photometer turns light arriving at a detector into a recorded number. A channel is one named response pathway of that instrument. A wavelength label describes where a response is nominally located; it does not say that the detector accepts only that exact wavelength. A nanometre (nm) is one billionth of a metre. Keep the response identity even when a full response curve is unavailable.</p>
+<p>Counts are the instrument's numeric output. Gain is an instrument setting that changes how the input becomes output. Exposure is the duration over which a reading is collected. Calibration is a documented relation between an instrument output and a specified reference quantity under stated conditions. Without that relation, counts remain counts. Dividing by exposure can produce counts per second, but does not manufacture watts, a unit of power.</p>
+<p>Orientation specifies which way the sensor faces. Here +z means the positive third axis of a declared toy laboratory frame: x points right on the bench, y points away from the observer, and z points upward. The sensor normal is the perpendicular arrow out of its receiving surface. This toy frame is not an astronomical frame.</p>
+<p>A midpoint timestamp locates the middle of an exposure, not the entire reading at an instant. For duration e, half lies before the midpoint and half after it: support is [t-e/2,t+e/2]. Square brackets include the endpoints. In this course t is elapsed seconds from a synthetic session start. It is not a UTC epoch. One real run would need both its UTC start and its clock convention.</p>
+<p>Our common acquisition is synthetic device T, session A, gain setting 1, exposure e=1/5 s, fixed +z normal, A nominal 500 nm, and broadband Clear response identity C-toy. No calibration is supplied. Rows 0 through 4 have midpoint times 0,1,2,3,4 s, A counts 2,5,8,1,3 and Clear counts 10,0,20,10,10. These values were authored for arithmetic. Read the list in order: position 0 is the first row, not row 1.</p>
+<blockquote>
+<p>Claim scope: All counts and instrument settings in this lesson are authored teaching inputs. No measured optical power is supplied.</p>
+</blockquote>
+<h2 id="c2801-w1-worked-example" tabindex="-1">C28.01-W1 — worked example</h2>
+<p>Toy acquisition A has sequence 0..4, elapsed mid-exposure times 0..4 s, channel A nominal 500 nm, raw counts (2,5,8,1,3), Clear (10,0,20,10,10), fixed +z sensor normal, gain setting 1, exposure 1/5 s and calibration not supplied. Each exposure spans t-1/10 to t+1/10 s. These are authored counts, not observations.</p>
+<h2 id="c2801-p1-guided-practice" tabindex="-1">C28.01-P1 — guided practice</h2>
+<p><strong>Student task.</strong> For row 2 of the common acquisition, write its midpoint, exposure support, A and Clear counts, orientation, gain and calibration status. A separate B-toy channel nominally 600 nm has count 4 at that row. Compute A/B and explain whether it is calibrated spectral power.</p>
+<h3 id="worked-answer" tabindex="-1">Worked answer</h3>
+<p>At row 2 the midpoint is 2 s, exposure support [1.9,2.1] s, raw A=8, Clear=20. If a separate channel B is nominal 600 nm with raw count 4, retain its own wavelength and response identity; a count ratio 8/4=2 does not yet give a spectral power ratio.</p>
+<p>The row retains fixed +z in the toy bench frame, gain 1, A-toy/C-toy response IDs and missing calibration. Its channel keys are T/A/2/A and T/A/2/Clear. B-toy has its own key and only the supplied row-2 count.</p>
+<h2 id="c2801-d1-diagnostic-checks" tabindex="-1">C28.01-D1 — diagnostic checks</h2>
+<ol>
+<li>What interval supports row 4?</li>
+<li>Do equal counts with gain 1 and gain 2 establish equal incident energy?</li>
+<li>Why retain a response identity beside 500 nm?</li>
+<li>What is known when calibration is absent?</li>
+</ol>
+<h2 id="worked-answers" tabindex="-1">Worked answers</h2>
+<ol>
+<li>4 ± 0.1 gives [3.9,4.1] s.</li>
+<li>No. The gain/calibration relations are needed; preserve both settings.</li>
+<li>A nominal wavelength does not specify the full accepted wavelength response.</li>
+<li>The counts, settings, orientation and timing remain known; an optical-power conversion is unresolved.</li>
+</ol>
+<p>Next dependency: <a href="lesson-02.html">lesson-02</a> uses these operations. Reconstruct the worked input and explain the diagnostic answers before proceeding. Source boundaries: <a href="sources.html">sources</a>.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><span></span><a class="button" href="lesson-02.html">Next lesson →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/28">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

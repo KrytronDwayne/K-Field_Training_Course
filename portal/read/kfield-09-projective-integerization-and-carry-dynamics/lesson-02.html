@@ -1,0 +1,60 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Lesson 02 — Projective rays at successive scales · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/9">Course 09</a><span>/</span><span>lesson 02</span></div><a class="original" href="../../../kfield-09-projective-integerization-and-carry-dynamics/lesson-02.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#lesson-02-projective-rays-at-successive-scales">Lesson 02 — Projective rays at successive scales</a><a href="#c0902-e1-ratios-representatives-and-generations">C09.02-E1 — Ratios, representatives, and generations</a><a href="#c0902-w1-worked-synthetic-ray">C09.02-W1 — Worked synthetic ray</a><a href="#c0902-p1-guided-practice-and-answers">C09.02-P1 — Guided practice and answers</a><a href="#c0902-e2-source-reading-card">C09.02-E2 — Source-reading card</a><a href="#diagnostic-checks">Diagnostic checks</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 01 — Nearest-integer maps need a tie rule</a><a aria-current=page href="lesson-02.html">Lesson 02 — Projective rays at successive scales</a><a  href="lesson-03.html">Lesson 03 — The retained rounding coordinate</a><a  href="lesson-04.html">Lesson 04 — Carry between generations</a><a  href="lesson-05.html">Lesson 05 — Small differences at deeper levels</a><a  href="lesson-06.html">Lesson 06 — A lossless recursive compiler</a></details></aside><div class="reading-column"><article class="prose"><h1 id="lesson-02-projective-rays-at-successive-scales" tabindex="-1">Lesson 02 — Projective rays at successive scales</h1>
+<p>Essential question: How does a fixed ratio become a sequence of integer triples?</p>
+<p>Goals: normalize a positive ordered triple to a ray representative; compute three successive scales; round each coordinate using lesson 01; separate synthetic inputs from stored source inputs.</p>
+<p>Bridge: Compute nint(13.5) before beginning. The answer is 13. If you obtained 14, revisit the signed half-tie examples. We now apply the same scalar operation three times, without changing it.</p>
+<h2 id="c0902-e1-ratios-representatives-and-generations" tabindex="-1">C09.02-E1 — Ratios, representatives, and generations</h2>
+<p>The positive triples (6,4,3) and (12,8,6) have the same ratios. Calling them representatives of one projective ray means we identify triples related by a positive common multiplier. Divide by the first coordinate to choose a representative whose first coordinate is 1. Both examples become r=(1,2/3,1/2). Here r is an ordered triple of dimensionless ratios. Normalizing removes the common magnitude: if the original magnitude is needed, retain the first coordinate separately. Our decoder recovers r, not an unrecorded magnitude.</p>
+<p>Call the three coordinate positions a,b,c. These are ordered slots, not three interchangeable values. A generation g is a nonnegative integer: 0,1,2,… . S02 M06 defines the scale K_g=27^g. A power means repeated multiplication; 27^0=1, 27^1=27, 27^2=27×27=729. Each next scale is 27 times the previous one. This is integerization depth, not a dyadic or ternary address depth from another course.</p>
+<p>Multiply every coordinate of r by K_g, then apply nint to each result:</p>
+<p><strong>Q_g=nint(K_g r), component by component.</strong></p>
+<p>Q_g is an integer triple in count coordinates, not a metric, an energy, or the detail operator called Q in another context. The approximation to the normalized ray is Q_g/K_g; dividing every coordinate by K_g returns to ratio coordinates. The scaled input and the integer record must remain separate columns.</p>
+<h2 id="c0902-w1-worked-synthetic-ray" tabindex="-1">C09.02-W1 — Worked synthetic ray</h2>
+<p>Use r=(1,2/3,1/2), deliberately chosen for hand calculation.</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>g</th>
+<th style="text-align: right;">K_g</th>
+<th>Exact K_g r</th>
+<th>Q_g</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td style="text-align: right;">1</td>
+<td>(1,2/3,1/2)</td>
+<td>(1,1,0)</td>
+</tr>
+<tr>
+<td>1</td>
+<td style="text-align: right;">27</td>
+<td>(27,18,27/2)</td>
+<td>(27,18,13)</td>
+</tr>
+<tr>
+<td>2</td>
+<td style="text-align: right;">729</td>
+<td>(729,486,729/2)</td>
+<td>(729,486,364)</td>
+</tr>
+</tbody>
+</table></div>
+<p>For the middle coordinate at g=2, 729×2/3=486 exactly. For the third, 729/2=364.5 and the lower tie gives 364. Q_2/729 is therefore (1,2/3,364/729). This last value differs from 1/2; lesson 03 will retain precisely that difference.</p>
+<h2 id="c0902-p1-guided-practice-and-answers" tabindex="-1">C09.02-P1 — Guided practice and answers</h2>
+<p>Build the same table for a second synthetic ray r=(1,1/3,1/4). Do not round the input fractions first.</p>
+<p>Answers: the scaled triples are (1,1/3,1/4), (27,9,27/4), (729,243,729/4). Since 27/4=6.75 and 729/4=182.25, the integer triples are (1,0,0), (27,9,7), (729,243,182). The third coordinate rounds up at g=1 and down at g=2. A scale change does not preserve the direction of rounding.</p>
+<h2 id="c0902-e2-source-reading-card" tabindex="-1">C09.02-E2 — Source-reading card</h2>
+<p>S02#/backbone_sequence/5/active_ray stores (1.0,0.7297352564331424,0.5446170214888189). Treat these finite decimal tokens as the exact inputs for a stored-input replay, not as an assertion about an infinite-precision physical ratio. Its reported first three Q triples are (1,1,1), (27,20,15), (729,532,397). For example, the middle scaled value at g=1 is 19.7028519236948448, which rounds to 20. The verification file independently replays these tokens. Do not replace either synthetic ray with these numbers mid-table.</p>
+<blockquote>
+<p>Scope: The generation rule and source card are source-grounded. The simple fractional rays are synthetic analogues. We are deriving integer records, not establishing a physical mechanism. No Cell3 basis, dimensional length, or mass is inferred from this table.</p>
+</blockquote>
+<h2 id="diagnostic-checks" tabindex="-1">Diagnostic checks</h2>
+<ol>
+<li><strong>C09.02-D1:</strong> Why would using 3^g change the exercise? Identify which source-card Q triple belongs to g=1.</li>
+<li><strong>C09.02-D2:</strong> Normalize (8,4,2). What extra coordinate must be saved to reconstruct that original triple?</li>
+<li><strong>C09.02-D3:</strong> Compute the third Q coordinate for r=(1,2/3,1/2) at g=2, showing the tie step.</li>
+<li><strong>C09.02-D4:</strong> For the practice ray, calculate Q_1/K_1. Is the third coordinate exactly 1/4?</li>
+</ol>
+<p>Worked answers: (1) At g=1 the scale would be 3 instead of 27, producing different scaled inputs. Source g=1 is (27,20,15). (2) r=(1,1/2,1/4); retain the first-coordinate scale 8 to multiply back. (3) ceil(729/2−1/2)=ceil(364)=364. (4) (1,1/3,7/27); 7/27−1/4=(28−27)/108=1/108, so it is not exact.</p>
+<p>Next: <a href="lesson-03.html">lesson 03</a> turns that difference into a decoding coordinate.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><a class="button secondary" href="lesson-01.html">← Previous lesson</a><a class="button" href="lesson-03.html">Next lesson →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/9">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

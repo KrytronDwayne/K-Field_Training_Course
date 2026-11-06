@@ -1,0 +1,163 @@
+{
+  "status": "passed",
+  "runtime": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+  "checks": [
+    {
+      "check": "prefix [1, -1, 0, 1, -1]",
+      "result": "passed",
+      "evidence": {
+        "signed": [
+          1,
+          -2,
+          -2,
+          25,
+          -56
+        ],
+        "residues": [
+          1,
+          7,
+          25,
+          25,
+          187
+        ]
+      }
+    },
+    {
+      "check": "prefix [0, 1, -1, 0, 1]",
+      "result": "passed",
+      "evidence": {
+        "signed": [
+          0,
+          3,
+          -6,
+          -6,
+          75
+        ],
+        "residues": [
+          0,
+          3,
+          21,
+          75,
+          75
+        ]
+      }
+    },
+    {
+      "check": "prefix [-1, -1, -1, -1]",
+      "result": "passed",
+      "evidence": {
+        "signed": [
+          -1,
+          -4,
+          -13,
+          -40
+        ],
+        "residues": [
+          2,
+          5,
+          14,
+          41
+        ]
+      }
+    },
+    {
+      "check": "prefix [1, 1, 1, 1]",
+      "result": "passed",
+      "evidence": {
+        "signed": [
+          1,
+          4,
+          13,
+          40
+        ],
+        "residues": [
+          1,
+          4,
+          13,
+          40
+        ]
+      }
+    },
+    {
+      "check": "incompatible proposal",
+      "result": "passed",
+      "evidence": "Preserved (1,8), failed reduction."
+    },
+    {
+      "check": "distances",
+      "result": "passed",
+      "evidence": "Difference factoring and coordinate maximum recomputed."
+    },
+    {
+      "check": "depth thresholds",
+      "result": "passed",
+      "evidence": "Binary N7, normalized ternary N6, physical N7; binary practice N5."
+    },
+    {
+      "check": "signed rendering",
+      "result": "passed",
+      "evidence": "All-positive and capstone all-negative depth2 images and signed displacement tail."
+    },
+    {
+      "check": "endpoint histories",
+      "result": "passed",
+      "evidence": "Both infinite images1/12; signed depth2 tails −1/36,+1/36."
+    },
+    {
+      "check": "depth3 image",
+      "result": "passed",
+      "evidence": "Normalized all-positive partial and exact tail."
+    },
+    {
+      "check": "finite tail exhaustive check",
+      "result": "passed",
+      "evidence": "324 signed four-digit tails at N1..4 satisfy the symbolic absolute bound; infinite statement is proved in lesson04."
+    },
+    {
+      "check": "cylinder digits",
+      "result": "passed",
+      "evidence": "Third balanced digits1,−1,0 retained; all outputs7."
+    },
+    {
+      "check": "projectors",
+      "result": "passed",
+      "evidence": "Exact 4x4 rational products; nested P1 correctly excluded from disjoint-sector zero-product claim."
+    },
+    {
+      "check": "reconstruction [1, 3, 5, 7]",
+      "result": "passed",
+      "evidence": "[[4, 4, 4, 4], [-2, -2, 2, 2], [-1, 1, -1, 1]]"
+    },
+    {
+      "check": "reconstruction [2, 0, 6, 4]",
+      "result": "passed",
+      "evidence": "[[3, 3, 3, 3], [-2, -2, 2, 2], [1, -1, 1, -1]]"
+    },
+    {
+      "check": "zero detail",
+      "result": "passed",
+      "evidence": "All four zero coordinates retained."
+    },
+    {
+      "check": "finite product",
+      "result": "passed",
+      "evidence": "Terms3,4,6, total13."
+    },
+    {
+      "check": "sequence blocks",
+      "result": "passed",
+      "evidence": "First8 rational blocks satisfy2^-k; general proof uses2^k terms each≤2^-2k."
+    },
+    {
+      "check": "domain identities",
+      "result": "passed",
+      "evidence": "Weighted-square identities checked at99 n; general cancellation and comparison proved in lesson07, no finite replay promoted to infinite proof."
+    },
+    {
+      "check": "content contract and E05 links",
+      "result": "passed",
+      "evidence": "28 actual E/W/P/D anchors, four answered diagnostics each, seven capstone trails; substantive alignment separately audited."
+    }
+  ],
+  "scope": "Independent rational recomputation and finite exhaustive checks, plus actual content-anchor checks. Infinite claims use the explicit proofs; no empirical data are generated."
+}

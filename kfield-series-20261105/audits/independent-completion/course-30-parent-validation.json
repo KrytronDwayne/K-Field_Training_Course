@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-30",
+  "timestamp": "2026-11-05T20:40:57.662323+00:00",
+  "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test",
+  "validator": "passed",
+  "validator_checks": [
+    "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+    "parsed manifest.json",
+    "parsed audit_report.json",
+    "parsed completion_report.json",
+    "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+  ],
+  "validator_errors": [],
+  "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+  "manifest_sha256": "086f82ba25c45c9facd07c7e46f4ca05ee0b418075139f689f72815042d69d86",
+  "completion_report_sha256": "3d85893f99538476ee83e072f3f0a9c3830096c65d067c516688a1f91241acd0",
+  "course_sha256": "51ae4db248175714ca9d27ed220e6eef241e934cd38af3d19992985ed8bd050b"
+}

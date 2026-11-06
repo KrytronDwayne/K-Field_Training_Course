@@ -1,0 +1,42 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>2. Acquisition identity and raw-value preservation · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/28">Course 28</a><span>/</span><span>lesson 02</span></div><a class="original" href="../../../kfield-28-photometer-experiments-and-information-preserving-analysis/lesson-02.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#2-acquisition-identity-and-raw-value-preservation">2. Acquisition identity and raw-value preservation</a><a href="#prerequisite-bridge">Prerequisite bridge</a><a href="#c2802-e1-first-principles">C28.02-E1 — first principles</a><a href="#c2802-w1-worked-example">C28.02-W1 — worked example</a><a href="#c2802-p1-guided-practice">C28.02-P1 — guided practice</a><a href="#worked-answer">Worked answer</a><a href="#c2802-d1-diagnostic-checks">C28.02-D1 — diagnostic checks</a><a href="#worked-answers">Worked answers</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">1. From light to channel readings</a><a aria-current=page href="lesson-02.html">2. Acquisition identity and raw-value preservation</a><a  href="lesson-03.html">3. Normalization with an inverse account</a><a  href="lesson-04.html">4. Symmetry, palindromes, and signed comparisons</a><a  href="lesson-05.html">5. Sidereal combs and event windows</a><a  href="lesson-06.html">6. Scale and channel comparisons</a><a  href="lesson-07.html">7. Uncertainty as a structured record</a><a  href="lesson-08.html">8. A prospective measurement protocol</a></details></aside><div class="reading-column"><article class="prose"><h1 id="2-acquisition-identity-and-raw-value-preservation" tabindex="-1">2. Acquisition identity and raw-value preservation</h1>
+<p>Essential question: How can every later result be traced back to the acquisition?</p>
+<p>Goals:</p>
+<ul>
+<li>Construct reversible acquisition keys</li>
+<li>Distinguish zero, null and absent support</li>
+<li>Retain faults beside raw values</li>
+</ul>
+<h2 id="prerequisite-bridge" tabindex="-1">Prerequisite bridge</h2>
+<p>Use <a href="lesson-01.html">From light to channel readings</a>: its retained records and operations are the inputs to this lesson.</p>
+<p>Pacing: 1 period(s) of 55 minutes. Raw retention, order and invalid branches.</p>
+<h2 id="c2802-e1-first-principles" tabindex="-1">C28.02-E1 — first principles</h2>
+<p>A raw ledger is the record of what was supplied before an analysis changes its representation. A row key tells us which acquisition a value belongs to. Use device, session, sequence number and channel together; a timestamp alone may repeat. A sequence number records acquisition order even if a later display is sorted by time.</p>
+<p>Separate three situations. A recorded zero is a value. A null is an explicit entry saying no usable numeric value was supplied. An absent expected sample has no acquired row; its gap belongs in a parallel expectation ledger. None may be replaced by the others. A gap is meaningful only relative to a declared expected schedule.</p>
+<p>A fault flag states a diagnostic condition and its origin. It does not change the stored value. For practice, independently attach suspected saturation to row 3 with reason “synthetic instrument-status exercise.” Saturation means an instrument may have reached a response limit; the small count 1 does not itself establish saturation. We are practicing a flagged branch, not diagnosing this count from its size. Retain the reason and the fact that the flag was stipulated.</p>
+<p>A mask is a parallel list of inclusion or validity labels for a particular view. Its purpose must be named: a ratio-validity mask is not a raw-acquisition validity mask. A corrected view, if independently justified, gets a new field and transformation record. Keeping the original key lets us join every result back to its input.</p>
+<p>To make sorting reversible, record the original sequence beside each displayed row. For example, if rows appear in order 2,0,1, their original sequence labels restore 0,1,2. Duplicate timestamps remain separate keys. No large source copy is needed: for real archives preserve an immutable source path and hash, then store only authored derived records and their keys.</p>
+<blockquote>
+<p>Claim scope: The saturation flag is stipulated for a synthetic exercise. It is not inferred from the value 1. No source observation is deleted.</p>
+</blockquote>
+<h2 id="c2802-w1-worked-example" tabindex="-1">C28.02-W1 — worked example</h2>
+<p>Retain all five toy rows including row 1 A=5, Clear=0. Mark its ratio transform invalid later, while its raw count remains valid as an authored input. If row 3 is independently marked suspected saturation, keep A=1 plus the flag and reason; do not silently replace its raw value.</p>
+<h2 id="c2802-p1-guided-practice" tabindex="-1">C28.02-P1 — guided practice</h2>
+<p><strong>Student task.</strong> Create distinct device/session/sequence/channel keys for A and Clear at t=2. Write a separate gap record for expected sequence 5 at t=5 s. A display lists sequence 2,0,1: describe how to restore acquisition order. State what happens to the stipulated row-3 fault and its raw count.</p>
+<h3 id="worked-answer" tabindex="-1">Worked answer</h3>
+<p>Two rows may share a timestamp but differ by sequence or channel. Keep both IDs. If sequence 5 is absent, add a gap record with expected time 5 s and no invented count. A display sorted by time also stores original sequence so the acquisition order can be recovered.</p>
+<p>At t=2 use T/A/2/A and T/A/2/Clear. In the expectation ledger write T/A/5, expected midpoint 5 s, status absent, value not supplied. Sorting retained sequence labels restores 0,1,2. Row 3 keeps A=1 and C=10 with the stipulated saturation reason; no correction value is invented.</p>
+<h2 id="c2802-d1-diagnostic-checks" tabindex="-1">C28.02-D1 — diagnostic checks</h2>
+<ol>
+<li>How does a recorded zero differ from a gap?</li>
+<li>Can two channels at one timestamp share one row key?</li>
+<li>What stays beside suspected saturation at row 3?</li>
+<li>How do you restore a display ordered 2,0,1?</li>
+</ol>
+<h2 id="worked-answers" tabindex="-1">Worked answers</h2>
+<ol>
+<li>Zero is an acquired numeric value; a gap records an expected but absent acquisition.</li>
+<li>They need distinct channel identities within their keys; keep both.</li>
+<li>Raw A=1, Clear=10, sequence/time and the stipulated diagnostic reason remain.</li>
+<li>Use retained sequence labels to order 0,1,2; never infer sequence only from timestamp.</li>
+</ol>
+<p>Next dependency: <a href="lesson-03.html">lesson-03</a> uses these operations. Reconstruct the worked input and explain the diagnostic answers before proceeding. Source boundaries: <a href="sources.html">sources</a>.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><a class="button secondary" href="lesson-01.html">← Previous lesson</a><a class="button" href="lesson-03.html">Next lesson →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/28">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

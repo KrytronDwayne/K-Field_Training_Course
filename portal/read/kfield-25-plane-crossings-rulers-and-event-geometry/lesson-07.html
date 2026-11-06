@@ -1,0 +1,141 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Lesson 7 — A signed crossing ledger · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/25">Course 25</a><span>/</span><span>lesson 07</span></div><a class="original" href="../../../kfield-25-plane-crossings-rulers-and-event-geometry/lesson-07.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#lesson-7-a-signed-crossing-ledger">Lesson 7 — A signed crossing ledger</a><a href="#c2507-e1-a-record-not-just-a-time">C25.07-E1 — A record, not just a time</a><a href="#c2507-w1-worked-two-family-ledger">C25.07-W1 — Worked two-family ledger</a><a href="#c2507-p1-practice-and-worked-answer">C25.07-P1 — Practice and worked answer</a><a href="#residual-reconstruction-and-uncertainty">Residual reconstruction and uncertainty</a><a href="#diagnostics">Diagnostics</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 1 — Signed distance to a plane</a><a  href="lesson-02.html">Lesson 2 — Crossing rates from velocity</a><a  href="lesson-03.html">Lesson 3 — Spatial spacing and a temporal signal</a><a  href="lesson-04.html">Lesson 4 — Optical, oscillator, and crystal rulers</a><a  href="lesson-05.html">Lesson 5 — Events and interpolation</a><a  href="lesson-06.html">Lesson 6 — Meridian events versus spatial-sheet passages</a><a aria-current=page href="lesson-07.html">Lesson 7 — A signed crossing ledger</a></details></aside><div class="reading-column"><article class="prose"><h1 id="lesson-7-a-signed-crossing-ledger" tabindex="-1">Lesson 7 — A signed crossing ledger</h1>
+<p><strong>Essential question:</strong> What must an event record retain so another person can reproduce it without guessing?</p>
+<p><strong>Goals:</strong> Assemble multiple-family event rows; distinguish orientation, direction and polarity; reconstruct endpoint distances while preserving residuals and unresolved intervals.</p>
+<p><strong>Time:</strong> Two 55-minute periods, each retrieval 5, teaching/example 20, practice 15, diagnostics/repair 15. Period 1 builds W1 and the reversed-family practice. Period 2 reconstructs brackets and adds contact, gap and residual rows.</p>
+<p><strong>Prerequisite bridge:</strong> Lessons 1–3 connect a full path to q, signed rate and period. Lesson 4 keeps ruler roles distinct. Lessons 5–6 distinguish event types and their existence conditions. A <strong>ledger</strong> is a collection of records that preserve these inputs with each derived event.</p>
+<h2 id="c2507-e1-a-record-not-just-a-time" tabindex="-1">C25.07-E1 — A record, not just a time</h2>
+<p>Use an immutable input card to avoid repeating a long path in every row. A card ID refers to the exact path, geometry, clock and evidence class. Changing any input creates a new card. Every event row needs:</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Field</th>
+<th>What it retains</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Event ID and type</td>
+<td>Stable identity; sheet passage, contact, angular event, occupancy, gap or failure</td>
+</tr>
+<tr>
+<td>Family, sheet k and input-card ID</td>
+<td>Normal, origin, positive spacing, full path and units by reference</td>
+</tr>
+<tr>
+<td>Time and epoch/clock</td>
+<td>Numerical time plus the named start or absolute time convention</td>
+</tr>
+<tr>
+<td>Bracket and signed endpoint values</td>
+<td>Support before refinement; both adjacent brackets if applicable</td>
+</tr>
+<tr>
+<td>Continuity/model rule</td>
+<td>Linear, specified nonlinear, discontinuous or unknown</td>
+</tr>
+<tr>
+<td>Direction</td>
+<td>+ for increasing q through the sheet, − for decreasing; contact/unknown separately</td>
+</tr>
+<tr>
+<td>Orientation and polarity</td>
+<td>Actual oriented normal and a separately declared polarity convention</td>
+</tr>
+<tr>
+<td>Uncertainty and gaps</td>
+<td>Model localization interval, supplied measurement bounds, unresolved inputs</td>
+</tr>
+<tr>
+<td>Provenance and residual information</td>
+<td>Source/card pointer, retained components and reconstruction rule</td>
+</tr>
+</tbody>
+</table></div>
+<p>For this course only, each family is assigned a <strong>polarity label</strong> p of +1 or −1 independently of its travel direction. It is a declared tag, not detector parity, chirality or an inferred physical charge. Never infer it from time order. If the normal reverses while origin and spacing remain fixed, q and k must both change sign to describe the same physical sheet; its direction reverses in the new coordinate convention. Retain both orientations, not an unsigned normal alone.</p>
+<h2 id="c2507-w1-worked-two-family-ledger" tabindex="-1">C25.07-W1 — Worked two-family ledger</h2>
+<p><strong>Input card SYN-FWD:</strong> Fixed perpendicular Cartesian axes; synthetic elapsed seconds from epoch E0 (not an actual UTC date); x(t)=((2 m/s)t,0,0), defined linearly beyond both ends of reporting interval [0,3/2] s. Family A has n=(3/5,4/5,0), o=0 m, d=3/5 m, p=+1. Family B has n=(1,0,0), o=0 m, d=2 m, p=−1. The family name B here is a label, not the Cell3 basis matrix B. Both paths are exact synthetic models; measurement bounds are not applicable, not measured zero.</p>
+<p>Projection gives q_A=2t and q_B=t for numerical seconds. Retain both families at coincident times. All rows below have direction + and transverse passage under the declared extension. The bracket column uses evaluated model points, not fabricated observations. Distances refer to that row's sheet.</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Family:k</th>
+<th style="text-align: right;">Time s</th>
+<th>Bracket s</th>
+<th>Endpoint s_k values m</th>
+<th style="text-align: right;">p</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>F-A0</td>
+<td>A:0</td>
+<td style="text-align: right;">0</td>
+<td>[0,1/2]</td>
+<td>[0,3/5]</td>
+<td style="text-align: right;">+1</td>
+</tr>
+<tr>
+<td>F-A1</td>
+<td>A:1</td>
+<td style="text-align: right;">1/2</td>
+<td>[0,1]</td>
+<td>[−3/5,3/5]</td>
+<td style="text-align: right;">+1</td>
+</tr>
+<tr>
+<td>F-A2</td>
+<td>A:2</td>
+<td style="text-align: right;">1</td>
+<td>[1/2,3/2]</td>
+<td>[−3/5,3/5]</td>
+<td style="text-align: right;">+1</td>
+</tr>
+<tr>
+<td>F-A3</td>
+<td>A:3</td>
+<td style="text-align: right;">3/2</td>
+<td>[1,3/2]</td>
+<td>[−3/5,0]</td>
+<td style="text-align: right;">+1</td>
+</tr>
+<tr>
+<td>F-B0</td>
+<td>B:0</td>
+<td style="text-align: right;">0</td>
+<td>[0,1]</td>
+<td>[0,2]</td>
+<td style="text-align: right;">−1</td>
+</tr>
+<tr>
+<td>F-B1</td>
+<td>B:1</td>
+<td style="text-align: right;">1</td>
+<td>[1/2,3/2]</td>
+<td>[−1,1]</td>
+<td style="text-align: right;">−1</td>
+</tr>
+</tbody>
+</table></div>
+<p>Time roots are exact within SYN-FWD, so localization intervals are singleton sets {t}; retain the broader supporting brackets anyway. Boundary rows explicitly rely on the model extension for two-sided passage. Without that extension label them endpoint occupancy with only one-sided evidence. F-A2 and F-B1 both occur at 1 s, but belong to different sheet families. They are neither duplicate entries nor two independent observations: they are derived events on one synthetic trajectory.</p>
+<p>Reconstruct F-A2 at its endpoints: s_2=(3/5)(2t−2). At 1/2 s this is −3/5 m; at 3/2 s it is +3/5 m. Reconstruct F-B1 using s_1=2(t−1), obtaining −1 and +1 m. Replaying q does not recover movement parallel to sheets; SYN-FWD preserves all original path components.</p>
+<h2 id="c2507-p1-practice-and-worked-answer" tabindex="-1">C25.07-P1 — Practice and worked answer</h2>
+<p>Create SYN-REV by replacing x with ((−2 m/s)t,0,0), preserving geometry, polarity and extension. Report every A event on [0,3/2] s and all B events. Add separate input cards for Lesson 5's tangent s=(1 m)(t/(1 s)−1)² and a gap with known s(1 s)=−1 m, s(2 s)=+1 m, no values inside and unknown continuity. Use n=(1,0,0), o=0, d=1 m, k=0 and x=(s,0,0) for both separate cases; declare p=+1. The tangent is defined on [0,2] s. The gap card supplies no interpolating path.</p>
+<p><strong>Worked answer:</strong> q_A=−2t, q_B=−t. A indices are 0,−1,−2,−3 at 0,1/2,1,3/2 s, all direction −. B indices 0,−1 occur at 0,1 s, also direction −. Their polarities remain A:+1, B:−1. Use the same brackets as W1; the endpoint-distance pairs are the negatives of W1's corresponding pairs, because both q and k negate. For example A:−2 gives s_(−2)=(3/5)(−2t+2), hence +3/5 and −3/5 m on [1/2,3/2]. B:−1 gives s=2(−t+1), hence +1 and −1 m there.</p>
+<p>Add T-0: tangent contact at 1 s, bracket [0,2] s with distances [1,1] m, direction “contact; no sign reversal,” localization {1 s}, exact quadratic model, p=+1. Add G-0: unresolved interval (1,2) s with endpoints [−1,+1] m, unknown continuity, time/count/direction unknown, p=+1. The gap is a row, not evidence of absence or a fabricated t=1.5 s passage.</p>
+<h2 id="residual-reconstruction-and-uncertainty" tabindex="-1">Residual reconstruction and uncertainty</h2>
+<p>If an observed signed coordinate y and model m are available, define residual e=y−m and preserve y=m+e. For a small synthetic illustration at times [0,1,2] s, let y=[0,11/10,19/10] m and m=[0,1,2] m. Then e=[0,1/10,−1/10] m. Addition reconstructs every y, including the negative residual. Averaging e to zero would lose its ordered structure. These are illustrative sample values, not source data or instrument evidence.</p>
+<p><strong>C25.07-P2:</strong> Reconstruct y at 2 s; then suppose its supplied bound is ±1/20 m. What is retained? <strong>Answer:</strong> 2+(−1/10)=19/10 m. Keep y, m, e, timestamp and bound; the allowed y interval is [37/20,39/20] m. The residual describes a difference; the bound describes supplied uncertainty. Neither substitutes for the other. For a real archive, reference original records in place rather than duplicating raw data.</p>
+<blockquote>
+<p><strong>Claim scope:</strong> A signed ledger preserves derived structure and its provenance. It supplies no force or measured energy claim. Mechanisms remain separate hypotheses. Source-reported empirical rows must keep their own identifiers, uncertainties and dependencies; a new teaching ledger is not a replacement for them.</p>
+</blockquote>
+<h2 id="diagnostics" tabindex="-1">Diagnostics</h2>
+<ol>
+<li><strong>C25.07-D1:</strong> Can polarity be recovered by sorting event times?</li>
+<li><strong>C25.07-D2:</strong> Should F-A2 and F-B1 be merged because their times match?</li>
+<li><strong>C25.07-D3:</strong> What does an unknown gap permit you to say about its event time?</li>
+<li><strong>C25.07-D4:</strong> For y=9/10 m and model m=1 m, give the residual and reconstruction.</li>
+<li><strong>C25.07-D5:</strong> What changes when the normal is reversed but the same physical sheet is described?</li>
+</ol>
+<p><strong>Worked answers:</strong> (1) No: p is a separately declared convention. (2) No: retain both family IDs and shared-trajectory dependence. (3) Timing and count remain unresolved without sufficient path/continuity information. (4) e=−1/10 m and 1−1/10=9/10 m. (5) n,q,k and coordinate direction negate; d stays positive. Keep the orientation revision and separately specified polarity; do not silently identify the two signed ledgers.</p>
+<p><strong>Next dependency:</strong> <a href="capstone.html">Capstone</a> assembles and audits a complete synthetic ledger using these same operations.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><a class="button secondary" href="lesson-06.html">← Previous lesson</a><a class="button" href="capstone.html">Course capstone →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/25">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

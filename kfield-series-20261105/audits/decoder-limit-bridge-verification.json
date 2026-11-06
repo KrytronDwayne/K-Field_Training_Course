@@ -1,0 +1,427 @@
+{
+  "schema_version": "1.0",
+  "status": "passed",
+  "created_at": "2026-11-05T18:42:52.822040+00:00",
+  "scope": "Parent-authored finite teaching checks for independent auditor review, not completed-course acceptance or new empirical/archival proof evidence.",
+  "source_sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+  "checks": [
+    {
+      "id": "C21-GRAM",
+      "passed": true,
+      "gram": [
+        [
+          "9",
+          "6",
+          "6",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "6",
+          "9",
+          "6",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "6",
+          "6",
+          "9",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "6",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "6",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "6"
+        ]
+      ],
+      "eigenvalues": [
+        21,
+        3,
+        3,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "id": "C21-ORTHOGONAL-DECODER",
+      "passed": true,
+      "trace_P": "6",
+      "trace_S": "7",
+      "scope": "Direct rational recomputation of the source matrix. Aplus is the explicitly defined orthogonal decoder, not an invented archival W7 or canonical lattice intertwiner."
+    },
+    {
+      "id": "C21-FULL-ROUNDTRIP",
+      "passed": true,
+      "synthetic_y": [
+        [
+          "1"
+        ],
+        [
+          "2"
+        ],
+        [
+          "3"
+        ],
+        [
+          "4"
+        ],
+        [
+          "5"
+        ],
+        [
+          "6"
+        ],
+        [
+          "7"
+        ],
+        [
+          "8"
+        ],
+        [
+          "9"
+        ],
+        [
+          "10"
+        ],
+        [
+          "11"
+        ],
+        [
+          "12"
+        ],
+        [
+          "13"
+        ]
+      ],
+      "decoded_c": [
+        [
+          "131/21"
+        ],
+        [
+          "68/21"
+        ],
+        [
+          "19/21"
+        ],
+        [
+          "-3/2"
+        ],
+        [
+          "-1/2"
+        ],
+        [
+          "-1/6"
+        ]
+      ],
+      "retained_syndrome": [
+        [
+          "2/21"
+        ],
+        [
+          "-26/21"
+        ],
+        [
+          "-41/42"
+        ],
+        [
+          "-13/42"
+        ],
+        [
+          "-26/21"
+        ],
+        [
+          "-9/14"
+        ],
+        [
+          "-9/14"
+        ],
+        [
+          "1/42"
+        ],
+        [
+          "11/14"
+        ],
+        [
+          "19/42"
+        ],
+        [
+          "1/42"
+        ],
+        [
+          "19/42"
+        ],
+        [
+          "11/14"
+        ]
+      ]
+    },
+    {
+      "id": "C21-DERIVED-INTEGER-LEFT-INVERSE",
+      "passed": true,
+      "constructed_L_int": [
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          0,
+          -1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          -1,
+          -1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "shape": [
+        6,
+        13
+      ],
+      "scope": "New elementary witness L_int for this exact A. It is NOT the missing source7x13 syndrome matrix L or W7. L_int*A=I proves any integral y in the real image has integral c=L_int*y. It does not make orthogonal decoding of arbitrary integral y integral or identify a syndrome lattice basis. Different shape and codomain are essential."
+    },
+    {
+      "id": "C21-COMPOSITION-MOVES",
+      "passed": true,
+      "weights": [
+        12,
+        1,
+        14,
+        16
+      ],
+      "moves": [
+        [
+          -1,
+          -2,
+          1,
+          0
+        ],
+        [
+          1,
+          4,
+          0,
+          -1
+        ],
+        [
+          0,
+          2,
+          1,
+          -1
+        ],
+        [
+          -4,
+          0,
+          0,
+          3
+        ]
+      ],
+      "independence_proof": "If a U1+b U2=K4, the N row gives a=0 and the H row then b=0, contradicting K4 nonzero.",
+      "scope": "Nominal composition only; nonnegative endpoint counts must separately be supplied. No rate, isomer identity, exact atomic mass or power inferred."
+    },
+    {
+      "id": "C21-SMALL-WALSH",
+      "passed": true,
+      "table": [
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          1,
+          -1
+        ],
+        [
+          1,
+          1,
+          -1,
+          -1
+        ],
+        [
+          1,
+          -1,
+          -1,
+          1
+        ]
+      ],
+      "scope": "Four-character toy table, not the source missing seven-dimensional W7/intertwiner."
+    },
+    {
+      "id": "C22-COMPATIBILITY",
+      "passed": true,
+      "digits": [
+        1,
+        -1,
+        0,
+        1,
+        -1
+      ],
+      "addresses": [
+        1,
+        7,
+        25,
+        25,
+        187
+      ]
+    },
+    {
+      "id": "C22-TAIL-AND-DEPTH",
+      "passed": true,
+      "normalized_tail_formula": "1/(4*3^N)",
+      "minimum_N_for_1e_minus3": 6,
+      "scope": "Per normalized coordinate before multiplying by B. A physical vector bound must propagate B and its units; e.g. sum of column norms times coordinate bound."
+    },
+    {
+      "id": "C22-RENDERER-NONINJECTIVITY",
+      "passed": true,
+      "first_history": "(1,-1,-1,...)",
+      "second_history": "(0,1,1,...)",
+      "real_normalized_value": "1/12",
+      "scope": "Histories differ already modulo3 in their first balanced digit while real images coincide. Retain the ordered pair; do not infer injectivity of the real renderer."
+    },
+    {
+      "id": "C22-DETAIL-FILTRATION",
+      "passed": true,
+      "scope": "Finite mean/pair/detail reconstruction only. Infinite operator domains require separate definitions."
+    },
+    {
+      "id": "C23-SCALAR-LIFT",
+      "passed": true,
+      "forward_order": [
+        "F=y_ac-y_bc",
+        "M=y_bc-y_ab",
+        "G=9y_ab+8y_ac-11y_bc"
+      ],
+      "synthetic_y": [
+        0,
+        2,
+        3
+      ],
+      "synthetic_F_M_G": [
+        -1,
+        3,
+        -17
+      ],
+      "scope": "The difference definitions F,M are explicitly inferred by inverting the displayed source identities. Logs require the same reference area; these identities specify no force law or unique exceptional action."
+    },
+    {
+      "id": "C23-BRAGG-BRANCH",
+      "passed": true,
+      "m": 2,
+      "lambda_wave": 2,
+      "sine": "1/2",
+      "d": 4,
+      "Gamma_B": "ln(m/2)=0",
+      "scope": "Synthetic consistent length units. theta=30deg and150deg have the same sine; sin(theta)=0 is excluded for nonzero m*lambda. Reciprocal residual rho remains retained."
+    },
+    {
+      "id": "C23-COUNTS-AND-ACTION",
+      "passed": true,
+      "scope": "Graph cycle counts are direct; H2 dimension6 and exceptional algebra identities retain source/theorem status. Equal dimension does not supply an action: 2x2 involutions -I and diag(1,-1) have different traces and cannot be conjugate."
+    }
+  ]
+}

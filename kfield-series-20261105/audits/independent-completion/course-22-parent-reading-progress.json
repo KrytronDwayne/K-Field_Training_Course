@@ -1,0 +1,34 @@
+{
+  "status": "all_seven_lessons_read_supports_and_convergence_repair_pending",
+  "course_id": "course-22",
+  "read_hashes": {
+    "lesson-01.md": "00d0e646a2a67bfd2b61a03ad70700dee9cf4b42523bece5e2c5ddfd250f3cff",
+    "lesson-02.md": "9ef84a0b91cdba2e09d3280dc22452a17055eca69bf286d437c7f81f5c73f007",
+    "lesson-03.md": "29265764d982bf97a45bccb964858fb39ca1a05a0da18d6f6ee995cb993cccd9",
+    "lesson-04.md": "5904a05c7e1a78f4f5002e06044643889b692bd21138d9776bc0ce04a64ca62c",
+    "lesson-05.md": "93022a839828975dd667e6bda38e87c7390955e3699a764d1de10e5f363ff184",
+    "lesson-06.md": "a18efd942ad3ff88613e33df009f914856f457cf427db4c2763facfe836c81a9",
+    "lesson-07.md": "dcce42d44c3d64ae6e51548becd79c6b0bbc5c8a8017a63b53505830535e69f6"
+  },
+  "lesson_review_notes": [
+    "Balanced least-significant-first digits, signed representatives and stored residues separately taught; all worked and practice reductions correct; invalid proposal retained and triple diagnostic checks all coordinates.",
+    "Address distance distinguished from real integer distance. Finite agreement yields only an upper bound; complete history equality alone gives zero. Triple maximum metric and equal-renderer/different-history example are explicit.",
+    "Inverse limit defined as whole compatible history, not final row. General all-positive difference proof supplies all-depth compatibility. All-negative triple and27 extensions correct; ternary and dyadic recursion remain distinct.",
+    "Finite geometric sum derived by subtraction; absolute convergence and bound conditions explicit. Infinity norm and matrix row-sum inequality locally taught with length units. NormalizedN6 versus physicalN7 distinguished. All-positive and noninjective endpoint partial images, signed tails and retained histories checked.",
+    "Functions, composition, pullback and cylinder taught before evaluation. All7/16/25 balanced third digits correctly recovered; equal observation does not identify histories; constant depth0 and third-digit depth3 diagnostics answered.",
+    "Explicit4x4 matrices, projector/symmetry/nesting and disjoint-sector products derived. Mean/pair/within detail fully reconstructs. Product identity includes conditional-expectation assumptions and covariance term; finite difference product retains last term. Infinite convergence conditions remain distinct.",
+    "Explicit real l2 space and D domain, dyadic block proof, unboundedness and finite truncation counterexample correctly developed. 1/n2 and1/n3 domain checks sound. Parent requested minor repair: justify inner-product convergence through absolute values and explicit finite Cauchy-Schwarz derivation; bounded signed partial sums alone insufficient."
+  ],
+  "source_objects_read_directly": [
+    "S02#/backbone_sequence/17",
+    "S03#/findings/5 (AUD-006)",
+    "S03#/findings/9 (AUD-010)"
+  ],
+  "independent_mathematics": "course-22-parent-math-verification.json:94 exact finite checks plus explicitly recorded universal series/domain arguments; actual lesson examples compared.",
+  "pending": [
+    "Reread lesson07 convergence correction and final changed lesson bytes",
+    "Read final capstone, all answers/rubric, teacher guide, map, glossary, provenance and audit records",
+    "Match every assessed operation to actual answered prior practice",
+    "Verify current source/file hashes and fresh real project validator after builder idle"
+  ]
+}

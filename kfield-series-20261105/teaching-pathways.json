@@ -1,0 +1,229 @@
+{
+  "schema_version": "1.0",
+  "created_utc": "2026-11-05T20:41:03.177354+00:00",
+  "status": "parent_authored_navigation_pending_final_series_review",
+  "course_count": 30,
+  "course_numbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30
+  ],
+  "paths": [
+    {
+      "title": "Geometry foundations",
+      "targets": [
+        6
+      ],
+      "required_sequence": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "purpose": "Build units, coordinates, affine ownership, Lucas geometry and recursive addresses.",
+      "prerequisite_closure_verified": true
+    },
+    {
+      "title": "Finite calculus and geometric quantities",
+      "targets": [
+        10
+      ],
+      "required_sequence": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "purpose": "Extend the geometry foundation through information-preserving calculus, area ratios, integerization and shape/scale reduction.",
+      "prerequisite_closure_verified": true
+    },
+    {
+      "title": "Symmetry and matter",
+      "targets": [
+        16
+      ],
+      "required_sequence": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "purpose": "Continue through finite graphs, spectra, roots, complex actions, the exterior census and interaction interfaces.",
+      "prerequisite_closure_verified": true
+    },
+    {
+      "title": "Laboratory trajectory and event geometry",
+      "targets": [
+        24,
+        25
+      ],
+      "required_sequence": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        24,
+        25
+      ],
+      "purpose": "Use the geometry prerequisites to describe moving frames, rulers and signed plane events.",
+      "prerequisite_closure_verified": true
+    },
+    {
+      "title": "Spectral measurement and analysis",
+      "targets": [
+        28
+      ],
+      "required_sequence": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        17,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "purpose": "Connect finite mathematics to beats, energy-phase models, route cost and photometer analysis, preserving all measured and residual channels.",
+      "prerequisite_closure_verified": true
+    },
+    {
+      "title": "Cross-scale geometry",
+      "targets": [
+        29
+      ],
+      "required_sequence": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        22,
+        24,
+        25,
+        26,
+        29
+      ],
+      "purpose": "Connect recursive geometry and rendering to the separately typed galactic construction and its source limitations.",
+      "prerequisite_closure_verified": true
+    },
+    {
+      "title": "Complete research sequence",
+      "targets": [
+        30
+      ],
+      "required_sequence": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "purpose": "Complete all thirty courses, including topology, family structure, decoders, extension branches and integrated research design.",
+      "prerequisite_closure_verified": true
+    }
+  ],
+  "all30_reached_from_course30": true,
+  "guide_sha256": "2d8cb194a8dfd65ea8cd698793683415169759ca73f3f89d26c87bb999c1e030",
+  "limitations": [
+    "Prerequisite closure is mechanically checked against the ledger, not a classroom mastery study.",
+    "No total calendar duration inferred from blueprint estimates.",
+    "Navigation does not grant course acceptance."
+  ]
+}

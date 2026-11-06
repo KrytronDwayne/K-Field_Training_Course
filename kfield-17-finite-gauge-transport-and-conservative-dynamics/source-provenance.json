@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "source_files": [
+    {
+      "id": "S01",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "actual_sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "hash_match": true
+    },
+    {
+      "id": "S02",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "actual_sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "hash_match": true
+    },
+    {
+      "id": "S03",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "actual_sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "hash_match": true
+    },
+    {
+      "id": "S04",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+      "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "actual_sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "hash_match": true
+    },
+    {
+      "id": "S05",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+      "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "actual_sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+      "hash_match": true
+    }
+  ],
+  "source_pointers": [
+    "S02#/backbone_sequence/12",
+    "S02#/hodge_normalization_theorem",
+    "S04#/hodge_correction_proof",
+    "S03#/findings/8",
+    "S01#/backbone_sequence/12/definitions"
+  ],
+  "evidence_class": "Local hash-verified archival source statements; finite teaching algebra independently checked; no empirical data.",
+  "graph": {
+    "capabilities": "Read-only call succeeded; capabilities did not itself expose generation.",
+    "retrieval": "Sparse RAG M13 Cayley Hodge finite gauge transport, rerank=false. Returned integration compiler and moving-frame material, not a missing finite-rung replay object. No proof promotion or namespace merger.",
+    "corpus_generation": "sha256:5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+    "manifest_sha256": "5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+    "identity_source": "project_rag_search response metadata; matches runtime packet"
+  },
+  "gaps": [
+    "Full fixed-rung compiler matrices, coefficients, interval method/precision and pinned certificate replay object unavailable in read packet.",
+    "Archival J basis convention not loaded; teaching J explicitly synthetic."
+  ],
+  "source_snapshot_copies_created": false
+}

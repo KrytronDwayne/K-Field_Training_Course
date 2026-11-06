@@ -1,0 +1,4 @@
+from pathlib import Path
+p=Path(r'Z:/Kfield-doc-training/K-Field_Training_Course/kfield-06-recursive-k-field-geometry-and-address-histories')
+f=p/'lesson-02.md';s=f.read_text(encoding='utf-8').replace('Rebuild the one-coordinate tree.','Rebuild the one-coordinate tree and state the three-coordinate counts at depths 0,1,2.').replace('exhausting 0 through 8.','exhausting 0 through 8. The three-coordinate counts are 1^3=1,3^3=27,9^3=729 at depths 0,1,2.');f.write_text(s,encoding='utf-8')
+f=p/'initialize.py';s=f.read_text(encoding='utf-8-sig').replace("c=json.loads((p/'input-contract.json').read_text(encoding='utf-8-sig'))", "if (p/'manifest.json').exists():\n    raise SystemExit('Recovery state already exists; inspect manifest and hashes rather than reinitialize.')\nc=json.loads((p/'input-contract.json').read_text(encoding='utf-8-sig'))");f.write_text(s,encoding='utf-8')

@@ -1,0 +1,188 @@
+{
+  "course": "kfield-13-root-systems-symmetry-and-a1-a2-structure",
+  "figures": [
+    {
+      "title": "A1 transfers move along a fixed-sum line",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-13-root-systems-symmetry-and-a1-a2-structure\\publication-figures\\side-transfer.png",
+      "sha256": "24c48e00855fa01980057c379fcdea1d112a3592731fa71ceae5290bf72b4aae",
+      "lessons": [
+        1,
+        2
+      ],
+      "kind": "deterministic synthetic teaching illustration",
+      "source_lessons": [
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-13-root-systems-symmetry-and-a1-a2-structure\\lesson-01.md",
+          "sha256": "11023bdbdbdcae6634c5dabd047e9416e2265230ec8d591d52c519ff1fbe5a8d"
+        },
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-13-root-systems-symmetry-and-a1-a2-structure\\lesson-02.md",
+          "sha256": "aba8e08635799f0b8d9001739756e7050bd283091dfa1cc3e44702ecaec989a1"
+        }
+      ],
+      "source_ledger": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-13-root-systems-symmetry-and-a1-a2-structure\\sources.md",
+        "sha256": "d159010fc0aad27e5b0bc43cb66c0a995af7f16b7c05a55ed257f29f8e55e2aa"
+      },
+      "evidence_sources": [
+        {
+          "id": "S01",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+          "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S02",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+          "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S03",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+          "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S04",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+          "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S05",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+          "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        }
+      ],
+      "evidence_scope": "Authored synthetic teaching figure; lesson identities locate the exact numerical and mathematical inputs. Archival identities resolve source IDs but do not assert replay of archived claims.",
+      "vector_companion": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-13-root-systems-symmetry-and-a1-a2-structure\\publication-figures\\side-transfer.svg",
+        "sha256": "46359d2720747fcb89eeaaa8d8e784dff2f442121c55b55c270ebe196ef1e462"
+      }
+    },
+    {
+      "title": "Six transfers in the zero-sum plane",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-13-root-systems-symmetry-and-a1-a2-structure\\publication-figures\\a2-roots.png",
+      "sha256": "c54ff2c8f36585d08acf7a5d8b08aba93a4f8f8fc8ca68017ce239530745b33d",
+      "lessons": [
+        3,
+        6
+      ],
+      "kind": "deterministic synthetic teaching illustration",
+      "source_lessons": [
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-13-root-systems-symmetry-and-a1-a2-structure\\lesson-03.md",
+          "sha256": "b4fa029e8810e8372356c0409e4d67e78d241c62926b2c4218b6a433a96c2568"
+        },
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-13-root-systems-symmetry-and-a1-a2-structure\\lesson-06.md",
+          "sha256": "49cb19732950d676f0778a0ccaa8d5ad3c5d6aa9fbb4ed569c1e3402c5545b5d"
+        }
+      ],
+      "source_ledger": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-13-root-systems-symmetry-and-a1-a2-structure\\sources.md",
+        "sha256": "d159010fc0aad27e5b0bc43cb66c0a995af7f16b7c05a55ed257f29f8e55e2aa"
+      },
+      "evidence_sources": [
+        {
+          "id": "S01",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+          "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S02",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+          "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S03",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+          "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S04",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+          "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S05",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+          "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        }
+      ],
+      "evidence_scope": "Authored synthetic teaching figure; lesson identities locate the exact numerical and mathematical inputs. Archival identities resolve source IDs but do not assert replay of archived claims.",
+      "vector_companion": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-13-root-systems-symmetry-and-a1-a2-structure\\publication-figures\\a2-roots.svg",
+        "sha256": "f2b8ea28f9d778acb9ec5ec199c6f63bc3118fc2777c0673c64bc5d5c2187cbb"
+      }
+    },
+    {
+      "title": "Weights retain their root displacement",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-13-root-systems-symmetry-and-a1-a2-structure\\publication-figures\\channel-weights.png",
+      "sha256": "4361c7729622ba9bcb61b4646bf5b4a3e5040421613e783d9f969ca37e68d94a",
+      "lessons": [
+        4,
+        5
+      ],
+      "kind": "deterministic synthetic teaching illustration",
+      "source_lessons": [
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-13-root-systems-symmetry-and-a1-a2-structure\\lesson-04.md",
+          "sha256": "0159938bbc1c82c07b84daa3c4bd7654b0c83b285f143c13bff69f5b7d97436a"
+        },
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-13-root-systems-symmetry-and-a1-a2-structure\\lesson-05.md",
+          "sha256": "f936dc183edd5031e98477753a3cbb753d6a0745c50acd93a62bd9dde6a64329"
+        }
+      ],
+      "source_ledger": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-13-root-systems-symmetry-and-a1-a2-structure\\sources.md",
+        "sha256": "d159010fc0aad27e5b0bc43cb66c0a995af7f16b7c05a55ed257f29f8e55e2aa"
+      },
+      "evidence_sources": [
+        {
+          "id": "S01",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+          "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S02",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+          "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S03",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+          "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S04",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+          "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S05",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+          "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        }
+      ],
+      "evidence_scope": "Authored synthetic teaching figure; lesson identities locate the exact numerical and mathematical inputs. Archival identities resolve source IDs but do not assert replay of archived claims.",
+      "vector_companion": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-13-root-systems-symmetry-and-a1-a2-structure\\publication-figures\\channel-weights.svg",
+        "sha256": "fe775b3d2cc1a13a653571964e6b287b9e772a598a9376838892137478aac204"
+      }
+    }
+  ]
+}

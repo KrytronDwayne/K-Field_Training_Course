@@ -1,0 +1,193 @@
+{
+  "course": "kfield-12-the-emily-spectrum-modes-and-eigenvectors",
+  "figures": [
+    {
+      "title": "Three path patterns, three common multipliers",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-12-the-emily-spectrum-modes-and-eigenvectors\\publication-figures\\path-modes.png",
+      "sha256": "d5c9d5d79099fecdf8155cc2667a91fffc730c9469b97dd7a4e2cd16eefc8e9f",
+      "lessons": [
+        1,
+        2,
+        3
+      ],
+      "kind": "deterministic synthetic teaching illustration",
+      "source_lessons": [
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-12-the-emily-spectrum-modes-and-eigenvectors\\lesson-01.md",
+          "sha256": "721ca179573955890eab6e5fd4dabe5a7b0881e4c4bae396e1960a1ed853466d"
+        },
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-12-the-emily-spectrum-modes-and-eigenvectors\\lesson-02.md",
+          "sha256": "96e2e4b9d25fc093abd8c358078dc3ddeac204b270bd980c33f86d586deba384"
+        },
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-12-the-emily-spectrum-modes-and-eigenvectors\\lesson-03.md",
+          "sha256": "e9a7ef71ea79518dac6068ac182c0f811759065b19c3bf5d95128ab09cc7a4f2"
+        }
+      ],
+      "source_ledger": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-12-the-emily-spectrum-modes-and-eigenvectors\\sources.md",
+        "sha256": "193399c6917968bf83adaff5dae8bae7f21a37c09339a5db6c43f4808bf45e6c"
+      },
+      "evidence_sources": [
+        {
+          "id": "S01",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+          "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S02",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+          "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S03",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+          "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S04",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+          "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S05",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+          "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        }
+      ],
+      "evidence_scope": "Authored synthetic teaching figure; lesson identities locate the exact numerical and mathematical inputs. Archival identities resolve source IDs but do not assert replay of archived claims.",
+      "vector_companion": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-12-the-emily-spectrum-modes-and-eigenvectors\\publication-figures\\path-modes.svg",
+        "sha256": "7b60d2897aa9e74d20bea4c89de64421e4f22c80e9e8a7d3bfc6053a01aab92c"
+      }
+    },
+    {
+      "title": "Build the Emily multiplicity ledger",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-12-the-emily-spectrum-modes-and-eigenvectors\\publication-figures\\emily-ledger.png",
+      "sha256": "eb2c3ee8b1769633e593b68007f00019b32be50e26e6f3655fc9b1646aced90d",
+      "lessons": [
+        4,
+        5,
+        7
+      ],
+      "kind": "deterministic synthetic teaching illustration",
+      "source_lessons": [
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-12-the-emily-spectrum-modes-and-eigenvectors\\lesson-04.md",
+          "sha256": "f117424a40bf488406e4c038d97e2ed50f94deb2771425d047815d34a47d92bc"
+        },
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-12-the-emily-spectrum-modes-and-eigenvectors\\lesson-05.md",
+          "sha256": "b3a0e2716676aae72940dc2759c3cd79a8d75cea7d8181b771970e63eaf4da63"
+        },
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-12-the-emily-spectrum-modes-and-eigenvectors\\lesson-07.md",
+          "sha256": "f1d16bc045490a631c8f1a0d498962b0a28fdb7cef0a2b3fa0ff9a93ac26b844"
+        }
+      ],
+      "source_ledger": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-12-the-emily-spectrum-modes-and-eigenvectors\\sources.md",
+        "sha256": "193399c6917968bf83adaff5dae8bae7f21a37c09339a5db6c43f4808bf45e6c"
+      },
+      "evidence_sources": [
+        {
+          "id": "S01",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+          "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S02",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+          "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S03",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+          "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S04",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+          "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S05",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+          "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        }
+      ],
+      "evidence_scope": "Authored synthetic teaching figure; lesson identities locate the exact numerical and mathematical inputs. Archival identities resolve source IDs but do not assert replay of archived claims.",
+      "vector_companion": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-12-the-emily-spectrum-modes-and-eigenvectors\\publication-figures\\emily-ledger.svg",
+        "sha256": "7b63cfe16a44b85ebcac88aecd49ad08bb13152e1abf0673bd34d4a8d61e99c7"
+      }
+    },
+    {
+      "title": "Mode truncation and mean removal are distinct",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-12-the-emily-spectrum-modes-and-eigenvectors\\publication-figures\\residual-degree.png",
+      "sha256": "a492dee01c38f7da36f09d8e3faff1558f61f9535425ae602e55c2a0fd7f41b6",
+      "lessons": [
+        6
+      ],
+      "kind": "deterministic synthetic teaching illustration",
+      "source_lessons": [
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-12-the-emily-spectrum-modes-and-eigenvectors\\lesson-06.md",
+          "sha256": "1d3293c048e49b6d88f9e189c9da43433bfe3be0481e244339563c1bff20d071"
+        }
+      ],
+      "source_ledger": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-12-the-emily-spectrum-modes-and-eigenvectors\\sources.md",
+        "sha256": "193399c6917968bf83adaff5dae8bae7f21a37c09339a5db6c43f4808bf45e6c"
+      },
+      "evidence_sources": [
+        {
+          "id": "S01",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+          "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S02",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+          "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S03",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+          "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S04",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+          "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S05",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+          "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        }
+      ],
+      "evidence_scope": "Authored synthetic teaching figure; lesson identities locate the exact numerical and mathematical inputs. Archival identities resolve source IDs but do not assert replay of archived claims.",
+      "vector_companion": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-12-the-emily-spectrum-modes-and-eigenvectors\\publication-figures\\residual-degree.svg",
+        "sha256": "e9315fad78363fbd988050ff600dac4ca2217bd3cf1ad397364f92efefa2ab32"
+      }
+    }
+  ]
+}

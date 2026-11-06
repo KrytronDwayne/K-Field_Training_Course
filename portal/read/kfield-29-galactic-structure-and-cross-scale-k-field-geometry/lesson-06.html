@@ -1,0 +1,54 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Recursive occupancy and retained residuals · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/29">Course 29</a><span>/</span><span>lesson 06</span></div><a class="original" href="../../../kfield-29-galactic-structure-and-cross-scale-k-field-geometry/lesson-06.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#recursive-occupancy-and-retained-residuals">Recursive occupancy and retained residuals</a><a href="#c2906-e1-availability-is-not-occupancy">C29.06-E1 — Availability is not occupancy</a><a href="#c2906-w1-enumerating-a-complete-window">C29.06-W1 — Enumerating a complete window</a><a href="#c2906-p1-guided-practice-and-answer">C29.06-P1 — Guided practice and answer</a><a href="#diagnostics-c2906-d1">Diagnostics — C29.06-D1</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Sky positions and projective axes</a><a  href="lesson-02.html">Spherical response and phase addresses</a><a  href="lesson-03.html">The galaxy-derived cell</a><a  href="lesson-04.html">Shared grammar and distinct metrics</a><a  href="lesson-05.html">Distance metrics and ellipsoids</a><a aria-current=page href="lesson-06.html">Recursive occupancy and retained residuals</a><a  href="lesson-07.html">Discovery and held-out comparisons</a><a  href="lesson-08.html">A cross-domain explanatory map</a></details></aside><div class="reading-column"><article class="prose"><h1 id="recursive-occupancy-and-retained-residuals" tabindex="-1">Recursive occupancy and retained residuals</h1>
+<p>Essential question: How can a count summary preserve sparse structure and reconstruction?</p>
+<p>Goals: Enumerate the 27 local states and seven sheets; track parent-child counts and identities; compute distinct vector, angular and radial residuals.</p>
+<p>Prerequisite bridge. Lessons 03–05 taught addresses, sheets, centers and metric distances. Now counts summarize assignments, while a parallel identity-and-residual ledger keeps the information needed to reconstruct individual observations. Use one period for states and one for multilevel residual accounting.</p>
+<h2 id="c2906-e1-availability-is-not-occupancy" tabindex="-1">C29.06-E1 — Availability is not occupancy</h2>
+<p>Let each local label i,j,k take -1,0,1. There are three choices independently for each coordinate, so 3·3·3=27 <strong>available</strong> labels. In the half-step window, the position is A(i,j,k)/2, or O_K+B(i,j,k)/2 for Cell3. The sheet label is lambda=i+j+k. Its possible values are -3,-2,-1,0,1,2,3.</p>
+<p><strong>Occupancy</strong> counts how many observed objects are assigned to each state. It needs an assignment rule and actual observations. A geometric count of available states does not determine their observed occupancy. Nor does a list of seven sheet totals uniquely determine the 27 state counts: several states share a sheet. Keep the full state vector or its immutable source reference in addition to the sheet summary.</p>
+<h2 id="c2906-w1-enumerating-a-complete-window" tabindex="-1">C29.06-W1 — Enumerating a complete window</h2>
+<p>For lambda=-3 there is only (-1,-1,-1). For -2 there are three permutations of (-1,-1,0). For -1 there are three permutations of (-1,0,0) and three of (-1,-1,1), giving six. For 0 there are (0,0,0) and six permutations of (-1,0,1), giving seven. Changing all signs supplies the positive sheets. The complete table is:</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Sheet</th>
+<th>-3</th>
+<th>-2</th>
+<th>-1</th>
+<th>0</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Available states</td>
+<td>1</td>
+<td>3</td>
+<td>6</td>
+<td>7</td>
+<td>6</td>
+<td>3</td>
+<td>1</td>
+</tr>
+</tbody>
+</table></div>
+<p>The sum is 27. By a different classification there is one body center, six face centers, twelve edge centers and eight corners, again totaling 27. Zero nonzero components means body center; one means face center; two means edge center; three means corner. All labels remain available, including unoccupied ones.</p>
+<p>For a small synthetic hierarchy, parent P contains objects a,b,c,d. At depth one, P-left has {a}, P-middle has {b,c}, P-right has {d}. Counts (1,2,1) total four. At depth two, divide P-middle into M-left={b}, M-right={c}. Save the path P/Middle/Left for b and P/Middle/Right for c. The middle count reconstructs as 1+1=2, and the parent as 1+(1+1)+1=4. A table of totals alone cannot recover object identity; retaining membership makes the view reversible.</p>
+<p>This toy mixed three-child/two-child tree demonstrates accounting, not a source recursion. The Cell3 dyadic spatial refinement and ternary address recursion are separately typed (S02#/backbone_sequence M03). A dyadic split halves each of three directions, producing eight spatial children; three choices per address coordinate produce 27 address children. “Depth two” is ambiguous unless the recursion is named. Do not equate those systems with our toy tree or with detector parity.</p>
+<h2 id="c2906-p1-guided-practice-and-answer" tabindex="-1">C29.06-P1 — Guided practice and answer</h2>
+<p>An independent toy parent has objects e,f,g,h and child memberships {},{e,f,g},{h}, giving (0,3,1). It too totals four. Subtract discovery (1,2,1) componentwise to get (-1,1,0). The zero first occupancy and the zero third difference carry different information; both remain in the ledger.</p>
+<p>Now let a synthetic observed unit direction be x=(1,0,0) and candidate center c=(4/5,0,0). The <strong>vector residual</strong> r=x-c=(1/5,0,0). Its Euclidean length is 1/5. The <strong>angular miss</strong> is arccos((x·c)/(||x||||c||))=arccos(1)=0°. The <strong>radial mismatch</strong>, defined here as ||c||-1, is -1/5. These are reconstruction-coordinate quantities. Zero angular miss does not mean zero vector residual: x=c+r still needs r. A radial mismatch from the unit shell is not the galaxy's physical radial distance.</p>
+<p>At c=0 the vector residual x still exists and radial mismatch is -1, but angular miss is undefined because a zero vector has no direction. Store null with a <code>zero_center_direction</code> flag. Do not delete the observation or substitute a zero angle.</p>
+<blockquote>
+<p>Source scope. G01#/galaxy_cell_geometry gives the same combinatorial sheet populations; /observed_27_node_occupancy reports observational summaries separately. G04 p4 retains vector, Euclidean, angular and radial residual channels. The small memberships above are synthetic, not copied catalog rows. Source rows and unexported state arrays stay in place and are referenced by provenance.</p>
+</blockquote>
+<h2 id="diagnostics-c2906-d1" tabindex="-1">Diagnostics — C29.06-D1</h2>
+<ol>
+<li>How many labels lie on lambda=0, and why?</li>
+<li>Does a zero observed count remove a possible state?</li>
+<li>Which fields reconstruct x from a center assignment?</li>
+<li>For x=e_x and c=0, list the available residuals and the undefined one.</li>
+</ol>
+<p>Worked answers. 1. Seven: the origin plus the six orders of (-1,0,1). 2. No: retain its label and zero count. 3. Keep c or its address+basis+phase, and the full signed r; then x=c+r. Membership and source identity must also survive. 4. r=e_x, length 1, radial mismatch -1; angular miss is null with the zero-center flag.</p>
+<p>Next: <a href="lesson-07.html">lesson 07</a> freezes assignments before comparing independent populations.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><a class="button secondary" href="lesson-05.html">← Previous lesson</a><a class="button" href="lesson-07.html">Next lesson →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/29">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

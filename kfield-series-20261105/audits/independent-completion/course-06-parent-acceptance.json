@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-06",
+  "timestamp": "2026-11-05T17:47:41.360233+00:00",
+  "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-06-recursive-k-field-geometry-and-address-histories",
+  "validator": "passed",
+  "validator_checks": [
+    "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+    "parsed manifest.json",
+    "parsed audit_report.json",
+    "parsed completion_report.json",
+    "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+  ],
+  "validator_errors": [],
+  "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+  "manifest_sha256": "b50318fbedde8e54567b698871480746bc449650b00a87e21b0c0f9b12af5aae",
+  "completion_report_sha256": "9a3c2eee45d7c21738fafaec4ae14f4254603a88819968aff842dc0295ace2e6",
+  "course_sha256": "74b9dfffcdd2e169f62f147e17995a9a47fca29150e4c2a5099f33fc8e8ae906",
+  "status": "accepted",
+  "independent_audit": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\independent-completion\\course-06-independent-audit.json",
+  "independent_report_sha256": "d7be32251b9d68fc967a2d83ceb60165742c2e6123f50fcff03d83f3cae46c39",
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "scope": "Completed topical course accepted after parent review of independent source/content audit and fresh deterministic validation; documented source limitations retained."
+}

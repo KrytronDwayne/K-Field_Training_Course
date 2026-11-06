@@ -1,0 +1,74 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Lesson 3 — Lambda sheets and population counts · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/5">Course 05</a><span>/</span><span>lesson 03</span></div><a class="original" href="../../../kfield-05-lucas-geometry-27-nodes-polarity-and-sheets/lesson-03.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#lesson-3-lambda-sheets-and-population-counts">Lesson 3 — Lambda sheets and population counts</a><a href="#c0503-e1-equal-sums-define-a-sheet">C05.03-E1 — Equal sums define a sheet</a><a href="#c0503-w1-worked-seven-sheet-count">C05.03-W1 — Worked seven-sheet count</a><a href="#c0503-e2-checking-the-physical-sheet">C05.03-E2 — Checking the physical sheet</a><a href="#c0503-p1-guided-practice-with-answer">C05.03-P1 — Guided practice, with answer</a><a href="#diagnostic-checks">Diagnostic checks</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 1 — Enumerating the balanced node window</a><a  href="lesson-02.html">Lesson 2 — Node addresses versus physical positions</a><a aria-current=page href="lesson-03.html">Lesson 3 — Lambda sheets and population counts</a><a  href="lesson-04.html">Lesson 4 — Parity and directed signs</a><a  href="lesson-05.html">Lesson 5 — Antipodal pairs and observation rules</a><a  href="lesson-06.html">Lesson 6 — A complete finite registry</a></details></aside><div class="reading-column"><article class="prose"><h1 id="lesson-3-lambda-sheets-and-population-counts" tabindex="-1">Lesson 3 — Lambda sheets and population counts</h1>
+<p><strong>Essential question:</strong> Why do 27 nodes occupy seven sheet levels?</p>
+<p><strong>Goals:</strong> Compute an integer sheet label; enumerate and reconcile seven populations; verify the affine sheet identity with its origin subtraction.</p>
+<p><strong>Prerequisite bridge:</strong> Lesson 2 taught p−O and the half-address q. We only need signed addition to label sheets; we introduce a dot product before using it to check a physical plane. Budget: explanation/work 20 minutes, practice 15, checks/feedback 15, transition 5.</p>
+<h2 id="c0503-e1-equal-sums-define-a-sheet" tabindex="-1">C05.03-E1 — Equal sums define a sheet</h2>
+<p>Define λ(L)=L₁+L₂+L₃, pronounced lambda. Each entry lies between −1 and 1, so λ is an integer between −3 and 3. A sheet groups all window nodes having the same λ. The full plane containing that group extends beyond the finite nodes; its population here counts only nodes in the window.</p>
+<p>To count carefully, list the ways to achieve each sum. A permutation is a rearrangement of entries. Repeated entries give fewer different rearrangements: (1,1,0) has only three, since swapping the two 1s changes nothing. Negation changes every sign. It carries a node with sum λ to a node with sum −λ and has an inverse, namely negation again. Thus opposite sheet populations must match.</p>
+<h2 id="c0503-w1-worked-seven-sheet-count" tabindex="-1">C05.03-W1 — Worked seven-sheet count</h2>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>λ</th>
+<th>How the rows are obtained</th>
+<th>Population</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>−3</td>
+<td>(−1,−1,−1)</td>
+<td>1</td>
+</tr>
+<tr>
+<td>−2</td>
+<td>three rearrangements of (−1,−1,0)</td>
+<td>3</td>
+</tr>
+<tr>
+<td>−1</td>
+<td>three of (−1,0,0), three of (−1,−1,1)</td>
+<td>6</td>
+</tr>
+<tr>
+<td>0</td>
+<td>center and six rearrangements of (1,0,−1)</td>
+<td>7</td>
+</tr>
+<tr>
+<td>1</td>
+<td>three of (1,0,0), three of (1,1,−1)</td>
+<td>6</td>
+</tr>
+<tr>
+<td>2</td>
+<td>three rearrangements of (1,1,0)</td>
+<td>3</td>
+</tr>
+<tr>
+<td>3</td>
+<td>(1,1,1)</td>
+<td>1</td>
+</tr>
+</tbody>
+</table></div>
+<p>For λ=0 the complete list is (0,0,0),(1,0,−1),(1,−1,0),(0,1,−1),(0,−1,1),(−1,1,0),(−1,0,1). The six noncentral rows have three distinct entries, so choose the 1's position in 3 ways and the −1's position in 2 remaining ways: 3×2=6. The sum 1+3+6+7+6+3+1=27 accounts for every row.</p>
+<h2 id="c0503-e2-checking-the-physical-sheet" tabindex="-1">C05.03-E2 — Checking the physical sheet</h2>
+<p>The dot product g·d multiplies corresponding components and adds: gₓdₓ+gᵧdᵧ+g_zd_z. If g has unit 1/U and d has unit U, the result is dimensionless. For the classroom basis choose g_λ=(1,0,−1/3)/U. Its dot product with each basis column is 1: with a it is 1; with b it is 1+0=1; with c it is (−1/3)(−3)=1. Consequently, for d=q₁a+q₂b+q₃c,</p>
+<p>g_λ·(p−O)=q₁+q₂+q₃=λ/2.</p>
+<p>The same linear expression having a fixed value describes a plane: changing a point while keeping that expression fixed keeps it in the same plane. In source notation g_λ=B⁻ᵀ(1,1,1)ᵀ is the vector whose dot product with each basis column is 1. The superscript is recognition-only here; students can verify the three dot products without calculating an inverse transpose.</p>
+<p>For W1's physical check use L=(1,−1,1), p−O=(0,−1,−3/2) U. Then g_λ·(p−O)=0+0+(−1/3)(−3/2)=1/2=λ/2. Using p itself would give 2−(5/2)/3=7/6, which is not 1/2. The omitted origin term is g_λ·O=2−4/3=2/3; indeed 7/6−2/3=1/2.</p>
+<h2 id="c0503-p1-guided-practice-with-answer" tabindex="-1">C05.03-P1 — Guided practice, with answer</h2>
+<p>List λ=2 and λ=1, then verify the physical identity for (0,1,−1). Answer: λ=2 consists of (1,1,0),(1,0,1),(0,1,1). λ=1 consists of (1,0,0),(0,1,0),(0,0,1),(1,1,−1),(1,−1,1),(−1,1,1). For (0,1,−1), p−O=(1/2,1,3/2) U, so g_λ·(p−O)=1/2−1/2=0=λ/2. Two different points can therefore share one sheet label.</p>
+<blockquote>
+<p><strong>Claim scope:</strong> S02 /backbone_sequence/2/sheet_populations reports the seven populations; explicit enumeration independently verifies them. Its /proof/0 prints an identity without origin subtraction. Approved amendment SA-05 restores the affine expression g_λ·(p−O_K)=λ/2, consistent with the source node definition. This course uses that correction throughout. No sheet count is being interpreted as an observed particle population or mechanism.</p>
+</blockquote>
+<h2 id="diagnostic-checks" tabindex="-1">Diagnostic checks</h2>
+<ol>
+<li><strong>C05.03-D1:</strong> Verify total 27, explain mirrored populations, and check g_λ·(p−O)=λ/2 for L=(1,−1,1).</li>
+<li><strong>C05.03-D3:</strong> Can λ=4 occur? Can two different addresses have λ=0?</li>
+<li><strong>C05.03-D4:</strong> A student says λ=0 has six nodes. What was omitted?</li>
+<li><strong>C05.03-D5:</strong> Check λ and the physical identity for L=(1,1,0).</li>
+</ol>
+<p><strong>Worked answers:</strong> 1. The table sums to 27; negation is a reversible pairing of opposite sheets; the dot product is 1/2 as worked above. 2. No, three entries at most 1 sum to at most 3. Yes: the center and (1,0,−1) both have sum zero. 3. The center, which adds one to the six rearrangements. 4. λ=2; q=(1/2,1/2,0), p−O=(1,1,0) U, and the dot product is 1=2/2.</p>
+<p><strong>Next dependency:</strong> <a href="lesson-04.html">Lesson 4</a> derives two different class labels from λ without replacing λ.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><a class="button secondary" href="lesson-02.html">← Previous lesson</a><a class="button" href="lesson-04.html">Next lesson →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/5">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

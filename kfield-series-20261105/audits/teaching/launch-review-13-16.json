@@ -1,0 +1,178 @@
+{
+  "schema_version": "1.0",
+  "created_utc": "2026-11-05T18:20:13.697555+00:00",
+  "audit_level": "pedagogic_blueprint",
+  "amendment_path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-teaching-auditor\\outputs\\teaching-amendments-13-16.json",
+  "amendment_sha256": "fd66f902e1d1a8d76fced446fba7073139021eafb977bdda708f094add509d34",
+  "verification_path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-teaching-auditor\\outputs\\teaching-verification-13-16.json",
+  "verification_sha256": "eda2840c44c9a47632abf08c053968aae295e8153d693a3a43b7ec1cc6a52db4",
+  "input_contracts": [
+    {
+      "course_id": "course-13",
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-13-root-systems-symmetry-and-a1-a2-structure\\input-contract.json",
+      "sha256": "7de23b047626f64f38043f8f6e0f4a3f768fb0b56120b8b2b7761a247d4cb5b3"
+    },
+    {
+      "course_id": "course-14",
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-14-complex-carriers-and-gauge-symmetry\\input-contract.json",
+      "sha256": "a54f2c7073bd7533dae3760961ff64ed633a13edfc97f303d3942b4015ffd632"
+    },
+    {
+      "course_id": "course-15",
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-15-matter-states-hypercharge-and-anomaly-accounting\\input-contract.json",
+      "sha256": "e6a846d12becca46f9844b1d28584e0bf21e930ae982b272a7ef92448bdab766"
+    },
+    {
+      "course_id": "course-16",
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\input-contract.json",
+      "sha256": "b992442aae2ae774be60ab0e7b55a68fb664d05db12083ea38e49aa2560e6073"
+    }
+  ],
+  "findings": [
+    {
+      "id": "E05-course-13",
+      "severity": "major",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-13-root-systems-symmetry-and-a1-a2-structure\\input-contract.json",
+      "section": "course_map;coverage_matrix;capstone_specification",
+      "defect": "Generic practice references did not supply concrete answered operations or backward capstone coverage.",
+      "minimal_repair": "Apply the complete portable lesson anchors,source cards,pacing and capstone map; preserve all original and supplemental source requirements.",
+      "disposition": "corrected_in_portable_amendment",
+      "project_edit_performed": false
+    },
+    {
+      "id": "E05-course-14",
+      "severity": "major",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-14-complex-carriers-and-gauge-symmetry\\input-contract.json",
+      "section": "course_map;coverage_matrix;capstone_specification",
+      "defect": "Generic practice references did not supply concrete answered operations or backward capstone coverage.",
+      "minimal_repair": "Apply the complete portable lesson anchors,source cards,pacing and capstone map; preserve all original and supplemental source requirements.",
+      "disposition": "corrected_in_portable_amendment",
+      "project_edit_performed": false
+    },
+    {
+      "id": "E05-course-15",
+      "severity": "major",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-15-matter-states-hypercharge-and-anomaly-accounting\\input-contract.json",
+      "section": "course_map;coverage_matrix;capstone_specification",
+      "defect": "Generic practice references did not supply concrete answered operations or backward capstone coverage.",
+      "minimal_repair": "Apply the complete portable lesson anchors,source cards,pacing and capstone map; preserve all original and supplemental source requirements.",
+      "disposition": "corrected_in_portable_amendment",
+      "project_edit_performed": false
+    },
+    {
+      "id": "E05-course-16",
+      "severity": "major",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces\\input-contract.json",
+      "section": "course_map;coverage_matrix;capstone_specification",
+      "defect": "Generic practice references did not supply concrete answered operations or backward capstone coverage.",
+      "minimal_repair": "Apply the complete portable lesson anchors,source cards,pacing and capstone map; preserve all original and supplemental source requirements.",
+      "disposition": "corrected_in_portable_amendment",
+      "project_edit_performed": false
+    },
+    {
+      "id": "BRIDGE-13",
+      "severity": "major",
+      "section": "course-13",
+      "defect": "Root steps,weight channels and quotient classes need distinct finite witnesses.",
+      "minimal_repair": "Use inverse carry halves,explicit root basis,centered weight lattice and class criterion with retained full vectors.",
+      "disposition": "corrected_in_portable_amendment"
+    },
+    {
+      "id": "BRIDGE-14",
+      "severity": "major",
+      "section": "course-14",
+      "defect": "Source order conflict and physical-global-form scope must not be hidden by the finite kernel calculation.",
+      "minimal_repair": "Preserve SA-14 and EA-14-E06-2,explicit permutation,complex matrix practice,six-phase table,and two source-status rows with compiler namespace.",
+      "disposition": "corrected_in_portable_amendment"
+    },
+    {
+      "id": "BRIDGE-15",
+      "severity": "major",
+      "section": "course-15",
+      "defect": "A16-state count and a charge sum alone omit required exterior signs,normalizations,parity and representation tests.",
+      "minimal_repair": "Supply full subset census,five named local sums,general factorization/descent,complement/dual-action and Witten parity practice.",
+      "disposition": "corrected_in_portable_amendment"
+    },
+    {
+      "id": "BRIDGE-16",
+      "severity": "major",
+      "section": "course-16",
+      "defect": "Charge0 alone does not teach contraction/invariance; parameterized formulas can otherwise be mistaken for determined physical values.",
+      "minimal_repair": "Teach signed dual contraction and top-form extraction,explicit Higgs arithmetic,parameterized mass identity,Yukawa basis change and retained energy residuals.",
+      "disposition": "corrected_in_portable_amendment"
+    }
+  ],
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "courses": [
+    {
+      "course_id": "course-13",
+      "decision": "teaching_blueprint_pass_with_amendment",
+      "unresolved_critical": 0,
+      "unresolved_major": 0,
+      "unresolved_minor": 0,
+      "core_periods": 9,
+      "capstone_periods": 2,
+      "period_minutes": 55,
+      "launch_condition": "Parent applies the full amendment,including source/integration cards. Produced lessons and capstone require independent completed-course audit.",
+      "completed_course_approved": false
+    },
+    {
+      "course_id": "course-14",
+      "decision": "teaching_blueprint_pass_with_amendment",
+      "unresolved_critical": 0,
+      "unresolved_major": 0,
+      "unresolved_minor": 0,
+      "core_periods": 12,
+      "capstone_periods": 3,
+      "period_minutes": 55,
+      "launch_condition": "Parent applies the full amendment,including source/integration cards. Produced lessons and capstone require independent completed-course audit.",
+      "completed_course_approved": false
+    },
+    {
+      "course_id": "course-15",
+      "decision": "teaching_blueprint_pass_with_amendment",
+      "unresolved_critical": 0,
+      "unresolved_major": 0,
+      "unresolved_minor": 0,
+      "core_periods": 14,
+      "capstone_periods": 3,
+      "period_minutes": 55,
+      "launch_condition": "Parent applies the full amendment,including source/integration cards. Produced lessons and capstone require independent completed-course audit.",
+      "completed_course_approved": false
+    },
+    {
+      "course_id": "course-16",
+      "decision": "teaching_blueprint_pass_with_amendment",
+      "unresolved_critical": 0,
+      "unresolved_major": 0,
+      "unresolved_minor": 0,
+      "core_periods": 12,
+      "capstone_periods": 3,
+      "period_minutes": 55,
+      "launch_condition": "Parent applies the full amendment,including source/integration cards. Produced lessons and capstone require independent completed-course audit.",
+      "completed_course_approved": false
+    }
+  ],
+  "verification_summary": {
+    "checks_passed": 449,
+    "checks_failed": 0,
+    "lesson_anchors": 27,
+    "capstone_steps": 27,
+    "all_references_resolve": true
+  },
+  "limitations": [
+    "Blueprint review only; fixes are portable and not applied by this auditor.",
+    "Pacing is an allocation,not classroom-tested mastery; expand periods when prerequisite diagnostics require it.",
+    "Fresh finite algebra does not certify entire source proof bodies or physical mechanisms.",
+    "Integration fields were read from source-attributed RAG excerpts with matching source hashes; direct ragobj byte retrieval failed. This retrieval limitation is disclosed in the supplied source card and does not remove either required source record.",
+    "No Agda compiler or corpus-wide proof replay was run."
+  ],
+  "source_report_sha256": "eef89a28971ef7e5380977c31b62ed6d64f2831759e679ee967b6c253a33c04a",
+  "ledger_sha256_at_report": "9d5c935b82ffb6eff56e05929a548376ffacd7e32db201c31c1c0902c3bd249b",
+  "finished_course_pass": false,
+  "source_or_project_files_modified": false
+}

@@ -1,0 +1,76 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Lesson 2 — The sixteen even exterior states · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/15">Course 15</a><span>/</span><span>lesson 02</span></div><a class="original" href="../../../kfield-15-matter-states-hypercharge-and-anomaly-accounting/lesson-02.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#lesson-2-the-sixteen-even-exterior-states">Lesson 2 — The sixteen even exterior states</a><a href="#c1502-e1-two-counts-instead-of-one">C15.02-E1 — Two counts instead of one</a><a href="#c1502-w1-worked-census">C15.02-W1 — Worked census</a><a href="#c1502-p1-practice-and-answers">C15.02-P1 — Practice and answers</a><a href="#diagnostic-checks">Diagnostic checks</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 1 — Choosing states with combinations</a><a aria-current=page href="lesson-02.html">Lesson 2 — The sixteen even exterior states</a><a  href="lesson-03.html">Lesson 3 — Charge as an additive rule</a><a  href="lesson-04.html">Lesson 4 — Why anomaly sums are bookkeeping constraints</a><a  href="lesson-05.html">Lesson 5 — The primitive hypercharge line</a><a  href="lesson-06.html">Lesson 6 — Parity and representation checks</a><a  href="lesson-07.html">Lesson 7 — From a finite census to a source claim</a></details></aside><div class="reading-column"><article class="prose"><h1 id="lesson-2-the-sixteen-even-exterior-states" tabindex="-1">Lesson 2 — The sixteen even exterior states</h1>
+<p>Essential question: How can a census prove that no state was missed or counted twice?</p>
+<p>Goals: enumerate the six allowed bidegrees; calculate their multiplicities; list every degree-four state and track a block exchange sign.</p>
+<p>Prerequisite bridge: Lesson 1 gave sorted signed subsets and binom(n,k). We now group those subsets without losing labels or signs.</p>
+<p>Pacing: two 55-minute periods, each 5 retrieval + 20 teaching/example + 15 practice + 15 checks/repair. Use period 1 for bidegrees and period 2 for explicit lists and block signs.</p>
+<h2 id="c1502-e1-two-counts-instead-of-one" tabindex="-1">C15.02-E1 — Two counts instead of one</h2>
+<p>The bidegree (r,s) records r selected color labels and s selected weak labels. Thus 0≤r≤3 and 0≤s≤2. The total exterior degree is r+s. Even requires r+s to be 0,2,or 4. To enumerate systematically, run through r=0,1,2,3 and retain s values with the same parity. No other allowed pair can have an even sum.</p>
+<p>A multiplicity is the number of independent basis states in a group. For each choice of r colors, there are binom(2,s) choices of s weak labels. Choices are independent, so multiply: m=binom(3,r)binom(2,s). This multiplication counts pairs of choices.</p>
+<p>The source calls a group with common transformation behavior a sector or multiplet. We attach its labels after counting. A superscript c in nu^c, e^c, u^c, d^c is part of the supplied left-Weyl naming convention; it is not a color basis label or an instruction to take a complement. Q and L are sector names. We teach transformation labels in Lesson 6.</p>
+<h2 id="c1502-w1-worked-census" tabindex="-1">C15.02-W1 — Worked census</h2>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Bidegree (r,s)</th>
+<th>Choice calculation</th>
+<th style="text-align: right;">Multiplicity m</th>
+<th>Source sector</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>(0,0)</td>
+<td>1×1</td>
+<td style="text-align: right;">1</td>
+<td>nu^c</td>
+</tr>
+<tr>
+<td>(0,2)</td>
+<td>1×1</td>
+<td style="text-align: right;">1</td>
+<td>e^c</td>
+</tr>
+<tr>
+<td>(1,1)</td>
+<td>3×2</td>
+<td style="text-align: right;">6</td>
+<td>Q</td>
+</tr>
+<tr>
+<td>(2,0)</td>
+<td>3×1</td>
+<td style="text-align: right;">3</td>
+<td>u^c</td>
+</tr>
+<tr>
+<td>(2,2)</td>
+<td>3×1</td>
+<td style="text-align: right;">3</td>
+<td>d^c</td>
+</tr>
+<tr>
+<td>(3,1)</td>
+<td>1×2</td>
+<td style="text-align: right;">2</td>
+<td>L</td>
+</tr>
+</tbody>
+</table></div>
+<p>Sum: 1+1+6+3+3+2=16. Q has c1∧w1,c1∧w2,c2∧w1,c2∧w2,c3∧w1,c3∧w2. The degree-two groups contain 1+6+3=10, agreeing with Lesson 1. This second route independently checks the count.</p>
+<p>Suppose someone writes the weak block before the color block. Passing s weak labels across r colors requires rs neighbor swaps, because each weak label passes every color. Therefore the sign is (−1)^(rs). For (1,1) it is −1; for (2,2) it is +1. Merely renaming a block order does not justify discarding this sign.</p>
+<h2 id="c1502-p1-practice-and-answers" tabindex="-1">C15.02-P1 — Practice and answers</h2>
+<p>List all degree-four states by the omitted label. Separate them into bidegrees. Reverse their color/weak blocks and record the signs. Also split the degree-two count into its three groups.</p>
+<p>Omitting c1 gives c2∧c3∧w1∧w2; omitting c2 gives c1∧c3∧w1∧w2; omitting c3 gives c1∧c2∧w1∧w2. These are the three (2,2) states, whose block sign is (−1)^4=+1. Omitting w1 gives c1∧c2∧c3∧w2; omitting w2 gives c1∧c2∧c3∧w1. These are the two (3,1) states, whose block sign is (−1)^3=−1. Degree two has three color pairs, six mixed pairs and one weak pair. Together with the empty state, the totals are 1+10+5=16.</p>
+<p>These lists use positive coefficients in canonical order. They are not oriented complement formulas; Lesson 6 adds those orientation signs.</p>
+<h2 id="diagnostic-checks" tabindex="-1">Diagnostic checks</h2>
+<ol>
+<li><strong>C15.02-D1:</strong> Convert w2∧c3 into color-first order. Is the sign optional?</li>
+<li>Why is (3,2) excluded even though both counts lie within their bounds?</li>
+<li>Why does (2,0) have three states rather than six?</li>
+<li>Does the full exterior algebra contain sixteen or thirty-two basis states?</li>
+</ol>
+<p>Worked answers: (1) −c3∧w2, with a required minus sign. (2) Degree 5 is odd. (3) Each pair of colors is an unordered subset: 3×2/2=3. (4) Thirty-two; the source selects sixteen even states. The sixteen odd states remain a separately recorded complementary sector.</p>
+<blockquote>
+<p>Claim scope: This is finite mathematics for H=C3⊕W2, color first. Sector names follow S02 /backbone_sequence/10/sector_census. Exterior block factorization is KFM-X022 at /proof_nodes/67/formula. Names and dimension alone do not establish a physical realization.</p>
+</blockquote>
+<p>Next dependency: <a href="lesson-03.html">Lesson 3</a> assigns additive charges to the census.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><a class="button secondary" href="lesson-01.html">← Previous lesson</a><a class="button" href="lesson-03.html">Next lesson →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/15">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

@@ -1,0 +1,229 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Terminology and notation · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/17">Course 17</a><span>/</span><span>terminology</span></div><a class="original" href="../../../kfield-17-finite-gauge-transport-and-conservative-dynamics/terminology.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#terminology-and-notation">Terminology and notation</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 01 — Link transport between local frames</a><a  href="lesson-02.html">Lesson 02 — Covariant finite differences</a><a  href="lesson-03.html">Lesson 03 — Loops and holonomy</a><a  href="lesson-04.html">Lesson 04 — A finite gauge-invariant action</a><a  href="lesson-05.html">Lesson 05 — Norm-preserving time steps</a><a  href="lesson-06.html">Lesson 06 — Metric and Hodge factors</a><a  href="lesson-07.html">Lesson 07 — Reading a fixed-rung certificate</a><a  href="lesson-08.html">Lesson 08 — Conservation and continuum scope</a></details></aside><div class="reading-column"><article class="prose"><h1 id="terminology-and-notation" tabindex="-1">Terminology and notation</h1>
+<p>Symbols are scoped to their lessons. All toy links and states are dimensionless. LU, TU and AU denote illustrative length, time and action units, and EU=AU/TU denotes energy units. They are not experimental calibrations.</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Term/symbol</th>
+<th>Operational meaning and units</th>
+<th>First use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>i; conjugate</td>
+<td>i²=−1; conjugate of a+bi is a−bi</td>
+<td>01</td>
+</tr>
+<tr>
+<td>State ψ</td>
+<td>Column of components in a declared local frame</td>
+<td>01</td>
+</tr>
+<tr>
+<td>Frame/site</td>
+<td>Coordinate convention/location label; x and y are labels here</td>
+<td>01</td>
+</tr>
+<tr>
+<td>U_xy</td>
+<td>Link from y to x; rightmost factor acts first</td>
+<td>01</td>
+</tr>
+<tr>
+<td>diag; I</td>
+<td>Diagonal matrix; identity of the stated dimension</td>
+<td>01</td>
+</tr>
+<tr>
+<td>T; †</td>
+<td>Transpose; conjugate transpose (adjoint)</td>
+<td>01</td>
+</tr>
+<tr>
+<td>Inverse U⁻¹</td>
+<td>Two-sided map undoing U</td>
+<td>01</td>
+</tr>
+<tr>
+<td>Unitary</td>
+<td>U†U=UU†=I; preserves Euclidean complex norm</td>
+<td>01</td>
+</tr>
+<tr>
+<td>Norm squared N</td>
+<td>ψ†ψ, sum of squared component moduli</td>
+<td>01</td>
+</tr>
+<tr>
+<td>G_x; prime</td>
+<td>Frame change at x; prime means changed coordinates, not derivative</td>
+<td>02</td>
+</tr>
+<tr>
+<td>d_x</td>
+<td>ψ_x−U_xyψ_y, full retained finite difference</td>
+<td>02</td>
+</tr>
+<tr>
+<td>Covariant</td>
+<td>Follows its stated transformation rule, e.g. d′_x=G_xd_x</td>
+<td>02</td>
+</tr>
+<tr>
+<td>Invariant</td>
+<td>Unchanged under the specified operation</td>
+<td>02</td>
+</tr>
+<tr>
+<td>Holonomy U_loop</td>
+<td>Ordered net loop map with a basepoint</td>
+<td>03</td>
+</tr>
+<tr>
+<td>X; Z</td>
+<td>Synthetic swap and diag(1,−1) maps</td>
+<td>03</td>
+</tr>
+<tr>
+<td>Conjugation</td>
+<td>G U G⁻¹; preserves trace</td>
+<td>03</td>
+</tr>
+<tr>
+<td>Plaquette</td>
+<td>Elementary closed lattice face; example loop is an algebraic analogue</td>
+<td>03</td>
+</tr>
+<tr>
+<td>Tr; Re</td>
+<td>Diagonal sum; real part</td>
+<td>04</td>
+</tr>
+<tr>
+<td>F</td>
+<td>I−U_loop, retained matrix comparison</td>
+<td>04</td>
+</tr>
+<tr>
+<td>β; S</td>
+<td>Positive action coefficient in AU; β ReTr(I−U_loop) in AU</td>
+<td>04</td>
+</tr>
+<tr>
+<td>det</td>
+<td>Determinant; diagonal product, or ad−bc for a 2 by 2 matrix</td>
+<td>05</td>
+</tr>
+<tr>
+<td>Lhat</td>
+<td>Self-adjoint finite matrix in TU⁻¹ for the synthetic evolution</td>
+<td>05</td>
+</tr>
+<tr>
+<td>τ_C; C</td>
+<td>Real Cayley time in TU; dimensionless rational update</td>
+<td>05</td>
+</tr>
+<tr>
+<td>Self-adjoint</td>
+<td>Lhat†=Lhat, distinct from unitarity</td>
+<td>05</td>
+</tr>
+<tr>
+<td>M_cell; R_cell</td>
+<td>Gram metric BᵀB in LU²; its inverse in LU⁻²</td>
+<td>06</td>
+</tr>
+<tr>
+<td>B</td>
+<td>Ordered real basis columns; toy examples do not replace locked ICRS Cell3 B</td>
+<td>06</td>
+</tr>
+<tr>
+<td>δ; V</td>
+<td>det(M_cell)=V² in LU⁶; positive volume in LU³</td>
+<td>06</td>
+</tr>
+<tr>
+<td>G_phase; G_eff</td>
+<td>Distinct phase/effective metrics, not substituted for M_cell</td>
+<td>06</td>
+</tr>
+<tr>
+<td>Bivector; wedge²R</td>
+<td>Oriented area coordinates; map on pairs (12,13,23), LU⁻⁴</td>
+<td>06</td>
+</tr>
+<tr>
+<td>Minor</td>
+<td>Determinant of a selected submatrix</td>
+<td>06</td>
+</tr>
+<tr>
+<td>J</td>
+<td>Declared example pairing [[0,0,1],[0,−1,0],[1,0,0]]</td>
+<td>06</td>
+</tr>
+<tr>
+<td>H_E; H_B</td>
+<td>Dimensionless mature electric/magnetic Hodge blocks</td>
+<td>06</td>
+</tr>
+<tr>
+<td>Rung; compiler</td>
+<td>Hierarchy level; specified finite model construction</td>
+<td>07</td>
+</tr>
+<tr>
+<td>Certificate; hash</td>
+<td>Calculation record; byte fingerprint, not proof of its content</td>
+<td>07</td>
+</tr>
+<tr>
+<td>ε_E; ε_B; α</td>
+<td>Source-reported enclosure/contraction bounds</td>
+<td>07</td>
+</tr>
+<tr>
+<td>Δ; H_N; τ_R; E0</td>
+<td>Gap in energy units; action scale; positive time scale; E0=H_N/τ_R</td>
+<td>07</td>
+</tr>
+<tr>
+<td>d_root; c_*</td>
+<td>Normalized synthetic root bound; positive detail lower bound</td>
+<td>07</td>
+</tr>
+<tr>
+<td>min</td>
+<td>Smaller of the supplied arguments</td>
+<td>07</td>
+</tr>
+<tr>
+<td>Q_L</td>
+<td>Unnormalized ψ†Lhatψ in TU⁻¹; not distance Q, Q_g or Q_nu</td>
+<td>08</td>
+</tr>
+<tr>
+<td>Q_L/N</td>
+<td>Normalized expectation for N&gt;0</td>
+<td>08</td>
+</tr>
+<tr>
+<td>r</td>
+<td>Retained component-wise remainder ψ_new−ψ_ref</td>
+<td>08</td>
+</tr>
+<tr>
+<td>β_T; exp; ln</td>
+<td>Recognition-only thermal parameter; exponential; its inverse logarithm</td>
+<td>08</td>
+</tr>
+<tr>
+<td>T (thermal paragraph only)</td>
+<td>Uncomputed tail; distinct from transpose superscript T</td>
+<td>08</td>
+</tr>
+</tbody>
+</table></div>
+<p>Source notation safeguards: O_K denotes the declared physical origin in affine identities using x−O_K; it is not used as a substitute for a site label. Cell ownership [-1/2,1/2)^3 is distinct from nearest-integer tie rules, neither of which is assessed here. Detector parity, carry parity, projective signs, chirality and family labels are not equated by our minus signs. Our two-component space is not claimed to be the source's color-first C₃ direct-sum W₂ carrier. Mathematical-backbone module names and integration compiler labels are separate namespaces.</p></article><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/17">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

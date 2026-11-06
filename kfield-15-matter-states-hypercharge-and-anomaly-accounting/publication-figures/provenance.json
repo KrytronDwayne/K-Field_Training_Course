@@ -1,0 +1,193 @@
+{
+  "course": "kfield-15-matter-states-hypercharge-and-anomaly-accounting",
+  "figures": [
+    {
+      "title": "Six bidegrees account for sixteen states",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-15-matter-states-hypercharge-and-anomaly-accounting\\publication-figures\\even-census.png",
+      "sha256": "f7126bd5ef916e3e7873cb1353a2a5e4cc687b4ad1a16ff0c05ccefcc7c4700b",
+      "lessons": [
+        1,
+        2,
+        3
+      ],
+      "kind": "deterministic synthetic teaching illustration",
+      "source_lessons": [
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-15-matter-states-hypercharge-and-anomaly-accounting\\lesson-01.md",
+          "sha256": "4749fa7acd1d1a2c48875140d5244716120b4aaa911bc11cf1bd70d05c2228b3"
+        },
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-15-matter-states-hypercharge-and-anomaly-accounting\\lesson-02.md",
+          "sha256": "3abfd2143acca996f96e5d0790dd8f6600c465c75da5b375374cf4aee85f8178"
+        },
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-15-matter-states-hypercharge-and-anomaly-accounting\\lesson-03.md",
+          "sha256": "cf0ffd6544ca18eb5bff3ea097fef6105ac4ea81157fc47393cdfe90b7bef208"
+        }
+      ],
+      "source_ledger": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-15-matter-states-hypercharge-and-anomaly-accounting\\sources.md",
+        "sha256": "0b4a725620d641754c8c28f5f585b20802d6d169f5875c81facbf36e133a735d"
+      },
+      "evidence_sources": [
+        {
+          "id": "S01",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+          "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S02",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+          "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S03",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+          "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S04",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+          "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S05",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+          "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        }
+      ],
+      "evidence_scope": "Authored synthetic teaching figure; lesson identities locate the exact numerical and mathematical inputs. Archival identities resolve source IDs but do not assert replay of archived claims.",
+      "vector_companion": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-15-matter-states-hypercharge-and-anomaly-accounting\\publication-figures\\even-census.svg",
+        "sha256": "76767d17256aa3841c3adad216407914fa91fe38b93d186354a2891e5d444459"
+      }
+    },
+    {
+      "title": "Cancellation retains the signed contributions",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-15-matter-states-hypercharge-and-anomaly-accounting\\publication-figures\\anomaly-ledger.png",
+      "sha256": "073d831c04b5f7229b1d470e3d88383af83f8f1acc4c1042ebe2792b033520d9",
+      "lessons": [
+        4,
+        7
+      ],
+      "kind": "deterministic synthetic teaching illustration",
+      "source_lessons": [
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-15-matter-states-hypercharge-and-anomaly-accounting\\lesson-04.md",
+          "sha256": "a93adfe3e0a57bdd6169a62aa5f48872ca0b9cc0a021746a528c94e1f203fe52"
+        },
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-15-matter-states-hypercharge-and-anomaly-accounting\\lesson-07.md",
+          "sha256": "01fa24fbf6c58f4e105f436e5f090387a43fe57e851aa639c27c2b31ba38da4d"
+        }
+      ],
+      "source_ledger": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-15-matter-states-hypercharge-and-anomaly-accounting\\sources.md",
+        "sha256": "0b4a725620d641754c8c28f5f585b20802d6d169f5875c81facbf36e133a735d"
+      },
+      "evidence_sources": [
+        {
+          "id": "S01",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+          "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S02",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+          "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S03",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+          "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S04",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+          "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S05",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+          "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        }
+      ],
+      "evidence_scope": "Authored synthetic teaching figure; lesson identities locate the exact numerical and mathematical inputs. Archival identities resolve source IDs but do not assert replay of archived claims.",
+      "vector_companion": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-15-matter-states-hypercharge-and-anomaly-accounting\\publication-figures\\anomaly-ledger.svg",
+        "sha256": "07eac3ade5ce063c93bba2efaa0e1e93b2081d47439ce0833317b9fe24fe2f67"
+      }
+    },
+    {
+      "title": "A line of solutions, then a sign convention",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-15-matter-states-hypercharge-and-anomaly-accounting\\publication-figures\\hypercharge-line.png",
+      "sha256": "51a84989387f39caf98c660ee75ea2a9cbefb65771a0a01cb927824ff671c37b",
+      "lessons": [
+        5,
+        6
+      ],
+      "kind": "deterministic synthetic teaching illustration",
+      "source_lessons": [
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-15-matter-states-hypercharge-and-anomaly-accounting\\lesson-05.md",
+          "sha256": "1dd8fae089e8bddc0ea756d4eefb41ccf7d6f69a7d8c785ad689cd0772bb491c"
+        },
+        {
+          "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-15-matter-states-hypercharge-and-anomaly-accounting\\lesson-06.md",
+          "sha256": "e142721a47cd94da0b8b535de80b62a71d8ec03947ae6ab262bce65770eb9922"
+        }
+      ],
+      "source_ledger": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-15-matter-states-hypercharge-and-anomaly-accounting\\sources.md",
+        "sha256": "0b4a725620d641754c8c28f5f585b20802d6d169f5875c81facbf36e133a735d"
+      },
+      "evidence_sources": [
+        {
+          "id": "S01",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+          "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S02",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+          "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S03",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+          "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S04",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+          "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        },
+        {
+          "id": "S05",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+          "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+          "role": "Archival source identity, not fresh physical verification; substantive use and context-only roles remain as stated in the cited course source ledger."
+        }
+      ],
+      "evidence_scope": "Authored synthetic teaching figure; lesson identities locate the exact numerical and mathematical inputs. Archival identities resolve source IDs but do not assert replay of archived claims.",
+      "vector_companion": {
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-15-matter-states-hypercharge-and-anomaly-accounting\\publication-figures\\hypercharge-line.svg",
+        "sha256": "471f6d9da7965b0bd25407a2baaabca320a1fe81fa5e257724592d074440ba1b"
+      }
+    }
+  ]
+}

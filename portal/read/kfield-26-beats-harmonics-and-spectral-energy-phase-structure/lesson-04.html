@@ -1,0 +1,77 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Spectral coefficients retain phase · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/26">Course 26</a><span>/</span><span>lesson 04</span></div><a class="original" href="../../../kfield-26-beats-harmonics-and-spectral-energy-phase-structure/lesson-04.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#spectral-coefficients-retain-phase">Spectral coefficients retain phase</a><a href="#c2604-e1-four-roots-and-two-conventions">C26.04-E1 — Four roots and two conventions</a><a href="#c2604-w1-worked-example-legacy-c26-dft-ex1">C26.04-W1 — Worked example (legacy C26-DFT-EX1)</a><a href="#c2604-p1-practice-legacy-c26-dft-p1">C26.04-P1 — Practice (legacy C26-DFT-P1)</a><a href="#c2604-d1-diagnostic-checks-legacy-c26-dft-d1">C26.04-D1 — Diagnostic checks (legacy C26-DFT-D1)</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Oscillations, frequency, and phase</a><a  href="lesson-02.html">Superposition and beat envelopes</a><a  href="lesson-03.html">Harmonics and spatial rulers</a><a aria-current=page href="lesson-04.html">Spectral coefficients retain phase</a><a  href="lesson-05.html">Cross-channel phase and wavelength</a><a  href="lesson-06.html">Photon-equivalent model energy</a><a  href="lesson-07.html">Signed event evidence</a><a  href="lesson-08.html">Residual spectra as the next measurement</a></details></aside><div class="reading-column"><article class="prose"><h1 id="spectral-coefficients-retain-phase" tabindex="-1">Spectral coefficients retain phase</h1>
+<p><strong>Essential question:</strong> How can four coefficients retain all four samples, including timing and polarity?</p>
+<p><strong>Goals:</strong> Use powers of i to calculate a four-point transform; reconstruct all samples; distinguish spectra with equal magnitudes but different phase.</p>
+<p><strong>Prerequisite bridge.</strong> Sine and cosine are paired circle coordinates. A complex number a+bi packages two real coordinates (a,b); i is defined by i²=−1. Add matching coordinates. Multiply by distributing products and replacing i² by −1: (a+bi)(c+di)=(ac−bd)+(ad+bc)i. Multiplication by i turns (a,b) into (−b,a), a quarter turn.</p>
+<h2 id="c2604-e1-four-roots-and-two-conventions" tabindex="-1">C26.04-E1 — Four roots and two conventions</h2>
+<p>The powers repeat: i⁰=1, i¹=i, i²=−1, i³=−i, i⁴=1. Negative powers run backward: i⁻¹=−i. A complex number's magnitude is √(a²+b²); its phase is its direction from the positive real axis. The conjugate of a+bi is a−bi, a reflection across that axis. Thus 2 and −2i both have magnitude 2 but phases 0 and −π/2.</p>
+<p>The notation exp(iθ), also written e^(iθ), is shorthand here for cos θ+i sin θ. The addition rules from Lesson 2 show that multiplying these expressions adds their angles. No infinite-series definition of the exponential is needed for our finite calculations.</p>
+<p>Let x₀,x₁,x₂,x₃ be samples at times 0,Δt,2Δt,3Δt, periodically continued for this exercise. Our forward discrete Fourier transform (DFT) is</p>
+<p>X_k=Σ from n=0 to 3 of x_n exp(−2πikn/4), for k=0,1,2,3.</p>
+<p>The Σ sign means add the four listed terms. The inverse has the opposite sign and a factor 1/4:</p>
+<p>x_n=(1/4)Σ from k=0 to 3 of X_k exp(+2πikn/4).</p>
+<p>Instead of memorizing these compact forms, use the table. Each row gives four multipliers; multiply them by the four input entries and add. Inverse rows act on X, not on x, and divide their sum by four.</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th style="text-align: right;">row index</th>
+<th>forward multipliers</th>
+<th>inverse multipliers</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">0</td>
+<td>1,1,1,1</td>
+<td>1,1,1,1</td>
+</tr>
+<tr>
+<td style="text-align: right;">1</td>
+<td>1,−i,−1,i</td>
+<td>1,i,−1,−i</td>
+</tr>
+<tr>
+<td style="text-align: right;">2</td>
+<td>1,−1,1,−1</td>
+<td>1,−1,1,−1</td>
+</tr>
+<tr>
+<td style="text-align: right;">3</td>
+<td>1,i,−1,−i</td>
+<td>1,−i,−1,i</td>
+</tr>
+</tbody>
+</table></div>
+<p>Why the inverse works: a full four-term sum of any nonconstant root pattern is zero, while summing four ones gives 4. When the forward expression is inserted into the inverse, the desired sample gets weight 4/4=1 and each other sample gets weight 0. Nothing is discarded.</p>
+<p>For Δt=1/4 s, the four bins represent 0,1,2 and −1 Hz. Generally use k/(4Δt), with bin 3 also represented as −1/(4Δt). They give the same sampled complex values. Bin 0 is DC; bin 2 is the Nyquist bin, alternating sign each sample. For real samples bins 1 and 3 are conjugates. Four samples cannot distinguish frequencies separated by the sample rate 1/Δt: this is aliasing, not evidence that the continuous signals are identical.</p>
+<h2 id="c2604-w1-worked-example-legacy-c26-dft-ex1" tabindex="-1">C26.04-W1 — Worked example (legacy C26-DFT-EX1)</h2>
+<p>Take x=(1,0,−1,0) counts at Δt=1/4 s. Forward rows yield:
+X₀=1+0−1+0=0;
+X₁=1+0+1+0=2;
+X₂=1−0−1−0=0;
+X₃=1+0+1+0=2.
+Thus X=(0,2,0,2) counts under this unnormalized convention.</p>
+<p>All inverse rows give
+x₀=(0+2+0+2)/4=1,
+x₁=(0+2i−0−2i)/4=0,
+x₂=(0−2+0−2)/4=−1,
+x₃=(0−2i−0+2i)/4=0.</p>
+<p>Delay by one sample, wrapping the last entry to the start: y_n=x_(n−1 mod 4), where “mod 4” means wrap indices into 0,1,2,3. Then y=(0,1,0,−1). Forward rows give Y=(0,−2i,0,2i). Its inverse is
+y₀=(−2i+2i)/4=0;
+y₁=(i(−2i)−i(2i))/4=(2+2)/4=1;
+y₂=(2i−2i)/4=0;
+y₃=((−i)(−2i)+i(2i))/4=(−2−2)/4=−1.
+The magnitudes of X and Y match, but the samples differ.</p>
+<h2 id="c2604-p1-practice-legacy-c26-dft-p1" tabindex="-1">C26.04-P1 — Practice (legacy C26-DFT-P1)</h2>
+<p>Transform and reconstruct (1,1,1,1), then (1,2,3,4), in counts with Δt=1/4 s. <strong>Worked answers:</strong> Constant input gives (4,0,0,0), whose inverse is 4/4=1 at every entry. For the second input, row sums are 10, 1−2i−3+4i=−2+2i, 1−2+3−4=−2, and −2−2i. Inverse row numerators are 4,8,12,16, hence samples 1,2,3,4. For example row 1 is 10+i(−2+2i)+2−i(−2−2i)=8.</p>
+<p>A one-sample delay (4,1,2,3) has coefficients (10,2+2i,2,2−2i). Each old coefficient is multiplied by exp(−2πik/4), namely 1,−i,−1,i. Check the inverse numerators 16,4,8,12.</p>
+<h2 id="c2604-d1-diagnostic-checks-legacy-c26-dft-d1" tabindex="-1">C26.04-D1 — Diagnostic checks (legacy C26-DFT-D1)</h2>
+<ol>
+<li>What happens if the inverse omits 1/4? <strong>Answer:</strong> Every reconstructed sample is four times too large.</li>
+<li>Can magnitudes distinguish x and y in W1? <strong>Answer:</strong> No: both give (0,2,0,2) as magnitudes. Retain complex phases.</li>
+<li>Can bin 0 be discarded as uninteresting? <strong>Answer:</strong> It stores the baseline; removing it without keeping it elsewhere breaks reconstruction.</li>
+<li>Does a four-point bin identify a unique continuous frequency? <strong>Answer:</strong> No. Frequencies differing by 1/Δt alias. Keep sampling metadata and any independent frequency constraints.</li>
+</ol>
+<blockquote>
+<p><strong>Claim scope:</strong> The exact finite transform is a reversible mathematical representation of the declared samples. It does not resolve the source's high native harmonics or establish an optical detection mechanism.</p>
+</blockquote>
+<p><strong>Next dependency:</strong> <a href="lesson-05.html">Lesson 5</a> compares channels and identifies what an even comparator cannot see.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><a class="button secondary" href="lesson-03.html">← Previous lesson</a><a class="button" href="lesson-05.html">Next lesson →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/26">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

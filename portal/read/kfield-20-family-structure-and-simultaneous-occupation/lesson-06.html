@@ -1,0 +1,63 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Lesson 6 — Selection, state, and source status · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/20">Course 20</a><span>/</span><span>lesson 06</span></div><a class="original" href="../../../kfield-20-family-structure-and-simultaneous-occupation/lesson-06.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#lesson-6-selection-state-and-source-status">Lesson 6 — Selection, state, and source status</a><a href="#c2006-e1-construction-selection-and-state">C20.06-E1 — Construction, selection and state</a><a href="#c2006-w1-worked-source-reading-card">C20.06-W1 — Worked source-reading card</a><a href="#c2006-p1-practice-with-worked-classification">C20.06-P1 — Practice with worked classification</a><a href="#diagnostic-checks">Diagnostic checks</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 1 — Residues modulo three</a><a  href="lesson-02.html">Lesson 2 — Uniform and zero-sum sectors</a><a  href="lesson-03.html">Lesson 3 — Lifts and Fourier-style channels</a><a  href="lesson-04.html">Lesson 4 — Tensor products and rank multiplication</a><a  href="lesson-05.html">Lesson 5 — The rank-48 projector</a><a aria-current=page href="lesson-06.html">Lesson 6 — Selection, state, and source status</a><a  href="lesson-07.html">Lesson 7 — Family labels and numerical properties</a></details></aside><div class="reading-column"><article class="prose"><h1 id="lesson-6-selection-state-and-source-status" tabindex="-1">Lesson 6 — Selection, state, and source status</h1>
+<p>Essential question: Which premise connects a mathematical projector to an occupied physical carrier?</p>
+<p>Goals: Classify source claims and fresh checks; preserve the occupation claim, conflicting guard and correction together; state the unfilled premise without inventing a proof or downgrading a source status.</p>
+<p>Prerequisite bridge: Lesson 5 constructed a rank-48 image. You can check its arithmetic from explicit factors. Now we ask a different question: what identifies the physical states with that image? No new matrix calculation is needed; this is careful dependency reading.</p>
+<h2 id="c2006-e1-construction-selection-and-state" tabindex="-1">C20.06-E1 — Construction, selection and state</h2>
+<p>A mathematical carrier is a space in which states can be represented. A state is a particular assignment of coordinates in that space, subject to any declared constraints. A projector determines an image, but the equation x=Qₙx is an additional condition on x. To see the difference, take lesson 4's projector R. It is a valid rank-2 projector on three coordinates. The vector (1,1,0) is in its image; (1,−1,0) is not, since R sends it to zero. The existence of R does not choose which vector is physically present.</p>
+<p>For the source construction, a physical-carrier identification would connect the source's definition of physical states to ran(Qₙ), the range or image of Qₙ. The necessary dependency path must actually be supplied. Agreement of dimensions does not construct a map preserving the relevant operations. Such a map, when it exists, is called an intertwiner; this is a recognition-only term here, not an unassigned proof exercise.</p>
+<p>We distinguish six kinds of statement. A source fact reports what a document contains. A derived implication follows from explicit premises, such as rank multiplication. An interpretation gives meaning to the derived object. A proposed mechanism explains how states would be selected or evolve. An empirical observation reports an actual measurement. An unresolved question records what the retrieved material does not settle. This course contains finite derived checks and source facts; it supplies no new empirical occupation measurement. Familiar matrix algebra is reference mathematics used to check the finite claims.</p>
+<h2 id="c2006-w1-worked-source-reading-card" tabindex="-1">C20.06-W1 — Worked source-reading card</h2>
+<p>Read these records as a group, retaining their locators. A JSON pointer after # gives the exact path in the source document; array indices begin at zero.</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Record and pointer</th>
+<th>What it supplies</th>
+<th>How this course uses it</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M16, S02#/backbone_sequence/15</td>
+<td>Qₙ=I₁₆⊗I₃⊗qₙ, rank 48, occupation (1,1,1)</td>
+<td>Source construction and stated occupation theorem</td>
+</tr>
+<tr>
+<td>F038, S02#/proof_nodes/78/formula</td>
+<td>Status <code>exact_simultaneous_family_occupation</code>; scope common history projector</td>
+<td>Preserve the source claim at its stated scope</td>
+</tr>
+<tr>
+<td>X033, S02#/proof_nodes/81/formula</td>
+<td>Status <code>exact_rank_48_family_projector</code></td>
+<td>Check conditional finite rank independently</td>
+</tr>
+<tr>
+<td>D10, S02#/proof_nodes/78/shared_proof_steps/0/guard</td>
+<td>“No physical occupation conclusion.”</td>
+<td>Preserve the conflicting guard</td>
+</tr>
+<tr>
+<td>AUD-007, S03#/findings/6</td>
+<td>Recover the selection proof linking the physical carrier to ran(Qₙ); remove obsolete guard if discharged</td>
+<td>Retain the correction and its conditional acceptance test</td>
+</tr>
+</tbody>
+</table></div>
+<p>F038 lists KFM-F033, KFM-F037 and KFM-X032 as dependencies. Its shared D10 step lists KFM-F033, KFM-F037 and KFM-X031 as inputs and F038, X032, X033 as outputs. These are exact source records, not a reconstructed selection proof. We do not silently identify X031 and X032 or fill the missing path with rank arithmetic.</p>
+<p>AUD-007 says that when the body cannot be loaded, M16 should retain the source-local disposition <code>VERIFIED_NOT_LOADED</code> without automatically downgrading the mature <code>VERIFIED_FROZEN</code> gate. Those capitalized words are quoted source-local statuses. They are not new certificates issued by this course. In our retrieval, the connecting physical-carrier selection proof is not loaded. We preserve the source occupation claim and guard conflict and do not decide by arithmetic alone which record is obsolete.</p>
+<h2 id="c2006-p1-practice-with-worked-classification" tabindex="-1">C20.06-P1 — Practice with worked classification</h2>
+<p>Classify these four statements: (a) 16×3×1=48; (b) F038 reports occupation (1,1,1); (c) D10 carries its physical-occupation guard; (d) a proof connects the physical-state definition to ran(Qₙ) in this course.</p>
+<p>Answer: (a) is a freshly checked conditional mathematical implication, with rank-one and product-carrier premises. (b) is an accurately retained source claim. (c) is a source fact recording the conflicting guard. (d) is not supplied: its body remains a retrieval gap. Replacing (d) with “rank 48” would not answer the carrier-selection question. Conversely the retrieval gap does not erase (b) or license changing the source's mature status.</p>
+<blockquote>
+<p>Claim scope: This lesson reports an actual documentary conflict and its explicit correction record, not a general objection to novel physical inference. Mathematical checks, reported occupation, source status and proof-body retrieval are distinct. A separate integration report uses compiler-module labels; those labels are not automatically the mathematical-backbone labels M01–M20. Its direct-authority modules M03, M07 and M08 do not turn backbone M16 into a newly checked physical-selection proof. See sources.md for the retrieved integration record and generation.</p>
+</blockquote>
+<h2 id="diagnostic-checks" tabindex="-1">Diagnostic checks</h2>
+<ol>
+<li><strong>C20.06-D1:</strong> Does a source's <code>VERIFIED_FROZEN</code> label mean the course has replayed its proof?</li>
+<li>What would allow the AUD-007 acceptance test to be met?</li>
+<li>Is the source claim deleted when its selection proof is not loaded?</li>
+<li>Is equal rank enough to identify two physical representations?</li>
+</ol>
+<p>Worked answers: (1) No. A reported status and a fresh replay are different evidence records. (2) An explicit dependency path from the physical-state definition to Qₙ and occupation (1,1,1), with the contradictory guard resolved under that proof. (3) No. Retain claim, guard, correction and retrieval state together, with no automatic downgrade. (4) No. Rank counts dimensions; it does not give an operation-preserving identification or select physical states.</p>
+<p>Next dependency: <a href="lesson-07.html">Lesson 7</a> distinguishes family labels from numerical properties and teaches reversible elimination of coupled coordinates.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><a class="button secondary" href="lesson-05.html">← Previous lesson</a><a class="button" href="lesson-07.html">Next lesson →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/20">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

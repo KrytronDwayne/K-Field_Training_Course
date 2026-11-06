@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "recorded_utc_date": "2026-11-05",
+  "course": "course-27",
+  "status": "full_route_certificate_not_retrieved_by_parent",
+  "confirmed_overview": {
+    "object_id": "c9335e2df74344bff5665df5a5e0b9094fef22147c76458f1a54efe49cefce62",
+    "logical_path": "applications/kfield_lucas_lab/rag_corpus/20_phase_route.md",
+    "byte_count": 470,
+    "range": [0, 470],
+    "sha256": "c9335e2df74344bff5665df5a5e0b9094fef22147c76458f1a54efe49cefce62",
+    "interpretation": "Names quadratic-cost and least-cost-certificate objects and says the certificate records path, lower/upper bounds and gap. It supplies none of those numeric certificate fields."
+  },
+  "searches": [
+    {"tool": "krytronx_search", "query": "kfield.route.least-cost-certificate", "matches": 0},
+    {"tool": "krytronx_project_rag_search", "query": "least-cost route certificate lower upper optimality gap", "prefix": "applications/kfield_lucas_lab/", "matches": 0, "rerank": false},
+    {"tools": ["krytronx_search", "krytronx_project_rag_search", "krytronx_traverse"], "result": "40-call MCP session bound exhausted", "disposition": "No further parent MCP attempts. No quota or permission bypass."}
+  ],
+  "snapshot_generation": "sha256:5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+  "source_guards": {
+    "S02": "BR-12 reports exact QPC algebra; its declaration alone is not an independent numerical replay.",
+    "S03_AUD_008": "G_phase, C and full W_qpc missing from that record. Recorded nonzero closure coordinate 4.58938078934712923077736690075e-12 needs a precision/interval contract.",
+    "S03_AUD_009": "Missing bodies retain VERIFIED_NOT_LOADED status. Definitions and pinned replay objects must precede any claimed fresh replay.",
+    "SA_27": "W_qpc=B^T G_phase B/4; exact source replay requires full typed matrices and route bounds/certificate."
+  },
+  "archive_lookup": "Filename-limited read-only lookup found several historical CMB maximum-residual and modulation-route records; these are different optimization objectives and were not substituted for the named least-cost certificate.",
+  "next_work": "Course27 author/auditor must preserve this retrieval scope and independently source any certificate they claim to reproduce. Synthetic route exercises remain explicitly synthetic and cannot be presented as the named archival certificate.",
+  "copies": "No raw source copies or data arrays created. This is compact provenance and retrieval status only."
+}

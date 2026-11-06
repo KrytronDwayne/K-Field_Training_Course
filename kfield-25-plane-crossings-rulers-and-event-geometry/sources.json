@@ -1,0 +1,179 @@
+{
+  "local": [
+    {
+      "id": "S01",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "verified_sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "evidence_class": "archival source; not fresh proof verification",
+      "top_level_keys": [
+        "schema",
+        "title",
+        "generated_at",
+        "classification",
+        "principal_investigator",
+        "organization",
+        "root_contract",
+        "root_cell3",
+        "root_status",
+        "main_theorem",
+        "axioms",
+        "typed_conventions",
+        "compiler_premise_discharge",
+        "closure_lemmas",
+        "mass_bridge_calibration",
+        "backbone_outline",
+        "backbone_sequence",
+        "backbone_dependency_edges",
+        "rejected_identifications",
+        "proof_operations"
+      ],
+      "read_pointers": [
+        "/root_contract"
+      ]
+    },
+    {
+      "id": "S02",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "verified_sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "evidence_class": "archival source; not fresh proof verification",
+      "top_level_keys": [
+        "schema",
+        "title",
+        "generated_at",
+        "classification",
+        "principal_investigator",
+        "organization",
+        "proof_contract",
+        "main_theorem",
+        "mature_locked_cell3",
+        "scale_uniqueness_theorem",
+        "mass_bridge",
+        "hodge_normalization_theorem",
+        "supergroup_uniqueness",
+        "constitutive_principles",
+        "typed_conventions",
+        "backbone_outline",
+        "backbone_sequence",
+        "backbone_dependency_edges",
+        "proof_operations",
+        "dependency_layers"
+      ],
+      "read_pointers": [
+        "/mature_locked_cell3",
+        "/typed_conventions"
+      ]
+    },
+    {
+      "id": "S03",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "verified_sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "evidence_class": "archival source; not fresh proof verification",
+      "top_level_keys": [
+        "schema",
+        "document_type",
+        "title",
+        "generated_at",
+        "classification",
+        "principal_investigator",
+        "organization",
+        "source",
+        "authority_contract",
+        "authoritative_status",
+        "audit_verdict",
+        "verified_recomputations",
+        "canonical_locked_values",
+        "findings",
+        "source_chat_execution_instruction",
+        "mandatory_validation_gates",
+        "completion_rule"
+      ],
+      "read_pointers": [
+        "/authority_contract"
+      ]
+    },
+    {
+      "id": "S04",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+      "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "role": "archival source; reported status is distinct from fresh verification",
+      "verified_sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "evidence_class": "archival source; not fresh proof verification",
+      "top_level_keys": [
+        "schema",
+        "artifact_schema",
+        "title",
+        "classification",
+        "principal_investigator",
+        "generated_utc",
+        "run",
+        "audit_contract",
+        "executive_determination",
+        "mature_locked_cell3",
+        "scale_uniqueness_theorem",
+        "hodge_correction_proof",
+        "supergroup_uniqueness",
+        "superseded_provenance",
+        "step_audits",
+        "formula_audit",
+        "corrected_closure",
+        "records",
+        "graph",
+        "source_manifest"
+      ],
+      "read_pointers": [
+        "/audit_contract"
+      ]
+    }
+  ],
+  "pinned": [
+    {
+      "id": "T10",
+      "logical_path": "applications/kfield_lucas_lab/rag_corpus/10_geometry_trajectory.md",
+      "sha256": "ce1abe83011a43bfbcd8aaf98f7fb9fdfabd31acbfdbc1208e45176596602ccb",
+      "object_id": "ce1abe83011a43bfbcd8aaf98f7fb9fdfabd31acbfdbc1208e45176596602ccb",
+      "byte_range": [
+        0,
+        545
+      ],
+      "returned_range_sha256": "ce1abe83011a43bfbcd8aaf98f7fb9fdfabd31acbfdbc1208e45176596602ccb",
+      "evidence_class": "source",
+      "read_status": "Full bounded bytes read through krytronx_get; returned whole-range digest matches pinned identity"
+    },
+    {
+      "id": "T45",
+      "logical_path": "applications/kfield_lucas_lab/rag_corpus/45_moving_reference_frames.md",
+      "sha256": "c8485397ee3cd5560624885a3bfcf20c9f6190e26129320e37037810b984e1aa",
+      "object_id": "c8485397ee3cd5560624885a3bfcf20c9f6190e26129320e37037810b984e1aa",
+      "byte_range": [
+        0,
+        2651
+      ],
+      "returned_range_sha256": "c8485397ee3cd5560624885a3bfcf20c9f6190e26129320e37037810b984e1aa",
+      "evidence_class": "source",
+      "read_status": "Full bounded bytes read through krytronx_get; returned whole-range digest matches pinned identity"
+    }
+  ],
+  "gaps": [
+    "Underlying frame contracts and Agda bodies named by T45 were not exposed as pinned bodies in the bounded retrieval routes used. No fresh engine/compiler replay is claimed; core tasks use fully supplied synthetic contracts.",
+    "T10 is a source description, not a full detector transfer specification. No detector beat, force or energy inference is assessed."
+  ],
+  "generation": "sha256:5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+  "manifest_sha256": "5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+  "generation_witness": "RAG and graph responses; capabilities returned read-only interface but no generation field",
+  "rerank": false,
+  "graph_witness": {
+    "start": "construct:trajectory-rulers",
+    "relation": "uses_authority",
+    "target": "authority:cmb-physical-vector",
+    "source_logical_path": "applications/kfield_lucas_lab/knowledge_graph/base/manifest.json",
+    "source_sha256": "5f82424b4c8e217bb7e81fa7b54e0782f220d309916b0f9fc69547b12fe6bb55",
+    "truncated": true,
+    "trust": "source"
+  }
+}

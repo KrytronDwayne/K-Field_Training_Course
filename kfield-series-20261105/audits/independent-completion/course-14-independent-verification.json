@@ -1,0 +1,782 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-14",
+  "created_utc": "2026-11-05T18:46:23.597596+00:00",
+  "status": "passed",
+  "manifest_sha256": "09a85008b96cf2dccb9fe7d7efb42736994d3a161eb4b0bcc2cf317a35d767a7",
+  "runtime": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+  "arithmetic": "Exact eight-coordinate Q(sqrt2,sqrt3,i) with Fraction coefficients; sqrt2^2=2, sqrt3^2=3, i^2=-1; no floating-point tolerance",
+  "verifier_path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-series-source-auditor\\work\\audit_course14.py",
+  "verifier_sha256": "26559643faa3de4590b51553e8b8f99e9662ab72656880cdcd501398bbf9e4dc",
+  "independence": "No builder or parent mathematical functions imported or executed",
+  "exit_code": 0,
+  "check_count": 497,
+  "checks_by_group": {
+    "integrity": 93,
+    "source-contract": 9,
+    "actual-links": 38,
+    "repair": 36,
+    "field-controls": 3,
+    "complex": 21,
+    "unitary": 20,
+    "carrier": 12,
+    "determinant": 11,
+    "kernel": 86,
+    "fiber-decoder": 18,
+    "toy-kernel": 86,
+    "local-actions": 11,
+    "actual-tables": 32,
+    "parent-comparison": 19,
+    "rubric": 2
+  },
+  "failures": [],
+  "results": {
+    "W1-rotation": {
+      "input": "1*1 + 1*i",
+      "conjugate": "1*1 + -1*i",
+      "output": "-1*1 + 1*i",
+      "output_conjugate": "-1*1 + -1*i",
+      "squared_modulus": "2*1",
+      "recovered": "1*1 + 1*i"
+    },
+    "P1-CAP01-rotation": {
+      "input": "2*1 + -1*i",
+      "conjugate": "2*1 + 1*i",
+      "output": "1*1 + 2*i",
+      "output_conjugate": "1*1 + -2*i",
+      "squared_modulus": "5*1",
+      "recovered": "2*1 + -1*i"
+    },
+    "D2-rotation": {
+      "input": "1*1 + -2*i",
+      "conjugate": "1*1 + 2*i",
+      "output": "2*1 + 1*i",
+      "output_conjugate": "2*1 + -1*i",
+      "squared_modulus": "5*1",
+      "recovered": "1*1 + -2*i"
+    },
+    "zeta": {
+      "value": "1/2*1 + 1/2*i*sqrt3",
+      "conjugate": "1/2*1 + -1/2*i*sqrt3",
+      "squared_modulus": "1*1",
+      "powers": [
+        "1*1",
+        "1/2*1 + 1/2*i*sqrt3",
+        "-1/2*1 + 1/2*i*sqrt3",
+        "-1*1",
+        "-1/2*1 + -1/2*i*sqrt3",
+        "1/2*1 + -1/2*i*sqrt3",
+        "1*1"
+      ]
+    },
+    "U-W1": {
+      "input": [
+        "1*1 + 1*i",
+        "2*1 + -1*i"
+      ],
+      "output": [
+        "-1*1 + 1*i",
+        "-1*1 + -2*i"
+      ],
+      "norm_squared": "7*1",
+      "recovered": [
+        "1*1 + 1*i",
+        "2*1 + -1*i"
+      ]
+    },
+    "V-CAP02": {
+      "input": [
+        1,
+        "1*i"
+      ],
+      "output": [
+        "0",
+        "1*i*sqrt2"
+      ],
+      "norm_squared": "2*1",
+      "recovered": [
+        "1*1",
+        "1*i"
+      ]
+    },
+    "V-P1-extra": {
+      "input": [
+        2,
+        0
+      ],
+      "output": [
+        "1*sqrt2",
+        "1*i*sqrt2"
+      ],
+      "norm_squared": "4*1",
+      "recovered": [
+        "2*1",
+        "0"
+      ]
+    },
+    "W1-carrier": {
+      "weak_first": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "color_first": [
+        3,
+        4,
+        5,
+        1,
+        2
+      ],
+      "color_projection": [
+        "3*1",
+        "4*1",
+        "5*1",
+        "0",
+        "0"
+      ],
+      "weak_projection": [
+        "0",
+        "0",
+        "0",
+        "1*1",
+        "2*1"
+      ],
+      "recovered": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "P1-CAP03-carrier": {
+      "weak_first": [
+        "1*i",
+        -1,
+        2,
+        0,
+        "1*1 + 1*i"
+      ],
+      "color_first": [
+        "2*1",
+        "0",
+        "1*1 + 1*i",
+        "1*i",
+        "-1*1"
+      ],
+      "color_projection": [
+        "2*1",
+        "0",
+        "1*1 + 1*i",
+        "0",
+        "0"
+      ],
+      "weak_projection": [
+        "0",
+        "0",
+        "0",
+        "1*i",
+        "-1*1"
+      ],
+      "recovered": [
+        "1*i",
+        "-1*1",
+        "2*1",
+        "0",
+        "1*1 + 1*i"
+      ]
+    },
+    "permutation": [
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    "kernel": [
+      {
+        "k": 0,
+        "phase": "1*1",
+        "color_scalar": "1*1",
+        "weak_scalar": "1*1",
+        "determinant_color": "1*1",
+        "determinant_weak": "1*1",
+        "color_output": [
+          [
+            "1*1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1*1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1*1"
+          ]
+        ],
+        "weak_output": [
+          [
+            "1*1",
+            "0"
+          ],
+          [
+            "0",
+            "1*1"
+          ]
+        ],
+        "reduced_exponents": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "k": 1,
+        "phase": "1/2*1 + 1/2*i*sqrt3",
+        "color_scalar": "-1/2*1 + 1/2*i*sqrt3",
+        "weak_scalar": "-1*1",
+        "determinant_color": "1*1",
+        "determinant_weak": "1*1",
+        "color_output": [
+          [
+            "1*1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1*1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1*1"
+          ]
+        ],
+        "weak_output": [
+          [
+            "1*1",
+            "0"
+          ],
+          [
+            "0",
+            "1*1"
+          ]
+        ],
+        "reduced_exponents": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "k": 2,
+        "phase": "-1/2*1 + 1/2*i*sqrt3",
+        "color_scalar": "-1/2*1 + -1/2*i*sqrt3",
+        "weak_scalar": "1*1",
+        "determinant_color": "1*1",
+        "determinant_weak": "1*1",
+        "color_output": [
+          [
+            "1*1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1*1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1*1"
+          ]
+        ],
+        "weak_output": [
+          [
+            "1*1",
+            "0"
+          ],
+          [
+            "0",
+            "1*1"
+          ]
+        ],
+        "reduced_exponents": [
+          2,
+          4,
+          0
+        ]
+      },
+      {
+        "k": 3,
+        "phase": "-1*1",
+        "color_scalar": "1*1",
+        "weak_scalar": "-1*1",
+        "determinant_color": "1*1",
+        "determinant_weak": "1*1",
+        "color_output": [
+          [
+            "1*1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1*1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1*1"
+          ]
+        ],
+        "weak_output": [
+          [
+            "1*1",
+            "0"
+          ],
+          [
+            "0",
+            "1*1"
+          ]
+        ],
+        "reduced_exponents": [
+          3,
+          0,
+          3
+        ]
+      },
+      {
+        "k": 4,
+        "phase": "-1/2*1 + -1/2*i*sqrt3",
+        "color_scalar": "-1/2*1 + 1/2*i*sqrt3",
+        "weak_scalar": "1*1",
+        "determinant_color": "1*1",
+        "determinant_weak": "1*1",
+        "color_output": [
+          [
+            "1*1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1*1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1*1"
+          ]
+        ],
+        "weak_output": [
+          [
+            "1*1",
+            "0"
+          ],
+          [
+            "0",
+            "1*1"
+          ]
+        ],
+        "reduced_exponents": [
+          4,
+          2,
+          0
+        ]
+      },
+      {
+        "k": 5,
+        "phase": "1/2*1 + -1/2*i*sqrt3",
+        "color_scalar": "-1/2*1 + -1/2*i*sqrt3",
+        "weak_scalar": "-1*1",
+        "determinant_color": "1*1",
+        "determinant_weak": "1*1",
+        "color_output": [
+          [
+            "1*1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1*1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1*1"
+          ]
+        ],
+        "weak_output": [
+          [
+            "1*1",
+            "0"
+          ],
+          [
+            "0",
+            "1*1"
+          ]
+        ],
+        "reduced_exponents": [
+          5,
+          4,
+          3
+        ]
+      }
+    ],
+    "root_factorization": {
+      "coefficient_order": "ascending powers",
+      "product_of_six_linear_factors": [
+        "-1*1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1*1"
+      ],
+      "meaning": "Exact product over six distinct roots equals t^6-1; supplementary auditor check, not a new student prerequisite"
+    },
+    "auditor_fiber_example": {
+      "representative_color": [
+        [
+          "1*i",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-1*i",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1*1"
+        ]
+      ],
+      "representative_weak": [
+        [
+          "1/2*sqrt2",
+          "1/2*i*sqrt2"
+        ],
+        [
+          "1/2*i*sqrt2",
+          "1/2*sqrt2"
+        ]
+      ],
+      "representative_phase": "1*i",
+      "shared_output": [
+        [
+          [
+            "-1*i",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1*i",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "-1*1"
+          ]
+        ],
+        [
+          [
+            "-1/2*i*sqrt2",
+            "1/2*sqrt2"
+          ],
+          [
+            "1/2*sqrt2",
+            "-1/2*i*sqrt2"
+          ]
+        ]
+      ],
+      "six_distinct_preimage_records": [
+        {
+          "k": 0,
+          "phase": "1*i",
+          "retained_color_scalar": "1*1",
+          "retained_weak_scalar": "1*1"
+        },
+        {
+          "k": 1,
+          "phase": "-1/2*sqrt3 + 1/2*i",
+          "retained_color_scalar": "-1/2*1 + 1/2*i*sqrt3",
+          "retained_weak_scalar": "-1*1"
+        },
+        {
+          "k": 2,
+          "phase": "-1/2*sqrt3 + -1/2*i",
+          "retained_color_scalar": "-1/2*1 + -1/2*i*sqrt3",
+          "retained_weak_scalar": "1*1"
+        },
+        {
+          "k": 3,
+          "phase": "-1*i",
+          "retained_color_scalar": "1*1",
+          "retained_weak_scalar": "-1*1"
+        },
+        {
+          "k": 4,
+          "phase": "1/2*sqrt3 + -1/2*i",
+          "retained_color_scalar": "-1/2*1 + 1/2*i*sqrt3",
+          "retained_weak_scalar": "1*1"
+        },
+        {
+          "k": 5,
+          "phase": "1/2*sqrt3 + 1/2*i",
+          "retained_color_scalar": "-1/2*1 + -1/2*i*sqrt3",
+          "retained_weak_scalar": "-1*1"
+        }
+      ],
+      "scope": "Supplemental finite inverse-information check; not a physical selection or full surjectivity proof"
+    },
+    "toy-mod3": {
+      "outputs": [
+        0,
+        1,
+        2,
+        0,
+        1,
+        2
+      ],
+      "kernel": [
+        0,
+        3
+      ],
+      "retained_labels": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    "toy-mod2": {
+      "outputs": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "kernel": [
+        0,
+        2,
+        4
+      ],
+      "retained_labels": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        2
+      ]
+    },
+    "W1-local": {
+      "input": [
+        1,
+        1
+      ],
+      "phases": [
+        "1*i",
+        "-1*i"
+      ],
+      "output": [
+        "1*i",
+        "-1*i"
+      ],
+      "norm_squared": "2*1",
+      "recovered": [
+        "1*1",
+        "1*1"
+      ]
+    },
+    "P1-CAP06-local": {
+      "input": [
+        2,
+        "1*i"
+      ],
+      "phases": [
+        -1,
+        "1*i"
+      ],
+      "output": [
+        "-2*1",
+        "-1*1"
+      ],
+      "norm_squared": "5*1",
+      "recovered": [
+        "2*1",
+        "1*i"
+      ]
+    },
+    "D1-local": {
+      "input": [
+        1,
+        2
+      ],
+      "phases": [
+        "1*i",
+        1
+      ],
+      "output": [
+        "1*i",
+        "2*1"
+      ],
+      "norm_squared": "5*1",
+      "recovered": [
+        "1*1",
+        "2*1"
+      ]
+    }
+  },
+  "source_hashes": [
+    {
+      "id": "S01",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180"
+    },
+    {
+      "id": "S02",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3"
+    },
+    {
+      "id": "S03",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e"
+    },
+    {
+      "id": "S04",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+      "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2"
+    },
+    {
+      "id": "S05",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+      "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7"
+    }
+  ],
+  "integration_provenance": {
+    "method": "Fresh read-only sparse RAG query with rerank=false and logical path prefix kfield_standard_model/. Capabilities discovery preceded retrieval.",
+    "corpus_generation": "sha256:5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+    "manifest_sha256": "5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+    "rag_index_sha256": "aca56e6b5b2b717459cea9790e6142ea9e8058f74d135710906926e9065ad54a",
+    "records": [
+      {
+        "id": "I01",
+        "logical_path": "kfield_standard_model/project_record.json",
+        "canonical_source_card_path": "applications/kfield_standard_model/collaborator_record/project_record.json",
+        "sha256": "3800c854da827a64e72507722904bcafab07a31e88f2bc73920a8e7f62f62c1c",
+        "pointers": [
+          "/hazards/3",
+          "/open_obligations/1",
+          "/open_obligations/2"
+        ],
+        "object_id": "ragobj:66f227dde0830ee67ec6225f58676e0a9720e8c496c56496f10651bfcb3c7572",
+        "locator": {
+          "end_line_inclusive": 142,
+          "kind": "lines",
+          "start_line": 1
+        },
+        "trust": "source",
+        "source_identity_matches_course": true,
+        "local_byte_hash_independently_recomputed": false,
+        "conclusion": "Physical global forms Z1,Z2,Z3,Z6 remain an unresolved family; seventeen compiler modules lack direct authority."
+      },
+      {
+        "id": "I02",
+        "logical_path": "kfield_standard_model/evidence/p12_standard_model_compiler_adjudication_report.json",
+        "sha256": "a3dfca0e55e525c6522c3088b95e5bcc048c141fce340bfe980fcfc14123220a",
+        "pointers": [
+          "/direct_authority_modules",
+          "/agda/certificate",
+          "/known_science_replay"
+        ],
+        "object_id": "ragobj:8539daf4cdda9c1c7d0666326b9ab394057e802a8dde351c45e283a7ad70ad09",
+        "locator": {
+          "end_line_inclusive": 101,
+          "kind": "lines",
+          "start_line": 1
+        },
+        "trust": "source",
+        "source_identity_matches_course": true,
+        "local_byte_hash_independently_recomputed": false,
+        "conclusion": "Direct authority is limited to compiler M03,M07,M08; the named Safe Agda certificate is reported, not newly executed here."
+      }
+    ],
+    "identity_scope": "Both reported integration source identities match the pinned course cards. Unlike local S01–S05, integration hashes were not recomputed from complete local byte streams. The retrieved source-attributed excerpts directly support the retained family and authority scope.",
+    "coverage": "Query results are truncated discovery results, not exhaustive corpus coverage; only the two named records support this audit's integration comparison.",
+    "compiler_rerun": false
+  },
+  "parent_support": {
+    "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\roots-carriers-bridge-verification.json",
+    "sha256": "196bf6bf04fda78bded77716bb6478595de098890baef51662c51e6089675529",
+    "use": "Comparison only after independent calculations"
+  },
+  "kernel_exhaustion": {
+    "necessary": "Identity output implies g3=z^2 I3 and g2=z^-3 I2. Their determinant constraints imply z^6=1; neither matrix has remaining independent entries.",
+    "sufficient": "Every listed unit phase and its forced scalar matrices has determinant one, is unitary, and maps to both identity blocks; all six rows recomputed.",
+    "exact_roots": "Six exact distinct powers of (1+i sqrt3)/2 are checked. Additionally the independently multiplied six linear factors give t^6-1 exactly; over C their product vanishes only at the listed roots.",
+    "course_argument": "The actual lesson establishes exhaustiveness by unit-circle angles and checks powers without rounding. The extra polynomial factorization is an auditor-only corroboration, not an untaught assessment requirement.",
+    "inverse_information": "The identity image requires retained k modulo6. For an arbitrary image with a chosen preimage, all alternatives differ by a kernel element; retain that representative and k. A supplemental nontrivial matrix example checks six distinct representatives, identical outputs and reverse recovery."
+  },
+  "limitations": [
+    "Exact finite algebra only; no physical global-form selection, fresh Agda typecheck, full connected-group classification or covering-topology proof.",
+    "Integration digests are service-returned source identities rather than fresh local-byte hashes; source status remains attributed.",
+    "Computed examples are synthetic. No source snapshots, original data copies or large arrays were created."
+  ],
+  "source_files_copied": false,
+  "course_or_parent_files_modified": false
+}

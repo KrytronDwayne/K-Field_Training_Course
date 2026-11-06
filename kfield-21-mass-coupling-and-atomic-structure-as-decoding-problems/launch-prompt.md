@@ -1,0 +1,2124 @@
+Role: You are the autonomous author, verifier, and recovery steward for a complete high-school course. Teach the stated audience from first principles with precise, age-appropriate language.
+
+# Outcome
+
+Build the complete course described by the runtime subject packet. Work continuously through all lessons, supporting materials, final assembly, hostile audit, repair, and deterministic validation. Do not stop after an outline, sample unit, or partial course.
+
+Write every persistent course artifact directly into the absolute `course_output_directory` in the runtime packet. That directory is the sole recovery and delivery location for this course.
+
+# Success criteria
+
+- Every required concept is introduced, practiced, assessed, and connected to later use.
+- Every lesson satisfies the lesson contract and has zero unresolved critical or major local findings.
+- Definitions, terms, symbols, units, source claims, examples, and answers are correct and consistent.
+- The capstone is solvable from the actual course.
+- The assembled course contains every passed lesson verbatim and in approved order.
+- Recovery state is current, hashes validate, and the final hostile audit has zero unresolved critical and major findings.
+- All requested artifacts exist and the deterministic validator exits successfully.
+
+# Constraints
+
+Preserve the supplied subject kernel, invariants, evidence rules, audience, and course map. Separate observations or source facts, derived implications, interpretations, proposed mechanisms, established reference theory, and unresolved questions when those layers apply. Never fabricate concrete facts, sources, data, quotations, or real-world evidence; use symbolic or clearly synthetic examples if grounding is unavailable. Use authoritative retrieval when the runtime packet requires current or exact facts.
+
+Make reasonable assumptions and record them. Do not ask for intermediate approval. Ask for user attention only if a missing fact or authority would materially change the course and cannot be safely represented as an explicit assumption or placeholder.
+
+Keep progress updates concise and write substantive work to files. Do not expose private reasoning traces; audit records contain only findings, corrections, verification, and dispositions.
+
+Do not save a persistent course artifact in the generated task workspace or any directory outside `course_output_directory`. If that destination is unavailable, preserve any already-written state there and report the storage blocker; do not silently substitute another location.
+
+# Recovery protocol
+
+Inside `course_output_directory`, initialize `manifest.json`, `course-map.md`, `terminology.md`, `audit_report.json`, and `completion_report.json`, plus one file per lesson. Treat that manifest as the recovery authority, but verify every existing checkpoint file and SHA-256 before trusting its status. Save a complete section before marking it passed. Resume from the first missing or failed dependency. Do not regenerate passed work without a concrete dependent defect.
+
+Use stable checkpoint IDs, dependency lists, statuses (`pending`, `drafted`, `passed`, `failed`), relative paths, summaries, and SHA-256 hashes. Update blockers and the next action after each checkpoint.
+
+# Lesson and audit contract
+
+Each lesson needs one essential question, two to four observable goals, a bridge from taught material, a first-principles explanation, at least one fully worked verifiable example, a claim-scope box when needed, three to five diagnostic checks, concise worked answers, and a link to the next dependency.
+
+Recompute examples and answers independently. At every lesson run local prerequisite, audience, definition, notation, unit, logical, mathematical, evidence, and source checks. At unit boundaries run cumulative terminology, dependency, complexity, coverage, and capstone checks. Classify findings as critical, major, or minor; patch the earliest source and rerun affected checks. Stop revising for style once correctness and learning are no longer improved.
+
+# Deliverables and assembly
+
+Create student lessons, terminology/glossary, teacher guide, capstone and full answer key/rubric, final assembled course, manifest, audit report, and completion report. Add no new substantive teaching during assembly. Insert each lesson verbatim between `<!-- BEGIN: CHECKPOINT_ID -->` and `<!-- END: CHECKPOINT_ID -->` markers in course order.
+
+If a requested output is paginated or visual, use its applicable artifact skill to render, inspect, and repair it. Run the final hostile audit across coverage, fidelity, dependency order, correctness, terminology, examples, evidence layers, audience load, assessment alignment, recovery integrity, assembly identity, rendering, and minimality.
+
+# Stop and report rules
+
+Success requires zero unresolved critical findings, zero unresolved major findings, every checkpoint passed, current hashes, correct assembly order/identity, complete outputs, and a successful deterministic validator run. On failure, repair and rerun affected checks. On a genuine blocker, preserve the recovery files and report only the smallest action needed. On success, report artifact paths, assumptions, audit counts, hashes, validator result, and any harmless unresolved minor findings.
+
+# Manager execution contract
+
+This is the one course-production task created by the parent through build-high-school-course. You are its curriculum manager and author. Execute that skill's production, audit, recovery, and validator requirements in this task; do not recursively create a second course task or any other task. The user authorized all 30 course-manager tasks and independent auditors. The parent coordinates them.
+
+The user's exact standing authorization is: 'do not stop for user approval. You are approved to proceed with all required tasks, proceed'
+
+Read the build-high-school-course SKILL.md, methodology, audit rubric, and validator implementation; the complete approved subject packet follows here. Read the residual-information-paradigm skill at the beginning. Use krytronx-knowledge-graph and relevant domain skills for exact source grounding. Source retrieval is read-only. Preserve source-local definitions and record exact paths, SHA-256, pointers/pages and evidence classes. Never bulk-copy source data into the course. Small clearly labeled teaching examples and their verification records are allowed.
+
+Use GPT-6 Astra as the user explicitly selected. Preserve the configured reasoning setting. The user explicitly overrides the skill's Desktop-only/projectless defaults: write course outputs within the saved project Z:/Kfield-doc-training and move them later. This task is running directly in that project. The runtime course_output_directory is authoritative and already exists. Use ordinary workspace writes; do not request Desktop access. The parent has approved proceeding and no further content approval is required. Validate with Z:/Kfield-doc-training/.work/validate_project_course.py COURSE_DIRECTORY --json. This adapter runs the installed validator unchanged except that its canonical-root constant is the user-selected project folder, preserving containment, content, hash, assembly, and audit checks.
+
+Python must run through & 'C:/ProgramData/anaconda3/Scripts/conda.exe' run -n tf_gpu_env python. Do not install or change packages. Avoid long or GPU work; hand-checkable mathematics and lightweight standard-library checks suffice. Do not create raw source snapshots or large npz files.
+
+The course is a complete topical course for seniors, not an outline. Write connected, clear explanations and fully worked examples; use only the necessary mathematical formalism and explicitly teach every new operation. Keep all core tasks solvable from taught material. Add diagrams/tables when they improve learning; Markdown and Mermaid are sufficient. Refine lesson boundaries if necessary for prerequisite closure, recording the rationale and updating coverage and capstone maps. Do not reduce coverage to finish faster or pad the course with boilerplate. Core lessons each require one essential question, two to four observable goals, an explicit prerequisite bridge, first-principles instruction, a fully worked independently recomputed example, an appropriate evidence-scope box, three to five diagnostic questions, worked answers, and a next-dependency link.
+
+Initialize recovery authorities before substantive generation. The input-contract.json is already present. Do not mark complete until the actual validator exits zero and all critical/major findings are corrected. Read the validator schema instead of guessing it. Include all student and teacher artifacts, a capstone with full answers and rubric, precise source notes, and the exact assembly marker protocol. Audit records must describe actual checks and actual corrections, never invented passes. The parent and independent auditor will reread and recompute your output.
+
+On completion report the exact course title, output directory, lesson count, validator result, unresolved counts, and any source gaps in your final reply. The parent polls your progress and final response. Do not call messaging tools to send parent status or completion; these can trigger separate app approvals. Then await possible audit repair requests. No messages to external people and no publishing are authorized.
+
+# Runtime subject packet
+
+```json
+{
+  "schema_version": "1.0",
+  "course_output_root": "Z:\\Kfield-doc-training\\K-Field_Training_Course",
+  "course_output_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems",
+  "topic": "Mass, Coupling, and Atomic Structure as Decoding Problems",
+  "series_course_id": "course-21",
+  "audience": "High-school seniors; first-principles teaching, with concrete prerequisite capabilities and taught bridges.",
+  "prerequisites": [
+    "Signed arithmetic, fractions, ratios, powers, linear equations, and coordinate graphs",
+    "Capabilities taught in course-08",
+    "Capabilities taught in course-12",
+    "Capabilities taught in course-15",
+    "Capabilities taught in course-20"
+  ],
+  "learning_outcomes": [
+    "Build a small overdetermined channel system",
+    "Separate represented coordinates from the full residual complement",
+    "Identify the six coefficient and seven syndrome coordinates",
+    "Reconstruct a small example before interpreting the source mass expression",
+    "Compute composition labels and retain endpoint mass conventions",
+    "Trace an archival atomic or periodic-table application without inventing coefficient selection",
+    "Retain failed calculations, parameter dependence, and residual fields",
+    "Distinguish measured values, source coefficients, arithmetic approximants, and model outputs"
+  ],
+  "requested_deliverables": [
+    "student lessons",
+    "course-map.md",
+    "terminology.md",
+    "teacher-guide.md",
+    "capstone.md with full answers and rubric",
+    "course.md",
+    "manifest.json",
+    "audit_report.json",
+    "completion_report.json",
+    "compact sources and worked-example verification"
+  ],
+  "assumptions": [
+    "A topical short course, not a semester per topic. Pacing is 55-minute core lessons plus capstone periods; split dense lessons if actual learner load requires it.",
+    "No prior calculus, abstract algebra, university linear algebra, or quantum mechanics unless explicitly taught earlier.",
+    "Required core assessments must be solvable with taught finite examples. Clearly label deeper recognition-only extensions.",
+    "Markdown is the delivery format; no PDF or Word generation is required."
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "role": "archival source; reported status is distinct from fresh verification"
+    },
+    {
+      "id": "S02",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "role": "archival source; reported status is distinct from fresh verification"
+    },
+    {
+      "id": "S03",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "role": "archival source; reported status is distinct from fresh verification"
+    },
+    {
+      "id": "S04",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+      "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "role": "archival source; reported status is distinct from fresh verification"
+    },
+    {
+      "id": "S05",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+      "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+      "role": "archival source; reported status is distinct from fresh verification"
+    }
+  ],
+  "source_routing": {
+    "primary_skill": "C:/Users/info/.codex/skills/krytronx-knowledge-graph/SKILL.md",
+    "graph_root": "repository:KrytronDwayne/K-Field_Private",
+    "testbench_root": "application:kfield-lucas-lab",
+    "snapshot_generation": "sha256:5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+    "manifest_sha256": "5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+    "rag_rerank": false,
+    "backbone_source_pointer": "/backbone_sequence",
+    "required_modules": [
+      "M17"
+    ],
+    "guidance": "Retrieve exact topic sources and source-local pointers; use the provided archival files read-only and verify their hashes. Do not rely only on titles or summaries. For experimental topics search the testbench topic and local relevant domain skills."
+  },
+  "evidence_rules": [
+    "Preserve empirical observations, derived implications, inferred structure, mechanisms, reference theory, and unresolved questions as distinct layers.",
+    "Read-only sources: no source-data copies, database exports, reindexing, or large arrays. Persist only authored course artifacts, compact provenance, audits, and small clearly synthetic examples.",
+    "Cell3 uses ICRS columns [a b c], an intentional negative determinant, and half-open cells [-1/2,1/2)^3. Use x-O_K in affine reciprocal identities.",
+    "Use the mature locked geometry and exact source provenance. Historical and corrected numerical branches remain separately labeled; do not silently mix their constants.",
+    "Use M_cell=B^T B and R_cell=M_cell^-1; distinguish G_phase, G_eff, reciprocal bases, distance Q, Q_g, and Q_nu.",
+    "Gauge-carrier tuples use color-first C_3 direct-sum W_2. A weak-first view needs an explicit permutation.",
+    "Do not merge detector parity, A1 carry parity, projective signs, chirality, family labels, primitive lifts, or distinct dyadic and ternary recursions.",
+    "Declare nearest-integer half-ties and the corresponding residual interval consistently; the half-open cell ownership rule is a separate operation.",
+    "The detail-product identity needs explicit hypotheses on E beyond Q=I-E; retain the product of finite differences.",
+    "M19 contains mixed extension branches and is not a premise of M20 core closure. Reconstruct prerequisites from module requires, with the documented audit corrections.",
+    "Preserve mature-source claims and accepted integration dispositions separately. In the integration only compiler M03, M07, M08 have direct authority; these compiler labels are not automatically the mathematical-backbone module labels. Preserve the admitted global-form family Z1,Z2,Z3,Z6 and source-local uniqueness claims with explicit contracts.",
+    "Treat matching dimensions or graph labels as neither an intertwiner nor a proof. A missing proof body remains a source-reported status with a retrieval gap.",
+    "Physical CMB velocity is distinct from phase-transformed vectors; the testbench admitted speed is 369812.50200040644 m/s. The Galactic Center is a visual gauge; do not invent Solar or Galactic short-window dynamics.",
+    "A photon-equivalent model energy is not measured transferred energy, and phase is not force. Preserve signed events and the three independent plane-cost levels in the fourteen-row 2026-08-26 bundle.",
+    "Cell3 and galaxy-derived cells have separately typed units, metrics, handedness, scales, and normals. Recurrence is an explanatory target, not permission to merge definitions.",
+    "Every residual remains a primary coordinate. Transformations are reversible or accompanied by all removed components and reconstruction rules; no outlier deletion or significance-based erasure.",
+    "Use tf_gpu_env through C:/ProgramData/anaconda3/Scripts/conda.exe run -n tf_gpu_env python. No package changes without approval."
+  ],
+  "subject_kernel": {
+    "objects_and_operations": [
+      {
+        "concept_id": "C21.01",
+        "concept": "Measurements as linear channels",
+        "operation": "Build a small overdetermined channel system"
+      },
+      {
+        "concept_id": "C21.02",
+        "concept": "Rank and retained syndromes",
+        "operation": "Separate represented coordinates from the full residual complement"
+      },
+      {
+        "concept_id": "C21.03",
+        "concept": "The thirteen-channel decoder",
+        "operation": "Identify the six coefficient and seven syndrome coordinates"
+      },
+      {
+        "concept_id": "C21.04",
+        "concept": "Reconstruction and dimensional meaning",
+        "operation": "Reconstruct a small example before interpreting the source mass expression"
+      },
+      {
+        "concept_id": "C21.05",
+        "concept": "Atomic and isotope inventories",
+        "operation": "Compute composition labels and retain endpoint mass conventions"
+      },
+      {
+        "concept_id": "C21.06",
+        "concept": "Binding and periodic organization",
+        "operation": "Trace an archival atomic or periodic-table application without inventing coefficient selection"
+      },
+      {
+        "concept_id": "C21.07",
+        "concept": "Solver convergence and unresolved information",
+        "operation": "Retain failed calculations, parameter dependence, and residual fields"
+      },
+      {
+        "concept_id": "C21.08",
+        "concept": "A reproducible decoding report",
+        "operation": "Distinguish measured values, source coefficients, arithmetic approximants, and model outputs"
+      },
+      {
+        "concept_id": "C21.S01",
+        "concept": "Syndrome-Walsh compatibility",
+        "operation": "Check a small signed character table and distinguish equal dimension, compatible representation and a specified intertwiner; identify the missing source replay matrices without inventing them."
+      },
+      {
+        "concept_id": "C21.S02",
+        "concept": "Composition fibers and isomer boundaries",
+        "operation": "Verify 12C+H+14N+16O is unchanged by a supplied move, check dependence U3=U1+U2, retain the independent 4C-to-3O direction, and explain what formula and nominal volume leave unresolved."
+      },
+      {
+        "concept_id": "C21.S03",
+        "concept": "Mass-to-energy endpoint bookkeeping",
+        "operation": "Introduce delta E=delta m c^2 as a declared reference relation, supply all constants and units, practice a small synthetic calculation with consistent neutral/ionic/isotopic endpoints, and separate energy difference from rate and recoverable power."
+      }
+    ],
+    "source_modules": [
+      "M17"
+    ],
+    "scope": "Prepare a synthetic channel decoder plus a source-traced atomic application with complete residuals and reaction-energy bookkeeping.",
+    "common_failure_modes": [
+      "Untaught prerequisite",
+      "Unscoped symbol or unit",
+      "An illustrative example presented as real evidence",
+      "A source label promoted beyond its evidence class",
+      "A residual or source branch silently omitted"
+    ]
+  },
+  "invariants": [
+    "Preserve empirical observations, derived implications, inferred structure, mechanisms, reference theory, and unresolved questions as distinct layers.",
+    "Read-only sources: no source-data copies, database exports, reindexing, or large arrays. Persist only authored course artifacts, compact provenance, audits, and small clearly synthetic examples.",
+    "Cell3 uses ICRS columns [a b c], an intentional negative determinant, and half-open cells [-1/2,1/2)^3. Use x-O_K in affine reciprocal identities.",
+    "Use the mature locked geometry and exact source provenance. Historical and corrected numerical branches remain separately labeled; do not silently mix their constants.",
+    "Use M_cell=B^T B and R_cell=M_cell^-1; distinguish G_phase, G_eff, reciprocal bases, distance Q, Q_g, and Q_nu.",
+    "Gauge-carrier tuples use color-first C_3 direct-sum W_2. A weak-first view needs an explicit permutation.",
+    "Do not merge detector parity, A1 carry parity, projective signs, chirality, family labels, primitive lifts, or distinct dyadic and ternary recursions.",
+    "Declare nearest-integer half-ties and the corresponding residual interval consistently; the half-open cell ownership rule is a separate operation.",
+    "The detail-product identity needs explicit hypotheses on E beyond Q=I-E; retain the product of finite differences.",
+    "M19 contains mixed extension branches and is not a premise of M20 core closure. Reconstruct prerequisites from module requires, with the documented audit corrections.",
+    "Preserve mature-source claims and accepted integration dispositions separately. In the integration only compiler M03, M07, M08 have direct authority; these compiler labels are not automatically the mathematical-backbone module labels. Preserve the admitted global-form family Z1,Z2,Z3,Z6 and source-local uniqueness claims with explicit contracts.",
+    "Treat matching dimensions or graph labels as neither an intertwiner nor a proof. A missing proof body remains a source-reported status with a retrieval gap.",
+    "Physical CMB velocity is distinct from phase-transformed vectors; the testbench admitted speed is 369812.50200040644 m/s. The Galactic Center is a visual gauge; do not invent Solar or Galactic short-window dynamics.",
+    "A photon-equivalent model energy is not measured transferred energy, and phase is not force. Preserve signed events and the three independent plane-cost levels in the fourteen-row 2026-08-26 bundle.",
+    "Cell3 and galaxy-derived cells have separately typed units, metrics, handedness, scales, and normals. Recurrence is an explanatory target, not permission to merge definitions.",
+    "Every residual remains a primary coordinate. Transformations are reversible or accompanied by all removed components and reconstruction rules; no outlier deletion or significance-based erasure.",
+    "Use tf_gpu_env through C:/ProgramData/anaconda3/Scripts/conda.exe run -n tf_gpu_env python. No package changes without approval."
+  ],
+  "notation_registry": {
+    "M_cell": "Cell3 Gram metric",
+    "R_cell": "inverse Cell3 Gram metric",
+    "G_phase": "distinct phase metric",
+    "O_K": "declared physical origin",
+    "B": "source-locked ordered basis; source-local row/column distinctions must be explicit"
+  },
+  "coverage_matrix": [
+    {
+      "concept_id": "C21.01",
+      "concept": "Measurements as linear channels",
+      "introduction": "lesson-01",
+      "practice": "C21.01-P1",
+      "assessment": "C21.01-D1",
+      "later_use": "lesson-02",
+      "worked_example": "C21.01-W1",
+      "all_required_teaching_item_ids": [
+        "C21.01-E1",
+        "C21.01-W1",
+        "C21.01-P1",
+        "C21.01-D1"
+      ]
+    },
+    {
+      "concept_id": "C21.02",
+      "concept": "Rank and retained syndromes",
+      "introduction": "lesson-02",
+      "practice": "C21.02-P1",
+      "assessment": "C21.02-D1",
+      "later_use": "lesson-03",
+      "worked_example": "C21.02-W1",
+      "all_required_teaching_item_ids": [
+        "C21.02-E1",
+        "C21.02-W1",
+        "C21.02-P1",
+        "C21.02-D1"
+      ]
+    },
+    {
+      "concept_id": "C21.03",
+      "concept": "The thirteen-channel decoder",
+      "introduction": "lesson-03",
+      "practice": "C21.03-P1",
+      "assessment": "C21.03-D1",
+      "later_use": "lesson-04",
+      "worked_example": "C21.03-W1",
+      "all_required_teaching_item_ids": [
+        "C21.03-E1",
+        "C21.03-W1",
+        "C21.03-P1",
+        "C21.03-D1",
+        "C21.S01-E1",
+        "C21.S01-W1",
+        "C21.S01-P1",
+        "C21.S01-D1"
+      ]
+    },
+    {
+      "concept_id": "C21.04",
+      "concept": "Reconstruction and dimensional meaning",
+      "introduction": "lesson-04",
+      "practice": "C21.04-P1",
+      "assessment": "C21.04-D1",
+      "later_use": "lesson-05",
+      "worked_example": "C21.04-W1",
+      "all_required_teaching_item_ids": [
+        "C21.04-E1",
+        "C21.04-W1",
+        "C21.04-P1",
+        "C21.04-D1"
+      ]
+    },
+    {
+      "concept_id": "C21.05",
+      "concept": "Atomic and isotope inventories",
+      "introduction": "lesson-05",
+      "practice": "C21.05-P1",
+      "assessment": "C21.05-D1",
+      "later_use": "lesson-06",
+      "worked_example": "C21.05-W1",
+      "all_required_teaching_item_ids": [
+        "C21.05-E1",
+        "C21.05-W1",
+        "C21.05-P1",
+        "C21.05-D1",
+        "C21.S02-E1",
+        "C21.S02-W1",
+        "C21.S02-P1",
+        "C21.S02-D1"
+      ]
+    },
+    {
+      "concept_id": "C21.06",
+      "concept": "Binding and periodic organization",
+      "introduction": "lesson-06",
+      "practice": "C21.06-P1",
+      "assessment": "C21.06-D1",
+      "later_use": "lesson-07",
+      "worked_example": "C21.06-W1",
+      "all_required_teaching_item_ids": [
+        "C21.06-E1",
+        "C21.06-W1",
+        "C21.06-P1",
+        "C21.06-D1",
+        "C21.S03-E1",
+        "C21.S03-W1",
+        "C21.S03-P1",
+        "C21.S03-D1"
+      ]
+    },
+    {
+      "concept_id": "C21.07",
+      "concept": "Solver convergence and unresolved information",
+      "introduction": "lesson-07",
+      "practice": "C21.07-P1",
+      "assessment": "C21.07-D1",
+      "later_use": "lesson-08",
+      "worked_example": "C21.07-W1",
+      "all_required_teaching_item_ids": [
+        "C21.07-E1",
+        "C21.07-W1",
+        "C21.07-P1",
+        "C21.07-D1"
+      ]
+    },
+    {
+      "concept_id": "C21.08",
+      "concept": "A reproducible decoding report",
+      "introduction": "lesson-08",
+      "practice": "C21.08-P1",
+      "assessment": "C21.08-D1",
+      "later_use": "capstone",
+      "worked_example": "C21.08-W1",
+      "all_required_teaching_item_ids": [
+        "C21.08-E1",
+        "C21.08-W1",
+        "C21.08-P1",
+        "C21.08-D1"
+      ]
+    },
+    {
+      "concept_id": "C21.S01",
+      "concept": "Syndrome-Walsh compatibility",
+      "introduction": "lesson-03",
+      "practice": "lesson-04: worked example and guided practice",
+      "assessment": "lesson-04: diagnostic checks",
+      "later_use": "capstone",
+      "source_pointers": [
+        "S02#/branch_proofs/11",
+        "S02#/proof_nodes/10",
+        "S02#/proof_nodes/11",
+        "S02#/proof_nodes/23"
+      ]
+    },
+    {
+      "concept_id": "C21.S02",
+      "concept": "Composition fibers and isomer boundaries",
+      "introduction": "lesson-05",
+      "practice": "lesson-05: worked example and guided practice",
+      "assessment": "lesson-06: diagnostic checks",
+      "later_use": "capstone",
+      "source_pointers": [
+        "S05#/records/7",
+        "S05#/records/21",
+        "S05#/records/22",
+        "S05#/records/28",
+        "S05#/records/30",
+        "S05#/records/31"
+      ]
+    },
+    {
+      "concept_id": "C21.S03",
+      "concept": "Mass-to-energy endpoint bookkeeping",
+      "introduction": "lesson-06",
+      "practice": "lesson-06: worked example and guided practice",
+      "assessment": "lesson-06: diagnostic checks",
+      "later_use": "capstone",
+      "source_pointers": [
+        "S05#/records/28",
+        "S05#/records/29",
+        "S05#/records/30"
+      ]
+    }
+  ],
+  "course_map": [
+    {
+      "id": "lesson-01",
+      "title": "Measurements as linear channels",
+      "entry_prerequisites": [
+        "course-08",
+        "course-12",
+        "course-15",
+        "course-20"
+      ],
+      "concept_ids": [
+        "C21.01"
+      ],
+      "worked_example_capability": "Build a small overdetermined channel system",
+      "assessment_target": "Build a small overdetermined channel system",
+      "later_use": "lesson-02",
+      "core_minutes": 110,
+      "required_amendment_ids": [
+        "EA-21-E07-4"
+      ],
+      "teaching_anchor": {
+        "lesson_id": "lesson-01",
+        "concept_id": "C21.01",
+        "explanation_id": "C21.01-E1",
+        "bridge_to_teach": "A channel is a specified linear combination of coordinates. Work over R with the Euclidean inner product; exact rational examples avoid rounding. For A=[[1,0],[0,1],[1,1]], write three equations for two unknowns. Teach transpose multiplication by sums before deriving A^T A c=A^T y from A^T(y-Ac)=0.",
+        "worked_example": {
+          "id": "C21.01-W1",
+          "task_and_answer": "C21-DEC-EX1: y=(2,3,6) makes c1=2, c2=3, c1+c2=6 inconsistent. The normal equations are 2c1+c2=8 and c1+2c2=9. Elimination gives c=(7/3,10/3). A c=(7/3,10/3,17/3); r=(-1/3,-1/3,1/3). Reconstruct all three channels."
+        },
+        "guided_practice": {
+          "id": "C21.01-P1",
+          "task_and_answer": "C21-DEC-P1: y=(1,2,3) gives right side (4,5), c=(1,2), A c=y, r=(0,0,0). Write all three zero residual entries and the original A."
+        },
+        "diagnostic": {
+          "id": "C21.01-D1",
+          "task_and_answer": "C21-DEC-D1: y=(1,1,3) gives c=(4/3,4/3), r=(-1/3,-1/3,1/3). Three channels do not imply three independently recoverable coefficient coordinates; here rank is two."
+        },
+        "planned_periods": 2,
+        "minutes_per_period": 55,
+        "teaching_allocation_per_period": {
+          "retrieval": 5,
+          "explanation_and_worked_example": 20,
+          "guided_practice": 15,
+          "independent_diagnostics_and_repair": 15
+        },
+        "production_requirement": "Expand these anchors into senior-facing explanations, 2–4 observable goals and 3–5 answered diagnostics. Preserve original IDs and every supplemental concept. Supply the matrices, units and source cards locally. Period counts may expand; no untaught operation may first appear in the capstone.",
+        "original_title": "Measurements as linear channels",
+        "original_assessment_target": "Build a small overdetermined channel system",
+        "original_concept_ids": [
+          "C21.01"
+        ],
+        "required_source_amendment_ids": [
+          "EA-21-E07-4"
+        ],
+        "source_coverage_requirements": [],
+        "original_entry_prerequisites": [
+          "course-08",
+          "course-12",
+          "course-15",
+          "course-20"
+        ],
+        "session_sequence": [
+          {
+            "session": 1,
+            "focus": "Channel equations and consistency",
+            "minutes": 55,
+            "recovery_checkpoint": "Learner reproduces the named worked operation, completes the corresponding answered practice and explains the diagnostic before advancing. If not, reteach within an added session and update dependent links."
+          },
+          {
+            "session": 2,
+            "focus": "Normal equations and complete residual reconstruction",
+            "minutes": 55,
+            "recovery_checkpoint": "Learner reproduces the named worked operation, completes the corresponding answered practice and explains the diagnostic before advancing. If not, reteach within an added session and update dependent links."
+          }
+        ]
+      }
+    },
+    {
+      "id": "lesson-02",
+      "title": "Rank and retained syndromes",
+      "entry_prerequisites": [
+        "lesson-01"
+      ],
+      "concept_ids": [
+        "C21.02"
+      ],
+      "worked_example_capability": "Separate represented coordinates from the full residual complement",
+      "assessment_target": "Separate represented coordinates from the full residual complement",
+      "later_use": "lesson-03",
+      "core_minutes": 110,
+      "required_amendment_ids": [
+        "SA-21",
+        "EA-21-E07-4"
+      ],
+      "teaching_anchor": {
+        "lesson_id": "lesson-02",
+        "concept_id": "C21.02",
+        "explanation_id": "C21.02-E1",
+        "bridge_to_teach": "Rank counts independent columns over a declared field. For the small A, r=t(-1,-1,1); show A^T r=0. Teach the difference between a vector space and an integer lattice with a missing odd point. A full residual vector must remain alongside the represented component.",
+        "worked_example": {
+          "id": "C21.02-W1",
+          "task_and_answer": "Reuse C21-DEC-EX1: t=1/3, so the two represented coordinates plus one syndrome coordinate reconstruct y. Over R, A0=(2,0)^T and L0=(0,1) have ranks one and L0 A0=0; their real image/kernel coincide. Over Z, (1,0) lies in ker L0 but not im A0, so rank alone fails to prove lattice equality."
+        },
+        "guided_practice": {
+          "id": "C21.02-P1",
+          "task_and_answer": "For A0=(1,0)^T and L0=(0,1), integer equality does hold: every kernel point is (n,0)=A0 n. For y=(1,1,3), explicitly check (-1/3+1/3,-1/3+1/3)=(0,0) and reconstruct the three entries."
+        },
+        "diagnostic": {
+          "id": "C21.02-D1",
+          "task_and_answer": "A zero normal residual A^T r is not a zero channel residual r. A lattice claim needs saturation or index evidence in addition to field rank. Missing source L cannot be recovered by naming the orthogonal projector L."
+        },
+        "planned_periods": 2,
+        "minutes_per_period": 55,
+        "teaching_allocation_per_period": {
+          "retrieval": 5,
+          "explanation_and_worked_example": 20,
+          "guided_practice": 15,
+          "independent_diagnostics_and_repair": 15
+        },
+        "production_requirement": "Expand these anchors into senior-facing explanations, 2–4 observable goals and 3–5 answered diagnostics. Preserve original IDs and every supplemental concept. Supply the matrices, units and source cards locally. Period counts may expand; no untaught operation may first appear in the capstone.",
+        "original_title": "Rank and retained syndromes",
+        "original_assessment_target": "Separate represented coordinates from the full residual complement",
+        "original_concept_ids": [
+          "C21.02"
+        ],
+        "required_source_amendment_ids": [
+          "SA-21",
+          "EA-21-E07-4"
+        ],
+        "source_coverage_requirements": [],
+        "original_entry_prerequisites": [
+          "lesson-01"
+        ],
+        "session_sequence": [
+          {
+            "session": 1,
+            "focus": "Field rank and residual complement",
+            "minutes": 55,
+            "recovery_checkpoint": "Learner reproduces the named worked operation, completes the corresponding answered practice and explains the diagnostic before advancing. If not, reteach within an added session and update dependent links."
+          },
+          {
+            "session": 2,
+            "focus": "Integer lattice counterexample and saturation requirement",
+            "minutes": 55,
+            "recovery_checkpoint": "Learner reproduces the named worked operation, completes the corresponding answered practice and explains the diagnostic before advancing. If not, reteach within an added session and update dependent links."
+          }
+        ]
+      }
+    },
+    {
+      "id": "lesson-03",
+      "title": "The thirteen-channel decoder",
+      "entry_prerequisites": [
+        "lesson-02"
+      ],
+      "concept_ids": [
+        "C21.03",
+        "C21.S01"
+      ],
+      "worked_example_capability": "Identify the six coefficient and seven syndrome coordinates",
+      "assessment_target": "Identify the six coefficient and seven syndrome coordinates",
+      "later_use": "lesson-04",
+      "core_minutes": 165,
+      "source_coverage_requirements": [
+        {
+          "concept_id": "C21.S01",
+          "operation": "Check a small signed character table and distinguish equal dimension, compatible representation and a specified intertwiner; identify the missing source replay matrices without inventing them.",
+          "source_pointers": [
+            "S02#/branch_proofs/11",
+            "S02#/proof_nodes/10",
+            "S02#/proof_nodes/11",
+            "S02#/proof_nodes/23"
+          ]
+        }
+      ],
+      "pacing_rule": "Preserve every existing operation. Split into additional sessions if these bridge/practice requirements exceed the core period; update recovery checkpoints during production.",
+      "required_amendment_ids": [
+        "SA-21",
+        "EA-21-E07-4"
+      ],
+      "teaching_anchor": {
+        "lesson_id": "lesson-03",
+        "concept_id": "C21.03",
+        "explanation_id": "C21.03-E1",
+        "bridge_to_teach": "Supply the exact S02 M17 13x6 A and ordered b=(1,alpha,alpha^2,alpha^3,a_e,eta). Start by multiplying columns to get the Gram matrix. The first block is 3I+6J: the constant vector has eigenvalue 21, and sum-zero vectors have eigenvalue 3. The remaining three directions have eigenvalue 6. Teach six coefficients and a seven-dimensional syndrome subspace stored as 13 channel entries.",
+        "worked_example": {
+          "id": "C21.03-W1",
+          "task_and_answer": "Rank A=6, left-nullity=7. Set Aplus=(A^T A)^-1 A^T, P=A Aplus and R=I-P. For the supplied worked ledger y=(1,...,13), use every exact c, represented and syndrome entry in the verification record. Check P^2=P, R^2=R, A^T R=0 and y=A c+s. Demonstrate the simpler c=e1 example by reading the first A column."
+        },
+        "guided_practice": {
+          "id": "C21.03-P1",
+          "task_and_answer": "Use c0=(1,-1,2,0,1,0) and s=(-2,-2,1,1,0,0,0,0,0,0,0,0,0). Form y=A c0+s. A^T s=0, so decoding returns c0 and this entire s. Compare against the exact practice ledger. The 13 residual entries satisfy six constraints; they are not 13 independent syndrome coordinates."
+        },
+        "diagnostic": {
+          "id": "C21.03-D1",
+          "task_and_answer": "The newly derived L_int is 6x13 and L_int A=I6. It proves saturation of this A via integer coefficient recovery, but it is not the source 7x13 L with L A=0, nor W7. Orthogonal decoding of arbitrary integer y may give rational c. Full source L/W7 replay remains VERIFIED_NOT_LOADED."
+        },
+        "planned_periods": 3,
+        "minutes_per_period": 55,
+        "teaching_allocation_per_period": {
+          "retrieval": 5,
+          "explanation_and_worked_example": 20,
+          "guided_practice": 15,
+          "independent_diagnostics_and_repair": 15
+        },
+        "production_requirement": "Expand these anchors into senior-facing explanations, 2–4 observable goals and 3–5 answered diagnostics. Preserve original IDs and every supplemental concept. Supply the matrices, units and source cards locally. Period counts may expand; no untaught operation may first appear in the capstone.",
+        "supplemental_exercises": [
+          {
+            "concept_id": "C21.S01",
+            "explanation_id": "C21.S01-E1",
+            "worked_example_id": "C21.S01-W1",
+            "prior_practice_id": "C21.S01-P1",
+            "diagnostic_id": "C21.S01-D1",
+            "explanation": "Teach signed characters on the explicitly synthetic group (Z/2)^2 with rows/columns 00,01,10,11 and W[x,k]=(-1)^(x dot k). This four-character table is not W7. Explain an intertwiner T by T rho(g)=sigma(g) T. Matching dimension is weaker than matching action; compatible actions still do not select one canonical T.",
+            "worked_task_and_answer": "W=[[1,1,1,1],[1,-1,1,-1],[1,1,-1,-1],[1,-1,-1,1]]. W^T W=4I. For v=(1,2,3,4), a=W^T v/4=(5/2,-1/2,-1,0), and W a=v. Source character arithmetic 3(1,1,1)+2(2,0,-1)=(7,3,1) and 3^2+2^2=13 is conditional on the source representation data.",
+            "practice_task_and_answer": "For v=(2,0,0,2), a=(1,0,0,1) and W a=v. On a separate two-dimensional involution example, rho=diag(1,-1), sigma=diag(-1,1), T=[[0,1],[1,0]] obeys T rho=sigma T and det T=-1; 2T also intertwines, demonstrating nonuniqueness.",
+            "diagnostic_task_and_answer": "rho=diag(1,-1) and sigma=-I have equal dimension but traces 0 and -2, so no invertible intertwiner exists. The source L, W7 and their action conventions remain missing; the toy table and L_int do not fill that retrieval gate."
+          }
+        ],
+        "original_title": "The thirteen-channel decoder",
+        "original_assessment_target": "Identify the six coefficient and seven syndrome coordinates",
+        "original_concept_ids": [
+          "C21.03",
+          "C21.S01"
+        ],
+        "required_source_amendment_ids": [
+          "SA-21",
+          "EA-21-E07-4"
+        ],
+        "source_coverage_requirements": [
+          {
+            "concept_id": "C21.S01",
+            "operation": "Check a small signed character table and distinguish equal dimension, compatible representation and a specified intertwiner; identify the missing source replay matrices without inventing them.",
+            "source_pointers": [
+              "S02#/branch_proofs/11",
+              "S02#/proof_nodes/10",
+              "S02#/proof_nodes/11",
+              "S02#/proof_nodes/23"
+            ]
+          }
+        ],
+        "original_entry_prerequisites": [
+          "lesson-02"
+        ],
+        "session_sequence": [
+          {
+            "session": 1,
+            "focus": "Source A and Gram rank",
+            "minutes": 55,
+            "recovery_checkpoint": "Learner reproduces the named worked operation, completes the corresponding answered practice and explains the diagnostic before advancing. If not, reteach within an added session and update dependent links."
+          },
+          {
+            "session": 2,
+            "focus": "Thirteen-channel reconstruction and integer witness",
+            "minutes": 55,
+            "recovery_checkpoint": "Learner reproduces the named worked operation, completes the corresponding answered practice and explains the diagnostic before advancing. If not, reteach within an added session and update dependent links."
+          },
+          {
+            "session": 3,
+            "focus": "C21.S01 character table and intertwiner distinction",
+            "minutes": 55,
+            "recovery_checkpoint": "Learner reproduces the named worked operation, completes the corresponding answered practice and explains the diagnostic before advancing. If not, reteach within an added session and update dependent links."
+          }
+        ]
+      }
+    },
+    {
+      "id": "lesson-04",
+      "title": "Reconstruction and dimensional meaning",
+      "entry_prerequisites": [
+        "lesson-03"
+      ],
+      "concept_ids": [
+        "C21.04"
+      ],
+      "worked_example_capability": "Reconstruct a small example before interpreting the source mass expression",
+      "assessment_target": "Reconstruct a small example before interpreting the source mass expression",
+      "later_use": "lesson-05",
+      "core_minutes": 110,
+      "required_amendment_ids": [
+        "SA-21",
+        "EA-21-E07-4"
+      ],
+      "teaching_anchor": {
+        "lesson_id": "lesson-04",
+        "concept_id": "C21.04",
+        "explanation_id": "C21.04-E1",
+        "bridge_to_teach": "First reconstruct channels; then evaluate a declared renderer. m/m_e=c dot b is dimensionless if c and b are dimensionless. Supply m_e and the occupied-state inputs before reporting a dimensional m. The displayed source alpha and eta are stored witnesses; do not upgrade their decimal precision. A mass value does not preserve the channel syndrome by itself.",
+        "worked_example": {
+          "id": "C21.04-W1",
+          "task_and_answer": "Small reconstruction: (7/3,10/3,17/3)+(-1/3,-1/3,1/3)=(2,3,6). For a separately synthetic renderer b_toy=(1,1/10,1/100,1/1000,1/5,2), c=(1,0,0,0,0,1) yields m/m_ref=3. If m_ref=2 mass units, m=6 mass units. Retain c and all syndrome entries."
+        },
+        "guided_practice": {
+          "id": "C21.04-P1",
+          "task_and_answer": "With the same b_toy, c=(0,2,0,0,1,0) gives 2/10+1/5=2/5; m=4/5 mass units for m_ref=2. Reconstruct a channel packet from this c and s=0 using the pinned A; do not substitute b_toy for source b."
+        },
+        "diagnostic": {
+          "id": "C21.04-D1",
+          "task_and_answer": "Neither b nor a solver chooses a physical occupied c. If a_e or m_e is absent, return the symbolic renderer and missing input status. A rounded report 2.33 is not exact 7/3; retain their difference."
+        },
+        "planned_periods": 2,
+        "minutes_per_period": 55,
+        "teaching_allocation_per_period": {
+          "retrieval": 5,
+          "explanation_and_worked_example": 20,
+          "guided_practice": 15,
+          "independent_diagnostics_and_repair": 15
+        },
+        "production_requirement": "Expand these anchors into senior-facing explanations, 2–4 observable goals and 3–5 answered diagnostics. Preserve original IDs and every supplemental concept. Supply the matrices, units and source cards locally. Period counts may expand; no untaught operation may first appear in the capstone.",
+        "original_title": "Reconstruction and dimensional meaning",
+        "original_assessment_target": "Reconstruct a small example before interpreting the source mass expression",
+        "original_concept_ids": [
+          "C21.04"
+        ],
+        "required_source_amendment_ids": [
+          "SA-21",
+          "EA-21-E07-4"
+        ],
+        "source_coverage_requirements": [],
+        "original_entry_prerequisites": [
+          "lesson-03"
+        ],
+        "session_sequence": [
+          {
+            "session": 1,
+            "focus": "Channel reconstruction and units",
+            "minutes": 55,
+            "recovery_checkpoint": "Learner reproduces the named worked operation, completes the corresponding answered practice and explains the diagnostic before advancing. If not, reteach within an added session and update dependent links."
+          },
+          {
+            "session": 2,
+            "focus": "Mass renderer inputs and retained syndrome",
+            "minutes": 55,
+            "recovery_checkpoint": "Learner reproduces the named worked operation, completes the corresponding answered practice and explains the diagnostic before advancing. If not, reteach within an added session and update dependent links."
+          }
+        ]
+      }
+    },
+    {
+      "id": "lesson-05",
+      "title": "Atomic and isotope inventories",
+      "entry_prerequisites": [
+        "lesson-04"
+      ],
+      "concept_ids": [
+        "C21.05",
+        "C21.S02"
+      ],
+      "worked_example_capability": "Compute composition labels and retain endpoint mass conventions",
+      "assessment_target": "Compute composition labels and retain endpoint mass conventions",
+      "later_use": "lesson-06",
+      "core_minutes": 165,
+      "source_coverage_requirements": [
+        {
+          "concept_id": "C21.S02",
+          "operation": "Verify 12C+H+14N+16O is unchanged by a supplied move, check dependence U3=U1+U2, retain the independent 4C-to-3O direction, and explain what formula and nominal volume leave unresolved.",
+          "source_pointers": [
+            "S05#/records/7",
+            "S05#/records/21",
+            "S05#/records/22",
+            "S05#/records/28",
+            "S05#/records/30",
+            "S05#/records/31"
+          ]
+        }
+      ],
+      "pacing_rule": "Preserve every existing operation. Split into additional sessions if these bridge/practice requirements exceed the core period; update recovery checkpoints during production.",
+      "required_amendment_ids": [
+        "SA-21",
+        "EA-21-E08-5"
+      ],
+      "teaching_anchor": {
+        "lesson_id": "lesson-05",
+        "concept_id": "C21.05",
+        "explanation_id": "C21.05-E1",
+        "bridge_to_teach": "Read S05 R008 and R029–R032 locally. Separate element counts, isotope specification, ion/electron state, structure or isomer, graph data, and binding residual. V=12C+H+14N+16O is a nominal composition label. Introduce released energy Q=(m_initial-m_final)c^2 only after constituent and charge balance and complete-object mass conventions.",
+        "worked_example": {
+          "id": "C21.05-W1",
+          "task_and_answer": "C21-RXN-EX1: synthetic A+B -> AB conserves stipulated A and B constituent counts and charge. All are complete objects in one reference convention. Masses 2u+3u ->4.9u with synthetic 1u c^2=10 E_unit give delta m=0.1u and Q=1 E_unit. The mass difference is retained; this is not a measured reaction."
+        },
+        "guided_practice": {
+          "id": "C21.05-P1",
+          "task_and_answer": "C21-RXN-P1: keep every endpoint label but set final mass 5.05u. Delta m=-0.05u and Q=-0.5 E_unit, requiring input 0.5 E_unit. Separately calculate V for (C,H,N,O)=(4,4,0,1): V=68 nominal units. Neither calculation identifies an isomer."
+        },
+        "diagnostic": {
+          "id": "C21.05-D1",
+          "task_and_answer": "C21-RXN-D1: initial neutral-object masses and final bare-ion masses cannot be subtracted under an unstated electron convention. Supply all electrons and ionization/binding states first, or mark the endpoint incomplete. A nominally invariant composition move is not by itself a balanced physical reaction."
+        },
+        "planned_periods": 3,
+        "minutes_per_period": 55,
+        "teaching_allocation_per_period": {
+          "retrieval": 5,
+          "explanation_and_worked_example": 20,
+          "guided_practice": 15,
+          "independent_diagnostics_and_repair": 15
+        },
+        "production_requirement": "Expand these anchors into senior-facing explanations, 2–4 observable goals and 3–5 answered diagnostics. Preserve original IDs and every supplemental concept. Supply the matrices, units and source cards locally. Period counts may expand; no untaught operation may first appear in the capstone.",
+        "supplemental_exercises": [
+          {
+            "concept_id": "C21.S02",
+            "explanation_id": "C21.S02-E1",
+            "worked_example_id": "C21.S02-W1",
+            "prior_practice_id": "C21.S02-P1",
+            "diagnostic_id": "C21.S02-D1",
+            "explanation": "Declare tuple order (C,H,N,O) and weights (12,1,14,16). Use U1=(-1,-2,1,0), U2=(1,4,0,-1), U3=(0,2,1,-1), K=(-4,0,0,3). Check nonnegative endpoints separately. The weights are nominal composition arithmetic, not exact isotope masses.",
+            "worked_task_and_answer": "All four weighted moves are zero and U3=U1+U2. Starting (4,4,0,1), U1 gives (3,2,1,1), both V=68. The first three moves have rank two. If K=aU1+bU2, the N row forces a=0 and the H row b=0, a contradiction; K adds a third direction.",
+            "practice_task_and_answer": "From (4,4,0,1), U2 gives (5,8,0,0), both V=68. From (4,0,0,0), K gives (0,0,0,3), both V=48. Explain why these are valid count endpoints but not an asserted physical carbon-to-oxygen reaction. S05 R023 reports a 15.25614129 mDa step as source synthesis; no missing isotope constants are invented to replay it.",
+            "diagnostic_task_and_answer": "Negative atom counts invalidate an endpoint. Same V does not mean same formula, isotope mass, isomer or charge state. The three rank-three fibers in R032 recur structurally, but their canonical connecting map is unresolved."
+          }
+        ],
+        "original_title": "Atomic and isotope inventories",
+        "original_assessment_target": "Compute composition labels and retain endpoint mass conventions",
+        "original_concept_ids": [
+          "C21.05",
+          "C21.S02"
+        ],
+        "required_source_amendment_ids": [
+          "SA-21",
+          "EA-21-E08-5"
+        ],
+        "source_coverage_requirements": [
+          {
+            "concept_id": "C21.S02",
+            "operation": "Verify 12C+H+14N+16O is unchanged by a supplied move, check dependence U3=U1+U2, retain the independent 4C-to-3O direction, and explain what formula and nominal volume leave unresolved.",
+            "source_pointers": [
+              "S05#/records/7",
+              "S05#/records/21",
+              "S05#/records/22",
+              "S05#/records/28",
+              "S05#/records/30",
+              "S05#/records/31"
+            ]
+          }
+        ],
+        "original_entry_prerequisites": [
+          "lesson-04"
+        ],
+        "session_sequence": [
+          {
+            "session": 1,
+            "focus": "Composition/isotope/charge inventory",
+            "minutes": 55,
+            "recovery_checkpoint": "Learner reproduces the named worked operation, completes the corresponding answered practice and explains the diagnostic before advancing. If not, reteach within an added session and update dependent links."
+          },
+          {
+            "session": 2,
+            "focus": "C21.S02 moves and unresolved fibers",
+            "minutes": 55,
+            "recovery_checkpoint": "Learner reproduces the named worked operation, completes the corresponding answered practice and explains the diagnostic before advancing. If not, reteach within an added session and update dependent links."
+          },
+          {
+            "session": 3,
+            "focus": "C21-RXN balanced endpoint bridge",
+            "minutes": 55,
+            "recovery_checkpoint": "Learner reproduces the named worked operation, completes the corresponding answered practice and explains the diagnostic before advancing. If not, reteach within an added session and update dependent links."
+          }
+        ]
+      }
+    },
+    {
+      "id": "lesson-06",
+      "title": "Binding and periodic organization",
+      "entry_prerequisites": [
+        "lesson-05"
+      ],
+      "concept_ids": [
+        "C21.06",
+        "C21.S03"
+      ],
+      "worked_example_capability": "Trace an archival atomic or periodic-table application without inventing coefficient selection",
+      "assessment_target": "Trace an archival atomic or periodic-table application without inventing coefficient selection",
+      "later_use": "lesson-07",
+      "core_minutes": 110,
+      "source_coverage_requirements": [
+        {
+          "concept_id": "C21.S03",
+          "operation": "Introduce delta E=delta m c^2 as a declared reference relation, supply all constants and units, practice a small synthetic calculation with consistent neutral/ionic/isotopic endpoints, and separate energy difference from rate and recoverable power.",
+          "source_pointers": [
+            "S05#/records/28",
+            "S05#/records/29",
+            "S05#/records/30"
+          ]
+        }
+      ],
+      "pacing_rule": "Preserve every existing operation. Split into additional sessions if these bridge/practice requirements exceed the core period; update recovery checkpoints during production.",
+      "required_amendment_ids": [
+        "SA-21"
+      ],
+      "teaching_anchor": {
+        "lesson_id": "lesson-06",
+        "concept_id": "C21.06",
+        "explanation_id": "C21.06-E1",
+        "bridge_to_teach": "Use source cards with IDs, pointers and provenance classes. R029 is a synthesis of a base Cell3 address and nested fibers; R030 proposes typed binding edges. Trace this application while leaving unprovided addresses, phase tensors and coefficient-selection rules explicitly unresolved. Repeat mass-energy bookkeeping here before assessing it.",
+        "worked_example": {
+          "id": "C21.06-W1",
+          "task_and_answer": "Build a source-traced row: S05#/records/28 (R029) requests address, scale/face sector, lambda, composition-null coordinates, isotope mass, graph spectrum, charge/parity, binding residual and QPC phase tensor. For the synthetic composition from lesson05, only counts and nominal V are supplied; mark all other values not supplied. R030 describes edge classes rather than choosing coefficients."
+        },
+        "guided_practice": {
+          "id": "C21.06-P1",
+          "task_and_answer": "S05#/records/30 (R031) says formula/nominal volume leave isomers unresolved; retain adjacency or Laplacian data and binding residual. S05#/records/31 (R032) compares three rank-three fibers but supplies no canonical isomorphism. Complete a row with those exact source statuses. Repeat A+B -> AB with final 4.8u: Q=2 E_unit."
+        },
+        "diagnostic": {
+          "id": "C21.06-D1",
+          "task_and_answer": "A shared rank of three does not furnish a canonical map. A graph spectrum may also be shared by distinct graphs, so retain graph identity as well. Source mechanism synthesis, supplied coordinates and freshly checked arithmetic must occupy separate fields."
+        },
+        "planned_periods": 2,
+        "minutes_per_period": 55,
+        "teaching_allocation_per_period": {
+          "retrieval": 5,
+          "explanation_and_worked_example": 20,
+          "guided_practice": 15,
+          "independent_diagnostics_and_repair": 15
+        },
+        "production_requirement": "Expand these anchors into senior-facing explanations, 2–4 observable goals and 3–5 answered diagnostics. Preserve original IDs and every supplemental concept. Supply the matrices, units and source cards locally. Period counts may expand; no untaught operation may first appear in the capstone.",
+        "supplemental_exercises": [
+          {
+            "concept_id": "C21.S03",
+            "explanation_id": "C21.S03-E1",
+            "worked_example_id": "C21.S03-W1",
+            "prior_practice_id": "C21.S03-P1",
+            "diagnostic_id": "C21.S03-D1",
+            "explanation": "Repeat the declared Q_release=(m_initial-m_final)c^2 relation with balanced constituents/charge, complete-object masses, reference state and conversion. Binding differences remain coordinates. Energy difference, transition rate and recoverable power require different inputs.",
+            "worked_task_and_answer": "Use synthetic neutral complete objects A=2u, B=3u, AB=4.8u with conserved A/B labels and 1u c^2=10 E_unit. Delta m=0.2u and Q=2 E_unit. No duration or efficiency was supplied, so power is not determined.",
+            "practice_task_and_answer": "Repeat final AB=5.05u under the same balanced convention: Q=-0.5 E_unit. If, in a separate stipulated release example, 2 E_unit is delivered over 4 time units with efficiency 1/2, recovered mean power is (1/2)*2/4=1/4 E_unit per time unit. Those extra premises must be recorded.",
+            "diagnostic_task_and_answer": "A positive Q does not supply a rate. An ion endpoint missing the removed electron fails bookkeeping. Preserve mass difference and supplied binding state rather than normalizing the discrepancy away."
+          }
+        ],
+        "original_title": "Binding and periodic organization",
+        "original_assessment_target": "Trace an archival atomic or periodic-table application without inventing coefficient selection",
+        "original_concept_ids": [
+          "C21.06",
+          "C21.S03"
+        ],
+        "required_source_amendment_ids": [
+          "SA-21"
+        ],
+        "source_coverage_requirements": [
+          {
+            "concept_id": "C21.S03",
+            "operation": "Introduce delta E=delta m c^2 as a declared reference relation, supply all constants and units, practice a small synthetic calculation with consistent neutral/ionic/isotopic endpoints, and separate energy difference from rate and recoverable power.",
+            "source_pointers": [
+              "S05#/records/28",
+              "S05#/records/29",
+              "S05#/records/30"
+            ]
+          }
+        ],
+        "original_entry_prerequisites": [
+          "lesson-05"
+        ],
+        "session_sequence": [
+          {
+            "session": 1,
+            "focus": "R029–R032 source application trace",
+            "minutes": 55,
+            "recovery_checkpoint": "Learner reproduces the named worked operation, completes the corresponding answered practice and explains the diagnostic before advancing. If not, reteach within an added session and update dependent links."
+          },
+          {
+            "session": 2,
+            "focus": "C21.S03 energy, rate and power inputs",
+            "minutes": 55,
+            "recovery_checkpoint": "Learner reproduces the named worked operation, completes the corresponding answered practice and explains the diagnostic before advancing. If not, reteach within an added session and update dependent links."
+          }
+        ]
+      }
+    },
+    {
+      "id": "lesson-07",
+      "title": "Solver convergence and unresolved information",
+      "entry_prerequisites": [
+        "lesson-06"
+      ],
+      "concept_ids": [
+        "C21.07"
+      ],
+      "worked_example_capability": "Retain failed calculations, parameter dependence, and residual fields",
+      "assessment_target": "Retain failed calculations, parameter dependence, and residual fields",
+      "later_use": "lesson-08",
+      "core_minutes": 110,
+      "teaching_anchor": {
+        "lesson_id": "lesson-07",
+        "concept_id": "C21.07",
+        "explanation_id": "C21.07-E1",
+        "bridge_to_teach": "Teach a solver as a sequence of explicit updates, not an evidence gate. For the small A and y=(2,3,6), use c_next=c+t A^T(y-Ac), c_start=0. Keep each iterate, step t, full channel residual and normal residual. The Gram eigenvalues are 1 and 3, so error multipliers are 1-t and 1-3t.",
+        "worked_example": {
+          "id": "C21.07-W1",
+          "task_and_answer": "For t=1/4, c0=(0,0), r0=(2,3,6); c1=(2,9/4), r1=(0,3/4,7/4); c2=(39/16,23/8), r2=(-7/16,1/8,11/16). Error multipliers 3/4 and 1/4 imply convergence to the previously solved c, whose full r remains nonzero."
+        },
+        "guided_practice": {
+          "id": "C21.07-P1",
+          "task_and_answer": "For t=1, c1=(8,9), r1=(-6,-6,-11), c2=(-9,-8), r2=(11,11,23). Error multiplier -2 exposes a divergent branch for these inputs. Preserve this branch and all signed entries. Compare against the exact trace instead of deleting the failed result."
+        },
+        "diagnostic": {
+          "id": "C21.07-D1",
+          "task_and_answer": "Convergence of a numerical update is different from channel closure or physical identification. A singular normal matrix requires compatibility/free-coordinate handling; an unstable t does not erase the measurements."
+        },
+        "planned_periods": 2,
+        "minutes_per_period": 55,
+        "teaching_allocation_per_period": {
+          "retrieval": 5,
+          "explanation_and_worked_example": 20,
+          "guided_practice": 15,
+          "independent_diagnostics_and_repair": 15
+        },
+        "production_requirement": "Expand these anchors into senior-facing explanations, 2–4 observable goals and 3–5 answered diagnostics. Preserve original IDs and every supplemental concept. Supply the matrices, units and source cards locally. Period counts may expand; no untaught operation may first appear in the capstone.",
+        "original_title": "Solver convergence and unresolved information",
+        "original_assessment_target": "Retain failed calculations, parameter dependence, and residual fields",
+        "original_concept_ids": [
+          "C21.07"
+        ],
+        "required_source_amendment_ids": [],
+        "source_coverage_requirements": [],
+        "original_entry_prerequisites": [
+          "lesson-06"
+        ],
+        "session_sequence": [
+          {
+            "session": 1,
+            "focus": "Convergent update with complete trace",
+            "minutes": 55,
+            "recovery_checkpoint": "Learner reproduces the named worked operation, completes the corresponding answered practice and explains the diagnostic before advancing. If not, reteach within an added session and update dependent links."
+          },
+          {
+            "session": 2,
+            "focus": "Divergent parameter branch and reconstruction",
+            "minutes": 55,
+            "recovery_checkpoint": "Learner reproduces the named worked operation, completes the corresponding answered practice and explains the diagnostic before advancing. If not, reteach within an added session and update dependent links."
+          }
+        ]
+      }
+    },
+    {
+      "id": "lesson-08",
+      "title": "A reproducible decoding report",
+      "entry_prerequisites": [
+        "lesson-07"
+      ],
+      "concept_ids": [
+        "C21.08"
+      ],
+      "worked_example_capability": "Distinguish measured values, source coefficients, arithmetic approximants, and model outputs",
+      "assessment_target": "Distinguish measured values, source coefficients, arithmetic approximants, and model outputs",
+      "later_use": "capstone",
+      "core_minutes": 55,
+      "teaching_anchor": {
+        "lesson_id": "lesson-08",
+        "concept_id": "C21.08",
+        "explanation_id": "C21.08-E1",
+        "bridge_to_teach": "Make the report reconstructable from input values, ordered channel definitions, scalar field, inner product, units, source hash, exact coefficients, approximants and full residual. Label these exercises synthetic; there are no newly supplied empirical measurements. Record missing source definitions as retrieval tasks.",
+        "worked_example": {
+          "id": "C21.08-W1",
+          "task_and_answer": "For the lesson01 packet, put synthetic y in the input field, A in the definition field, 7/3 and 10/3 in exact derived coefficients, and r=(-1/3,-1/3,1/3) in retained information. If displaying 2.33 for 7/3, record exact approximation closure 7/3-233/100=1/300 separately from the channel residual."
+        },
+        "guided_practice": {
+          "id": "C21.08-P1",
+          "task_and_answer": "Assemble the practice packet y=(1,2,3), c=(1,2), r=(0,0,0), plus the negative-Q endpoint ledger from lesson05 and the R029/R031/R032 source row. An auditor can reconstruct all channels and energy bookkeeping while seeing which atomic coordinates remain unprovided."
+        },
+        "diagnostic": {
+          "id": "C21.08-D1",
+          "task_and_answer": "Do not relabel synthetic y as measured data, source alpha as an exact rational constant of nature, solver c as a selected occupied state, or a syndrome score as the complete syndrome. Each is a different report field."
+        },
+        "planned_periods": 1,
+        "minutes_per_period": 55,
+        "teaching_allocation_per_period": {
+          "retrieval": 5,
+          "explanation_and_worked_example": 20,
+          "guided_practice": 15,
+          "independent_diagnostics_and_repair": 15
+        },
+        "production_requirement": "Expand these anchors into senior-facing explanations, 2–4 observable goals and 3–5 answered diagnostics. Preserve original IDs and every supplemental concept. Supply the matrices, units and source cards locally. Period counts may expand; no untaught operation may first appear in the capstone.",
+        "original_title": "A reproducible decoding report",
+        "original_assessment_target": "Distinguish measured values, source coefficients, arithmetic approximants, and model outputs",
+        "original_concept_ids": [
+          "C21.08"
+        ],
+        "required_source_amendment_ids": [],
+        "source_coverage_requirements": [],
+        "original_entry_prerequisites": [
+          "lesson-07"
+        ],
+        "session_sequence": [
+          {
+            "session": 1,
+            "focus": "Source/derived/synthetic report assembly",
+            "minutes": 55,
+            "recovery_checkpoint": "Learner reproduces the named worked operation, completes the corresponding answered practice and explains the diagnostic before advancing. If not, reteach within an added session and update dependent links."
+          }
+        ]
+      }
+    }
+  ],
+  "capstone_specification": {
+    "task": "Prepare a synthetic channel decoder plus a source-traced atomic application with complete residuals and reaction-energy bookkeeping.",
+    "required_operations": [
+      "Build a small overdetermined channel system",
+      "Separate represented coordinates from the full residual complement",
+      "Identify the six coefficient and seven syndrome coordinates",
+      "Reconstruct a small example before interpreting the source mass expression",
+      "Compute composition labels and retain endpoint mass conventions",
+      "Trace an archival atomic or periodic-table application without inventing coefficient selection",
+      "Retain failed calculations, parameter dependence, and residual fields",
+      "Distinguish measured values, source coefficients, arithmetic approximants, and model outputs",
+      "Check a small signed character table and distinguish equal dimension, compatible representation and a specified intertwiner; identify the missing source replay matrices without inventing them.",
+      "Verify 12C+H+14N+16O is unchanged by a supplied move, check dependence U3=U1+U2, retain the independent 4C-to-3O direction, and explain what formula and nominal volume leave unresolved.",
+      "Introduce delta E=delta m c^2 as a declared reference relation, supply all constants and units, practice a small synthetic calculation with consistent neutral/ionic/isotopic endpoints, and separate energy difference from rate and recoverable power."
+    ],
+    "rule": "Map every capstone operation to a prior introduction and practice; provide full answers, point rubric, source scope, and residual accounting.",
+    "backward_map": [
+      {
+        "step_id": "C21-CAP-01",
+        "operation": "Build a small overdetermined channel system",
+        "introduction": "lesson-01",
+        "explanation_id": "C21.01-E1",
+        "worked_example_id": "C21.01-W1",
+        "prior_practice_id": "C21.01-P1",
+        "diagnostic_id": "C21.01-D1",
+        "assessment_task": "Apply the explicitly taught practice packet, retaining all inputs, signed components, units and source status.",
+        "answer_key": "C21-DEC-P1: y=(1,2,3) gives right side (4,5), c=(1,2), A c=y, r=(0,0,0). Write all three zero residual entries and the original A.",
+        "points": 4,
+        "rubric": {
+          "declared_inputs_and_scope": 1,
+          "correct_operation": 1,
+          "complete_reconstruction_or_source_classification": 1,
+          "retained_information_and_boundary": 1
+        }
+      },
+      {
+        "step_id": "C21-CAP-02",
+        "operation": "Separate represented coordinates from the full residual complement",
+        "introduction": "lesson-02",
+        "explanation_id": "C21.02-E1",
+        "worked_example_id": "C21.02-W1",
+        "prior_practice_id": "C21.02-P1",
+        "diagnostic_id": "C21.02-D1",
+        "assessment_task": "Apply the explicitly taught practice packet, retaining all inputs, signed components, units and source status.",
+        "answer_key": "For A0=(1,0)^T and L0=(0,1), integer equality does hold: every kernel point is (n,0)=A0 n. For y=(1,1,3), explicitly check (-1/3+1/3,-1/3+1/3)=(0,0) and reconstruct the three entries.",
+        "points": 4,
+        "rubric": {
+          "declared_inputs_and_scope": 1,
+          "correct_operation": 1,
+          "complete_reconstruction_or_source_classification": 1,
+          "retained_information_and_boundary": 1
+        }
+      },
+      {
+        "step_id": "C21-CAP-03",
+        "operation": "Identify the six coefficient and seven syndrome coordinates",
+        "introduction": "lesson-03",
+        "explanation_id": "C21.03-E1",
+        "worked_example_id": "C21.03-W1",
+        "prior_practice_id": "C21.03-P1",
+        "diagnostic_id": "C21.03-D1",
+        "assessment_task": "Apply the explicitly taught practice packet, retaining all inputs, signed components, units and source status.",
+        "answer_key": "Use c0=(1,-1,2,0,1,0) and s=(-2,-2,1,1,0,0,0,0,0,0,0,0,0). Form y=A c0+s. A^T s=0, so decoding returns c0 and this entire s. Compare against the exact practice ledger. The 13 residual entries satisfy six constraints; they are not 13 independent syndrome coordinates.",
+        "points": 4,
+        "rubric": {
+          "declared_inputs_and_scope": 1,
+          "correct_operation": 1,
+          "complete_reconstruction_or_source_classification": 1,
+          "retained_information_and_boundary": 1
+        }
+      },
+      {
+        "step_id": "C21-CAP-04",
+        "operation": "Reconstruct a small example before interpreting the source mass expression",
+        "introduction": "lesson-04",
+        "explanation_id": "C21.04-E1",
+        "worked_example_id": "C21.04-W1",
+        "prior_practice_id": "C21.04-P1",
+        "diagnostic_id": "C21.04-D1",
+        "assessment_task": "Apply the explicitly taught practice packet, retaining all inputs, signed components, units and source status.",
+        "answer_key": "With the same b_toy, c=(0,2,0,0,1,0) gives 2/10+1/5=2/5; m=4/5 mass units for m_ref=2. Reconstruct a channel packet from this c and s=0 using the pinned A; do not substitute b_toy for source b.",
+        "points": 4,
+        "rubric": {
+          "declared_inputs_and_scope": 1,
+          "correct_operation": 1,
+          "complete_reconstruction_or_source_classification": 1,
+          "retained_information_and_boundary": 1
+        }
+      },
+      {
+        "step_id": "C21-CAP-05",
+        "operation": "Compute composition labels and retain endpoint mass conventions",
+        "introduction": "lesson-05",
+        "explanation_id": "C21.05-E1",
+        "worked_example_id": "C21.05-W1",
+        "prior_practice_id": "C21.05-P1",
+        "diagnostic_id": "C21.05-D1",
+        "assessment_task": "Apply the explicitly taught practice packet, retaining all inputs, signed components, units and source status.",
+        "answer_key": "C21-RXN-P1: keep every endpoint label but set final mass 5.05u. Delta m=-0.05u and Q=-0.5 E_unit, requiring input 0.5 E_unit. Separately calculate V for (C,H,N,O)=(4,4,0,1): V=68 nominal units. Neither calculation identifies an isomer.",
+        "points": 4,
+        "rubric": {
+          "declared_inputs_and_scope": 1,
+          "correct_operation": 1,
+          "complete_reconstruction_or_source_classification": 1,
+          "retained_information_and_boundary": 1
+        }
+      },
+      {
+        "step_id": "C21-CAP-06",
+        "operation": "Trace an archival atomic or periodic-table application without inventing coefficient selection",
+        "introduction": "lesson-06",
+        "explanation_id": "C21.06-E1",
+        "worked_example_id": "C21.06-W1",
+        "prior_practice_id": "C21.06-P1",
+        "diagnostic_id": "C21.06-D1",
+        "assessment_task": "Apply the explicitly taught practice packet, retaining all inputs, signed components, units and source status.",
+        "answer_key": "S05#/records/30 (R031) says formula/nominal volume leave isomers unresolved; retain adjacency or Laplacian data and binding residual. S05#/records/31 (R032) compares three rank-three fibers but supplies no canonical isomorphism. Complete a row with those exact source statuses. Repeat A+B -> AB with final 4.8u: Q=2 E_unit.",
+        "points": 4,
+        "rubric": {
+          "declared_inputs_and_scope": 1,
+          "correct_operation": 1,
+          "complete_reconstruction_or_source_classification": 1,
+          "retained_information_and_boundary": 1
+        }
+      },
+      {
+        "step_id": "C21-CAP-07",
+        "operation": "Retain failed calculations, parameter dependence, and residual fields",
+        "introduction": "lesson-07",
+        "explanation_id": "C21.07-E1",
+        "worked_example_id": "C21.07-W1",
+        "prior_practice_id": "C21.07-P1",
+        "diagnostic_id": "C21.07-D1",
+        "assessment_task": "Apply the explicitly taught practice packet, retaining all inputs, signed components, units and source status.",
+        "answer_key": "For t=1, c1=(8,9), r1=(-6,-6,-11), c2=(-9,-8), r2=(11,11,23). Error multiplier -2 exposes a divergent branch for these inputs. Preserve this branch and all signed entries. Compare against the exact trace instead of deleting the failed result.",
+        "points": 4,
+        "rubric": {
+          "declared_inputs_and_scope": 1,
+          "correct_operation": 1,
+          "complete_reconstruction_or_source_classification": 1,
+          "retained_information_and_boundary": 1
+        }
+      },
+      {
+        "step_id": "C21-CAP-08",
+        "operation": "Distinguish measured values, source coefficients, arithmetic approximants, and model outputs",
+        "introduction": "lesson-08",
+        "explanation_id": "C21.08-E1",
+        "worked_example_id": "C21.08-W1",
+        "prior_practice_id": "C21.08-P1",
+        "diagnostic_id": "C21.08-D1",
+        "assessment_task": "Apply the explicitly taught practice packet, retaining all inputs, signed components, units and source status.",
+        "answer_key": "Assemble the practice packet y=(1,2,3), c=(1,2), r=(0,0,0), plus the negative-Q endpoint ledger from lesson05 and the R029/R031/R032 source row. An auditor can reconstruct all channels and energy bookkeeping while seeing which atomic coordinates remain unprovided.",
+        "points": 4,
+        "rubric": {
+          "declared_inputs_and_scope": 1,
+          "correct_operation": 1,
+          "complete_reconstruction_or_source_classification": 1,
+          "retained_information_and_boundary": 1
+        }
+      },
+      {
+        "step_id": "C21-CAP-09",
+        "operation": "Check a small signed character table and distinguish equal dimension, compatible representation and a specified intertwiner; identify the missing source replay matrices without inventing them.",
+        "introduction": "lesson-03",
+        "concept_id": "C21.S01",
+        "explanation_id": "C21.S01-E1",
+        "worked_example_id": "C21.S01-W1",
+        "prior_practice_id": "C21.S01-P1",
+        "diagnostic_id": "C21.S01-D1",
+        "assessment_task": "Complete the taught supplemental practice with source scope and full retained coordinates.",
+        "answer_key": "For v=(2,0,0,2), a=(1,0,0,1) and W a=v. On a separate two-dimensional involution example, rho=diag(1,-1), sigma=diag(-1,1), T=[[0,1],[1,0]] obeys T rho=sigma T and det T=-1; 2T also intertwines, demonstrating nonuniqueness.",
+        "points": 4,
+        "rubric": {
+          "declared_inputs_and_scope": 1,
+          "correct_operation": 1,
+          "complete_reconstruction_or_source_classification": 1,
+          "retained_information_and_boundary": 1
+        }
+      },
+      {
+        "step_id": "C21-CAP-10",
+        "operation": "Verify 12C+H+14N+16O is unchanged by a supplied move, check dependence U3=U1+U2, retain the independent 4C-to-3O direction, and explain what formula and nominal volume leave unresolved.",
+        "introduction": "lesson-05",
+        "concept_id": "C21.S02",
+        "explanation_id": "C21.S02-E1",
+        "worked_example_id": "C21.S02-W1",
+        "prior_practice_id": "C21.S02-P1",
+        "diagnostic_id": "C21.S02-D1",
+        "assessment_task": "Complete the taught supplemental practice with source scope and full retained coordinates.",
+        "answer_key": "From (4,4,0,1), U2 gives (5,8,0,0), both V=68. From (4,0,0,0), K gives (0,0,0,3), both V=48. Explain why these are valid count endpoints but not an asserted physical carbon-to-oxygen reaction. S05 R023 reports a 15.25614129 mDa step as source synthesis; no missing isotope constants are invented to replay it.",
+        "points": 4,
+        "rubric": {
+          "declared_inputs_and_scope": 1,
+          "correct_operation": 1,
+          "complete_reconstruction_or_source_classification": 1,
+          "retained_information_and_boundary": 1
+        }
+      },
+      {
+        "step_id": "C21-CAP-11",
+        "operation": "Introduce delta E=delta m c^2 as a declared reference relation, supply all constants and units, practice a small synthetic calculation with consistent neutral/ionic/isotopic endpoints, and separate energy difference from rate and recoverable power.",
+        "introduction": "lesson-06",
+        "concept_id": "C21.S03",
+        "explanation_id": "C21.S03-E1",
+        "worked_example_id": "C21.S03-W1",
+        "prior_practice_id": "C21.S03-P1",
+        "diagnostic_id": "C21.S03-D1",
+        "assessment_task": "Complete the taught supplemental practice with source scope and full retained coordinates.",
+        "answer_key": "Repeat final AB=5.05u under the same balanced convention: Q=-0.5 E_unit. If, in a separate stipulated release example, 2 E_unit is delivered over 4 time units with efficiency 1/2, recovered mean power is (1/2)*2/4=1/4 E_unit per time unit. Those extra premises must be recorded.",
+        "points": 4,
+        "rubric": {
+          "declared_inputs_and_scope": 1,
+          "correct_operation": 1,
+          "complete_reconstruction_or_source_classification": 1,
+          "retained_information_and_boundary": 1
+        }
+      }
+    ]
+  },
+  "blueprint_audit": {
+    "status": "approved_source_and_prerequisite_blueprint",
+    "unresolved_critical": 0,
+    "unresolved_major": 0,
+    "source_review": {
+      "status": "ready_for_source_scoped_drafting",
+      "basis": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\source-coverage\\source-coverage-audit.json",
+      "source_report_sha256": "eef89a28971ef7e5380977c31b62ed6d64f2831759e679ee967b6c253a33c04a",
+      "portable_requirements_applied": true,
+      "educational_acceptance": "Independent teaching review and actual E05 content gate remain required.",
+      "applied_at": "2026-11-05T17:02:05.375955+00:00"
+    },
+    "teaching_review_path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\teaching\\launch-review-21-23.json",
+    "teaching_amendment_sha256": "c4935f2e221ed2cf4e06ff554a8e3e82fcd070e91bcb4203ee973a618c31ecd3",
+    "review_scope": "Blueprint clearance only. Actual lesson content and E05 links require independent final acceptance.",
+    "applied_at": "2026-11-05T19:04:03.428474+00:00"
+  },
+  "validator": {
+    "skill_relative_path": "scripts/validate_course.py",
+    "required_command": "& 'C:\\ProgramData\\anaconda3\\Scripts\\conda.exe' run -n tf_gpu_env python 'C:\\Users\\info\\.codex\\skills\\build-high-school-course\\scripts\\validate_course.py' 'Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems' --json"
+  },
+  "source_coverage_review": {
+    "status": "required_source_additions_recorded",
+    "report": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-series-20261105/audits/source-coverage/source-coverage-audit.json",
+    "approval_boundary": "Source additions are blueprint requirements. Educational recheck and worked lesson verification remain pending."
+  },
+  "storage_override": {
+    "authority": "User: write outputs to the project folder and move them later",
+    "original_root": "C:\\Users\\info\\Desktop\\K-Field_Training_Course",
+    "canonical_project_root": "Z:\\Kfield-doc-training\\K-Field_Training_Course"
+  },
+  "production_requirements": {
+    "E05": [
+      "Replace generic coverage placeholders with actual explanation, worked-example, practice, diagnostic, and capstone step IDs. A row passes only when the referenced content exists and the operation is taught before use.",
+      "For each capstone break the requested product into concrete operations with named inputs/outputs, link each operation to an earlier explanation AND an independently answered practice item; do not merely repeat outcome text.",
+      "Use source-exact finite examples where available and separately labeled synthetic analogues otherwise. Recognition-only extensions cannot be required computations.",
+      "Record teaching/practice/check minutes per lesson; split overloaded lessons and update every lesson/coverage/capstone link. Shared advanced notation is author guidance until introduced locally."
+    ]
+  },
+  "applied_audit_amendments": {
+    "SA-21": {
+      "id": "SA-21",
+      "course": 21,
+      "finding": "source_fidelity",
+      "lessons": [
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05",
+        "lesson-06"
+      ],
+      "merge_action": "append unique requirements to source_audit_contract; attach to named lesson authoring obligations; preserve existing fields",
+      "requirements": [
+        "Declare the decoder's scalar field and inner product. Rank plus LA=0 establishes image/kernel equality over the specified field; an integral-lattice equality additionally needs saturation/index evidence.",
+        "Do not substitute a newly invented L or W7 for the absent source matrices. A synthetic character example teaches the distinction; full source replay has a separate retrieval gate.",
+        "Use released energy Q_release=(m_initial-m_final)c^2 with balanced endpoint conventions in E08. Introduce it in lesson05 and practice again in existing C21.S03 lesson06; preserve binding and mass differences.",
+        "Keep nominal composition, isotope mass, molecular charge/ion state, isomers, graph spectra and binding residual as separate coordinates. Preserve the source's unresolved canonical map among three rank-three fibers."
+      ],
+      "source_references": [
+        "S02#/proof_nodes/10",
+        "S02#/proof_nodes/11",
+        "S02#/proof_nodes/23",
+        "S03#/findings/8",
+        "S05#/records/28",
+        "S05#/records/30",
+        "S05#/records/31"
+      ],
+      "status": "applied_to_blueprint_by_parent",
+      "prior_application_status": "prepared_not_applied",
+      "applied_at": "2026-11-05T17:02:05.375955+00:00"
+    },
+    "EA-21-E07-4": {
+      "course": 21,
+      "finding": "E07",
+      "lessons": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04"
+      ],
+      "required_bridge": "Teach a declared Euclidean decoder through two normal equations; preserve full residual coordinates as information. This classroom decoder is not automatically the source physical decoder.",
+      "worked_example": {
+        "id": "C21-DEC-EX1",
+        "A": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "y": [
+          2,
+          3,
+          6
+        ],
+        "normal_matrix": [
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "normal_rhs": [
+          8,
+          9
+        ],
+        "coefficients": [
+          "7/3",
+          "10/3"
+        ],
+        "represented": [
+          "7/3",
+          "10/3",
+          "17/3"
+        ],
+        "residual": [
+          "-1/3",
+          "-1/3",
+          "1/3"
+        ],
+        "checks": "Solve by elimination; check A^T r=0 and all three entries y=A*c+r. No residual component may be replaced by a score."
+      },
+      "practice": "C21-DEC-P1 y=(1,2,3) gives c=(1,2), r=0; C21-DEC-D1 y=(1,1,3) gives c=(4/3,4/3), r=(-1/3,-1/3,1/3). Relate represented/syndrome dimensions to pinned source only after local definitions.",
+      "id": "EA-21-E07-4",
+      "status": "applied_to_blueprint_by_parent",
+      "merge_action": "Attach to named lesson authoring obligations and capstone prerequisites. Actual content links remain an E05 acceptance gate.",
+      "prior_application_status": "prepared_not_applied",
+      "applied_at": "2026-11-05T17:02:05.375955+00:00"
+    },
+    "EA-21-E08-5": {
+      "course": 21,
+      "finding": "E08",
+      "lessons": [
+        "lesson-05"
+      ],
+      "required_bridge": "Add a local reaction bookkeeping bridge BEFORE capstone: balance endpoint constituent/charge counts; specify whole-object mass state and electron convention; subtract final from initial mass; apply a declared mass-energy conversion; interpret positive release versus negative energy requirement.",
+      "worked_example": {
+        "id": "C21-RXN-EX1",
+        "reaction": "Synthetic A+B -> AB; constituents and charge are conserved by stipulated labels, not an empirical nuclear reaction. All masses refer to complete objects in the same stated reference convention.",
+        "masses_in_u": {
+          "A": "2",
+          "B": "3",
+          "AB": "4.9"
+        },
+        "synthetic_conversion": "1 u*c^2 = 10 E_unit",
+        "mass_difference": "0.1 u",
+        "released_energy": "1 E_unit"
+      },
+      "practice": "C21-RXN-P1 use AB mass5.05u with otherwise identical inputs: mass difference -0.05u and released-energy convention -0.5E_unit, requiring input0.5E_unit. C21-RXN-D1 diagnose an inconsistent electron convention before subtracting masses. Actual source examples retain their endpoint conventions and conversion provenance.",
+      "id": "EA-21-E08-5",
+      "status": "applied_to_blueprint_by_parent",
+      "merge_action": "Attach to named lesson authoring obligations and capstone prerequisites. Actual content links remain an E05 acceptance gate.",
+      "prior_application_status": "prepared_not_applied",
+      "applied_at": "2026-11-05T17:02:05.375955+00:00"
+    }
+  },
+  "source_audit_readiness": {
+    "status": "ready_for_source_scoped_drafting",
+    "basis": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\source-coverage\\source-coverage-audit.json",
+    "source_report_sha256": "eef89a28971ef7e5380977c31b62ed6d64f2831759e679ee967b6c253a33c04a",
+    "portable_requirements_applied": true,
+    "educational_acceptance": "Independent teaching review and actual E05 content gate remain required.",
+    "applied_at": "2026-11-05T17:02:05.375955+00:00"
+  },
+  "teaching_blueprint_contract": {
+    "schema_version": "1.0",
+    "created_utc": "2026-11-05T19:03:09.929773+00:00",
+    "scope": "Portable teaching BLUEPRINT amendments only; no completed-course acceptance.",
+    "source_basis": [
+      {
+        "id": "S01",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+        "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+        "role": "archival source; reported status is distinct from fresh verification"
+      },
+      {
+        "id": "S02",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+        "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+        "role": "archival source; reported status is distinct from fresh verification"
+      },
+      {
+        "id": "S03",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+        "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+        "role": "archival source; reported status is distinct from fresh verification"
+      },
+      {
+        "id": "S04",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+        "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+        "role": "archival source; reported status is distinct from fresh verification"
+      },
+      {
+        "id": "S05",
+        "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+        "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+        "role": "archival source; reported status is distinct from fresh verification"
+      }
+    ],
+    "verification_record": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-teaching-auditor\\outputs\\teaching-verification-21-23.json",
+    "verification_sha256": "1ba86ca04e3a91c21fca60a9da6901f26f1d0bd45ed513aaafc65cce59d8103c",
+    "source_or_project_files_modified": false,
+    "course_amendment": {
+      "course_id": "course-21",
+      "input_contract_path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\input-contract.json",
+      "input_contract_sha256": "15fed9c9b09259ed6d25d0658aaaa117278431d536661bee506a9953c2acb346",
+      "application": "Merge additively as teaching_amendment. Preserve all original concepts, source/educational amendments and supplemental exercises. Replace generic coverage references with these exact anchors and aliases. Parent applies; no project edit performed.",
+      "applied_source_amendments_read": {
+        "SA-21": {
+          "id": "SA-21",
+          "course": 21,
+          "finding": "source_fidelity",
+          "lessons": [
+            "lesson-02",
+            "lesson-03",
+            "lesson-04",
+            "lesson-05",
+            "lesson-06"
+          ],
+          "merge_action": "append unique requirements to source_audit_contract; attach to named lesson authoring obligations; preserve existing fields",
+          "requirements": [
+            "Declare the decoder's scalar field and inner product. Rank plus LA=0 establishes image/kernel equality over the specified field; an integral-lattice equality additionally needs saturation/index evidence.",
+            "Do not substitute a newly invented L or W7 for the absent source matrices. A synthetic character example teaches the distinction; full source replay has a separate retrieval gate.",
+            "Use released energy Q_release=(m_initial-m_final)c^2 with balanced endpoint conventions in E08. Introduce it in lesson05 and practice again in existing C21.S03 lesson06; preserve binding and mass differences.",
+            "Keep nominal composition, isotope mass, molecular charge/ion state, isomers, graph spectra and binding residual as separate coordinates. Preserve the source's unresolved canonical map among three rank-three fibers."
+          ],
+          "source_references": [
+            "S02#/proof_nodes/10",
+            "S02#/proof_nodes/11",
+            "S02#/proof_nodes/23",
+            "S03#/findings/8",
+            "S05#/records/28",
+            "S05#/records/30",
+            "S05#/records/31"
+          ],
+          "status": "applied_to_blueprint_by_parent",
+          "prior_application_status": "prepared_not_applied",
+          "applied_at": "2026-11-05T17:02:05.375955+00:00"
+        },
+        "EA-21-E07-4": {
+          "course": 21,
+          "finding": "E07",
+          "lessons": [
+            "lesson-01",
+            "lesson-02",
+            "lesson-03",
+            "lesson-04"
+          ],
+          "required_bridge": "Teach a declared Euclidean decoder through two normal equations; preserve full residual coordinates as information. This classroom decoder is not automatically the source physical decoder.",
+          "worked_example": {
+            "id": "C21-DEC-EX1",
+            "A": [
+              [
+                1,
+                0
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "y": [
+              2,
+              3,
+              6
+            ],
+            "normal_matrix": [
+              [
+                2,
+                1
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "normal_rhs": [
+              8,
+              9
+            ],
+            "coefficients": [
+              "7/3",
+              "10/3"
+            ],
+            "represented": [
+              "7/3",
+              "10/3",
+              "17/3"
+            ],
+            "residual": [
+              "-1/3",
+              "-1/3",
+              "1/3"
+            ],
+            "checks": "Solve by elimination; check A^T r=0 and all three entries y=A*c+r. No residual component may be replaced by a score."
+          },
+          "practice": "C21-DEC-P1 y=(1,2,3) gives c=(1,2), r=0; C21-DEC-D1 y=(1,1,3) gives c=(4/3,4/3), r=(-1/3,-1/3,1/3). Relate represented/syndrome dimensions to pinned source only after local definitions.",
+          "id": "EA-21-E07-4",
+          "status": "applied_to_blueprint_by_parent",
+          "merge_action": "Attach to named lesson authoring obligations and capstone prerequisites. Actual content links remain an E05 acceptance gate.",
+          "prior_application_status": "prepared_not_applied",
+          "applied_at": "2026-11-05T17:02:05.375955+00:00"
+        },
+        "EA-21-E08-5": {
+          "course": 21,
+          "finding": "E08",
+          "lessons": [
+            "lesson-05"
+          ],
+          "required_bridge": "Add a local reaction bookkeeping bridge BEFORE capstone: balance endpoint constituent/charge counts; specify whole-object mass state and electron convention; subtract final from initial mass; apply a declared mass-energy conversion; interpret positive release versus negative energy requirement.",
+          "worked_example": {
+            "id": "C21-RXN-EX1",
+            "reaction": "Synthetic A+B -> AB; constituents and charge are conserved by stipulated labels, not an empirical nuclear reaction. All masses refer to complete objects in the same stated reference convention.",
+            "masses_in_u": {
+              "A": "2",
+              "B": "3",
+              "AB": "4.9"
+            },
+            "synthetic_conversion": "1 u*c^2 = 10 E_unit",
+            "mass_difference": "0.1 u",
+            "released_energy": "1 E_unit"
+          },
+          "practice": "C21-RXN-P1 use AB mass5.05u with otherwise identical inputs: mass difference -0.05u and released-energy convention -0.5E_unit, requiring input0.5E_unit. C21-RXN-D1 diagnose an inconsistent electron convention before subtracting masses. Actual source examples retain their endpoint conventions and conversion provenance.",
+          "id": "EA-21-E08-5",
+          "status": "applied_to_blueprint_by_parent",
+          "merge_action": "Attach to named lesson authoring obligations and capstone prerequisites. Actual content links remain an E05 acceptance gate.",
+          "prior_application_status": "prepared_not_applied",
+          "applied_at": "2026-11-05T17:02:05.375955+00:00"
+        }
+      },
+      "original_subject_kernel": {
+        "objects_and_operations": [
+          {
+            "concept_id": "C21.01",
+            "concept": "Measurements as linear channels",
+            "operation": "Build a small overdetermined channel system"
+          },
+          {
+            "concept_id": "C21.02",
+            "concept": "Rank and retained syndromes",
+            "operation": "Separate represented coordinates from the full residual complement"
+          },
+          {
+            "concept_id": "C21.03",
+            "concept": "The thirteen-channel decoder",
+            "operation": "Identify the six coefficient and seven syndrome coordinates"
+          },
+          {
+            "concept_id": "C21.04",
+            "concept": "Reconstruction and dimensional meaning",
+            "operation": "Reconstruct a small example before interpreting the source mass expression"
+          },
+          {
+            "concept_id": "C21.05",
+            "concept": "Atomic and isotope inventories",
+            "operation": "Compute composition labels and retain endpoint mass conventions"
+          },
+          {
+            "concept_id": "C21.06",
+            "concept": "Binding and periodic organization",
+            "operation": "Trace an archival atomic or periodic-table application without inventing coefficient selection"
+          },
+          {
+            "concept_id": "C21.07",
+            "concept": "Solver convergence and unresolved information",
+            "operation": "Retain failed calculations, parameter dependence, and residual fields"
+          },
+          {
+            "concept_id": "C21.08",
+            "concept": "A reproducible decoding report",
+            "operation": "Distinguish measured values, source coefficients, arithmetic approximants, and model outputs"
+          },
+          {
+            "concept_id": "C21.S01",
+            "concept": "Syndrome-Walsh compatibility",
+            "operation": "Check a small signed character table and distinguish equal dimension, compatible representation and a specified intertwiner; identify the missing source replay matrices without inventing them."
+          },
+          {
+            "concept_id": "C21.S02",
+            "concept": "Composition fibers and isomer boundaries",
+            "operation": "Verify 12C+H+14N+16O is unchanged by a supplied move, check dependence U3=U1+U2, retain the independent 4C-to-3O direction, and explain what formula and nominal volume leave unresolved."
+          },
+          {
+            "concept_id": "C21.S03",
+            "concept": "Mass-to-energy endpoint bookkeeping",
+            "operation": "Introduce delta E=delta m c^2 as a declared reference relation, supply all constants and units, practice a small synthetic calculation with consistent neutral/ionic/isotopic endpoints, and separate energy difference from rate and recoverable power."
+          }
+        ],
+        "source_modules": [
+          "M17"
+        ],
+        "scope": "Prepare a synthetic channel decoder plus a source-traced atomic application with complete residuals and reaction-energy bookkeeping.",
+        "common_failure_modes": [
+          "Untaught prerequisite",
+          "Unscoped symbol or unit",
+          "An illustrative example presented as real evidence",
+          "A source label promoted beyond its evidence class",
+          "A residual or source branch silently omitted"
+        ]
+      },
+      "original_capstone_specification": {
+        "task": "Prepare a synthetic channel decoder plus a source-traced atomic application with complete residuals and reaction-energy bookkeeping.",
+        "required_operations": [
+          "Build a small overdetermined channel system",
+          "Separate represented coordinates from the full residual complement",
+          "Identify the six coefficient and seven syndrome coordinates",
+          "Reconstruct a small example before interpreting the source mass expression",
+          "Compute composition labels and retain endpoint mass conventions",
+          "Trace an archival atomic or periodic-table application without inventing coefficient selection",
+          "Retain failed calculations, parameter dependence, and residual fields",
+          "Distinguish measured values, source coefficients, arithmetic approximants, and model outputs"
+        ],
+        "rule": "Map every capstone operation to a prior introduction and practice; provide full answers, point rubric, source scope, and residual accounting."
+      },
+      "source_coverage_review_rows": [
+        {
+          "course_id": "course-21",
+          "title": "Mass, Coupling, and Atomic Structure as Decoding Problems",
+          "backbone_modules": [
+            "M17"
+          ],
+          "topic_boundary": "Six-plus-seven decoder, syndrome/Walsh scope, composition/isotope/isomer fibers, binding and reaction-energy bookkeeping.",
+          "cognitive_or_fidelity_risk": "New decoder/chemistry/energy/compatibility work may need more sessions.",
+          "status": "source_map_review_complete_teaching_decision_pending",
+          "primary_sources": [
+            "S02"
+          ],
+          "source_pointer": "/backbone_sequence/16",
+          "packet_at_review": {
+            "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\input-contract.json",
+            "sha256": "0283d98d1134954e4b27062eefe0e2558a71d651c3e12044124b54855ab73c2d",
+            "lesson_count": 8
+          },
+          "required_amendment_ids": [
+            "SA-21"
+          ],
+          "source_launch_decision": "ready_for_source_scoped_drafting_with_required_gates",
+          "decision_scope": "Source/coverage only; no new teaching acceptance or finished-course validation.",
+          "educational_gate": [
+            "E05",
+            "E07",
+            "E08",
+            "independent_teaching_recheck"
+          ]
+        }
+      ],
+      "source_scope": {
+        "primary": "S02#/backbone_sequence/16",
+        "additional": [
+          "S02#/branch_proofs/11",
+          "S02#/proof_nodes/10",
+          "S02#/proof_nodes/11",
+          "S02#/proof_nodes/23",
+          "S03#/findings/8",
+          "S05#/records/7",
+          "S05#/records/21",
+          "S05#/records/22",
+          "S05#/records/28",
+          "S05#/records/29",
+          "S05#/records/30",
+          "S05#/records/31"
+        ],
+        "scalar_field": "R with Euclidean inner product for the displayed orthogonal decoder; computations use exact rationals. A changed metric defines a different decoder and must be declared.",
+        "lattice_scope": "Rank and L A=0 imply the real image/kernel equality when dimensions match. Over integers, the newly derived 6x13 L_int A=I and unit 6x6 minor prove saturation of this specific im_Z(A) in Z13. If an integer 7x13 L of rank7 with L A=0 is supplied, this witness then closes integral image/kernel equality. It does not identify that missing source L or a syndrome lattice basis, nor make Aplus*y integral for every integral y.",
+        "named_replay_objects": {
+          "source_L": "7x13; missing; VERIFIED_NOT_LOADED",
+          "source_W7": "eight group elements by seven nonconstant characters, with source action/order not loaded; VERIFIED_NOT_LOADED",
+          "derived_L_int": "6x13 integer coefficient extractor; freshly derived, not source L",
+          "toy_W": "4x4 declared character exercise; not W7"
+        },
+        "renderer": "m/m_e=c dot (1,alpha,alpha^2,alpha^3,a_e,eta) on supplied occupied coefficient states. The displayed alpha/eta values and a_e status are source witnesses; no physical coefficient-selection rule is invented.",
+        "chemistry": "Nominal composition weights are not exact isotope mass or structure identity. Nonnegative endpoints, isotope, molecular charge/electron state, graph identity/spectrum and binding residual are separate. The R023 stored mass-step claim remains attributed, without inventing isotope constants or calling its decimal a newly replayed exact value.",
+        "energy": "Q_release=(m_initial-m_final)c^2, complete balanced objects in one reference convention. Positive release and negative required input are taught before capstone. Duration and recoverable fraction are separate inputs for power.",
+        "source_application": "R029 periodic coordinate synthesis and R030 typed binding-edge mechanism are source-traced. R031 isomer information and R032 unresolved canonical map among three rank-three fibers remain explicit."
+      },
+      "course_map": [
+        {
+          "id": "lesson-01",
+          "title": "Measurements as linear channels",
+          "entry_prerequisites": [
+            "course-08",
+            "course-12",
+            "course-15",
+            "course-20"
+          ],
+          "concept_ids": [
+            "C21.01"
+          ],
+          "worked_example_capability": "Build a small overdetermined channel system",
+          "assessment_target": "Build a small overdetermined channel system",
+          "later_use": "lesson-02",
+          "core_minutes": 55,
+          "required_amendment_ids": [
+            "EA-21-E07-4"
+          ],
+          "planned_periods": 2,
+          "planned_total_minutes": 110,
+          "explanation_id": "C21.01-E1",
+          "worked_example_id": "C21.01-W1",
+          "prior_practice_id": "C21.01-P1",
+          "diagnostic_id": "C21.01-D1"
+        },
+        {
+          "id": "lesson-02",
+          "title": "Rank and retained syndromes",
+          "entry_prerequisites": [
+            "lesson-01"
+          ],
+          "concept_ids": [
+            "C21.02"
+          ],
+          "worked_example_capability": "Separate represented coordinates from the full residual complement",
+          "assessment_target": "Separate represented coordinates from the full residual complement",
+          "later_use": "lesson-03",
+          "core_minutes": 55,
+          "required_amendment_ids": [
+            "SA-21",
+            "EA-21-E07-4"
+          ],
+          "planned_periods": 2,
+          "planned_total_minutes": 110,
+          "explanation_id": "C21.02-E1",
+          "worked_example_id": "C21.02-W1",
+          "prior_practice_id": "C21.02-P1",
+          "diagnostic_id": "C21.02-D1"
+        },
+        {
+          "id": "lesson-03",
+          "title": "The thirteen-channel decoder",
+          "entry_prerequisites": [
+            "lesson-02"
+          ],
+          "concept_ids": [
+            "C21.03",
+            "C21.S01"
+          ],
+          "worked_example_capability": "Identify the six coefficient and seven syndrome coordinates",
+          "assessment_target": "Identify the six coefficient and seven syndrome coordinates",
+          "later_use": "lesson-04",
+          "core_minutes": 55,
+          "source_coverage_requirements": [
+            {
+              "concept_id": "C21.S01",
+              "operation": "Check a small signed character table and distinguish equal dimension, compatible representation and a specified intertwiner; identify the missing source replay matrices without inventing them.",
+              "source_pointers": [
+                "S02#/branch_proofs/11",
+                "S02#/proof_nodes/10",
+                "S02#/proof_nodes/11",
+                "S02#/proof_nodes/23"
+              ]
+            }
+          ],
+          "pacing_rule": "Preserve every existing operation. Split into additional sessions if these bridge/practice requirements exceed the core period; update recovery checkpoints during production.",
+          "required_amendment_ids": [
+            "SA-21",
+            "EA-21-E07-4"
+          ],
+          "planned_periods": 3,
+          "planned_total_minutes": 165,
+          "explanation_id": "C21.03-E1",
+          "worked_example_id": "C21.03-W1",
+          "prior_practice_id": "C21.03-P1",
+          "diagnostic_id": "C21.03-D1"
+        },
+        {
+          "id": "lesson-04",
+          "title": "Reconstruction and dimensional meaning",
+          "entry_prerequisites": [
+            "lesson-03"
+          ],
+          "concept_ids": [
+            "C21.04"
+          ],
+          "worked_example_capability": "Reconstruct a small example before interpreting the source mass expression",
+          "assessment_target": "Reconstruct a small example before interpreting the source mass expression",
+          "later_use": "lesson-05",
+          "core_minutes": 55,
+          "required_amendment_ids": [
+            "SA-21",
+            "EA-21-E07-4"
+          ],
+          "planned_periods": 2,
+          "planned_total_minutes": 110,
+          "explanation_id": "C21.04-E1",
+          "worked_example_id": "C21.04-W1",
+          "prior_practice_id": "C21.04-P1",
+          "diagnostic_id": "C21.04-D1"
+        },
+        {
+          "id": "lesson-05",
+          "title": "Atomic and isotope inventories",
+          "entry_prerequisites": [
+            "lesson-04"
+          ],
+          "concept_ids": [
+            "C21.05",
+            "C21.S02"
+          ],
+          "worked_example_capability": "Compute composition labels and retain endpoint mass conventions",
+          "assessment_target": "Compute composition labels and retain endpoint mass conventions",
+          "later_use": "lesson-06",
+          "core_minutes": 55,
+          "source_coverage_requirements": [
+            {
+              "concept_id": "C21.S02",
+              "operation": "Verify 12C+H+14N+16O is unchanged by a supplied move, check dependence U3=U1+U2, retain the independent 4C-to-3O direction, and explain what formula and nominal volume leave unresolved.",
+              "source_pointers": [
+                "S05#/records/7",
+                "S05#/records/21",
+                "S05#/records/22",
+                "S05#/records/28",
+                "S05#/records/30",
+                "S05#/records/31"
+              ]
+            }
+          ],
+          "pacing_rule": "Preserve every existing operation. Split into additional sessions if these bridge/practice requirements exceed the core period; update recovery checkpoints during production.",
+          "required_amendment_ids": [
+            "SA-21",
+            "EA-21-E08-5"
+          ],
+          "planned_periods": 3,
+          "planned_total_minutes": 165,
+          "explanation_id": "C21.05-E1",
+          "worked_example_id": "C21.05-W1",
+          "prior_practice_id": "C21.05-P1",
+          "diagnostic_id": "C21.05-D1"
+        },
+        {
+          "id": "lesson-06",
+          "title": "Binding and periodic organization",
+          "entry_prerequisites": [
+            "lesson-05"
+          ],
+          "concept_ids": [
+            "C21.06",
+            "C21.S03"
+          ],
+          "worked_example_capability": "Trace an archival atomic or periodic-table application without inventing coefficient selection",
+          "assessment_target": "Trace an archival atomic or periodic-table application without inventing coefficient selection",
+          "later_use": "lesson-07",
+          "core_minutes": 55,
+          "source_coverage_requirements": [
+            {
+              "concept_id": "C21.S03",
+              "operation": "Introduce delta E=delta m c^2 as a declared reference relation, supply all constants and units, practice a small synthetic calculation with consistent neutral/ionic/isotopic endpoints, and separate energy difference from rate and recoverable power.",
+              "source_pointers": [
+                "S05#/records/28",
+                "S05#/records/29",
+                "S05#/records/30"
+              ]
+            }
+          ],
+          "pacing_rule": "Preserve every existing operation. Split into additional sessions if these bridge/practice requirements exceed the core period; update recovery checkpoints during production.",
+          "required_amendment_ids": [
+            "SA-21"
+          ],
+          "planned_periods": 2,
+          "planned_total_minutes": 110,
+          "explanation_id": "C21.06-E1",
+          "worked_example_id": "C21.06-W1",
+          "prior_practice_id": "C21.06-P1",
+          "diagnostic_id": "C21.06-D1"
+        },
+        {
+          "id": "lesson-07",
+          "title": "Solver convergence and unresolved information",
+          "entry_prerequisites": [
+            "lesson-06"
+          ],
+          "concept_ids": [
+            "C21.07"
+          ],
+          "worked_example_capability": "Retain failed calculations, parameter dependence, and residual fields",
+          "assessment_target": "Retain failed calculations, parameter dependence, and residual fields",
+          "later_use": "lesson-08",
+          "core_minutes": 55,
+          "planned_periods": 2,
+          "planned_total_minutes": 110,
+          "explanation_id": "C21.07-E1",
+          "worked_example_id": "C21.07-W1",
+          "prior_practice_id": "C21.07-P1",
+          "diagnostic_id": "C21.07-D1"
+        },
+        {
+          "id": "lesson-08",
+          "title": "A reproducible decoding report",
+          "entry_prerequisites": [
+            "lesson-07"
+          ],
+          "concept_ids": [
+            "C21.08"
+          ],
+          "worked_example_capability": "Distinguish measured values, source coefficients, arithmetic approximants, and model outputs",
+          "assessment_target": "Distinguish measured values, source coefficients, arithmetic approximants, and model outputs",
+          "later_use": "capstone",
+          "core_minutes": 55,
+          "planned_periods": 1,
+          "planned_total_minutes": 55,
+          "explanation_id": "C21.08-E1",
+          "worked_example_id": "C21.08-W1",
+          "prior_practice_id": "C21.08-P1",
+          "diagnostic_id": "C21.08-D1"
+        }
+      ],
+      "legacy_bridge_aliases": [
+        {
+          "legacy_id": "C21-DEC-EX1",
+          "anchor_id": "C21.01-W1"
+        },
+        {
+          "legacy_id": "C21-DEC-P1",
+          "anchor_id": "C21.01-P1"
+        },
+        {
+          "legacy_id": "C21-DEC-D1",
+          "anchor_id": "C21.01-D1"
+        },
+        {
+          "legacy_id": "C21-RXN-EX1",
+          "anchor_id": "C21.05-W1"
+        },
+        {
+          "legacy_id": "C21-RXN-P1",
+          "anchor_id": "C21.05-P1"
+        },
+        {
+          "legacy_id": "C21-RXN-D1",
+          "anchor_id": "C21.05-D1"
+        }
+      ],
+      "core_periods": 17,
+      "capstone_periods": 3,
+      "period_minutes": 55,
+      "capstone_total_points": 44,
+      "capstone_sessions": [
+        "55 minutes: assemble definitions, input ledger and source cards; carry out first reconstruction.",
+        "55 minutes: complete mapped calculations and retain every residual, history or branch.",
+        "55 minutes: finish source/mechanism classification, independently reconstruct and repair the report."
+      ],
+      "core_boundary": "Assess the explicit finite operations, answered practice and exact source-reading cards. Missing source L/W7, source scalar definition bodies and exceptional actions are retrieval/construction obligations, not silently assigned computations. Infinite operator examples use only their explicitly declared domains.",
+      "prerequisite_status": "Blueprint closure checked; actual student-facing explanations, diagnostics, practice and capstone require later independent completed-course acceptance.",
+      "inline_content_location": "Complete lesson anchors are in course_map[*].teaching_anchor; complete capstone mapping is in capstone_specification.backward_map below."
+    },
+    "completed_course_acceptance": false
+  }
+}
+```

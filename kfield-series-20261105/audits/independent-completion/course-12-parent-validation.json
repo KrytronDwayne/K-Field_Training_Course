@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-12",
+  "timestamp": "2026-11-05T18:28:32.471255+00:00",
+  "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-12-the-emily-spectrum-modes-and-eigenvectors",
+  "validator": "passed",
+  "validator_checks": [
+    "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+    "parsed manifest.json",
+    "parsed audit_report.json",
+    "parsed completion_report.json",
+    "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+  ],
+  "validator_errors": [],
+  "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+  "manifest_sha256": "8108e25a5036110086b2e14b4a8d5e41e2b7ed828b2d1e3f00203c2b684eafb2",
+  "completion_report_sha256": "98593a95a28bf05668ac980458375ae3ca02fb533facb4b222c8166d341352ed",
+  "course_sha256": "4d2088a6a08434ecd3d92024b45c84b6bfed38382423682aa6e2449394bd1998"
+}

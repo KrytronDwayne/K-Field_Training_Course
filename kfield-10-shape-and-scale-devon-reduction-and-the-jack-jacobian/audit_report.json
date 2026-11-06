@@ -1,0 +1,175 @@
+{
+  "schema_version": "1.0",
+  "status": "passed",
+  "findings": [
+    {
+      "id": "C10-A01",
+      "level": "local",
+      "category": "notation",
+      "file": "lesson-04.md",
+      "section": "C10.04-E1",
+      "severity": "minor",
+      "defect": "Wording about all log changes could blur finite log ratios and tangent d symbols.",
+      "correction": "Explicitly distinguished finite log changes from their dimensionless tangents.",
+      "verification": "Reread corrected source-card paragraph and Lesson 3 definition; independent reviewer notified.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "lesson-04",
+        "assembly"
+      ]
+    },
+    {
+      "id": "C10-A02",
+      "level": "final",
+      "category": "Markdown layout",
+      "file": "terminology.md",
+      "section": "l_a,l_b,l_c row",
+      "severity": "minor",
+      "defect": "Literal vertical bars around a vector split a Markdown table cell.",
+      "correction": "Replaced bars by a verbal explanation of the length notation.",
+      "verification": "Inspected row delimiters and table content after repair.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "terminology"
+      ]
+    }
+  ],
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "local_audits": [
+    {
+      "checkpoint": "lesson-01",
+      "status": "passed",
+      "checks": [
+        "prerequisite closure",
+        "age-appropriate language and pacing",
+        "definitions and notation",
+        "units",
+        "logic and mathematics",
+        "worked examples and answers",
+        "evidence and sources",
+        "assessment alignment",
+        "minimality"
+      ],
+      "basis": "Actual lesson read by author and independent auditor; verification.json recomputes finite arithmetic."
+    },
+    {
+      "checkpoint": "lesson-02",
+      "status": "passed",
+      "checks": [
+        "prerequisite closure",
+        "age-appropriate language and pacing",
+        "definitions and notation",
+        "units",
+        "logic and mathematics",
+        "worked examples and answers",
+        "evidence and sources",
+        "assessment alignment",
+        "minimality"
+      ],
+      "basis": "Actual lesson read by author and independent auditor; verification.json recomputes finite arithmetic."
+    },
+    {
+      "checkpoint": "lesson-03",
+      "status": "passed",
+      "checks": [
+        "prerequisite closure",
+        "age-appropriate language and pacing",
+        "definitions and notation",
+        "units",
+        "logic and mathematics",
+        "worked examples and answers",
+        "evidence and sources",
+        "assessment alignment",
+        "minimality"
+      ],
+      "basis": "Actual lesson read by author and independent auditor; verification.json recomputes finite arithmetic."
+    },
+    {
+      "checkpoint": "lesson-04",
+      "status": "passed",
+      "checks": [
+        "prerequisite closure",
+        "age-appropriate language and pacing",
+        "definitions and notation",
+        "units",
+        "logic and mathematics",
+        "worked examples and answers",
+        "evidence and sources",
+        "assessment alignment",
+        "minimality"
+      ],
+      "basis": "Actual lesson read by author and independent auditor; verification.json recomputes finite arithmetic."
+    },
+    {
+      "checkpoint": "lesson-05",
+      "status": "passed",
+      "checks": [
+        "prerequisite closure",
+        "age-appropriate language and pacing",
+        "definitions and notation",
+        "units",
+        "logic and mathematics",
+        "worked examples and answers",
+        "evidence and sources",
+        "assessment alignment",
+        "minimality"
+      ],
+      "basis": "Actual lesson read by author and independent auditor; verification.json recomputes finite arithmetic."
+    },
+    {
+      "checkpoint": "lesson-06",
+      "status": "passed",
+      "checks": [
+        "prerequisite closure",
+        "age-appropriate language and pacing",
+        "definitions and notation",
+        "units",
+        "logic and mathematics",
+        "worked examples and answers",
+        "evidence and sources",
+        "assessment alignment",
+        "minimality"
+      ],
+      "basis": "Actual lesson read by author and independent auditor; verification.json recomputes finite arithmetic."
+    }
+  ],
+  "cumulative_audits": [
+    {
+      "after": "lesson-02",
+      "checks": "Log/reference and projection reconstruction/terminology; passed."
+    },
+    {
+      "after": "lesson-04",
+      "checks": "Local/finite distinction, J prerequisite closure, inverse and source domain; passed."
+    },
+    {
+      "after": "lesson-06",
+      "checks": "Typed reconstruction, complete E05 capstone closure and source layers; passed."
+    }
+  ],
+  "final_hostile_checks": {
+    "coverage": "All six kernel concepts and the extra anchor operation have actual E/W/P/D content and capstone links in coverage.json; independent E05 review completed.",
+    "fidelity": "Hashed S02 exact pointers, M05 ratio order, M06 side modes, M07 fixed-angle J, M19 named scalar branch and S03 DAG limit checked.",
+    "dependency_order": "Logs before projections, two-variable maps before J, typed records and anchor before synthesis and capstone.",
+    "correctness": "116 preassembly verification checks passed; exact rational matrix inverse/determinant and finite polynomial checks plus independent anchor reconstruction.",
+    "terminology": "Common reference, m versus s, dA versus area, branch A_branch, t_change versus t_length explicitly distinguished.",
+    "evidence": "Synthetic inputs, archived formula bodies, fresh arithmetic and unresolved physical dynamics separated; no empirical claim invented.",
+    "audience_load": "Lesson 5 allocated third period; 11 core periods plus 2 capstone; every core operation introduced before practice.",
+    "capstone": "All operations have worked answers and prior independently answered practice; rubric sums to100.",
+    "recovery_integrity": "Finalizer creates relative paths, acyclic dependencies and current hashes; installed validator checks them.",
+    "assembly_identity": "Only passed lesson text inserted in source order; validator checks verbatim normalized identity.",
+    "rendering": "Markdown-only delivery; source tables and links inspected. No paginated or visual artifact requires rendering.",
+    "storage": "All artifacts reside in assigned direct child of project course root; validator uses authorized root adapter.",
+    "minimality": "Six topical lessons retain all kernel operations; wider group theory, general calculus and dynamics are recognition/scope only."
+  },
+  "independent_review": "independent-audit.json",
+  "source_gaps": [
+    "S03 AUD-002 global serialization/DAG repair not certified; local explicit M07 formulas retrieved and checked.",
+    "No physical dynamics or finite Gamma2 response derived from J alone."
+  ],
+  "validator_evidence": "validator-result.json; recorded after actual subprocess execution."
+}

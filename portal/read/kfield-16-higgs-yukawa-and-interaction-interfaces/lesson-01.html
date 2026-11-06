@@ -1,0 +1,128 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Lesson 1 — Interactions must match their inputs · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/16">Course 16</a><span>/</span><span>lesson 01</span></div><a class="original" href="../../../kfield-16-higgs-yukawa-and-interaction-interfaces/lesson-01.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#lesson-1-interactions-must-match-their-inputs">Lesson 1 — Interactions must match their inputs</a><a href="#c1601-e1-a-type-is-part-of-an-input">C16.01-E1 — A type is part of an input</a><a href="#c1601-w1-worked-ledger">C16.01-W1 — Worked ledger</a><a href="#c1601-p1-practice-before-checking-the-answer">C16.01-P1 — Practice before checking the answer</a><a href="#diagnostics-and-worked-answers">Diagnostics and worked answers</a></nav></details><details class="course-nav" open><summary>In this course</summary><a aria-current=page href="lesson-01.html">Lesson 1 — Interactions must match their inputs</a><a  href="lesson-02.html">Lesson 2 — Invariant contractions</a><a  href="lesson-03.html">Lesson 3 — The Higgs doublet interface</a><a  href="lesson-04.html">Lesson 4 — Unbroken charge and mass formulas</a><a  href="lesson-05.html">Lesson 5 — Yukawa maps and mixing inputs</a><a  href="lesson-06.html">Lesson 6 — Energy and transition accounting</a><a  href="lesson-07.html">Lesson 7 — What a complete interaction specification needs</a></details></aside><div class="reading-column"><article class="prose"><h1 id="lesson-1-interactions-must-match-their-inputs" tabindex="-1">Lesson 1 — Interactions must match their inputs</h1>
+<p>Essential question: What must match before an interaction expression can return a scalar?</p>
+<p>Goals: identify each input's type; compute its integer charge; track color and weak degrees through all four interfaces.</p>
+<p>Bridge from course 15: a sector is a named collection of possible components. We recall every sector needed here, so you need only signed arithmetic and ordered lists. Two 55-minute periods: each uses 5 minutes retrieval, 20 explanation/examples, 15 practice, and 15 diagnostics/repair. Period 1 handles wedge interfaces; period 2 handles dual interfaces.</p>
+<h2 id="c1601-e1-a-type-is-part-of-an-input" tabindex="-1">C16.01-E1 — A type is part of an input</h2>
+<p>An ordinary formula such as distance = speed × time requires inputs of the right kind. Our interaction formulas also require kinds, called types. The underlying ordered list is color-first: (c1,c2,c3,w1,w2). The three c labels belong to C₃ and the two w labels belong to W₂. These are abstract basis vectors, not positions or measured colors. A basis is a fixed list used to describe components. The direct sum C₃ ⊕ W₂ places both lists in one five-slot carrier.</p>
+<p>The exterior product, written ∧ or “wedge,” records an oriented selection of slots. Exchanging two neighboring slots changes the sign; a repeated slot gives zero. Thus w2∧w1 = −w1∧w2, while w1∧w1 = 0. Products distribute across addition, so the rules for basis selections extend to sums of selections. A bidegree (r,s) counts r color slots and s weak slots. It records type, not amplitude. Joining selections adds their degrees unless a repeated factor makes the result zero.</p>
+<p>The integer hypercharge is q = −2r + 3s; the hypercharge convention is Y_h = q/6. Neither is the electric charge introduced in lesson 3. All three charge numbers are dimensionless. The subscript h distinguishes hypercharge from a Yukawa coefficient matrix later. Superscript c in u^c is part of the source's sector label, not an exponent or an instruction to conjugate a number.</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Input</th>
+<th>Bidegree</th>
+<th style="text-align: right;">q</th>
+<th style="text-align: right;">Y_h</th>
+<th>Role</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>u^c</td>
+<td>(2,0)</td>
+<td style="text-align: right;">−4</td>
+<td style="text-align: right;">−2/3</td>
+<td>exterior input</td>
+</tr>
+<tr>
+<td>Q</td>
+<td>(1,1)</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1/6</td>
+<td>exterior input; Q here is a sector</td>
+</tr>
+<tr>
+<td>ν^c</td>
+<td>(0,0)</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+<td>scalar input</td>
+</tr>
+<tr>
+<td>L</td>
+<td>(3,1)</td>
+<td style="text-align: right;">−3</td>
+<td style="text-align: right;">−1/2</td>
+<td>exterior input</td>
+</tr>
+<tr>
+<td>d^c</td>
+<td>(2,2)</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">1/3</td>
+<td>exterior input</td>
+</tr>
+<tr>
+<td>e^c</td>
+<td>(0,2)</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">1</td>
+<td>exterior input</td>
+</tr>
+<tr>
+<td>H</td>
+<td>(0,1)</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">1/2</td>
+<td>supplied Higgs vector</td>
+</tr>
+<tr>
+<td>barH</td>
+<td>weak dual</td>
+<td style="text-align: right;">−3</td>
+<td style="text-align: right;">−1/2</td>
+<td>covector removing a weak slot</td>
+</tr>
+</tbody>
+</table></div>
+<p>A covector is a linear measuring rule: w1* returns 1 on w1 and 0 on other basis vectors. A vector is an input to that rule. They cannot be substituted for one another. With an orthonormal basis, the Hermitian dual barH of H uses conjugated coefficients; for the real basis vector H=w1, it is w1*. Later we teach the complex phase rule. barH has no ordinary nonnegative exterior bidegree to add: its contraction removes one weak slot.</p>
+<p>Set Ω = c1∧c2∧c3∧w1∧w2. It is the reference top form, filling all five slots, with bidegree (3,2). Ω⁻¹ here means “extract the coefficient of Ω”: Ω⁻¹(7Ω)=7. It is not division by a vector. The symbol ι_barH means contract with the covector barH; lesson 2 teaches its sign rule.</p>
+<p>Read the supplied M12 interfaces in their stated order:</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Interface</th>
+<th>Expression</th>
+<th>Type route</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>up</td>
+<td>I_u = Ω⁻¹(u^c ∧ Q ∧ H)</td>
+<td>(2,0)+(1,1)+(0,1)=(3,2)</td>
+</tr>
+<tr>
+<td>neutrino</td>
+<td>I_ν = ν^c Ω⁻¹(L ∧ H)</td>
+<td>scalar times (3,1)+(0,1)</td>
+</tr>
+<tr>
+<td>down</td>
+<td>I_d = Ω⁻¹(Q ∧ ι_barH d^c)</td>
+<td>(2,2)→(2,1); add Q to get (3,2)</td>
+</tr>
+<tr>
+<td>electron</td>
+<td>I_e = Ω⁻¹(L ∧ ι_barH e^c)</td>
+<td>(0,2)→(0,1); add L to get (3,2)</td>
+</tr>
+</tbody>
+</table></div>
+<p>A zero total q is necessary for these interfaces, but it is not a substitute for the type route. A product of two charge-zero scalars has q=0 yet has degree (0,0), so it is not a top form to which this Ω coefficient extraction applies.</p>
+<h2 id="c1601-w1-worked-ledger" tabindex="-1">C16.01-W1 — Worked ledger</h2>
+<p>For up, insert the rows u^c, Q, H: q_total = −4+1+3=0. Their degrees add to (2+1+0,0+1+1)=(3,2). For neutrino, q_total=0−3+3=0; ν^c has degree zero and L∧H has degree (3,2). Both routes have the correct type. This does not tell us whether any selected component is zero: that requires checking repeated slots.</p>
+<h2 id="c1601-p1-practice-before-checking-the-answer" tabindex="-1">C16.01-P1 — Practice before checking the answer</h2>
+<p>Make the same ledger for down and electron. State the operation on the dual input, not just a charge sum. Then redo the up and neutrino ledgers without looking at W1.</p>
+<p>Worked answer: down gives 2+1−3=0. Contract d^c first: (2,2)→(2,1); Q contributes (1,1), giving (3,2). Electron gives 6−3−3=0. Contract e^c: (0,2)→(0,1); L contributes (3,1), giving (3,2). Up gives −4+1+3=0 and (3,2); neutrino gives 0−3+3=0 and (3,2). Each final hypercharge is also zero because Y_h=q/6.</p>
+<blockquote>
+<p>Claim scope: the sector table is S02 /backbone_sequence/10; the interfaces are S02 /backbone_sequence/11. We freshly check their finite charge/type arithmetic. Basis coefficients in teaching examples are chosen for calculation, not measured interactions. Numerical couplings remain separate inputs.</p>
+</blockquote>
+<h2 id="diagnostics-and-worked-answers" tabindex="-1">Diagnostics and worked answers</h2>
+<ol>
+<li><strong>C16.01-D1:</strong> Replace barH by H in down. What fails? Answer: 2+1+3=6, and wedging all inputs would give weak degree 4, exceeding two weak slots; it is not the given scalar interface.</li>
+<li><strong>C16.01-D2:</strong> Find q for (3,1) and explain the −3. Answer: −2×3+3×1=−6+3=−3; each color contributes −2 and each weak slot contributes +3.</li>
+<li><strong>C16.01-D3:</strong> Does q=0 prove a nonzero top form? Answer: no; ν^c alone has q=0 and degree (0,0), and repeated-slot products can be zero.</li>
+<li><strong>C16.01-D4:</strong> Is Q an electric-charge operator here? Answer: no, Q names the (1,1) input sector. We will write the operator as Q_electric.</li>
+</ol>
+<p>Next dependency: <a href="lesson-02.html">Lesson 2</a> computes the contractions and their signs.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><span></span><a class="button" href="lesson-02.html">Next lesson →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/16">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

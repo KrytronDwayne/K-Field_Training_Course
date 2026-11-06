@@ -1,0 +1,1057 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-30",
+  "title": "Independent completed-course audit: Integrated K-Field Research, From Backbone to Test",
+  "reviewed_utc": "2026-11-05T20:39:10.970820+00:00",
+  "status": "passed",
+  "manifest_sha256": "086f82ba25c45c9facd07c7e46f4ca05ee0b418075139f689f72815042d69d86",
+  "scope": "Independent read-only review of all8 lessons, complete32-point capstone/key/rubric, teacher guide, glossary, map, source notes, source/teaching amendments, manifest/audit/completion and recovery scripts. Final topical-course audit only, not whole-series acceptance.",
+  "audited_files": {
+    "audit_report.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\audit_report.json",
+      "sha256": "4e3e640e7f7e69dff5aeafa56088b70e1bb447060e293310764d6bc8701a0109"
+    },
+    "build_course.py": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\build_course.py",
+      "sha256": "be6a541e27bf1545029c82ecfff84a8d9e639af08348d5e68323e317bf566dd0"
+    },
+    "capstone.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\capstone.md",
+      "sha256": "8a5b0b23db21faf50af2ae0efac989a7e68f506695feb0664bf312d6aebe0597"
+    },
+    "completion_report.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\completion_report.json",
+      "sha256": "3d85893f99538476ee83e072f3f0a9c3830096c65d067c516688a1f91241acd0"
+    },
+    "course-map.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\course-map.md",
+      "sha256": "ee7cdd55fb77e0ef4acf7e3a11915a2138ca749ae111acaeeaf22863a17ed91d"
+    },
+    "course.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\course.md",
+      "sha256": "51ae4db248175714ca9d27ed220e6eef241e934cd38af3d19992985ed8bd050b"
+    },
+    "finalize_course.py": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\finalize_course.py",
+      "sha256": "f0199c233d50a9cfc65838206c4fea06ebba312397b48311642082ea5e9da665"
+    },
+    "input-contract.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\input-contract.json",
+      "sha256": "4f601d2a8d032fa8bba6bdaf8bdafe8afa856d6fd4aa24c53193c1da9bc294fb"
+    },
+    "launch-prompt.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\launch-prompt.md",
+      "sha256": "a37ab24d9a618f029c7b5e3ededad2f3ca3f4cd2f7f788f65423f76d79d2e15c"
+    },
+    "lesson-01.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\lesson-01.md",
+      "sha256": "2a8941021f3c6aa8af6078160e548342ca9269cdadfa4f088f26292eca3aa6ec"
+    },
+    "lesson-02.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\lesson-02.md",
+      "sha256": "148870f715184f5271ca27e5af81a5c0d8b0a7c8ae2efd92af6389c60013aef9"
+    },
+    "lesson-03.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\lesson-03.md",
+      "sha256": "1c542a7a7516f9e4c22952605e9438d40ca0ab2e080b8dca2aeec0c17978a89d"
+    },
+    "lesson-04.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\lesson-04.md",
+      "sha256": "2a276d57ce8f6fc90887e5c2e5a828a3a6eccd618f447b904a67486cc08f2549"
+    },
+    "lesson-05.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\lesson-05.md",
+      "sha256": "648ec91527ccc428d36f1820296809e4874f841eb6f8ba3347a729fe7c9a79ba"
+    },
+    "lesson-06.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\lesson-06.md",
+      "sha256": "3ce57e42f4a34400128e0fe09ad7ce0a9d05d6207f41e91dfd13c4f238ab47db"
+    },
+    "lesson-07.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\lesson-07.md",
+      "sha256": "0c2011dd4a2b2212b8e541a34f9b2f637ab2c2cf07e4ea716aa350368ffcb4cb"
+    },
+    "lesson-08.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\lesson-08.md",
+      "sha256": "7c3931a7529610fc324f4b938238d7979588f8acfff244c991d0909f3b791791"
+    },
+    "manifest.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\manifest.json",
+      "sha256": "086f82ba25c45c9facd07c7e46f4ca05ee0b418075139f689f72815042d69d86"
+    },
+    "sources.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\sources.md",
+      "sha256": "1abee05eb6d8e5b4addbdc370ef55efdd15509b54cf9d94a4b70fe68c9a73ded"
+    },
+    "teacher-guide.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\teacher-guide.md",
+      "sha256": "acd3c5a8395c6e28687632355831ce2fd688c8a1b6b4a6b9606d75934af3cc69"
+    },
+    "terminology.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\terminology.md",
+      "sha256": "360c7e7069ab83a1edc66a7163f6bcc4dd42b88b28d2b8717d4eee608b6b0a02"
+    },
+    "verification.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\verification.json",
+      "sha256": "58245cde5b5b7565e109f3978da11eac1d16258dc253e9c2ebf845dae53e9098"
+    },
+    "verify_examples.py": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\verify_examples.py",
+      "sha256": "ad15c63f21569a2cec8e173179bd7a0253ff2592fed9feef1aa8d4a2a03a1803"
+    }
+  },
+  "source_hashes": [
+    {
+      "id": "S01",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180"
+    },
+    {
+      "id": "S02",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3"
+    },
+    {
+      "id": "S03",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e"
+    },
+    {
+      "id": "S04",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+      "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2"
+    },
+    {
+      "id": "S05",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+      "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7"
+    }
+  ],
+  "findings": [
+    {
+      "id": "C30-IND-001",
+      "level": "final",
+      "category": "markdown_provenance_table",
+      "severity": "minor",
+      "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-30-integrated-k-field-research-from-backbone-to-test/sources.md",
+      "line": 49,
+      "section": "Pinned testbench and integration sources",
+      "defect": "The provenance table header and five data rows each have four cells, but its delimiter row has only three. The malformed delimiter prevents this from being a valid four-column Markdown table and obscures the intended path/hash/locator structure in rendered reading.",
+      "evidence": {
+        "header_line": 48,
+        "header_cells": 4,
+        "delimiter_line": 49,
+        "delimiter_cells": 3,
+        "delimiter": "|---|---|---|",
+        "data_lines": [
+          50,
+          51,
+          52,
+          53,
+          54
+        ]
+      },
+      "correction": "Change the delimiter to |---|---|---|---| in the authoring/recovery source and regenerate sources.md. Refresh all dependent hashes, manifest/audit/completion records and rerun the real project-root validator plus the independent table check.",
+      "root_cause_location": {
+        "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-30-integrated-k-field-research-from-backbone-to-test/build_course.py",
+        "line": 403,
+        "description": "The four-column header and three-column separator are adjacent literal list entries on this line."
+      },
+      "verification_method": "Independent Markdown row-width check plus direct read of sources.md lines48–54 and build_course.py line403; all other checked table rows have consistent widths.",
+      "verification_result": "Recheck: sources.md line49 is now |---|---|---|---|; header/delimiter/all five data rows have four columns. Matching build_course.py line403 literal repaired. All 504 checks pass.",
+      "disposition": "corrected",
+      "affected_checkpoint_ids": [
+        "sources",
+        "build_course",
+        "audit_report"
+      ],
+      "acceptance_effect": "No unresolved table finding remains; initial failed state preserved verbatim in pre-repair reports.",
+      "repair_verified_utc": "2026-11-05T20:39:10.970820+00:00"
+    },
+    {
+      "id": "C30-PARENT-002",
+      "level": "final",
+      "category": "evidence_scope",
+      "severity": "major",
+      "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-30-integrated-k-field-research-from-backbone-to-test/sources.md",
+      "line": 68,
+      "related_locations": [
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-30-integrated-k-field-research-from-backbone-to-test/lesson-05.md",
+          "line": 47
+        },
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-30-integrated-k-field-research-from-backbone-to-test/course.md",
+          "line": 233
+        },
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-30-integrated-k-field-research-from-backbone-to-test/build_course.py",
+          "line": 237
+        },
+        {
+          "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-30-integrated-k-field-research-from-backbone-to-test/build_course.py",
+          "line": 419
+        }
+      ],
+      "defect": "Previous text called three plane-family cost levels independent; distinct values alone do not establish statistical independence.",
+      "origin": "Identified by parent after this auditor's initial report; the initial audit did not flag this wording. Original reports remain unchanged in pre-repair snapshots.",
+      "correction": "Use three distinct plane-family cost levels in source notes, lesson05, assembly and both recovery occurrences. Source notes explicitly retain the statistical-independence limitation.",
+      "verification_result": "Direct reads plus 14 narrow repair checks confirm changed wording, the explicit boundary, immutable references to all14 signed rows, all three source pins, packet-only evidence scope and unresolved revision gaps. Full504-check rerun confirms lesson05 recovery/assembly equality and current integrity metadata.",
+      "disposition": "corrected",
+      "repair_verified_utc": "2026-11-05T20:39:10.970820+00:00",
+      "affected_checkpoint_ids": [
+        "sources",
+        "lesson-05",
+        "course",
+        "build_course",
+        "audit_report"
+      ]
+    }
+  ],
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "eligible_for_parent_acceptance": true,
+  "acceptance_condition": "Current rechecked manifest and artifact hashes only. Both identified repairs are verified; all unresolved course finding counts are zero. Original source/proof/empirical and remote retrieval limitations remain open.",
+  "lesson_reviews": [
+    {
+      "lesson": 1,
+      "status": "passed",
+      "explanation": "Lines9–19 classify premises, domains, states, six EG principles and separate M19. M20 requires M01–M18, not M19; four state entries remain supplied.",
+      "worked": "Lines21–27 count and trace dependencies, print all three mature input-column decimals and exact source pointers, divide each by two and apply half-open ownership.",
+      "practice": "Lines29–33 require tracing M17/M18/M19 and classifying EG-A2/occupied c, then assigning q=-1/2; answered before capstone.",
+      "diagnostics": "Lines37–42 check incorrect M19 edge, state selection, +1/2 boundary and premise omission.",
+      "independent_results": "All 52 requires-derived internal edges and printed source table rows match S02. Printed input and half-column are exact at stored decimal precision; inverse recovers q=(1/2,0,0).",
+      "assessment": "CAP01 expands the taught source readback to all18 inputs/six principles/four states; all are locally available. CAP08 repeats the practiced coordinate construction.",
+      "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-30-integrated-k-field-research-from-backbone-to-test/lesson-01.md",
+      "anchor_locations": {
+        "explanation_id": {
+          "id": "C30.01-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C30.01-W1",
+          "line": 21
+        },
+        "prior_practice_id": {
+          "id": "C30.01-P1",
+          "line": 29
+        },
+        "diagnostic_id": {
+          "id": "C30.01-D1",
+          "line": 37
+        }
+      }
+    },
+    {
+      "lesson": 2,
+      "status": "passed",
+      "explanation": "Lines9–17 distinguish proof, replay, calibration, measurement and protocol; hash/pointer is not proof; mean/detail inverse is derived.",
+      "worked": "Lines19–25 distinguish compiler/backbone namespaces, source-reported portfolio designs and Z1/Z2/Z3/Z6 alternatives.",
+      "practice": "Lines27–31 provide five concrete teaching cards with an answer classification and honest missing real addresses.",
+      "diagnostics": "Lines35–40 check mean/detail arithmetic, hash scope, portfolio execution and namespace transfer.",
+      "independent_results": "(2,6)->(4,-2) and (3,7)->(5,-2) reconstruct exactly. Compiler M20 compositeNonterminal is explicitly inherited from contract, not a freshly loaded declaration.",
+      "assessment": "CAP02 uses the same five-card classification and already taught namespace/portfolio/global-form distinctions.",
+      "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-30-integrated-k-field-research-from-backbone-to-test/lesson-02.md",
+      "anchor_locations": {
+        "explanation_id": {
+          "id": "C30.02-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C30.02-W1",
+          "line": 19
+        },
+        "prior_practice_id": {
+          "id": "C30.02-P1",
+          "line": 27
+        },
+        "diagnostic_id": {
+          "id": "C30.02-D1",
+          "line": 35
+        }
+      }
+    },
+    {
+      "lesson": 3,
+      "status": "passed",
+      "explanation": "Lines9–15 expand matrix rows, define rank/null direction/equal-output family and require physical transfer.",
+      "worked": "Lines17–23 exhibit A/B equal original outputs, derive the sum/difference inverse and retain product ambiguity.",
+      "practice": "Lines25–29 solve s=5,d=-1 and check all three output rows with a supplied answer.",
+      "diagnostics": "Lines33–38 add a third equal-output state, redundant row, second inverse and calibration gate.",
+      "independent_results": "Original rank1, null(1,-1); extended rank2. Theta(2,3) gives(5,10,-1), theta(3,1) gives(4,8,2). (2,3) and(1,6) share product6.",
+      "assessment": "CAP03 repeats the answered inverse case and original/added-channel checks. Identifiability is conditional on implemented known transfer.",
+      "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-30-integrated-k-field-research-from-backbone-to-test/lesson-03.md",
+      "anchor_locations": {
+        "explanation_id": {
+          "id": "C30.03-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C30.03-W1",
+          "line": 17
+        },
+        "prior_practice_id": {
+          "id": "C30.03-P1",
+          "line": 25
+        },
+        "diagnostic_id": {
+          "id": "C30.03-D1",
+          "line": 33
+        }
+      }
+    },
+    {
+      "lesson": 4,
+      "status": "passed",
+      "explanation": "Lines9–15 require shared model inputs, frozen parameters, preserved residuals and separately typed cross-domain geometry.",
+      "worked": "Lines17–21 derive two binary questions for four synthetic states without substituting for six reported formal portfolios.",
+      "practice": "Lines23–34 ask candidate prediction/discriminator comparison, supply answers and nonoverlapping +/-1/4 toy intervals.",
+      "diagnostics": "Lines38–43 check count, shared sum, mismatch-to-both and post-result refitting.",
+      "independent_results": "A/B differences+1/-1; intervals[3/4,5/4] and[-5/4,-3/4] exclude0 and do not overlap.",
+      "assessment": "CAP04 is rehearsed; actual uncertainty overlap is explicitly unresolved rather than forced to a candidate. Candidate states are not claimed complete physical mechanisms.",
+      "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-30-integrated-k-field-research-from-backbone-to-test/lesson-04.md",
+      "anchor_locations": {
+        "explanation_id": {
+          "id": "C30.04-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C30.04-W1",
+          "line": 17
+        },
+        "prior_practice_id": {
+          "id": "C30.04-P1",
+          "line": 23
+        },
+        "diagnostic_id": {
+          "id": "C30.04-D1",
+          "line": 38
+        }
+      }
+    },
+    {
+      "lesson": 5,
+      "status": "passed",
+      "explanation": "Lines9–15 inventory versioned protocol fields, midpoint/exposure, blinding, roles and reversible offset handling.",
+      "worked": "Lines17–21 freeze synthetic A/B predictions and label authored inputs, missing rows and interruption rules.",
+      "practice": "Lines23–45 contain an attemptable field-by-field draft and answered model with owner/return address and explicit missing apparatus metadata.",
+      "diagnostics": "Lines49–54 separate missing from numeric zero, reverse offset subtraction and retain calibration/version changes.",
+      "independent_results": "Raw7-offset2=5 and5+2=7. A missing difference has undefined residual, unlike actual zero whose residual againstA is-1.",
+      "assessment": "CAP05 uses the complete prior inventory. Planned protocol is intentionally gated, not claimed acquisition-ready or executed.",
+      "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-30-integrated-k-field-research-from-backbone-to-test/lesson-05.md",
+      "anchor_locations": {
+        "explanation_id": {
+          "id": "C30.05-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C30.05-W1",
+          "line": 17
+        },
+        "prior_practice_id": {
+          "id": "C30.05-P1",
+          "line": 23
+        },
+        "diagnostic_id": {
+          "id": "C30.05-D1",
+          "line": 49
+        }
+      },
+      "repair_recheck": "Lesson05 line47 now states three distinct plane-family cost levels. Corresponding recovery literal and assembled lesson text match exactly; all signed rows and source-report scope remain retained."
+    },
+    {
+      "lesson": 6,
+      "status": "passed",
+      "explanation": "Lines9–13 distinguish replay from new acquisition and keep zero/negative/fault/interruption types.",
+      "worked": "Lines15–19 compute both candidate rehearsal residuals and propose a separate nonzero-difference reference.",
+      "practice": "Lines21–27 compute both conditional future residuals and distinguish sum-transfer versus state-change checks.",
+      "diagnostics": "Lines31–36 retain negative/saturated outcomes, reconstruct another residual and separate replay/replication.",
+      "independent_results": "Rehearsal rA=(0,-1),rB=(0,1); conditional rA=(1,0),rB=(1,2); all reconstruct full inputs. Diagnostic rA=(-1,-2).",
+      "assessment": "CAP06 repeats both full ledgers and new-reference reasoning; no proposed or conditional reading becomes observed data.",
+      "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-30-integrated-k-field-research-from-backbone-to-test/lesson-06.md",
+      "anchor_locations": {
+        "explanation_id": {
+          "id": "C30.06-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C30.06-W1",
+          "line": 15
+        },
+        "prior_practice_id": {
+          "id": "C30.06-P1",
+          "line": 21
+        },
+        "diagnostic_id": {
+          "id": "C30.06-D1",
+          "line": 31
+        }
+      }
+    },
+    {
+      "lesson": 7,
+      "status": "passed",
+      "explanation": "Lines9–15 separate source, calculation, inferred relationships, mechanisms and missing fields; raw kinds/presence are distinct.",
+      "worked": "Lines17–27 give an inspectable ledger and layered report with explicit certificate/precision gates.",
+      "practice": "Lines29–40 ask four raw-status rows and reconstruct exactly a=null,c='unknown',d='reported', with b absent.",
+      "diagnostics": "Lines44–49 preserve signed residuals, absence/null distinction, inherited boundaries and dates.",
+      "independent_results": "Exact raw-kind/presence reconstruction passes. AUD008 decimal residual remains nonzero source-reported information, not a fresh replay.",
+      "assessment": "CAP07 combines already modeled report layering with same answered readback exercise. The external provenance-table formatting finding does not alter this lesson's raw-status table.",
+      "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-30-integrated-k-field-research-from-backbone-to-test/lesson-07.md",
+      "anchor_locations": {
+        "explanation_id": {
+          "id": "C30.07-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C30.07-W1",
+          "line": 17
+        },
+        "prior_practice_id": {
+          "id": "C30.07-P1",
+          "line": 29
+        },
+        "diagnostic_id": {
+          "id": "C30.07-D1",
+          "line": 44
+        }
+      }
+    },
+    {
+      "lesson": 8,
+      "status": "passed",
+      "explanation": "Lines9–19 teach geometry/ruler/proposed-transfer interfaces and explicitly derive the three-channel decoder before assessment.",
+      "worked": "Lines21–25 introduce i²=-1 and multiply all six determinant-line scalar factors, then omit heavy for comparison.",
+      "practice": "Lines27–31 require full decoder reconstruction and a connected, calibrated future-test ledger, keeping theta/c/basis-c data systems distinct.",
+      "diagnostics": "Lines35–40 check third channel, omitted heavy, phase-versus-force and missing route certificate.",
+      "independent_results": "Normal equations yield c=(7/3,10/3), Ac=(7/3,10/3,17/3), r=(-1/3,-1/3,1/3), both column dot products0 and exact y=(2,3,6). Six factors give1; deleting heavy givesi.",
+      "assessment": "CAP08 requires reconstruction of supplied coefficients, not an untaught university projection proof. Multiplication rehearsed in W1 and D1. Fixed phi=1 is synthetic; no claim for arbitrary singular transfer.",
+      "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-30-integrated-k-field-research-from-backbone-to-test/lesson-08.md",
+      "anchor_locations": {
+        "explanation_id": {
+          "id": "C30.08-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C30.08-W1",
+          "line": 21
+        },
+        "prior_practice_id": {
+          "id": "C30.08-P1",
+          "line": 27
+        },
+        "diagnostic_id": {
+          "id": "C30.08-D1",
+          "line": 35
+        }
+      }
+    }
+  ],
+  "actual_capstone_practice_links": [
+    {
+      "step_id": "C30-CAP-01",
+      "lesson": "lesson-01.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C30.01-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C30.01-W1",
+          "line": 21
+        },
+        "prior_practice_id": {
+          "id": "C30.01-P1",
+          "line": 29
+        },
+        "diagnostic_id": {
+          "id": "C30.01-D1",
+          "line": 37
+        }
+      }
+    },
+    {
+      "step_id": "C30-CAP-02",
+      "lesson": "lesson-02.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C30.02-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C30.02-W1",
+          "line": 19
+        },
+        "prior_practice_id": {
+          "id": "C30.02-P1",
+          "line": 27
+        },
+        "diagnostic_id": {
+          "id": "C30.02-D1",
+          "line": 35
+        }
+      }
+    },
+    {
+      "step_id": "C30-CAP-03",
+      "lesson": "lesson-03.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C30.03-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C30.03-W1",
+          "line": 17
+        },
+        "prior_practice_id": {
+          "id": "C30.03-P1",
+          "line": 25
+        },
+        "diagnostic_id": {
+          "id": "C30.03-D1",
+          "line": 33
+        }
+      }
+    },
+    {
+      "step_id": "C30-CAP-04",
+      "lesson": "lesson-04.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C30.04-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C30.04-W1",
+          "line": 17
+        },
+        "prior_practice_id": {
+          "id": "C30.04-P1",
+          "line": 23
+        },
+        "diagnostic_id": {
+          "id": "C30.04-D1",
+          "line": 38
+        }
+      }
+    },
+    {
+      "step_id": "C30-CAP-05",
+      "lesson": "lesson-05.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C30.05-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C30.05-W1",
+          "line": 17
+        },
+        "prior_practice_id": {
+          "id": "C30.05-P1",
+          "line": 23
+        },
+        "diagnostic_id": {
+          "id": "C30.05-D1",
+          "line": 49
+        }
+      }
+    },
+    {
+      "step_id": "C30-CAP-06",
+      "lesson": "lesson-06.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C30.06-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C30.06-W1",
+          "line": 15
+        },
+        "prior_practice_id": {
+          "id": "C30.06-P1",
+          "line": 21
+        },
+        "diagnostic_id": {
+          "id": "C30.06-D1",
+          "line": 31
+        }
+      }
+    },
+    {
+      "step_id": "C30-CAP-07",
+      "lesson": "lesson-07.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C30.07-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C30.07-W1",
+          "line": 17
+        },
+        "prior_practice_id": {
+          "id": "C30.07-P1",
+          "line": 29
+        },
+        "diagnostic_id": {
+          "id": "C30.07-D1",
+          "line": 44
+        }
+      }
+    },
+    {
+      "step_id": "C30-CAP-08",
+      "lesson": "lesson-08.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C30.08-E1",
+          "line": 9
+        },
+        "worked_example_id": {
+          "id": "C30.08-W1",
+          "line": 21
+        },
+        "prior_practice_id": {
+          "id": "C30.08-P1",
+          "line": 27
+        },
+        "diagnostic_id": {
+          "id": "C30.08-D1",
+          "line": 35
+        }
+      }
+    }
+  ],
+  "assessment_review": {
+    "operations": 8,
+    "points_each": 4,
+    "total_points": 32,
+    "status": "passed",
+    "untaught_assessed_operations": [],
+    "core_periods": [
+      3,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      3
+    ],
+    "core_total": 16,
+    "capstone_periods": 3,
+    "minutes_per_period": 55,
+    "total_minutes": 1045,
+    "accessibility": "All assessed inputs and answers supplied locally. Source recognition labels do not require untaught advanced proofs. Teacher guide supplies staged practice, recovery and three capstone sessions."
+  },
+  "amendment_review": {
+    "source_amendment": "SA-30",
+    "status": "passed_content",
+    "requirements": "M20 full premises/states and separateM19; all6 line factors and inherited boundaries; six portfolios as designs; distinct null/absent/unknown/reported values.",
+    "teaching_contract": "All eight required E1/W1/P1/D1 operations and answered practices expanded in actual lessons. Local decoder and complex-number bridge precede capstone.",
+    "receipts": [
+      {
+        "role": "verification_record",
+        "path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-teaching-auditor\\outputs\\teaching-verification-28-30.json",
+        "sha256": "40b5b402379561e5b46439cf6d727ee1283bc1a7595bed2e6e4c15f26cbcabf8"
+      },
+      {
+        "role": "source_registry_path",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\source-registry.json",
+        "sha256": "208a8ed59a10d72a74e1aa084b86d1f6809bb8f43168c7a98edc68598db5e78b"
+      }
+    ]
+  },
+  "recovery_review": {
+    "status": "passed",
+    "literal_comparisons": [
+      {
+        "file": "lesson-01.md",
+        "authoring_line": 11,
+        "method": "AST string literal extraction only; no execution or import."
+      },
+      {
+        "file": "lesson-02.md",
+        "authoring_line": 57,
+        "method": "AST string literal extraction only; no execution or import."
+      },
+      {
+        "file": "lesson-03.md",
+        "authoring_line": 101,
+        "method": "AST string literal extraction only; no execution or import."
+      },
+      {
+        "file": "lesson-04.md",
+        "authoring_line": 143,
+        "method": "AST string literal extraction only; no execution or import."
+      },
+      {
+        "file": "lesson-05.md",
+        "authoring_line": 190,
+        "method": "AST string literal extraction only; no execution or import."
+      },
+      {
+        "file": "lesson-06.md",
+        "authoring_line": 248,
+        "method": "AST string literal extraction only; no execution or import."
+      },
+      {
+        "file": "lesson-07.md",
+        "authoring_line": 288,
+        "method": "AST string literal extraction only; no execution or import."
+      },
+      {
+        "file": "lesson-08.md",
+        "authoring_line": 341,
+        "method": "AST string literal extraction only; no execution or import."
+      },
+      {
+        "file": "terminology.md",
+        "authoring_line": 440,
+        "method": "AST literal extraction only."
+      },
+      {
+        "file": "teacher-guide.md",
+        "authoring_line": 482,
+        "method": "AST literal extraction only."
+      },
+      {
+        "file": "capstone.md",
+        "authoring_line": 513,
+        "method": "AST literal extraction only."
+      }
+    ],
+    "assembly": "Entire course equals ordered lesson bodies with only title/markers added.",
+    "prior_builder_findings": "A30-01 printed-column repair and A30-02 four-state/two-bit wording repair independently verified in current output and literal authoring source.",
+    "repair_note": "Both prose occurrences and provenance delimiter are corrected in recovery source, not only rendered outputs."
+  },
+  "independent_recomputation": {
+    "status": "passed",
+    "check_count": 504,
+    "passed": 504,
+    "failed": 0,
+    "checks_by_group": {
+      "runtime": 1,
+      "integrity": 90,
+      "source-integrity": 7,
+      "assembly": 1,
+      "teaching-structure": 48,
+      "actual-links": 40,
+      "syntax-only": 3,
+      "recovery": 12,
+      "markdown": 159,
+      "local-links": 26,
+      "pacing": 2,
+      "rubric": 9,
+      "source-graph": 28,
+      "source-premises": 4,
+      "geometry": 8,
+      "ownership": 10,
+      "integerization": 10,
+      "mean-detail": 2,
+      "identifiability": 9,
+      "inverse": 4,
+      "phase-transfer": 5,
+      "discriminator": 4,
+      "protocol": 2,
+      "residual": 6,
+      "raw-status": 2,
+      "decoder": 5,
+      "source-decoder": 4,
+      "six-factors": 3
+    },
+    "failures": [],
+    "runtime": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+    "verifier_path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-series-source-auditor\\work\\audit_course30.py",
+    "verifier_sha256": "330b77fb4243f9ad79fcac971809c1363f802188b74ef15e35f043df3ce46a5e",
+    "companion": "course-30-independent-verification.json"
+  },
+  "source_reliance": {
+    "local_primary_reads": {
+      "fresh": true,
+      "objects": [
+        {
+          "id": "S01",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+          "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180"
+        },
+        {
+          "id": "S02",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+          "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3"
+        },
+        {
+          "id": "S03",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+          "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e"
+        },
+        {
+          "id": "S04",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+          "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2"
+        },
+        {
+          "id": "S05",
+          "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+          "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7"
+        }
+      ],
+      "scope": "All five original local source files hash-checked in place. S02 proof_contract, mature_locked_cell3, constitutive_principles and backbone_sequence inspected; S03 all13 correction findings read. S01/S04/S05 parsed and identity checked as context, not comprehensively proof-audited."
+    },
+    "teaching_and_registry": [
+      {
+        "role": "verification_record",
+        "path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-teaching-auditor\\outputs\\teaching-verification-28-30.json",
+        "sha256": "40b5b402379561e5b46439cf6d727ee1283bc1a7595bed2e6e4c15f26cbcabf8"
+      },
+      {
+        "role": "source_registry_path",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\source-registry.json",
+        "sha256": "208a8ed59a10d72a74e1aa084b86d1f6809bb8f43168c7a98edc68598db5e78b"
+      }
+    ],
+    "fresh_remote_discovery": {
+      "corpus_generation": "sha256:5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+      "manifest_sha256": "5bdbf0c70fed3830b8239d3107bc47cd950a7e6d6f7813edfc4dd605e39990c7",
+      "rerank": false,
+      "truncated": true,
+      "returned_chunks": 4,
+      "read_scope": "Fresh RAG text covers T30 and T50 and only an initial I01 fragment. Discovery is not a whole-source or exhaustive graph certificate."
+    },
+    "remote_exact_byte_attempt": {
+      "status": "unavailable",
+      "reason": "krytronx_get returned 40-call MCP session bound exhausted for T50,T20,T30,I01,I02. No alternative network route or permission bypass attempted.",
+      "attempted_pins": [
+        {
+          "id": "T50",
+          "sha256": "c2a25a583af904601968adc1d3efde825f76218c92a2f52d829afc093f52c02a",
+          "max_bytes": 1761
+        },
+        {
+          "id": "T20",
+          "sha256": "c9335e2df74344bff5665df5a5e0b9094fef22147c76458f1a54efe49cefce62",
+          "max_bytes": 470
+        },
+        {
+          "id": "T30",
+          "sha256": "e9c6d0346e7f4fa120e9836df9d4a45b7e2c587bc046874d91cb38a0c68c16bc",
+          "max_bytes": 687
+        },
+        {
+          "id": "I01",
+          "sha256": "3800c854da827a64e72507722904bcafab07a31e88f2bc73920a8e7f62f62c1c",
+          "max_bytes": 13847
+        },
+        {
+          "id": "I02",
+          "sha256": "a3dfca0e55e525c6522c3088b95e5bcc048c141fce340bfe980fcfc14123220a",
+          "max_bytes": 3173
+        }
+      ],
+      "graph_attempt": "Traversal request failed argument validation (id instead of permitted start key); no successful fresh graph traversal or completeness claim is made."
+    },
+    "retained_same_task_evidence": {
+      "T50": {
+        "id": "T50",
+        "logical_path": "applications/kfield_lucas_lab/rag_corpus/50_physical_closure.md",
+        "sha256": "c2a25a583af904601968adc1d3efde825f76218c92a2f52d829afc093f52c02a",
+        "bytes": 1761,
+        "byte_range": [
+          0,
+          1761
+        ],
+        "returned_range_sha256": "c2a25a583af904601968adc1d3efde825f76218c92a2f52d829afc093f52c02a",
+        "independent_hash": "SHA-256 of the complete decoded bytes, computed in memory; abc known-answer self-test passed."
+      },
+      "scope": "T50 full bytes were retrieved, decoded and independently hashed earlier in this same task during Course26. They support item4 optical-transfer obstruction; not represented as a new Course30 byte retrieval.",
+      "spectral_context": "Previously verified pinned Course26 bundle and spectral/energy objects support the inherited14-row/three-cost-level and revision-gap boundary. No fresh Course30 acquisition replay."
+    },
+    "unretrieved_scope": "T20 exact text/body, I01 complete relevant result pointers and I02 exact report bytes were not freshly retrieved in this audit. Their Course30 treatment was checked against pinned teaching/source-contract material and installed domain-skill constraints; full independent remote source verification is limited. Compiler M20 declaration is deliberately not claimed loaded.",
+    "no_formal_or_empirical_execution": true
+  },
+  "source_and_authority_boundaries": {
+    "M20": "Core M01–M18 plus six EG constitutive premises, domains, history/spin/coframe inputs and supplied state coordinates; source-attributed closure, not premise-free Cell3-only proof.",
+    "M19": "Retained separate mixed extension; no M19->M20 core edge. Equal dimensions do not construct an intertwiner or physical coupling.",
+    "compiler_namespace": "Compiler M03/M07/M08 direct authority is source-reported within its namespace; no numeral-based backbone promotion. Compiler M20 compositeNonterminal remains contract-attributed. Z1/Z2/Z3/Z6 retained; six portfolios remain unperformed designs.",
+    "geometry": "ICRS columns[a b c], nm and intentional negative determinant; affine x-O_K and half-open ownership retained. M_cell=B^T B, R_cell=M_cell^-1, G_phase and G_eff distinct. Source-local Q meanings, parities, carrier order and dyadic/ternary recursions are not merged.",
+    "stored_precision": "Printed column/half are exact operations on stored decimals. Computed stored-basis determinant differs from separately reported source determinant by2.3161497196490481068075104737078e-17 nm^3; retained as precision information, not silently zeroed or used as a course defect.",
+    "unloaded_witnesses": "Named route certificate, complete G_phase/C/W_qpc precision linkage, full syndrome/occupation and other proof bodies remain source replay gates. AUD008 residual4.58938078934712923077736690075e-12 retained; VERIFIED_NOT_LOADED does not mean freshly verified or automatically rejected.",
+    "six_factors": "UV/light/reg/heavy/cap/induced all present with trivialization/topology/admitted-sector boundaries. Scalar product is not a global determinant-line theorem.",
+    "residuals": "All signed channel residuals, mean/detail, data kinds, source revision branches and invalid/missing outcomes retained. No score or significance gate deletes information.",
+    "physical_scope": "Synthetic phase/rank/decoder arithmetic and a planned calibrated test do not establish a physical transfer, force, power, extraction or observation. Physical CMB authority remains369812.50200040644m/s, separately typed from phase vectors and unit-sphere galaxy geometry.",
+    "source_premise_corrections": "S03 AUD001/004/005/006/007/008/009/010/011/012/013 boundaries carried into student prose/source notes. Raw source serialization defects are not silently presented as repaired source bytes.",
+    "spectral_cost_levels": "All14 signed rows remain referenced; three distinct plane-family cost levels do not alone establish statistical independence. Packet provenance and unresolved revision branches remain explicit."
+  },
+  "fresh_project_validation": {
+    "canonical_output_root": "Z:\\Kfield-doc-training\\K-Field_Training_Course",
+    "checks": [
+      "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+      "parsed manifest.json",
+      "parsed audit_report.json",
+      "parsed completion_report.json",
+      "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+    ],
+    "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test",
+    "errors": [],
+    "schema_version": "1.0",
+    "status": "passed",
+    "storage_authority": "User explicitly authorized project-folder outputs, 2026-11-05",
+    "validator_path": "C:\\Users\\info\\.codex\\skills\\build-high-school-course\\scripts\\validate_course.py",
+    "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+    "exit_code": 0,
+    "fixture_mode": false,
+    "adapter": {
+      "path": "Z:/Kfield-doc-training/.work/validate_project_course.py",
+      "sha256": "3fdba74f7ac1430208a4e652200026dc98988f607f60fc928bda65d5857cc745"
+    },
+    "override": "Only canonical output root changed by existing adapter. Installed validator and its actual validation checks run unchanged.",
+    "scope": "Fresh real project-root structural validation after repair; supplemented by full 504-check independent rerun and 14 narrow repair checks.",
+    "runtime_note": "Conda emitted missing OpenCL vendors/temp.txt cleanup messages; Python and validator completed."
+  },
+  "limitations": [
+    "Remote exact-byte retrieval was exhausted at the session limit. Some remote claims rely on pinned supplied contracts rather than an independent full re-read; this limitation is separate from the actual course defect.",
+    "No Agda/Lean compiler, instrument, acquisition, calibration, proof-body, route certificate or physical-state selection execution occurred.",
+    "No source data copies, large arrays, course edits, parent edits or source edits were made. Builder code was read and AST-parsed, never executed/imported.",
+    "Finite examples use exact rational arithmetic, decimal-token parsing and integer complex-pair arithmetic. Source arithmetic is not a full-precision source recertification.",
+    "Whole-series integration and live classroom pacing were outside this single completed-course audit.",
+    "This recheck is limited to the two requested repairs and refreshed validation; earlier independent source-retrieval limitations remain unchanged. No fresh remote retrieval was attempted."
+  ],
+  "source_files_copied": false,
+  "course_or_parent_files_modified": false,
+  "repair_recheck": {
+    "scope": "Narrow independent repair review; retained earlier semantic/numerical audit and reran the unchanged auditor-authored504-check script. No remote calls were made during recheck.",
+    "reviewed_utc": "2026-11-05T20:39:10.970820+00:00",
+    "initial_manifest_sha256": "7c40d9573f4043b1bc229fb3254d9537057be1309ac76295dfb23805634ddb5d",
+    "current_manifest_sha256": "086f82ba25c45c9facd07c7e46f4ca05ee0b418075139f689f72815042d69d86",
+    "initial_status": "needs_repair",
+    "initial_unresolved_counts": {
+      "critical": 0,
+      "major": 0,
+      "minor": 1
+    },
+    "initial_machine_checks": {
+      "total": 504,
+      "passed": 503,
+      "failed": 1
+    },
+    "preserved_initial_reports": [
+      {
+        "path": "C:/Users/info/Documents/Codex/2026-11-05/kfield-series-source-auditor/outputs/course-30-pre-repair-independent-audit.json",
+        "sha256": "dca70de012a980d8ef7bf0547f90e9dfb726486c62f80ca985f6103c7c43681b"
+      },
+      {
+        "path": "C:/Users/info/Documents/Codex/2026-11-05/kfield-series-source-auditor/outputs/course-30-pre-repair-independent-verification.json",
+        "sha256": "25d7050f43b7ffab4ad4d712bd61b4985e261eb82326c39b643968a244fb918e"
+      }
+    ],
+    "preservation_method": "Own-workspace copies made with apply_patch before updating current reports. SHA-256 of each copy equals the original report bytes.",
+    "changed_artifacts": [
+      {
+        "file": "audit_report.json",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\audit_report.json",
+        "before_sha256": "bf13e7f6ab21cec9d3d1a333ce710aad42993dc8cd7c84d06bd2564c1d5d04cf",
+        "after_sha256": "4e3e640e7f7e69dff5aeafa56088b70e1bb447060e293310764d6bc8701a0109"
+      },
+      {
+        "file": "build_course.py",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\build_course.py",
+        "before_sha256": "40d4bc6c96af455fe2618f2b5a0fdcede055cf2712d2162020aabfdb25c4c8d1",
+        "after_sha256": "be6a541e27bf1545029c82ecfff84a8d9e639af08348d5e68323e317bf566dd0"
+      },
+      {
+        "file": "completion_report.json",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\completion_report.json",
+        "before_sha256": "bf15d202ced6b30b8f3191c3e19c607e48fc204ac4230a8f314aeec607abe710",
+        "after_sha256": "3d85893f99538476ee83e072f3f0a9c3830096c65d067c516688a1f91241acd0"
+      },
+      {
+        "file": "course.md",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\course.md",
+        "before_sha256": "e96724e8e3c6c39a9d8ff16643b4ad317e86d7cb1dd9d9a718676e7ed78fbf36",
+        "after_sha256": "51ae4db248175714ca9d27ed220e6eef241e934cd38af3d19992985ed8bd050b"
+      },
+      {
+        "file": "finalize_course.py",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\finalize_course.py",
+        "before_sha256": "25beffd623036d930c3fbaa9d3f31d25955cd613cc34bd2e17440af0842be701",
+        "after_sha256": "f0199c233d50a9cfc65838206c4fea06ebba312397b48311642082ea5e9da665"
+      },
+      {
+        "file": "lesson-05.md",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\lesson-05.md",
+        "before_sha256": "7d3c04e2d78ce2190115dfe1f8173f9a5deef3760e981bae7da8f0f31cc08fa7",
+        "after_sha256": "648ec91527ccc428d36f1820296809e4874f841eb6f8ba3347a729fe7c9a79ba"
+      },
+      {
+        "file": "manifest.json",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\manifest.json",
+        "before_sha256": "7c40d9573f4043b1bc229fb3254d9537057be1309ac76295dfb23805634ddb5d",
+        "after_sha256": "086f82ba25c45c9facd07c7e46f4ca05ee0b418075139f689f72815042d69d86"
+      },
+      {
+        "file": "sources.md",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-30-integrated-k-field-research-from-backbone-to-test\\sources.md",
+        "before_sha256": "a6e58cd72cea05330b31932dfa1b857d2166d813c7a961561197406cc0e3d181",
+        "after_sha256": "1abee05eb6d8e5b4addbdc370ef55efdd15509b54cf9d94a4b70fe68c9a73ded"
+      }
+    ],
+    "unchanged_artifacts": [
+      "capstone.md",
+      "course-map.md",
+      "input-contract.json",
+      "launch-prompt.md",
+      "lesson-01.md",
+      "lesson-02.md",
+      "lesson-03.md",
+      "lesson-04.md",
+      "lesson-06.md",
+      "lesson-07.md",
+      "lesson-08.md",
+      "teacher-guide.md",
+      "terminology.md",
+      "verification.json",
+      "verify_examples.py"
+    ],
+    "full_independent_checks": {
+      "count": 504,
+      "status": "passed",
+      "failures": [],
+      "verifier_sha256": "330b77fb4243f9ad79fcac971809c1363f802188b74ef15e35f043df3ce46a5e",
+      "verifier_unchanged": true
+    },
+    "narrow_repair_checks": {
+      "four_column_delimiter": true,
+      "recovery_delimiter": true,
+      "source_distinct": true,
+      "lesson_distinct": true,
+      "recovery_two_distinct_occurrences": true,
+      "independence_boundary": true,
+      "all_fourteen_signed_retained": true,
+      "source_report_scope": true,
+      "revision_gap_retained": true,
+      "no_numeric_spectral_assessment": true,
+      "old_wording_absent": true,
+      "pin_04044230f3b2536d22654b294760106eca301f212e4eb4157989b330ff611f17": true,
+      "pin_d4105a6d6802e6bb2a2ba8e76a1d23a27973fca3d3335fd8335690a41ab72dfa": true,
+      "pin_9120f80210b235b8612d6479fe25272eb3824f31c5a1394e7e9d12718e57e70f": true
+    },
+    "fresh_validator": true,
+    "remote_retrieval_attempted": false,
+    "source_files_copied": false,
+    "course_or_parent_files_modified": false
+  }
+}

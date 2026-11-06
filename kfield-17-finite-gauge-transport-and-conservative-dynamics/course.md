@@ -1,0 +1,406 @@
+# Finite Gauge Transport and Conservative Dynamics
+
+Eight student lessons. See course-map.md for pacing and capstone.md for synthesis and assessment.
+
+<!-- BEGIN: lesson-01 -->
+# Lesson 01 — Link transport between local frames
+
+Essential question: How can we compare states described in different local coordinate frames?
+
+Goals: apply a complex link in its declared direction; recover a state using the inverse link; check its squared norm.
+
+Prerequisite bridge: courses 07 and 14 motivate coordinates and finite maps. Here we rebuild the specific operations needed: signed multiplication, ordered pairs, and undoing a map. No prior matrix or complex-number course is assumed. Pacing: one 55-minute period, with 5 minutes retrieval, 20 teaching, 15 practice, and 15 diagnostics and repair.
+
+## C17.01-E1 — States and maps
+
+A frame is a convention for recording components. Two people can describe the same arrow using different coordinate axes. A state at a site is a list of numbers in that site's frame. The site labels x and y identify places in our model; they are not numerical coordinates to multiply. A link U_xy maps a state FROM y TO x. Read the second subscript as the input and the first as the output. Transport first makes two states comparable in one frame.
+
+We use complex numbers to give a small, exact model of a rotating component. Define i by i²=−1. Write a+bi as the pair (a,b), with a the real part and b the imaginary part. Distribute multiplication exactly as for brackets: (a+bi)(c+di)=(ac−bd)+(ad+bc)i. Thus i(a+bi)=−b+ai, a quarter-turn of the pair. The conjugate of a+bi is a−bi; its squared modulus is (a−bi)(a+bi)=a²+b². Squared modulus measures size while retaining phase separately in the original number.
+
+A column state ψ=(z₁,z₂) has squared norm ‖ψ‖²=|z₁|²+|z₂|². All state components and links in our teaching examples are dimensionless. A matrix is a rectangular table defining a map. For a 2 by 2 matrix [[a,b],[c,d]], its action on (u,v) is (au+bv,cu+dv): multiply each row by the column and add. The diagonal map diag(a,d) is [[a,0],[0,d]] and acts separately on the two components. I=diag(1,1) leaves a state unchanged.
+
+Transpose means exchange rows and columns. The adjoint U† means transpose AND conjugate every entry. An inverse U⁻¹ undoes the map: U⁻¹U=UU⁻¹=I. A map is unitary when U†U=UU†=I; for these maps U⁻¹=U†. In the one-number case the adjoint is just complex conjugation. The link in the reverse direction is U_yx=U_xy† when the link is unitary. A frame change re-expresses a state; it is not automatically an evolution of that state in time.
+
+## C17.01-W1 — Worked transport and recovery
+
+Let U_xy=i and ψ_y=2. Multiplication gives the transported state 2i in x. Its squared modulus is 0²+2²=4, the same as 2². To return, multiply by −i: (−i)(2i)=−2i²=2. The inverse has the opposite direction.
+
+Now let U_xy=diag(i,−i) and ψ_y=(1,2). Row multiplication gives (i,−2i). The input squared norm is 1+4=5; the output gives |i|²+|−2i|²=1+4=5. The adjoint is diag(−i,i), and it returns ((−i)i,i(−2i))=(1,2). Keep both complex components; recording only 5 would lose the state.
+
+## C17.01-P1 — Practice, then compare
+
+1. Transport ψ_y=1+i with U_xy=−i. Find the inverse and check size and recovery.
+2. Apply diag(−1,i) to (2,1). Check the squared norm and recover the input.
+
+Worked answers: −i(1+i)=−i−i²=1−i. The inverse is i, and i(1−i)=1+i. Both squared moduli are 2. For the matrix, the output is (−2,i), with squared norm 4+1=5. The inverse diag(−1,−i) gives (2,1).
+
+> Claim scope: These are explicitly synthetic finite states, not measured fields. Unitarity and recovery are directly checked algebraic properties. Source M13 uses site-indexed group links; our scalar and two-component cases teach the operations without claiming to reproduce its full carrier. The source carrier uses color-first C₃ direct-sum W₂; a different order needs an explicit permutation.
+
+## Diagnostic checks
+
+1. **C17.01-D1:** May U_xy and U_yx be exchanged without changing a calculation? Explain with i.
+2. Compute (1+i)(1−i), and explain why the answer is real.
+3. Is multiplication by 2 unitary? Is it invertible?
+4. What information is lost if (i,−2i) is replaced by its squared norm alone?
+
+Answers: (1) No. U_xy=i maps y to x; U_yx=−i maps x to y and has the opposite quarter-turn. (2) 1−i²=2; conjugate cross terms cancel. (3) It is invertible with inverse 1/2, but |2z|²=4|z|², so it is not unitary. (4) Component identities, signs and phases are lost; many different states have squared norm 5. Keep the state alongside the summary.
+
+Next dependency: [lesson 02](lesson-02.md) uses link direction and inverses to form a difference in one frame.
+<!-- END: lesson-01 -->
+
+<!-- BEGIN: lesson-02 -->
+# Lesson 02 — Covariant finite differences
+
+Essential question: How does a meaningful difference change when the local coordinate conventions change?
+
+Goals: compute a transported difference; transform a link and both endpoint states; verify the covariance rule with full components.
+
+Prerequisite bridge: lesson 01 taught how U_xy moves a state from y into x and how inverses undo a map. We now subtract only after both terms are expressed in x. Pacing: 5 minutes retrieval, 20 teaching, 15 practice, 15 diagnostics, total 55.
+
+## C17.02-E1 — Compare after transport
+
+Define d_x=ψ_x−U_xyψ_y. This is a finite difference: it compares two states without taking any infinitesimal limit. If a length-divided derivative were wanted, a spacing and its units would need to be supplied; we do not insert one. Our d_x has the same dimensionless units as ψ.
+
+Suppose G_x and G_y are invertible changes of frame at the two sites. A prime marks the new description, not a time derivative. Set ψ′_x=G_xψ_x and ψ′_y=G_yψ_y. The new link must undo the new y convention, apply the old link, and then use the new x convention. Since the rightmost map acts first, this is U′_xy=G_x U_xy G_y⁻¹. Remember the order even when working with numbers that happen to commute.
+
+Substitute these rules into the new difference:
+
+    d′_x = G_x ψ_x − (G_x U_xy G_y⁻¹)(G_y ψ_y)
+         = G_x ψ_x − G_x U_xy ψ_y
+         = G_x(ψ_x − U_xy ψ_y) = G_x d_x.
+
+The adjacent G_y⁻¹G_y cancels. We regroup products but do not exchange their order. A quantity is covariant when it follows the declared frame-change rule; its components need not stay identical. If G_x is unitary, the squared norm of d_x stays the same even though d_x changes components. That squared norm is an invariant under these frame changes.
+
+The difference is also a reconstruction coordinate. If ψ_y, U_xy, and d_x are retained, then ψ_x=d_x+U_xyψ_y. Thus a nonzero difference carries information about the mismatch. It is not a disposable error term.
+
+## C17.02-W1 — Worked cancellation
+
+Take ψ_x=1, ψ_y=2, U_xy=i. Transport gives 2i, so d_x=1−2i. Change frames with G_x=i and G_y=−1, whose inverse is −1. The new link is i·i·(−1)=1. The states are ψ′_x=i and ψ′_y=−2. Therefore d′_x=i−1(−2)=2+i. Independently, G_x d_x=i(1−2i)=i+2. Both routes agree component by component, and both differences have squared modulus 5.
+
+Reconstruction in the original frame is (1−2i)+i·2=1. In the new frame it is (2+i)+1·(−2)=i. Neither description has been discarded.
+
+## C17.02-P1 — A different frame choice
+
+Use ψ_x=2, ψ_y=1+i, U_xy=−i, G_x=−1 and G_y=i. Compute d_x, U′_xy, the two new states, d′_x, and G_xd_x. Check reconstruction.
+
+Worked answer: U_xyψ_y=1−i, so d_x=2−(1−i)=1+i. Since G_y⁻¹=−i, U′_xy=(−1)(−i)(−i)=1. The transformed states are −2 and i(1+i)=−1+i. Hence d′_x=−2−(−1+i)=−1−i, which equals (−1)(1+i). Reconstruction gives (1+i)+(1−i)=2 and (−1−i)+(−1+i)=−2. The squared modulus of each difference is 2.
+
+> Claim scope: We derived finite covariance from definitions and invertibility. The examples are synthetic. A covariant difference can be nonzero without contradicting covariance. No force law, measured interaction, or continuum equation has been inferred from this identity. Source connection: S02, /backbone_sequence/12, gauge transformation proof; see sources.md.
+
+## Diagnostic checks
+
+1. **C17.02-D1:** Why is ψ_x−ψ_y not our declared comparison? Must d′_x=d_x?
+2. In the worked example, what goes wrong if the states change but the old link i is kept?
+3. What data are sufficient to reconstruct ψ_x from its difference?
+4. Does covariance alone require G_x to preserve norms?
+
+Answers: (1) The terms belong to different frames until y is transported; covariance requires d′_x=G_xd_x, not identical components. (2) The incorrectly computed difference is i−i(−2)=3i, not 2+i. (3) Keep d_x, ψ_y, and U_xy, then add d_x+U_xyψ_y. (4) No. Invertibility suffices for the algebra; unitarity is the additional condition used for norm preservation.
+
+Next dependency: [lesson 03](lesson-03.md) repeats this cancellation along a closed chain of links.
+<!-- END: lesson-02 -->
+
+<!-- BEGIN: lesson-03 -->
+# Lesson 03 — Loops and holonomy
+
+Essential question: What remains after transport around a closed path?
+
+Goals: multiply two small matrices in order; state a loop's basepoint and path; verify its conjugation rule under a frame change.
+
+Prerequisite bridge: lesson 02 cancelled adjacent inverse frame maps on one link. We will cancel them on a chain. Two periods of 55 minutes: period A teaches matrix multiplication and ordered paths; period B teaches frame cancellation and checks. Each uses 5 retrieval, 20 teaching, 15 practice, 15 diagnostics/repair.
+
+## C17.03-E1 — From successive maps to a loop
+
+If A acts after B, the composite map is AB. To find AB, apply A to each column of B. Equivalently, multiply rows of A by columns of B. For A=[[a,b],[c,d]] and B=[[e,f],[g,h]], this gives [[ae+bg,af+bh],[ce+dg,cf+dh]]. The upper-right entry uses the first row of A and second column of B. This rule comes from applying the maps to (u,v) and collecting its coefficients. Matrix multiplication is associative: (AB)C=A(BC), because both describe the same successive actions. It need not be commutative: AB may differ from BA.
+
+A loop starts and ends at one site, the basepoint. With our subscript convention, U_loop=U01 U12 U20 acts on site 0 by the path 0→2→1→0. Do not read it as 0→1→2→0. The rightmost map U20 acts first. The result is called holonomy, the net transport around the loop. It can differ from I even though the endpoint is the starting point.
+
+The loop in new coordinates is
+
+    (G0 U01 G1⁻¹)(G1 U12 G2⁻¹)(G2 U20 G0⁻¹)
+    = G0 (U01 U12 U20) G0⁻¹.
+
+The G1 and G2 factors cancel with their adjacent inverses. The operation G0 U_loop G0⁻¹ is called conjugation. It changes the description at the basepoint. A change of basepoint requires transport of the loop description as well; a bare list of matrix entries without a basepoint is incomplete.
+
+## C17.03-W1 — Order matters
+
+Define X=[[0,1],[1,0]], Z=diag(1,−1), and I=diag(1,1). X swaps two components, while Z reverses the second one's sign. Choose U01=X, U12=Z, U20=I. Then
+
+    XZ = [[0·1+1·0, 0·0+1·(−1)],
+          [1·1+0·0, 1·0+0·(−1)]] = [[0,−1],[1,0]].
+
+The loop sends (1,0) first to itself under I, then itself under Z, then (0,1) under X. Reversing just the X and Z order gives ZX=[[0,1],[−1,0]], which sends (1,0) to (0,−1). Thus ZX=−XZ. All three links are unitary: X and Z are real symmetric, and each squares to I.
+
+With G0=Z the worked loop becomes Z(XZ)Z=ZX=−XZ. This is conjugation, not a claim that the underlying path has reversed. Reversing a path instead uses the inverse links in reversed order; for a unitary loop its reverse is U_loop†.
+
+## C17.03-P1 — Exchange the assigned links
+
+Set U01=Z, U12=X, U20=I. Compute the loop, apply it to (1,0), and conjugate it by Z. Compare with the worked example. Also compute the scalar loop U01=i, U12=1, U20=i.
+
+Worked answer: the new matrix loop is ZX=[[0,1],[−1,0]], giving (0,−1). Z(ZX)Z=XZ=−ZX, giving (0,1) if applied to the same numerical column. For a full frame comparison the input column must also transform. The scalar loop is i·1·i=−1. Scalar numbers commute; these scalar links provide no justification for exchanging matrix factors.
+
+> Claim scope: These are synthetic ordered finite loops. They illustrate S02 M13's ordered plaquette products. A plaquette is an elementary closed face in a lattice model; our three-edge example teaches the algebra without claiming it is the archived native lattice. Keep links, path, basepoint, and loop; the loop alone cannot reconstruct every individual link.
+
+## Diagnostic checks
+
+1. **C17.03-D1:** Does i·1·i=−1 allow reordering all gauge links?
+2. Write the input and output sites of U12 and explain why it follows U20 in our loop.
+3. Find X² and Z². What are X⁻¹ and Z⁻¹?
+4. Why are intermediate frame factors cancelled but not the two G0 factors across the loop?
+
+Answers: (1) No; XZ and ZX above give a counterexample. (2) U12 maps 2 to 1, so its input matches U20's output 2. (3) Both squares are I, so each is its own inverse. (4) G0 and G0⁻¹ enclose U_loop and are not adjacent. Removing them would assume an unjustified reordering.
+
+Next dependency: [lesson 04](lesson-04.md) extracts an invariant number while retaining the full loop.
+<!-- END: lesson-03 -->
+
+<!-- BEGIN: lesson-04 -->
+# Lesson 04 — A finite gauge-invariant action
+
+Essential question: How can a loop change its components while a quantity calculated from it stays the same?
+
+Goals: compute a trace and an action term; verify action invariance under the taught frame changes; explain what the action does not retain.
+
+Prerequisite bridge: lesson 03 showed U′_loop=G0 U_loop G0⁻¹. We now seek a number unchanged by this conjugation. Pacing: 5 retrieval, 20 teaching, 15 practice, 15 diagnostics; 55 minutes.
+
+## C17.04-E1 — Trace and action
+
+The trace Tr of a square matrix is the sum of its diagonal entries. For [[a,b],[c,d]], Tr=a+d. Re means take the real part of a complex number. For a scalar, treat it as a 1 by 1 matrix: its trace is itself, and I is the number 1. Keep this dimension distinction when computing Tr(I).
+
+For two 2 by 2 matrices A and B, Tr(AB)=ae+bg+cf+dh using lesson 03's entries. Tr(BA)=ea+fc+gb+hd is the same sum, since individual number products commute. Therefore Tr(AB)=Tr(BA), even when AB≠BA. Put A=G and B=U G⁻¹ to obtain Tr(GUG⁻¹)=Tr(U G⁻¹G)=Tr(U). This moves a whole factor cyclically inside the trace; it does not license arbitrary reordering of matrices.
+
+Define the single-loop action S=β ReTr(I−U_loop), with β>0. Here β has declared action units AU, so S has AU; the matrix term is dimensionless. AU is an illustrative unit of energy times time, not a measured energy transfer. For several loops, sum their terms with their own positive β_p. This has the form of the finite action in S02 M13. Since both Tr(I) and Tr(U_loop) are unchanged by conjugation, S is unchanged. That is finite gauge invariance. It is a property of relabeling local frames, not automatically a time-conservation law.
+
+The matrix F=I−U_loop is another possible retained comparison coordinate. Given F and I, recover U_loop=I−F. Taking just its trace loses information. We therefore keep the links, U_loop, F, β, and S together.
+
+## C17.04-W1 — Equal action, different entries
+
+For U_loop=XZ=[[0,−1],[1,0]], F=[[1,1],[−1,1]]. Tr(F)=2. With β=3 AU, S=3·2=6 AU. Under conjugation by Z, U′=−XZ=[[0,1],[−1,0]] and F′=[[1,−1],[1,1]]. Its trace is again 2, so S′=6 AU. The off-diagonal signs changed and remain in our record. Equal traces do not say F=F′.
+
+## C17.04-P1 — Matrix and scalar cases
+
+1. Use the practice matrix loop ZX and β=2 AU. Find F and S before and after conjugation by Z.
+2. Use scalar links (U01,U12,U20)=(i,1,i), with β=2 AU. Change frames with (G0,G1,G2)=(−1,i,1). Compute all transformed links and the action.
+
+Worked answers: (1) F=[[1,−1],[1,1]], trace 2, action 4 AU. Conjugation gives XZ and F′=[[1,1],[−1,1]], still action 4 AU. (2) U′01=(−1)i(−i)=−1, U′12=i·1·1=i, and U′20=1·i·(−1)=−i. Their product (−1)i(−i)=−1 equals the original i·1·i. In one dimension I−U=1−(−1)=2, so the action is 4 AU in each frame. Matching this scalar action to the matrix action does not equate their state spaces or loops.
+
+> Claim scope: The action form is source-grounded at S02 /backbone_sequence/12/definitions. Our coefficients and loops are synthetic. Gauge invariance follows from finite algebra. No archived field values, observed forces, or continuum dynamics were calculated.
+
+## Diagnostic checks
+
+1. **C17.04-D1:** Can a loop be reconstructed from its trace alone? Use XZ and ZX.
+2. What is the action of a 2 by 2 identity loop with β=3 AU?
+3. Why does Tr(I) equal 2 in the matrix example but 1 in the scalar example?
+4. Is invariance under a frame change the same claim as conservation through time?
+
+Answers: (1) No; both have trace 0 but different entries. (2) I−I is zero, so S=0 AU. (3) There are two diagonal ones versus one. (4) No. A frame change re-expresses a configuration; a time update changes the state according to another specified rule. Lesson 05 supplies such a rule.
+
+Next dependency: [lesson 05](lesson-05.md) constructs an invertible finite time step and checks its norm.
+<!-- END: lesson-04 -->
+
+<!-- BEGIN: lesson-05 -->
+# Lesson 05 — Norm-preserving time steps
+
+Essential question: Can a finite time update change all the components while preserving their total squared size?
+
+Goals: evaluate a diagonal Cayley step with complex division; verify its hypotheses and adjoint inverse; prove norm conservation in the finite model.
+
+Prerequisite bridge: lessons 01–04 taught adjoints, inverses, ordered multiplication and the difference between a frame change and time evolution. Here ψ_new=Cψ_old describes a specified evolution. Two 55-minute periods: A covers complex division and the worked step; B covers cancellation, practice and failure cases. Each period has 5 retrieval, 20 teaching, 15 practice, 15 diagnostic/repair minutes.
+
+## C17.05-E1 — A rational update
+
+To divide by a nonzero complex number c+di, multiply numerator and denominator by its conjugate c−di. The denominator becomes c²+d², a positive real number. For example (1−2i)/(1+2i)=(1−2i)²/5=(−3−4i)/5. A diagonal matrix is inverted by inverting each diagonal entry, provided no entry is zero. Its determinant, a scalar indicating invertibility here, is the product of those entries. For a general 2 by 2 matrix [[a,b],[c,d]], the determinant is ad−bc; a nonzero determinant permits an inverse.
+
+Let Lhat be a finite square matrix with units TU⁻¹, where TU is our chosen time unit. Let τ_C be real with units TU. Require Lhat†=Lhat (self-adjoint), and require I+iτ_C Lhat to be invertible. The product τ_C Lhat is dimensionless, so adding it to I makes sense. Define
+
+    C = (I−iτ_C Lhat)(I+iτ_C Lhat)⁻¹.
+
+This is a rational or Cayley update. A self-adjoint diagonal matrix has real diagonal entries. Self-adjointness is not the same as unitarity: diag(1,2) is self-adjoint but does not preserve norms when applied directly. It is the Cayley construction from Lhat that will preserve them.
+
+Here is why. Write A=I+iτ_C Lhat and B=I−iτ_C Lhat. For real τ_C and self-adjoint Lhat, A†=B and B†=A. Multiplying their brackets shows AB=BA=I+τ_C² Lhat². The adjoint of a product reverses its order, (PQ)†=Q†P†: transposing interchanges input and output, and conjugation acts on each number. Likewise (A⁻¹)†=(A†)⁻¹, obtained by taking adjoints of AA⁻¹=I. Thus C†=B⁻¹A. The commutation just checked gives
+
+    C†C = B⁻¹ A B A⁻¹ = B⁻¹ B A A⁻¹ = I.
+
+The same calculation gives CC†=I. In finite dimensions, A invertible also makes its adjoint B invertible. Consequently C† is the reverse step, and ‖Cψ‖²=ψ†C†Cψ=ψ†ψ. The expression ψ†ψ means the conjugate row times the original column, exactly the sum of squared moduli from lesson 01. These cancellations supply a proof for the stated finite domain, not just a numerical pattern.
+
+## C17.05-W1 — Two unequal phase changes
+
+Choose Lhat=diag(1,2) TU⁻¹ and τ_C=1 TU. Its diagonal entries are real, hence self-adjoint. A=diag(1+i,1+2i) has nonzero determinant (1+i)(1+2i)=−1+3i. The Cayley factors are (1−i)/(1+i)=−i and (1−2i)/(1+2i)=−3/5−4i/5. Both have squared modulus 1.
+
+Apply C to ψ=(1,2). The result is (−i,−6/5−8i/5). The new squared norm is 1+36/25+64/25=5, equal to 1²+2². The adjoint C†=diag(i,−3/5+4i/5) recovers the input: its first product is 1; its second is (18+32)/25=2 with imaginary cross terms cancelling. Record C and the full output, not only 5.
+
+## C17.05-P1 — A stationary component
+
+Use Lhat=diag(0,2) TU⁻¹, τ_C=1/2 TU and ψ=(1+i,2). Check all hypotheses, calculate Cψ, its squared norm, and its recovery.
+
+Worked answer: Lhat is real diagonal; τ_C is real; A=diag(1,1+i) has determinant 1+i≠0. The dimensionless factors τ_C Lhat are 0 and 1. Thus C=diag(1,−i). The output is (1+i,−2i), with norm squared 1²+1²+4=6. C†=diag(1,i) recovers (1+i,2). The two factor moduli are 1. The zero entry in Lhat causes no singularity in A because A's corresponding entry is 1.
+
+> Claim scope: The Cayley form and self-adjoint condition are reported in S02 M13; the finite cancellation and these synthetic numbers are checked here. τ_C is a time parameter. It is not the Hodge length symbol called tau in the source, nor the archival τ_R time without a supplied conversion. We do not infer an experimental time calibration.
+
+## Diagnostic checks
+
+1. **C17.05-D1:** If scalar Lhat=i/2 TU⁻¹ and τ_C=1 TU, find C. Which hypothesis fails?
+2. Why is the denominator nonzero for a real scalar value λ of Lhat and real τ_C?
+3. In the practice example, compute C†C and C applied twice.
+4. Would replacing the output by its norm permit recovery with C†?
+
+Answers: (1) iτ_C Lhat=−1/2, so C=(3/2)/(1/2)=3; squared norm scales by 9. Lhat†=−i/2≠Lhat. (2) |1+iτ_Cλ|²=1+(τ_Cλ)²>0. (3) C†C=diag(1,i(−i))=I; C²=diag(1,−1). (4) No: the norm discards phases and component amplitudes. The inverse acts on the complete output column.
+
+Next dependency: [lesson 06](lesson-06.md) separates a Euclidean norm from a metric-weighted comparison.
+<!-- END: lesson-05 -->
+
+<!-- BEGIN: lesson-06 -->
+# Lesson 06 — Metric and Hodge factors
+
+Essential question: How do coordinate weights and volume normalization combine without confusing units or source branches?
+
+Goals: compute a weighted squared length; construct the two normalized diagonal Hodge blocks; check determinants, duality and units; distinguish mature and historical exponents.
+
+Prerequisite bridge: the earlier norm added squared components with equal weights. A physical basis may give different lengths to coordinate steps. We begin with two coordinates before the source's three-dimensional structure. Three 55-minute periods: A weighted lengths and determinants; B area coordinates and blocks; C normalization proof, practice and historical comparison. Each period allocates 5 retrieval, 20 teaching, 15 practice, 15 diagnostic/repair minutes.
+
+## C17.06-E1 — Start with a ruler, then area pairs
+
+A metric supplies the rule for squared length in coordinates. For the positive diagonal metric diag(1,4) LU², a dimensionless coordinate vector (u,v) has squared physical length u²+4v² LU². LU is a chosen length unit. Thus (1,1) has squared length 5 LU², not 2 LU². The metric encodes that a unit step in the second coordinate has physical length 2 LU. Retain both the vector and metric: its length alone cannot reconstruct either.
+
+For a real three-column basis B, the Gram metric M_cell=BᵀB lists all pairwise dot products of basis columns. The dot product of real columns is the sum of component products. The superscript T means transpose without complex conjugation, since B is real. R_cell=M_cell⁻¹ is the inverse metric, with reciprocal units. We abbreviate these as M and R only within this lesson. They are not the distinct phase metric G_phase or any effective metric G_eff. The toy diagonal M below is not a replacement for the mature locked Cell3 basis, its ICRS columns, or its intentional negative determinant.
+
+For diagonal M=diag(m₁,m₂,m₃), det(M)=m₁m₂m₃. Denote this positive determinant by δ. If V is the positive cell volume, δ=V²; a volume sign from basis handedness is not recovered from δ. The inverse is R=diag(1/m₁,1/m₂,1/m₃). In three dimensions a uniform scalar factor k multiplying a whole matrix multiplies its determinant by k³: each of three independent coordinate directions contributes one factor.
+
+Area components need two directions. A bivector is an oriented area coordinate; use the explicit order (12,13,23). For a diagonal map R=diag(r₁,r₂,r₃), an area in directions 1 and 2 gains factor r₁r₂, so the induced area map is wedge²R=diag(r₁r₂,r₁r₃,r₂r₃). Read “wedge squared” as the action on coordinate pairs, not entry-by-entry squaring. More generally its entry for row pair (i,j) and column pair (k,l) is the 2 by 2 minor R_ik R_jl−R_il R_jk. A minor is the determinant of the selected two-row/two-column table; this formula defines the needed operation. Only diagonal examples are required here.
+
+The source's Hodge factors weight electric and magnetic two-form components. A two-form assigns an oriented area a number; for this course the blocks are explicit metric-derived matrices, without requiring calculus on forms. The mature formulas are H_E=δ^(1/3)R and H_B=δ^(2/3)wedge²R. A power 1/3 means cube root; a power 2/3 means square that cube root. Since M has LU², δ has LU⁶, R has LU⁻², and wedge²R has LU⁻⁴, both blocks are dimensionless.
+
+Declare the example's pairing matrix J=[[0,0,1],[0,−1,0],[1,0,0]]. It exchanges components 1 and 3 and reverses component 2; Jᵀ=J and J²=I. For a diagonal D=diag(a,b,c), J D Jᵀ=diag(c,b,a), because the middle sign occurs twice. This convention is supplied for our teaching example. We do not silently substitute it for the archival J whose basis convention is a retrieval issue in S03 AUD-009.
+
+## C17.06-W1 — Construct and check both blocks
+
+Take synthetic M=diag(1,4,16) LU². Then δ=1·4·16=64 LU⁶ and V=8 LU³. R=diag(1,1/4,1/16) LU⁻². The three area factors are (1/4,1/16,1/64) LU⁻⁴. The cube root of δ is 4 LU²; δ^(2/3)=16 LU⁴. Hence
+
+    H_E = diag(4,1,1/4)
+    H_B = 16 diag(1/4,1/16,1/64) = diag(4,1,1/4).
+
+Their determinants are 4·1·(1/4)=1. Although the blocks happen to match in this example, their coordinate roles differ. The duality check gives J H_B Jᵀ=diag(1/4,1,4)=H_E⁻¹. It involves the declared pairing of vector and area coordinates, not an untyped equality of physical fields.
+
+Why these exponents? The determinant of R is δ⁻¹. The area determinant is (r₁r₂)(r₁r₃)(r₂r₃)=(r₁r₂r₃)²=δ⁻². Thus det(δ^a R)=δ^(3a−1) and det(δ^b wedge²R)=δ^(3b−2). Requiring these to equal 1 for EVERY positive δ forces 3a−1=0 and 3b−2=0, or a=1/3 and b=2/3. Checking δ=1 alone cannot choose exponents. This diagonal derivation explains the normalization; S02's normalization theorem states the corresponding three-dimensional identities more generally.
+
+## C17.06-P1 — Swap the first two weights
+
+Use M=diag(4,1,16) LU². Find R, δ, the area factors, both blocks, their determinants and J H_B Jᵀ. Then scale all entries of M by 4 and check whether the normalized blocks change. As a two-dimensional warm-up, find the squared length of (1,2) in diag(4,1) LU².
+
+Worked answer: the warm-up gives 4·1²+1·2²=8 LU². In three dimensions δ=64 LU⁶ and R=diag(1/4,1,1/16) LU⁻². The area factors are (1/4,1/64,1/16) LU⁻⁴. H_E=diag(1,4,1/4), H_B=diag(4,1/4,1); each determinant is 1. Pairing gives diag(1,1/4,4)=H_E⁻¹. Under M→4M, δ→64δ, R→R/4 and wedge²R→wedge²R/16. The normalization factors gain 4 and 16, respectively, cancelling those changes. Both blocks stay the same. Keep the scale and M as well: normalized blocks alone discard absolute scale.
+
+> Claim scope: Mature formulas: S02 /hodge_normalization_theorem and /backbone_sequence/12; independent archival correction: S04 /hodge_correction_proof. Historical S01 /backbone_sequence/12/definitions instead uses exponents 2/3 and 4/3. Those are not used in the mature branch. Our matrices and J are synthetic and declared, not recovered Cell3 numerical data.
+
+## Diagnostic checks
+
+1. **C17.06-D1:** Determine the units of each mature block and show how the historical exponents fail at numerical δ=64 in fixed LU units.
+2. Why does a δ=1 test fail to distinguish the exponent choices?
+3. Is wedge²diag(1,1/4,1/16) equal to diag(1,1/16,1/256)?
+4. What information must accompany a normalized block to preserve the original scale and state?
+
+Answers: (1) LU²·LU⁻²=1 and LU⁴·LU⁻⁴=1. Historical determinants are δ^(3·2/3−1)=64 and δ^(3·4/3−2)=64²=4096, not 1; their blocks also carry LU² and LU⁴ rather than dimensionless units. (2) Every power of 1 is 1. (3) No; it is diag(1/4,1/16,1/64), using pair products. (4) Retain M or its declared scale with the normalization parameters, the basis convention and the full coordinate state. A scalar length is not a replacement for these.
+
+Next dependency: [lesson 07](lesson-07.md) reads certificate coefficients only within their declared normalization and domain.
+<!-- END: lesson-06 -->
+
+<!-- BEGIN: lesson-07 -->
+# Lesson 07 — Reading a fixed-rung certificate
+
+Essential question: What must accompany a numerical bound before we can replay its calculation?
+
+Goals: transcribe bounds with their inequality signs and units; identify supplied and missing certificate inputs; evaluate a separately declared synthetic bound without merging evidence classes.
+
+Prerequisite bridge: lesson 06 showed that numbers depend on conventions and normalization. A certificate similarly depends on its finite model, coefficients and method. Two 55-minute periods: A source card and units, B missing-input analysis and synthetic arithmetic. Each period uses 5 retrieval, 20 teaching, 15 practice and 15 diagnostic/repair minutes.
+
+## C17.07-E1 — The scope of a certificate
+
+A finite compiler here means an explicit procedure assembling the finite model's matrices and coefficients. A rung is a fixed level of its hierarchy. A certificate is a calculation record supporting a stated result for specified inputs. The result and its scope belong together: changing coefficients or rung means a different calculation. A hash is a file fingerprint used to check which exact bytes were read; it does not prove the file's claims.
+
+An interval bound encloses a quantity instead of replacing it by a rounded guess. The statement ε<0.007744166 is an upper bound with a strict inequality, not an equality or a measured uncertainty distribution. A non-strict ≤ allows equality. A gap is a separation between spectral levels of the specified model; this is a recognition definition, not an assignment to compute an untaught spectrum. A contraction factor α bounds a shrinkage in the certificate's specified comparison; its reported value does not supply the missing comparison norm or matrices.
+
+S02 M13 names site-indexed compact-group links and positive native plaquette/detail coefficients as domain hypotheses. For our reading purposes a compact group is a bounded, closed collection of allowed invertible frame maps with composition and inverses; the scalar unit-modulus phases are a familiar example. The exact source group's carrier and compiler still must be specified to replay its certificate. Positive coefficients mean strictly greater than zero. Its detail coefficient lower bound c_*>0 must also be retained. A theorem for one pinned finite compiler does not automatically range over every model bearing the same module label.
+
+Use this certificate card: exact source path/hash and pointer; rung and compiler identifier; spaces and basis conventions; complete matrix inputs; positive coefficients and their units; enclosure method and precision; bound with inequality; replay command and object availability. If a field is missing, say unavailable. Do not fill it with our teaching matrix.
+
+## C17.07-W1 — Read the archived card
+
+At S02 /backbone_sequence/12/proof, the source reports:
+
+| Quantity | Source-reported bound | Reading |
+|---|---|---|
+| ε_E | <0.007744166 | strict dimensionless enclosure bound |
+| ε_B | <0.015868134 | strict dimensionless enclosure bound |
+| α | ≤0.5244 | non-strict contraction bound |
+| Δ | >0.10185916 H_N/τ_R | strict finite-rung energy-gap bound |
+
+H_N denotes an action scale and τ_R a positive time scale in this reading, so E0=H_N/τ_R has energy units. Action is energy multiplied by time; division by time recovers energy. The coefficient 0.10185916 is dimensionless. Retain all displayed digits as reported bounds, not a claim that the underlying method used exactly that many digits of working precision.
+
+What can we verify now? We can verify the source bytes, pointer, inequality transcription and units. The full fixed-rung matrices, native coefficient list, interval method, numerical precision settings and executable certificate reference are not supplied in this read packet. S03 /findings/8, AUD-009, explicitly lists fixed-rung interval certificate inputs among missing replay objects. Thus this is a source-scoped reading, not a fresh replay. Its source-local VERIFIED_NOT_LOADED handling preserves the claim and the retrieval gap together.
+
+## C17.07-P1 — Separate reading from a toy calculation
+
+First, classify a packet containing only the four bounds above. Name at least four missing fields. Then evaluate this independent, synthetic rule: d_root=3/10 and c_*=1/20 are dimensionless positive inputs; define b=min(d_root,2c_*). The symbol min selects the smaller of its two arguments. Report bE0. For an optional unit check take H_N=2 AU and τ_R=4 TU, with EU=AU/TU.
+
+Worked answer: the packet is a source summary; the exact compiler/rung, full matrices, positive coefficient list, interval method/working precision, and pinned replay object/command are absent. Replay is unavailable. In the synthetic rule, 2c_*=2/20=1/10, which is less than 3/10, so b=1/10 and bE0=E0/10. For the optional units, E0=(2/4) EU=1/2 EU, so bE0=1/20 EU. This arithmetic does not reproduce the archived 0.10185916 bound. Here d_root is explicitly normalized; if a root gap is instead given in energy units, divide it by E0 before placing it in this dimensionless minimum.
+
+> Claim scope: The four archival numbers are source-reported facts about what S02 states. Hash checking does not verify their proof. Our min calculation is a fresh synthetic finite calculation. Neither one supplies an infinite-depth operator-domain theorem or a conventional continuum comparison. M13 here is the mathematical-backbone module; an integration compiler's similarly numbered M13 is not interchangeable with it.
+
+## Diagnostic checks
+
+1. **C17.07-D1:** What does VERIFIED_NOT_LOADED permit us to report? What positivity condition remains essential?
+2. Is α=0.5244 an exact transcription of the source claim?
+3. Would changing c_* to zero preserve a strictly positive synthetic lower bound?
+4. Can the four displayed bounds determine the original compiler matrices or working precision?
+
+Answers: (1) A source-reported status and unresolved retrieval requirement, not a fresh verification or an automatic refutation. Retain positive native coefficients and c_*>0. (2) No: use α≤0.5244. (3) No: min(3/10,0)=0, and the stipulated positivity hypothesis fails. (4) No. The full replay inputs and numerical method are separate records; displayed decimal places are not sufficient.
+
+Next dependency: [lesson 08](lesson-08.md) separates what finite conservation proves from what an infinite limit would require.
+<!-- END: lesson-07 -->
+
+<!-- BEGIN: lesson-08 -->
+# Lesson 08 — Conservation and continuum scope
+
+Essential question: Exactly what is conserved by our finite evolution, and what remains a separate question?
+
+Goals: compute norm and Lhat quadratic value before and after evolution; recover full states and retain comparison remainders; distinguish finite identities, source bounds and infinite comparison claims.
+
+Prerequisite bridge: lesson 05 proved a finite Cayley step unitary; lesson 07 separated a source bound from its missing replay inputs. We now identify the quantities we can check completely. Pacing: 5 retrieval, 20 teaching, 15 practice, 15 diagnostic/repair minutes, total 55. The infinite-series paragraph is recognition-only.
+
+## C17.08-E1 — Conservation needs a specified quantity
+
+To say a quantity is conserved means it has the same value before and after the stated update. Unitarity conserves N=ψ†ψ. It does not require each complex component to stay fixed. For a self-adjoint Lhat also define Q_L=ψ†Lhatψ, with units TU⁻¹ for our dimensionless states. For diagonal Lhat with entries λ₁,λ₂, multiply the column by Lhat and then by ψ†: Q_L=λ₁|z₁|²+λ₂|z₂|². We call this the unnormalized Lhat quadratic value. The normalized expectation is Q_L/N when N>0. These must not be confused: for a state of squared norm 5, the number 9 is a numerator, not the normalized expectation 9/5.
+
+The Cayley C commutes with Lhat because I±iτ_C Lhat do, and their invertible factors retain that commutation. To see the last step, if ALhat=Lhat A, multiply by A⁻¹ on both sides to obtain Lhat A⁻¹=A⁻¹Lhat. Therefore
+
+    (Cψ)†Lhat(Cψ) = ψ† C† Lhat C ψ
+                  = ψ† C† C Lhat ψ = ψ† Lhat ψ.
+
+This is a conservation law for this update and this matrix. For another observable represented by a matrix A_obs, unitarity alone only gives ψ†C†A_obs Cψ; it equals the old value if the needed commutation holds. The proof does not claim conservation of every possible measurement.
+
+Every finite number of steps remains reversible with the corresponding inverse steps. A continuum limit is a different assertion: it compares a sequence of finer models or smaller time steps with a specified limiting object. Such a claim requires a comparison rule, a domain where the limiting operation is defined, and control of the entire limiting process. Exact finite conservation is useful evidence about a construction, but does not supply these missing definitions by itself.
+
+## C17.08-W1 — Check two quantities
+
+Return to Lhat=diag(1,2) TU⁻¹, τ_C=1 TU and ψ=(1,2). The step gives ψ_new=(−i,−6/5−8i/5). Its squared component sizes are 1 and (36+64)/25=4. Consequently N=5 both before and after, and Q_L=1·1+2·4=9 TU⁻¹ both before and after. The normalized expectation is 9/5 TU⁻¹ in both states. The component phases changed and are retained in ψ_new.
+
+If we compare the new state with the deliberately simple reference ψ_ref=ψ, the full remainder is r=ψ_new−ψ=(−1−i,−16/5−8i/5). It is nonzero even though the two conserved scalars agree. Retain ψ_ref and r, giving ψ_new=ψ_ref+r. Do not replace r by a score or call it a violated conservation law.
+
+## C17.08-P1 — Two steps and two recoveries
+
+Use the practice Lhat=diag(0,2) TU⁻¹, τ_C=1/2 TU and ψ=(1+i,2). Find N and Q_L initially, after one step and after two. Compute the normalized expectation and explain how to recover the original state.
+
+Worked answer: C=diag(1,−i) gives (1+i,−2i), then (1+i,−2). In all three states component squared sizes are 2 and 4, so N=6 and Q_L=0·2+2·4=8 TU⁻¹. The normalized expectation is 8/6=4/3 TU⁻¹. Applying C†=diag(1,i) twice reverses the second component −2→−2i→2. The one-step remainder against the initial reference is (0,−2−2i), retained with that reference. These finite computations supply no unprovided continuum operator.
+
+> Claim scope: The exact finite conservation statements follow from our hypotheses and calculations. S02 M13 separately reports finite compiler bounds and a thermal-detail convergence statement. Its optional infinite-depth domain comparison and continuum Yang–Mills comparison remain separate source categories. No empirical measurements or proposed physical mechanism are established by the teaching numbers.
+
+Recognition-only extension: S02 writes a thermal-detail series with terms 8^n exp(−β_T c_*2^n), n=0,1,2,…, with positive coefficients. Here β_T is a thermal parameter, distinct from lesson 04's action coefficient, and β_T c_* must be dimensionless in this normalized expression. The exponential exp and natural logarithm ln are inverse functions; the only fact used here is exp(ln16)=16. If the synthetic product β_T c_*=ln16, each term is 8^n/16^(2^n). At n=0,1,2 the terms are 1/16, 8/256=1/32, and 64/65536=1/1024. The three-term sum is 97/1024. A partial sum retains an uncomputed tail T: full sum =97/1024+T, if the series converges. We do not treat T as zero or assign an infinite operator proof from three terms. No calculus, logarithm computation or convergence proof is assessed.
+
+## Diagnostic checks
+
+1. **C17.08-D1:** Do those three thermal terms certify the source's infinite comparison? Separate the three evidence layers.
+2. Is Q_L=9 TU⁻¹ the normalized expectation for the worked state?
+3. Could a nonzero state remainder coexist with exactly conserved norm?
+4. Does C†C=I alone prove conservation of ψ†A_obsψ for every A_obs?
+
+Answers: (1) No. Our finite identities are derived; the archival certificate and convergence claims are source-reported; optional infinite-domain/continuum comparisons require their own supplied objects and proofs. (2) No: divide by N=5 to get 9/5 TU⁻¹. (3) Yes, the worked remainder explicitly does. (4) No; one must check C†A_obs C=A_obs (commutation with a unitary C is sufficient). A norm check cannot replace an observable-specific check.
+
+Next dependency: [capstone](capstone.md) joins the finite operations and exact source reading into one retained model dossier.
+<!-- END: lesson-08 -->

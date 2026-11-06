@@ -1,0 +1,157 @@
+{
+  "schema_version": "1.0",
+  "status": "passed",
+  "scope": "Local, cumulative and final content audit plus manager assembly/containment checks; final deterministic validator is run after hash refresh",
+  "findings": [
+    {
+      "id": "C18-IA-001",
+      "section": "C18.02-E1",
+      "correction": "Add L_a† e_Ω=0 (and likewise for L_b†).",
+      "level": "local",
+      "severity": "minor",
+      "file": "lesson-02.md",
+      "disposition": "corrected",
+      "category": "definition completeness",
+      "defect": "Removal formulas explicitly cover words beginning a or b but leave its action at the empty-word root implicit.",
+      "verification": "Re-read lesson-02 C18.02-E1; L_a† e_Ω=0 is now explicitly present.",
+      "affected_checkpoints": [
+        "lesson-02"
+      ]
+    },
+    {
+      "id": "C18-IA-002",
+      "level": "final",
+      "category": "cross-reference",
+      "file": "capstone.md",
+      "section": "Answer 07",
+      "severity": "minor",
+      "defect": "Table refers to Lessons 02/08 although there are only seven lessons.",
+      "correction": "Use Lesson 02; capstone task 08.",
+      "verification": "Re-read capstone Answer 07 table: now reads Lesson 02; capstone task 08.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "capstone"
+      ]
+    },
+    {
+      "id": "C18-PARENT-001",
+      "level": "final",
+      "category": "Markdown table",
+      "file": "terminology.md",
+      "section": "Norm-squared row",
+      "severity": "minor",
+      "defect": "Unescaped norm bars split the term into extra Markdown cells.",
+      "correction": "Escape the four norm bars without changing the mathematical text.",
+      "verification": "Parent inspected the full glossary and checked that every table row has exactly three cells.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "terminology"
+      ]
+    }
+  ],
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "corrected_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 3
+  },
+  "checks": [
+    {
+      "id": "lesson-01-assembly",
+      "status": "passed",
+      "evidence": "Exact normalized lesson text matches one marker pair in approved order"
+    },
+    {
+      "id": "lesson-02-assembly",
+      "status": "passed",
+      "evidence": "Exact normalized lesson text matches one marker pair in approved order"
+    },
+    {
+      "id": "lesson-03-assembly",
+      "status": "passed",
+      "evidence": "Exact normalized lesson text matches one marker pair in approved order"
+    },
+    {
+      "id": "lesson-04-assembly",
+      "status": "passed",
+      "evidence": "Exact normalized lesson text matches one marker pair in approved order"
+    },
+    {
+      "id": "lesson-05-assembly",
+      "status": "passed",
+      "evidence": "Exact normalized lesson text matches one marker pair in approved order"
+    },
+    {
+      "id": "lesson-06-assembly",
+      "status": "passed",
+      "evidence": "Exact normalized lesson text matches one marker pair in approved order"
+    },
+    {
+      "id": "lesson-07-assembly",
+      "status": "passed",
+      "evidence": "Exact normalized lesson text matches one marker pair in approved order"
+    },
+    {
+      "id": "markdown",
+      "status": "passed",
+      "evidence": "All authored Markdown has balanced fenced blocks, no pending placeholders and resolving relative file links; no paginated/visual output requested"
+    },
+    {
+      "id": "independent-content",
+      "status": "passed",
+      "evidence": "Audited-file hashes unchanged; seven lessons, capstone and three supporting artifacts independently read and recomputed"
+    },
+    {
+      "id": "finite-verification",
+      "status": "passed",
+      "evidence": "183 successful standard-library arithmetic/hash/pointer/teaching-link checks in tf_gpu_env"
+    },
+    {
+      "id": "source-fidelity",
+      "status": "passed",
+      "evidence": "Manager compared sources.md to directly read M14, M03, M11, BR-05, BR-10, five proof nodes and AUD-009; all five archival hashes match"
+    },
+    {
+      "id": "evidence-layers",
+      "status": "passed",
+      "evidence": "Source-report, finite derivation, conditional construction and missing replay bodies explicitly distinguished; no empirical data or physical phase/occupation inference added"
+    },
+    {
+      "id": "audience-and-minimality",
+      "status": "passed",
+      "evidence": "Independent audit confirms local operation bridges, four diagnostics per lesson, 12 core plus 3 capstone periods; recognition-only extensions not required computations"
+    },
+    {
+      "id": "unit-A",
+      "status": "passed",
+      "evidence": "Lessons 01–04 preserve carrier/endpoint definitions and include complete reconstruction; finite square index 0 versus rectangular/infinite index -1 checked"
+    },
+    {
+      "id": "unit-B",
+      "status": "passed",
+      "evidence": "Lessons 05–06 preserve spatial/time and independent grading labels; angular representation counts separated from physical occupation"
+    },
+    {
+      "id": "unit-C-and-E05",
+      "status": "passed",
+      "evidence": "Lesson 07 and all ten capstone tasks have prior E/W/P/D anchors and independently answered practice; backward map contains explicit inputs/outputs"
+    },
+    {
+      "id": "storage",
+      "status": "passed",
+      "evidence": "All authored course artifacts are under the authorized direct project child; sources read-only; no raw copies or large data arrays"
+    }
+  ],
+  "independent_report": "independent-audit.json",
+  "independent_report_sha256": "7e69decae19e4c6b91dcf6e9349dca71af363f883bca8e84c8d3b5f78db70124",
+  "verification_report": "verification.json",
+  "source_gaps": [
+    "B_8 and T_0 complete typed replay bodies not loaded; source-scoped recognition boundary is preserved, not assigned as a course proof."
+  ],
+  "rendering": "Markdown delivery; no PDF/Word or visual artifact generation requested. Table/fence/link structure checked.",
+  "private_reasoning_included": false
+}

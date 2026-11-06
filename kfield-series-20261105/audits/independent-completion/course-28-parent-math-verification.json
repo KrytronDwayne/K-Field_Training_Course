@@ -1,0 +1,683 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-28",
+  "timestamp": "2026-11-05T20:27:50.880967+00:00",
+  "status": "passed",
+  "passed_checks": 134,
+  "checks": [
+    {
+      "name": "exposure support 0",
+      "actual": "(Fraction(-1, 10), Fraction(1, 10))",
+      "expected": "(Fraction(-1, 10), Fraction(1, 10))"
+    },
+    {
+      "name": "exposure support 1",
+      "actual": "(Fraction(9, 10), Fraction(11, 10))",
+      "expected": "(Fraction(9, 10), Fraction(11, 10))"
+    },
+    {
+      "name": "exposure support 2",
+      "actual": "(Fraction(19, 10), Fraction(21, 10))",
+      "expected": "(Fraction(19, 10), Fraction(21, 10))"
+    },
+    {
+      "name": "exposure support 3",
+      "actual": "(Fraction(29, 10), Fraction(31, 10))",
+      "expected": "(Fraction(29, 10), Fraction(31, 10))"
+    },
+    {
+      "name": "exposure support 4",
+      "actual": "(Fraction(39, 10), Fraction(41, 10))",
+      "expected": "(Fraction(39, 10), Fraction(41, 10))"
+    },
+    {
+      "name": "channel count ratio",
+      "actual": "2",
+      "expected": "2"
+    },
+    {
+      "name": "ratio list",
+      "actual": "[Fraction(1, 5), None, Fraction(2, 5), Fraction(1, 10), Fraction(3, 10)]",
+      "expected": "[Fraction(1, 5), None, Fraction(2, 5), Fraction(1, 10), Fraction(3, 10)]"
+    },
+    {
+      "name": "inverse ratio 0",
+      "actual": "2",
+      "expected": "2"
+    },
+    {
+      "name": "invalid ratio raw preserved 1",
+      "actual": "(Fraction(5, 1), Fraction(0, 1))",
+      "expected": "(5, 0)"
+    },
+    {
+      "name": "inverse ratio 2",
+      "actual": "8",
+      "expected": "8"
+    },
+    {
+      "name": "inverse ratio 3",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "name": "inverse ratio 4",
+      "actual": "3",
+      "expected": "3"
+    },
+    {
+      "name": "ratio above one",
+      "actual": "6/5",
+      "expected": "6/5"
+    },
+    {
+      "name": "negative numerator retained",
+      "actual": "-1/5",
+      "expected": "-1/5"
+    },
+    {
+      "name": "valid zero ratio",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "ten-significant-digit closure",
+      "actual": "1/30000000000",
+      "expected": "1/30000000000"
+    },
+    {
+      "name": "display-only numerator",
+      "actual": "9999999999/10000000000",
+      "expected": "9999999999/10000000000"
+    },
+    {
+      "name": "full reconstructed numerator",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "name": "nonidentifiable ratio",
+      "actual": "1/5",
+      "expected": "1/5"
+    },
+    {
+      "name": "reflection involution [1, 2, 4, 3]",
+      "actual": "[1, 2, 4, 3]",
+      "expected": "[1, 2, 4, 3]"
+    },
+    {
+      "name": "same part [1, 2, 4, 3]",
+      "actual": "[Fraction(2, 1), Fraction(3, 1), Fraction(3, 1), Fraction(2, 1)]",
+      "expected": "[2, 3, 3, 2]"
+    },
+    {
+      "name": "inverted part [1, 2, 4, 3]",
+      "actual": "[Fraction(-1, 1), Fraction(-1, 1), Fraction(1, 1), Fraction(1, 1)]",
+      "expected": "[-1, -1, 1, 1]"
+    },
+    {
+      "name": "reflection same symmetry [1, 2, 4, 3]",
+      "actual": "[Fraction(2, 1), Fraction(3, 1), Fraction(3, 1), Fraction(2, 1)]",
+      "expected": "[Fraction(2, 1), Fraction(3, 1), Fraction(3, 1), Fraction(2, 1)]"
+    },
+    {
+      "name": "reflection inverted symmetry [1, 2, 4, 3]",
+      "actual": "[Fraction(1, 1), Fraction(1, 1), Fraction(-1, 1), Fraction(-1, 1)]",
+      "expected": "[Fraction(1, 1), Fraction(1, 1), Fraction(-1, 1), Fraction(-1, 1)]"
+    },
+    {
+      "name": "reflection reconstruction [1, 2, 4, 3]",
+      "actual": "[Fraction(1, 1), Fraction(2, 1), Fraction(4, 1), Fraction(3, 1)]",
+      "expected": "[1, 2, 4, 3]"
+    },
+    {
+      "name": "same defect [1, 2, 4, 3]",
+      "actual": "[-2, -2, 2, 2]",
+      "expected": "[Fraction(-2, 1), Fraction(-2, 1), Fraction(2, 1), Fraction(2, 1)]"
+    },
+    {
+      "name": "inverted defect [1, 2, 4, 3]",
+      "actual": "[4, 6, 6, 4]",
+      "expected": "[Fraction(4, 1), Fraction(6, 1), Fraction(6, 1), Fraction(4, 1)]"
+    },
+    {
+      "name": "reflection involution [3, 1, -1, 1]",
+      "actual": "[3, 1, -1, 1]",
+      "expected": "[3, 1, -1, 1]"
+    },
+    {
+      "name": "same part [3, 1, -1, 1]",
+      "actual": "[Fraction(2, 1), Fraction(0, 1), Fraction(0, 1), Fraction(2, 1)]",
+      "expected": "[2, 0, 0, 2]"
+    },
+    {
+      "name": "inverted part [3, 1, -1, 1]",
+      "actual": "[Fraction(1, 1), Fraction(1, 1), Fraction(-1, 1), Fraction(-1, 1)]",
+      "expected": "[1, 1, -1, -1]"
+    },
+    {
+      "name": "reflection same symmetry [3, 1, -1, 1]",
+      "actual": "[Fraction(2, 1), Fraction(0, 1), Fraction(0, 1), Fraction(2, 1)]",
+      "expected": "[Fraction(2, 1), Fraction(0, 1), Fraction(0, 1), Fraction(2, 1)]"
+    },
+    {
+      "name": "reflection inverted symmetry [3, 1, -1, 1]",
+      "actual": "[Fraction(-1, 1), Fraction(-1, 1), Fraction(1, 1), Fraction(1, 1)]",
+      "expected": "[Fraction(-1, 1), Fraction(-1, 1), Fraction(1, 1), Fraction(1, 1)]"
+    },
+    {
+      "name": "reflection reconstruction [3, 1, -1, 1]",
+      "actual": "[Fraction(3, 1), Fraction(1, 1), Fraction(-1, 1), Fraction(1, 1)]",
+      "expected": "[3, 1, -1, 1]"
+    },
+    {
+      "name": "same defect [3, 1, -1, 1]",
+      "actual": "[2, 2, -2, -2]",
+      "expected": "[Fraction(2, 1), Fraction(2, 1), Fraction(-2, 1), Fraction(-2, 1)]"
+    },
+    {
+      "name": "inverted defect [3, 1, -1, 1]",
+      "actual": "[4, 0, 0, 4]",
+      "expected": "[Fraction(4, 1), Fraction(0, 1), Fraction(0, 1), Fraction(4, 1)]"
+    },
+    {
+      "name": "midpoint inverted defect",
+      "actual": "[0, 0, 0]",
+      "expected": "[0, 0, 0]"
+    },
+    {
+      "name": "nonzero center same component",
+      "actual": "[Fraction(0, 1), Fraction(3, 1), Fraction(0, 1)]",
+      "expected": "[0, 3, 0]"
+    },
+    {
+      "name": "half-turn involution [1, 2, 3, 4]",
+      "actual": "[1, 2, 3, 4]",
+      "expected": "[1, 2, 3, 4]"
+    },
+    {
+      "name": "even part [1, 2, 3, 4]",
+      "actual": "[Fraction(2, 1), Fraction(3, 1), Fraction(2, 1), Fraction(3, 1)]",
+      "expected": "[2, 3, 2, 3]"
+    },
+    {
+      "name": "odd part [1, 2, 3, 4]",
+      "actual": "[Fraction(-1, 1), Fraction(-1, 1), Fraction(1, 1), Fraction(1, 1)]",
+      "expected": "[-1, -1, 1, 1]"
+    },
+    {
+      "name": "half-turn even symmetry [1, 2, 3, 4]",
+      "actual": "[Fraction(2, 1), Fraction(3, 1), Fraction(2, 1), Fraction(3, 1)]",
+      "expected": "[Fraction(2, 1), Fraction(3, 1), Fraction(2, 1), Fraction(3, 1)]"
+    },
+    {
+      "name": "half-turn odd symmetry [1, 2, 3, 4]",
+      "actual": "[Fraction(1, 1), Fraction(1, 1), Fraction(-1, 1), Fraction(-1, 1)]",
+      "expected": "[Fraction(1, 1), Fraction(1, 1), Fraction(-1, 1), Fraction(-1, 1)]"
+    },
+    {
+      "name": "half-turn reconstruction [1, 2, 3, 4]",
+      "actual": "[Fraction(1, 1), Fraction(2, 1), Fraction(3, 1), Fraction(4, 1)]",
+      "expected": "[1, 2, 3, 4]"
+    },
+    {
+      "name": "E idempotent [1, 2, 3, 4]",
+      "actual": "[Fraction(2, 1), Fraction(3, 1), Fraction(2, 1), Fraction(3, 1)]",
+      "expected": "[Fraction(2, 1), Fraction(3, 1), Fraction(2, 1), Fraction(3, 1)]"
+    },
+    {
+      "name": "O idempotent [1, 2, 3, 4]",
+      "actual": "[Fraction(-1, 1), Fraction(-1, 1), Fraction(1, 1), Fraction(1, 1)]",
+      "expected": "[Fraction(-1, 1), Fraction(-1, 1), Fraction(1, 1), Fraction(1, 1)]"
+    },
+    {
+      "name": "cross projection zero [1, 2, 3, 4]",
+      "actual": "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+      "expected": "[0, 0, 0, 0]"
+    },
+    {
+      "name": "comparator nullspace [1, 2, 3, 4] 2,3 shift0",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "comparator nullspace [1, 2, 3, 4] 2,3 shift1",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "comparator nullspace [1, 2, 3, 4] 2,3 shift2",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "comparator nullspace [1, 2, 3, 4] 2,3 shift3",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "comparator nullspace [1, 2, 3, 4] -1,4 shift0",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "comparator nullspace [1, 2, 3, 4] -1,4 shift1",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "comparator nullspace [1, 2, 3, 4] -1,4 shift2",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "comparator nullspace [1, 2, 3, 4] -1,4 shift3",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "comparator nullspace [1, 2, 3, 4] 0,7 shift0",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "comparator nullspace [1, 2, 3, 4] 0,7 shift1",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "comparator nullspace [1, 2, 3, 4] 0,7 shift2",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "comparator nullspace [1, 2, 3, 4] 0,7 shift3",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "half-turn involution [3, 1, -1, 1]",
+      "actual": "[3, 1, -1, 1]",
+      "expected": "[3, 1, -1, 1]"
+    },
+    {
+      "name": "even part [3, 1, -1, 1]",
+      "actual": "[Fraction(1, 1), Fraction(1, 1), Fraction(1, 1), Fraction(1, 1)]",
+      "expected": "[1, 1, 1, 1]"
+    },
+    {
+      "name": "odd part [3, 1, -1, 1]",
+      "actual": "[Fraction(2, 1), Fraction(0, 1), Fraction(-2, 1), Fraction(0, 1)]",
+      "expected": "[2, 0, -2, 0]"
+    },
+    {
+      "name": "half-turn even symmetry [3, 1, -1, 1]",
+      "actual": "[Fraction(1, 1), Fraction(1, 1), Fraction(1, 1), Fraction(1, 1)]",
+      "expected": "[Fraction(1, 1), Fraction(1, 1), Fraction(1, 1), Fraction(1, 1)]"
+    },
+    {
+      "name": "half-turn odd symmetry [3, 1, -1, 1]",
+      "actual": "[Fraction(-2, 1), Fraction(0, 1), Fraction(2, 1), Fraction(0, 1)]",
+      "expected": "[Fraction(-2, 1), Fraction(0, 1), Fraction(2, 1), Fraction(0, 1)]"
+    },
+    {
+      "name": "half-turn reconstruction [3, 1, -1, 1]",
+      "actual": "[Fraction(3, 1), Fraction(1, 1), Fraction(-1, 1), Fraction(1, 1)]",
+      "expected": "[3, 1, -1, 1]"
+    },
+    {
+      "name": "E idempotent [3, 1, -1, 1]",
+      "actual": "[Fraction(1, 1), Fraction(1, 1), Fraction(1, 1), Fraction(1, 1)]",
+      "expected": "[Fraction(1, 1), Fraction(1, 1), Fraction(1, 1), Fraction(1, 1)]"
+    },
+    {
+      "name": "O idempotent [3, 1, -1, 1]",
+      "actual": "[Fraction(2, 1), Fraction(0, 1), Fraction(-2, 1), Fraction(0, 1)]",
+      "expected": "[Fraction(2, 1), Fraction(0, 1), Fraction(-2, 1), Fraction(0, 1)]"
+    },
+    {
+      "name": "cross projection zero [3, 1, -1, 1]",
+      "actual": "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+      "expected": "[0, 0, 0, 0]"
+    },
+    {
+      "name": "comparator nullspace [3, 1, -1, 1] 2,3 shift0",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "comparator nullspace [3, 1, -1, 1] 2,3 shift1",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "comparator nullspace [3, 1, -1, 1] 2,3 shift2",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "comparator nullspace [3, 1, -1, 1] 2,3 shift3",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "comparator nullspace [3, 1, -1, 1] -1,4 shift0",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "comparator nullspace [3, 1, -1, 1] -1,4 shift1",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "comparator nullspace [3, 1, -1, 1] -1,4 shift2",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "comparator nullspace [3, 1, -1, 1] -1,4 shift3",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "comparator nullspace [3, 1, -1, 1] 0,7 shift0",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "comparator nullspace [3, 1, -1, 1] 0,7 shift1",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "comparator nullspace [3, 1, -1, 1] 0,7 shift2",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "comparator nullspace [3, 1, -1, 1] 0,7 shift3",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "different operators",
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "name": "full signed DFT [-1, -1, 1, 1]",
+      "actual": "[(Fraction(0, 1), Fraction(0, 1)), (Fraction(-2, 1), Fraction(2, 1)), (Fraction(0, 1), Fraction(0, 1)), (Fraction(-2, 1), Fraction(-2, 1))]",
+      "expected": "[(0, 0), (-2, 2), (0, 0), (-2, -2)]"
+    },
+    {
+      "name": "exact inverse DFT [-1, -1, 1, 1]",
+      "actual": "[(Fraction(-1, 1), Fraction(0, 1)), (Fraction(-1, 1), Fraction(0, 1)), (Fraction(1, 1), Fraction(0, 1)), (Fraction(1, 1), Fraction(0, 1))]",
+      "expected": "[(-1, 0), (-1, 0), (1, 0), (1, 0)]"
+    },
+    {
+      "name": "full signed DFT [2, 0, -2, 0]",
+      "actual": "[(Fraction(0, 1), Fraction(0, 1)), (Fraction(4, 1), Fraction(0, 1)), (Fraction(0, 1), Fraction(0, 1)), (Fraction(4, 1), Fraction(0, 1))]",
+      "expected": "[(0, 0), (4, 0), (0, 0), (4, 0)]"
+    },
+    {
+      "name": "exact inverse DFT [2, 0, -2, 0]",
+      "actual": "[(Fraction(2, 1), Fraction(0, 1)), (Fraction(0, 1), Fraction(0, 1)), (Fraction(-2, 1), Fraction(0, 1)), (Fraction(0, 1), Fraction(0, 1))]",
+      "expected": "[(2, 0), (0, 0), (-2, 0), (0, 0)]"
+    },
+    {
+      "name": "full signed DFT [1, 2, 3, 4]",
+      "actual": "[(Fraction(10, 1), Fraction(0, 1)), (Fraction(-2, 1), Fraction(2, 1)), (Fraction(-2, 1), Fraction(0, 1)), (Fraction(-2, 1), Fraction(-2, 1))]",
+      "expected": "[(10, 0), (-2, 2), (-2, 0), (-2, -2)]"
+    },
+    {
+      "name": "exact inverse DFT [1, 2, 3, 4]",
+      "actual": "[(Fraction(1, 1), Fraction(0, 1)), (Fraction(2, 1), Fraction(0, 1)), (Fraction(3, 1), Fraction(0, 1)), (Fraction(4, 1), Fraction(0, 1))]",
+      "expected": "[(1, 0), (2, 0), (3, 0), (4, 0)]"
+    },
+    {
+      "name": "full signed DFT [1, 0, 0, 0]",
+      "actual": "[(Fraction(1, 1), Fraction(0, 1)), (Fraction(1, 1), Fraction(0, 1)), (Fraction(1, 1), Fraction(0, 1)), (Fraction(1, 1), Fraction(0, 1))]",
+      "expected": "[(1, 0), (1, 0), (1, 0), (1, 0)]"
+    },
+    {
+      "name": "exact inverse DFT [1, 0, 0, 0]",
+      "actual": "[(Fraction(1, 1), Fraction(0, 1)), (Fraction(0, 1), Fraction(0, 1)), (Fraction(0, 1), Fraction(0, 1)), (Fraction(0, 1), Fraction(0, 1))]",
+      "expected": "[(1, 0), (0, 0), (0, 0), (0, 0)]"
+    },
+    {
+      "name": "full signed DFT [0, 1, 0, 0]",
+      "actual": "[(Fraction(1, 1), Fraction(0, 1)), (Fraction(0, 1), Fraction(-1, 1)), (Fraction(-1, 1), Fraction(0, 1)), (Fraction(0, 1), Fraction(1, 1))]",
+      "expected": "[(1, 0), (0, -1), (-1, 0), (0, 1)]"
+    },
+    {
+      "name": "exact inverse DFT [0, 1, 0, 0]",
+      "actual": "[(Fraction(0, 1), Fraction(0, 1)), (Fraction(1, 1), Fraction(0, 1)), (Fraction(0, 1), Fraction(0, 1)), (Fraction(0, 1), Fraction(0, 1))]",
+      "expected": "[(0, 0), (1, 0), (0, 0), (0, 0)]"
+    },
+    {
+      "name": "same pulse magnitudes",
+      "actual": "[Fraction(1, 1), Fraction(1, 1), Fraction(1, 1), Fraction(1, 1)]",
+      "expected": "[Fraction(1, 1), Fraction(1, 1), Fraction(1, 1), Fraction(1, 1)]"
+    },
+    {
+      "name": "native25 aliases1",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "name": "native27 aliases3",
+      "actual": "3",
+      "expected": "3"
+    },
+    {
+      "name": "difference pathway arithmetic",
+      "actual": "2",
+      "expected": "2"
+    },
+    {
+      "name": "frozen event centers",
+      "actual": "[0, 2, 4]",
+      "expected": "[0, 2, 4]"
+    },
+    {
+      "name": "all raw windows",
+      "actual": "[[None, Fraction(2, 1), Fraction(5, 1)], [Fraction(5, 1), Fraction(8, 1), Fraction(1, 1)], [Fraction(1, 1), Fraction(3, 1), None]]",
+      "expected": "[[None, 2, 5], [5, 8, 1], [1, 3, None]]"
+    },
+    {
+      "name": "raw support masks",
+      "actual": "[[0, 1, 1], [1, 1, 1], [1, 1, 0]]",
+      "expected": "[[0, 1, 1], [1, 1, 1], [1, 1, 0]]"
+    },
+    {
+      "name": "normalization masks",
+      "actual": "[[0, 1, 0], [0, 1, 1], [1, 1, 0]]",
+      "expected": "[[0, 1, 0], [0, 1, 1], [1, 1, 0]]"
+    },
+    {
+      "name": "no complete normalized window",
+      "actual": "False",
+      "expected": "False"
+    },
+    {
+      "name": "center2 side difference",
+      "actual": "4",
+      "expected": "4"
+    },
+    {
+      "name": "center2 side sum",
+      "actual": "6",
+      "expected": "6"
+    },
+    {
+      "name": "center2 full same component",
+      "actual": "[Fraction(3, 1), Fraction(8, 1), Fraction(3, 1)]",
+      "expected": "[3, 8, 3]"
+    },
+    {
+      "name": "center2 inverted component",
+      "actual": "[Fraction(2, 1), Fraction(0, 1), Fraction(-2, 1)]",
+      "expected": "[2, 0, -2]"
+    },
+    {
+      "name": "support mean [Fraction(2, 1), Fraction(5, 1), Fraction(8, 1), Fraction(1, 1), Fraction(3, 1)]",
+      "actual": "19/5",
+      "expected": "19/5"
+    },
+    {
+      "name": "full detail [Fraction(2, 1), Fraction(5, 1), Fraction(8, 1), Fraction(1, 1), Fraction(3, 1)]",
+      "actual": "[Fraction(-9, 5), Fraction(6, 5), Fraction(21, 5), Fraction(-14, 5), Fraction(-4, 5)]",
+      "expected": "[Fraction(-9, 5), Fraction(6, 5), Fraction(21, 5), Fraction(-14, 5), Fraction(-4, 5)]"
+    },
+    {
+      "name": "detail closure [Fraction(2, 1), Fraction(5, 1), Fraction(8, 1), Fraction(1, 1), Fraction(3, 1)]",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "mean-detail reconstruction [Fraction(2, 1), Fraction(5, 1), Fraction(8, 1), Fraction(1, 1), Fraction(3, 1)]",
+      "actual": "[Fraction(2, 1), Fraction(5, 1), Fraction(8, 1), Fraction(1, 1), Fraction(3, 1)]",
+      "expected": "[Fraction(2, 1), Fraction(5, 1), Fraction(8, 1), Fraction(1, 1), Fraction(3, 1)]"
+    },
+    {
+      "name": "support mean [Fraction(5, 1), Fraction(8, 1), Fraction(1, 1)]",
+      "actual": "14/3",
+      "expected": "14/3"
+    },
+    {
+      "name": "full detail [Fraction(5, 1), Fraction(8, 1), Fraction(1, 1)]",
+      "actual": "[Fraction(1, 3), Fraction(10, 3), Fraction(-11, 3)]",
+      "expected": "[Fraction(1, 3), Fraction(10, 3), Fraction(-11, 3)]"
+    },
+    {
+      "name": "detail closure [Fraction(5, 1), Fraction(8, 1), Fraction(1, 1)]",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "mean-detail reconstruction [Fraction(5, 1), Fraction(8, 1), Fraction(1, 1)]",
+      "actual": "[Fraction(5, 1), Fraction(8, 1), Fraction(1, 1)]",
+      "expected": "[Fraction(5, 1), Fraction(8, 1), Fraction(1, 1)]"
+    },
+    {
+      "name": "support mean [Fraction(2, 1), Fraction(5, 1)]",
+      "actual": "7/2",
+      "expected": "7/2"
+    },
+    {
+      "name": "full detail [Fraction(2, 1), Fraction(5, 1)]",
+      "actual": "[Fraction(-3, 2), Fraction(3, 2)]",
+      "expected": "[Fraction(-3, 2), Fraction(3, 2)]"
+    },
+    {
+      "name": "detail closure [Fraction(2, 1), Fraction(5, 1)]",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "mean-detail reconstruction [Fraction(2, 1), Fraction(5, 1)]",
+      "actual": "[Fraction(2, 1), Fraction(5, 1)]",
+      "expected": "[Fraction(2, 1), Fraction(5, 1)]"
+    },
+    {
+      "name": "positive box lower",
+      "actual": "171/100",
+      "expected": "171/100"
+    },
+    {
+      "name": "positive box upper",
+      "actual": "231/100",
+      "expected": "231/100"
+    },
+    {
+      "name": "timing midpoint bound",
+      "actual": "(Fraction(19, 10), Fraction(21, 10))",
+      "expected": "(Fraction(19, 10), Fraction(21, 10))"
+    },
+    {
+      "name": "possible exposure support",
+      "actual": "(Fraction(9, 5), Fraction(11, 5))",
+      "expected": "(Fraction(9, 5), Fraction(11, 5))"
+    },
+    {
+      "name": "exposure duration distinct",
+      "actual": "1/5",
+      "expected": "1/5"
+    },
+    {
+      "name": "shared clock cancellation -1/10",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "shared clock cancellation 0",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "shared clock cancellation 1/10",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "gain-factor ambiguity",
+      "actual": "12",
+      "expected": "12"
+    },
+    {
+      "name": "future midpoint count",
+      "actual": "10",
+      "expected": "10"
+    },
+    {
+      "name": "future excluded endpoint",
+      "actual": "False",
+      "expected": "False"
+    },
+    {
+      "name": "source dimension halving",
+      "actual": "[Fraction(1, 1), Fraction(2, 1), Fraction(3, 1), Fraction(5, 1), Fraction(8, 1)]",
+      "expected": "[1, 2, 3, 5, 8]"
+    },
+    {
+      "name": "Fibonacci-type recurrence 2",
+      "actual": "3",
+      "expected": "3"
+    },
+    {
+      "name": "Fibonacci-type recurrence 3",
+      "actual": "5",
+      "expected": "5"
+    },
+    {
+      "name": "Fibonacci-type recurrence 4",
+      "actual": "8",
+      "expected": "8"
+    },
+    {
+      "name": "proposed halved continuation",
+      "actual": "[Fraction(13, 1), Fraction(21, 1)]",
+      "expected": "[13, 21]"
+    },
+    {
+      "name": "proposed dimensions",
+      "actual": "[Fraction(26, 1), Fraction(42, 1)]",
+      "expected": "[26, 42]"
+    },
+    {
+      "name": "proposed cutoff ladder",
+      "actual": "[1, 3, 5, 9, 15, 25, 41]",
+      "expected": "[1, 3, 5, 9, 15, 25, 41]"
+    },
+    {
+      "name": "listed ladder intersection",
+      "actual": "[1, 3, 9]",
+      "expected": "[1, 3, 9]"
+    }
+  ],
+  "runtime": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+  "script": "Z:\\Kfield-doc-training\\.work\\verify_course28_parent_math.py",
+  "script_sha256": "c0ca7ec93764d2a2ff3a4ec51b52bd46a7c209657822e19385ef9ab53d3655d4",
+  "scope": "Independent exact synthetic exposure, ratios/inverses, reflection and half-turn decompositions, comparator nullspace, full signed DFT/inverse, complete support masks, mean/detail, interval and shared-clock checks. No builder code, raw source arrays, empirical harmonic replay or physical calibration used."
+}

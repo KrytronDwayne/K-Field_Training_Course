@@ -1,0 +1,39 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Lesson 2 — One scale coordinate and two shape coordinates · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/10">Course 10</a><span>/</span><span>lesson 02</span></div><a class="original" href="../../../kfield-10-shape-and-scale-devon-reduction-and-the-jack-jacobian/lesson-02.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#lesson-2-one-scale-coordinate-and-two-shape-coordinates">Lesson 2 — One scale coordinate and two shape coordinates</a><a href="#c1002-e1-mean-projection-reconstruction">C10.02-E1 — Mean, projection, reconstruction</a><a href="#c1002-w1-worked-synthetic-example">C10.02-W1 — Worked synthetic example</a><a href="#c1002-p1-practice">C10.02-P1 — Practice</a><a href="#diagnostic-checks-c1002-d1">Diagnostic checks — C10.02-D1</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 1 — Logarithms as ratio coordinates</a><a aria-current=page href="lesson-02.html">Lesson 2 — One scale coordinate and two shape coordinates</a><a  href="lesson-03.html">Lesson 3 — Linear response and small changes</a><a  href="lesson-04.html">Lesson 4 — The Jack map and its inverse</a><a  href="lesson-05.html">Lesson 5 — The typed Devon object</a><a  href="lesson-06.html">Lesson 6 — Limits and reconstruction tests</a></details></aside><div class="reading-column"><article class="prose"><h1 id="lesson-2-one-scale-coordinate-and-two-shape-coordinates" tabindex="-1">Lesson 2 — One scale coordinate and two shape coordinates</h1>
+<p>Essential question: Which parts of three area logs change under a common scaling?</p>
+<p>Goals: calculate mean and zero-sum shape; compute normalized projection coefficients; reconstruct all three logs and areas; state the limits of area shape.</p>
+<p>Bridge: Lesson 1 made each face area a dimensionless log. Common scaling adds the same number to all entries. We now separate that shared part without discarding it.</p>
+<h2 id="c1002-e1-mean-projection-reconstruction" tabindex="-1">C10.02-E1 — Mean, projection, reconstruction</h2>
+<p>For y=(y_ab,y_ac,y_bc), define m=(y_ab+y_ac+y_bc)/3 and z=y-m(1,1,1). Subtract m from each entry. The three entries of z add to zero, so only two are free: knowing z_ab and z_ac fixes z_bc=-z_ab-z_ac. Keep m as a primary coordinate. Reconstruction is y=m(1,1,1)+z. The word reduction means separating coordinates here, not deleting m.</p>
+<p>We also use the exact normalized source coordinates. The dot product of (p,q,r) and (h,j,k) is ph+qj+rk. The squared length of a triple is its dot product with itself. Dividing a vector by the positive square root of its squared length gives length one: (1,1,1)/sqrt(3) has squared length 3/3=1. Square roots need not be decimals; sqrt(2)sqrt(2)=2.</p>
+<p>Define</p>
+<pre aria-label="Scrollable literal code or matrix" role="region" tabindex="0"><code>e_s=(1,1,1)/sqrt(3),
+e_u=(-1,1,0)/sqrt(2),
+e_v=(-1,-1,2)/sqrt(6).
+</code></pre>
+<p>Their squared lengths are 3/3, 2/2, and 6/6. Each pair has dot product zero: the numerators are -1+1+0=0, -1-1+2=0, and 1-1+0=0. This is what orthonormal means: perpendicular unit vectors. A projection coefficient is a dot product with a unit vector. Set s=y dot e_s, u=y dot e_u, v=y dot e_v. Then</p>
+<pre aria-label="Scrollable literal code or matrix" role="region" tabindex="0"><code>s=(y_ab+y_ac+y_bc)/sqrt(3)=sqrt(3)m,
+u=(-y_ab+y_ac)/sqrt(2),
+v=(-y_ab-y_ac+2y_bc)/sqrt(6),
+y=s e_s+u e_u+v e_v.
+</code></pre>
+<p>Why does this recover y? Taking a dot product of the last expression with e_u returns u: its other two terms vanish. The three displayed independent directions cover triples, and direct substitution gives each original entry. In particular</p>
+<pre aria-label="Scrollable literal code or matrix" role="region" tabindex="0"><code>y_ab=s/sqrt(3)-u/sqrt(2)-v/sqrt(6),
+y_ac=s/sqrt(3)+u/sqrt(2)-v/sqrt(6),
+y_bc=s/sqrt(3)+2v/sqrt(6).
+</code></pre>
+<p>The source writes mean removal as P_H=I-(1/3)11^T. Here I leaves a triple unchanged; 1=(1,1,1)^T is a column; superscript T turns a column into a row. Multiplying 11^T by y gives the sum of y in each entry. Thus P_H y=z. You can always use subtraction instead of matrix notation.</p>
+<p>Adding c to every entry changes m by c and s by sqrt(3)c; it leaves u,v unchanged. The pair (u,v) describes three positive face areas modulo a common area factor. It is called the area-shape fiber (source label A2). It does not encode all possible changes of edge angles. Keep the actual basis or angle information when those are needed.</p>
+<h2 id="c1002-w1-worked-synthetic-example" tabindex="-1">C10.02-W1 — Worked synthetic example</h2>
+<p>For y=(0,2,3)L, m=5L/3 and z=(-5,1,4)L/3. Projection gives s=5L/sqrt(3), u=2L/sqrt(2)=sqrt(2)L, and v=4L/sqrt(6). Reconstruct y_ab: (5/3-1-4/6)L=0; y_ac=(5/3+1-4/6)L=2L; y_bc=(5/3+8/6)L=3L. The sum of z is (-5+1+4)L/3=0. Doubling edges adds 2L to y, so s gains 2sqrt(3)L; u,v do not change.</p>
+<h2 id="c1002-p1-practice" tabindex="-1">C10.02-P1 — Practice</h2>
+<p>Project y=(1,2,4)L into both representations. Rebuild each log and the areas. Verify e_u dot e_v and both unit lengths. Describe halving all edges.</p>
+<p>Answer: m=7L/3, z=(-4,-1,5)L/3, s=7L/sqrt(3), u=L/sqrt(2), v=5L/sqrt(6). The reconstructed coefficients are 7/3-1/2-5/6=1; 7/3+1/2-5/6=2; 7/3+10/6=4. Thus areas are (2,4,16)A0. The dot product is (1-1)/sqrt(12)=0; norms squared are 2/2 and 6/6. Halving edges subtracts 2L from m and 2sqrt(3)L from s, leaving z,u,v fixed.</p>
+<blockquote>
+<p>Claim scope: S02#/backbone_sequence/6 supplies these directions and the common-scaling argument. The completeness claim here concerns area ratios. Recovering edge ratios additionally uses fixed nondegenerate angles, taught in Lesson 5.</p>
+</blockquote>
+<h2 id="diagnostic-checks-c1002-d1" tabindex="-1">Diagnostic checks — C10.02-D1</h2>
+<ol>
+<li>Is s=m? 2. If z=(2,-5,w), find w. 3. Can u,v alone recover dimensional areas? 4. Do these two numbers describe arbitrary shear of a cell?</li>
+</ol>
+<p>Worked answers: (1) s=sqrt(3)m, so generally no. (2) 2-5+w=0 gives w=3. (3) No: s or m and A0 must also be retained. (4) No: changing included angles adds geometry beyond the three area logs modulo scale.</p>
+<p>Next: <a href="lesson-03.html">Lesson 3</a> treats ordered coefficient maps. Two 55-minute periods: first mean/removal, second normalized projections; each uses 5 retrieval + 20 teaching + 15 practice + 15 checks.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><a class="button secondary" href="lesson-01.html">← Previous lesson</a><a class="button" href="lesson-03.html">Next lesson →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/10">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

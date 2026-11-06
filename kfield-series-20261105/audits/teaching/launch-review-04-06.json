@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "created_utc": "2026-11-05T17:05:16.713485+00:00",
+  "audit_level": "blueprint",
+  "amendment_path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-teaching-auditor\\outputs\\teaching-amendments-04-06.json",
+  "source_clearance": "Independent source auditor; not asserted here.",
+  "finished_course_pass": false,
+  "findings": [
+    {
+      "id": "E05-course-04",
+      "severity": "major",
+      "category": "assessment and prerequisite closure",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-04-affine-cells-reciprocal-planes-and-unique-addresses\\input-contract.json",
+      "section": "coverage_matrix[*]; capstone_specification.required_operations",
+      "defect": "Generic practice/check placeholders did not establish operation-by-operation capstone coverage.",
+      "correction": "Portable amendment supplies six concrete lesson anchors with worked/practice/diagnostic IDs, bridges and six backward-mapped capstone steps.",
+      "verification": "All reference IDs resolve to earlier lesson practice; exact synthetic examples and low-depth enumerations independently recomputed.",
+      "disposition": "corrected_in_portable_amendment",
+      "project_file_edited": false
+    },
+    {
+      "id": "E05-course-05",
+      "severity": "major",
+      "category": "assessment and prerequisite closure",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-05-lucas-geometry-27-nodes-polarity-and-sheets\\input-contract.json",
+      "section": "coverage_matrix[*]; capstone_specification.required_operations",
+      "defect": "Generic practice/check placeholders did not establish operation-by-operation capstone coverage.",
+      "correction": "Portable amendment supplies six concrete lesson anchors with worked/practice/diagnostic IDs, bridges and six backward-mapped capstone steps.",
+      "verification": "All reference IDs resolve to earlier lesson practice; exact synthetic examples and low-depth enumerations independently recomputed.",
+      "disposition": "corrected_in_portable_amendment",
+      "project_file_edited": false
+    },
+    {
+      "id": "E05-course-06",
+      "severity": "major",
+      "category": "assessment and prerequisite closure",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-06-recursive-k-field-geometry-and-address-histories\\input-contract.json",
+      "section": "coverage_matrix[*]; capstone_specification.required_operations",
+      "defect": "Generic practice/check placeholders did not establish operation-by-operation capstone coverage.",
+      "correction": "Portable amendment supplies six concrete lesson anchors with worked/practice/diagnostic IDs, bridges and six backward-mapped capstone steps.",
+      "verification": "All reference IDs resolve to earlier lesson practice; exact synthetic examples and low-depth enumerations independently recomputed.",
+      "disposition": "corrected_in_portable_amendment",
+      "project_file_edited": false
+    }
+  ],
+  "courses": [
+    {
+      "course_id": "course-04",
+      "decision": "teaching_blueprint_pass_with_amendment",
+      "launch_condition": "Supply this amendment to builder together with independent source clearance. Unamended project contract alone is not the reviewed package.",
+      "unresolved_critical": 0,
+      "unresolved_major": 0,
+      "completed_course_approved": false
+    },
+    {
+      "course_id": "course-05",
+      "decision": "teaching_blueprint_pass_with_amendment",
+      "launch_condition": "Supply this amendment to builder together with independent source clearance. Unamended project contract alone is not the reviewed package.",
+      "unresolved_critical": 0,
+      "unresolved_major": 0,
+      "completed_course_approved": false
+    },
+    {
+      "course_id": "course-06",
+      "decision": "teaching_blueprint_pass_with_amendment",
+      "launch_condition": "Supply this amendment to builder together with independent source clearance. Unamended project contract alone is not the reviewed package.",
+      "unresolved_critical": 0,
+      "unresolved_major": 0,
+      "completed_course_approved": false
+    }
+  ],
+  "verification": {
+    "checks_passed": 135,
+    "checks_failed": 0,
+    "runtime": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+    "capstone_steps": 23,
+    "lesson_anchors": 18,
+    "pacing": "Courses04/05: six55-minute core periods plus two capstone periods. Course06: seven core periods (lesson03 spans two) plus two capstone periods. No fixed-count constraint overrides mastery.",
+    "source_amendments": "SA-04,SA-05,SA-06 reread in current project contracts including lesson attachments and retained additively."
+  }
+}

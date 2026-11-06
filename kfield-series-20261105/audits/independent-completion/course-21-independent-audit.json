@@ -1,0 +1,1301 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-21",
+  "title": "Independent completed-course audit: Mass, Coupling, and Atomic Structure as Decoding Problems",
+  "reviewed_utc": "2026-11-05T19:51:11.502235+00:00",
+  "status": "passed",
+  "manifest_sha256": "ae145d12b568fc9445b7addfb0a5ed46997351c5c07151fb82192eb4f14360a1",
+  "scope": {
+    "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems",
+    "read": "All8 actual student lessons including11 original/supplemental concept sets, all capstone tasks/full keys/rubric, teacher guide, glossary, map, sources, input/SA21/EA21/teaching contract, audit and recorded verification/recovery records. Assembly compared with all8 read lesson texts. Build scripts inspected, not executed.",
+    "source_scope": "Pinned local S02 M17,BR11,KFM-X039/X040/X041; S03 AUD009; S05 R008,R022,R023,R029–R032. Relevant source bodies read in place and all5 source files rehashed.",
+    "independent_work": "New auditor-owned Fraction elimination, matrix products, decoder, integer-extractor recipes, character construction, composition ranks, exact solver histories and endpoint arithmetic. Builder results compared only after independent recomputation; no builder/parent functions imported or executed.",
+    "writes": "Only auditor-owned intermediate script and2 requested output JSONs. No project/source/Desktop edits."
+  },
+  "audited_files": {
+    "audit_report.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\audit_report.json",
+      "sha256": "83211608a17d886dd7b952808ba8e9048c6f873575774b9284550960e2e63382"
+    },
+    "build_course.py": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\build_course.py",
+      "sha256": "64ecca046858a04a0ab64ab3e6871b31dcf8bf273d5254e66b656b6053d9e87b"
+    },
+    "capstone.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\capstone.md",
+      "sha256": "8e2a6ee0d98362d94f1870dbc86f01a4ca9a6ba7279957ffe78fda0116d73c21"
+    },
+    "completion_report.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\completion_report.json",
+      "sha256": "ece3f639df7d097d9bb0467380658709f4f1ace33ebd9b7e0a80c773488951e9"
+    },
+    "course-map.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\course-map.md",
+      "sha256": "98b00413037ab25d8300dc8665b8123b7adac5ab440607f0344649ba0f1fc636"
+    },
+    "course.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\course.md",
+      "sha256": "d32abb627e86b0d078ed6131767e1f60911219f1f22cb2410606bd26c3099814"
+    },
+    "finalize_course.py": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\finalize_course.py",
+      "sha256": "404d161cc2a0ca38811852f14bbfe87c2893e9aeb157c528265af9b7649be08f"
+    },
+    "independent-audit.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\independent-audit.md",
+      "sha256": "e3e364fe61ab355239016fcca88247e55ac1d2fed3e7b4535ea441b411cc559a"
+    },
+    "input-contract.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\input-contract.json",
+      "sha256": "075a855dd2873c00c7f0adb35dd1bd069aedbaeeaffdefca59212a47a81d9d08"
+    },
+    "launch-prompt.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\launch-prompt.md",
+      "sha256": "3d122ce8c5726333f376605cf218357fb2f085414846485987dabba61d294535"
+    },
+    "lesson-01.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\lesson-01.md",
+      "sha256": "02c3ed9d88e77df2d195fdf663dbdbf7e4c50594730420fd8df72c655b78ccbe"
+    },
+    "lesson-02.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\lesson-02.md",
+      "sha256": "f55fbd52a72b1527497ed92ba4720d2a7491a9cc908fc07244a7bb8cc195cd70"
+    },
+    "lesson-03.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\lesson-03.md",
+      "sha256": "01cd0d9c7775a915e618c8293d966fe811290e9606bd62794354277eaa760c04"
+    },
+    "lesson-04.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\lesson-04.md",
+      "sha256": "205c5dd7054ccccff120b4afd0e0c11c2cd1e8007355160e73cdd60dc9ef3704"
+    },
+    "lesson-05.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\lesson-05.md",
+      "sha256": "f4045c764fba72eadbfe1b588cac31048f937479635861615bc4286c098fb31c"
+    },
+    "lesson-06.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\lesson-06.md",
+      "sha256": "7eb14c3a892f31bcb72ca8f60edcef387789f3e7811ada25babd22e4a2474da4"
+    },
+    "lesson-07.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\lesson-07.md",
+      "sha256": "f2819117acddc512a1af138113cd7243d43069ad640dcb79f636b0fb88a0c1df"
+    },
+    "lesson-08.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\lesson-08.md",
+      "sha256": "0a2d69497e881d4ddc398e5a5907cc46e0ad43ba77a9f2a71cf4fbfd01d3118b"
+    },
+    "manifest.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\manifest.json",
+      "sha256": "ae145d12b568fc9445b7addfb0a5ed46997351c5c07151fb82192eb4f14360a1"
+    },
+    "repair_course21.py": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\repair_course21.py",
+      "sha256": "fb969b0217389eae0189f89e606c48bc3d98da1a57dbf6a09b6dc1e4d82a10a6"
+    },
+    "sources.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\sources.md",
+      "sha256": "611175f7464629e0467a2413a864bfd0b78b9e5644702e9afcbecaaf11023290"
+    },
+    "teacher-guide.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\teacher-guide.md",
+      "sha256": "3ecf832b60c7bfafb80d6cf127bf7659e331ed3d540a95d41220f6ceadf6ee6e"
+    },
+    "terminology.md": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\terminology.md",
+      "sha256": "ea86e4213db5a94102697a0c583252200d905c2bd6832c078b029355f75cc04a"
+    },
+    "validator-result.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\validator-result.json",
+      "sha256": "63713eecef755014c8b1a3cd9b7d5bf5d3fe87839370d46403689e923688dac5"
+    },
+    "verification.json": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\verification.json",
+      "sha256": "8538c524661177b3093762cc14f9b12784f9dc7577ee88b3d7aa9e8625244fdd"
+    },
+    "verify_examples.py": {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\verify_examples.py",
+      "sha256": "1ff815449cd47a223ffe6ad653a479695fd060ee11490002c59c070e73e86a0c"
+    }
+  },
+  "source_hashes": [
+    {
+      "id": "S01",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180"
+    },
+    {
+      "id": "S02",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3"
+    },
+    {
+      "id": "S03",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e"
+    },
+    {
+      "id": "S04",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+      "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2"
+    },
+    {
+      "id": "S05",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+      "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7"
+    }
+  ],
+  "findings": [
+    {
+      "id": "C21-IND-001",
+      "level": "local",
+      "category": "dimensional_dependency",
+      "severity": "major",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\lesson-04.md",
+      "section": "C21.04-E1 and Boundary to carry forward",
+      "lines": [
+        22,
+        42,
+        44,
+        46,
+        63
+      ],
+      "defect": "The explicit instruction to keep m/m_e symbolic when m_e is absent confuses a dimensionless ratio with the dimensional mass. Once c and the contributing entries of b are supplied, m/m_e=c dot b is numerically determinable without the numerical reference mass. Missing m_e blocks numerical m, not this ratio. The surrounding source-input cautions are valid but do not justify withholding the computable ratio.",
+      "counterexample": {
+        "source": "Existing worked toy renderer with the reference-mass value withheld",
+        "c": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "b": [
+          "1",
+          "1/10",
+          "1/100",
+          "1/1000",
+          "1/5",
+          "2"
+        ],
+        "reference_mass": null,
+        "ratio": "3",
+        "dimensional_result": "m=3*m_ref, numerical mass unresolved"
+      },
+      "correction": "Replace the incorrect sentence with: 'If a contributing renderer input such as a_e is absent, retain the corresponding symbolic term. If only m_e is absent, report any computable ratio c dot b and retain m=(c dot b)m_e symbolically.' Clarify the line57 boundary the same way, propagate into generated assembly/authoring text, and add an answered missing-reference-mass check using the existing ratio3 example. Refresh audit/manifest/completion and rerun validation.",
+      "verification": "Independently evaluated the same dot product with no reference-mass value: ratio3 remains determined. The teaching contract's bridge correctly says the reference mass is required before reporting a dimensional m. Existing supplied-reference numerical exercises are correct.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "lesson-04",
+        "assembly"
+      ],
+      "blocks_acceptance": false,
+      "resolved_utc": "2026-11-05T19:51:11.502235+00:00",
+      "original_lines": [
+        22,
+        57
+      ],
+      "recheck_evidence": "Lesson04 distinguishes missing contributing renderer entries from missing numerical reference mass. The new answered withheld-reference practice independently gives c dot b=3 and m=3*m_ref, leaving only numerical dimensional mass unresolved. The carry-forward boundary is consistent. Active build_course.py inserts the practice and overrides the old historical boundary; assembled course matches all8 lessons. Builder verification records the new example. No source inputs or residuals were dropped.",
+      "historical_note": "Defect, correction request and initial verification describe the preserved original review, not the repaired current artifact."
+    },
+    {
+      "id": "C21-IND-002",
+      "level": "cumulative",
+      "category": "terminology_navigation",
+      "severity": "minor",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\terminology.md",
+      "section": "First lesson column, R/Z and b/b_toy rows",
+      "lines": [
+        19,
+        30
+      ],
+      "defect": "The grouped first-lesson cells hide different actual introduction locations: real field R is explicitly defined in lesson01 line30, but the R/Z row says02; source renderer b and its ordered entries are declared in lesson03 line21, but the b/b_toy row says04.",
+      "correction": "Split or annotate these entries as R:01, Z:02; source b:03 (rendering in04), b_toy:04. Preserve the existing meanings and refresh changed glossary/recovery hashes.",
+      "verification": "Compared the exact glossary cells to lesson01 line30, lesson02 line26, lesson03 line21 and lesson04's toy definition. This is a navigation inconsistency, not an arithmetic or prerequisite failure.",
+      "disposition": "corrected",
+      "affected_checkpoints": [
+        "terminology"
+      ],
+      "blocks_acceptance": false,
+      "resolved_utc": "2026-11-05T19:51:11.502235+00:00",
+      "original_lines": [
+        19,
+        30
+      ],
+      "recheck_evidence": "Glossary and active authoring table now state R:01; Z:02 and b:03 (rendering04); b_toy:04, matching actual introduction locations without altering symbol meanings.",
+      "historical_note": "Defect, correction request and initial verification describe the preserved original review, not the repaired current artifact."
+    }
+  ],
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "verified_repairs": [
+    {
+      "id": "LOCAL-001",
+      "status": "verified_corrected_by_inspection",
+      "evidence": "Current toy-W expression is syntactically balanced; read and compiled source text is not executed by this auditor because the builder verifier writes in the course. New exact code independently verifies its relevant results."
+    },
+    {
+      "id": "INDEPENDENT-001",
+      "status": "verified_corrected",
+      "evidence": "Lesson03 integer-extractor paragraph defines triangular, determinant and unit minor as recognition vocabulary; core saturation proof uses explicit coefficient recipes."
+    },
+    {
+      "id": "INDEPENDENT-002",
+      "status": "verified_corrected",
+      "evidence": "C21.S01-E1 now addresses students with 'Use signed characters' and states the intertwiner rule."
+    },
+    {
+      "id": "INDEPENDENT-003",
+      "status": "verified_corrected",
+      "evidence": "Actual course-map later-use rows identify CAP09 for S01 and lesson08/CAP11 for S03."
+    },
+    {
+      "id": "INDEPENDENT-004",
+      "status": "verified_corrected",
+      "evidence": "Actual teacher guide says four-label table (two bits per label)."
+    },
+    {
+      "id": "C21-IND-001",
+      "status": "verified_corrected",
+      "evidence": "Lesson04 distinguishes missing contributing renderer entries from missing numerical reference mass. The new answered withheld-reference practice independently gives c dot b=3 and m=3*m_ref, leaving only numerical dimensional mass unresolved. The carry-forward boundary is consistent. Active build_course.py inserts the practice and overrides the old historical boundary; assembled course matches all8 lessons. Builder verification records the new example. No source inputs or residuals were dropped."
+    },
+    {
+      "id": "C21-IND-002",
+      "status": "verified_corrected",
+      "evidence": "Glossary and active authoring table now state R:01; Z:02 and b:03 (rendering04); b_toy:04, matching actual introduction locations without altering symbol meanings."
+    }
+  ],
+  "lesson_reviews": [
+    {
+      "lesson": "lesson-01",
+      "status": "passed",
+      "evidence": "Defines ordered channel recipes, matrix/transpose/dot product, R/Euclidean metric, normal equations and elimination before use. W1,P1 and four answered diagnostics include both nonzero and zero residuals; the squared-length argument leaves full residual information intact.",
+      "results": "Worked c=(7/3,10/3),r=(-1/3,-1/3,1/3); practice c=(1,2),r=(0,0,0); diagnostic c=(4/3,4/3) with the same nonzero residual. Each channel reconstructs."
+    },
+    {
+      "lesson": "lesson-02",
+      "status": "passed",
+      "evidence": "Defines rank/image/kernel and t(-1,-1,1), derives inverse coordinate formulas, then contrasts real-space equality with the even integer lattice and provides answered primitive-lattice practice.",
+      "results": "t=(y3-y1-y2)/3. (1,0) is absent from the image of integer multiples of(2,0), despite real image/kernel equality; replacing the column with(1,0) makes the integer example exact."
+    },
+    {
+      "lesson": "lesson-03",
+      "status": "passed",
+      "evidence": "Printed ordered A equals pinned M17 exactly. Gram block/eigendirection reasoning, explicit decoder recipe, full13-row ledger, practice packet and all six integer extraction recipes are present. C21.S01 includes character table, all coefficients, reconstruction, swap intertwiner,2T nonuniqueness and incompatible-action diagnostic.",
+      "results": "Independent elimination gives rank6, residual rank7; all P/R identities pass. Selected rows(5,2,1,8,6,3) have determinant1 and L_int A=I6. Full residual retained; no source L/W7 is invented. The4x4 W is orthogonal up to4 and both worked/practice reconstructions pass."
+    },
+    {
+      "lesson": "lesson-04",
+      "status": "passed",
+      "evidence": "Lesson04 distinguishes missing contributing renderer entries from missing numerical reference mass. The new answered withheld-reference practice independently gives c dot b=3 and m=3*m_ref, leaving only numerical dimensional mass unresolved. The carry-forward boundary is consistent. Active build_course.py inserts the practice and overrides the old historical boundary; assembled course matches all8 lessons. Builder verification records the new example. No source inputs or residuals were dropped.",
+      "results": "Worked ratio3,mass6; practice ratio2/5,mass4/5. Removing only the reference mass leaves ratio3 computable and m=3m_ref symbolic.",
+      "resolved_finding_ids": [
+        "C21-IND-001"
+      ]
+    },
+    {
+      "lesson": "lesson-05",
+      "status": "passed",
+      "evidence": "Separates element/isotope/charge/isomer/graph/binding meanings. C21.S02 supplies all moves and concrete valid/invalid endpoints. C21-RXN bridge balances stipulated constituent counts and neutral charges with complete-object/electron/reference conventions before subtracting masses.",
+      "results": "U3=U1+U2 gives rank2; adding K raises rank3. All weighted moves vanish; endpoints retain68 or48, while negative counts are rejected as endpoints but the formal move is retained. Releases+1 and-1/2 use supplied synthetic conversion, not physical isotope constants."
+    },
+    {
+      "lesson": "lesson-06",
+      "status": "passed",
+      "evidence": "Exact R029–R032 source cards classify synthesis, mechanism and unresolved inputs. Missing atomic fields are labeled unsupplied. Graph identity versus spectrum and equal-rank versus a specified map are distinguished. C21.S03 gives repeated signed endpoint calculations and separately supplied duration/recovery fraction.",
+      "results": "AB=4.8 yields+2 E_unit; half of2 over4 gives recovered mean power1/4. No event rate or physical power is inferred from mass difference alone."
+    },
+    {
+      "lesson": "lesson-07",
+      "status": "passed",
+      "evidence": "Defines every iterate, step, channel residual and normal residual. Both three-row histories are printed, the error recursion is derived, and sum/difference eigendirections explain convergence and failure without deleting either branch.",
+      "results": "t=1/4: c2=(39/16,23/8),r2=(-7/16,1/8,11/16). t=1: c2=(-9,-8),r2=(11,11,23),g2=(34,34). General contraction domain0<t<2/3 follows from|1-3t|<1 and|1-t|<1; endpoints0,2/3 do not shrink all nonzero components. Numerical convergence is not zero channel residual or physical identification."
+    },
+    {
+      "lesson": "lesson-08",
+      "status": "passed",
+      "evidence": "Report fields separate synthetic input, source witness, exact derived value, approximant and model output. Practice assembles the decoder, negative-energy ledger and source row; independently answered diagnostics also practice classification and rounding differences.",
+      "results": "7/3-2.33=1/300; exact-minus-displayed coefficient vector(1/300,1/300) induces channel difference(1/300,1/300,1/150), retained separately from the syndrome. Full adjusted reconstruction passes."
+    }
+  ],
+  "actual_capstone_practice_links": [
+    {
+      "step_id": "C21-CAP-01",
+      "lesson": "lesson-01.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C21.01-E1",
+          "line": 17
+        },
+        "worked_example_id": {
+          "id": "C21.01-W1",
+          "line": 42
+        },
+        "prior_practice_id": {
+          "id": "C21.01-P1",
+          "line": 47
+        },
+        "diagnostic_id": {
+          "id": "C21.01-D1",
+          "line": 52
+        }
+      }
+    },
+    {
+      "step_id": "C21-CAP-02",
+      "lesson": "lesson-02.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C21.02-E1",
+          "line": 17
+        },
+        "worked_example_id": {
+          "id": "C21.02-W1",
+          "line": 34
+        },
+        "prior_practice_id": {
+          "id": "C21.02-P1",
+          "line": 39
+        },
+        "diagnostic_id": {
+          "id": "C21.02-D1",
+          "line": 44
+        }
+      }
+    },
+    {
+      "step_id": "C21-CAP-03",
+      "lesson": "lesson-03.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C21.03-E1",
+          "line": 18
+        },
+        "worked_example_id": {
+          "id": "C21.03-W1",
+          "line": 89
+        },
+        "prior_practice_id": {
+          "id": "C21.03-P1",
+          "line": 94
+        },
+        "diagnostic_id": {
+          "id": "C21.03-D1",
+          "line": 119
+        }
+      }
+    },
+    {
+      "step_id": "C21-CAP-04",
+      "lesson": "lesson-04.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C21.04-E1",
+          "line": 17
+        },
+        "worked_example_id": {
+          "id": "C21.04-W1",
+          "line": 32
+        },
+        "prior_practice_id": {
+          "id": "C21.04-P1",
+          "line": 37
+        },
+        "diagnostic_id": {
+          "id": "C21.04-D1",
+          "line": 48
+        }
+      }
+    },
+    {
+      "step_id": "C21-CAP-05",
+      "lesson": "lesson-05.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C21.05-E1",
+          "line": 17
+        },
+        "worked_example_id": {
+          "id": "C21.05-W1",
+          "line": 42
+        },
+        "prior_practice_id": {
+          "id": "C21.05-P1",
+          "line": 47
+        },
+        "diagnostic_id": {
+          "id": "C21.05-D1",
+          "line": 72
+        }
+      }
+    },
+    {
+      "step_id": "C21-CAP-06",
+      "lesson": "lesson-06.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C21.06-E1",
+          "line": 17
+        },
+        "worked_example_id": {
+          "id": "C21.06-W1",
+          "line": 56
+        },
+        "prior_practice_id": {
+          "id": "C21.06-P1",
+          "line": 61
+        },
+        "diagnostic_id": {
+          "id": "C21.06-D1",
+          "line": 86
+        }
+      }
+    },
+    {
+      "step_id": "C21-CAP-07",
+      "lesson": "lesson-07.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C21.07-E1",
+          "line": 17
+        },
+        "worked_example_id": {
+          "id": "C21.07-W1",
+          "line": 52
+        },
+        "prior_practice_id": {
+          "id": "C21.07-P1",
+          "line": 57
+        },
+        "diagnostic_id": {
+          "id": "C21.07-D1",
+          "line": 62
+        }
+      }
+    },
+    {
+      "step_id": "C21-CAP-08",
+      "lesson": "lesson-08.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C21.08-E1",
+          "line": 17
+        },
+        "worked_example_id": {
+          "id": "C21.08-W1",
+          "line": 34
+        },
+        "prior_practice_id": {
+          "id": "C21.08-P1",
+          "line": 39
+        },
+        "diagnostic_id": {
+          "id": "C21.08-D1",
+          "line": 44
+        }
+      }
+    },
+    {
+      "step_id": "C21-CAP-09",
+      "lesson": "lesson-03.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C21.S01-E1",
+          "line": 99
+        },
+        "worked_example_id": {
+          "id": "C21.S01-W1",
+          "line": 104
+        },
+        "prior_practice_id": {
+          "id": "C21.S01-P1",
+          "line": 109
+        },
+        "diagnostic_id": {
+          "id": "C21.S01-D1",
+          "line": 114
+        }
+      }
+    },
+    {
+      "step_id": "C21-CAP-10",
+      "lesson": "lesson-05.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C21.S02-E1",
+          "line": 52
+        },
+        "worked_example_id": {
+          "id": "C21.S02-W1",
+          "line": 57
+        },
+        "prior_practice_id": {
+          "id": "C21.S02-P1",
+          "line": 62
+        },
+        "diagnostic_id": {
+          "id": "C21.S02-D1",
+          "line": 67
+        }
+      }
+    },
+    {
+      "step_id": "C21-CAP-11",
+      "lesson": "lesson-06.md",
+      "points": 4,
+      "locations": {
+        "explanation_id": {
+          "id": "C21.S03-E1",
+          "line": 66
+        },
+        "worked_example_id": {
+          "id": "C21.S03-W1",
+          "line": 71
+        },
+        "prior_practice_id": {
+          "id": "C21.S03-P1",
+          "line": 76
+        },
+        "diagnostic_id": {
+          "id": "C21.S03-D1",
+          "line": 81
+        }
+      }
+    }
+  ],
+  "capstone_semantic_review": {
+    "status": "passed",
+    "steps": [
+      {
+        "step": "C21-CAP-01",
+        "status": "passed",
+        "practice": [
+          "C21.01-P1"
+        ],
+        "judgment": "All three equations, normal solve and full zero residual have worked and answered practice."
+      },
+      {
+        "step": "C21-CAP-02",
+        "status": "passed",
+        "practice": [
+          "C21.02-P1",
+          "C21.02-D1 questions1/3/4"
+        ],
+        "judgment": "t reconstruction and integer primitive/even contrast are explicitly taught and answered before assessment."
+      },
+      {
+        "step": "C21-CAP-03",
+        "status": "passed",
+        "practice": [
+          "C21.03-P1",
+          "C21.03-D1 questions1/2/3"
+        ],
+        "judgment": "Entire practice vector, six orthogonality sums,6+7 count and source-L distinction are covered. General projector multiplication is not a hidden capstone computation."
+      },
+      {
+        "step": "C21-CAP-04",
+        "status": "passed",
+        "practice": [
+          "C21.04-P1",
+          "C21.04-D1",
+          "lesson-04.md lines42–46: answered reference-mass-withheld practice"
+        ],
+        "judgment": "The supplied-reference task remains correct. Its prerequisite lesson now correctly separates computable dimensionless ratios from unavailable dimensional masses and provides answered missing-reference practice; capstone bytes are unchanged."
+      },
+      {
+        "step": "C21-CAP-05",
+        "status": "passed",
+        "practice": [
+          "C21.05-P1",
+          "C21.05-D1 question5"
+        ],
+        "judgment": "Signed Q, nominal V and incomplete-ion diagnosis are answered practice with all endpoint conventions."
+      },
+      {
+        "step": "C21-CAP-06",
+        "status": "passed",
+        "practice": [
+          "C21.06-P1",
+          "C21.06-D1 questions1/2/3/4"
+        ],
+        "judgment": "R031/R032 guided practice plus actual answered diagnostics for R029/R030 and energy provide the full required predecessor set. Not all source-card suboperations are confined to P1."
+      },
+      {
+        "step": "C21-CAP-07",
+        "status": "passed",
+        "practice": [
+          "C21.07-P1",
+          "C21.07-D1 question2"
+        ],
+        "judgment": "Two updates, all residual and normal entries, failure interpretation and reconstruction are present before capstone."
+      },
+      {
+        "step": "C21-CAP-08",
+        "status": "passed",
+        "practice": [
+          "C21.08-P1",
+          "C21.08-D1 questions1/2"
+        ],
+        "judgment": "Report assembly is P1; classification and approximation closure are separately asked and answered in the same lesson's diagnostic section. This actual prior work, not merely W1 or a map label, supplies the extra suboperations."
+      },
+      {
+        "step": "C21-CAP-09",
+        "status": "passed",
+        "practice": [
+          "C21.S01-P1",
+          "C21.S01-D1"
+        ],
+        "judgment": "Full4-component character coefficients/reconstruction, swap product,2T nonuniqueness and missing-source boundary are practiced."
+      },
+      {
+        "step": "C21-CAP-10",
+        "status": "passed",
+        "practice": [
+          "C21.S02-P1",
+          "C21.S02-D1",
+          "C21.05-D1 question2"
+        ],
+        "judgment": "Endpoint moves/invariance are supplemental P1; U3 dependence and K independence also have a concrete answered diagnostic at lesson05 lines76/84. R023/R032 source boundaries are retained."
+      },
+      {
+        "step": "C21-CAP-11",
+        "status": "passed",
+        "practice": [
+          "C21.S03-P1",
+          "C21.S03-D1"
+        ],
+        "judgment": "Negative Q and the separate positive-release duration/efficiency calculation are exactly practiced; no rate inferred."
+      }
+    ],
+    "total_points": 44,
+    "extra_actual_practice": "Answered diagnostics supplement P1 for CAP06 source-card distinctions, CAP08 classification/rounding, CAP10 dependence/independence. Those concrete locations are included rather than asserting that every suboperation appears in the named P1 alone.",
+    "rubric": "11 tasks*4points=44; full-component reconstruction and mandatory repair of missing conventions/source promotion are explicit."
+  },
+  "amendment_review": {
+    "applied_ids": [
+      "SA-21",
+      "EA-21-E07-4",
+      "EA-21-E08-5"
+    ],
+    "teaching_receipt": {
+      "path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-teaching-auditor\\outputs\\teaching-verification-21-23.json",
+      "sha256": "1ba86ca04e3a91c21fca60a9da6901f26f1d0bd45ed513aaafc65cce59d8103c"
+    },
+    "requirements": [
+      {
+        "id": "SA-21/field-lattice",
+        "status": "passed",
+        "evidence": "R/Euclidean decoding declared; dimension-only integer claim limited; explicit integer L_int and unit minor provide saturation for A, conditional on missing source L."
+      },
+      {
+        "id": "SA-21/missing-replay",
+        "status": "passed",
+        "evidence": "Source7x13 L,8x7 W7 and actions/order remain unavailable;13x13 R,6x13 L_int and4x4 W separately labeled."
+      },
+      {
+        "id": "SA-21/energy",
+        "status": "passed",
+        "evidence": "Balanced complete-object released-energy bridge introduced in lesson05, repeated by S03 in lesson06, with negative branch preserved."
+      },
+      {
+        "id": "SA-21/atomic-coordinates",
+        "status": "passed",
+        "evidence": "Nominal composition,isotope,charge/electrons,isomers,graph/spectrum,binding differences kept separate; R032 canonical map unresolved."
+      },
+      {
+        "id": "EA-21-E07-4",
+        "status": "passed",
+        "evidence": "C21-DEC-EX1/P1/D1 aliases and exact small normal-equation/residual packets present."
+      },
+      {
+        "id": "EA-21-E08-5",
+        "status": "passed",
+        "evidence": "C21-RXN-EX1/P1/D1 aliases, declared conversion, complete-object electron convention and signed energy interpretation present."
+      },
+      {
+        "id": "C21.S01",
+        "status": "passed",
+        "evidence": "All four anchors and actual character/intertwiner content present."
+      },
+      {
+        "id": "C21.S02",
+        "status": "passed",
+        "evidence": "All four anchors and actual move/dependence/independence/source-boundary content present."
+      },
+      {
+        "id": "C21.S03",
+        "status": "passed",
+        "evidence": "All four anchors and actual energy/power/additional-input content present."
+      }
+    ],
+    "boundary": "Blueprint status alone is not completed-course acceptance. The dimensional-renderer bridge correctly requires the reference mass only for numerical dimensional mass. The repaired lesson now agrees; historical blueprint/input-contract provenance is unchanged."
+  },
+  "independent_recomputation": {
+    "status": "passed",
+    "check_count": 585,
+    "checks_by_group": {
+      "integrity": 64,
+      "assembly": 10,
+      "source-contract": 12,
+      "actual-links": 62,
+      "markdown-tables": 183,
+      "decoder": 16,
+      "decoder-ledger": 46,
+      "integer-lattice": 6,
+      "small-decoder": 12,
+      "characters": 69,
+      "intertwiners": 6,
+      "renderer": 5,
+      "composition": 19,
+      "energy": 4,
+      "solver": 23,
+      "solver-table": 7,
+      "rounding": 3,
+      "builder-crosscheck": 11,
+      "rubric": 1,
+      "pacing": 1,
+      "repair-recheck": 25
+    },
+    "failures": [],
+    "runtime": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+    "verifier_path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-series-source-auditor\\work\\audit_course21.py",
+    "verifier_sha256": "efbf3ed554fec95ca81c8e40b41e2afba835b7ea4ebf955b5ae4d351572c6dac",
+    "arithmetic": "Exact rational operations, no floating-point tolerance.",
+    "verification_file": "course-21-independent-verification.json",
+    "scope": "585 heterogeneous assertions pass, including the original560 checks and25 repair-specific checks. Independent semantic inspection also confirms both findings corrected."
+  },
+  "assessment_and_accessibility": {
+    "lesson_periods": [
+      2,
+      2,
+      3,
+      2,
+      3,
+      2,
+      2,
+      1
+    ],
+    "core_periods": 17,
+    "capstone_periods": 3,
+    "minutes_per_period": 55,
+    "total_minutes": 1100,
+    "anchors": 44,
+    "capstone_steps": 11,
+    "local_bridges": "Linear equations, transpose, normal equations, rank/kernel/lattice, eigendirections, small characters, explicit intertwiners, composition and endpoint accounting are taught. Full S3 representation proof, original L/W7, occupied-state selection, physical isotope constants and unprovided graph/QPC computations are not assigned.",
+    "markdown_tables": {
+      "status": "passed",
+      "width_assertions": 183,
+      "tables": [
+        {
+          "file": "lesson-03.md",
+          "header_line": 49,
+          "columns": 4
+        },
+        {
+          "file": "lesson-06.md",
+          "header_line": 22,
+          "columns": 4
+        },
+        {
+          "file": "lesson-06.md",
+          "header_line": 33,
+          "columns": 2
+        },
+        {
+          "file": "lesson-07.md",
+          "header_line": 26,
+          "columns": 4
+        },
+        {
+          "file": "lesson-07.md",
+          "header_line": 34,
+          "columns": 4
+        },
+        {
+          "file": "course-map.md",
+          "header_line": 5,
+          "columns": 4
+        },
+        {
+          "file": "course-map.md",
+          "header_line": 18,
+          "columns": 7
+        },
+        {
+          "file": "terminology.md",
+          "header_line": 5,
+          "columns": 3
+        },
+        {
+          "file": "sources.md",
+          "header_line": 5,
+          "columns": 3
+        },
+        {
+          "file": "sources.md",
+          "header_line": 15,
+          "columns": 2
+        },
+        {
+          "file": "teacher-guide.md",
+          "header_line": 66,
+          "columns": 2
+        },
+        {
+          "file": "course.md",
+          "header_line": 190,
+          "columns": 4
+        },
+        {
+          "file": "course.md",
+          "header_line": 466,
+          "columns": 4
+        },
+        {
+          "file": "course.md",
+          "header_line": 477,
+          "columns": 2
+        },
+        {
+          "file": "course.md",
+          "header_line": 578,
+          "columns": 4
+        },
+        {
+          "file": "course.md",
+          "header_line": 586,
+          "columns": 4
+        }
+      ],
+      "values": "All13 decoder rows and both complete three-row solver histories checked against independent computations."
+    },
+    "assembly": "All8 lesson bodies match the assembled course verbatim and in order.",
+    "delivery": "Markdown structure inspected; no PDF/Word rendering requested or claimed. Both glossary first-introduction locations are corrected."
+  },
+  "source_and_authority_boundaries": {
+    "local_source_scope": [
+      {
+        "source": "S02",
+        "pointer": "/backbone_sequence/16",
+        "role": "M17 exact13x6 matrix, ordered renderer b, Gram/rank claims, Euclidean projection and displayed alpha/eta witnesses; requires M05 and M11."
+      },
+      {
+        "source": "S02",
+        "pointer": "/proof_nodes/10",
+        "formula": "KFM-X039",
+        "role": "Reported integer exact sequence. The source's displayed rank/dimension argument alone does not establish saturation; this course supplies a new explicit integer extractor for the particular A, conditional on a separately supplied source L."
+      },
+      {
+        "source": "S02",
+        "pointer": "/proof_nodes/11",
+        "formula": "KFM-X040",
+        "role": "Reported seven nonconstant characters on eight elements; source W7/order/actions not loaded."
+      },
+      {
+        "source": "S02",
+        "pointer": "/proof_nodes/23",
+        "formula": "KFM-X041",
+        "role": "Reported S3 character compatibility and Hom dimension; arithmetic(7,3,1),13 checked conditionally, source actions unavailable."
+      },
+      {
+        "source": "S02",
+        "pointer": "/branch_proofs/11",
+        "role": "BR-11 reported closed_exact_module_compatibility; noncanonical auxiliary intertwiners are not backbone maps."
+      },
+      {
+        "source": "S03",
+        "pointer": "/findings/8",
+        "finding": "AUD-009",
+        "role": "Missing7x13 L and explicit W7; source gate VERIFIED_NOT_LOADED retained, not fresh source verification."
+      },
+      {
+        "source": "S05",
+        "pointer": "/records/7",
+        "id": "R008",
+        "provenance_class": "archive_stated",
+        "type": "equation"
+      },
+      {
+        "source": "S05",
+        "pointer": "/records/21",
+        "id": "R022",
+        "provenance_class": "synthesis",
+        "type": "discovery"
+      },
+      {
+        "source": "S05",
+        "pointer": "/records/22",
+        "id": "R023",
+        "provenance_class": "synthesis",
+        "type": "discovery"
+      },
+      {
+        "source": "S05",
+        "pointer": "/records/28",
+        "id": "R029",
+        "provenance_class": "synthesis",
+        "type": "discovery"
+      },
+      {
+        "source": "S05",
+        "pointer": "/records/29",
+        "id": "R030",
+        "provenance_class": "synthesis",
+        "type": "mechanism"
+      },
+      {
+        "source": "S05",
+        "pointer": "/records/30",
+        "id": "R031",
+        "provenance_class": "archive_stated",
+        "type": "unresolved"
+      },
+      {
+        "source": "S05",
+        "pointer": "/records/31",
+        "id": "R032",
+        "provenance_class": "synthesis",
+        "type": "architecture"
+      }
+    ],
+    "source_witnesses": {
+      "alpha": "0.0072973525643314245",
+      "eta": "1836.1526734259999",
+      "a_e": "occupied-state coordinate, definition/input unresolved",
+      "status": "Displayed source witnesses, not freshly measured constants or newly certified exact rational constants of nature."
+    },
+    "distinct_objects": {
+      "A": "Source13x6 channel map",
+      "Aplus": "Derived6x13 rational Euclidean decoder",
+      "R": "Derived13x13 orthogonal residual projector",
+      "L_int": "New6x13 integer coefficient extractor with L_int A=I6",
+      "source_L": "Missing7x13 syndrome map with LA=0 and required rank7",
+      "toy_W": "Declared4x4 character table on (Z/2)^2",
+      "source_W7": "Unloaded8x7 nonconstant-character object with source ordering/actions",
+      "decoder_G": "A^T A, not M_cell/G_phase"
+    },
+    "saturation_proof": "The independently checked integer recipes give L_int A=I6. For an integer vector z in im_R(A), z=Ac and c=L_int z is integer, hence z belongs to im_Z(A). For a separately supplied integer rank7 L with LA=0, real equality and this saturation imply ker_Z(L)=im_Z(A). This neither identifies source L nor asserts Aplus y is integer for every integer y.",
+    "chemistry": "Nominal CHNO invariance is computed independently. R023's15.25614129mDa and source exactness/shortest-move statements remain attributed synthesis; isotope constants/full endpoints and exhaustive source search were not replayed. Equal nominal label, isotope mass, graph spectrum, graph identity, charge/electron state and binding residual are distinct.",
+    "application": "R029 coordinate synthesis, R030 typed-edge mechanism synthesis, R031 unresolved isomer information, R032 repeated rank-three structures with no canonical map are preserved. No unprovided Cell3 address, phase tensor, occupied c, graph or isotope value is fabricated.",
+    "scientific_layers": "All classroom inputs are synthetic. Derived transforms and reconstruction are exact under declared R/Euclidean and toy-unit conventions. Source records, source-reported theorem status, proposed mechanisms, reference relations and unresolved inputs remain separate.",
+    "source_conflicts_retained": [
+      "KFM-X039's reported integer status versus the limited dimension-only argument; extra saturation evidence is explicitly new and conditional.",
+      "M17 source L/W7 architecture versus unavailable original matrices/actions; derived projector/L_int/toy W are not substitutions.",
+      "R023 stored exact decimal mass-step assertion versus absent isotope replay inputs.",
+      "R032 recurrent rank-three structures versus an unresolved connecting map."
+    ],
+    "graph_and_compiler_scope": "This audit grounds Course21 in the supplied read-only local archives and freshly checked hashes. No live graph generation match, source compiler execution or equivalence between backbone and compiler module labels is claimed."
+  },
+  "fresh_project_validation": {
+    "canonical_output_root": "Z:\\Kfield-doc-training\\K-Field_Training_Course",
+    "checks": [
+      "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+      "parsed manifest.json",
+      "parsed audit_report.json",
+      "parsed completion_report.json",
+      "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+    ],
+    "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems",
+    "errors": [],
+    "schema_version": "1.0",
+    "status": "passed",
+    "storage_authority": "User explicitly authorized project-folder outputs, 2026-11-05",
+    "validator_path": "C:\\Users\\info\\.codex\\skills\\build-high-school-course\\scripts\\validate_course.py",
+    "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+    "exit_code": 0,
+    "adapter": {
+      "path": "Z:/Kfield-doc-training/.work/validate_project_course.py",
+      "sha256": "3fdba74f7ac1430208a4e652200026dc98988f607f60fc928bda65d5857cc745"
+    },
+    "fixture_mode": false,
+    "override": "Only canonical output root overridden by the existing adapter. Installed integrity/content/assembly tests remain active.",
+    "limitation": "Structural validation is supplemented by the separate independent semantic repair recheck; both findings are corrected."
+  },
+  "limitations": [
+    "No fresh source L/W7/action-order replay, source compiler execution, occupied-state selection or empirical mass/isotope experiment.",
+    "No R023 isotope-mass or shortest-move-search replay and no R032 canonical map construction.",
+    "The exact projection uses the declared Euclidean metric; a different metric requires its own retained decoder convention.",
+    "No classroom trial; only assigned finite work and declared pacing assessed.",
+    "This follow-up rechecks the two identified repairs and propagation, reruns the existing independent computations, and verifies unchanged artifact/source hashes; it does not expand the original source-replay scope."
+  ],
+  "eligible_for_parent_acceptance": true,
+  "acceptance_condition": "Zero unresolved findings of every severity required. Current0critical/0major/0minor meets that condition for the reviewed artifacts.",
+  "source_files_copied": false,
+  "course_or_parent_files_modified": false,
+  "repair_recheck": {
+    "status": "passed",
+    "reviewed_utc": "2026-11-05T19:51:11.502235+00:00",
+    "scope": "Narrow independent recheck of C21-IND-001/002, their teaching/authoring/assembly propagation and refreshed metadata; complete existing independent arithmetic/integrity checks rerun.",
+    "prior_review": {
+      "reviewed_utc": "2026-11-05T19:41:10.706077+00:00",
+      "status": "failed",
+      "manifest_sha256": "840a33a5d15c8d2dc0a2362465ad140235cba506e6ca233c9c6d64d6048661d2",
+      "audit_sha256": "2415086b853c2c04a16e9ddb97ec9ca84ff77c62791c48085c095caa6bdb958e",
+      "verification_sha256": "078e57734db6a7fd541d97d07d2b2bee45bfcd22b5c42e2993f96c78113ba882",
+      "check_count": 560,
+      "verifier_sha256": "f0ade6d4f7dbcaa5e1000d1f1a3574794634a67eb3f5a5fbdf1809059f39bfb1",
+      "unresolved_counts": {
+        "critical": 0,
+        "major": 1,
+        "minor": 1
+      },
+      "findings": [
+        {
+          "id": "C21-IND-001",
+          "level": "local",
+          "category": "dimensional_dependency",
+          "severity": "major",
+          "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\lesson-04.md",
+          "section": "C21.04-E1 and Boundary to carry forward",
+          "lines": [
+            22,
+            57
+          ],
+          "defect": "The explicit instruction to keep m/m_e symbolic when m_e is absent confuses a dimensionless ratio with the dimensional mass. Once c and the contributing entries of b are supplied, m/m_e=c dot b is numerically determinable without the numerical reference mass. Missing m_e blocks numerical m, not this ratio. The surrounding source-input cautions are valid but do not justify withholding the computable ratio.",
+          "counterexample": {
+            "source": "Existing worked toy renderer with the reference-mass value withheld",
+            "c": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "b": [
+              "1",
+              "1/10",
+              "1/100",
+              "1/1000",
+              "1/5",
+              "2"
+            ],
+            "reference_mass": null,
+            "ratio": "3",
+            "dimensional_result": "m=3*m_ref, numerical mass unresolved"
+          },
+          "correction": "Replace the incorrect sentence with: 'If a contributing renderer input such as a_e is absent, retain the corresponding symbolic term. If only m_e is absent, report any computable ratio c dot b and retain m=(c dot b)m_e symbolically.' Clarify the line57 boundary the same way, propagate into generated assembly/authoring text, and add an answered missing-reference-mass check using the existing ratio3 example. Refresh audit/manifest/completion and rerun validation.",
+          "verification": "Independently evaluated the same dot product with no reference-mass value: ratio3 remains determined. The teaching contract's bridge correctly says the reference mass is required before reporting a dimensional m. Existing supplied-reference numerical exercises are correct.",
+          "disposition": "unresolved",
+          "affected_checkpoints": [
+            "lesson-04",
+            "assembly"
+          ],
+          "blocks_acceptance": true
+        },
+        {
+          "id": "C21-IND-002",
+          "level": "cumulative",
+          "category": "terminology_navigation",
+          "severity": "minor",
+          "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\terminology.md",
+          "section": "First lesson column, R/Z and b/b_toy rows",
+          "lines": [
+            19,
+            30
+          ],
+          "defect": "The grouped first-lesson cells hide different actual introduction locations: real field R is explicitly defined in lesson01 line30, but the R/Z row says02; source renderer b and its ordered entries are declared in lesson03 line21, but the b/b_toy row says04.",
+          "correction": "Split or annotate these entries as R:01, Z:02; source b:03 (rendering in04), b_toy:04. Preserve the existing meanings and refresh changed glossary/recovery hashes.",
+          "verification": "Compared the exact glossary cells to lesson01 line30, lesson02 line26, lesson03 line21 and lesson04's toy definition. This is a navigation inconsistency, not an arithmetic or prerequisite failure.",
+          "disposition": "unresolved",
+          "affected_checkpoints": [
+            "terminology"
+          ],
+          "blocks_acceptance": true
+        }
+      ]
+    },
+    "current_manifest_sha256": "ae145d12b568fc9445b7addfb0a5ed46997351c5c07151fb82192eb4f14360a1",
+    "changed_files": [
+      {
+        "file": "audit_report.json",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\audit_report.json",
+        "prior_sha256": "3b084196f9213d06e21335a1b6238a6c0bb37fbb26c0cddac6ee95e1569cebf1",
+        "current_sha256": "83211608a17d886dd7b952808ba8e9048c6f873575774b9284550960e2e63382"
+      },
+      {
+        "file": "build_course.py",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\build_course.py",
+        "prior_sha256": "d2fc9fe58b7b46a854552ec4486419680cc135e4b69a066fee397cb37231c616",
+        "current_sha256": "64ecca046858a04a0ab64ab3e6871b31dcf8bf273d5254e66b656b6053d9e87b"
+      },
+      {
+        "file": "completion_report.json",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\completion_report.json",
+        "prior_sha256": "74cf7a15c3eca3d7ce6acfa8370ede513c6d23bb44b9db8d687b648a7820a3ac",
+        "current_sha256": "ece3f639df7d097d9bb0467380658709f4f1ace33ebd9b7e0a80c773488951e9"
+      },
+      {
+        "file": "course.md",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\course.md",
+        "prior_sha256": "ac48fad1012823b9ea6893e18fc2e671067ed243e4ea97d2e0b457c77c77ad38",
+        "current_sha256": "d32abb627e86b0d078ed6131767e1f60911219f1f22cb2410606bd26c3099814"
+      },
+      {
+        "file": "finalize_course.py",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\finalize_course.py",
+        "prior_sha256": "415714a92fbd0eedc5369a51e979cb0331addc4669f04b4bed61b207fa30d720",
+        "current_sha256": "404d161cc2a0ca38811852f14bbfe87c2893e9aeb157c528265af9b7649be08f"
+      },
+      {
+        "file": "independent-audit.md",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\independent-audit.md",
+        "prior_sha256": "0c6ecc4f11c73d5448494606dbdbead630b5e6b61efddf59466924d2f23448dc",
+        "current_sha256": "e3e364fe61ab355239016fcca88247e55ac1d2fed3e7b4535ea441b411cc559a"
+      },
+      {
+        "file": "lesson-04.md",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\lesson-04.md",
+        "prior_sha256": "eb42937c284fc6d535c858b6f0616c8518abced7c247c7a90094aa6bbe0b1d2b",
+        "current_sha256": "205c5dd7054ccccff120b4afd0e0c11c2cd1e8007355160e73cdd60dc9ef3704"
+      },
+      {
+        "file": "manifest.json",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\manifest.json",
+        "prior_sha256": "840a33a5d15c8d2dc0a2362465ad140235cba506e6ca233c9c6d64d6048661d2",
+        "current_sha256": "ae145d12b568fc9445b7addfb0a5ed46997351c5c07151fb82192eb4f14360a1"
+      },
+      {
+        "file": "terminology.md",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\terminology.md",
+        "prior_sha256": "61a74943b2ae87ee3a391a32ceca4f31de8f2839c67d0588d682901f84ed2f8e",
+        "current_sha256": "ea86e4213db5a94102697a0c583252200d905c2bd6832c078b029355f75cc04a"
+      },
+      {
+        "file": "validator-result.json",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\validator-result.json",
+        "prior_sha256": "75e6691e37a160a60113efb45c5ff5d8617de80950232a17576a93b024d507a6",
+        "current_sha256": "63713eecef755014c8b1a3cd9b7d5bf5d3fe87839370d46403689e923688dac5"
+      },
+      {
+        "file": "verification.json",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\verification.json",
+        "prior_sha256": "9259081dae2568cfd9f3da9bcee4a4f6dbccc9aac261f478582c546407ef60e7",
+        "current_sha256": "8538c524661177b3093762cc14f9b12784f9dc7577ee88b3d7aa9e8625244fdd"
+      },
+      {
+        "file": "verify_examples.py",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\verify_examples.py",
+        "prior_sha256": "99ec1bcf3ef8700cfa4fb2b583d9dd498a4a86780c78718054fdb28a72d6a69b",
+        "current_sha256": "1ff815449cd47a223ffe6ad653a479695fd060ee11490002c59c070e73e86a0c"
+      }
+    ],
+    "unchanged_files": [
+      {
+        "file": "capstone.md",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\capstone.md",
+        "sha256": "8e2a6ee0d98362d94f1870dbc86f01a4ca9a6ba7279957ffe78fda0116d73c21"
+      },
+      {
+        "file": "course-map.md",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\course-map.md",
+        "sha256": "98b00413037ab25d8300dc8665b8123b7adac5ab440607f0344649ba0f1fc636"
+      },
+      {
+        "file": "input-contract.json",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\input-contract.json",
+        "sha256": "075a855dd2873c00c7f0adb35dd1bd069aedbaeeaffdefca59212a47a81d9d08"
+      },
+      {
+        "file": "launch-prompt.md",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\launch-prompt.md",
+        "sha256": "3d122ce8c5726333f376605cf218357fb2f085414846485987dabba61d294535"
+      },
+      {
+        "file": "lesson-01.md",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\lesson-01.md",
+        "sha256": "02c3ed9d88e77df2d195fdf663dbdbf7e4c50594730420fd8df72c655b78ccbe"
+      },
+      {
+        "file": "lesson-02.md",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\lesson-02.md",
+        "sha256": "f55fbd52a72b1527497ed92ba4720d2a7491a9cc908fc07244a7bb8cc195cd70"
+      },
+      {
+        "file": "lesson-03.md",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\lesson-03.md",
+        "sha256": "01cd0d9c7775a915e618c8293d966fe811290e9606bd62794354277eaa760c04"
+      },
+      {
+        "file": "lesson-05.md",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\lesson-05.md",
+        "sha256": "f4045c764fba72eadbfe1b588cac31048f937479635861615bc4286c098fb31c"
+      },
+      {
+        "file": "lesson-06.md",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\lesson-06.md",
+        "sha256": "7eb14c3a892f31bcb72ca8f60edcef387789f3e7811ada25babd22e4a2474da4"
+      },
+      {
+        "file": "lesson-07.md",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\lesson-07.md",
+        "sha256": "f2819117acddc512a1af138113cd7243d43069ad640dcb79f636b0fb88a0c1df"
+      },
+      {
+        "file": "lesson-08.md",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\lesson-08.md",
+        "sha256": "0a2d69497e881d4ddc398e5a5907cc46e0ad43ba77a9f2a71cf4fbfd01d3118b"
+      },
+      {
+        "file": "sources.md",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\sources.md",
+        "sha256": "611175f7464629e0467a2413a864bfd0b78b9e5644702e9afcbecaaf11023290"
+      },
+      {
+        "file": "teacher-guide.md",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\teacher-guide.md",
+        "sha256": "3ecf832b60c7bfafb80d6cf127bf7659e331ed3d540a95d41220f6ceadf6ee6e"
+      }
+    ],
+    "added_files": [
+      {
+        "file": "repair_course21.py",
+        "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems\\repair_course21.py",
+        "sha256": "fb969b0217389eae0189f89e606c48bc3d98da1a57dbf6a09b6dc1e4d82a10a6"
+      }
+    ],
+    "repairs": [
+      {
+        "id": "C21-IND-001",
+        "current_lines": [
+          22,
+          42,
+          44,
+          46,
+          63
+        ],
+        "evidence": "Lesson04 distinguishes missing contributing renderer entries from missing numerical reference mass. The new answered withheld-reference practice independently gives c dot b=3 and m=3*m_ref, leaving only numerical dimensional mass unresolved. The carry-forward boundary is consistent. Active build_course.py inserts the practice and overrides the old historical boundary; assembled course matches all8 lessons. Builder verification records the new example. No source inputs or residuals were dropped."
+      },
+      {
+        "id": "C21-IND-002",
+        "current_lines": [
+          19,
+          30
+        ],
+        "evidence": "Glossary and active authoring table now state R:01; Z:02 and b:03 (rendering04); b_toy:04, matching actual introduction locations without altering symbol meanings."
+      }
+    ],
+    "assertions": {
+      "previous": 560,
+      "additional_repair_checks": 25,
+      "total": 585,
+      "failures": []
+    },
+    "source_hashes_unchanged": true,
+    "provenance_boundary": "Historical input-contract and launch material remain unchanged. Old wording in the one-time repair script is a replacement target, not active teaching. Author-reported corrections are distinguished from this independent acceptance; no builder or repair script was executed."
+  }
+}

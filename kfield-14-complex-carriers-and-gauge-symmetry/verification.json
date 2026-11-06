@@ -1,0 +1,339 @@
+{
+  "status": "passed",
+  "python_executable": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+  "arithmetic": "fractions.Fraction; exact rational complex pairs; Q(sqrt(-3)); integer exponents modulo 6",
+  "checks": [
+    {
+      "id": "L1-W1",
+      "status": "passed",
+      "method": "Exact Fraction pair multiplication and squared norm"
+    },
+    {
+      "id": "L1-P1",
+      "status": "passed",
+      "method": "Independent forward/inverse and squared modulus"
+    },
+    {
+      "id": "L1-diagnostics",
+      "status": "passed",
+      "method": "Direct arithmetic, not text comparisons"
+    },
+    {
+      "id": "L2-U",
+      "status": "passed",
+      "method": "Dagger matrix products, two components, norm and inverse"
+    },
+    {
+      "id": "L2-V-unitary",
+      "status": "passed",
+      "method": "Cancel sqrt(2) factors exactly, verify both orders"
+    },
+    {
+      "id": "L2-V-action-[(Fraction(1, 1), Fraction(0, 1)), (Fraction(0, 1), Fraction(1, 1))]",
+      "status": "passed",
+      "method": "Raw A action; recover with A†/2; compare norm with factor 1/2"
+    },
+    {
+      "id": "L2-V-action-[(Fraction(2, 1), Fraction(0, 1)), (Fraction(0, 1), Fraction(0, 1))]",
+      "status": "passed",
+      "method": "Raw A action; recover with A†/2; compare norm with factor 1/2"
+    },
+    {
+      "id": "L2-transpose-control",
+      "status": "passed",
+      "method": "A is symmetric; transpose-only product is not identity"
+    },
+    {
+      "id": "L2-inner-product",
+      "status": "passed",
+      "method": "Conjugate-first convention"
+    },
+    {
+      "id": "L3-permutation",
+      "status": "passed",
+      "method": "Explicit five-row P and inverse"
+    },
+    {
+      "id": "L3-projectors",
+      "status": "passed",
+      "method": "Both complementary components retained"
+    },
+    {
+      "id": "L3-charge",
+      "status": "passed",
+      "method": "Exact conjugation of charge matrix"
+    },
+    {
+      "id": "L4-determinants",
+      "status": "passed",
+      "method": "Independent diagonal and 2x2 determinants"
+    },
+    {
+      "id": "L4-lock-and-controls",
+      "status": "passed",
+      "method": "Weight exponents and determinant-one nonunitary control"
+    },
+    {
+      "id": "L1-zeta-unit",
+      "status": "passed",
+      "method": "Exact Q(sqrt(-3)) conjugate product; no rounded roots"
+    },
+    {
+      "id": "L5-zeta-powers",
+      "status": "passed",
+      "method": "Exact quadratic-field expansion of all six powers"
+    },
+    {
+      "id": "L5-kernel-0",
+      "status": "passed",
+      "method": "Integer root exponents for both determinants and action blocks"
+    },
+    {
+      "id": "L5-kernel-1",
+      "status": "passed",
+      "method": "Integer root exponents for both determinants and action blocks"
+    },
+    {
+      "id": "L5-kernel-2",
+      "status": "passed",
+      "method": "Integer root exponents for both determinants and action blocks"
+    },
+    {
+      "id": "L5-kernel-3",
+      "status": "passed",
+      "method": "Integer root exponents for both determinants and action blocks"
+    },
+    {
+      "id": "L5-kernel-4",
+      "status": "passed",
+      "method": "Integer root exponents for both determinants and action blocks"
+    },
+    {
+      "id": "L5-kernel-5",
+      "status": "passed",
+      "method": "Integer root exponents for both determinants and action blocks"
+    },
+    {
+      "id": "L5-toy-3",
+      "status": "passed",
+      "method": "Enumerate all inputs and all 36 composition pairs"
+    },
+    {
+      "id": "L5-recovery-3",
+      "status": "passed",
+      "method": "Retained remainder and within-class label reconstruct all inputs"
+    },
+    {
+      "id": "L5-toy-2",
+      "status": "passed",
+      "method": "Enumerate all inputs and all 36 composition pairs"
+    },
+    {
+      "id": "L5-recovery-2",
+      "status": "passed",
+      "method": "Retained remainder and within-class label reconstruct all inputs"
+    },
+    {
+      "id": "L6-local-[(Fraction(1, 1), Fraction(0, 1)), (Fraction(1, 1), Fraction(0, 1))]",
+      "status": "passed",
+      "method": "Independent local action, norm and inverse"
+    },
+    {
+      "id": "L6-local-[(Fraction(2, 1), Fraction(0, 1)), (Fraction(0, 1), Fraction(1, 1))]",
+      "status": "passed",
+      "method": "Independent local action, norm and inverse"
+    },
+    {
+      "id": "L6-local-[(Fraction(1, 1), Fraction(0, 1)), (Fraction(2, 1), Fraction(0, 1))]",
+      "status": "passed",
+      "method": "Independent local action, norm and inverse"
+    },
+    {
+      "id": "capstone-rubric",
+      "status": "passed",
+      "method": "Sum seven item weights"
+    },
+    {
+      "id": "lesson-01-anchors",
+      "status": "passed",
+      "method": "Structural presence only; independent human-like content review is separate"
+    },
+    {
+      "id": "lesson-02-anchors",
+      "status": "passed",
+      "method": "Structural presence only; independent human-like content review is separate"
+    },
+    {
+      "id": "lesson-03-anchors",
+      "status": "passed",
+      "method": "Structural presence only; independent human-like content review is separate"
+    },
+    {
+      "id": "lesson-04-anchors",
+      "status": "passed",
+      "method": "Structural presence only; independent human-like content review is separate"
+    },
+    {
+      "id": "lesson-05-anchors",
+      "status": "passed",
+      "method": "Structural presence only; independent human-like content review is separate"
+    },
+    {
+      "id": "lesson-06-anchors",
+      "status": "passed",
+      "method": "Structural presence only; independent human-like content review is separate"
+    },
+    {
+      "id": "lesson-07-anchors",
+      "status": "passed",
+      "method": "Structural presence only; independent human-like content review is separate"
+    },
+    {
+      "id": "S01-hash",
+      "status": "passed",
+      "method": "Fresh local read-only SHA-256"
+    },
+    {
+      "id": "S02-hash",
+      "status": "passed",
+      "method": "Fresh local read-only SHA-256"
+    },
+    {
+      "id": "S03-hash",
+      "status": "passed",
+      "method": "Fresh local read-only SHA-256"
+    },
+    {
+      "id": "S04-hash",
+      "status": "passed",
+      "method": "Fresh local read-only SHA-256"
+    },
+    {
+      "id": "S05-hash",
+      "status": "passed",
+      "method": "Fresh local read-only SHA-256"
+    }
+  ],
+  "kernel": [
+    {
+      "k": 0,
+      "z_exponent": 0,
+      "color_exponent": 0,
+      "weak_exponent": 0,
+      "determinant_exponents": [
+        0,
+        0
+      ],
+      "action_exponents": [
+        0,
+        0
+      ]
+    },
+    {
+      "k": 1,
+      "z_exponent": 1,
+      "color_exponent": 2,
+      "weak_exponent": 3,
+      "determinant_exponents": [
+        0,
+        0
+      ],
+      "action_exponents": [
+        0,
+        0
+      ]
+    },
+    {
+      "k": 2,
+      "z_exponent": 2,
+      "color_exponent": 4,
+      "weak_exponent": 0,
+      "determinant_exponents": [
+        0,
+        0
+      ],
+      "action_exponents": [
+        0,
+        0
+      ]
+    },
+    {
+      "k": 3,
+      "z_exponent": 3,
+      "color_exponent": 0,
+      "weak_exponent": 3,
+      "determinant_exponents": [
+        0,
+        0
+      ],
+      "action_exponents": [
+        0,
+        0
+      ]
+    },
+    {
+      "k": 4,
+      "z_exponent": 4,
+      "color_exponent": 2,
+      "weak_exponent": 0,
+      "determinant_exponents": [
+        0,
+        0
+      ],
+      "action_exponents": [
+        0,
+        0
+      ]
+    },
+    {
+      "k": 5,
+      "z_exponent": 5,
+      "color_exponent": 4,
+      "weak_exponent": 3,
+      "determinant_exponents": [
+        0,
+        0
+      ],
+      "action_exponents": [
+        0,
+        0
+      ]
+    }
+  ],
+  "source_hashes": [
+    {
+      "id": "S01",
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180"
+    },
+    {
+      "id": "S02",
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3"
+    },
+    {
+      "id": "S03",
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e"
+    },
+    {
+      "id": "S04",
+      "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2"
+    },
+    {
+      "id": "S05",
+      "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7"
+    }
+  ],
+  "lesson_hashes": {
+    "lesson-01.md": "1d9b94c58b823f52191fcc51db03d068a711aa8803c538bc9cae55bf2805de25",
+    "lesson-02.md": "699e720bf93b6176cb63a35ff11888b2a3bd7ea6c5c7007213b5f701191d2fd5",
+    "lesson-03.md": "ef1972737de333712ef2f7925db3e8374df5582b3053a2fdee73c5d3712133cd",
+    "lesson-04.md": "a21749980db93d114fe18da7eaa9563c1e453cbe89fc9cca5fd2e3fe5bbfede0",
+    "lesson-05.md": "1d2107599e9638c7589b5967168a6ae42529ed200a6b14bee11a365eee88e1c5",
+    "lesson-06.md": "626c5f16593589ec5813b84ff4e3f0f9d53d601f123443f3c846a3c10ebdba47",
+    "lesson-07.md": "7120ac55e0af97c0910dacffa14112116fe0693b925b71b3daae7b862d6ac774"
+  },
+  "limitations": [
+    "General surjectivity and group classification are source-read recognition, not machine-proved here.",
+    "Formal certificate execution and physical global-form selection not performed.",
+    "Structural anchor checks do not substitute for independent educational audit."
+  ]
+}

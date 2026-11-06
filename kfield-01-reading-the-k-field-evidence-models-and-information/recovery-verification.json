@@ -1,0 +1,12 @@
+{
+  "status": "drafts_recovered",
+  "prior_checkpoint_hashes": "None existed; no passed status trusted. Fresh baseline established without regenerating drafts.",
+  "lesson_hashes": {
+    "lesson-01.md": "8a8941d07819332129e834eea1171aaa35c15d79d07c13057d162b17a9753a7f",
+    "lesson-02.md": "cd1f0af363982ad7fa9fbc6d17998bd66937cfd45815584c7ef67f2d50d3272f",
+    "lesson-03.md": "bbd3169e9fa0a89f62c577c31714edbb34b3d8dae1cf5573b752add9fe6eb598",
+    "lesson-04.md": "8fa145121906b3a91a13c7624ac16b6abd40a8fe9e7ec2f0622a7702cb097a72",
+    "lesson-05.md": "b3a1124e311d0e730ad74a69f8b12814cdd3152f0f6a9b0b51616a58fbf6b5f9"
+  },
+  "runtime": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe"
+}

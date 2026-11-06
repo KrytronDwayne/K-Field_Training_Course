@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-29",
+  "timestamp": "2026-11-05T20:32:26.025925+00:00",
+  "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-29-galactic-structure-and-cross-scale-k-field-geometry",
+  "validator": "passed",
+  "validator_checks": [
+    "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+    "parsed manifest.json",
+    "parsed audit_report.json",
+    "parsed completion_report.json",
+    "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+  ],
+  "validator_errors": [],
+  "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+  "manifest_sha256": "206b584066826720da45c06c304fd0749ce01a1b81c9b601056f5f825376ca3c",
+  "completion_report_sha256": "86869779a13157b4ac1e8ad08cf74f03babf9076e63f029aa2e2ebf37feaa004",
+  "course_sha256": "85b0e67e2b6127813695c2d3744e5ccfd90871e36b34fb1cf796c7a3f707fc79"
+}

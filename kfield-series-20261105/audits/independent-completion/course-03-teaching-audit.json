@@ -1,0 +1,1309 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-03",
+  "created_utc": "2026-11-05T17:08:58.387584+00:00",
+  "audit_level": "independent_completed_course_content_review",
+  "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-03-the-authoritative-cell3-basis-metric-and-scale",
+  "reviewed_artifacts": [
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-03-the-authoritative-cell3-basis-metric-and-scale\\lesson-01.md",
+      "sha256": "de89d8f162ec7d02ed33cc9f7c704e60a84417161ed749824410976f4a2c540c"
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-03-the-authoritative-cell3-basis-metric-and-scale\\lesson-02.md",
+      "sha256": "ea57b83e3a1146243133858bf6ac86f3879a2686fe69c79a70d092d00e207ee7"
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-03-the-authoritative-cell3-basis-metric-and-scale\\lesson-03.md",
+      "sha256": "da4ab0961108bac3d544b9e37b71f0777f9d479cdf9b5d12703faf442ce1bd58"
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-03-the-authoritative-cell3-basis-metric-and-scale\\lesson-04.md",
+      "sha256": "d4f30ac9f9d34cc666afbef8e4707b94ecd3b3a4834d81b43acaccd042d585b2"
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-03-the-authoritative-cell3-basis-metric-and-scale\\lesson-05.md",
+      "sha256": "b43d026b7c0ed540f099adbd9fe8a5d75dc7194d6c33bd695d017c6ad22725c4"
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-03-the-authoritative-cell3-basis-metric-and-scale\\lesson-06.md",
+      "sha256": "8c1b32730b62d8de3d2cd27bb128ad911b30bb8d9484aedbf742131239537587"
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-03-the-authoritative-cell3-basis-metric-and-scale\\teacher-guide.md",
+      "sha256": "9d2d77d77b04da0484048b389f92c5b3d1d077f150621bae65925c812531a752"
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-03-the-authoritative-cell3-basis-metric-and-scale\\capstone.md",
+      "sha256": "85e7c73e56c843884243681e1a5ffa19ba77afcfd7ef634b172c3eff4e74dbc5"
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-03-the-authoritative-cell3-basis-metric-and-scale\\sources.md",
+      "sha256": "860962a6db827cae9ce56f44d11a3693f54f5cd6e52ac62bacdc804e3fe22d22"
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-03-the-authoritative-cell3-basis-metric-and-scale\\course-map.md",
+      "sha256": "1cbf8e453faf6f84079c48d6cf1cdfd8f04295b73a5004b7708e1459b7f9fd93"
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-03-the-authoritative-cell3-basis-metric-and-scale\\terminology.md",
+      "sha256": "a09fb2ac594da5696f9829395eb7d25d58f4187630c81def25375c96c46c2f1b"
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-03-the-authoritative-cell3-basis-metric-and-scale\\course.md",
+      "sha256": "66b124a7e2e605b788520be81f061e3f0af030ff391782aa0e79b347d5b7194b"
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-03-the-authoritative-cell3-basis-metric-and-scale\\input-contract.json",
+      "sha256": "22866deff98af0e9b1868311a6ec02a9953dce12f940784236e8d84c73a9a089"
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-03-the-authoritative-cell3-basis-metric-and-scale\\manifest.json",
+      "sha256": "51bc74f798ffa1f0578ea3ab427529207788cd1ae9de27e2e25bcbee6a7d857b"
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-03-the-authoritative-cell3-basis-metric-and-scale\\completion_report.json",
+      "sha256": "15cb3eeded67fc5fc5753ac923ee363d669ab544727165bf375ebfb1a8c911f6"
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-03-the-authoritative-cell3-basis-metric-and-scale\\audit_report.json",
+      "sha256": "a395525dde52a53755f5bcaa9239cc67973320f199f6a477a05acbd0c0c0018b"
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-03-the-authoritative-cell3-basis-metric-and-scale\\verify_examples.py",
+      "sha256": "9de11874642dd22911dcac7b3e8b3c48d5d97ec29450bc42e1beb6f45a8161db"
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-03-the-authoritative-cell3-basis-metric-and-scale\\geometry-card.md",
+      "sha256": "3a4a0fc545647416e256dd041ab32f26e3f1065ceac3bf9a2a60b29fc8242042"
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-03-the-authoritative-cell3-basis-metric-and-scale\\verification.json",
+      "sha256": "4099a1d5f2155ee592f2342f373ee44b8320edc372fc1650f35d8afa14ae471f"
+    },
+    {
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-03-the-authoritative-cell3-basis-metric-and-scale\\audit-checks.json",
+      "sha256": "14adfacbea7442f1a4ecac803a5a056bee62f3813ce25ed037ea45125b54b61a"
+    }
+  ],
+  "method": "Read actual lessons, worked/guided/diagnostic answers, teacher guidance, capstone/key, coverage, terminology, sources and author math scripts/records. Independently recomputed selected high-risk answers using a new local script; did not execute course scripts because they write into course directories.",
+  "runtime": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+  "scope_limits": [
+    "No classroom timing trial; pacing is a planning estimate.",
+    "No independent physical-truth or full archival proof audit.",
+    "Parent consolidation validator results are distinguished from this content review."
+  ],
+  "checks": [
+    {
+      "id": "lesson-01-assembly-identity",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "id": "lesson-02-assembly-identity",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "id": "lesson-03-assembly-identity",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "id": "lesson-04-assembly-identity",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "id": "lesson-05-assembly-identity",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "id": "lesson-06-assembly-identity",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "id": "L02-Gram",
+      "passed": true,
+      "actual": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          9
+        ]
+      ],
+      "expected": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          9
+        ]
+      ]
+    },
+    {
+      "id": "L04-inverse-by-Gauss-Jordan",
+      "passed": true,
+      "actual": [
+        [
+          "5/4",
+          "-1/4",
+          "0"
+        ],
+        [
+          "-1/4",
+          "1/4",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1/9"
+        ]
+      ],
+      "expected": [
+        [
+          "5/4",
+          "-1/4",
+          0
+        ],
+        [
+          "-1/4",
+          "1/4",
+          0
+        ],
+        [
+          0,
+          0,
+          "1/9"
+        ]
+      ]
+    },
+    {
+      "id": "L04-MR",
+      "passed": true,
+      "actual": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "expected": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ]
+    },
+    {
+      "id": "L04-RM",
+      "passed": true,
+      "actual": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "expected": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ]
+    },
+    {
+      "id": "L04-BRBT",
+      "passed": true,
+      "actual": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "expected": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ]
+    },
+    {
+      "id": "analogue-forward-[1, -1, 2]",
+      "passed": true,
+      "actual": [
+        0,
+        -2,
+        -6
+      ],
+      "expected": [
+        0,
+        -2,
+        -6
+      ]
+    },
+    {
+      "id": "analogue-inverse-[1, -1, 2]",
+      "passed": true,
+      "actual": [
+        "1",
+        "-1",
+        "2"
+      ],
+      "expected": [
+        1,
+        -1,
+        2
+      ]
+    },
+    {
+      "id": "analogue-forward-[-1, 2, 0]",
+      "passed": true,
+      "actual": [
+        1,
+        4,
+        0
+      ],
+      "expected": [
+        1,
+        4,
+        0
+      ]
+    },
+    {
+      "id": "analogue-inverse-[-1, 2, 0]",
+      "passed": true,
+      "actual": [
+        "-1",
+        "2",
+        "0"
+      ],
+      "expected": [
+        -1,
+        2,
+        0
+      ]
+    },
+    {
+      "id": "analogue-forward-[1, -1, 0]",
+      "passed": true,
+      "actual": [
+        0,
+        -2,
+        0
+      ],
+      "expected": [
+        0,
+        -2,
+        0
+      ]
+    },
+    {
+      "id": "analogue-inverse-[1, -1, 0]",
+      "passed": true,
+      "actual": [
+        "1",
+        "-1",
+        "0"
+      ],
+      "expected": [
+        1,
+        -1,
+        0
+      ]
+    },
+    {
+      "id": "analogue-forward-[-1, 2, 2]",
+      "passed": true,
+      "actual": [
+        1,
+        4,
+        -6
+      ],
+      "expected": [
+        1,
+        4,
+        -6
+      ]
+    },
+    {
+      "id": "analogue-inverse-[-1, 2, 2]",
+      "passed": true,
+      "actual": [
+        "-1",
+        "2",
+        "2"
+      ],
+      "expected": [
+        -1,
+        2,
+        2
+      ]
+    },
+    {
+      "id": "L03-face-vectors-ab-ac-bc",
+      "passed": true,
+      "actual": [
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          -6,
+          3,
+          0
+        ]
+      ],
+      "expected": [
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          -6,
+          3,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "L03-face-squared-magnitudes",
+      "passed": true,
+      "actual": [
+        4,
+        9,
+        45
+      ],
+      "expected": [
+        4,
+        9,
+        45
+      ]
+    },
+    {
+      "id": "L03-negative-volume",
+      "passed": true,
+      "actual": -6,
+      "expected": -6
+    },
+    {
+      "id": "L03-reverse-face",
+      "passed": true,
+      "actual": [
+        0,
+        -3,
+        0
+      ],
+      "expected": [
+        0,
+        -3,
+        0
+      ]
+    },
+    {
+      "id": "L03-singular-counterexample",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "id": "L02-negative-cross-contribution",
+      "passed": true,
+      "actual": -2,
+      "expected": -2
+    },
+    {
+      "id": "L02-metric-length",
+      "passed": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "id": "scale-volume-2",
+      "passed": true,
+      "actual": -48,
+      "expected": -48
+    },
+    {
+      "id": "scale-inverse-2",
+      "passed": true,
+      "actual": [
+        [
+          "5/16",
+          "-1/16",
+          "0"
+        ],
+        [
+          "-1/16",
+          "1/16",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1/36"
+        ]
+      ],
+      "expected": [
+        [
+          "5/16",
+          "-1/16",
+          "0"
+        ],
+        [
+          "-1/16",
+          "1/16",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1/36"
+        ]
+      ]
+    },
+    {
+      "id": "scale-volume-3",
+      "passed": true,
+      "actual": -162,
+      "expected": -162
+    },
+    {
+      "id": "scale-inverse-3",
+      "passed": true,
+      "actual": [
+        [
+          "5/36",
+          "-1/36",
+          "0"
+        ],
+        [
+          "-1/36",
+          "1/36",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1/81"
+        ]
+      ],
+      "expected": [
+        [
+          "5/36",
+          "-1/36",
+          "0"
+        ],
+        [
+          "-1/36",
+          "1/36",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1/81"
+        ]
+      ]
+    },
+    {
+      "id": "capstone-area-anchor-scale",
+      "passed": true,
+      "actual": 3,
+      "expected": 3
+    },
+    {
+      "id": "capstone-new-ac-area",
+      "passed": true,
+      "actual": 27,
+      "expected": 27
+    },
+    {
+      "id": "L05-positive-ray-lengths",
+      "passed": true,
+      "actual": [
+        2,
+        4,
+        6
+      ],
+      "expected": [
+        2,
+        4,
+        6
+      ]
+    },
+    {
+      "id": "capstone-rubric",
+      "passed": true,
+      "actual": 100,
+      "expected": 100
+    },
+    {
+      "id": "source-hash-S01",
+      "passed": true,
+      "actual": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "expected": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180"
+    },
+    {
+      "id": "source-hash-S02",
+      "passed": true,
+      "actual": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "expected": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3"
+    },
+    {
+      "id": "source-hash-S03",
+      "passed": true,
+      "actual": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "expected": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e"
+    },
+    {
+      "id": "source-hash-S04",
+      "passed": true,
+      "actual": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "expected": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2"
+    },
+    {
+      "id": "source-hash-S05",
+      "passed": true,
+      "actual": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+      "expected": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7"
+    },
+    {
+      "id": "canonical-basis-agreement",
+      "passed": true,
+      "actual": [
+        [
+          "0.3275012420558906",
+          "0.0353307758438284",
+          "-0.0101293176267288"
+        ],
+        [
+          "-0.0548970078840064",
+          "0.2073198504401918",
+          "-0.3897877023662599"
+        ],
+        [
+          "-0.0374875028947299",
+          "-0.5474010853885081",
+          "-0.6897344083672676"
+        ]
+      ],
+      "expected": [
+        [
+          "0.3275012420558906",
+          "0.0353307758438284",
+          "-0.0101293176267288"
+        ],
+        [
+          "-0.0548970078840064",
+          "0.2073198504401918",
+          "-0.3897877023662599"
+        ],
+        [
+          "-0.0374875028947299",
+          "-0.5474010853885081",
+          "-0.6897344083672676"
+        ]
+      ]
+    },
+    {
+      "id": "canonical-face-agreement",
+      "passed": true,
+      "actual": {
+        "ab": "0.19486916546048413",
+        "ac": "0.2611062357902053",
+        "bc": "0.3578095391285615"
+      },
+      "expected": {
+        "ab": "0.19486916546048413",
+        "ac": "0.2611062357902053",
+        "bc": "0.3578095391285615"
+      }
+    },
+    {
+      "id": "card-exact-lexemes-B_nm",
+      "passed": true,
+      "actual": [
+        [
+          "0.3275012420558906",
+          "0.0353307758438284",
+          "-0.0101293176267288"
+        ],
+        [
+          "-0.0548970078840064",
+          "0.2073198504401918",
+          "-0.3897877023662599"
+        ],
+        [
+          "-0.0374875028947299",
+          "-0.5474010853885081",
+          "-0.6897344083672676"
+        ]
+      ],
+      "expected": [
+        [
+          "0.3275012420558906",
+          "0.0353307758438284",
+          "-0.0101293176267288"
+        ],
+        [
+          "-0.0548970078840064",
+          "0.2073198504401918",
+          "-0.3897877023662599"
+        ],
+        [
+          "-0.0374875028947299",
+          "-0.5474010853885081",
+          "-0.6897344083672676"
+        ]
+      ]
+    },
+    {
+      "id": "card-exact-lexemes-direct_metric_nm2",
+      "passed": true,
+      "actual": [
+        [
+          "0.11167605789605008",
+          "0.020710333280605807",
+          "0.043937235096219766"
+        ],
+        [
+          "0.020710333280605807",
+          "0.34387773239278707",
+          "0.29639275896152284"
+        ],
+        [
+          "0.043937235096219766",
+          "0.29639275896152284",
+          "0.6277706100772958"
+        ]
+      ],
+      "expected": [
+        [
+          "0.11167605789605008",
+          "0.020710333280605807",
+          "0.043937235096219766"
+        ],
+        [
+          "0.020710333280605807",
+          "0.34387773239278707",
+          "0.29639275896152284"
+        ],
+        [
+          "0.043937235096219766",
+          "0.29639275896152284",
+          "0.6277706100772958"
+        ]
+      ]
+    },
+    {
+      "id": "card-exact-lexemes-reciprocal_metric_nm_minus2",
+      "passed": true,
+      "actual": [
+        [
+          "9.20802552945755",
+          "0.0015348024281924184",
+          "-0.6451880356999388"
+        ],
+        [
+          "0.0015348024281924234",
+          "4.903398312367984",
+          "-2.3151755844163877"
+        ],
+        [
+          "-0.6451880356999389",
+          "-2.3151755844163877",
+          "2.7311712747116936"
+        ]
+      ],
+      "expected": [
+        [
+          "9.20802552945755",
+          "0.0015348024281924184",
+          "-0.6451880356999388"
+        ],
+        [
+          "0.0015348024281924234",
+          "4.903398312367984",
+          "-2.3151755844163877"
+        ],
+        [
+          "-0.6451880356999389",
+          "-2.3151755844163877",
+          "2.7311712747116936"
+        ]
+      ]
+    },
+    {
+      "id": "card-exact-lexemes-reciprocal_basis_nm_minus1",
+      "passed": true,
+      "actual": [
+        [
+          "3.0222293380828225",
+          "0.19719466520502418",
+          "-0.3207617339980025"
+        ],
+        [
+          "-0.25368849304721575",
+          "1.9189145203319455",
+          "-1.5091399391601032"
+        ],
+        [
+          "0.09898235188380058",
+          "-1.0873268322091032",
+          "-0.5922666871824953"
+        ]
+      ],
+      "expected": [
+        [
+          "3.0222293380828225",
+          "0.19719466520502418",
+          "-0.3207617339980025"
+        ],
+        [
+          "-0.25368849304721575",
+          "1.9189145203319455",
+          "-1.5091399391601032"
+        ],
+        [
+          "0.09898235188380058",
+          "-1.0873268322091032",
+          "-0.5922666871824953"
+        ]
+      ]
+    },
+    {
+      "id": "card-scalar-lexemes-det_B_nm3",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "id": "card-scalar-lexemes-volume_nm3",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "id": "card-scalar-lexemes-edge_lengths_nm",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "id": "card-scalar-lexemes-included_angles_deg",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "id": "card-scalar-lexemes-face_areas_nm2",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "id": "card-scalar-lexemes-projective_ray_bc_ac_ab",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "id": "card-scalar-lexemes-eta",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "id": "card-scalar-lexemes-alpha",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "id": "card-scalar-lexemes-alpha_inverse",
+      "passed": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "id": "fresh-full-decimal-BTB_minus_M",
+      "passed": true,
+      "actual": [
+        [
+          "9.30649226836333E-18",
+          "-1.0154757939229E-19",
+          "-5.09519014998468E-18"
+        ],
+        [
+          "-1.0154757939229E-19",
+          "1.057181073319941E-17",
+          "3.426837967228082E-17"
+        ],
+        [
+          "-5.09519014998468E-18",
+          "3.426837967228082E-17",
+          "3.787694119310721E-17"
+        ]
+      ],
+      "expected": [
+        [
+          "9.30649226836333E-18",
+          "-1.0154757939229E-19",
+          "-5.09519014998468E-18"
+        ],
+        [
+          "-1.0154757939229E-19",
+          "1.057181073319941E-17",
+          "3.426837967228082E-17"
+        ],
+        [
+          "-5.09519014998468E-18",
+          "3.426837967228082E-17",
+          "3.787694119310721E-17"
+        ]
+      ]
+    },
+    {
+      "id": "fresh-full-decimal-MR_minus_I",
+      "passed": true,
+      "actual": [
+        [
+          "-1.534125197463488547162E-16",
+          "5.218432919786523272E-18",
+          "-4.5553689366627803E-18"
+        ],
+        [
+          "-2.5021350432778140562E-17",
+          "-8.22896404263617743512E-17",
+          "-2.87569369100098266E-17"
+        ],
+        [
+          "-9.0029078557079269544E-17",
+          "-5.05013300893256779056E-17",
+          "-8.21682910752285088E-17"
+        ]
+      ],
+      "expected": [
+        [
+          "-1.534125197463488547162E-16",
+          "5.218432919786523272E-18",
+          "-4.5553689366627803E-18"
+        ],
+        [
+          "-2.5021350432778140562E-17",
+          "-8.22896404263617743512E-17",
+          "-2.87569369100098266E-17"
+        ],
+        [
+          "-9.0029078557079269544E-17",
+          "-5.05013300893256779056E-17",
+          "-8.21682910752285088E-17"
+        ]
+      ]
+    },
+    {
+      "id": "fresh-full-decimal-BRBT_minus_I",
+      "passed": true,
+      "actual": [
+        [
+          "-4.8782447525374342745385434860406928E-17",
+          "3.0855687040983062970974986306057088E-17",
+          "2.8370079953211376157067944971446632E-17"
+        ],
+        [
+          "4.4026074942260924047256685338777288E-17",
+          "-1.27933821487840002223637245284114336E-16",
+          "2.1222898048955172409280955379559068E-17"
+        ],
+        [
+          "5.0107189414464437413153178524691132E-17",
+          "1.9086792211601854196956631418629368E-17",
+          "-5.2273783301254831122066910179664458E-17"
+        ]
+      ],
+      "expected": [
+        [
+          "-4.8782447525374342745385434860406928E-17",
+          "3.0855687040983062970974986306057088E-17",
+          "2.8370079953211376157067944971446632E-17"
+        ],
+        [
+          "4.4026074942260924047256685338777288E-17",
+          "-1.27933821487840002223637245284114336E-16",
+          "2.1222898048955172409280955379559068E-17"
+        ],
+        [
+          "5.0107189414464437413153178524691132E-17",
+          "1.9086792211601854196956631418629368E-17",
+          "-5.2273783301254831122066910179664458E-17"
+        ]
+      ]
+    },
+    {
+      "id": "fresh-full-decimal-BTD_minus_I",
+      "passed": true,
+      "actual": [
+        [
+          "3.6663842409835958E-17",
+          "8.759625123209188E-18",
+          "-5.11516360354655E-18"
+        ],
+        [
+          "-3.580990292436548E-18",
+          "1.45238410899853532E-16",
+          "4.032097223369717E-17"
+        ],
+        [
+          "-9.608419268059783E-18",
+          "1.54182146686478486E-16",
+          "-1.1059284009791404E-16"
+        ]
+      ],
+      "expected": [
+        [
+          "3.6663842409835958E-17",
+          "8.759625123209188E-18",
+          "-5.11516360354655E-18"
+        ],
+        [
+          "-3.580990292436548E-18",
+          "1.45238410899853532E-16",
+          "4.032097223369717E-17"
+        ],
+        [
+          "-9.608419268059783E-18",
+          "1.54182146686478486E-16",
+          "-1.1059284009791404E-16"
+        ]
+      ]
+    },
+    {
+      "id": "fresh-full-decimal-R_minus_RT",
+      "passed": true,
+      "actual": [
+        [
+          "0E-14",
+          "-5.0E-18",
+          "1E-16"
+        ],
+        [
+          "5.0E-18",
+          "0E-15",
+          "0E-16"
+        ],
+        [
+          "-1E-16",
+          "0E-16",
+          "0E-16"
+        ]
+      ],
+      "expected": [
+        [
+          "0E-14",
+          "-5.0E-18",
+          "1E-16"
+        ],
+        [
+          "5.0E-18",
+          "0E-15",
+          "0E-16"
+        ],
+        [
+          "-1E-16",
+          "0E-16",
+          "0E-16"
+        ]
+      ]
+    },
+    {
+      "id": "fresh-decimal-determinant",
+      "passed": true,
+      "actual": "-0.117914891911744626838502803509518931924895262922",
+      "expected": "-0.117914891911744626838502803509518931924895262922"
+    },
+    {
+      "id": "fresh-decimal-area-order",
+      "passed": true,
+      "actual": [
+        "0.194869165460484129246116221095176469021942244501339451774823",
+        "0.261106235790205305694137408886183450213165586271636992193759",
+        "0.357809539128561557875583822049302411590256785788469168187098"
+      ],
+      "expected": [
+        "0.194869165460484129246116221095176469021942244501339451774823",
+        "0.261106235790205305694137408886183450213165586271636992193759",
+        "0.357809539128561557875583822049302411590256785788469168187098"
+      ]
+    },
+    {
+      "id": "fresh-area-residuals",
+      "passed": true,
+      "actual": [
+        "-7.53883778904823530978057755498660548225177E-19",
+        "5.694137408886183450213165586271636992193759E-18",
+        "5.7875583822049302411590256785788469168187098E-17"
+      ],
+      "expected": [
+        "-7.53883778904823530978057755498660548225177E-19",
+        "5.694137408886183450213165586271636992193759E-18",
+        "5.7875583822049302411590256785788469168187098E-17"
+      ]
+    },
+    {
+      "id": "capstone-R12-minus-R21",
+      "passed": true,
+      "actual": "-5.0E-18",
+      "expected": "-5.0E-18"
+    },
+    {
+      "id": "capstone-rounding-residual",
+      "passed": true,
+      "actual": "-0.0001",
+      "expected": "-0.0001"
+    },
+    {
+      "id": "half-even-ties",
+      "passed": true,
+      "actual": [
+        "1.2",
+        "1.4"
+      ],
+      "expected": [
+        "1.2",
+        "1.4"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "TA03-MIN-01",
+      "level": "final",
+      "severity": "minor",
+      "category": "supporting-record navigation",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-03-the-authoritative-cell3-basis-metric-and-scale\\teacher-guide.md",
+      "section": "Verification and recovery, line58; also completion_report.json /validator",
+      "defect": "Guide and completion metadata direct readers to local validation-result.json, which is absent from the consolidated course. A successful destination validation is recorded in the series consolidation report.",
+      "minimal_correction": "Point to ../kfield-series-20261105/audits/consolidation/course-03-consolidation.json and its destination_validator_passed field, or provide the actual retained validator record. Refresh affected hashes after parent edits.",
+      "verification": "Current file inventory confirms absent local validation-result.json; consolidation report has destination_validator_passed=true and no errors. After repair, follow the documented path successfully.",
+      "disposition": "unresolved",
+      "launch_blocking": false,
+      "affected_checkpoints": [
+        "teacher-guide",
+        "completion-report"
+      ]
+    },
+    {
+      "id": "TA03-MIN-02",
+      "level": "cumulative",
+      "severity": "minor",
+      "category": "pacing and prerequisite remediation",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-03-the-authoritative-cell3-basis-metric-and-scale\\teacher-guide.md",
+      "section": "Pacing and instructional decisions, line28; course-map.md line5",
+      "defect": "Fraction remediation for the dense L04 inverse lesson is deferred to the capstone review allocation, while the map asks teachers to retain six boundaries. This leaves unclear how to pause before dependent work when a learner needs more guided practice.",
+      "minimal_correction": "State that teachers may add a practice period and must recheck fraction/block-inverse capability before L05 or independent assessment; keep conceptual lesson IDs but treat total periods as flexible.",
+      "verification": "A teacher following only the guide can identify the pre-L05 recheck and permission to extend practice. No new mathematical content or capstone operation is needed.",
+      "disposition": "unresolved",
+      "launch_blocking": false,
+      "affected_checkpoints": [
+        "teacher-guide",
+        "course-map"
+      ]
+    }
+  ],
+  "capstone_backward_map": [
+    {
+      "task": "1",
+      "prior_lessons": "01",
+      "prior_practice": "Worked mapping/recovery and diagnostic2",
+      "result": "closed"
+    },
+    {
+      "task": "2",
+      "prior_lessons": "02",
+      "prior_practice": "Nine-entry Gram table and diagnostic2",
+      "result": "closed"
+    },
+    {
+      "task": "3",
+      "prior_lessons": "03",
+      "prior_practice": "Three face products, triple product and diagnostics1–4",
+      "result": "closed"
+    },
+    {
+      "task": "4",
+      "prior_lessons": "04,03",
+      "prior_practice": "Block inverse, MR and BRBT; L03 planar counterexample",
+      "result": "closed"
+    },
+    {
+      "task": "5",
+      "prior_lessons": "05",
+      "prior_practice": "Scale example and diagnostics1–3",
+      "result": "closed"
+    },
+    {
+      "task": "6",
+      "prior_lessons": "01,06",
+      "prior_practice": "Source-column reading, pointer/card reading and source inventory",
+      "result": "closed"
+    },
+    {
+      "task": "7",
+      "prior_lessons": "04,05",
+      "prior_practice": "Reciprocal recovery and conditional ray with positive anchor",
+      "result": "closed"
+    },
+    {
+      "task": "8",
+      "prior_lessons": "06",
+      "prior_practice": "Rounding example and diagnostic3",
+      "result": "closed"
+    },
+    {
+      "task": "9",
+      "prior_lessons": "06",
+      "prior_practice": "Explicit unequal reciprocal-entry subtraction in Reading the checked card",
+      "result": "closed"
+    },
+    {
+      "task": "10",
+      "prior_lessons": "06",
+      "prior_practice": "Full matrix residual definitions, reconstruction rules and diagnostic4",
+      "result": "closed"
+    }
+  ],
+  "validator_status": {
+    "independently_run_here": false,
+    "parent_record_path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\consolidation\\course-03-consolidation.json",
+    "parent_destination_passed": true,
+    "effect_on_content_decision": "Validator success was not used as a substitute for reading or recomputation."
+  },
+  "residual_verification_scope": "All45 entries of the five stored residual matrices recomputed with original source lexemes at60-digit ROUND_HALF_EVEN precision; no residual threshold used. Determinant, three areas and their source differences also checked. Reported closure scalar remains distinct.",
+  "educational_assessment": {
+    "accessibility": "3D components, magnitude, dot product, transpose/matrix multiplication, cross/triple products and block inverse are supplied in sequence. No code or long-decimal matrix inversion is assessed. Optional arccos illustration is not a hidden core requirement.",
+    "face_pair_order": "L03 and capstone correctly distinguish a×c from c×a, face magnitudes in ab/ac/bc order and source normalized ray in bc/ac/ab order.",
+    "scale_and_units": "M scales as s^2, R as s^-2, determinant as s^3; inverse-metric length^-2 and reciprocal-basis length^-1 units are distinct. Fixed realizable frame and positive ratios/anchor are stated premises.",
+    "source_layers": "Source lock, synthetic analogue, separate right-angle ray, exact algebra and Decimal witnesses are explicitly distinguished. Original unequal R entries and long decimal strings preserved. S01 historical and S03 corrections remain separately attributed.",
+    "pacing": "Six55-minute lessons plus two capstone periods are planning allocations. L04 is dense; minor pacing wording correction recommended below."
+  },
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 2
+  },
+  "decision": "scoped_completed_course_teaching_pass_with_minor_corrections",
+  "critical_or_major_content_blockers": false,
+  "verification_summary": {
+    "fresh_checks_passed": 65,
+    "fresh_checks_failed": 0,
+    "content_read": true,
+    "validator_only_audit": false,
+    "parent_project_files_modified": false,
+    "source_copies_created": false
+  }
+}

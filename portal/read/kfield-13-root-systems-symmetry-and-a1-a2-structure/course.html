@@ -1,0 +1,299 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Root Systems, Symmetry, and A1–A2 Structure · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/13">Course 13</a><span>/</span><span>course</span></div><a class="original" href="../../../kfield-13-root-systems-symmetry-and-a1-a2-structure/course.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#root-systems-symmetry-and-a1a2-structure">Root Systems, Symmetry, and A1–A2 Structure</a><a href="#lesson-01-symmetry-as-an-operation-with-a-rule">Lesson 01 — Symmetry as an operation with a rule</a><a href="#c1301-e1-rules-before-names">C13.01-E1 — Rules before names</a><a href="#c1301-w1-a-fully-worked-two-operation-table">C13.01-W1 — A fully worked two-operation table</a><a href="#c1301-p1-try-a-cycle-then-check">C13.01-P1 — Try a cycle, then check</a><a href="#diagnostic-checks">Diagnostic checks</a><a href="#lesson-02-side-transfers-and-the-a1-pattern">Lesson 02 — Side transfers and the A1 pattern</a><a href="#c1302-e1-sum-difference-and-recoverability">C13.02-E1 — Sum, difference, and recoverability</a><a href="#c1302-w1-transfer-an-odd-difference">C13.02-W1 — Transfer an odd difference</a><a href="#c1302-p1-transfer-and-reconstruct-a-negative-example">C13.02-P1 — Transfer and reconstruct a negative example</a><a href="#diagnostic-checks_1">Diagnostic checks</a><a href="#lesson-03-three-channels-and-the-a2-plane">Lesson 03 — Three channels and the A2 plane</a><a href="#c1303-e1-a-plane-inside-triples">C13.03-E1 — A plane inside triples</a><a href="#c1303-w1-compute-and-reconstruct">C13.03-W1 — Compute and reconstruct</a><a href="#c1303-p1-build-the-atlas-entry">C13.03-P1 — Build the atlas entry</a><a href="#diagnostic-checks_2">Diagnostic checks</a><a href="#lesson-04-roots-weights-and-quotient-labels">Lesson 04 — Roots, weights, and quotient labels</a><a href="#c1304-e1-centering-and-a-larger-lattice">C13.04-E1 — Centering and a larger lattice</a><a href="#c1304-w1-representatives-and-channel-differences">C13.04-W1 — Representatives and channel differences</a><a href="#c1304-p1-compute-before-classifying">C13.04-P1 — Compute before classifying</a><a href="#diagnostic-checks_3">Diagnostic checks</a><a href="#lesson-05-primitive-lifts-and-role-separation">Lesson 05 — Primitive lifts and role separation</a><a href="#c1305-e1-a-record-must-say-what-its-fields-mean">C13.05-E1 — A record must say what its fields mean</a><a href="#c1305-w1-a-lift-and-a-channel-difference">C13.05-W1 — A lift and a channel difference</a><a href="#c1305-p1-retain-the-entire-record">C13.05-P1 — Retain the entire record</a><a href="#diagnostic-checks_4">Diagnostic checks</a><a href="#lesson-06-from-a-geometric-pattern-to-an-action">Lesson 06 — From a geometric pattern to an action</a><a href="#c1306-e1-specify-the-carrier-operation-and-map">C13.06-E1 — Specify the carrier, operation, and map</a><a href="#c1306-w1-trace-the-roots">C13.06-W1 — Trace the roots</a><a href="#c1306-p1-a-vector-orbit-and-a-map-test">C13.06-P1 — A vector orbit and a map test</a><a href="#diagnostic-checks_5">Diagnostic checks</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 01 — Symmetry as an operation with a rule</a><a  href="lesson-02.html">Lesson 02 — Side transfers and the A1 pattern</a><a  href="lesson-03.html">Lesson 03 — Three channels and the A2 plane</a><a  href="lesson-04.html">Lesson 04 — Roots, weights, and quotient labels</a><a  href="lesson-05.html">Lesson 05 — Primitive lifts and role separation</a><a  href="lesson-06.html">Lesson 06 — From a geometric pattern to an action</a></details></aside><div class="reading-column"><article class="prose"><h1 id="root-systems-symmetry-and-a1a2-structure" tabindex="-1">Root Systems, Symmetry, and A1–A2 Structure</h1>
+<p>Student course. Use the <a href="course-map.html">course map</a>, <a href="terminology.html">glossary</a>, <a href="capstone.html">capstone</a>, <a href="teacher-guide.html">teacher guide</a>, and <a href="sources.html">source notes</a> alongside these lessons.</p>
+
+<h1 id="lesson-01-symmetry-as-an-operation-with-a-rule" tabindex="-1">Lesson 01 — Symmetry as an operation with a rule</h1>
+<p><strong>Essential question:</strong> What must an operation preserve before we call it a symmetry?</p>
+<p><strong>Goals:</strong> Apply and compose tuple rules; identify identity and inverse operations; test closure and two declared invariants.</p>
+<p><strong>Bridge and pacing:</strong> You can substitute numbers into formulas and square signed numbers. An ordered tuple is a list whose positions have names: (2,5) differs from (5,2). No abstract algebra is assumed. One 55-minute period: retrieval 5, explanation/example 20, practice 15, diagnostics/repair 15 minutes.</p>
+<h2 id="c1301-e1-rules-before-names" tabindex="-1">C13.01-E1 — Rules before names</h2>
+<p>A carrier is the collection of objects on which a rule acts. For example, the carrier of ordered real pairs contains (2,5), (-1,0), and pairs with fractions. A transformation assigns one output pair to each input pair. The swap rule R(x,y)=(y,x) uses the same input values in reversed positions. The identity I(x,y)=(x,y) leaves every pair unchanged.</p>
+<p>Composition means applying one rule and then another. In FG, apply G first and F second. The result must again be a rule on the same carrier. An inverse undoes a rule on every input. Swapping twice restores the original pair, so R is its own inverse. Closure means that every composition of listed operations is still on the list. Checking one numerical input is useful, but a rule about all pairs needs symbolic substitution: R(R(x,y))=R(y,x)=(x,y).</p>
+<p>An invariant is a specified quantity unchanged by the operation. Here the sum x+y and squared norm x²+y² are invariant under swapping. The squared norm is found by squaring each component and adding; it is the square of Euclidean length. These coordinates are dimensionless. Symmetry is always relative to a carrier and structure being preserved; a word or a matching shape alone is insufficient.</p>
+<p>A closed set with identity, inverses, and associative composition is called a group. Function composition is associative because either grouping performs the same sequence of rules. We will only need small operation tables, not a general group theory course.</p>
+<h2 id="c1301-w1-a-fully-worked-two-operation-table" tabindex="-1">C13.01-W1 — A fully worked two-operation table</h2>
+<p>For the pair (2,5), R gives (5,2). Both have sum 7 and squared norm 4+25=29. Compose symbolically to get II=I, IR=R, RI=R, RR=I. The entire table is therefore:</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Left operation after top operation</th>
+<th>I</th>
+<th>R</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>I</td>
+<td>I</td>
+<td>R</td>
+</tr>
+<tr>
+<td>R</td>
+<td>R</td>
+<td>I</td>
+</tr>
+</tbody>
+</table></div>
+<p>Every entry is I or R, proving closure. I has inverse I; R has inverse R. Preserve the input and rule name if you want to reconstruct the input from a transformed record.</p>
+<blockquote>
+<p><strong>Scope:</strong> This is an exact finite mathematical example, not a detector observation. The source's root structure is introduced later; no physical mechanism has been assigned here.</p>
+</blockquote>
+<h2 id="c1301-p1-try-a-cycle-then-check" tabindex="-1">C13.01-P1 — Try a cycle, then check</h2>
+<p>On real triples define T(x,y,z)=(z,x,y). Apply T repeatedly to (1,2,3). Complete the composition table for I,T,T² and check the sum and squared norm at each stage. T² means T applied twice, not componentwise squaring.</p>
+<p><strong>Worked practice answer:</strong> The sequence is (1,2,3) → (3,1,2) → (2,3,1) → (1,2,3). For arbitrary symbols the third application also restores (x,y,z), so T³=I. Exponents add under composition. Remove complete groups of three applications: T⁴=T. This is addition modulo 3, meaning equal remainders after division by 3.</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>After</th>
+<th>I</th>
+<th>T</th>
+<th>T²</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>I</td>
+<td>I</td>
+<td>T</td>
+<td>T²</td>
+</tr>
+<tr>
+<td>T</td>
+<td>T</td>
+<td>T²</td>
+<td>I</td>
+</tr>
+<tr>
+<td>T²</td>
+<td>T²</td>
+<td>I</td>
+<td>T</td>
+</tr>
+</tbody>
+</table></div>
+<p>All entries belong to the list. The inverse of T is T², and the inverse of T² is T. Each triple has sum 6 and squared norm 1+4+9=14. More generally, moving the terms of a sum does not change either invariant.</p>
+<h2 id="diagnostic-checks" tabindex="-1">Diagnostic checks</h2>
+<ol>
+<li><strong>C13.01-D1:</strong> Is {I,T} closed? Give a counterexample and state the missing information in a claim that merely says “this is a symmetry.”</li>
+<li><strong>C13.01-D2:</strong> Apply R twice to (-2,4). Check its sum and squared norm.</li>
+<li><strong>C13.01-D3:</strong> What is T⁵? What is its inverse within the three-operation set?</li>
+<li><strong>C13.01-D4:</strong> Does the rule H(x,y)=(x+1,y-1) preserve the sum and squared norm on (2,5)? Is preserving one quantity enough to claim all quantities are preserved?</li>
+</ol>
+<p><strong>Worked answers:</strong> 1. TT=T² is missing. State a carrier, rule, composition, and intended invariant. 2. (-2,4) → (4,-2) → (-2,4); sum 2, squared norm 4+16=20. 3. Remove three applications: T⁵=T²; its inverse is T. 4. H(2,5)=(3,4); sum remains 7, but squared norm changes from 29 to 25. A symmetry of the sum need not preserve Euclidean length. This distinction prepares the side transfer.</p>
+<p><strong>Next dependency:</strong> <a href="lesson-02.html">Lesson 02</a> uses a sum-preserving transfer whose difference changes.</p>
+
+
+<h1 id="lesson-02-side-transfers-and-the-a1-pattern" tabindex="-1">Lesson 02 — Side transfers and the A1 pattern</h1>
+<p><strong>Essential question:</strong> Why does moving one unit between two sides change their difference by two?</p>
+<p><strong>Goals:</strong> Derive and reverse side coordinates; check integer compatibility; compute the A1 parity class while retaining full information.</p>
+<p><strong>Bridge and pacing:</strong> Lesson 01 distinguished preserving a sum from preserving all quantities. Here the carrier is ordered integer side carries (C_b,C_c). A carry is a signed integer entry retained by the source's recursive description; it need not be positive. Two 55-minute periods, each with 5 minutes retrieval, 20 instruction/example, 15 practice, 15 diagnostic repair. Period A teaches transfers and inversion; period B teaches congruence and reconstruction.</p>
+<h2 id="c1302-e1-sum-difference-and-recoverability" tabindex="-1">C13.02-E1 — Sum, difference, and recoverability</h2>
+<p>Define S=C_b+C_c and A=C_b-C_c. Add these equations to obtain S+A=2C_b. Subtract the second from the first to obtain S-A=2C_c. Thus C_b=(S+A)/2 and C_c=(S-A)/2. This is a change of coordinates, not information removal.</p>
+<p>For integer carries both halves must be integers. This happens exactly when S and A are both even or both odd. “Same parity” means this shared remainder upon division by 2. If one is even and the other odd, their sum and difference are odd and division by 2 gives half-integers.</p>
+<p>The native transfer is (C_b,C_c) → (C_b+1,C_c-1). Its output sum is C_b+1+C_c-1=S. Its output difference is C_b+1-(C_c-1)=A+2. The reverse transfer changes A by -2. After an integer k of forward transfers (negative k means reverse), the pair is (C_b+k,C_c-k), and A becomes A+2k.</p>
+<p>Write Z for all integers. In the difference coordinate, the allowed weight values form P₁=Z and the transfer displacements form Q₁=2Z, the even integers. Here the A1 root steps are +2 and -2. A quotient groups values together when their difference is an allowed displacement. Thus P₁/Q₁ has two classes, even and odd, often written Z₂. Congruence A≡r mod 2 means A-r is divisible by 2. A negative example is -3≡1 mod 2, because -3-1=-4=2(-2).</p>
+<p>Retain A=r+2k with r chosen from {0,1}, plus S. For A=-3, r=1 and k=-2. The class r alone cannot recover A. Also, at a fixed S, only the class compatible with that S occurs; the two-class statement concerns P₁ across both parities of S. This prevents counting two parity options on a single fixed-sum line when only one is allowed.</p>
+<h2 id="c1302-w1-transfer-an-odd-difference" tabindex="-1">C13.02-W1 — Transfer an odd difference</h2>
+<p>Start with (C_b,C_c)=(2,1). Then S=3 and A=1. Forward transfer gives (3,0), so S'=3 and A'=3. The sum stayed fixed; the difference rose by 2. Both differences have remainder 1. Initially A=1+2(0); finally A'=1+2(1). Decoding the final coordinates gives ((3+3)/2,(3-3)/2)=(3,0). Reverse by (-1,+1) to recover (2,1). Its squared norm changes from 5 to 9: the transfer is a symmetry of S, not of that squared norm.</p>
+<blockquote>
+<p><strong>Source scope:</strong> S02 /backbone_sequence/5/side_modes and /backbone_sequence/8, plus /proof_nodes/54/formula (KFM-X020), ground these definitions. The finite derivation is checked here. A1 carry parity is not detector antipodal parity. No rounding or half-open cell rule is used in this lesson.</p>
+</blockquote>
+<h2 id="c1302-p1-transfer-and-reconstruct-a-negative-example" tabindex="-1">C13.02-P1 — Transfer and reconstruct a negative example</h2>
+<p>Starting from (-1,3), calculate S,A, apply one forward transfer, and retain the parity class together with enough information to undo it. Then test the incompatible candidate S=1,A=0.</p>
+<p><strong>Worked practice answer:</strong> Initially S=2, A=-4=0+2(-2). The output is (0,2), with S'=2 and A'=-2=0+2(-1). The class is even at both stages. Store S=2, r=0, k=-2 for the input and the transfer count +1. Decode A=-4, then C_b=(2-4)/2=-1 and C_c=(2+4)/2=3. For S=1,A=0 the inverse gives (1/2,1/2), so this is not an integer carry record.</p>
+<h2 id="diagnostic-checks_1" tabindex="-1">Diagnostic checks</h2>
+<ol>
+<li><strong>C13.02-D1:</strong> What does keeping only A mod 2 lose? Does carry parity determine detector parity?</li>
+<li><strong>C13.02-D2:</strong> Decode S=-1,A=3 and apply the reverse transfer.</li>
+<li><strong>C13.02-D3:</strong> Write A=-5 as r+2k using r∈{0,1}. Is it in the same class as A=7?</li>
+<li><strong>C13.02-D4:</strong> With S=4, can an integer carry pair have A=3? Explain using the inverse formulas.</li>
+</ol>
+<p><strong>Worked answers:</strong> 1. It loses the even displacement 2k; keep k and S or the original pair. Detector parity requires its own rule and carrier. 2. (C_b,C_c)=(1,-2); reverse gives (0,-1), with S=-1,A=1. 3. -5=1+2(-3). The difference 7-(-5)=12 is even, so both are odd. 4. No: (4+3)/2=7/2 and (4-3)/2=1/2 are not integers.</p>
+<p><strong>Next dependency:</strong> <a href="lesson-03.html">Lesson 03</a> expands the transfer idea to three channels and a plane.</p>
+
+
+<h1 id="lesson-03-three-channels-and-the-a2-plane" tabindex="-1">Lesson 03 — Three channels and the A2 plane</h1>
+<p><strong>Essential question:</strong> What shape do unit transfers among three channels generate?</p>
+<p><strong>Goals:</strong> Draw and enumerate the six roots; compute dot products and Cartan entries; reconstruct any integer zero-sum triple using two simple roots.</p>
+<p><strong>Bridge and pacing:</strong> The two-side transfer added one unit and removed one. With three ordered channels, a transfer still has zero total change. Two 55-minute periods with 5 retrieval, 20 instruction/example, 15 practice, and 15 diagnostics each. Period A builds the plane and drawing; period B teaches dot products and reconstruction.</p>
+<h2 id="c1303-e1-a-plane-inside-triples" tabindex="-1">C13.03-E1 — A plane inside triples</h2>
+<p>Let e₁=(1,0,0), e₂=(0,1,0), and e₃=(0,0,1). These are basis vectors: each identifies one channel. Add triples component by component and multiply them by numbers component by component. A unit transfer from channel j to channel i is e_i-e_j. It has one +1, one -1, and one zero. The six choices with i≠j form the A2 roots:</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Root</th>
+<th>Triple</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>α₁=e₁-e₂</td>
+<td>(1,-1,0)</td>
+</tr>
+<tr>
+<td>α₂=e₂-e₃</td>
+<td>(0,1,-1)</td>
+</tr>
+<tr>
+<td>α₁+α₂=e₁-e₃</td>
+<td>(1,0,-1)</td>
+</tr>
+<tr>
+<td>-α₁</td>
+<td>(-1,1,0)</td>
+</tr>
+<tr>
+<td>-α₂</td>
+<td>(0,-1,1)</td>
+</tr>
+<tr>
+<td>-(α₁+α₂)</td>
+<td>(-1,0,1)</td>
+</tr>
+</tbody>
+</table></div>
+<p>Every listed sum is zero. All real triples with x+y+z=0 form a plane H. Two coordinates may be chosen freely, while z=-x-y is forced. All <em>integer</em> triples in H form the root lattice Q₂. A lattice consists of integer combinations of its generating vectors. The six roots are the shortest nonzero vectors of this lattice in the dot product below; the lattice also contains longer vectors and zero. “Root” and “root-lattice vector” are different descriptions.</p>
+<p>For v=(x,y,z) and w=(p,q,r), define v·w=xp+yq+zr. Multiply matching coordinates, then add. The squared norm is v·v. This is the ordinary Euclidean dot product on an abstract dimensionless channel space, not the Cell3 metric M_cell. A negative dot product is allowed; a squared norm is never negative.</p>
+<p>To draw H on paper while preserving this dot product, place α₁ at the arrow (√2,0) and α₂ at (-1/√2,√(3/2)) in ordinary horizontal/vertical drawing coordinates. A square root √a is the nonnegative number whose square is a. These arrows have squared lengths 2 and dot product -1. Plot their sum and the three negatives. The result is a six-vertex hexagon around the origin. Alternatively, plot coefficient pairs (m,n) for mα₁+nα₂ as (1,0),(0,1),(1,1),(-1,0),(0,-1),(-1,-1); this is a useful coordinate chart but ordinary square-paper distances in that chart are not the root metric. Label which drawing convention you use.</p>
+<p>The Cartan matrix is a compact table of normalized dot products. Our convention is C_ij=2(α_i·α_j)/(α_j·α_j). The denominator is the squared norm of the column root. No matrix multiplication is required to fill this table.</p>
+<h2 id="c1303-w1-compute-and-reconstruct" tabindex="-1">C13.03-W1 — Compute and reconstruct</h2>
+<p>α₁·α₁=1²+(-1)²+0²=2. Likewise α₂·α₂=2. Their cross dot product is 1×0+(-1)×1+0×(-1)=-1. Therefore C₁₁=2×2/2=2, C₁₂=2×(-1)/2=-1, C₂₁=-1, C₂₂=2. The matrix is [[2,-1],[-1,2]].</p>
+<p>For q=(2,-3,1), take 2α₁-α₂=(2,-2,0)+(0,-1,1)=(2,-3,1). In general mα₁+nα₂=(m,-m+n,-n). For a zero-sum q=(x,y,z), choose m=x,n=-z. The middle component becomes -x-z=y, so every integer zero-sum triple is obtained. The coefficients are unique because the first and third components determine them.</p>
+<blockquote>
+<p><strong>Source scope:</strong> S02 /backbone_sequence/8 and /proof_nodes/63/formula (KFM-X021). The calculations establish the finite abstract root datum. They neither substitute a physical metric nor identify a detector action.</p>
+</blockquote>
+<h2 id="c1303-p1-build-the-atlas-entry" tabindex="-1">C13.03-P1 — Build the atlas entry</h2>
+<p>Reconstruct (-1,3,-2), calculate the squared norm of α₁+α₂, calculate α₁·(α₁+α₂), and check the sums of the six roots. Fill the Cartan table yourself before looking back at the example. Draw the six roots as arrows in the length-preserving paper coordinates taught above; label each tip with its triple. Check opposite pairs and equal distances from the origin.</p>
+<p><strong>Worked practice answer:</strong> The coefficients are m=-1,n=2. Thus -α₁+2α₂=(-1,1,0)+(0,2,-2)=(-1,3,-2). Its squared norm is 1+9+4=14. The summed root is (1,0,-1), squared norm 2. Its dot product with α₁ is 1+0+0=1. Each root has one +1 and one -1, hence sum zero. The Cartan entries are 2,-1,-1,2 by the four products above. The drawing tips for α₁,α₂,α₁+α₂ are (√2,0),(-1/√2,√(3/2)),(1/√2,√(3/2)); their negatives supply the other three tips. Label these respectively (1,-1,0),(0,1,-1),(1,0,-1) and their negatives. Each tip has squared distance 2 from the origin. This is a regular hexagon. In the coefficient chart the six listed points also come in opposite pairs, but square-paper distances there are not the root metric.</p>
+<h2 id="diagnostic-checks_2" tabindex="-1">Diagnostic checks</h2>
+<ol>
+<li><strong>C13.03-D1:</strong> Is (1/2,-1/2,0) in H? In Q₂? Explain.</li>
+<li><strong>C13.03-D2:</strong> Express (3,-1,-2) in simple roots and check every coordinate.</li>
+<li><strong>C13.03-D3:</strong> Is (2,-2,0) a root, a root-lattice vector, or neither? Compute its squared norm.</li>
+<li><strong>C13.03-D4:</strong> Calculate α₂·(α₁+α₂). Why must the Cartan diagonal equal 2 here?</li>
+</ol>
+<p><strong>Worked answers:</strong> 1. It sums to zero, so is in H, but has noninteger entries, so is not in Q₂. 2. 3α₁+2α₂=(3,-3,0)+(0,2,-2)=(3,-1,-2). 3. It is 2α₁ in Q₂, with squared norm 8; it is not one of the six roots. 4. 0×1+1×0+(-1)×(-1)=1. Each diagonal is twice a nonzero squared norm divided by itself.</p>
+<p><strong>Next dependency:</strong> <a href="lesson-04.html">Lesson 04</a> adds fractional weights to the same plane without confusing them with roots.</p>
+
+
+<h1 id="lesson-04-roots-weights-and-quotient-labels" tabindex="-1">Lesson 04 — Roots, weights, and quotient labels</h1>
+<p><strong>Essential question:</strong> How can three channel weights belong to one quotient class?</p>
+<p><strong>Goals:</strong> Center channel vectors; derive the three-class test; preserve the full weight while making a quotient view.</p>
+<p><strong>Bridge and pacing:</strong> Lesson 03 built the integer zero-sum lattice Q₂. We now enlarge the allowed points while keeping the same plane. Two 55-minute periods, each with 5 retrieval, 20 explanation/example, 15 practice, 15 diagnostics. Period A teaches centering; period B teaches quotient membership and addition.</p>
+<h2 id="c1304-e1-centering-and-a-larger-lattice" tabindex="-1">C13.04-E1 — Centering and a larger lattice</h2>
+<p>The three channel vectors each have sum 1. Subtract the common mean vector h=(1/3,1/3,1/3) to put each in H. Define u_i=e_i-h. Then u₁=(2,-1,-1)/3, u₂=(-1,2,-1)/3, u₃=(-1,-1,2)/3. A fraction outside parentheses divides every entry. Their sum is zero, so u₃=-u₁-u₂. Differences are unchanged by subtracting the same h: u₁-u₂=e₁-e₂=α₁. To recover a channel vector, retain h and add it back. For a general triple v, retain its mean μ=(v₁+v₂+v₃)/3 along with v-μ(1,1,1).</p>
+<p>Define the weight lattice P₂ to be all a u₁+b u₂ with integers a,b. In this course “weight” refers to these abstract vectors, not physical mass. Expanding gives</p>
+<p>a u₁+b u₂=((2a-b)/3,(-a+2b)/3,-(a+b)/3).</p>
+<p>This vector is integral exactly when a+b is divisible by 3. Necessity follows from its last component. For sufficiency, write a+b=3k. Then the first component is a-k, the second b-k, and the third -k, all integers. The sum is already zero. Conversely, any integer zero-sum (x,y,z) is in P₂: choose a=x-z,b=y-z. The displayed formula returns (x,y,z). Therefore Q₂ is exactly the integral part of P₂.</p>
+<p>Two weights share a quotient class if their difference lies in Q₂. Their labels are the remainder of a+b after division by 3, chosen from {0,1,2}. Equal remainders make their coefficient-sum difference divisible by 3, precisely the condition just proved. This produces P₂/Q₂ with three classes, called Z₃. Adding weights adds coefficient sums, so class addition is remainder addition modulo 3. For example, 2+2 has remainder 1. Negative sums follow the same rule: -1=2+3(-1).</p>
+<p>Keep the coefficients (a,b), not just the class. They reconstruct the vector exactly. Alternatively retain a chosen representative r u₁ and the full root-lattice displacement q=w-r u₁. Here r is the class label. Recording only r loses q; the quotient is a useful view, not a replacement for the original.</p>
+<h2 id="c1304-w1-representatives-and-channel-differences" tabindex="-1">C13.04-W1 — Representatives and channel differences</h2>
+<p>u₁ and 2u₁ are not integral: their first components are 2/3 and 4/3. But 3u₁=(2,-1,-1) is integral and zero-sum, hence in Q₂. Representatives 0,u₁,2u₁ have labels 0,1,2. Also u₁-u₂=(1,-1,0)=α₁. Thus u₁ and u₂ have the same label despite being different vectors. For u₃=-u₁-u₂ the coefficient sum is -2≡1 mod 3. All three channel weights lie in class 1. Their sum is zero, consistent with 1+1+1≡0.</p>
+<blockquote>
+<p><strong>Source scope:</strong> S02 /backbone_sequence/8 and KFM-X021 give the centered weights and quotient. The divisibility proof here supplies an elementary reconstruction. “Three channel weights” and “three quotient classes” count different objects.</p>
+</blockquote>
+<h2 id="c1304-p1-compute-before-classifying" tabindex="-1">C13.04-P1 — Compute before classifying</h2>
+<p>Find u₁+u₂ and 2u₁+u₂, their class labels, and u₂-u₁. For each result keep coefficients and identify whether it belongs to Q₂. Give a representative-plus-displacement record for u₁+u₂.</p>
+<p><strong>Worked practice answer:</strong> u₁+u₂=(1,1,-2)/3 has coefficients (1,1), sum 2, label 2, and is not integral. Relative to representative 2u₁, its displacement is u₂-u₁=(-1,1,0)=-α₁. Thus w=2u₁-α₁ reconstructs it. Next, 2u₁+u₂=(1,0,-1)=α₁+α₂ has coefficients (2,1), sum 3, label 0, and lies in Q₂. Finally u₂-u₁ has coefficients (-1,1), sum 0, label 0, and is a root. Adding it to u₁ changes the vector to u₂ without changing label 1.</p>
+<h2 id="diagnostic-checks_3" tabindex="-1">Diagnostic checks</h2>
+<ol>
+<li><strong>C13.04-D1:</strong> Are u₁,u₂,u₃ representatives of three different quotient classes? What does a root step preserve and what does it change?</li>
+<li><strong>C13.04-D2:</strong> Find the coordinates and label of -u₁. Is it in Q₂?</li>
+<li><strong>C13.04-D3:</strong> For a=4,b=-1, find the vector and class. Reconstruct it from α₁,α₂.</li>
+<li><strong>C13.04-D4:</strong> If only class 2 is retained, can you distinguish 2u₁ from u₁+u₂? What extra record suffices?</li>
+</ol>
+<p><strong>Worked answers:</strong> 1. No, all have label 1. A root step changes the weight vector but preserves its class. 2. (-2,1,1)/3, class -1≡2; it is not integral. 3. (3,-2,-1), label 0 because 4-1=3; it equals 3α₁+α₂. 4. No. Keep (a,b), or representative 2u₁ together with displacement 0 or -α₁, respectively.</p>
+<p><strong>Next dependency:</strong> <a href="lesson-05.html">Lesson 05</a> distinguishes these weights from other objects that also happen to carry three entries.</p>
+
+
+<h1 id="lesson-05-primitive-lifts-and-role-separation" tabindex="-1">Lesson 05 — Primitive lifts and role separation</h1>
+<p><strong>Essential question:</strong> When do identical-looking triples describe different things?</p>
+<p><strong>Goals:</strong> Decode and reconstruct a compatible address lift; distinguish 27 lift choices from three primitive channels; keep family, ray, and parity fields independently typed.</p>
+<p><strong>Bridge and pacing:</strong> Lesson 04 showed that a quotient label loses a displacement unless both are retained. Address reduction has the same bookkeeping need, but its carrier is different. One 55-minute period: 5 retrieval, 20 explanation/example, 15 practice, 15 diagnostics.</p>
+<h2 id="c1305-e1-a-record-must-say-what-its-fields-mean" tabindex="-1">C13.05-E1 — A record must say what its fields mean</h2>
+<p>The source keeps three ordered primitive-lift channels. For our finite model, represent channel identity by the formal basis e₁,e₂,e₃. “Formal” means that these symbols designate slots; they are not measured spatial directions. Each has sum 1; differences have sum zero. Centering gives u₁,u₂,u₃ from Lesson 04. The source's assertion about its full compiler is a source-reported contract; we use its finite channel model without running that compiler.</p>
+<p>An address residue is another kind of triple. Modulo 3, we choose each component's representative from {0,1,2}. A compatible next-level lift of the residue ρ has the form ℓ=ρ+3v, where the balanced lift digit v has three entries in {-1,0,1}. Reduction of ℓ modulo 3 returns ρ because each added entry is divisible by 3. Given the representative ρ and ℓ, recover v=(ℓ-ρ)/3 componentwise. The source's general formula uses 3ⁿ; here we explicitly teach the n=1 instance. These choices represent next-level addresses modulo 9. There are 3×3×3=27 choices because each of three digit positions has three independent choices. Distinct digits give distinct lifts modulo 9: a digit difference in {-2,-1,0,1,2} cannot be a nonzero multiple of 3.</p>
+<p>These 27 choices are not 27 primitive channel types. A particular digit need not sum to zero: v=(1,1,1) is allowed. Thus not every address-lift displacement is a root-lattice vector. The examples with zero-sum digits simply make comparison with Lesson 03 easy.</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Meaning</th>
+<th>What must remain separate</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>e_i; centered u_i</td>
+<td>Formal channel; its centered weight</td>
+<td>Address digit and spatial direction</td>
+</tr>
+<tr>
+<td>ρ,v,ℓ</td>
+<td>Residue, retained digit, reconstructed address</td>
+<td>Three primitive channel types</td>
+</tr>
+<tr>
+<td>F2</td>
+<td>An arbitrary family tag in our synthetic record</td>
+<td>A number inferred from a quotient</td>
+</tr>
+<tr>
+<td>[r_a:r_b:r_c]</td>
+<td>Ratios representing a projective ray</td>
+<td>Primitive channel basis</td>
+</tr>
+<tr>
+<td>detector parity p</td>
+<td>Sign under a specified antipodal detector operation</td>
+<td>A1 integer remainder and family tag</td>
+</tr>
+</tbody>
+</table></div>
+<p>A projective ray records ratios: [1:2:3] and [2:4:6] label the same ray under positive rescaling. We use the source's positive-scale, oriented-ray convention here: negative multiples are not silently identified. In ordinary unoriented projective coordinates any nonzero common rescaling is identified, so its sign convention must be declared separately. If you replace an actual triple by a ratio view, also retain the removed scale to reconstruct it. Here the ray entries are supplied independently; no physical ray constants are being calculated. Detector parity +1 means a specified signal is unchanged under the detector's antipodal map; -1 means it changes sign. For example, a synthetic scalar function f(t)=t under t→-t has odd parity -1, whereas g(t)=t² has even parity +1. Arbitrary signals need not have a single definite parity. A parity tag does not recover a signal's values.</p>
+<h2 id="c1305-w1-a-lift-and-a-channel-difference" tabindex="-1">C13.05-W1 — A lift and a channel difference</h2>
+<p>e₁-e₂=(1,-1,0)=α₁, and e₁-h=u₁, e₂-h=u₂. Separately take address residue ρ=(1,0,0) and digit v=(0,1,-1). Then ℓ=(1,0,0)+3(0,1,-1)=(1,3,-3). The last entry -3 has residue 0 because -3=0+3(-1). Reduction returns (1,0,0); decoding the digit gives ((1,3,-3)-(1,0,0))/3=(0,1,-1). This does not generate a new face-area ratio.</p>
+<blockquote>
+<p><strong>Source scope:</strong> S02 /backbone_sequence/8/type_guards and /proof_nodes/58/formula (KFM-X014) distinguish primitive channels, compatible address lifts, and projective coordinates. Family tag F2, illustrative rays, and detector functions here are synthetic independent fields, not empirical assignments. Projective signs, chirality, and dyadic recursion receive no identification from this arithmetic.</p>
+</blockquote>
+<h2 id="c1305-p1-retain-the-entire-record" tabindex="-1">C13.05-P1 — Retain the entire record</h2>
+<p>Use ρ=(1,0,0), v=(-1,0,1), family tag F2, ray [1:2:3] with scale 2, and an independently supplied odd detector channel f(t)=t. Compute and reduce ℓ. State which data reconstruct the address, scaled ray, and detector values.</p>
+<p><strong>Worked practice answer:</strong> ℓ=(-2,0,3). Since -2=1+3(-1), its residue is (1,0,0). Store both ρ and v; their sum ρ+3v reconstructs ℓ. The scaled ray is (2,4,6), reconstructed from scale 2 and representative (1,2,3). The detector parity is -1 since f(-t)=-f(t); retaining f and t is still needed for values. Neither the family tag F2 nor this parity follows from a carry remainder or weight label. Do not overwrite any of these fields with another.</p>
+<h2 id="diagnostic-checks_4" tabindex="-1">Diagnostic checks</h2>
+<ol>
+<li><strong>C13.05-D1:</strong> Why do 27 compatible address lifts not imply 27 primitive channels? Are primitive channels the projective ray coordinates?</li>
+<li><strong>C13.05-D2:</strong> For ρ=(1,0,0), v=(1,1,1), compute ℓ and its sum. Must every lift stay in a sum-one plane?</li>
+<li><strong>C13.05-D3:</strong> Recover v from ℓ=(1,-3,3),ρ=(1,0,0). Does keeping ρ alone suffice?</li>
+<li><strong>C13.05-D4:</strong> A record has carry A=2 and family F2. Can you infer odd or even detector parity? Give a finite reason.</li>
+</ol>
+<p><strong>Worked answers:</strong> 1. They count digit choices versus basis-channel slots, respectively; equal tuple lengths do not equate their roles. 2. ℓ=(4,3,3), sum 10; no, the digit has sum 3, not zero. 3. v=(0,-1,1); ρ alone leaves 27 choices at this level. 4. No. The independent synthetic detector functions f(t)=t and g(t)=t² have opposite parities while the supplied carry and family fields can remain identical.</p>
+<p><strong>Next dependency:</strong> <a href="lesson-06.html">Lesson 06</a> asks for an explicit map before relating different carriers.</p>
+
+
+<h1 id="lesson-06-from-a-geometric-pattern-to-an-action" tabindex="-1">Lesson 06 — From a geometric pattern to an action</h1>
+<p><strong>Essential question:</strong> What additional evidence turns a matching pattern into a specified action?</p>
+<p><strong>Goals:</strong> Verify the cyclic action on H and its roots; read its permutation matrix; test whether a supplied map respects two actions.</p>
+<p><strong>Bridge and pacing:</strong> Lesson 01 taught cycles; Lessons 03–05 supplied the root plane and distinct carriers. We can now say exactly where a symmetry acts. One 55-minute period: retrieval 5, instruction/example 20, practice 15, diagnostic repair 15 minutes.</p>
+<h2 id="c1306-e1-specify-the-carrier-operation-and-map" tabindex="-1">C13.06-E1 — Specify the carrier, operation, and map</h2>
+<p>Use H={(x,y,z):x+y+z=0} as the carrier and T(x,y,z)=(z,x,y) as the operation. An action assigns each operation a transformation of the carrier, consistently with composition and identity. The three-operation table of Lesson 01 supplies this consistency: I acts as identity and three applications of T return every input.</p>
+<p>A matrix is a rectangular table of numbers encoding a linear rule. For column triples the matrix of T has rows (0,0,1),(1,0,0),(0,1,0). To apply a matrix, take the dot product of each row with the input column. The first output is 0x+0y+1z=z, the second x, the third y. The identity matrix has rows (1,0,0),(0,1,0),(0,0,1). Matrix composition means performing the corresponding rules in succession. A transpose swaps rows and columns; here Tᵀ sends (x,y,z) to (y,z,x), so it is T² and TᵀT=I.</p>
+<p>For any v=(x,y,z), w=(p,q,r), Tv·Tw=zr+xp+yq=v·w. This proves preservation of all dot products, not only the norm of one example. Also the sum of Tv is z+x+y, so H is preserved. An invariant subset is a set whose members remain inside it under the operation; we will verify the root set has this property.</p>
+<p>Suppose a second carrier Y has an operation U. A proposed identification f:H→Y must specify an actual rule, not just claim that both diagrams have six points. The condition f(Tv)=U(f(v)) says that transform-then-map equals map-then-transform. Such a map is called an intertwiner. If claiming a full identification of carriers, also show f is one-to-one and onto, or specify the intended restricted part. “One-to-one” means distinct inputs never share an output; “onto” means every intended target is reached.</p>
+<p>For a finite taught example, use Y=H, f(v)=2v and U=T. Then f(Tv)=2Tv=T(2v)=U(f(v)) because T only moves coordinates. The inverse f⁻¹(w)=w/2 proves a full carrier identification on H. However f doubles lengths, so it does not identify the metric without a scale conversion. On Q₂, the same map is not onto Q₂: α₁/2 is not integral. Claims must state which carrier and structure they concern.</p>
+<h2 id="c1306-w1-trace-the-roots" tabindex="-1">C13.06-W1 — Trace the roots</h2>
+<p>Tα₁=T(1,-1,0)=(0,1,-1)=α₂. Tα₂=T(0,1,-1)=(-1,0,1)=-(α₁+α₂). Applying T again to that third root gives (1,-1,0)=α₁. The negatives form the other cycle because T(-v)=-T(v). Thus all six roots are permuted. T³=I and TᵀT=I certify the cycle and metric preservation on the stated carrier.</p>
+<blockquote>
+<p><strong>Scope:</strong> This finite action is derived and explicitly verified. S02 /backbone_sequence/8 supplies the root datum, not an empirical detector intertwiner. A physical assignment needs its own target carrier, mapping, operations, and invariants. The missing physical identification remains an unresolved question, not a hidden premise.</p>
+</blockquote>
+<h2 id="c1306-p1-a-vector-orbit-and-a-map-test" tabindex="-1">C13.06-P1 — A vector orbit and a map test</h2>
+<p>Apply T three times to q=(2,-3,1). Write the three matrix rows of T and multiply them by the column q. Express the first result using simple roots, check squared norm at each step, and test f(Tq)=T(f(q)) for f(v)=2v. Retain q alongside its weight quotient label.</p>
+<p><strong>Worked practice answer:</strong> q → (1,2,-3) → (-3,1,2) → q. The matrix rows (0,0,1),(1,0,0),(0,1,0) have dot products 1,2,-3 with q, giving the same first output. The first image equals α₁+3α₂=(1,-1,0)+(0,3,-3)=(1,2,-3). All squared norms equal 14 because the squared entries 4,9,1 are rearranged. The left map path gives 2(1,2,-3)=(2,4,-6); the right path gives T(4,-6,2)=(2,4,-6). Every orbit vector is integral and zero-sum, hence class 0 in P₂/Q₂. Store q and the operation exponent: class 0 alone does not reconstruct the orbit point.</p>
+<h2 id="diagnostic-checks_5" tabindex="-1">Diagnostic checks</h2>
+<ol>
+<li><strong>C13.06-D1:</strong> A different device diagram resembles A2. What must be supplied to claim that its operation is the action just studied?</li>
+<li><strong>C13.06-D2:</strong> Use the matrix rows to evaluate T(-1,3,-2), then check sum and squared norm.</li>
+<li><strong>C13.06-D3:</strong> Let Y=H, U=I, and f(v)=v. Does f intertwine T with U? Test α₁.</li>
+<li><strong>C13.06-D4:</strong> Does f(v)=2v identify the six-root set with itself? Explain the difference from identifying H with H.</li>
+</ol>
+<p><strong>Worked answers:</strong> 1. A target carrier, target operation U, explicit map f, and a check f(Tv)=U(f(v)), with any metric conversion and reconstruction rule. Numerical resemblance alone supplies none of these. 2. (-2,-1,3), sum 0, squared norm 4+1+9=14. 3. No: f(Tα₁)=α₂ but U(f(α₁))=α₁. 4. No: 2α₁ is not a root. On real H division by 2 is available, so f is bijective there; the claim changes when the carrier changes.</p>
+<p><strong>Next dependency:</strong> <a href="capstone.html">Capstone</a> combines the six lessons into a transfer atlas. No additional mathematics is required.</p>
+</article><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/13">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

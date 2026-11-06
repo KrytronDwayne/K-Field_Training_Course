@@ -1,0 +1,67 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Lesson 04 — Phase factors and their product · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/19">Course 19</a><span>/</span><span>lesson 04</span></div><a class="original" href="../../../kfield-19-action-topology-and-phase-closure/lesson-04.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#lesson-04-phase-factors-and-their-product">Lesson 04 — Phase factors and their product</a><a href="#c1904-e1-six-contributions-with-a-declared-reading-rule">C19.04-E1 — Six contributions with a declared reading rule</a><a href="#c1904-w1-multiply-without-losing-the-ledger">C19.04-W1 — Multiply without losing the ledger</a><a href="#c1904-p1-guided-practice">C19.04-P1 — Guided practice</a><a href="#diagnostics">Diagnostics</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 01 — An action as a complete mathematical specification</a><a  href="lesson-02.html">Lesson 02 — Discrete action accounting</a><a  href="lesson-03.html">Lesson 03 — Topology through loops and boundary data</a><a aria-current=page href="lesson-04.html">Lesson 04 — Phase factors and their product</a><a  href="lesson-05.html">Lesson 05 — Determinant-line bookkeeping</a><a  href="lesson-06.html">Lesson 06 — Closure and admitted sectors</a><a  href="lesson-07.html">Lesson 07 — A complete premise ledger</a></details></aside><div class="reading-column"><article class="prose"><h1 id="lesson-04-phase-factors-and-their-product" tabindex="-1">Lesson 04 — Phase factors and their product</h1>
+<p><strong>Essential question:</strong> What can disappear from a product without disappearing from the specification?</p>
+<p><strong>Goals:</strong> Compute a six-factor phase product; test factor omission; retain unit-valued contributions and their provenance.</p>
+<p><strong>Prerequisite bridge.</strong> Lesson 03 taught the cycle 1,i,−1,−i and inverse phases. We now use the same multiplication for six contributions. The labels are part of the input: a correct total with a missing label is an incomplete record.</p>
+<h2 id="c1904-e1-six-contributions-with-a-declared-reading-rule" tabindex="-1">C19.04-E1 — Six contributions with a declared reading rule</h2>
+<p>S02 M15 names six determinant-line contributions in this order: <strong>UV, light, reg, heavy, cap, induced</strong>. Here these are source-local labels, not permission to invent numerical physical values. For this finite analogy we choose a basis for each line and a common scalar reading rule called a trivialization, τ. Specifically, τ sends the combined chosen basis to the number 1. Lesson 05 teaches what this means and how it changes under rebasing. This declaration is why, for the present examples, multiplying the six coefficients gives the scalar phase directly.</p>
+<p>Write Φ=z_UV z_light z_reg z_heavy z_cap z_induced. Each z is dimensionless, with values drawn from our four quarter-turn phases. Closure for this one specified packet means Φ=1. Multiplying by 1 does not change a number, but a factor whose value is 1 still records that a contribution was supplied and checked. Missing is different from known-to-be-1.</p>
+<h2 id="c1904-w1-multiply-without-losing-the-ledger" tabindex="-1">C19.04-W1 — Multiply without losing the ledger</h2>
+<p>Our synthetic ordered coefficients are (i,i,−1,−i,i,1). With τ(basis)=1, calculate:</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Contribution</th>
+<th>Value</th>
+<th>Running product</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UV</td>
+<td>i</td>
+<td>i</td>
+</tr>
+<tr>
+<td>light</td>
+<td>i</td>
+<td>−1</td>
+</tr>
+<tr>
+<td>reg</td>
+<td>−1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>heavy</td>
+<td>−i</td>
+<td>−i</td>
+</tr>
+<tr>
+<td>cap</td>
+<td>i</td>
+<td>1</td>
+</tr>
+<tr>
+<td>induced</td>
+<td>1</td>
+<td>1</td>
+</tr>
+</tbody>
+</table></div>
+<p>Thus Φ=1. To test deletion of heavy, multiply the remaining five values: i·i·(−1)·i·1=i. Independently divide the complete product by the omitted nonzero factor: 1/(−i)=i. The two routes agree. The omission changed the packet and its closure value. Retain the original factor list and the omission label; a bare result i does not identify which contribution was removed.</p>
+<p>The closure residual is ρ=Φ−1. For the complete packet ρ=0; with heavy deleted it is i−1. This is an exact complex difference, not a reason to discard the nonclosing result. Complex differences are written a+bi: i−1=−1+i. We need not convert it to a size score.</p>
+<h2 id="c1904-p1-guided-practice" tabindex="-1">C19.04-P1 — Guided practice</h2>
+<p>Use (−1,i,i,1,−i,i) in the same label order and the same τ. Find every running product, then delete cap and compare. Explain why heavy stays in the record.</p>
+<p><strong>Worked answer:</strong> Running products are −1,−i,1,1,−i,1. Thus Φ=1. Without cap=−i the product is i, also 1/(−i)=i, with residual i−1. Heavy has value 1, but keeping it records a supplied contribution rather than an absent one. Both the complete and mutated factor lists remain available.</p>
+<blockquote>
+<p><strong>Claim scope.</strong> Source M15 describes a tensor product of sections, not six unqualified scalar numbers. Our scalar calculation is valid after the stated basis and τ choice and for this synthetic packet only. A product of 1 neither supplies a global trivialization nor establishes every admitted sector. No physical phase value has been measured here.</p>
+</blockquote>
+<h2 id="diagnostics" tabindex="-1">Diagnostics</h2>
+<ol>
+<li><strong>C19.04-D1:</strong> What does Φ=1 establish for the worked packet, and what remains outside that result?</li>
+<li>What happens numerically if induced=1 is omitted from W1? Is the record complete?</li>
+<li>If a missing factor z must satisfy i z=1, find z. May you record it as a recovered source value?</li>
+<li>What must accompany the residual i−1 for reconstruction of the omitted-factor test?</li>
+</ol>
+<p><strong>Worked answers:</strong> (1) The declared finite scalar product closes; other sectors and global line constructions remain unchecked. (2) The value stays 1, but the record is incomplete. (3) z=−i solves the equation, but this is a conditional algebraic requirement, not evidence of the source factor's value. (4) Keep the original factors, mutation label, basis/trivialization and computed product. Adding 1 to the residual recovers the product, not the individual factors.</p>
+<p><strong>Next dependency:</strong> <a href="lesson-05.html">Lesson 05</a> explains why the chosen bases and τ cannot be omitted.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><a class="button secondary" href="lesson-03.html">← Previous lesson</a><a class="button" href="lesson-05.html">Next lesson →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/19">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

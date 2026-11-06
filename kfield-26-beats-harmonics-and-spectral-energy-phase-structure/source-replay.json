@@ -1,0 +1,361 @@
+{
+  "schema_version": "1.0",
+  "evidence_class": "reported_exploratory_to_be_verified",
+  "precision": "Derived binary64 diagnostic coordinates; input-minus-reconstruction and recomputed-minus-reported signed closures, not exact certificates.",
+  "sources": [
+    "spectral",
+    "energy"
+  ],
+  "rows": [
+    {
+      "pointer": "/events/0",
+      "energy_pointer": "/all_event_channel_modulations/0",
+      "event_id": "415-515:415:w",
+      "sign": 1,
+      "family": "w",
+      "time": "2026-08-25T14:37:39.424787Z",
+      "channel_nm": 415,
+      "energy_present": false,
+      "derived": {
+        "mean_M": 1484.1921788437162,
+        "mean_Q": 1483.4421788437162,
+        "half_difference_0": 1.064059614572102,
+        "half_difference_90": 0.4421788437163059,
+        "reconstruction_residual": [
+          0,
+          2.2737367544323206e-13,
+          2.2737367544323206e-13,
+          0
+        ],
+        "gain_closure": 0,
+        "response_recomputed": 8.800222056115778,
+        "response_closure": 0
+      }
+    },
+    {
+      "pointer": "/events/1",
+      "energy_pointer": "/all_event_channel_modulations/1",
+      "event_id": "415-515:515:w",
+      "sign": 1,
+      "family": "w",
+      "time": "2026-08-25T14:37:39.424787Z",
+      "channel_nm": 515,
+      "energy_present": true,
+      "derived": {
+        "mean_M": 9989.298069068778,
+        "mean_Q": 9987.600965465612,
+        "half_difference_0": -0.4326896895927348,
+        "half_difference_90": 4.600965465611807,
+        "reconstruction_residual": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "gain_closure": 0,
+        "response_recomputed": 3.6703653460851835,
+        "response_closure": -4.440892098500626e-16
+      }
+    },
+    {
+      "pointer": "/events/2",
+      "energy_pointer": "/all_event_channel_modulations/2",
+      "event_id": "445-555:445:v",
+      "sign": 1,
+      "family": "v",
+      "time": "2026-08-25T16:51:46.693615Z",
+      "channel_nm": 445,
+      "energy_present": true,
+      "derived": {
+        "mean_M": 6688.683056302139,
+        "mean_Q": 6685,
+        "half_difference_0": 2.03521596642895,
+        "half_difference_90": -2.859136134284199,
+        "reconstruction_residual": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "gain_closure": 0,
+        "response_recomputed": 0.6326413954764594,
+        "response_closure": 1.1102230246251565e-16
+      }
+    },
+    {
+      "pointer": "/events/3",
+      "energy_pointer": "/all_event_channel_modulations/3",
+      "event_id": "445-555:555:v",
+      "sign": -1,
+      "family": "v",
+      "time": "2026-08-25T16:51:46.693615Z",
+      "channel_nm": 555,
+      "energy_present": false,
+      "derived": {
+        "mean_M": 12180.78505000156,
+        "mean_Q": 12184.931165384976,
+        "half_difference_0": -4.181165384975429,
+        "half_difference_90": -1.7934961549253785,
+        "reconstruction_residual": [
+          0,
+          0,
+          -1.8189894035458565e-12,
+          0
+        ],
+        "gain_closure": 0,
+        "response_recomputed": -0.48730619821979165,
+        "response_closure": -5.551115123125783e-17
+      }
+    },
+    {
+      "pointer": "/events/4",
+      "energy_pointer": "/all_event_channel_modulations/4",
+      "event_id": "480-630:480:lambda",
+      "sign": -1,
+      "family": "lambda",
+      "time": "2026-08-25T13:38:38.628172Z",
+      "channel_nm": 480,
+      "energy_present": false,
+      "derived": {
+        "mean_M": 11231.906548591603,
+        "mean_Q": 11232.37950694166,
+        "half_difference_0": -4.129506941658292,
+        "half_difference_90": -4.8975347082896405,
+        "reconstruction_residual": [
+          1.8189894035458565e-12,
+          -1.8189894035458565e-12,
+          0,
+          0
+        ],
+        "gain_closure": 0,
+        "response_recomputed": -0.0066623350790714,
+        "response_closure": 8.673617379884035e-19
+      }
+    },
+    {
+      "pointer": "/events/5",
+      "energy_pointer": "/all_event_channel_modulations/5",
+      "event_id": "480-630:630:lambda",
+      "sign": 1,
+      "family": "lambda",
+      "time": "2026-08-25T13:38:38.628172Z",
+      "channel_nm": 630,
+      "energy_present": true,
+      "derived": {
+        "mean_M": 12866.620013263073,
+        "mean_Q": 12857.240026526146,
+        "half_difference_0": 1.037788093501149,
+        "half_difference_90": 2.759973473853279,
+        "reconstruction_residual": [
+          0,
+          0,
+          0,
+          1.8189894035458565e-12
+        ],
+        "gain_closure": 0,
+        "response_recomputed": 0.15150575411404127,
+        "response_closure": 0
+      }
+    },
+    {
+      "pointer": "/events/6",
+      "energy_pointer": "/all_event_channel_modulations/6",
+      "event_id": "515-680:515:lambda",
+      "sign": -1,
+      "family": "lambda",
+      "time": "2026-08-25T15:51:13.920449Z",
+      "channel_nm": 515,
+      "energy_present": false,
+      "derived": {
+        "mean_M": 9983.252413664028,
+        "mean_Q": 9986.598551801584,
+        "half_difference_0": -0.18510335361952457,
+        "half_difference_90": 0.33413788800953625,
+        "reconstruction_residual": [
+          0,
+          -1.8189894035458565e-12,
+          1.8189894035458565e-12,
+          0
+        ],
+        "gain_closure": 0,
+        "response_recomputed": -0.2688936859606274,
+        "response_closure": 0
+      }
+    },
+    {
+      "pointer": "/events/7",
+      "energy_pointer": "/all_event_channel_modulations/7",
+      "event_id": "515-680:680:lambda",
+      "sign": -1,
+      "family": "lambda",
+      "time": "2026-08-25T15:51:13.920449Z",
+      "channel_nm": 680,
+      "energy_present": false,
+      "derived": {
+        "mean_M": 7312.112044638337,
+        "mean_Q": 7312.637955361663,
+        "half_difference_0": 1.6638660849903317,
+        "half_difference_90": -0.6379553616634439,
+        "reconstruction_residual": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "gain_closure": 0,
+        "response_recomputed": -0.07620684259943487,
+        "response_closure": 0
+      }
+    },
+    {
+      "pointer": "/events/8",
+      "energy_pointer": "/all_event_channel_modulations/8",
+      "event_id": "630-910:630:w",
+      "sign": 1,
+      "family": "w",
+      "time": "2026-08-25T20:08:44.767712Z",
+      "channel_nm": 630,
+      "energy_present": true,
+      "derived": {
+        "mean_M": 12881.082225169572,
+        "mean_Q": 12874.575576187002,
+        "half_difference_0": -0.8289006782870274,
+        "half_difference_90": 1.5888741521403063,
+        "reconstruction_residual": [
+          0,
+          0,
+          0,
+          1.8189894035458565e-12
+        ],
+        "gain_closure": 0,
+        "response_recomputed": 7.51125765191973,
+        "response_closure": -1.7763568394002505e-15
+      }
+    },
+    {
+      "pointer": "/events/9",
+      "energy_pointer": "/all_event_channel_modulations/9",
+      "event_id": "630-910:910:w",
+      "sign": 1,
+      "family": "w",
+      "time": "2026-08-25T20:08:44.767712Z",
+      "channel_nm": 910,
+      "energy_present": false,
+      "derived": {
+        "mean_M": 3107.31204456613,
+        "mean_Q": 3106,
+        "half_difference_0": -1.3120445661302256,
+        "half_difference_90": -0.21806684919556574,
+        "reconstruction_residual": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "gain_closure": 0,
+        "response_recomputed": 9.068515102045454,
+        "response_closure": 0
+      }
+    },
+    {
+      "pointer": "/events/10",
+      "energy_pointer": "/all_event_channel_modulations/10",
+      "event_id": "415-590:415:lambda",
+      "sign": -1,
+      "family": "lambda",
+      "time": "2026-08-25T14:29:13.614152Z",
+      "channel_nm": 415,
+      "energy_present": false,
+      "derived": {
+        "mean_M": 1482.6281192291442,
+        "mean_Q": 1483.4421788437162,
+        "half_difference_0": 0.3718807708557961,
+        "half_difference_90": -1.814059614572102,
+        "reconstruction_residual": [
+          0,
+          2.2737367544323206e-13,
+          0,
+          0
+        ],
+        "gain_closure": 0,
+        "response_recomputed": -0.07780753507062255,
+        "response_closure": 0
+      }
+    },
+    {
+      "pointer": "/events/11",
+      "energy_pointer": "/all_event_channel_modulations/11",
+      "event_id": "415-590:590:lambda",
+      "sign": 1,
+      "family": "lambda",
+      "time": "2026-08-25T14:29:13.614152Z",
+      "channel_nm": 590,
+      "energy_present": false,
+      "derived": {
+        "mean_M": 10428.054954862655,
+        "mean_Q": 10423.77747743133,
+        "half_difference_0": -5.72522568671684,
+        "half_difference_90": -3.5576579807020607,
+        "reconstruction_residual": [
+          1.8189894035458565e-12,
+          0,
+          0,
+          0
+        ],
+        "gain_closure": 0,
+        "response_recomputed": 0.08271848667528198,
+        "response_closure": 0
+      }
+    },
+    {
+      "pointer": "/events/12",
+      "energy_pointer": "/all_event_channel_modulations/12",
+      "event_id": "515-590:515:v",
+      "sign": -1,
+      "family": "v",
+      "time": "2026-08-25T14:20:47.778413Z",
+      "channel_nm": 515,
+      "energy_present": false,
+      "derived": {
+        "mean_M": 9984.41586211199,
+        "mean_Q": 9984.5,
+        "half_difference_0": -6.281241491175933,
+        "half_difference_90": 1.2980690687782044,
+        "reconstruction_residual": [
+          0,
+          0,
+          1.8189894035458565e-12,
+          0
+        ],
+        "gain_closure": 0,
+        "response_recomputed": -0.028693056896610055,
+        "response_closure": -3.469446951953614e-18
+      }
+    },
+    {
+      "pointer": "/events/13",
+      "energy_pointer": "/all_event_channel_modulations/13",
+      "event_id": "515-590:590:v",
+      "sign": 1,
+      "family": "v",
+      "time": "2026-08-25T14:20:47.778413Z",
+      "channel_nm": 590,
+      "energy_present": true,
+      "derived": {
+        "mean_M": 10432.115315961404,
+        "mean_Q": 10420.947748255388,
+        "half_difference_0": -1.9945937639076874,
+        "half_difference_90": -4.722522568671593,
+        "reconstruction_residual": [
+          0,
+          0,
+          0,
+          1.8189894035458565e-12
+        ],
+        "gain_closure": 0,
+        "response_recomputed": 4.18030233718007,
+        "response_closure": 0
+      }
+    }
+  ]
+}

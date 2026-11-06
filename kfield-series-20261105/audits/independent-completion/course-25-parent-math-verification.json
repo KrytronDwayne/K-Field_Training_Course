@@ -1,0 +1,528 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-25",
+  "timestamp": "2026-11-05T20:04:44.974639+00:00",
+  "status": "passed",
+  "passed_checks": 103,
+  "checks": [
+    {
+      "name": "normal unit",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "name": "quarter-second distance",
+      "actual": "3/10",
+      "expected": "3/10"
+    },
+    {
+      "name": "quarter-second coordinate",
+      "actual": "1/2",
+      "expected": "1/2"
+    },
+    {
+      "name": "distance to sheet1",
+      "actual": "-3/10",
+      "expected": "-3/10"
+    },
+    {
+      "name": "sheet1 exact root",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "name": "reversed root",
+      "actual": "-1",
+      "expected": "-1"
+    },
+    {
+      "name": "origin revision shift",
+      "actual": "-1",
+      "expected": "-1"
+    },
+    {
+      "name": "normalization",
+      "actual": "(Fraction(3, 5), Fraction(4, 5), Fraction(0, 1))",
+      "expected": "(Fraction(3, 5), Fraction(4, 5), Fraction(0, 1))"
+    },
+    {
+      "name": "s1 diagnostic",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "name": "s2 diagnostic",
+      "actual": "-1",
+      "expected": "-1"
+    },
+    {
+      "name": "signed rate (2, 0, 0)",
+      "actual": "2",
+      "expected": "2"
+    },
+    {
+      "name": "signed rate (-2, 0, 0)",
+      "actual": "-2",
+      "expected": "-2"
+    },
+    {
+      "name": "parallel rate",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "negative y rate",
+      "actual": "-3",
+      "expected": "-3"
+    },
+    {
+      "name": "relative-origin rate",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "name": "co-moving relative rate",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "spacing-change endpoint rate",
+      "actual": "-1",
+      "expected": "-1"
+    },
+    {
+      "name": "period",
+      "actual": "1/2",
+      "expected": "1/2"
+    },
+    {
+      "name": "doubled-spacing period",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "name": "phase pi coefficient",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "name": "initial-phase waiting time",
+      "actual": "3/8",
+      "expected": "3/8"
+    },
+    {
+      "name": "negative phase pi coefficient",
+      "actual": "-3/2",
+      "expected": "-3/2"
+    },
+    {
+      "name": "piecewise event 0",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "piecewise event 1",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "name": "piecewise event 2",
+      "actual": "2",
+      "expected": "2"
+    },
+    {
+      "name": "piecewise event 3",
+      "actual": "3",
+      "expected": "3"
+    },
+    {
+      "name": "piecewise event 4",
+      "actual": "4",
+      "expected": "4"
+    },
+    {
+      "name": "reversal final coordinate",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "optical-length reference-grid rate",
+      "actual": "4",
+      "expected": "4"
+    },
+    {
+      "name": "crystal reference-grid rate",
+      "actual": "8",
+      "expected": "8"
+    },
+    {
+      "name": "oscillator rate",
+      "actual": "2",
+      "expected": "2"
+    },
+    {
+      "name": "difference frequency",
+      "actual": "2",
+      "expected": "2"
+    },
+    {
+      "name": "capstone difference frequency",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "capstone revised-origin coordinate",
+      "actual": "-2",
+      "expected": "-2"
+    },
+    {
+      "name": "propagation wavelength",
+      "actual": "3/4",
+      "expected": "3/4"
+    },
+    {
+      "name": "period-only frequency",
+      "actual": "1/2",
+      "expected": "1/2"
+    },
+    {
+      "name": "interpolation worked",
+      "actual": "1/2",
+      "expected": "1/2"
+    },
+    {
+      "name": "interpolation substitution",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "interpolation practice",
+      "actual": "3/2",
+      "expected": "3/2"
+    },
+    {
+      "name": "practice root substitution",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "two-root path 0",
+      "actual": "2",
+      "expected": "2"
+    },
+    {
+      "name": "two-root path 1",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "two-root path 2",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "two-root path 3",
+      "actual": "2",
+      "expected": "2"
+    },
+    {
+      "name": "two-root path 1/2",
+      "actual": "3/4",
+      "expected": "3/4"
+    },
+    {
+      "name": "two-root path 3/2",
+      "actual": "-1/4",
+      "expected": "-1/4"
+    },
+    {
+      "name": "two-root path 5/2",
+      "actual": "3/4",
+      "expected": "3/4"
+    },
+    {
+      "name": "tangent 1/2",
+      "actual": "1/4",
+      "expected": "1/4"
+    },
+    {
+      "name": "tangent 1",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "tangent 3/2",
+      "actual": "1/4",
+      "expected": "1/4"
+    },
+    {
+      "name": "jump branches exclude zero",
+      "actual": "True",
+      "expected": "True"
+    },
+    {
+      "name": "bisection square 1",
+      "actual": "-1",
+      "expected": "-1"
+    },
+    {
+      "name": "bisection square 2",
+      "actual": "2",
+      "expected": "2"
+    },
+    {
+      "name": "bisection square 3/2",
+      "actual": "1/4",
+      "expected": "1/4"
+    },
+    {
+      "name": "bisection square 5/4",
+      "actual": "-7/16",
+      "expected": "-7/16"
+    },
+    {
+      "name": "uncertain negative lower",
+      "actual": "-7/100",
+      "expected": "-7/100"
+    },
+    {
+      "name": "uncertain negative upper",
+      "actual": "3/100",
+      "expected": "3/100"
+    },
+    {
+      "name": "StarS H/pi 0",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "StarS H/pi 1",
+      "actual": "1/2",
+      "expected": "1/2"
+    },
+    {
+      "name": "StarS H/pi 2",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "name": "StarS sheet root",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "StarS angular coordinate at sheet",
+      "actual": "1/4",
+      "expected": "1/4"
+    },
+    {
+      "name": "StarR H/pi 0",
+      "actual": "-1",
+      "expected": "-1"
+    },
+    {
+      "name": "StarR H/pi 1/2",
+      "actual": "-1/2",
+      "expected": "-1/2"
+    },
+    {
+      "name": "StarR H/pi 1",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "StarR H/pi 3/2",
+      "actual": "1/2",
+      "expected": "1/2"
+    },
+    {
+      "name": "StarR H/pi 2",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "name": "StarR sheet1 at negative quadrature",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "name": "unwrapped change",
+      "actual": "1/5",
+      "expected": "1/5"
+    },
+    {
+      "name": "wrapped display change",
+      "actual": "-119/5",
+      "expected": "-119/5"
+    },
+    {
+      "name": "A0 event coordinate",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "A0 bracket",
+      "actual": "(Fraction(0, 1), Fraction(3, 5))",
+      "expected": "(Fraction(0, 1), Fraction(3, 5))"
+    },
+    {
+      "name": "A0 reversed bracket",
+      "actual": "(Fraction(0, 1), Fraction(-3, 5))",
+      "expected": "(Fraction(0, 1), Fraction(-3, 5))"
+    },
+    {
+      "name": "A0 normal-reversed physical sheet",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "A1 event coordinate",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "name": "A1 bracket",
+      "actual": "(Fraction(-3, 5), Fraction(3, 5))",
+      "expected": "(Fraction(-3, 5), Fraction(3, 5))"
+    },
+    {
+      "name": "A1 reversed bracket",
+      "actual": "(Fraction(3, 5), Fraction(-3, 5))",
+      "expected": "(Fraction(3, 5), Fraction(-3, 5))"
+    },
+    {
+      "name": "A1 normal-reversed physical sheet",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "A2 event coordinate",
+      "actual": "2",
+      "expected": "2"
+    },
+    {
+      "name": "A2 bracket",
+      "actual": "(Fraction(-3, 5), Fraction(3, 5))",
+      "expected": "(Fraction(-3, 5), Fraction(3, 5))"
+    },
+    {
+      "name": "A2 reversed bracket",
+      "actual": "(Fraction(3, 5), Fraction(-3, 5))",
+      "expected": "(Fraction(3, 5), Fraction(-3, 5))"
+    },
+    {
+      "name": "A2 normal-reversed physical sheet",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "A3 event coordinate",
+      "actual": "3",
+      "expected": "3"
+    },
+    {
+      "name": "A3 bracket",
+      "actual": "(Fraction(-3, 5), Fraction(0, 1))",
+      "expected": "(Fraction(-3, 5), Fraction(0, 1))"
+    },
+    {
+      "name": "A3 reversed bracket",
+      "actual": "(Fraction(3, 5), Fraction(0, 1))",
+      "expected": "(Fraction(3, 5), Fraction(0, 1))"
+    },
+    {
+      "name": "A3 normal-reversed physical sheet",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "B0 event coordinate",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "B0 bracket",
+      "actual": "(Fraction(0, 1), Fraction(2, 1))",
+      "expected": "(Fraction(0, 1), Fraction(2, 1))"
+    },
+    {
+      "name": "B0 reversed bracket",
+      "actual": "(Fraction(0, 1), Fraction(-2, 1))",
+      "expected": "(Fraction(0, 1), Fraction(-2, 1))"
+    },
+    {
+      "name": "B0 normal-reversed physical sheet",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "B1 event coordinate",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "name": "B1 bracket",
+      "actual": "(Fraction(-1, 1), Fraction(1, 1))",
+      "expected": "(Fraction(-1, 1), Fraction(1, 1))"
+    },
+    {
+      "name": "B1 reversed bracket",
+      "actual": "(Fraction(1, 1), Fraction(-1, 1))",
+      "expected": "(Fraction(1, 1), Fraction(-1, 1))"
+    },
+    {
+      "name": "B1 normal-reversed physical sheet",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "signed residual 0",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "reconstruction 0",
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "name": "signed residual 1",
+      "actual": "1/10",
+      "expected": "1/10"
+    },
+    {
+      "name": "reconstruction 1",
+      "actual": "11/10",
+      "expected": "11/10"
+    },
+    {
+      "name": "signed residual 2",
+      "actual": "-1/10",
+      "expected": "-1/10"
+    },
+    {
+      "name": "reconstruction 2",
+      "actual": "19/10",
+      "expected": "19/10"
+    },
+    {
+      "name": "bound lower",
+      "actual": "37/20",
+      "expected": "37/20"
+    },
+    {
+      "name": "bound upper",
+      "actual": "39/20",
+      "expected": "39/20"
+    },
+    {
+      "name": "negative diagnostic residual",
+      "actual": "-1/10",
+      "expected": "-1/10"
+    }
+  ],
+  "runtime": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+  "script": "Z:\\Kfield-doc-training\\.work\\verify_course25_parent_math.py",
+  "script_sha256": "e214722fa23cb92dd9d3575a6ff7685cbc9568fdd3f64be76a1f2a3156a3c81e",
+  "scope": "Independently coded exact rational classroom geometry, rates, event roots, angular equations and signed reconstruction. No builder functions or source data imported. This checks declared examples, not real ephemerides or detector observations."
+}

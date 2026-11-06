@@ -1,0 +1,180 @@
+{
+  "schema_version": "1.0",
+  "created_utc": "2026-11-05T18:44:36.579330+00:00",
+  "audit_level": "pedagogic_blueprint",
+  "amendment_path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-teaching-auditor\\outputs\\teaching-amendments-17-20.json",
+  "amendment_sha256": "20586b6d3d025073cdf48f90007d8f4141cadcd8a8627af48ec93419f8a10352",
+  "verification_path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-teaching-auditor\\outputs\\teaching-verification-17-20.json",
+  "verification_sha256": "95f3b9026083e396970204003ff19e5b6ac06ee4d714f57f5af73f7bbc4026a2",
+  "input_contracts": [
+    {
+      "course_id": "course-17",
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-17-finite-gauge-transport-and-conservative-dynamics\\input-contract.json",
+      "sha256": "f48ee46040414a6355434cec1a8fb54a820d6a35e15182e197bc688230cce30c"
+    },
+    {
+      "course_id": "course-18",
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-18-history-orientation-and-chirality\\input-contract.json",
+      "sha256": "f7ab24bebf450438429e81a83c365ee2a3dafd3d086c9552f3e520d0af31035d"
+    },
+    {
+      "course_id": "course-19",
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure\\input-contract.json",
+      "sha256": "7260b6868a9b51dee46e8aaf5e84b32491decddb85b00e82c90e829f5feb8531"
+    },
+    {
+      "course_id": "course-20",
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-20-family-structure-and-simultaneous-occupation\\input-contract.json",
+      "sha256": "86625e4e042e90445c47601ad4c787a898a80bd620be9b31b91eb3876027083c"
+    }
+  ],
+  "findings": [
+    {
+      "id": "E05-course-17",
+      "severity": "major",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-17-finite-gauge-transport-and-conservative-dynamics\\input-contract.json",
+      "section": "coverage_matrix;course_map;capstone_specification",
+      "defect": "Generic references did not supply finite answered operations andfull backward assessment coverage.",
+      "minimal_repair": "Apply all authored lesson/supplement anchors,source-reading scopes,expanded pacing andcapstone links.",
+      "disposition": "corrected_in_portable_amendment",
+      "project_edit_performed": false
+    },
+    {
+      "id": "E05-course-18",
+      "severity": "major",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-18-history-orientation-and-chirality\\input-contract.json",
+      "section": "coverage_matrix;course_map;capstone_specification",
+      "defect": "Generic references did not supply finite answered operations andfull backward assessment coverage.",
+      "minimal_repair": "Apply all authored lesson/supplement anchors,source-reading scopes,expanded pacing andcapstone links.",
+      "disposition": "corrected_in_portable_amendment",
+      "project_edit_performed": false
+    },
+    {
+      "id": "E05-course-19",
+      "severity": "major",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-19-action-topology-and-phase-closure\\input-contract.json",
+      "section": "coverage_matrix;course_map;capstone_specification",
+      "defect": "Generic references did not supply finite answered operations andfull backward assessment coverage.",
+      "minimal_repair": "Apply all authored lesson/supplement anchors,source-reading scopes,expanded pacing andcapstone links.",
+      "disposition": "corrected_in_portable_amendment",
+      "project_edit_performed": false
+    },
+    {
+      "id": "E05-course-20",
+      "severity": "major",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-20-family-structure-and-simultaneous-occupation\\input-contract.json",
+      "section": "coverage_matrix;course_map;capstone_specification",
+      "defect": "Generic references did not supply finite answered operations andfull backward assessment coverage.",
+      "minimal_repair": "Apply all authored lesson/supplement anchors,source-reading scopes,expanded pacing andcapstone links.",
+      "disposition": "corrected_in_portable_amendment",
+      "project_edit_performed": false
+    },
+    {
+      "id": "BRIDGE-17",
+      "severity": "major",
+      "section": "course-17",
+      "defect": "Unscoped Hodge/Cayley formulas or numerical certificate replay would omit required domains andpinned inputs.",
+      "minimal_repair": "Pin mature exponents,J,bivector order/units andCayley adjoint/inverse hypotheses; assign source-scoped certificate reading only.",
+      "disposition": "corrected_in_portable_amendment"
+    },
+    {
+      "id": "BRIDGE-18",
+      "severity": "major",
+      "section": "course-18",
+      "defect": "Finite endpoint defects andindependent chirality/parity factors can be lost; supplementalangular/CP work needs actual practice.",
+      "minimal_repair": "Keep both finite defects andindex0,declare distinct infinite space,andinclude C18.S01/S02/S03 answered operations.",
+      "disposition": "corrected_in_portable_amendment"
+    },
+    {
+      "id": "BRIDGE-19",
+      "severity": "major",
+      "section": "course-19",
+      "defect": "Omitting determinant-line factors,trivialization or admitted sectors changes the phase-closure problem.",
+      "minimal_repair": "Retain all six factors,basis/trivialization metadata andcharge/admissibility contract; distinguish finite arithmetic fromglobal proof.",
+      "disposition": "corrected_in_portable_amendment"
+    },
+    {
+      "id": "BRIDGE-20",
+      "severity": "major",
+      "section": "course-20",
+      "defect": "Rank-only coverage omits Weyl/Schur reconstruction andcan erase occupation-guard conflict.",
+      "minimal_repair": "Preserve EA20 plusC20.S01/S02,allzero coordinates,eliminatedw/E0 branch andthe sourceclaim/D10/AUD007 status ledger.",
+      "disposition": "corrected_in_portable_amendment"
+    }
+  ],
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "courses": [
+    {
+      "course_id": "course-17",
+      "decision": "teaching_blueprint_pass_with_amendment",
+      "unresolved_critical": 0,
+      "unresolved_major": 0,
+      "unresolved_minor": 0,
+      "core_periods": 13,
+      "capstone_periods": 3,
+      "period_minutes": 55,
+      "launch_condition": "Parent applies the entire portable amendment; actual lessons andcapstone still require independent completed-course acceptance.",
+      "completed_course_approved": false
+    },
+    {
+      "course_id": "course-18",
+      "decision": "teaching_blueprint_pass_with_amendment",
+      "unresolved_critical": 0,
+      "unresolved_major": 0,
+      "unresolved_minor": 0,
+      "core_periods": 12,
+      "capstone_periods": 3,
+      "period_minutes": 55,
+      "launch_condition": "Parent applies the entire portable amendment; actual lessons andcapstone still require independent completed-course acceptance.",
+      "completed_course_approved": false
+    },
+    {
+      "course_id": "course-19",
+      "decision": "teaching_blueprint_pass_with_amendment",
+      "unresolved_critical": 0,
+      "unresolved_major": 0,
+      "unresolved_minor": 0,
+      "core_periods": 9,
+      "capstone_periods": 3,
+      "period_minutes": 55,
+      "launch_condition": "Parent applies the entire portable amendment; actual lessons andcapstone still require independent completed-course acceptance.",
+      "completed_course_approved": false
+    },
+    {
+      "course_id": "course-20",
+      "decision": "teaching_blueprint_pass_with_amendment",
+      "unresolved_critical": 0,
+      "unresolved_major": 0,
+      "unresolved_minor": 0,
+      "core_periods": 15,
+      "capstone_periods": 3,
+      "period_minutes": 55,
+      "launch_condition": "Parent applies the entire portable amendment; actual lessons andcapstone still require independent completed-course acceptance.",
+      "completed_course_approved": false
+    }
+  ],
+  "verification_summary": {
+    "checks_passed": 542,
+    "checks_failed": 0,
+    "original_lesson_anchors": 29,
+    "supplemental_anchor_sets": 5,
+    "capstone_steps": 34,
+    "all_original_concepts_preserved": true,
+    "all_references_resolve": true
+  },
+  "limitations": [
+    "Blueprint acceptance is conditional on applying these portable changes; no completed course was built or approved.",
+    "Pacing is an instructional allocation,not classroom-tested mastery; extra periods remain permitted.",
+    "No full pinned finite-rung certificate,physical K4/occupation-selection body or global determinant-line proof was replayed. These are source-scoped readings with missing inputs disclosed,not silently replaced by toy computations.",
+    "Source-local VERIFIED_FROZEN andVERIFIED_NOT_LOADED statuses remain attributed; mathematical examples do not adjudicate physical occupation.",
+    "No corpus-generation freshness claim or compiler execution is made."
+  ],
+  "source_report_sha256": "eef89a28971ef7e5380977c31b62ed6d64f2831759e679ee967b6c253a33c04a",
+  "ledger_sha256_at_report": "bb0ecbb3ee95b526782ee81ef39be6d30177cdd03aac4576b53d9cb381ea84c7",
+  "finished_course_pass": false,
+  "source_or_project_files_modified": false
+}

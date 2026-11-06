@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-11",
+  "timestamp": "2026-11-05T18:29:12.865638+00:00",
+  "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-11-lucas-graphs-edges-cycles-and-memory",
+  "validator": "passed",
+  "validator_checks": [
+    "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+    "parsed manifest.json",
+    "parsed audit_report.json",
+    "parsed completion_report.json",
+    "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+  ],
+  "validator_errors": [],
+  "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+  "manifest_sha256": "5d05ec34a07727e52baefa7b776e30cb29411b8cbcb8e63a2f2478f614829e72",
+  "completion_report_sha256": "b60b547886a5cbdfdd470a21d18491741098fe6949e0d9d3b8f856af381654bf",
+  "course_sha256": "a64730db4b1395ff95d5912736ac8157b83c9c3ff2f59fba710c033a9828364b",
+  "status": "accepted",
+  "independent_audit": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-series-20261105\\audits\\independent-completion\\course-11-independent-audit.json",
+  "independent_report_sha256": "ba3e4e985bde1ea5d5a5ad51eaa244e66e190729a1519345545423758b154789",
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "scope": "Completed topical course accepted after parent review of independent source/content audit and fresh deterministic validation; documented source limitations retained."
+}

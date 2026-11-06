@@ -1,0 +1,185 @@
+{
+  "unresolved_minor": 0,
+  "status": "passed",
+  "findings": [
+    {
+      "id": "C18-IA-001",
+      "section": "C18.02-E1",
+      "correction": "Add L_a† e_Ω=0 (and likewise for L_b†).",
+      "level": "local",
+      "affected_checkpoint_ids": [
+        "lesson-02"
+      ],
+      "severity": "minor",
+      "file": "lesson-02.md",
+      "disposition": "corrected",
+      "category": "definition completeness",
+      "defect": "Removal formulas explicitly cover words beginning a or b but leave its action at the empty-word root implicit.",
+      "verification": "Re-read lesson-02 C18.02-E1; L_a† e_Ω=0 is now explicitly present."
+    },
+    {
+      "id": "C18-IA-002",
+      "level": "final",
+      "category": "cross-reference",
+      "file": "capstone.md",
+      "section": "Answer 07",
+      "severity": "minor",
+      "defect": "Table refers to Lessons 02/08 although there are only seven lessons.",
+      "correction": "Use Lesson 02; capstone task 08.",
+      "verification": "Re-read capstone Answer 07 table: now reads Lesson 02; capstone task 08.",
+      "disposition": "corrected",
+      "affected_checkpoint_ids": [
+        "capstone"
+      ]
+    },
+    {
+      "id": "C18-PARENT-001",
+      "level": "final",
+      "category": "Markdown table",
+      "file": "terminology.md",
+      "section": "Norm-squared row",
+      "severity": "minor",
+      "defect": "Unescaped norm bars split the term into extra Markdown cells.",
+      "correction": "Escape the four norm bars without changing the mathematical text.",
+      "verification": "Parent inspected the full glossary and checked that every table row has exactly three cells.",
+      "disposition": "corrected",
+      "affected_checkpoint_ids": [
+        "terminology"
+      ]
+    }
+  ],
+  "unresolved_major": 0,
+  "scope": "Independent hostile audit of seven lessons, ten-task capstone, course map, terminology and teacher guide; assembly and recovery validator are separate manager checks",
+  "audit_id": "C18-INDEPENDENT-01",
+  "method": "Full lesson reading, exact contract anchor comparison, manual independent matrix actions/products, coordinate reconstruction, norm sums, determinant sign and complex multiplication; direct source-pointer reading and source SHA-256 comparison.",
+  "source_hashes": {
+    "S02": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+    "S03": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e"
+  },
+  "unresolved_critical": 0,
+  "lessons": [
+    {
+      "review": "read completely; worked examples, practice and diagnostic answers independently recomputed",
+      "sha256": "368c786fc3b55fefaa4ef2399c03e4afebf2eb3546de852dce0463298c04ba54",
+      "contract_anchors": "all present",
+      "diagnostics": 4,
+      "file": "lesson-01.md"
+    },
+    {
+      "review": "read completely; worked examples, practice and diagnostic answers independently recomputed",
+      "sha256": "839c532bd997703987d3842df835f30ab46c9292f3ebb67f61dc3b4d6ba21dab",
+      "contract_anchors": "all present",
+      "diagnostics": 4,
+      "file": "lesson-02.md"
+    },
+    {
+      "review": "read completely; worked examples, practice and diagnostic answers independently recomputed",
+      "sha256": "16fc5b5439ccdc9b43f109a2ff79c69d6b1adc48fdd13e0276cb9b1fc508a362",
+      "contract_anchors": "all present",
+      "diagnostics": 4,
+      "file": "lesson-03.md"
+    },
+    {
+      "review": "read completely; worked examples, practice and diagnostic answers independently recomputed",
+      "sha256": "16d3710e218f183cc5a68c341a5549fe87f9df9d11038defd459776d89147634",
+      "contract_anchors": "all present",
+      "diagnostics": 4,
+      "file": "lesson-04.md"
+    },
+    {
+      "review": "read completely; worked examples, practice and diagnostic answers independently recomputed",
+      "sha256": "0f04af9b52333d58ce45677d875563a979c2d4c0270f8d5c04a9b539cf1fd2c1",
+      "contract_anchors": "all present",
+      "diagnostics": 4,
+      "file": "lesson-05.md"
+    },
+    {
+      "review": "read completely; worked examples, practice and diagnostic answers independently recomputed",
+      "sha256": "a6120bc92c1c16183f5e91df5e4d3b38e4af6337933a51f35fe1e26809a71882",
+      "contract_anchors": "all present",
+      "diagnostics": 4,
+      "file": "lesson-06.md"
+    },
+    {
+      "review": "read completely; worked examples, practice and diagnostic answers independently recomputed",
+      "sha256": "4014cd4e6d5af6f4f02bc7edfc2210ea0ea7470d717d32a3624b6476673d0cf9",
+      "contract_anchors": "all present",
+      "diagnostics": 4,
+      "file": "lesson-07.md"
+    }
+  ],
+  "checks": [
+    "Binary depth counts 1+2+4=7 and length-three count 8; prefix/removal labels checked.",
+    "S†S=diag(1,1,0), SS†=diag(0,1,1); square index 0; rectangular T†T=I2 and TT†=diag(0,1,1); infinite U has no terminal input.",
+    "Practice S(1,-2,5)=(0,1,-2), squared norms 30=5+25; T decomposition for (5,2,3) has 38=13+25.",
+    "q0,q1,q2 select respective coordinates; q3=0; ranks 1,1,1,0; complete sum and pairwise zero products checked.",
+    "Orientation determinants -6,+6; practice -8,-64,+64; time sign independent.",
+    "Pi=diag(1,0,0,1), worked norms 30=17+13, practice 14=13+1; GX+XG=0 verified.",
+    "Angular cutoffs 9,18 and 16,32; ell2 splitting 6+4=10; ell0 only j=1/2.",
+    "Complex commutator diag(2i,-2i); practice off-diagonal 2+2i and -2+2i.",
+    "omega squared and cubed checked algebraically; Yd=diag(1/2,omega^2,2omega), YuYd=diag(1,omega^2,omega), determinant 1; both matrices commute.",
+    "M14 cards match source /backbone_sequence/13; source M03/M11 dependencies retained; AUD-009 /findings/8 supports unloaded B8 and T0.",
+    "Source /proof_nodes/4,/18,/25 angular counts and scope, /9 pointwise carry restriction, /76 supplied-input existence witness agree.",
+    "All seven lessons have one essential question, 3 or 4 goals, explicit bridge and scope, answered practice, four diagnostics, next dependency; pacing 1+2+1+1+1+3+3=12 periods."
+  ],
+  "capstone": {
+    "file": "capstone.md",
+    "sha256": "2440cabe19191fb5512c53636b176e61ce8bf2436c93a5fa7c190fcb239f7e1c",
+    "status": "mathematics_and_alignment_pass",
+    "task_results": [
+      "01: seven labels/root/zero ledger and prefix-removal correct; cutoff alternatives retain removed coefficients.",
+      "02: S action, reverse and complement recomputed; 30=5+25.",
+      "03: adjoint/reachable/complement recomputed; general norm identity and missing e0 witness valid.",
+      "04: four q matrices, ranks 1/1/1/0, products and zero-output retention correct.",
+      "05: determinant sequence -8,-64,+64, unchanged forward time, reverse reconstruction correct.",
+      "06: Pi diagonal 1/0/0/1 and selected/complement vectors correct; independent labels retained.",
+      "07: classification and gaps source-matched; new M03/M11 explanation and answered matching practice precede capstone. Source pointers /backbone_sequence/2 and /10 read directly to confirm roles.",
+      "08: square, rectangular, infinite defects and dimensions correct; source T0 explicitly distinct.",
+      "09: 16/32, C2=12, split 6+4, ell0 exception independently recomputed.",
+      "10: commutator off diagonals 2+2i,-2+2i; diagonal pointwise contrast correct; square-root witness product diag(1,omega^2,omega) has determinant 1 and commuting Y pair."
+    ],
+    "rubric": "Each task totals 10 points; ten tasks total 100. Scope and reconstruction points correspond to required outputs; propagated-error policy explicit.",
+    "prerequisites": "All ten stems resolve to earlier E1/W1/P1/D1 content with worked answers. No computation requires the recognition-only source extensions."
+  },
+  "support_artifacts": [
+    {
+      "sha256": "463845fbf3eecb44ad9872b8e08d061f539fd1c6fe29c8599874236c877ecde6",
+      "file": "course-map.md",
+      "status": "read_in_full_and_passed"
+    },
+    {
+      "sha256": "aeb8fff5aba73769e29b9feb29bca1c4ad9f30997b5a080dc2cff85cb3d10f33",
+      "file": "terminology.md",
+      "status": "read_in_full_and_passed",
+      "previous_sha256": "887fdea1e5fe499354a2c2ba37406e9b24f8397f5ebefa0c32be5bfbdef4032b",
+      "post_audit_reviewer": "Parent coordinator",
+      "post_audit_scope": "Formatting-only repair C18-PARENT-001; original source/math audit retained, exact prior hash preserved."
+    },
+    {
+      "sha256": "646469a9c627e9fc0b7a6e0220aaeb3d63e124b4995b55a16b26af9b6d0b1580",
+      "file": "teacher-guide.md",
+      "status": "read_in_full_and_passed"
+    }
+  ],
+  "support_checks": [
+    "Course map has all ten concepts and exact 40 E/W/P/D identifiers matching audited lessons; ten capstone mappings align.",
+    "Pacing independently totaled: 12*55=660 core; 3*55=165 capstone; overall 825. Teacher allocations 60+240+180+180=660 match.",
+    "Dependency chain and bounded source M03/M11 roles match actual instruction and source bytes; inactive packet invariants are guards rather than silently assigned prerequisite computations.",
+    "Glossary preserves history S versus CP square-root S, generic grading G versus metrics, Pi versus Pi_phys, separate source T0/W, and distinct factors/parities.",
+    "Teacher interventions and cumulative checks address actual failure modes; identical-number capstone practice reuse is explicit; optional oral variation -5 preserves squared loss 25.",
+    "Both independent minor findings repaired and verified. No unresolved critical, major or minor findings in reviewed scope."
+  ],
+  "parent_post_audit_corrections": [
+    {
+      "timestamp": "2026-11-05T19:15:58.678996+00:00",
+      "reviewer": "Parent coordinator independent of course author",
+      "finding_id": "C18-PARENT-001",
+      "file": "terminology.md",
+      "before_sha256": "887fdea1e5fe499354a2c2ba37406e9b24f8397f5ebefa0c32be5bfbdef4032b",
+      "after_sha256": "aeb8fff5aba73769e29b9feb29bca1c4ad9f30997b5a080dc2cff85cb3d10f33",
+      "semantic_change": false,
+      "table_rows_checked": 56,
+      "scope": "Parent manual glossary review and Markdown cell-count check. Original auditor did not review this byte revision."
+    }
+  ]
+}

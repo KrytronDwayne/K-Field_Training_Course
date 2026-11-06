@@ -1,0 +1,813 @@
+{
+  "status": "passed",
+  "method": "Independent standard-library integer/rational evaluation from inputs; residual tables parsed directly from authored Markdown and compared row by row. Interpretive/source checks are separately recorded in audit_report.json.",
+  "runtime": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+  "synthetic_only": true,
+  "checks": [
+    {
+      "id": "L1-worked-difference",
+      "actual": 3,
+      "expected": 3,
+      "result": "passed"
+    },
+    {
+      "id": "L1-guided-difference",
+      "actual": 5,
+      "expected": 5,
+      "result": "passed"
+    },
+    {
+      "id": "L1-diagnostic-difference",
+      "actual": 2,
+      "expected": 2,
+      "result": "passed"
+    },
+    {
+      "id": "L3-table-row-count",
+      "actual": 4,
+      "expected": 4,
+      "result": "passed"
+    },
+    {
+      "id": "L3-row1-M0",
+      "actual": 10,
+      "expected": 10,
+      "result": "passed"
+    },
+    {
+      "id": "L3-row1-residual",
+      "actual": 1,
+      "expected": 1,
+      "result": "passed"
+    },
+    {
+      "id": "L3-row1-second-residual",
+      "actual": 0,
+      "expected": 0,
+      "result": "passed"
+    },
+    {
+      "id": "L3-row1-reconstruction",
+      "actual": 11,
+      "expected": 11,
+      "result": "passed"
+    },
+    {
+      "id": "L3-row1-first-reconstruction",
+      "actual": 11,
+      "expected": 11,
+      "result": "passed"
+    },
+    {
+      "id": "L3-row2-M0",
+      "actual": 12,
+      "expected": 12,
+      "result": "passed"
+    },
+    {
+      "id": "L3-row2-residual",
+      "actual": -1,
+      "expected": -1,
+      "result": "passed"
+    },
+    {
+      "id": "L3-row2-second-residual",
+      "actual": 0,
+      "expected": 0,
+      "result": "passed"
+    },
+    {
+      "id": "L3-row2-reconstruction",
+      "actual": 11,
+      "expected": 11,
+      "result": "passed"
+    },
+    {
+      "id": "L3-row2-first-reconstruction",
+      "actual": 11,
+      "expected": 11,
+      "result": "passed"
+    },
+    {
+      "id": "L3-row3-M0",
+      "actual": 14,
+      "expected": 14,
+      "result": "passed"
+    },
+    {
+      "id": "L3-row3-residual",
+      "actual": 2,
+      "expected": 2,
+      "result": "passed"
+    },
+    {
+      "id": "L3-row3-second-residual",
+      "actual": 1,
+      "expected": 1,
+      "result": "passed"
+    },
+    {
+      "id": "L3-row3-reconstruction",
+      "actual": 16,
+      "expected": 16,
+      "result": "passed"
+    },
+    {
+      "id": "L3-row3-first-reconstruction",
+      "actual": 16,
+      "expected": 16,
+      "result": "passed"
+    },
+    {
+      "id": "L3-row4-M0",
+      "actual": 16,
+      "expected": 16,
+      "result": "passed"
+    },
+    {
+      "id": "L3-row4-residual",
+      "actual": -1,
+      "expected": -1,
+      "result": "passed"
+    },
+    {
+      "id": "L3-row4-second-residual",
+      "actual": 0,
+      "expected": 0,
+      "result": "passed"
+    },
+    {
+      "id": "L3-row4-reconstruction",
+      "actual": 15,
+      "expected": 15,
+      "result": "passed"
+    },
+    {
+      "id": "L3-row4-first-reconstruction",
+      "actual": 15,
+      "expected": 15,
+      "result": "passed"
+    },
+    {
+      "id": "L3-ordered-zero-sums",
+      "actual": [
+        0,
+        0
+      ],
+      "expected": [
+        0,
+        0
+      ],
+      "result": "passed"
+    },
+    {
+      "id": "L3-baseline-transform",
+      "actual": [
+        1,
+        1,
+        6,
+        5
+      ],
+      "expected": [
+        1,
+        1,
+        6,
+        5
+      ],
+      "result": "passed"
+    },
+    {
+      "id": "L3-baseline-reconstruction",
+      "actual": [
+        11,
+        11,
+        16,
+        15
+      ],
+      "expected": [
+        11,
+        11,
+        16,
+        15
+      ],
+      "result": "passed"
+    },
+    {
+      "id": "L3-baseline-mean",
+      "actual": "13/4",
+      "expected": "13/4",
+      "result": "passed"
+    },
+    {
+      "id": "L3-sign-error",
+      "actual": 13,
+      "expected": 13,
+      "result": "passed"
+    },
+    {
+      "id": "L3-new-row-residuals",
+      "actual": [
+        3,
+        1,
+        21
+      ],
+      "expected": [
+        3,
+        1,
+        21
+      ],
+      "result": "passed"
+    },
+    {
+      "id": "A-B-u1",
+      "actual": [
+        2,
+        2
+      ],
+      "expected": [
+        2,
+        2
+      ],
+      "result": "passed"
+    },
+    {
+      "id": "A-B-u3",
+      "actual": [
+        6,
+        4
+      ],
+      "expected": [
+        6,
+        4
+      ],
+      "result": "passed"
+    },
+    {
+      "id": "A-B-u0",
+      "actual": [
+        0,
+        1
+      ],
+      "expected": [
+        0,
+        1
+      ],
+      "result": "passed"
+    },
+    {
+      "id": "A-B-u4",
+      "actual": [
+        8,
+        5
+      ],
+      "expected": [
+        8,
+        5
+      ],
+      "result": "passed"
+    },
+    {
+      "id": "L4-followup",
+      "actual": [
+        -1,
+        1
+      ],
+      "expected": [
+        -1,
+        1
+      ],
+      "result": "passed"
+    },
+    {
+      "id": "L4-equality-input",
+      "actual": 0,
+      "expected": 0,
+      "result": "passed"
+    },
+    {
+      "id": "L4-zero-input-residuals",
+      "actual": [
+        1,
+        0
+      ],
+      "expected": [
+        1,
+        0
+      ],
+      "result": "passed"
+    },
+    {
+      "id": "L4-guided-C-D",
+      "actual": [
+        [
+          4,
+          4
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "expected": [
+        [
+          4,
+          4
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "result": "passed"
+    },
+    {
+      "id": "worked-position",
+      "actual": [
+        7,
+        -3,
+        -8
+      ],
+      "expected": [
+        7,
+        -3,
+        -8
+      ],
+      "result": "passed"
+    },
+    {
+      "id": "worked-reverse",
+      "actual": [
+        1,
+        -1,
+        2
+      ],
+      "expected": [
+        1,
+        -1,
+        2
+      ],
+      "result": "passed"
+    },
+    {
+      "id": "guided-position",
+      "actual": [
+        3,
+        6,
+        0
+      ],
+      "expected": [
+        3,
+        6,
+        0
+      ],
+      "result": "passed"
+    },
+    {
+      "id": "guided-reverse",
+      "actual": [
+        -1,
+        2,
+        0
+      ],
+      "expected": [
+        -1,
+        2,
+        0
+      ],
+      "result": "passed"
+    },
+    {
+      "id": "capstone-position",
+      "actual": [
+        9,
+        -3,
+        -4
+      ],
+      "expected": [
+        9,
+        -3,
+        -4
+      ],
+      "result": "passed"
+    },
+    {
+      "id": "capstone-reverse",
+      "actual": [
+        2,
+        -1,
+        1
+      ],
+      "expected": [
+        2,
+        -1,
+        1
+      ],
+      "result": "passed"
+    },
+    {
+      "id": "L5-origin-omission",
+      "actual": "7/2",
+      "expected": "7/2",
+      "result": "passed"
+    },
+    {
+      "id": "L5-singular-counterexample",
+      "actual": [
+        0,
+        0
+      ],
+      "expected": [
+        0,
+        0
+      ],
+      "result": "passed"
+    },
+    {
+      "id": "L5-metric-scales",
+      "actual": [
+        4,
+        9,
+        16
+      ],
+      "expected": [
+        4,
+        9,
+        16
+      ],
+      "result": "passed"
+    },
+    {
+      "id": "L5-return-factors",
+      "actual": [
+        "1",
+        "1",
+        "1"
+      ],
+      "expected": [
+        "1",
+        "1",
+        "1"
+      ],
+      "result": "passed"
+    },
+    {
+      "id": "L5-worked-state-model-residual",
+      "actual": [
+        3,
+        11,
+        1
+      ],
+      "expected": [
+        3,
+        11,
+        1
+      ],
+      "result": "passed"
+    },
+    {
+      "id": "L5-worked-reconstruction",
+      "actual": 12,
+      "expected": 12,
+      "result": "passed"
+    },
+    {
+      "id": "L5-guided-state-model-residual",
+      "actual": [
+        3,
+        11,
+        -1
+      ],
+      "expected": [
+        3,
+        11,
+        -1
+      ],
+      "result": "passed"
+    },
+    {
+      "id": "L5-guided-reconstruction",
+      "actual": 10,
+      "expected": 10,
+      "result": "passed"
+    },
+    {
+      "id": "L5-diagnostic-state-model-residual",
+      "actual": [
+        3,
+        11,
+        -2
+      ],
+      "expected": [
+        3,
+        11,
+        -2
+      ],
+      "result": "passed"
+    },
+    {
+      "id": "L5-diagnostic-reconstruction",
+      "actual": 9,
+      "expected": 9,
+      "result": "passed"
+    },
+    {
+      "id": "L5-distinct-position",
+      "actual": 11,
+      "expected": 11,
+      "result": "passed"
+    },
+    {
+      "id": "cap-row0-model",
+      "actual": 10,
+      "expected": 10,
+      "result": "passed"
+    },
+    {
+      "id": "cap-row0-r0",
+      "actual": -1,
+      "expected": -1,
+      "result": "passed"
+    },
+    {
+      "id": "cap-row0-r1",
+      "actual": 0,
+      "expected": 0,
+      "result": "passed"
+    },
+    {
+      "id": "cap-row0-reconstruct",
+      "actual": [
+        9,
+        9
+      ],
+      "expected": [
+        9,
+        9
+      ],
+      "result": "passed"
+    },
+    {
+      "id": "cap-row1-model",
+      "actual": 12,
+      "expected": 12,
+      "result": "passed"
+    },
+    {
+      "id": "cap-row1-r0",
+      "actual": 1,
+      "expected": 1,
+      "result": "passed"
+    },
+    {
+      "id": "cap-row1-r1",
+      "actual": 0,
+      "expected": 0,
+      "result": "passed"
+    },
+    {
+      "id": "cap-row1-reconstruct",
+      "actual": [
+        13,
+        13
+      ],
+      "expected": [
+        13,
+        13
+      ],
+      "result": "passed"
+    },
+    {
+      "id": "cap-row2-model",
+      "actual": 14,
+      "expected": 14,
+      "result": "passed"
+    },
+    {
+      "id": "cap-row2-r0",
+      "actual": -1,
+      "expected": -1,
+      "result": "passed"
+    },
+    {
+      "id": "cap-row2-r1",
+      "actual": 0,
+      "expected": 0,
+      "result": "passed"
+    },
+    {
+      "id": "cap-row2-reconstruct",
+      "actual": [
+        13,
+        13
+      ],
+      "expected": [
+        13,
+        13
+      ],
+      "result": "passed"
+    },
+    {
+      "id": "cap-table-count",
+      "actual": 3,
+      "expected": 3,
+      "result": "passed"
+    },
+    {
+      "id": "cap-followup",
+      "actual": [
+        -1,
+        2
+      ],
+      "expected": [
+        -1,
+        2
+      ],
+      "result": "passed"
+    },
+    {
+      "id": "cap-separation",
+      "actual": 3,
+      "expected": 3,
+      "result": "passed"
+    },
+    {
+      "id": "cap-rubric-total",
+      "actual": 40,
+      "expected": 40,
+      "result": "passed"
+    },
+    {
+      "id": "pacing-lesson-1",
+      "actual": 55,
+      "expected": 55,
+      "result": "passed"
+    },
+    {
+      "id": "pacing-lessons-2-4",
+      "actual": 55,
+      "expected": 55,
+      "result": "passed"
+    },
+    {
+      "id": "pacing-lesson-5",
+      "actual": 55,
+      "expected": 55,
+      "result": "passed"
+    }
+  ],
+  "check_count": 74,
+  "retained_lesson3_ledger": [
+    {
+      "row": 1,
+      "t_s": 0,
+      "channel": "A",
+      "x_DU": 11,
+      "M0_DU": 10,
+      "r0_DU": 1,
+      "M1_DU": 1,
+      "r1_DU": 0
+    },
+    {
+      "row": 2,
+      "t_s": 1,
+      "channel": "A",
+      "x_DU": 11,
+      "M0_DU": 12,
+      "r0_DU": -1,
+      "M1_DU": -1,
+      "r1_DU": 0
+    },
+    {
+      "row": 3,
+      "t_s": 2,
+      "channel": "A",
+      "x_DU": 16,
+      "M0_DU": 14,
+      "r0_DU": 2,
+      "M1_DU": 1,
+      "r1_DU": 1
+    },
+    {
+      "row": 4,
+      "t_s": 3,
+      "channel": "A",
+      "x_DU": 15,
+      "M0_DU": 16,
+      "r0_DU": -1,
+      "M1_DU": -1,
+      "r1_DU": 0
+    }
+  ],
+  "retained_capstone_ledger": [
+    {
+      "t_s": 0,
+      "channel": "A",
+      "x_DU": 9,
+      "M0_DU": 10,
+      "r0_DU": -1,
+      "M1_DU": -1,
+      "r1_DU": 0,
+      "reconstructed_DU": 9
+    },
+    {
+      "t_s": 1,
+      "channel": "A",
+      "x_DU": 13,
+      "M0_DU": 12,
+      "r0_DU": 1,
+      "M1_DU": 1,
+      "r1_DU": 0,
+      "reconstructed_DU": 13
+    },
+    {
+      "t_s": 2,
+      "channel": "A",
+      "x_DU": 13,
+      "M0_DU": 14,
+      "r0_DU": -1,
+      "M1_DU": -1,
+      "r1_DU": 0,
+      "reconstructed_DU": 13
+    }
+  ],
+  "geometry_examples": [
+    {
+      "id": "worked",
+      "q": [
+        1,
+        -1,
+        2
+      ],
+      "displacement_mm": [
+        2,
+        -3,
+        -8
+      ],
+      "position_mm": [
+        7,
+        -3,
+        -8
+      ],
+      "reverse": [
+        1,
+        -1,
+        2
+      ]
+    },
+    {
+      "id": "guided",
+      "q": [
+        -1,
+        2,
+        0
+      ],
+      "displacement_mm": [
+        -2,
+        6,
+        0
+      ],
+      "position_mm": [
+        3,
+        6,
+        0
+      ],
+      "reverse": [
+        -1,
+        2,
+        0
+      ]
+    },
+    {
+      "id": "capstone",
+      "q": [
+        2,
+        -1,
+        1
+      ],
+      "displacement_mm": [
+        4,
+        -3,
+        -4
+      ],
+      "position_mm": [
+        9,
+        -3,
+        -4
+      ],
+      "reverse": [
+        2,
+        -1,
+        1
+      ]
+    }
+  ],
+  "verified_content_hashes": {
+    "lesson-01.md": "8a8941d07819332129e834eea1171aaa35c15d79d07c13057d162b17a9753a7f",
+    "lesson-02.md": "aeb162254893946627b1b200e7e8f6fc317183eaace261385235f9c7982a8679",
+    "lesson-03.md": "bbd3169e9fa0a89f62c577c31714edbb34b3d8dae1cf5573b752add9fe6eb598",
+    "lesson-04.md": "8fa145121906b3a91a13c7624ac16b6abd40a8fe9e7ec2f0622a7702cb097a72",
+    "lesson-05.md": "b3a1124e311d0e730ad74a69f8b12814cdd3152f0f6a9b0b51616a58fbf6b5f9",
+    "capstone.md": "a1f0a0feffc2d26db49aa36176cbfd74347b530534a10a960f1d971a4dbca9dd",
+    "teacher-guide.md": "6dd165851eb2e3722760ba8ca0c96c726a4b511d65fb5b55ca27730e6dba2abb"
+  }
+}

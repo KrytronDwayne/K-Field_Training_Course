@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-16",
+  "timestamp": "2026-11-05T19:09:29.792068+00:00",
+  "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-16-higgs-yukawa-and-interaction-interfaces",
+  "validator": "passed",
+  "validator_checks": [
+    "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+    "parsed manifest.json",
+    "parsed audit_report.json",
+    "parsed completion_report.json",
+    "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+  ],
+  "validator_errors": [],
+  "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+  "manifest_sha256": "185ea4ac1ed678a574099abdc006808e57d404db078f0f3c42e45b0495f2b1c4",
+  "completion_report_sha256": "6d6f9a4d47eb97baf10a9afddb4b13436ce17dc9aa3d6eeaca56a270583b9870",
+  "course_sha256": "cb5470e1d98e9350a09088c69f725aa78b3620d20d0302bfef75a4b4a01e3023"
+}

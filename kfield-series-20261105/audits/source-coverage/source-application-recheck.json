@@ -1,0 +1,772 @@
+{
+  "schema": "kfield.source-application-recheck.v1",
+  "timestamp": "2026-11-05T17:05:32.555Z",
+  "status": "passed_source_application_scope",
+  "scope": "Independent read-only inspection of actual parent contracts and application report. Full original amendment payload comparison and named-lesson link checks for all 17 source and 8 educational amendments; no finished-course audit for courses04–30.",
+  "inputs": [
+    {
+      "path": "C:/Users/info/Documents/Codex/2026-11-05/kfield-series-source-auditor/outputs/blueprint-amendments.json",
+      "sha256": "2cfc9fabdd0a3bebee1dc8336e6608cdc9570e9135ed501adfcf8b9d35fff4d2"
+    },
+    {
+      "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-series-20261105/audits/source-coverage/application-report.json",
+      "sha256": "8e2bdf1b5292c32a5aea6fc3e5a7dacb8393d5064f28d753839521f0b272c2be"
+    },
+    {
+      "path": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-29-galactic-structure-and-cross-scale-k-field-geometry/input-contract.json",
+      "sha256": "d3ad20059c6d56f50ea25e57ee501eb438a99710ffcda660d9fe845944eb1e43"
+    }
+  ],
+  "counts": {
+    "source_amendments_checked": 17,
+    "educational_amendments_checked": 8,
+    "existing_supplemental_concepts_present": 10,
+    "galaxy_sources_freshly_rehashed": 4,
+    "E05_contracts_checked": 27,
+    "unresolved_critical": 0,
+    "unresolved_major": 0,
+    "unresolved_minor": 0
+  },
+  "findings": [
+    {
+      "id": "E11-SOURCE",
+      "level": "final",
+      "category": "source application",
+      "severity": "major",
+      "file": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-29-galactic-structure-and-cross-scale-k-field-geometry/input-contract.json",
+      "section": "/sources; /applied_audit_amendments/SA-29-E11; /course_map",
+      "original_defect": "The required galaxy source packet was prepared but absent from the course29 contract at the previous handoff.",
+      "correction": "Parent applied SA-29-E11, all four pinned source records and role boundaries, eight lesson/source routes, synthetic metric and phase exercises, skew-rounding counterexample, domain diagnostics and capstone prerequisites.",
+      "verification": {
+        "result": "pass",
+        "method": "Read actual contract; compared every non-status amendment field with portable payload; checked all eight lesson required_amendment_ids; independently recomputed SHA-256 for G01–G04; cross-checked parent application report.",
+        "contract_sha256": "d3ad20059c6d56f50ea25e57ee501eb438a99710ffcda660d9fe845944eb1e43"
+      },
+      "disposition": "corrected",
+      "remaining_boundary": "This closes only source-packet application. Course29 actual student teaching, earlier practice links, predictions and assessment remain to be authored/rechecked under E05."
+    }
+  ],
+  "course29_review": {
+    "source_roles": "G01 galaxy reconstruction; G02 Cell3/galaxy analogue; G03 historical Cell3 spherical-response contract, not a galaxy basis; G04 sky-direction quantization. Phase coordinates and reconstruction-center positions remain separately typed.",
+    "guard_checks": [
+      "Sky directions are distinguished from unoriented axes.",
+      "Historical Cell3 values do not replace mature locked Cell3.",
+      "Galaxy unit-sphere reconstruction lengths are not a physical radial-distance calibration.",
+      "Positive galaxy determinant and intentional negative Cell3 determinant are not conflated.",
+      "Domain exclusions n·N=0 and F=0 retain flagged inputs rather than fabricated quotients.",
+      "Metric nearest-center assignment is not independent coordinate rounding.",
+      "Synthetic metric, phase and skew examples remain labeled synthetic.",
+      "Frozen/held-out comparisons retain weak, zero and unresolved channels."
+    ],
+    "source_map": [
+      {
+        "lesson": "lesson-01",
+        "concept_id": "C29.01",
+        "locators": [
+          "G04 pp1,3",
+          "G02 p3"
+        ]
+      },
+      {
+        "lesson": "lesson-02",
+        "concept_id": "C29.02",
+        "locators": [
+          "G03#/analytic_spherical_response",
+          "G03#/precision_contract",
+          "G04 p4"
+        ],
+        "scope": "Compare source-local response and address contracts; do not identify their physical roles."
+      },
+      {
+        "lesson": "lesson-03",
+        "concept_id": "C29.03",
+        "locators": [
+          "G01#/ordered_direct_basis_A",
+          "G01#/reciprocal_basis_Q",
+          "G01#/joint_phase_origin",
+          "G02 p4",
+          "G04 p4"
+        ]
+      },
+      {
+        "lesson": "lesson-04",
+        "concept_id": "C29.04",
+        "locators": [
+          "G02 pp3-5,17,20",
+          "G01#/comparison_to_authoritative_K_field"
+        ]
+      },
+      {
+        "lesson": "lesson-05",
+        "concept_id": "C29.05",
+        "locators": [
+          "G02 p4 Section3.1",
+          "G04 p4"
+        ],
+        "scope": "Intrinsic metric distance in reconstructed coordinates; a physical galaxy-distance decoder needs its own pinned source and calibration before use."
+      },
+      {
+        "lesson": "lesson-06",
+        "concept_id": "C29.06",
+        "locators": [
+          "G01#/observed_27_node_occupancy",
+          "G04 p3"
+        ]
+      },
+      {
+        "lesson": "lesson-07",
+        "concept_id": "C29.07",
+        "locators": [
+          "G01#/pure_holonomy_coordinate_tests",
+          "G02 pp17-20",
+          "G04 p3"
+        ]
+      },
+      {
+        "lesson": "lesson-08",
+        "concept_id": "C29.08",
+        "locators": [
+          "G02 pp19-20"
+        ]
+      }
+    ],
+    "synthetic_arithmetic": "Portable exercise arithmetic passed in the previous local audit; exact payload equality now establishes that those same exercises were applied. No galaxy dataset replay was performed."
+  },
+  "amendment_payload_and_lesson_checks": [
+    {
+      "id": "SA-04",
+      "course": 4,
+      "lessons": [
+        "lesson-01",
+        "lesson-03",
+        "lesson-04"
+      ],
+      "payload": "all original non-status fields equal",
+      "result": "pass",
+      "contract": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-04-affine-cells-reciprocal-planes-and-unique-addresses/input-contract.json",
+      "sha256": "fd35c1844a413c9fc099510bf262812ede824f0e5ee53ac3f7469f3aea541178"
+    },
+    {
+      "id": "SA-05",
+      "course": 5,
+      "lessons": [
+        "lesson-02",
+        "lesson-03",
+        "lesson-04"
+      ],
+      "payload": "all original non-status fields equal",
+      "result": "pass",
+      "contract": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-05-lucas-geometry-27-nodes-polarity-and-sheets/input-contract.json",
+      "sha256": "fc7d00f404ab2a9792218be33f06e91da5f33794f5d76c15b97a18deaeefeab0"
+    },
+    {
+      "id": "SA-06",
+      "course": 6,
+      "lessons": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03"
+      ],
+      "payload": "all original non-status fields equal",
+      "result": "pass",
+      "contract": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-06-recursive-k-field-geometry-and-address-histories/input-contract.json",
+      "sha256": "c1e54c05ad17dc21da99f05358699768046e9793f1447041b370d37d49faf928"
+    },
+    {
+      "id": "SA-07",
+      "course": 7,
+      "lessons": [
+        "lesson-02",
+        "lesson-04",
+        "lesson-06"
+      ],
+      "payload": "all original non-status fields equal",
+      "result": "pass",
+      "contract": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-07-information-complete-finite-calculus/input-contract.json",
+      "sha256": "bc8fdd500ada3d0e12ffd99c416e3c4bf6b894ec524f608f667d9a41b857b927"
+    },
+    {
+      "id": "SA-09",
+      "course": 9,
+      "lessons": [
+        "lesson-01",
+        "lesson-03",
+        "lesson-04"
+      ],
+      "payload": "all original non-status fields equal",
+      "result": "pass",
+      "contract": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-09-projective-integerization-and-carry-dynamics/input-contract.json",
+      "sha256": "fd2bca6921dbf570ceb397568dcaa8e4f62faf21cfbbd70b15675caefc934222"
+    },
+    {
+      "id": "SA-10",
+      "course": 10,
+      "lessons": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-04"
+      ],
+      "payload": "all original non-status fields equal",
+      "result": "pass",
+      "contract": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-10-shape-and-scale-devon-reduction-and-the-jack-jacobian/input-contract.json",
+      "sha256": "2c0a47538fd3abc4c756ee91bf07a790202a9090ada4fb0cce943491befc10cc"
+    },
+    {
+      "id": "SA-12",
+      "course": 12,
+      "lessons": [
+        "lesson-05",
+        "lesson-06",
+        "lesson-07"
+      ],
+      "payload": "all original non-status fields equal",
+      "result": "pass",
+      "contract": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-12-the-emily-spectrum-modes-and-eigenvectors/input-contract.json",
+      "sha256": "86873b4ac6c39e4789626188f691d7c82ed7c0aac8af8842cbd976bdce72ae8e"
+    },
+    {
+      "id": "SA-14",
+      "course": 14,
+      "lessons": [
+        "lesson-03",
+        "lesson-05",
+        "lesson-07"
+      ],
+      "payload": "all original non-status fields equal",
+      "result": "pass",
+      "contract": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-14-complex-carriers-and-gauge-symmetry/input-contract.json",
+      "sha256": "a54f2c7073bd7533dae3760961ff64ed633a13edfc97f303d3942b4015ffd632"
+    },
+    {
+      "id": "SA-17",
+      "course": 17,
+      "lessons": [
+        "lesson-05",
+        "lesson-06",
+        "lesson-07",
+        "lesson-08"
+      ],
+      "payload": "all original non-status fields equal",
+      "result": "pass",
+      "contract": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-17-finite-gauge-transport-and-conservative-dynamics/input-contract.json",
+      "sha256": "f48ee46040414a6355434cec1a8fb54a820d6a35e15182e197bc688230cce30c"
+    },
+    {
+      "id": "SA-20",
+      "course": 20,
+      "lessons": [
+        "lesson-05",
+        "lesson-06",
+        "lesson-07"
+      ],
+      "payload": "all original non-status fields equal",
+      "result": "pass",
+      "contract": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-20-family-structure-and-simultaneous-occupation/input-contract.json",
+      "sha256": "86625e4e042e90445c47601ad4c787a898a80bd620be9b31b91eb3876027083c"
+    },
+    {
+      "id": "SA-21",
+      "course": 21,
+      "lessons": [
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05",
+        "lesson-06"
+      ],
+      "payload": "all original non-status fields equal",
+      "result": "pass",
+      "contract": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems/input-contract.json",
+      "sha256": "15fed9c9b09259ed6d25d0658aaaa117278431d536661bee506a9953c2acb346"
+    },
+    {
+      "id": "SA-24",
+      "course": 24,
+      "lessons": [
+        "lesson-03",
+        "lesson-04",
+        "lesson-06"
+      ],
+      "payload": "all original non-status fields equal",
+      "result": "pass",
+      "contract": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-24-moving-reference-frames-and-laboratory-motion/input-contract.json",
+      "sha256": "e7b8f78d7de5df1d7cc72d598b41eede1281d036815b12131a51490d75764560"
+    },
+    {
+      "id": "SA-26",
+      "course": 26,
+      "lessons": [
+        "lesson-05",
+        "lesson-06",
+        "lesson-07",
+        "lesson-08"
+      ],
+      "payload": "all original non-status fields equal",
+      "result": "pass",
+      "contract": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-26-beats-harmonics-and-spectral-energy-phase-structure/input-contract.json",
+      "sha256": "9a49123e304afc053c0ed4685e72820491b9e2c65a57031c1ac31ada0399422f"
+    },
+    {
+      "id": "SA-27",
+      "course": 27,
+      "lessons": [
+        "lesson-03",
+        "lesson-06",
+        "lesson-07"
+      ],
+      "payload": "all original non-status fields equal",
+      "result": "pass",
+      "contract": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-27-quadratic-phase-cost-and-route-geometry/input-contract.json",
+      "sha256": "4f9cdeff609a39dbbc7c38175b49b108c6dbe61a113874290e8a05f44e398be7"
+    },
+    {
+      "id": "SA-28",
+      "course": 28,
+      "lessons": [
+        "lesson-03",
+        "lesson-04",
+        "lesson-05",
+        "lesson-07"
+      ],
+      "payload": "all original non-status fields equal",
+      "result": "pass",
+      "contract": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-28-photometer-experiments-and-information-preserving-analysis/input-contract.json",
+      "sha256": "af3206e71d56e97fa48869fce616a4caa58c4664dc5d8821ee56b42538034e85"
+    },
+    {
+      "id": "SA-30",
+      "course": 30,
+      "lessons": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-04",
+        "lesson-05"
+      ],
+      "payload": "all original non-status fields equal",
+      "result": "pass",
+      "contract": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-30-integrated-k-field-research-from-backbone-to-test/input-contract.json",
+      "sha256": "ef34c51ff7c0fdfb4bfeacf90ef0eb66d2ec3f21688e61be617a69bfef861052"
+    },
+    {
+      "id": "SA-29-E11",
+      "course": 29,
+      "lessons": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05",
+        "lesson-06",
+        "lesson-07",
+        "lesson-08"
+      ],
+      "payload": "all original non-status fields equal",
+      "result": "pass",
+      "contract": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-29-galactic-structure-and-cross-scale-k-field-geometry/input-contract.json",
+      "sha256": "d3ad20059c6d56f50ea25e57ee501eb438a99710ffcda660d9fe845944eb1e43"
+    },
+    {
+      "id": "EA-12-E06-1",
+      "course": 12,
+      "lessons": [
+        "lesson-03"
+      ],
+      "payload": "all original non-status fields equal",
+      "result": "pass",
+      "contract": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-12-the-emily-spectrum-modes-and-eigenvectors/input-contract.json",
+      "sha256": "86873b4ac6c39e4789626188f691d7c82ed7c0aac8af8842cbd976bdce72ae8e"
+    },
+    {
+      "id": "EA-14-E06-2",
+      "course": 14,
+      "lessons": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04",
+        "lesson-05"
+      ],
+      "payload": "all original non-status fields equal",
+      "result": "pass",
+      "contract": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-14-complex-carriers-and-gauge-symmetry/input-contract.json",
+      "sha256": "a54f2c7073bd7533dae3760961ff64ed633a13edfc97f303d3942b4015ffd632"
+    },
+    {
+      "id": "EA-20-E07-3",
+      "course": 20,
+      "lessons": [
+        "lesson-03",
+        "lesson-04",
+        "lesson-05"
+      ],
+      "payload": "all original non-status fields equal",
+      "result": "pass",
+      "contract": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-20-family-structure-and-simultaneous-occupation/input-contract.json",
+      "sha256": "86625e4e042e90445c47601ad4c787a898a80bd620be9b31b91eb3876027083c"
+    },
+    {
+      "id": "EA-21-E07-4",
+      "course": 21,
+      "lessons": [
+        "lesson-01",
+        "lesson-02",
+        "lesson-03",
+        "lesson-04"
+      ],
+      "payload": "all original non-status fields equal",
+      "result": "pass",
+      "contract": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems/input-contract.json",
+      "sha256": "15fed9c9b09259ed6d25d0658aaaa117278431d536661bee506a9953c2acb346"
+    },
+    {
+      "id": "EA-21-E08-5",
+      "course": 21,
+      "lessons": [
+        "lesson-05"
+      ],
+      "payload": "all original non-status fields equal",
+      "result": "pass",
+      "contract": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-21-mass-coupling-and-atomic-structure-as-decoding-problems/input-contract.json",
+      "sha256": "15fed9c9b09259ed6d25d0658aaaa117278431d536661bee506a9953c2acb346"
+    },
+    {
+      "id": "EA-22-E09-6",
+      "course": 22,
+      "lessons": [
+        "lesson-04"
+      ],
+      "payload": "all original non-status fields equal",
+      "result": "pass",
+      "contract": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-22-inverse-limits-continuum-rendering-and-detail/input-contract.json",
+      "sha256": "94bbe4a3a3789733ca4d575c07ae8eb80fa159c75e4c86696f633bcd740ef84b"
+    },
+    {
+      "id": "EA-24-E10-7",
+      "course": 24,
+      "lessons": [
+        "lesson-01",
+        "lesson-02"
+      ],
+      "payload": "all original non-status fields equal",
+      "result": "pass",
+      "contract": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-24-moving-reference-frames-and-laboratory-motion/input-contract.json",
+      "sha256": "e7b8f78d7de5df1d7cc72d598b41eede1281d036815b12131a51490d75764560"
+    },
+    {
+      "id": "EA-26-E10-8",
+      "course": 26,
+      "lessons": [
+        "lesson-02",
+        "lesson-03",
+        "lesson-04"
+      ],
+      "payload": "all original non-status fields equal",
+      "result": "pass",
+      "contract": "Z:/Kfield-doc-training/K-Field_Training_Course/kfield-26-beats-harmonics-and-spectral-energy-phase-structure/input-contract.json",
+      "sha256": "9a49123e304afc053c0ed4685e72820491b9e2c65a57031c1ac31ada0399422f"
+    }
+  ],
+  "existing_supplemental_rows": [
+    {
+      "concept_id": "C18.S01",
+      "result": "present in coverage_matrix"
+    },
+    {
+      "concept_id": "C18.S02",
+      "result": "present in coverage_matrix"
+    },
+    {
+      "concept_id": "C18.S03",
+      "result": "present in coverage_matrix"
+    },
+    {
+      "concept_id": "C20.S01",
+      "result": "present in coverage_matrix"
+    },
+    {
+      "concept_id": "C20.S02",
+      "result": "present in coverage_matrix"
+    },
+    {
+      "concept_id": "C21.S01",
+      "result": "present in coverage_matrix"
+    },
+    {
+      "concept_id": "C21.S02",
+      "result": "present in coverage_matrix"
+    },
+    {
+      "concept_id": "C21.S03",
+      "result": "present in coverage_matrix"
+    },
+    {
+      "concept_id": "C26.S01",
+      "result": "present in coverage_matrix"
+    },
+    {
+      "concept_id": "C28.S01",
+      "result": "present in coverage_matrix"
+    }
+  ],
+  "fresh_galaxy_hashes": [
+    {
+      "id": "G01",
+      "path": "Z:/Archive_20260911/Pre_Aug14/galaxy_cell_hidden_holonomy_summary_1783791371.json",
+      "sha256": "bd6ff0e335f3c405000cd1f8adfa3ae947dc9362dfeb772764cf98ef62ae6f63",
+      "bytes": 5287,
+      "result": "rehash matches"
+    },
+    {
+      "id": "G02",
+      "path": "Z:/Archive_20260911/Pre_Aug14/K-field_cell3_vs_galaxy_derived_cell_analogue_1783794540.pdf",
+      "sha256": "69dcaace292365d22b9b48c43edc0ac4936b148ec68a5b265abc72aaff4f4447",
+      "bytes": 2755772,
+      "result": "rehash matches"
+    },
+    {
+      "id": "G03",
+      "path": "Z:/Archive_20260911/Pre_Aug14/K-field_spherical_gravity_response_graph_audited_1783692220.json",
+      "sha256": "aa7f4236b7f956c652690934d6444f597ea38b6e485cc77a22be884b567d1cea",
+      "bytes": 24383433,
+      "result": "rehash matches"
+    },
+    {
+      "id": "G04",
+      "path": "Z:/Archive_20260911/Pre_Aug14/K-field_galaxy_sky_position_volumetric_quantization_1783789746.pdf",
+      "sha256": "856777f0fae0d6b50e8d235435068b7ea3c25a83068cfbfb197b62835cbb8fbd",
+      "bytes": 5369981,
+      "result": "rehash matches"
+    }
+  ],
+  "teaching_status_checks": [
+    {
+      "course": 4,
+      "blueprint_audit": {
+        "status": "pending_independent_review",
+        "unresolved_critical": null,
+        "unresolved_major": null
+      }
+    },
+    {
+      "course": 5,
+      "blueprint_audit": {
+        "status": "pending_independent_review",
+        "unresolved_critical": null,
+        "unresolved_major": null
+      }
+    },
+    {
+      "course": 6,
+      "blueprint_audit": {
+        "status": "pending_independent_review",
+        "unresolved_critical": null,
+        "unresolved_major": null
+      }
+    },
+    {
+      "course": 7,
+      "blueprint_audit": {
+        "status": "pending_independent_review",
+        "unresolved_critical": null,
+        "unresolved_major": null
+      }
+    },
+    {
+      "course": 8,
+      "blueprint_audit": {
+        "status": "pending_independent_review",
+        "unresolved_critical": null,
+        "unresolved_major": null
+      }
+    },
+    {
+      "course": 9,
+      "blueprint_audit": {
+        "status": "pending_independent_review",
+        "unresolved_critical": null,
+        "unresolved_major": null
+      }
+    },
+    {
+      "course": 10,
+      "blueprint_audit": {
+        "status": "pending_independent_review",
+        "unresolved_critical": null,
+        "unresolved_major": null
+      }
+    },
+    {
+      "course": 11,
+      "blueprint_audit": {
+        "status": "pending_independent_review",
+        "unresolved_critical": null,
+        "unresolved_major": null
+      }
+    },
+    {
+      "course": 12,
+      "blueprint_audit": {
+        "status": "pending_independent_review",
+        "unresolved_critical": null,
+        "unresolved_major": null
+      }
+    },
+    {
+      "course": 13,
+      "blueprint_audit": {
+        "status": "pending_independent_review",
+        "unresolved_critical": null,
+        "unresolved_major": null
+      }
+    },
+    {
+      "course": 14,
+      "blueprint_audit": {
+        "status": "pending_independent_review",
+        "unresolved_critical": null,
+        "unresolved_major": null
+      }
+    },
+    {
+      "course": 15,
+      "blueprint_audit": {
+        "status": "pending_independent_review",
+        "unresolved_critical": null,
+        "unresolved_major": null
+      }
+    },
+    {
+      "course": 16,
+      "blueprint_audit": {
+        "status": "pending_independent_review",
+        "unresolved_critical": null,
+        "unresolved_major": null
+      }
+    },
+    {
+      "course": 17,
+      "blueprint_audit": {
+        "status": "pending_independent_review",
+        "unresolved_critical": null,
+        "unresolved_major": null
+      }
+    },
+    {
+      "course": 18,
+      "blueprint_audit": {
+        "status": "pending_independent_review",
+        "unresolved_critical": null,
+        "unresolved_major": null
+      }
+    },
+    {
+      "course": 19,
+      "blueprint_audit": {
+        "status": "pending_independent_review",
+        "unresolved_critical": null,
+        "unresolved_major": null
+      }
+    },
+    {
+      "course": 20,
+      "blueprint_audit": {
+        "status": "pending_independent_review",
+        "unresolved_critical": null,
+        "unresolved_major": null
+      }
+    },
+    {
+      "course": 21,
+      "blueprint_audit": {
+        "status": "pending_independent_review",
+        "unresolved_critical": null,
+        "unresolved_major": null
+      }
+    },
+    {
+      "course": 22,
+      "blueprint_audit": {
+        "status": "pending_independent_review",
+        "unresolved_critical": null,
+        "unresolved_major": null
+      }
+    },
+    {
+      "course": 23,
+      "blueprint_audit": {
+        "status": "pending_independent_review",
+        "unresolved_critical": null,
+        "unresolved_major": null
+      }
+    },
+    {
+      "course": 24,
+      "blueprint_audit": {
+        "status": "pending_independent_review",
+        "unresolved_critical": null,
+        "unresolved_major": null
+      }
+    },
+    {
+      "course": 25,
+      "blueprint_audit": {
+        "status": "pending_independent_review",
+        "unresolved_critical": null,
+        "unresolved_major": null
+      }
+    },
+    {
+      "course": 26,
+      "blueprint_audit": {
+        "status": "pending_independent_review",
+        "unresolved_critical": null,
+        "unresolved_major": null
+      }
+    },
+    {
+      "course": 27,
+      "blueprint_audit": {
+        "status": "pending_independent_review",
+        "unresolved_critical": null,
+        "unresolved_major": null
+      }
+    },
+    {
+      "course": 28,
+      "blueprint_audit": {
+        "status": "pending_independent_review",
+        "unresolved_critical": null,
+        "unresolved_major": null
+      }
+    },
+    {
+      "course": 29,
+      "blueprint_audit": {
+        "status": "pending_independent_review",
+        "unresolved_critical": null,
+        "unresolved_major": null
+      }
+    },
+    {
+      "course": 30,
+      "blueprint_audit": {
+        "status": "pending_independent_review",
+        "unresolved_critical": null,
+        "unresolved_major": null
+      }
+    }
+  ],
+  "E05": "All courses04–30 contain the complete portable E05 actual-content requirement. This is a contract-presence check, not an assertion that all student content exists.",
+  "final_disposition": {
+    "E11_source_application": "closed_corrected",
+    "course29_source_readiness": "ready_for_source_scoped_drafting_with_required_gates",
+    "teaching_approval_granted": false,
+    "other_course_teaching_status": "All 27 current blueprint_audit statuses remain pending_independent_review; no audit status was edited."
+  },
+  "limitations": [
+    "No fresh galaxy source interpretation beyond the earlier bounded source audit; this recheck compares applied text and freshly rehashes original files.",
+    "No broad corpus search, formal compilation or raw-data replay.",
+    "No parent project or source-archive writes."
+  ],
+  "ownership": "Parent owns any application ledger update and all subsequent teaching acceptance."
+}

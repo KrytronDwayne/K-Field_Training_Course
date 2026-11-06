@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "status": "complete",
+  "topic": "Family Structure and Simultaneous Occupation",
+  "audience": "High-school seniors; first-principles teaching, with concrete prerequisite capabilities and taught bridges.",
+  "assumptions": [
+    "A topical short course, not a semester per topic. Pacing is 55-minute core lessons plus capstone periods; split dense lessons if actual learner load requires it.",
+    "No prior calculus, abstract algebra, university linear algebra, or quantum mechanics unless explicitly taught earlier.",
+    "Required core assessments must be solvable with taught finite examples. Clearly label deeper recognition-only extensions.",
+    "Markdown is the delivery format; no PDF or Word generation is required."
+  ],
+  "outputs": [
+    "course-map.md",
+    "lesson-01.md",
+    "lesson-02.md",
+    "lesson-03.md",
+    "lesson-04.md",
+    "lesson-05.md",
+    "lesson-06.md",
+    "lesson-07.md",
+    "terminology.md",
+    "teacher-guide.md",
+    "capstone.md",
+    "sources.md",
+    "source-provenance.json",
+    "independent-verification.py",
+    "verify_examples.py",
+    "verification.json",
+    "independent-audit.json",
+    "course.md",
+    "audit_report.json",
+    "completion_report.json"
+  ],
+  "audit_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "hashes": {
+    "course-map.md": "2006055b6a2d9e400ff8e1133e18c906d3ce54dd295a2c587ac5de1a6ffa4ddd",
+    "lesson-01.md": "ebcf88fce3a1b5231d1a844f51152f2690f6f935c4ed522282dfa6d824a3eb37",
+    "lesson-02.md": "403cc3516c2eb3e2bf7c2a7d3171c48d8646631ec78bf090809f2e6821d99f63",
+    "lesson-03.md": "56a278a399922de7e75b7788836c4a0d4b5ec65c701aed82610a30798355ab43",
+    "lesson-04.md": "f40c3ab70dc355fad268ef9815c91f957fa3f9017fe1e64263e6d54bd76bf900",
+    "lesson-05.md": "51ee238d2faa15cffaa590ce8d35d7b9630b5b57fb3f8a98fb825e22cf1d016f",
+    "lesson-06.md": "2825223a76bcc7d4c8d859b99d7050788e6cd3331fbbc29d06c65a1e899e47c6",
+    "lesson-07.md": "acc4c091042f2704543eb95d3b761f36e0a812c8d73a0341b3c8b806b7d9680f",
+    "terminology.md": "5b4bf907366f6a03e8d389008e4d79aa4b1d33834556aaf9fd1c52d958c74ae3",
+    "teacher-guide.md": "92dd130bf6cfe06ca59625c5f01971a13bfadb1bf6194424084be7d57f83f4c4",
+    "capstone.md": "42e15adad851ea91787d05390c65fa55e669518523220199aa524224146c3fc7",
+    "sources.md": "d147b1568de2c92e232b0c52720806bba4185377a82ec406d7b0eeee444153d9",
+    "source-provenance.json": "61e79720d456b7fb2e2610dc4c83c0533180942443e3cacf22ec4e5d9461d1d3",
+    "independent-verification.py": "83c50f5cdb3258776b6af71cd4da0869abda5f68680be6b957a526d6efdc1287",
+    "verify_examples.py": "c2482af5195396133ba509c2dd7e113eb64dc19e57ebfff5315cc3b233c4957a",
+    "verification.json": "f340872bccb7665ce9ac65c31536cfecced8ca11ea1ee680813665989fc95279",
+    "independent-audit.json": "f68b1db79ce8b0773059cb7a6c8412b5b444f31170c29311c0d562e91fe8e588",
+    "course.md": "c9f3d60683c3810559a7a584658610a65d6eb81605f355b675abbd5f136d925d",
+    "audit_report.json": "bbc66aa60984521b4d0b16836b0daabae2256ba200c296a3e6876649bf750ca0",
+    "manifest.json": "62529e92e7384f40d07cae0643d20f7eefe50b1bd48fbdec5ceb8dc9fff3b2e7"
+  },
+  "lesson_count": 7,
+  "core_periods": 15,
+  "capstone_periods": 3,
+  "source_gaps": [
+    "Exact source L and P_v not loaded; classroom model explicitly synthetic.",
+    "Connecting physical-carrier selection proof not loaded; preserve M16/F038 claim, D10 guard and AUD-007 with no automatic source-status downgrade."
+  ],
+  "validator": {
+    "status": "passed",
+    "exit_code": 0,
+    "receipt": "validation-result.json",
+    "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+    "note": "Adapter preserves installed checks and overrides only the user-authorized canonical output root. Re-run after this completion report refresh."
+  },
+  "corrected_findings": 3,
+  "unresolved_minor_findings": []
+}

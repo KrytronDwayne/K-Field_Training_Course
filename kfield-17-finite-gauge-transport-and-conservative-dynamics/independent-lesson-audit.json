@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.0",
+  "audit_scope": "Independent read-only audit of eight lessons against input-contract teaching anchors; not whole-course completion or capstone approval.",
+  "checked_utc": "2026-11-05T19:01:01.114640+00:00",
+  "reviewer": "independent lesson auditor",
+  "unresolved_critical": 0,
+  "unresolved_major": 0,
+  "unresolved_minor": 0,
+  "findings": [],
+  "checks": [
+    {
+      "checkpoint_id": "lesson-01",
+      "path": "lesson-01.md",
+      "sha256": "c19f147ba167f1d252d2936d14c46a70a75e39836de6474539b6c771676db03f",
+      "result": "passed",
+      "verification": "Complex multiplication, adjoint/inverse, scalar and diagonal transport, norms 2 and 5 recomputed; all four diagnostics checked.",
+      "contract": "Essential question, 3 or 4 goals, prerequisite bridge, first-principles explanation, worked example, answered practice, claim scope, four answered diagnostics, pacing and next dependency present. Teaching anchors matched."
+    },
+    {
+      "checkpoint_id": "lesson-02",
+      "path": "lesson-02.md",
+      "sha256": "f25acfbbe065c1a4640a591f8c96bc901dadde2c4e2e8e0ed2ccbbb49bb255c0",
+      "result": "passed",
+      "verification": "Both frame-change examples recomputed, including reconstruction, erroneous unchanged-link result 3i, and covariance versus norm hypotheses.",
+      "contract": "Essential question, 3 or 4 goals, prerequisite bridge, first-principles explanation, worked example, answered practice, claim scope, four answered diagnostics, pacing and next dependency present. Teaching anchors matched."
+    },
+    {
+      "checkpoint_id": "lesson-03",
+      "path": "lesson-03.md",
+      "sha256": "d93bc941b1e4600198c4e1034a8ab76342f56b2612101359cc368ecbf1e832b8",
+      "result": "passed",
+      "verification": "XZ/ZX, path orientation, conjugation by Z, inverse links, X squared and Z squared recomputed; basepoint and noncommutation taught before use.",
+      "contract": "Essential question, 3 or 4 goals, prerequisite bridge, first-principles explanation, worked example, answered practice, claim scope, four answered diagnostics, pacing and next dependency present. Teaching anchors matched."
+    },
+    {
+      "checkpoint_id": "lesson-04",
+      "path": "lesson-04.md",
+      "sha256": "f9be4364f0fb7b790b17af615c819ac25d59466613feee30a88ae46623b5d61f",
+      "result": "passed",
+      "verification": "Trace cyclic identity and matrix/scalar actions 6/4 AU checked; transformed scalar links (-1,i,-i) yield -1; full comparison retained.",
+      "contract": "Essential question, 3 or 4 goals, prerequisite bridge, first-principles explanation, worked example, answered practice, claim scope, four answered diagnostics, pacing and next dependency present. Teaching anchors matched."
+    },
+    {
+      "checkpoint_id": "lesson-05",
+      "path": "lesson-05.md",
+      "sha256": "aa9b6edc4b6bcfad690fdadf71ce234575a6ed4e094bc3ddf34ec836137f3240",
+      "result": "passed",
+      "verification": "Exact rational Cayley factors, determinants, reverse steps, norms 5/6, nonselfadjoint counterexample factor 3, and finite cancellation independently checked.",
+      "contract": "Essential question, 3 or 4 goals, prerequisite bridge, first-principles explanation, worked example, answered practice, claim scope, four answered diagnostics, pacing and next dependency present. Teaching anchors matched."
+    },
+    {
+      "checkpoint_id": "lesson-06",
+      "path": "lesson-06.md",
+      "sha256": "725d08e1e467c4048890eec6c91845f09a928d1cd57f18a7d30923fc8e06dd70",
+      "result": "passed",
+      "verification": "Both metric examples, pair minors, delta=64, blocks, determinants, J reversal, uniform scaling, units, and historical determinants 64/4096 independently checked.",
+      "contract": "Essential question, 3 or 4 goals, prerequisite bridge, first-principles explanation, worked example, answered practice, claim scope, four answered diagnostics, pacing and next dependency present. Teaching anchors matched."
+    },
+    {
+      "checkpoint_id": "lesson-07",
+      "path": "lesson-07.md",
+      "sha256": "ad6f33655f99977b6f2c4aada5575c7f44f63327109663b7c79489ae800192f3",
+      "result": "passed",
+      "verification": "All four bound signs/digits compared with S02 M13 proof; AUD-009 retrieval scope confirmed; synthetic min and optional units recomputed.",
+      "contract": "Essential question, 3 or 4 goals, prerequisite bridge, first-principles explanation, worked example, answered practice, claim scope, four answered diagnostics, pacing and next dependency present. Teaching anchors matched."
+    },
+    {
+      "checkpoint_id": "lesson-08",
+      "path": "lesson-08.md",
+      "sha256": "49cba659e4f1a1b478dcbfc098a46011898f34686de948fd88586be1d2df8cfe",
+      "result": "passed",
+      "verification": "Norms, quadratic values 9/8, normalized expectations 9/5 and 4/3, remainders, double recovery, thermal terms and partial sum 97/1024 recomputed.",
+      "contract": "Essential question, 3 or 4 goals, prerequisite bridge, first-principles explanation, worked example, answered practice, claim scope, four answered diagnostics, pacing and next dependency present. Teaching anchors matched."
+    }
+  ],
+  "source_checks": [
+    {
+      "id": "S01",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Corrected_Complete_Proof_1788231864.json",
+      "sha256": "18f5d20233981c97bf991e0b409020e917815647e5099df56ad9fa1763da6180",
+      "hash_match": true
+    },
+    {
+      "id": "S02",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Complete_Proof_1788234894.json",
+      "sha256": "6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3",
+      "hash_match": true
+    },
+    {
+      "id": "S03",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Authoritative_Audit_Correction_Instruction_1788263935.json",
+      "sha256": "f54c6c7515205dbbcc498864b1415755aa767d5274194140150b2b16979d656e",
+      "hash_match": true
+    },
+    {
+      "id": "S04",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_Mathematical_Essence_Mature_Corpus_Audit_1788234146.json",
+      "sha256": "77c0ab41a911fc819d3bcba0667d9127294b3dacf0634aec9add6e45e8c023a2",
+      "hash_match": true
+    },
+    {
+      "id": "S05",
+      "path": "Z:\\Archive_20260911\\Aug14_Sept1\\K-Field_3D_periodic_table_hidden_dimensions_recent24h_1788145361.json",
+      "sha256": "d17197c1bec71893e1fd8344e0a35f6e63da3668f35dc3085247a66ad112eae7",
+      "hash_match": true
+    }
+  ],
+  "source_pointers_read": [
+    "S02#/backbone_sequence/12",
+    "S02#/hodge_normalization_theorem",
+    "S03#/findings/8",
+    "S04#/hodge_correction_proof",
+    "S01#/backbone_sequence/12/definitions"
+  ],
+  "cumulative_result": "All eight E/W/P/D anchor groups present. Complex/matrix operations are introduced before required applications; advanced spectrum and infinite comparison remain recognition-only. Finite identities, source-reported certificate and missing replay bodies remain separate. No numerical or prerequisite defect found. Full states, scales, links and residuals retained.",
+  "runtime": "tf_gpu_env; sys.executable separately verified as C:/Users/info/.conda/envs/tf_gpu_env/python.exe",
+  "capabilities_note": "Read-only Krytronx capabilities call succeeded; response enumerated interface but did not contain corpus generation or manifest digest. Source provenance independently pinned by local SHA-256.",
+  "verification_script": "independent-lesson-check.py",
+  "verification_result": "All independent exact arithmetic and anchor assertions passed."
+}

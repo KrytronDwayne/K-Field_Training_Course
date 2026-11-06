@@ -1,0 +1,199 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Capstone — A three-point cell-address atlas · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/4">Course 04</a><span>/</span><span>capstone</span></div><a class="original" href="../../../kfield-04-affine-cells-reciprocal-planes-and-unique-addresses/capstone.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#capstone-a-three-point-cell-address-atlas">Capstone — A three-point cell-address atlas</a><a href="#tasks">Tasks</a><a href="#full-worked-answer-key">Full worked answer key</a><a href="#12-affine-conversion-and-unique-ownership">1–2. Affine conversion and unique ownership</a><a href="#34-pairings-levels-normals-and-spacings">3–4. Pairings, levels, normals and spacings</a><a href="#5-geometry">5. Geometry</a><a href="#6-reconstruction-and-display-residuals">6. Reconstruction and display residuals</a><a href="#7-source-reading">7. Source reading</a><a href="#rubric-100-points">Rubric: 100 points</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 1 — Address coordinates and physical points</a><a  href="lesson-02.html">Lesson 2 — Why half-open cells have one owner</a><a  href="lesson-03.html">Lesson 3 — Reciprocal vectors as plane counters</a><a  href="lesson-04.html">Lesson 4 — Plane normals and physical spacing</a><a  href="lesson-05.html">Lesson 5 — Metric angles versus address angles</a><a  href="lesson-06.html">Lesson 6 — Reconstruction and boundary checks</a></details></aside><div class="reading-column"><article class="prose"><h1 id="capstone-a-three-point-cell-address-atlas" tabindex="-1">Capstone — A three-point cell-address atlas</h1>
+<p>Work for two 55-minute periods. Use the synthetic B with rows (1,1,0), (0,2,0), (0,0,-3) LU and O=(2,-1,4) LU from lesson 1. This is a classroom analogue, not measured Cell3 geometry. All input fractions are exact. You may consult the lessons and canonical source card. A calculator is optional; leave square roots exact.</p>
+<p>Your atlas must retain every input, owner, local coordinate and signed display residual. Label physical entries in LU, reciprocal entries in LU^-1, and addresses as dimensionless. Keep the source-reading nm card separate.</p>
+<h2 id="tasks" tabindex="-1">Tasks</h2>
+<ol>
+<li><strong>C04-CAP-01 — Convert and invert.</strong> Make one row each for A: q=(1/2,-1/2,3/2), B: q=(-3/2,49/100,51/100), and C: q=(499/1000,0,0). Compute physical points x, then independently use x-O and inverse action to recover each q. State the column order and units.</li>
+<li><strong>C04-CAP-02 — Assign owners.</strong> For each row compute z=floor(q+1/2) and u=q-z. Check all three entries against [-1/2,1/2). Explain ownership of the exact positive and negative half boundaries in A and B, and C's near-boundary fraction.</li>
+<li><strong>C04-CAP-03 — Count planes.</strong> For h=(1,0,0), (0,1,0), (0,0,1), and (1,1,0), compute g_h and all three pairings with a,b,c. For point A, compute g_h dot (x-O) and h dot q for each label. Indicate which of these levels is an integer.</li>
+<li><strong>C04-CAP-04 — Supply a physical ruler.</strong> For those same four nonzero h labels, compute unit normals and consecutive-level spacings. Add h=(2,0,0) and explain why its spacing differs from h=(1,0,0). Explicitly exclude h=0 from normalization.</li>
+<li><strong>C04-CAP-05 — Compare angles.</strong> Compare e1 dot e2 with (Be1) dot (Be2), then report the physical cosine. Compute |B(1,1,0)|² two ways, retaining all cross terms.</li>
+<li><strong>C04-CAP-06 — Reconstruct the ledger.</strong> Reconstruct all three points using O+B(z+u). Display the addresses as A_disp=(1/2,-1/2,3/2), B_disp=(-3/2,1/2,1/2), and C_disp=(1/2,0,0). Calculate every signed residual r=q-q_disp, restore q, and show which owners a display-only calculation would get wrong. Retain exact reconstruction differences, even if zero.</li>
+<li><strong>C04-CAP-07 — Resolve a source card.</strong> Using the supplied canonical card, record all u,v,w normal and spacing lexemes, nm units, S02 pointer and source hash. Reject or accept this proposed u entry: canonical normal paired with 0.3295465297092934 nm. Cite S03's correction pointer and explain why a displaced source version is not a measurement residual. This is source reading, not recomputation of the locked decimals.</li>
+</ol>
+<h2 id="full-worked-answer-key" tabindex="-1">Full worked answer key</h2>
+<h3 id="12-affine-conversion-and-unique-ownership" tabindex="-1">1–2. Affine conversion and unique ownership</h3>
+<p>The columns are a=(1,0,0), b=(1,2,0), c=(0,0,-3) LU. Addresses, owners and local coordinates are dimensionless.</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Point</th>
+<th>x (LU)</th>
+<th>x-O (LU)</th>
+<th>z</th>
+<th>u</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>(2,-2,-1/2)</td>
+<td>(0,-1,-9/2)</td>
+<td>(1,0,2)</td>
+<td>(-1/2,-1/2,-1/2)</td>
+</tr>
+<tr>
+<td>B</td>
+<td>(99/100,-1/50,247/100)</td>
+<td>(-101/100,49/50,-153/100)</td>
+<td>(-1,0,1)</td>
+<td>(-1/2,49/100,-49/100)</td>
+</tr>
+<tr>
+<td>C</td>
+<td>(2499/1000,-1,4)</td>
+<td>(499/1000,0,0)</td>
+<td>(0,0,0)</td>
+<td>(499/1000,0,0)</td>
+</tr>
+</tbody>
+</table></div>
+<p>Inverse action uses q2=d2/2, q3=-d3/3, q1=d1-d2/2. For A these give -1/2,3/2,1/2 in that solving order. For B they give 49/100,51/100,-101/100-49/100=-3/2. For C they give 0,0,499/1000. Reorder each result as (q1,q2,q3) to recover the supplied q.</p>
+<p>At +1/2 the first owner is 1 and local coordinate -1/2; at -1/2 the owner is 0 and local coordinate -1/2. The negative boundary -3/2 belongs to owner -1, not -2. C remains strictly below +1/2 because 998&lt;1000 after multiplication by 2000. Every local coordinate is at least -1/2 and strictly below +1/2.</p>
+<h3 id="34-pairings-levels-normals-and-spacings" tabindex="-1">3–4. Pairings, levels, normals and spacings</h3>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>h</th>
+<th>g_h (LU^-1)</th>
+<th>(g dot a,g dot b,g dot c)</th>
+<th>A level</th>
+<th>Unit normal n</th>
+<th>Spacing (LU)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>(1,0,0)</td>
+<td>(1,-1/2,0)</td>
+<td>(1,0,0)</td>
+<td>1/2</td>
+<td>(2,-1,0)/sqrt(5)</td>
+<td>2/sqrt(5)</td>
+</tr>
+<tr>
+<td>(0,1,0)</td>
+<td>(0,1/2,0)</td>
+<td>(0,1,0)</td>
+<td>-1/2</td>
+<td>(0,1,0)</td>
+<td>2</td>
+</tr>
+<tr>
+<td>(0,0,1)</td>
+<td>(0,0,-1/3)</td>
+<td>(0,0,1)</td>
+<td>3/2</td>
+<td>(0,0,-1)</td>
+<td>3</td>
+</tr>
+<tr>
+<td>(1,1,0)</td>
+<td>(1,0,0)</td>
+<td>(1,1,0)</td>
+<td>0</td>
+<td>(1,0,0)</td>
+<td>1</td>
+</tr>
+<tr>
+<td>(2,0,0)</td>
+<td>(2,-1,0)</td>
+<td>(2,0,0)</td>
+<td>1</td>
+<td>(2,-1,0)/sqrt(5)</td>
+<td>1/sqrt(5)</td>
+</tr>
+</tbody>
+</table></div>
+<p>For the first four rows, dotting g with (0,-1,-9/2) gives 1/2,-1/2,3/2,0. Dotting h with A's q gives the same list. Only the fourth of those four levels is an integer, so A lies on an integer-level plane of that family. The extra doubled label has integer level 1 too. The normal direction does not change under positive doubling, but all integer m are allowed, so 2q1=m includes halfway planes q1=1/2,3/2 and so on. h=0 gives g=0 and cannot be divided by its zero magnitude.</p>
+<p>Magnitudes for the five rows are sqrt(5)/2, 1/2, 1/3, 1 and sqrt(5) LU^-1. Dividing each g by that magnitude gives the normals; taking the reciprocal magnitude gives the spacings. The signs in the third normal must be preserved.</p>
+<h3 id="5-geometry" tabindex="-1">5. Geometry</h3>
+<p>e1 dot e2=0 but a dot b=1 LU². Physical cosine is 1/(1×sqrt(5))=1/sqrt(5), so the physical directions are not perpendicular. B(1,1,0)=(2,2,0) LU gives squared length 8 LU². Using the Gram expression gives 1+2(1)(1)+5=8 LU²; dropping both cross terms would give the wrong answer 6 LU².</p>
+<h3 id="6-reconstruction-and-display-residuals" tabindex="-1">6. Reconstruction and display residuals</h3>
+<p>For A, z+u=(1/2,-1/2,3/2), with B(z+u)=(0,-1,-9/2) LU. For B, z+u=(-3/2,49/100,51/100), with B(z+u)=(-101/100,49/50,-153/100) LU. For C, z+u=(499/1000,0,0), with B(z+u)=(499/1000,0,0) LU. Adding O returns each x in the atlas table. Each reconstructed-minus-input physical difference is (0,0,0) LU.</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Point</th>
+<th>r=q-q_disp</th>
+<th>B r (LU)</th>
+<th>Display-only owner</th>
+<th>True owner</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>(0,0,0)</td>
+<td>(0,0,0)</td>
+<td>(1,0,2)</td>
+<td>(1,0,2)</td>
+</tr>
+<tr>
+<td>B</td>
+<td>(0,-1/100,1/100)</td>
+<td>(-1/100,-1/50,-3/100)</td>
+<td>(-1,1,1)</td>
+<td>(-1,0,1)</td>
+</tr>
+<tr>
+<td>C</td>
+<td>(-1/1000,0,0)</td>
+<td>(-1/1000,0,0)</td>
+<td>(1,0,0)</td>
+<td>(0,0,0)</td>
+</tr>
+</tbody>
+</table></div>
+<p>B's displayed point is (1,0,5/2) LU; adding B r restores (99/100,-1/50,247/100) LU. C's displayed point is (5/2,-1,4) LU; its correction restores (2499/1000,-1,4) LU. Restore q_disp+r before ownership. A's zero residual is still retained. The local u is not interchangeable with display residual r.</p>
+<h3 id="7-source-reading" tabindex="-1">7. Source reading</h3>
+<p>The full three rows are supplied in <a href="canonical-card.html">canonical-card.md</a>, which is part of this answer key and was read from S02 <code>/backbone_sequence/1/result/reciprocal_normals_u_v_w</code> and <code>/backbone_sequence/1/result/reciprocal_spacings_u_v_w_nm</code>. The same active fields occur in <code>/mature_locked_cell3</code>. The source SHA-256 is <code>6f3e555ed161ef3311b31dcf64c003f4f8ec493f56d22356cf8d162467c1a2f3</code>.</p>
+<p>Reject the proposed mixed entry. The u spacing must be <strong>0.32954652969544673 nm</strong>, matched to the canonical u normal. S03 <code>/findings/4</code> (AUD-005) explicitly marks the older witness superseded. Preserve it only as typed provenance. It is neither a measured fluctuation nor the display residual r of an atlas point. Unit normals are dimensionless; spacings use nm, and the arrays retain u,v,w order. These numerical cards are source-reported mathematical witnesses, not independent experimental measurements.</p>
+<h2 id="rubric-100-points" tabindex="-1">Rubric: 100 points</h2>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Step</th>
+<th>Points</th>
+<th>Award criteria</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>01</td>
+<td>15</td>
+<td>3 for basis/origin/units, 6 for three forward points, 6 for inverse checks</td>
+</tr>
+<tr>
+<td>02</td>
+<td>15</td>
+<td>6 for owners, 6 for retained local coordinates/ranges, 3 for boundary explanation</td>
+</tr>
+<tr>
+<td>03</td>
+<td>15</td>
+<td>8 for four g vectors and pairings, 4 for matching affine levels, 3 for integer-level interpretation</td>
+</tr>
+<tr>
+<td>04</td>
+<td>15</td>
+<td>8 for four normals/spacings, 4 for doubled label and inserted planes, 3 for units and nonzero restriction</td>
+</tr>
+<tr>
+<td>05</td>
+<td>10</td>
+<td>5 for angle comparison/cosine, 5 for squared length by two methods with cross terms</td>
+</tr>
+<tr>
+<td>06</td>
+<td>20</td>
+<td>6 for three exact reconstructions, 6 for signed residuals and restoration, 4 for owner changes, 4 for typed differences and no deleted components</td>
+</tr>
+<tr>
+<td>07</td>
+<td>10</td>
+<td>4 for complete canonical rows/units/order, 3 for pointers/hash, 3 for rejecting mixed provenance with S03</td>
+</tr>
+</tbody>
+</table></div>
+<p>Give method credit when a single arithmetic slip is propagated consistently. Require correction of wrong boundary convention, omitted origin, lost residual, mixed source branch or zero-vector normalization before marking the relevant capability mastered. The score describes performance; it is not a license to erase an incorrect or incomplete ledger.</p></article><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/4">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

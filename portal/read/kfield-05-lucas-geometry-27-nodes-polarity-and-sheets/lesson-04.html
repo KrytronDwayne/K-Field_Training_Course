@@ -1,0 +1,56 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Lesson 4 — Parity and directed signs · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/5">Course 05</a><span>/</span><span>lesson 04</span></div><a class="original" href="../../../kfield-05-lucas-geometry-27-nodes-polarity-and-sheets/lesson-04.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#lesson-4-parity-and-directed-signs">Lesson 4 — Parity and directed signs</a><a href="#c0504-e1-even-and-odd-include-negative-integers">C05.04-E1 — Even and odd include negative integers</a><a href="#c0504-w1-worked-polarity">C05.04-W1 — Worked polarity</a><a href="#c0504-p1-guided-polarity-practice-with-answer">C05.04-P1 — Guided polarity practice, with answer</a><a href="#c0504-e2-remainders-modulo-3">C05.04-E2 — Remainders modulo 3</a><a href="#c0504-w2-worked-distinction">C05.04-W2 — Worked distinction</a><a href="#c0504-p2-guided-remainder-practice-with-answer">C05.04-P2 — Guided remainder practice, with answer</a><a href="#diagnostic-checks">Diagnostic checks</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 1 — Enumerating the balanced node window</a><a  href="lesson-02.html">Lesson 2 — Node addresses versus physical positions</a><a  href="lesson-03.html">Lesson 3 — Lambda sheets and population counts</a><a aria-current=page href="lesson-04.html">Lesson 4 — Parity and directed signs</a><a  href="lesson-05.html">Lesson 5 — Antipodal pairs and observation rules</a><a  href="lesson-06.html">Lesson 6 — A complete finite registry</a></details></aside><div class="reading-column"><article class="prose"><h1 id="lesson-4-parity-and-directed-signs" tabindex="-1">Lesson 4 — Parity and directed signs</h1>
+<p><strong>Essential question:</strong> Which information survives when a sheet number becomes a class label?</p>
+<p><strong>Goals:</strong> Compute node polarity for positive and negative sheet numbers; compute remainder classes modulo 3; distinguish both labels from directed orientation and reconcile their populations.</p>
+<p><strong>Prerequisite bridge:</strong> Lesson 3 supplied the integer λ and its seven populations. We now group those integers in two ways. Budget: explanation/work 20 minutes (10 parity, 10 remainder), practice 15 (7 parity, 8 remainder), checks/feedback 15, transition 5.</p>
+<h2 id="c0504-e1-even-and-odd-include-negative-integers" tabindex="-1">C05.04-E1 — Even and odd include negative integers</h2>
+<p>An integer is even when it equals 2k for some integer k. It is odd when it equals 2k+1. Thus −2=2(−1) is even and −3=2(−2)+1 is odd. Define the node polarity χ(L)=(-1)^λ, pronounced chi. Operationally χ is +1 for even λ and −1 for odd λ. For nonnegative powers, pairs of factors (−1)(−1) multiply to +1. Negative powers are reciprocals: (−1)⁻³=1/(−1)³=−1, giving the same even/odd rule. Zero is even and (−1)⁰=1.</p>
+<p>Negating L changes λ to −λ. If λ=2k, then −λ=2(−k) remains even. If λ is odd, its negative remains odd. Therefore χ(−L)=χ(L), even though p(−L)−O=−(p(L)−O). A number giving even/odd class cannot tell us which direction a displacement points.</p>
+<h2 id="c0504-w1-worked-polarity" tabindex="-1">C05.04-W1 — Worked polarity</h2>
+<p>For L=(1,−1,1), λ=1−1+1=1, odd, so χ=−1. For L=(1,1,0), λ=2, even, so χ=+1. Their negatives have sums −1 and −2 and retain those respective χ values. A negative λ does not automatically mean negative χ.</p>
+<h2 id="c0504-p1-guided-polarity-practice-with-answer" tabindex="-1">C05.04-P1 — Guided polarity practice, with answer</h2>
+<p>Find χ for (−1,−1,−1) and the center, then count both polarities from the seven sheets. Answer: sums −3 and 0 give −1 and +1. Even sheets −2,0,2 contain 3+7+3=13 nodes. Odd sheets −3,−1,1,3 contain 1+6+6+1=14. Keep all 27 rows; these totals are an additional summary.</p>
+<h2 id="c0504-e2-remainders-modulo-3" tabindex="-1">C05.04-E2 — Remainders modulo 3</h2>
+<p>The notation r₃=λ mod 3 means the unique remainder in {0,1,2} when λ=3k+r₃ with integer k. For negative λ, choose k so the remainder is nonnegative and less than 3. This groups integers three steps apart; parity instead groups integers two steps apart. Do not give these fields the same column name.</p>
+<h2 id="c0504-w2-worked-distinction" tabindex="-1">C05.04-W2 — Worked distinction</h2>
+<p>At λ=−2, write −2=3(−1)+1, so r₃=1 and χ=+1. At λ=1, write 1=3(0)+1, so r₃=1 but χ=−1. The shared remainder has not preserved parity. Conversely λ=0 and λ=2 both have χ=+1 but have remainders 0 and 2, so polarity does not preserve remainder either.</p>
+<h2 id="c0504-p2-guided-remainder-practice-with-answer" tabindex="-1">C05.04-P2 — Guided remainder practice, with answer</h2>
+<p>Find r₃ and χ at −1 and 2. Then group the seven populations by r₃. Answer: −1=3(−1)+2, giving r₃=2, χ=−1; 2=3(0)+2 gives r₃=2, χ=+1. The full accounting is:</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>r₃</th>
+<th>Sheets contributing</th>
+<th>Population</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>−3,0,3</td>
+<td>1+7+1=9</td>
+</tr>
+<tr>
+<td>1</td>
+<td>−2,1</td>
+<td>3+6=9</td>
+</tr>
+<tr>
+<td>2</td>
+<td>−1,2</td>
+<td>6+3=9</td>
+</tr>
+</tbody>
+</table></div>
+<p>These equal populations describe the same 27 nodes whose seven-sheet populations are unequal and whose polarity populations are 13 and 14. A different grouping answers a different question.</p>
+<blockquote>
+<p><strong>Claim scope:</strong> χ is the node-polarity definition in S02 /backbone_sequence/2/definitions/2. The remainder counts are our finite derivation. χ, r₃, directed vector signs, and the orientation sign introduced next are separate fields. Detector parity, A1 carry parity, chirality, family labels, and primitive lifts are other source concepts, not synonyms for χ. Their calculations are outside this course. No complex phase formula is required; any such extension would also require the same affine origin convention.</p>
+</blockquote>
+<h2 id="diagnostic-checks" tabindex="-1">Diagnostic checks</h2>
+<ol>
+<li><strong>C05.04-D1:</strong> Compare λ, χ and displacement for L=(1,−1,1) and −L. Can χ recover orientation?</li>
+<li><strong>C05.04-D2:</strong> Reconcile populations 9,9,9 with 13,14. Does either label determine L?</li>
+<li><strong>C05.04-D3:</strong> A learner reports −2 mod 3=−2. Repair the result and show λ=3k+r₃.</li>
+<li><strong>C05.04-D4:</strong> Compute λ,r₃,χ for (0,−1,0) and (1,1,1).</li>
+</ol>
+<p><strong>Worked answers:</strong> 1. λ changes from 1 to −1; χ stays −1; displacement reverses from (0,−1,−3/2) to (0,1,3/2) U. χ cannot choose a direction. 2. Remainders partition by steps of three, polarity by steps of two; both totals are 27. Neither label identifies a triple: (1,0,0) and (0,1,0) share both labels. 3. −2=3(−1)+1, so the allowed remainder is 1. 4. The first has λ=−1,r₃=2,χ=−1; the second λ=3,r₃=0,χ=−1.</p>
+<p><strong>Next dependency:</strong> <a href="lesson-05.html">Lesson 5</a> explicitly stores the direction that polarity cannot recover.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><a class="button secondary" href="lesson-03.html">← Previous lesson</a><a class="button" href="lesson-05.html">Next lesson →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/5">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

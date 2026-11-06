@@ -1,0 +1,690 @@
+{
+  "schema_version": "1.0",
+  "status": "passed",
+  "runtime": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+  "scope": "Finite synthetic examples and structural teaching checks; not source-selection or missing lift proof replay.",
+  "independent_recomputation": {
+    "runtime": "C:\\Users\\info\\.conda\\envs\\tf_gpu_env\\python.exe",
+    "checks": [
+      {
+        "check": "tf_gpu_env runtime",
+        "result": "passed"
+      },
+      {
+        "check": "27 disjoint nodes in three classes of 9",
+        "result": "passed"
+      },
+      {
+        "check": "Mean-detail reconstruction [1, 2, 3, 4, 5, 6, 7, 8, 9]",
+        "result": "passed"
+      },
+      {
+        "check": "Mean-detail reconstruction [9, 0, 0, 0, 0, 0, 0, 0, 0]",
+        "result": "passed"
+      },
+      {
+        "check": "Nine-label lift norm and inverse 1",
+        "result": "passed"
+      },
+      {
+        "check": "Nine-label lift norm and inverse 2",
+        "result": "passed"
+      },
+      {
+        "check": "27-label normalization counterexample",
+        "result": "passed"
+      },
+      {
+        "check": "All entries F dagger F = I",
+        "result": "passed"
+      },
+      {
+        "check": "DP = omega PD",
+        "result": "passed"
+      },
+      {
+        "check": "All 81 Weyl trace inner products",
+        "result": "passed"
+      },
+      {
+        "check": "Weyl extraction/reconstruction {(0, 0): 1, (0, 1): 2, (2, 1): -1}",
+        "result": "passed"
+      },
+      {
+        "check": "Weyl extraction/reconstruction {(0, 0): 2, (1, 0): 1, (0, 2): -1}",
+        "result": "passed"
+      },
+      {
+        "check": "R squared = R exactly",
+        "result": "passed"
+      },
+      {
+        "check": "Projector image/complement [2, 0, 3]",
+        "result": "passed"
+      },
+      {
+        "check": "Projector image/complement [4, 2, -1]",
+        "result": "passed"
+      },
+      {
+        "check": "Independent product addresses",
+        "result": "passed"
+      },
+      {
+        "check": "Schur exact reconstruction (2, 1, 1, 3)",
+        "result": "passed"
+      },
+      {
+        "check": "Schur exact reconstruction (3, 1, 2, 2)",
+        "result": "passed"
+      },
+      {
+        "check": "E zero uniquely solvable branch",
+        "result": "passed"
+      },
+      {
+        "check": "S zero free and incompatible branches",
+        "result": "passed"
+      }
+    ],
+    "count": 20,
+    "result": "passed"
+  },
+  "checks": [
+    {
+      "name": "Independent finite mathematical replay exited zero",
+      "status": "passed"
+    },
+    {
+      "name": "All independent recomputations passed",
+      "status": "passed"
+    },
+    {
+      "name": "C20.01-E1 exists in prior lesson",
+      "status": "passed"
+    },
+    {
+      "name": "C20.01-W1 exists in prior lesson",
+      "status": "passed"
+    },
+    {
+      "name": "C20.01-P1 exists in prior lesson",
+      "status": "passed"
+    },
+    {
+      "name": "C20.01-D1 exists in prior lesson",
+      "status": "passed"
+    },
+    {
+      "name": "C20-CAP-01 exists in capstone",
+      "status": "passed"
+    },
+    {
+      "name": "C20.02-E1 exists in prior lesson",
+      "status": "passed"
+    },
+    {
+      "name": "C20.02-W1 exists in prior lesson",
+      "status": "passed"
+    },
+    {
+      "name": "C20.02-P1 exists in prior lesson",
+      "status": "passed"
+    },
+    {
+      "name": "C20.02-D1 exists in prior lesson",
+      "status": "passed"
+    },
+    {
+      "name": "C20-CAP-02 exists in capstone",
+      "status": "passed"
+    },
+    {
+      "name": "C20.03-E1 exists in prior lesson",
+      "status": "passed"
+    },
+    {
+      "name": "C20.03-W1 exists in prior lesson",
+      "status": "passed"
+    },
+    {
+      "name": "C20.03-P1 exists in prior lesson",
+      "status": "passed"
+    },
+    {
+      "name": "C20.03-D1 exists in prior lesson",
+      "status": "passed"
+    },
+    {
+      "name": "C20-CAP-03 exists in capstone",
+      "status": "passed"
+    },
+    {
+      "name": "C20.04-E1 exists in prior lesson",
+      "status": "passed"
+    },
+    {
+      "name": "C20.04-W1 exists in prior lesson",
+      "status": "passed"
+    },
+    {
+      "name": "C20.04-P1 exists in prior lesson",
+      "status": "passed"
+    },
+    {
+      "name": "C20.04-D1 exists in prior lesson",
+      "status": "passed"
+    },
+    {
+      "name": "C20-CAP-04 exists in capstone",
+      "status": "passed"
+    },
+    {
+      "name": "C20.05-E1 exists in prior lesson",
+      "status": "passed"
+    },
+    {
+      "name": "C20.05-W1 exists in prior lesson",
+      "status": "passed"
+    },
+    {
+      "name": "C20.05-P1 exists in prior lesson",
+      "status": "passed"
+    },
+    {
+      "name": "C20.05-D1 exists in prior lesson",
+      "status": "passed"
+    },
+    {
+      "name": "C20-CAP-05 exists in capstone",
+      "status": "passed"
+    },
+    {
+      "name": "C20.06-E1 exists in prior lesson",
+      "status": "passed"
+    },
+    {
+      "name": "C20.06-W1 exists in prior lesson",
+      "status": "passed"
+    },
+    {
+      "name": "C20.06-P1 exists in prior lesson",
+      "status": "passed"
+    },
+    {
+      "name": "C20.06-D1 exists in prior lesson",
+      "status": "passed"
+    },
+    {
+      "name": "C20-CAP-06 exists in capstone",
+      "status": "passed"
+    },
+    {
+      "name": "C20.07-E1 exists in prior lesson",
+      "status": "passed"
+    },
+    {
+      "name": "C20.07-W1 exists in prior lesson",
+      "status": "passed"
+    },
+    {
+      "name": "C20.07-P1 exists in prior lesson",
+      "status": "passed"
+    },
+    {
+      "name": "C20.07-D1 exists in prior lesson",
+      "status": "passed"
+    },
+    {
+      "name": "C20-CAP-07 exists in capstone",
+      "status": "passed"
+    },
+    {
+      "name": "C20.S01-E1 exists in prior lesson",
+      "status": "passed"
+    },
+    {
+      "name": "C20.S01-W1 exists in prior lesson",
+      "status": "passed"
+    },
+    {
+      "name": "C20.S01-P1 exists in prior lesson",
+      "status": "passed"
+    },
+    {
+      "name": "C20.S01-D1 exists in prior lesson",
+      "status": "passed"
+    },
+    {
+      "name": "C20-CAP-08 exists in capstone",
+      "status": "passed"
+    },
+    {
+      "name": "C20.S02-E1 exists in prior lesson",
+      "status": "passed"
+    },
+    {
+      "name": "C20.S02-W1 exists in prior lesson",
+      "status": "passed"
+    },
+    {
+      "name": "C20.S02-P1 exists in prior lesson",
+      "status": "passed"
+    },
+    {
+      "name": "C20.S02-D1 exists in prior lesson",
+      "status": "passed"
+    },
+    {
+      "name": "C20-CAP-09 exists in capstone",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-01 Essential question:",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-01 Goals:",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-01 Prerequisite bridge:",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-01 Claim scope:",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-01 Diagnostic checks",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-01 Worked answers:",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-01 Next dependency:",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-01 has three to five diagnostics",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-01 no pending authoring placeholders",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-02 Essential question:",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-02 Goals:",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-02 Prerequisite bridge:",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-02 Claim scope:",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-02 Diagnostic checks",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-02 Worked answers:",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-02 Next dependency:",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-02 has three to five diagnostics",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-02 no pending authoring placeholders",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-03 Essential question:",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-03 Goals:",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-03 Prerequisite bridge:",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-03 Claim scope:",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-03 Diagnostic checks",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-03 Worked answers:",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-03 Next dependency:",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-03 has three to five diagnostics",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-03 no pending authoring placeholders",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-04 Essential question:",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-04 Goals:",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-04 Prerequisite bridge:",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-04 Claim scope:",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-04 Diagnostic checks",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-04 Worked answers:",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-04 Next dependency:",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-04 has three to five diagnostics",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-04 no pending authoring placeholders",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-05 Essential question:",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-05 Goals:",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-05 Prerequisite bridge:",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-05 Claim scope:",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-05 Diagnostic checks",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-05 Worked answers:",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-05 Next dependency:",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-05 has three to five diagnostics",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-05 no pending authoring placeholders",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-06 Essential question:",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-06 Goals:",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-06 Prerequisite bridge:",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-06 Claim scope:",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-06 Diagnostic checks",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-06 Worked answers:",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-06 Next dependency:",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-06 has three to five diagnostics",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-06 no pending authoring placeholders",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-07 Essential question:",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-07 Goals:",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-07 Prerequisite bridge:",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-07 Claim scope:",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-07 Diagnostic checks",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-07 Worked answers:",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-07 Next dependency:",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-07 has three to five diagnostics",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-07 no pending authoring placeholders",
+      "status": "passed"
+    },
+    {
+      "name": "C20-RANK-EX1 retained",
+      "status": "passed"
+    },
+    {
+      "name": "C20-RANK-P1 retained",
+      "status": "passed"
+    },
+    {
+      "name": "C20-RANK-D1 retained",
+      "status": "passed"
+    },
+    {
+      "name": "course-map.md local link lesson-01.md",
+      "status": "passed"
+    },
+    {
+      "name": "course-map.md local link lesson-02.md",
+      "status": "passed"
+    },
+    {
+      "name": "course-map.md local link lesson-03.md",
+      "status": "passed"
+    },
+    {
+      "name": "course-map.md local link lesson-04.md",
+      "status": "passed"
+    },
+    {
+      "name": "course-map.md local link lesson-05.md",
+      "status": "passed"
+    },
+    {
+      "name": "course-map.md local link lesson-06.md",
+      "status": "passed"
+    },
+    {
+      "name": "course-map.md local link lesson-07.md",
+      "status": "passed"
+    },
+    {
+      "name": "course-map.md local link lesson-01.md",
+      "status": "passed"
+    },
+    {
+      "name": "course-map.md local link lesson-02.md",
+      "status": "passed"
+    },
+    {
+      "name": "course-map.md local link lesson-03.md",
+      "status": "passed"
+    },
+    {
+      "name": "course-map.md local link lesson-04.md",
+      "status": "passed"
+    },
+    {
+      "name": "course-map.md local link lesson-05.md",
+      "status": "passed"
+    },
+    {
+      "name": "course-map.md local link lesson-06.md",
+      "status": "passed"
+    },
+    {
+      "name": "course-map.md local link lesson-07.md",
+      "status": "passed"
+    },
+    {
+      "name": "course-map.md local link lesson-03.md",
+      "status": "passed"
+    },
+    {
+      "name": "course-map.md local link lesson-07.md",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-01.md local link lesson-02.md",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-02.md local link lesson-03.md",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-03.md local link lesson-04.md",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-04.md local link lesson-05.md",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-05.md local link lesson-06.md",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-06.md local link lesson-07.md",
+      "status": "passed"
+    },
+    {
+      "name": "lesson-07.md local link capstone.md",
+      "status": "passed"
+    },
+    {
+      "name": "Capstone points total 100",
+      "status": "passed"
+    },
+    {
+      "name": "S01 source SHA-256",
+      "status": "passed"
+    },
+    {
+      "name": "S02 source SHA-256",
+      "status": "passed"
+    },
+    {
+      "name": "S03 source SHA-256",
+      "status": "passed"
+    },
+    {
+      "name": "S04 source SHA-256",
+      "status": "passed"
+    },
+    {
+      "name": "S05 source SHA-256",
+      "status": "passed"
+    },
+    {
+      "name": "Normalized nine-node indicator exact squared norm",
+      "status": "passed"
+    },
+    {
+      "name": "Full-system solution (2, 1, 1, 3)",
+      "status": "passed"
+    },
+    {
+      "name": "Full-system solution (3, 1, 2, 2)",
+      "status": "passed"
+    },
+    {
+      "name": "Full-system solution (1, 1, 1, 0)",
+      "status": "passed"
+    }
+  ],
+  "check_count": 146,
+  "tolerance": "Independent complex checks 1e-12; rational checks exact.",
+  "reviewed_content_sha256": {
+    "lesson-01.md": "ebcf88fce3a1b5231d1a844f51152f2690f6f935c4ed522282dfa6d824a3eb37",
+    "lesson-02.md": "403cc3516c2eb3e2bf7c2a7d3171c48d8646631ec78bf090809f2e6821d99f63",
+    "lesson-03.md": "56a278a399922de7e75b7788836c4a0d4b5ec65c701aed82610a30798355ab43",
+    "lesson-04.md": "f40c3ab70dc355fad268ef9815c91f957fa3f9017fe1e64263e6d54bd76bf900",
+    "lesson-05.md": "51ee238d2faa15cffaa590ce8d35d7b9630b5b57fb3f8a98fb825e22cf1d016f",
+    "lesson-06.md": "2825223a76bcc7d4c8d859b99d7050788e6cd3331fbbc29d06c65a1e899e47c6",
+    "lesson-07.md": "acc4c091042f2704543eb95d3b761f36e0a812c8d73a0341b3c8b806b7d9680f"
+  }
+}

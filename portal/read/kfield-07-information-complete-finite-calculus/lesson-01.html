@@ -1,0 +1,68 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Lesson 01 — Changes across a finite edge · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/7">Course 07</a><span>/</span><span>lesson 01</span></div><a class="original" href="../../../kfield-07-information-complete-finite-calculus/lesson-01.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#lesson-01-changes-across-a-finite-edge">Lesson 01 — Changes across a finite edge</a><a href="#c0701-e1-a-directed-transition">C07.01-E1 — A directed transition</a><a href="#c0701-w1-worked-reconstruction">C07.01-W1 — Worked reconstruction</a><a href="#c0701-w2-six-source-premise-cards">C07.01-W2 — Six source-premise cards</a><a href="#c0701-p1-practice-then-check">C07.01-P1 — Practice, then check</a><a href="#diagnostics">Diagnostics</a></nav></details><details class="course-nav" open><summary>In this course</summary><a aria-current=page href="lesson-01.html">Lesson 01 — Changes across a finite edge</a><a  href="lesson-02.html">Lesson 02 — The finite product rule</a><a  href="lesson-03.html">Lesson 03 — Coarse and detail coordinates</a><a  href="lesson-04.html">Lesson 04 — What a projection must satisfy</a><a  href="lesson-05.html">Lesson 05 — Residuals as new coordinates</a><a  href="lesson-06.html">Lesson 06 — Singular equations and retained freedom</a><a  href="lesson-07.html">Lesson 07 — A complete transformation ledger</a></details></aside><div class="reading-column"><article class="prose"><h1 id="lesson-01-changes-across-a-finite-edge" tabindex="-1">Lesson 01 — Changes across a finite edge</h1>
+<p>Essential question: What must we retain to recover a sequence from its changes?</p>
+<p>Goals: calculate a signed finite difference; distinguish change from rate; reconstruct ordered values using an anchor; identify source premises as premises.</p>
+<p>Prerequisite bridge: You can subtract signed numbers and solve an equation such as 5=2+u. Check 4−9=−5 and 2+3=5 before continuing. No limiting process or previous calculus is assumed. A function here is simply a table assigning one value to each sample ID. A list in parentheses gives the entries in their recorded order. All numerical samples in this course are synthetic teaching data, not measurements.</p>
+<h2 id="c0701-e1-a-directed-transition" tabindex="-1">C07.01-E1 — A directed transition</h2>
+<p>Let s name a starting sample and t an ending sample. An oriented edge s→t tells us which comes first in a subtraction. Write f_s for the value at s and f_t for the value at t. The finite difference on that edge is df=f_t−f_s. The letter d names a change, not division. Thus f_t=f_s+df gives the decoder: add the change back to the start. Reversing an edge reverses its sign, because f_s−f_t=−(f_t−f_s).</p>
+<p>If f is recorded in signal-units (abbreviated SU), df is also in SU. When the elapsed time Δτ is nonzero, a rate is df/Δτ, in SU/s if time is in seconds. A difference does not require equal time spacing; a rate does require the actual elapsed time. Sample ID and time are different fields, even when both happen to run 0,1,2,3.</p>
+<p>For several edges, keep the first value, called an anchor, and add consecutive differences. Differences alone cannot give an absolute level: adding the same constant to every sample changes no differences. Retaining the anchor supplies the missing coordinate. Keep sample order, time, unit, channel, and edge orientation alongside the numbers.</p>
+<h2 id="c0701-w1-worked-reconstruction" tabindex="-1">C07.01-W1 — Worked reconstruction</h2>
+<p>Use f=(2,5,4,9) SU at IDs (0,1,2,3), with times (0,1,2,3) s. Forward differences are 5−2=3, 4−5=−1, and 9−4=5 SU. Store anchor f_0=2 SU. Decode successively: 2; 2+3=5; 5−1=4; 4+5=9. Each recovered entry matches its original ID. On the first edge a second channel g changes from 4 to 6 SU, so dg=2 SU. Channels are kept distinct even if their units agree.</p>
+<h2 id="c0701-w2-six-source-premise-cards" tabindex="-1">C07.01-W2 — Six source-premise cards</h2>
+<p>S02#/constitutive_principles/0 through /5 assigns every following card the exact logical_role <code>premise_not_derived_theorem</code>. The names and IDs are source names; the explanations below are teaching paraphrases. A constitutive premise specifies how a framework treats a state. Later algebraic equalities follow from stated definitions; a calculation with a geometric basis B does not derive these physical commitments.</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>ID and source name</th>
+<th>Finite classroom meaning</th>
+<th>Where it is used</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>EG-A1 complete-state principle</td>
+<td>Keep all fields that can change a later result: values, addresses, branches, orientation, scale, residuals and history. Our ledger keeps IDs, times, units and anchors.</td>
+<td>This worked sequence</td>
+</tr>
+<tr>
+<td>EG-A2 decoder principle</td>
+<td>A lossless transform has a decoder D with D(T(S))=S: transform a state S with T, then recover it with D.</td>
+<td>Lesson 03 pair decoder</td>
+</tr>
+<tr>
+<td>EG-A3 finite-transition principle</td>
+<td>Use endpoint minus start as the primary transition on an edge.</td>
+<td>This lesson's df</td>
+</tr>
+<tr>
+<td>EG-A4 finite-product principle</td>
+<td>Retain the interaction df·dg when both factors change.</td>
+<td>Lesson 02</td>
+</tr>
+<tr>
+<td>EG-A5 residual-information principle</td>
+<td>Preserve unresolved components as the next channel for analysis.</td>
+<td>Lesson 05</td>
+</tr>
+<tr>
+<td>EG-A6 typed-renderer principle</td>
+<td>A reduced or displayed view retains its units, scale, projection rule and source state.</td>
+<td>Lesson 07 ledger</td>
+</tr>
+</tbody>
+</table></div>
+<p>Worked reading: a difference list without an anchor is not a complete encoding of f. EG-A1 tells us to retain the later-relevant anchor; EG-A3 declares the chosen transition. The arithmetic above demonstrates recovery for this encoding. It does not establish the source's entire physical ontology. Terms such as lift, gauge transport, infinite resolution and phase are recognition-only here, not additional calculations.</p>
+<blockquote>
+<p>Claim scope: S02#/backbone_sequence/3 reports mathematical module M04 and its finite difference. The six cards are source-stated premises. Our table is synthetic; its decoder is a freshly checked algebraic consequence. No physical mechanism is inferred from it.</p>
+</blockquote>
+<h2 id="c0701-p1-practice-then-check" tabindex="-1">C07.01-P1 — Practice, then check</h2>
+<p>For h=(3,7,6,10) SU at the same IDs and times, find forward differences, retain the anchor and reconstruct all samples. Also reverse edge 0→1. Work before reading the answer.</p>
+<p>Answer: differences=(4,−1,4) SU and anchor=3 SU. Reconstruction is 3, 3+4=7, 7−1=6, 6+4=10. The reverse edge change is 3−7=−4 SU, a change rather than a sample value. This uses EG-A1 and EG-A3.</p>
+<h2 id="diagnostics" tabindex="-1">Diagnostics</h2>
+<ol>
+<li><strong>C07.01-D1:</strong> A signal changes from 5 to 9 SU between 1 and 3 s. Give its difference and rate. Would its difference determine its starting value?</li>
+<li><strong>C07.01-D2:</strong> Decode anchor −2 SU with changes (3,0,−1) SU. What does the zero change mean?</li>
+<li><strong>C07.01-D3:</strong> Which premise names the decoder requirement? Does a verified basis determinant prove that premise?</li>
+</ol>
+<p>Worked answers: D1: df=9−5=4 SU; elapsed time=2 s, so rate=2 SU/s. The difference alone allows starts such as 5 or 15 with corresponding endpoints 9 or 19. D2: (−2,1,1,0) SU; the middle two samples agree but both sample records remain. D3: EG-A2; no, it is source-stated as a premise, not a determinant theorem.</p>
+<p>Next dependency: <a href="lesson-02.html">Lesson 02</a> uses two changes on the same edge to derive the finite product rule.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><span></span><a class="button" href="lesson-02.html">Next lesson →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/7">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

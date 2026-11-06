@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-09",
+  "timestamp": "2026-11-05T17:59:40.585613+00:00",
+  "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-09-projective-integerization-and-carry-dynamics",
+  "validator": "passed",
+  "validator_checks": [
+    "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+    "parsed manifest.json",
+    "parsed audit_report.json",
+    "parsed completion_report.json",
+    "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+  ],
+  "validator_errors": [],
+  "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+  "manifest_sha256": "0a273f91710b68f7749f772f7c320830fe39cd045847493778fba6f82100a390",
+  "completion_report_sha256": "54604ad1bc6005c61a28881a3a7ef9895fb70eaf0b6ae8016a3b162aa646417d",
+  "course_sha256": "b5c5bd3cad2a06673a1eba3834c4df6314ed24b69477da51e3e74f1bc95198ce"
+}

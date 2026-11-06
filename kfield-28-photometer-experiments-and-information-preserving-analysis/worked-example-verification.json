@@ -1,0 +1,346 @@
+{
+  "schema_version": "1.0",
+  "status": "passed",
+  "scope": "Finite synthetic arithmetic, exact Fraction ratios/means/bounds; independent DFT matrix and conjugate inverse; structural anchor checks. Does not certify source experiments or replace human teaching audit.",
+  "check_count": 59,
+  "checks": [
+    {
+      "check": "Clear ratios",
+      "actual": "[Fraction(1, 5), None, Fraction(2, 5), Fraction(1, 10), Fraction(3, 10)]",
+      "expected": "[Fraction(1, 5), None, Fraction(2, 5), Fraction(1, 10), Fraction(3, 10)]",
+      "status": "passed"
+    },
+    {
+      "check": "Raw reconstruction including undefined branch",
+      "actual": "[Fraction(2, 1), Fraction(5, 1), Fraction(8, 1), Fraction(1, 1), Fraction(3, 1)]",
+      "expected": "[Fraction(2, 1), Fraction(5, 1), Fraction(8, 1), Fraction(1, 1), Fraction(3, 1)]",
+      "status": "passed"
+    },
+    {
+      "check": "Ten significant digits closure",
+      "actual": "1/30000000000",
+      "expected": "1/30000000000",
+      "status": "passed"
+    },
+    {
+      "check": "Exposure row2",
+      "actual": "[Fraction(19, 10), Fraction(21, 10)]",
+      "expected": "[Fraction(19, 10), Fraction(21, 10)]",
+      "status": "passed"
+    },
+    {
+      "check": "Reflection [1, 2, 4, 3]",
+      "actual": "([Fraction(2, 1), Fraction(3, 1), Fraction(3, 1), Fraction(2, 1)], [Fraction(-1, 1), Fraction(-1, 1), Fraction(1, 1), Fraction(1, 1)])",
+      "expected": "([Fraction(2, 1), Fraction(3, 1), Fraction(3, 1), Fraction(2, 1)], [Fraction(-1, 1), Fraction(-1, 1), Fraction(1, 1), Fraction(1, 1)])",
+      "status": "passed"
+    },
+    {
+      "check": "Reflection reconstruction [1, 2, 4, 3]",
+      "actual": "[Fraction(1, 1), Fraction(2, 1), Fraction(4, 1), Fraction(3, 1)]",
+      "expected": "[1, 2, 4, 3]",
+      "status": "passed"
+    },
+    {
+      "check": "Same parity [1, 2, 4, 3]",
+      "actual": "[Fraction(2, 1), Fraction(3, 1), Fraction(3, 1), Fraction(2, 1)]",
+      "expected": "[Fraction(2, 1), Fraction(3, 1), Fraction(3, 1), Fraction(2, 1)]",
+      "status": "passed"
+    },
+    {
+      "check": "Inverted parity [1, 2, 4, 3]",
+      "actual": "[Fraction(1, 1), Fraction(1, 1), Fraction(-1, 1), Fraction(-1, 1)]",
+      "expected": "[Fraction(1, 1), Fraction(1, 1), Fraction(-1, 1), Fraction(-1, 1)]",
+      "status": "passed"
+    },
+    {
+      "check": "Reflection [3, 1, -1, 1]",
+      "actual": "([Fraction(2, 1), Fraction(0, 1), Fraction(0, 1), Fraction(2, 1)], [Fraction(1, 1), Fraction(1, 1), Fraction(-1, 1), Fraction(-1, 1)])",
+      "expected": "([Fraction(2, 1), Fraction(0, 1), Fraction(0, 1), Fraction(2, 1)], [Fraction(1, 1), Fraction(1, 1), Fraction(-1, 1), Fraction(-1, 1)])",
+      "status": "passed"
+    },
+    {
+      "check": "Reflection reconstruction [3, 1, -1, 1]",
+      "actual": "[Fraction(3, 1), Fraction(1, 1), Fraction(-1, 1), Fraction(1, 1)]",
+      "expected": "[3, 1, -1, 1]",
+      "status": "passed"
+    },
+    {
+      "check": "Same parity [3, 1, -1, 1]",
+      "actual": "[Fraction(2, 1), Fraction(0, 1), Fraction(0, 1), Fraction(2, 1)]",
+      "expected": "[Fraction(2, 1), Fraction(0, 1), Fraction(0, 1), Fraction(2, 1)]",
+      "status": "passed"
+    },
+    {
+      "check": "Inverted parity [3, 1, -1, 1]",
+      "actual": "[Fraction(-1, 1), Fraction(-1, 1), Fraction(1, 1), Fraction(1, 1)]",
+      "expected": "[Fraction(-1, 1), Fraction(-1, 1), Fraction(1, 1), Fraction(1, 1)]",
+      "status": "passed"
+    },
+    {
+      "check": "Reflection [-2, 0, 2]",
+      "actual": "([Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)], [Fraction(-2, 1), Fraction(0, 1), Fraction(2, 1)])",
+      "expected": "([Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)], [Fraction(-2, 1), Fraction(0, 1), Fraction(2, 1)])",
+      "status": "passed"
+    },
+    {
+      "check": "Reflection reconstruction [-2, 0, 2]",
+      "actual": "[Fraction(-2, 1), Fraction(0, 1), Fraction(2, 1)]",
+      "expected": "[-2, 0, 2]",
+      "status": "passed"
+    },
+    {
+      "check": "Same parity [-2, 0, 2]",
+      "actual": "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+      "expected": "[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]",
+      "status": "passed"
+    },
+    {
+      "check": "Inverted parity [-2, 0, 2]",
+      "actual": "[Fraction(2, 1), Fraction(0, 1), Fraction(-2, 1)]",
+      "expected": "[Fraction(2, 1), Fraction(0, 1), Fraction(-2, 1)]",
+      "status": "passed"
+    },
+    {
+      "check": "Half turn [1, 2, 3, 4]",
+      "actual": "([Fraction(2, 1), Fraction(3, 1), Fraction(2, 1), Fraction(3, 1)], [Fraction(-1, 1), Fraction(-1, 1), Fraction(1, 1), Fraction(1, 1)])",
+      "expected": "([Fraction(2, 1), Fraction(3, 1), Fraction(2, 1), Fraction(3, 1)], [Fraction(-1, 1), Fraction(-1, 1), Fraction(1, 1), Fraction(1, 1)])",
+      "status": "passed"
+    },
+    {
+      "check": "Half turn reconstruction [1, 2, 3, 4]",
+      "actual": "[Fraction(1, 1), Fraction(2, 1), Fraction(3, 1), Fraction(4, 1)]",
+      "expected": "[1, 2, 3, 4]",
+      "status": "passed"
+    },
+    {
+      "check": "Odd DFT [1, 2, 3, 4]",
+      "actual": "[0, (-2+2j), 0, (-2-2j)]",
+      "expected": "[0, (-2+2j), 0, (-2-2j)]",
+      "status": "passed"
+    },
+    {
+      "check": "Odd inverse [1, 2, 3, 4]",
+      "actual": "[(-1+0j), (-1+0j), (1+0j), (1+0j)]",
+      "expected": "[-1, -1, 1, 1]",
+      "status": "passed"
+    },
+    {
+      "check": "Comparator dot shift 0 for [1, 2, 3, 4]",
+      "actual": "0",
+      "expected": "0",
+      "status": "passed"
+    },
+    {
+      "check": "Comparator dot shift 1 for [1, 2, 3, 4]",
+      "actual": "0",
+      "expected": "0",
+      "status": "passed"
+    },
+    {
+      "check": "Comparator dot shift 2 for [1, 2, 3, 4]",
+      "actual": "0",
+      "expected": "0",
+      "status": "passed"
+    },
+    {
+      "check": "Comparator dot shift 3 for [1, 2, 3, 4]",
+      "actual": "0",
+      "expected": "0",
+      "status": "passed"
+    },
+    {
+      "check": "Half turn [3, 1, -1, 1]",
+      "actual": "([Fraction(1, 1), Fraction(1, 1), Fraction(1, 1), Fraction(1, 1)], [Fraction(2, 1), Fraction(0, 1), Fraction(-2, 1), Fraction(0, 1)])",
+      "expected": "([Fraction(1, 1), Fraction(1, 1), Fraction(1, 1), Fraction(1, 1)], [Fraction(2, 1), Fraction(0, 1), Fraction(-2, 1), Fraction(0, 1)])",
+      "status": "passed"
+    },
+    {
+      "check": "Half turn reconstruction [3, 1, -1, 1]",
+      "actual": "[Fraction(3, 1), Fraction(1, 1), Fraction(-1, 1), Fraction(1, 1)]",
+      "expected": "[3, 1, -1, 1]",
+      "status": "passed"
+    },
+    {
+      "check": "Odd DFT [3, 1, -1, 1]",
+      "actual": "[0, (4+0j), 0, (4+0j)]",
+      "expected": "[0, 4, 0, 4]",
+      "status": "passed"
+    },
+    {
+      "check": "Odd inverse [3, 1, -1, 1]",
+      "actual": "[(2+0j), 0j, (-2+0j), 0j]",
+      "expected": "[2, 0, -2, 0]",
+      "status": "passed"
+    },
+    {
+      "check": "Comparator dot shift 0 for [3, 1, -1, 1]",
+      "actual": "0",
+      "expected": "0",
+      "status": "passed"
+    },
+    {
+      "check": "Comparator dot shift 1 for [3, 1, -1, 1]",
+      "actual": "0",
+      "expected": "0",
+      "status": "passed"
+    },
+    {
+      "check": "Comparator dot shift 2 for [3, 1, -1, 1]",
+      "actual": "0",
+      "expected": "0",
+      "status": "passed"
+    },
+    {
+      "check": "Comparator dot shift 3 for [3, 1, -1, 1]",
+      "actual": "0",
+      "expected": "0",
+      "status": "passed"
+    },
+    {
+      "check": "Pulse magnitudes",
+      "actual": "[1, 1.0, 1, 1.0]",
+      "expected": "[1, 1.0, 1, 1.0]",
+      "status": "passed"
+    },
+    {
+      "check": "Pulse inverse",
+      "actual": "[0j, (1+0j), 0j, 0j]",
+      "expected": "[0, 1, 0, 0]",
+      "status": "passed"
+    },
+    {
+      "check": "Mean [0, 1, 2, 3, 4]",
+      "actual": "19/5",
+      "expected": "19/5",
+      "status": "passed"
+    },
+    {
+      "check": "Detail [0, 1, 2, 3, 4]",
+      "actual": "[Fraction(-9, 5), Fraction(6, 5), Fraction(21, 5), Fraction(-14, 5), Fraction(-4, 5)]",
+      "expected": "[Fraction(-9, 5), Fraction(6, 5), Fraction(21, 5), Fraction(-14, 5), Fraction(-4, 5)]",
+      "status": "passed"
+    },
+    {
+      "check": "Mean/detail reconstruction [0, 1, 2, 3, 4]",
+      "actual": "[Fraction(2, 1), Fraction(5, 1), Fraction(8, 1), Fraction(1, 1), Fraction(3, 1)]",
+      "expected": "[Fraction(2, 1), Fraction(5, 1), Fraction(8, 1), Fraction(1, 1), Fraction(3, 1)]",
+      "status": "passed"
+    },
+    {
+      "check": "Detail closure [0, 1, 2, 3, 4]",
+      "actual": "0",
+      "expected": "0",
+      "status": "passed"
+    },
+    {
+      "check": "Mean [1, 2, 3]",
+      "actual": "14/3",
+      "expected": "14/3",
+      "status": "passed"
+    },
+    {
+      "check": "Detail [1, 2, 3]",
+      "actual": "[Fraction(1, 3), Fraction(10, 3), Fraction(-11, 3)]",
+      "expected": "[Fraction(1, 3), Fraction(10, 3), Fraction(-11, 3)]",
+      "status": "passed"
+    },
+    {
+      "check": "Mean/detail reconstruction [1, 2, 3]",
+      "actual": "[Fraction(5, 1), Fraction(8, 1), Fraction(1, 1)]",
+      "expected": "[Fraction(5, 1), Fraction(8, 1), Fraction(1, 1)]",
+      "status": "passed"
+    },
+    {
+      "check": "Detail closure [1, 2, 3]",
+      "actual": "0",
+      "expected": "0",
+      "status": "passed"
+    },
+    {
+      "check": "Frozen events",
+      "actual": "[0, 2, 4]",
+      "expected": "[0, 2, 4]",
+      "status": "passed"
+    },
+    {
+      "check": "Raw windows",
+      "actual": "[[None, Fraction(2, 1), Fraction(5, 1)], [Fraction(5, 1), Fraction(8, 1), Fraction(1, 1)], [Fraction(1, 1), Fraction(3, 1), None]]",
+      "expected": "[[None, 2, 5], [5, 8, 1], [1, 3, None]]",
+      "status": "passed"
+    },
+    {
+      "check": "Ratio support masks",
+      "actual": "[[0, 1, 0], [0, 1, 1], [1, 1, 0]]",
+      "expected": "[[0, 1, 0], [0, 1, 1], [1, 1, 0]]",
+      "status": "passed"
+    },
+    {
+      "check": "Side difference",
+      "actual": "4",
+      "expected": "4",
+      "status": "passed"
+    },
+    {
+      "check": "Side sum",
+      "actual": "6",
+      "expected": "6",
+      "status": "passed"
+    },
+    {
+      "check": "Box bounds",
+      "actual": "[Fraction(171, 100), Fraction(231, 100)]",
+      "expected": "[Fraction(171, 100), Fraction(231, 100)]",
+      "status": "passed"
+    },
+    {
+      "check": "Timing support",
+      "actual": "[Fraction(9, 5), Fraction(11, 5)]",
+      "expected": "[Fraction(9, 5), Fraction(11, 5)]",
+      "status": "passed"
+    },
+    {
+      "check": "Forward midpoint schedule",
+      "actual": "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]",
+      "expected": "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]",
+      "status": "passed"
+    },
+    {
+      "check": "Rubric total",
+      "actual": "36",
+      "expected": "36",
+      "status": "passed"
+    },
+    {
+      "check": "lesson-01 contract and exact exercise anchors",
+      "status": "passed"
+    },
+    {
+      "check": "lesson-02 contract and exact exercise anchors",
+      "status": "passed"
+    },
+    {
+      "check": "lesson-03 contract and exact exercise anchors",
+      "status": "passed"
+    },
+    {
+      "check": "lesson-04 contract and exact exercise anchors",
+      "status": "passed"
+    },
+    {
+      "check": "lesson-05 contract and exact exercise anchors",
+      "status": "passed"
+    },
+    {
+      "check": "lesson-06 contract and exact exercise anchors",
+      "status": "passed"
+    },
+    {
+      "check": "lesson-07 contract and exact exercise anchors",
+      "status": "passed"
+    },
+    {
+      "check": "lesson-08 contract and exact exercise anchors",
+      "status": "passed"
+    }
+  ]
+}

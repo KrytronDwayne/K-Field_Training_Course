@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "auditor": "Independent agent /root/audit_lessons",
+  "mode": "read-only",
+  "scope_passes": [
+    {
+      "scope": "All seven lessons and input contract",
+      "result": "Zero critical/major; every worked, guided and diagnostic calculation recomputed; required S02 source bytes/hash and pointers checked. Two minor clarity findings."
+    },
+    {
+      "scope": "Capstone, course map, teacher guide, glossary, updated L04/L07",
+      "result": "Zero critical/major; capstone arithmetic, inverse, both roundtrips, units, determinant, collision, trigonometry, projections, ties, residuals and 40-point rubric checked; pacing 495 minutes; two minor wording findings."
+    }
+  ],
+  "limitations": "Independent auditor did not run assembly or deterministic validator; author performed those checks separately. Glossary table repair and wording repairs checked by author against exact findings.",
+  "reported_findings": [
+    "Explicitly state diagnostic d is dimensionless",
+    "Replace untaught norm wording in L07 question and answer",
+    "Clarify introductory trig ratios do not limit later taught definitions"
+  ],
+  "post_audit_repairs_verified_by_author": true
+}

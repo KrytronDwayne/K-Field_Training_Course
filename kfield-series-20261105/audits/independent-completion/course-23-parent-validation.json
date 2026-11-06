@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "course_id": "course-23",
+  "timestamp": "2026-11-05T19:46:14.061684+00:00",
+  "course_directory": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-23-gravity-inertia-and-exceptional-branches",
+  "validator": "passed",
+  "validator_checks": [
+    "course directory is contained by canonical output root: Z:\\Kfield-doc-training\\K-Field_Training_Course",
+    "parsed manifest.json",
+    "parsed audit_report.json",
+    "parsed completion_report.json",
+    "all checkpoints passed; hashes, assembly, audit, and completion are valid"
+  ],
+  "validator_errors": [],
+  "validator_sha256": "b9d55ba79b91e311895413b9949cfe943d1a1d09caec60255676ed6fc4b56dd9",
+  "manifest_sha256": "84b7d7d7a22e66b274c27089518e0c1855bb6d0ea25de96064eaf4252194391e",
+  "completion_report_sha256": "32161585baa74444859bbb49101fe73febdfe21956ecedd03a4eb47e156cb38c",
+  "course_sha256": "8deb8a579cf0b7fc89f55e9978ec1b0c2482de59ad0a307b26d3f9c1c9a6e09b"
+}

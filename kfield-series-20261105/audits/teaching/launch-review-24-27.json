@@ -1,0 +1,190 @@
+{
+  "schema_version": "1.0",
+  "created_utc": "2026-11-05T19:22:47.846756+00:00",
+  "audit_level": "pedagogic_blueprint",
+  "amendment_path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-teaching-auditor\\outputs\\teaching-amendments-24-27.json",
+  "amendment_sha256": "d5c160b344f6e3230757148c5f8469bdaac175dc00fc5c30451b28e6dace421c",
+  "verification_path": "C:\\Users\\info\\Documents\\Codex\\2026-11-05\\kfield-teaching-auditor\\outputs\\teaching-verification-24-27.json",
+  "verification_sha256": "4e96da088122d472476f9ab06fe6c3d8fbbad2252315d304843a6c5e64ab0e04",
+  "input_contracts": [
+    {
+      "course_id": "course-24",
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\input-contract.json",
+      "sha256": "e7b8f78d7de5df1d7cc72d598b41eede1281d036815b12131a51490d75764560"
+    },
+    {
+      "course_id": "course-25",
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-25-plane-crossings-rulers-and-event-geometry\\input-contract.json",
+      "sha256": "bd4bc43776aa5c4a943b6aab9b8b5dad538a7870d4f0c311be9081b85c0fd70c"
+    },
+    {
+      "course_id": "course-26",
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\input-contract.json",
+      "sha256": "9a49123e304afc053c0ed4685e72820491b9e2c65a57031c1ac31ada0399422f"
+    },
+    {
+      "course_id": "course-27",
+      "path": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-27-quadratic-phase-cost-and-route-geometry\\input-contract.json",
+      "sha256": "4f9cdeff609a39dbbc7c38175b49b108c6dbe61a113874290e8a05f44e398be7"
+    }
+  ],
+  "findings": [
+    {
+      "id": "E05-course-24",
+      "severity": "major",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-24-moving-reference-frames-and-laboratory-motion\\input-contract.json",
+      "section": "course_map;coverage_matrix;capstone_specification",
+      "defect": "Generic coverage references lack complete local answered operations and backward assessment mapping.",
+      "minimal_repair": "Apply all authored anchors, aliases, source scopes, expanded pacing and capstone answers/rubrics.",
+      "disposition": "corrected_in_portable_amendment",
+      "project_edit_performed": false
+    },
+    {
+      "id": "E05-course-25",
+      "severity": "major",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-25-plane-crossings-rulers-and-event-geometry\\input-contract.json",
+      "section": "course_map;coverage_matrix;capstone_specification",
+      "defect": "Generic coverage references lack complete local answered operations and backward assessment mapping.",
+      "minimal_repair": "Apply all authored anchors, aliases, source scopes, expanded pacing and capstone answers/rubrics.",
+      "disposition": "corrected_in_portable_amendment",
+      "project_edit_performed": false
+    },
+    {
+      "id": "E05-course-26",
+      "severity": "major",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-26-beats-harmonics-and-spectral-energy-phase-structure\\input-contract.json",
+      "section": "course_map;coverage_matrix;capstone_specification",
+      "defect": "Generic coverage references lack complete local answered operations and backward assessment mapping.",
+      "minimal_repair": "Apply all authored anchors, aliases, source scopes, expanded pacing and capstone answers/rubrics.",
+      "disposition": "corrected_in_portable_amendment",
+      "project_edit_performed": false
+    },
+    {
+      "id": "E05-course-27",
+      "severity": "major",
+      "file": "Z:\\Kfield-doc-training\\K-Field_Training_Course\\kfield-27-quadratic-phase-cost-and-route-geometry\\input-contract.json",
+      "section": "course_map;coverage_matrix;capstone_specification",
+      "defect": "Generic coverage references lack complete local answered operations and backward assessment mapping.",
+      "minimal_repair": "Apply all authored anchors, aliases, source scopes, expanded pacing and capstone answers/rubrics.",
+      "disposition": "corrected_in_portable_amendment",
+      "project_edit_performed": false
+    },
+    {
+      "id": "BRIDGE-24",
+      "severity": "major",
+      "section": "course-24",
+      "defect": "Frame derivatives, origins and physical/visual vectors can be conflated.",
+      "minimal_repair": "Teach Rdot, complete component chain and spherical prerequisites; preserve source epoch gaps and finite visual scope.",
+      "disposition": "corrected_in_portable_amendment",
+      "project_edit_performed": false
+    },
+    {
+      "id": "BRIDGE-25",
+      "severity": "major",
+      "section": "course-25",
+      "defect": "Unsigned or endpoint-only detection can lose direction, roots, contacts and unresolved intervals.",
+      "minimal_repair": "Retain signed rates, fixed geometry, continuity assumptions and every event/gap branch.",
+      "disposition": "corrected_in_portable_amendment",
+      "project_edit_performed": false
+    },
+    {
+      "id": "BRIDGE-26",
+      "severity": "major",
+      "section": "course-26",
+      "defect": "Phase/odd information, typed gains and source row independence can be lost.",
+      "minimal_repair": "Teach full complex inverse, C26.S01, four-angle reconstruction/domains and preserve all14 rows with three cost levels, source provenance and model-energy boundary.",
+      "disposition": "corrected_in_portable_amendment",
+      "project_edit_performed": false
+    },
+    {
+      "id": "BRIDGE-27",
+      "severity": "major",
+      "section": "course-27",
+      "defect": "Overview or synthetic optimization can be mistaken for a source numeric certificate.",
+      "minimal_repair": "Keep full typed congruence, fixed-time proof and nonzero precision closure; retain all missing source certificate inputs as explicit gates.",
+      "disposition": "corrected_in_portable_amendment",
+      "project_edit_performed": false
+    }
+  ],
+  "unresolved_counts": {
+    "critical": 0,
+    "major": 0,
+    "minor": 0
+  },
+  "unresolved_count_scope": "Pedagogical blueprint defects after full amendment application only; source replay and empirical transfer obligations remain unresolved and explicitly gated.",
+  "courses": [
+    {
+      "course_id": "course-24",
+      "decision": "teaching_blueprint_pass_with_amendment",
+      "unresolved_critical": 0,
+      "unresolved_major": 0,
+      "unresolved_minor": 0,
+      "core_periods": 11,
+      "capstone_periods": 3,
+      "period_minutes": 55,
+      "launch_condition": "Apply the entire portable amendment. Source-exact replay requires complete pinned inputs; produced lessons/capstone need later independent completed-course acceptance.",
+      "completed_course_approved": false
+    },
+    {
+      "course_id": "course-25",
+      "decision": "teaching_blueprint_pass_with_amendment",
+      "unresolved_critical": 0,
+      "unresolved_major": 0,
+      "unresolved_minor": 0,
+      "core_periods": 11,
+      "capstone_periods": 3,
+      "period_minutes": 55,
+      "launch_condition": "Apply the entire portable amendment. Source-exact replay requires complete pinned inputs; produced lessons/capstone need later independent completed-course acceptance.",
+      "completed_course_approved": false
+    },
+    {
+      "course_id": "course-26",
+      "decision": "teaching_blueprint_pass_with_amendment",
+      "unresolved_critical": 0,
+      "unresolved_major": 0,
+      "unresolved_minor": 0,
+      "core_periods": 17,
+      "capstone_periods": 3,
+      "period_minutes": 55,
+      "launch_condition": "Apply the entire portable amendment. Source-exact replay requires complete pinned inputs; produced lessons/capstone need later independent completed-course acceptance.",
+      "completed_course_approved": false
+    },
+    {
+      "course_id": "course-27",
+      "decision": "teaching_blueprint_pass_with_amendment",
+      "unresolved_critical": 0,
+      "unresolved_major": 0,
+      "unresolved_minor": 0,
+      "core_periods": 13,
+      "capstone_periods": 3,
+      "period_minutes": 55,
+      "launch_condition": "Apply the entire portable amendment. Source-exact replay requires complete pinned inputs; produced lessons/capstone need later independent completed-course acceptance.",
+      "completed_course_approved": false
+    }
+  ],
+  "verification_summary": {
+    "checks_passed": 744,
+    "checks_failed": 0,
+    "original_lesson_anchors": 29,
+    "supplemental_anchor_sets": 1,
+    "capstone_steps": 30,
+    "all_original_concepts_preserved": true,
+    "all_references_resolve": true,
+    "source_signed_rows_referenced": 14,
+    "source_cost_levels": 3
+  },
+  "limitations": [
+    "Conditional blueprint acceptance only; no completed course approval.",
+    "Pacing is an instructional allocation and may expand with recovery checkpoints.",
+    "The physical CMB vector measurement epoch was not explicitly supplied in the inspected authority; no real ephemeris propagation or short-window Galactic dynamics were invented.",
+    "All14 spectral rows remain referenced in place, including negative gains and null energy fields. Their binary64 arithmetic diagnostics retain closure residuals and are not a raw acquisition or calibration replay.",
+    "Spectral evidence class, cross-document revision mismatch, PDF integrity issue and calibration/exposure-transfer obligations remain unchanged.",
+    "Full named route certificate and complete locked G_phase,C,W_qpc precision linkage remain unavailable. The spectral decimal G_phase does not close that route gate; source AUD008 nonzero residual remains visible.",
+    "Synthetic route proof assumes fixed endpoints/time and constant positive metric with the straight route admissible; it is not the named archival certificate.",
+    "No compiler execution or empirical measurement admission was performed."
+  ],
+  "source_report_sha256": "eef89a28971ef7e5380977c31b62ed6d64f2831759e679ee967b6c253a33c04a",
+  "ledger_sha256_at_report": "176df3feb2b06d350ff1f0fb28c77552988f0e26511bbf79ac4066ea34fe32f1",
+  "finished_course_pass": false,
+  "source_or_project_files_modified": false
+}

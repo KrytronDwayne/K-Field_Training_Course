@@ -1,0 +1,77 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Lesson 6 — Reconstruction and boundary checks · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/4">Course 04</a><span>/</span><span>lesson 06</span></div><a class="original" href="../../../kfield-04-affine-cells-reciprocal-planes-and-unique-addresses/lesson-06.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#lesson-6-reconstruction-and-boundary-checks">Lesson 6 — Reconstruction and boundary checks</a><a href="#c0406-e1-keep-the-information-needed-to-reverse-each-step">C04.06-E1 — Keep the information needed to reverse each step</a><a href="#c0406-w1-a-complete-boundary-row">C04.06-W1 — A complete boundary row</a><a href="#c0406-p1-fractions-on-opposite-sides-of-a-boundary">C04.06-P1 — Fractions on opposite sides of a boundary</a><a href="#diagnostic-checks">Diagnostic checks</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 1 — Address coordinates and physical points</a><a  href="lesson-02.html">Lesson 2 — Why half-open cells have one owner</a><a  href="lesson-03.html">Lesson 3 — Reciprocal vectors as plane counters</a><a  href="lesson-04.html">Lesson 4 — Plane normals and physical spacing</a><a  href="lesson-05.html">Lesson 5 — Metric angles versus address angles</a><a aria-current=page href="lesson-06.html">Lesson 6 — Reconstruction and boundary checks</a></details></aside><div class="reading-column"><article class="prose"><h1 id="lesson-6-reconstruction-and-boundary-checks" tabindex="-1">Lesson 6 — Reconstruction and boundary checks</h1>
+<p><strong>Essential question:</strong> What must an atlas retain so that its labels and rounded displays can always be checked against the original point?</p>
+<p><strong>Goals:</strong> Build a typed reconstruction ledger; verify both affine and owner/local reconstruction; restore exact addresses from displays and retained residuals before testing boundaries.</p>
+<p><strong>Bridge:</strong> Lessons 1–5 supply q=B^-1(x-O), z=floor(q+1/2), u=q-z, and the affine plane and metric checks. We now put these together. A ledger is a table of related values with declared meanings and units. It is useful only if readers can reconstruct rather than guess the input.</p>
+<h2 id="c0406-e1-keep-the-information-needed-to-reverse-each-step" tabindex="-1">C04.06-E1 — Keep the information needed to reverse each step</h2>
+<p>For each synthetic point retain the input address q or exact physical point x, the common B and O, owner z and local coordinate u. If a shortened display q_disp is shown, also retain <strong>r=q-q_disp</strong>, called the display residual. It is a signed triple, not merely a size or a score. Reconstruct with <strong>q=q_disp+r</strong>, then x=O+Bq. Retain all three entries even when one is zero.</p>
+<div aria-label="Scrollable data table" class="table-wrap" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Meaning</th>
+<th>Units</th>
+<th>Reconstruction role</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>B,O</td>
+<td>Ordered step matrix and origin</td>
+<td>LU, LU</td>
+<td>Define the affine map</td>
+</tr>
+<tr>
+<td>q</td>
+<td>Full address</td>
+<td>dimensionless</td>
+<td>x=O+Bq</td>
+</tr>
+<tr>
+<td>z</td>
+<td>Integer cell owner</td>
+<td>dimensionless</td>
+<td>q=z+u</td>
+</tr>
+<tr>
+<td>u</td>
+<td>Local address in [-1/2,1/2)^3</td>
+<td>dimensionless</td>
+<td>Retains position inside cell</td>
+</tr>
+<tr>
+<td>q_disp,r</td>
+<td>Display and signed display residual</td>
+<td>dimensionless</td>
+<td>q=q_disp+r</td>
+</tr>
+<tr>
+<td>x</td>
+<td>Physical point</td>
+<td>LU</td>
+<td>q=B^-1(x-O)</td>
+</tr>
+</tbody>
+</table></div>
+<p>For exact fractions, compare boundaries without rounding. For example 499/1000&lt;1/2 because multiplying both sides by positive 2000 gives 998&lt;1000. Multiplying by a positive denominator preserves the inequality. If an input interval rather than an exact point crosses a boundary, record the possible owners and retain that interval; do not pretend the display determines a unique true owner. Our assessed examples supply exact fractions so the rule is unambiguous.</p>
+<p>Source values and display values are separate fields. Keep the locked decimal lexeme on a source card even if a shorter number is shown beside it. A source-version replacement is recorded in the provenance ledger, not relabeled as this pointwise display residual. These distinctions keep mathematical reconstruction and historical source comparison separate.</p>
+<h2 id="c0406-w1-a-complete-boundary-row" tabindex="-1">C04.06-W1 — A complete boundary row</h2>
+<p>Start with q=(1/2,-1/2,3/2). The affine map gives x1=2+1/2-1/2=2, x2=-1+2(-1/2)=-2, and x3=4-3(3/2)=-1/2. Thus <strong>x=(2,-2,-1/2) LU</strong>. Lesson 2's rule gives z=(1,0,2), u=(-1/2,-1/2,-1/2).</p>
+<p>Reconstruct using the two retained parts: z+u=(1/2,-1/2,3/2), B(z+u)=(0,-1,-9/2) LU, and O+B(z+u)=(2,-2,-1/2) LU. The physical reconstruction difference is exactly (0,0,0) LU. Recovering the address from x-O also gives q1=0-(-1)/2=1/2, q2=-1/2, q3=-(-9/2)/3=3/2. Every direction agrees.</p>
+<h2 id="c0406-p1-fractions-on-opposite-sides-of-a-boundary" tabindex="-1">C04.06-P1 — Fractions on opposite sides of a boundary</h2>
+<p>Use q=(-3/2,49/100,51/100). Compute x and reconstruct it using z and u from lesson 2. Keep all fractions.</p>
+<p><strong>Worked answer:</strong> x1=2-3/2+49/100=99/100; x2=-1+98/100=-1/50; x3=4-153/100=247/100, in LU. With z=(-1,0,1) and u=(-1/2,49/100,-49/100), their sum is the exact original q; substitution gives the same x. Independently, d=x-O=(-101/100,49/50,-153/100) LU. Then q2=49/100, q3=51/100, q1=-101/100-49/100=-3/2.</p>
+<p><strong>Additional display practice, C04.06-P2:</strong> Display q=(499/1000,0,0) as q_disp=(1/2,0,0). Find r and the corrected physical point before assigning the owner.</p>
+<p><strong>Worked answer:</strong> r=(-1/1000,0,0). The displayed point is (5/2,-1,4) LU; its correction Br=(-1/1000,0,0) LU gives x=(2499/1000,-1,4) LU. Restore q_disp+r first: its owner is (0,0,0), and its local coordinate is q itself.</p>
+<blockquote>
+<p><strong>Claim scope:</strong> Every example here is synthetic and exact. A zero reconstruction difference checks the stated operations; it is not experimental evidence for a mechanism. A nonzero difference would be retained with its components and investigated. A shortened display is useful only with the removed information and a reconstruction rule. Local coordinate u and display residual r have different roles and must both be named.</p>
+</blockquote>
+<h2 id="diagnostic-checks" tabindex="-1">Diagnostic checks</h2>
+<ol>
+<li><strong>C04.06-D1:</strong> For the display-practice point, what wrong owner would assignment from q_disp alone give, and how does r repair it?</li>
+<li>A ledger retains z but deletes u after calling it “small.” Which reconstruction fails?</li>
+<li>Restore q from q_disp=(-3/2,1/2,1/2) and r=(0,-1/100,1/100), then assign z.</li>
+<li>Can you replace r=(-1/1000,0,0) with its positive magnitude and still reconstruct uniquely?</li>
+</ol>
+<p><strong>Worked answers:</strong> (1) Display-only ownership is (1,0,0), but q_disp+r=(499/1000,0,0) gives (0,0,0). (2) q=z+u and therefore x=O+B(z+u) cannot be reconstructed; z specifies a cell, not its point. (3) q=(-3/2,49/100,51/100), so z=(-1,0,1). (4) No: a magnitude loses the sign and which coordinate changed. Many residual triples have that magnitude.</p>
+<p><strong>Pacing:</strong> 20 minutes explanation/worked example, 15 reconstruction/display practice, 15 diagnostics and feedback, 5 transition.</p>
+<p><strong>Next dependency:</strong> The <a href="capstone.html">capstone</a> builds a three-point cell-address atlas using only the operations introduced and practiced in these six lessons.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><a class="button secondary" href="lesson-05.html">← Previous lesson</a><a class="button" href="capstone.html">Course capstone →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/4">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>

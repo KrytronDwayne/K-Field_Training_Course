@@ -1,0 +1,39 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Lesson 3 — Face areas and signed volume · Krytronx</title><link rel="stylesheet" href="../../../portal/style.css"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../../../index.html"><img class="brand-mark" src="../../../portal/brand-icon.png" alt=""><span>KRYTRONX<span class="brand-sub">K-FIELD LEARNING</span></span></a><nav aria-label="Main navigation"><a href="../../../index.html#catalog">Courses</a><a href="../../../index.html#pathways">Pathways</a><a href="../../../index.html#teachers">For educators</a></nav></header><main id="main" tabindex="-1"><div class="reader-toolbar"><div class="breadcrumbs"><a href="../../../index.html#course/3">Course 03</a><span>/</span><span>lesson 03</span></div><a class="original" href="../../../kfield-03-the-authoritative-cell3-basis-metric-and-scale/lesson-03.md">Original document ↗</a></div><div class="reading-layout"><aside class="reading-nav"><details open><summary>On this page</summary><nav aria-label="On this page"><a href="#lesson-3-face-areas-and-signed-volume">Lesson 3 — Face areas and signed volume</a><a href="#bridge">Bridge</a><a href="#oriented-area-components">Oriented area components</a><a href="#worked-example-classroom-analogue-not-cell3">Worked example — Classroom analogue, not Cell3</a><a href="#guided-practice-and-diagnostic-checks">Guided practice and diagnostic checks</a><a href="#worked-answers">Worked answers</a></nav></details><details class="course-nav" open><summary>In this course</summary><a  href="lesson-01.html">Lesson 1 — An ordered cell in three dimensions</a><a  href="lesson-02.html">Lesson 2 — Lengths and angles from a Gram matrix</a><a aria-current=page href="lesson-03.html">Lesson 3 — Face areas and signed volume</a><a  href="lesson-04.html">Lesson 4 — Direct and inverse metrics</a><a  href="lesson-05.html">Lesson 5 — Scale classes and the area anchor</a><a  href="lesson-06.html">Lesson 6 — A reproducible Cell3 specification</a></details></aside><div class="reading-column"><article class="prose"><h1 id="lesson-3-face-areas-and-signed-volume" tabindex="-1">Lesson 3 — Face areas and signed volume</h1>
+<p><strong>Essential question:</strong> How can area and volume record orientation without becoming negative sizes?</p>
+<p><strong>Goals.</strong> Calculate three cross products; distinguish oriented area from area magnitude; evaluate a scalar triple product and its sign; retain face labels and units.</p>
+<h2 id="bridge" tabindex="-1">Bridge</h2>
+<p>You can add vectors, take dot products, and compute magnitudes. Those tools measured edges. To measure a face, we need an operation whose magnitude is the parallelogram area and whose direction identifies which way the face is oriented.</p>
+<h2 id="oriented-area-components" tabindex="-1">Oriented area components</h2>
+<p>For u=(u_x,u_y,u_z) and v=(v_x,v_y,v_z), define</p>
+<p>u×v=(u_y v_z−u_z v_y, u_z v_x−u_x v_z, u_x v_y−u_y v_x).</p>
+<p>Each component is a signed two-dimensional area: yz, zx, and xy in that order. In a two-dimensional plane the difference of the two products measures the parallelogram's signed area. Combining the three gives a vector perpendicular to both inputs. You can verify perpendicularity by dotting the displayed vector with u or v: each product cancels with its opposite. Reversing the order negates the vector. The right-hand rule selects its direction: curl from the first arrow toward the second; the thumb gives the normal direction in right-handed external axes.</p>
+<p>The magnitude A_uv=||u×v|| is nonnegative and equals ||u||||v||sin(theta_uv), base times perpendicular height. Sine for an acute right-triangle angle is opposite/hypotenuse; for an included angle from 0 to 180 degrees it gives the nonnegative height factor. Parallel edges have zero area. A <strong>normal</strong> is a perpendicular direction; a unit normal is the cross vector divided by its magnitude, when the magnitude is nonzero.</p>
+<p>For three columns, det(B)=a·(b×c), a <strong>scalar triple product</strong>. It is signed base area times signed perpendicular height. The unsigned volume is V=|det(B)|. A zero determinant means the edges cannot enclose three-dimensional volume; a nonzero determinant means they are independent. Negative orientation is retained, not converted into a new basis.</p>
+<h2 id="worked-example-classroom-analogue-not-cell3" tabindex="-1">Worked example — Classroom analogue, not Cell3</h2>
+<p>Use the same a,b,c as Lessons 1–2. Calculate all three labeled face vectors:</p>
+<ul>
+<li>c_ab=a×b=(0·0−0·2, 0·1−1·0, 1·2−0·1)L²=(0,0,2)L².</li>
+<li>c_ac=a×c=(0,3,0)L², because the middle component is 0·0−1·(−3)=3.</li>
+<li>c_bc=b×c=(2·(−3)−0·0, 0·0−1·(−3), 1·0−2·0)L²=(−6,3,0)L².</li>
+</ul>
+<p>Their areas in <strong>ab, ac, bc</strong> order are 2L², 3L², sqrt(36+9)L²=3sqrt(5)L². The third area is about 6.7082L², but its exact expression remains 3sqrt(5)L². Do not reorder this list to match a different source field: the locked source also has a normalized area ray in <strong>bc, ac, ab</strong> order.</p>
+<p>Now det(B_ex)=a·c_bc=(1,0,0)·(−6,3,0)L³=−6L³. The same result follows from (a×b)·c=(0,0,2)·(0,0,−3)L³. Its absolute value is 6L³. The area of ab is 2L² and the perpendicular height along c is 3L, so ordinary volume is 2·3=6L³. This independent geometric check confirms the magnitude and leaves the negative orientation intact.</p>
+<p>The columns of a cofactor table are conventionally b×c, c×a, a×b. Notice that c×a=−c_ac. Thus naming c_ab, c_ac, c_bc as “face cofactors” does not authorize inserting them unchanged into that column order. Explicit cross-product labels prevent a sign error.</p>
+<blockquote>
+<p><strong>Claim scope.</strong> The analogue verifies the operations exactly. Actual Cell3's source volume and areas are on the geometry card. Its negative determinant is intentional under fixed ICRS columns. No detector parity, projective identification of n with −n, or physical chirality is inferred from this arithmetic.</p>
+</blockquote>
+<h2 id="guided-practice-and-diagnostic-checks" tabindex="-1">Guided practice and diagnostic checks</h2>
+<ol>
+<li>Find c×a and its magnitude.</li>
+<li>Check b·(b×c). What does the result say?</li>
+<li>Exchange a and b. What happens to signed volume and unsigned volume?</li>
+<li>Replace c by (2,0,0)L. Compute the determinant and explain the geometric failure.</li>
+</ol>
+<h2 id="worked-answers" tabindex="-1">Worked answers</h2>
+<ol>
+<li>(0,−3,0)L², magnitude 3L²; reversing order changes orientation, not area.</li>
+<li>(1,2,0)·(−6,3,0)L³=−6+6=0L³. The cross vector is perpendicular to b.</li>
+<li>Signed volume becomes +6L³; unsigned volume remains 6L³. This is a new ordered basis.</li>
+<li>b×c=(0,0,−4)L², so a·(b×c)=0L³. All three edges lie in the xy plane and cannot describe arbitrary z displacements.</li>
+</ol>
+<p><strong>Next dependency:</strong> <a href="lesson-04.html">Lesson 4</a> uses nonzero volume to justify reversing a coordinate map and its metric.</p></article><nav class="lesson-sequence" aria-label="Lesson navigation"><a class="button secondary" href="lesson-02.html">← Previous lesson</a><a class="button" href="lesson-04.html">Next lesson →</a></nav><div class="reader-end">Read alongside the course’s <a href="../../../index.html#course/3">lessons and resources</a>.</div></div></div></main><footer class="site-footer"><span>Krytronx, LLC · K-Field curriculum</span><a href="../../../portal/read/START-HERE.html">Curriculum guide</a><span>30 courses · 205 lessons</span></footer><script src="../../../portal/reader.js"></script></body></html>
